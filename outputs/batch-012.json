@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Calcified Commons Theory",
+    "core_claim": "Open source projects function as colonial organisms where each contributor deposits durable structural material into a shared skeleton, with project survival decoupled from any individual's participation. The colony's health depends on maintaining mutualistic symbiosis with energy-providing sponsors, and stress-induced sponsor withdrawal triggers bleaching events that can collapse or fork the project.",
+    "mechanism_borrowed_from": "coral-polyp-colony-biology",
+    "domain_applied_to": "open-source-ecosystem-governance",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "coral-polyp-colony-biology",
+    "source_b": "open-source-ecosystem-governance"
+  },
+  {
+    "name": "Controlled Fault Inoculation Theory",
+    "core_claim": "Organizations develop durable systemic resilience by deliberately injecting calibrated, non-critical failures into production-adjacent environments, creating institutional memory cells that enable rapid pattern-matched incident response. Technological drift demands periodic re-inoculation to prevent institutional immunity decay.",
+    "mechanism_borrowed_from": "adaptive-immune-response",
+    "domain_applied_to": "software-organizational-resilience",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "adaptive-immune-response",
+    "source_b": "software-organizational-resilience"
+  },
+  {
+    "name": "Institutional Criticality Theory",
+    "core_claim": "Organizations are literal sandpiles: each incremental decision is a grain deposited on a complexity slope. The system self-organizes to a critical state where crises follow power-law distributions, and no amount of risk management can move the system away from criticality — only redistribute avalanche timing and correlation length.",
+    "mechanism_borrowed_from": "bak-tang-wiesenfeld-self-organized-criticality",
+    "domain_applied_to": "organizational-crisis-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bak-tang-wiesenfeld-self-organized-criticality",
+    "source_b": "organizational-crisis-dynamics"
+  },
+  {
+    "name": "Attention Bioluminescence Theory",
+    "core_claim": "Viral content creation follows energy-constrained signaling logic: creators convert metabolic resources into attention-photons through catalytic reactions, and the functional category of light produced — confusion, attraction, signaling, or camouflage — determines optimal deployment strategy.",
+    "mechanism_borrowed_from": "bioluminescence-biochemistry",
+    "domain_applied_to": "viral-content-creation",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "bioluminescence-biochemistry",
+    "source_b": "viral-content-creation"
+  },
+  {
+    "name": "Resist-Compression Theory of Emergent Form",
+    "core_claim": "All pattern-generating systems operate through a resist-compress cycle: a high-dimensional structure is folded and selectively bound, then immersed in a uniform process, producing emergent patterns at boundaries between transformed and protected regions. Value concentrates in the irregular boundary artifacts that neither the binder nor the process fully controlled.",
+    "mechanism_borrowed_from": "shibori-resist-dyeing",
+    "domain_applied_to": "information-theory-generative-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "shibori-resist-dyeing",
+    "source_b": "information-theory-generative-design"
+  },
+  {
+    "name": "Checkpoint Hijack Theory of Institutional Immunity",
+    "core_claim": "Complex adaptive systems maintain integrity through inhibitory checkpoints that distinguish self from threat. Parasitic agents survive by co-opting checkpoint signaling to mask exploitation as legitimate function. Restoring defense requires checkpoint disruption, which carries an inherent tradeoff: the same removal of brakes that enables attack on parasites also risks autoimmune destruction of healthy components.",
+    "mechanism_borrowed_from": "immune-checkpoint-pd1-pdl1",
+    "domain_applied_to": "institutional-anti-corruption",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "immune-checkpoint-pd1-pdl1",
+    "source_b": "institutional-anti-corruption"
+  },
+  {
+    "name": "Cryptic Crystallization Theory",
+    "core_claim": "Transformative internal development requires a bounded void, a sustained influx of raw material, and sufficient time pressure for structured deposition. Systems that appear stagnant from outside are often undergoing irreversible phase transitions from amorphous input to crystalline structure, and premature opening destroys the formation process.",
+    "mechanism_borrowed_from": "geode-supersaturation-nucleation",
+    "domain_applied_to": "post-traumatic-growth-psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "geode-supersaturation-nucleation",
+    "source_b": "post-traumatic-growth-psychology"
+  },
+  {
+    "name": "Topological Flow Dynamics",
+    "core_claim": "All propagation phenomena in networked systems obey watershed-analogous laws where topology determines convergence basins, flow rate is governed by channel capacity rather than source intensity, and systemic failure occurs at predictable absorption thresholds. The shape of the network, not what flows through it, determines whether distributed inputs produce diffuse saturation or catastrophic convergence.",
+    "mechanism_borrowed_from": "watershed-hydrology",
+    "domain_applied_to": "information-cascade-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "watershed-hydrology",
+    "source_b": "information-cascade-dynamics"
+  },
+  {
+    "name": "Temper Gradient Theory of Psychological Resilience",
+    "core_claim": "After acute stress creates hard but brittle coping structures, controlled re-exposure at calibrated intensity trades some defensiveness for flexibility. The processing temperature determines the rigidity-flexibility balance: over-processing makes the person too permeable, under-processing leaves them brittle.",
+    "mechanism_borrowed_from": "steel-tempering-metallurgy",
+    "domain_applied_to": "psychological-resilience-building",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "steel-tempering-metallurgy",
+    "source_b": "psychological-resilience-building"
+  },
+  {
+    "name": "Interstitial Assembly Theory",
+    "core_claim": "The capability of any composite system is governed more by the quality of its negative space — the interfaces, gaps, and relational channels between units — than by the quality of the units themselves. Optimizing unit-to-unit fit requires irreversible reshaping, and emergent function is only legible at a scale removed from individual components.",
+    "mechanism_borrowed_from": "mosaic-tessellation-art",
+    "domain_applied_to": "team-assembly-organizational-design",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "mosaic-tessellation-art",
+    "source_b": "team-assembly-organizational-design"
+  },
+  {
+    "name": "Cultural Song Drift Theory",
+    "core_claim": "Brand identity evolves through the same cultural transmission dynamics as whale song: all members express the same identity which changes gradually, novel approaches sweep through industries in waves, and distinctiveness correlates with competitive success. Brand voice is hierarchical (words to campaigns) just as whale song is hierarchical (notes to songs).",
+    "mechanism_borrowed_from": "humpback-whale-song-cultural-evolution",
+    "domain_applied_to": "brand-identity-evolution",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "humpback-whale-song-cultural-evolution",
+    "source_b": "brand-identity-evolution"
+  },
+  {
+    "name": "Curricular Doping Theory",
+    "core_claim": "Pure disciplinary knowledge is a poor conductor of creative output. Adding trace interdisciplinary elements creates conceptual charge carriers that dramatically change cognitive capability. The type and concentration of cross-disciplinary content determines learning outcomes. P-N junctions between disciplines enable synthesis, but too much interdisciplinarity destroys deep expertise.",
+    "mechanism_borrowed_from": "semiconductor-doping-physics",
+    "domain_applied_to": "education-curriculum-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "semiconductor-doping-physics",
+    "source_b": "education-curriculum-design"
+  },
+  {
+    "name": "Van der Waals Trust Theory",
+    "core_claim": "Deep trust uses thousands of micro-interactions creating social bonds individually trivial but collectively unbreakable. The bond is organic, directional, self-repairing, and leaves no institutional trace. The secret is massive contact area through small moments, not grand gestures — mirroring how gecko adhesion relies on millions of weak van der Waals interactions rather than chemical bonding.",
+    "mechanism_borrowed_from": "gecko-setae-adhesion",
+    "domain_applied_to": "interpersonal-trust-formation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "gecko-setae-adhesion",
+    "source_b": "interpersonal-trust-formation"
+  },
+  {
+    "name": "Tidal Emotion Regulation Theory",
+    "core_claim": "Rather than suppressing emotional fluctuations, adaptive regulation harnesses the inevitable rise and fall. Coping works in both directions, emotional energy is predictable and inexhaustible, and emotional intelligence stores capacity during calm periods for deployment during storms. You can't stop emotions but you can capture their energy.",
+    "mechanism_borrowed_from": "tidal-power-generation",
+    "domain_applied_to": "emotion-regulation-psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "tidal-power-generation",
+    "source_b": "emotion-regulation-psychology"
+  },
+  {
+    "name": "Root Pruning Theory of Scope Management",
+    "core_claim": "A project's dependency and infrastructure base must be periodically exposed, reduced, and reshaped to keep complexity proportional to the team. Root-bound projects stop growing. Aggressive pruning stimulates focused feature development. The invisible technical foundation determines the visible product shape, and the infrastructure-to-feature ratio must be maintained.",
+    "mechanism_borrowed_from": "bonsai-root-pruning",
+    "domain_applied_to": "project-scope-management",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bonsai-root-pruning",
+    "source_b": "project-scope-management"
+  }
+]

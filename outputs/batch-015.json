@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Necro-Productive Dissolution Theory",
+    "core_claim": "Large complex entities reach peak resource-distribution efficiency not during operation but during decomposition, because death removes the coordination overhead that previously locked resources into suboptimal configurations. The dissolution phase converts concentrated, access-restricted assets into distributed, competitively allocated ones, maximizing total ecosystem throughput.",
+    "mechanism_borrowed_from": "whale-fall-chemosynthetic-succession",
+    "domain_applied_to": "organizational-economics-bankruptcy-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Whale Fall Ecology",
+    "source_b": "Company Bankruptcy"
+  },
+  {
+    "name": "Latent Succession Infrastructure Theory",
+    "core_claim": "Complex systems that persist across leadership transitions maintain a dormant developmental pipeline — organisms or candidates kept in an undifferentiated state, activatable by environmental signals. The cost of maintaining idle succession capacity is justified because the alternative produces colony or organizational collapse at a rate that exceeds the maintenance cost over evolutionary or market timescales.",
+    "mechanism_borrowed_from": "termite-larval-plasticity-epigenetic-switching",
+    "domain_applied_to": "corporate-governance-executive-succession",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Termite Queen Replacement",
+    "source_b": "CEO Succession Planning"
+  },
+  {
+    "name": "Costly Signal Gating Theory",
+    "core_claim": "Systems facing high false-positive costs evolve multi-threshold activation gates where each successive trigger narrows the probability space, and the energy cost of the response mechanism itself enforces the requirement for redundant confirmation. The gate count converges on the minimum number where false-positive cost times false-positive rate falls below the per-gate maintenance cost.",
+    "mechanism_borrowed_from": "venus-flytrap-mechano-electrical-counting",
+    "domain_applied_to": "security-architecture-authentication-design",
+    "viability": "promising",
+    "confidence": 0.81,
+    "source_a": "Venus Flytrap Trigger Mechanism",
+    "source_b": "Two-Factor Authentication"
+  },
+  {
+    "name": "Stigmergic Network Convergence Theory",
+    "core_claim": "Optimal transport networks can emerge without centralized planning through a reinforce-or-decay feedback loop operating on flow volume, and such networks converge toward mathematically similar topologies regardless of whether the substrate is biological or infrastructural. The key requirement is that the medium itself carries the signal — making the network its own optimization algorithm.",
+    "mechanism_borrowed_from": "physarum-cytoplasmic-streaming-tube-dynamics",
+    "domain_applied_to": "urban-transit-planning-infrastructure",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Slime Mold Network Optimization",
+    "source_b": "Urban Transit Planning"
+  },
+  {
+    "name": "Cascading Vacancy Allocation Theory",
+    "core_claim": "In systems where agents occupy discrete, size-ranked positions and cannot share positions, a single new resource at the top generates a deterministic reallocation cascade whose total welfare gain far exceeds the value of the initial resource alone. System-wide mobility is controlled not by individual ambition but by the rate of top-tier vacancy creation.",
+    "mechanism_borrowed_from": "hermit-crab-synchronous-vacancy-chains",
+    "domain_applied_to": "labor-economics-housing-promotion-dynamics",
+    "viability": "promising",
+    "confidence": 0.83,
+    "source_a": "Hermit Crab Shell Vacancy Chains",
+    "source_b": "Job Market Vacancy Chains"
+  },
+  {
+    "name": "Tectonic Fragmentation Theory of Markets",
+    "core_claim": "Dominant platforms fracture along internal stress lines analogous to mantle convection rifts, producing isolated ecosystem fragments that evolve distinct user-species through competitive radiation. Fossil interfaces — shared APIs, common UX patterns, compatible data formats — persist at fragment edges as evidence of prior unity, while rare fragment collisions generate feature upheavals that reshape the surrounding competitive landscape.",
+    "mechanism_borrowed_from": "mantle-convection-continental-drift-biogeography",
+    "domain_applied_to": "platform-economics-post-monopoly-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Pangaea Breakup",
+    "source_b": "Market Fragmentation"
+  },
+  {
+    "name": "Cognitive Brine Pool Theory",
+    "core_claim": "Organizational knowledge silos behave as cognitive brine pools: specialized expertise accumulates in departmental depressions until it reaches a critical density that resists dilution into the broader organization. Innovation emerges not within the silo nor in the general organization, but at the chemocline-like interface where specialists and generalists exchange partial understanding, producing hybrid insights neither group could generate alone.",
+    "mechanism_borrowed_from": "density-stratified-halocline-chemocline-ecosystems",
+    "domain_applied_to": "organizational-design-knowledge-management",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Deep Ocean Brine Pools",
+    "source_b": "Organizational Knowledge Silos"
+  },
+  {
+    "name": "Pod Strategy Lock-In Theory",
+    "core_claim": "Coordinated teams develop a single dominant strategy through cultural transmission and reinforcement, creating deep competence but structural rigidity. Switching strategies carries prohibitive retraining costs because the coordination patterns, role specializations, and tacit knowledge are co-adapted to one approach. Optimal performance requires accepting strategic monomorphism rather than pursuing versatility.",
+    "mechanism_borrowed_from": "orca-pod-cultural-specialization-intergenerational-transmission",
+    "domain_applied_to": "marketing-team-strategy-organizational-lock-in",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Orca Pod Hunting Strategies",
+    "source_b": "Coordinated Marketing Campaigns"
+  },
+  {
+    "name": "Hyphal Computation Architecture",
+    "core_claim": "AI multi-agent systems can achieve superior fault tolerance and resource allocation by replacing message-passing protocols with chemical-gradient-inspired signaling, where agents communicate through shared environmental state rather than direct messages. This eliminates single points of failure by encoding network memory in the topology of connections itself — agents that produce results strengthen their links, while inactive pathways atrophy.",
+    "mechanism_borrowed_from": "mycelial-structural-adaptation-chemical-gradient-signaling",
+    "domain_applied_to": "decentralized-ai-orchestration-edge-computing",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Mycelial Network Intelligence",
+    "source_b": "Distributed AI Systems"
+  },
+  {
+    "name": "Quench Fracture Theory of Resilience",
+    "core_claim": "Any system that gains strength through rapid surface stabilization over an unresolved interior operates in a 'quench fracture' regime: it trades gradual failure modes for catastrophic ones. The strength-to-brittleness ratio is fixed by the cooling rate; faster hardening produces higher apparent strength but guarantees total fragmentation at the failure threshold. True toughness requires annealing — slow, controlled re-heating that allows interior tension to equilibrate with the surface.",
+    "mechanism_borrowed_from": "tempered-glass-thermodynamic-stress-distribution",
+    "domain_applied_to": "psychological-resilience-emotional-regulation",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Tempered Glass",
+    "source_b": "Emotional Hardening"
+  },
+  {
+    "name": "Caldera Governance Theory",
+    "core_claim": "Organizational crises that fully exhaust a central authority's resources trigger an inward structural collapse analogous to caldera formation, where the resulting vacuum is not mere absence but a topologically distinct basin that preferentially accumulates novel talent, projects, and culture impossible under the prior regime. The depth and completeness of collapse determines ecosystem richness, suggesting organizations should resist premature re-centralization.",
+    "mechanism_borrowed_from": "volcanic-caldera-collapse-resurgent-dome-lacustrine-colonization",
+    "domain_applied_to": "post-crisis-organizational-restructuring-leadership",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Volcanic Caldera Collapse",
+    "source_b": "Organizational Restructuring After Crisis"
+  },
+  {
+    "name": "Tidal Niche Theory",
+    "core_claim": "Small, isolated markets behave like tide pools: their periodic connection to mainstream attention is what keeps them viable, not despite their isolation but because of it. The stress of isolation selects for companies with dual-tolerance. Markets that never reconnect stagnate like landlocked pools; markets flooded permanently lose their adaptive residents to generalist competitors.",
+    "mechanism_borrowed_from": "tidal-pool-ecology-intertidal-stress-gradient",
+    "domain_applied_to": "niche-market-dynamics-startup-survival",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Tide Pool Ecology",
+    "source_b": "Niche Market Dynamics"
+  },
+  {
+    "name": "Dormant Capital Germination Theory",
+    "core_claim": "All resilient systems maintain an invisible reservoir of latent capacities whose diversity necessarily exceeds the active system's visible expression. Recovery from disruption is governed not by new acquisition but by differential reactivation sequences, where generalist elements activate first to reshape conditions that then trigger specialist emergence. System resilience is a function of dormant bank diversity and disturbance-to-activation signal matching.",
+    "mechanism_borrowed_from": "soil-seed-bank-dormancy-disturbance-germination",
+    "domain_applied_to": "organizational-resilience-talent-strategy",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Soil Seed Bank",
+    "source_b": "Organizational Talent Pipeline"
+  },
+  {
+    "name": "Controlled Discharge Architecture",
+    "core_claim": "Any system under accumulating tension will discharge inevitably; the only design variable is whether that discharge follows a pre-engineered low-resistance path or fractures through the structure unpredictably. For any domain where pressure builds continuously and cannot be prevented, the optimal intervention is not suppression but the installation of a preferential discharge point that converts destructive release into structured signal.",
+    "mechanism_borrowed_from": "lightning-rod-electrostatic-discharge-channeling",
+    "domain_applied_to": "organizational-integrity-ethics-reporting",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Lightning Rod",
+    "source_b": "Whistleblower/Ethics Reporting Systems"
+  },
+  {
+    "name": "Adaptive Precedent Theory",
+    "core_claim": "All complex adaptive systems that must respond to recurring challenges develop a dual-speed architecture: slow deliberative first-response followed by rapid pattern-matched recall, where the initial encounter permanently biases the recognition template. This creates a fundamental tradeoff between response speed and accuracy-to-novelty, as the system's 'memory' increasingly diverges from the evolving challenge landscape through 'founding fixation.'",
+    "mechanism_borrowed_from": "immune-memory-kinetics-original-antigenic-sin",
+    "domain_applied_to": "institutional-decision-making-legal-precedent",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Immune Memory",
+    "source_b": "Legal/Institutional Precedent"
+  }
+]

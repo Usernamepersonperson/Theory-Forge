@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Pheromone Masking Theory of De-escalation",
+    "core_claim": "Conflict de-escalation works by introducing masking signals that overwhelm the alarm pheromones driving aggressive behavior. The smoke doesn't calm the bees — it blocks their ability to coordinate attack. Similarly, de-escalation techniques work not by resolving the underlying conflict but by disrupting the communication channels that amplify it.",
+    "mechanism_borrowed_from": "beekeeping-smoke-response",
+    "domain_applied_to": "conflict-de-escalation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "beekeeping-smoke-response",
+    "source_b": "conflict-de-escalation"
+  },
+  {
+    "name": "Satiation Synchrony Theory",
+    "core_claim": "Mass-market product launches succeed when they achieve broadcast spawning synchrony — overwhelming consumer attention channels simultaneously so that individual evaluation is replaced by collective adoption behavior. The trigger requires both accumulated readiness and an environmental cue.",
+    "mechanism_borrowed_from": "coral-mass-spawning",
+    "domain_applied_to": "product-launch-timing",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "coral-mass-spawning",
+    "source_b": "product-launch-timing"
+  },
+  {
+    "name": "Macrophagic Persistence Theory",
+    "core_claim": "Institutional memory persists not because organizations actively maintain it but because certain knowledge is continuously consumed and re-expressed by institutional macrophages — individuals and processes that ingest departing knowledge and re-present it to new members, creating the illusion of permanence through constant turnover.",
+    "mechanism_borrowed_from": "tattoo-ink-macrophage-cycling",
+    "domain_applied_to": "institutional-memory",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "tattoo-ink-macrophage-cycling",
+    "source_b": "institutional-memory"
+  },
+  {
+    "name": "Meander-Career Isomorphism",
+    "core_claim": "Career trajectories follow the same erosion-deposition dynamics as river meanders: momentum carries professionals past optimal positions (outer bank erosion), while slower periods allow skill accumulation (inner bank deposition). Career oxbow lakes form when shortcuts bypass accumulated experience.",
+    "mechanism_borrowed_from": "fluvial-geomorphology",
+    "domain_applied_to": "career-development",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fluvial-geomorphology",
+    "source_b": "career-development"
+  },
+  {
+    "name": "Reactive Boundary Calcification Theory",
+    "core_claim": "Organizational boundaries harden through the same mechanism as bread crust formation: exposure to external heat (market pressure, regulatory scrutiny) causes a Maillard-like reaction that transforms the flexible interface into a rigid, impermeable shell. The crust protects but also prevents the interior from sensing environmental changes.",
+    "mechanism_borrowed_from": "bread-crust-maillard-reaction",
+    "domain_applied_to": "organizational-boundary-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bread-crust-maillard-reaction",
+    "source_b": "organizational-boundary-dynamics"
+  },
+  {
+    "name": "Affective Resonance Field Theory",
+    "core_claim": "Emotional contagion propagates through sympathetic resonance: when one person's emotional frequency matches the natural frequency of another's affective state, energy transfers without direct contact. The medium (social proximity, shared context) determines transmission efficiency.",
+    "mechanism_borrowed_from": "tuning-fork-sympathetic-resonance",
+    "domain_applied_to": "emotional-contagion",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "tuning-fork-sympathetic-resonance",
+    "source_b": "emotional-contagion"
+  },
+  {
+    "name": "Catastrophic Fertility Theory",
+    "core_claim": "The most productive periods of innovation follow catastrophic disruption, just as volcanic ash creates the most fertile soil. The destruction clears incumbent structures and deposits raw materials (displaced talent, abandoned IP, regulatory gaps) that enable rapid new growth.",
+    "mechanism_borrowed_from": "volcanic-ash-soil-fertility",
+    "domain_applied_to": "post-crisis-innovation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "volcanic-ash-soil-fertility",
+    "source_b": "post-crisis-innovation"
+  },
+  {
+    "name": "Refractive Identity Theory",
+    "core_claim": "Personality assessment works like a prism: a single beam of behavior, when passed through the assessment instrument, separates into component wavelengths (traits). Different instruments (prisms) produce different spectral decompositions of the same behavior, and no single decomposition captures the original beam.",
+    "mechanism_borrowed_from": "optical-prism-dispersion",
+    "domain_applied_to": "personality-assessment",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "optical-prism-dispersion",
+    "source_b": "personality-assessment"
+  },
+  {
+    "name": "Stigmergic Governance Theory",
+    "core_claim": "Effective large-scale governance emerges not from central planning but from environmental traces left by prior decisions that guide subsequent actors. Democratic deliberation works best when it modifies the environment (laws, infrastructure, norms) rather than attempting to direct behavior.",
+    "mechanism_borrowed_from": "termite-mound-stigmergy",
+    "domain_applied_to": "democratic-deliberation",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "termite-mound-stigmergy",
+    "source_b": "democratic-deliberation"
+  },
+  {
+    "name": "Thermal Contraction Bonding Theory of Group Cohesion",
+    "core_claim": "Group cohesion is not built during peak intensity but during the cooling phase that follows, where shared experience contracts into compressed memory and pulls individuals together with force proportional to the original heat. Durable organizations require thousands of distributed local bonds rather than centralized attachments.",
+    "mechanism_borrowed_from": "shipbuilding-hot-rivet-thermal-contraction",
+    "domain_applied_to": "team-bonding-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "shipbuilding-hot-rivet-thermal-contraction",
+    "source_b": "team-bonding-dynamics"
+  },
+  {
+    "name": "Canopy Cascade Theory of Innovation Ecosystems",
+    "core_claim": "Startup ecosystems exhibit trophic cascade structure: anchor firms generate vertical structure that shelters diverse ventures at multiple maturity layers. Ecosystem health depends on keystone defenders that suppress predatory actors, without which the ecosystem collapses into talent barrens.",
+    "mechanism_borrowed_from": "kelp-forest-trophic-cascade",
+    "domain_applied_to": "startup-ecosystem-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "kelp-forest-trophic-cascade",
+    "source_b": "startup-ecosystem-dynamics"
+  },
+  {
+    "name": "Amplified Implicit Knowledge Framework",
+    "core_claim": "All implicit knowledge requires an externalization medium to become actionable. The medium does not generate knowledge but acts as a signal amplifier for subliminal pattern recognition, and the user's attribution of agency to the medium is itself a necessary debiasing mechanism that bypasses conscious interference with the signal.",
+    "mechanism_borrowed_from": "dowsing-ideomotor-amplification",
+    "domain_applied_to": "tacit-knowledge-externalization",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "dowsing-ideomotor-amplification",
+    "source_b": "tacit-knowledge-externalization"
+  },
+  {
+    "name": "Thermodynamic Attention Convection",
+    "core_claim": "Attention economies operate as closed convection cells where algorithmic promotion drives perpetual cycling of content through density-dependent phase transitions. Content rises when engagement-density drops below the surrounding feed medium, and sinks when cooling interaction rates increase its relative density. Equilibrium is structurally impossible.",
+    "mechanism_borrowed_from": "lava-lamp-rayleigh-benard-convection",
+    "domain_applied_to": "social-media-content-cycles",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "lava-lamp-rayleigh-benard-convection",
+    "source_b": "social-media-content-cycles"
+  },
+  {
+    "name": "Complication Load Theory",
+    "core_claim": "Complexity cost per module grows super-linearly because each new module must negotiate constraint surfaces with all existing modules, not just the base platform. A system's maximum viable complication count is determined by the ratio of base-architecture tolerance to inter-module coupling density, and exceeding this threshold produces catastrophic rather than graceful degradation.",
+    "mechanism_borrowed_from": "watchmaking-complication-stacking",
+    "domain_applied_to": "software-feature-complexity",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "watchmaking-complication-stacking",
+    "source_b": "software-feature-complexity"
+  },
+  {
+    "name": "Symbiotic Exchange Network Theory",
+    "core_claim": "All sustained cooperative networks converge on a common architecture: variable-rate resource exchange mediated by hub nodes, subsidized onboarding of new participants, and cost-enforced sanctions against free-riders. Network stability is a function of feedback loop fidelity between contribution measurement and access allocation.",
+    "mechanism_borrowed_from": "mycorrhizal-carbon-nutrient-trading",
+    "domain_applied_to": "emotional-labor-exchange-networks",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mycorrhizal-carbon-nutrient-trading",
+    "source_b": "emotional-labor-exchange-networks"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sequential Medium Conditioning Theory of Negotiation",
+    "core_claim": "Diplomatic negotiations follow fermentation kinetics: each negotiating party metabolizes the political substrate (trust, precedent, concessions), transforming it into byproducts that constrain and enable subsequent rounds. Treaty outcomes are predictable from the sequence and metabolic capacity of participating actors.",
+    "mechanism_borrowed_from": "fermentation-kinetics",
+    "domain_applied_to": "diplomatic-negotiation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fermentation-kinetics",
+    "source_b": "diplomatic-negotiation"
+  },
+  {
+    "name": "Scale-Dependent Justice Geometry",
+    "core_claim": "Sentencing outcomes exhibit fractal self-similarity: the same patterns of disparity at the individual case level reproduce at courtroom, district, circuit, and national scales. Measurement granularity determines perceived fairness just as measurement scale determines coastline length.",
+    "mechanism_borrowed_from": "fractal-geometry",
+    "domain_applied_to": "criminal-sentencing",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "fractal-geometry",
+    "source_b": "criminal-sentencing"
+  },
+  {
+    "name": "Parasitic Market Coevolution",
+    "core_claim": "Market entrants function as parasites on incumbent host-firms, exploiting infrastructure and customer bases. A virulence-transmission tradeoff governs entrant strategy: too aggressive kills the host ecosystem, too mild fails to capture share. Red Queen dynamics drive continuous adaptation.",
+    "mechanism_borrowed_from": "host-parasite-coevolution",
+    "domain_applied_to": "market-competition",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "host-parasite-coevolution",
+    "source_b": "market-competition"
+  },
+  {
+    "name": "Pressure Chamber Theory of Collective Eruption",
+    "core_claim": "Social movements behave as rheological systems where eruption style (reform vs. revolution) is determined by organizational viscosity, ideological volatile content, and institutional conduit geometry — mirroring how magma properties determine volcanic eruption style.",
+    "mechanism_borrowed_from": "volcanic-eruption-dynamics",
+    "domain_applied_to": "social-movement-theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "volcanic-eruption-dynamics",
+    "source_b": "social-movement-theory"
+  },
+  {
+    "name": "Stigmergic Service Routing",
+    "core_claim": "Microservices can replace static load balancers with pheromone-inspired signaling where each successful API call deposits a decaying trace. Services responding faster accumulate stronger traces, causing traffic to self-organize toward optimal topologies without centralized orchestration.",
+    "mechanism_borrowed_from": "ant-colony-optimization",
+    "domain_applied_to": "microservice-architecture",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "ant-colony-optimization",
+    "source_b": "microservice-architecture"
+  },
+  {
+    "name": "Cognitive Index Maintenance Theory",
+    "core_claim": "REM sleep functions as an offline reindexing pass that rebuilds associative indexes on experiential data, updates access-frequency statistics, and defragments emotional-procedural storage. Cognitive retrieval degrades without REM-driven reorganization cycles, mirroring database query slowdown without index rebuilds.",
+    "mechanism_borrowed_from": "database-index-optimization",
+    "domain_applied_to": "cognitive-neuroscience-of-sleep",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "rem-sleep-consolidation",
+    "source_b": "database-index-optimization"
+  },
+  {
+    "name": "Loom Networks: Interlace-Pattern Computation",
+    "core_claim": "Neural network architectures can be reconceived as weave drafts where each layer is a shed, weights are thread tensions, and float/sink decisions are activation gates. Twill-like architectures produce robust generalization; satin-like produce smooth interpolation at the cost of adversarial fragility.",
+    "mechanism_borrowed_from": "textile-weave-structures",
+    "domain_applied_to": "neural-network-architecture-design",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "textile-weave-structures",
+    "source_b": "artificial-neural-networks"
+  },
+  {
+    "name": "Fidelity-Preserving Transcription Theory",
+    "core_claim": "All complex information systems undergo lossy transcription when moving between resolution contexts. The quality of any transcription is measurable by the ratio of preserved relational invariants to total information loss. An identity threshold exists below which the result is a different thing, not a simplified version.",
+    "mechanism_borrowed_from": "cartographic-generalization",
+    "domain_applied_to": "cross-medium-information-adaptation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "cartographic-generalization",
+    "source_b": "musical-orchestration"
+  },
+  {
+    "name": "Organizational Tectonics",
+    "core_claim": "Organizations behave as rigid cultural plates floating on viscous market norms. Change stress accumulates silently at departmental boundaries until threshold release events occur in discrete earthquake-like ruptures rather than smooth transitions.",
+    "mechanism_borrowed_from": "plate-tectonics",
+    "domain_applied_to": "organizational-change",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "plate-tectonics",
+    "source_b": "organizational-change"
+  },
+  {
+    "name": "Chromatic Mythography",
+    "core_claim": "Narrative archetypes function as graph colorings over a conflict-adjacency structure: each archetype is a color assigned so no two conflicting characters share the same role. The chromatic number determines the minimum archetypes needed for structural coherence.",
+    "mechanism_borrowed_from": "graph-coloring",
+    "domain_applied_to": "comparative-mythology",
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "graph-coloring",
+    "source_b": "comparative-mythology"
+  },
+  {
+    "name": "Grief Frequency Analysis",
+    "core_claim": "Grief operates as a complex signal decomposable into constituent frequencies of loss-oriented and restoration-oriented oscillations. Healthy grief maintains a characteristic spectral profile; complicated grief shows pathological low-frequency dominance (prolonged loss orientation).",
+    "mechanism_borrowed_from": "fourier-signal-processing",
+    "domain_applied_to": "grief-psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fourier-signal-processing",
+    "source_b": "dual-process-grief"
+  },
+  {
+    "name": "Nested Loop Habit Architecture",
+    "core_claim": "Sustainable behavior change requires engineering three nested habit loops — micro (seconds), meso (session), macro (identity) — where each loop's reward serves as the cue for the next iteration. Keystone habits succeed when they function as the core loop of a personal behavioral game.",
+    "mechanism_borrowed_from": "game-design-core-loops",
+    "domain_applied_to": "behavior-change",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "game-design-core-loops",
+    "source_b": "habit-formation"
+  },
+  {
+    "name": "Social Phase Transition Theory",
+    "core_claim": "Demographic transitions behave as thermodynamic phase transitions where societies exist in discrete demographic phases separated by critical thresholds. Each shift requires absorption of 'latent development' — sustained investment producing no visible change until a critical threshold triggers rapid, irreversible regime shift.",
+    "mechanism_borrowed_from": "thermodynamic-phase-transitions",
+    "domain_applied_to": "population-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "demographic-transition",
+    "source_b": "thermodynamic-phase-transitions"
+  },
+  {
+    "name": "Epistatic Facet Synthesis",
+    "core_claim": "Knowledge classification systems exhibit epistatic behavior: the meaning and utility of any single facet value depends conditionally on other facet positions. Classification is a genotype-like structure whose phenotype (retrievability) emerges from non-additive interactions between facet combinations.",
+    "mechanism_borrowed_from": "genetic-inheritance",
+    "domain_applied_to": "knowledge-organization",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "ranganathan-classification",
+    "source_b": "genetic-inheritance"
+  },
+  {
+    "name": "Crease-Code Folding Theory",
+    "core_claim": "Linear sequences fold into functional 3D structures by satisfying local angular constraints analogous to origami theorems. Misfolding pathologies arise when local constraint satisfaction is achieved but global flat-foldability is violated, producing metastable trapped states.",
+    "mechanism_borrowed_from": "computational-origami",
+    "domain_applied_to": "protein-folding",
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "computational-origami",
+    "source_b": "protein-folding"
+  }
+]

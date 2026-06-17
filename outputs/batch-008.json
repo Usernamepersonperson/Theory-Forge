@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Signature Sharding",
+    "core_claim": "Books and databases share a fundamental problem: binding coherent information into retrievable units. Codex signatures (nested folded sheets) map directly to database sharding strategies, where the fold pattern determines both storage efficiency and access latency.",
+    "mechanism_borrowed_from": "bookbinding-signature-folding",
+    "domain_applied_to": "database-sharding",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bookbinding-signature-folding",
+    "source_b": "database-sharding"
+  },
+  {
+    "name": "Titled Memory Governance",
+    "core_claim": "Rust's ownership model maps to property law: every memory value has exactly one owner (title holder), borrowing follows lease semantics, and lifetimes are easement durations. This reframes memory safety as a legal governance problem with enforceable property rights.",
+    "mechanism_borrowed_from": "rust-ownership-model",
+    "domain_applied_to": "property-law",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "rust-ownership-model",
+    "source_b": "property-law"
+  },
+  {
+    "name": "Epistemic Terroir",
+    "core_claim": "ML model bias is analogous to wine terroir: the training data environment imparts characteristic flavor profiles (biases) that are inseparable from the model's capabilities. Debiasing without understanding terroir strips both bias and useful signal.",
+    "mechanism_borrowed_from": "wine-terroir",
+    "domain_applied_to": "ml-bias-detection",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "wine-terroir",
+    "source_b": "ml-bias-detection"
+  },
+  {
+    "name": "Predictive Gauge Theory of Economic Forecasting",
+    "core_claim": "Economic indicators function like knitting gauge swatches: small standardized samples that predict large-scale outcomes only when the practitioner accounts for their own systematic tension bias and environmental conditions.",
+    "mechanism_borrowed_from": "knitting-gauge-measurement",
+    "domain_applied_to": "economic-indicators",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "knitting-gauge-measurement",
+    "source_b": "economic-indicators"
+  },
+  {
+    "name": "Cognitive Fracturing Theory",
+    "core_claim": "Creative breakthroughs follow hydraulic fracturing mechanics: high-pressure cognitive load injected into rigid mental models creates fracture networks through which novel ideas flow, with proppant-like techniques (constraints, prompts) keeping creative channels open.",
+    "mechanism_borrowed_from": "hydraulic-fracturing",
+    "domain_applied_to": "creativity-research",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "hydraulic-fracturing",
+    "source_b": "creativity-research"
+  },
+  {
+    "name": "Structural Tension Scaling Theory",
+    "core_claim": "Startups scale like bread dough: yeast (innovation) generates gas (growth pressure) within a gluten network (organizational structure). Under-proofed organizations collapse under market heat; over-proofed ones lose structural coherence.",
+    "mechanism_borrowed_from": "bread-proofing",
+    "domain_applied_to": "startup-scaling",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bread-proofing",
+    "source_b": "startup-scaling"
+  },
+  {
+    "name": "Zonation Dynamics Theory of Social Ecology",
+    "core_claim": "Classroom social dynamics follow tide pool zonation: students self-sort into zones based on stress tolerance, with splash-zone students (high engagement, high stress) showing different adaptive strategies than subtidal students (low engagement, protected).",
+    "mechanism_borrowed_from": "tide-pool-zonation",
+    "domain_applied_to": "classroom-dynamics",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "tide-pool-zonation",
+    "source_b": "classroom-dynamics"
+  },
+  {
+    "name": "Shadow Bias Projection Theory",
+    "core_claim": "Algorithmic biases cast directional shadows whose length and direction depend on the angle of inquiry, like a sundial gnomon. Bias detection requires measuring shadow patterns across multiple inquiry angles rather than seeking a single bias metric.",
+    "mechanism_borrowed_from": "sundial-gnomon-geometry",
+    "domain_applied_to": "algorithmic-bias-detection",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "sundial-gnomon-geometry",
+    "source_b": "algorithmic-bias-detection"
+  },
+  {
+    "name": "Pellicle Theory of Organizational Culture",
+    "core_claim": "Team culture forms like a kombucha SCOBY: a symbiotic colony of practices and values that creates a protective pellicle at the interface between the team and its environment. The pellicle is both product and producer of the culture beneath it.",
+    "mechanism_borrowed_from": "kombucha-scoby-formation",
+    "domain_applied_to": "team-culture",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "kombucha-scoby-formation",
+    "source_b": "team-culture"
+  },
+  {
+    "name": "Depositional Stratification Theory of Capital",
+    "core_claim": "Wealth accumulates like stalactite formation: mineral-laden water (income) deposits calcium carbonate (savings) drop by drop, with growth rate determined by solution chemistry (financial literacy), drip rate (income frequency), and cave atmosphere (economic environment).",
+    "mechanism_borrowed_from": "stalactite-formation",
+    "domain_applied_to": "wealth-accumulation",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "stalactite-formation",
+    "source_b": "wealth-accumulation"
+  },
+  {
+    "name": "Affective Magnetosphere Theory",
+    "core_claim": "Collective emotions behave as charged particles within a social magnetosphere: external events act as solar wind injecting emotional energy into a society's relational field structure, where that energy is channeled along pre-existing network lines and excites distinct social strata to produce characteristic emotional colors.",
+    "mechanism_borrowed_from": "aurora-borealis-magnetospheric-physics",
+    "domain_applied_to": "collective-emotion",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "aurora-borealis-magnetospheric-physics",
+    "source_b": "collective-emotion"
+  },
+  {
+    "name": "Organizational Affinage Model",
+    "core_claim": "Organizations mature like cheese: they require controlled exposure to environmental stressors that act as enzymatic catalysts breaking down rigid early-stage structures into complex capabilities. The rate of maturation must match the organization's internal culture, and a protective rind must form organically.",
+    "mechanism_borrowed_from": "cheese-aging-affinage",
+    "domain_applied_to": "software-maturity",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "cheese-aging-affinage",
+    "source_b": "software-maturity"
+  },
+  {
+    "name": "Discharge Propagation Theory of Information Cascades",
+    "core_claim": "All large-scale cascade phenomena follow a charge-probe-discharge cycle: potential accumulates through asymmetric distribution, exploratory tendrils branch stochastically seeking low-resistance pathways, and upon connecting to a grounded amplifier, energy discharges explosively along the established channel.",
+    "mechanism_borrowed_from": "lightning-atmospheric-electrodynamics",
+    "domain_applied_to": "viral-marketing",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "lightning-atmospheric-electrodynamics",
+    "source_b": "viral-marketing"
+  },
+  {
+    "name": "Symbiotic Bleaching Model of Human Burnout",
+    "core_claim": "Burnout operates as a psychosocial bleaching event: chronic stress causes individuals to expel their engagement symbionts -- meaning, connection, and purpose -- just as thermal stress causes corals to expel zooxanthellae. The critical variable is the ratio of recovery interval to stress duration.",
+    "mechanism_borrowed_from": "coral-bleaching",
+    "domain_applied_to": "burnout-psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "coral-bleaching",
+    "source_b": "burnout-psychology"
+  },
+  {
+    "name": "Capillary Capital Theory",
+    "core_claim": "Organizational cohesion follows granular bonding physics: discrete units cohere through narrative surface tension between present state and projected potential. Cohesion strength is non-monotonic, peaking at optimal external validation, and collapses via liquefaction when binding medium exceeds load-bearing capacity.",
+    "mechanism_borrowed_from": "sandcastle-capillary-bridge-mechanics",
+    "domain_applied_to": "startup-fundraising",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "sandcastle-capillary-bridge-mechanics",
+    "source_b": "startup-fundraising"
+  }
+]

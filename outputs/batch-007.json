@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Attentional Tidal Theory",
+    "core_claim": "Large platforms exert gravitational-like gradients on attention, creating engagement rhythms (doom-scrolling cycles), tidal locking (platform-specific behavioral orbits), and an attentional Roche limit beyond which user identity fragments.",
+    "mechanism_borrowed_from": "tidal-forces",
+    "domain_applied_to": "attention-economy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "tidal-forces",
+    "source_b": "attention-economy"
+  },
+  {
+    "name": "Mycelial Supply Theory",
+    "core_claim": "Optimal supply chains should be restructured as mycorrhizal networks where hub firms redistribute resources to stressed nodes. Resilience emerges from pre-established underground connections that activate under stress, not from inventory buffering.",
+    "mechanism_borrowed_from": "mycorrhizal-networks",
+    "domain_applied_to": "supply-chain-management",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mycorrhizal-networks",
+    "source_b": "supply-chain-management"
+  },
+  {
+    "name": "Cultural Fermentation Theory",
+    "core_claim": "Emergent cultural systems behave as microbial ecologies where established communities tolerate surface-level borrowing (vocabulary/flavor compounds) while resisting deep structural invasion (grammar/core microbial ratios). Novel forms arise through colonization-stabilization-resistance dynamics.",
+    "mechanism_borrowed_from": "sourdough-starter-ecology",
+    "domain_applied_to": "language-evolution",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "sourdough-starter-ecology",
+    "source_b": "language-evolution"
+  },
+  {
+    "name": "Cognitive Erosion Cycle Theory",
+    "core_claim": "Memory systems evolve through geomorphic stages: youth (steep retrieval gradients), maturity (balanced consolidation/interference), old age (gist peneplain). Spaced repetition functions as tectonic rejuvenation re-elevating traces above the retrieval base level.",
+    "mechanism_borrowed_from": "geomorphic-erosion-cycles",
+    "domain_applied_to": "cognitive-science",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "geomorphic-erosion-cycles",
+    "source_b": "memory-decay"
+  },
+  {
+    "name": "Choreographic Consensus Protocol",
+    "core_claim": "Distributed systems can achieve consensus through intensity-weighted signaling where nodes broadcast proposals with vigor proportional to measured quality, and quorum emerges from recruitment cascades rather than explicit voting rounds.",
+    "mechanism_borrowed_from": "bee-waggle-dance",
+    "domain_applied_to": "distributed-systems",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "bee-waggle-dance",
+    "source_b": "distributed-consensus"
+  },
+  {
+    "name": "Structural Succession Dynamics",
+    "core_claim": "Complex systems undergo predictable succession where pioneers build scaffolding attracting dominant agents, with peak diversity at intermediate displacement rates. Phase-shift collapse occurs when mediating agents enabling coexistence are removed.",
+    "mechanism_borrowed_from": "coral-reef-succession",
+    "domain_applied_to": "urban-gentrification",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "coral-reef-succession",
+    "source_b": "urban-gentrification"
+  },
+  {
+    "name": "Adaptive Codebase Immunity",
+    "core_claim": "Repositories function as adaptive immune systems where prior bug encounters generate memory patches (regression tests, linting rules) that mount faster, stronger responses to similar defects. Cross-reactive defenses provide partial protection against novel bug classes.",
+    "mechanism_borrowed_from": "immunological-memory",
+    "domain_applied_to": "software-engineering",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "immunological-memory",
+    "source_b": "git-version-control"
+  },
+  {
+    "name": "Directed Substructure Emergence",
+    "core_claim": "Complex systems contain latent high-performing substructures revealed through iterative, energy-aware removal. Pruning redirects resources rather than destroying capacity, producing forms that random construction cannot reach.",
+    "mechanism_borrowed_from": "bonsai-cultivation",
+    "domain_applied_to": "neural-network-pruning",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bonsai-cultivation",
+    "source_b": "neural-network-pruning"
+  },
+  {
+    "name": "Volatility Dramaturgy",
+    "core_claim": "Temporal experiences follow a volatility curve: high-volatility elements hook early but dissipate, medium-volatility carry core identity, low-volatility provide persistent residue determining memorability. Quality depends on coherent transitions between volatility tiers.",
+    "mechanism_borrowed_from": "perfume-note-architecture",
+    "domain_applied_to": "narrative-design",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "perfume-note-architecture",
+    "source_b": "three-act-narrative"
+  },
+  {
+    "name": "Relational Phase-Lock Theory",
+    "core_claim": "Romantic relationships function as phase-locked loops where partners' emotional oscillators synchronize through bid-response phase detectors. Stability depends on loop bandwidth (flexibility), lock range (tolerance), and whether repair attempts overcome noise (Four Horsemen).",
+    "mechanism_borrowed_from": "phase-locked-loops",
+    "domain_applied_to": "couples-therapy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "phase-locked-loops",
+    "source_b": "gottman-method"
+  },
+  {
+    "name": "Professional Metamorphosis Theory",
+    "core_claim": "Career transitions operate via two modes: hemimetabolous (gradual instars within a role) and holometabolous (radical pivots requiring dissolution of prior professional identity through imaginal disc equivalents — latent competencies surviving the pupal crisis).",
+    "mechanism_borrowed_from": "insect-metamorphosis",
+    "domain_applied_to": "career-development",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "insect-metamorphosis",
+    "source_b": "career-development"
+  },
+  {
+    "name": "Organizational Glaciology",
+    "core_claim": "Organizations accumulate debt in accumulation zones and shed it in ablation zones. An equilibrium line exists where creation equals remediation; when it shifts too far, catastrophic surges release stored strain energy as forced rewrites or restructurings.",
+    "mechanism_borrowed_from": "glacier-dynamics",
+    "domain_applied_to": "organizational-debt",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "glacier-dynamics",
+    "source_b": "organizational-debt"
+  },
+  {
+    "name": "Quorum Governance Theory",
+    "core_claim": "Democratic systems function as macro-scale quorum sensing networks where citizen expressions act as political autoinducers. Policy regimes remain dormant until signal density crosses activation thresholds, triggering institutional program execution.",
+    "mechanism_borrowed_from": "bacterial-quorum-sensing",
+    "domain_applied_to": "democratic-theory",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "bacterial-quorum-sensing",
+    "source_b": "deliberative-democracy"
+  },
+  {
+    "name": "Dormant Innovation Theory",
+    "core_claim": "Innovations possess inherent dormancy mechanisms preventing activation until environmental readiness signals are met. The chasm is a seed coat requiring specific scarification events (regulatory shifts, infrastructure buildouts) — not gradual warming.",
+    "mechanism_borrowed_from": "seed-dormancy",
+    "domain_applied_to": "innovation-timing",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "seed-dormancy",
+    "source_b": "technology-adoption"
+  },
+  {
+    "name": "Digital Trophic Cascade Theory",
+    "core_claim": "Content ecosystems obey trophic dynamics where moderators are apex predators. Removing moderation triggers cascading degradation: low-quality content proliferates, high-quality creators decline, user trust erodes — mirroring wolf removal in Yellowstone.",
+    "mechanism_borrowed_from": "trophic-cascades",
+    "domain_applied_to": "social-media",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "trophic-cascades",
+    "source_b": "social-media-platforms"
+  }
+]

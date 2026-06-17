@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Spinneretic Narrative Theory",
+    "core_claim": "Narratives are cognitive silk: raw experiential protein is extruded through mental spinnerets under tensile force supplied by emotional need, not factual accuracy. The pulling tension determines whether the resulting story-fiber is rigid and load-bearing (identity narrative), elastic and sticky (persuasion), or sacrificial and protective (explanation). Story strength is a property of the spinning process, not the raw material.",
+    "mechanism_borrowed_from": "silk-spinning-phase-transition",
+    "domain_applied_to": "narrative-psychology-rhetoric",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "silk-spinning-phase-transition",
+    "source_b": "narrative-psychology-rhetoric"
+  },
+  {
+    "name": "Civilizational Subduction Theory",
+    "core_claim": "Cultural collisions operate through a subduction mechanic: the less institutionally dense culture is forced beneath the dominant one, where its practices are heated under social pressure until they partially melt and re-emerge as hybrid expressions — syncretic religions, creole languages, fusion cuisines. The collision zone generates social friction, new institutional formations, and deep identity crises whose intensity correlates with the density differential.",
+    "mechanism_borrowed_from": "tectonic-subduction-zone",
+    "domain_applied_to": "cultural-assimilation-dynamics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "tectonic-subduction-zone",
+    "source_b": "cultural-assimilation-dynamics"
+  },
+  {
+    "name": "Cryptobiotic Organizational Theory",
+    "core_claim": "Organizations facing existential stress should execute a deliberate, reversible metabolic shutdown — replacing liquid operational capacity with stabilized minimal structures. Survival duration scales not with reserves burned during active resistance, but with the fidelity of the preservation state and the speed of rehydration protocols pre-encoded before shutdown.",
+    "mechanism_borrowed_from": "tardigrade-cryptobiosis",
+    "domain_applied_to": "startup-survival-strategy",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "tardigrade-cryptobiosis",
+    "source_b": "startup-survival-strategy"
+  },
+  {
+    "name": "Tensegrity Welfare Architecture",
+    "core_claim": "Social safety nets should be engineered as tensegrity structures where rigid institutional programs carry primary structural load and elastic community networks absorb shocks. Damage to any single program remains localized rather than cascading, and the system metabolizes failed components by recycling resources into rebuilt or replacement programs.",
+    "mechanism_borrowed_from": "spider-web-tensegrity",
+    "domain_applied_to": "social-welfare-system-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "spider-web-tensegrity",
+    "source_b": "social-welfare-system-design"
+  },
+  {
+    "name": "Crystallization-Preservation Theory",
+    "core_claim": "All complex adaptive systems containing a fluid substrate and a structurable solute undergo spontaneous crystallization — the irreversible-seeming but reversible transition from fluid dynamism to rigid structure — as a natural preservation mechanism. The rate is governed by a universal trio: saturation ratio, ambient energy, and nucleation seeds. Reversal requires controlled reintroduction of energy without destroying the preserved content.",
+    "mechanism_borrowed_from": "honey-crystallization-chemistry",
+    "domain_applied_to": "knowledge-codification-epistemology",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "honey-crystallization-chemistry",
+    "source_b": "knowledge-codification-epistemology"
+  },
+  {
+    "name": "Mycelial Displacement Theory",
+    "core_claim": "Economic systems expand via substrate-exhaustion rings identical to fungal fairy rings. The visible markers of change are fruiting bodies of an underlying economic mycelium that advances at the periphery while the origin point necrotizes. The ring's expansion rate is predictable from substrate density and mycelial vigor, meaning displacement wavefronts can be mapped years in advance.",
+    "mechanism_borrowed_from": "fairy-ring-radial-growth",
+    "domain_applied_to": "urban-gentrification-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fairy-ring-radial-growth",
+    "source_b": "urban-gentrification-dynamics"
+  },
+  {
+    "name": "Symbiotic Entity Theory",
+    "core_claim": "High-performing entities in hostile environments are obligate symbioses between a structural partner (resource acquisition, protection) and a generative partner (core value creation). Resilience is proportional to the tightness of metabolic coupling, and failure mode is almost always decoupling rather than external destruction.",
+    "mechanism_borrowed_from": "lichen-obligate-mutualism",
+    "domain_applied_to": "co-founder-partnership-dynamics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "lichen-obligate-mutualism",
+    "source_b": "co-founder-partnership-dynamics"
+  },
+  {
+    "name": "Generational Wayfinding Theory",
+    "core_claim": "Long-arc navigations succeed through inherited directional heuristics recalibrated at each generational stage against current environmental signals. The critical constraint is waypoint-funneling: narrow gates that compress variance and prevent drift, ensuring each successive stage begins close enough to the correct vector to reach the next gate.",
+    "mechanism_borrowed_from": "monarch-butterfly-multigenerational-navigation",
+    "domain_applied_to": "career-transition-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "monarch-butterfly-multigenerational-navigation",
+    "source_b": "career-transition-design"
+  },
+  {
+    "name": "Vitreous Development Theory",
+    "core_claim": "All creative output exists on a cooling-rate spectrum between amorphous glass (maximum sharpness, minimum durability) and crystalline rock (maximum durability, minimum edge). The optimal strategy is to anneal: ship glassy prototypes to find the sharpest edge, then selectively reheat and slow-cool only the fragments that cut deepest.",
+    "mechanism_borrowed_from": "obsidian-volcanic-glass-formation",
+    "domain_applied_to": "software-development-methodology",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "obsidian-volcanic-glass-formation",
+    "source_b": "software-development-methodology"
+  },
+  {
+    "name": "Interface Matrix Theory",
+    "core_claim": "Productive complexity emerges at boundaries between two distinct systems when structural elements extend into the transitional zone and form a three-dimensional network performing three universal functions: accretion (trapping mobile resources), incubation (sheltering vulnerable new entities), and dampening (absorbing systemic shocks from either side).",
+    "mechanism_borrowed_from": "mangrove-prop-root-architecture",
+    "domain_applied_to": "boundary-productivity-theory",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "mangrove-prop-root-architecture",
+    "source_b": "boundary-productivity-theory"
+  },
+  {
+    "name": "Bio-Social Oscillator Unification",
+    "core_claim": "Firefly synchronization and crowd synchrony are instances of a single universal coupling mechanism: phase-locked oscillators with threshold-triggered pulse coupling. Only three parameters govern emergence — coupling strength, refractory period, and neighbor detection radius. Any population of discrete oscillators meeting these constraints will synchronize on a timescale proportional to log(N).",
+    "mechanism_borrowed_from": "firefly-pulse-coupled-oscillators",
+    "domain_applied_to": "crowd-behavior-engineering",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "firefly-pulse-coupled-oscillators",
+    "source_b": "crowd-behavior-engineering"
+  },
+  {
+    "name": "Topological Proximity Herding",
+    "core_claim": "All leaderless coordination systems converge on a universal architecture: agents tracking a fixed small neighbor-set (6-7) produce constant-density formations where signal propagation speed is independent of group size. Markets fail when this neighbor count inflates, destroying the constant-density invariant that makes murmuration-style coordination robust.",
+    "mechanism_borrowed_from": "starling-murmuration-topological-interaction",
+    "domain_applied_to": "financial-market-crash-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "starling-murmuration-topological-interaction",
+    "source_b": "financial-market-crash-dynamics"
+  },
+  {
+    "name": "Matrix Adhesion Theory of Collective Resilience",
+    "core_claim": "Any collective becomes orders of magnitude more resistant to disruption once members co-secrete a shared structural matrix that constrains behavior while enabling coordinated resource flow. Resilience is an emergent property of the matrix topology, and the collective's lifecycle is governed by a universal attach-secrete-structure-shed cycle.",
+    "mechanism_borrowed_from": "bacterial-biofilm-formation",
+    "domain_applied_to": "online-community-resilience",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bacterial-biofilm-formation",
+    "source_b": "online-community-resilience"
+  },
+  {
+    "name": "Nutrient-Desert Predation Architecture",
+    "core_claim": "In any resource-scarce ecosystem, organisms and institutions converge on a universal predation architecture: attract via mimicked abundance, capture via irreversible commitment mechanism, and extract through slow digestion. The two-trigger verification system is an energy-economics optimization distinguishing environments where predation is viable from those where passive gathering suffices.",
+    "mechanism_borrowed_from": "carnivorous-plant-trapping",
+    "domain_applied_to": "extractive-institutional-design",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "carnivorous-plant-trapping",
+    "source_b": "extractive-institutional-design"
+  },
+  {
+    "name": "Institutional Cellulose Theory",
+    "core_claim": "All durable information-processing systems converge on the same architecture: raw substrate is masticated through a normative enzyme into standardized modular units that grow by accretion, encode organizational memory in their structure, and achieve resilience through redundancy rather than flexibility. Both systems fail identically: by accretion-loss-of-center, where peripheral growth decouples from the founding architectural signal.",
+    "mechanism_borrowed_from": "wasp-paper-making-stigmergy",
+    "domain_applied_to": "bureaucratic-institutional-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "wasp-paper-making-stigmergy",
+    "source_b": "bureaucratic-institutional-design"
+  }
+]

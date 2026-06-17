@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Crystallographic Identity Theory",
+    "core_claim": "Personality is a path-dependent crystallization process where each experience acts as a molecular deposition event, encoding the precise sequence of environmental encounters into an irreversible structural pattern. Just as a snowflake's hexagonal symmetry records its unique atmospheric trajectory through temperature and humidity gradients, personality records its unique experiential trajectory through emotional and social gradients, producing structures that are retrospectively legible but prospectively unpredictable.",
+    "mechanism_borrowed_from": "path-dependent-dendritic-crystal-growth",
+    "domain_applied_to": "developmental-psychology-personality",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Snowflake Crystal Formation",
+    "source_b": "Personality Development"
+  },
+  {
+    "name": "Gradient Boundary Ecosystem Economics",
+    "core_claim": "Underground economies are chemosynthetic systems that derive energy not from the 'sunlight' of formal institutional approval but from the thermal gradient between regulatory pressure and unmet demand. These economies cluster at the steepest gradients, develop symbiotic supply chains analogous to chemosynthetic food webs, and collapse when the gradient flattens through either total regulation or total deregulation.",
+    "mechanism_borrowed_from": "chemosynthetic-ecosystem-thermochemical-gradients",
+    "domain_applied_to": "informal-shadow-economics",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Deep Sea Hydrothermal Vent",
+    "source_b": "Underground Economy"
+  },
+  {
+    "name": "Conspecific Settlement Hypothesis of Career Attachment",
+    "core_claim": "Early career commitment follows barnacle settlement dynamics: a free-swimming exploratory larval phase gives way to irreversible attachment triggered not by objective evaluation of the substrate but by chemical-equivalent social signals — the presence of others already attached. The metamorphosis that follows attachment makes the commitment self-reinforcing, explaining why first jobs predict career trajectories far more than talent or preference alone would suggest.",
+    "mechanism_borrowed_from": "conspecific-cue-larval-settlement-metamorphosis",
+    "domain_applied_to": "career-sociology-labor-market-entry",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Barnacle Settlement",
+    "source_b": "First Job Commitment"
+  },
+  {
+    "name": "Chromatophoric Brand Display Theory",
+    "core_claim": "Corporate rebranding operates as a chromatophore system: rapid, neurally-centralized modulation of surface-level identity elements that simultaneously serves multiple contradictory functions through patterns the organism itself cannot perceive from the outside. Like cuttlefish displaying patterns invisible to their own eyes, companies project brand identities they cannot objectively evaluate, making rebranding an act of blind signaling whose success depends on audience neurology, not sender intention.",
+    "mechanism_borrowed_from": "multiplexed-chromatophore-display-neural-control",
+    "domain_applied_to": "corporate-brand-strategy-identity",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Cuttlefish Chromatophore Camouflage",
+    "source_b": "Corporate Rebranding"
+  },
+  {
+    "name": "Hostile Medium Preservation Paradox",
+    "core_claim": "Cultural archives function as institutional peat bogs: they preserve cultural artifacts by creating conditions hostile to the living culture that produced them — decontextualizing, dehydrating practice into artifact, and suspending organic cultural processes in institutional anoxia. The paradox is structural: the very conditions that enable preservation are antagonistic to the living use, mutation, and communal ownership that defined the culture being preserved.",
+    "mechanism_borrowed_from": "anaerobic-acidic-preservation-environmental-hostility",
+    "domain_applied_to": "cultural-preservation-archival-science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Peat Bog Preservation",
+    "source_b": "Cultural Archives"
+  },
+  {
+    "name": "Spore-Load Theory of Memetic Propagation",
+    "core_claim": "Memes propagate via fungal spore dynamics rather than viral dynamics: success depends not on infectious potency per contact but on massive overproduction, undirected dispersal across heterogeneous cognitive substrates, and the statistical accident of substrate matching. This reframes memetic fitness from a property of the meme itself to a joint property of production volume and substrate distribution, explaining why low-quality memes frequently outcompete sophisticated ones.",
+    "mechanism_borrowed_from": "volume-dependent-undirected-spore-dispersal",
+    "domain_applied_to": "memetics-information-ecology-digital-culture",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Fungal Spore Dispersal",
+    "source_b": "Meme Propagation"
+  },
+  {
+    "name": "Erratic Displacement Theory of Diasporic Identity",
+    "core_claim": "Diasporic communities are cultural erratics: geological foreigners deposited by historical glaciation events into landscapes where they are compositionally alien. Like glacial erratics, diasporic cultures develop a dual foreignness, becoming too transformed for their origin and too distinct for their location, making them permanent epistemic anomalies that reveal the movement of historical forces otherwise invisible.",
+    "mechanism_borrowed_from": "glacial-entrainment-long-distance-transport-deposition",
+    "domain_applied_to": "diaspora-studies-cultural-geography-migration",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Glacial Erratic Transport",
+    "source_b": "Cultural Diaspora"
+  },
+  {
+    "name": "Institutional Petrification Theory",
+    "core_claim": "Institutions undergo petrification: a molecule-by-molecule replacement of original purpose, personnel, and animating culture with bureaucratic mineral — procedural compliance, credentialism, self-perpetuation — while preserving the exact external structure of the founding organization. The result is an entity that exhibits perfect morphological fidelity to its origin while being composed of entirely different operational substance.",
+    "mechanism_borrowed_from": "permineralization-molecular-substitution-macro-structure",
+    "domain_applied_to": "organizational-theory-institutional-decay",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Petrified Wood Formation",
+    "source_b": "Institutional Fossilization"
+  },
+  {
+    "name": "Hydraulic Insurgency Theory",
+    "core_claim": "Systemic upheaval is not primarily a function of pressure magnitude but of channel geometry — the ratio of force volume to institutional cross-section at the point of maximum constriction. Revolutions occur only when rising pressure encounters a narrowing passage that refuses to widen, converting distributed force into a coherent bore front that temporarily reverses the dominant flow. Most systems absorb pressure gradually through elastic institutional channels; only rigid, tapering structures produce the standing-wave discontinuity recognizable as revolution.",
+    "mechanism_borrowed_from": "tidal-bore-hydrodynamics-froude-number",
+    "domain_applied_to": "political-revolution-institutional-collapse",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Tidal Bore",
+    "source_b": "Political Revolution"
+  },
+  {
+    "name": "Stigmergic Supply Networks",
+    "core_claim": "Supply chains can be restructured as decentralized, pheromone-like signal networks where each transaction deposits a 'cost pheromone' on the route it traverses. Routes with lower total cost accumulate stronger signals through faster capital turnover, attracting more traffic, while market volatility acts as evaporation to prevent lock-in. No central planner is needed; the network self-optimizes toward cost-minimal, resilient multi-source routing.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-path-optimization",
+    "domain_applied_to": "supply-chain-route-optimization",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Ant Colony Optimization",
+    "source_b": "Supply Chain Optimization"
+  },
+  {
+    "name": "Symbiotic Resilience Theory",
+    "core_claim": "Complex adaptive systems recovering from acute stress follow a universal bifurcation pattern: recovery quality depends not on returning to the prior state but on whether the system can recruit new mutualistic components before opportunistic dominants lock in a degraded regime. The recovery window is temporally narrow and environmentally gated, meaning the conditions surrounding recovery matter more than the severity of the initial shock.",
+    "mechanism_borrowed_from": "coral-symbiont-mediated-regime-shift",
+    "domain_applied_to": "post-crisis-economic-restructuring",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Coral Reef Recovery After Bleaching",
+    "source_b": "Market Recovery After Crash"
+  },
+  {
+    "name": "Elastic Network Development Theory",
+    "core_claim": "All resilient networks develop through cycles of controlled stress and rest, where the medium's 'hydration' determines whether the network becomes elastic, brittle, or fails to cohere. Over-working without rest degrades the network; under-working produces structures too weak to hold internal pressures. The optimal network emerges from iterative stretch-fold-rest cycles calibrated to the medium's capacity.",
+    "mechanism_borrowed_from": "gluten-network-stretch-fold-rest-cycles",
+    "domain_applied_to": "general-network-resilience-theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Sourdough Gluten Network",
+    "source_b": "Social Trust Networks"
+  },
+  {
+    "name": "Sociomagnetic Excitation Theory",
+    "core_claim": "Societies possess a layered 'sociomagnetic field' of institutional structures that channels disruptive external stimuli along pre-existing network lines to specific social strata, where each stratum emits a characteristic behavioral 'color' determined not by the stimulus itself but by the socioeconomic position of the excited group. The protective function and the spectacular disruption are the same mechanism: institutions cannot shield without also channeling.",
+    "mechanism_borrowed_from": "magnetospheric-particle-channeling-auroral-emission",
+    "domain_applied_to": "mass-movement-formation-social-stratification",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Aurora Borealis",
+    "source_b": "Mass Movement Psychology"
+  },
+  {
+    "name": "Frustule Ossification Theory",
+    "core_claim": "All protective structural frameworks exhibit monotonic constraint accumulation: each iterative reproduction inherits the tighter of its parent dimensions, progressively narrowing the permissible action space until a costly 'auxospore event' becomes existentially necessary. The geometry of the protective structure acts as a selective filter that determines not just what threats are excluded but what innovation can permeate.",
+    "mechanism_borrowed_from": "diatom-frustule-size-diminution-auxospore-reset",
+    "domain_applied_to": "organizational-compliance-lifecycle-rigidity",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Diatom Silica Frustule",
+    "source_b": "Regulatory Compliance Frameworks"
+  },
+  {
+    "name": "Spawn Gate Theory",
+    "core_claim": "High-stakes evaluation systems function as ecological bottlenecks where the energy expended by participants — whether they survive or fail — feeds the surrounding system more than the individual. Organizations should design review cycles as deliberate nutrient events, where even the 'failed' attempts are structured to deposit knowledge, relationships, and cultural signal back into the ecosystem rather than being treated as waste.",
+    "mechanism_borrowed_from": "salmon-spawning-synchronized-nutrient-cycling",
+    "domain_applied_to": "organizational-talent-management-evaluation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Salmon Run",
+    "source_b": "Annual Performance Reviews"
+  }
+]

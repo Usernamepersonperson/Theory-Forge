@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Thermal Schedule Theory of Learning",
+    "core_claim": "Neural network training is governed by irreversible phase transitions analogous to ceramic firing, where each transition must complete before the next begins or the model structurally fails. Optimal training requires a precise thermal schedule with controlled heating, sustained holds at critical temperatures, and managed cooling.",
+    "mechanism_borrowed_from": "pottery-kiln-firing",
+    "domain_applied_to": "ml-training-dynamics",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "pottery-kiln-firing",
+    "source_b": "ml-training-dynamics"
+  },
+  {
+    "name": "Sedimentary Information Theory",
+    "core_claim": "Information systems deposit and organize content according to hydraulic sorting principles. High-density, high-value content settles into stable deep channels closest to the source, while lighter content is carried further into diffuse distributary networks. Information architectures prograde, retrograde, or aggrade based on content production vs user consumption capacity.",
+    "mechanism_borrowed_from": "river-delta-formation",
+    "domain_applied_to": "information-architecture",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "river-delta-formation",
+    "source_b": "information-architecture"
+  },
+  {
+    "name": "Stigmergic Thermal Autonomics",
+    "core_claim": "Data center cooling can be restructured as a decentralized emergent system where individual server nodes sense local thermal conditions and autonomously adjust behavior without a central orchestrator, producing globally optimal thermal regulation through purely local feedback loops.",
+    "mechanism_borrowed_from": "beehive-thermoregulation",
+    "domain_applied_to": "data-center-cooling",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "beehive-thermoregulation",
+    "source_b": "data-center-cooling"
+  },
+  {
+    "name": "Embrace Protocol Theory",
+    "core_claim": "Robust distributed systems emerge not from rigid specification but from maintaining a shared axis of intent within which each party interprets signals and responds with context-appropriate embellishment. Resilience is proportional to axis contract tightness and inversely proportional to response rigidity.",
+    "mechanism_borrowed_from": "argentine-tango-embrace",
+    "domain_applied_to": "adaptive-api-design",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "argentine-tango-embrace",
+    "source_b": "adaptive-api-design"
+  },
+  {
+    "name": "Sociothermal Collapse Theory",
+    "core_claim": "Social institutions function as permafrost-like reservoirs that sequester accumulated trust-capital in frozen stability structures. When systemic stress exceeds a critical threshold, institutions undergo phase-transition thaw that releases stored cynicism in self-amplifying feedback loops, producing irreversible thermokarst-like collapse.",
+    "mechanism_borrowed_from": "permafrost-thaw-dynamics",
+    "domain_applied_to": "institutional-trust-erosion",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "permafrost-thaw-dynamics",
+    "source_b": "institutional-trust-erosion"
+  },
+  {
+    "name": "Substrate Routing Theory",
+    "core_claim": "All resource-distribution networks converge on identical algorithmic primitives -- tip-based exploration, gradient-triggered table updates, and fusion-based redundancy -- regardless of whether the substrate is soil or silicon. The visible output is an epiphenomenon of an underlying routing topology.",
+    "mechanism_borrowed_from": "mycelial-anastomosis",
+    "domain_applied_to": "autonomous-network-architecture",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mycelial-anastomosis",
+    "source_b": "internet-routing-protocols"
+  },
+  {
+    "name": "Thermophilic Integration Theory",
+    "core_claim": "Transformative human experiences follow composting kinetics: raw psychic material must reach sufficient emotional activation energy to decompose into integrated wisdom. The ratio of affective intensity to cognitive structuring determines whether processing yields fertile integration or toxic residue.",
+    "mechanism_borrowed_from": "thermophilic-composting",
+    "domain_applied_to": "grief-processing",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "thermophilic-composting",
+    "source_b": "grief-processing"
+  },
+  {
+    "name": "Bidirectional Pressure Resonance Theory",
+    "core_claim": "All expressive pressure-driven sound systems operate through a universal architecture: a flexible membrane generating bidirectional pressure differentials across a vibrating gate, where tonal identity emerges from directional asymmetry. Mastery is fundamentally a pressure economy problem.",
+    "mechanism_borrowed_from": "accordion-bellows-mechanics",
+    "domain_applied_to": "respiratory-vocal-physiology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "accordion-bellows-mechanics",
+    "source_b": "respiratory-vocal-physiology"
+  },
+  {
+    "name": "Sequential Resistance Theory",
+    "core_claim": "Complex resistant systems yield not all at once but through a fixed sequence determined by internal tolerances. The practitioner must maintain constant baseline pressure while identifying the weakest-binding element first, using real-time feedback to detect micro-yields before advancing.",
+    "mechanism_borrowed_from": "lock-picking-sequential-binding",
+    "domain_applied_to": "psychotherapy-resistance",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "lock-picking-sequential-binding",
+    "source_b": "psychotherapy-resistance"
+  },
+  {
+    "name": "Accretionary Persistence Theory",
+    "core_claim": "All durable structures grow through sequential deposition where formation rate inversely determines structural integrity. The active interface is always a thin generative layer whose outputs become load-bearing history, and the porosity-density tradeoff permanently encodes resilience.",
+    "mechanism_borrowed_from": "coral-calcification",
+    "domain_applied_to": "habit-formation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "coral-calcification",
+    "source_b": "habit-formation"
+  },
+  {
+    "name": "Derelict Systems Salvage Theory",
+    "core_claim": "Abandoned complex systems follow identical legal and operational dynamics governing claim, custody, and value preservation. The tension between law of finds (full ownership) and law of salvage (compensated stewardship) maps onto the rewrite-vs-refactor decision, where institutional memory constitutes archaeological value.",
+    "mechanism_borrowed_from": "maritime-salvage-law",
+    "domain_applied_to": "legacy-code-governance",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "maritime-salvage-law",
+    "source_b": "legacy-code-governance"
+  },
+  {
+    "name": "Single-Stroke Intervention Theory",
+    "core_claim": "Optimal intervention in any complex adaptive system requires a single, precisely calibrated action along the system's natural grain rather than repeated or broad-spectrum forcing. The interventionist must read the substrate to identify the correct angle, force, and timing that preserves systemic integrity.",
+    "mechanism_borrowed_from": "sashimi-knife-technique",
+    "domain_applied_to": "precision-medicine",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "sashimi-knife-technique",
+    "source_b": "precision-medicine"
+  },
+  {
+    "name": "Nacre Theory of Creative Transmutation",
+    "core_claim": "Valuable creative output emerges only when a psychic irritant is encapsulated through repeated, structured layers of meaning-making, analogous to nacre deposition. Transmutation requires both a sufficiently persistent irritant and a functional mantle (craft capacity), and fails when either is absent.",
+    "mechanism_borrowed_from": "pearl-nacre-formation",
+    "domain_applied_to": "artistic-creativity-from-adversity",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "pearl-nacre-formation",
+    "source_b": "artistic-creativity-from-adversity"
+  },
+  {
+    "name": "Signal-Return Market Cartography",
+    "core_claim": "Markets behave as acoustic environments where commercial probes propagate through consumer space and return attenuated echoes encoding segment geometry. Optimal market intelligence requires frequency-sweeping: alternating high-resolution qualitative pulses with broad-coverage quantitative pulses.",
+    "mechanism_borrowed_from": "sonar-echolocation",
+    "domain_applied_to": "market-research",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "sonar-echolocation",
+    "source_b": "market-research"
+  },
+  {
+    "name": "Subtractive Revelation Theory",
+    "core_claim": "All creative refinement follows a subtractive grain-constrained process: the ideal form pre-exists within the raw substrate, and the practitioner's skill lies in disciplined removal along natural constraint lines. Irreversibility forces forward-committed strategy where vision must precede action.",
+    "mechanism_borrowed_from": "wood-whittling",
+    "domain_applied_to": "code-refactoring",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "wood-whittling",
+    "source_b": "code-refactoring"
+  }
+]

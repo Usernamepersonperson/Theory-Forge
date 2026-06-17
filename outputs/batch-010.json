@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Terminus Accumulation-Release Theory",
+    "core_claim": "All accumulation-release systems follow a universal dynamic where gradual buildup creates internal fracture networks that determine the timing, magnitude, and visibility of sudden discharge events. The release event's character is encoded in the accumulation phase's hidden stress topology, not in the trigger itself.",
+    "mechanism_borrowed_from": "glacier-calving-dynamics",
+    "domain_applied_to": "product-launch-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "glacier-calving-dynamics",
+    "source_b": "product-launch-dynamics"
+  },
+  {
+    "name": "Cognitive Pinball Theory",
+    "core_claim": "ADHD attention operates as a bounded stochastic system where cognitive trajectories follow pinball-like dynamics: thoughts are launched with initial motivational energy, redirected by stimulus-bumpers, and recoverable only at narrow temporal windows via executive-function flippers. Output is not a function of sustained linear focus but of orchestrating high-scoring collision sequences within a tilt-constrained energy budget.",
+    "mechanism_borrowed_from": "pinball-machine-physics",
+    "domain_applied_to": "adhd-attention-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "pinball-machine-physics",
+    "source_b": "adhd-attention-dynamics"
+  },
+  {
+    "name": "Cultural Plume Theory",
+    "core_claim": "Deep structural conditions form fixed innovation plumes that persist in geographic locations. As the broader socioeconomic plate drifts over these plumes, each location experiences a temporary eruption of creative output, then goes dormant, leaving chronologically ordered chains of formerly innovative cities.",
+    "mechanism_borrowed_from": "volcanic-hotspot-theory",
+    "domain_applied_to": "cultural-innovation-geography",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "volcanic-hotspot-theory",
+    "source_b": "cultural-innovation-geography"
+  },
+  {
+    "name": "Living Culture Maintenance Theory",
+    "core_claim": "All living cultures are dissipative systems requiring periodic substrate inputs matched to their metabolic rate. Underfeeding selects for extremophile elements that tolerate scarcity but produce toxic byproducts, while overfeeding dilutes the diversity that gives the culture its functional character.",
+    "mechanism_borrowed_from": "sourdough-starter-ecology",
+    "domain_applied_to": "democratic-maintenance",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "sourdough-starter-ecology",
+    "source_b": "democratic-maintenance"
+  },
+  {
+    "name": "Crease-Zone Duality Theory",
+    "core_claim": "Urban zoning maps and origami crease patterns are isomorphic constraint-satisfaction systems where local fold/zone rules propagate to determine global realizability of 3D form from 2D encodings. A single local change can cascade through the constraint graph to either unlock or collapse the entire structure's feasibility.",
+    "mechanism_borrowed_from": "origami-flat-foldability",
+    "domain_applied_to": "urban-zoning-planning",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "origami-flat-foldability",
+    "source_b": "urban-zoning-planning"
+  },
+  {
+    "name": "Necrophoretic Organizational Theory",
+    "core_claim": "Organizations operate a continuous death-signal detection system where units must actively suppress markers of failure through performative vitality signaling. Units that fail to mask decline markers trigger automated removal processes regardless of actual productivity, creating systematic vulnerability to signal-based misclassification.",
+    "mechanism_borrowed_from": "ant-necrophoresis",
+    "domain_applied_to": "corporate-restructuring",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "ant-necrophoresis",
+    "source_b": "corporate-restructuring"
+  },
+  {
+    "name": "Attentional Divergence Theory",
+    "core_claim": "Any adversarial system operates by engineering a growing gap between the target's mental model and actual state, using calibrated attention sinks to consume cognitive resources on visible decoys while the operative payload executes below the monitoring threshold. The attack succeeds when the target's model-of-reality and reality itself diverge past a critical threshold.",
+    "mechanism_borrowed_from": "stage-magic-misdirection",
+    "domain_applied_to": "cybersecurity-attack-defense",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "stage-magic-misdirection",
+    "source_b": "cybersecurity-attack-defense"
+  },
+  {
+    "name": "Propagation Ecology of Market Entry",
+    "core_claim": "Go-to-market strategies obey the same dispersal-establishment tradeoff that governs plant seed ecology. Each distribution channel is a dispersal vector whose physics determine the reach-conversion frontier. Startups that misalign their seed cost with their chosen vector fail because the vector cannot move the propagule.",
+    "mechanism_borrowed_from": "seed-dispersal-ecology",
+    "domain_applied_to": "startup-go-to-market",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "seed-dispersal-ecology",
+    "source_b": "startup-go-to-market"
+  },
+  {
+    "name": "Affective Wavefront Correction",
+    "core_claim": "Interpersonal communication operates as an adaptive optics system where emotional distortions function as atmospheric turbulence degrading signal fidelity. By deploying empathic sampling and real-time regulatory adjustment, communicators can restore message clarity to near-undistorted levels.",
+    "mechanism_borrowed_from": "adaptive-optics",
+    "domain_applied_to": "interpersonal-communication",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "adaptive-optics",
+    "source_b": "interpersonal-communication"
+  },
+  {
+    "name": "Rotational Centering Theory",
+    "core_claim": "Any dynamic system requiring stable output must first achieve centering -- the alignment of corrective force with the system's axis of rotation. Centering is a prerequisite phase where asymmetry detection and symmetric counter-pressure reduce wobble below a critical threshold, after which the system enters a low-energy shaping regime.",
+    "mechanism_borrowed_from": "pottery-wheel-centering",
+    "domain_applied_to": "mindfulness-meditation",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "pottery-wheel-centering",
+    "source_b": "mindfulness-meditation"
+  },
+  {
+    "name": "Affective Convection Theory",
+    "core_claim": "Interpersonal conflicts operate as thermodynamic convection cells where emotional energy cycles through updraft (escalation) and downdraft (withdrawal) phases. Chronic conflicts function as supercell arguments that sustain themselves when communicative wind shear separates provocation from response.",
+    "mechanism_borrowed_from": "thunderstorm-cell-dynamics",
+    "domain_applied_to": "interpersonal-conflict",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "thunderstorm-cell-dynamics",
+    "source_b": "interpersonal-conflict"
+  },
+  {
+    "name": "Organizational pH Theory",
+    "core_claim": "Team environments have a measurable sentiment pH that follows microbial fermentation dynamics: individual actors emit affective outputs that shift the collective environment, which selects for or against certain actor types. Unbuffered teams converge on toxic or euphoric extremes that reduce functional diversity.",
+    "mechanism_borrowed_from": "fermentation-ph-dynamics",
+    "domain_applied_to": "team-morale-dynamics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fermentation-ph-dynamics",
+    "source_b": "team-morale-dynamics"
+  },
+  {
+    "name": "Stress Cascade Decay Theory",
+    "core_claim": "All stress-transfer systems follow a universal cascade architecture where an initial rupture redistributes stress to coupled subsystems, triggering secondary ruptures whose frequency decays as a power law of elapsed time. The largest secondary event is constrained to a fixed ratio below the primary event's magnitude.",
+    "mechanism_borrowed_from": "earthquake-aftershock-mechanics",
+    "domain_applied_to": "post-trauma-recovery",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "earthquake-aftershock-mechanics",
+    "source_b": "post-trauma-recovery"
+  },
+  {
+    "name": "Capillary Cognition Theory",
+    "core_claim": "Sustained attention operates as a combustion system where motivational interest acts as capillary force, drawing cognitive fuel upward through processing layers until it ignites into conscious experience. Too much fuel smothers the flame, too little starves it, and environmental turbulence disrupts the laminar flow.",
+    "mechanism_borrowed_from": "candle-flame-combustion",
+    "domain_applied_to": "sustained-attention",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "candle-flame-combustion",
+    "source_b": "sustained-attention"
+  },
+  {
+    "name": "Projection Bias Theory",
+    "core_claim": "Every cognitive representation of complex reality functions as a mental projection that systematically preserves certain informational properties while necessarily distorting others. The specific projection a mind adopts encodes the values, priorities, and cultural context of the projector, and the distortions are predictable and systematic.",
+    "mechanism_borrowed_from": "cartographic-projection-theory",
+    "domain_applied_to": "cognitive-bias-research",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "cartographic-projection-theory",
+    "source_b": "cognitive-bias-research"
+  }
+]
