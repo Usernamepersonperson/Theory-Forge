@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Memetic Clonal Selection: Ideational Affinity Maturation",
+    "core_claim": "Immune repertoire diversification follows memetic dynamics where lymphocyte clones function as idea-units competing for antigenic attention, with somatic hypermutation acting as transmission-error variation and clonal expansion as viral resharing within the body's internal communication network.",
+    "mechanism_borrowed_from": "Memetics",
+    "domain_applied_to": "immunology",
+    "mapped_components": {
+      "unit": "Each lymphocyte clone is a 'somameme' — a self-replicating informational unit whose receptor sequence encodes a transmissible recognition pattern",
+      "variation": "Somatic hypermutation in germinal centers maps to memetic mutation during transmission; each B-cell division introduces copying errors in the variable region",
+      "selection": "Antigen binding affinity maps to attentional selection; follicular dendritic cells presenting antigen act as the 'audience' whose engagement determines which clone-memes get amplified",
+      "fitness": "Clone proliferation rate is the immunological copy-count; high-affinity clones achieve viral spread while low-affinity variants fail to propagate",
+      "boundary": "Self/non-self discrimination maps to host-mind and channel boundaries; central tolerance functions as content moderation that purges memes incompatible with the network's identity"
+    },
+    "falsifiable_predictions": [
+      "Germinal center output diversity should exhibit the same heavy-tailed (power-law) distribution seen in meme popularity on social networks, testable via single-cell BCR sequencing of post-vaccination germinal centers.",
+      "Introducing artificial communication bottlenecks (e.g., partially blocking T-follicular-helper cell signaling) should shift clonal selection from affinity-driven to stochastic, measurable as decreased average affinity maturation rate with increased clonal diversity variance."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "memetics",
+    "source_b": "immune-clonal-selection",
+    "similarity": 0.6
+  },
+  {
+    "name": "Tectonic Predator-Prey Dynamics",
+    "core_claim": "Oceanic and continental plates form coupled oscillatory systems analogous to predator-prey dynamics, where subducting oceanic plates (prey) are consumed at convergent boundaries by overriding continental plates (predators), producing cyclical pulses in plate area, velocity, and supercontinent assembly that follow Lotka-Volterra-type equations.",
+    "mechanism_borrowed_from": "Lotka-Volterra Predator-Prey",
+    "domain_applied_to": "geology",
+    "mapped_components": {
+      "unit": "Lithospheric plate typed as oceanic (prey) or continental (predator); population size maps to total plate area of each type",
+      "variation": "Mantle convection and ridge-push forces generate new oceanic crust (prey birth rate), while continental rifting spawns new fragments (predator reproduction enabled by prey consumption)",
+      "selection": "Subduction acts as predation: dense oceanic lithosphere is consumed beneath buoyant continental lithosphere, rate proportional to convergent boundary length × velocity",
+      "fitness": "Plate persistence over geological time, measured as cumulative area-weighted lifespan",
+      "boundary": "Earth's fixed surface area acts as conserved carrying capacity — total oceanic + continental area is constant"
+    },
+    "falsifiable_predictions": [
+      "Total oceanic and continental crust area should show anti-correlated oscillations with a period of 400-700 Myr, with oceanic peaks leading continental aggregation by a quarter-cycle lag (~100-175 Myr), recoverable from zircon age distributions.",
+      "Global mean subduction rate should correlate with the product of total oceanic plate area × total convergent margin length, fitting a bilinear interaction term (R² > 0.6) better than either variable alone."
+    ],
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "predator-prey",
+    "source_b": "plate-tectonics",
+    "similarity": 0.6
+  },
+  {
+    "name": "Dialectical Trinity: Substance Through Sublation",
+    "core_claim": "The three divine persons of Trinitarian theology can be structurally re-derived as a necessary dialectical unfolding where the Father posits the Son as antithesis, and the Spirit emerges as the synthesis that preserves both distinction and unity, such that Trinitarian coherence is the only stable resolution of a self-relating absolute.",
+    "mechanism_borrowed_from": "Hegelian Dialectic",
+    "domain_applied_to": "theology",
+    "mapped_components": {
+      "unit": "Divine person as a moment of absolute self-relation that demands its own negation to become determinate",
+      "variation": "The Son arises as antithesis of the Father by the logical necessity that unbounded self-identity must externalize itself to know itself",
+      "selection": "The Holy Spirit as Aufhebung (sublation) — cancels opposition while preserving distinctness; modalism and tritheism are 'selected out' as incomplete syntheses",
+      "fitness": "Whether the triad achieves fully self-mediated unity — internally differentiated yet non-composite",
+      "boundary": "Creedal formulations function as the logical space constraining which dialectical resolutions count as orthodox"
+    },
+    "falsifiable_predictions": [
+      "Any historically proposed Trinitarian heresy should classify as either premature synthesis (collapsing distinction) or stalled dialectic (refusing sublation) — a survey of the first seven councils should yield 100% classification rate.",
+      "Independent threefold ultimate-reality structures (Trimurti, Neoplatonic triad, Trikaya) should exhibit the same thesis/antithesis/synthesis grammar when formally analyzed — finding one whose internal relations are purely parallel (no generative ordering) falsifies the prediction."
+    ],
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "dialectic",
+    "source_b": "trinity-doctrine",
+    "similarity": 0.6
+  },
+  {
+    "name": "Critical Differentiation Theory",
+    "core_claim": "Cell fate commitment operates as a bona fide phase transition in gene-expression state space, where signaling gradients tune cells to a critical point at which free-energy minimization selects one stable attractor from a symmetry-broken manifold.",
+    "mechanism_borrowed_from": "Phase Transition",
+    "domain_applied_to": "developmental biology",
+    "mapped_components": {
+      "unit": "Individual cell; cell-cell signaling plays the role of nearest-neighbor coupling",
+      "variation": "Stochastic fluctuations in gene expression across uncommitted progenitors, analogous to local order-parameter fluctuations near criticality",
+      "selection": "Morphogen gradients act as external field and temperature control, tuning the free-energy landscape so the pluripotent state becomes unstable at a critical concentration",
+      "fitness": "Tissue-level order parameter — spatial coherence of correctly differentiated cell types, analogous to magnetization",
+      "boundary": "Developmental window maps to quench protocol; tissue geometry shifts the universality class"
+    },
+    "falsifiable_predictions": [
+      "Near commitment, variance and spatial correlation length of lineage markers should diverge following power-law scaling with dimension-dependent critical exponents — 2D epithelia should show Ising-class exponents (nu ≈ 1, gamma ≈ 7/4), 3D organoids mean-field (nu = 0.5, gamma = 1).",
+      "Slowing the signaling-gradient ramp should reduce mis-specified cells following Kibble-Zurek scaling: defect density ~ tau_quench^(-d·nu/(1+z·nu)), testable by comparing fast vs slow differentiation protocols in stem-cell organoids."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "phase-transition",
+    "source_b": "cell-differentiation",
+    "similarity": 0.6
+  },
+  {
+    "name": "MycelialRank: Adaptive Nutrient-Flow Page Ranking",
+    "core_claim": "Web page authority is better modeled as an adaptive resource-routing network where link pathways strengthen or atrophy based on user-traffic gradients, rather than as a static stationary distribution over a fixed graph.",
+    "mechanism_borrowed_from": "Mycelial Resource Routing",
+    "domain_applied_to": "information retrieval",
+    "mapped_components": {
+      "unit": "Web page as hyphal node — a routing junction that both consumes attention and transmits it downstream via outlinks",
+      "variation": "Link pathways undergo growth (new links), fusion (hub pages merging traffic), and pruning (zero-traffic links decay toward zero weight)",
+      "selection": "User click-through streams act as nutrient gradients — pathways carrying more traffic get reinforced with higher edge weight",
+      "fitness": "Throughput centrality: rank proportional to attention-nutrient routed to downstream pages, rewarding connective hubs over dead-end prestige sinks",
+      "boundary": "Topical coherence of link neighborhood (analogous to soil chemistry); presence of high-utility destination pages (host availability)"
+    },
+    "falsifiable_predictions": [
+      "MycelialRank will assign higher scores to high-throughput connector pages compared to classic PageRank, and these will show lower pogo-stick rate when surfaced in search results.",
+      "Link pruning via exponential decay for zero-click links over 90 days will produce higher NDCG@10 on navigational queries versus equally-weighted PageRank, by eliminating spam and stale authority inflation."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mycelial-network",
+    "source_b": "pagerank",
+    "similarity": 0.33
+  },
+  {
+    "name": "Karmic Bubble Theory",
+    "core_claim": "Speculative bubbles accumulate 'market karma' through aggregate trade intentionality — momentum trades generate unwholesome karma that deterministically degrades future price quality, and bubble collapse is the financial equivalent of karmic rebirth into a lower realm.",
+    "mechanism_borrowed_from": "Karma (Theravāda)",
+    "domain_applied_to": "finance",
+    "mapped_components": {
+      "unit": "Intentional trade — each transaction carries karmic charge defined by intention (speculative momentum vs fundamentals-based conviction)",
+      "variation": "Wholesome trades (fundamentals-driven, information-producing) vs unwholesome trades (momentum-chasing, noise-amplifying); ratio constitutes market's karmic balance sheet",
+      "selection": "Moral causation as deterministic feedback: accumulated unwholesome intention compounds invisibly in microstructure (widening spreads, correlation clustering, declining liquidity)",
+      "fitness": "Rebirth quality of market regime: wholesome karma → stable efficient pricing; unwholesome → crash/stagnation proportional to accumulated karmic stock",
+      "boundary": "The recurring boom-bust cycle maps to saṃsāra; perfect informational efficiency = nibbāna (unreachable absorbing state)"
+    },
+    "falsifiable_predictions": [
+      "Markets with higher short-horizon momentum volume (unwholesome karma proxy) will experience greater post-peak drawdowns and longer recovery than markets with equivalent price-deviation but lower momentum share, controlling for leverage.",
+      "The speculative-to-fundamental volume ratio in the 12 months preceding a peak will predict post-crash recovery duration with higher R² than price-to-earnings deviation alone, testable across historical equity and crypto bubbles."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "karma",
+    "source_b": "economic-bubble",
+    "similarity": 0.25
+  },
+  {
+    "name": "The Incompleteness of the Sacred",
+    "core_claim": "Any theological system rich enough to articulate claims about the divine necessarily contains true statements about the divine that cannot be derived from its own axioms, structurally guaranteeing that apophatic residue is not a mystical preference but a formal inevitability.",
+    "mechanism_borrowed_from": "Gödel's Incompleteness",
+    "domain_applied_to": "theology",
+    "mapped_components": {
+      "unit": "Theological proposition (any affirmative or negative claim about the divine)",
+      "variation": "Candidate doctrinal predicates — omnipotence, goodness, simplicity, trinitarian relations, etc.",
+      "selection": "Self-referential audit: when a theology applies its own adequacy criteria to itself, it surfaces claims it can neither affirm nor deny without contradiction",
+      "fitness": "Ratio of coherent expressible truths to necessarily unsayable truths; maximal consistency forces maximal incompleteness",
+      "boundary": "Any theological language expressive enough to predicate attributes of the divine AND quantify over its own predications"
+    },
+    "falsifiable_predictions": [
+      "The number of formally undecidable core doctrines will scale positively with the expressive richness of a tradition's doctrinal language — richer vocabularies exhibit strictly more apophatic retreats, measurable by comparative content analysis.",
+      "A theological system achieving full internal consistency on all affirmative predicates (no paradoxes) will be demonstrably less expressive — covering a strict subset of propositions addressable by a paradox-tolerant sibling formalization."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "godel-incompleteness",
+    "source_b": "apophatic-theology",
+    "similarity": 0.5
+  },
+  {
+    "name": "Swarm Multiplier Economics",
+    "core_claim": "Fiscal stimulus propagates through local spending-interaction rules among heterogeneous agents, producing emergent amplification patterns that can exceed or fall short of the classical Keynesian multiplier depending on the topology of agent spending networks.",
+    "mechanism_borrowed_from": "Swarm Intelligence",
+    "domain_applied_to": "macroeconomics",
+    "mapped_components": {
+      "unit": "Individual economic agent (household, firm) following simple local spending rules based on neighbor signals",
+      "variation": "Heterogeneous response thresholds, spending triggers, and neighbor connectivity, analogous to ant pheromone sensitivity variation",
+      "selection": "Global demand amplification emerges from local cascades: agents spend when enough neighbors signal increased activity, creating chain reactions",
+      "fitness": "Emergent multiplier — ratio of total output change to initial injection — now varies by injection point in the network",
+      "boundary": "Local information only; no central coordination; slack capacity; stable network topology over stimulus period"
+    },
+    "falsifiable_predictions": [
+      "Stimulus injected into densely-connected clusters (urban cores, tight supply chains) will produce 15-40% higher realized multiplier than equivalent stimulus into sparse regions, even controlling for MPC differences.",
+      "Below a critical connectivity threshold, stimulus cascades will fail to propagate and the multiplier collapses discontinuously (phase transition) rather than declining smoothly — testable via regions hit by supply-chain disruptions."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "swarm-intelligence",
+    "source_b": "keynesian-multiplier",
+    "similarity": 0.33
+  }
+]

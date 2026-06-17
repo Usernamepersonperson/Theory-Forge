@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Tectonic Dissonance Theory",
+    "core_claim": "When plates are forced into mechanically incompatible configurations, the system experiences 'tectonic dissonance' resolved through strategies analogous to cognitive dissonance reduction: change one plate's behavior, add a buffering microplate, or diffuse deformation across a broad zone.",
+    "mechanism_borrowed_from": "Cognitive Dissonance",
+    "domain_applied_to": "geology",
+    "mapped_components": {
+      "unit": "Plate boundary segment carrying a kinematic 'commitment' (velocity, rheology, buoyancy)",
+      "variation": "Convection forces generating incompatible boundary conditions between adjacent segments",
+      "selection": "Dissonance-reduction: subduction reversal, microplate creation, or diffuse deformation zone",
+      "fitness": "Dissonance magnitude proportional to boundary importance × geometric inconsistency",
+      "boundary": "Finite spherical surface where all motions are coupled — one plate's change cascades to neighbors"
+    },
+    "falsifiable_predictions": [
+      "Unstable triple junctions reorganize more frequently and produce more microplates than stable ones.",
+      "Continental collisions preferentially resolve via terrane accretion (add consonant element strategy).",
+      "Major plate reorganizations are preceded by rising global geometric mismatch indices."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "cognitive-dissonance",
+    "source_b": "plate-tectonics"
+  },
+  {
+    "name": "Cognitive Queue Architecture",
+    "core_claim": "Queueing systems achieve optimal throughput when jobs are chunked and routed through parallel type-specialized buffers with a centralized dispatcher, mirroring Baddeley's working memory model with its phonological loop, visuospatial sketchpad, and central executive.",
+    "mechanism_borrowed_from": "Working Memory (Baddeley)",
+    "domain_applied_to": "operations research",
+    "mapped_components": {
+      "unit": "Job decomposed into processing chunks fitting within a server's capacity window",
+      "variation": "Parallel specialized buffers (compute-intensive, I/O-bound, mixed) instead of one undifferentiated queue",
+      "selection": "Central executive dispatcher dynamically shifts capacity to most saturated buffer",
+      "fitness": "Aggregate buffer utilization across all parallel queues",
+      "boundary": "Hard per-buffer capacity cap (~4 concurrent jobs) beyond which temporal decay degrades performance"
+    },
+    "falsifiable_predictions": [
+      "Multi-queue + dynamic dispatcher beats single-queue only when job types are heterogeneous.",
+      "Per-buffer cap of ~4 concurrent jobs reduces latency vs uncapped, due to context-switching overhead.",
+      "Dispatcher overload degrades system even with spare buffer capacity (central executive bottleneck)."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "working-memory-baddeley",
+    "source_b": "queueing-theory"
+  },
+  {
+    "name": "Identity-Driven Speciation Theory",
+    "core_claim": "Speciation in peripheral isolates is accelerated by a mechanism analogous to in-group/out-group categorization: small populations rapidly develop phenotypic 'distinctiveness markers' driving assortative mating, reinforcing reproductive isolation before geographic barriers solidify.",
+    "mechanism_borrowed_from": "Social Identity Theory",
+    "domain_applied_to": "evolutionary biology",
+    "mapped_components": {
+      "unit": "Peripheral isolate's collective gene pool as a 'self-concept' defined against the parent population",
+      "variation": "Phenotypic divergence creating recognizable in-group markers (mating calls, plumage, chemical signals)",
+      "selection": "Positive distinctiveness — preferential mating with novel-trait bearers, selecting against hybridization",
+      "fitness": "Species longevity; strong identity markers resist reabsorption upon secondary contact",
+      "boundary": "Minimal isolation suffices — weak barriers trigger rapid differentiation once assortative mating begins"
+    },
+    "falsifiable_predictions": [
+      "Isolates with early conspicuous divergence achieve reproductive isolation faster than those diverging via drift alone.",
+      "Punctuated-origin species show stronger conspecific mate preference than gradually-diverged species.",
+      "Traits under strongest divergent selection are recognition/signaling traits, not ecological adaptations."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "social-identity-theory",
+    "source_b": "punctuated-equilibrium"
+  },
+  {
+    "name": "Learned Market Helplessness",
+    "core_claim": "Prolonged uncontrollable market losses produce generalized investor passivity — participants fail to buy even when fundamentals are favorable, sustaining persistent undervaluation. The explanatory style investors adopt (permanent/pervasive vs temporary/specific) determines recovery speed.",
+    "mechanism_borrowed_from": "Learned Helplessness",
+    "domain_applied_to": "finance",
+    "mapped_components": {
+      "unit": "Investor behavioral posture — action-readiness shaped by prior uncontrollable losses",
+      "variation": "Explanatory style: pessimistic (permanent, pervasive, personal) vs optimistic (temporary, specific, external)",
+      "selection": "Repeated uncontrollable events reinforce action-futility association, generalizing to controllable contexts",
+      "fitness": "Behavioral activation vs passivity; market-level recovery speed toward fundamentals",
+      "boundary": "Perceived uncontrollability, not actual; trusted hedging tools immunize against helplessness"
+    },
+    "falsifiable_predictions": [
+      "After clustered shocks, retail participation declines more than institutional, persisting 18+ months past fundamental recovery signals.",
+      "Pessimistic-explanatory-style investors underperform optimistic ones by measurable margin in 24 months post-trough.",
+      "Controllability cues (circuit breakers, loss-limit tools) accelerate recovery among retail but not institutional participants."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "learned-helplessness-optimism",
+    "source_b": "economic-bubble"
+  },
+  {
+    "name": "Agentic Gradient Compliance",
+    "core_claim": "SGD works via an obedience mechanism: parameters cede local optimization to a centralized gradient authority. Compliance increases with graduated commitment (warm-up) and authority legitimacy (batch size), mirroring Milgram's obedience dynamics.",
+    "mechanism_borrowed_from": "Milgram Obedience",
+    "domain_applied_to": "machine learning",
+    "mapped_components": {
+      "unit": "Individual parameter surrendering local curvature info to aggregate gradient authority",
+      "variation": "Batch size as authority legitimacy — small batches = dubious authority, large = lab-coated Yale experimenter",
+      "selection": "Agentic state — parameters move per global gradient even when locally suboptimal",
+      "fitness": "Loss reduction through collective obedience, not individual optimization",
+      "boundary": "Learning rate as graduated commitment threshold; too high = destructive compliance, too low = resistance"
+    },
+    "falsifiable_predictions": [
+      "Learning rate warm-up is more critical for small-batch (low-legitimacy) than large-batch training.",
+      "Per-parameter veto rights (reject updates increasing local loss) improve generalization at cost of convergence speed.",
+      "Conflicting loss functions reduce effective update magnitude proportional to gradient disagreement, not noise level."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "milgram-obedience",
+    "source_b": "sgd"
+  },
+  {
+    "name": "Distributed Weathering Effect",
+    "core_claim": "Soils subjected to episodic, spaced weathering events develop more mature horizons and higher fertility than continuously weathered soils of equal cumulative intensity, because each resumed episode rebuilds degraded reaction fronts — mirroring how spaced retrieval strengthens memory traces.",
+    "mechanism_borrowed_from": "Spacing Effect",
+    "domain_applied_to": "pedology",
+    "mapped_components": {
+      "unit": "Weathering front within a developing horizon, analogous to a memory trace",
+      "variation": "Temporal distribution of weathering episodes — continuous vs spaced cycles",
+      "selection": "Each resumed episode reactivates passivated surfaces and reopens microfractures more effectively than continuous exposure",
+      "fitness": "Horizon differentiation, clay translocation, nutrient cycling capacity",
+      "boundary": "Sufficient initial mineral reactivity; intervals not so long that cementation blocks reactivation"
+    },
+    "falsifiable_predictions": [
+      "Spaced wetting-drying cycles produce greater clay neoformation than continuous moisture at equal cumulative water input.",
+      "Mediterranean/monsoonal climates show faster profile development per unit precipitation than equatorial constant-rain climates.",
+      "Moderate freeze-thaw frequency (30-60 cycles/year) produces deepest weathering fronts — inverted-U relationship."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "spacing-effect",
+    "source_b": "soil-formation-factors"
+  },
+  {
+    "name": "Defensive Zero-Knowledge",
+    "core_claim": "Zero-knowledge proofs select from a menu of proof strategies analogous to ego defense mechanisms — commitment schemes as repression, simulator proofs as projection, homomorphic commitments as sublimation — each trading computational cost against information leakage.",
+    "mechanism_borrowed_from": "Psychoanalytic Defense Mechanisms",
+    "domain_applied_to": "cryptography",
+    "mapped_components": {
+      "unit": "Prover's private witness facing the anxiety-producing verification demand",
+      "variation": "Menu of proof strategies: repression (commitment), projection (simulator), sublimation (homomorphic), denial (witness-indistinguishable)",
+      "selection": "Choose the strategy minimizing information leakage at lowest computational cost",
+      "fitness": "Short-term: proof accepted, zero knowledge. Long-term: sound under composition",
+      "boundary": "Computational assumptions as unconscious operation boundary — broken assumptions collapse all defenses"
+    },
+    "falsifiable_predictions": [
+      "Under high adversarial pressure, adaptive ZK systems converge toward most expensive but information-minimal strategy.",
+      "Layered proof strategies show diminishing privacy gains per layer but increasing fragility.",
+      "Sublimation strategies (SNARKs) outperform repression strategies (Sigma protocols) in concrete efficiency."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "psychoanalytic-defense-mechanisms",
+    "source_b": "zero-knowledge-proof"
+  },
+  {
+    "name": "Self-Determined Fermentation",
+    "core_claim": "Microbial colonies meeting analogues of autonomy (substrate choice), competence (enzymatic feedback), and relatedness (quorum sensing) shift from opportunistic to robust intrinsic fermentation — controlling conditions suppress this transition like controlling social contexts undermine intrinsic motivation.",
+    "mechanism_borrowed_from": "Self-Determination Theory",
+    "domain_applied_to": "fermentation",
+    "mapped_components": {
+      "unit": "Microbial colony as motivated agent on amotivation-to-intrinsic continuum",
+      "variation": "Metabolic modes from dormant through sugar-exploiting to cooperative lactobacillus metabolism",
+      "selection": "Three microbial needs: substrate accessibility, enzymatic feedback, quorum-sensing integration",
+      "fitness": "Stable pH, complex flavor profiles, long-term colony viability",
+      "boundary": "Excessive salt/temperature/forced anaerobiosis = controlling context suppressing intrinsic fermentation"
+    },
+    "falsifiable_predictions": [
+      "Graduated substrate diversity produces more complex flavors and stable lactobacillus-dominant communities.",
+      "Quorum sensing before anaerobiosis yields faster target pH than immediate strict conditions.",
+      "Abrupt extreme salt shows less metabolite diversity than gradually introduced salt at same final concentration."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "self-determination-theory",
+    "source_b": "lacto-fermentation"
+  },
+  {
+    "name": "Heroic Clonal Selection",
+    "core_claim": "Immune clonal selection follows monomyth narrative logic: naive cell (ordinary world) → antigen encounter (call) → germinal center (ordeal) → affinity maturation (transformation) → memory cell (return with boon). Clones that skip stages produce lower-quality immunity.",
+    "mechanism_borrowed_from": "Campbell's Monomyth",
+    "domain_applied_to": "immunology",
+    "mapped_components": {
+      "unit": "B-cell clone as narrative protagonist traversing a developmental arc",
+      "variation": "V(D)J recombination as ordinary-world endowment determining which call the clone answers",
+      "selection": "Antigen binding as call to adventure; T-cell help as threshold guardian",
+      "fitness": "Somatic hypermutation as ordeal; affinity maturation as boon; memory cell as integrated return",
+      "boundary": "Self-tolerance as refusal-of-return constraint — autoreactive mutants must be eliminated"
+    },
+    "falsifiable_predictions": [
+      "Full germinal-center transit produces higher-affinity, longer-lived memory than extrafollicular shortcuts.",
+      "Interrupting GC at different stages produces distinct failure modes mapping to monomyth stages.",
+      "Autoimmune disease correlates with 'return boundary' failures — fully matured clones escaping tolerance."
+    ],
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "campbells-monomyth",
+    "source_b": "immune-clonal-selection"
+  },
+  {
+    "name": "Red Queen Congestion Hypothesis",
+    "core_claim": "Urban transport exhibits coevolutionary arms races between capacity expansion and demand generation — each investment selects for behavioral counter-adaptations restoring equilibrium congestion, making static capacity solutions as futile as asexual reproduction against evolving parasites.",
+    "mechanism_borrowed_from": "Red Queen Hypothesis",
+    "domain_applied_to": "urban planning",
+    "mapped_components": {
+      "unit": "Road-segment / mode-corridor pair locked in interaction with its latent demand population",
+      "variation": "Arms race: planners (capacity, tolls, transit) vs commuters (route arbitrage, mode shift, relocation)",
+      "selection": "Frequency-dependent: underused capacity attracts demand until equilibrium returns",
+      "fitness": "Effective travel time at equilibrium — constant despite investment (running to stay in place)",
+      "boundary": "Requires intimate land-use/transport coupling; breaks where demand is inelastic"
+    },
+    "falsifiable_predictions": [
+      "Cities with higher modal diversity show lower variance in corridor-level congestion over time.",
+      "Time to return to pre-expansion congestion inversely proportional to land-use zoning flexibility.",
+      "Unpredictable congestion pricing suppresses induced demand longer than fixed-rate pricing."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "red-queen-hypothesis",
+    "source_b": "induced-demand"
+  },
+  {
+    "name": "Computational Friction Theory",
+    "core_claim": "As algorithms scale, accumulated implementation frictions (cache misses, GC pauses, branch mispredictions, I/O variance) degrade theoretical tractability — only simple robust designs maintain complexity-class guarantees in practice, mirroring how Clausewitzian friction degrades ideal military plans.",
+    "mechanism_borrowed_from": "Clausewitz Friction",
+    "domain_applied_to": "computer science",
+    "mapped_components": {
+      "unit": "Algorithm-problem pair in a friction-laden execution environment",
+      "variation": "Cache misses, floating-point drift, GC pauses, memory fragmentation, constant-factor overhead",
+      "selection": "Simple robust algorithms survive deployment; brittle-optimal ones are abandoned despite better big-O",
+      "fitness": "Gap between theoretical complexity class and observed wall-clock tractability",
+      "boundary": "Fog of computation — unknown input distributions, unpredictable system load, opaque hardware"
+    },
+    "falsifiable_predictions": [
+      "Higher implementation complexity → larger observed-to-theoretical runtime ratio as input grows.",
+      "Simple heuristics outperform theoretically superior algorithms more often under increased system friction.",
+      "A measurable friction threshold exists beyond which theoretical optimizations yield zero practical speedup."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "clausewitz-friction",
+    "source_b": "complexity-classes"
+  },
+  {
+    "name": "Trophic Diffusion of Responsibility",
+    "core_claim": "As functionally redundant species within a trophic level increases, each species' per-capita regulatory effect on adjacent levels diminishes — weakening cascade strength exactly as each bystander's felt obligation decreases with group size.",
+    "mechanism_borrowed_from": "Bystander Effect",
+    "domain_applied_to": "ecology",
+    "mapped_components": {
+      "unit": "Species within a trophic level, each a potential 'helper' regulating adjacent levels",
+      "variation": "Number of functionally redundant species sharing the same trophic role",
+      "selection": "Diffusion of regulatory effort — per-capita consumption pressure drops as guild richness increases",
+      "fitness": "Trophic cascade strength: biomass change transmitted across levels",
+      "boundary": "Requires functional redundancy and ecological ambiguity; breaks with keystone dominance"
+    },
+    "falsifiable_predictions": [
+      "Higher-richness predator guilds show lower per-capita prey consumption at same total biomass.",
+      "Removing one species from low-richness guild produces stronger cascade disruption than from high-richness guild.",
+      "High dietary overlap correlates with weaker cascades per unit predator biomass."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "bystander-effect",
+    "source_b": "trophic-cascade"
+  },
+  {
+    "name": "Fractal Prolongation Theory",
+    "core_claim": "Tonal music exhibits strict self-similarity across Schenkerian layers — the same prolongational operations (neighbor, passing, arpeggiation) generate each level from the one below, following a single recursive rule whose iteration depth determines surface complexity, measurable by a fractal-like elaboration dimension.",
+    "mechanism_borrowed_from": "Mandelbrot Self-Similarity",
+    "domain_applied_to": "music theory",
+    "mapped_components": {
+      "unit": "Prolongational span — structural tone + its elaborating events at a given hierarchical level",
+      "variation": "Recursive application of generating rule: same operations at each iteration level",
+      "selection": "Scale-invariant prolongation — voice-leading operations at background reappear at foreground",
+      "fitness": "Fractal prolongational dimension measuring hierarchical complexity and branching uniformity",
+      "boundary": "Tonal harmonic language constrains the generating rule; ~4-6 levels of audible hierarchy"
+    },
+    "falsifiable_predictions": [
+      "Branching ratio of prolongational spans converges to a characteristic constant within a style period.",
+      "Prolongational dimension predicts listener coherence ratings — pieces near style-mean rated most coherent.",
+      "Operation-type distributions are statistically indistinguishable across Schenkerian levels within a piece."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mandelbrot-self-similarity",
+    "source_b": "schenker"
+  },
+  {
+    "name": "Sequential Crisis Nucleation Theory",
+    "core_claim": "Dissipative structures undergo an ordered sequence of critical transitions where each resolution constrains subsequent bifurcation outcomes — systems that skip or fail early stages cannot access high-order structures later, mirroring how Erikson's unresolved stages limit later psychosocial development.",
+    "mechanism_borrowed_from": "Erikson Psychosocial Stages",
+    "domain_applied_to": "non-equilibrium thermodynamics",
+    "mapped_components": {
+      "unit": "Dissipative structure at a specific bifurcation point in its developmental trajectory",
+      "variation": "Binary resolution at each bifurcation: nucleate higher-order structure (virtue) or collapse to trapped state (maladaptation)",
+      "selection": "Adaptive resolution at stage n expands phase space at n+1; maladaptive lock-in restricts it",
+      "fitness": "Cumulative entropy production efficiency across the full bifurcation sequence",
+      "boundary": "Bifurcation sequence invariant for a given system class; boundary conditions shape crisis form, not order"
+    },
+    "falsifiable_predictions": [
+      "Systems failing to establish stable convection at low Rayleigh numbers show reduced repertoire of states at high numbers.",
+      "Incrementally ramped forcing produces higher time-averaged entropy production than direct jumps to high throughput.",
+      "Benard cells with stabilized intermediate patterns develop more coherent turbulence at high Rayleigh numbers."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "erikson-psychosocial-stages",
+    "source_b": "prigogine-dissipative"
+  }
+]

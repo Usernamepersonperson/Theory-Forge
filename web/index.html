@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Theory Forge</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { --bg:#0e1116; --fg:#e6edf3; --mut:#8b949e; --acc:#7ee787;
+          --warn:#f0b84a; --bad:#ff7b72; --card:#161b22; --br:#30363d; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+         background:var(--bg); color:var(--fg); line-height:1.45; }
+  header { padding: 32px 24px 8px; }
+  h1 { margin:0; font-size: 22px; letter-spacing:.5px; }
+  h1 span { color: var(--acc); }
+  p.sub { color: var(--mut); margin: 4px 0 0; font-size: 13px; }
+  main { padding: 16px 24px 80px; max-width: 980px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin: 16px 0; }
+  input, button, select {
+    background:var(--card); color:var(--fg); border:1px solid var(--br);
+    padding: 8px 10px; border-radius:6px; font: inherit;
+  }
+  input { min-width: 180px; }
+  button { cursor:pointer; }
+  button:hover { border-color: var(--acc); color: var(--acc); }
+  button:disabled { opacity:.5; cursor: progress; }
+  label.toggle { color: var(--mut); font-size:12px; display:inline-flex; gap:6px; align-items:center; }
+  .card { background: var(--card); border:1px solid var(--br); border-radius:8px;
+          padding:14px 16px; margin: 12px 0; }
+  .name { font-size: 16px; color: var(--acc); margin: 0 0 6px; }
+  .meta { color: var(--mut); font-size: 12px; }
+  pre { white-space: pre-wrap; word-break: break-word; margin:0; font-size: 13px; }
+  .pair { display:flex; justify-content:space-between; gap:12px; font-size: 13px;
+          padding:6px 0; border-bottom: 1px dashed var(--br); cursor:pointer; }
+  .pair:hover { color: var(--acc); }
+  .sim { color: var(--mut); }
+  .err { color: var(--bad); }
+  .prior { color: var(--warn); font-size: 12px; margin: 4px 0 8px; }
+  datalist { display:none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Theory <span>Forge</span></h1>
+  <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
+</header>
+
+<main>
+  <div class="row">
+    <input id="da" list="domains" placeholder="domain A (e.g. mycology)">
+    <input id="db" list="domains" placeholder="domain B (e.g. economics)">
+    <datalist id="domains"></datalist>
+    <button id="go">collide domains</button>
+    <button id="surprise">surprise me</button>
+    <label class="toggle"><input type="checkbox" id="novel" checked> novel only</label>
+  </div>
+
+  <div id="result"></div>
+
+  <h3 style="margin-top:32px; color:var(--mut); font-size:13px;">top candidate cross-domain pairs</h3>
+  <div id="pairs"></div>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const fmt = (o) => JSON.stringify(o, null, 2);
+
+async function loadDomains() {
+  const r = await fetch('/domains');
+  const ds = await r.json();
+  $('domains').innerHTML = ds.map(d => `<option value="${d}">`).join('');
+}
+
+async function loadPairs() {
+  const novel = $('novel').checked ? 'true' : 'false';
+  const r = await fetch(`/pairs?limit=15&novel_only=${novel}`);
+  const rows = await r.json();
+  $('pairs').innerHTML = rows.map(p => `
+    <div class="pair" data-a="${p.a}" data-b="${p.b}">
+      <span>${p.a_name} <span class="sim">(${p.a_domain})</span>
+        × ${p.b_name} <span class="sim">(${p.b_domain})</span></span>
+      <span class="sim">sim ${p.similarity}</span>
+    </div>
+  `).join('') || `<div class="card meta">no pairs match current filters.</div>`;
+  document.querySelectorAll('.pair').forEach(el =>
+    el.onclick = () => collideIds(el.dataset.a, el.dataset.b));
+}
+
+function render(data) {
+  if (data.error) { $('result').innerHTML = `<div class="card err">${data.error}</div>`; return; }
+  const { a, b, framework, similarity, prior } = data;
+  const priorBlock = prior
+    ? `<div class="prior">⚠ prior collision on record: <b>${prior.label}</b>
+       [${prior.status}] — ${prior.note}</div>` : '';
+  $('result').innerHTML = `
+    <div class="card">
+      <p class="name">${framework.name || '(unnamed framework)'}</p>
+      <p class="meta">${a.name} (${a.domain}) × ${b.name} (${b.domain})
+        ${similarity !== undefined ? `· structural sim ${similarity}` : ''}</p>
+      ${priorBlock}
+      <pre>${fmt(framework)}</pre>
+    </div>`;
+}
+
+async function post(url, body) {
+  const btns = document.querySelectorAll('button');
+  btns.forEach(b => b.disabled = true);
+  $('result').innerHTML = `<div class="card meta">forging…</div>`;
+  try {
+    const r = await fetch(url, { method:'POST',
+      headers:{'Content-Type':'application/json'}, body: JSON.stringify(body) });
+    const data = await r.json();
+    if (!r.ok) { render({ error: data.detail || 'error' }); return; }
+    render(data);
+  } catch (e) { render({ error: String(e) }); }
+  finally { btns.forEach(b => b.disabled = false); }
+}
+
+$('go').onclick = () => post('/collide_domains', {
+  domain_a: $('da').value.trim(),
+  domain_b: $('db').value.trim(),
+  novel_only: $('novel').checked,
+});
+
+function collideIds(a_id, b_id) { post('/collide', { a_id, b_id }); }
+
+$('surprise').onclick = async () => {
+  const novel = $('novel').checked ? 'true' : 'false';
+  const r = await fetch(`/pairs?limit=30&novel_only=${novel}`);
+  const rows = await r.json();
+  if (!rows.length) return;
+  const pick = rows[Math.floor(Math.random() * rows.length)];
+  collideIds(pick.a, pick.b);
+};
+
+$('novel').onchange = loadPairs;
+
+loadDomains();
+loadPairs();
+</script>
+</body>
+</html>

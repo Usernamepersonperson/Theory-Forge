@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+anthropic>=0.40
+# Optional but recommended — enables embedding-based structural similarity.
+# Comment out if you want a smaller install (engine falls back to tag-only).
+sentence-transformers>=2.7
+numpy>=1.26

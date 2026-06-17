@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Cognitive Condensation Theory",
+    "core_claim": "Cooper pair formation is a phase transition analogous to flow state entry: scattered electrons condense into coherent paired states exhibiting zero-resistance transport when challenge-skill balance (phonon coupling at critical temperature) is reached.",
+    "mechanism_borrowed_from": "Flow State",
+    "domain_applied_to": "physics",
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "flow-state",
+    "source_b": "superconductivity"
+  },
+  {
+    "name": "Allostatic Load Theory of Software Degradation",
+    "core_claim": "Software systems accumulate 'allostatic load' through repeated adaptive responses to stressors (deadline patches, scope changes, dependency churn). When cumulative wear exceeds repair capacity, the system enters allostatic overload — a phase transition where failures cascade and incremental fixes accelerate degradation.",
+    "mechanism_borrowed_from": "Allostatic Load",
+    "domain_applied_to": "software engineering",
+    "mapped_components": {
+      "unit": "Software system (codebase + infra + team knowledge) maintaining operational homeostasis",
+      "variation": "Hotfixes, workarounds, expedient coupling, deferred migrations — individually rational, cumulatively corrosive",
+      "selection": "Overload threshold where architectural distortion exceeds team's comprehension/repair capacity",
+      "fitness": "Ratio of intended-change effort to total-change effort (including regression hunting, side effects)",
+      "boundary": "Team resilience (institutional knowledge, test coverage, refactoring culture) and recovery opportunity"
+    },
+    "falsifiable_predictions": [
+      "Systems without maintenance cycles show superlinear (not linear) defect density growth — matching biological allostatic overload.",
+      "Stressor-to-recovery ratio predicts degradation better than absolute stressor volume.",
+      "Stress inoculation (controlled chaos engineering during calm) builds measurably higher crisis resilience.",
+      "Post-overload subsystems accumulate new load faster than never-overloaded equivalents (scarring effect)."
+    ],
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "allostatic-load",
+    "source_b": "software-engineering"
+  },
+  {
+    "name": "Cognitive Compilation Theory",
+    "core_claim": "Compiler optimization restructured as iterative distortion-detection — each IR statement is an 'automatic thought' with possible cognitive distortions (catastrophizing = excessive error paths, overgeneralization = missed specialization), and optimization passes are Socratic questioning testing statements against evidence.",
+    "mechanism_borrowed_from": "CBT Cognitive Model",
+    "domain_applied_to": "compiler design",
+    "mapped_components": {
+      "unit": "IR statement as automatic thought — may or may not be well-adapted to context",
+      "variation": "Code distortions: catastrophizing (excessive checks), black-and-white (no partial eval), overgeneralization (unnecessary polymorphism)",
+      "selection": "Multi-pass analysis as Socratic questioning — liveness, constant propagation, PGO each test against evidence",
+      "fitness": "Reduction in computational maladaptation: fewer instructions, lower latency, eliminated dead code",
+      "boundary": "Requires metacognitive capacity (static analysis infra); dynamic languages need runtime 'therapy' (JIT)"
+    },
+    "falsifiable_predictions": [
+      "Distortion-taxonomy pass ordering achieves equivalent optimization with fewer total passes.",
+      "CBT-inspired hierarchical ordering outperforms random pass scheduling for multi-distortion code regions.",
+      "PGO disproportionately benefits code with high 'overgeneralization' distortion scores."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "cbt-cognitive-model",
+    "source_b": "compiler-design"
+  },
+  {
+    "name": "Regulatory Contact Trace Theory",
+    "core_claim": "Every regulatory interaction between a transcription factor and target gene leaves a detectable molecular trace (epigenetic marks, chromatin remodeling), and the evidentiary value for reconstructing network topology is proportional to trace rarity × persistence — mirroring forensic contact traces.",
+    "mechanism_borrowed_from": "Locard's Exchange Principle",
+    "domain_applied_to": "systems biology",
+    "mapped_components": {
+      "unit": "Regulatory contact event: TF engaging a cis-regulatory element",
+      "variation": "Trace types: histone marks, methylation, pioneer footprints, cofactor residues",
+      "selection": "Every contact leaves a trace; detection depends on assay sensitivity",
+      "fitness": "Evidentiary value = trace rarity × persistence for network reconstruction",
+      "boundary": "Detection sensitivity floor; highly connected hubs create 'contaminated scenes'"
+    },
+    "falsifiable_predictions": [
+      "Rare-TF-regulated genes retain more distinct epigenetic signatures than hub-gene targets.",
+      "Transient TF binding leaves decaying chromatin traces with quantifiable half-lives.",
+      "Trace-rarity-weighted GRN inference outperforms unweighted approaches against gold standards."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "locard-exchange-principle",
+    "source_b": "gene-regulatory-network"
+  },
+  {
+    "name": "Relational Tension Theory of Network Stability",
+    "core_claim": "Actor-networks stabilize or fracture based on relational tension distribution — overtightened connections (coercion) snap, undertightened ones (disengagement) slip, and only balanced tension produces durable assemblages, mirroring how fabric integrity depends on even thread tension.",
+    "mechanism_borrowed_from": "Weaving Tension Dynamics",
+    "domain_applied_to": "sociology",
+    "mapped_components": {
+      "unit": "Actor as thread; warp = incumbent structural actors, weft = newly enrolled cross-cutting actors",
+      "variation": "Tension = asymmetric demands during translation; varies by power differentials and enrollment cost",
+      "selection": "Balanced tension → stable flexible assemblage; imbalanced → overtightened snap or undertightened slip",
+      "fitness": "Network durability — capacity to maintain coherent action across heterogeneous actors over time",
+      "boundary": "Actor material/semiotic properties limit tension tolerance; institutional scaffolding constrains configurations"
+    },
+    "falsifiable_predictions": [
+      "Networks with concentrated obligatory passage points are more brittle upon that actor's defection.",
+      "Coercive enrollment produces 'puckering' — tight core clustering with peripheral detachment.",
+      "Tension-balancing interventions increase network longevity vs unbalanced growth."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "weaving-tension-dynamics",
+    "source_b": "actor-network"
+  },
+  {
+    "name": "Two-Process Model of Economic Cycle Regulation",
+    "core_claim": "GDP is governed by two independent processes: homeostatic spending pressure (Process E, accumulates during contraction) and a structural oscillator (Process K, ~7-10yr credit/policy cycle). Recessions trigger when E falls below K's threshold; performance peaks when E and K are in phase.",
+    "mechanism_borrowed_from": "Two-Process Sleep Model",
+    "domain_applied_to": "macroeconomics",
+    "mapped_components": {
+      "unit": "Aggregate output as 'arousal state' — high GDP = economic wakefulness, recession = sleep",
+      "variation": "Process E (pent-up demand/savings accumulating) + Process K (credit cycle oscillator, ~7-10yr)",
+      "selection": "Recession when E falls below K threshold; recovery when E rebuilds above it",
+      "fitness": "GDP maximized when E and K are in phase; misalignment → stagflation or jobless recovery",
+      "boundary": "MPC determines E accumulation rate; central bank policy acts as 'light exposure' phase-shifting K"
+    },
+    "falsifiable_predictions": [
+      "Prolonged expansions without savings buildup produce deeper recessions when K contracts.",
+      "Counter-cyclical stimulus is most effective early in K's contractionary phase.",
+      "Higher-MPC nations exhibit shorter, more frequent cycles with smaller amplitude."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "two-process-sleep",
+    "source_b": "keynesian-multiplier"
+  },
+  {
+    "name": "Inhibitory Field Settlement Theory",
+    "core_claim": "New settlements nucleate at points of lowest cumulative inhibition from existing centers, producing golden-angle spiral patterns rather than hexagonal grids — yielding more efficient coverage than Christaller's static tiling when growth is sequential.",
+    "mechanism_borrowed_from": "Phyllotaxis",
+    "domain_applied_to": "urban planning",
+    "mapped_components": {
+      "unit": "Settlement as leaf primordium generating an inhibitory field suppressing nearby formation",
+      "variation": "Inhibitory fields of different radii scaled by settlement order",
+      "selection": "New settlements at lowest cumulative inhibition — where unmet demand is greatest",
+      "fitness": "Minimized travel distance + maximized non-overlapping coverage",
+      "boundary": "Requires sequential founding, continuous demand surface; linear infrastructure distorts fields"
+    },
+    "falsifiable_predictions": [
+      "On uniform terrain, consecutive settlement angular separations cluster near 137.5° ± 15°.",
+      "Linear infrastructure collapses spiral patterns into bilateral symmetry.",
+      "Nearest-to-second-nearest neighbor distance ratio approximates golden ratio (1.618)."
+    ],
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "phyllotaxis",
+    "source_b": "central-place-theory"
+  },
+  {
+    "name": "Effort-Qualified Turbulence (EQT)",
+    "core_claim": "Turbulent flow structures classified by four Laban-like effort factors: Weight (momentum flux), Time (acceleration profile), Space (vorticity alignment), Flow (strain constraint). The combinatorial state determines each parcel's role in the turbulent cascade.",
+    "mechanism_borrowed_from": "Laban Effort",
+    "domain_applied_to": "fluid dynamics",
+    "mapped_components": {
+      "unit": "Coherent fluid parcel (eddy/vortex tube) characterized by effort combination",
+      "variation": "Four factors: Weight=momentum flux, Time=acceleration, Space=vorticity-strain alignment, Flow=constraint",
+      "selection": "Reynolds number governs which combinations dominate; low Re = sustained-light-direct-bound (laminar)",
+      "fitness": "Effort combination predicts contribution to dissipation and mixing efficiency",
+      "boundary": "Viscosity/density set achievable range; boundary geometry constrains near-wall combinations"
+    },
+    "falsifiable_predictions": [
+      "Sudden-strong-indirect-free parcels account for >60% of dissipation despite <25% of volume.",
+      "Sustained-light-direct-bound fraction crosses 50% near critical Re — new transition diagnostic.",
+      "Effort class distribution shows universal wall-normal stratification in wall units."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "laban-effort",
+    "source_b": "navier-stokes"
+  },
+  {
+    "name": "Inclusive Fitness Theory of Open Source",
+    "core_claim": "Developers invest disproportionate effort in open source when 'relatedness' (shared dependency graph, employer, ecosystem) × benefit to recipients > cost — mirroring Hamilton's rB > C rule for eusocial altruism.",
+    "mechanism_borrowed_from": "Hamilton's Rule",
+    "domain_applied_to": "software engineering",
+    "mapped_components": {
+      "unit": "Developer as organism with finite time contributing to projects",
+      "variation": "Relatedness = shared org, dependency proximity, ecosystem overlap, personal use",
+      "selection": "Contributions sustained when r × B > C; developers triage toward high-r projects",
+      "fitness": "Inclusive fitness = direct career gains + Σ(r_i × B_i) across downstream beneficiaries",
+      "boundary": "Requires kin recognition — visible dependency graphs, community channels, employer signals"
+    },
+    "falsifiable_predictions": [
+      "Projects where contributors are direct users sustain higher per-capita contribution rates.",
+      "Contribution intensity correlates with dependency proximity (1-hop > 2-hop).",
+      "Loss of community infrastructure causes contribution collapse disproportionate to quality changes.",
+      "Corporate OSS programs show eusocial 'worker caste' patterns: high effort, low defection, fork suppression."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "eusociality-hamiltons-rule",
+    "source_b": "open-source"
+  },
+  {
+    "name": "Stellar Prepotency Theory",
+    "core_claim": "Stars follow a strict hierarchical fusion sequence mirroring Maslow's prepotency: each burning stage is a 'need level' that must be exhausted before the next activates, with stellar self-actualization defined as maximum nucleosynthetic complexity permitted by mass.",
+    "mechanism_borrowed_from": "Maslow's Hierarchy",
+    "domain_applied_to": "astrophysics",
+    "mapped_components": {
+      "unit": "Star as motivated system 'seeking' equilibrium through sequential fusion",
+      "variation": "Five fusion levels: H-burning (physiological), He (safety), C/Ne (belonging), O/Si (esteem), supernova r-process (self-actualization)",
+      "selection": "Prepotency: lighter fuel must be exhausted and core must contract to next Coulomb barrier threshold",
+      "fitness": "Maximum nucleosynthetic complexity achieved — supernova = full self-actualization",
+      "boundary": "Initial mass determines highest accessible level, like environmental constraints in Maslow"
+    },
+    "falsifiable_predictions": [
+      "No star ignites heavier fusion while significant lighter fuel remains in core (strict prepotency).",
+      "Peak stellar 'flourishing' (longevity × element diversity) at intermediate mass ~8-25 solar masses.",
+      "Binary-stripped stars show truncated nucleosynthetic output vs isolated stars of same initial mass."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "maslow-hierarchy",
+    "source_b": "stellar-evolution"
+  },
+  {
+    "name": "Entangled Intentionality Theory",
+    "core_claim": "Entangled particles function as if each maintains a 'mental model' of its partner's measurement context — Bell violations correspond to second-order intentionality exceeding the first-order (local hidden variable) ceiling, bounded by a no-communication constraint analogous to cognitive load limits on recursive mentalizing.",
+    "mechanism_borrowed_from": "Theory of Mind",
+    "domain_applied_to": "quantum mechanics",
+    "mapped_components": {
+      "unit": "Entangled pair as mutual-modeling dyad",
+      "variation": "Measurement basis choice as perspective-taking frame",
+      "selection": "Supraclassical correlations require at least second-order intentionality (modeling what the other models)",
+      "fitness": "Bell violation degree as 'social competence'; Tsirelson bound = perfect mutual modeling",
+      "boundary": "No-communication theorem as cognitive load ceiling — correlations can't become a channel"
+    },
+    "falsifiable_predictions": [
+      "N-party entanglement decoherence scales like N-agent recursive belief difficulty.",
+      "Partial decoherence defaults to first-order correlations (Bell-satisfying), not uniform degradation.",
+      "Weak measurements show contextual updating consistent with Bayesian belief revision."
+    ],
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "theory-of-mind",
+    "source_b": "quantum-entanglement"
+  },
+  {
+    "name": "Staged Consensus Maturation",
+    "core_claim": "Blockchain nodes undergo invariant developmental stages (reactive sync → symbolic validation → rule-based verification → formal reasoning) driven by disequilibrium, and no stage can be skipped without compromising fault tolerance — mirroring Piaget's cognitive development.",
+    "mechanism_borrowed_from": "Piaget's Stages",
+    "domain_applied_to": "distributed systems",
+    "mapped_components": {
+      "unit": "Node's consensus schema — internal model of valid chain state",
+      "variation": "Four stages: sensorimotor (sync-respond), preoperational (symbolic but no reversibility), concrete (rule-based verification), formal (hypothetical reasoning about partitions)",
+      "selection": "Disequilibrium from forks/Byzantine messages forces schema accommodation or fork-off",
+      "fitness": "Finality depth, reorg resilience, BFT threshold — increase with stage",
+      "boundary": "Minimum observation history and computational capacity; stages build on prior structures"
+    },
+    "falsifiable_predictions": [
+      "Nodes given full logic but denied raw block-processing experience show higher consensus failure rates.",
+      "Stage-2-only networks show characteristic 'egocentric forking' at predictable rates.",
+      "Time-to-finality improves in discrete jumps (stage transitions), not continuously."
+    ],
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "piaget-stages",
+    "source_b": "blockchain-consensus"
+  },
+  {
+    "name": "Immune Reciprocity Theory",
+    "core_claim": "Immune clonal selection operates as a gift economy: APCs 'gift' antigen to lymphocytes creating reciprocal obligation to mount effector response. Non-reciprocation = anergy (social death). System coherence requires continuous signal circulation — hoarding (sequestration) destroys integrity.",
+    "mechanism_borrowed_from": "Gift Economy (Mauss)",
+    "domain_applied_to": "immunology",
+    "mapped_components": {
+      "unit": "Costimulatory exchange event between APC and lymphocyte",
+      "variation": "Immediate reciprocity (innate), deferred (adaptive clonal expansion), generalized (bystander/trained immunity)",
+      "selection": "Triple obligation: give (APCs present), receive (lymphocytes engage), reciprocate (effector differentiation)",
+      "fitness": "Affinity maturation as status through generosity — highest reciprocators gain highest affinity",
+      "boundary": "Self-tolerance as hoarding prohibition; autoimmunity = gift economy collapse"
+    },
+    "falsifiable_predictions": [
+      "Restoring costimulation after prolonged blockade fails to reactivate same clones (irreversible social death).",
+      "B cell antigen-presentation capacity predicts GC selection beyond affinity alone.",
+      "Immune-privileged tissue transplants trigger disproportionately severe responses (hoarding taboo violation).",
+      "Trained immunity duration correlates with tissue cellularity and APC density."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "gift-economy-mauss",
+    "source_b": "immune-clonal-selection"
+  },
+  {
+    "name": "SSLAM Theory of Psychotherapy",
+    "core_claim": "Psychotherapy is dual-estimation: each intervention simultaneously updates the patient's map (beliefs, schemas) AND their pose (self-concept, felt position). Stagnation occurs when only one updates — insight without relocation, or behavioral change without map revision. Breakthroughs are loop-closure events.",
+    "mechanism_borrowed_from": "SLAM (Robotics)",
+    "domain_applied_to": "psychotherapy",
+    "mapped_components": {
+      "unit": "Patient's self-model decomposed into map (internalized schemas) and pose (felt identity/position)",
+      "variation": "Therapeutic interventions as noisy sensor readings from heterogeneous modalities",
+      "selection": "Bayesian update weighted by therapist calibration; insight = loop-closure globally correcting drift",
+      "fitness": "Entropy reduction across both map and pose simultaneously; accurate real-world navigation",
+      "boundary": "Therapeutic alliance as odometry baseline; patient readiness as initialization problem"
+    },
+    "falsifiable_predictions": [
+      "Map-only or pose-only therapies show higher relapse than coupled-update approaches.",
+      "Breakthrough magnitude scales with temporal distance since original mapping (loop-closure size).",
+      "Successfully repaired alliance ruptures produce larger gains than unruptured alliances.",
+      "Most-impactful sessions are those where both self-concept clarity and belief coherence shift simultaneously."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "slam-robotics",
+    "source_b": "psychotherapy"
+  },
+  {
+    "name": "Fixed-Point Negotiation Theorem",
+    "core_claim": "In any negotiation with compact convex proposal space and continuous response functions, at least one self-consistent agreement must exist — a proposal that reproduces itself under all parties' best-responses. Discontinuities (ultimatums, walkouts) destroy this guarantee.",
+    "mechanism_borrowed_from": "Brouwer Fixed-Point Theorem",
+    "domain_applied_to": "negotiation theory",
+    "mapped_components": {
+      "unit": "Composite proposal vector in shared agreement space",
+      "variation": "Iterated proposal-counterproposal as continuous self-map",
+      "selection": "Fixed point where every party's best-response reproduces the original proposal",
+      "fitness": "Pareto efficiency of the fixed-point agreement",
+      "boundary": "Convexity (blendable issues), compactness (bounded BATNAs), continuity (no ultimatums)"
+    },
+    "falsifiable_predictions": [
+      "Continuously divisible issues converge to agreement more reliably than binary choices.",
+      "Introducing ultimatums into smooth negotiations increases impasse rates.",
+      "Mediator interventions that smooth response functions increase agreement rates.",
+      "High-sensitivity (near-discontinuous) response functions predict impasse independent of Pareto surplus."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "brouwer-fixed-point",
+    "source_b": "negotiation"
+  }
+]

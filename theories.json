@@ -1,0 +1,4183 @@
+[
+  {
+    "id": "natural-selection",
+    "name": "Natural Selection",
+    "domain": "biology",
+    "unit": "organism / gene",
+    "variation": "random mutation, recombination",
+    "selection": "differential survival under environmental pressure",
+    "fitness": "reproductive success",
+    "boundary": "heritability, finite resources, time",
+    "tags": [
+      "variation",
+      "selection",
+      "replication",
+      "scarcity",
+      "feedback",
+      "agents"
+    ]
+  },
+  {
+    "id": "market-competition",
+    "name": "Market Competition",
+    "domain": "economics",
+    "unit": "firm",
+    "variation": "strategy, product, pricing experiments",
+    "selection": "consumer demand under scarcity",
+    "fitness": "profit / market share",
+    "boundary": "regulation, capital, information asymmetry",
+    "tags": [
+      "variation",
+      "selection",
+      "scarcity",
+      "feedback",
+      "agents"
+    ]
+  },
+  {
+    "id": "sgd",
+    "name": "Stochastic Gradient Descent",
+    "domain": "machine learning",
+    "unit": "parameter vector",
+    "variation": "noisy gradient step on a minibatch",
+    "selection": "loss function decreases",
+    "fitness": "negative loss",
+    "boundary": "learning rate, batch size, loss landscape",
+    "tags": [
+      "variation",
+      "selection",
+      "feedback",
+      "optimization",
+      "noise"
+    ]
+  },
+  {
+    "id": "thermodynamics-2nd",
+    "name": "Second Law of Thermodynamics",
+    "domain": "physics",
+    "unit": "microstate",
+    "variation": "molecular collisions",
+    "selection": "states evolve toward higher multiplicity",
+    "fitness": "entropy (log of microstate count)",
+    "boundary": "closed system, no external work",
+    "tags": [
+      "entropy",
+      "irreversibility",
+      "statistics",
+      "ensemble"
+    ]
+  },
+  {
+    "id": "shannon-entropy",
+    "name": "Information Entropy",
+    "domain": "information theory",
+    "unit": "symbol from an alphabet",
+    "variation": "message draws from a distribution",
+    "selection": "encoding minimizes expected length",
+    "fitness": "negative expected code length",
+    "boundary": "source distribution, channel capacity",
+    "tags": [
+      "entropy",
+      "statistics",
+      "encoding",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "predator-prey",
+    "name": "Lotka-Volterra Predator-Prey",
+    "domain": "ecology",
+    "unit": "population",
+    "variation": "birth and death rates",
+    "selection": "coupled growth equations",
+    "fitness": "population size over time",
+    "boundary": "closed two-species system",
+    "tags": [
+      "feedback",
+      "oscillation",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "memetics",
+    "name": "Memetics",
+    "domain": "sociology",
+    "unit": "meme (idea unit)",
+    "variation": "mutation in transmission",
+    "selection": "attention and reshare",
+    "fitness": "copy count",
+    "boundary": "host minds, communication channels",
+    "tags": [
+      "variation",
+      "selection",
+      "replication",
+      "transmission"
+    ]
+  },
+  {
+    "id": "bayes",
+    "name": "Bayesian Updating",
+    "domain": "statistics",
+    "unit": "hypothesis",
+    "variation": "prior probabilities",
+    "selection": "likelihood of observed evidence",
+    "fitness": "posterior probability",
+    "boundary": "hypothesis space, evidence stream",
+    "tags": [
+      "belief",
+      "feedback",
+      "uncertainty",
+      "update"
+    ]
+  },
+  {
+    "id": "free-energy-principle",
+    "name": "Free Energy Principle",
+    "domain": "neuroscience",
+    "unit": "self-organizing system",
+    "variation": "internal model predictions",
+    "selection": "minimize prediction error",
+    "fitness": "negative variational free energy",
+    "boundary": "Markov blanket separating system from environment",
+    "tags": [
+      "prediction",
+      "feedback",
+      "uncertainty",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "supply-demand",
+    "name": "Supply and Demand Equilibrium",
+    "domain": "economics",
+    "unit": "good / price",
+    "variation": "quantity offered, quantity desired",
+    "selection": "price clears the market",
+    "fitness": "market-clearing price",
+    "boundary": "rational agents, no externalities",
+    "tags": [
+      "equilibrium",
+      "feedback",
+      "scarcity",
+      "agents"
+    ]
+  },
+  {
+    "id": "punctuated-equilibrium",
+    "name": "Punctuated Equilibrium",
+    "domain": "evolutionary biology",
+    "unit": "species",
+    "variation": "stasis interrupted by rapid speciation",
+    "selection": "environmental shock",
+    "fitness": "lineage persistence",
+    "boundary": "geological time, isolated populations",
+    "tags": [
+      "stasis",
+      "shock",
+      "phase-transition",
+      "selection"
+    ]
+  },
+  {
+    "id": "phase-transition",
+    "name": "Phase Transition",
+    "domain": "statistical physics",
+    "unit": "interacting particle",
+    "variation": "local order parameter",
+    "selection": "free-energy minimization at critical point",
+    "fitness": "order parameter",
+    "boundary": "temperature, coupling strength, dimensionality",
+    "tags": [
+      "phase-transition",
+      "criticality",
+      "emergence",
+      "coupling"
+    ]
+  },
+  {
+    "id": "kuhn-paradigm",
+    "name": "Kuhnian Paradigm Shifts",
+    "domain": "philosophy of science",
+    "unit": "research community",
+    "variation": "anomalies accumulate",
+    "selection": "crisis triggers paradigm replacement",
+    "fitness": "explanatory coverage",
+    "boundary": "scientific community norms",
+    "tags": [
+      "stasis",
+      "shock",
+      "phase-transition",
+      "belief"
+    ]
+  },
+  {
+    "id": "viral-spread",
+    "name": "SIR Epidemic Model",
+    "domain": "epidemiology",
+    "unit": "individual host",
+    "variation": "contact rate, infection probability",
+    "selection": "transmission exceeds recovery",
+    "fitness": "basic reproduction number R0",
+    "boundary": "well-mixed population",
+    "tags": [
+      "transmission",
+      "feedback",
+      "threshold",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "karma",
+    "name": "Karma (Theravāda)",
+    "domain": "theology",
+    "unit": "intentional act",
+    "variation": "wholesome vs unwholesome intention",
+    "selection": "moral law of cause and effect",
+    "fitness": "rebirth quality",
+    "boundary": "cycle of saṃsāra",
+    "tags": [
+      "causality",
+      "feedback",
+      "moral-weight",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "dialectic",
+    "name": "Hegelian Dialectic",
+    "domain": "philosophy",
+    "unit": "concept / thesis",
+    "variation": "antithesis arises in opposition",
+    "selection": "synthesis resolves contradiction",
+    "fitness": "completeness of the resulting concept",
+    "boundary": "rational discourse, history",
+    "tags": [
+      "contradiction",
+      "synthesis",
+      "phase-transition",
+      "belief"
+    ]
+  },
+  {
+    "id": "niche-construction",
+    "name": "Niche Construction",
+    "domain": "ecology",
+    "unit": "organism + environment",
+    "variation": "organisms modify their environment",
+    "selection": "modified environment alters selection pressure",
+    "fitness": "co-evolved persistence",
+    "boundary": "ecosystem feedback loops",
+    "tags": [
+      "feedback",
+      "co-evolution",
+      "self-organization",
+      "coupling"
+    ]
+  },
+  {
+    "id": "apophatic-theology",
+    "name": "Apophatic (Negative) Theology",
+    "domain": "theology",
+    "unit": "claim about the divine",
+    "variation": "candidate predicates",
+    "selection": "reject any predicate that limits",
+    "fitness": "residue of unsayable truth",
+    "boundary": "human language",
+    "tags": [
+      "negation",
+      "boundary",
+      "belief",
+      "limit"
+    ]
+  },
+  {
+    "id": "minimum-description-length",
+    "name": "Minimum Description Length",
+    "domain": "information theory",
+    "unit": "model + data encoding",
+    "variation": "candidate models",
+    "selection": "shortest total code wins",
+    "fitness": "negative description length",
+    "boundary": "encoding scheme, universal prior",
+    "tags": [
+      "encoding",
+      "uncertainty",
+      "selection",
+      "compression"
+    ]
+  },
+  {
+    "id": "mycelial-network",
+    "name": "Mycelial Resource Routing",
+    "domain": "mycology",
+    "unit": "hyphal segment",
+    "variation": "branch growth, fusion, pruning",
+    "selection": "nutrient gradient reinforcement",
+    "fitness": "throughput of nutrients to host trees",
+    "boundary": "soil chemistry, host availability",
+    "tags": [
+      "network",
+      "feedback",
+      "self-organization",
+      "routing"
+    ]
+  },
+  {
+    "id": "hebbian-learning",
+    "name": "Hebbian Learning",
+    "domain": "neuroscience",
+    "unit": "synapse",
+    "variation": "correlated pre/post firing",
+    "selection": "co-active synapses strengthen",
+    "fitness": "synaptic weight",
+    "boundary": "biological constraints, homeostasis",
+    "tags": [
+      "feedback",
+      "self-organization",
+      "update",
+      "coupling"
+    ]
+  },
+  {
+    "id": "reinforcement-learning",
+    "name": "Reinforcement Learning",
+    "domain": "machine learning",
+    "unit": "policy",
+    "variation": "action exploration",
+    "selection": "reward-weighted updates",
+    "fitness": "expected return",
+    "boundary": "Markov decision process, discount factor",
+    "tags": [
+      "feedback",
+      "update",
+      "optimization",
+      "agents",
+      "noise"
+    ]
+  },
+  {
+    "id": "immune-clonal-selection",
+    "name": "Clonal Selection (Immunology)",
+    "domain": "immunology",
+    "unit": "lymphocyte clone",
+    "variation": "somatic hypermutation",
+    "selection": "antigen binding affinity",
+    "fitness": "clone proliferation",
+    "boundary": "self/non-self discrimination",
+    "tags": [
+      "variation",
+      "selection",
+      "replication",
+      "update"
+    ]
+  },
+  {
+    "id": "behaviorism-conditioning",
+    "name": "Operant Conditioning",
+    "domain": "psychology",
+    "unit": "behavior",
+    "variation": "emitted responses",
+    "selection": "reinforcement vs punishment",
+    "fitness": "response frequency",
+    "boundary": "organism, contingency schedule",
+    "tags": [
+      "feedback",
+      "update",
+      "selection",
+      "agents"
+    ]
+  },
+  {
+    "id": "capital-accumulation",
+    "name": "Marxist Capital Accumulation",
+    "domain": "political economy",
+    "unit": "capital stock",
+    "variation": "reinvestment of surplus value",
+    "selection": "competition forces accumulation",
+    "fitness": "capital growth rate",
+    "boundary": "labor supply, crisis tendencies",
+    "tags": [
+      "feedback",
+      "scarcity",
+      "agents",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "genetic-drift",
+    "name": "Genetic Drift",
+    "domain": "population genetics",
+    "unit": "allele",
+    "variation": "random sampling each generation",
+    "selection": "none (neutral)",
+    "fitness": "allele frequency",
+    "boundary": "finite population, no mutation",
+    "tags": [
+      "noise",
+      "statistics",
+      "ensemble",
+      "replication"
+    ]
+  },
+  {
+    "id": "random-walk",
+    "name": "Random Walk",
+    "domain": "probability",
+    "unit": "step",
+    "variation": "i.i.d. increments",
+    "selection": "none",
+    "fitness": "position distribution",
+    "boundary": "step distribution, time horizon",
+    "tags": [
+      "noise",
+      "statistics",
+      "ensemble",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "diffusion",
+    "name": "Diffusion",
+    "domain": "physics",
+    "unit": "particle",
+    "variation": "random microscopic motion",
+    "selection": "concentration gradient drives net flux",
+    "fitness": "flux toward equilibrium",
+    "boundary": "medium, temperature",
+    "tags": [
+      "noise",
+      "ensemble",
+      "equilibrium",
+      "dynamics",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "keynesian-multiplier",
+    "name": "Keynesian Multiplier",
+    "domain": "macroeconomics",
+    "unit": "spending unit",
+    "variation": "injection of demand",
+    "selection": "propagates through marginal propensity to consume",
+    "fitness": "output amplification",
+    "boundary": "slack capacity, closed economy",
+    "tags": [
+      "feedback",
+      "amplification",
+      "dynamics",
+      "coupling"
+    ]
+  },
+  {
+    "id": "general-relativity",
+    "name": "General Relativity",
+    "domain": "physics",
+    "unit": "spacetime event",
+    "variation": "matter-energy distribution",
+    "selection": "geodesics minimize action",
+    "fitness": "curvature satisfying Einstein equations",
+    "boundary": "smooth manifold, classical limit",
+    "tags": [
+      "optimization",
+      "geometry",
+      "field",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "least-action",
+    "name": "Principle of Least Action",
+    "domain": "physics",
+    "unit": "trajectory",
+    "variation": "candidate paths",
+    "selection": "action extremized",
+    "fitness": "stationary action",
+    "boundary": "smooth Lagrangian, boundary conditions",
+    "tags": [
+      "optimization",
+      "selection",
+      "variation",
+      "field"
+    ]
+  },
+  {
+    "id": "quantum-superposition",
+    "name": "Quantum Superposition",
+    "domain": "quantum mechanics",
+    "unit": "state vector",
+    "variation": "linear combinations of basis states",
+    "selection": "measurement collapses to eigenstate with Born probability",
+    "fitness": "observed eigenvalue",
+    "boundary": "unitary evolution, decoherence",
+    "tags": [
+      "statistics",
+      "ensemble",
+      "uncertainty",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "decoherence",
+    "name": "Quantum Decoherence",
+    "domain": "quantum mechanics",
+    "unit": "superposed state",
+    "variation": "environmental entanglement",
+    "selection": "off-diagonal density matrix elements decay",
+    "fitness": "effective classicality",
+    "boundary": "system-environment coupling",
+    "tags": [
+      "irreversibility",
+      "coupling",
+      "ensemble",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "inflation-cosmology",
+    "name": "Cosmic Inflation",
+    "domain": "cosmology",
+    "unit": "region of space",
+    "variation": "quantum fluctuations of inflaton",
+    "selection": "exponential expansion stretches modes",
+    "fitness": "density perturbation spectrum",
+    "boundary": "early universe, inflaton potential",
+    "tags": [
+      "amplification",
+      "noise",
+      "phase-transition",
+      "field"
+    ]
+  },
+  {
+    "id": "plate-tectonics",
+    "name": "Plate Tectonics",
+    "domain": "geology",
+    "unit": "lithospheric plate",
+    "variation": "mantle convection",
+    "selection": "density and buoyancy drive motion",
+    "fitness": "plate trajectory",
+    "boundary": "Earth thermal budget",
+    "tags": [
+      "feedback",
+      "coupling",
+      "dynamics",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "climate-feedback",
+    "name": "Climate Feedback Loops",
+    "domain": "climatology",
+    "unit": "climate variable",
+    "variation": "perturbation in forcing",
+    "selection": "amplifying or damping response",
+    "fitness": "equilibrium sensitivity",
+    "boundary": "radiative budget, ocean inertia",
+    "tags": [
+      "feedback",
+      "amplification",
+      "coupling",
+      "threshold"
+    ]
+  },
+  {
+    "id": "trophic-cascade",
+    "name": "Trophic Cascade",
+    "domain": "ecology",
+    "unit": "trophic level",
+    "variation": "top predator perturbation",
+    "selection": "propagates down the food web",
+    "fitness": "abundance ratios across levels",
+    "boundary": "food web topology",
+    "tags": [
+      "feedback",
+      "coupling",
+      "amplification",
+      "network"
+    ]
+  },
+  {
+    "id": "prisoners-dilemma",
+    "name": "Iterated Prisoner's Dilemma",
+    "domain": "game theory",
+    "unit": "strategy",
+    "variation": "defect / cooperate",
+    "selection": "payoffs determine reproduction",
+    "fitness": "average payoff",
+    "boundary": "finite or infinite horizon, noise",
+    "tags": [
+      "agents",
+      "selection",
+      "feedback",
+      "variation"
+    ]
+  },
+  {
+    "id": "evolutionary-stable-strategy",
+    "name": "Evolutionarily Stable Strategy",
+    "domain": "game theory",
+    "unit": "strategy in a population",
+    "variation": "mutant strategies",
+    "selection": "resists invasion by rare mutants",
+    "fitness": "payoff against population mix",
+    "boundary": "infinite well-mixed population",
+    "tags": [
+      "selection",
+      "stasis",
+      "equilibrium",
+      "agents"
+    ]
+  },
+  {
+    "id": "central-limit",
+    "name": "Central Limit Theorem",
+    "domain": "statistics",
+    "unit": "sum of i.i.d. random variables",
+    "variation": "sample draws",
+    "selection": "normalization by √n",
+    "fitness": "convergence to normal",
+    "boundary": "finite variance, independence",
+    "tags": [
+      "statistics",
+      "ensemble",
+      "noise",
+      "emergence"
+    ]
+  },
+  {
+    "id": "power-law",
+    "name": "Power Law Distributions",
+    "domain": "complexity",
+    "unit": "event size",
+    "variation": "preferential attachment or multiplicative noise",
+    "selection": "rich-get-richer dynamics",
+    "fitness": "event frequency",
+    "boundary": "open-ended growth, no cutoff",
+    "tags": [
+      "amplification",
+      "emergence",
+      "statistics",
+      "network"
+    ]
+  },
+  {
+    "id": "preferential-attachment",
+    "name": "Preferential Attachment",
+    "domain": "network science",
+    "unit": "node",
+    "variation": "new edges arrive",
+    "selection": "high-degree nodes preferred",
+    "fitness": "degree",
+    "boundary": "growing network",
+    "tags": [
+      "amplification",
+      "network",
+      "feedback",
+      "emergence"
+    ]
+  },
+  {
+    "id": "small-world",
+    "name": "Small-World Networks",
+    "domain": "network science",
+    "unit": "node + edge",
+    "variation": "random rewiring of regular lattice",
+    "selection": "short path length, high clustering",
+    "fitness": "average path length",
+    "boundary": "finite node count",
+    "tags": [
+      "network",
+      "topology",
+      "emergence",
+      "coupling"
+    ]
+  },
+  {
+    "id": "pagerank",
+    "name": "PageRank",
+    "domain": "information retrieval",
+    "unit": "web page",
+    "variation": "incoming link distribution",
+    "selection": "stationary distribution of random surfer",
+    "fitness": "rank score",
+    "boundary": "directed graph, damping factor",
+    "tags": [
+      "network",
+      "feedback",
+      "routing",
+      "ensemble"
+    ]
+  },
+  {
+    "id": "max-entropy-inference",
+    "name": "Maximum Entropy Inference",
+    "domain": "statistics",
+    "unit": "probability distribution",
+    "variation": "distributions consistent with constraints",
+    "selection": "highest entropy chosen",
+    "fitness": "Shannon entropy under constraints",
+    "boundary": "known moments / constraints",
+    "tags": [
+      "entropy",
+      "selection",
+      "uncertainty",
+      "statistics"
+    ]
+  },
+  {
+    "id": "variational-inference",
+    "name": "Variational Inference",
+    "domain": "machine learning",
+    "unit": "approximating distribution",
+    "variation": "family parameters",
+    "selection": "minimize KL divergence to posterior",
+    "fitness": "evidence lower bound",
+    "boundary": "chosen variational family",
+    "tags": [
+      "optimization",
+      "update",
+      "uncertainty",
+      "compression"
+    ]
+  },
+  {
+    "id": "attention-mechanism",
+    "name": "Attention (Transformers)",
+    "domain": "machine learning",
+    "unit": "token",
+    "variation": "query / key / value projections",
+    "selection": "softmax over similarity",
+    "fitness": "context-mixed representation",
+    "boundary": "sequence length, head count",
+    "tags": [
+      "routing",
+      "selection",
+      "network",
+      "encoding"
+    ]
+  },
+  {
+    "id": "backprop",
+    "name": "Backpropagation",
+    "domain": "machine learning",
+    "unit": "network weight",
+    "variation": "forward activation",
+    "selection": "chain-rule gradient w.r.t. loss",
+    "fitness": "local loss reduction",
+    "boundary": "differentiable architecture",
+    "tags": [
+      "feedback",
+      "optimization",
+      "update",
+      "network"
+    ]
+  },
+  {
+    "id": "gan",
+    "name": "Generative Adversarial Networks",
+    "domain": "machine learning",
+    "unit": "generator / discriminator pair",
+    "variation": "generator samples, discriminator scores",
+    "selection": "two-player minimax",
+    "fitness": "Nash equilibrium of game",
+    "boundary": "capacity, training stability",
+    "tags": [
+      "agents",
+      "selection",
+      "feedback",
+      "optimization"
+    ]
+  },
+  {
+    "id": "diffusion-models",
+    "name": "Denoising Diffusion Models",
+    "domain": "machine learning",
+    "unit": "latent sample",
+    "variation": "added Gaussian noise per step",
+    "selection": "learn reverse denoising",
+    "fitness": "data log-likelihood",
+    "boundary": "noise schedule",
+    "tags": [
+      "noise",
+      "update",
+      "optimization",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "buddhist-anatta",
+    "name": "Anatta (Non-Self)",
+    "domain": "theology",
+    "unit": "aggregate of experience",
+    "variation": "transient sense-impressions",
+    "selection": "none — clinging breeds suffering",
+    "fitness": "liberation from craving",
+    "boundary": "saṃsāric perception",
+    "tags": [
+      "negation",
+      "belief",
+      "limit",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "taoism-wuwei",
+    "name": "Wu Wei (Effortless Action)",
+    "domain": "theology",
+    "unit": "action",
+    "variation": "forceful vs aligned action",
+    "selection": "alignment with the Tao",
+    "fitness": "effectiveness without strain",
+    "boundary": "the natural order",
+    "tags": [
+      "equilibrium",
+      "self-organization",
+      "belief",
+      "limit"
+    ]
+  },
+  {
+    "id": "covenant-theology",
+    "name": "Covenant Theology",
+    "domain": "theology",
+    "unit": "covenant relationship",
+    "variation": "successive covenants in history",
+    "selection": "fulfillment supersedes prior covenants",
+    "fitness": "redemptive completeness",
+    "boundary": "divine economy of salvation",
+    "tags": [
+      "long-horizon",
+      "belief",
+      "causality",
+      "synthesis"
+    ]
+  },
+  {
+    "id": "process-theology",
+    "name": "Process Theology",
+    "domain": "theology",
+    "unit": "actual occasion",
+    "variation": "prehensions of past occasions",
+    "selection": "divine lure toward higher value",
+    "fitness": "aesthetic intensity",
+    "boundary": "open future, finite God",
+    "tags": [
+      "feedback",
+      "emergence",
+      "belief",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "sufism-fana",
+    "name": "Fanāʾ (Sufi Annihilation)",
+    "domain": "theology",
+    "unit": "egoic self",
+    "variation": "degrees of attachment",
+    "selection": "dissolution in divine reality",
+    "fitness": "baqāʾ (subsistence in God)",
+    "boundary": "mystical experience, sharia frame",
+    "tags": [
+      "negation",
+      "phase-transition",
+      "belief",
+      "limit"
+    ]
+  },
+  {
+    "id": "advaita",
+    "name": "Advaita Vedānta",
+    "domain": "theology",
+    "unit": "appearance (māyā)",
+    "variation": "superimpositions on Brahman",
+    "selection": "discriminating knowledge (viveka)",
+    "fitness": "recognition of non-duality",
+    "boundary": "linguistic and conceptual scaffolding",
+    "tags": [
+      "negation",
+      "belief",
+      "synthesis",
+      "limit"
+    ]
+  },
+  {
+    "id": "chomsky-ug",
+    "name": "Universal Grammar",
+    "domain": "linguistics",
+    "unit": "sentence",
+    "variation": "language-specific parameters",
+    "selection": "acquisition under poverty of stimulus",
+    "fitness": "grammaticality",
+    "boundary": "innate language faculty",
+    "tags": [
+      "selection",
+      "encoding",
+      "emergence",
+      "boundary"
+    ]
+  },
+  {
+    "id": "sapir-whorf",
+    "name": "Linguistic Relativity",
+    "domain": "linguistics",
+    "unit": "linguistic category",
+    "variation": "vocabulary and grammar differences",
+    "selection": "habitual thought shaped by language",
+    "fitness": "cognitive accessibility",
+    "boundary": "speech community",
+    "tags": [
+      "encoding",
+      "belief",
+      "coupling",
+      "update"
+    ]
+  },
+  {
+    "id": "structural-anthropology",
+    "name": "Structural Anthropology",
+    "domain": "anthropology",
+    "unit": "cultural element",
+    "variation": "binary opposition",
+    "selection": "mythic structure resolves contradictions",
+    "fitness": "narrative coherence",
+    "boundary": "a given culture's symbolic system",
+    "tags": [
+      "contradiction",
+      "synthesis",
+      "encoding",
+      "emergence"
+    ]
+  },
+  {
+    "id": "bourdieu-field",
+    "name": "Bourdieu's Field Theory",
+    "domain": "sociology",
+    "unit": "social agent",
+    "variation": "position-takings in a field",
+    "selection": "struggle over field-specific capital",
+    "fitness": "accumulated capital (cultural, social, economic)",
+    "boundary": "field rules and boundaries",
+    "tags": [
+      "agents",
+      "selection",
+      "scarcity",
+      "field"
+    ]
+  },
+  {
+    "id": "foucault-power",
+    "name": "Foucauldian Power/Knowledge",
+    "domain": "sociology",
+    "unit": "discursive practice",
+    "variation": "competing discourses",
+    "selection": "institutionalization grants truth-status",
+    "fitness": "discursive dominance",
+    "boundary": "epistemic regime of an era",
+    "tags": [
+      "selection",
+      "belief",
+      "stasis",
+      "field"
+    ]
+  },
+  {
+    "id": "actor-network",
+    "name": "Actor-Network Theory",
+    "domain": "sociology",
+    "unit": "human or non-human actor",
+    "variation": "associations form and dissolve",
+    "selection": "network stability through translation",
+    "fitness": "durability of the assemblage",
+    "boundary": "heterogeneous network",
+    "tags": [
+      "network",
+      "coupling",
+      "self-organization",
+      "feedback"
+    ]
+  },
+  {
+    "id": "systems-cybernetics",
+    "name": "Cybernetic Feedback",
+    "domain": "cybernetics",
+    "unit": "controller + plant",
+    "variation": "control signal",
+    "selection": "reduce error from setpoint",
+    "fitness": "tracking error",
+    "boundary": "observability, controllability",
+    "tags": [
+      "feedback",
+      "update",
+      "optimization",
+      "coupling"
+    ]
+  },
+  {
+    "id": "autopoiesis",
+    "name": "Autopoiesis",
+    "domain": "systems theory",
+    "unit": "self-producing system",
+    "variation": "internal processes regenerate components",
+    "selection": "boundary maintenance",
+    "fitness": "organizational closure",
+    "boundary": "membrane separating system from environment",
+    "tags": [
+      "self-organization",
+      "boundary",
+      "feedback",
+      "emergence"
+    ]
+  },
+  {
+    "id": "chaos-strange-attractor",
+    "name": "Strange Attractors",
+    "domain": "dynamical systems",
+    "unit": "trajectory in phase space",
+    "variation": "sensitive dependence on initial conditions",
+    "selection": "attracted to fractal set",
+    "fitness": "long-run distribution on attractor",
+    "boundary": "deterministic nonlinear system",
+    "tags": [
+      "dynamics",
+      "emergence",
+      "noise",
+      "topology"
+    ]
+  },
+  {
+    "id": "self-organized-criticality",
+    "name": "Self-Organized Criticality",
+    "domain": "complexity",
+    "unit": "local site",
+    "variation": "slow driving",
+    "selection": "avalanches at all scales",
+    "fitness": "power-law event distribution",
+    "boundary": "dissipative, slowly driven system",
+    "tags": [
+      "criticality",
+      "phase-transition",
+      "emergence",
+      "amplification"
+    ]
+  },
+  {
+    "id": "reaction-diffusion",
+    "name": "Reaction-Diffusion Patterns",
+    "domain": "chemistry",
+    "unit": "chemical concentration",
+    "variation": "local reaction + spatial diffusion",
+    "selection": "Turing instability",
+    "fitness": "emergent spatial pattern",
+    "boundary": "reactor geometry, diffusion ratios",
+    "tags": [
+      "coupling",
+      "emergence",
+      "phase-transition",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "catalysis",
+    "name": "Autocatalytic Sets",
+    "domain": "chemistry",
+    "unit": "molecular species",
+    "variation": "reaction network composition",
+    "selection": "closure under catalysis",
+    "fitness": "self-sustaining cycle",
+    "boundary": "chemical inventory",
+    "tags": [
+      "network",
+      "feedback",
+      "self-organization",
+      "replication"
+    ]
+  },
+  {
+    "id": "central-dogma",
+    "name": "Central Dogma of Molecular Biology",
+    "domain": "molecular biology",
+    "unit": "sequence (DNA/RNA/protein)",
+    "variation": "transcription / translation errors",
+    "selection": "functional protein folds and works",
+    "fitness": "organism viability",
+    "boundary": "directional information flow",
+    "tags": [
+      "replication",
+      "encoding",
+      "transmission",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "protein-folding",
+    "name": "Protein Folding",
+    "domain": "biochemistry",
+    "unit": "amino acid chain",
+    "variation": "conformational ensemble",
+    "selection": "free energy minimum",
+    "fitness": "native state stability",
+    "boundary": "solvent, temperature",
+    "tags": [
+      "optimization",
+      "ensemble",
+      "equilibrium",
+      "emergence"
+    ]
+  },
+  {
+    "id": "cell-differentiation",
+    "name": "Cell Differentiation",
+    "domain": "developmental biology",
+    "unit": "cell",
+    "variation": "gene expression states",
+    "selection": "signaling gradients commit fate",
+    "fitness": "tissue function",
+    "boundary": "developmental window",
+    "tags": [
+      "selection",
+      "phase-transition",
+      "coupling",
+      "emergence"
+    ]
+  },
+  {
+    "id": "gene-regulatory-network",
+    "name": "Gene Regulatory Networks",
+    "domain": "systems biology",
+    "unit": "gene",
+    "variation": "transcription factor binding",
+    "selection": "network attractors define cell types",
+    "fitness": "stable expression pattern",
+    "boundary": "genome, cellular context",
+    "tags": [
+      "network",
+      "feedback",
+      "attractor",
+      "emergence"
+    ]
+  },
+  {
+    "id": "social-contagion",
+    "name": "Threshold Models of Social Contagion",
+    "domain": "sociology",
+    "unit": "individual",
+    "variation": "neighbor adoption count",
+    "selection": "adopt if threshold exceeded",
+    "fitness": "adoption rate",
+    "boundary": "social network topology",
+    "tags": [
+      "threshold",
+      "network",
+      "transmission",
+      "feedback"
+    ]
+  },
+  {
+    "id": "diffusion-of-innovations",
+    "name": "Diffusion of Innovations",
+    "domain": "sociology",
+    "unit": "adopter",
+    "variation": "perceived utility, social proof",
+    "selection": "S-curve adoption",
+    "fitness": "cumulative adoption",
+    "boundary": "finite population",
+    "tags": [
+      "transmission",
+      "feedback",
+      "dynamics",
+      "amplification"
+    ]
+  },
+  {
+    "id": "viral-marketing",
+    "name": "Viral Marketing",
+    "domain": "marketing",
+    "unit": "share / impression",
+    "variation": "creative variants",
+    "selection": "share-worthiness amplifies reach",
+    "fitness": "viral coefficient K",
+    "boundary": "platform algorithms, audience",
+    "tags": [
+      "transmission",
+      "amplification",
+      "feedback",
+      "selection"
+    ]
+  },
+  {
+    "id": "blue-ocean",
+    "name": "Blue Ocean Strategy",
+    "domain": "business strategy",
+    "unit": "value proposition",
+    "variation": "factor add / drop / raise / reduce",
+    "selection": "uncontested market space",
+    "fitness": "profit unconstrained by competition",
+    "boundary": "buyer value curves",
+    "tags": [
+      "variation",
+      "selection",
+      "boundary",
+      "field"
+    ]
+  },
+  {
+    "id": "disruptive-innovation",
+    "name": "Disruptive Innovation",
+    "domain": "business strategy",
+    "unit": "product",
+    "variation": "low-end / new-market entry",
+    "selection": "incumbent neglect of low-margin segment",
+    "fitness": "upmarket displacement",
+    "boundary": "performance trajectory",
+    "tags": [
+      "phase-transition",
+      "amplification",
+      "selection",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "experience-curve",
+    "name": "Experience / Learning Curve",
+    "domain": "economics",
+    "unit": "unit produced",
+    "variation": "cumulative production",
+    "selection": "learning reduces unit cost",
+    "fitness": "cost per unit",
+    "boundary": "technology regime",
+    "tags": [
+      "feedback",
+      "optimization",
+      "amplification",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "signal-detection",
+    "name": "Signal Detection Theory",
+    "domain": "psychophysics",
+    "unit": "trial",
+    "variation": "signal + noise distribution",
+    "selection": "observer's decision criterion",
+    "fitness": "hit rate vs false alarm rate",
+    "boundary": "stationary noise",
+    "tags": [
+      "noise",
+      "selection",
+      "uncertainty",
+      "statistics"
+    ]
+  },
+  {
+    "id": "predictive-coding",
+    "name": "Predictive Coding",
+    "domain": "neuroscience",
+    "unit": "cortical column",
+    "variation": "top-down predictions",
+    "selection": "only prediction error propagates up",
+    "fitness": "minimized error",
+    "boundary": "hierarchical cortex",
+    "tags": [
+      "prediction",
+      "feedback",
+      "compression",
+      "update"
+    ]
+  },
+  {
+    "id": "global-workspace",
+    "name": "Global Workspace Theory",
+    "domain": "cognitive science",
+    "unit": "specialist module",
+    "variation": "local processing results",
+    "selection": "competition for broadcast in workspace",
+    "fitness": "conscious access",
+    "boundary": "limited workspace bandwidth",
+    "tags": [
+      "selection",
+      "routing",
+      "amplification",
+      "network"
+    ]
+  },
+  {
+    "id": "dual-process",
+    "name": "Dual Process Theory",
+    "domain": "cognitive science",
+    "unit": "cognitive task",
+    "variation": "System 1 heuristic vs System 2 analytic",
+    "selection": "effort and stakes route to slower system",
+    "fitness": "answer accuracy / speed tradeoff",
+    "boundary": "cognitive load",
+    "tags": [
+      "routing",
+      "selection",
+      "tradeoff",
+      "agents"
+    ]
+  },
+  {
+    "id": "flow-state",
+    "name": "Flow (Csikszentmihalyi)",
+    "domain": "psychology",
+    "unit": "performer + task",
+    "variation": "challenge level vs skill level",
+    "selection": "balance in narrow channel",
+    "fitness": "sustained engagement",
+    "boundary": "clear goals, immediate feedback",
+    "tags": [
+      "equilibrium",
+      "feedback",
+      "tradeoff",
+      "threshold"
+    ]
+  },
+  {
+    "id": "vygotsky-zpd",
+    "name": "Zone of Proximal Development",
+    "domain": "education",
+    "unit": "learner-task pair",
+    "variation": "scaffolding level",
+    "selection": "just-beyond-current-ability tasks chosen",
+    "fitness": "learning gain",
+    "boundary": "social mediation",
+    "tags": [
+      "tradeoff",
+      "update",
+      "feedback",
+      "threshold"
+    ]
+  },
+  {
+    "id": "piaget-stages",
+    "name": "Piaget's Stage Theory",
+    "domain": "developmental psychology",
+    "unit": "cognitive schema",
+    "variation": "assimilation / accommodation",
+    "selection": "disequilibrium drives restructuring",
+    "fitness": "schema adequacy",
+    "boundary": "maturational constraints",
+    "tags": [
+      "update",
+      "phase-transition",
+      "feedback",
+      "stasis"
+    ]
+  },
+  {
+    "id": "attachment-theory",
+    "name": "Attachment Theory",
+    "domain": "psychology",
+    "unit": "caregiver-infant dyad",
+    "variation": "responsiveness patterns",
+    "selection": "internal working model formed",
+    "fitness": "future relational stability",
+    "boundary": "critical period",
+    "tags": [
+      "update",
+      "long-horizon",
+      "coupling",
+      "feedback"
+    ]
+  },
+  {
+    "id": "hormesis",
+    "name": "Hormesis",
+    "domain": "toxicology",
+    "unit": "organism + stressor",
+    "variation": "dose level",
+    "selection": "low-dose stress triggers adaptive response",
+    "fitness": "resilience",
+    "boundary": "narrow dose window",
+    "tags": [
+      "threshold",
+      "feedback",
+      "tradeoff",
+      "update"
+    ]
+  },
+  {
+    "id": "antifragility",
+    "name": "Antifragility",
+    "domain": "risk theory",
+    "unit": "system under stress",
+    "variation": "shocks of varying size",
+    "selection": "convex response to volatility",
+    "fitness": "gain from disorder",
+    "boundary": "shock magnitude bounded by capacity",
+    "tags": [
+      "feedback",
+      "tradeoff",
+      "amplification",
+      "update"
+    ]
+  },
+  {
+    "id": "black-swan",
+    "name": "Black Swan Events",
+    "domain": "risk theory",
+    "unit": "rare extreme event",
+    "variation": "fat-tailed distribution",
+    "selection": "history retrofitted as explainable",
+    "fitness": "impact magnitude",
+    "boundary": "unknown unknowns",
+    "tags": [
+      "statistics",
+      "amplification",
+      "uncertainty",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "economic-bubble",
+    "name": "Speculative Bubbles",
+    "domain": "finance",
+    "unit": "asset price",
+    "variation": "momentum buying",
+    "selection": "positive feedback until trigger",
+    "fitness": "price deviation from fundamentals",
+    "boundary": "credit availability, sentiment",
+    "tags": [
+      "feedback",
+      "amplification",
+      "phase-transition",
+      "threshold"
+    ]
+  },
+  {
+    "id": "minsky-moment",
+    "name": "Minsky Financial Instability",
+    "domain": "finance",
+    "unit": "debt-financed position",
+    "variation": "hedge → speculative → Ponzi",
+    "selection": "stability breeds risk-taking",
+    "fitness": "system fragility",
+    "boundary": "credit cycle",
+    "tags": [
+      "feedback",
+      "phase-transition",
+      "threshold",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "central-bank-policy",
+    "name": "Central Bank Reaction Function",
+    "domain": "macroeconomics",
+    "unit": "policy rate",
+    "variation": "inflation and output gap signals",
+    "selection": "Taylor-rule style adjustment",
+    "fitness": "dual mandate target",
+    "boundary": "zero lower bound, lags",
+    "tags": [
+      "feedback",
+      "update",
+      "equilibrium",
+      "control"
+    ]
+  },
+  {
+    "id": "social-darwinism",
+    "name": "Social Darwinism (historical)",
+    "domain": "political ideology",
+    "unit": "individual or group",
+    "variation": "socioeconomic outcomes",
+    "selection": "naturalized 'fitness' justifies hierarchy",
+    "fitness": "social success",
+    "boundary": "ideological frame; widely discredited as descriptive science",
+    "tags": [
+      "selection",
+      "scarcity",
+      "agents",
+      "belief"
+    ]
+  },
+  {
+    "id": "general-systems",
+    "name": "General Systems Theory",
+    "domain": "systems theory",
+    "unit": "system component",
+    "variation": "interactions and flows",
+    "selection": "isomorphism across substrates",
+    "fitness": "explanatory generality",
+    "boundary": "abstraction level",
+    "tags": [
+      "emergence",
+      "coupling",
+      "synthesis",
+      "field"
+    ]
+  },
+  {
+    "id": "category-theory",
+    "name": "Category Theory",
+    "domain": "mathematics",
+    "unit": "object + morphism",
+    "variation": "functorial mappings",
+    "selection": "universal properties",
+    "fitness": "naturality / coherence",
+    "boundary": "axioms of a category",
+    "tags": [
+      "synthesis",
+      "encoding",
+      "field",
+      "compression"
+    ]
+  },
+  {
+    "id": "godel-incompleteness",
+    "name": "Gödel's Incompleteness",
+    "domain": "mathematics",
+    "unit": "formal system",
+    "variation": "candidate axiom sets",
+    "selection": "self-reference exposes undecidable statements",
+    "fitness": "completeness vs consistency tradeoff",
+    "boundary": "sufficiently expressive system",
+    "tags": [
+      "limit",
+      "contradiction",
+      "negation",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "turing-halting",
+    "name": "Halting Problem",
+    "domain": "computer science",
+    "unit": "program-input pair",
+    "variation": "candidate decider",
+    "selection": "diagonalization rules out general decider",
+    "fitness": "decidability",
+    "boundary": "Turing-complete model",
+    "tags": [
+      "limit",
+      "negation",
+      "contradiction"
+    ]
+  },
+  {
+    "id": "complexity-classes",
+    "name": "P vs NP",
+    "domain": "computer science",
+    "unit": "decision problem",
+    "variation": "candidate algorithms",
+    "selection": "polynomial-time solvability vs verification",
+    "fitness": "runtime class",
+    "boundary": "deterministic vs nondeterministic Turing machine",
+    "tags": [
+      "limit",
+      "tradeoff",
+      "optimization",
+      "compression"
+    ]
+  },
+  {
+    "id": "kolmogorov-complexity",
+    "name": "Kolmogorov Complexity",
+    "domain": "computer science",
+    "unit": "string",
+    "variation": "candidate programs that output it",
+    "selection": "shortest program wins",
+    "fitness": "description length",
+    "boundary": "choice of universal machine (up to constant)",
+    "tags": [
+      "compression",
+      "encoding",
+      "selection",
+      "limit"
+    ]
+  },
+  {
+    "id": "universal-grammar-music",
+    "name": "Generative Theory of Tonal Music",
+    "domain": "music theory",
+    "unit": "musical surface",
+    "variation": "prolongational reductions",
+    "selection": "preference rules choose hearings",
+    "fitness": "perceived coherence",
+    "boundary": "tonal idiom",
+    "tags": [
+      "selection",
+      "encoding",
+      "emergence",
+      "belief"
+    ]
+  },
+  {
+    "id": "schenker",
+    "name": "Schenkerian Analysis",
+    "domain": "music theory",
+    "unit": "musical event",
+    "variation": "foreground elaborations",
+    "selection": "reduction to Ursatz",
+    "fitness": "structural coherence",
+    "boundary": "tonal common-practice repertoire",
+    "tags": [
+      "compression",
+      "encoding",
+      "synthesis",
+      "stasis"
+    ]
+  },
+  {
+    "id": "narrative-structure",
+    "name": "Hero's Journey (Monomyth)",
+    "domain": "narratology",
+    "unit": "story beat",
+    "variation": "cultural surface details",
+    "selection": "recurring archetypal sequence",
+    "fitness": "audience resonance",
+    "boundary": "myth and popular narrative",
+    "tags": [
+      "encoding",
+      "stasis",
+      "emergence",
+      "transmission"
+    ]
+  },
+  {
+    "id": "trinity-doctrine",
+    "name": "Trinitarian Doctrine",
+    "domain": "theology",
+    "unit": "divine person",
+    "variation": "relations of origin",
+    "selection": "unity of substance preserved",
+    "fitness": "coherent monotheism with threefold relation",
+    "boundary": "creedal formulations",
+    "tags": [
+      "synthesis",
+      "contradiction",
+      "belief",
+      "field"
+    ]
+  },
+  {
+    "id": "incarnation",
+    "name": "Incarnation",
+    "domain": "theology",
+    "unit": "hypostatic union",
+    "variation": "two natures (divine, human)",
+    "selection": "Chalcedonian definition",
+    "fitness": "orthodoxy preserved against heresies",
+    "boundary": "Christological grammar",
+    "tags": [
+      "synthesis",
+      "contradiction",
+      "belief",
+      "limit"
+    ]
+  },
+  {
+    "id": "liberation-theology",
+    "name": "Liberation Theology",
+    "domain": "theology",
+    "unit": "oppressed community",
+    "variation": "historical conditions",
+    "selection": "preferential option for the poor",
+    "fitness": "praxis of liberation",
+    "boundary": "socio-political context",
+    "tags": [
+      "belief",
+      "agents",
+      "feedback",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "deleuze-rhizome",
+    "name": "Rhizome (Deleuze & Guattari)",
+    "domain": "philosophy",
+    "unit": "node of connection",
+    "variation": "non-hierarchical linkages",
+    "selection": "any point connects to any other",
+    "fitness": "multiplicity / deterritorialization",
+    "boundary": "against arborescent thought",
+    "tags": [
+      "network",
+      "emergence",
+      "self-organization",
+      "field"
+    ]
+  },
+  {
+    "id": "speech-acts",
+    "name": "Speech Act Theory",
+    "domain": "philosophy of language",
+    "unit": "utterance",
+    "variation": "locutionary / illocutionary / perlocutionary",
+    "selection": "felicity conditions",
+    "fitness": "performed effect",
+    "boundary": "institutional and conventional context",
+    "tags": [
+      "agents",
+      "encoding",
+      "boundary",
+      "causality"
+    ]
+  },
+  {
+    "id": "embodied-cognition",
+    "name": "Embodied Cognition",
+    "domain": "cognitive science",
+    "unit": "cognitive act",
+    "variation": "sensorimotor coupling",
+    "selection": "environment scaffolds processing",
+    "fitness": "task success with reduced internal load",
+    "boundary": "body morphology",
+    "tags": [
+      "coupling",
+      "self-organization",
+      "compression",
+      "emergence"
+    ]
+  },
+  {
+    "id": "swarm-intelligence",
+    "name": "Swarm Intelligence",
+    "domain": "complexity",
+    "unit": "agent",
+    "variation": "local interaction rules",
+    "selection": "global pattern emerges from local",
+    "fitness": "collective task performance",
+    "boundary": "simple agents, local information",
+    "tags": [
+      "agents",
+      "emergence",
+      "self-organization",
+      "network"
+    ]
+  },
+  {
+    "id": "stigmergy",
+    "name": "Stigmergy",
+    "domain": "biology",
+    "unit": "agent + environmental trace",
+    "variation": "trace deposition",
+    "selection": "traces guide subsequent actions",
+    "fitness": "collective construction",
+    "boundary": "persistent medium",
+    "tags": [
+      "feedback",
+      "coupling",
+      "self-organization",
+      "routing"
+    ]
+  },
+  {
+    "id": "bayesian-brain",
+    "name": "Bayesian Brain Hypothesis",
+    "domain": "neuroscience",
+    "unit": "neural population",
+    "variation": "prior over causes",
+    "selection": "likelihood from sensation",
+    "fitness": "posterior accuracy",
+    "boundary": "biological constraints",
+    "tags": [
+      "belief",
+      "prediction",
+      "update",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "market-microstructure",
+    "name": "Market Microstructure",
+    "domain": "finance",
+    "unit": "order",
+    "variation": "limit / market orders",
+    "selection": "matching engine, price-time priority",
+    "fitness": "execution price",
+    "boundary": "market rules, latency",
+    "tags": [
+      "routing",
+      "selection",
+      "agents",
+      "feedback"
+    ]
+  },
+  {
+    "id": "two-sided-market",
+    "name": "Two-Sided Markets",
+    "domain": "economics",
+    "unit": "platform user",
+    "variation": "users on each side",
+    "selection": "cross-side network effects",
+    "fitness": "platform value",
+    "boundary": "chicken-and-egg adoption",
+    "tags": [
+      "network",
+      "amplification",
+      "feedback",
+      "threshold"
+    ]
+  },
+  {
+    "id": "standing-wave-resonance",
+    "name": "Standing Wave Resonance",
+    "domain": "acoustics",
+    "unit": "vibrational mode",
+    "variation": "candidate frequencies excited by source",
+    "selection": "boundary conditions admit only integer harmonics",
+    "fitness": "amplitude at resonant frequency",
+    "boundary": "medium geometry, damping",
+    "tags": [
+      "selection",
+      "boundary",
+      "oscillation",
+      "amplification"
+    ]
+  },
+  {
+    "id": "fourier-acoustics",
+    "name": "Fourier Decomposition of Sound",
+    "domain": "acoustics",
+    "unit": "frequency component",
+    "variation": "amplitude and phase of each harmonic",
+    "selection": "superposition reconstructs arbitrary waveform",
+    "fitness": "reconstruction fidelity",
+    "boundary": "bandwidth, sampling rate",
+    "tags": [
+      "encoding",
+      "compression",
+      "ensemble",
+      "statistics"
+    ]
+  },
+  {
+    "id": "acoustic-impedance",
+    "name": "Acoustic Impedance Matching",
+    "domain": "acoustics",
+    "unit": "wave at medium boundary",
+    "variation": "impedance mismatch between media",
+    "selection": "transmission maximized when impedances match",
+    "fitness": "transmitted energy fraction",
+    "boundary": "planar boundary, linear media",
+    "tags": [
+      "coupling",
+      "tradeoff",
+      "threshold",
+      "transmission"
+    ]
+  },
+  {
+    "id": "snell-refraction",
+    "name": "Snell's Law of Refraction",
+    "domain": "optics",
+    "unit": "light ray at interface",
+    "variation": "angle of incidence, refractive indices",
+    "selection": "Fermat's principle of least time",
+    "fitness": "path that minimizes travel time",
+    "boundary": "planar interface, homogeneous media",
+    "tags": [
+      "optimization",
+      "selection",
+      "boundary",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "laser-stimulated-emission",
+    "name": "Stimulated Emission (Laser Physics)",
+    "domain": "photonics",
+    "unit": "photon + excited atom",
+    "variation": "population inversion levels",
+    "selection": "stimulated emission amplifies coherent mode",
+    "fitness": "coherent beam intensity",
+    "boundary": "gain medium, optical cavity, pump threshold",
+    "tags": [
+      "amplification",
+      "threshold",
+      "feedback",
+      "selection"
+    ]
+  },
+  {
+    "id": "photonic-bandgap",
+    "name": "Photonic Bandgap",
+    "domain": "photonics",
+    "unit": "photon in periodic dielectric",
+    "variation": "wavelength of propagating photon",
+    "selection": "Bragg-like destructive interference forbids band",
+    "fitness": "transmission suppression in gap",
+    "boundary": "periodicity, refractive contrast, dimensionality",
+    "tags": [
+      "selection",
+      "boundary",
+      "encoding",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "stratigraphy",
+    "name": "Stratigraphic Superposition",
+    "domain": "archaeology",
+    "unit": "depositional layer",
+    "variation": "successive episodes of deposition and erosion",
+    "selection": "deeper layers are older unless disturbed",
+    "fitness": "chronological ordering accuracy",
+    "boundary": "undisturbed vertical sequence",
+    "tags": [
+      "long-horizon",
+      "encoding",
+      "stasis",
+      "boundary"
+    ]
+  },
+  {
+    "id": "phylogenetic-cladistics",
+    "name": "Cladistic Classification",
+    "domain": "paleontology",
+    "unit": "taxon",
+    "variation": "shared derived characters (synapomorphies)",
+    "selection": "parsimony or likelihood selects best tree",
+    "fitness": "phylogenetic coherence",
+    "boundary": "available character matrix, fossil record gaps",
+    "tags": [
+      "selection",
+      "encoding",
+      "compression",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "taphonomy",
+    "name": "Taphonomy",
+    "domain": "paleontology",
+    "unit": "organism remains",
+    "variation": "post-mortem decay and burial processes",
+    "selection": "only resistant materials in favorable conditions preserve",
+    "fitness": "fossil preservation fidelity",
+    "boundary": "sediment chemistry, biological activity, time",
+    "tags": [
+      "selection",
+      "noise",
+      "irreversibility",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "legal-positivism",
+    "name": "Legal Positivism",
+    "domain": "jurisprudence",
+    "unit": "legal norm",
+    "variation": "enacted rules across jurisdictions",
+    "selection": "validity determined by social fact of enactment, not morality",
+    "fitness": "systemic coherence within the legal order",
+    "boundary": "sovereign authority, rule of recognition",
+    "tags": [
+      "boundary",
+      "encoding",
+      "stasis",
+      "agents"
+    ]
+  },
+  {
+    "id": "common-law-precedent",
+    "name": "Common Law Precedent (Stare Decisis)",
+    "domain": "jurisprudence",
+    "unit": "judicial decision",
+    "variation": "novel fact patterns presented to courts",
+    "selection": "analogical reasoning extends or distinguishes prior rulings",
+    "fitness": "doctrinal consistency over time",
+    "boundary": "jurisdiction, hierarchy of courts",
+    "tags": [
+      "feedback",
+      "stasis",
+      "update",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "law-economics",
+    "name": "Law and Economics",
+    "domain": "legal theory",
+    "unit": "legal rule",
+    "variation": "alternative rule configurations",
+    "selection": "rules that minimize total social cost adopted or recommended",
+    "fitness": "allocative efficiency",
+    "boundary": "Coasian assumptions, transaction costs",
+    "tags": [
+      "optimization",
+      "tradeoff",
+      "agents",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "ooda-loop",
+    "name": "OODA Loop",
+    "domain": "combat theory",
+    "unit": "decision cycle",
+    "variation": "observe-orient-decide-act tempo",
+    "selection": "faster cycle disrupts opponent's orientation",
+    "fitness": "decision-speed advantage",
+    "boundary": "information availability, cognitive limits",
+    "tags": [
+      "feedback",
+      "dynamics",
+      "agents",
+      "control"
+    ]
+  },
+  {
+    "id": "center-of-gravity",
+    "name": "Clausewitzian Center of Gravity",
+    "domain": "combat theory",
+    "unit": "opposing force structure",
+    "variation": "candidate critical vulnerabilities",
+    "selection": "strike the hub on which all else depends",
+    "fitness": "collapse of enemy coherence",
+    "boundary": "fog of war, political constraints",
+    "tags": [
+      "network",
+      "selection",
+      "agents",
+      "coupling"
+    ]
+  },
+  {
+    "id": "musashi-timing",
+    "name": "Musashi's Theory of Timing",
+    "domain": "martial arts",
+    "unit": "combative exchange",
+    "variation": "rhythm, tempo, and interval between actions",
+    "selection": "seize the interval the opponent cannot adapt to",
+    "fitness": "initiative dominance",
+    "boundary": "one-on-one engagement, perceptual lag",
+    "tags": [
+      "dynamics",
+      "agents",
+      "control",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "maillard-reaction",
+    "name": "Maillard Reaction",
+    "domain": "culinary science",
+    "unit": "amino acid + reducing sugar pair",
+    "variation": "temperature, pH, water activity, reactant identity",
+    "selection": "cascade of intermediates branches into flavor/color compounds",
+    "fitness": "desired flavor and browning profile",
+    "boundary": "temperature window (110-180 C), moisture level",
+    "tags": [
+      "dynamics",
+      "phase-transition",
+      "variation",
+      "emergence"
+    ]
+  },
+  {
+    "id": "lacto-fermentation",
+    "name": "Lactic Acid Fermentation",
+    "domain": "fermentation",
+    "unit": "microbial population in substrate",
+    "variation": "species composition, salt concentration, temperature",
+    "selection": "acid-tolerant lactobacilli outcompete pathogens",
+    "fitness": "pH drop preserving food and developing flavor",
+    "boundary": "anaerobic environment, salt gradient, temperature range",
+    "tags": [
+      "selection",
+      "scarcity",
+      "feedback",
+      "co-evolution"
+    ]
+  },
+  {
+    "id": "enzyme-kinetics-cooking",
+    "name": "Enzyme Kinetics in Cooking",
+    "domain": "culinary science",
+    "unit": "enzyme-substrate complex",
+    "variation": "temperature and pH modulate enzyme activity",
+    "selection": "Michaelis-Menten saturation curve governs rate",
+    "fitness": "desired textural or flavor transformation rate",
+    "boundary": "denaturation temperature, substrate concentration",
+    "tags": [
+      "dynamics",
+      "threshold",
+      "optimization",
+      "coupling"
+    ]
+  },
+  {
+    "id": "structural-load-path",
+    "name": "Load Path Analysis",
+    "domain": "structural engineering",
+    "unit": "structural member",
+    "variation": "geometry, material, connection type",
+    "selection": "loads follow stiffest continuous path to ground",
+    "fitness": "stress utilization ratio below yield",
+    "boundary": "material strength, building codes, geometry",
+    "tags": [
+      "routing",
+      "optimization",
+      "boundary",
+      "coupling"
+    ]
+  },
+  {
+    "id": "form-follows-force",
+    "name": "Form-Finding (Hanging Chain Principle)",
+    "domain": "architecture",
+    "unit": "structural surface element",
+    "variation": "candidate geometries under self-weight",
+    "selection": "inverted catenary/membrane finds pure compression",
+    "fitness": "minimized bending stress",
+    "boundary": "support conditions, material constraints",
+    "tags": [
+      "optimization",
+      "self-organization",
+      "equilibrium",
+      "topology"
+    ]
+  },
+  {
+    "id": "pattern-language",
+    "name": "Pattern Language (Alexander)",
+    "domain": "architecture",
+    "unit": "design pattern",
+    "variation": "recurring spatial problems across cultures",
+    "selection": "solutions that resolve conflicting forces adopted",
+    "fitness": "inhabitant well-being and adaptability",
+    "boundary": "cultural context, scale (room to city)",
+    "tags": [
+      "encoding",
+      "network",
+      "emergence",
+      "feedback"
+    ]
+  },
+  {
+    "id": "crystal-nucleation",
+    "name": "Crystal Nucleation",
+    "domain": "crystallography",
+    "unit": "atomic cluster",
+    "variation": "thermal fluctuations form embryonic nuclei",
+    "selection": "only nuclei exceeding critical radius survive",
+    "fitness": "free energy barrier overcome",
+    "boundary": "supersaturation, temperature, impurities",
+    "tags": [
+      "threshold",
+      "phase-transition",
+      "noise",
+      "emergence"
+    ]
+  },
+  {
+    "id": "bragg-diffraction",
+    "name": "Bragg Diffraction",
+    "domain": "crystallography",
+    "unit": "X-ray photon + lattice plane",
+    "variation": "angle of incidence on periodic planes",
+    "selection": "constructive interference at integer-wavelength path difference",
+    "fitness": "diffraction peak intensity",
+    "boundary": "crystal symmetry, wavelength, lattice spacing",
+    "tags": [
+      "selection",
+      "encoding",
+      "boundary",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "dislocations",
+    "name": "Dislocation Theory",
+    "domain": "materials science",
+    "unit": "line defect in crystal lattice",
+    "variation": "applied stress, temperature, defect density",
+    "selection": "dislocations glide along slip planes under resolved shear stress",
+    "fitness": "plastic strain rate",
+    "boundary": "crystal structure, Peierls barrier, grain boundaries",
+    "tags": [
+      "dynamics",
+      "threshold",
+      "topology",
+      "coupling"
+    ]
+  },
+  {
+    "id": "laban-effort",
+    "name": "Laban Effort Theory",
+    "domain": "dance",
+    "unit": "movement phrase",
+    "variation": "weight, space, time, flow qualities",
+    "selection": "expressive intention selects effort combination",
+    "fitness": "audience-perceived expressivity",
+    "boundary": "human biomechanics, choreographic context",
+    "tags": [
+      "variation",
+      "encoding",
+      "agents",
+      "emergence"
+    ]
+  },
+  {
+    "id": "choreographic-counterpoint",
+    "name": "Choreographic Counterpoint",
+    "domain": "dance",
+    "unit": "dancer trajectory in space-time",
+    "variation": "independent movement voices",
+    "selection": "spatial and rhythmic alignment/contrast",
+    "fitness": "visual coherence of ensemble",
+    "boundary": "stage geometry, ensemble size, music",
+    "tags": [
+      "coupling",
+      "oscillation",
+      "network",
+      "emergence"
+    ]
+  },
+  {
+    "id": "dose-response",
+    "name": "Dose-Response Curve",
+    "domain": "pharmacology",
+    "unit": "drug-receptor binding event",
+    "variation": "drug concentration across doses",
+    "selection": "sigmoidal occupancy governed by binding affinity",
+    "fitness": "therapeutic effect magnitude",
+    "boundary": "receptor density, clearance rate, therapeutic window",
+    "tags": [
+      "threshold",
+      "dynamics",
+      "tradeoff",
+      "feedback"
+    ]
+  },
+  {
+    "id": "pharmacokinetics-adme",
+    "name": "ADME Pharmacokinetics",
+    "domain": "pharmacology",
+    "unit": "drug molecule in body",
+    "variation": "absorption, distribution, metabolism, excretion rates",
+    "selection": "compartmental clearance determines plasma concentration",
+    "fitness": "area under the curve within therapeutic window",
+    "boundary": "organ function, protein binding, genetic polymorphism",
+    "tags": [
+      "dynamics",
+      "routing",
+      "tradeoff",
+      "control"
+    ]
+  },
+  {
+    "id": "lock-and-key",
+    "name": "Lock-and-Key / Induced Fit",
+    "domain": "drug design",
+    "unit": "ligand-receptor complex",
+    "variation": "candidate molecular shapes and charges",
+    "selection": "complementarity of binding pocket and ligand",
+    "fitness": "binding free energy (Ki / IC50)",
+    "boundary": "solvent effects, conformational flexibility",
+    "tags": [
+      "optimization",
+      "selection",
+      "coupling",
+      "topology"
+    ]
+  },
+  {
+    "id": "vehicle-routing",
+    "name": "Vehicle Routing Problem",
+    "domain": "operations research",
+    "unit": "route",
+    "variation": "candidate route permutations",
+    "selection": "minimize total distance or cost subject to constraints",
+    "fitness": "total routing cost",
+    "boundary": "vehicle capacity, time windows, depot location",
+    "tags": [
+      "optimization",
+      "routing",
+      "scarcity",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "queueing-theory",
+    "name": "Queueing Theory (M/M/1)",
+    "domain": "operations research",
+    "unit": "arriving job",
+    "variation": "stochastic arrival and service times",
+    "selection": "utilization vs wait-time tradeoff at steady state",
+    "fitness": "average wait time or throughput",
+    "boundary": "arrival rate < service rate for stability",
+    "tags": [
+      "dynamics",
+      "tradeoff",
+      "statistics",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "bullwhip-effect",
+    "name": "Bullwhip Effect",
+    "domain": "logistics",
+    "unit": "order signal in supply chain",
+    "variation": "demand forecast errors at each echelon",
+    "selection": "each node amplifies variance upstream",
+    "fitness": "inventory cost and service level",
+    "boundary": "multi-echelon chain, information delay",
+    "tags": [
+      "amplification",
+      "feedback",
+      "dynamics",
+      "noise"
+    ]
+  },
+  {
+    "id": "thermohaline-circulation",
+    "name": "Thermohaline Circulation",
+    "domain": "oceanography",
+    "unit": "water parcel",
+    "variation": "temperature and salinity gradients",
+    "selection": "density differences drive deep-water formation and overturning",
+    "fitness": "meridional heat transport",
+    "boundary": "ocean basin geometry, freshwater input, wind forcing",
+    "tags": [
+      "dynamics",
+      "coupling",
+      "feedback",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "navier-stokes",
+    "name": "Navier-Stokes Equations",
+    "domain": "fluid dynamics",
+    "unit": "fluid parcel",
+    "variation": "velocity and pressure fields",
+    "selection": "conservation of momentum and mass at every point",
+    "fitness": "flow field satisfying boundary conditions",
+    "boundary": "viscosity, incompressibility assumption, boundary geometry",
+    "tags": [
+      "field",
+      "dynamics",
+      "coupling",
+      "boundary"
+    ]
+  },
+  {
+    "id": "turbulence-cascade",
+    "name": "Turbulent Energy Cascade",
+    "domain": "fluid dynamics",
+    "unit": "eddy at a given scale",
+    "variation": "kinetic energy injected at large scale",
+    "selection": "energy transfers to smaller eddies until viscous dissipation",
+    "fitness": "Kolmogorov -5/3 spectral slope",
+    "boundary": "Reynolds number, injection scale, dissipation scale",
+    "tags": [
+      "dynamics",
+      "emergence",
+      "statistics",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "prime-number-theorem",
+    "name": "Prime Number Theorem",
+    "domain": "number theory",
+    "unit": "prime number",
+    "variation": "distribution of primes among integers",
+    "selection": "primes thin out logarithmically",
+    "fitness": "accuracy of pi(x) ~ x/ln(x)",
+    "boundary": "asymptotic regime (large x)",
+    "tags": [
+      "statistics",
+      "emergence",
+      "long-horizon",
+      "boundary"
+    ]
+  },
+  {
+    "id": "galois-theory",
+    "name": "Galois Theory",
+    "domain": "algebra",
+    "unit": "field extension",
+    "variation": "permutations of roots (automorphisms)",
+    "selection": "group structure determines solvability by radicals",
+    "fitness": "correspondence between subgroups and subfields",
+    "boundary": "characteristic zero, polynomial degree",
+    "tags": [
+      "encoding",
+      "synthesis",
+      "topology",
+      "limit"
+    ]
+  },
+  {
+    "id": "quadratic-reciprocity",
+    "name": "Quadratic Reciprocity",
+    "domain": "number theory",
+    "unit": "pair of odd primes",
+    "variation": "Legendre symbol (p|q) and (q|p)",
+    "selection": "reciprocity law constrains mutual quadratic residuosity",
+    "fitness": "predictive symmetry between primes",
+    "boundary": "odd primes, modular arithmetic",
+    "tags": [
+      "encoding",
+      "synthesis",
+      "boundary",
+      "statistics"
+    ]
+  },
+  {
+    "id": "public-key-rsa",
+    "name": "RSA Cryptosystem",
+    "domain": "cryptography",
+    "unit": "plaintext block",
+    "variation": "choice of large prime factors",
+    "selection": "factoring difficulty secures private key",
+    "fitness": "computational hardness of decryption without key",
+    "boundary": "key length, polynomial vs exponential time",
+    "tags": [
+      "encoding",
+      "scarcity",
+      "limit",
+      "compression"
+    ]
+  },
+  {
+    "id": "zero-knowledge-proof",
+    "name": "Zero-Knowledge Proofs",
+    "domain": "cryptography",
+    "unit": "prover-verifier interaction",
+    "variation": "random challenges from verifier",
+    "selection": "prover convinces without revealing witness",
+    "fitness": "soundness and zero-knowledge property hold",
+    "boundary": "computational complexity assumptions",
+    "tags": [
+      "agents",
+      "encoding",
+      "uncertainty",
+      "limit"
+    ]
+  },
+  {
+    "id": "symmetric-cipher",
+    "name": "Shannon's Perfect Secrecy",
+    "domain": "cryptography",
+    "unit": "ciphertext",
+    "variation": "key drawn uniformly at random",
+    "selection": "ciphertext is statistically independent of plaintext",
+    "fitness": "mutual information I(plaintext; ciphertext) = 0",
+    "boundary": "key length >= message length, one-time use",
+    "tags": [
+      "encoding",
+      "uncertainty",
+      "statistics",
+      "boundary"
+    ]
+  },
+  {
+    "id": "saussure-sign",
+    "name": "Saussurean Sign Theory",
+    "domain": "semiotics",
+    "unit": "sign (signifier + signified)",
+    "variation": "arbitrary pairing of sound-image to concept",
+    "selection": "convention within speech community stabilizes sign",
+    "fitness": "communicative reliability",
+    "boundary": "synchronic language system (langue)",
+    "tags": [
+      "encoding",
+      "boundary",
+      "stasis",
+      "coupling"
+    ]
+  },
+  {
+    "id": "peirce-triad",
+    "name": "Peircean Semiotic Triad",
+    "domain": "semiotics",
+    "unit": "sign-object-interpretant triad",
+    "variation": "icon, index, symbol classes",
+    "selection": "interpretant mediates sign-object relation through inference",
+    "fitness": "semiotic adequacy (interpretive convergence)",
+    "boundary": "unlimited semiosis, community of inquiry",
+    "tags": [
+      "encoding",
+      "feedback",
+      "causality",
+      "emergence"
+    ]
+  },
+  {
+    "id": "rna-world",
+    "name": "RNA World Hypothesis",
+    "domain": "astrobiology",
+    "unit": "ribozyme / RNA replicator",
+    "variation": "sequence space explored by error-prone copying",
+    "selection": "catalytic and replicative efficiency",
+    "fitness": "self-replication rate",
+    "boundary": "prebiotic chemistry, mineral surfaces",
+    "tags": [
+      "replication",
+      "variation",
+      "selection",
+      "emergence"
+    ]
+  },
+  {
+    "id": "drake-equation",
+    "name": "Drake Equation",
+    "domain": "astrobiology",
+    "unit": "civilization in the galaxy",
+    "variation": "parameter estimates (star formation, habitability, intelligence)",
+    "selection": "product of factors yields expected count",
+    "fitness": "number of detectable civilizations N",
+    "boundary": "Milky Way, current epoch, radio-detectable window",
+    "tags": [
+      "statistics",
+      "uncertainty",
+      "long-horizon",
+      "threshold"
+    ]
+  },
+  {
+    "id": "panspermia",
+    "name": "Panspermia Hypothesis",
+    "domain": "astrobiology",
+    "unit": "viable organism on ejecta",
+    "variation": "survival through radiation, vacuum, reentry",
+    "selection": "organisms that tolerate interplanetary transit seed new worlds",
+    "fitness": "successful colonization of destination",
+    "boundary": "interplanetary transfer time, sterilization hazards",
+    "tags": [
+      "transmission",
+      "selection",
+      "boundary",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "prigogine-dissipative",
+    "name": "Dissipative Structures (Prigogine)",
+    "domain": "non-equilibrium thermodynamics",
+    "unit": "open thermodynamic system",
+    "variation": "fluctuations around non-equilibrium steady state",
+    "selection": "entropy production drives self-organization beyond bifurcation",
+    "fitness": "sustained ordered structure under energy throughput",
+    "boundary": "far-from-equilibrium, continuous energy/matter flow",
+    "tags": [
+      "self-organization",
+      "phase-transition",
+      "emergence",
+      "feedback"
+    ]
+  },
+  {
+    "id": "onsager-reciprocal",
+    "name": "Onsager Reciprocal Relations",
+    "domain": "non-equilibrium thermodynamics",
+    "unit": "thermodynamic flux",
+    "variation": "conjugate forces (gradients of temperature, chemical potential)",
+    "selection": "linear response regime couples fluxes symmetrically",
+    "fitness": "entropy production rate near equilibrium",
+    "boundary": "near-equilibrium, linear regime, time-reversible microdynamics",
+    "tags": [
+      "coupling",
+      "equilibrium",
+      "dynamics",
+      "field"
+    ]
+  },
+  {
+    "id": "maximum-entropy-production",
+    "name": "Maximum Entropy Production Principle",
+    "domain": "non-equilibrium thermodynamics",
+    "unit": "steady-state configuration",
+    "variation": "candidate flux distributions",
+    "selection": "system selects configuration maximizing entropy production rate",
+    "fitness": "rate of entropy production",
+    "boundary": "sufficient degrees of freedom, steady-state assumption",
+    "tags": [
+      "optimization",
+      "selection",
+      "emergence",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "integrated-information",
+    "name": "Integrated Information Theory (IIT)",
+    "domain": "consciousness studies",
+    "unit": "mechanism in a causal structure",
+    "variation": "partitions of the system",
+    "selection": "partition that makes the least difference defines integrated information",
+    "fitness": "Phi (irreducible cause-effect power)",
+    "boundary": "discrete causal network, intrinsic perspective",
+    "tags": [
+      "emergence",
+      "coupling",
+      "encoding",
+      "causality"
+    ]
+  },
+  {
+    "id": "higher-order-consciousness",
+    "name": "Higher-Order Thought Theory",
+    "domain": "consciousness studies",
+    "unit": "mental state",
+    "variation": "first-order representations",
+    "selection": "meta-cognitive monitoring promotes state to consciousness",
+    "fitness": "availability to higher-order representation",
+    "boundary": "cognitive architecture, metacognitive capacity",
+    "tags": [
+      "routing",
+      "feedback",
+      "update",
+      "agents"
+    ]
+  },
+  {
+    "id": "circadian-oscillator",
+    "name": "Circadian Clock (TTFL Model)",
+    "domain": "chronobiology",
+    "unit": "clock gene-protein feedback loop",
+    "variation": "transcription-translation delays and decay rates",
+    "selection": "negative feedback loop generates ~24h oscillation",
+    "fitness": "period accuracy and phase-entrainability to light",
+    "boundary": "temperature compensation, light input pathway",
+    "tags": [
+      "oscillation",
+      "feedback",
+      "control",
+      "coupling"
+    ]
+  },
+  {
+    "id": "chronotype-variation",
+    "name": "Chronotype Variation",
+    "domain": "chronobiology",
+    "unit": "individual circadian phenotype",
+    "variation": "genetic polymorphisms in clock genes",
+    "selection": "social and ecological schedules favor certain phase preferences",
+    "fitness": "alignment of internal clock with environmental demands",
+    "boundary": "latitude, artificial light, social norms",
+    "tags": [
+      "variation",
+      "selection",
+      "tradeoff",
+      "coupling"
+    ]
+  },
+  {
+    "id": "soil-formation-factors",
+    "name": "Jenny's Factors of Soil Formation",
+    "domain": "pedology",
+    "unit": "soil profile",
+    "variation": "climate, organisms, relief, parent material, time (CLORPT)",
+    "selection": "weathering and biological processes differentiate horizons",
+    "fitness": "soil maturity (horizon development)",
+    "boundary": "landscape position, geological time scale",
+    "tags": [
+      "long-horizon",
+      "coupling",
+      "emergence",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "soil-food-web",
+    "name": "Soil Food Web",
+    "domain": "soil science",
+    "unit": "soil organism functional group",
+    "variation": "bacterial vs fungal decomposition pathways",
+    "selection": "substrate quality and predation regulate community structure",
+    "fitness": "nutrient cycling rate",
+    "boundary": "soil moisture, organic matter input, pH",
+    "tags": [
+      "network",
+      "feedback",
+      "co-evolution",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "prospect-theory",
+    "name": "Prospect Theory",
+    "domain": "behavioral economics",
+    "unit": "risky choice",
+    "variation": "framing as gain or loss relative to reference point",
+    "selection": "loss aversion and probability weighting distort expected utility",
+    "fitness": "subjective value (prospect utility)",
+    "boundary": "individual decision, known probabilities",
+    "tags": [
+      "agents",
+      "tradeoff",
+      "uncertainty",
+      "feedback"
+    ]
+  },
+  {
+    "id": "nudge-choice-architecture",
+    "name": "Nudge Theory (Choice Architecture)",
+    "domain": "behavioral economics",
+    "unit": "decision environment",
+    "variation": "default options, framing, salience",
+    "selection": "architect steers choices without removing options",
+    "fitness": "behavioral outcome aligned with policy goal",
+    "boundary": "libertarian paternalism, bounded rationality",
+    "tags": [
+      "agents",
+      "control",
+      "feedback",
+      "routing"
+    ]
+  },
+  {
+    "id": "hyperbolic-discounting",
+    "name": "Hyperbolic Discounting",
+    "domain": "behavioral economics",
+    "unit": "intertemporal choice",
+    "variation": "delay to reward",
+    "selection": "present bias overweights immediate payoffs",
+    "fitness": "subjective discount rate",
+    "boundary": "individual preferences, time horizon",
+    "tags": [
+      "agents",
+      "tradeoff",
+      "dynamics",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "central-place-theory",
+    "name": "Central Place Theory",
+    "domain": "urban planning",
+    "unit": "settlement",
+    "variation": "hexagonal service areas at multiple scales",
+    "selection": "consumers minimize travel to nearest provider",
+    "fitness": "hierarchical spacing of cities",
+    "boundary": "uniform plain, rational consumers",
+    "tags": [
+      "optimization",
+      "network",
+      "topology",
+      "emergence"
+    ]
+  },
+  {
+    "id": "urban-scaling-laws",
+    "name": "Urban Scaling Laws",
+    "domain": "city science",
+    "unit": "city",
+    "variation": "population size",
+    "selection": "superlinear scaling of innovation, sublinear of infrastructure",
+    "fitness": "per-capita output or resource use",
+    "boundary": "metropolitan boundary definition, data resolution",
+    "tags": [
+      "statistics",
+      "amplification",
+      "emergence",
+      "network"
+    ]
+  },
+  {
+    "id": "induced-demand",
+    "name": "Induced Demand (Braess Paradox)",
+    "domain": "urban planning",
+    "unit": "road segment / commuter",
+    "variation": "added road capacity",
+    "selection": "additional capacity attracts latent demand, restoring congestion",
+    "fitness": "total travel time across network",
+    "boundary": "equilibrium routing, elastic demand",
+    "tags": [
+      "feedback",
+      "network",
+      "routing",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "seir-model",
+    "name": "SEIR Epidemic Model",
+    "domain": "epidemiology",
+    "unit": "individual host (susceptible, exposed, infectious, recovered)",
+    "variation": "latent period, contact rate, recovery rate",
+    "selection": "exposed compartment delays but does not prevent transmission chain",
+    "fitness": "epidemic curve shape and peak timing",
+    "boundary": "closed population, homogeneous mixing",
+    "tags": [
+      "transmission",
+      "dynamics",
+      "threshold",
+      "feedback"
+    ]
+  },
+  {
+    "id": "superspreading",
+    "name": "Superspreading Events",
+    "domain": "epidemiology",
+    "unit": "transmission event",
+    "variation": "overdispersed individual reproductive number",
+    "selection": "a few individuals generate most secondary cases",
+    "fitness": "dispersion parameter k",
+    "boundary": "contact heterogeneity, event-based transmission",
+    "tags": [
+      "amplification",
+      "statistics",
+      "noise",
+      "network"
+    ]
+  },
+  {
+    "id": "herd-immunity",
+    "name": "Herd Immunity Threshold",
+    "domain": "epidemiology",
+    "unit": "population immunity fraction",
+    "variation": "vaccination or natural infection rates",
+    "selection": "transmission blocked when susceptible fraction < 1/R0",
+    "fitness": "critical immunization threshold",
+    "boundary": "homogeneous mixing, lifelong immunity, single strain",
+    "tags": [
+      "threshold",
+      "feedback",
+      "transmission",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "phlogiston-paradigm",
+    "name": "Phlogiston Theory (Historical)",
+    "domain": "history of science",
+    "unit": "combustible substance",
+    "variation": "candidate explanations of combustion and calcination",
+    "selection": "phlogiston release explained weight changes (incorrectly)",
+    "fitness": "explanatory coherence within pre-Lavoisier chemistry",
+    "boundary": "pre-oxygen paradigm; superseded by Lavoisier's oxidation",
+    "tags": [
+      "belief",
+      "stasis",
+      "shock",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "alchemical-transmutation",
+    "name": "Alchemical Transmutation",
+    "domain": "history of science",
+    "unit": "base metal",
+    "variation": "procedural recipes (calcination, dissolution, projection)",
+    "selection": "philosopher's stone as universal catalyst",
+    "fitness": "gold yield (never achieved; led to chemical knowledge)",
+    "boundary": "pre-modern matter theory, unfalsifiable framework",
+    "tags": [
+      "belief",
+      "variation",
+      "long-horizon",
+      "emergence"
+    ]
+  },
+  {
+    "id": "aristotle-rhetoric",
+    "name": "Aristotelian Rhetoric (Ethos/Pathos/Logos)",
+    "domain": "rhetoric",
+    "unit": "persuasive appeal",
+    "variation": "speaker credibility, audience emotion, logical argument",
+    "selection": "audience judges credibility, is moved, or convinced",
+    "fitness": "persuasive effect",
+    "boundary": "deliberative, forensic, or epideictic context",
+    "tags": [
+      "agents",
+      "encoding",
+      "tradeoff",
+      "feedback"
+    ]
+  },
+  {
+    "id": "elaboration-likelihood",
+    "name": "Elaboration Likelihood Model",
+    "domain": "persuasion theory",
+    "unit": "message processing episode",
+    "variation": "argument strength vs peripheral cues",
+    "selection": "motivation and ability determine central vs peripheral route",
+    "fitness": "attitude change durability",
+    "boundary": "individual cognitive resources, message relevance",
+    "tags": [
+      "routing",
+      "agents",
+      "update",
+      "threshold"
+    ]
+  },
+  {
+    "id": "trolley-problem",
+    "name": "Trolley Problem / Doctrine of Double Effect",
+    "domain": "ethics",
+    "unit": "moral dilemma",
+    "variation": "act vs omission, intended vs foreseen harm",
+    "selection": "deontological vs consequentialist framing yields different verdicts",
+    "fitness": "moral permissibility judgment",
+    "boundary": "controlled thought experiment, stipulated outcomes",
+    "tags": [
+      "agents",
+      "tradeoff",
+      "moral-weight",
+      "causality"
+    ]
+  },
+  {
+    "id": "veil-of-ignorance",
+    "name": "Rawlsian Veil of Ignorance",
+    "domain": "moral philosophy",
+    "unit": "principle of justice",
+    "variation": "candidate distributive rules",
+    "selection": "rational agents behind veil choose maximin",
+    "fitness": "fairness of resulting social contract",
+    "boundary": "original position, mutual disinterest",
+    "tags": [
+      "agents",
+      "selection",
+      "tradeoff",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "virtue-ethics",
+    "name": "Virtue Ethics (Aristotelian)",
+    "domain": "ethics",
+    "unit": "character trait",
+    "variation": "habits cultivated through practice",
+    "selection": "practical wisdom (phronesis) guides the mean between extremes",
+    "fitness": "eudaimonia (human flourishing)",
+    "boundary": "culturally situated, teleological human nature",
+    "tags": [
+      "agents",
+      "feedback",
+      "tradeoff",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "aesthetic-disinterest",
+    "name": "Kantian Aesthetic Judgment",
+    "domain": "aesthetics",
+    "unit": "judgment of taste",
+    "variation": "subjective responses to form",
+    "selection": "disinterested pleasure claims universal assent",
+    "fitness": "reflective harmony of imagination and understanding",
+    "boundary": "pure aesthetic judgment, free from concept or interest",
+    "tags": [
+      "agents",
+      "emergence",
+      "boundary",
+      "belief"
+    ]
+  },
+  {
+    "id": "institutional-art",
+    "name": "Institutional Theory of Art",
+    "domain": "aesthetics",
+    "unit": "candidate artwork",
+    "variation": "objects proposed within the artworld",
+    "selection": "conferral of status by artworld representatives",
+    "fitness": "accepted as art within institutional frame",
+    "boundary": "artworld conventions, historical context",
+    "tags": [
+      "agents",
+      "boundary",
+      "stasis",
+      "field"
+    ]
+  },
+  {
+    "id": "measurement-uncertainty",
+    "name": "GUM Measurement Uncertainty",
+    "domain": "metrology",
+    "unit": "measurement result",
+    "variation": "Type A (statistical) and Type B (systematic) sources",
+    "selection": "combined standard uncertainty propagated through model",
+    "fitness": "expanded uncertainty at stated confidence",
+    "boundary": "measurement model validity, known influence quantities",
+    "tags": [
+      "uncertainty",
+      "statistics",
+      "noise",
+      "encoding"
+    ]
+  },
+  {
+    "id": "calibration-traceability",
+    "name": "Metrological Traceability",
+    "domain": "metrology",
+    "unit": "calibration link",
+    "variation": "chain of comparisons from instrument to SI realization",
+    "selection": "each link adds uncertainty; chain must be unbroken",
+    "fitness": "stated uncertainty traceable to primary standard",
+    "boundary": "SI definitions, calibration interval, environmental conditions",
+    "tags": [
+      "encoding",
+      "feedback",
+      "boundary",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "yoneda-lemma",
+    "name": "Yoneda Lemma",
+    "domain": "category theory",
+    "unit": "presheaf (functor to Set)",
+    "variation": "natural transformations from representable functor",
+    "selection": "natural transformations biject with elements of F(A)",
+    "fitness": "full embedding of category into presheaf category",
+    "boundary": "locally small category",
+    "tags": [
+      "encoding",
+      "synthesis",
+      "compression",
+      "field"
+    ]
+  },
+  {
+    "id": "adjoint-functors",
+    "name": "Adjoint Functors",
+    "domain": "category theory",
+    "unit": "functor pair (F, G) between categories",
+    "variation": "candidate correspondences between hom-sets",
+    "selection": "natural bijection Hom(F(A),B) ≅ Hom(A,G(B))",
+    "fitness": "universal solution to a mapping problem",
+    "boundary": "categories with sufficient limits/colimits",
+    "tags": [
+      "coupling",
+      "synthesis",
+      "optimization",
+      "encoding"
+    ]
+  },
+  {
+    "id": "monad-category",
+    "name": "Monads in Category Theory",
+    "domain": "category theory",
+    "unit": "endofunctor with unit and multiplication",
+    "variation": "candidate algebraic structures on a category",
+    "selection": "monad laws (associativity, unit) constrain composition",
+    "fitness": "Kleisli or Eilenberg-Moore algebra structure",
+    "boundary": "endofunctor category, coherence conditions",
+    "tags": [
+      "encoding",
+      "control",
+      "synthesis",
+      "compression"
+    ]
+  },
+  {
+    "id": "curry-howard",
+    "name": "Curry-Howard Correspondence",
+    "domain": "type theory",
+    "unit": "typed term / proof",
+    "variation": "programs in a typed lambda calculus",
+    "selection": "type checking verifies proof validity",
+    "fitness": "inhabited type = provable proposition",
+    "boundary": "constructive logic, simply-typed or dependent types",
+    "tags": [
+      "encoding",
+      "synthesis",
+      "compression",
+      "limit"
+    ]
+  },
+  {
+    "id": "hindley-milner",
+    "name": "Hindley-Milner Type Inference",
+    "domain": "programming languages",
+    "unit": "expression in polymorphic lambda calculus",
+    "variation": "candidate type assignments",
+    "selection": "unification algorithm finds principal type",
+    "fitness": "most general type without annotations",
+    "boundary": "rank-1 polymorphism, decidable inference",
+    "tags": [
+      "optimization",
+      "encoding",
+      "compression",
+      "selection"
+    ]
+  },
+  {
+    "id": "linear-types",
+    "name": "Linear Type Systems",
+    "domain": "type theory",
+    "unit": "resource-typed value",
+    "variation": "usage count (0, 1, or unrestricted)",
+    "selection": "type system enforces exactly-once use",
+    "fitness": "static guarantee of resource safety",
+    "boundary": "linear logic foundation, no implicit copying or discard",
+    "tags": [
+      "control",
+      "scarcity",
+      "encoding",
+      "boundary"
+    ]
+  },
+  {
+    "id": "prigogine-minimum-entropy",
+    "name": "Minimum Entropy Production (Near-Equilibrium)",
+    "domain": "non-equilibrium thermodynamics",
+    "unit": "thermodynamic steady state",
+    "variation": "candidate flux configurations near equilibrium",
+    "selection": "system relaxes to state of minimum entropy production rate",
+    "fitness": "entropy production rate (minimized)",
+    "boundary": "linear regime, fixed boundary conditions, Onsager symmetry",
+    "tags": [
+      "optimization",
+      "equilibrium",
+      "dynamics",
+      "control"
+    ]
+  },
+  {
+    "id": "oral-formulaic",
+    "name": "Oral-Formulaic Composition",
+    "domain": "rhetoric",
+    "unit": "formulaic phrase / epithet",
+    "variation": "stock phrases adapted to metrical slot",
+    "selection": "performer selects formula fitting meter and narrative need",
+    "fitness": "fluent real-time composition in performance",
+    "boundary": "oral tradition, fixed meter, illiterate composition",
+    "tags": [
+      "encoding",
+      "variation",
+      "selection",
+      "transmission"
+    ]
+  },
+  {
+    "id": "seismic-wave-propagation",
+    "name": "Seismic Wave Propagation",
+    "domain": "acoustics",
+    "unit": "seismic wavefront",
+    "variation": "P-wave and S-wave velocity in layered media",
+    "selection": "Snell's law and impedance contrasts determine reflection/refraction",
+    "fitness": "arrival-time pattern at surface receivers",
+    "boundary": "Earth's layered rheology, source depth and mechanism",
+    "tags": [
+      "transmission",
+      "coupling",
+      "encoding",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "fiber-optic-wdm",
+    "name": "Wavelength-Division Multiplexing",
+    "domain": "photonics",
+    "unit": "optical channel on a fiber",
+    "variation": "carrier wavelengths packed into bandwidth window",
+    "selection": "channel spacing limited by crosstalk and amplifier bandwidth",
+    "fitness": "total data throughput per fiber",
+    "boundary": "fiber dispersion, amplifier gain flatness, nonlinearity",
+    "tags": [
+      "encoding",
+      "scarcity",
+      "tradeoff",
+      "routing"
+    ]
+  },
+  {
+    "id": "harris-lines",
+    "name": "Harris Matrix (Archaeological Stratigraphy)",
+    "domain": "archaeology",
+    "unit": "stratigraphic unit (context)",
+    "variation": "depositional, interfacial, and structural contexts",
+    "selection": "physical superposition and cutting relations order contexts",
+    "fitness": "internally consistent site chronology",
+    "boundary": "single excavation, intact stratification",
+    "tags": [
+      "encoding",
+      "long-horizon",
+      "network",
+      "boundary"
+    ]
+  },
+  {
+    "id": "natural-law-jurisprudence",
+    "name": "Natural Law Theory",
+    "domain": "jurisprudence",
+    "unit": "moral-legal norm",
+    "variation": "candidate principles derived from human nature or reason",
+    "selection": "unjust laws fail to bind as genuine law",
+    "fitness": "alignment of positive law with higher moral order",
+    "boundary": "metaphysical commitment to objective morality",
+    "tags": [
+      "moral-weight",
+      "belief",
+      "boundary",
+      "causality"
+    ]
+  },
+  {
+    "id": "kahneman-noise",
+    "name": "Decision Noise (Kahneman)",
+    "domain": "behavioral economics",
+    "unit": "expert judgment",
+    "variation": "unwanted variability across judges and occasions",
+    "selection": "noise adds error orthogonal to bias",
+    "fitness": "judgment consistency (low noise)",
+    "boundary": "structured decision tasks, measurable outcomes",
+    "tags": [
+      "noise",
+      "statistics",
+      "agents",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "cbt-cognitive-model",
+    "name": "CBT Cognitive Model",
+    "domain": "psychology",
+    "unit": "thought-emotion-behavior triad",
+    "variation": "automatic thoughts and cognitive distortions",
+    "selection": "challenging distortions alters emotional and behavioral outcomes",
+    "fitness": "symptom reduction and adaptive coping",
+    "boundary": "client motivation, severity of disorder, therapist skill",
+    "tags": [
+      "feedback",
+      "update",
+      "agents",
+      "threshold"
+    ]
+  },
+  {
+    "id": "psychoanalytic-defense-mechanisms",
+    "name": "Psychoanalytic Defense Mechanisms",
+    "domain": "psychology",
+    "unit": "ego under intrapsychic conflict",
+    "variation": "types of defense (repression, projection, rationalization, sublimation)",
+    "selection": "unconscious ego deploys defenses to reduce anxiety",
+    "fitness": "anxiety reduction and ego integrity",
+    "boundary": "psychoanalytic framework, unconscious dynamics",
+    "tags": [
+      "selection",
+      "boundary",
+      "agents",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "exposure-therapy-extinction",
+    "name": "Exposure Therapy (Extinction Learning)",
+    "domain": "psychology",
+    "unit": "conditioned fear association",
+    "variation": "feared stimulus presented without aversive outcome",
+    "selection": "inhibitory learning overwrites fear memory",
+    "fitness": "reduction of conditioned fear response",
+    "boundary": "context specificity, return of fear, timing of sessions",
+    "tags": [
+      "update",
+      "feedback",
+      "threshold",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "cognitive-dissonance",
+    "name": "Cognitive Dissonance (Festinger)",
+    "domain": "psychology",
+    "unit": "conflicting cognition pair",
+    "variation": "inconsistency magnitude and importance",
+    "selection": "discomfort motivates belief change, rationalization, or behavior change",
+    "fitness": "consonance (reduced psychological tension)",
+    "boundary": "individual commitment, public vs private behavior",
+    "tags": [
+      "feedback",
+      "update",
+      "agents",
+      "contradiction"
+    ]
+  },
+  {
+    "id": "social-identity-theory",
+    "name": "Social Identity Theory (Tajfel)",
+    "domain": "psychology",
+    "unit": "group membership",
+    "variation": "salience of in-group / out-group categorization",
+    "selection": "positive distinctiveness motive drives in-group favoritism",
+    "fitness": "self-esteem through group status",
+    "boundary": "group boundaries, intergroup context, cultural norms",
+    "tags": [
+      "agents",
+      "selection",
+      "feedback",
+      "field"
+    ]
+  },
+  {
+    "id": "bystander-effect",
+    "name": "Bystander Effect (Diffusion of Responsibility)",
+    "domain": "psychology",
+    "unit": "bystander in emergency",
+    "variation": "group size and ambiguity of situation",
+    "selection": "responsibility diffuses across group; social proof signals inaction",
+    "fitness": "probability of any individual intervening",
+    "boundary": "group size, ambiguity, perceived competence",
+    "tags": [
+      "agents",
+      "network",
+      "threshold",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "asch-conformity",
+    "name": "Conformity (Asch)",
+    "domain": "psychology",
+    "unit": "individual judgment under group pressure",
+    "variation": "group unanimity and size",
+    "selection": "normative and informational social influence override private judgment",
+    "fitness": "social acceptance vs accuracy tradeoff",
+    "boundary": "unambiguous task, unanimous majority, public response",
+    "tags": [
+      "agents",
+      "feedback",
+      "tradeoff",
+      "selection"
+    ]
+  },
+  {
+    "id": "situational-power-prison",
+    "name": "Situational Power (Stanford Prison Experiment)",
+    "domain": "psychology",
+    "unit": "individual assigned to institutional role",
+    "variation": "role assignment and environmental cues",
+    "selection": "situational forces override individual disposition",
+    "fitness": "behavioral compliance with role expectations",
+    "boundary": "controlled setting, legitimate authority, deindividuation",
+    "tags": [
+      "agents",
+      "field",
+      "selection",
+      "emergence"
+    ]
+  },
+  {
+    "id": "milgram-obedience",
+    "name": "Milgram Obedience to Authority",
+    "domain": "psychology",
+    "unit": "individual under authority command",
+    "variation": "proximity of authority, victim, and degree of legitimacy",
+    "selection": "agentic state transfers moral responsibility to authority",
+    "fitness": "compliance rate under escalating commands",
+    "boundary": "legitimate authority, incremental escalation, surveillance",
+    "tags": [
+      "agents",
+      "selection",
+      "feedback",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "erikson-psychosocial-stages",
+    "name": "Erikson Psychosocial Stages",
+    "domain": "psychology",
+    "unit": "developmental stage",
+    "variation": "psychosocial crises across lifespan (8 stages)",
+    "selection": "successful resolution produces virtue; failure produces maladaptation",
+    "fitness": "ego integrity and adaptive capacity at each stage",
+    "boundary": "cultural context, lifespan, quality of caregiving",
+    "tags": [
+      "phase-transition",
+      "long-horizon",
+      "agents",
+      "update"
+    ]
+  },
+  {
+    "id": "theory-of-mind",
+    "name": "Theory of Mind",
+    "domain": "psychology",
+    "unit": "mental state attribution",
+    "variation": "false-belief tasks and perspective-taking demands",
+    "selection": "developmental emergence around age 4 enables predicting others",
+    "fitness": "social prediction accuracy",
+    "boundary": "developmental window, neurotypical development, cultural support",
+    "tags": [
+      "agents",
+      "update",
+      "emergence",
+      "prediction"
+    ]
+  },
+  {
+    "id": "self-determination-theory",
+    "name": "Self-Determination Theory (Deci & Ryan)",
+    "domain": "psychology",
+    "unit": "motivated behavior",
+    "variation": "degree of autonomy, competence, and relatedness satisfaction",
+    "selection": "intrinsic vs extrinsic regulation on autonomy continuum",
+    "fitness": "autonomous motivation, well-being, and persistence",
+    "boundary": "social context, need support, controlling vs informational feedback",
+    "tags": [
+      "feedback",
+      "agents",
+      "tradeoff",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "maslow-hierarchy",
+    "name": "Maslow's Hierarchy of Needs",
+    "domain": "psychology",
+    "unit": "motivational need level",
+    "variation": "deficiency needs vs growth needs",
+    "selection": "lower-level needs must be satisfied before higher ones motivate",
+    "fitness": "self-actualization and psychological flourishing",
+    "boundary": "cultural universality debated, prepotency sequence not rigid",
+    "tags": [
+      "hierarchy",
+      "threshold",
+      "agents",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "working-memory-baddeley",
+    "name": "Working Memory Model (Baddeley)",
+    "domain": "psychology",
+    "unit": "memory subsystem (phonological loop, visuospatial sketchpad, episodic buffer, central executive)",
+    "variation": "load and modality of incoming information",
+    "selection": "central executive allocates limited capacity across slave systems",
+    "fitness": "task performance under concurrent cognitive demands",
+    "boundary": "capacity limits (~7+/-2 chunks), decay time, modality",
+    "tags": [
+      "routing",
+      "scarcity",
+      "control",
+      "encoding"
+    ]
+  },
+  {
+    "id": "spacing-effect",
+    "name": "Spacing Effect (Distributed Practice)",
+    "domain": "psychology",
+    "unit": "study session",
+    "variation": "inter-study interval",
+    "selection": "spaced retrieval desirable difficulty outperforms massed practice",
+    "fitness": "long-term retention of material",
+    "boundary": "interval must not exceed forgetting threshold, material complexity",
+    "tags": [
+      "feedback",
+      "long-horizon",
+      "update",
+      "threshold"
+    ]
+  },
+  {
+    "id": "encoding-specificity",
+    "name": "Encoding Specificity Principle",
+    "domain": "psychology",
+    "unit": "memory trace",
+    "variation": "match between encoding context and retrieval cue",
+    "selection": "retrieval succeeds when cues reinstate encoding context",
+    "fitness": "recall accuracy",
+    "boundary": "context similarity, state-dependent cues, interference",
+    "tags": [
+      "encoding",
+      "coupling",
+      "selection",
+      "boundary"
+    ]
+  },
+  {
+    "id": "big-five-personality",
+    "name": "Big Five / Five Factor Model",
+    "domain": "psychology",
+    "unit": "personality trait dimension",
+    "variation": "trait levels across Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+    "selection": "factor analysis of trait adjectives converges on five orthogonal factors",
+    "fitness": "predictive validity for behavior, health, and life outcomes",
+    "boundary": "lexical hypothesis, cross-cultural generalizability varies",
+    "tags": [
+      "variation",
+      "statistics",
+      "agents",
+      "encoding"
+    ]
+  },
+  {
+    "id": "learned-helplessness-optimism",
+    "name": "Learned Helplessness / Learned Optimism (Seligman)",
+    "domain": "psychology",
+    "unit": "explanatory style",
+    "variation": "internal-external, stable-unstable, global-specific attribution",
+    "selection": "uncontrollable aversive events install helplessness; cognitive retraining reverses it",
+    "fitness": "persistence and resilience under adversity",
+    "boundary": "repeated uncontrollable exposure, cognitive accessibility of attributions",
+    "tags": [
+      "feedback",
+      "update",
+      "long-horizon",
+      "agents"
+    ]
+  },
+  {
+    "id": "gestalt-grouping",
+    "name": "Gestalt Principles of Grouping",
+    "domain": "psychology",
+    "unit": "perceptual element",
+    "variation": "proximity, similarity, closure, continuity, common fate",
+    "selection": "law of Pragnanz: percept minimizes complexity",
+    "fitness": "coherent figure-ground organization",
+    "boundary": "static and dynamic visual fields, limited to perceptual level",
+    "tags": [
+      "selection",
+      "emergence",
+      "optimization",
+      "encoding"
+    ]
+  },
+  {
+    "id": "general-adaptation-syndrome",
+    "name": "General Adaptation Syndrome (Selye)",
+    "domain": "psychology",
+    "unit": "organism under stressor",
+    "variation": "stressor type, duration, and intensity",
+    "selection": "alarm to resistance to exhaustion sequence unfolds under sustained stress",
+    "fitness": "survival and homeostatic recovery",
+    "boundary": "stressor duration; chronic stress exhausts adaptive reserves",
+    "tags": [
+      "dynamics",
+      "threshold",
+      "feedback",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "allostatic-load",
+    "name": "Allostatic Load",
+    "domain": "psychology",
+    "unit": "cumulative physiological wear",
+    "variation": "repeated stress activation and imperfect recovery",
+    "selection": "allostasis achieves stability through change; repeated mobilization accumulates damage",
+    "fitness": "health outcome over lifespan",
+    "boundary": "individual stress history, social determinants of health",
+    "tags": [
+      "long-horizon",
+      "feedback",
+      "dynamics",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "gift-economy-mauss",
+    "name": "Gift Economy (Mauss)",
+    "domain": "anthropology",
+    "unit": "gift exchange",
+    "variation": "gift types, timing, and reciprocity obligation",
+    "selection": "obligation to give, receive, and reciprocate creates social bonds",
+    "fitness": "social solidarity and status",
+    "boundary": "pre-market societies, embedded economy",
+    "tags": [
+      "agents",
+      "feedback",
+      "long-horizon",
+      "network"
+    ]
+  },
+  {
+    "id": "liminality-turner",
+    "name": "Liminality (Turner)",
+    "domain": "anthropology",
+    "unit": "ritual participant",
+    "variation": "separation, margin (liminal), reincorporation phases",
+    "selection": "threshold state dissolves old structure and enables transformation",
+    "fitness": "successful status transition",
+    "boundary": "ritual context, communitas, symbolic inversion",
+    "tags": [
+      "phase-transition",
+      "boundary",
+      "emergence",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "auxin-hormonal-signaling",
+    "name": "Plant Hormonal Signaling (Auxin)",
+    "domain": "botany",
+    "unit": "plant cell in meristem",
+    "variation": "auxin concentration gradient across tissues",
+    "selection": "high auxin promotes cell elongation; polar transport creates directionality",
+    "fitness": "phototropic and gravitropic growth response",
+    "boundary": "concentration range, receptor saturation, competing hormones",
+    "tags": [
+      "gradient",
+      "feedback",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "phyllotaxis",
+    "name": "Phyllotaxis",
+    "domain": "botany",
+    "unit": "leaf or floret primordium",
+    "variation": "inhibitory field of existing primordia",
+    "selection": "new primordium forms at position of least inhibition (golden angle ~137.5 degrees)",
+    "fitness": "packing efficiency and light capture",
+    "boundary": "meristem geometry, inhibitory field range",
+    "tags": [
+      "self-organization",
+      "optimization",
+      "emergence",
+      "gradient"
+    ]
+  },
+  {
+    "id": "tobler-first-law",
+    "name": "Tobler's First Law of Geography",
+    "domain": "cartography",
+    "unit": "spatial attribute value",
+    "variation": "geographic distance between locations",
+    "selection": "near things are more related than distant things",
+    "fitness": "spatial autocorrelation (Moran I)",
+    "boundary": "continuous space, distance metric defined",
+    "tags": [
+      "gradient",
+      "coupling",
+      "statistics",
+      "network"
+    ]
+  },
+  {
+    "id": "pid-control",
+    "name": "PID Control",
+    "domain": "control theory",
+    "unit": "control signal",
+    "variation": "proportional, integral, derivative gains",
+    "selection": "weighted sum of error, accumulated error, and error rate minimizes deviation",
+    "fitness": "setpoint tracking error",
+    "boundary": "linear plant, noise, actuator limits, sampling rate",
+    "tags": [
+      "feedback",
+      "control",
+      "optimization",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "feedback-linearization",
+    "name": "Feedback Linearization",
+    "domain": "control theory",
+    "unit": "nonlinear dynamic system",
+    "variation": "nonlinear state feedback cancels nonlinearities",
+    "selection": "exact cancellation transforms system to linear normal form",
+    "fitness": "linear controllability of originally nonlinear plant",
+    "boundary": "full state measurement, relative degree well-defined, no zero dynamics instability",
+    "tags": [
+      "control",
+      "optimization",
+      "dynamics",
+      "coupling"
+    ]
+  },
+  {
+    "id": "expected-utility",
+    "name": "Expected Utility Theory",
+    "domain": "decision theory",
+    "unit": "risky prospect",
+    "variation": "probability-outcome pairs",
+    "selection": "rational agent maximizes probability-weighted utility sum",
+    "fitness": "expected utility value",
+    "boundary": "von Neumann-Morgenstern axioms, known probabilities, stable preferences",
+    "tags": [
+      "agents",
+      "optimization",
+      "statistics",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "minimax-regret",
+    "name": "Minimax Regret",
+    "domain": "decision theory",
+    "unit": "decision under uncertainty",
+    "variation": "regret matrix across actions and states of the world",
+    "selection": "choose action minimizing worst-case regret",
+    "fitness": "maximum regret minimized",
+    "boundary": "finite action and state space, no probabilities assumed",
+    "tags": [
+      "optimization",
+      "agents",
+      "uncertainty",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "demographic-transition-model",
+    "name": "Demographic Transition Model",
+    "domain": "demography",
+    "unit": "national population",
+    "variation": "death rates and birth rates over development stages",
+    "selection": "mortality falls first with development; fertility follows with lag",
+    "fitness": "net population growth rate",
+    "boundary": "economic development trajectory, cultural norms, policy",
+    "tags": [
+      "dynamics",
+      "phase-transition",
+      "long-horizon",
+      "threshold"
+    ]
+  },
+  {
+    "id": "hpa-axis-feedback",
+    "name": "HPA Axis Hormonal Feedback Loop",
+    "domain": "endocrinology",
+    "unit": "hormone concentration (CRH, ACTH, cortisol)",
+    "variation": "stressor input and glucocorticoid receptor sensitivity",
+    "selection": "cortisol negative feedback suppresses CRH and ACTH release",
+    "fitness": "return to basal cortisol setpoint",
+    "boundary": "receptor downregulation under chronic stress, circadian rhythm",
+    "tags": [
+      "feedback",
+      "oscillation",
+      "control",
+      "coupling"
+    ]
+  },
+  {
+    "id": "eusociality-hamiltons-rule",
+    "name": "Eusociality and Hamilton's Rule (Kin Selection)",
+    "domain": "entomology",
+    "unit": "altruistic act",
+    "variation": "coefficient of relatedness r, benefit b, cost c",
+    "selection": "altruism spreads when rb > c (inclusive fitness benefit exceeds cost)",
+    "fitness": "inclusive fitness",
+    "boundary": "haplodiploidy or repeated interactions in nest, r measurable",
+    "tags": [
+      "selection",
+      "network",
+      "scarcity",
+      "agents"
+    ]
+  },
+  {
+    "id": "locard-exchange-principle",
+    "name": "Locard's Exchange Principle",
+    "domain": "forensic science",
+    "unit": "physical contact event",
+    "variation": "materials transferred between surfaces",
+    "selection": "every contact leaves a trace; transfer is bidirectional",
+    "fitness": "evidentiary trace quantity and persistence",
+    "boundary": "trace degradation, contamination, detection threshold",
+    "tags": [
+      "transmission",
+      "coupling",
+      "boundary",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "mandelbrot-self-similarity",
+    "name": "Fractal Self-Similarity (Mandelbrot)",
+    "domain": "fractal geometry",
+    "unit": "geometric pattern at a scale",
+    "variation": "observation scale",
+    "selection": "statistical or exact self-similarity recurs across scales",
+    "fitness": "fractal dimension D exceeds topological dimension",
+    "boundary": "finite inner and outer scales cut off fractal behavior",
+    "tags": [
+      "self-organization",
+      "emergence",
+      "statistics",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "mda-framework",
+    "name": "MDA Framework (Mechanics-Dynamics-Aesthetics)",
+    "domain": "game design",
+    "unit": "game component",
+    "variation": "mechanics specified by designer, dynamics emerge from play, aesthetics felt by player",
+    "selection": "player experience (aesthetics) selects for retained mechanics",
+    "fitness": "player engagement and emotional response",
+    "boundary": "designer controls mechanics; emergent dynamics are indirect",
+    "tags": [
+      "emergence",
+      "agents",
+      "feedback",
+      "encoding"
+    ]
+  },
+  {
+    "id": "stream-power-erosion",
+    "name": "Stream Power Erosion Model",
+    "domain": "geomorphology",
+    "unit": "channel reach",
+    "variation": "discharge, channel slope, and substrate erodibility",
+    "selection": "erosion rate proportional to unit stream power exceeding threshold",
+    "fitness": "channel incision and landscape denudation rate",
+    "boundary": "bedrock vs alluvial channel, discharge variability, tectonic uplift",
+    "tags": [
+      "threshold",
+      "dynamics",
+      "long-horizon",
+      "gradient"
+    ]
+  },
+  {
+    "id": "euler-graph-theorem",
+    "name": "Euler's Theorem (Graph Theory)",
+    "domain": "graph theory",
+    "unit": "graph edge traversal",
+    "variation": "vertex degree parity",
+    "selection": "Eulerian circuit exists iff all vertices have even degree",
+    "fitness": "existence of a single traversal covering all edges",
+    "boundary": "connected graph, undirected or directed variant",
+    "tags": [
+      "topology",
+      "encoding",
+      "network",
+      "boundary"
+    ]
+  },
+  {
+    "id": "graph-coloring",
+    "name": "Graph Coloring (Chromatic Number)",
+    "domain": "graph theory",
+    "unit": "graph vertex",
+    "variation": "candidate color assignments",
+    "selection": "minimize colors so no two adjacent vertices share a color",
+    "fitness": "chromatic number chi(G)",
+    "boundary": "NP-hard in general; planar graphs require at most 4 colors",
+    "tags": [
+      "optimization",
+      "scarcity",
+      "network",
+      "boundary"
+    ]
+  },
+  {
+    "id": "ranganathan-five-laws",
+    "name": "Ranganathan's Five Laws of Library Science",
+    "domain": "library science",
+    "unit": "book-reader interaction",
+    "variation": "access, relevance, and efficiency of knowledge retrieval",
+    "selection": "laws select for open, efficient, growing system design",
+    "fitness": "every reader their book; every book its reader; save time",
+    "boundary": "physical or digital collection, user population",
+    "tags": [
+      "routing",
+      "optimization",
+      "network",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "clausewitz-friction",
+    "name": "Clausewitz's Friction of War",
+    "domain": "military strategy",
+    "unit": "military operation",
+    "variation": "fog of war, chance, and human factors introduce resistance",
+    "selection": "operational plans degrade; robust strategy accounts for friction",
+    "fitness": "mission accomplishment under uncertainty",
+    "boundary": "actual combat conditions, information limits, morale",
+    "tags": [
+      "noise",
+      "uncertainty",
+      "agents",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "lanchester-laws",
+    "name": "Lanchester's Laws of Combat Attrition",
+    "domain": "military strategy",
+    "unit": "combat unit",
+    "variation": "force size and firepower efficiency",
+    "selection": "square law: attrition advantage scales with force-size squared for ranged combat",
+    "fitness": "surviving force size at battle end",
+    "boundary": "homogeneous units, continuous engagement, no terrain effects",
+    "tags": [
+      "dynamics",
+      "amplification",
+      "scarcity",
+      "agents"
+    ]
+  },
+  {
+    "id": "campbells-monomyth",
+    "name": "Campbell's Monomyth (Hero's Journey)",
+    "domain": "mythology",
+    "unit": "narrative stage",
+    "variation": "cultural surface details across world mythologies",
+    "selection": "departure-initiation-return structure recurs cross-culturally",
+    "fitness": "psychological resonance and cultural transmission",
+    "boundary": "voluntary vs imposed journey; genre scope debated",
+    "tags": [
+      "encoding",
+      "transmission",
+      "emergence",
+      "stasis"
+    ]
+  },
+  {
+    "id": "red-queen-hypothesis",
+    "name": "Red Queen Hypothesis",
+    "domain": "parasitology",
+    "unit": "host-parasite genotype pair",
+    "variation": "host and parasite genotype frequencies",
+    "selection": "co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones",
+    "fitness": "infection resistance (host) / infectivity (parasite)",
+    "boundary": "sexually reproducing host, obligate parasite, overlapping generations",
+    "tags": [
+      "co-evolution",
+      "selection",
+      "oscillation",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "slam-robotics",
+    "name": "SLAM (Simultaneous Localization and Mapping)",
+    "domain": "robotics",
+    "unit": "robot pose + map landmark",
+    "variation": "sensor observations with noise",
+    "selection": "probabilistic filter (EKF, particle filter) updates joint pose-map belief",
+    "fitness": "consistent map and accurate localization",
+    "boundary": "sensor range and noise, loop-closure detection, dynamic environments",
+    "tags": [
+      "feedback",
+      "uncertainty",
+      "update",
+      "network"
+    ]
+  },
+  {
+    "id": "nyquist-shannon-sampling",
+    "name": "Nyquist-Shannon Sampling Theorem",
+    "domain": "signal processing",
+    "unit": "discrete sample",
+    "variation": "sampling frequency relative to signal bandwidth",
+    "selection": "aliasing-free reconstruction requires sampling at >= 2 * max frequency",
+    "fitness": "perfect reconstruction of bandlimited signal",
+    "boundary": "strictly bandlimited signal, ideal reconstruction filter",
+    "tags": [
+      "encoding",
+      "boundary",
+      "threshold",
+      "compression"
+    ]
+  },
+  {
+    "id": "two-process-sleep",
+    "name": "Two-Process Model of Sleep Regulation (Borbely)",
+    "domain": "sleep science",
+    "unit": "sleep pressure / circadian phase",
+    "variation": "homeostatic sleep pressure (Process S) and circadian drive (Process C)",
+    "selection": "sleep onset when S exceeds upper threshold; wake when it falls below lower",
+    "fitness": "sleep timing and duration optimized",
+    "boundary": "circadian period ~24h, ultradian oscillation of REM/NREM within sleep",
+    "tags": [
+      "oscillation",
+      "threshold",
+      "feedback",
+      "control"
+    ]
+  },
+  {
+    "id": "weaving-tension-dynamics",
+    "name": "Weaving Tension Dynamics",
+    "domain": "textile science",
+    "unit": "warp yarn segment",
+    "variation": "loom shed angle, pick density, and yarn modulus",
+    "selection": "tension equilibrium between warp crimp and weft interlacement geometry",
+    "fitness": "fabric cover factor and dimensional stability",
+    "boundary": "yarn elasticity, loom geometry, beat-up force",
+    "tags": [
+      "equilibrium",
+      "coupling",
+      "dynamics",
+      "optimization"
+    ]
+  },
+  {
+    "id": "brouwer-fixed-point",
+    "name": "Brouwer Fixed-Point Theorem",
+    "domain": "topology",
+    "unit": "continuous map on a compact convex set",
+    "variation": "candidate continuous functions from disk to itself",
+    "selection": "topological argument (no retraction) guarantees at least one fixed point",
+    "fitness": "existence of fixed point x such that f(x) = x",
+    "boundary": "compact convex domain in R^n, continuity required",
+    "tags": [
+      "topology",
+      "equilibrium",
+      "limit",
+      "boundary"
+    ]
+  },
+  {
+    "id": "quasispecies-theory",
+    "name": "Quasispecies Theory (Eigen)",
+    "domain": "virology",
+    "unit": "RNA sequence variant",
+    "variation": "high mutation rate during replication",
+    "selection": "selection acts on mutant cloud distribution, not single sequence",
+    "fitness": "mean fitness of quasispecies ensemble",
+    "boundary": "error threshold: mutation rate must stay below inverse of genome length",
+    "tags": [
+      "variation",
+      "selection",
+      "ensemble",
+      "threshold"
+    ]
+  },
+  {
+    "id": "magma-chamber-dynamics",
+    "name": "Magma Chamber Dynamics",
+    "domain": "volcanology",
+    "unit": "magma body in crustal reservoir",
+    "variation": "recharge rate, crystallization, volatile exsolution, roof deformation",
+    "selection": "eruption triggered when chamber pressure exceeds lithostatic threshold",
+    "fitness": "eruption volume and style (effusive vs explosive)",
+    "boundary": "crustal rheology, volatile content, recharge flux, reservoir geometry",
+    "tags": [
+      "threshold",
+      "dynamics",
+      "phase-transition",
+      "feedback"
+    ]
+  },
+  {
+    "id": "satisficing",
+    "name": "Satisficing (Simon)",
+    "domain": "decision theory",
+    "unit": "decision-maker searching alternatives",
+    "variation": "aspiration level and search order",
+    "selection": "first option meeting threshold accepted; optimization abandoned",
+    "fitness": "decision speed vs optimality tradeoff under bounded rationality",
+    "boundary": "cognitive limits, search cost, time pressure",
+    "tags": [
+      "agents",
+      "threshold",
+      "tradeoff",
+      "optimization"
+    ]
+  },
+  {
+    "id": "prototype-theory",
+    "name": "Prototype Theory (Rosch)",
+    "domain": "cognitive science",
+    "unit": "concept category",
+    "variation": "graded membership by similarity to prototype",
+    "selection": "most typical member anchors the category",
+    "fitness": "category judgment speed and accuracy",
+    "boundary": "natural categories, fuzzy boundaries, cultural variation",
+    "tags": [
+      "encoding",
+      "selection",
+      "emergence",
+      "agents"
+    ]
+  },
+  {
+    "id": "island-biogeography",
+    "name": "Island Biogeography (MacArthur & Wilson)",
+    "domain": "ecology",
+    "unit": "species on an island",
+    "variation": "island area and distance from mainland",
+    "selection": "immigration and extinction rates reach equilibrium species number",
+    "fitness": "species richness at equilibrium",
+    "boundary": "island size, isolation, colonization ability of species",
+    "tags": [
+      "equilibrium",
+      "threshold",
+      "dynamics",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "channel-capacity-shannon",
+    "name": "Shannon Channel Capacity",
+    "domain": "information theory",
+    "unit": "communication channel",
+    "variation": "signal power and noise power",
+    "selection": "channel capacity C = B log2(1 + S/N) sets hard limit on reliable transmission",
+    "fitness": "maximum error-free bit rate",
+    "boundary": "additive white Gaussian noise, fixed bandwidth",
+    "tags": [
+      "encoding",
+      "boundary",
+      "limit",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "comparative-advantage",
+    "name": "Comparative Advantage (Ricardo)",
+    "domain": "economics",
+    "unit": "production activity",
+    "variation": "relative opportunity costs across countries",
+    "selection": "specialization in lowest-opportunity-cost goods maximizes mutual gains",
+    "fitness": "total production output from trade",
+    "boundary": "two goods, two countries, constant returns, no transport costs",
+    "tags": [
+      "optimization",
+      "tradeoff",
+      "scarcity",
+      "agents"
+    ]
+  },
+  {
+    "id": "wave-particle-duality",
+    "name": "Wave-Particle Duality",
+    "domain": "quantum mechanics",
+    "unit": "quantum entity (photon, electron)",
+    "variation": "experimental setup (double-slit vs detector)",
+    "selection": "measurement context determines whether wave or particle behavior manifests",
+    "fitness": "interference pattern (wave) or discrete hit (particle)",
+    "boundary": "Heisenberg uncertainty, decoherence scale",
+    "tags": [
+      "uncertainty",
+      "boundary",
+      "phase-transition",
+      "statistics"
+    ]
+  },
+  {
+    "id": "structural-holes",
+    "name": "Structural Holes (Burt)",
+    "domain": "network science",
+    "unit": "network broker",
+    "variation": "gap between otherwise disconnected clusters",
+    "selection": "broker bridging structural holes gains information and control advantages",
+    "fitness": "brokerage capital and innovation rate",
+    "boundary": "sparse inter-cluster connections, asymmetric information",
+    "tags": [
+      "network",
+      "agents",
+      "scarcity",
+      "routing"
+    ]
+  },
+  {
+    "id": "nash-equilibrium",
+    "name": "Nash Equilibrium",
+    "domain": "game theory",
+    "unit": "strategy profile",
+    "variation": "all combinations of player strategies",
+    "selection": "no player can improve payoff by unilateral deviation",
+    "fitness": "mutual best-response condition",
+    "boundary": "finite players, complete information, mixed strategies allowed",
+    "tags": [
+      "equilibrium",
+      "agents",
+      "optimization",
+      "stasis"
+    ]
+  },
+  {
+    "id": "morphogen-gradient",
+    "name": "Morphogen Gradient (Turing-Wolpert)",
+    "domain": "developmental biology",
+    "unit": "cell receiving positional information",
+    "variation": "concentration gradient of diffusing morphogen",
+    "selection": "cells interpret threshold concentrations as fate instructions",
+    "fitness": "correct tissue patterning",
+    "boundary": "source-sink geometry, diffusion rate, threshold precision",
+    "tags": [
+      "gradient",
+      "threshold",
+      "selection",
+      "self-organization"
+    ]
+  }
+]

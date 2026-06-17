@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Synaptic Niche Construction",
+    "core_claim": "Active synapses modify their local biochemical microenvironment (the 'synaptic niche'), which reshapes selection pressures on future plasticity. Learning is co-evolution between neural activity and the micro-environment it constructs.",
+    "mechanism_borrowed_from": "Niche Construction",
+    "domain_applied_to": "neuroscience",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "niche-construction",
+    "source_b": "hebbian-learning"
+  },
+  {
+    "name": "Epistatic Strategy Recombination Theory",
+    "core_claim": "When game strategies are encoded as modular sub-components (like genes), recombination produces composite strategies unreachable by payoff-gradient search — the ecology exhibits punctuated equilibria, epistasis, and neutral drift networks.",
+    "mechanism_borrowed_from": "Natural Selection",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "natural-selection",
+    "source_b": "prisoners-dilemma"
+  },
+  {
+    "name": "Compartmental Threshold Dynamics (CTD)",
+    "core_claim": "Social adoption passes through a latent 'Primed' compartment — individuals who exceeded their threshold cognitively but haven't adopted behaviorally — with a decay-back mechanism producing bistability absent from standard models.",
+    "mechanism_borrowed_from": "SIR Epidemic Model",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "viral-spread",
+    "source_b": "social-contagion"
+  },
+  {
+    "name": "Surplus-Value Equilibrium Theory",
+    "core_claim": "Capital accumulation follows equilibrium logic where surplus value extracted from labor and demand for reinvestable capital clear at an endogenous accumulation rate. Crises arise from persistent disequilibria between surplus generation and profitable reinvestment.",
+    "mechanism_borrowed_from": "Supply and Demand Equilibrium",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "supply-demand",
+    "source_b": "capital-accumulation"
+  },
+  {
+    "name": "Hyphal Actor-Network Theory (HANT)",
+    "core_claim": "Social networks self-organize via mycelial logic: actors extend associative 'hyphae' toward resource gradients, fuse via translation, and prune weak links. Network durability is a function of throughput, not structural stability.",
+    "mechanism_borrowed_from": "Mycelial Resource Routing",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "mycelial-network",
+    "source_b": "actor-network"
+  },
+  {
+    "name": "Dialectical Hypostatics",
+    "core_claim": "Every theological God-world claim contains an antithesis between ontological orders (uncreated/created). Genuine doctrinal development occurs only when a conciliar act produces a hypostatic synthesis holding both in unconfused, undivided union — the Chalcedonian pattern as universal grammar.",
+    "mechanism_borrowed_from": "Hegelian Dialectic",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "dialectic",
+    "source_b": "incarnation"
+  },
+  {
+    "name": "Antifragile Gene Regulatory Networks",
+    "core_claim": "GRNs repeatedly exposed to transcriptional noise don't merely tolerate it — they reconfigure their attractor landscape to expand the repertoire of stable expression states, gaining regulatory fitness from disorder.",
+    "mechanism_borrowed_from": "Antifragility",
+    "domain_applied_to": "systems biology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "antifragility",
+    "source_b": "gene-regulatory-network"
+  },
+  {
+    "name": "Wu Wei Reinforcement Learning (WWRL)",
+    "core_claim": "An RL agent that minimizes policy-dynamics divergence alongside reward converges faster and generalizes better, because aligned actions exploit the MDP's natural transition structure rather than fighting it.",
+    "mechanism_borrowed_from": "Wu Wei",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "taoism-wuwei",
+    "source_b": "reinforcement-learning"
+  },
+  {
+    "name": "Strategic Hormesis",
+    "core_claim": "Firms that absorb small competitive shocks within a narrow intensity window activate adaptive capabilities that produce greater long-term resilience than shielded firms — too little threat breeds complacency, too much triggers death spiral.",
+    "mechanism_borrowed_from": "Hormesis",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "hormesis",
+    "source_b": "disruptive-innovation"
+  },
+  {
+    "name": "Autopoietic Attention",
+    "core_claim": "Transformer attention heads redesigned as self-producing systems where Q/K/V projections are regenerated by their own outputs achieve organizational closure — self-maintaining and adaptive without external parameter updates at inference time.",
+    "mechanism_borrowed_from": "Autopoiesis",
+    "domain_applied_to": "machine learning",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "autopoiesis",
+    "source_b": "attention-mechanism"
+  }
+]

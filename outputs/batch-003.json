@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Decision Tempo Nudging",
+    "core_claim": "Choice architecture can be optimized by matching nudge timing to the OODA decision cycle — interventions placed at the Orient phase (when mental models update) are disproportionately effective compared to those at Decide or Act, because they reshape the framing before options crystallize.",
+    "mechanism_borrowed_from": "OODA Loop",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "ooda-loop",
+    "source_b": "nudge-theory"
+  },
+  {
+    "name": "Epidemiological Occupancy Threshold Model",
+    "core_claim": "Disease transmission in structured populations follows dose-response dynamics where the effective reproductive number depends not just on contact rate but on a threshold occupancy of susceptibles in spatial compartments — below a critical local density, transmission stalls even when aggregate R0 exceeds 1.",
+    "mechanism_borrowed_from": "Dose-Response Relationship",
+    "domain_applied_to": "epidemiology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "dose-response",
+    "source_b": "seir-model"
+  },
+  {
+    "name": "Consciousness Microstructure Theory",
+    "core_claim": "Conscious experience has a microstructure analogous to financial market microstructure — the continuous feel of awareness emerges from discrete 'qualia transactions' with bid-ask spreads, order books, and latency, and phenomenal binding is a clearing mechanism that nets offsetting sensory signals.",
+    "mechanism_borrowed_from": "Market Microstructure",
+    "domain_applied_to": "consciousness studies",
+    "viability": "speculative",
+    "confidence": 0.6,
+    "source_a": "market-microstructure",
+    "source_b": "higher-order-thought"
+  },
+  {
+    "name": "Pedogenic Fermentation Selection Model",
+    "core_claim": "Soil formation proceeds through microbial fermentation-like stages where organic matter is transformed by sequential metabolic guilds, each conditioning the substrate for the next — and the fitness of a soil horizon is its capacity to sustain this metabolic relay across wet-dry cycles.",
+    "mechanism_borrowed_from": "Fermentation Kinetics",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "fermentation",
+    "source_b": "soil-food-web"
+  },
+  {
+    "name": "Innate Diffraction Grammar",
+    "core_claim": "The universal structural patterns in human language arise from interference effects — phonological and syntactic primitives combine like wave fronts passing through a lattice, producing constructive interference at grammatical positions and destructive interference at ungrammatical ones, with Bragg-like selection rules determining which combinations amplify.",
+    "mechanism_borrowed_from": "Bragg Diffraction",
+    "domain_applied_to": "linguistics",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "bragg-diffraction",
+    "source_b": "universal-grammar"
+  },
+  {
+    "name": "Memetic Formulaics",
+    "core_claim": "Internet memes propagate via oral-formulaic composition — viral content succeeds not through novelty but through recombination of prefabricated structural formulas (templates, formats, cadences) that reduce cognitive load on both producer and consumer, exactly as Homeric epithets and ring composition enabled oral epic transmission.",
+    "mechanism_borrowed_from": "Oral-Formulaic Composition",
+    "domain_applied_to": "cultural evolution",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "oral-formulaic",
+    "source_b": "memetics"
+  },
+  {
+    "name": "Doctrinal Attachment Theory",
+    "core_claim": "Judicial systems form 'internal working models' of legal reasoning through early formative precedents, and the responsiveness pattern of higher courts to lower court decisions determines the long-term coherence and stability of an entire doctrinal lineage — mirroring how caregiver responsiveness shapes an infant's relational blueprint.",
+    "mechanism_borrowed_from": "Attachment Theory",
+    "domain_applied_to": "jurisprudence",
+    "mapped_components": {
+      "unit": "Higher court–lower court dyad, where the higher court's treatment of early appeals forms the relational template",
+      "variation": "Responsiveness patterns: secure (consistent engagement), avoidant (dismissal without guidance), anxious-ambivalent (erratic reversals)",
+      "selection": "Internal working model crystallizes from early landmark cases; subsequent courts default to the interpretive posture established in formative precedents",
+      "fitness": "Long-term doctrinal coherence — securely attached precedent relationships produce stable law; avoidant/ambivalent ones produce fragmented doctrine",
+      "boundary": "Critical period in the first generation of cases after a new statute or constitutional provision"
+    },
+    "falsifiable_predictions": [
+      "Doctrinal areas with substantive early appellate engagement will show higher citation coherence and lower inter-circuit split rates.",
+      "Reforms outside the critical period require disproportionately more judicial effort (en banc hearings, Supreme Court intervention).",
+      "Jurisdictions with avoidant early appellate patterns show higher rates of legislative override attempts."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "attachment-theory",
+    "source_b": "common-law"
+  },
+  {
+    "name": "CapacityRank",
+    "core_claim": "Road segments can be ranked by congestion-inducing potential using a PageRank-like stationary distribution over route flows; high-CapacityRank segments are where adding capacity most strongly attracts latent demand and restores equilibrium congestion, because they sit at convergence points of many probable commuter chains.",
+    "mechanism_borrowed_from": "PageRank",
+    "domain_applied_to": "urban planning",
+    "mapped_components": {
+      "unit": "Road segment as node; commuter route-choice as the random surfer",
+      "variation": "Traffic inflows from adjacent segments weighted by capacity attractiveness",
+      "selection": "Stationary distribution of a random commuter following capacity-weighted routes with damping",
+      "fitness": "CapacityRank score predicting how much latent demand a capacity expansion will unlock",
+      "boundary": "Directed road network at Wardrop user-equilibrium"
+    },
+    "falsifiable_predictions": [
+      "Top-decile CapacityRank segments show smaller long-run travel-time improvements when expanded.",
+      "CapacityRank ordering correlates (r > 0.5) with empirical induced-demand elasticities, outperforming betweenness centrality.",
+      "Removing high-CapacityRank segments reduces system-wide travel time (Braess paradox); removing low ones increases it."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "pagerank",
+    "source_b": "induced-demand"
+  },
+  {
+    "name": "Prospect Virtue Theory",
+    "core_claim": "Character traits are evaluated relative to a moral reference point, with systematic asymmetries: the motivational weight of perceived virtue-deficits is roughly twice that of equivalent virtue-gains, and rare moral exemplars are overweighted while common moderate goodness is underweighted in shaping dispositions.",
+    "mechanism_borrowed_from": "Prospect Theory",
+    "domain_applied_to": "ethics",
+    "mapped_components": {
+      "unit": "Character trait evaluated as displacement from a moral reference point",
+      "variation": "Dispositions framed as gains or losses relative to the reference, producing different motivational force",
+      "selection": "Practical wisdom operates under distortion: moral losses weighted ~2x more than gains; low-probability extremes overweighted",
+      "fitness": "Subjective eudaimonia is reference-dependent with diminishing sensitivity",
+      "boundary": "Community of practice sets and shifts the moral reference point"
+    },
+    "falsifiable_predictions": [
+      "Avoiding-vice framing produces ~2x the behavioral change effort compared to acquiring-virtue framing.",
+      "Community transitions cause temporary moral motivation spikes that decay as reference points recalibrate.",
+      "Agents disproportionately alter habits in response to rare moral saints/monsters vs. moderate peers."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "prospect-theory",
+    "source_b": "virtue-ethics"
+  },
+  {
+    "name": "Galois-Curry: Automorphism Groups of Proof Spaces",
+    "core_claim": "The solvability of a type inhabitation problem is determined by the symmetry group of proof-preserving transformations on its derivation tree. A type is 'radically inhabitable' if and only if its proof automorphism group is solvable — mirroring how the Galois group determines solvability by radicals.",
+    "mechanism_borrowed_from": "Galois Theory",
+    "domain_applied_to": "type theory",
+    "mapped_components": {
+      "unit": "Type extension — embedding one type system into a richer one",
+      "variation": "Proof automorphisms permuting valid derivations while preserving typing judgments",
+      "selection": "Group structure determines whether inhabitation decomposes into tactic steps via normal subgroup chain",
+      "fitness": "Radical inhabitability — inhabitation via finite chain of canonical tactics",
+      "boundary": "Expressiveness of the type system (System F vs dependent types with universes)"
+    },
+    "falsifiable_predictions": [
+      "Types in dependent type theory exist whose proof automorphism groups are non-solvable, requiring non-compositional proof steps.",
+      "All System F inhabitation problems are decidable by compositional tactic search (solvable automorphism groups).",
+      "Higher inductive types introduce non-abelian simple quotients, predicting tactic-based prover incompleteness."
+    ],
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "galois-theory",
+    "source_b": "curry-howard"
+  },
+  {
+    "name": "Complexity-Bounded Cryptographic Hardness",
+    "core_claim": "RSA security is proportional to the Kolmogorov complexity of the private key: algorithmically random primes resist factoring because no program shorter than the primes themselves can derive them, while low-complexity primes admit shorter attack programs exploiting structural regularity.",
+    "mechanism_borrowed_from": "Kolmogorov Complexity",
+    "domain_applied_to": "cryptography",
+    "mapped_components": {
+      "unit": "RSA key pair treated as a binary string whose algorithmic complexity determines strength",
+      "variation": "Space of all programs that could output the private key given the public key",
+      "selection": "Shortest such program defines the effective attack complexity",
+      "fitness": "Incompressibility of prime factors — random primes force brute search as only viable strategy",
+      "boundary": "Prime generation method and key length set the complexity floor"
+    },
+    "falsifiable_predictions": [
+      "Primes with detectable algorithmic structure are factorable faster than equally-long random primes.",
+      "Compressibility pre-test on primes correlates with empirical factoring time.",
+      "A Kolmogorov complexity threshold exists below which structured factoring succeeds in polynomial time."
+    ],
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "kolmogorov-complexity",
+    "source_b": "rsa-cryptosystem"
+  },
+  {
+    "name": "Autopoietic Dissipation",
+    "core_claim": "Dissipative structures persist not merely because they maximize entropy production, but because a subset achieve organizational closure — their constituent processes regenerate the flow-network that sustains them — and only these self-producing dissipative structures are selected for long-term stability far from equilibrium.",
+    "mechanism_borrowed_from": "Autopoiesis",
+    "domain_applied_to": "non-equilibrium thermodynamics",
+    "mapped_components": {
+      "unit": "Coupled set of irreversible processes that collectively reproduce conditions for their own continuation",
+      "variation": "Random fluctuations generating candidate process-networks of different topologies",
+      "selection": "Only fluctuations nucleating organizationally closed networks persist; open-loop patterns decay",
+      "fitness": "Robustness of self-production under perturbation, not instantaneous entropy production rate",
+      "boundary": "Thermodynamic gradient interface the structure actively maintains"
+    },
+    "falsifiable_predictions": [
+      "Higher organizational closure predicts longer persistence and greater perturbation tolerance, independent of entropy production rate.",
+      "Self-producing dissipative structures show discontinuous failure modes rather than gradual degradation.",
+      "Greater catalytic closure allows spontaneous structure formation at lower distances from equilibrium."
+    ],
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "autopoiesis",
+    "source_b": "dissipative-structures"
+  },
+  {
+    "name": "Preferential Pattern Accretion",
+    "core_claim": "Design patterns accumulate connections proportional to existing connectivity, causing a few hub patterns to dominate built environments while most remain peripheral — producing scale-free topology rather than Alexander's egalitarian web.",
+    "mechanism_borrowed_from": "Preferential Attachment",
+    "domain_applied_to": "architecture",
+    "mapped_components": {
+      "unit": "Design pattern — a named recurring problem-solution pair",
+      "variation": "New patterns emerge and attach to existing ones; each references a subset of established patterns",
+      "selection": "Attachment probability proportional to existing degree — rich-get-richer dynamics",
+      "fitness": "Aliveness of resulting space correlates with centrality of instantiated pattern subgraph",
+      "boundary": "Cultural context, building technology, and regulation set growth rate and initial conditions"
+    },
+    "falsifiable_predictions": [
+      "Alexander's 253 patterns show power-law degree distribution with <10% accounting for >50% of cross-references.",
+      "Buildings instantiating higher mean-degree pattern subgraphs rate as more 'alive' in post-occupancy evaluation.",
+      "Novel patterns attached to hub patterns diffuse faster regardless of intrinsic functional merit."
+    ],
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "preferential-attachment",
+    "source_b": "pattern-language"
+  },
+  {
+    "name": "Entropic Uncertainty Budgeting",
+    "core_claim": "Measurement uncertainty components can be optimally combined by treating each as a symbol in an information-theoretic alphabet, weighting by informational surprise — the resulting combined uncertainty minimizes redundancy and approaches a theoretical lower bound analogous to the Shannon entropy bound in source coding.",
+    "mechanism_borrowed_from": "Shannon Entropy",
+    "domain_applied_to": "metrology",
+    "mapped_components": {
+      "unit": "Single uncertainty component as a symbol emitted from a source",
+      "variation": "Probability distributions assigned to each component (normal, rectangular, triangular)",
+      "selection": "Entropy-weighted combination assigning greater weight to high-entropy components",
+      "fitness": "Combined uncertainty approaches entropy-derived lower bound",
+      "boundary": "Independent components and linear measurement model"
+    },
+    "falsifiable_predictions": [
+      "For systems with many high-entropy type B components, entropic budgeting produces 5-15% larger uncertainties matching inter-lab spreads.",
+      "Ranking components by Shannon entropy predicts which yield greatest reduction when improved, outperforming sensitivity coefficients.",
+      "Methods converge when one low-entropy component dominates, diverge when multiple high-entropy components compete."
+    ],
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "shannon-entropy",
+    "source_b": "gum-uncertainty"
+  },
+  {
+    "name": "Judgment Sensitivity Theory",
+    "core_claim": "Human judgments decompose into discriminability (d') and criterion bias, and aggregation protocols improve accuracy primarily by increasing collective d-prime rather than canceling bias — structured protocols narrow the noise distribution itself, while averaging exploits independent noise.",
+    "mechanism_borrowed_from": "Signal Detection Theory",
+    "domain_applied_to": "behavioral economics",
+    "mapped_components": {
+      "unit": "Single judge's evaluation as one SDT trial where signal is true case merit",
+      "variation": "Noise-only vs signal+noise distributions per judge, widened by between-judge and occasion noise",
+      "selection": "Aggregation rules as criterion-placement strategies; structured protocols narrow distributions",
+      "fitness": "Collective d-prime measuring discrimination independent of directional bias",
+      "boundary": "Gaussian noise, stationarity; violated by low expertise, extreme cases, or correlated judges"
+    },
+    "falsifiable_predictions": [
+      "Structured protocols improve accuracy even when aggregate bias is already near zero, via d-prime increase visible in ROC analysis.",
+      "Adding independent judges follows sqrt(n) d-prime law only with uncorrelated noise; shared training shows diminishing gains.",
+      "Occasion noise and between-judge noise make separable contributions, targetable by different interventions.",
+      "Higher-d-prime judges benefit less from aggregation, producing an expertise × group-size interaction."
+    ],
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "signal-detection",
+    "source_b": "decision-noise"
+  }
+]
