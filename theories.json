@@ -4179,5 +4179,3076 @@
       "selection",
       "self-organization"
     ]
+  },
+  {
+    "id": "qubit-decoherence-selection",
+    "name": "Qubit Decoherence Selection",
+    "domain": "quantum computing",
+    "unit": "qubit coherence state",
+    "variation": "thermal noise, electromagnetic interference, material impurities",
+    "selection": "environmental coupling preferentially destroys fragile superpositions",
+    "fitness": "coherence time maximized",
+    "boundary": "absolute zero unreachable, isolation-control tradeoff",
+    "tags": [
+      "selection",
+      "decay",
+      "coupling",
+      "threshold",
+      "boundary",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "error-correcting-code-topology",
+    "name": "Topological Error Correction",
+    "domain": "quantum computing",
+    "unit": "logical qubit encoded across physical qubits",
+    "variation": "bit-flip, phase-flip, and leakage errors accumulate stochastically",
+    "selection": "syndrome measurements collapse errors into correctable classes",
+    "fitness": "logical error rate minimized",
+    "boundary": "physical error rate must stay below fault-tolerance threshold",
+    "tags": [
+      "topology",
+      "encoding",
+      "threshold",
+      "feedback",
+      "constraint",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "quantum-gate-fidelity-gradient",
+    "name": "Gate Fidelity Gradient Descent",
+    "domain": "quantum computing",
+    "unit": "pulse waveform parameterization",
+    "variation": "perturbations in amplitude, frequency, and duration of control pulses",
+    "selection": "calibration protocols retain pulses closer to target unitary",
+    "fitness": "gate fidelity maximized",
+    "boundary": "bandwidth limits of control electronics, crosstalk between qubits",
+    "tags": [
+      "optimization",
+      "gradient",
+      "feedback",
+      "constraint",
+      "frequency",
+      "coupling",
+      "compression"
+    ]
+  },
+  {
+    "id": "quantum-annealing-landscape",
+    "name": "Quantum Annealing Energy Landscape",
+    "domain": "quantum computing",
+    "unit": "spin configuration of the Ising Hamiltonian",
+    "variation": "quantum tunneling explores configurations inaccessible to thermal hopping",
+    "selection": "adiabatic evolution funnels population toward ground state",
+    "fitness": "energy minimized",
+    "boundary": "minimum gap closure causes diabatic transitions at phase boundaries",
+    "tags": [
+      "optimization",
+      "phase-transition",
+      "stochastic",
+      "flow",
+      "equilibrium",
+      "boundary",
+      "gradient"
+    ]
+  },
+  {
+    "id": "entanglement-distribution-network",
+    "name": "Entanglement Distribution Network",
+    "domain": "quantum computing",
+    "unit": "Bell pair shared between nodes",
+    "variation": "photon loss, dark counts, and timing jitter degrade entanglement fidelity",
+    "selection": "entanglement distillation discards low-fidelity pairs",
+    "fitness": "end-to-end entanglement rate maximized",
+    "boundary": "no-cloning theorem prevents signal amplification; distance limits fidelity",
+    "tags": [
+      "network",
+      "scarcity",
+      "information",
+      "flow",
+      "decay",
+      "constraint",
+      "selection"
+    ]
+  },
+  {
+    "id": "quantum-circuit-compilation",
+    "name": "Quantum Circuit Compilation Pressure",
+    "domain": "quantum computing",
+    "unit": "gate sequence representing a unitary operation",
+    "variation": "decomposition choices, gate reordering, cancellation opportunities",
+    "selection": "compiler retains circuits with fewer gates and lower depth",
+    "fitness": "circuit depth and total gate count minimized",
+    "boundary": "hardware connectivity constraints, native gate set limitations",
+    "tags": [
+      "compression",
+      "optimization",
+      "constraint",
+      "hierarchy",
+      "modularity",
+      "encoding",
+      "selection"
+    ]
+  },
+  {
+    "id": "quantum-supremacy-threshold",
+    "name": "Quantum Computational Advantage Threshold",
+    "domain": "quantum computing",
+    "unit": "sampling task output distribution",
+    "variation": "noise introduces classical simulability into quantum output",
+    "selection": "verification protocols distinguish quantum from classically spoofable samples",
+    "fitness": "computational hardness gap maximized",
+    "boundary": "noise above threshold makes output classically simulable",
+    "tags": [
+      "threshold",
+      "information",
+      "boundary",
+      "stochastic",
+      "phase-transition",
+      "encoding",
+      "emergence"
+    ]
+  },
+  {
+    "id": "qubit-encoding-competition",
+    "name": "Qubit Encoding Platform Competition",
+    "domain": "quantum computing",
+    "unit": "physical qubit implementation (superconducting, trapped ion, photonic, etc.)",
+    "variation": "different physical substrates offer different coherence, speed, connectivity tradeoffs",
+    "selection": "scalability bottlenecks and error rates eliminate uncompetitive platforms",
+    "fitness": "useful quantum volume maximized",
+    "boundary": "manufacturing yield, cryogenic overhead, interconnect density",
+    "tags": [
+      "selection",
+      "variation",
+      "scarcity",
+      "modularity",
+      "hierarchy",
+      "constraint",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "quantum-measurement-backaction",
+    "name": "Measurement Backaction Feedback",
+    "domain": "quantum computing",
+    "unit": "post-measurement quantum state",
+    "variation": "measurement basis choice and outcome randomness reshape the state",
+    "selection": "adaptive measurement sequences steer state toward target",
+    "fitness": "target state overlap maximized",
+    "boundary": "measurement-disturbance tradeoff; information gain costs coherence",
+    "tags": [
+      "feedback",
+      "stochastic",
+      "information",
+      "flow",
+      "symmetry",
+      "boundary",
+      "coupling"
+    ]
+  },
+  {
+    "id": "phonological-loop-resonance",
+    "name": "Phonological Loop Resonance",
+    "domain": "neurolinguistics",
+    "unit": "phonological representation in working memory",
+    "variation": "articulatory rehearsal degrades and distorts stored phoneme sequences",
+    "selection": "attentional refresh preferentially maintains task-relevant items",
+    "fitness": "serial recall accuracy maximized",
+    "boundary": "word-length effect; phonological similarity interference; decay over ~2 seconds",
+    "tags": [
+      "memory",
+      "oscillation",
+      "decay",
+      "resonance",
+      "feedback",
+      "constraint",
+      "frequency"
+    ]
+  },
+  {
+    "id": "syntactic-prediction-gradient",
+    "name": "Syntactic Prediction Gradient",
+    "domain": "neurolinguistics",
+    "unit": "syntactic parse tree incrementally constructed",
+    "variation": "lexical ambiguity and garden-path structures create competing parses",
+    "selection": "surprisal-driven reanalysis prunes low-probability parse trees",
+    "fitness": "parsing accuracy and speed maximized",
+    "boundary": "center-embedded clauses exceed working memory capacity",
+    "tags": [
+      "hierarchy",
+      "selection",
+      "information",
+      "gradient",
+      "feedback",
+      "compression",
+      "threshold"
+    ]
+  },
+  {
+    "id": "neural-lexical-competition",
+    "name": "Neural Lexical Competition",
+    "domain": "neurolinguistics",
+    "unit": "lexical candidate activated by input",
+    "variation": "acoustic/orthographic overlap co-activates multiple word candidates",
+    "selection": "lateral inhibition suppresses competitors as evidence accumulates",
+    "fitness": "recognition speed and accuracy maximized",
+    "boundary": "neighborhood density; low-frequency words in noisy environments",
+    "tags": [
+      "selection",
+      "network",
+      "agents",
+      "threshold",
+      "stochastic",
+      "frequency",
+      "emergence"
+    ]
+  },
+  {
+    "id": "critical-period-plasticity",
+    "name": "Critical Period Plasticity Decay",
+    "domain": "neurolinguistics",
+    "unit": "synaptic connection in language cortex",
+    "variation": "diverse linguistic input drives synaptogenesis and pruning",
+    "selection": "Hebbian reinforcement strengthens circuits matching input statistics",
+    "fitness": "native-like phonemic discrimination maximized",
+    "boundary": "myelination closes plasticity window; L2 acquisition increasingly effortful",
+    "tags": [
+      "phase-transition",
+      "decay",
+      "boundary",
+      "feedback",
+      "accumulation",
+      "selection",
+      "coupling"
+    ]
+  },
+  {
+    "id": "semantic-spreading-activation",
+    "name": "Semantic Spreading Activation",
+    "domain": "neurolinguistics",
+    "unit": "semantic node in associative network",
+    "variation": "context primes variable subsets of semantic features",
+    "selection": "activation threshold filters out weakly primed concepts",
+    "fitness": "contextually appropriate meaning retrieval speed maximized",
+    "boundary": "distant associations decay below threshold; polysemy creates interference",
+    "tags": [
+      "network",
+      "flow",
+      "threshold",
+      "decay",
+      "resonance",
+      "agents",
+      "information"
+    ]
+  },
+  {
+    "id": "prosodic-boundary-encoding",
+    "name": "Prosodic Boundary Encoding",
+    "domain": "neurolinguistics",
+    "unit": "prosodic phrase boundary (pitch reset, pause, lengthening)",
+    "variation": "speakers vary boundary placement by speech rate, style, and emphasis",
+    "selection": "listener comprehension selects for boundaries that align with syntactic structure",
+    "fitness": "communication clarity and parsing accuracy maximized",
+    "boundary": "rapid speech compresses boundaries; tonal languages overload pitch channel",
+    "tags": [
+      "encoding",
+      "boundary",
+      "frequency",
+      "oscillation",
+      "constraint",
+      "feedback",
+      "compression"
+    ]
+  },
+  {
+    "id": "bilingual-inhibitory-control",
+    "name": "Bilingual Inhibitory Control",
+    "domain": "neurolinguistics",
+    "unit": "language activation schema (L1 vs L2)",
+    "variation": "both languages co-activate during production and comprehension",
+    "selection": "executive control circuits suppress non-target language",
+    "fitness": "cross-language interference minimized",
+    "boundary": "cognitive load or fatigue degrades inhibition; code-switching contexts relax suppression",
+    "tags": [
+      "agents",
+      "selection",
+      "constraint",
+      "feedback",
+      "coupling",
+      "oscillation",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "neural-oscillatory-binding",
+    "name": "Neural Oscillatory Binding for Language",
+    "domain": "neurolinguistics",
+    "unit": "gamma-band synchronization episode between cortical regions",
+    "variation": "phase coherence fluctuates with attentional state and input complexity",
+    "selection": "only phase-locked assemblies contribute to unified percept",
+    "fitness": "multi-feature linguistic binding accuracy maximized",
+    "boundary": "long-range binding limited by conduction delays; oscillatory desynchronization in fatigue",
+    "tags": [
+      "oscillation",
+      "coupling",
+      "resonance",
+      "emergence",
+      "phase-transition",
+      "hierarchy",
+      "frequency"
+    ]
+  },
+  {
+    "id": "broca-wernicke-network-modularity",
+    "name": "Language Network Modular Specialization",
+    "domain": "neurolinguistics",
+    "unit": "cortical region specialization (syntax, semantics, phonology)",
+    "variation": "lesion location and extent create different aphasia profiles",
+    "selection": "recovery and compensation recruit adjacent or homologous regions",
+    "fitness": "communicative function recovery maximized",
+    "boundary": "large lesions exhaust compensatory capacity; age reduces neuroplasticity",
+    "tags": [
+      "modularity",
+      "network",
+      "boundary",
+      "hierarchy",
+      "feedback",
+      "emergence",
+      "constraint"
+    ]
+  },
+  {
+    "id": "microbial-strain-competition",
+    "name": "Microbial Strain Competition",
+    "domain": "fermentation science",
+    "unit": "microbial strain in mixed culture",
+    "variation": "spontaneous mutation, horizontal gene transfer, phenotypic switching",
+    "selection": "substrate affinity and metabolite tolerance determine dominance",
+    "fitness": "growth rate under fermentation conditions maximized",
+    "boundary": "nutrient depletion, toxic metabolite accumulation, pH collapse",
+    "tags": [
+      "selection",
+      "variation",
+      "agents",
+      "scarcity",
+      "replication",
+      "stochastic",
+      "feedback"
+    ]
+  },
+  {
+    "id": "ethanol-tolerance-threshold",
+    "name": "Ethanol Tolerance Threshold",
+    "domain": "fermentation science",
+    "unit": "yeast cell membrane integrity under ethanol stress",
+    "variation": "membrane lipid composition varies across cells and generations",
+    "selection": "ethanol accumulation kills cells with less robust membranes",
+    "fitness": "ethanol tolerance maximized (fermentation completion rate)",
+    "boundary": "absolute ethanol toxicity limit ~18% v/v; heat synergizes lethality",
+    "tags": [
+      "threshold",
+      "selection",
+      "decay",
+      "boundary",
+      "accumulation",
+      "constraint",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "maillard-flavor-network",
+    "name": "Maillard Reaction Flavor Network",
+    "domain": "fermentation science",
+    "unit": "volatile flavor compound produced by Maillard cascades",
+    "variation": "amino acid and sugar diversity generates combinatorial product space",
+    "selection": "temperature, pH, and water activity channel reactions toward specific pathways",
+    "fitness": "desirable flavor compound concentration maximized",
+    "boundary": "excessive heat produces acrylamide and bitter compounds; low moisture halts reactions",
+    "tags": [
+      "network",
+      "catalysis",
+      "variation",
+      "flow",
+      "gradient",
+      "emergence",
+      "encoding"
+    ]
+  },
+  {
+    "id": "ph-buffering-equilibrium",
+    "name": "pH Buffering Equilibrium in Fermentation",
+    "domain": "fermentation science",
+    "unit": "proton concentration in fermentation medium",
+    "variation": "organic acid production and CO2 evolution shift pH continuously",
+    "selection": "buffering capacity and microbial acid tolerance constrain viable pH range",
+    "fitness": "pH stability within optimal microbial growth range maximized",
+    "boundary": "buffer exhaustion causes pH crash; extreme pH kills culture",
+    "tags": [
+      "equilibrium",
+      "feedback",
+      "constraint",
+      "gradient",
+      "threshold",
+      "flow",
+      "decay"
+    ]
+  },
+  {
+    "id": "koji-enzyme-cascade",
+    "name": "Koji Enzyme Cascade",
+    "domain": "fermentation science",
+    "unit": "extracellular enzyme (amylase, protease, lipase) secreted by Aspergillus",
+    "variation": "substrate composition and moisture gradient elicit different enzyme profiles",
+    "selection": "enzyme-substrate affinity determines which macromolecules are broken down first",
+    "fitness": "bioavailable nutrient yield for downstream fermentation maximized",
+    "boundary": "excessive proteolysis produces bitter peptides; contamination outcompetes koji",
+    "tags": [
+      "catalysis",
+      "hierarchy",
+      "modularity",
+      "gradient",
+      "feedback",
+      "flow",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "sourdough-symbiosis-oscillation",
+    "name": "Sourdough Symbiosis Oscillation",
+    "domain": "fermentation science",
+    "unit": "lactobacillus-yeast population ratio in starter",
+    "variation": "feeding schedule, flour type, and temperature shift population balance",
+    "selection": "cross-feeding stabilizes mutualism",
+    "fitness": "stable symbiotic ratio and consistent leavening/flavor output maximized",
+    "boundary": "missed feedings cause population crash; high temperature favors homofermentative LAB dominance",
+    "tags": [
+      "oscillation",
+      "equilibrium",
+      "coupling",
+      "agents",
+      "feedback",
+      "replication",
+      "frequency"
+    ]
+  },
+  {
+    "id": "fermentation-oxygen-phase-transition",
+    "name": "Aerobic-Anaerobic Phase Transition",
+    "domain": "fermentation science",
+    "unit": "dissolved oxygen concentration in bioreactor",
+    "variation": "agitation rate, cell density, and respiration rate modulate oxygen availability",
+    "selection": "Pasteur effect switches metabolism from respiration to fermentation below O2 threshold",
+    "fitness": "target metabolite (ethanol, organic acid) yield maximized",
+    "boundary": "fully aerobic conditions suppress fermentation; fully anaerobic stalls biomass growth",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "flow",
+      "constraint",
+      "gradient",
+      "equilibrium",
+      "boundary"
+    ]
+  },
+  {
+    "id": "secondary-metabolite-accumulation",
+    "name": "Secondary Metabolite Accumulation",
+    "domain": "fermentation science",
+    "unit": "secondary metabolite (antibiotic, pigment, aroma compound)",
+    "variation": "nutrient limitation triggers diverse secondary metabolism pathways",
+    "selection": "pathway regulation funnels precursors into ecologically advantageous compounds",
+    "fitness": "competitive advantage via antimicrobial or signaling metabolites maximized",
+    "boundary": "primary metabolism starvation halts precursor supply; product feedback inhibition",
+    "tags": [
+      "accumulation",
+      "scarcity",
+      "encoding",
+      "emergence",
+      "feedback",
+      "catalysis",
+      "constraint"
+    ]
+  },
+  {
+    "id": "terroir-microbiome-encoding",
+    "name": "Terroir Microbiome Encoding",
+    "domain": "fermentation science",
+    "unit": "site-specific microbial community composition",
+    "variation": "geography, climate, soil, and facility surfaces select distinct microbiomes",
+    "selection": "serial fermentation enriches locally adapted strains over transient colonizers",
+    "fitness": "reproducible regional flavor signature maximized",
+    "boundary": "sanitation disrupts legacy communities; climate change shifts microbial geography",
+    "tags": [
+      "encoding",
+      "memory",
+      "selection",
+      "variation",
+      "emergence",
+      "accumulation",
+      "boundary"
+    ]
+  },
+  {
+    "id": "strategic-mimicry-equilibrium",
+    "name": "Strategic Mimicry Equilibrium Theory",
+    "domain": "game theory",
+    "unit": "signaling strategy",
+    "variation": "players adopt deceptive or honest signals with varying fidelity",
+    "selection": "opponents learn to distinguish mimics from genuine signalers, punishing detected deception",
+    "fitness": "expected payoff from successful deception minus cost of detection",
+    "boundary": "collapses when signal verification is costless or when population is too small for statistical camouflage",
+    "tags": [
+      "agents",
+      "equilibrium",
+      "information",
+      "frequency",
+      "selection",
+      "encoding",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "commitment-erosion-dynamics",
+    "name": "Commitment Erosion Dynamics",
+    "domain": "game theory",
+    "unit": "binding commitment device",
+    "variation": "players vary the rigidity and reversibility of their commitments over successive rounds",
+    "selection": "flexible commitments exploit rigid ones but lose credibility; rigid commitments attract cooperation but suffer exploitation",
+    "fitness": "long-run cooperative surplus captured through credible but adaptive commitment",
+    "boundary": "fails when time horizons are unknown or when external enforcement makes all commitments equally binding",
+    "tags": [
+      "agents",
+      "decay",
+      "feedback",
+      "threshold",
+      "memory",
+      "coupling",
+      "optimization"
+    ]
+  },
+  {
+    "id": "coalition-fragmentation-cascades",
+    "name": "Coalition Fragmentation Cascade Theory",
+    "domain": "game theory",
+    "unit": "coalition membership bond",
+    "variation": "members differ in outside options and loyalty thresholds triggering defection",
+    "selection": "coalitions that cannot redistribute surplus to marginal members lose them, triggering chain departures",
+    "fitness": "coalition stability measured as resistance to sequential defection cascades",
+    "boundary": "breaks down when side payments are unrestricted or when all members have identical outside options",
+    "tags": [
+      "network",
+      "phase-transition",
+      "threshold",
+      "agents",
+      "scarcity",
+      "hierarchy",
+      "feedback"
+    ]
+  },
+  {
+    "id": "attention-allocation-games",
+    "name": "Attention Allocation Game Theory",
+    "domain": "game theory",
+    "unit": "unit of cognitive attention",
+    "variation": "players allocate finite attention across multiple simultaneous strategic interactions",
+    "selection": "neglected games produce costly surprises; over-attended games yield diminishing returns",
+    "fitness": "aggregate payoff across all simultaneous games given fixed attention budget",
+    "boundary": "irrelevant when players face a single game or possess unlimited computational capacity",
+    "tags": [
+      "scarcity",
+      "optimization",
+      "constraint",
+      "agents",
+      "flow",
+      "gradient",
+      "modularity"
+    ]
+  },
+  {
+    "id": "reciprocity-decay-under-noise",
+    "name": "Reciprocity Decay Under Noise",
+    "domain": "game theory",
+    "unit": "reciprocal exchange",
+    "variation": "noise corrupts observation of partner actions, creating ambiguous histories",
+    "selection": "strategies that forgive too little spiral into mutual punishment; those that forgive too much are exploited",
+    "fitness": "sustained cooperation rate in noisy iterated interactions",
+    "boundary": "collapses when noise exceeds the signal of intentional defection or when interactions are one-shot",
+    "tags": [
+      "stochastic",
+      "memory",
+      "decay",
+      "equilibrium",
+      "feedback",
+      "information",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "mechanism-design-entropy",
+    "name": "Mechanism Design Entropy Theory",
+    "domain": "game theory",
+    "unit": "allocation rule",
+    "variation": "mechanism designers vary information revelation requirements and transfer schedules",
+    "selection": "participants self-select into mechanisms that leak less private information for equivalent payoffs",
+    "fitness": "social surplus extracted minus information rent conceded to strategic agents",
+    "boundary": "fails when the designer has no commitment power or when type spaces are continuous and unbounded",
+    "tags": [
+      "encoding",
+      "information",
+      "compression",
+      "constraint",
+      "agents",
+      "optimization",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "escalation-ratchet-theory",
+    "name": "Escalation Ratchet Theory",
+    "domain": "game theory",
+    "unit": "escalation increment",
+    "variation": "players choose escalation step sizes that vary in cost and reversibility",
+    "selection": "small steps are ignored; large steps provoke retaliation; medium steps accumulate irreversibly",
+    "fitness": "territorial or resource gain per unit of escalation cost incurred",
+    "boundary": "breaks down when de-escalation is costless or when a single step can be decisive",
+    "tags": [
+      "accumulation",
+      "threshold",
+      "gradient",
+      "feedback",
+      "agents",
+      "boundary",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "network-position-bargaining",
+    "name": "Network Position Bargaining Theory",
+    "domain": "game theory",
+    "unit": "network edge representing a bargaining relationship",
+    "variation": "players occupy different structural positions with varying numbers of alternative partners",
+    "selection": "players with more alternative partners extract larger shares; isolated players accept smaller shares",
+    "fitness": "bargaining surplus captured as a function of structural network position",
+    "boundary": "irrelevant in complete networks where all players connect to all others or in bilateral monopoly",
+    "tags": [
+      "network",
+      "topology",
+      "agents",
+      "scarcity",
+      "symmetry",
+      "flow",
+      "constraint"
+    ]
+  },
+  {
+    "id": "correlated-equilibrium-emergence",
+    "name": "Correlated Equilibrium Emergence Theory",
+    "domain": "game theory",
+    "unit": "shared correlation device signal",
+    "variation": "players develop private interpretations of public signals that diverge over time",
+    "selection": "interpretations that align with profitable conditional strategies spread; misaligned ones are abandoned",
+    "fitness": "payoff improvement over Nash equilibrium through correlated play",
+    "boundary": "collapses when players cannot observe a common signal or when signals carry no credible information",
+    "tags": [
+      "emergence",
+      "coupling",
+      "information",
+      "equilibrium",
+      "resonance",
+      "selection",
+      "encoding"
+    ]
+  },
+  {
+    "id": "superspreader-topology-theory",
+    "name": "Superspreader Topology Theory",
+    "domain": "epidemiology",
+    "unit": "transmission event from a superspreading node",
+    "variation": "individual contact patterns produce heavy-tailed distributions of secondary infections",
+    "selection": "pathogens that exploit high-contact hosts propagate faster than those relying on average transmission",
+    "fitness": "effective reproduction number driven by variance in individual infectiousness",
+    "boundary": "loses predictive power when contact networks are homogeneous or when superspreading events are suppressed by isolation",
+    "tags": [
+      "network",
+      "topology",
+      "stochastic",
+      "variation",
+      "threshold",
+      "agents",
+      "emergence"
+    ]
+  },
+  {
+    "id": "antigenic-drift-memory-erosion",
+    "name": "Antigenic Drift Memory Erosion Theory",
+    "domain": "epidemiology",
+    "unit": "antigenic variant",
+    "variation": "point mutations in surface proteins create a cloud of related but immunologically distinct variants",
+    "selection": "variants that escape population immunity spread; those recognized by prevalent antibodies are cleared",
+    "fitness": "immune evasion capacity measured as reduction in cross-reactive neutralization",
+    "boundary": "fails when antigenic space is exhausted or when immune memory is broad enough to cover the entire drift trajectory",
+    "tags": [
+      "variation",
+      "selection",
+      "memory",
+      "decay",
+      "encoding",
+      "frequency",
+      "gradient"
+    ]
+  },
+  {
+    "id": "zoonotic-spillover-gradient",
+    "name": "Zoonotic Spillover Gradient Theory",
+    "domain": "epidemiology",
+    "unit": "cross-species transmission event",
+    "variation": "ecological disturbance creates variable contact rates between wildlife reservoirs and human populations",
+    "selection": "pathogens with broader host tropism and higher environmental stability cross the species barrier more frequently",
+    "fitness": "probability of sustained human-to-human transmission after initial spillover",
+    "boundary": "breaks down when reservoir and human populations are fully separated or when spillover pathogens cannot adapt to human receptors",
+    "tags": [
+      "boundary",
+      "gradient",
+      "phase-transition",
+      "coupling",
+      "variation",
+      "selection",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "behavioral-immunity-feedback",
+    "name": "Behavioral Immunity Feedback Theory",
+    "domain": "epidemiology",
+    "unit": "individual behavioral change in response to perceived disease risk",
+    "variation": "heterogeneous risk perception leads to divergent protective behaviors across a population",
+    "selection": "behaviors that reduce infection risk persist; costly behaviors are abandoned as perceived risk drops",
+    "fitness": "infection probability weighted against social and economic cost of behavioral modification",
+    "boundary": "irrelevant when disease is asymptomatic and undetectable or when behavior has no effect on transmission",
+    "tags": [
+      "feedback",
+      "agents",
+      "oscillation",
+      "information",
+      "coupling",
+      "threshold",
+      "optimization"
+    ]
+  },
+  {
+    "id": "epidemic-wavefront-resonance",
+    "name": "Epidemic Wavefront Resonance Theory",
+    "domain": "epidemiology",
+    "unit": "spatial infection wavefront",
+    "variation": "population density gradients and mobility corridors create heterogeneous wavefront velocities",
+    "selection": "wavefronts that encounter susceptible population clusters amplify; those hitting immune barriers attenuate",
+    "fitness": "wavefront propagation speed and amplitude across geographic space",
+    "boundary": "collapses in well-mixed populations where spatial structure is negligible",
+    "tags": [
+      "flow",
+      "resonance",
+      "topology",
+      "gradient",
+      "phase-transition",
+      "network",
+      "emergence"
+    ]
+  },
+  {
+    "id": "pathogen-virulence-tradeoff",
+    "name": "Pathogen Virulence Tradeoff Theory",
+    "domain": "epidemiology",
+    "unit": "pathogen strain",
+    "variation": "mutations alter virulence and transmissibility in coupled but opposing directions",
+    "selection": "highly virulent strains kill hosts before transmitting; low-virulence strains are outcompeted within hosts",
+    "fitness": "lifetime transmission potential balancing within-host replication against between-host spread",
+    "boundary": "fails when transmission occurs post-mortem or when virulence and transmission are uncoupled",
+    "tags": [
+      "selection",
+      "optimization",
+      "constraint",
+      "variation",
+      "equilibrium",
+      "replication",
+      "coupling"
+    ]
+  },
+  {
+    "id": "nosocomial-amplification-hierarchy",
+    "name": "Nosocomial Amplification Hierarchy Theory",
+    "domain": "epidemiology",
+    "unit": "healthcare facility transmission chain",
+    "variation": "hospitals vary in infection control capacity, patient density, and staff mobility patterns",
+    "selection": "facilities with weak controls become amplification hubs that seed community outbreaks",
+    "fitness": "facility-level reproduction number determining whether nosocomial chains sustain or extinguish",
+    "boundary": "irrelevant for pathogens that do not survive in clinical environments or that spread primarily outdoors",
+    "tags": [
+      "hierarchy",
+      "network",
+      "modularity",
+      "accumulation",
+      "threshold",
+      "flow",
+      "agents"
+    ]
+  },
+  {
+    "id": "syndemic-coupling-theory",
+    "name": "Syndemic Coupling Theory",
+    "domain": "epidemiology",
+    "unit": "co-occurring disease pair within a population",
+    "variation": "social and biological conditions create variable susceptibility to multiple diseases simultaneously",
+    "selection": "populations experiencing disease clustering face compounding morbidity that exceeds additive predictions",
+    "fitness": "excess disease burden attributable to synergistic interaction between co-circulating conditions",
+    "boundary": "breaks down when diseases are biologically independent and share no common social determinants",
+    "tags": [
+      "coupling",
+      "emergence",
+      "feedback",
+      "scarcity",
+      "accumulation",
+      "network",
+      "catalysis"
+    ]
+  },
+  {
+    "id": "vaccination-threshold-oscillation",
+    "name": "Vaccination Threshold Oscillation Theory",
+    "domain": "epidemiology",
+    "unit": "vaccination coverage level",
+    "variation": "vaccine uptake fluctuates as perceived risk changes with disease incidence",
+    "selection": "high coverage reduces disease, reducing perceived risk, reducing uptake, allowing resurgence",
+    "fitness": "stable herd immunity maintenance versus boom-bust cycling of coverage and outbreaks",
+    "boundary": "irrelevant when vaccination is mandatory with full compliance or when disease has no visible symptoms",
+    "tags": [
+      "oscillation",
+      "feedback",
+      "threshold",
+      "agents",
+      "information",
+      "equilibrium",
+      "frequency"
+    ]
+  },
+  {
+    "id": "immune-landscape-drift",
+    "name": "Immune Landscape Drift Theory",
+    "domain": "epidemiology",
+    "unit": "population-level immune profile",
+    "variation": "birth cohorts, prior exposures, and vaccination histories create a heterogeneous immune landscape",
+    "selection": "pathogen lineages that find gaps in the population immune landscape expand into those niches",
+    "fitness": "effective susceptible fraction available to a given pathogen lineage",
+    "boundary": "loses relevance when cross-immunity is complete or when immune memory does not wane",
+    "tags": [
+      "memory",
+      "variation",
+      "selection",
+      "gradient",
+      "stochastic",
+      "frequency",
+      "decay"
+    ]
+  },
+  {
+    "id": "load-path-redundancy-theory",
+    "name": "Load Path Redundancy Theory",
+    "domain": "architecture",
+    "unit": "structural load path",
+    "variation": "alternative load paths emerge from material heterogeneity and connection geometry",
+    "selection": "load paths that efficiently transfer forces to foundations persist; overstressed paths fail and redistribute load",
+    "fitness": "structural resilience measured as capacity to sustain function after local member failure",
+    "boundary": "fails in statically determinate structures where no alternative load paths exist",
+    "tags": [
+      "topology",
+      "flow",
+      "constraint",
+      "network",
+      "threshold",
+      "modularity"
+    ]
+  },
+  {
+    "id": "thermal-envelope-phase-theory",
+    "name": "Thermal Envelope Phase Theory",
+    "domain": "architecture",
+    "unit": "envelope assembly layer",
+    "variation": "material conductivity, thickness, and vapor permeability vary across envelope layers",
+    "selection": "assemblies where moisture condenses within the envelope degrade; dry assemblies persist",
+    "fitness": "minimized energy loss while preventing condensation at any layer interface",
+    "boundary": "irrelevant in climates with no temperature differential across the envelope or in open-air structures",
+    "tags": [
+      "gradient",
+      "phase-transition",
+      "flow",
+      "boundary",
+      "constraint",
+      "optimization",
+      "feedback"
+    ]
+  },
+  {
+    "id": "circulation-hierarchy-emergence",
+    "name": "Circulation Hierarchy Emergence Theory",
+    "domain": "architecture",
+    "unit": "movement corridor segment",
+    "variation": "corridor widths, intersections, and destinations create heterogeneous movement affordances",
+    "selection": "routes that minimize travel time and cognitive load attract traffic; underused routes are closed or repurposed",
+    "fitness": "aggregate wayfinding efficiency across all building occupants",
+    "boundary": "collapses in single-room structures or when all destinations are equidistant from all origins",
+    "tags": [
+      "hierarchy",
+      "flow",
+      "network",
+      "agents",
+      "optimization",
+      "emergence",
+      "topology"
+    ]
+  },
+  {
+    "id": "daylight-gradient-partitioning",
+    "name": "Daylight Gradient Partitioning Theory",
+    "domain": "architecture",
+    "unit": "daylight zone defined by illuminance contour",
+    "variation": "window placement, depth, and surface reflectance create variable light gradients across floor plates",
+    "selection": "program elements migrate to daylight zones matching their illuminance requirements over building lifetime",
+    "fitness": "percentage of occupied hours where natural light meets task illuminance without glare",
+    "boundary": "irrelevant in underground structures or at extreme latitudes during polar night",
+    "tags": [
+      "gradient",
+      "flow",
+      "boundary",
+      "optimization",
+      "modularity",
+      "constraint",
+      "frequency"
+    ]
+  },
+  {
+    "id": "adaptive-reuse-encoding",
+    "name": "Adaptive Reuse Encoding Theory",
+    "domain": "architecture",
+    "unit": "spatial module capable of functional reprogramming",
+    "variation": "structural grid dimensions, floor-to-ceiling heights, and service access points vary across building stock",
+    "selection": "buildings with dimensional properties matching new program requirements are reused; mismatched ones are demolished",
+    "fitness": "number of distinct viable programs a spatial module can support across its lifespan",
+    "boundary": "fails when demolition and new construction cost less than adaptation or when regulatory constraints prevent reuse",
+    "tags": [
+      "encoding",
+      "modularity",
+      "variation",
+      "selection",
+      "memory",
+      "compression",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "acoustic-resonance-compartmentalization",
+    "name": "Acoustic Resonance Compartmentalization Theory",
+    "domain": "architecture",
+    "unit": "acoustic zone defined by reverberation time",
+    "variation": "room geometry, material absorption coefficients, and aperture sizes produce variable acoustic fields",
+    "selection": "spaces where acoustic conditions conflict with program use are modified or abandoned",
+    "fitness": "speech intelligibility and acoustic comfort matched to programmatic requirements",
+    "boundary": "irrelevant in outdoor spaces or when electronic sound masking overrides architectural acoustics",
+    "tags": [
+      "resonance",
+      "boundary",
+      "frequency",
+      "constraint",
+      "feedback",
+      "modularity",
+      "coupling"
+    ]
+  },
+  {
+    "id": "material-decay-succession-theory",
+    "name": "Material Decay Succession Theory",
+    "domain": "architecture",
+    "unit": "material assembly with defined service life",
+    "variation": "materials degrade at different rates depending on exposure, loading, and maintenance regimes",
+    "selection": "assemblies where short-lived components are inaccessible for replacement trigger cascading failures",
+    "fitness": "total lifecycle cost minimized through alignment of component service lives with replacement accessibility",
+    "boundary": "breaks down for monolithic structures with no component differentiation or for buildings with unlimited maintenance budgets",
+    "tags": [
+      "decay",
+      "hierarchy",
+      "accumulation",
+      "constraint",
+      "feedback",
+      "optimization",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "settlement-pattern-network-theory",
+    "name": "Settlement Pattern Network Theory",
+    "domain": "architecture",
+    "unit": "building-to-infrastructure connection node",
+    "variation": "plot sizes, setbacks, and access points create diverse relationships between buildings and public networks",
+    "selection": "configurations that maximize frontage access and minimize infrastructure run lengths are replicated in development patterns",
+    "fitness": "ratio of usable floor area to required infrastructure length serving the settlement",
+    "boundary": "collapses in isolated buildings with no shared infrastructure or in megastructures that internalize all networks",
+    "tags": [
+      "network",
+      "topology",
+      "optimization",
+      "scarcity",
+      "flow",
+      "emergence",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "structural-symmetry-breaking",
+    "name": "Structural Symmetry Breaking Theory",
+    "domain": "architecture",
+    "unit": "structural bay subject to asymmetric loading",
+    "variation": "live loads, wind loads, and seismic forces introduce asymmetric demands on nominally symmetric structures",
+    "selection": "symmetric designs that cannot accommodate asymmetric demands develop localized stress concentrations and crack",
+    "fitness": "graceful performance degradation under asymmetric loading without catastrophic failure",
+    "boundary": "irrelevant when all loads are perfectly symmetric or when the structure is designed as fully asymmetric from the outset",
+    "tags": [
+      "symmetry",
+      "constraint",
+      "threshold",
+      "variation",
+      "equilibrium",
+      "stochastic",
+      "boundary"
+    ]
+  },
+  {
+    "id": "warp-weft-tension-balancing",
+    "name": "Warp-Weft Tension Balancing",
+    "domain": "textile engineering",
+    "unit": "thread intersection point",
+    "variation": "fluctuations in yarn tension, loom speed, and warp beam diameter",
+    "selection": "intersections maintaining balanced biaxial tension survive as stable fabric; slack or over-tensioned regions produce defects and are rejected",
+    "fitness": "fabric uniformity and tensile strength per unit area",
+    "boundary": "yarn elasticity limits, loom mechanical tolerance, beam geometry",
+    "tags": [
+      "equilibrium",
+      "feedback",
+      "constraint",
+      "oscillation",
+      "flow",
+      "optimization"
+    ]
+  },
+  {
+    "id": "felting-fiber-entanglement",
+    "name": "Felting Fiber Entanglement",
+    "domain": "textile engineering",
+    "unit": "fiber-fiber contact junction",
+    "variation": "random fiber orientations and cuticle-scale interlocking under agitation, heat, and moisture",
+    "selection": "junctions that form irreversible mechanical bonds persist; weakly coupled fibers work free",
+    "fitness": "density of irreversible entanglement points per volume",
+    "boundary": "fiber scale structure, pH, temperature, mechanical energy input",
+    "tags": [
+      "stochastic",
+      "topology",
+      "threshold",
+      "coupling",
+      "emergence",
+      "network"
+    ]
+  },
+  {
+    "id": "dye-mordant-chemistry",
+    "name": "Dye Mordant Chemistry",
+    "domain": "textile engineering",
+    "unit": "dye-mordant-fiber complex",
+    "variation": "competing coordination bonds between metal ion mordants, dye chromophores, and fiber reactive sites",
+    "selection": "complexes with strongest chelation and fiber affinity resist wash-out; weak bonds dissociate",
+    "fitness": "color fastness rating under wash, light, and abrasion",
+    "boundary": "pH range, mordant concentration, fiber surface chemistry, temperature",
+    "tags": [
+      "catalysis",
+      "selection",
+      "gradient",
+      "boundary",
+      "equilibrium",
+      "decay"
+    ]
+  },
+  {
+    "id": "spinning-draft-ratio-control",
+    "name": "Spinning Draft Ratio Control",
+    "domain": "textile engineering",
+    "unit": "fiber bundle cross-section",
+    "variation": "differential roller speeds attenuate the roving, redistributing fiber alignment and count",
+    "selection": "draft ratios producing target linear density and twist are retained; out-of-range settings cause breakage or slubs",
+    "fitness": "yarn count consistency (CV%) and break strength",
+    "boundary": "staple length, fiber friction, roller spacing, twist multiplier",
+    "tags": [
+      "flow",
+      "constraint",
+      "feedback",
+      "compression",
+      "optimization",
+      "threshold"
+    ]
+  },
+  {
+    "id": "jacquard-binary-patterning",
+    "name": "Jacquard Binary Patterning",
+    "domain": "textile engineering",
+    "unit": "individual warp thread lift decision (up/down)",
+    "variation": "combinatorial binary states across thousands of hooks per pick",
+    "selection": "only lift sequences encoding the target pattern are programmed; all other permutations are excluded by the punch card / digital control",
+    "fitness": "pattern fidelity to design at full repeat resolution",
+    "boundary": "hook count, harness capacity, weft color palette, card storage",
+    "tags": [
+      "encoding",
+      "information",
+      "modularity",
+      "selection",
+      "symmetry",
+      "constraint",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "knit-stitch-topology",
+    "name": "Knit Stitch Topology",
+    "domain": "textile engineering",
+    "unit": "individual loop interlock",
+    "variation": "knit, purl, tuck, miss, and transfer stitches create distinct loop topologies",
+    "selection": "stitch combinations producing desired stretch, drape, and structural integrity propagate through the fabric; unstable configurations unravel",
+    "fitness": "fabric extensibility, recovery, and resistance to laddering",
+    "boundary": "yarn bending rigidity, needle gauge, loop length, stitch density",
+    "tags": [
+      "topology",
+      "network",
+      "modularity",
+      "replication",
+      "emergence",
+      "boundary"
+    ]
+  },
+  {
+    "id": "selvage-edge-stability",
+    "name": "Selvage Edge Stability",
+    "domain": "textile engineering",
+    "unit": "edge warp-weft binding zone",
+    "variation": "different edge constructions (leno, tucked, fused) compete to prevent fraying under tension",
+    "selection": "edge structures that lock outermost weft loops survive cutting and handling; weak edges unravel",
+    "fitness": "edge integrity under lateral stress and repeated flexing",
+    "boundary": "fabric width, weft insertion method, yarn type, downstream finishing",
+    "tags": [
+      "boundary",
+      "constraint",
+      "selection",
+      "coupling",
+      "feedback"
+    ]
+  },
+  {
+    "id": "mercerization-swelling",
+    "name": "Mercerization Swelling",
+    "domain": "textile engineering",
+    "unit": "cellulose crystallite domain",
+    "variation": "sodium hydroxide concentration gradients cause differential swelling and crystalline rearrangement across fiber cross-section",
+    "selection": "crystallites converting from cellulose I to cellulose II gain luster, strength, and dye affinity; unconverted regions remain dull",
+    "fitness": "percentage conversion to cellulose II and resulting tensile strength gain",
+    "boundary": "NaOH concentration, temperature, tension during treatment, fiber maturity",
+    "tags": [
+      "phase-transition",
+      "gradient",
+      "symmetry",
+      "threshold",
+      "compression"
+    ]
+  },
+  {
+    "id": "nonwoven-spunbond-bonding",
+    "name": "Nonwoven Spunbond Bonding",
+    "domain": "textile engineering",
+    "unit": "fiber-to-fiber thermal bond point",
+    "variation": "random fiber laydown orientation and calender nip temperature/pressure variations",
+    "selection": "bond points achieving sufficient polymer fusion without fiber degradation persist; under-bonded regions delaminate, over-bonded regions embrittle",
+    "fitness": "tensile strength-to-weight ratio and uniformity index",
+    "boundary": "polymer melt point, line speed, calender pattern, basis weight",
+    "tags": [
+      "stochastic",
+      "threshold",
+      "network",
+      "emergence",
+      "flow",
+      "coupling",
+      "optimization"
+    ]
+  },
+  {
+    "id": "harmonic-series-overtone-structure",
+    "name": "Harmonic Series Overtone Structure",
+    "domain": "music theory",
+    "unit": "partial (overtone frequency component)",
+    "variation": "integer multiples of fundamental frequency produced by vibrating bodies with different geometries and materials",
+    "selection": "partials reinforced by resonant body geometry dominate the spectrum; damped partials decay rapidly",
+    "fitness": "relative amplitude and persistence of each partial in the steady-state spectrum",
+    "boundary": "string/air column length, material density, damping coefficient, excitation method",
+    "tags": [
+      "resonance",
+      "hierarchy",
+      "decay",
+      "frequency",
+      "emergence",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "counterpoint-voice-leading",
+    "name": "Counterpoint Voice Leading Rules",
+    "domain": "music theory",
+    "unit": "interval transition between two voices",
+    "variation": "all possible melodic motions (parallel, contrary, oblique, similar) between consecutive intervals",
+    "selection": "transitions preserving independence, consonance at strong beats, and avoiding parallel fifths/octaves are retained; forbidden motions are eliminated by rule",
+    "fitness": "contrapuntal smoothness and voice independence as judged by species rules",
+    "boundary": "number of voices, mode/key, range limits, rhythmic hierarchy",
+    "tags": [
+      "constraint",
+      "selection",
+      "flow",
+      "boundary",
+      "coupling",
+      "optimization",
+      "agents"
+    ]
+  },
+  {
+    "id": "rhythmic-entrainment",
+    "name": "Rhythmic Entrainment",
+    "domain": "music theory",
+    "unit": "pulse event (beat onset)",
+    "variation": "slight timing deviations (micro-timing) around an isochronous grid across performers",
+    "selection": "onsets converging toward shared phase lock persist as the groove; outlier timings are corrected by auditory feedback",
+    "fitness": "tightness of phase alignment across ensemble members",
+    "boundary": "tempo range, human motor-timing jitter, latency of auditory feedback loop",
+    "tags": [
+      "oscillation",
+      "coupling",
+      "feedback",
+      "emergence",
+      "stochastic",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "sonata-form-development",
+    "name": "Sonata Form Development-Recapitulation",
+    "domain": "music theory",
+    "unit": "thematic module (first/second subject, closing group)",
+    "variation": "fragmentation, modulation, inversion, and reharmonization of exposition themes during development",
+    "selection": "transformations that heighten tonal tension are elaborated; the recapitulation resolves all themes to the tonic, selecting for tonal unity",
+    "fitness": "narrative coherence and satisfying tonal resolution",
+    "boundary": "key scheme conventions, audience expectation, movement duration",
+    "tags": [
+      "variation",
+      "symmetry",
+      "hierarchy",
+      "memory",
+      "boundary",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "modal-interchange-borrowed-chords",
+    "name": "Modal Interchange / Borrowed Chords",
+    "domain": "music theory",
+    "unit": "chord substitution event",
+    "variation": "chords borrowed from parallel modes (major / minor, Lydian, Phrygian, etc.) introduced into a diatonic progression",
+    "selection": "borrowed chords that create expressive color without derailing tonal center are retained; those causing ambiguity are resolved or avoided",
+    "fitness": "harmonic expressiveness while maintaining key intelligibility",
+    "boundary": "number of available parallel modes, voice-leading smoothness, listener tonal expectation",
+    "tags": [
+      "variation",
+      "selection",
+      "boundary",
+      "modularity",
+      "information",
+      "gradient"
+    ]
+  },
+  {
+    "id": "twelve-tone-serialism",
+    "name": "Twelve-Tone Serialism",
+    "domain": "music theory",
+    "unit": "pitch-class in the tone row",
+    "variation": "48 row forms (prime, retrograde, inversion, retrograde-inversion x 12 transpositions) provide combinatorial possibilities",
+    "selection": "row forms chosen to maximize intervallic interest, aggregate completion, and hexachordal combinatoriality",
+    "fitness": "chromatic saturation and avoidance of tonal implication per the composer's aesthetic",
+    "boundary": "strict ordering rule (all 12 before repeat), row partitioning constraints, total chromatic aggregate",
+    "tags": [
+      "constraint",
+      "symmetry",
+      "encoding",
+      "information",
+      "replication",
+      "modularity",
+      "topology"
+    ]
+  },
+  {
+    "id": "microtonality-just-intonation",
+    "name": "Microtonality / Just Intonation",
+    "domain": "music theory",
+    "unit": "frequency ratio (interval)",
+    "variation": "rational frequency ratios (small-integer vs. irrational tempered approximations) across a tuning lattice",
+    "selection": "ratios minimizing beating and maximizing consonance for a given harmonic context are favored; wolf intervals are avoided or redistributed",
+    "fitness": "psychoacoustic consonance (simplicity of frequency ratio)",
+    "boundary": "keyboard/instrument fixed pitch constraints, modulation range, comma drift accumulation",
+    "tags": [
+      "resonance",
+      "optimization",
+      "gradient",
+      "constraint",
+      "equilibrium",
+      "symmetry",
+      "threshold"
+    ]
+  },
+  {
+    "id": "call-and-response-antiphony",
+    "name": "Call-and-Response Antiphony",
+    "domain": "music theory",
+    "unit": "phrase pair (call phrase + response phrase)",
+    "variation": "response varies in melodic contour, rhythmic augmentation, and harmonic elaboration relative to the call",
+    "selection": "responses that complete the call's harmonic and rhythmic implication are reinforced by communal repetition; non-completing responses are dropped",
+    "fitness": "communal participation rate and phrase memorability",
+    "boundary": "phrase length, tonal vocabulary of the tradition, performer count, breath capacity",
+    "tags": [
+      "replication",
+      "agents",
+      "feedback",
+      "coupling",
+      "memory",
+      "variation"
+    ]
+  },
+  {
+    "id": "timbre-spectral-envelope-shaping",
+    "name": "Timbre Spectral Envelope Shaping",
+    "domain": "music theory",
+    "unit": "spectral bin (frequency-amplitude pair in FFT frame)",
+    "variation": "formant positions, attack transients, and noise components differ across instruments and synthesis parameters",
+    "selection": "spectral envelopes matching perceptual timbre targets are shaped by filter design, material choice, or synthesis algorithm; undesired partials are attenuated",
+    "fitness": "perceptual match to target timbre identity",
+    "boundary": "physical resonator geometry, filter order, sampling rate, psychoacoustic masking",
+    "tags": [
+      "compression",
+      "information",
+      "gradient",
+      "encoding",
+      "resonance",
+      "boundary"
+    ]
+  },
+  {
+    "id": "coriolis-cyclone-formation",
+    "name": "Coriolis-Driven Cyclone Formation",
+    "domain": "meteorology",
+    "unit": "mesoscale vortex cell",
+    "variation": "random convective disturbances and pressure perturbations across warm ocean surfaces",
+    "selection": "vortices gaining sufficient rotation from Coriolis deflection and sustained by latent heat flux intensify; sub-threshold disturbances dissipate",
+    "fitness": "sustained central pressure drop and organized eyewall convection",
+    "boundary": "sea surface temperature >= 26.5C, low wind shear, sufficient Coriolis parameter (latitude > ~5 degrees)",
+    "tags": [
+      "threshold",
+      "feedback",
+      "emergence",
+      "oscillation",
+      "flow",
+      "gradient",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "cape-convective-energy",
+    "name": "Convective Available Potential Energy (CAPE)",
+    "domain": "meteorology",
+    "unit": "air parcel lifted from boundary layer",
+    "variation": "parcels with varying temperature, moisture, and initial altitude compete for buoyancy advantage",
+    "selection": "parcels exceeding the level of free convection accelerate upward; parcels with insufficient buoyancy remain capped by the inversion",
+    "fitness": "maximum updraft velocity (proportional to sqrt(2*CAPE))",
+    "boundary": "convective inhibition (CIN), lifted condensation level, equilibrium level height",
+    "tags": [
+      "gradient",
+      "threshold",
+      "flow",
+      "scarcity",
+      "boundary",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "orographic-precipitation",
+    "name": "Orographic Precipitation",
+    "domain": "meteorology",
+    "unit": "moist air column forced over terrain",
+    "variation": "varying moisture content, wind speed, and approach angle of air masses encountering mountain barriers",
+    "selection": "air columns forced above the lifting condensation level precipitate on windward slopes; leeward descent produces dry rain-shadow",
+    "fitness": "precipitation rate on windward slope per unit moisture flux",
+    "boundary": "mountain height and slope, prevailing wind direction, upstream moisture availability, freezing level",
+    "tags": [
+      "constraint",
+      "flow",
+      "gradient",
+      "boundary",
+      "phase-transition",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "enso-oscillation",
+    "name": "El Nino-Southern Oscillation",
+    "domain": "meteorology",
+    "unit": "coupled ocean-atmosphere state (SST anomaly + Walker circulation phase)",
+    "variation": "stochastic westerly wind bursts and thermocline depth fluctuations in the equatorial Pacific",
+    "selection": "positive Bjerknes feedback amplifies warm (El Nino) or cold (La Nina) anomalies once a threshold SST gradient shift occurs; delayed negative feedback from oceanic Rossby waves resets the cycle",
+    "fitness": "amplitude and duration of SST anomaly in Nino 3.4 region",
+    "boundary": "thermocline depth, mean trade wind strength, Pacific basin geometry, recharge-discharge timescale",
+    "tags": [
+      "oscillation",
+      "coupling",
+      "feedback",
+      "phase-transition",
+      "stochastic",
+      "memory",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "atmospheric-river-moisture-transport",
+    "name": "Atmospheric River Moisture Transport",
+    "domain": "meteorology",
+    "unit": "integrated water vapor transport (IVT) filament",
+    "variation": "filaments of varying width, moisture content, and velocity form along different extratropical cyclone warm sectors",
+    "selection": "filaments exceeding IVT thresholds (~250 kg/m/s) and making landfall produce extreme precipitation; sub-threshold filaments dissipate or miss coastlines",
+    "fitness": "total precipitable water delivered to landfall target per event",
+    "boundary": "tropical moisture source strength, jet stream steering, orographic amplification at landfall",
+    "tags": [
+      "flow",
+      "threshold",
+      "network",
+      "gradient",
+      "coupling",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "temperature-inversion-trapping",
+    "name": "Temperature Inversion Trapping",
+    "domain": "meteorology",
+    "unit": "boundary layer air mass beneath inversion lid",
+    "variation": "varying nocturnal radiative cooling rates, terrain configurations, and surface emissions produce different inversion strengths and heights",
+    "selection": "inversions strong enough to suppress vertical mixing trap pollutants and moisture below the lid; weak inversions are broken by solar heating or mechanical turbulence",
+    "fitness": "inversion persistence (hours) and concentration ratio of trapped constituents vs. free atmosphere",
+    "boundary": "surface radiation budget, wind speed, terrain basin geometry, cloud cover",
+    "tags": [
+      "boundary",
+      "constraint",
+      "equilibrium",
+      "decay",
+      "gradient",
+      "threshold"
+    ]
+  },
+  {
+    "id": "jet-stream-rossby-wave",
+    "name": "Jet Stream Rossby Wave Propagation",
+    "domain": "meteorology",
+    "unit": "planetary wave ridge-trough couplet",
+    "variation": "wave amplitude, wavelength, and phase speed vary with meridional temperature gradient and jet speed",
+    "selection": "wavelengths satisfying the Rossby dispersion relation propagate westward relative to the flow; resonant wave numbers amplify and steer surface weather; non-resonant waves are damped",
+    "fitness": "wave amplitude persistence and downstream surface weather impact",
+    "boundary": "beta parameter (planetary vorticity gradient), jet core speed, land-sea thermal contrast, topographic forcing",
+    "tags": [
+      "oscillation",
+      "resonance",
+      "flow",
+      "topology",
+      "feedback",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "mesoscale-convective-complex",
+    "name": "Mesoscale Convective Complex Self-Organization",
+    "domain": "meteorology",
+    "unit": "individual thunderstorm cell within the complex",
+    "variation": "cells initiate at random locations along outflow boundaries with varying updraft strengths and moisture access",
+    "selection": "cells generating cold-pool outflows that trigger new convection on their leading edge propagate the system; isolated cells without regenerative feedback dissipate",
+    "fitness": "system longevity (>6 hours) and continuous cold-cloud shield area (>100,000 km2)",
+    "boundary": "low-level jet moisture supply, nocturnal stabilization, wind shear profile, large-scale forcing",
+    "tags": [
+      "emergence",
+      "feedback",
+      "agents",
+      "network",
+      "replication",
+      "threshold",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "fog-formation-radiation-advection",
+    "name": "Fog Formation (Radiation vs. Advection)",
+    "domain": "meteorology",
+    "unit": "near-surface air layer reaching saturation",
+    "variation": "radiative cooling of ground (radiation fog) vs. warm moist air advecting over cold surface (advection fog) compete as saturation mechanisms",
+    "selection": "conditions sustaining dew-point depression <= 0 at surface produce persistent fog; conditions where turbulent mixing or solar heating raises temperature above dew point dissipate fog",
+    "fitness": "fog duration and horizontal visibility reduction",
+    "boundary": "surface type, wind speed (calm for radiation, moderate for advection), moisture availability, cloud cover",
+    "tags": [
+      "phase-transition",
+      "equilibrium",
+      "gradient",
+      "boundary",
+      "selection",
+      "decay",
+      "coupling"
+    ]
+  },
+  {
+    "id": "precedent-fitness-landscape",
+    "name": "Precedent Fitness Landscape Theory",
+    "domain": "jurisprudence",
+    "unit": "judicial precedent",
+    "variation": "reinterpretation of prior rulings across jurisdictions and fact patterns",
+    "selection": "appellate review and citation frequency by subsequent courts",
+    "fitness": "maximized doctrinal coherence and applicability across novel cases",
+    "boundary": "breaks down when legislative override or constitutional amendment renders precedent moot",
+    "tags": [
+      "selection",
+      "memory",
+      "hierarchy",
+      "accumulation",
+      "network",
+      "feedback"
+    ]
+  },
+  {
+    "id": "statutory-decay-half-life",
+    "name": "Statutory Decay Half-Life Theory",
+    "domain": "jurisprudence",
+    "unit": "enacted statute",
+    "variation": "changing social norms, technological shifts, and economic conditions erode statutory relevance",
+    "selection": "judicial willingness to apply versus distinguish or narrowly construe aging statutes",
+    "fitness": "minimized gap between statutory text and contemporary societal expectations",
+    "boundary": "breaks down for constitutional provisions designed to be timeless or deliberately vague",
+    "tags": [
+      "decay",
+      "threshold",
+      "phase-transition",
+      "frequency",
+      "boundary",
+      "stochastic",
+      "feedback"
+    ]
+  },
+  {
+    "id": "legal-norm-oscillation",
+    "name": "Legal Norm Oscillation Theory",
+    "domain": "jurisprudence",
+    "unit": "doctrinal norm (e.g., strict liability vs. negligence standard)",
+    "variation": "pendulum swings between individual rights emphasis and collective welfare emphasis across court eras",
+    "selection": "political composition of courts and shifting public sentiment",
+    "fitness": "maximized perceived legitimacy of the legal system by the governed population",
+    "boundary": "breaks down in authoritarian systems where judicial independence is absent",
+    "tags": [
+      "oscillation",
+      "equilibrium",
+      "agents",
+      "coupling",
+      "feedback",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "jurisdictional-modularity",
+    "name": "Jurisdictional Modularity Theory",
+    "domain": "jurisprudence",
+    "unit": "jurisdictional legal module (federal, state, municipal rule-set)",
+    "variation": "independent legislative experimentation across federated jurisdictions",
+    "selection": "migration of citizens and capital toward more favorable legal environments",
+    "fitness": "maximized regulatory efficiency and citizen satisfaction within a jurisdiction",
+    "boundary": "breaks down when preemption doctrine or international treaty obligations override local variation",
+    "tags": [
+      "modularity",
+      "variation",
+      "selection",
+      "network",
+      "optimization",
+      "agents",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "contractual-information-compression",
+    "name": "Contractual Information Compression Theory",
+    "domain": "jurisprudence",
+    "unit": "contractual clause",
+    "variation": "diverse drafting conventions, boilerplate evolution, and bespoke negotiation across industries",
+    "selection": "litigation outcomes that punish ambiguous or unenforceable clauses",
+    "fitness": "maximized enforceability per unit of contractual text complexity",
+    "boundary": "breaks down when courts impose implied terms or unconscionability doctrines that override explicit text",
+    "tags": [
+      "compression",
+      "encoding",
+      "optimization",
+      "constraint",
+      "information",
+      "selection",
+      "feedback"
+    ]
+  },
+  {
+    "id": "rights-emergence-threshold",
+    "name": "Rights Emergence Threshold Theory",
+    "domain": "jurisprudence",
+    "unit": "claimed right (individual or group)",
+    "variation": "novel rights claims arising from technological change, social movements, and philosophical discourse",
+    "selection": "judicial recognition, legislative codification, and international norm adoption",
+    "fitness": "maximized breadth of recognized legal personhood and protected interests",
+    "boundary": "breaks down when rights claims conflict irreconcilably and no meta-principle resolves priority",
+    "tags": [
+      "emergence",
+      "threshold",
+      "accumulation",
+      "agents",
+      "gradient",
+      "boundary",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "legal-system-network-topology",
+    "name": "Legal System Network Topology Theory",
+    "domain": "jurisprudence",
+    "unit": "citation link between legal authorities",
+    "variation": "differential citation patterns across courts, treatises, and legal traditions",
+    "selection": "hub authorities accumulate disproportionate citation weight via preferential attachment",
+    "fitness": "maximized centrality and influence of a legal authority within the citation network",
+    "boundary": "breaks down when paradigm shifts sever high-centrality nodes",
+    "tags": [
+      "network",
+      "topology",
+      "flow",
+      "coupling",
+      "accumulation",
+      "selection",
+      "information"
+    ]
+  },
+  {
+    "id": "regulatory-scarcity-competition",
+    "name": "Regulatory Scarcity Competition Theory",
+    "domain": "jurisprudence",
+    "unit": "regulatory permission (license, permit, quota)",
+    "variation": "differential applicant strategies, lobbying intensity, and compliance capacity",
+    "selection": "administrative gatekeeping via review standards and resource allocation",
+    "fitness": "maximized access to scarce regulated opportunities relative to compliance cost",
+    "boundary": "breaks down when regulatory capture eliminates genuine competition for permissions",
+    "tags": [
+      "scarcity",
+      "selection",
+      "agents",
+      "constraint",
+      "optimization",
+      "feedback",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "dispute-resolution-phase-transition",
+    "name": "Dispute Resolution Phase Transition Theory",
+    "domain": "jurisprudence",
+    "unit": "legal dispute",
+    "variation": "escalation pathways from negotiation to mediation to arbitration to litigation",
+    "selection": "cost-benefit calculus at each phase boundary determines whether disputes escalate or settle",
+    "fitness": "minimized total resolution cost weighted by outcome satisfaction",
+    "boundary": "breaks down when power asymmetries or emotional stakes make rational cost-benefit analysis inapplicable",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "flow",
+      "gradient",
+      "equilibrium",
+      "constraint",
+      "agents"
+    ]
+  },
+  {
+    "id": "coral-holobiont-feedback",
+    "name": "Coral Holobiont Feedback Theory",
+    "domain": "marine biology",
+    "unit": "coral holobiont (coral host plus symbiotic microbiome)",
+    "variation": "stochastic acquisition and shuffling of Symbiodiniaceae clades and bacterial consortia",
+    "selection": "thermal stress events differentially eliminate holobionts with maladapted symbiont communities",
+    "fitness": "maximized photosynthetic yield and calcification rate under variable thermal regimes",
+    "boundary": "breaks down when bleaching events exceed the adaptive capacity of any available symbiont combination",
+    "tags": [
+      "feedback",
+      "coupling",
+      "variation",
+      "selection",
+      "stochastic",
+      "emergence",
+      "threshold"
+    ]
+  },
+  {
+    "id": "deep-sea-vent-chemosynthetic-gradient",
+    "name": "Deep-Sea Vent Chemosynthetic Gradient Theory",
+    "domain": "marine biology",
+    "unit": "chemosynthetic microbial mat zone",
+    "variation": "spatial and temporal fluctuations in hydrogen sulfide, methane, and mineral concentrations",
+    "selection": "metabolic efficiency of chemolithoautotrophs along steep geochemical gradients",
+    "fitness": "maximized energy harvest per unit of toxic substrate exposure",
+    "boundary": "breaks down when vent systems go extinct and chemosynthetic communities cannot disperse to new vents",
+    "tags": [
+      "gradient",
+      "flow",
+      "constraint",
+      "catalysis",
+      "boundary",
+      "optimization",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "marine-larval-dispersal-lottery",
+    "name": "Marine Larval Dispersal Lottery Theory",
+    "domain": "marine biology",
+    "unit": "pelagic larva",
+    "variation": "stochastic ocean current transport, larval duration polymorphism, and settlement cue sensitivity",
+    "selection": "post-settlement mortality from predation, competition, and habitat quality mismatch",
+    "fitness": "maximized probability of settlement on suitable substrate within competency window",
+    "boundary": "breaks down when habitat fragmentation exceeds maximum dispersal distance for all larval morphotypes",
+    "tags": [
+      "stochastic",
+      "flow",
+      "variation",
+      "selection",
+      "boundary",
+      "frequency",
+      "network"
+    ]
+  },
+  {
+    "id": "mesopelagic-diel-vertical-migration",
+    "name": "Mesopelagic Diel Vertical Migration Oscillation Theory",
+    "domain": "marine biology",
+    "unit": "vertically migrating organism cohort",
+    "variation": "species-specific migration amplitude, timing offsets, and predator avoidance strategies",
+    "selection": "trade-off between foraging gain in euphotic zone and predation risk from visual hunters",
+    "fitness": "maximized net energy intake minus predation mortality over a 24-hour cycle",
+    "boundary": "breaks down in polar regions with continuous daylight or darkness eliminating the diel light cue",
+    "tags": [
+      "oscillation",
+      "gradient",
+      "optimization",
+      "coupling",
+      "frequency",
+      "constraint",
+      "flow"
+    ]
+  },
+  {
+    "id": "kelp-forest-trophic-cascade-topology",
+    "name": "Kelp Forest Trophic Cascade Topology Theory",
+    "domain": "marine biology",
+    "unit": "trophic interaction link (predator-prey or grazer-producer pair)",
+    "variation": "species composition shifts, behavioral modifications, and density-dependent interaction strengths",
+    "selection": "keystone predator presence or absence restructures entire network topology",
+    "fitness": "maximized community biomass stability and primary productivity",
+    "boundary": "breaks down when multiple simultaneous stressors decouple trophic links",
+    "tags": [
+      "topology",
+      "network",
+      "hierarchy",
+      "feedback",
+      "agents",
+      "phase-transition",
+      "emergence"
+    ]
+  },
+  {
+    "id": "ocean-acidification-calcification-threshold",
+    "name": "Ocean Acidification Calcification Threshold Theory",
+    "domain": "marine biology",
+    "unit": "calcifying organism (mollusk, echinoderm, foraminifera)",
+    "variation": "interspecific and population-level variation in aragonite saturation tolerance and energetic buffering capacity",
+    "selection": "dissolution pressure on organisms unable to maintain shell above energetic cost thresholds",
+    "fitness": "minimized metabolic cost of calcification per unit of structural integrity maintained",
+    "boundary": "breaks down when aragonite undersaturation becomes permanent and no compensatory mechanism is sufficient",
+    "tags": [
+      "threshold",
+      "decay",
+      "constraint",
+      "phase-transition",
+      "selection",
+      "optimization",
+      "gradient"
+    ]
+  },
+  {
+    "id": "seagrass-meadow-clonal-memory",
+    "name": "Seagrass Meadow Clonal Memory Theory",
+    "domain": "marine biology",
+    "unit": "clonal seagrass ramet network",
+    "variation": "somatic mutations, epigenetic modifications, and rhizome branching architecture differences across clones",
+    "selection": "differential survival of clonal fragments under disturbance regimes",
+    "fitness": "maximized spatial persistence and recolonization speed after disturbance",
+    "boundary": "breaks down when sexual reproduction is required for adaptation beyond epigenetic range",
+    "tags": [
+      "memory",
+      "replication",
+      "variation",
+      "modularity",
+      "accumulation",
+      "selection",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "marine-microbiome-horizontal-gene-flow",
+    "name": "Marine Microbiome Horizontal Gene Flow Theory",
+    "domain": "marine biology",
+    "unit": "mobile genetic element (plasmid, transposon, phage-carried gene cassette)",
+    "variation": "horizontal gene transfer events mediated by phage transduction, conjugation, and natural transformation",
+    "selection": "environmental filtering for genes conferring resistance, tolerance, or novel metabolic pathways",
+    "fitness": "maximized gene persistence across host lineages independent of vertical inheritance",
+    "boundary": "breaks down when physical barriers limit microbial contact rates below transfer threshold",
+    "tags": [
+      "replication",
+      "information",
+      "flow",
+      "network",
+      "encoding",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "id": "cetacean-acoustic-niche-partitioning",
+    "name": "Cetacean Acoustic Niche Partitioning Theory",
+    "domain": "marine biology",
+    "unit": "species-specific acoustic signal repertoire",
+    "variation": "frequency band occupation, call timing, and modulation pattern divergence among sympatric cetacean species",
+    "selection": "signal interference from conspecifics, heterospecifics, and anthropogenic noise",
+    "fitness": "maximized signal detection probability by intended receivers within occupied frequency band",
+    "boundary": "breaks down when broadband anthropogenic noise saturates all available acoustic niches",
+    "tags": [
+      "frequency",
+      "resonance",
+      "constraint",
+      "symmetry",
+      "encoding",
+      "boundary"
+    ]
+  },
+  {
+    "id": "semantic-key-derivation-lattice",
+    "name": "Semantic Key Derivation Lattice Theory",
+    "domain": "cryptography",
+    "unit": "key derivation function state",
+    "variation": "input entropy sources, salt diversity, and iteration count parameterization",
+    "selection": "brute-force attack cost eliminates weak derivation paths",
+    "fitness": "maximized computational cost for attacker per unit of defender computation",
+    "boundary": "breaks down when quantum algorithms reduce the effective search space below practical security margins",
+    "tags": [
+      "encoding",
+      "information",
+      "optimization",
+      "constraint",
+      "gradient",
+      "hierarchy",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "cipher-suite-evolutionary-pressure",
+    "name": "Cipher Suite Evolutionary Pressure Theory",
+    "domain": "cryptography",
+    "unit": "cipher suite (algorithm + key size + mode combination)",
+    "variation": "new algorithm proposals, implementation variants, and parameter choices across standards bodies",
+    "selection": "cryptanalytic breakthroughs, side-channel attacks, and performance benchmarks deprecate weak suites",
+    "fitness": "maximized security margin per unit of computational and bandwidth overhead",
+    "boundary": "breaks down during cryptographic transitions when legacy compatibility forces retention of broken suites",
+    "tags": [
+      "selection",
+      "variation",
+      "decay",
+      "phase-transition",
+      "optimization",
+      "feedback",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "zero-knowledge-proof-compression",
+    "name": "Zero-Knowledge Proof Compression Theory",
+    "domain": "cryptography",
+    "unit": "proof transcript (prover-verifier interaction round)",
+    "variation": "different proof systems (Schnorr, Groth16, PLONK, STARK) offering distinct size-time-trust tradeoffs",
+    "selection": "verifier rejection of proofs exceeding acceptable size or verification time thresholds",
+    "fitness": "minimized proof size and verification time while preserving soundness and zero-knowledge properties",
+    "boundary": "breaks down when the statement being proved is too complex for any known proof system to handle efficiently",
+    "tags": [
+      "compression",
+      "information",
+      "encoding",
+      "optimization",
+      "constraint",
+      "threshold",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "side-channel-leakage-topology",
+    "name": "Side-Channel Leakage Topology Theory",
+    "domain": "cryptography",
+    "unit": "observable side-channel signal (timing, power, electromagnetic emission)",
+    "variation": "implementation differences, hardware platform diversity, and environmental noise profiles",
+    "selection": "attacker capability to distinguish signal from noise across measurement channels",
+    "fitness": "maximized mutual information between secret state and observable leakage from attacker perspective",
+    "boundary": "breaks down when constant-time implementations and hardware countermeasures reduce leakage below noise floor",
+    "tags": [
+      "topology",
+      "information",
+      "flow",
+      "coupling",
+      "stochastic",
+      "encoding",
+      "boundary"
+    ]
+  },
+  {
+    "id": "blockchain-consensus-equilibrium",
+    "name": "Blockchain Consensus Equilibrium Theory",
+    "domain": "cryptography",
+    "unit": "consensus participant (miner, validator, staker)",
+    "variation": "heterogeneous computational resources, staking amounts, network latency, and strategic behavior",
+    "selection": "protocol reward and punishment mechanisms (block rewards, slashing, difficulty adjustment)",
+    "fitness": "maximized expected reward minus operational cost for honest participation strategy",
+    "boundary": "breaks down when >50% of consensus power colludes or when reward economics incentivize deviation",
+    "tags": [
+      "equilibrium",
+      "agents",
+      "network",
+      "feedback",
+      "scarcity",
+      "stochastic",
+      "emergence"
+    ]
+  },
+  {
+    "id": "entropy-pool-accumulation-dynamics",
+    "name": "Entropy Pool Accumulation Dynamics Theory",
+    "domain": "cryptography",
+    "unit": "entropy bit harvested from physical or system source",
+    "variation": "diverse entropy sources (hardware RNG, interrupt timing, mouse movements) with different quality and rate",
+    "selection": "entropy estimation algorithms reject low-quality or correlated samples",
+    "fitness": "maximized available entropy rate while minimizing correlation between successive outputs",
+    "boundary": "breaks down in virtualized or embedded environments with few physical entropy sources",
+    "tags": [
+      "accumulation",
+      "stochastic",
+      "flow",
+      "constraint",
+      "information",
+      "threshold",
+      "feedback"
+    ]
+  },
+  {
+    "id": "homomorphic-encryption-noise-budget",
+    "name": "Homomorphic Encryption Noise Budget Theory",
+    "domain": "cryptography",
+    "unit": "ciphertext noise component",
+    "variation": "noise growth patterns differ across operation types (addition vs. multiplication) and scheme parameters",
+    "selection": "decryption failure eliminates computation paths that exhaust the noise budget",
+    "fitness": "maximized computational depth before noise budget exhaustion",
+    "boundary": "breaks down when required circuit depth exceeds bootstrapping capability",
+    "tags": [
+      "decay",
+      "gradient",
+      "constraint",
+      "threshold",
+      "optimization",
+      "accumulation",
+      "encoding"
+    ]
+  },
+  {
+    "id": "post-quantum-migration-phase-transition",
+    "name": "Post-Quantum Migration Phase Transition Theory",
+    "domain": "cryptography",
+    "unit": "deployed cryptographic system instance",
+    "variation": "different migration strategies (hybrid, full replacement, crypto-agility) across organizations",
+    "selection": "harvest-now-decrypt-later threat model pressures early adopters; compliance mandates force laggards",
+    "fitness": "minimized window of quantum vulnerability weighted by data sensitivity and migration cost",
+    "boundary": "breaks down if a practical quantum computer arrives before migration infrastructure reaches critical mass",
+    "tags": [
+      "phase-transition",
+      "network",
+      "agents",
+      "coupling",
+      "scarcity",
+      "threshold",
+      "feedback"
+    ]
+  },
+  {
+    "id": "secret-sharing-modularity-resilience",
+    "name": "Secret Sharing Modularity Resilience Theory",
+    "domain": "cryptography",
+    "unit": "share (fragment of a split secret)",
+    "variation": "threshold scheme parameters (k-of-n), share holder reliability, and geographic distribution patterns",
+    "selection": "share loss and compromise events test whether reconstruction threshold is still achievable",
+    "fitness": "maximized secret availability while minimizing probability of unauthorized reconstruction",
+    "boundary": "breaks down when correlated failures violate share independence assumptions",
+    "tags": [
+      "modularity",
+      "replication",
+      "constraint",
+      "network",
+      "symmetry",
+      "scarcity",
+      "boundary"
+    ]
+  },
+  {
+    "id": "mental-accounting-compartmentalization",
+    "name": "Mental Accounting Compartmentalization",
+    "domain": "behavioral economics",
+    "unit": "mental account",
+    "variation": "framing of gains/losses across categories",
+    "selection": "cognitive ease and emotional comfort in financial decisions",
+    "fitness": "perceived utility maximized per mental bucket",
+    "boundary": "breaks when fungibility of money is recognized or stakes are extreme",
+    "tags": [
+      "agents",
+      "boundary",
+      "encoding",
+      "constraint",
+      "modularity",
+      "feedback",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "hyperbolic-discounting-drift",
+    "name": "Hyperbolic Discounting Drift",
+    "domain": "behavioral economics",
+    "unit": "intertemporal choice",
+    "variation": "delay length and reward magnitude framing",
+    "selection": "present-bias overwhelms long-term planning",
+    "fitness": "immediate reward capture rate",
+    "boundary": "collapses when commitment devices eliminate future choice revision",
+    "tags": [
+      "agents",
+      "decay",
+      "gradient",
+      "threshold",
+      "feedback",
+      "oscillation",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "loss-aversion-asymmetry",
+    "name": "Loss Aversion Asymmetry",
+    "domain": "behavioral economics",
+    "unit": "reference-dependent valuation",
+    "variation": "endowment shifts and reference point anchoring",
+    "selection": "asymmetric weighting of losses over equivalent gains",
+    "fitness": "minimized perceived loss relative to reference point",
+    "boundary": "fails in experienced traders and when stakes are trivially small",
+    "tags": [
+      "agents",
+      "symmetry",
+      "boundary",
+      "encoding",
+      "feedback",
+      "threshold",
+      "constraint"
+    ]
+  },
+  {
+    "id": "herd-cascade-formation",
+    "name": "Herd Cascade Formation",
+    "domain": "behavioral economics",
+    "unit": "individual decision in a social sequence",
+    "variation": "private signal quality and observation order",
+    "selection": "rational imitation dominates when private info is weak",
+    "fitness": "social conformity payoff minus information loss",
+    "boundary": "shatters when a credible public signal contradicts the cascade",
+    "tags": [
+      "agents",
+      "information",
+      "feedback",
+      "network",
+      "phase-transition",
+      "emergence",
+      "coupling"
+    ]
+  },
+  {
+    "id": "nudge-architecture-evolution",
+    "name": "Nudge Architecture Evolution",
+    "domain": "behavioral economics",
+    "unit": "choice architecture element",
+    "variation": "default option design, ordering, and salience manipulation",
+    "selection": "opt-out friction filters less motivated agents",
+    "fitness": "target behavior adoption rate",
+    "boundary": "erodes when decision-makers become aware of manipulation",
+    "tags": [
+      "agents",
+      "selection",
+      "constraint",
+      "optimization",
+      "flow",
+      "encoding",
+      "feedback"
+    ]
+  },
+  {
+    "id": "sunk-cost-escalation",
+    "name": "Sunk Cost Escalation Trap",
+    "domain": "behavioral economics",
+    "unit": "commitment episode",
+    "variation": "magnitude of prior investment and visibility of losses",
+    "selection": "psychological need to justify past expenditure",
+    "fitness": "minimized cognitive dissonance from abandonment",
+    "boundary": "dissolves when external accountability forces rational exit",
+    "tags": [
+      "agents",
+      "accumulation",
+      "feedback",
+      "decay",
+      "constraint",
+      "memory",
+      "threshold"
+    ]
+  },
+  {
+    "id": "anchoring-propagation",
+    "name": "Anchoring Propagation in Valuation",
+    "domain": "behavioral economics",
+    "unit": "numerical estimate",
+    "variation": "anchor magnitude, relevance, and presentation order",
+    "selection": "insufficient adjustment from salient starting value",
+    "fitness": "estimate precision relative to true value",
+    "boundary": "weakens with domain expertise and deliberate debiasing protocols",
+    "tags": [
+      "agents",
+      "encoding",
+      "information",
+      "gradient",
+      "boundary",
+      "stochastic",
+      "constraint"
+    ]
+  },
+  {
+    "id": "endowment-effect-stickiness",
+    "name": "Endowment Effect Stickiness",
+    "domain": "behavioral economics",
+    "unit": "owned asset valuation",
+    "variation": "ownership duration, emotional attachment, and market liquidity",
+    "selection": "ownership inflates subjective value above market clearing price",
+    "fitness": "willingness-to-accept / willingness-to-pay gap",
+    "boundary": "collapses for fungible goods traded by experienced market participants",
+    "tags": [
+      "agents",
+      "boundary",
+      "memory",
+      "scarcity",
+      "symmetry",
+      "feedback",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "prospect-theory-editing",
+    "name": "Prospect Theory Editing Phase",
+    "domain": "behavioral economics",
+    "unit": "prospect (gamble representation)",
+    "variation": "outcome segregation, combination, and cancellation heuristics",
+    "selection": "simplification that preserves decision-relevant contrasts",
+    "fitness": "cognitive load reduction without reversing preference ordering",
+    "boundary": "fails when editing operations interact to produce intransitive choices",
+    "tags": [
+      "agents",
+      "encoding",
+      "compression",
+      "optimization",
+      "information",
+      "hierarchy",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "soil-aggregate-hierarchy",
+    "name": "Soil Aggregate Hierarchy Formation",
+    "domain": "soil science",
+    "unit": "soil aggregate",
+    "variation": "organic matter input, clay mineralogy, and microbial exudate diversity",
+    "selection": "wetting-drying and freeze-thaw cycles destroy weak aggregates",
+    "fitness": "aggregate stability index (resistance to slaking)",
+    "boundary": "breaks in saturated conditions where matric forces vanish",
+    "tags": [
+      "hierarchy",
+      "selection",
+      "variation",
+      "boundary",
+      "modularity",
+      "coupling",
+      "constraint"
+    ]
+  },
+  {
+    "id": "rhizosphere-carbon-pump",
+    "name": "Rhizosphere Carbon Pump",
+    "domain": "soil science",
+    "unit": "root exudate carbon packet",
+    "variation": "plant species, root architecture, and exudate chemistry",
+    "selection": "microbial competition for labile carbon near root surfaces",
+    "fitness": "microbial biomass carbon turnover efficiency",
+    "boundary": "collapses in nutrient-saturated soils where exudate priming is negligible",
+    "tags": [
+      "flow",
+      "gradient",
+      "catalysis",
+      "feedback",
+      "scarcity",
+      "agents",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "pedogenic-threshold-switching",
+    "name": "Pedogenic Threshold Switching",
+    "domain": "soil science",
+    "unit": "soil horizon",
+    "variation": "parent material composition and climate regime shifts",
+    "selection": "weathering rate exceeds mineral buffering capacity",
+    "fitness": "horizon differentiation intensity",
+    "boundary": "invalid in young alluvial deposits with insufficient time for profile development",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "gradient",
+      "accumulation",
+      "boundary",
+      "decay",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "mycorrhizal-nutrient-network",
+    "name": "Mycorrhizal Nutrient Exchange Network",
+    "domain": "soil science",
+    "unit": "hyphal nutrient transfer link",
+    "variation": "fungal species diversity and host plant root density",
+    "selection": "reciprocal reward: plants starve non-cooperative fungi of carbon",
+    "fitness": "phosphorus transfer efficiency per unit carbon invested",
+    "boundary": "collapses under high soil phosphorus where mycorrhizal dependency vanishes",
+    "tags": [
+      "network",
+      "flow",
+      "agents",
+      "feedback",
+      "scarcity",
+      "coupling",
+      "modularity"
+    ]
+  },
+  {
+    "id": "soil-organic-matter-saturation",
+    "name": "Soil Organic Matter Saturation Deficit",
+    "domain": "soil science",
+    "unit": "mineral-associated organic matter fraction",
+    "variation": "clay surface area, iron oxide content, and organic input quality",
+    "selection": "sorption affinity preferentially stabilizes low-molecular-weight compounds",
+    "fitness": "carbon saturation ratio (actual / capacity)",
+    "boundary": "meaningless in organic soils (histosols) where mineral surfaces are negligible",
+    "tags": [
+      "accumulation",
+      "constraint",
+      "equilibrium",
+      "boundary",
+      "compression",
+      "decay",
+      "gradient"
+    ]
+  },
+  {
+    "id": "redox-oscillation-cycling",
+    "name": "Redox Oscillation Nutrient Cycling",
+    "domain": "soil science",
+    "unit": "redox micro-zone",
+    "variation": "water table fluctuation amplitude and organic electron donor supply",
+    "selection": "thermodynamic favorability of terminal electron acceptors",
+    "fitness": "free energy yield per electron transferred",
+    "boundary": "ceases in permanently aerated or permanently waterlogged conditions",
+    "tags": [
+      "oscillation",
+      "gradient",
+      "flow",
+      "equilibrium",
+      "threshold",
+      "coupling",
+      "feedback"
+    ]
+  },
+  {
+    "id": "soil-macropore-preferential-flow",
+    "name": "Soil Macropore Preferential Flow",
+    "domain": "soil science",
+    "unit": "macropore channel",
+    "variation": "bioturbation intensity, root channels, and shrink-swell clay content",
+    "selection": "gravity and matric potential gradients route water through lowest-resistance paths",
+    "fitness": "hydraulic conductivity per unit cross-section",
+    "boundary": "irrelevant in coarse sandy soils where matrix flow dominates",
+    "tags": [
+      "flow",
+      "topology",
+      "selection",
+      "constraint",
+      "hierarchy",
+      "network",
+      "gradient"
+    ]
+  },
+  {
+    "id": "cation-exchange-buffering",
+    "name": "Cation Exchange Buffering Cascade",
+    "domain": "soil science",
+    "unit": "exchange site on clay or humus colloid",
+    "variation": "clay type, organic matter charge density, and ionic strength of soil solution",
+    "selection": "valence and hydration radius determine exchange selectivity",
+    "fitness": "buffering capacity (resistance to pH change per unit acid added)",
+    "boundary": "overwhelmed by acid deposition rates exceeding exchange replenishment",
+    "tags": [
+      "equilibrium",
+      "scarcity",
+      "constraint",
+      "gradient",
+      "decay",
+      "accumulation",
+      "feedback"
+    ]
+  },
+  {
+    "id": "biological-soil-crust-succession",
+    "name": "Biological Soil Crust Succession",
+    "domain": "soil science",
+    "unit": "crust organism patch (cyanobacteria, lichen, moss)",
+    "variation": "propagule dispersal, substrate texture, and disturbance history",
+    "selection": "desiccation tolerance and UV resistance filter colonizers",
+    "fitness": "surface coverage persistence through disturbance cycles",
+    "boundary": "destroyed by mechanical trampling or dense vascular plant canopy closure",
+    "tags": [
+      "selection",
+      "variation",
+      "replication",
+      "boundary",
+      "agents",
+      "accumulation",
+      "emergence"
+    ]
+  },
+  {
+    "id": "scale-free-hub-vulnerability",
+    "name": "Scale-Free Hub Vulnerability",
+    "domain": "network theory",
+    "unit": "hub node (high-degree vertex)",
+    "variation": "preferential attachment strength and degree distribution exponent",
+    "selection": "targeted attack removes highest-degree nodes first",
+    "fitness": "network connectivity (giant component size) post-attack",
+    "boundary": "irrelevant in homogeneous random graphs lacking degree heterogeneity",
+    "tags": [
+      "network",
+      "topology",
+      "selection",
+      "hierarchy",
+      "threshold",
+      "phase-transition",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "small-world-rewiring",
+    "name": "Small-World Rewiring Dynamics",
+    "domain": "network theory",
+    "unit": "long-range shortcut edge",
+    "variation": "rewiring probability interpolates lattice to random graph",
+    "selection": "path-length reduction per added shortcut",
+    "fitness": "clustering coefficient / average path length ratio",
+    "boundary": "vanishes when rewiring probability approaches 1 and clustering collapses",
+    "tags": [
+      "network",
+      "topology",
+      "phase-transition",
+      "modularity",
+      "coupling",
+      "flow",
+      "threshold"
+    ]
+  },
+  {
+    "id": "community-detection-resolution",
+    "name": "Community Detection Resolution Limit",
+    "domain": "network theory",
+    "unit": "community partition",
+    "variation": "modularity resolution parameter and network size",
+    "selection": "optimization algorithms merge small communities below resolution threshold",
+    "fitness": "modularity score Q at given resolution",
+    "boundary": "fails to detect communities smaller than sqrt(2m) where m is edge count",
+    "tags": [
+      "network",
+      "modularity",
+      "boundary",
+      "hierarchy",
+      "optimization",
+      "compression",
+      "information"
+    ]
+  },
+  {
+    "id": "epidemic-threshold-on-networks",
+    "name": "Epidemic Threshold on Contact Networks",
+    "domain": "network theory",
+    "unit": "infected node",
+    "variation": "contact network topology and transmission/recovery rate ratio",
+    "selection": "degree heterogeneity lowers epidemic threshold toward zero",
+    "fitness": "basic reproduction number R0 on the network",
+    "boundary": "invalid when contact patterns are temporal and non-Markovian",
+    "tags": [
+      "network",
+      "threshold",
+      "phase-transition",
+      "agents",
+      "stochastic",
+      "flow",
+      "emergence"
+    ]
+  },
+  {
+    "id": "network-controllability",
+    "name": "Structural Controllability of Directed Networks",
+    "domain": "network theory",
+    "unit": "driver node",
+    "variation": "degree distribution and degree correlations in directed edges",
+    "selection": "maximum matching determines minimum driver node set",
+    "fitness": "fraction of nodes that must be directly controlled",
+    "boundary": "breaks when edge weights are dynamic or nonlinear dynamics dominate",
+    "tags": [
+      "network",
+      "topology",
+      "constraint",
+      "hierarchy",
+      "optimization",
+      "information",
+      "flow"
+    ]
+  },
+  {
+    "id": "network-motif-enrichment",
+    "name": "Network Motif Enrichment Selection",
+    "domain": "network theory",
+    "unit": "subgraph motif (3-4 node pattern)",
+    "variation": "functional requirements generate non-random subgraph frequencies",
+    "selection": "motifs enabling stable dynamics are overrepresented versus null model",
+    "fitness": "motif z-score (enrichment significance)",
+    "boundary": "loses meaning in dense networks where all subgraph counts converge",
+    "tags": [
+      "network",
+      "topology",
+      "selection",
+      "frequency",
+      "encoding",
+      "emergence",
+      "feedback"
+    ]
+  },
+  {
+    "id": "link-prediction-similarity",
+    "name": "Link Prediction via Structural Similarity",
+    "domain": "network theory",
+    "unit": "potential edge (node pair)",
+    "variation": "common neighbors, path length, and community co-membership",
+    "selection": "similarity scores rank unobserved edges by formation likelihood",
+    "fitness": "AUC of predicted versus actual future links",
+    "boundary": "fails in networks with strong weak-tie formation or adversarial edge creation",
+    "tags": [
+      "network",
+      "information",
+      "stochastic",
+      "coupling",
+      "encoding",
+      "optimization",
+      "topology"
+    ]
+  },
+  {
+    "id": "multiplex-layer-coupling",
+    "name": "Multiplex Layer Interdependence Cascade",
+    "domain": "network theory",
+    "unit": "inter-layer dependency link",
+    "variation": "layer overlap, coupling strength, and node multiplexity",
+    "selection": "failure in one layer propagates through dependency links to others",
+    "fitness": "mutual giant component size under cascading failure",
+    "boundary": "reduces to single-network percolation when layers are fully correlated",
+    "tags": [
+      "network",
+      "coupling",
+      "phase-transition",
+      "hierarchy",
+      "feedback",
+      "threshold",
+      "topology"
+    ]
+  },
+  {
+    "id": "network-embeddedness-trust",
+    "name": "Network Embeddedness and Trust Formation",
+    "domain": "network theory",
+    "unit": "embedded transaction dyad",
+    "variation": "structural embeddedness (shared partners) and relational history",
+    "selection": "reputation cost of defection scales with mutual connections",
+    "fitness": "cooperation rate in embedded versus arm's-length transactions",
+    "boundary": "ineffective in anonymous large-scale markets with low repeat interaction",
+    "tags": [
+      "network",
+      "agents",
+      "feedback",
+      "constraint",
+      "memory",
+      "coupling",
+      "emergence"
+    ]
+  },
+  {
+    "id": "aristotelian-ethos-pathos-logos-triangle",
+    "name": "Aristotelian Ethos-Pathos-Logos Triangle",
+    "domain": "rhetoric",
+    "unit": "rhetorical appeal",
+    "variation": "Speakers vary the balance of credibility (ethos), emotional resonance (pathos), and logical structure (logos) across arguments, producing a combinatorial space of persuasive configurations.",
+    "selection": "Audiences selectively retain and act upon arguments whose appeal-mix matches their cognitive and emotional receptivity.",
+    "fitness": "A rhetorical appeal achieves fitness when its triangular balance produces attitude change or action in the target audience.",
+    "boundary": "The triangle collapses when audiences lack shared epistemic standards, when speaker identity is unknown, or when emotional saturation renders pathos indistinguishable from noise.",
+    "tags": [
+      "variation",
+      "selection",
+      "equilibrium",
+      "topology",
+      "feedback",
+      "agents",
+      "constraint"
+    ]
+  },
+  {
+    "id": "chiasmus-structural-inversion",
+    "name": "Chiasmus Structural Inversion",
+    "domain": "rhetoric",
+    "unit": "syntactic pattern",
+    "variation": "Rhetorical structures vary by degree of mirror symmetry (AB-BA), depth of nesting, and semantic contrast between inverted elements.",
+    "selection": "Chiastic patterns that produce memorable cognitive tension are preferentially quoted, repeated, and adapted; flat inversions are forgotten.",
+    "fitness": "A chiasmus achieves fitness when its structural inversion encodes a conceptual insight that listeners perceive as simultaneously surprising and inevitable.",
+    "boundary": "Breaks down when inverted elements lack genuine semantic tension or when the structure exceeds working memory capacity.",
+    "tags": [
+      "symmetry",
+      "encoding",
+      "compression",
+      "resonance",
+      "selection",
+      "memory",
+      "topology"
+    ]
+  },
+  {
+    "id": "enthymeme-suppressed-premise",
+    "name": "Enthymeme Suppressed Premise",
+    "domain": "rhetoric",
+    "unit": "inferential gap",
+    "variation": "Arguments vary in which premise is suppressed and the cognitive distance required for audience reconstruction.",
+    "selection": "Enthymemes whose suppressed premises match audience prior beliefs are experienced as compelling and self-evident.",
+    "fitness": "An enthymeme achieves fitness when the suppressed premise is exactly recoverable by the target audience, creating co-authorship.",
+    "boundary": "Fails when audiences lack the background knowledge to reconstruct the missing premise or when multiple incompatible premises could fill the gap.",
+    "tags": [
+      "compression",
+      "information",
+      "agents",
+      "encoding",
+      "feedback",
+      "stochastic",
+      "threshold"
+    ]
+  },
+  {
+    "id": "kairos-timeliness-in-rhetoric",
+    "name": "Kairos Timeliness in Rhetoric",
+    "domain": "rhetoric",
+    "unit": "discursive moment",
+    "variation": "The same argument delivered at different moments encounters different audience states, institutional contexts, and competing narratives.",
+    "selection": "Arguments launched at kairotic moments achieve disproportionate uptake; identical arguments at non-kairotic moments dissipate.",
+    "fitness": "A kairotic intervention achieves fitness when temporal alignment produces a phase transition in audience belief or institutional action.",
+    "boundary": "Kairos becomes indeterminate when multiple competing moments appear equally opportune or when manufactured urgency erodes genuine temporal sensitivity.",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "feedback",
+      "oscillation",
+      "agents",
+      "scarcity",
+      "coupling"
+    ]
+  },
+  {
+    "id": "burkean-identification-rhetoric",
+    "name": "Burkean Identification",
+    "domain": "rhetoric",
+    "unit": "symbolic alignment",
+    "variation": "Speakers create identification through varied strategies: shared terminology, common enemies, overlapping interests, stylistic mimicry.",
+    "selection": "Identification strategies that bridge genuine divisions while maintaining authentic distinctness persist; manipulative ones provoke counter-identification.",
+    "fitness": "Identification achieves fitness when symbolic alignment produces cooperative action between previously divided groups.",
+    "boundary": "Fails when material interests diverge so sharply that no symbolic bridge can sustain identification.",
+    "tags": [
+      "coupling",
+      "agents",
+      "network",
+      "emergence",
+      "boundary",
+      "feedback",
+      "encoding"
+    ]
+  },
+  {
+    "id": "stasis-theory-issue-framing",
+    "name": "Stasis Theory Issue Framing",
+    "domain": "rhetoric",
+    "unit": "point of stasis",
+    "variation": "Disputes can be framed at the level of fact, definition, quality, or jurisdiction, producing fundamentally different argumentative terrains.",
+    "selection": "The stasis level where genuine disagreement concentrates becomes the productive locus of debate.",
+    "fitness": "Stasis framing achieves fitness when it locates the actual point of controversy, enabling productive clash.",
+    "boundary": "Breaks down when disputants cannot agree on which stasis level is operative or when power asymmetries impose a stasis level.",
+    "tags": [
+      "constraint",
+      "hierarchy",
+      "selection",
+      "agents",
+      "information",
+      "equilibrium",
+      "modularity"
+    ]
+  },
+  {
+    "id": "amplification-through-accumulatio",
+    "name": "Amplification Through Accumulatio",
+    "domain": "rhetoric",
+    "unit": "accumulated detail",
+    "variation": "Speakers vary the number, specificity, emotional register, and sequencing of accumulated details.",
+    "selection": "Accumulations that build toward a perceptual threshold persist; lists that merely enumerate are pruned.",
+    "fitness": "Accumulatio achieves fitness when aggregation produces an emergent impression greater than the sum of individual items.",
+    "boundary": "Fails when accumulated details are too heterogeneous to cohere or when audience attention exhausts before threshold.",
+    "tags": [
+      "emergence",
+      "threshold",
+      "gradient",
+      "flow",
+      "feedback",
+      "compression",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "epideictic-praise-blame-rhetoric",
+    "name": "Epideictic Praise-Blame Rhetoric",
+    "domain": "rhetoric",
+    "unit": "evaluative performance",
+    "variation": "Epideictic speeches vary along the praise-blame axis, in choice of exemplary figures, and in values elevated as communal standards.",
+    "selection": "Communities selectively preserve epideictic performances that reinforce or productively challenge shared values.",
+    "fitness": "An epideictic performance achieves fitness when it strengthens communal value coherence.",
+    "boundary": "Collapses when communities lack sufficient value consensus for praise to resonate or blame to sting.",
+    "tags": [
+      "selection",
+      "boundary",
+      "agents",
+      "hierarchy",
+      "feedback",
+      "network",
+      "replication"
+    ]
+  },
+  {
+    "id": "ciceronian-five-canon-system",
+    "name": "Ciceronian Five-Canon System",
+    "domain": "rhetoric",
+    "unit": "compositional stage",
+    "variation": "Each canon (inventio, dispositio, elocutio, memoria, actio) admits internal variation; speakers differentially allocate effort across canons.",
+    "selection": "Performances where canon allocation matches situational demands outperform misallocated efforts.",
+    "fitness": "The system achieves fitness when sequential processing through all five canons produces persuasive impact exceeding any subset alone.",
+    "boundary": "Fails in improvisational contexts where invention and delivery collapse into simultaneity.",
+    "tags": [
+      "hierarchy",
+      "modularity",
+      "flow",
+      "constraint",
+      "optimization",
+      "agents",
+      "emergence"
+    ]
+  },
+  {
+    "id": "laban-effort-shape-movement-analysis",
+    "name": "Laban Effort-Shape Movement Analysis",
+    "domain": "choreography",
+    "unit": "movement quality",
+    "variation": "Movers vary across four effort factors (weight, space, time, flow) and shape dimensions, generating a high-dimensional space of qualitative movement possibilities.",
+    "selection": "Choreographers and audiences select movement qualities that produce legible expressive states.",
+    "fitness": "A movement quality achieves fitness when its effort-shape configuration communicates intended meaning with minimal ambiguity.",
+    "boundary": "Loses discriminatory power at movement extremes or in culturally specific gesture systems where Laban categories misalign.",
+    "tags": [
+      "variation",
+      "information",
+      "gradient",
+      "topology",
+      "modularity",
+      "encoding",
+      "constraint"
+    ]
+  },
+  {
+    "id": "contact-improvisation-weight-sharing",
+    "name": "Contact Improvisation Weight Sharing",
+    "domain": "choreography",
+    "unit": "shared weight exchange",
+    "variation": "Partners vary in the amount of weight given and received, body surfaces used, speed of transfer, and degree of mutual support.",
+    "selection": "Weight-sharing configurations maintaining mutual safety while enabling surprising movement are sustained; risky ones are abandoned.",
+    "fitness": "A weight exchange achieves fitness when both partners access positions and transitions unavailable to either alone.",
+    "boundary": "Fails when mass differential exceeds meaningful weight sharing range or when trust is insufficient.",
+    "tags": [
+      "coupling",
+      "feedback",
+      "equilibrium",
+      "agents",
+      "flow",
+      "stochastic",
+      "emergence"
+    ]
+  },
+  {
+    "id": "ensemble-unison-canon-timing",
+    "name": "Ensemble Unison-Canon Timing",
+    "domain": "choreography",
+    "unit": "temporal offset pattern",
+    "variation": "Ensemble members vary in temporal offset from a reference phrase, from perfect unison through staggered canon to fully independent timing.",
+    "selection": "Timing patterns producing visually coherent effects are retained; ambiguous patterns read as error and are corrected.",
+    "fitness": "A timing pattern achieves fitness when the temporal relationship communicates structural intention without ambiguity.",
+    "boundary": "Breaks down when dancer count exceeds audience tracking capacity or when spatial separation prevents timing reference.",
+    "tags": [
+      "oscillation",
+      "replication",
+      "symmetry",
+      "network",
+      "threshold",
+      "resonance",
+      "encoding"
+    ]
+  },
+  {
+    "id": "forsythe-improvisation-technologies",
+    "name": "Forsythe Improvisation Technologies",
+    "domain": "choreography",
+    "unit": "generative constraint",
+    "variation": "Dancers apply varied algorithmic operations (point operations, line extrusions, geometric transformations) producing different movement outcomes.",
+    "selection": "Operations generating high novelty and structural coherence are retained; repetitive or unsustainable ones are abandoned.",
+    "fitness": "An improvisation technology achieves fitness when its constraint generates a larger and more diverse movement vocabulary than unconstrained improvisation.",
+    "boundary": "Collapses when dancers internalize operations so thoroughly that output becomes predictable.",
+    "tags": [
+      "constraint",
+      "variation",
+      "information",
+      "catalysis",
+      "emergence",
+      "stochastic",
+      "optimization"
+    ]
+  },
+  {
+    "id": "choreographic-phrase-development",
+    "name": "Choreographic Phrase Development",
+    "domain": "choreography",
+    "unit": "movement phrase",
+    "variation": "A seed phrase is developed through retrograde, fragmentation, augmentation, diminution, reordering, and qualitative transformation.",
+    "selection": "Developed phrases maintaining recognizable kinship with the seed while introducing novelty are retained.",
+    "fitness": "Phrase development achieves fitness when the family of related phrases creates thematic coherence across a work.",
+    "boundary": "Breaks down when the seed phrase lacks internal structure or when too many simultaneous operations obscure the relationship.",
+    "tags": [
+      "variation",
+      "replication",
+      "memory",
+      "modularity",
+      "hierarchy",
+      "compression",
+      "encoding"
+    ]
+  },
+  {
+    "id": "site-specific-movement-adaptation",
+    "name": "Site-Specific Movement Adaptation",
+    "domain": "choreography",
+    "unit": "environment-movement interaction",
+    "variation": "Choreographic material transforms as it encounters varied architectural features, surfaces, sightlines, and social contexts.",
+    "selection": "Adaptations revealing unique site properties are retained; those merely transplanting theater conventions are rejected.",
+    "fitness": "Site-specific adaptation achieves fitness when the encounter between movement and environment produces meaning unavailable in either alone.",
+    "boundary": "Fails when sites are too dangerous or when regulatory constraints prevent genuine physical engagement.",
+    "tags": [
+      "boundary",
+      "coupling",
+      "emergence",
+      "constraint",
+      "catalysis",
+      "topology",
+      "agents"
+    ]
+  },
+  {
+    "id": "release-technique-energy-conservation",
+    "name": "Release Technique Energy Conservation",
+    "domain": "choreography",
+    "unit": "muscular release event",
+    "variation": "Dancers vary which muscle groups release, timing and speed, degree of surrender to gravity, and skeletal alignment.",
+    "selection": "Release patterns efficiently converting potential to kinetic energy are cultivated; inefficient ones are corrected.",
+    "fitness": "A release event achieves fitness when minimal muscular effort produces maximal movement result.",
+    "boundary": "Fails when insufficient core stability makes full release dangerous.",
+    "tags": [
+      "flow",
+      "gradient",
+      "decay",
+      "equilibrium",
+      "optimization",
+      "feedback",
+      "threshold"
+    ]
+  },
+  {
+    "id": "cunningham-chance-based-composition",
+    "name": "Cunningham Chance-Based Composition",
+    "domain": "choreography",
+    "unit": "chance-determined sequence",
+    "variation": "Choreographic elements independently determined by chance operations, producing combinations no aesthetic preference would generate.",
+    "selection": "Physical impossibility and performer capacity impose selection during rehearsal; unperformable outcomes are modified.",
+    "fitness": "A chance-based composition achieves fitness when removal of choreographic habit reveals aesthetic possibilities invisible to intentional composition.",
+    "boundary": "Collapses when performers unconsciously smooth chance-generated sequences into habitual patterns.",
+    "tags": [
+      "stochastic",
+      "variation",
+      "selection",
+      "constraint",
+      "information",
+      "symmetry",
+      "emergence"
+    ]
+  },
+  {
+    "id": "floor-pattern-spatial-design",
+    "name": "Floor Pattern Spatial Design",
+    "domain": "choreography",
+    "unit": "spatial pathway",
+    "variation": "Dancers vary trajectories (linear, circular, diagonal, spiral) and spatial relationships (clustering, distribution, asymmetric grouping).",
+    "selection": "Floor patterns creating legible spatial narratives are preserved; those producing visual clutter are revised.",
+    "fitness": "A spatial design achieves fitness when floor patterns reinforce choreographic meaning and sustain visual interest.",
+    "boundary": "Fails in venues where sightlines prevent perception of floor patterns or when dancer count is insufficient.",
+    "tags": [
+      "topology",
+      "flow",
+      "constraint",
+      "gradient",
+      "symmetry",
+      "optimization",
+      "boundary"
+    ]
+  },
+  {
+    "id": "steel-tempering-martensite-transformation",
+    "name": "Steel Tempering Martensite Transformation",
+    "domain": "metallurgy",
+    "unit": "crystal phase",
+    "variation": "Rapid quenching traps carbon in a body-centered tetragonal lattice; martensite varies in carbon concentration, plate size, and twin density.",
+    "selection": "Tempering temperature selects which martensite substructures decompose: low temperatures relieve stress while preserving hardness.",
+    "fitness": "A tempered martensite microstructure achieves fitness when it delivers the target combination of hardness, toughness, and fatigue resistance.",
+    "boundary": "Fails when carbon content is insufficient to form martensite or when service temperatures exceed tempering temperature.",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "gradient",
+      "constraint",
+      "optimization",
+      "decay",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "alloy-phase-diagram-eutectic-points",
+    "name": "Alloy Phase Diagram Eutectic Points",
+    "domain": "metallurgy",
+    "unit": "eutectic composition",
+    "variation": "Binary and multicomponent alloys vary in composition across phase diagrams, producing different solidification paths and microstructural morphologies.",
+    "selection": "Eutectic compositions are naturally selected in casting because their single-temperature solidification eliminates the mushy zone.",
+    "fitness": "A eutectic alloy achieves fitness when its lamellar microstructure provides optimal castability, mechanical properties, and cost.",
+    "boundary": "Phase diagrams lose predictive power when cooling rates deviate far from equilibrium assumptions.",
+    "tags": [
+      "equilibrium",
+      "phase-transition",
+      "topology",
+      "boundary",
+      "constraint",
+      "information",
+      "optimization"
+    ]
+  },
+  {
+    "id": "grain-boundary-strengthening-hall-petch",
+    "name": "Grain Boundary Strengthening (Hall-Petch)",
+    "domain": "metallurgy",
+    "unit": "grain boundary",
+    "variation": "Polycrystalline metals vary in grain size from millimeters to nanometers, with each boundary presenting different misorientation and character.",
+    "selection": "Processing routes producing finer grain sizes are selected for structural applications because Hall-Petch delivers higher yield strength.",
+    "fitness": "Grain boundary strengthening achieves fitness when the inverse-square-root relationship delivers required properties without sacrificing ductility.",
+    "boundary": "The Hall-Petch relationship inverts below approximately 10-20 nanometers (inverse Hall-Petch).",
+    "tags": [
+      "boundary",
+      "network",
+      "constraint",
+      "threshold",
+      "hierarchy",
+      "gradient",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "work-hardening-dislocation-accumulation",
+    "name": "Work Hardening Dislocation Accumulation",
+    "domain": "metallurgy",
+    "unit": "dislocation",
+    "variation": "Plastic deformation generates dislocations varying in type, density, spatial distribution, and interaction strength.",
+    "selection": "Dislocation configurations minimizing total elastic strain energy are thermodynamically favored, driving self-organization.",
+    "fitness": "Work hardening achieves fitness when accumulated dislocation density raises flow stress sufficiently to distribute deformation uniformly.",
+    "boundary": "Fails at high temperatures where thermal activation enables annihilation faster than accumulation.",
+    "tags": [
+      "accumulation",
+      "network",
+      "emergence",
+      "feedback",
+      "decay",
+      "threshold",
+      "gradient"
+    ]
+  },
+  {
+    "id": "galvanic-corrosion-potential-difference",
+    "name": "Galvanic Corrosion Potential Difference",
+    "domain": "metallurgy",
+    "unit": "galvanic couple",
+    "variation": "When dissimilar metals contact in an electrolyte, potential difference varies with alloy composition, surface condition, and electrolyte chemistry.",
+    "selection": "The more anodic metal is selectively corroded, sacrificing material to protect the cathodic partner.",
+    "fitness": "A galvanic system achieves engineering fitness when deliberately exploited for cathodic protection.",
+    "boundary": "Breaks down when electrolyte conductivity is too low or when passive films decouple behavior from thermodynamic predictions.",
+    "tags": [
+      "gradient",
+      "coupling",
+      "decay",
+      "flow",
+      "boundary",
+      "selection",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "powder-metallurgy-sintering",
+    "name": "Powder Metallurgy Sintering",
+    "domain": "metallurgy",
+    "unit": "particle contact neck",
+    "variation": "Metal powder compacts vary in particle size distribution, morphology, composition, and packing geometry.",
+    "selection": "Sintering selectively eliminates high-energy features: small pores shrink, small particles are consumed (Ostwald ripening).",
+    "fitness": "A sintered part achieves fitness when neck growth produces sufficient mechanical integrity while maintaining dimensional control.",
+    "boundary": "Fails when surface contamination prevents neck formation or when trapped gas resists final densification.",
+    "tags": [
+      "catalysis",
+      "phase-transition",
+      "optimization",
+      "scarcity",
+      "flow",
+      "emergence",
+      "network"
+    ]
+  },
+  {
+    "id": "shape-memory-alloy-phase-transitions",
+    "name": "Shape Memory Alloy Phase Transitions",
+    "domain": "metallurgy",
+    "unit": "martensite-austenite interface",
+    "variation": "Shape memory alloys vary in transformation temperatures, hysteresis width, recoverable strain, and martensite variants formed.",
+    "selection": "Thermomechanical cycling selects for martensite variants accommodating applied strain most efficiently.",
+    "fitness": "A shape memory alloy achieves fitness when reversible martensitic transformation reliably converts thermal input to mechanical output.",
+    "boundary": "Fails when operating temperatures fall outside the transformation window or when cyclic fatigue accumulates irrecoverable strain.",
+    "tags": [
+      "phase-transition",
+      "memory",
+      "oscillation",
+      "coupling",
+      "threshold",
+      "symmetry",
+      "encoding"
+    ]
+  },
+  {
+    "id": "precipitation-hardening-age-hardening",
+    "name": "Precipitation Hardening (Age Hardening)",
+    "domain": "metallurgy",
+    "unit": "precipitate particle",
+    "variation": "Supersaturated solid solutions decompose to form precipitates varying in composition, crystal structure, size, shape, and coherency.",
+    "selection": "Aging time and temperature select the precipitate population: underaging produces shearable GP zones; overaging produces bypassable particles.",
+    "fitness": "Precipitation hardening achieves fitness at peak age, when precipitate size and spacing maximize dislocation resistance.",
+    "boundary": "Fails when solubility limits prevent supersaturation or when service temperatures cause continued aging past peak.",
+    "tags": [
+      "phase-transition",
+      "decay",
+      "optimization",
+      "threshold",
+      "scarcity",
+      "gradient",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "zone-refining-purification",
+    "name": "Zone Refining Purification",
+    "domain": "metallurgy",
+    "unit": "molten zone",
+    "variation": "A narrow molten zone traverses a solid ingot; impurities vary in segregation coefficient producing different redistribution profiles.",
+    "selection": "Impurities with segregation coefficients less than one are swept to one end; those greater than one concentrate oppositely.",
+    "fitness": "Zone refining achieves fitness when multiple passes produce material of sufficient purity for the application.",
+    "boundary": "Approaches theoretical limits when segregation coefficients are near unity or when solid-state diffusion homogenizes between passes.",
+    "tags": [
+      "gradient",
+      "flow",
+      "selection",
+      "boundary",
+      "information",
+      "optimization",
+      "constraint"
+    ]
   }
 ]

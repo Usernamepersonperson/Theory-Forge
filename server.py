@@ -8,7 +8,10 @@ Endpoints:
     GET  /pairs?limit=&novel_only=&alpha=         ranked cross-domain pairs
     POST /collide          { a_id, b_id }         synthesize new framework
     POST /collide_domains  { domain_a, domain_b, novel_only? }
-    GET  /                                         one-page UI
+    POST /batch_collide    { count, domain_filter? }  batch N collisions
+    GET  /history                                 all saved batch outputs
+    GET  /rankings?limit=&min_confidence=&domain= ranked frameworks
+    GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
 The first call may take ~10s downloading the model; subsequent calls are fast.
@@ -18,7 +21,10 @@ Auth: ANTHROPIC_API_KEY must be set in the environment. Never hardcoded.
 
 from __future__ import annotations
 
+import json
 import os
+import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -27,7 +33,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.2.0")
+app = FastAPI(title="Theory Forge", version="0.3.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -64,6 +70,11 @@ class CollideDomainsIn(BaseModel):
     domain_a: str
     domain_b: str
     novel_only: bool = True
+
+
+class BatchCollideIn(BaseModel):
+    count: int = 5
+    domain_filter: str | None = None
 
 
 @app.get("/theories")
@@ -143,6 +154,93 @@ def collide_domains(body: CollideDomainsIn):
         "framework": framework,
         "prior": prior.__dict__ if prior else None,
     }
+
+
+@app.post("/batch_collide")
+def batch_collide(body: BatchCollideIn):
+    count = max(1, min(body.count, 10))
+    vecs = _ensure_vecs()
+    alpha = 0.5 if vecs else 0.0
+    pairs = forge.candidate_pairs(
+        _theories, vecs=vecs, alpha=alpha, exclude_tried=_tried,
+    )
+    if body.domain_filter:
+        filt = body.domain_filter.lower()
+        pairs = [
+            (a, b, s) for a, b, s in pairs
+            if filt in a.domain.lower() or filt in b.domain.lower()
+        ]
+    if not pairs:
+        raise HTTPException(404, "No novel pairs found matching filters.")
+    selected = random.sample(pairs[:50], min(count, len(pairs[:50])))
+    client = _client()
+    results = []
+
+    def _do_collide(a, b):
+        prior = forge.find_prior(a, b, _ledger)
+        fw = forge.collide(a, b, client, prior=prior)
+        return {"a": a.to_dict(), "b": b.to_dict(), "framework": fw,
+                "prior": prior.__dict__ if prior else None}
+
+    with ThreadPoolExecutor(max_workers=min(count, 4)) as pool:
+        futures = {pool.submit(_do_collide, a, b): (a, b) for a, b, _ in selected}
+        for fut in as_completed(futures):
+            try:
+                results.append(fut.result())
+            except Exception as e:
+                a, b = futures[fut]
+                results.append({"error": str(e), "a": a.id, "b": b.id})
+    return {"count": len(results), "results": results}
+
+
+@app.get("/history")
+def history():
+    out_dir = Path(__file__).parent / "outputs"
+    if not out_dir.exists():
+        return []
+    batches = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            batches.append({
+                "file": f.name,
+                "count": len(data),
+                "frameworks": [
+                    {"name": fw.get("name", "?"),
+                     "confidence": fw.get("confidence", 0),
+                     "source_a": fw.get("source_a", ""),
+                     "source_b": fw.get("source_b", "")}
+                    for fw in data
+                ],
+            })
+        except (json.JSONDecodeError, KeyError):
+            continue
+    return batches
+
+
+@app.get("/rankings")
+def rankings(limit: int = 50, min_confidence: float = 0.0, domain: str = ""):
+    out_dir = Path(__file__).parent / "outputs"
+    all_fw = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                fw["_batch"] = f.name
+                all_fw.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    if min_confidence > 0:
+        all_fw = [fw for fw in all_fw if fw.get("confidence", 0) >= min_confidence]
+    if domain:
+        d = domain.lower()
+        all_fw = [fw for fw in all_fw
+                  if d in fw.get("domain_applied_to", "").lower()
+                  or d in fw.get("source_a", "").lower()
+                  or d in fw.get("source_b", "").lower()
+                  or d in fw.get("mechanism_borrowed_from", "").lower()]
+    all_fw.sort(key=lambda fw: -fw.get("confidence", 0))
+    return all_fw[:limit]
 
 
 @app.get("/", response_class=HTMLResponse)
