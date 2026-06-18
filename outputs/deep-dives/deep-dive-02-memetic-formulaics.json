@@ -1,0 +1,89 @@
+{
+  "name": "Memetic Formulaics",
+  "rank": 2,
+  "confidence": 0.82,
+  "source_a": "Oral-Formulaic Composition",
+  "source_b": "Memetics",
+  "mechanism_borrowed_from": "Oral-Formulaic Composition",
+  "domain_applied_to": "cultural evolution",
+  "executive_summary": "Memetic Formulaics argues that internet memes propagate through the same structural mechanisms that enabled oral epic poetry to survive millennia of transmission without writing. Milman Parry and Albert Lord demonstrated that Homeric bards did not memorize the Iliad word-for-word; instead, they composed in performance using a repertoire of prefabricated formulas -- metrically shaped phrases ('rosy-fingered dawn,' 'swift-footed Achilles') that could be slotted into recurring structural positions. The bard's skill lay not in invention but in fluent recombination. Memetic Formulaics claims that viral internet content succeeds through precisely the same cognitive mechanism: meme templates are formulas, image macros are epithets, and the 'meme format' is the metrical constraint that makes rapid composition and comprehension possible.\n\nThis reframing dissolves a longstanding puzzle in memetics: why do the most successful memes appear so unoriginal? The standard account treats novelty as the driver of virality, yet empirically the most-shared content tends to be highly formulaic -- the same template with minor substitutions. Memetic Formulaics explains this by recognizing that formulaicity is not a failure of creativity but the enabling condition for mass participation. Just as oral-formulaic composition allowed illiterate bards to produce hours of coherent narrative in real time, meme templates allow millions of internet users to produce culturally resonant content with minimal cognitive investment. The template absorbs the creative overhead; the user need only supply the substitution.\n\nThe theory predicts specific lifecycle dynamics: new meme formats emerge through a 'composition-in-performance' phase where early adopters experiment with the template's boundaries, followed by formulaic consolidation where the most metrically stable variants dominate, and finally fossilization where the formula becomes a fixed cultural reference (like Homeric epithets that survived into written literature as frozen phrases). It also predicts that formats with more constrained 'metrical' structure (fixed panel count, rigid syntactic frame) will propagate faster but die sooner, while loosely constrained formats will propagate slower but persist longer -- mirroring the tradeoff between rigid hexameter formulas and flexible ring-composition structures in oral tradition.",
+  "mapped_components": {
+    "unit": "A single meme instance: one deployment of a template with specific substituted content. Analogous to one performance of a formulaic line by a bard -- the same structural formula, instantiated with context-specific content.",
+    "variation": "The substitution space within a template. Variation occurs at the 'open slots' -- the parts of the formula that the composer fills in. In oral poetry, these are the non-formulaic words that carry episode-specific meaning. In memes, these are the caption text, the specific image crop, or the situational reference inserted into the template frame.",
+    "selection": "Social sharing as audience selection. A meme instance propagates when viewers recognize the template (low cognitive cost) and find the substitution apt or surprising (high reward-to-effort ratio). This mirrors how oral audiences rewarded bards who deployed familiar formulas with fresh, contextually resonant content.",
+    "fitness": "Template longevity and instantiation count. A fit formula generates many high-quality instances across diverse contexts. Fitness is not about any single instance but about the generative capacity of the template itself -- how many different situations it can meaningfully absorb.",
+    "boundary": "The theory applies to content that is composed through recombination of pre-existing structural elements rather than created de novo. It does not apply to: original artwork, long-form essays, or content whose value depends entirely on novel information rather than structural recognition. The boundary is cognitive load: when the cost of comprehension exceeds the benefit of structural familiarity, formulaic composition loses its advantage."
+  },
+  "falsifiable_predictions": [
+    "Meme formats with more rigid structural constraints (fixed panel count, mandatory syntactic frame, specific image template) will reach peak sharing velocity faster than loosely constrained formats, but will also decline to baseline faster -- producing a sharper, shorter virality curve.",
+    "The most prolific meme creators (by volume, not by individual viral hits) will show a repertoire-based composition pattern: they maintain a working vocabulary of 10-30 active templates and achieve output speed through rapid recombination rather than novel invention. This can be measured by analyzing template reuse rates in high-volume creator accounts.",
+    "Cross-cultural meme transfer will follow the same patterns as oral-formulaic borrowing: structural formulas (template layouts, syntactic frames) transfer easily across language boundaries, while content-specific formulas (puns, culturally specific references) do not. Template-level sharing across language communities will exceed content-level sharing by a measurable ratio.",
+    "Meme comprehension speed (measured by reaction time in forced-choice paradigms) will be faster for instances of familiar templates than for equally funny but structurally novel content, and this advantage will increase with the subject's prior exposure to the template -- directly paralleling the processing advantage of formulaic language in psycholinguistics.",
+    "The introduction of a new highly constrained template into a meme ecosystem will temporarily suppress the sharing rate of existing templates in the same structural niche (same panel count, same syntactic frame), analogous to how new formulaic phrases in oral tradition displace old ones occupying the same metrical position.",
+    "Platforms that impose stronger structural constraints on content format (e.g., TikTok's fixed-length video templates, Twitter's character limit) will exhibit higher formulaicity ratios in their viral content than less constrained platforms, and this formulaicity will positively predict sharing velocity.",
+    "Archival analysis of meme format lifecycles will reveal a three-phase pattern matching oral-formulaic dynamics: experimentation (high variation, low volume), consolidation (declining variation, peak volume), and fossilization (minimal variation, declining volume but persistent recognition)."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Milman Parry and Albert Lord's fieldwork with South Slavic oral poets (1930s-1960s) demonstrated that oral epic composition relies on a finite repertoire of metrically shaped formulas that composers recombine in performance. Skilled bards could produce novel narratives of thousands of lines because the formula, not the word, was the basic unit of composition.",
+      "relevance": "Establishes the foundational mechanism that Memetic Formulaics applies to digital content. The key insight -- that fluent production under time pressure requires prefabricated structural units -- maps directly to meme creation under the attention-economy pressures of social media.",
+      "source": "Lord, A.B. (1960). The Singer of Tales. Harvard University Press."
+    },
+    {
+      "finding": "Limor Shifman's research on internet memes (2014) found that the most successful memes are characterized by 'memetic dimensions' including simple packaging, ordinary people, and humor -- but most importantly, ease of imitation. Shifman argued that virality depends less on the content of any single instance than on the 'imitability' of the underlying template.",
+      "relevance": "Independently arrives at a conclusion consistent with Memetic Formulaics: the template (formula) is the replicating unit, and its fitness is determined by how easily others can compose new instances (perform new lines using the formula).",
+      "source": "Shifman, L. (2014). Memes in Digital Culture. MIT Press."
+    },
+    {
+      "finding": "Psycholinguistic research on formulaic language (Wray, 2002) has shown that prefabricated multi-word sequences are stored and retrieved as single units in memory, providing processing speed advantages over compositionally assembled equivalent phrases. Formulaic sequences are processed faster, produced more fluently, and are more resistant to memory decay.",
+      "relevance": "Provides the cognitive mechanism underlying both oral-formulaic composition and meme template recognition. The processing advantage of formulaic sequences explains why template-based memes achieve faster comprehension and sharing than structurally novel content.",
+      "source": "Wray, A. (2002). Formulaic Language and the Lexicon. Cambridge University Press."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "name": "Template Constraint and Virality Curve Experiment",
+      "description": "Construct a controlled set of meme templates varying systematically in structural constraint level: (a) highly constrained (fixed image, fixed syntactic frame, one open slot), (b) moderately constrained (fixed layout, flexible text, two open slots), (c) loosely constrained (general theme, no fixed structure). Seed each template type into matched online communities (subreddits of similar size and activity) and track instantiation count, sharing velocity, peak-to-trough ratio, and template lifespan over 90 days. Use multiple template sets to control for content effects.",
+      "hypothesis": "Highly constrained templates will reach peak instantiation rate 2-3x faster than loosely constrained templates but will decline to 10% of peak within 30 days, while loosely constrained templates will take longer to peak but maintain above-10%-of-peak activity for 60+ days.",
+      "feasibility": "Moderate. Requires partnering with online community moderators and careful ethical review for content seeding. The main challenge is controlling for confounds (community mood, competing memes, current events). Multiple replications across communities mitigate this."
+    },
+    {
+      "name": "Meme Comprehension Speed Paradigm",
+      "description": "Recruit 200 participants and assess their familiarity with 50 current meme templates via recognition test. Then present meme instances in a speeded comprehension task: participants see a meme and must indicate 'funny/not funny' as quickly as possible. Stimuli include: (a) familiar-template instances, (b) structurally novel content matched for humor rating by a separate panel, (c) degraded familiar-template instances (template structure intact but substitution is nonsensical). Measure reaction time, accuracy, and N400-like ERP components if using EEG.",
+      "hypothesis": "Familiar-template instances will produce faster reaction times (200-400ms advantage) and smaller N400 amplitudes than novel content matched for funniness, confirming that template recognition provides a processing shortcut. Degraded instances will produce large N400s despite template familiarity, showing that the formula creates an expectation that the substitution must satisfy.",
+      "feasibility": "High. Standard psycholinguistic paradigm adaptable to visual stimuli. Stimulus norming is the main labor cost. EEG version adds expense but is not required for the core RT finding."
+    }
+  ],
+  "limitations": [
+    "The oral-formulaic analogy may overstate the structural discipline of meme creation. Homeric bards operated within rigid metrical constraints (dactylic hexameter) that forced formulaic composition. Internet meme creators face no equivalent hard constraint -- they choose formulaic composition for convenience, not necessity. This means the mechanism is similar but the binding force is weaker, potentially limiting the theory's predictive precision.",
+    "The theory focuses on template-based memes and may not explain viral content that succeeds through pure novelty, shock value, or emotional intensity without any template structure (e.g., a spontaneous video of an unusual event). These non-formulaic viral events may represent a fundamentally different propagation mechanism that Memetic Formulaics does not capture.",
+    "Cultural context sensitivity is underspecified. Oral-formulaic theory was developed primarily from study of heroic epic traditions in relatively homogeneous cultural contexts. Internet meme culture is radically heterogeneous, and the same template may carry entirely different connotations across communities. The theory needs additional mechanisms to handle polysemy and context-dependent meaning that the oral-formulaic framework did not need to address.",
+    "The theory's emphasis on structural recombination may undervalue the role of platform algorithms in determining what propagates. A meme's 'fitness' in the formulaic sense (generative capacity of the template) may matter less than its alignment with recommendation algorithm preferences, introducing a selection pressure that has no analogue in oral tradition.",
+    "Temporal scale mismatch: oral traditions operated over decades to centuries, giving formulas time to stabilize. Internet meme cycles operate over days to weeks. Whether the same dynamics genuinely apply at such compressed timescales, or whether acceleration produces qualitatively different phenomena, is an open question."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Memetic Clonal Selection: Ideational Affinity Maturation",
+      "relationship": "Complementary immunological model of meme evolution. Where Memetic Formulaics explains the structural mechanism of meme composition, Ideational Affinity Maturation explains how meme variants are selected and refined through iterative community feedback, analogous to antibody affinity maturation."
+    },
+    {
+      "framework": "Lotka-Volterra Dynamics of Attention and Content",
+      "relationship": "Provides the ecological context in which formulaic memes compete. LVDAC models attention as a finite resource and content types as competing species; Memetic Formulaics explains why formulaic content consistently wins the competition (lower cognitive cost, faster comprehension)."
+    },
+    {
+      "framework": "Bragg Diffraction Theory of Cultural Resonance",
+      "relationship": "Offers a complementary physics-based model for why certain cultural patterns amplify while others destructively interfere. Meme templates may succeed precisely because they hit constructive interference conditions in the cultural lattice."
+    },
+    {
+      "framework": "Taphonomic Selection Theory of Historical Memory",
+      "relationship": "Addresses the long-term survival of cultural forms. Memetic Formulaics explains why formulaic content propagates efficiently; Taphonomic Selection explains which formulaic content survives into the cultural record and which is lost based on preservation biases."
+    }
+  ],
+  "potential_applications": [
+    "Marketing and brand communication: Instead of pursuing novelty, marketers can design highly constrained 'brand formulas' -- template structures that communities can instantiate with their own content, turning customers into formulaic composers who propagate the brand template through natural use.",
+    "Education and knowledge dissemination: Complex information can be packaged in formulaic structures (mnemonic templates, standardized explanation formats) that reduce cognitive load on both teacher and learner, enabling faster propagation of accurate knowledge through informal channels.",
+    "Misinformation countermeasures: Understanding that misinformation often succeeds through formulaic packaging (the same false claim in interchangeable template wrappers) suggests that counter-messaging should compete at the template level -- creating equally formulaic truth-carrying templates rather than debunking individual instances.",
+    "Cultural preservation: Endangered oral traditions can be analyzed through the formulaic lens to identify which structural formulas are critical for tradition survival, enabling targeted preservation efforts that focus on formula repertoires rather than individual texts.",
+    "Content moderation at scale: Platforms can detect emerging harmful meme templates by identifying new formulaic structures in early-stage propagation, intervening at the template level rather than playing whack-a-mole with individual instances."
+  ]
+}

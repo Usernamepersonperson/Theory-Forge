@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Quorum Pricing",
+    "core_claim": "Markets exhibit quorum-sensing-like behavior: individual firms do not adjust prices based solely on their own cost signals but instead respond to the aggregate density of competitor price changes in their local market. Below a threshold density of price-movers, firms hold steady (analogous to bacterial quiescence); above it, a coordinated repricing cascade sweeps the sector. This reframes price stickiness not as irrational friction but as a rational wait-for-quorum strategy that conserves adjustment costs until collective action is likely.",
+    "mechanism_borrowed_from": "lacto-fermentation",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Lactic Acid Fermentation",
+    "source_b": "Prospect Theory"
+  },
+  {
+    "name": "Pedogenic Drift",
+    "core_claim": "Soil horizons accumulate stochastic compositional variation analogous to genetic drift in small populations. In landscapes with low disturbance frequency and spatially isolated soil bodies (e.g., relict surfaces, mesa tops), random mineralogical and microbial fluctuations dominate over deterministic weathering trajectories, producing idiosyncratic soil profiles that diverge from CLORPT predictions. This framework explains the high variance in soil properties observed on ancient, undisturbed surfaces where selection pressures are weak.",
+    "mechanism_borrowed_from": "genetic-drift",
+    "domain_applied_to": "soil science",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Genetic Drift",
+    "source_b": "Jenny's Factors of Soil Formation"
+  },
+  {
+    "name": "Rhetorical Impedance Matching",
+    "core_claim": "Persuasive communication fails at audience boundaries for the same reason acoustic energy reflects at medium interfaces: impedance mismatch. A speaker's rhetorical register (vocabulary density, emotional amplitude, epistemic assumptions) functions as communicative impedance. When it closely matches the audience's cognitive-cultural impedance, argumentative energy transmits efficiently. Mismatched impedance causes reflection — the audience hears but does not absorb. Skilled rhetoricians intuitively perform impedance matching by modulating register, just as horn loudspeakers use flared geometry to match air impedance.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Choreographic Decoherence",
+    "core_claim": "Ensemble dance performance exhibits a decoherence-like process: individual dancers begin a phrase in superposed interpretive states (slightly different timing, amplitude, qualitative accents), but interaction with the shared visual and auditory environment — watching each other, hearing the same music — progressively collapses their movement into a classical unison. The rate of choreographic decoherence depends on coupling strength (rehearsal density, spatial proximity) and environmental noise (audience energy, acoustics). Choreographers can deliberately slow decoherence to preserve expressive plurality or accelerate it for dramatic unison arrivals.",
+    "mechanism_borrowed_from": "decoherence",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Quantum Decoherence",
+    "source_b": "Choreographic Counterpoint"
+  },
+  {
+    "name": "Alloy Satisficing",
+    "core_claim": "Metallurgical alloy design under real industrial constraints operates not by optimization but by satisficing: engineers search the composition-processing space and accept the first alloy meeting a threshold bundle of properties (yield strength, corrosion resistance, weldability, cost). The search order — starting from known alloy families and perturbing — determines which local satisfactory solution is found, producing path-dependent alloy traditions that vary by industrial culture. This explains why different national metallurgical traditions converge on different standard alloys for equivalent applications rather than discovering a single optimum.",
+    "mechanism_borrowed_from": "satisficing",
+    "domain_applied_to": "metallurgy",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Satisficing (Simon)",
+    "source_b": "Dislocation Theory"
+  },
+  {
+    "name": "Network Hormesis",
+    "core_claim": "Small, controlled disruptions to network topology — random node removals, temporary link failures — can paradoxically strengthen a network's long-term robustness by triggering adaptive rewiring that eliminates single points of failure. Below a critical disruption dose, the network reorganizes into a more resilient configuration with greater path redundancy; above it, the network fragments. This is hormesis applied to network architecture: moderate stress improves fitness, excessive stress destroys it. The framework predicts an optimal disruption schedule for infrastructure and organizational networks.",
+    "mechanism_borrowed_from": "hormesis",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Hormesis",
+    "source_b": "Small-World Networks"
+  },
+  {
+    "name": "Edaphic Trophic Cascade",
+    "core_claim": "Introducing or removing top predators in the soil food web (predatory nematodes, microarthropods) triggers cascading effects on soil structure itself — not just on organism populations. Predator removal causes bacterial or fungal blooms that alter aggregate stability, pore architecture, and water retention, propagating effects downward through trophic levels to reshape the physical soil matrix. Soil management should therefore treat predator guilds as keystone regulators of soil structure, not merely of nutrient cycling.",
+    "mechanism_borrowed_from": "trophic-cascade",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Trophic Cascade",
+    "source_b": "Soil Food Web"
+  },
+  {
+    "name": "Argumentative Nucleation",
+    "core_claim": "Rhetorical movements crystallize through a nucleation process: scattered dissenting claims circulate as subcritical clusters in public discourse, unable to sustain themselves. When a cluster exceeds a critical mass — enough mutually reinforcing arguments with sufficient internal coherence — it overcomes the activation energy barrier of established consensus and rapidly grows into a crystalline ideological formation. Failed movements are subcritical nuclei that dissolved back into noise. This explains why identical ideas succeed at some historical moments and fail at others: the supersaturation of public frustration determines whether the nucleus can grow.",
+    "mechanism_borrowed_from": "crystal-nucleation",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Crystal Nucleation",
+    "source_b": "Elaboration Likelihood Model"
+  },
+  {
+    "name": "Behavioral Annealing",
+    "core_claim": "Consumer decision-making under choice overload follows a trajectory analogous to simulated annealing: when cognitive temperature is high (time pressure, emotional arousal, novelty), people explore broadly and tolerate suboptimal choices; as they gain experience and the decision context cools, they exploit narrowing preference neighborhoods. Hyperbolic discounting emerges naturally from this framework as a high-temperature phenomenon — present bias is the behavioral equivalent of thermal fluctuation that prevents settling into the globally optimal intertemporal allocation. Choice architects can manipulate effective temperature through environmental design.",
+    "mechanism_borrowed_from": "quantum-annealing-landscape",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Quantum Annealing Energy Landscape",
+    "source_b": "Hyperbolic Discounting"
+  },
+  {
+    "name": "Choreographic Stigmergy",
+    "core_claim": "Improvisational dance ensembles coordinate without verbal communication through stigmergic traces left in shared space-time: a dancer's movement through a stage region leaves a spatial-kinesthetic residue (wake turbulence, visual afterimage, rhythmic pattern) that subsequent dancers read and respond to. The stage floor becomes a medium of indirect communication analogous to pheromone trails. This framework explains how contact improvisation groups achieve coherent emergent structures without choreographic authority and predicts that ensemble coherence scales with the persistence time of these movement traces.",
+    "mechanism_borrowed_from": "stigmergy",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Stigmergy",
+    "source_b": "Laban Effort Theory"
+  },
+  {
+    "name": "Metallurgical Paradigm Shifts",
+    "core_claim": "The history of metallurgy follows a Kuhnian structure: long periods of normal metallurgy (incremental alloy refinement within an established paradigm of microstructural control) punctuated by revolutionary paradigm replacements. The bronze-to-iron transition, the Bessemer process, and the emergence of high-entropy alloys each represent crises where accumulated anomalies — alloys that outperformed theoretical predictions or failed inexplicably — forced a reconceptualization of what governs material properties. The current multi-principal-element alloy revolution is a paradigm shift in real time, replacing the base-metal-plus-dopants framework with a configurational entropy paradigm.",
+    "mechanism_borrowed_from": "kuhn-paradigm",
+    "domain_applied_to": "metallurgy",
+    "viability": "promising",
+    "confidence": 0.83,
+    "source_a": "Kuhnian Paradigm Shifts",
+    "source_b": "Dislocation Theory"
+  },
+  {
+    "name": "Soil as Autopoietic System",
+    "core_claim": "Mature soil is an autopoietic system: its biological and mineral components continuously regenerate the organizational structure that maintains the soil body's identity. Root exudates feed microbes that produce binding agents that stabilize aggregates that create pore space that sustains root growth. When this self-producing loop is disrupted (tillage, sterilization), the soil loses organizational closure and degrades toward an inert mineral substrate. This reframes soil health not as a checklist of chemical parameters but as the integrity of a self-maintaining boundary between organized pedosphere and disordered parent material.",
+    "mechanism_borrowed_from": "autopoiesis",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Autopoiesis",
+    "source_b": "Soil Food Web"
+  },
+  {
+    "name": "Network Stratigraphy",
+    "core_claim": "Social and technological networks accumulate structural layers analogous to geological strata: early connections form a base layer with distinct topological properties, subsequent growth phases deposit new layers with different degree distributions and clustering patterns, and disruptive events create unconformities (mass link deletions or platform migrations). The network's current behavior is governed by the full stratigraphic column of past growth regimes, not just the surface topology. Archaeological-style excavation of network formation timestamps can reveal these layers and explain otherwise puzzling structural features.",
+    "mechanism_borrowed_from": "stratigraphy",
+    "domain_applied_to": "network science",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Stratigraphic Superposition",
+    "source_b": "Preferential Attachment"
+  },
+  {
+    "name": "Rhetorical Predator-Prey Cycles",
+    "core_claim": "Public discourse exhibits Lotka-Volterra oscillations between persuasive strategies and audience defenses. When a novel rhetorical technique (e.g., data storytelling, manufactured authenticity) proliferates, audience skepticism co-evolves to neutralize it, causing the technique's effectiveness to crash. This creates ecological space for new persuasive mutations. The coupled oscillation between rhetorical innovation and audience resistance explains why persuasion techniques cycle through effectiveness peaks and troughs on roughly generational timescales, and why nostalgia for 'simpler' argumentation periodically resurfaces.",
+    "mechanism_borrowed_from": "predator-prey",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Lotka-Volterra Predator-Prey",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Behavioral Loss Cascades in Metals",
+    "core_claim": "Corrosion propagation in multi-phase alloys follows a prospect-theoretic logic at the microstructural level: galvanic couples between phases create local electrochemical 'reference points,' and corrosion advances preferentially through regions where the potential difference represents the steepest 'loss' relative to the local reference. The nonlinear, asymmetric sensitivity to anodic vs cathodic deviation mirrors loss aversion — small anodic deviations from equilibrium drive disproportionately aggressive dissolution. This framework predicts that alloy corrosion morphology should exhibit the same probability-weighting distortions seen in human decision-making, favoring catastrophic pitting over uniform wastage.",
+    "mechanism_borrowed_from": "prospect-theory",
+    "domain_applied_to": "metallurgy",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Prospect Theory",
+    "source_b": "Dislocation Theory"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Warp Tension Equilibrium Jurisprudence",
+    "core_claim": "Legal doctrines within a jurisdiction behave like warp yarns under tension on a loom: each doctrine is held taut by constitutional anchors at both ends, and new case law (the weft) interlaces through them, redistributing stress across the entire fabric. Doctrinal coherence emerges not from any single thread's strength but from the collective crimp geometry — the way each doctrine bends around its neighbors. When a court overrules a precedent, it is severing a warp thread, and the resulting tension redistribution can propagate structural distortion far from the original cut, explaining why narrow rulings sometimes cascade into wholesale doctrinal realignment.",
+    "mechanism_borrowed_from": "weaving-tension-dynamics",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Weaving Tension Dynamics",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Tonal Decoherence Theory",
+    "core_claim": "A musical composition in the tonal idiom maintains coherence through a 'superposition' of implied harmonic paths, each weighted by listener expectation. As a piece progresses, environmental factors — genre context, performer nuance, listening fatigue — act as decoherence agents that collapse the space of plausible continuations. Atonal passages represent states where coupling to the tonal environment is so weak that no single harmonic trajectory decoheres into a preferred hearing, explaining why atonal music resists the sense of inevitability that characterizes tonal resolution.",
+    "mechanism_borrowed_from": "decoherence",
+    "domain_applied_to": "music theory",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Quantum Decoherence",
+    "source_b": "Generative Theory of Tonal Music"
+  },
+  {
+    "name": "Coriolis Drift of Legal Norms",
+    "core_claim": "Legal norms propagating across jurisdictions experience systematic deflection analogous to the Coriolis effect in meteorology. A legal principle originating in one jurisdiction and adopted by neighbors does not travel in a straight doctrinal line but curves predictably based on the 'rotational frame' of each receiving jurisdiction's constitutional structure. Common-law jurisdictions deflect imported norms toward precedent-based formulations; civil-law systems deflect them toward codified rules. This produces spiral patterns of doctrinal evolution visible in comparative law, where the same original principle produces systematically different endpoints depending on the receiving legal tradition's rotation rate.",
+    "mechanism_borrowed_from": "thermohaline-circulation",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Thermohaline Circulation",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Cryptographic Trophic Cascade",
+    "core_claim": "In layered cryptographic ecosystems, the compromise of a top-level primitive (e.g., a widely-used hash function) propagates downward through the dependency stack in a manner structurally identical to a trophic cascade. Removing the apex predator — the hardness assumption that keeps attackers in check — releases suppressed attack vectors at every lower level, causing protocol-level 'population explosions' of vulnerabilities. The magnitude of the cascade is governed by the topology of the dependency web: monoculture cryptographic stacks experience devastating cascades, while diverse stacks exhibit damped, localized effects.",
+    "mechanism_borrowed_from": "trophic-cascade",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Trophic Cascade",
+    "source_b": "RSA Cryptosystem"
+  },
+  {
+    "name": "Marine Biofilm Stigmergy",
+    "core_claim": "Sessile marine organisms colonizing hard substrates (coral larvae, barnacles, tube worms) practice a form of stigmergy: early colonizers deposit biochemical traces that alter the substrate's chemical and textural properties, indirectly guiding the settlement decisions of later arrivals. The resulting community structure is not centrally coordinated but emerges from layered environmental modification, producing predictable succession sequences. Reef restoration could be dramatically improved by engineering artificial substrates that replicate the stigmergic trace signatures of mature reef biofilms rather than the structural geometry alone.",
+    "mechanism_borrowed_from": "stigmergy",
+    "domain_applied_to": "marine biology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Stigmergy",
+    "source_b": "Niche Construction"
+  },
+  {
+    "name": "Harmonic Preferential Attachment",
+    "core_claim": "In the evolution of musical styles, certain chord progressions and melodic motifs acquire disproportionate prevalence not because they are objectively superior but because they benefit from preferential attachment: the more frequently a progression appears in the canon, the more likely composers and listeners are to reference and reinforce it. This produces a power-law distribution of harmonic vocabulary usage, with a small number of 'hub' progressions (I-IV-V-I, ii-V-I) dominating, while the vast majority of possible progressions remain unexplored. Genre revolutions occur when a critical mass of musicians deliberately route new edges to low-degree nodes.",
+    "mechanism_borrowed_from": "preferential-attachment",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Preferential Attachment",
+    "source_b": "Schenkerian Analysis"
+  },
+  {
+    "name": "Meteorological Minsky Instability",
+    "core_claim": "Atmospheric systems exhibit a financial-instability analog: periods of stable weather patterns breed increasingly extreme departures. Extended high-pressure blocking patterns (atmospheric 'stability') allow thermal gradients to build unchecked, accumulating potential energy analogous to Ponzi-financed positions. When the block finally breaks, the stored energy discharges in violent storms whose severity is proportional to the duration of prior stability. Weather forecasting should therefore treat prolonged calm not as evidence of continued calm but as a leading indicator of severity, exactly as Minsky treats financial stability as a precursor to crisis.",
+    "mechanism_borrowed_from": "minsky-moment",
+    "domain_applied_to": "meteorology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Minsky Financial Instability",
+    "source_b": "Climate Feedback Loops"
+  },
+  {
+    "name": "Zero-Knowledge Courtroom Protocol",
+    "core_claim": "Certain legal procedures — particularly trade-secret litigation and classified-evidence hearings — already approximate zero-knowledge proof systems: one party must convince the court of a fact's truth without revealing the fact itself. Formalizing this analogy suggests that the soundness guarantees of ZK protocols could be imported to design legal discovery procedures where the verifier (judge) gains mathematical confidence in a claim's validity while the witness (sensitive information) is never exposed. The key constraint is that legal 'verifiers' operate with bounded rationality rather than polynomial-time computation, requiring protocol designs that account for cognitive rather than computational limits.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Law and Economics"
+  },
+  {
+    "name": "Textile Phase Transition Dynamics",
+    "core_claim": "Woven fabrics undergo a phase-transition-like behavior at critical thread densities: below a threshold cover factor, the fabric behaves as a loose collection of independent threads with negligible emergent properties; above it, inter-thread friction and geometric locking produce a sudden onset of collective mechanical behavior — shear resistance, drape, and dimensional stability. This transition is governed by the same mathematical structure as percolation thresholds in statistical physics, and predicting it requires knowing the coupling strength (friction coefficient) and the lattice geometry (weave pattern) rather than the properties of individual threads.",
+    "mechanism_borrowed_from": "phase-transition",
+    "domain_applied_to": "textile engineering",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Phase Transition",
+    "source_b": "Weaving Tension Dynamics"
+  },
+  {
+    "name": "Coral Reef Bayesian Updating",
+    "core_claim": "Coral polyps selecting symbiotic algae (zooxanthellae) under changing ocean conditions perform implicit Bayesian updating: they maintain a prior distribution over algal clade fitness, receive likelihood signals from thermal stress events, and update toward heat-tolerant clades as evidence accumulates. Bleaching events are not failures but costly evidence-gathering episodes that shift the posterior. Reefs that experience moderate, spaced thermal stress develop better-calibrated priors and recover faster from extreme events than reefs in thermally stable environments, because their posterior distributions have already been updated toward resilient symbiont partnerships.",
+    "mechanism_borrowed_from": "bayes",
+    "domain_applied_to": "marine biology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Bayesian Updating",
+    "source_b": "Island Biogeography (MacArthur & Wilson)"
+  },
+  {
+    "name": "Encryption as Impedance Matching",
+    "core_claim": "Secure communication channels can be analyzed through acoustic impedance matching: the encryption layer acts as an impedance-matching transformer between the 'medium' of the sender's private information space and the 'medium' of the public channel. Perfect secrecy corresponds to perfect impedance matching — zero information reflects back (leaks) at the boundary. Partial key compromise is analogous to impedance mismatch, producing reflections (side-channel leakage) proportional to the mismatch magnitude. This framework unifies several disparate cryptographic vulnerabilities under a single energy-transmission metaphor and predicts that the most dangerous attacks target the boundaries between security domains rather than the domains themselves.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Shannon's Perfect Secrecy"
+  },
+  {
+    "name": "Abyssal Vacancy Chain Ecology",
+    "core_claim": "In deep-sea benthic communities where shelter is scarce — hydrothermal vent tube structures, whale-fall bone cavities, sponge oscula — organism death triggers vacancy chains structurally identical to hermit crab shell exchanges but operating across species boundaries. A single shelter vacancy cascades through size-ranked occupants, and the total community reorganization triggered by one death far exceeds what individual mortality would predict. Conservation of deep-sea biodiversity therefore depends disproportionately on maintaining the physical shelter stock rather than managing individual species populations.",
+    "mechanism_borrowed_from": "structural-holes",
+    "domain_applied_to": "marine biology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Structural Holes (Burt)",
+    "source_b": "Trophic Cascade"
+  },
+  {
+    "name": "Storm System Quasispecies",
+    "core_claim": "Mesoscale convective systems in the atmosphere behave as quasispecies: individual storm cells mutate rapidly through entrainment, shear, and microphysical variation, and selection operates on the cloud of variants rather than any single cell. The 'fitness' of the ensemble is its collective ability to sustain organized convection. This explains why individual cell tracking is a poor predictor of system behavior — the system's identity resides in the statistical distribution of cell properties, not in any flagship cell. Forecasting should target the ensemble's error threshold: the storm-to-storm variation rate beyond which organized convection cannot maintain coherence.",
+    "mechanism_borrowed_from": "quasispecies-theory",
+    "domain_applied_to": "meteorology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Quasispecies Theory (Eigen)",
+    "source_b": "Turbulent Energy Cascade"
+  },
+  {
+    "name": "Morphogen Gradient Dyeing Theory",
+    "core_claim": "Gradient dyeing techniques in textile engineering can be formalized using the morphogen gradient framework from developmental biology. The dye source acts as a morphogen-producing organizer, the fabric as the tissue field, and dye concentration thresholds determine color-zone boundaries with the same mathematics as Wolpert's positional information model. Predicting and controlling gradient dye patterns therefore reduces to managing source concentration, diffusion coefficients in the fiber matrix, and threshold sensitivities of different dye-fiber binding reactions — a framework that unifies resist-dyeing, dip-dyeing, and injection printing under one quantitative model.",
+    "mechanism_borrowed_from": "morphogen-gradient",
+    "domain_applied_to": "textile engineering",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Morphogen Gradient (Turing-Wolpert)",
+    "source_b": "Weaving Tension Dynamics"
+  },
+  {
+    "name": "Musical Dissipative Structures",
+    "core_claim": "Sustained musical improvisation operates as a dissipative structure in Prigogine's sense: it requires continuous energy input (performer attention and motor activity) to maintain far-from-equilibrium order, and the characteristic patterns of jazz or raga improvisation emerge through spontaneous symmetry-breaking at bifurcation points where the musician's internal model becomes unstable. Silence is the equilibrium state; performance is the ordered dissipative regime. The most creative improvisational moments occur at the edge of bifurcation, where small perturbations (a missed note, an unexpected chord from a bandmate) can push the system into qualitatively new organizational modes rather than collapsing back to equilibrium or repeating established patterns.",
+    "mechanism_borrowed_from": "prigogine-dissipative",
+    "domain_applied_to": "music theory",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Dissipative Structures (Prigogine)",
+    "source_b": "Generative Theory of Tonal Music"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Thermohaline Stratification of Social Trust",
+    "core_claim": "Social trust in large institutions forms density-driven layers analogous to ocean thermohaline circulation. Surface trust (public opinion) is volatile and responsive to media temperature, while deep trust (institutional legitimacy) is cold, saline, and slow-moving. Trust crises occur when surface disruptions penetrate deep enough to destabilize the density gradient, triggering a turnover event where previously buried distrust rapidly surfaces. Restratification after such events takes decades because deep trust, like deep water, forms only under sustained conditions of low turbulence.",
+    "mechanism_borrowed_from": "thermohaline-circulation",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Thermohaline Circulation",
+    "source_b": "Social Identity Theory (Tajfel)"
+  },
+  {
+    "name": "Crystal Nucleation Theory of Social Movements",
+    "core_claim": "Social movements form through a nucleation mechanism: diffuse grievances exist in a supersaturated solution of discontent, but collective action only crystallizes when a critical nucleus of committed actors exceeds a threshold size. Below this critical radius, movements dissolve back into atomized complaint. Above it, crystallization propagates rapidly through the population. Impurities — pre-existing organizational structures, charismatic leaders — lower the nucleation barrier, explaining why movements often catalyze around existing institutions rather than forming de novo.",
+    "mechanism_borrowed_from": "crystal-nucleation",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Crystal Nucleation",
+    "source_b": "Threshold Models of Social Contagion"
+  },
+  {
+    "name": "Turbulent Cascade Model of Organizational Conflict",
+    "core_claim": "Conflict energy in organizations follows a Kolmogorov-like cascade: large-scale strategic disagreements between executives inject energy at the top, which transfers to progressively smaller interpersonal eddies through middle management until it dissipates as petty friction at the individual contributor level. The spectral slope of conflict intensity across organizational scales follows a predictable power law. Intervention is most efficient at the injection scale, not the dissipation scale — yet most HR effort targets the smallest eddies.",
+    "mechanism_borrowed_from": "turbulence-cascade",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Turbulent Energy Cascade",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Autocatalytic Set Theory of Legal Precedent",
+    "core_claim": "Stable legal doctrines function as autocatalytic sets: each ruling catalyzes the viability of other rulings in the network, and the set is collectively self-sustaining even though no single precedent can justify itself in isolation. Doctrinal collapse occurs not when one precedent is overturned but when enough are removed to break catalytic closure — the remaining rulings can no longer mutually sustain each other. This explains why overturning a seemingly minor case can trigger doctrinal cascade failure.",
+    "mechanism_borrowed_from": "catalysis",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Autocatalytic Sets",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Island Biogeography of Rhetorical Repertoires",
+    "core_claim": "A speaker's available persuasive strategies behave like species on an island: repertoire richness is governed by the balance between immigration (new techniques acquired through exposure to diverse rhetorical communities) and extinction (disuse atrophy of underemployed strategies). Rhetorically isolated speakers — those in homogeneous discourse communities — maintain fewer strategies at equilibrium. Rhetorical area (breadth of contexts where one regularly argues) scales with repertoire size following a species-area relationship.",
+    "mechanism_borrowed_from": "island-biogeography",
+    "domain_applied_to": "rhetoric",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Island Biogeography (MacArthur & Wilson)",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Reaction-Diffusion Patterning of Urban Segregation",
+    "core_claim": "Residential segregation patterns arise from a Turing-type instability in the coupled reaction-diffusion of two social groups. When the 'activation' rate of same-group clustering exceeds the 'inhibition' provided by cross-group economic interdependence, and when social diffusion rates differ between groups, stable spatial patterns of segregation spontaneously emerge from initially well-mixed conditions. The characteristic wavelength of neighborhood size is set by the ratio of social mobility rates between groups — predicting that unequal mobility produces finer-grained patchwork.",
+    "mechanism_borrowed_from": "reaction-diffusion",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Reaction-Diffusion Patterns",
+    "source_b": "Diffusion of Innovations"
+  },
+  {
+    "name": "Protein Folding Model of Identity Formation",
+    "core_claim": "Personal identity consolidates through a process analogous to protein folding: from an initially disordered chain of experiences and roles, the individual collapses into a stable native state through free-energy minimization. The identity 'free energy' balances internal coherence (hydrophobic core of core beliefs) against social-solvent compatibility (hydrophilic surface presentation). Misfolded identities — stable but dysfunctional configurations — resist correction because escaping their local energy minimum requires traversing a high-energy unfolded intermediate, explaining why identity crises are both rare and violent.",
+    "mechanism_borrowed_from": "protein-folding",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Protein Folding",
+    "source_b": "Erikson Psychosocial Stages"
+  },
+  {
+    "name": "Trophic Cascade Theory of Market Regulation",
+    "core_claim": "Financial regulators function as apex predators in market ecosystems: their presence suppresses predatory intermediaries (mesopredators), which in turn allows small investors (primary producers) to flourish. Regulatory removal triggers a mesopredator release — proliferation of extractive financial actors that devastate retail participation. The effect propagates across at least three trophic levels, meaning that the full impact of deregulation is not visible at the level where the regulator operated but one or two levels below.",
+    "mechanism_borrowed_from": "trophic-cascade",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Trophic Cascade",
+    "source_b": "Minsky Financial Instability"
+  },
+  {
+    "name": "Soil Horizon Theory of Institutional Memory",
+    "core_claim": "Institutional knowledge stratifies into horizons analogous to soil formation. The O-horizon (surface organic) is active tacit knowledge held by current employees. The A-horizon is documented procedures mixed with organizational culture. The B-horizon contains accumulated but compacted precedents accessible only through deliberate excavation. The C-horizon is the founding bedrock of charter assumptions. Organizational health depends on active bioturbation — vertical mixing by boundary-spanning employees — without which the topsoil of active knowledge erodes and the institution operates on increasingly irrelevant deep layers.",
+    "mechanism_borrowed_from": "soil-formation-factors",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Jenny's Factors of Soil Formation",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Seismic Propagation Model of Rhetorical Impact",
+    "core_claim": "Persuasive messages propagate through audiences like seismic waves through layered media. The message's 'velocity' changes as it crosses impedance boundaries between demographic strata, refracting and reflecting at each interface. High-impedance contrasts (strong ideological boundaries) cause most argumentative energy to reflect back rather than transmit through, while impedance-matched transitions (culturally proximate groups) allow efficient transmission. The arrival pattern of persuasive effect at distant social strata can be predicted from the layered rheological structure of the audience.",
+    "mechanism_borrowed_from": "seismic-wave-propagation",
+    "domain_applied_to": "rhetoric",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Seismic Wave Propagation",
+    "source_b": "Elaboration Likelihood Model"
+  },
+  {
+    "name": "Red Queen Jurisprudence",
+    "core_claim": "Legal systems and the actors they regulate are locked in a co-evolutionary arms race: new regulations select for novel compliance-evasion strategies, which in turn select for more sophisticated regulatory language. Like host-parasite genotype cycling, the most common regulatory framework is the one most heavily exploited, creating frequency-dependent selection where legal innovation must run continuously just to maintain the same level of enforcement effectiveness. Regulatory stasis is not stability — it is the moment before the parasitic strategy overtakes the host.",
+    "mechanism_borrowed_from": "red-queen-hypothesis",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Red Queen Hypothesis",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Plate Tectonics of Generational Value Shifts",
+    "core_claim": "Cultural value systems behave like lithospheric plates: they are rigid within their boundaries, move imperceptibly slowly, and interact at generational boundary zones through subduction (one generation's values being forced beneath another's), collision (value system compression producing elevated cultural conflict), and rifting (value divergence opening new ideological space). Major cultural 'earthquakes' — revolutionary moments — occur at these boundaries and release accumulated strain. The convective engine driving the plates is differential economic and technological experience across cohorts.",
+    "mechanism_borrowed_from": "plate-tectonics",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Plate Tectonics",
+    "source_b": "Bourdieu's Field Theory"
+  },
+  {
+    "name": "HPA Axis Model of Economic Stress Response",
+    "core_claim": "National economies respond to shocks through a three-tier negative-feedback loop structurally isomorphic to the HPA hormonal axis. The initial alarm (market panic) triggers a hypothalamic signal (central bank communication), which activates a pituitary relay (interbank lending rate adjustment), which drives a cortisol-like effector (broad monetary policy). Negative feedback — economic stabilization suppressing further intervention — normally restores baseline. Chronic economic stress, however, downregulates receptors (market participants become desensitized to policy signals), producing a persistent elevated-intervention state analogous to adrenal fatigue.",
+    "mechanism_borrowed_from": "hpa-axis-feedback",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "HPA Axis Hormonal Feedback Loop",
+    "source_b": "Central Bank Reaction Function"
+  },
+  {
+    "name": "Liminality as Psychosocial Phase Transition",
+    "core_claim": "Rites of passage operate as controlled phase transitions in social identity: the liminal phase is the critical point at which the old identity structure loses long-range order before the new one crystallizes. Turner's communitas is the analogue of critical fluctuations — temporary equality and mutual recognition that exists only at the transition temperature. Societies that eliminate structured liminal experiences force individuals through uncontrolled phase transitions, producing the social equivalent of amorphous glass rather than well-ordered crystal: functional but brittle identities.",
+    "mechanism_borrowed_from": "phase-transition",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Phase Transition",
+    "source_b": "Liminality (Turner)"
+  },
+  {
+    "name": "Gene Regulatory Network Model of Belief System Dynamics",
+    "core_claim": "An individual's belief system is a regulatory network where beliefs activate and suppress each other like genes in a regulatory circuit. Stable worldviews correspond to network attractors — self-reinforcing patterns of belief co-expression. Conversion experiences are transitions between attractor basins, requiring perturbation strong enough to push the system past a separatrix. The number of stable worldviews available to a culture is determined by network topology, not by the number of individual beliefs, just as the number of cell types is determined by the gene regulatory network, not the gene count.",
+    "mechanism_borrowed_from": "gene-regulatory-network",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Gene Regulatory Networks",
+    "source_b": "CBT Cognitive Model"
+  }
+]

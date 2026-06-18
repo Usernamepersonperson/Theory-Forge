@@ -1,0 +1,94 @@
+{
+  "name": "Cascading Vacancy Allocation Theory",
+  "rank": 1,
+  "confidence": 0.83,
+  "source_a": "Hermit Crab Shell Vacancy Chains",
+  "source_b": "Job Market Vacancy Chains",
+  "mechanism_borrowed_from": "hermit-crab-synchronous-vacancy-chains",
+  "domain_applied_to": "labor-economics-housing-promotion-dynamics",
+  "executive_summary": "Cascading Vacancy Allocation Theory (CVAT) proposes that labor markets, housing markets, and promotion hierarchies operate according to the same vacancy-chain mechanics observed in hermit crab shell exchanges. When hermit crabs encounter an empty shell larger than their current one, they form orderly queues sorted by body size. The largest crab moves into the new shell, its abandoned shell is claimed by the next largest, and a deterministic reallocation cascade propagates downward until every crab in the chain has upgraded. The total welfare improvement across the chain far exceeds the value of the single new shell that initiated it. CVAT argues this is not merely an analogy but a structural isomorphism: any system with discrete, non-shareable, size-ranked positions will exhibit the same cascade dynamics.\n\nThe theory's central insight is that system-wide mobility is governed not by individual ambition or qualifications but by the rate at which vacancies are created at the top of the hierarchy. A single new corner-office, luxury apartment, or senior faculty position generates a chain of moves that can improve the situation of five to fifteen participants downstream. This reframes policy interventions: instead of training programs that help individuals compete for fixed slots, CVAT predicts that creating new top-tier positions yields multiplicative welfare gains through cascade propagation. The mechanism is robust across domains because it depends on three structural features rather than domain-specific details: positions must be discrete, agents must be size-ranked in their preferences, and simultaneous occupancy must be impossible.\n\nCritically, CVAT also predicts failure modes. Chains break when intermediate positions are removed (demolishing mid-tier housing), when agents hoard positions (dual employment, vacant investment properties), or when information asymmetry prevents agents from detecting available vacancies. These breakage patterns map directly onto observed pathologies in housing markets (gentrification gaps), corporate hierarchies (promotion bottlenecks), and academic job markets (adjunctification). The theory thus provides both a generative model for healthy mobility and a diagnostic framework for mobility dysfunction.",
+  "mapped_components": {
+    "unit": "A single agent-position pairing: one hermit crab in one shell, one employee in one role, one household in one housing unit. The unit is defined by mutual exclusivity -- the position can hold exactly one occupant.",
+    "variation": "Size-rank mismatch between agent and current position. Agents vary in their capacity (body size, qualification level, household income) and positions vary in their quality (shell volume, salary band, square footage). The gap between current position quality and agent capacity creates the potential energy that drives the cascade.",
+    "selection": "Vacancy detection and queue formation. When a vacancy appears, agents self-sort by capacity and the highest-capacity agent with a mismatch claims the position. Selection is not competitive in the traditional sense -- it is sequential and deterministic once the queue forms. The selection rule is: the largest mismatched agent moves first.",
+    "fitness": "Chain length and total welfare gain. A fit system produces long chains from single vacancy events, meaning that one new top-tier position generates many downstream improvements. Fitness degrades when chains break prematurely (due to hoarding, demolition of intermediate positions, or information failure).",
+    "boundary": "The theory requires: (1) discrete, non-divisible positions, (2) agents with ordered preferences that roughly align with a single ranking dimension, (3) prohibition on simultaneous multi-position occupancy, (4) agents can detect vacancies in reasonable time. Violations of any condition break the cascade mechanism -- shared housing, multi-dimensional preference heterogeneity, or severe information asymmetry all reduce chain length toward zero."
+  },
+  "falsifiable_predictions": [
+    "When a new top-tier position is introduced into a stable hierarchy (e.g., construction of luxury housing in a constrained market), the number of downstream position changes will exceed 5 and follow a predictable decay curve determined by the number of occupied tiers in the hierarchy.",
+    "Markets with higher rates of top-tier vacancy creation (e.g., cities with active luxury construction) will show higher overall mobility rates at every tier, not just at the top -- and the effect will be measurable as reduced average tenure-in-position across the bottom three quintiles.",
+    "Removing intermediate-tier positions (e.g., demolishing mid-range housing for luxury redevelopment) will reduce total chain length more than removing an equivalent number of bottom-tier positions, because mid-tier removal severs cascades that would otherwise propagate further.",
+    "In organizations with strict anti-hoarding rules (one person, one role; no dual appointments), promotion chain lengths will be measurably longer than in organizations that allow acting-in-two-roles arrangements, controlling for organization size.",
+    "Vacancy chain length will correlate with information transparency: markets with public, real-time vacancy listings (e.g., MLS for housing) will exhibit longer average chains than opaque markets (e.g., word-of-mouth rental networks), even when controlling for market size and tier count.",
+    "Introducing artificial top-tier vacancies (e.g., government-funded senior research positions, subsidized luxury housing units) will produce a measurable welfare multiplier exceeding 3x the direct cost of the new position, calculable from the summed welfare gains of all downstream movers.",
+    "Systems where agents can occupy multiple positions simultaneously (e.g., investors holding multiple properties, faculty with joint appointments) will show systematically shorter vacancy chains and lower aggregate mobility than structurally equivalent single-occupancy systems."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Hermit crab vacancy chain research by Randi Rotjan and Sara Lewis (2008) demonstrated that crabs form size-ordered queues at empty shells and that a single large shell triggers synchronized chain exchanges involving up to 10+ individuals. Chain length was predicted by the size distribution of waiting crabs.",
+      "relevance": "Directly validates the biological mechanism that CVAT generalizes. The observed chain lengths and their dependence on size-distribution parameters provide quantitative benchmarks for the theory.",
+      "source": "Rotjan, R.D., Chabot, J.R., & Lewis, S.M. (2010). Social context of shell acquisition in Coenobita clypeatus hermit crabs. Behavioral Ecology, 21(3), 639-646."
+    },
+    {
+      "finding": "Ivan Chase's foundational work on vacancy chains in hermit crab populations (1991) established the mathematical framework for vacancy chain analysis, showing that chains follow predictable length distributions governed by the ratio of available shells to crabs at each size class.",
+      "relevance": "Provides the formal mathematical apparatus that CVAT extends to human systems. Chase's stochastic models of chain length are directly applicable to job market and housing vacancy analysis.",
+      "source": "Chase, I.D., Weissburg, M., & DeWitt, T.H. (1988). The vacancy chain process: a new mechanism of resource distribution in animals with application to hermit crabs. Animal Behaviour, 36(5), 1265-1274."
+    },
+    {
+      "finding": "Harrison White's sociological theory of vacancy chains in organizations (1970) demonstrated that mobility in clergy, corporations, and government follows chain dynamics where a single retirement or creation at the top generates predictable cascades of moves. White showed that chain length statistics could predict organizational mobility rates from vacancy creation rates alone.",
+      "relevance": "Independent discovery of the same mechanism in human organizations validates the cross-domain applicability claim. White's work predates the hermit crab research, meaning the isomorphism was discovered convergently.",
+      "source": "White, H.C. (1970). Chains of Opportunity: System Models of Mobility in Organizations. Harvard University Press."
+    },
+    {
+      "finding": "Housing filtering theory research has shown that construction of new high-end housing units does produce downstream vacancy chains that eventually benefit lower-income households, though chain lengths vary by market conditions. Mast (2021) found that building 100 new market-rate units leads to roughly 45-70 moves by households in below-median-income neighborhoods within two years.",
+      "relevance": "Empirical housing data partially validates CVAT's prediction of multiplicative welfare gains from top-tier construction, while also revealing the chain-breakage patterns the theory predicts under information asymmetry and hoarding.",
+      "source": "Mast, E. (2021). JUE Insight: The effect of new market-rate housing construction on the low-income housing market. Journal of Urban Economics, 133, 103383."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "name": "Controlled Vacancy Injection Experiment",
+      "description": "Partner with a large multi-site employer (e.g., hospital system, retail chain with 50+ locations) to conduct a randomized controlled trial. In treatment sites, create one new senior position (funded by the study) and track all subsequent internal moves for 18 months. In control sites of matched size and structure, make no intervention. Measure: total number of position changes triggered, welfare proxies (salary changes, role satisfaction surveys) for each mover in the chain, and chain termination causes.",
+      "hypothesis": "Treatment sites will show 4-8x more internal moves than control sites per vacancy created, with cumulative salary gains across the chain exceeding the cost of the new position by a factor of 3 or more.",
+      "feasibility": "Moderate. Requires corporate partnership and funding for the new positions. The 18-month timeline captures most chain propagation. Main risk: contamination if employees transfer between treatment and control sites."
+    },
+    {
+      "name": "Housing Vacancy Chain Tracking via Administrative Data",
+      "description": "Use linked administrative records (utility connections, lease registrations, property tax rolls) in a mid-size city to reconstruct complete vacancy chains following new construction events over a 5-year period. Compare chain lengths and downstream welfare effects for: (a) luxury construction, (b) mid-tier construction, (c) affordable housing construction, and (d) demolition-then-replacement events. Control for neighborhood characteristics, market tightness, and seasonal effects.",
+      "hypothesis": "Luxury construction initiates longer chains than affordable construction (because it creates vacancies at the top of the hierarchy). Demolition-replacement events produce shorter chains than pure construction (because demolition removes an intermediate link). Chain length correlates with market transparency measures (time-on-market for listings).",
+      "feasibility": "High in jurisdictions with comprehensive administrative data linkages (Scandinavian countries, some US metro areas with utility data). The main challenge is accurately attributing downstream moves to specific vacancy-initiating events rather than independent moves."
+    }
+  ],
+  "limitations": [
+    "The theory assumes a single dominant ranking dimension for both agents and positions. In reality, preferences are multi-dimensional (a family might prefer a smaller apartment closer to school over a larger one farther away), which reduces the determinism of cascade ordering and can cause chains to branch or terminate unpredictably.",
+    "CVAT treats agents as passive responders to vacancy signals, but in human systems agents actively strategize -- they may delay moves to wait for better options, reject available upgrades, or create artificial scarcity. This strategic behavior can shorten, lengthen, or redirect chains in ways the basic model does not capture.",
+    "The information requirements are demanding. For chains to propagate efficiently, agents must detect vacancies quickly, assess their fit accurately, and act before the vacancy is filled. In opaque markets (informal housing, internal labor markets without job postings), information friction may dominate cascade dynamics, making the vacancy-creation rate a secondary factor.",
+    "The theory is strongest for closed systems with fixed agent populations. In open systems where agents can enter or exit (immigration, new labor force entrants, people leaving the housing market entirely), chains interact with inflow/outflow dynamics that CVAT does not model.",
+    "Temporal dynamics are underspecified. The biological model involves near-simultaneous exchange (crabs queue physically), but human vacancy chains propagate over weeks to months. During this propagation time, the market state can change, new vacancies can appear, and chains can merge or interfere with each other."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Abyssal Vacancy Chain Ecology",
+      "relationship": "Direct sibling theory applying vacancy chain mechanics to deep-ocean resource succession. Both share the same formal structure but target different domains, demonstrating the generality of the vacancy chain mechanism."
+    },
+    {
+      "framework": "Dislocation Theory of Social Mobility",
+      "relationship": "Complementary framework. Where CVAT models mobility through sequential position-filling, Dislocation Theory models mobility through propagation of structural defects. Together they may describe two distinct mobility mechanisms that operate simultaneously."
+    },
+    {
+      "framework": "Stigmergic Supply Networks",
+      "relationship": "Shares the principle that system-level optimization emerges from local, sequential decisions rather than centralized planning. CVAT's vacancy signal is analogous to stigmergic traces -- both are environmental modifications that coordinate subsequent agent behavior."
+    },
+    {
+      "framework": "Latent Succession Infrastructure Theory",
+      "relationship": "Addresses a prerequisite condition for CVAT: the existence of agents ready to fill vacancies when they appear. LSIT explains how organizations maintain the dormant pipeline that enables vacancy chains to propagate rather than terminate at the first link."
+    }
+  ],
+  "potential_applications": [
+    "Housing policy design: Use CVAT to model the system-wide mobility effects of different construction strategies. Instead of debating 'build luxury vs. build affordable,' policymakers can calculate expected chain lengths and total welfare gains for each strategy given the local size-distribution of households and housing units.",
+    "Corporate workforce planning: HR departments can simulate the cascade effects of creating new senior roles, identifying which positions generate the longest promotion chains and where chain-breaking bottlenecks exist in the current org structure.",
+    "Academic hiring optimization: Universities can model how a single new faculty line propagates through the academic job market, predicting how many postdocs, adjuncts, and graduate students ultimately benefit from one tenure-track position -- and use this to argue for funding priority.",
+    "Urban renewal without displacement: CVAT suggests that targeted creation of top-tier vacancies in neighborhoods with intact tier structures can produce mobility gains for lower-income residents without direct subsidy, offering a complement to traditional affordable housing programs.",
+    "Military personnel management: Armed forces with strict rank hierarchies and single-occupancy positions are natural CVAT systems. The theory can optimize promotion timing and retirement incentive structures to maximize downstream career advancement rates."
+  ]
+}

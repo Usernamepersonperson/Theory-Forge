@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Confessional Encryption",
+    "core_claim": "The theological mechanism of apophatic theology — defining truth by systematically negating every affirmative predicate — provides a rigorous framework for cryptographic protocol design. A cipher constructed on apophatic principles would define the plaintext not by encoding what it is, but by iteratively excluding what it is not, creating a residue of meaning accessible only to parties who share the full negation sequence. This inverts standard encryption: rather than transforming a message, you progressively constrain the space of possible messages until only one remains, making the 'key' a sequence of exclusions rather than a transformation function.",
+    "mechanism_borrowed_from": "apophatic-theology",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Apophatic (Negative) Theology",
+    "source_b": "RSA Cryptosystem"
+  },
+  {
+    "name": "Choreographic Multiplier Effect",
+    "core_claim": "The Keynesian multiplier — where a single injection of spending propagates through an economy via marginal propensity to consume — maps onto choreographic ensemble dynamics. A single dancer's movement phrase, when injected into an ensemble operating with high 'propensity to respond' (trained mimetic sensitivity), propagates and amplifies through successive dancer-to-dancer transmissions, producing a total kinetic output that exceeds the initial movement by a factor determined by the ensemble's responsiveness coefficient. Choreographers can tune this multiplier by adjusting rehearsal regimes that govern how readily each dancer absorbs and retransmits movement impulses.",
+    "mechanism_borrowed_from": "keynesian-multiplier",
+    "domain_applied_to": "dance",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Keynesian Multiplier",
+    "source_b": "Choreographic Counterpoint"
+  },
+  {
+    "name": "Metallurgical Grieving",
+    "core_claim": "Dislocation theory in materials science — where plastic deformation occurs through the movement of line defects along slip planes under resolved shear stress — provides a structural model for psychological trauma processing. Traumatic experiences create 'cognitive dislocations' — line defects in an individual's mental schema lattice. These dislocations can only move (be processed) along specific 'slip planes' determined by the person's existing belief structures. Therapeutic work functions as applied shear stress: too little produces no movement, too much causes brittle fracture. The goal is controlled dislocation glide that rearranges the lattice into a lower-energy, more resilient configuration — analogous to work hardening.",
+    "mechanism_borrowed_from": "dislocations",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Dislocation Theory",
+    "source_b": "Exposure Therapy (Extinction Learning)"
+  },
+  {
+    "name": "Fermentative Syntax",
+    "core_claim": "Lactic acid fermentation — where acid-tolerant lactobacilli outcompete pathogens by progressively lowering pH — offers a model for how dominant grammatical structures emerge in creole languages. When multiple linguistic substrates are placed in contact (analogous to mixed microbial cultures), the grammatical forms with highest 'acid tolerance' (cognitive simplicity and learnability) gradually dominate, lowering the 'pH' (complexity threshold) of the contact language until only the most robust structures survive. The resulting creole grammar is not a random mixture but the predictable outcome of a selection process favoring forms that thrive under maximal communicative pressure.",
+    "mechanism_borrowed_from": "lacto-fermentation",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Lactic Acid Fermentation",
+    "source_b": "Universal Grammar"
+  },
+  {
+    "name": "Covenantal Versioning",
+    "core_claim": "Covenant theology's mechanism — where successive covenants in divine history supersede prior ones while fulfilling their essential promises — maps precisely onto software API versioning strategy. Each API version constitutes a 'covenant' between provider and consumer. A new version must fulfill the core commitments of the prior covenant (backward-compatible data contracts) while superseding its operational terms (deprecated endpoints, new authentication). The 'redemptive completeness' metric becomes API coverage completeness: a version history is well-designed when each successor makes the prior covenant unnecessary while honoring every promise it made.",
+    "mechanism_borrowed_from": "covenant-theology",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Covenant Theology",
+    "source_b": "Halting Problem"
+  },
+  {
+    "name": "Prosodic Portfolio Theory",
+    "core_claim": "The mechanism of prosodic boundary encoding — where speakers place pitch resets, pauses, and syllable lengthening to segment speech into parseable chunks aligned with syntactic structure — provides a framework for financial portfolio rebalancing. Just as prosodic boundaries help listeners parse continuous speech into meaningful units, portfolio rebalancing boundaries (triggered by volatility thresholds, correlation shifts, or drawdown events) segment continuous market exposure into cognitively and strategically manageable intervals. The optimal rebalancing schedule, like optimal prosodic phrasing, balances chunking frequency against the cost of interruption.",
+    "mechanism_borrowed_from": "prosodic-boundary-encoding",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Prosodic Boundary Encoding",
+    "source_b": "Speculative Bubbles"
+  },
+  {
+    "name": "Liturgical Load Paths",
+    "core_claim": "Structural load path analysis — where loads follow the stiffest continuous path to ground — explains how doctrinal authority propagates through religious institutional hierarchies. Theological claims (loads) are transmitted through the 'stiffest' available path: the most institutionally rigid and credentialed chain of authorities. When a link in this chain fails (a bishop defects, a seminary closes), the load redistributes to adjacent paths, sometimes overloading them. Schisms occur when no continuous load path to the foundational authority (ground) remains, and the structure must find a new foundation or collapse. Reform movements function as structural retrofits that create redundant load paths.",
+    "mechanism_borrowed_from": "structural-load-path",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Load Path Analysis",
+    "source_b": "Trinitarian Doctrine"
+  },
+  {
+    "name": "Extinction Learning Markets",
+    "core_claim": "Exposure therapy's mechanism — where repeated presentation of a feared stimulus without aversive outcome gradually overwrites the conditioned fear response through inhibitory learning — explains how financial markets recover from crash-induced risk aversion. Post-crash, market participants exhibit conditioned fear responses to stimuli associated with the crash (rising leverage ratios, yield curve inversions). Recovery occurs through 'market exposure therapy': repeated encounters with these stimuli without accompanying losses gradually build inhibitory associations. The context-specificity of extinction learning explains why recovery is fragile and fear can return when market conditions shift to resemble the original crash context.",
+    "mechanism_borrowed_from": "exposure-therapy-extinction",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Exposure Therapy (Extinction Learning)",
+    "source_b": "Minsky Financial Instability"
+  },
+  {
+    "name": "Liminal Code Review",
+    "core_claim": "Turner's concept of liminality — where ritual participants pass through a threshold state that dissolves old social structure and enables transformation via communitas — describes the dynamics of effective code review processes. The pull request creates a liminal space: code is separated from the author's private branch (separation phase), enters a state where it belongs to neither the author nor the codebase (liminal margin), and is reincorporated into main only after transformation. The communitas of reviewers temporarily suspends normal hierarchy (junior devs can block senior devs' code), and the symbolic inversion of expertise (the author becomes the explained-to) is what makes review transformative rather than merely gatekeeping.",
+    "mechanism_borrowed_from": "liminality-turner",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Liminality (Turner)",
+    "source_b": "P vs NP"
+  },
+  {
+    "name": "Impedance-Matched Pedagogy",
+    "core_claim": "Acoustic impedance matching — where energy transmission across a boundary is maximized when the impedances of the two media match — provides a quantitative framework for instructional design. The teacher and student each have a 'cognitive impedance' determined by their knowledge density, processing speed, and representational format. Maximum knowledge transfer occurs when these impedances are matched. Scaffolding functions as an impedance transformer (like the bones of the middle ear), converting high-impedance expert knowledge into a form that matches the student's lower impedance. The Zone of Proximal Development is precisely the impedance-matching bandwidth — the range of frequencies (concept complexities) that can be transmitted with acceptable loss.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Quasispecies Jurisprudence",
+    "core_claim": "Eigen's quasispecies theory — where selection in high-mutation-rate systems acts on a cloud of mutant variants rather than individual sequences — reframes how legal doctrines evolve under common law. A legal doctrine is not a single rule but a quasispecies: a cloud of varying judicial interpretations centered on a consensus reading. Selection pressure (appeals court rulings, legislative response) acts on the distribution of interpretations, not on any single holding. The 'error threshold' concept explains doctrinal collapse: when lower courts vary interpretations beyond a critical rate, the doctrine loses coherent identity and must be replaced by statute or landmark ruling — a legal analogue to the error catastrophe.",
+    "mechanism_borrowed_from": "quasispecies-theory",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Quasispecies Theory (Eigen)",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Stimulated Emission Rhetoric",
+    "core_claim": "Laser physics' stimulated emission — where a photon passing an excited atom triggers release of an identical, phase-coherent photon, producing exponential amplification of a single mode — models how rhetorical cascade events work. In a population with high 'rhetorical inversion' (many people holding strong but unexpressed opinions), a single well-crafted public statement (seed photon) can trigger coherent, synchronized expression of identical sentiments. The 'optical cavity' is the media ecosystem that reflects and re-amplifies the message. The result is not merely viral spread but phase-coherent amplification: everyone saying the same thing at the same time with the same emotional valence, producing a rhetorical laser beam of extraordinary persuasive intensity.",
+    "mechanism_borrowed_from": "laser-stimulated-emission",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Stimulated Emission (Laser Physics)",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Auxin Gradient Economics",
+    "core_claim": "Plant hormonal signaling via auxin — where concentration gradients across tissues direct growth through polar transport and threshold-dependent cell responses — provides a model for how investment capital shapes regional economic development. Capital, like auxin, flows directionally through institutional channels (banks, venture funds, government programs) and accumulates in specific zones. Above certain concentration thresholds, capital triggers 'economic cell elongation' (business formation, infrastructure growth). The 'gravitropic response' equivalent is how capital flows toward existing economic mass, while policy interventions function as exogenous auxin application — redirecting growth toward underserved regions by artificially establishing concentration gradients.",
+    "mechanism_borrowed_from": "auxin-hormonal-signaling",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Plant Hormonal Signaling (Auxin)",
+    "source_b": "Comparative Advantage (Ricardo)"
+  },
+  {
+    "name": "Sufi Annihilation Debugging",
+    "core_claim": "Fana (Sufi annihilation) — the dissolution of the egoic self through progressive detachment from worldly identity until only divine reality remains — maps onto an advanced software debugging methodology. The debugger must practice 'ego annihilation' with respect to their own code assumptions: systematically dissolving each layer of certainty about what the code does (attachment to the self-model of the program) until only the bare execution trace remains. Each 'degree of fana' corresponds to stripping away a layer of abstraction — from high-level architecture assumptions down to register states. The 'baqa' (subsistence in God) that follows is the moment the debugger sees the actual system behavior without the distortion of their mental model, enabling them to perceive bugs that are invisible to developers still 'attached' to their design intent.",
+    "mechanism_borrowed_from": "sufism-fana",
+    "domain_applied_to": "computer science",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Fana (Sufi Annihilation)",
+    "source_b": "Halting Problem"
+  },
+  {
+    "name": "Tobler's Law of Emotional Proximity",
+    "core_claim": "Tobler's First Law of Geography — 'everything is related to everything else, but near things are more related than distant things' — when transplanted from spatial attributes to psychological space, produces a quantitative theory of emotional contagion and social influence decay. Emotional states exhibit spatial autocorrelation in 'psychosocial space' (a metric space defined by interaction frequency, relational intimacy, and identity overlap). Mood, motivation, and belief intensity follow distance-decay functions in this space, with Moran's I measuring the clustering coefficient of emotional states within social networks. This predicts that interventions targeting emotionally central individuals (low average psychosocial distance to others) will produce maximum population-level mood shift — a principle for designing mental health interventions at community scale.",
+    "mechanism_borrowed_from": "tobler-first-law",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Tobler's First Law of Geography",
+    "source_b": "Social Identity Theory (Tajfel)"
+  }
+]

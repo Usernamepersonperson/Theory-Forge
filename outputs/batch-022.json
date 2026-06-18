@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Topological Error Correction Choreography",
+    "core_claim": "Ensemble choreography can be made robust to individual dancer errors by encoding movement phrases across redundant dancer subgroups, analogous to how topological quantum error correction distributes a logical qubit across many physical qubits. When a dancer deviates, the surrounding ensemble's spatial and temporal relationships act as syndrome measurements that allow the audience to perceive the intended pattern despite local faults. The choreographic 'logical phrase' survives as long as the fraction of erring dancers stays below a fault-tolerance threshold determined by ensemble density and spatial redundancy.",
+    "mechanism_borrowed_from": "error-correcting-code-topology",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Topological Error Correction",
+    "source_b": "Ensemble Unison-Canon Timing"
+  },
+  {
+    "name": "Entanglement Distillation Fermentation",
+    "core_claim": "Mixed-culture fermentation can be optimized by iteratively discarding low-fidelity microbial partnerships and concentrating high-synergy strain pairs, mirroring entanglement distillation in quantum networks. Just as entanglement distillation sacrifices many low-fidelity Bell pairs to produce fewer high-fidelity ones, serial co-culture passaging under selective stress discards poorly cooperating strain combinations and enriches mutualistic pairs whose cross-feeding fidelity exceeds a threshold. The no-cloning constraint maps to the impossibility of copying a proven symbiotic relationship without re-evolving it in context.",
+    "mechanism_borrowed_from": "entanglement-distribution-network",
+    "domain_applied_to": "fermentation science",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Entanglement Distribution Network",
+    "source_b": "Sourdough Symbiosis Oscillation"
+  },
+  {
+    "name": "Zero-Knowledge Proof Marine Signaling",
+    "core_claim": "Cetacean species in acoustically crowded environments may use call structures that function as zero-knowledge proofs: demonstrating species identity and fitness to conspecifics without revealing information exploitable by predators or competitors. The signal structure convinces intended receivers of the caller's identity through statistical challenge-response patterns in call-and-answer sequences, while eavesdroppers cannot extract localization or individual-identification data from the same transmissions. Soundness is maintained because only genuine conspecifics can produce responses matching the acoustic 'challenge' within the required timing window.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "marine biology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Cetacean Acoustic Niche Partitioning Theory"
+  },
+  {
+    "name": "Precipitation Hardening Harmonic Theory",
+    "core_claim": "Musical compositions gain structural strength through the controlled introduction and aging of dissonant harmonic elements, analogous to precipitation hardening in metallurgy. A supersaturated harmonic field (dense chromaticism or modal mixture) is 'quenched' into a fixed compositional framework, then 'aged' through development sections where dissonant precipitates (unresolved suspensions, cross-relations) grow to optimal size. Peak compositional strength occurs when these harmonic obstacles are large enough to resist the listener's tendency toward premature resolution but small enough to remain coherent, exactly as peak-aged precipitates maximize dislocation resistance without becoming bypassable.",
+    "mechanism_borrowed_from": "precipitation-hardening-age-hardening",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Precipitation Hardening (Age Hardening)",
+    "source_b": "Modal Interchange / Borrowed Chords"
+  },
+  {
+    "name": "Jacquard Binary Encoding of Coral Symbiont Selection",
+    "core_claim": "Coral holobiont symbiont community assembly operates like a Jacquard loom's binary patterning system: each environmental stressor acts as a binary selector (up/down) on thousands of potential symbiont strains simultaneously. The resulting microbiome 'fabric' is not a smooth gradient but a discrete binary-selected mosaic where each strain is either present or excluded based on threshold tolerance, and the emergent community pattern is the product of parallel binary decisions across all available strains. The 'punch card' is rewritten each thermal stress event, reprogramming the holobiont.",
+    "mechanism_borrowed_from": "jacquard-binary-patterning",
+    "domain_applied_to": "marine biology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Jacquard Binary Patterning",
+    "source_b": "Coral Holobiont Feedback Theory"
+  },
+  {
+    "name": "Quantum Annealing Choreographic Composition",
+    "core_claim": "Choreographic search through the vast space of possible movement sequences can be modeled as quantum annealing over an energy landscape, where 'tunneling' through movement habit barriers accesses configurations unreachable by incremental variation alone. Chance-based composition methods (Cunningham) function as the quantum fluctuation term that allows the choreographic process to escape local aesthetic minima. As rehearsal proceeds, the 'temperature' decreases and the piece anneals toward a final form, with the key insight that too-rapid cooling (premature fixation) traps the work in a suboptimal configuration.",
+    "mechanism_borrowed_from": "quantum-annealing-landscape",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.69,
+    "source_a": "Quantum Annealing Energy Landscape",
+    "source_b": "Cunningham Chance-Based Composition"
+  },
+  {
+    "name": "Shannon Perfect Secrecy of Terroir",
+    "core_claim": "The irreproducibility of terroir-specific fermentation outside its original site functions as a natural one-time pad: the site-specific microbiome encoding is statistically independent of any externally observable variable set, making the flavor signature information-theoretically secure against replication. Just as Shannon's perfect secrecy requires the key to be at least as long as the message, the terroir 'key' (the full microbial community state plus its environmental context) contains at least as many degrees of freedom as the flavor profile it produces. Attempts to reverse-engineer terroir from the product alone face the same impossibility as breaking a one-time pad from ciphertext alone.",
+    "mechanism_borrowed_from": "symmetric-cipher",
+    "domain_applied_to": "fermentation science",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Shannon's Perfect Secrecy",
+    "source_b": "Terroir Microbiome Encoding"
+  },
+  {
+    "name": "Grain Boundary Strengthening of Ensemble Dance",
+    "core_claim": "The visual and kinetic strength of ensemble choreography increases as the number of distinct dancer subgroups (analogous to crystallographic grains) increases, following a Hall-Petch-like relationship. Each boundary between subgroups performing different phrases creates a visual 'dislocation barrier' that prevents the audience's attention from sliding uniformly across the stage. Finer-grained ensemble subdivision produces stronger visual impact up to a critical point, below which the groups become too small to read as distinct units and the effect inverts (inverse Hall-Petch), collapsing into visual noise.",
+    "mechanism_borrowed_from": "grain-boundary-strengthening-hall-petch",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Grain Boundary Strengthening (Hall-Petch)",
+    "source_b": "Floor Pattern Spatial Design"
+  },
+  {
+    "name": "RSA Hardness in Marine Larval Dispersal",
+    "core_claim": "Marine larval dispersal strategies exploit a computational asymmetry analogous to RSA encryption: producing billions of larvae is cheap (encryption), but predicting which specific larvae will successfully settle is computationally intractable for predators (factoring). The 'public key' is the observable spawning event; the 'private key' is the specific combination of current, timing, and settlement cue that routes a given larva to success. Predators cannot efficiently invert the dispersal function to target successful settlers without sampling the entire ocean volume, making broadcast spawning an information-theoretically robust survival strategy.",
+    "mechanism_borrowed_from": "public-key-rsa",
+    "domain_applied_to": "marine biology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "RSA Cryptosystem",
+    "source_b": "Marine Larval Dispersal Lottery Theory"
+  },
+  {
+    "name": "Zone Refining of Rhythmic Entrainment",
+    "core_claim": "Musical ensemble rehearsal achieves timing purity through a process analogous to zone refining in metallurgy. A narrow 'molten zone' of focused attention sweeps through a piece passage by passage, and timing impurities (micro-timing deviations) with segregation coefficients less than one are swept toward the boundaries of rehearsed sections, concentrating at transitions. Multiple rehearsal passes progressively purify the interior timing while impurities accumulate at section boundaries, which is why transitions between sections remain the last timing problems solved and require disproportionate rehearsal investment.",
+    "mechanism_borrowed_from": "zone-refining-purification",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Zone Refining Purification",
+    "source_b": "Rhythmic Entrainment"
+  },
+  {
+    "name": "Felting Entanglement Theory of Deep-Sea Vent Communities",
+    "core_claim": "Chemosynthetic communities at hydrothermal vents self-organize through a process structurally identical to felting: individual organisms (fibers) with directional surface features (metabolic dependencies acting as 'cuticle scales') form irreversible mutualistic bonds under agitation (turbulent vent flow), heat, and chemical gradients (moisture analogue). Once formed, these metabolic entanglements resist separation. Community density is governed by the same threshold dynamics as felt density: below a critical agitation level, bonds do not form; above it, the mat rapidly consolidates into a mechanically and metabolically integrated structure.",
+    "mechanism_borrowed_from": "felting-fiber-entanglement",
+    "domain_applied_to": "marine biology",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Felting Fiber Entanglement",
+    "source_b": "Deep-Sea Vent Chemosynthetic Gradient Theory"
+  },
+  {
+    "name": "Quantum Circuit Compilation of Fermentation Pathways",
+    "core_claim": "Metabolic pathway optimization in industrial fermentation operates under the same pressure as quantum circuit compilation: the goal is to minimize the total number of enzymatic steps (gates) and the longest sequential dependency chain (circuit depth) to reach a target metabolite, subject to the 'native gate set' of available enzymes and the 'hardware connectivity' of metabolic network topology. Synthetic biology pathway engineering is literally compiling a desired chemical transformation into the minimum-depth enzyme circuit executable on the host organism's metabolic hardware, and the same depth-vs-fidelity tradeoffs apply.",
+    "mechanism_borrowed_from": "quantum-circuit-compilation",
+    "domain_applied_to": "fermentation science",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Quantum Circuit Compilation Pressure",
+    "source_b": "Koji Enzyme Cascade"
+  },
+  {
+    "name": "Dye Mordant Chemistry of Musical Timbre Fixation",
+    "core_claim": "The persistence of a musical timbre in a listener's memory follows mordant chemistry dynamics: the raw sound (dye) must form a coordination complex with the listener's prior harmonic expectations (mordant) and the acoustic context (fiber) to achieve lasting perceptual impression (color fastness). Timbres heard in harmonically congruent contexts form stronger chelation bonds with memory and resist 'washing out' over time, while timbres presented without harmonic mordanting fade rapidly. This explains why the same instrument sounds more memorable in some harmonic contexts than others, and why certain orchestration choices have higher perceptual fastness.",
+    "mechanism_borrowed_from": "dye-mordant-chemistry",
+    "domain_applied_to": "music theory",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Dye Mordant Chemistry",
+    "source_b": "Harmonic Series Overtone Structure"
+  },
+  {
+    "name": "Shape Memory Alloy Theory of Contact Improvisation",
+    "core_claim": "Contact improvisation partnerships exhibit shape memory alloy behavior: under stress (weight-sharing load), the partnership deforms into novel configurations (martensite), but retains a memory of trained movement patterns (austenite) that it can return to when the stress is released. The hysteresis width corresponds to the range between the point where familiar patterns break down under load and the point where they snap back upon unloading. Experienced partners have wider recoverable strain (can go further into unfamiliar territory while maintaining return capability), and cyclic fatigue from too many sessions without rest accumulates irrecoverable deviation from baseline vocabulary.",
+    "mechanism_borrowed_from": "shape-memory-alloy-phase-transitions",
+    "domain_applied_to": "choreography",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Shape Memory Alloy Phase Transitions",
+    "source_b": "Contact Improvisation Weight Sharing"
+  },
+  {
+    "name": "Galvanic Corrosion Theory of Ocean Acidification Triage",
+    "core_claim": "In multi-species calcifying communities under ocean acidification, the most vulnerable species is sacrificially dissolved to buffer local carbonate chemistry, protecting adjacent species with higher dissolution resistance -- exactly as the anodic metal in a galvanic couple corrodes preferentially to protect the cathodic partner. The 'electrolyte' is the shared seawater; the 'potential difference' is the differential between species' aragonite saturation thresholds. Community-level calcification persistence depends not on individual species tolerance but on the galvanic hierarchy of dissolution potentials, and losing the sacrificial species removes protection for the next-most-vulnerable, triggering a corrosion cascade.",
+    "mechanism_borrowed_from": "galvanic-corrosion-potential-difference",
+    "domain_applied_to": "marine biology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Galvanic Corrosion Potential Difference",
+    "source_b": "Ocean Acidification Calcification Threshold Theory"
+  }
+]

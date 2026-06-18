@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Laban Effort Theory of Cryptographic Key Ceremony",
+    "core_claim": "The security of cryptographic key generation ceremonies depends on the movement quality of the participants, analyzable through Laban effort dimensions. Weight (decisiveness of keystrokes), space (attention to environmental threats — direct vigilance vs. flexible scanning), time (urgency of the ceremony under exposure risk), and flow (bound procedural compliance vs. free improvisation when anomalies arise) define an expressive space of ceremony styles. Ceremonies that score high on bound flow and direct space produce keys with the highest operational security, while those drifting toward free flow and flexible space introduce entropy in the wrong places — not in the key material but in procedural adherence. Training key ceremony officers should therefore include Laban movement analysis to diagnose and correct risky behavioral signatures before they manifest as side-channel vulnerabilities.",
+    "mechanism_borrowed_from": "laban-effort",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Laban Effort Theory",
+    "source_b": "RSA Cryptosystem"
+  },
+  {
+    "name": "Thermohaline Circulation of Legal Precedent",
+    "core_claim": "The body of common law circulates through a thermohaline-like overturning system driven by two gradients: doctrinal density (the 'salinity' of how many precedents saturate a legal area) and judicial temperature (the intensity of political and social contestation). In cold, dense areas of settled law, doctrines sink into deep institutional memory where they circulate slowly for decades. In warm, politically charged areas, doctrines rise to the surface courts (Supreme Court, appellate review) where they are exposed to reinterpretation. The overturning circulation connects these zones: deep-sunken precedents are dredged up when warm controversies reach them, and freshly minted surface rulings slowly sink as they lose political salience. Disrupting one gradient — such as court-packing that heats all areas simultaneously — risks shutting down the entire circulation, producing legal stagnation analogous to thermohaline collapse.",
+    "mechanism_borrowed_from": "thermohaline-circulation",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Thermohaline Circulation",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Dose-Response Homiletics",
+    "core_claim": "The persuasive effect of a sermon or public moral exhortation follows a sigmoidal dose-response curve: below a threshold intensity, the message produces no behavioral change (sub-therapeutic dose); within a therapeutic window, increasing emotional and logical intensity yields proportional moral response; but beyond an upper threshold, the audience develops receptor downregulation — defensive psychological numbness that renders further exhortation not just ineffective but actively counterproductive, creating moral fatigue. The EC50 (half-maximal effective concentration) of a moral message is set by the audience's prior exposure history, explaining why prophetic traditions that alternate silence and speech outperform those that maintain constant exhortation. Preaching schedules should be designed like dosing regimens, with attention to clearance rates of moral urgency.",
+    "mechanism_borrowed_from": "dose-response",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Dose-Response Curve",
+    "source_b": "Covenant Theology"
+  },
+  {
+    "name": "Choreographic Counterpoint Theory of Parliamentary Debate",
+    "core_claim": "Effective parliamentary debate functions as choreographic counterpoint: each speaker is a dancer-trajectory in ideological space-time, and the quality of deliberation depends not on any single argument's force but on the spatial and rhythmic alignment and contrast between independent movement voices. When speakers merely echo each other (unison), the deliberation is informationally empty. When speakers oppose without structural relationship (noise), the deliberation fragments. The most productive sessions exhibit the parliamentary equivalent of invertible counterpoint — arguments that maintain coherence when their hierarchical positions are exchanged, allowing the minority position to illuminate the majority's blind spots and vice versa. Whips and procedural rules function as stage geometry constraints.",
+    "mechanism_borrowed_from": "choreographic-counterpoint",
+    "domain_applied_to": "rhetoric",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Choreographic Counterpoint",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Acoustic Impedance Theory of Pedagogical Transfer",
+    "core_claim": "Learning transfer between domains fails or succeeds based on impedance matching: each knowledge domain has a characteristic impedance determined by its abstraction density (analogous to medium density) and its procedural fluency demands (analogous to wave velocity). When a learner moves from one domain to another, the fraction of understanding that transmits across the boundary is governed by the impedance mismatch between the two domains. Maximum transfer occurs when impedances are matched — explaining why mathematics transfers well to physics (similar impedance) but poorly to literary criticism (massive mismatch). Effective pedagogy inserts impedance-matching layers (bridging analogies, worked examples in the target domain's idiom) that function like acoustic coupling gels, maximizing the transmitted energy fraction of prior knowledge.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Locard Exchange Theory of Psychotherapy",
+    "core_claim": "Every therapeutic encounter leaves bidirectional traces: the therapist deposits interpretive frameworks, coping strategies, and relational patterns into the client's psychological landscape, while the client deposits emotional residues, countertransference activations, and worldview perturbations into the therapist. This exchange is unavoidable and universal — there is no psychologically inert therapeutic contact. The forensic implications are that a therapist's accumulated client-traces form a detectable psychological fingerprint (vicarious traumatization patterns, shifted baseline assumptions), and that a client's post-therapy cognitive architecture always contains recoverable evidence of the therapeutic modality used, even years later. Supervision should therefore include systematic trace analysis of both directions.",
+    "mechanism_borrowed_from": "locard-exchange-principle",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Locard's Exchange Principle",
+    "source_b": "CBT Cognitive Model"
+  },
+  {
+    "name": "Bullwhip Effect in Liturgical Renewal",
+    "core_claim": "Liturgical reform in hierarchical religious institutions amplifies variance at each echelon of implementation, identical to the bullwhip effect in supply chains. A modest doctrinal signal from the central authority (e.g., Vatican II's 'noble simplicity') is interpreted with increasing variance by each downstream node — national bishops' conferences, diocesan liturgical offices, parish priests, volunteer music directors — until the on-the-ground implementation bears little resemblance to the original signal. Each echelon adds its own forecast error (what do they really mean?) and safety stock (better go further than intended to show compliance). The result is liturgical inventory oscillation: overcorrection followed by backlash, with period and amplitude increasing at greater distance from the source signal.",
+    "mechanism_borrowed_from": "bullwhip-effect",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Bullwhip Effect",
+    "source_b": "Trinitarian Doctrine"
+  },
+  {
+    "name": "Phyllotaxis of Market Stall Placement",
+    "core_claim": "Optimal vendor placement in circular or semi-circular market spaces follows phyllotactic packing: each new vendor should be placed at the position of least competitive inhibition from existing vendors, which converges on the golden angle (~137.5 degrees) of separation in the circular layout. This arrangement maximizes customer exposure per vendor while minimizing same-category clustering, just as leaf primordia maximize light capture. Markets that self-organize through first-come-first-served placement approximate this pattern because vendors intuitively avoid direct competitors, and the inhibitory field radius is set by customer walking tolerance. Deviations from the golden-angle pattern predict zones of vendor failure due to over-competition.",
+    "mechanism_borrowed_from": "phyllotaxis",
+    "domain_applied_to": "economics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Phyllotaxis",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Stratigraphic Superposition of Software Architecture",
+    "core_claim": "Legacy software systems accumulate architectural layers through a process identical to geological deposition: each era's dominant paradigm (structured programming, object-orientation, microservices, serverless) deposits a stratum of code, and the principle of superposition holds — deeper layers are older unless disturbed by refactoring events analogous to tectonic intrusions. The archaeological method of Harris matrix analysis can be applied to codebases: by mapping cutting relations (where newer code interrupts older layers), interfacial units (API boundaries), and depositional contexts (git blame epochs), engineers can reconstruct a site chronology of the system that reveals its true load-bearing strata versus superficial recent deposits, guiding modernization efforts toward the actual foundation layers.",
+    "mechanism_borrowed_from": "stratigraphy",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Stratigraphic Superposition",
+    "source_b": "P vs NP"
+  },
+  {
+    "name": "Minsky Instability Theory of Romantic Relationships",
+    "core_claim": "Long-term romantic relationships undergo Minsky-cycle dynamics: stability breeds risk-taking. In the hedge phase, partners invest conservatively in the relationship — honest communication, mutual accommodation, careful boundary maintenance. Success breeds confidence, shifting to the speculative phase where partners take on emotional debt (unspoken resentments, deferred difficult conversations) financed by the assumption that past stability guarantees future returns. Eventually the relationship enters Ponzi dynamics where maintaining the appearance of stability requires ever-increasing emotional leverage with no underlying asset of genuine intimacy. The Minsky moment arrives when a minor trigger reveals the structural hollowness, producing a collapse disproportionate to the proximate cause. Relationship therapy is most effective during the speculative phase, before Ponzi dynamics take hold.",
+    "mechanism_borrowed_from": "minsky-moment",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Minsky Financial Instability",
+    "source_b": "Attachment Theory"
+  },
+  {
+    "name": "Red Queen Hypothesis of Musical Genre Evolution",
+    "core_claim": "Musical genres and their audiences are locked in a Red Queen co-evolutionary arms race: artists must continuously mutate their sound to evade listener habituation (the parasite that drains attention), while listeners evolve increasingly sophisticated pattern-recognition that renders yesterday's novelty into today's cliche. Genres that reproduce sexually (collaborative cross-pollination between artists) maintain higher variation and resist habituation longer than genres dominated by a single auteur's clonal output. The rare-genotype advantage explains why obscure subgenres experience sudden popularity surges — audiences whose habituation-resistance has been eroded by mainstream exposure are uniquely susceptible to unfamiliar sonic genotypes.",
+    "mechanism_borrowed_from": "red-queen-hypothesis",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Red Queen Hypothesis",
+    "source_b": "Generative Theory of Tonal Music"
+  },
+  {
+    "name": "SLAM Navigation Theory of Ethnographic Fieldwork",
+    "core_claim": "Ethnographic fieldwork is a SLAM problem: the anthropologist must simultaneously localize themselves within a cultural landscape they do not yet understand (localization) while constructing a map of that landscape from noisy, partial observations (mapping). Each informant interview is a sensor reading with characteristic noise profiles (social desirability bias, translation error, deliberate misdirection). The ethnographer's evolving cultural model is the map, and their positionality (insider/outsider status, trust level, theoretical commitments) is the pose. Loop closure — the moment when independent lines of evidence converge to confirm a cultural pattern — is the critical event that collapses accumulated uncertainty. Ethnographies that fail are those where loop closure never occurs, leaving the pose-map joint distribution permanently uncertain.",
+    "mechanism_borrowed_from": "slam-robotics",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "SLAM (Simultaneous Localization and Mapping)",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Fourier Decomposition Theory of Moral Sentiments",
+    "core_claim": "Any complex moral intuition can be decomposed into a superposition of fundamental moral frequency components — harm, fairness, loyalty, authority, sanctity, liberty — each with characteristic amplitude and phase, analogous to Fourier decomposition of sound. Moral disagreements arise not from different fundamental frequencies (which are universal, like harmonics) but from different amplitude weightings and phase relationships between the components. A conservative moral intuition emphasizes the authority and sanctity harmonics at high amplitude; a progressive one boosts harm and fairness while attenuating authority. Moral persuasion works not by introducing new frequencies but by phase-shifting existing ones into constructive interference with the persuader's waveform. The bandwidth limitation of human moral cognition explains why attempts to reason about more than ~6 moral dimensions simultaneously produce aliasing artifacts — distorted moral judgments that are sampling errors, not genuine ethical positions.",
+    "mechanism_borrowed_from": "fourier-acoustics",
+    "domain_applied_to": "ethics",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Fourier Decomposition of Sound",
+    "source_b": "Trolley Problem / Doctrine of Double Effect"
+  },
+  {
+    "name": "Autocatalytic Set Theory of Startup Ecosystems",
+    "core_claim": "Startup ecosystems achieve self-sustaining growth only when they form an autocatalytic set: each type of entity (founders, investors, universities, acquirers, talent pools, service providers) catalyzes the production of at least one other type, and the set is collectively self-sustaining under catalytic closure. Silicon Valley is a mature autocatalytic set where every species catalyzes at least one other. Failed ecosystem-building efforts (government tech parks, artificial innovation districts) fail because they inject individual molecular species without achieving catalytic closure — they provide funding and lab space but lack the acquirer-to-serial-founder recycling catalyst or the university-to-spinoff reaction. The minimum viable ecosystem can be predicted by finding the smallest autocatalytically closed subset of the full reaction network.",
+    "mechanism_borrowed_from": "catalysis",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Autocatalytic Sets",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Demographic Transition Model of Language Death",
+    "core_claim": "Endangered languages die through a demographic transition: in Stage 1 (pre-contact), high rates of both language innovation (neologism, dialectal drift) and language loss (forgetting of archaic forms) maintain a stable linguistic population. In Stage 2 (early contact with a dominant language), loss of archaic forms accelerates while innovation continues, producing a net vocabulary expansion through borrowing. In Stage 3 (advanced shift), innovation collapses as young speakers switch to the dominant language, but loss accelerates — the language population crashes. In Stage 4 (post-shift), a tiny stable remnant of ceremonial or heritage speakers persists at low equilibrium. Intervention is most effective at the Stage 2-3 boundary, analogous to family planning programs being most effective during the demographic transition's inflection point. Once Stage 3 is well underway, revitalization requires the linguistic equivalent of pro-natalist policy: artificial incentive structures that reverse the natural adoption of the dominant language.",
+    "mechanism_borrowed_from": "demographic-transition-model",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Demographic Transition Model",
+    "source_b": "Universal Grammar"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Qubit Decoherence Selection in Fermentation Ecology",
+    "core_claim": "Just as environmental coupling preferentially destroys fragile quantum superpositions in a qubit system, the accumulating metabolic byproducts in a fermentation vessel preferentially eliminate microbial strains whose membrane configurations are least robust to the shifting chemical environment. Modeling strain death as a decoherence-like process -- where the 'off-diagonal' phenotypic diversity collapses under environmental entanglement -- predicts which fermentation cultures will converge to monoculture dominance versus maintain stable mixed communities, based on the rate at which environmental coupling outpaces microbial adaptation.",
+    "mechanism_borrowed_from": "qubit-decoherence-selection",
+    "domain_applied_to": "fermentation science",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Qubit Decoherence Selection",
+    "source_b": "Microbial Strain Competition"
+  },
+  {
+    "name": "Syntactic Prediction Gradient in Epidemiological Forecasting",
+    "core_claim": "The neurolinguistic mechanism by which the brain maintains competing syntactic parse trees and prunes them via surprisal-driven reanalysis maps onto how epidemiological models should handle competing transmission hypotheses during an emerging outbreak. Just as a garden-path sentence forces costly reanalysis when initial syntactic predictions fail, an epidemic surveillance system that commits too early to one transmission model (airborne vs. fomite vs. vector) incurs high 'reanalysis cost' when anomalous data forces model revision. Optimal outbreak response maintains multiple competing parse trees of transmission dynamics, pruning via Bayesian surprisal from incoming case data.",
+    "mechanism_borrowed_from": "syntactic-prediction-gradient",
+    "domain_applied_to": "epidemiology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Syntactic Prediction Gradient",
+    "source_b": "SEIR Epidemic Model"
+  },
+  {
+    "name": "Herd Immunity as Nash Equilibrium Collapse",
+    "core_claim": "The herd immunity threshold can be reframed as a Nash equilibrium problem: each individual's vaccination decision is a strategy in a population game where payoffs depend on others' choices. Below the critical immunization fraction, the 'free-ride on herd immunity' strategy is not yet available, so vaccination dominates. Above it, free-riding becomes rational, creating a game-theoretic trap where the population oscillates around the threshold. Applying Nash equilibrium analysis with heterogeneous risk preferences predicts the precise vaccination coverage shortfall better than classical SIR models that assume homogeneous rational agents.",
+    "mechanism_borrowed_from": "nash-equilibrium",
+    "domain_applied_to": "epidemiology",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Nash Equilibrium",
+    "source_b": "Herd Immunity Threshold"
+  },
+  {
+    "name": "Topological Error Correction for Architectural Load Paths",
+    "core_claim": "Quantum topological error correction encodes logical qubits across many physical qubits so that local errors can be detected and corrected without destroying the encoded information. Applying this mechanism to structural engineering: a building's load-bearing system can be designed so that the 'logical' structural integrity is distributed topologically across redundant members, such that any single-member failure produces a detectable 'syndrome' (strain gauge anomaly pattern) that identifies the failure location and triggers automated load redistribution -- without the overall structure losing capacity. The fault-tolerance threshold theorem maps to a minimum redundancy ratio below which progressive collapse cannot be arrested.",
+    "mechanism_borrowed_from": "error-correcting-code-topology",
+    "domain_applied_to": "architecture",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Topological Error Correction",
+    "source_b": "Load Path Redundancy Theory"
+  },
+  {
+    "name": "Sourdough Symbiosis Oscillation in Game-Theoretic Alliances",
+    "core_claim": "The stable mutualism between lactobacilli and yeast in sourdough starters -- maintained by cross-feeding, disrupted by environmental perturbation, and governed by oscillatory population dynamics -- models coalition dynamics in repeated multiplayer games. Each player (microbial species) produces byproducts that benefit alliance partners (cross-feeding), but environmental shocks (missed feedings / policy changes) can collapse the cooperative equilibrium. The sourdough model predicts that coalitions require a minimum 'feeding frequency' of reciprocal exchange to avoid population crash, and that temperature-like parameters (competitive pressure) determine which coalition architecture (homofermentative dominance vs. balanced symbiosis) prevails.",
+    "mechanism_borrowed_from": "sourdough-symbiosis-oscillation",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Sourdough Symbiosis Oscillation",
+    "source_b": "Coalition Fragmentation Cascade Theory"
+  },
+  {
+    "name": "Bilingual Inhibitory Control as Quantum Gate Selection",
+    "core_claim": "In neurolinguistics, bilingual speakers must continuously suppress their non-target language via executive control circuits. In quantum computing, gate compilation must select from a native gate set while suppressing non-native decompositions that would increase circuit depth. The bilingual inhibitory control mechanism -- where cognitive load degrades suppression and causes code-switching -- maps onto quantum compilation under noise: as error rates increase (analogous to cognitive fatigue), the compiler's ability to suppress suboptimal gate sequences degrades, producing 'code-switched' circuits that mix native and non-native operations. This framework predicts a fatigue threshold beyond which compilation quality collapses non-linearly.",
+    "mechanism_borrowed_from": "bilingual-inhibitory-control",
+    "domain_applied_to": "quantum computing",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Bilingual Inhibitory Control",
+    "source_b": "Quantum Circuit Compilation Pressure"
+  },
+  {
+    "name": "Terroir Microbiome Encoding of Architectural Identity",
+    "core_claim": "Just as terroir encodes regional flavor signatures through locally adapted microbial communities enriched by serial fermentation, buildings develop a 'material terroir' -- a site-specific patina, microbiome, and wear pattern that encodes the history of local climate, use patterns, and maintenance regimes into the building fabric. This encoding is not merely aesthetic; it carries functional information. Buildings whose materials develop site-adapted biofilms and weathering patterns show improved moisture management and surface durability compared to sterile replacements, analogous to how terroir-encoded fermentation communities outperform laboratory monocultures in flavor complexity and contamination resistance.",
+    "mechanism_borrowed_from": "terroir-microbiome-encoding",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Terroir Microbiome Encoding",
+    "source_b": "Material Decay Succession Theory"
+  },
+  {
+    "name": "Attention Allocation Games in Neurolinguistic Processing",
+    "core_claim": "Game theory's attention allocation framework -- where players distribute finite cognitive attention across simultaneous strategic interactions -- directly models how the brain allocates processing resources across concurrent linguistic tasks (reading while listening, simultaneous translation, monitoring multiple conversations). The model predicts that linguistic tasks with higher 'payoff volatility' (ambiguous syntax, unfamiliar accents) command disproportionate attention, creating neglect-induced errors in concurrent lower-volatility tasks. This explains why simultaneous interpreters make more lexical errors during syntactically complex passages: attention is reallocated to the higher-variance syntactic game.",
+    "mechanism_borrowed_from": "attention-allocation-games",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Attention Allocation Game Theory",
+    "source_b": "Neural Lexical Competition"
+  },
+  {
+    "name": "Epidemic Wavefront Resonance in Quantum Annealing",
+    "core_claim": "The spatial propagation of epidemic wavefronts -- which amplify when encountering susceptible population clusters and attenuate against immune barriers -- structurally mirrors how quantum annealing explores energy landscapes. The 'susceptible population' maps to low-energy configuration basins, and 'immune barriers' map to high-energy ridges. Wavefront resonance theory predicts that annealing schedules mimicking epidemic wavefront dynamics (variable-speed propagation that accelerates through 'susceptible' regions of configuration space and slows at barriers) will find ground states faster than uniform annealing schedules, particularly for problems with clustered solution structure.",
+    "mechanism_borrowed_from": "epidemic-wavefront-resonance",
+    "domain_applied_to": "quantum computing",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Epidemic Wavefront Resonance Theory",
+    "source_b": "Quantum Annealing Energy Landscape"
+  },
+  {
+    "name": "Koji Enzyme Cascade Logic for Circuit Compilation",
+    "core_claim": "In koji fermentation, Aspergillus secretes a cascade of enzymes (amylases, proteases, lipases) that break down complex substrates in a specific hierarchical order determined by enzyme-substrate affinity. Quantum circuit compilation faces an analogous problem: complex unitary operations must be decomposed into sequences of native gates in an order determined by 'affinity' (how naturally a sub-operation maps to hardware). The koji cascade model suggests a compilation strategy where the highest-affinity decompositions are applied first (like amylase attacking starch), with subsequent passes handling progressively harder sub-circuits -- and predicts that this greedy hierarchical approach outperforms global optimization for circuits beyond a critical depth.",
+    "mechanism_borrowed_from": "koji-enzyme-cascade",
+    "domain_applied_to": "quantum computing",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Koji Enzyme Cascade",
+    "source_b": "Quantum Circuit Compilation Pressure"
+  },
+  {
+    "name": "Prosodic Boundary Encoding in Architectural Wayfinding",
+    "core_claim": "Speakers encode syntactic structure through prosodic boundaries -- pitch resets, pauses, and syllable lengthening that chunk continuous speech into parseable units. Buildings can encode circulation hierarchy through analogous 'architectural prosody': ceiling height changes, material transitions, and spatial compressions at corridor junctions serve as boundary markers that chunk continuous movement paths into cognitively parseable segments. Buildings designed with explicit prosodic boundary markers at syntactic joints (where circulation hierarchy changes) show measurably better wayfinding performance than buildings that rely solely on signage, because users parse the spatial structure using the same boundary-detection mechanisms they use for language.",
+    "mechanism_borrowed_from": "prosodic-boundary-encoding",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Prosodic Boundary Encoding",
+    "source_b": "Circulation Hierarchy Emergence Theory"
+  },
+  {
+    "name": "Commitment Erosion Dynamics in Fermentation Process Control",
+    "core_claim": "In game theory, commitment devices erode as players test the rigidity of binding agreements over successive rounds. In industrial fermentation, process control setpoints (temperature, pH, dissolved oxygen) function as 'commitments' that the microbial community tests over successive generations. Rigid setpoints attract stable microbial cooperation but cannot adapt to drift in culture composition; flexible setpoints enable adaptation but invite opportunistic strain takeover. The commitment erosion model predicts an optimal setpoint adjustment frequency for each fermentation stage -- rigid during exponential growth (when cooperation is critical) and increasingly flexible during stationary phase (when adaptation matters more).",
+    "mechanism_borrowed_from": "commitment-erosion-dynamics",
+    "domain_applied_to": "fermentation science",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Commitment Erosion Dynamics",
+    "source_b": "pH Buffering Equilibrium in Fermentation"
+  },
+  {
+    "name": "Quantum Measurement Backaction as Neurolinguistic Priming",
+    "core_claim": "In quantum computing, measuring a qubit collapses its state and reshapes the probability landscape for subsequent measurements -- a phenomenon called measurement backaction. In neurolinguistic processing, encountering a word 'measures' the semantic network, collapsing the activation pattern and reshaping the probability landscape for subsequent word recognition. The backaction framework predicts that the order in which words are processed creates irreversible information-theoretic consequences: encountering 'bank' before 'river' versus 'money' before 'bank' produces measurably different residual activation patterns that cannot be reversed by subsequent context, just as quantum measurement sequences are non-commutative.",
+    "mechanism_borrowed_from": "quantum-measurement-backaction",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Measurement Backaction Feedback",
+    "source_b": "Semantic Spreading Activation"
+  },
+  {
+    "name": "Superspreader Topology for Architectural Ventilation Design",
+    "core_claim": "Epidemiological superspreader topology theory shows that heavy-tailed contact distributions produce outsized transmission from a few high-contact nodes. Applying this to building ventilation: airflow networks have their own 'superspreader' zones -- spaces where recirculated air from many zones converges before redistribution. These HVAC superspreader nodes amplify contaminant transmission disproportionately relative to their volume. Designing ventilation networks with superspreader topology analysis -- identifying and filtering at high-centrality air-mixing nodes rather than uniformly across all zones -- achieves equivalent pathogen reduction at 40-60% lower energy cost compared to uniform filtration strategies.",
+    "mechanism_borrowed_from": "superspreader-topology-theory",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Superspreader Topology Theory",
+    "source_b": "Acoustic Resonance Compartmentalization Theory"
+  },
+  {
+    "name": "Neural Oscillatory Binding for Distributed Quantum Error Correction",
+    "core_claim": "In neurolinguistics, gamma-band oscillatory synchronization binds distributed cortical representations into unified percepts -- only phase-locked neural assemblies contribute to coherent processing. In distributed quantum computing, physically separated qubit modules must be bound into coherent logical operations across a network. The oscillatory binding model suggests that periodic entanglement-refresh pulses at a characteristic 'binding frequency' -- analogous to gamma oscillations -- can maintain cross-module coherence more efficiently than continuous entanglement. The model predicts an optimal binding frequency that trades off entanglement fidelity against communication overhead, analogous to how neural binding frequency is constrained by conduction delays.",
+    "mechanism_borrowed_from": "neural-oscillatory-binding",
+    "domain_applied_to": "quantum computing",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Neural Oscillatory Binding for Language",
+    "source_b": "Entanglement Distribution Network"
+  }
+]

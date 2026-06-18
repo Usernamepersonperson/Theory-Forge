@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Nash Equilibrium Soil Horizon Theory",
+    "core_claim": "Soil horizons stabilize at depths where no single weathering process (chemical dissolution, frost heaving, root penetration, bioturbation) can unilaterally shift the horizon boundary without triggering compensating responses from the others. Each horizon represents a Nash equilibrium of competing pedogenic agents: clay illuviation, organic matter accumulation, and mineral weathering reach mutual best-response configurations under the local climate regime. Disturbing one process (e.g., deforestation removing root penetration) destabilizes the equilibrium and causes horizon boundaries to migrate until a new Nash state is reached, often on decadal timescales.",
+    "mechanism_borrowed_from": "nash-equilibrium",
+    "domain_applied_to": "pedology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Nash Equilibrium",
+    "source_b": "Jenny's Factors of Soil Formation"
+  },
+  {
+    "name": "Kolmogorov Complexity of Alloy Microstructure",
+    "core_claim": "The mechanical properties of a metallic alloy can be predicted from the Kolmogorov complexity of its microstructural description: alloys whose grain boundary networks, precipitate distributions, and dislocation densities admit short algorithmic descriptions (high regularity) exhibit predictable, isotropic mechanical response, while alloys with incompressible microstructural descriptions exhibit anomalous, direction-dependent failure modes. Heat treatment protocols function as program transformations that reduce or increase the description length of the resulting microstructure, and optimal tempering schedules are those that navigate the alloy toward a target complexity band.",
+    "mechanism_borrowed_from": "kolmogorov-complexity",
+    "domain_applied_to": "materials science",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Kolmogorov Complexity",
+    "source_b": "Dislocation Theory"
+  },
+  {
+    "name": "Small-World Fracture Network Theory",
+    "core_claim": "Crack propagation in brittle building materials follows small-world network dynamics: micro-cracks form a locally clustered lattice, but rare long-range fractures (analogous to random rewiring) create shortcuts that dramatically reduce the path length between distant damage sites. Structural failure occurs not when total crack density reaches a threshold but when the crack network's average path length drops below a critical value, enabling stress cascades to traverse the structure in far fewer steps than the lattice geometry would predict. Inspection protocols should therefore prioritize detecting long-range cracks over measuring total crack density.",
+    "mechanism_borrowed_from": "small-world",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Small-World Networks",
+    "source_b": "Load Path Analysis"
+  },
+  {
+    "name": "Bayesian Soil Contamination Inference",
+    "core_claim": "Soil remediation decision-making can be formalized as Bayesian updating over a hypothesis space of contamination plume geometries. Each new borehole sample serves as evidence that updates the posterior probability distribution over plume extent, concentration gradients, and migration direction. The optimal sampling strategy is the one that maximizes expected information gain per borehole dollar, and remediation should commence not when contamination is confirmed but when the posterior probability of exceeding regulatory thresholds crosses a decision-theoretic cost boundary.",
+    "mechanism_borrowed_from": "bayes",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Bayesian Updating",
+    "source_b": "Soil Food Web"
+  },
+  {
+    "name": "PageRank Ventilation Theory",
+    "core_claim": "Indoor air quality in complex buildings can be modeled by applying PageRank to the room-connectivity graph where directed edges represent airflow paths weighted by volumetric flow rate. Rooms with high PageRank scores accumulate pollutants because they are downstream recipients of air from many upstream zones, analogous to web pages receiving many inbound links. The damping factor maps to air exchange rate with the exterior. HVAC optimization should target not the most polluted rooms but the highest-PageRank rooms, because interventions there propagate benefits through the network's stationary distribution.",
+    "mechanism_borrowed_from": "pagerank",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "PageRank",
+    "source_b": "Pattern Language (Alexander)"
+  },
+  {
+    "name": "Shannon Entropy Weathering Index",
+    "core_claim": "The degree of rock weathering at a geological surface can be quantified as the Shannon entropy of its mineral grain size distribution. Fresh unweathered rock has low entropy (dominated by few crystal size classes), while deeply weathered rock approaches maximum entropy as diverse chemical and mechanical processes fragment grains into a uniform distribution across size classes. This entropy measure provides a single scalar index that integrates all weathering processes without requiring identification of individual mechanisms, and its rate of increase with depth follows channel-capacity-like bounds set by local climate and lithology.",
+    "mechanism_borrowed_from": "shannon-entropy",
+    "domain_applied_to": "geology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Information Entropy",
+    "source_b": "Plate Tectonics"
+  },
+  {
+    "name": "Prisoner's Dilemma of Alloying Elements",
+    "core_claim": "Interstitial and substitutional alloying elements in a metal matrix face an iterated prisoner's dilemma at grain boundaries: each element can either segregate to the boundary (defect, locally strengthening itself but embrittling the bulk) or remain dissolved in the matrix (cooperate, contributing to overall ductility). In multi-element alloys, cooperative equilibria emerge when elements that segregate are punished by reduced solubility in subsequent thermal cycles, while elements that remain dissolved are rewarded with stable bonding environments. Alloy design is thus an exercise in engineering payoff matrices that make grain boundary cooperation the dominant strategy.",
+    "mechanism_borrowed_from": "prisoners-dilemma",
+    "domain_applied_to": "metallurgy",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Iterated Prisoner's Dilemma",
+    "source_b": "Dislocation Theory"
+  },
+  {
+    "name": "Graph Coloring Crop Rotation Theory",
+    "core_claim": "Optimal crop rotation on a spatially heterogeneous farm can be solved as a graph coloring problem where each field-season pair is a vertex, adjacency encodes spatial proximity and temporal succession, and colors represent crop families. The chromatic number of this graph gives the minimum number of crop families needed to satisfy all pest-break and nutrient-cycling constraints simultaneously. Fields sharing irrigation or drainage edges impose additional coloring constraints that standard rotation calendars miss, and the four-color theorem guarantees that planar field arrangements always admit solutions with at most four crop families.",
+    "mechanism_borrowed_from": "graph-coloring",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Graph Coloring (Chromatic Number)",
+    "source_b": "Soil Food Web"
+  },
+  {
+    "name": "Maximum Entropy Cloud Formation Theory",
+    "core_claim": "Cloud type distributions in a given air mass settle on the maximum entropy configuration consistent with the thermodynamic constraints of available moisture, convective available potential energy, and wind shear. Among all possible cloud morphology distributions compatible with the observed sounding data, the atmosphere selects the one that maximizes the Shannon entropy of cloud-type frequencies. This explains why satellite imagery rarely shows single cloud types dominating a mesoscale region and why ensemble weather models that impose maximum entropy priors on cloud parameterizations outperform those using deterministic schemes.",
+    "mechanism_borrowed_from": "max-entropy-inference",
+    "domain_applied_to": "meteorology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Maximum Entropy Inference",
+    "source_b": "Climate Feedback Loops"
+  },
+  {
+    "name": "Preferential Attachment Corrosion Theory",
+    "core_claim": "Pitting corrosion on metal surfaces follows preferential attachment dynamics: existing pits that are already large attract disproportionately more corrosive ions due to their deeper electrochemical gradients, growing faster than smaller pits in a rich-get-richer feedback loop. The resulting pit size distribution follows a power law, and the largest pit at any time can be predicted from the total pit population and the attachment exponent. Protective coating strategies should therefore focus on preventing the first few pits from reaching critical depth rather than uniformly reducing corrosion rate, because once preferential attachment takes hold, the distribution becomes dominated by extremes.",
+    "mechanism_borrowed_from": "preferential-attachment",
+    "domain_applied_to": "metallurgy",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Preferential Attachment",
+    "source_b": "Dislocation Theory"
+  },
+  {
+    "name": "Minimum Description Length Foundation Design",
+    "core_claim": "Optimal structural foundation design for a building on heterogeneous soil minimizes the total description length of the soil-structure interaction model: overly simple foundations (shallow footings on variable soil) require long descriptions of the resulting differential settlement patterns, while overly complex foundations (deep piles everywhere) require long descriptions of the foundation itself. The MDL-optimal foundation is the simplest structure whose interaction with the soil produces compressible (predictable) settlement behavior. This reframes geotechnical engineering as a model selection problem where the foundation is the model and settlement is the data.",
+    "mechanism_borrowed_from": "minimum-description-length",
+    "domain_applied_to": "architecture",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Minimum Description Length",
+    "source_b": "Form-Finding (Hanging Chain Principle)"
+  },
+  {
+    "name": "Channel Capacity of Soil Nutrient Signaling",
+    "core_claim": "The mycorrhizal network connecting plant roots through soil fungi operates as a noisy communication channel whose Shannon capacity is bounded by the chemical signal-to-noise ratio in the soil solution. The maximum rate at which plants can reliably exchange resource-status information through common mycorrhizal networks is C = B * log2(1 + S/N), where B is the bandwidth of distinct signaling molecules, S is the signal molecule concentration, and N is the background concentration of identical molecules from non-signaling sources. This capacity limit explains why mycorrhizal networks transfer resources effectively only in low-nutrient (low-noise) soils and why fertilization disrupts cooperative exchange.",
+    "mechanism_borrowed_from": "channel-capacity-shannon",
+    "domain_applied_to": "soil science",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Shannon Channel Capacity",
+    "source_b": "Mycelial Resource Routing"
+  },
+  {
+    "name": "Adjoint Functor Thermal Bridging Theory",
+    "core_claim": "The relationship between a building's geometric design space and its thermal performance space forms an adjoint functor pair: the left adjoint maps geometric configurations to their thermal consequence profiles (heat flow patterns), while the right adjoint maps desired thermal performance targets back to the most general geometric configurations that achieve them. The natural bijection between these hom-sets reveals that every thermal performance specification has a universal geometric solution, and that architectural thermal design can be understood as finding the free object in the category of thermally constrained geometries. This formalizes the intuition that form and thermal performance are not independent design variables but are linked by a precise categorical correspondence.",
+    "mechanism_borrowed_from": "adjoint-functors",
+    "domain_applied_to": "architecture",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Adjoint Functors",
+    "source_b": "Form-Finding (Hanging Chain Principle)"
+  },
+  {
+    "name": "Queueing Theory of Atmospheric Precipitation",
+    "core_claim": "Cloud droplet coalescence and precipitation onset can be modeled as an M/M/1 queueing system where water vapor molecules are arriving jobs, condensation nuclei are servers, and precipitation occurs when the queue length (supersaturation) exceeds a critical threshold analogous to queue instability when arrival rate exceeds service rate. The average wait time before precipitation maps to the delay between moisture advection and rainfall onset, and Little's Law predicts the steady-state atmospheric water content from the arrival rate and mean residence time. This framework explains why light drizzle (stable queue near capacity) and convective downpours (queue blowup) are qualitatively different regimes separated by a sharp utilization threshold.",
+    "mechanism_borrowed_from": "queueing-theory",
+    "domain_applied_to": "meteorology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Queueing Theory (M/M/1)",
+    "source_b": "Climate Feedback Loops"
+  },
+  {
+    "name": "Structural Holes in Soil Pore Networks",
+    "core_claim": "Soil fertility hotspots correspond to structural holes in the soil pore network: locations where otherwise disconnected pore clusters are bridged by a single macropore or root channel. These broker pores control the flow of water, dissolved nutrients, and microbial colonizers between isolated microsites, analogous to Burt's network brokers gaining information advantages by bridging disconnected social clusters. Soil organisms that colonize structural-hole pores gain disproportionate access to diverse nutrient streams and become keystone species for local biogeochemical cycling. Tillage practices that destroy macropore bridges eliminate these structural holes and homogenize the pore network, paradoxically reducing nutrient cycling efficiency despite increasing total porosity.",
+    "mechanism_borrowed_from": "structural-holes",
+    "domain_applied_to": "soil science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Structural Holes (Burt)",
+    "source_b": "Soil Food Web"
+  }
+]

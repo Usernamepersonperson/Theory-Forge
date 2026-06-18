@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Decoherence Theory of Institutional Legitimacy",
+    "core_claim": "Institutions lose legitimacy through a process structurally identical to quantum decoherence: entanglement with an expanding environment of stakeholders, media, and competing narratives causes the 'off-diagonal' elements of public trust — the coherent superpositions of meaning that allow an institution to simultaneously represent multiple values — to decay exponentially. The institution does not collapse through a single crisis but through progressive loss of its ability to mean different things to different constituencies simultaneously, until it becomes a classical object with a single, contestable identity.",
+    "mechanism_borrowed_from": "decoherence",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Quantum Decoherence",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Taphonomic Selection Theory of Historical Memory",
+    "core_claim": "Collective memory is not shaped primarily by the importance of events but by taphonomic selection — the differential preservation of evidence based on material and institutional 'sediment chemistry.' Events that occurred in contexts with robust recording media, institutional archivists, and stable political strata fossilize into the historical record; equally significant events in volatile or orally-mediated contexts decompose without trace. The historical canon is therefore a biased fossil assemblage, not a representative sample, and its apparent patterns reflect preservation filters as much as actual event distributions.",
+    "mechanism_borrowed_from": "taphonomy",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Taphonomy",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Turbulent Cascade Theory of Organizational Conflict",
+    "core_claim": "Conflicts in large organizations follow a Kolmogorov-style energy cascade: strategic disagreements at the executive level inject kinetic energy at large scales, which then cascades through management layers into progressively smaller eddies of interpersonal friction, passive-aggressive email, and micro-territorial disputes, until it dissipates as emotional exhaustion at the individual level. The -5/3 spectral slope predicts that mid-management bears disproportionate turbulent stress, and that suppressing large-scale conflict does not eliminate dissipation but merely shifts the injection scale downward.",
+    "mechanism_borrowed_from": "turbulence-cascade",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Turbulent Energy Cascade",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Adjoint Functor Theory of Translation",
+    "core_claim": "Translation between languages is not a mapping but an adjunction: the translation functor F from language A to language B and the back-translation functor G form an adjoint pair where perfect round-trip fidelity is impossible, but a natural bijection exists between the 'home-language interpretations of foreign expressions' and the 'foreign-language approximations of home concepts.' The untranslatable residue is precisely the failure of the adjunction to be an equivalence, and its structure reveals deep asymmetries in conceptual topology between languages.",
+    "mechanism_borrowed_from": "adjoint-functors",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Adjoint Functors",
+    "source_b": "Linguistic Relativity"
+  },
+  {
+    "name": "Magma Chamber Theory of Revolutionary Movements",
+    "core_claim": "Social revolutions follow magma chamber dynamics: grievances accumulate as slow recharge into a crustal reservoir of collective discontent, crystallization of moderate reforms reduces the volatile fraction, and eruption occurs only when the internal pressure of unaddressed demands exceeds the lithostatic threshold set by state repressive capacity. The eruption style — effusive reform vs. explosive revolution — is determined by the volatile content (ideological radicalism) and the viscosity (social cohesion) of the accumulated discontent, not by any single triggering event.",
+    "mechanism_borrowed_from": "magma-chamber-dynamics",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Magma Chamber Dynamics",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Quasispecies Theory of Legal Doctrine",
+    "core_claim": "Legal doctrines persist not as single canonical interpretations but as quasispecies clouds — distributions of slightly variant readings maintained by the high mutation rate of case-by-case application. Selection acts on the cloud's mean fitness, not on any individual interpretation, explaining why doctrines survive despite internally contradictory precedents. An error threshold exists: when the rate of interpretive mutation (driven by judicial creativity, novel fact patterns, or ideological diversity on courts) exceeds the inverse of the doctrine's logical complexity, the doctrine undergoes an error catastrophe and fragments into incoherent sub-doctrines.",
+    "mechanism_borrowed_from": "quasispecies-theory",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Quasispecies Theory (Eigen)",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Morphogen Gradient Theory of Urban Gentrification",
+    "core_claim": "Gentrification propagates through urban space as a morphogen gradient: a source neighborhood (the artsy district, the tech campus) emits a diffusing signal of rising property values and cultural capital, and surrounding neighborhoods interpret threshold concentrations as fate instructions — below one threshold they remain unchanged, above another they fully differentiate into luxury residential, and in the intermediate zone they adopt a mixed transitional phenotype. Displacement of existing populations is the developmental apoptosis of this urban morphogenesis.",
+    "mechanism_borrowed_from": "morphogen-gradient",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Morphogen Gradient (Turing-Wolpert)",
+    "source_b": "Induced Demand (Braess Paradox)"
+  },
+  {
+    "name": "Zero-Knowledge Proof Theory of Mystical Authority",
+    "core_claim": "Mystics and spiritual teachers establish authority through a mechanism structurally identical to zero-knowledge proofs: they must convince a community (the verifier) that they possess genuine spiritual knowledge (the witness) without revealing the content of that knowledge, since revelation would either destroy its numinous power or enable forgery. The 'random challenges' are the community's tests — koans, trials, behavioral demands — and soundness holds only as long as the computational asymmetry between genuine attainment and mere performance is maintained.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Fanā' (Sufi Annihilation)"
+  },
+  {
+    "name": "Circadian Oscillator Theory of Creative Disciplines",
+    "core_claim": "Creative fields undergo endogenous oscillations between formalism and expressionism driven by a negative feedback loop structurally identical to the circadian TTFL: the products of one aesthetic regime (formalist works) accumulate until they inhibit their own production (audience fatigue with constraint), activating the opposing regime (expressionism), whose products similarly accumulate and self-inhibit. The period of this oscillation (~20-40 years in most art forms) is determined by the transcription-translation delay analog: the time required for a generation trained under one paradigm to assume institutional gatekeeping positions.",
+    "mechanism_borrowed_from": "circadian-oscillator",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Circadian Clock (TTFL Model)",
+    "source_b": "Kantian Aesthetic Judgment"
+  },
+  {
+    "name": "Photonic Bandgap Theory of Ideological Censorship",
+    "core_claim": "Ideological systems function as photonic crystals for discourse: the periodic structure of institutionalized beliefs creates bandgaps — frequency ranges of ideas that cannot propagate through the medium regardless of their amplitude. Ideas with wavelengths matching the forbidden band are destructively interfered with by the periodic structure of doctrine, catechism, and social reinforcement. Subversive ideas succeed only at frequencies outside the bandgap (reframing) or by introducing defects in the periodic structure (heretics within the institution who break the symmetry).",
+    "mechanism_borrowed_from": "photonic-bandgap",
+    "domain_applied_to": "philosophy of science",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Photonic Bandgap",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Dislocation Theory of Social Mobility",
+    "core_claim": "Social stratification resists rearrangement not because individuals lack merit but because social structures, like crystal lattices, deform through the motion of line defects rather than through bulk displacement. Social mobility occurs primarily at dislocations — localized disruptions in the class lattice (new industries, immigrant enclaves, institutional scholarships) — that glide along slip planes under applied stress (economic growth, policy pressure). The Peierls barrier analog explains why mobility requires a threshold level of societal stress before any movement occurs, and why some social structures (high-symmetry meritocracies) permit easier dislocation glide than others (low-symmetry caste systems).",
+    "mechanism_borrowed_from": "dislocations",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Dislocation Theory",
+    "source_b": "Bourdieu's Field Theory"
+  },
+  {
+    "name": "Hormetic Theory of Democratic Stress",
+    "core_claim": "Democracies exhibit a hormetic dose-response to political crisis: low-dose stressors (contested elections, moderate protest, judicial challenges) trigger adaptive institutional responses that strengthen democratic resilience, but high-dose stressors (coups, civil war, hyperinflation) overwhelm adaptive capacity and cause democratic collapse. The narrow dose window explains the paradox that democracies which have never been tested are more fragile than those that have survived moderate crises, and why deliberately shielding democracies from all stress produces institutional atrophy indistinguishable from the damage caused by excessive stress.",
+    "mechanism_borrowed_from": "hormesis",
+    "domain_applied_to": "moral philosophy",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Hormesis",
+    "source_b": "Rawlsian Veil of Ignorance"
+  },
+  {
+    "name": "Laban Effort Theory of Monetary Policy",
+    "core_claim": "Central bank communications and rate decisions are best analyzed not by their magnitude alone but through a Laban effort framework: the Weight (dovish vs hawkish intensity), Time (gradual vs sudden), Space (targeted vs broad), and Flow (bound commitment vs free flexibility) of policy actions compose an expressive vocabulary that markets read as choreography. Policy missteps occur not from wrong rates but from incoherent effort combinations — a sudden move with tentative language, or a broad tool with narrow framing — that produce the monetary equivalent of an awkward, unreadable gesture.",
+    "mechanism_borrowed_from": "laban-effort",
+    "domain_applied_to": "macroeconomics",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Laban Effort Theory",
+    "source_b": "Central Bank Reaction Function"
+  },
+  {
+    "name": "Locard Exchange Theory of Pedagogy",
+    "core_claim": "Every pedagogical contact leaves a bidirectional trace: the teacher deposits conceptual fragments in the student and simultaneously absorbs the student's naive models, misconceptions, and fresh perspectives. Teaching therefore contaminates the expert's knowledge structure with the novice's framing over time, explaining both why veteran teachers develop superior intuition for student confusion and why they progressively lose access to their own original learning trajectory. The forensic implication: the quality of any educational encounter can be assessed by examining the traces left in both directions, not just the student's test scores.",
+    "mechanism_borrowed_from": "locard-exchange-principle",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Locard's Exchange Principle",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Galois Theory of Organizational Solvability",
+    "core_claim": "Whether an organization can solve a given class of problems is determined by the symmetry group of its decision-making structure, exactly as the solvability of a polynomial is determined by its Galois group. Organizations with commutative (flat, consensus-based) decision structures can solve problems whose solution space has abelian symmetry, but problems requiring non-abelian coordination (where the order of decisions matters irreversibly) demand hierarchical structures whose internal group is non-commutative. The impossibility of solving quintics by radicals has a direct organizational analog: some problems are provably unsolvable by any organization whose authority structure lacks sufficient non-commutativity.",
+    "mechanism_borrowed_from": "galois-theory",
+    "domain_applied_to": "business strategy",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Galois Theory",
+    "source_b": "Blue Ocean Strategy"
+  }
+]

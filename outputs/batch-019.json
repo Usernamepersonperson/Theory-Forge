@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Prosodic Boundary Economics",
+    "core_claim": "Financial markets encode structural information through temporal clustering patterns — brief pauses in trading volume, sudden shifts in bid-ask spread, and lengthening of inter-trade intervals — that function identically to prosodic boundaries in speech. Traders unconsciously parse these 'market prosody' cues to segment continuous price streams into meaningful phrases. Algorithmic systems that detect prosodic-boundary-like signals in order flow data should outperform those relying solely on price level, because the boundary signal reveals the syntactic structure of institutional intent before the semantic content (price movement) manifests.",
+    "mechanism_borrowed_from": "prosodic-boundary-encoding",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Prosodic Boundary Encoding",
+    "source_b": "Market Microstructure"
+  },
+  {
+    "name": "Morphogen Gradient Jurisprudence",
+    "core_claim": "Legal norms diffuse from legislative sources through institutional tissue in a gradient pattern, where courts and agencies at varying institutional distances interpret the same statute with predictable threshold effects. Just as cells adopt different fates based on morphogen concentration, jurisdictions at different 'distances' from the legislative source adopt qualitatively different interpretive regimes. The predictability of judicial outcomes is governed not primarily by textual clarity but by institutional position within the diffusion field, and doctrinal confusion arises when the gradient is disrupted by conflicting sources — producing legal teratomas analogous to developmental defects from crossed morphogen gradients.",
+    "mechanism_borrowed_from": "morphogen-gradient",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Morphogen Gradient (Turing-Wolpert)",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Sourdough Symbiosis Model of Bipartisan Governance",
+    "core_claim": "Stable two-party political systems function as mutualistic fermentation cultures where each faction produces metabolic byproducts (policy positions, voter mobilization, institutional norms) that the other requires for survival. Like sourdough starters, the system requires periodic 'feeding' through electoral cycles at the correct frequency — too infrequent and the culture crashes through extremism, too frequent and neither faction can complete its metabolic cycle. The optimal partisan ratio is self-correcting through cross-feeding dynamics, not through ideological convergence, and attempts to eliminate one faction destabilize the entire culture rather than purifying it.",
+    "mechanism_borrowed_from": "sourdough-symbiosis-oscillation",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Sourdough Symbiosis Oscillation",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Quasispecies Theory of Startup Ecosystems",
+    "core_claim": "Startup ecosystems function as quasispecies: the unit of competitive selection is not the individual company but the mutant cloud of related ventures exploring adjacent business models simultaneously. An ecosystem's fitness is determined by the mean viability of this swarm, not by any single firm's performance. There exists an 'error threshold' in startup pivoting: when the rate of business model mutation exceeds the inverse of the ecosystem's complexity, the swarm loses coherence and dissolves into random noise. Successful venture capital implicitly manages mutation rate to stay just below this threshold, maximizing exploration without crossing into incoherence.",
+    "mechanism_borrowed_from": "quasispecies-theory",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Quasispecies Theory (Eigen)",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Bragg Diffraction Theory of Cultural Resonance",
+    "core_claim": "Cultural products (songs, slogans, memes) achieve viral resonance only when their structural periodicity matches the spacing of pre-existing cognitive lattice planes in the target audience. Just as X-rays produce sharp diffraction peaks only at angles satisfying Bragg's condition, cultural messages produce sharp engagement peaks only when their repetitive structure (meter, hook, visual rhythm) achieves constructive interference with the audience's internalized cultural period. This explains why nearly identical messages achieve wildly different penetration: the effective 'angle of incidence' — the framing context — determines whether interference is constructive or destructive.",
+    "mechanism_borrowed_from": "bragg-diffraction",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Bragg Diffraction",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Galois Solvability of Organizational Hierarchy",
+    "core_claim": "The restructurability of an organization — whether it can be decomposed into simpler, manageable sub-units through a sequence of rational reorganizations — maps onto Galois solvability. Organizations whose internal authority symmetry group is solvable (decomposable into abelian layers) can be restructured incrementally through nested delegation. Organizations whose symmetry group is non-solvable (containing irreducible interdependencies analogous to A5) resist piecemeal reform and can only be transformed through wholesale replacement — explaining why certain institutional reforms inevitably fail when attempted gradually.",
+    "mechanism_borrowed_from": "galois-theory",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Galois Theory",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Taphonomic Bias Theory of Historical Memory",
+    "core_claim": "Collective memory of historical events is governed by preservation biases identical in structure to fossil taphonomy: only events embedded in favorable 'sedimentary' conditions (institutional recording, material culture, emotional salience) survive into the historical record, and the processes of decay, compression, and mineralization systematically distort what persists. The historical record is not a sample of the past but a taphonomic residue shaped by the chemistry of cultural preservation. Historiographic correction requires identifying the specific 'diagenetic' processes — political rewriting, archival neglect, medium decay — that have sculpted what appears to be evidence.",
+    "mechanism_borrowed_from": "taphonomy",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Taphonomy",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Circadian Oscillator Model of Creative Output",
+    "core_claim": "Sustained creative productivity in individuals and teams follows a transcription-translation feedback loop architecture: a period of uninhibited idea generation (transcription) produces raw material that accumulates until it triggers a negative feedback phase of critical editing and refinement (translation/degradation), which suppresses further generation until the critical product decays, re-enabling the generative phase. The period of this oscillation is individually tuned and disrupting it — by demanding constant generation or constant refinement — destroys output quality. Optimal creative management requires identifying and respecting each creator's endogenous oscillation period rather than imposing external schedules.",
+    "mechanism_borrowed_from": "circadian-oscillator",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Circadian Clock (TTFL Model)",
+    "source_b": "Kantian Aesthetic Judgment"
+  },
+  {
+    "name": "Acoustic Impedance Theory of Cross-Cultural Communication",
+    "core_claim": "Information transfer between cultural communities fails not primarily because of content differences but because of impedance mismatch — the structural properties of how each culture packages and processes information (speed, density, emotional loading, implicit vs explicit coding) differ enough to cause most communicative energy to reflect rather than transmit at the interface. Effective cross-cultural mediators function as impedance-matching transformers: they do not translate content but restructure the wave characteristics of the message to match the receiving medium. Maximum information transfer occurs when the mediator's impedance is the geometric mean of the two cultures' impedances.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Dislocation Theory of Institutional Reform",
+    "core_claim": "Institutions deform under political stress not through uniform yielding but through the propagation of discrete reform dislocations — minimal structural rearrangements that move through the institutional lattice one bond at a time. Like crystal dislocations, each reform step requires far less energy than would be needed to shear the entire institution simultaneously, explaining how massive institutional changes accumulate from individually minor procedural adjustments. Reform hardening occurs as dislocations pile up at institutional grain boundaries (departmental borders, jurisdictional lines), and sustained reform requires periodic 'annealing' — deliberate structural relaxation that clears dislocation tangles.",
+    "mechanism_borrowed_from": "dislocations",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Dislocation Theory",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Lotka-Volterra Dynamics of Attention and Content",
+    "core_claim": "Online content ecosystems exhibit predator-prey oscillations where content creators (prey) and audience attention (predator) are locked in coupled dynamics. When creators are abundant and attention scarce, only the fittest content survives; the resulting high-quality pool attracts attention growth, which then enables lower-quality content to survive, diluting the pool until attention crashes. Platform health is determined by the oscillation amplitude: shallow cycles produce stable ecosystems while deep cycles produce boom-bust virality. Algorithmic recommendation acts as an environmental parameter that tunes the coupling strength between the two populations.",
+    "mechanism_borrowed_from": "predator-prey",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Lotka-Volterra Predator-Prey",
+    "source_b": "Viral Marketing"
+  },
+  {
+    "name": "Nyquist Sampling Theory of Democratic Representation",
+    "core_claim": "Democratic representation systems suffer from aliasing when the sampling frequency of elections falls below twice the maximum frequency of policy-relevant public opinion change. Just as sub-Nyquist sampling produces phantom signals unrelated to the original, infrequent elections produce mandates that reflect aliased voter preferences — apparent consensus on issues that were never actually majority positions. The minimum election frequency required for faithful representation is determined by the bandwidth of the fastest-changing policy dimension in the electorate. Referenda and polling function as anti-aliasing filters, attenuating high-frequency opinion components before they corrupt the electoral sample.",
+    "mechanism_borrowed_from": "nyquist-shannon-sampling",
+    "domain_applied_to": "moral philosophy",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Nyquist-Shannon Sampling Theorem",
+    "source_b": "Rawlsian Veil of Ignorance"
+  },
+  {
+    "name": "Magma Chamber Theory of Revolutionary Pressure",
+    "core_claim": "Social revolutions are governed by pressure-vessel dynamics identical to volcanic eruptions: grievances accumulate as recharge flux into a crustal reservoir of discontent, while institutional safety valves (free press, elections, protests) act as volatile exsolution vents. Revolution triggers when accumulated social pressure exceeds the lithostatic threshold of institutional containment — and the eruption style (reformist effusion vs violent explosion) is determined by the viscosity of social structure, which is itself a function of inequality crystallization. The most dangerous configuration is a society with high recharge rate, sealed vents, and high structural viscosity: it guarantees explosive rather than effusive discharge.",
+    "mechanism_borrowed_from": "magma-chamber-dynamics",
+    "domain_applied_to": "philosophy",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Magma Chamber Dynamics",
+    "source_b": "Hegelian Dialectic"
+  },
+  {
+    "name": "Phyllotactic Theory of Urban Development",
+    "core_claim": "Optimal city growth follows phyllotactic packing principles: each new major development should emerge at the position of least inhibition from existing centers, naturally producing a golden-angle spiral of satellite districts. Existing urban centers create inhibitory fields through competition for labor, transport bandwidth, and consumer attention. Developments placed within these fields underperform, while those at the maximal-gap position between existing inhibitory zones achieve both maximum local resources and optimal network connectivity. Cities that grow this way spontaneously achieve superior space-filling coverage compared to grid or radial plans, because the algorithm minimizes overlap of service areas without requiring centralized coordination.",
+    "mechanism_borrowed_from": "phyllotaxis",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Phyllotaxis",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Zero-Knowledge Proof Theory of Therapeutic Alliance",
+    "core_claim": "Effective psychotherapy operates as a zero-knowledge proof protocol: the therapist must become convinced that the client possesses genuine self-knowledge and readiness for change without the client ever needing to fully disclose the traumatic content. The therapeutic alliance succeeds when the client can demonstrate insight (the 'proof') through behavioral and emotional responses to carefully constructed challenges (the 'verifier's random queries') without transmitting the raw experiential data. This framework explains why trauma-focused therapies that demand full narrative disclosure sometimes retraumatize: they violate the zero-knowledge property by requiring the client to reveal the witness rather than merely proving possession of it.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Exposure Therapy (Extinction Learning)"
+  }
+]
