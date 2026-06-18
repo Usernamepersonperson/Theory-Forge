@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Navier-Stokes Theory of Crowd Dynamics",
+    "core_claim": "Dense crowd movement in public spaces is governed by equations structurally identical to Navier-Stokes: each person acts as a fluid parcel with velocity and pressure fields, viscosity emerges from social friction (politeness norms, personal space), and boundary conditions are set by walls, barriers, and exits. Crowd crushes occur when the Reynolds number of crowd flow exceeds a critical threshold, transitioning from laminar (orderly) to turbulent (chaotic) flow in which individual agency is overwhelmed by collective momentum.",
+    "mechanism_borrowed_from": "navier-stokes",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.81,
+    "source_a": "Navier-Stokes Equations",
+    "source_b": "Threshold Models of Social Contagion"
+  },
+  {
+    "name": "Fourier Decomposition Theory of Personality",
+    "core_claim": "Personality is not a fixed set of trait dimensions but a superposition of behavioral harmonics: each situation activates a different frequency component of the person's behavioral repertoire, and the observed personality at any moment is the Fourier sum of all active components. The Big Five factors correspond to the lowest-frequency (most persistent) harmonics, while situational variability reflects higher-frequency components that average out over time. Personality disorders represent missing or overamplified harmonics.",
+    "mechanism_borrowed_from": "fourier-acoustics",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Fourier Decomposition of Sound",
+    "source_b": "Big Five / Five Factor Model"
+  },
+  {
+    "name": "Autocatalytic Set Theory of Legal Precedent",
+    "core_claim": "Common law doctrine maintains itself through autocatalytic closure: each judicial decision catalyzes subsequent decisions by providing precedent, and the set of active precedents forms a self-sustaining reaction network where every ruling is 'produced' by at least one other ruling in the set. Legal systems achieve organizational closure when the precedent network becomes autocatalytic, after which novel cases are processed by the network without requiring external legislative input. Doctrinal collapse occurs when key catalytic precedents are overturned, breaking closure.",
+    "mechanism_borrowed_from": "catalysis",
+    "domain_applied_to": "legal theory",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Autocatalytic Sets",
+    "source_b": "Law and Economics"
+  },
+  {
+    "name": "Knit Stitch Topology Theory of Social Networks",
+    "core_claim": "Social networks exhibit topological properties analogous to knit fabric: knit-stitch connections (reciprocal, tight-loop relationships) create elasticity and local cohesion, while tuck-stitch connections (weak ties bridging clusters) provide structural integrity against 'laddering' (cascade failures where one broken relationship unravels an entire social cluster). Communities optimized for resilience balance knit and tuck stitches; those composed entirely of tight reciprocal loops are vulnerable to catastrophic unraveling from a single defection.",
+    "mechanism_borrowed_from": "knit-stitch-topology",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Knit Stitch Topology",
+    "source_b": "Small-World Networks"
+  },
+  {
+    "name": "Enzyme Kinetics Theory of Bureaucratic Processing",
+    "core_claim": "Government bureaucracies process citizen requests following Michaelis-Menten saturation kinetics: processing rate increases linearly with request volume at low loads, but saturates at Vmax when all bureaucratic 'active sites' (caseworkers, review committees) are occupied. The Km of a bureaucracy (the request volume at half-max processing rate) reveals its institutional efficiency. Reforms that add active sites shift Vmax; reforms that reduce procedural complexity lower Km. Most reform efforts fail because they target the wrong parameter.",
+    "mechanism_borrowed_from": "enzyme-kinetics-cooking",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Enzyme Kinetics in Cooking",
+    "source_b": "Queueing Theory (M/M/1)"
+  },
+  {
+    "name": "Wavefront Resonance Theory of Religious Revivals",
+    "core_claim": "Religious revival movements propagate as spatial wavefronts analogous to epidemic wavefronts: they amplify when encountering susceptible population clusters (communities experiencing anomie, economic dislocation, or cultural upheaval) and attenuate when hitting 'immune barriers' (secularized or religiously saturated populations). The Great Awakenings in American history exhibit wavefront velocities and amplification patterns consistent with spatial SIR dynamics coupled to socioeconomic susceptibility gradients.",
+    "mechanism_borrowed_from": "epidemic-wavefront-resonance",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "source_a": "Epidemic Wavefront Resonance Theory",
+    "source_b": "Liberation Theology"
+  },
+  {
+    "name": "Spinning Draft Ratio Theory of Pedagogical Scaffolding",
+    "core_claim": "Effective teaching follows spinning draft-ratio dynamics: the 'roving' of raw student understanding must be attenuated at a controlled rate to produce the 'yarn' of competence. Too aggressive a draft ratio (instruction pace too fast relative to comprehension) causes conceptual breakage; too gentle a ratio produces thick, unsorted understanding that lacks precision. The optimal draft ratio varies by 'fiber type' (student aptitude) and requires continuous feedback adjustment, exactly as in textile spinning.",
+    "mechanism_borrowed_from": "spinning-draft-ratio-control",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Spinning Draft Ratio Control",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Magma Chamber Theory of Artistic Movements",
+    "core_claim": "Art movements erupt following magma chamber dynamics: creative grievances and aesthetic dissatisfactions accumulate as slow recharge into a cultural reservoir. Moderate outlets (gallery shows, minor manifestos) crystallize some volatile content, reducing eruption potential. A major eruption (Impressionism, Punk, Bauhaus) occurs only when the internal pressure of unaddressed aesthetic demands exceeds the lithostatic threshold set by institutional gatekeeping. Eruption style (gradual stylistic evolution vs. explosive manifesto) depends on the volatile content (ideological radicalism) of the accumulated discontent.",
+    "mechanism_borrowed_from": "magma-chamber-dynamics",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Magma Chamber Dynamics",
+    "source_b": "Kantian Aesthetic Judgment"
+  },
+  {
+    "name": "Zero-Knowledge Proof Theory of Therapeutic Disclosure",
+    "core_claim": "Effective psychotherapy operates through a zero-knowledge proof protocol: the client must convince the therapist of their internal state (the 'witness') without revealing the traumatic content directly, using indirect challenges (metaphors, somatic responses, behavioral patterns) that allow the therapist to verify the emotional truth without possessing the specific memories. This explains why narrative exposure therapy sometimes re-traumatizes: it violates the zero-knowledge property by forcing full witness disclosure.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Exposure Therapy (Extinction Learning)"
+  },
+  {
+    "name": "Tobler's Law Theory of Musical Key Relations",
+    "core_claim": "Perceived harmonic relatedness between musical keys follows Tobler's first law of geography: near keys (on the circle of fifths) are more related than distant keys, and this relationship governs not just harmonic tension but listener memory and expectation. Modulations to geographically 'nearby' keys feel natural because they preserve more shared pitch content, while modulations to distant keys produce the musical equivalent of teleportation disorientation. The circle of fifths is literally a geographic map of tonal space.",
+    "mechanism_borrowed_from": "tobler-first-law",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Tobler's First Law of Geography",
+    "source_b": "Generative Theory of Tonal Music"
+  },
+  {
+    "name": "HPA Axis Theory of Organizational Burnout Cycles",
+    "core_claim": "Organizations under sustained competitive stress undergo a hormonal feedback loop analogous to the HPA axis: initial stress triggers a cortisol-like 'urgency response' (overtime mandates, process shortcuts, hiring freezes) that temporarily boosts performance. Chronic stress causes receptor downregulation (employee desensitization to urgency signals), eliminating the negative feedback loop and producing a pathological state of permanent crisis mode. The resulting organizational allostatic load manifests as turnover, quality collapse, and institutional exhaustion.",
+    "mechanism_borrowed_from": "hpa-axis-feedback",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "HPA Axis Hormonal Feedback Loop",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Island Biogeography Theory of Programming Language Ecosystems",
+    "core_claim": "Programming language library ecosystems follow island biogeography: language 'islands' closer to the 'mainland' of established languages (sharing syntax, paradigms, or FFI interoperability) have higher immigration rates of libraries and developers, while smaller, more isolated languages reach equilibrium at lower ecosystem richness. The species-area relationship predicts that doubling a language's user base increases library count sublinearly, and that niche languages must compensate for isolation through unique features that attract 'endemic species' (libraries with no equivalent elsewhere).",
+    "mechanism_borrowed_from": "island-biogeography",
+    "domain_applied_to": "programming languages",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Island Biogeography (MacArthur & Wilson)",
+    "source_b": "Hindley-Milner Type Inference"
+  },
+  {
+    "name": "Soil Formation Theory of Institutional Culture",
+    "core_claim": "Organizational culture develops according to Jenny's CLORPT factors: Climate (industry conditions), Organisms (the people who pass through), Relief (hierarchical topology), Parent Material (founding values and initial structure), and Time. Culture is not designed but weathered into existence over decades, developing distinct 'horizons' (executive culture, middle-management culture, front-line culture) that can be read like a soil profile. Organizations younger than their cultural 'maturation time' lack differentiated horizons and remain culturally immature regardless of size.",
+    "mechanism_borrowed_from": "soil-formation-factors",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Jenny's Factors of Soil Formation",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Eusociality Theory of Open-Source Software",
+    "core_claim": "Sustained contributions to open-source projects follow Hamilton's rule for eusociality: developers contribute unpaid labor when rb > c, where r is 'relatedness' (shared technical identity, community membership, reputational linkage), b is the benefit to the project community, and c is the contributor's opportunity cost. Projects that maximize perceived r (through strong community identity, shared tooling, and contributor recognition) can sustain altruistic contribution at levels that projects relying solely on individual benefit cannot.",
+    "mechanism_borrowed_from": "eusociality-hamiltons-rule",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Eusociality and Hamilton's Rule (Kin Selection)",
+    "source_b": "Kolmogorov Complexity"
+  },
+  {
+    "name": "Coriolis Deflection Theory of Career Trajectories",
+    "core_claim": "Career trajectories in large organizations are deflected by a Coriolis-like force: individuals moving 'poleward' (toward senior leadership) experience a systematic rightward deflection into staff roles, advisory positions, and lateral moves, because the organization's rotational velocity (pace of change) increases with hierarchical altitude. Those who attempt rapid ascent without accounting for this deflection end up in positions they did not intend, while those who understand the deflection can use it to navigate to desired positions by aiming off-target.",
+    "mechanism_borrowed_from": "coriolis-cyclone-formation",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Coriolis-Driven Cyclone Formation",
+    "source_b": "Hyperbolic Discounting"
+  }
+]

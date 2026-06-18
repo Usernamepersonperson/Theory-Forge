@@ -3,6 +3,7 @@ Theory Forge — FastAPI server.
 
 Endpoints:
     GET  /theories                                seed theories
+    GET  /theories/{theory_id}                    single theory by id
     GET  /domains                                 unique domain list (for UI dropdowns)
     GET  /ledger                                  known collisions (tried/failed)
     GET  /pairs?limit=&novel_only=&alpha=         ranked cross-domain pairs
@@ -11,6 +12,11 @@ Endpoints:
     POST /batch_collide    { count, domain_filter? }  batch N collisions
     GET  /history                                 all saved batch outputs
     GET  /rankings?limit=&min_confidence=&domain= ranked frameworks
+    GET  /deep-dives                              list deep-dive analyses
+    GET  /deep-dives/{slug}                       single deep-dive
+    GET  /stats                                   aggregate statistics
+    GET  /search?q=&limit=                        full-text framework search
+    GET  /export?format=json|csv&min_confidence=  export all frameworks
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -27,13 +33,16 @@ import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+import csv
+import io
+
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.3.0")
+app = FastAPI(title="Theory Forge", version="0.4.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -78,8 +87,19 @@ class BatchCollideIn(BaseModel):
 
 
 @app.get("/theories")
-def list_theories():
+def list_theories(domain: str = ""):
+    if domain:
+        d = domain.lower()
+        return [t.to_dict() for t in _theories if d in t.domain.lower()]
     return [t.to_dict() for t in _theories]
+
+
+@app.get("/theories/{theory_id}")
+def get_theory(theory_id: str):
+    t = _by_id.get(theory_id)
+    if not t:
+        raise HTTPException(404, f"Theory '{theory_id}' not found.")
+    return t.to_dict()
 
 
 @app.get("/domains")
@@ -241,6 +261,227 @@ def rankings(limit: int = 50, min_confidence: float = 0.0, domain: str = ""):
                   or d in fw.get("mechanism_borrowed_from", "").lower()]
     all_fw.sort(key=lambda fw: -fw.get("confidence", 0))
     return all_fw[:limit]
+
+
+@app.get("/deep-dives")
+def list_deep_dives():
+    dd_dir = Path(__file__).parent / "outputs" / "deep-dives"
+    if not dd_dir.exists():
+        return []
+    results = []
+    for f in sorted(dd_dir.glob("deep-dive-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            results.append({
+                "file": f.name,
+                "slug": f.stem,
+                "name": data.get("name", "?"),
+                "rank": data.get("rank", 0),
+                "confidence": data.get("confidence", 0),
+                "executive_summary": data.get("executive_summary", ""),
+                "predictions_count": len(data.get("falsifiable_predictions", [])),
+                "experiments_count": len(data.get("experimental_designs", [])),
+            })
+        except (json.JSONDecodeError, KeyError):
+            continue
+    return results
+
+
+@app.get("/deep-dives/{slug}")
+def get_deep_dive(slug: str):
+    dd_dir = Path(__file__).parent / "outputs" / "deep-dives"
+    target = dd_dir / f"{slug}.json"
+    if not target.exists():
+        raise HTTPException(404, f"Deep dive '{slug}' not found.")
+    return json.loads(target.read_text(encoding="utf-8"))
+
+
+@app.get("/stats")
+def stats():
+    out_dir = Path(__file__).parent / "outputs"
+    all_fw = []
+    batch_count = 0
+    for f in sorted(out_dir.glob("batch-*.json")):
+        batch_count += 1
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                fw["_batch"] = f.name
+                all_fw.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    seen = set()
+    unique = []
+    for fw in all_fw:
+        n = fw.get("name", "").strip().lower()
+        if n and n not in seen:
+            seen.add(n)
+            unique.append(fw)
+    confs = [fw.get("confidence", 0) for fw in unique]
+    viability = {}
+    for fw in unique:
+        v = fw.get("viability", "unknown")
+        viability[v] = viability.get(v, 0) + 1
+    domains_from = {}
+    domains_to = {}
+    for fw in unique:
+        src = fw.get("mechanism_borrowed_from", "")
+        dst = fw.get("domain_applied_to", "")
+        if src:
+            domains_from[src] = domains_from.get(src, 0) + 1
+        if dst:
+            domains_to[dst] = domains_to.get(dst, 0) + 1
+    top_sources = sorted(domains_from.items(), key=lambda x: -x[1])[:15]
+    top_targets = sorted(domains_to.items(), key=lambda x: -x[1])[:15]
+    dd_dir = out_dir / "deep-dives"
+    deep_dive_count = len(list(dd_dir.glob("deep-dive-*.json"))) if dd_dir.exists() else 0
+    return {
+        "theory_count": len(_theories),
+        "domain_count": len({t.domain for t in _theories}),
+        "batch_count": batch_count,
+        "total_frameworks": len(unique),
+        "deep_dive_count": deep_dive_count,
+        "viability_breakdown": viability,
+        "confidence_stats": {
+            "mean": round(sum(confs) / len(confs), 3) if confs else 0,
+            "max": round(max(confs), 3) if confs else 0,
+            "min": round(min(confs), 3) if confs else 0,
+        },
+        "top_mechanism_sources": top_sources,
+        "top_target_domains": top_targets,
+    }
+
+
+@app.get("/search")
+def search_frameworks(q: str = "", limit: int = 20):
+    if not q or len(q) < 2:
+        return []
+    out_dir = Path(__file__).parent / "outputs"
+    q_lower = q.lower()
+    matches = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                fw["_batch"] = f.name
+                text = json.dumps(fw).lower()
+                if q_lower in text:
+                    matches.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    matches.sort(key=lambda fw: -fw.get("confidence", 0))
+    return matches[:limit]
+
+
+@app.get("/framework/{name}")
+def get_framework(name: str):
+    out_dir = Path(__file__).parent / "outputs"
+    name_lower = name.lower().strip()
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                if fw.get("name", "").lower().strip() == name_lower:
+                    fw["_batch"] = f.name
+                    mech = fw.get("mechanism_borrowed_from", "").lower()
+                    domain = fw.get("domain_applied_to", "").lower()
+                    related = []
+                    for f2 in sorted(out_dir.glob("batch-*.json")):
+                        try:
+                            d2 = json.loads(f2.read_text(encoding="utf-8"))
+                            for fw2 in d2:
+                                if fw2.get("name", "").lower().strip() == name_lower:
+                                    continue
+                                m2 = fw2.get("mechanism_borrowed_from", "").lower()
+                                d2v = fw2.get("domain_applied_to", "").lower()
+                                if (mech and mech in m2) or (domain and domain in d2v):
+                                    related.append({
+                                        "name": fw2.get("name", "?"),
+                                        "confidence": fw2.get("confidence", 0),
+                                        "shared": "mechanism" if mech and mech in m2 else "domain",
+                                    })
+                        except (json.JSONDecodeError, KeyError):
+                            continue
+                    related.sort(key=lambda x: -x["confidence"])
+                    fw["related_frameworks"] = related[:10]
+                    return fw
+        except (json.JSONDecodeError, KeyError):
+            continue
+    raise HTTPException(404, f"Framework '{name}' not found.")
+
+
+@app.get("/domain-matrix")
+def domain_matrix():
+    out_dir = Path(__file__).parent / "outputs"
+    collided_pairs: dict[str, set[str]] = {}
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                src = fw.get("source_a", "").lower()
+                tgt = fw.get("source_b", "").lower()
+                if src and tgt:
+                    collided_pairs.setdefault(src, set()).add(tgt)
+                    collided_pairs.setdefault(tgt, set()).add(src)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    theory_domains = sorted({t.domain for t in _theories})
+    coverage = []
+    for d in theory_domains:
+        partners = collided_pairs.get(d.lower(), set())
+        coverage.append({
+            "domain": d,
+            "collision_count": len(partners),
+            "partners": sorted(partners),
+        })
+    coverage.sort(key=lambda x: -x["collision_count"])
+    total_possible = len(theory_domains) * (len(theory_domains) - 1) // 2
+    covered = sum(len(c["partners"]) for c in coverage) // 2
+    return {
+        "total_domains": len(theory_domains),
+        "total_possible_pairs": total_possible,
+        "pairs_with_collisions": covered,
+        "coverage_pct": round(covered / total_possible * 100, 1) if total_possible else 0,
+        "domains": coverage,
+    }
+
+
+@app.get("/export")
+def export_frameworks(format: str = "json", min_confidence: float = 0.0):
+    out_dir = Path(__file__).parent / "outputs"
+    all_fw = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                fw["_batch"] = f.name
+                all_fw.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    seen = set()
+    unique = []
+    for fw in all_fw:
+        n = fw.get("name", "").strip().lower()
+        if n and n not in seen:
+            seen.add(n)
+            unique.append(fw)
+    if min_confidence > 0:
+        unique = [fw for fw in unique if fw.get("confidence", 0) >= min_confidence]
+    unique.sort(key=lambda fw: -fw.get("confidence", 0))
+    if format == "csv":
+        buf = io.StringIO()
+        cols = ["name", "confidence", "viability", "core_claim",
+                "mechanism_borrowed_from", "domain_applied_to",
+                "source_a", "source_b", "_batch"]
+        writer = csv.DictWriter(buf, fieldnames=cols, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(unique)
+        buf.seek(0)
+        return StreamingResponse(
+            buf, media_type="text/csv",
+            headers={"Content-Disposition": "attachment; filename=theory-forge-export.csv"},
+        )
+    return unique
 
 
 @app.get("/", response_class=HTMLResponse)

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stribeck Curve Theory of Archival Format Migration",
+    "core_claim": "Digital format migration in archives follows Stribeck curve lubrication regimes: at low migration frequency (boundary regime), each format conversion involves high friction — data loss, metadata corruption, format-specific edge cases. At moderate frequency (mixed regime), institutional memory and tooling reduce losses unpredictably. At high frequency (hydrodynamic regime), continuous migration pipelines create a self-sustaining lubricant layer of format-awareness that minimizes conversion loss. Archives must identify their Stribeck minimum — the optimal migration frequency that minimizes total information loss — rather than defaulting to either extreme.",
+    "mechanism_borrowed_from": "stribeck-lubrication-regimes",
+    "domain_applied_to": "archival science",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Stribeck Curve Transitions",
+    "source_b": "Digital Format Obsolescence Cascade"
+  },
+  {
+    "name": "Plinian Column Collapse Theory of Oral Epic Fragmentation",
+    "core_claim": "Long oral epic traditions collapse through a mechanism identical to Plinian volcanic column dynamics: a sustained vertical 'column' of performative energy — driven by audience engagement, performer skill, and cultural investment — maintains the epic's coherent structure against gravitational pull toward fragmentation. When the mass flux of new performers entering the tradition drops below a critical threshold, or when the cultural 'vent pressure' weakens, the column collapses, and the formerly unified epic breaks into pyroclastic flows of disconnected episodes, legends, and folk motifs that spread laterally across the cultural landscape.",
+    "mechanism_borrowed_from": "plinian-column-collapse",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "source_a": "Plinian Column Collapse Dynamics",
+    "source_b": "Mnemonic Scaffolding in Oral Epics"
+  },
+  {
+    "name": "Prospect Theory of Tribological Wear Decisions",
+    "core_claim": "Engineering decisions about acceptable wear in tribological systems are systematically distorted by prospect-theoretic biases: maintenance teams are loss-averse about sudden component failure (weighting catastrophic outcomes disproportionately) but simultaneously discount gradual adhesive wear that accumulates below perceptual thresholds. This produces a reference-dependent maintenance strategy where components are replaced too early when wear is visible and too late when wear is hidden — with the crossover point determined by the team's reference frame, not by Archard's law predictions of actual wear state.",
+    "mechanism_borrowed_from": "prospect-theory",
+    "domain_applied_to": "tribology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Prospect Theory",
+    "source_b": "Archard's Adhesive Wear Law"
+  },
+  {
+    "name": "Sediment Entrainment Theory of Swarm Recruitment Thresholds",
+    "core_claim": "Individual agents in a swarm are recruited into collective action through a mechanism analogous to Shields sediment entrainment: each agent has a critical shear stress threshold — determined by its individual inertia, social connectivity, and risk tolerance — that must be exceeded by the collective 'flow velocity' of swarm signaling before it is entrained into the moving group. Larger, more entrenched agents require higher flow velocities, producing a sorting effect where swarms preferentially recruit small, loosely connected agents first and heavy, central agents last.",
+    "mechanism_borrowed_from": "sediment-transport-threshold",
+    "domain_applied_to": "swarm intelligence",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Shields Sediment Entrainment Threshold",
+    "source_b": "Honeybee Waggle Dance Recruitment"
+  },
+  {
+    "name": "Sonata Form Theory of Wound Healing Phases",
+    "core_claim": "Wound healing follows sonata form development: the exposition presents two contrasting 'themes' — pro-inflammatory destruction and pro-regenerative growth — in separate phases. The development section (proliferative phase) fragments, modulates, and recombines these themes through complex cytokine interactions. The recapitulation (remodeling phase) restates both themes in the 'home key' of tissue homeostasis. Chronic wounds are analogous to a sonata stuck in its development section, endlessly modulating without achieving recapitulation, while keloid scarring represents a recapitulation that overshoots into a coda of excessive tissue production.",
+    "mechanism_borrowed_from": "sonata-form-development",
+    "domain_applied_to": "wound healing",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Sonata Form Development-Recapitulation",
+    "source_b": "Scar Remodeling Under Mechanical Load"
+  },
+  {
+    "name": "Dam Overtopping Theory of Alarm Fatigue Collapse",
+    "core_claim": "Alarm fatigue in ergonomic systems cascades through a dam overtopping failure mechanism: each ignored alarm erodes the 'dam' of operator vigilance by a small increment, while the reservoir of unattended alerts rises. Once overtopping begins — when the operator's cognitive threshold is breached — erosion becomes self-reinforcing as the breach widens, ignored alarm volume increases, and the operator's entire monitoring capacity fails catastrophically. The critical variable is the freeboard (spare cognitive capacity) maintained above the normal alarm water level.",
+    "mechanism_borrowed_from": "dam-overtopping-cascade",
+    "domain_applied_to": "ergonomics",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Dam Overtopping Failure Cascade",
+    "source_b": "Alarm Fatigue Habituation"
+  },
+  {
+    "name": "Genetic Drift Theory of Seigniorage Value Fluctuation",
+    "core_claim": "In small monetary economies, seigniorage extraction rates fluctuate not through deliberate policy but through a process analogous to genetic drift: the 'population' of coin-minting decisions is small enough that random variation in metal sourcing, die wear, and mint-master judgment produces stochastic wandering in effective debasement rates. These neutral fluctuations can, by chance, cross the Gresham's law threshold where the debased currency begins driving out good currency — triggering a selection event that was initiated by drift rather than intent.",
+    "mechanism_borrowed_from": "genetic-drift",
+    "domain_applied_to": "numismatics",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Genetic Drift",
+    "source_b": "Seigniorage Extraction Dynamics"
+  },
+  {
+    "name": "Vowel Chain Shift Theory of Mycorrhizal Succession",
+    "core_claim": "Mycorrhizal community succession follows vowel chain shift dynamics: when one dominant mycorrhizal species shifts its resource niche (analogous to a vowel shifting its articulatory position), neighboring species in niche space are pushed into adjacent niches to maintain minimum distinctiveness, producing a cascade of niche shifts through the entire fungal community. The chain can be a 'push chain' (driven by an invading species) or a 'pull chain' (triggered by the loss of a species), and predicts that mycorrhizal communities reorganize wholesale rather than species-by-species.",
+    "mechanism_borrowed_from": "vowel-chain-shift",
+    "domain_applied_to": "mycorrhizal ecology",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Vowel Chain Shift",
+    "source_b": "Mycorrhizal Succession Filter"
+  },
+  {
+    "name": "Orographic Precipitation Theory of Agroforestry Microclimate",
+    "core_claim": "Tree rows in agroforestry systems function as miniature mountain ranges that induce orographic effects on field-scale airflow: wind carrying moisture and heat is forced upward over the canopy barrier, cooling adiabatically and depositing dew on the leeward side, while creating a rain shadow of reduced evaporative stress downwind. The height and permeability of the tree row determine whether the 'precipitation' effect (moisture deposition, temperature buffering) or the 'rain shadow' effect (wind acceleration, drying) dominates at each distance from the row.",
+    "mechanism_borrowed_from": "orographic-precipitation",
+    "domain_applied_to": "agroecology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Orographic Precipitation",
+    "source_b": "Agroforestry Microclimate Buffering"
+  },
+  {
+    "name": "Shell Company Network Theory of Third-Body Wear Layers",
+    "core_claim": "Third-body wear layers in tribological contacts form hierarchical structures topologically identical to shell company networks in financial fraud: primary wear particles (first-shell entities) aggregate into secondary structures (holding companies) that create a layered topology designed to obscure the direct contact between the two sliding surfaces (the ultimate beneficial owners). Detection of the true contact state requires the same graph-theoretic techniques used in forensic accounting — tracing connectivity through the obfuscating intermediate layer to reveal the load-bearing paths hidden within the debris.",
+    "mechanism_borrowed_from": "shell-company-network-topology",
+    "domain_applied_to": "tribology",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "source_a": "Shell Company Network Detection",
+    "source_b": "Third-Body Layer Formation"
+  },
+  {
+    "name": "Moraine Formation Theory of Paleoclimate Proxy Validation",
+    "core_claim": "Ice core isotope records should be validated against moraine depositional records using the same signal-processing logic that moraines themselves encode: each moraine is a 'snapshot' of glacial extent at a moment of equilibrium, and the spacing between moraines records the frequency of climate oscillations. By treating moraines as an independent low-pass filter on climate signals and comparing their frequency content with ice core data, paleoclimatologists can identify which oscillations in the isotope record are genuine climate signals and which are artifacts of ice-flow distortion or post-depositional diffusion.",
+    "mechanism_borrowed_from": "moraine-formation-record",
+    "domain_applied_to": "paleoclimatology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Moraine Formation as Climate Record",
+    "source_b": "Ice Core Isotope Thermometry"
+  },
+  {
+    "name": "Paris Law Theory of Tannin Polymerization Fatigue",
+    "core_claim": "Tannin polymerization in aging wine follows Paris Law fatigue crack growth: each 'cycle' of oxidation-reduction (driven by micro-oxygenation through barrel staves) advances tannin chain length by an increment proportional to the stress intensity range — the amplitude of the redox oscillation. Below a threshold oxidation intensity, no polymerization occurs; above a critical intensity, catastrophic over-polymerization produces excessive sediment. The optimal aging regime maintains the stress intensity in the Paris Law's stable-growth regime, where chain elongation is predictable and controllable.",
+    "mechanism_borrowed_from": "fatigue-crack-paris-law",
+    "domain_applied_to": "enology",
+    "viability": "speculative",
+    "confidence": 0.60,
+    "source_a": "Paris Law Fatigue Crack Growth",
+    "source_b": "Tannin Polymerization Cascade"
+  },
+  {
+    "name": "Hardy-Cross Theory of Permaculture Water Cascade Design",
+    "core_claim": "Keyline water harvesting systems should be designed using Hardy-Cross iterative balancing: the network of swales, dams, and channels forms a closed hydraulic loop where water must be balanced across all paths simultaneously rather than optimized path-by-path. Each iteration corrects flow imbalances by redistributing water between swale segments according to their head-loss characteristics, converging on a design where every part of the landscape receives proportional hydration without any single swale overtopping or running dry.",
+    "mechanism_borrowed_from": "pipe-network-pressure-balancing",
+    "domain_applied_to": "permaculture design",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Hardy-Cross Pipe Network Balancing",
+    "source_b": "Keyline Water Harvesting Cascade"
+  },
+  {
+    "name": "Stress Corrosion Cracking Theory of Digital Format Degradation",
+    "core_claim": "Digital format obsolescence proceeds not through simple aging but through stress corrosion cracking: the 'stress' of increasing software incompatibility acts synergistically with the 'corrosive environment' of institutional knowledge loss about the format's internal structure. Neither factor alone would cause failure — files remain bitwise intact and specifications remain theoretically available — but their combination produces crack nucleation at the format's most complex features (macros, embedded objects, custom metadata), which propagate until the file becomes functionally unreadable despite being physically preserved.",
+    "mechanism_borrowed_from": "stress-corrosion-cracking",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Stress Corrosion Cracking Synergy",
+    "source_b": "Digital Format Obsolescence Cascade"
+  },
+  {
+    "name": "Isostatic Rebound Theory of Post-Fraud Organizational Recovery",
+    "core_claim": "Organizations recovering from major fraud exhibit isostatic rebound dynamics: the 'weight' of the fraudulent regime depresses the organization's operational baseline over years, and when the fraud is removed (through detection, prosecution, or personnel change), the organization does not snap back instantly but rebounds slowly and unevenly over a recovery timescale proportional to the duration of the fraud — with overshooting, oscillation, and regional variation as different departments recover at different rates depending on how deeply they were 'loaded' by the fraudulent regime.",
+    "mechanism_borrowed_from": "isostatic-rebound-lag",
+    "domain_applied_to": "forensic accounting",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Isostatic Rebound Lag",
+    "source_b": "Audit Trail Gap Detection"
+  }
+]

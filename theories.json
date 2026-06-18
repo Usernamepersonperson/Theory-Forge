@@ -7250,5 +7250,2535 @@
       "optimization",
       "constraint"
     ]
+  },
+  {
+    "id": "adhesive-wear-archard",
+    "name": "Archard's Adhesive Wear Law",
+    "domain": "tribology",
+    "unit": "asperity contact junction",
+    "variation": "surface roughness, load distribution, sliding speed",
+    "selection": "junctions that exceed shear strength transfer material",
+    "fitness": "wear volume proportional to load and sliding distance",
+    "boundary": "hardness of softer surface, lubrication regime, temperature",
+    "tags": [
+      "threshold",
+      "decay",
+      "contact",
+      "accumulation",
+      "feedback-loop",
+      "surface"
+    ]
+  },
+  {
+    "id": "stribeck-lubrication-regimes",
+    "name": "Stribeck Curve Transitions",
+    "domain": "tribology",
+    "unit": "lubricant film state",
+    "variation": "viscosity, speed, and load shift the film thickness ratio",
+    "selection": "regime with lowest friction coefficient dominates performance",
+    "fitness": "minimized friction coefficient at operating point",
+    "boundary": "fluid viscosity limits, surface roughness, thermal degradation",
+    "tags": [
+      "threshold",
+      "phase-transition",
+      "gradient",
+      "oscillation",
+      "optimization",
+      "boundary"
+    ]
+  },
+  {
+    "id": "fretting-fatigue-nucleation",
+    "name": "Fretting Fatigue Crack Nucleation",
+    "domain": "tribology",
+    "unit": "micro-crack at contact edge",
+    "variation": "oscillatory micro-slip amplitude and contact stress distribution",
+    "selection": "cracks nucleate where tangential stress exceeds fatigue limit",
+    "fitness": "crack propagation rate under combined fretting and bulk stress",
+    "boundary": "slip amplitude threshold, material fatigue limit, oxidation rate",
+    "tags": [
+      "threshold",
+      "cascade",
+      "oscillation",
+      "decay",
+      "accumulation",
+      "nucleation"
+    ]
+  },
+  {
+    "id": "triboelectric-charge-transfer",
+    "name": "Triboelectric Charge Separation",
+    "domain": "tribology",
+    "unit": "surface charge domain",
+    "variation": "contact area, material work-function mismatch, humidity",
+    "selection": "charge polarity determined by electron affinity difference",
+    "fitness": "net surface charge density after separation",
+    "boundary": "humidity dissipation, dielectric breakdown, surface contamination",
+    "tags": [
+      "gradient",
+      "signal",
+      "threshold",
+      "decay",
+      "boundary",
+      "polarity"
+    ]
+  },
+  {
+    "id": "third-body-wear-layer",
+    "name": "Third-Body Layer Formation",
+    "domain": "tribology",
+    "unit": "wear debris particle trapped in contact",
+    "variation": "debris composition, size, and recirculation within the contact zone",
+    "selection": "stable third bodies reduce direct surface contact and wear",
+    "fitness": "longevity of protective debris layer under sustained load",
+    "boundary": "ejection rate, oxidation, load-induced compaction limits",
+    "tags": [
+      "feedback-loop",
+      "adaptation",
+      "self-organization",
+      "boundary",
+      "cooperation",
+      "stability"
+    ]
+  },
+  {
+    "id": "hydraulic-jump-energy-dissipation",
+    "name": "Hydraulic Jump Energy Dissipation",
+    "domain": "hydraulic engineering",
+    "unit": "flow cross-section",
+    "variation": "upstream Froude number, channel geometry, tailwater depth",
+    "selection": "flow transitions from supercritical to subcritical at momentum balance",
+    "fitness": "energy head loss across the jump",
+    "boundary": "Froude number threshold, channel width, downstream conditions",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "cascade",
+      "dissipation",
+      "boundary",
+      "turbulence"
+    ]
+  },
+  {
+    "id": "dam-overtopping-cascade",
+    "name": "Dam Overtopping Failure Cascade",
+    "domain": "hydraulic engineering",
+    "unit": "dam crest section under overflow",
+    "variation": "inflow hydrograph shape, spillway capacity, reservoir volume",
+    "selection": "erosion accelerates where overtopping velocity exceeds soil resistance",
+    "fitness": "time to breach formation (inverse = risk)",
+    "boundary": "spillway design capacity, embankment material cohesion, flood duration",
+    "tags": [
+      "cascade",
+      "threshold",
+      "feedback-loop",
+      "decay",
+      "critical-point",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "pipe-network-pressure-balancing",
+    "name": "Hardy-Cross Pipe Network Balancing",
+    "domain": "hydraulic engineering",
+    "unit": "flow loop in a pipe network",
+    "variation": "demand node draws, pipe diameters, roughness coefficients",
+    "selection": "iterative correction drives loop head-loss residuals toward zero",
+    "fitness": "minimized pressure residual across all loops",
+    "boundary": "pipe capacity, minimum service pressure, network topology",
+    "tags": [
+      "network",
+      "feedback-loop",
+      "optimization",
+      "gradient",
+      "equilibrium",
+      "iteration"
+    ]
+  },
+  {
+    "id": "sediment-transport-threshold",
+    "name": "Shields Sediment Entrainment Threshold",
+    "domain": "hydraulic engineering",
+    "unit": "bed sediment grain",
+    "variation": "grain size distribution, bed shear stress, channel slope",
+    "selection": "grains mobilize when shear stress exceeds critical Shields parameter",
+    "fitness": "sediment transport rate above threshold",
+    "boundary": "critical shear stress, grain packing, armoring of bed surface",
+    "tags": [
+      "threshold",
+      "gradient",
+      "selection-pressure",
+      "accumulation",
+      "boundary",
+      "sorting"
+    ]
+  },
+  {
+    "id": "water-hammer-pressure-wave",
+    "name": "Water Hammer Pressure Transient",
+    "domain": "hydraulic engineering",
+    "unit": "pressure wave front in a closed conduit",
+    "variation": "valve closure rate, pipe elasticity, flow velocity",
+    "selection": "wave amplitude determined by Joukowsky equation at reflection points",
+    "fitness": "peak transient pressure relative to pipe burst rating",
+    "boundary": "pipe wall elasticity, fluid compressibility, system damping",
+    "tags": [
+      "oscillation",
+      "signal",
+      "cascade",
+      "threshold",
+      "boundary",
+      "wave-propagation"
+    ]
+  },
+  {
+    "id": "benfords-law-anomaly-detection",
+    "name": "Benford's Law Digit Frequency Anomaly",
+    "domain": "forensic accounting",
+    "unit": "leading digit of a financial entry",
+    "variation": "naturally occurring vs. fabricated number distributions",
+    "selection": "deviations from expected log-distribution flag manipulation",
+    "fitness": "chi-squared divergence from Benford's expected frequencies",
+    "boundary": "sample size, data type suitability, legitimate uniform-range data",
+    "tags": [
+      "signal",
+      "noise",
+      "pattern-detection",
+      "statistics",
+      "threshold",
+      "anomaly"
+    ]
+  },
+  {
+    "id": "round-number-fraud-clustering",
+    "name": "Round-Number Clustering in Fraud",
+    "domain": "forensic accounting",
+    "unit": "transaction amount",
+    "variation": "legitimate expense rounding vs. fabricated round figures",
+    "selection": "excess clustering at round numbers signals cognitive bias in fraud",
+    "fitness": "ratio of round-number transactions to expected baseline",
+    "boundary": "industry norms, pricing conventions, approval thresholds",
+    "tags": [
+      "signal",
+      "noise",
+      "pattern-detection",
+      "threshold",
+      "clustering",
+      "cognitive-bias"
+    ]
+  },
+  {
+    "id": "audit-trail-gap-detection",
+    "name": "Temporal Gap Analysis in Audit Trails",
+    "domain": "forensic accounting",
+    "unit": "time interval between sequential ledger entries",
+    "variation": "normal posting rhythm vs. gaps indicating deleted or backdated entries",
+    "selection": "statistically anomalous gaps or timestamp clusters indicate tampering",
+    "fitness": "deviation of inter-entry intervals from expected Poisson process",
+    "boundary": "system clock precision, batch posting schedules, time-zone artifacts",
+    "tags": [
+      "signal",
+      "noise",
+      "pattern-detection",
+      "decay",
+      "temporal",
+      "anomaly",
+      "sequence"
+    ]
+  },
+  {
+    "id": "shell-company-network-topology",
+    "name": "Shell Company Network Detection",
+    "domain": "forensic accounting",
+    "unit": "corporate entity node in ownership graph",
+    "variation": "layering depth, shared directors, circular ownership structures",
+    "selection": "unusual graph centrality or cyclicity flags concealment structures",
+    "fitness": "opacity score — ratio of beneficial ownership hops to transaction volume",
+    "boundary": "jurisdictional disclosure requirements, data availability, nominee masking",
+    "tags": [
+      "network",
+      "hierarchy",
+      "signal",
+      "obfuscation",
+      "cascade",
+      "complexity",
+      "graph"
+    ]
+  },
+  {
+    "id": "duplicate-payment-entropy",
+    "name": "Duplicate Payment Entropy Analysis",
+    "domain": "forensic accounting",
+    "unit": "payment record pair",
+    "variation": "field similarity across vendor, amount, date, and invoice number",
+    "selection": "near-duplicate pairs with minor field mutations flag intentional splitting",
+    "fitness": "Jaccard similarity score between flagged payment pairs",
+    "boundary": "legitimate recurring payments, multi-currency rounding, system migrations",
+    "tags": [
+      "pattern-detection",
+      "signal",
+      "noise",
+      "threshold",
+      "replication",
+      "similarity"
+    ]
+  },
+  {
+    "id": "ant-colony-pheromone-optimization",
+    "name": "Ant Colony Pheromone Trail Optimization",
+    "domain": "swarm intelligence",
+    "unit": "pheromone trail segment",
+    "variation": "random path exploration by individual ants",
+    "selection": "shorter paths accumulate pheromone faster due to higher traversal rate",
+    "fitness": "pheromone concentration as proxy for path quality",
+    "boundary": "evaporation rate, colony size, environment change rate",
+    "tags": [
+      "feedback-loop",
+      "decay",
+      "gradient",
+      "cooperation",
+      "self-organization",
+      "optimization",
+      "stigmergy"
+    ]
+  },
+  {
+    "id": "boid-flocking-alignment",
+    "name": "Reynolds Flocking Alignment Rule",
+    "domain": "swarm intelligence",
+    "unit": "individual agent (boid)",
+    "variation": "local velocity differences among neighbors within perception radius",
+    "selection": "agents that align with local average heading reduce collision risk",
+    "fitness": "group coherence measured by velocity correlation",
+    "boundary": "perception radius, agent density, obstacle density, noise",
+    "tags": [
+      "cooperation",
+      "feedback-loop",
+      "network",
+      "signal",
+      "adaptation",
+      "emergence",
+      "local-rule"
+    ]
+  },
+  {
+    "id": "quorum-sensing-threshold",
+    "name": "Quorum Sensing Activation Threshold",
+    "domain": "swarm intelligence",
+    "unit": "signaling molecule concentration",
+    "variation": "individual emission rate, diffusion, population density",
+    "selection": "collective behavior activates only above concentration threshold",
+    "fitness": "coordination benefit minus signaling cost",
+    "boundary": "diffusion rate, receptor sensitivity, environmental dilution",
+    "tags": [
+      "threshold",
+      "signal",
+      "cooperation",
+      "feedback-loop",
+      "phase-transition",
+      "density-dependent"
+    ]
+  },
+  {
+    "id": "particle-swarm-velocity-update",
+    "name": "Particle Swarm Velocity Update",
+    "domain": "swarm intelligence",
+    "unit": "candidate solution particle",
+    "variation": "stochastic weighting of personal best, global best, and inertia",
+    "selection": "particles converge toward regions of improving objective value",
+    "fitness": "objective function value at particle position",
+    "boundary": "inertia weight, velocity clamp, search space dimensionality",
+    "tags": [
+      "optimization",
+      "feedback-loop",
+      "gradient",
+      "noise",
+      "cooperation",
+      "exploration-exploitation"
+    ]
+  },
+  {
+    "id": "honeybee-waggle-dance-recruitment",
+    "name": "Honeybee Waggle Dance Recruitment",
+    "domain": "swarm intelligence",
+    "unit": "forager–recruit pair",
+    "variation": "dance duration and angle encode distance and direction to food source",
+    "selection": "richer sources recruit more foragers via longer dances",
+    "fitness": "colony energy intake rate from recruited foraging",
+    "boundary": "dance floor congestion, source depletion rate, predation risk",
+    "tags": [
+      "signal",
+      "cooperation",
+      "feedback-loop",
+      "competition",
+      "selection-pressure",
+      "encoding"
+    ]
+  },
+  {
+    "id": "fatigue-crack-paris-law",
+    "name": "Paris Law Fatigue Crack Growth",
+    "domain": "failure analysis",
+    "unit": "crack tip stress intensity cycle",
+    "variation": "cyclic stress amplitude, load ratio, crack length",
+    "selection": "cracks grow when stress intensity range exceeds threshold",
+    "fitness": "crack growth rate per cycle (da/dN)",
+    "boundary": "fracture toughness, stress intensity threshold, environment",
+    "tags": [
+      "threshold",
+      "accumulation",
+      "cascade",
+      "decay",
+      "oscillation",
+      "growth"
+    ]
+  },
+  {
+    "id": "stress-corrosion-cracking",
+    "name": "Stress Corrosion Cracking Synergy",
+    "domain": "failure analysis",
+    "unit": "crack tip in corrosive environment under tensile stress",
+    "variation": "alloy susceptibility, corrodent concentration, stress level",
+    "selection": "crack advances where chemical attack and stress concentrate together",
+    "fitness": "crack velocity under combined mechanical and chemical driving force",
+    "boundary": "threshold stress intensity, passivation potential, temperature",
+    "tags": [
+      "feedback-loop",
+      "threshold",
+      "cascade",
+      "decay",
+      "synergy",
+      "boundary"
+    ]
+  },
+  {
+    "id": "creep-rupture-larson-miller",
+    "name": "Larson-Miller Creep Rupture Prediction",
+    "domain": "failure analysis",
+    "unit": "grain boundary void",
+    "variation": "temperature, applied stress, microstructural variability",
+    "selection": "void coalescence along grain boundaries leads to intergranular fracture",
+    "fitness": "time-to-rupture at given temperature and stress",
+    "boundary": "melting point fraction, grain size, oxidation environment",
+    "tags": [
+      "accumulation",
+      "threshold",
+      "decay",
+      "growth",
+      "temperature-dependent",
+      "cascade"
+    ]
+  },
+  {
+    "id": "brittle-fracture-charpy-transition",
+    "name": "Ductile-Brittle Transition Temperature",
+    "domain": "failure analysis",
+    "unit": "fracture mode at notch root",
+    "variation": "temperature, strain rate, notch geometry, microstructure",
+    "selection": "below transition temperature, cleavage fracture dominates over yielding",
+    "fitness": "absorbed impact energy (Charpy value)",
+    "boundary": "transition temperature range, grain size, alloy composition",
+    "tags": [
+      "phase-transition",
+      "threshold",
+      "boundary",
+      "cascade",
+      "critical-point",
+      "temperature-dependent"
+    ]
+  },
+  {
+    "id": "failure-bathtub-curve",
+    "name": "Bathtub Curve Failure Rate Evolution",
+    "domain": "failure analysis",
+    "unit": "component in a population",
+    "variation": "manufacturing defects, random operational stress, wear-out mechanisms",
+    "selection": "early failures removed by burn-in; wear-out failures cluster at end of life",
+    "fitness": "instantaneous hazard rate at operating time",
+    "boundary": "infant mortality screening, design life, maintenance intervention",
+    "tags": [
+      "decay",
+      "growth",
+      "selection-pressure",
+      "statistics",
+      "accumulation",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "permaculture-guild-mutualism",
+    "name": "Plant Guild Mutualistic Assembly",
+    "domain": "permaculture design",
+    "unit": "species role within a guild",
+    "variation": "root depth, canopy height, nitrogen fixation, pest deterrence",
+    "selection": "guilds that maximize niche complementarity outperform monocultures",
+    "fitness": "total guild yield per unit area and external input",
+    "boundary": "climate zone, soil type, water availability, guild complexity limits",
+    "tags": [
+      "cooperation",
+      "network",
+      "niche-partitioning",
+      "feedback-loop",
+      "diversity",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "permaculture-zone-gradient",
+    "name": "Zone-Based Attention Gradient",
+    "domain": "permaculture design",
+    "unit": "management zone (0–5)",
+    "variation": "distance from dwelling, visit frequency, intervention intensity",
+    "selection": "high-maintenance elements placed in high-attention zones",
+    "fitness": "labor efficiency — yield per unit of human transit energy",
+    "boundary": "site topography, access paths, climate extremes, land area",
+    "tags": [
+      "gradient",
+      "optimization",
+      "hierarchy",
+      "boundary",
+      "efficiency",
+      "spatial"
+    ]
+  },
+  {
+    "id": "permaculture-water-harvest-cascade",
+    "name": "Keyline Water Harvesting Cascade",
+    "domain": "permaculture design",
+    "unit": "contour infiltration swale",
+    "variation": "swale spacing, depth, keyline angle, soil permeability",
+    "selection": "water slows and infiltrates at each level, reducing runoff and erosion",
+    "fitness": "soil moisture retention and aquifer recharge rate",
+    "boundary": "rainfall intensity, slope grade, soil infiltration capacity, frost line",
+    "tags": [
+      "cascade",
+      "gradient",
+      "accumulation",
+      "feedback-loop",
+      "dissipation",
+      "spatial"
+    ]
+  },
+  {
+    "id": "permaculture-closed-loop-nutrient",
+    "name": "Closed-Loop Nutrient Cycling",
+    "domain": "permaculture design",
+    "unit": "nutrient atom (N, P, K) in the farm system",
+    "variation": "composting method, animal integration, cover crop selection",
+    "selection": "systems minimizing nutrient export maintain long-term soil fertility",
+    "fitness": "nutrient balance ratio — internal cycling vs. external inputs",
+    "boundary": "harvest removal, leaching loss, biological fixation capacity",
+    "tags": [
+      "feedback-loop",
+      "cycle",
+      "conservation",
+      "boundary",
+      "efficiency",
+      "decay"
+    ]
+  },
+  {
+    "id": "permaculture-edge-productivity",
+    "name": "Edge Effect Productivity Amplification",
+    "domain": "permaculture design",
+    "unit": "linear meter of habitat edge",
+    "variation": "edge geometry (straight, crenulated, spiral), adjacent biome types",
+    "selection": "edges with greater interface length access more niches and resources",
+    "fitness": "species diversity and yield per unit area along edge",
+    "boundary": "minimum patch size, microclimate extremes, management complexity",
+    "tags": [
+      "boundary",
+      "gradient",
+      "diversity",
+      "niche-partitioning",
+      "spatial",
+      "emergence"
+    ]
+  },
+  {
+    "id": "phoneme-neutralization",
+    "name": "Phoneme Neutralization",
+    "domain": "phonology",
+    "unit": "phonemic contrast",
+    "variation": "allophonic variation across prosodic positions",
+    "selection": "contrasts lost in weak positions, preserved in strong positions",
+    "fitness": "perceptual distinctiveness under articulatory ease",
+    "boundary": "syllable structure, stress placement, speech rate",
+    "tags": [
+      "competition",
+      "threshold",
+      "decay",
+      "gradient",
+      "signal",
+      "boundary"
+    ]
+  },
+  {
+    "id": "tonal-drift",
+    "name": "Tonal Register Drift",
+    "domain": "phonology",
+    "unit": "tonal category",
+    "variation": "pitch range shifts across generations of speakers",
+    "selection": "listener discrimination pressure maintains separation between tone categories",
+    "fitness": "functional load of tonal contrasts in the lexicon",
+    "boundary": "pitch range of the vocal tract, number of tonal categories, speech community size",
+    "tags": [
+      "drift",
+      "oscillation",
+      "signal",
+      "noise",
+      "competition",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "vowel-chain-shift",
+    "name": "Vowel Chain Shift",
+    "domain": "phonology",
+    "unit": "vowel phoneme in acoustic space",
+    "variation": "incremental articulatory drift in vowel targets",
+    "selection": "movement of one vowel pushes or pulls neighbors to maintain perceptual distance",
+    "fitness": "maximal dispersion across available acoustic space",
+    "boundary": "articulatory limits, number of vowel contrasts, formant frequency ranges",
+    "tags": [
+      "cascade",
+      "competition",
+      "network",
+      "gradient",
+      "feedback-loop",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "prosodic-bootstrapping",
+    "name": "Prosodic Bootstrapping",
+    "domain": "phonology",
+    "unit": "prosodic boundary cue",
+    "variation": "infant exposure to variable pitch, duration, and pause patterns",
+    "selection": "cues that reliably predict syntactic boundaries are weighted higher",
+    "fitness": "accuracy of word and phrase segmentation from speech stream",
+    "boundary": "input frequency, ambient language typology, maturational timing",
+    "tags": [
+      "signal",
+      "noise",
+      "hierarchy",
+      "threshold",
+      "growth",
+      "adaptation",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "sonority-sequencing",
+    "name": "Sonority Sequencing Principle",
+    "domain": "phonology",
+    "unit": "segment in a syllable",
+    "variation": "cross-linguistic differences in permissible consonant clusters",
+    "selection": "clusters violating sonority rise are disfavored or repaired by epenthesis",
+    "fitness": "perceptual recoverability of segment sequences",
+    "boundary": "language-specific sonority scale, morphological pressure, loanword adaptation",
+    "tags": [
+      "hierarchy",
+      "gradient",
+      "boundary",
+      "threshold",
+      "selection-pressure",
+      "cascade"
+    ]
+  },
+  {
+    "id": "fitts-law-targeting",
+    "name": "Fitts's Law Motor Targeting",
+    "domain": "ergonomics",
+    "unit": "aimed movement to a target",
+    "variation": "speed-accuracy tradeoff across target distances and widths",
+    "selection": "movement strategies that minimize time for a required accuracy level",
+    "fitness": "throughput (bits per second of motor information)",
+    "boundary": "target size, distance, limb biomechanics, device input resolution",
+    "tags": [
+      "optimization",
+      "threshold",
+      "signal",
+      "noise",
+      "feedback-loop",
+      "gradient"
+    ]
+  },
+  {
+    "id": "cognitive-load-partitioning",
+    "name": "Cognitive Load Partitioning",
+    "domain": "ergonomics",
+    "unit": "chunk of task information in working memory",
+    "variation": "different distributions of intrinsic, extraneous, and germane load",
+    "selection": "designs that reduce extraneous load free capacity for germane processing",
+    "fitness": "learning gain or task accuracy per unit of mental effort",
+    "boundary": "working memory capacity (~4 chunks), task complexity, expertise level",
+    "tags": [
+      "competition",
+      "threshold",
+      "hierarchy",
+      "signal",
+      "noise",
+      "optimization",
+      "decay"
+    ]
+  },
+  {
+    "id": "alarm-fatigue-habituation",
+    "name": "Alarm Fatigue Habituation",
+    "domain": "ergonomics",
+    "unit": "operator response to an alarm signal",
+    "variation": "alarm frequency, false-positive rate, severity coding",
+    "selection": "high false-alarm rates depress response probability through habituation",
+    "fitness": "correct response rate to true-positive alarms",
+    "boundary": "base rate of real events, alarm discriminability, operator workload",
+    "tags": [
+      "signal",
+      "noise",
+      "decay",
+      "threshold",
+      "feedback-loop",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "affordance-mapping",
+    "name": "Affordance-Control Mapping",
+    "domain": "ergonomics",
+    "unit": "control-display pair",
+    "variation": "spatial, semantic, and cultural mapping conventions",
+    "selection": "mappings congruent with user mental models reduce errors",
+    "fitness": "error rate and response latency on first use",
+    "boundary": "cultural conventions, physical constraints, number of controls",
+    "tags": [
+      "signal",
+      "adaptation",
+      "network",
+      "hierarchy",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "situation-awareness-degradation",
+    "name": "Situation Awareness Degradation",
+    "domain": "ergonomics",
+    "unit": "operator mental model of system state",
+    "variation": "automation level, display update rate, task interruptions",
+    "selection": "out-of-the-loop operators lose state tracking under high automation",
+    "fitness": "accuracy of operator predictions about near-future system behavior",
+    "boundary": "automation transparency, time pressure, task complexity, alerting design",
+    "tags": [
+      "decay",
+      "feedback-loop",
+      "threshold",
+      "signal",
+      "noise",
+      "hierarchy",
+      "cascade"
+    ]
+  },
+  {
+    "id": "intercropping-complementarity",
+    "name": "Intercropping Resource Complementarity",
+    "domain": "agroecology",
+    "unit": "crop species pair in a polyculture",
+    "variation": "root depth stratification, canopy architecture, nutrient demand profiles",
+    "selection": "species combinations that partition niche space outperform monocultures",
+    "fitness": "land equivalent ratio (LER > 1)",
+    "boundary": "soil type, water availability, planting density, allelopathy",
+    "tags": [
+      "cooperation",
+      "competition",
+      "gradient",
+      "network",
+      "adaptation",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "soil-microbiome-feedback",
+    "name": "Plant-Soil Microbiome Feedback",
+    "domain": "agroecology",
+    "unit": "plant-associated microbial community",
+    "variation": "root exudate composition shapes rhizosphere assembly",
+    "selection": "beneficial microbe consortia enhance host nutrient uptake; pathogens accumulate under monoculture",
+    "fitness": "net plant growth response to conditioned soil",
+    "boundary": "crop rotation length, soil organic matter, tillage intensity",
+    "tags": [
+      "feedback-loop",
+      "network",
+      "cooperation",
+      "competition",
+      "decay",
+      "growth",
+      "selection-pressure"
+    ]
+  },
+  {
+    "id": "agroecological-pest-dilution",
+    "name": "Pest Dilution Effect",
+    "domain": "agroecology",
+    "unit": "herbivore-host encounter in a diverse field",
+    "variation": "crop diversity, spatial arrangement, non-host plant density",
+    "selection": "specialist herbivores have lower colonization success in diverse stands",
+    "fitness": "inverse pest load per unit crop yield",
+    "boundary": "pest mobility, host specificity, field scale, natural enemy abundance",
+    "tags": [
+      "signal",
+      "noise",
+      "competition",
+      "network",
+      "threshold",
+      "selection-pressure"
+    ]
+  },
+  {
+    "id": "nutrient-cycling-closure",
+    "name": "Nutrient Cycling Closure",
+    "domain": "agroecology",
+    "unit": "nutrient atom (N, P, K) in the farm system",
+    "variation": "cover crop species, residue management, composting method",
+    "selection": "systems with tighter nutrient loops reduce input dependency",
+    "fitness": "ratio of internally recycled to externally imported nutrients",
+    "boundary": "leaching rate, harvest export, soil buffering capacity, climate",
+    "tags": [
+      "feedback-loop",
+      "decay",
+      "growth",
+      "optimization",
+      "boundary",
+      "cascade"
+    ]
+  },
+  {
+    "id": "agroforestry-microclimate",
+    "name": "Agroforestry Microclimate Buffering",
+    "domain": "agroecology",
+    "unit": "understory crop zone beneath tree canopy",
+    "variation": "tree species, spacing, pruning regime, canopy density",
+    "selection": "shade and windbreak effects buffer temperature and moisture extremes",
+    "fitness": "yield stability across variable climate years",
+    "boundary": "light competition threshold, root zone overlap, latitude, rainfall regime",
+    "tags": [
+      "gradient",
+      "threshold",
+      "cooperation",
+      "oscillation",
+      "boundary",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "ice-core-isotope-proxy",
+    "name": "Ice Core Isotope Thermometry",
+    "domain": "paleoclimatology",
+    "unit": "annual ice layer with delta-18O / delta-D signature",
+    "variation": "isotopic fractionation varies with condensation temperature",
+    "selection": "heavier isotopes preferentially rain out at warmer temperatures",
+    "fitness": "correlation strength between isotope ratio and independent temperature estimates",
+    "boundary": "ice flow distortion, diffusion smoothing, elevation changes, seasonality bias",
+    "tags": [
+      "signal",
+      "noise",
+      "gradient",
+      "decay",
+      "threshold",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "dansgaard-oeschger-oscillation",
+    "name": "Dansgaard-Oeschger Oscillation",
+    "domain": "paleoclimatology",
+    "unit": "abrupt warming event in glacial climate",
+    "variation": "freshwater forcing, sea-ice extent, thermohaline circulation strength",
+    "selection": "system bistability causes rapid flips between stadial and interstadial states",
+    "fitness": "amplitude and regularity of ~1470-year temperature swings",
+    "boundary": "ice sheet volume, ocean salt budget, orbital forcing baseline",
+    "tags": [
+      "oscillation",
+      "threshold",
+      "cascade",
+      "feedback-loop",
+      "boundary",
+      "signal"
+    ]
+  },
+  {
+    "id": "tree-ring-crossdating",
+    "name": "Tree-Ring Crossdating Chronology",
+    "domain": "paleoclimatology",
+    "unit": "annual tree ring width in a cross-dated network",
+    "variation": "growth response to precipitation, temperature, and disturbance varies by site",
+    "selection": "climate signal emerges from averaging over many trees; non-climatic noise cancels",
+    "fitness": "expressed population signal (EPS) of the chronology",
+    "boundary": "series length, sample depth, biological growth trends, site homogeneity",
+    "tags": [
+      "signal",
+      "noise",
+      "network",
+      "gradient",
+      "decay",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "orbital-forcing-milankovitch",
+    "name": "Milankovitch Orbital Forcing",
+    "domain": "paleoclimatology",
+    "unit": "insolation anomaly at critical latitude",
+    "variation": "eccentricity (~100 kyr), obliquity (~41 kyr), precession (~23 kyr) cycles",
+    "selection": "ice sheets grow when summer insolation at 65N falls below ablation threshold",
+    "fitness": "correlation between orbital parameters and ice volume proxy (benthic delta-18O)",
+    "boundary": "CO2 feedback strength, ice albedo, ocean heat transport, continental configuration",
+    "tags": [
+      "oscillation",
+      "threshold",
+      "feedback-loop",
+      "cascade",
+      "gradient",
+      "signal"
+    ]
+  },
+  {
+    "id": "volcanic-sulfate-spike",
+    "name": "Volcanic Sulfate Forcing",
+    "domain": "paleoclimatology",
+    "unit": "stratospheric sulfate aerosol loading from eruption",
+    "variation": "eruption magnitude, latitude, season, sulfur yield",
+    "selection": "large tropical eruptions produce global cooling; high-latitude eruptions have regional effect",
+    "fitness": "magnitude and duration of post-eruption temperature anomaly",
+    "boundary": "background aerosol level, climate sensitivity, ocean thermal inertia, coincident forcing",
+    "tags": [
+      "cascade",
+      "threshold",
+      "decay",
+      "signal",
+      "gradient",
+      "boundary"
+    ]
+  },
+  {
+    "id": "formulaic-speech-preservation",
+    "name": "Formulaic Speech Preservation",
+    "domain": "oral tradition studies",
+    "unit": "formulaic phrase or epithet in oral performance",
+    "variation": "singer substitutes formulas within metrical slots",
+    "selection": "metrically fitting, semantically apt formulas are retained across generations",
+    "fitness": "transmission fidelity of narrative content over retellings",
+    "boundary": "metrical system constraints, performer memory, audience expectations, genre rules",
+    "tags": [
+      "selection-pressure",
+      "competition",
+      "decay",
+      "adaptation",
+      "signal",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "serial-reproduction-drift",
+    "name": "Serial Reproduction Drift",
+    "domain": "oral tradition studies",
+    "unit": "narrative element in a transmission chain",
+    "variation": "reconstructive memory errors at each retelling",
+    "selection": "schema-consistent elements survive; counter-intuitive details are lost or transformed",
+    "fitness": "memorability and cultural relevance of narrative elements",
+    "boundary": "chain length, retelling interval, cultural schema, performer skill",
+    "tags": [
+      "drift",
+      "decay",
+      "selection-pressure",
+      "noise",
+      "feedback-loop",
+      "threshold"
+    ]
+  },
+  {
+    "id": "mnemonic-scaffolding",
+    "name": "Mnemonic Scaffolding in Oral Epics",
+    "domain": "oral tradition studies",
+    "unit": "structural episode in an epic narrative",
+    "variation": "ring composition, parallelism, and spatial memory palace techniques",
+    "selection": "structurally scaffolded sequences resist forgetting better than linear lists",
+    "fitness": "proportion of canonical episodes recalled across performers",
+    "boundary": "epic length, performer training duration, performance frequency, audience correction",
+    "tags": [
+      "hierarchy",
+      "network",
+      "decay",
+      "signal",
+      "adaptation",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "minimal-counterintuitiveness",
+    "name": "Minimal Counterintuitiveness Effect",
+    "domain": "oral tradition studies",
+    "unit": "concept in a transmitted narrative",
+    "variation": "number and type of ontological violations per narrative",
+    "selection": "narratives with a small number of counterintuitive elements are recalled and transmitted best",
+    "fitness": "recall advantage and cultural spread rate",
+    "boundary": "cognitive load, cultural familiarity, number of violations per concept, narrative length",
+    "tags": [
+      "threshold",
+      "signal",
+      "noise",
+      "competition",
+      "selection-pressure",
+      "optimization"
+    ]
+  },
+  {
+    "id": "performance-audience-feedback",
+    "name": "Performance-Audience Co-Selection",
+    "domain": "oral tradition studies",
+    "unit": "performer-audience exchange during oral performance",
+    "variation": "audience reactions (attention, laughter, requests) shape performer emphasis",
+    "selection": "episodes and embellishments that elicit strong audience response are amplified",
+    "fitness": "audience engagement and invitation rate for the performer",
+    "boundary": "audience size, cultural norms of participation, performance context, repertoire breadth",
+    "tags": [
+      "feedback-loop",
+      "selection-pressure",
+      "signal",
+      "adaptation",
+      "cooperation",
+      "competition"
+    ]
+  },
+  {
+    "id": "inflammation-resolution-cascade",
+    "name": "Inflammation Resolution Cascade",
+    "domain": "wound healing",
+    "unit": "pro-resolving lipid mediator (resolvin, protectin, lipoxin)",
+    "variation": "timing and magnitude of omega-3-derived mediator synthesis",
+    "selection": "active resolution signals switch macrophages from M1 to M2 phenotype",
+    "fitness": "speed of neutrophil clearance and transition to proliferative phase",
+    "boundary": "pathogen load, tissue oxygen tension, dietary fatty acid availability, comorbidities",
+    "tags": [
+      "cascade",
+      "threshold",
+      "signal",
+      "feedback-loop",
+      "oscillation",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "myofibroblast-tension-feedback",
+    "name": "Myofibroblast Mechanical Tension Feedback",
+    "domain": "wound healing",
+    "unit": "myofibroblast in granulation tissue",
+    "variation": "extracellular matrix stiffness, TGF-beta concentration, cell contractility",
+    "selection": "stiff matrix sustains myofibroblast activation; soft matrix triggers apoptosis",
+    "fitness": "wound contraction rate balanced against fibrosis risk",
+    "boundary": "wound geometry, collagen crosslinking density, mechanical loading regime",
+    "tags": [
+      "feedback-loop",
+      "threshold",
+      "gradient",
+      "signal",
+      "competition",
+      "boundary"
+    ]
+  },
+  {
+    "id": "angiogenic-sprouting-gradient",
+    "name": "Angiogenic Sprouting Gradient",
+    "domain": "wound healing",
+    "unit": "endothelial tip cell at a vascular sprout",
+    "variation": "VEGF gradient steepness, Notch-Delta lateral inhibition among endothelial cells",
+    "selection": "tip cells with highest VEGF receptor density lead sprouts; stalk cells proliferate behind",
+    "fitness": "vascular density sufficient to oxygenate granulation tissue",
+    "boundary": "hypoxia threshold, pericyte recruitment, pruning by flow-mediated shear stress",
+    "tags": [
+      "gradient",
+      "competition",
+      "signal",
+      "network",
+      "growth",
+      "threshold",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "re-epithelialization-front",
+    "name": "Re-epithelialization Collective Migration",
+    "domain": "wound healing",
+    "unit": "keratinocyte at the wound edge migration front",
+    "variation": "leader cell selection, contact inhibition release, EGF/KGF signaling",
+    "selection": "coordinated sheet migration closes the wound faster than individual cell crawling",
+    "fitness": "time to complete epithelial barrier restoration",
+    "boundary": "wound area, basement membrane integrity, moisture level, infection status",
+    "tags": [
+      "cooperation",
+      "cascade",
+      "signal",
+      "growth",
+      "boundary",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "scar-remodeling-tension",
+    "name": "Scar Remodeling Under Mechanical Load",
+    "domain": "wound healing",
+    "unit": "collagen fiber in the remodeling scar",
+    "variation": "MMP/TIMP balance, mechanical strain orientation, collagen type III to I ratio",
+    "selection": "fibers aligned with principal stress vectors resist degradation; misaligned fibers are cleaved",
+    "fitness": "tensile strength recovery (percentage of unwounded tissue strength)",
+    "boundary": "remodeling duration (months to years), patient age, anatomical site, systemic nutrition",
+    "tags": [
+      "selection-pressure",
+      "gradient",
+      "decay",
+      "growth",
+      "adaptation",
+      "feedback-loop",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "malolactic-fermentation-shift",
+    "name": "Malolactic Fermentation Shift",
+    "domain": "enology",
+    "unit": "malic acid molecule",
+    "variation": "bacterial strain diversity and temperature fluctuation during secondary fermentation",
+    "selection": "lactic acid bacteria outcompete spoilage organisms under controlled pH descent",
+    "fitness": "conversion rate of malic to lactic acid; sensory softening of acidity",
+    "boundary": "pH floor (~3.1), sulfite concentration, temperature range (18–25°C)",
+    "tags": [
+      "threshold",
+      "competition",
+      "phase-transition",
+      "feedback-loop",
+      "decay",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "terroir-mineral-gradient",
+    "name": "Terroir Mineral Gradient",
+    "domain": "enology",
+    "unit": "soil-vine nutrient interface",
+    "variation": "geological heterogeneity in bedrock composition and water table depth",
+    "selection": "root systems preferentially exploit mineral-rich fracture zones",
+    "fitness": "phenolic complexity and site-specific flavor signature in fruit",
+    "boundary": "rootstock compatibility, seasonal rainfall, slope drainage",
+    "tags": [
+      "gradient",
+      "signal",
+      "boundary",
+      "hierarchy",
+      "adaptation",
+      "network"
+    ]
+  },
+  {
+    "id": "tannin-polymerization-cascade",
+    "name": "Tannin Polymerization Cascade",
+    "domain": "enology",
+    "unit": "proanthocyanidin monomer",
+    "variation": "oxidation events and anthocyanin co-pigmentation during barrel aging",
+    "selection": "larger polymers precipitate out; mid-weight polymers persist as stable complexes",
+    "fitness": "mouthfeel smoothness and color stability over aging window",
+    "boundary": "dissolved oxygen rate, barrel toast level, ethanol concentration",
+    "tags": [
+      "cascade",
+      "decay",
+      "threshold",
+      "self-organization",
+      "irreversibility",
+      "growth"
+    ]
+  },
+  {
+    "id": "volatile-acidity-oscillation",
+    "name": "Volatile Acidity Oscillation",
+    "domain": "enology",
+    "unit": "acetic acid concentration",
+    "variation": "competing yeast and acetobacter metabolic byproducts during open-vat fermentation",
+    "selection": "anaerobic conditions suppress acetobacter; aerobic exposure amplifies it",
+    "fitness": "aromatic complexity at low VA; spoilage fault above sensory threshold",
+    "boundary": "oxygen ingress rate, fermentation temperature, must sugar level",
+    "tags": [
+      "oscillation",
+      "competition",
+      "threshold",
+      "feedback-loop",
+      "signal",
+      "noise"
+    ]
+  },
+  {
+    "id": "sur-lie-autolysis-feedback",
+    "name": "Sur Lie Autolysis Feedback",
+    "domain": "enology",
+    "unit": "dead yeast cell (lee)",
+    "variation": "enzymatic breakdown rate varies with yeast strain, temperature, and stirring regime",
+    "selection": "mannoproteins and polysaccharides released into wine improve texture; off-flavors selected against by racking",
+    "fitness": "textural richness and aromatic complexity without reductive faults",
+    "boundary": "duration of lees contact, cellar temperature, reductive potential",
+    "tags": [
+      "feedback-loop",
+      "decay",
+      "cooperation",
+      "growth",
+      "noise",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "greshams-law-debasement",
+    "name": "Gresham's Law Debasement Spiral",
+    "domain": "numismatics",
+    "unit": "circulating coin",
+    "variation": "mints issue coins with varying metal purity under fiscal pressure",
+    "selection": "holders hoard high-purity coins and spend debased ones",
+    "fitness": "circulation velocity of the debased coin; hoarding rate of the pure coin",
+    "boundary": "legal tender laws, detection difficulty, public trust threshold",
+    "tags": [
+      "feedback-loop",
+      "selection-pressure",
+      "signal",
+      "decay",
+      "competition",
+      "threshold"
+    ]
+  },
+  {
+    "id": "seigniorage-extraction",
+    "name": "Seigniorage Extraction Dynamics",
+    "domain": "numismatics",
+    "unit": "minting event",
+    "variation": "sovereign adjusts face-value-to-metal-cost ratio across denominations",
+    "selection": "denominations with highest seigniorage margin dominate production runs",
+    "fitness": "revenue captured per unit of metal consumed",
+    "boundary": "counterfeiting technology, trade partner acceptance, inflation sensitivity",
+    "tags": [
+      "hierarchy",
+      "gradient",
+      "feedback-loop",
+      "selection-pressure",
+      "signal",
+      "boundary"
+    ]
+  },
+  {
+    "id": "coin-trust-token",
+    "name": "Coin as Trust Token",
+    "domain": "numismatics",
+    "unit": "stamped coin bearing sovereign mark",
+    "variation": "iconographic and metallurgical signals vary across issuing authorities",
+    "selection": "merchants accept coins whose marks correlate with reliable weight and purity",
+    "fitness": "geographic range and longevity of acceptance network",
+    "boundary": "verification cost, counterfeiting skill, political stability of issuer",
+    "tags": [
+      "signal",
+      "network",
+      "cooperation",
+      "adaptation",
+      "noise",
+      "boundary"
+    ]
+  },
+  {
+    "id": "bimetallic-ratio-instability",
+    "name": "Bimetallic Ratio Instability",
+    "domain": "numismatics",
+    "unit": "gold-silver exchange pair",
+    "variation": "new mine discoveries and trade flows alter relative metal supply",
+    "selection": "arbitrageurs exploit deviations between official mint ratio and market ratio",
+    "fitness": "speed of metal flow toward the undervalued standard",
+    "boundary": "transportation cost, mint capacity, international ratio divergence",
+    "tags": [
+      "oscillation",
+      "feedback-loop",
+      "gradient",
+      "cascade",
+      "competition",
+      "threshold"
+    ]
+  },
+  {
+    "id": "denominational-ladder",
+    "name": "Denominational Ladder Selection",
+    "domain": "numismatics",
+    "unit": "denomination in a coinage system",
+    "variation": "authorities experiment with denomination spacing and physical size",
+    "selection": "denominations that minimize transaction-making difficulty persist; redundant ones are retired",
+    "fitness": "transactional coverage efficiency per denomination slot",
+    "boundary": "cognitive load on users, pocket portability, production cost ratios",
+    "tags": [
+      "hierarchy",
+      "selection-pressure",
+      "network",
+      "adaptation",
+      "signal",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "acid-paper-degradation-curve",
+    "name": "Acid Paper Degradation Curve",
+    "domain": "archival science",
+    "unit": "cellulose polymer chain in paper",
+    "variation": "acid hydrolysis rate varies with lignin content, humidity, and temperature",
+    "selection": "documents on alkaline or rag paper survive; acidic wood-pulp paper becomes brittle and fragments",
+    "fitness": "readable lifespan measured in decades of accessible content",
+    "boundary": "storage climate, deacidification treatment window, handling frequency",
+    "tags": [
+      "decay",
+      "threshold",
+      "irreversibility",
+      "cascade",
+      "gradient",
+      "boundary"
+    ]
+  },
+  {
+    "id": "archival-appraisal-selection",
+    "name": "Archival Appraisal Selection",
+    "domain": "archival science",
+    "unit": "record series",
+    "variation": "archivists apply differing value criteria (evidential, informational, intrinsic) under resource constraints",
+    "selection": "series judged to have enduring value are accessioned; others are destroyed or left in situ",
+    "fitness": "long-term research utility per unit of storage and preservation cost",
+    "boundary": "institutional mandate, storage capacity, political and cultural bias",
+    "tags": [
+      "selection-pressure",
+      "hierarchy",
+      "scarcity",
+      "adaptation",
+      "signal",
+      "boundary"
+    ]
+  },
+  {
+    "id": "digital-format-obsolescence",
+    "name": "Digital Format Obsolescence Cascade",
+    "domain": "archival science",
+    "unit": "file format / storage medium pair",
+    "variation": "technology vendors introduce new formats and deprecate old ones at varying rates",
+    "selection": "formats with open standards and large user bases persist; proprietary orphans become inaccessible",
+    "fitness": "number of years a bitstream remains interpretable without heroic intervention",
+    "boundary": "migration budget, emulation availability, institutional technical capacity",
+    "tags": [
+      "cascade",
+      "decay",
+      "competition",
+      "network",
+      "threshold",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "finding-aid-discoverability",
+    "name": "Finding Aid Discoverability Gradient",
+    "domain": "archival science",
+    "unit": "descriptive metadata record",
+    "variation": "granularity and vocabulary of description vary across collections and institutions",
+    "selection": "well-described collections attract researchers; poorly described ones remain unused regardless of content value",
+    "fitness": "citation rate and access request frequency per collection",
+    "boundary": "cataloging labor, standardization (EAD/DACS compliance), search infrastructure",
+    "tags": [
+      "gradient",
+      "signal",
+      "noise",
+      "network",
+      "feedback-loop",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "provenance-chain-integrity",
+    "name": "Provenance Chain Integrity",
+    "domain": "archival science",
+    "unit": "custodial transfer event",
+    "variation": "gaps, losses, and undocumented transfers break the chain linking records to their creating context",
+    "selection": "records with unbroken provenance retain evidential authority; broken-chain records lose legal and scholarly weight",
+    "fitness": "trustworthiness and admissibility of the record as evidence",
+    "boundary": "documentation practice at each transfer, war and disaster disruption, institutional continuity",
+    "tags": [
+      "signal",
+      "decay",
+      "boundary",
+      "irreversibility",
+      "hierarchy",
+      "cooperation"
+    ]
+  },
+  {
+    "id": "magma-chamber-recharge",
+    "name": "Magma Chamber Recharge Cycle",
+    "domain": "volcanology",
+    "unit": "magma batch injected into a shallow reservoir",
+    "variation": "episodic mafic recharge events vary in volume, temperature, and volatile content",
+    "selection": "recharge events that destabilize the thermal and compositional equilibrium trigger eruptions; insufficient ones are absorbed",
+    "fitness": "eruption probability per recharge event",
+    "boundary": "crustal stress regime, crystal mush rheology, volatile saturation pressure",
+    "tags": [
+      "threshold",
+      "cascade",
+      "oscillation",
+      "feedback-loop",
+      "growth",
+      "phase-transition"
+    ]
+  },
+  {
+    "id": "plinian-column-collapse",
+    "name": "Plinian Column Collapse Dynamics",
+    "domain": "volcanology",
+    "unit": "eruption column segment",
+    "variation": "fluctuations in mass eruption rate, vent geometry, and atmospheric entrainment",
+    "selection": "columns maintaining buoyancy rise convectively; those exceeding density threshold collapse into pyroclastic density currents",
+    "fitness": "maximum column height sustained before collapse",
+    "boundary": "mass eruption rate, atmospheric stratification, vent radius",
+    "tags": [
+      "threshold",
+      "cascade",
+      "phase-transition",
+      "feedback-loop",
+      "gradient",
+      "boundary"
+    ]
+  },
+  {
+    "id": "tephra-dispersal-sorting",
+    "name": "Tephra Dispersal Sorting",
+    "domain": "volcanology",
+    "unit": "tephra clast",
+    "variation": "particle size, density, and shape interact with wind field and column height",
+    "selection": "atmospheric transport sorts clasts by settling velocity; coarse material falls proximal, fine ash travels hemispheric distances",
+    "fitness": "deposit thickness at a given distance from vent",
+    "boundary": "eruption column height, wind speed and shear, clast density range",
+    "tags": [
+      "gradient",
+      "self-organization",
+      "signal",
+      "noise",
+      "hierarchy",
+      "boundary"
+    ]
+  },
+  {
+    "id": "volcanic-edifice-instability",
+    "name": "Volcanic Edifice Instability",
+    "domain": "volcanology",
+    "unit": "gravitationally loaded slope sector",
+    "variation": "hydrothermal alteration weakens rock; magma intrusion and seismicity vary stress distribution",
+    "selection": "sectors exceeding shear strength threshold fail as debris avalanches; stable sectors persist and steepen",
+    "fitness": "inverse probability of sector collapse per century",
+    "boundary": "alteration depth, pore-fluid pressure, basal friction angle, seismic trigger frequency",
+    "tags": [
+      "threshold",
+      "decay",
+      "cascade",
+      "irreversibility",
+      "feedback-loop",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "lava-flow-channelization",
+    "name": "Lava Flow Channelization",
+    "domain": "volcanology",
+    "unit": "active lava lobe",
+    "variation": "effusion rate fluctuations, slope changes, and cooling-crust formation create competing flow paths",
+    "selection": "paths with highest flux maintain thermal viability; starved branches crust over and solidify",
+    "fitness": "flow length achieved before solidification",
+    "boundary": "effusion rate, ground slope, ambient temperature, lava viscosity",
+    "tags": [
+      "competition",
+      "feedback-loop",
+      "self-organization",
+      "network",
+      "threshold",
+      "gradient"
+    ]
+  },
+  {
+    "id": "common-mycorrhizal-network",
+    "name": "Common Mycorrhizal Network",
+    "domain": "mycorrhizal ecology",
+    "unit": "hyphal connection between two plant roots",
+    "variation": "fungal species differ in hyphal reach, nutrient transfer efficiency, and host preference",
+    "selection": "connections that yield reciprocal carbon-nutrient exchange persist; parasitic links are sanctioned by reduced carbon allocation",
+    "fitness": "net nutrient gain per unit carbon invested by both partners",
+    "boundary": "soil disturbance, host diversity, phosphorus availability, fungal inoculum density",
+    "tags": [
+      "network",
+      "cooperation",
+      "feedback-loop",
+      "signal",
+      "adaptation",
+      "selection-pressure"
+    ]
+  },
+  {
+    "id": "phosphorus-foraging-tradeoff",
+    "name": "Phosphorus Foraging Tradeoff",
+    "domain": "mycorrhizal ecology",
+    "unit": "extraradical hypha exploring soil",
+    "variation": "hyphal branching strategy varies from extensive (long-distance) to intensive (localized patch exploitation)",
+    "selection": "in P-depleted soils, extensive networks outperform; in patchy soils, intensive branching captures hotspots",
+    "fitness": "phosphorus delivered to host per unit hyphal biomass",
+    "boundary": "soil P heterogeneity, carbon cost of hyphal growth, competing root foraging strategies",
+    "tags": [
+      "gradient",
+      "competition",
+      "adaptation",
+      "network",
+      "selection-pressure",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "mycorrhizal-succession-filter",
+    "name": "Mycorrhizal Succession Filter",
+    "domain": "mycorrhizal ecology",
+    "unit": "mycorrhizal fungal species in a plant community",
+    "variation": "early-successional ruderals vs. late-successional stress-tolerant fungi colonize roots at different stages",
+    "selection": "host plant community composition shifts, favoring fungi matched to dominant plant strategies",
+    "fitness": "persistence and sporulation rate across successional stages",
+    "boundary": "disturbance frequency, soil organic matter accumulation, host specificity constraints",
+    "tags": [
+      "selection-pressure",
+      "hierarchy",
+      "adaptation",
+      "competition",
+      "feedback-loop",
+      "growth"
+    ]
+  },
+  {
+    "id": "source-sink-carbon-allocation",
+    "name": "Source-Sink Carbon Allocation",
+    "domain": "mycorrhizal ecology",
+    "unit": "photosynthate carbon packet allocated belowground",
+    "variation": "host plants vary carbon allocation to fungal partners based on nutrient return and light availability",
+    "selection": "fungi delivering more phosphorus and nitrogen receive preferential carbon; low-return partners are starved",
+    "fitness": "proportional carbon share captured by a fungal partner",
+    "boundary": "host photosynthetic capacity, number of competing fungal partners, soil nutrient status",
+    "tags": [
+      "feedback-loop",
+      "cooperation",
+      "competition",
+      "signal",
+      "gradient",
+      "selection-pressure"
+    ]
+  },
+  {
+    "id": "ericoid-mycorrhizal-detox",
+    "name": "Ericoid Mycorrhizal Detoxification",
+    "domain": "mycorrhizal ecology",
+    "unit": "metal ion sequestered by fungal melanin or chelation",
+    "variation": "fungal strains differ in heavy-metal tolerance and organic acid exudation",
+    "selection": "in contaminated or acidic soils, tolerant fungi enable host survival where non-mycorrhizal plants fail",
+    "fitness": "host biomass in toxic soil relative to non-mycorrhizal controls",
+    "boundary": "metal concentration, soil pH, organic matter availability, fungal strain genetic diversity",
+    "tags": [
+      "adaptation",
+      "boundary",
+      "cooperation",
+      "threshold",
+      "signal",
+      "selection-pressure"
+    ]
+  },
+  {
+    "id": "glacial-surge-oscillation",
+    "name": "Glacial Surge Oscillation",
+    "domain": "glaciology",
+    "unit": "glacier flow unit (surge-type glacier)",
+    "variation": "basal water pressure fluctuates with subglacial drainage system evolution",
+    "selection": "linked-cavity drainage enables surge onset; channelized drainage terminates surge by lowering water pressure",
+    "fitness": "surge velocity magnitude and duration before quiescent phase resumes",
+    "boundary": "bed slope, ice thickness, geothermal heat flux, precipitation rate",
+    "tags": [
+      "oscillation",
+      "threshold",
+      "phase-transition",
+      "feedback-loop",
+      "cascade",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "iceberg-calving-threshold",
+    "name": "Iceberg Calving Threshold",
+    "domain": "glaciology",
+    "unit": "crevasse at glacier terminus",
+    "variation": "surface and basal crevasses propagate at rates dependent on ice temperature, water depth, and strain rate",
+    "selection": "crevasses penetrating full ice thickness trigger calving events; shallow crevasses heal or stabilize",
+    "fitness": "calving flux as fraction of total ice mass loss",
+    "boundary": "ice cliff height, fjord water temperature, tidal forcing amplitude, meltwater-driven hydrofracture",
+    "tags": [
+      "threshold",
+      "cascade",
+      "irreversibility",
+      "feedback-loop",
+      "boundary",
+      "decay"
+    ]
+  },
+  {
+    "id": "moraine-formation-record",
+    "name": "Moraine Formation as Climate Record",
+    "domain": "glaciology",
+    "unit": "sediment ridge deposited at glacier margin",
+    "variation": "glacier advance-retreat cycles produce moraines of varying size and composition depending on debris supply and climate forcing",
+    "selection": "moraines from sustained stillstands are large and well-preserved; brief pauses leave subtle or overridden ridges",
+    "fitness": "morphological preservation and datable signal quality over millennia",
+    "boundary": "subsequent glacial override, fluvial erosion, vegetation stabilization",
+    "tags": [
+      "signal",
+      "noise",
+      "decay",
+      "oscillation",
+      "boundary",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "isostatic-rebound-lag",
+    "name": "Isostatic Rebound Lag",
+    "domain": "glaciology",
+    "unit": "crustal block beneath former ice sheet",
+    "variation": "mantle viscosity and ice-load history vary regionally, producing differential rebound rates",
+    "selection": "regions with thicker past ice loads and lower mantle viscosity rebound faster; thin-load peripheries subside",
+    "fitness": "uplift rate in mm/yr relative to sea-level equilibrium",
+    "boundary": "mantle viscosity, lithospheric flexural rigidity, time since deglaciation, sediment loading",
+    "tags": [
+      "gradient",
+      "feedback-loop",
+      "oscillation",
+      "cascade",
+      "boundary",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "firn-densification-feedback",
+    "name": "Firn Densification Feedback",
+    "domain": "glaciology",
+    "unit": "firn layer transitioning to glacial ice",
+    "variation": "accumulation rate, surface temperature, and meltwater percolation vary the densification pathway",
+    "selection": "layers that reach pore close-off trap climate signals in bubbles; layers disrupted by melt lose stratigraphic integrity",
+    "fitness": "fidelity of trapped atmospheric gas record per unit depth",
+    "boundary": "surface melt frequency, accumulation rate, mean annual temperature, impurity load",
+    "tags": [
+      "feedback-loop",
+      "signal",
+      "noise",
+      "threshold",
+      "growth",
+      "boundary"
+    ]
+  },
+  {
+    "id": "escapement-regulation",
+    "name": "Escapement Regulation",
+    "domain": "horology",
+    "unit": "oscillation cycle of the balance wheel",
+    "variation": "amplitude and frequency drift from temperature, position, and mainspring torque",
+    "selection": "cycles closer to the target period dominate timekeeping accuracy",
+    "fitness": "inverse deviation from nominal beat rate",
+    "boundary": "friction, thermal expansion coefficients, lubricant viscosity",
+    "tags": [
+      "oscillation",
+      "precision",
+      "calibration",
+      "feedback-loop",
+      "decay",
+      "threshold"
+    ]
+  },
+  {
+    "id": "gear-train-transmission",
+    "name": "Gear Train Power Transmission",
+    "domain": "horology",
+    "unit": "meshing gear pair",
+    "variation": "tooth profile geometry, module, pressure angle",
+    "selection": "configurations minimizing backlash and friction losses propagate through the train",
+    "fitness": "torque delivery efficiency to the escapement",
+    "boundary": "material fatigue, lubrication regime, manufacturing tolerances",
+    "tags": [
+      "cascade",
+      "precision",
+      "network",
+      "friction",
+      "coupling",
+      "decay"
+    ]
+  },
+  {
+    "id": "isochronism-pursuit",
+    "name": "Isochronism Pursuit",
+    "domain": "horology",
+    "unit": "hairspring-balance assembly",
+    "variation": "spring stiffness curves, overcoil geometry, terminal curve shaping",
+    "selection": "assemblies whose period is invariant to amplitude are retained",
+    "fitness": "constancy of period across amplitude range",
+    "boundary": "material elasticity limits, positional error, magnetism",
+    "tags": [
+      "oscillation",
+      "calibration",
+      "invariance",
+      "precision",
+      "feedback-loop",
+      "gradient"
+    ]
+  },
+  {
+    "id": "mainspring-energy-storage",
+    "name": "Mainspring Energy Storage and Delivery",
+    "domain": "horology",
+    "unit": "coil of the mainspring barrel",
+    "variation": "alloy composition, thickness taper, barrel geometry",
+    "selection": "springs delivering more constant torque over the power reserve are preferred",
+    "fitness": "flatness of the torque-vs-turns curve",
+    "boundary": "elastic limit, barrel volume, set fatigue over time",
+    "tags": [
+      "decay",
+      "gradient",
+      "threshold",
+      "calibration",
+      "cascade",
+      "growth"
+    ]
+  },
+  {
+    "id": "temperature-compensation-balance",
+    "name": "Temperature-Compensated Balance",
+    "domain": "horology",
+    "unit": "bimetallic or alloy balance wheel segment",
+    "variation": "laminate layering, alloy ratios (Invar, Elinvar, Glucydur)",
+    "selection": "composites whose net thermal expansion cancels hairspring stiffness drift survive testing",
+    "fitness": "rate stability across 8-38 C range",
+    "boundary": "second-order thermal coefficients, magnetic susceptibility, aging",
+    "tags": [
+      "calibration",
+      "feedback-loop",
+      "precision",
+      "compensation",
+      "gradient",
+      "threshold"
+    ]
+  },
+  {
+    "id": "vine-training-architecture",
+    "name": "Vine Training System Architecture",
+    "domain": "viticulture",
+    "unit": "trained vine on a trellis",
+    "variation": "cordon length, spur vs. cane pruning, shoot positioning angle",
+    "selection": "architectures maximizing sunlight interception while limiting disease pressure persist",
+    "fitness": "fruit-zone microclimate quality (light, airflow, humidity)",
+    "boundary": "vigor, slope, wind exposure, labor cost",
+    "tags": [
+      "network",
+      "growth",
+      "competition",
+      "gradient",
+      "mapping",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "rootstock-scion-compatibility",
+    "name": "Rootstock-Scion Compatibility",
+    "domain": "viticulture",
+    "unit": "graft union between rootstock and scion",
+    "variation": "rootstock genotype, scion cultivar, grafting technique",
+    "selection": "unions with strong vascular continuity and balanced vigor dominate replanting decisions",
+    "fitness": "vine longevity times cumulative fruit quality",
+    "boundary": "soil pathogens (phylloxera, nematodes), salinity, drought tolerance",
+    "tags": [
+      "cooperation",
+      "coupling",
+      "threshold",
+      "competition",
+      "network",
+      "growth"
+    ]
+  },
+  {
+    "id": "canopy-microclimate-regulation",
+    "name": "Canopy Microclimate Regulation",
+    "domain": "viticulture",
+    "unit": "leaf layer in the canopy",
+    "variation": "leaf removal intensity, shoot thinning, hedging height",
+    "selection": "canopy densities balancing photosynthesis against bunch rot are favored",
+    "fitness": "sugar accumulation rate minus disease incidence",
+    "boundary": "water availability, heat stress thresholds, minimum leaf area for ripening",
+    "tags": [
+      "gradient",
+      "feedback-loop",
+      "threshold",
+      "competition",
+      "decay",
+      "calibration"
+    ]
+  },
+  {
+    "id": "phenological-tracking",
+    "name": "Phenological Stage Tracking",
+    "domain": "viticulture",
+    "unit": "growing-degree-day accumulation window",
+    "variation": "vintage-to-vintage temperature and precipitation patterns",
+    "selection": "harvest dates aligned to optimal sugar-acid balance yield higher wine scores",
+    "fitness": "berry composition at harvest (Brix, pH, phenolic maturity)",
+    "boundary": "frost dates, heat spikes, rain at harvest, regulatory harvest windows",
+    "tags": [
+      "oscillation",
+      "threshold",
+      "mapping",
+      "calibration",
+      "gradient",
+      "precision"
+    ]
+  },
+  {
+    "id": "terroir-expression",
+    "name": "Terroir Expression Through Soil-Vine Interaction",
+    "domain": "viticulture",
+    "unit": "vineyard plot (lieu-dit)",
+    "variation": "soil mineral composition, drainage, slope aspect, elevation",
+    "selection": "plots producing wines with distinctive and repeatable sensory signatures are classified higher",
+    "fitness": "sensory distinctiveness reproducible across vintages",
+    "boundary": "winemaking intervention, clone uniformity, irrigation masking",
+    "tags": [
+      "mapping",
+      "gradient",
+      "feedback-loop",
+      "network",
+      "precision",
+      "invariance"
+    ]
+  },
+  {
+    "id": "signature-gathering",
+    "name": "Signature Gathering and Imposition",
+    "domain": "bookbinding",
+    "unit": "folded signature (quire)",
+    "variation": "number of leaves per signature, imposition layout, fold sequence",
+    "selection": "configurations yielding correct page order with minimal waste and even bulk are chosen",
+    "fitness": "page-sequence accuracy times paper utilization rate",
+    "boundary": "press sheet size, paper thickness, grain direction constraints",
+    "tags": [
+      "mapping",
+      "cascade",
+      "precision",
+      "network",
+      "calibration",
+      "distortion"
+    ]
+  },
+  {
+    "id": "adhesive-spine-bond",
+    "name": "Adhesive Spine Bond Integrity",
+    "domain": "bookbinding",
+    "unit": "glue line between text block and spine",
+    "variation": "adhesive type (PVA, hot-melt, animal glue), application thickness, notching depth",
+    "selection": "bonds surviving repeated opening cycles without page pull-out are retained",
+    "fitness": "page-pull strength times spine flexibility",
+    "boundary": "temperature range, humidity cycling, paper surface sizing",
+    "tags": [
+      "coupling",
+      "decay",
+      "threshold",
+      "feedback-loop",
+      "friction",
+      "calibration"
+    ]
+  },
+  {
+    "id": "spine-flexibility-design",
+    "name": "Spine Flexibility and Drape",
+    "domain": "bookbinding",
+    "unit": "spine construction (hollow-back, tight-back, semi-flexible)",
+    "variation": "liner material, joint width, rounding and backing radius",
+    "selection": "spines allowing flat opening at any page without cracking dominate fine binding",
+    "fitness": "opening angle range times binding durability",
+    "boundary": "text block thickness, paper stiffness, cover board weight",
+    "tags": [
+      "gradient",
+      "coupling",
+      "threshold",
+      "friction",
+      "calibration",
+      "oscillation"
+    ]
+  },
+  {
+    "id": "paper-grain-alignment",
+    "name": "Paper Grain Direction Alignment",
+    "domain": "bookbinding",
+    "unit": "sheet of paper relative to the spine",
+    "variation": "grain-long vs. grain-short orientation, fiber type, basis weight",
+    "selection": "grain-parallel-to-spine sheets resist cockling and turn more easily",
+    "fitness": "dimensional stability under humidity change times page-turn ease",
+    "boundary": "stock availability, cost, sheet yield from parent roll",
+    "tags": [
+      "distortion",
+      "mapping",
+      "gradient",
+      "threshold",
+      "precision",
+      "friction"
+    ]
+  },
+  {
+    "id": "sewing-structure-tension",
+    "name": "Sewing Structure and Thread Tension",
+    "domain": "bookbinding",
+    "unit": "sewing station (kettle stitch or tape attachment point)",
+    "variation": "thread material, stitch pattern (herringbone, long, link), tension per station",
+    "selection": "structures distributing stress evenly across the spine without swelling survive use",
+    "fitness": "tensile uniformity across stations times swell control",
+    "boundary": "number of signatures, thread bulk, station spacing",
+    "tags": [
+      "network",
+      "cascade",
+      "calibration",
+      "coupling",
+      "feedback-loop",
+      "precision"
+    ]
+  },
+  {
+    "id": "helmholtz-resonator-tuning",
+    "name": "Helmholtz Resonator Tuning",
+    "domain": "acoustics",
+    "unit": "cavity-neck resonator assembly",
+    "variation": "cavity volume, neck length, neck cross-section area",
+    "selection": "geometries whose resonant frequency matches the target absorption band are deployed",
+    "fitness": "absorption coefficient at the design frequency",
+    "boundary": "available volume, neck viscous losses, coupling to room modes",
+    "tags": [
+      "oscillation",
+      "calibration",
+      "threshold",
+      "coupling",
+      "feedback-loop",
+      "precision"
+    ]
+  },
+  {
+    "id": "standing-wave-mode-structure",
+    "name": "Standing Wave Modal Structure",
+    "domain": "acoustics",
+    "unit": "resonant mode in an enclosed space",
+    "variation": "room dimensions, surface impedance, source and receiver positions",
+    "selection": "mode distributions with even spacing and minimal clustering produce flatter response",
+    "fitness": "inverse variance of mode spacing (Schroeder diffuseness)",
+    "boundary": "room volume, lowest usable frequency, structural constraints",
+    "tags": [
+      "oscillation",
+      "network",
+      "mapping",
+      "gradient",
+      "distortion",
+      "competition"
+    ]
+  },
+  {
+    "id": "porous-absorber-performance",
+    "name": "Porous Absorber Performance",
+    "domain": "acoustics",
+    "unit": "fibrous or open-cell layer element",
+    "variation": "flow resistivity, thickness, air gap depth, surface treatment",
+    "selection": "configurations maximizing broadband absorption per unit thickness are specified",
+    "fitness": "noise reduction coefficient (NRC) per centimeter of depth",
+    "boundary": "weight, flammability rating, moisture resistance, cost",
+    "tags": [
+      "gradient",
+      "decay",
+      "threshold",
+      "cascade",
+      "friction",
+      "calibration"
+    ]
+  },
+  {
+    "id": "diffraction-edge-scattering",
+    "name": "Diffraction and Edge Scattering",
+    "domain": "acoustics",
+    "unit": "wavefront segment encountering an edge or aperture",
+    "variation": "edge geometry, wavelength-to-obstacle ratio, angle of incidence",
+    "selection": "diffracted energy fills shadow zones; designs exploiting this improve coverage uniformity",
+    "fitness": "spatial uniformity of sound pressure level in the coverage area",
+    "boundary": "frequency range, obstacle size relative to wavelength, phase coherence",
+    "tags": [
+      "distortion",
+      "mapping",
+      "gradient",
+      "cascade",
+      "network",
+      "threshold"
+    ]
+  },
+  {
+    "id": "psychoacoustic-masking",
+    "name": "Psychoacoustic Masking",
+    "domain": "acoustics",
+    "unit": "critical band on the basilar membrane",
+    "variation": "masker level, frequency separation, temporal offset",
+    "selection": "signals falling within the masking threshold of a louder signal become inaudible",
+    "fitness": "signal-to-mask ratio (audibility of the target tone)",
+    "boundary": "absolute threshold of hearing, critical bandwidth, temporal integration window",
+    "tags": [
+      "threshold",
+      "competition",
+      "decay",
+      "gradient",
+      "feedback-loop",
+      "mapping"
+    ]
+  },
+  {
+    "id": "projection-distortion-tradeoff",
+    "name": "Map Projection Distortion Trade-off",
+    "domain": "cartography",
+    "unit": "map projection transformation",
+    "variation": "projection family (conformal, equal-area, equidistant, compromise), center point, standard parallels",
+    "selection": "projections minimizing the task-critical distortion type are adopted",
+    "fitness": "inverse of maximum Tissot indicatrix deformation for the property of interest",
+    "boundary": "cannot simultaneously preserve area, shape, distance, and direction",
+    "tags": [
+      "distortion",
+      "mapping",
+      "calibration",
+      "gradient",
+      "threshold",
+      "precision"
+    ]
+  },
+  {
+    "id": "cartographic-generalization",
+    "name": "Cartographic Generalization",
+    "domain": "cartography",
+    "unit": "map feature (line, polygon, point symbol)",
+    "variation": "simplification algorithm, tolerance parameter, feature importance weight",
+    "selection": "generalizations preserving spatial relationships and legibility at the target scale survive review",
+    "fitness": "information retention times visual clarity at output scale",
+    "boundary": "minimum symbol size, overlap constraints, topological consistency",
+    "tags": [
+      "decay",
+      "threshold",
+      "mapping",
+      "precision",
+      "cascade",
+      "distortion"
+    ]
+  },
+  {
+    "id": "thematic-classification-scheme",
+    "name": "Thematic Map Classification Scheme",
+    "domain": "cartography",
+    "unit": "class break in a choropleth legend",
+    "variation": "classification method (Jenks, quantile, equal interval, standard deviation), number of classes",
+    "selection": "schemes maximizing within-class homogeneity and between-class separation are preferred",
+    "fitness": "goodness of variance fit (GVF) times reader interpretation accuracy",
+    "boundary": "number of perceptually distinguishable colors, data distribution skew, legend space",
+    "tags": [
+      "threshold",
+      "gradient",
+      "calibration",
+      "mapping",
+      "competition",
+      "precision"
+    ]
+  },
+  {
+    "id": "scale-dependent-representation",
+    "name": "Scale-Dependent Feature Representation",
+    "domain": "cartography",
+    "unit": "feature representation rule at a given map scale",
+    "variation": "scale thresholds for symbology changes, aggregation rules, label density",
+    "selection": "rules producing readable maps without information overload at each zoom level persist",
+    "fitness": "task completion speed for map readers at the target scale",
+    "boundary": "display resolution, rendering performance, data volume",
+    "tags": [
+      "cascade",
+      "threshold",
+      "mapping",
+      "gradient",
+      "network",
+      "decay"
+    ]
+  },
+  {
+    "id": "coordinate-reference-system-transformation",
+    "name": "Coordinate Reference System Transformation",
+    "domain": "cartography",
+    "unit": "datum transformation between coordinate reference systems",
+    "variation": "transformation method (Molodensky, Bursa-Wolf, grid shift), parameter set",
+    "selection": "transformations minimizing positional error across the region of interest are adopted",
+    "fitness": "inverse root-mean-square positional error at control points",
+    "boundary": "control point density, tectonic plate motion, epoch mismatch",
+    "tags": [
+      "distortion",
+      "precision",
+      "calibration",
+      "mapping",
+      "gradient",
+      "threshold"
+    ]
+  },
+  {
+    "id": "fragrance-accord-balance",
+    "name": "Fragrance Accord Balance",
+    "domain": "perfumery",
+    "unit": "aromatic compound",
+    "variation": "blending ratios of top, heart, and base notes",
+    "selection": "olfactory harmony perceived by evaluators; dissonant combinations rejected",
+    "fitness": "coherence of the emergent scent gestalt (no single note dominates)",
+    "boundary": "volatility windows, solubility limits, regulatory restrictions on ingredients",
+    "tags": [
+      "combinatorics",
+      "gradient",
+      "threshold",
+      "signal",
+      "harmony",
+      "emergence"
+    ]
+  },
+  {
+    "id": "olfactory-fatigue-adaptation",
+    "name": "Olfactory Fatigue & Receptor Adaptation",
+    "domain": "perfumery",
+    "unit": "olfactory receptor neuron",
+    "variation": "continuous exposure to a single odorant at varying concentrations",
+    "selection": "receptors that desensitize fastest drop out of the perceived scent profile",
+    "fitness": "sustained perceptual salience over time",
+    "boundary": "receptor saturation threshold, recovery period, ambient odor interference",
+    "tags": [
+      "decay",
+      "threshold",
+      "feedback-loop",
+      "signal",
+      "adaptation",
+      "saturation"
+    ]
+  },
+  {
+    "id": "fixative-evaporation-cascade",
+    "name": "Fixative-Mediated Evaporation Cascade",
+    "domain": "perfumery",
+    "unit": "volatile molecule in a fragrance matrix",
+    "variation": "molecular weight and vapor pressure differences among ingredients",
+    "selection": "fixatives retard light-molecule evaporation, reshaping the temporal scent profile",
+    "fitness": "longevity and sillage of the fragrance on skin",
+    "boundary": "skin pH, ambient temperature, fixative-to-volatile ratio",
+    "tags": [
+      "cascade",
+      "decay",
+      "sequence",
+      "gradient",
+      "constraint",
+      "interaction"
+    ]
+  },
+  {
+    "id": "perfume-pyramid-sequencing",
+    "name": "Perfume Pyramid Temporal Sequencing",
+    "domain": "perfumery",
+    "unit": "note layer (top / heart / base)",
+    "variation": "ingredient volatility and concentration within each layer",
+    "selection": "transitions between layers must be smooth; jarring shifts penalized by evaluators",
+    "fitness": "perceived narrative arc from opening to dry-down",
+    "boundary": "evaporation kinetics, skin chemistry, ingredient cost constraints",
+    "tags": [
+      "sequence",
+      "gradient",
+      "transition",
+      "cascade",
+      "temporal",
+      "composition"
+    ]
+  },
+  {
+    "id": "scent-molecule-competition",
+    "name": "Scent Molecule Receptor Competition",
+    "domain": "perfumery",
+    "unit": "odorant-receptor binding event",
+    "variation": "diverse odorant molecules competing for overlapping receptor types",
+    "selection": "higher-affinity molecules mask lower-affinity ones at shared receptors",
+    "fitness": "perceptual dominance in the blended scent",
+    "boundary": "receptor specificity, concentration ratios, cross-adaptation effects",
+    "tags": [
+      "competition",
+      "signal",
+      "threshold",
+      "masking",
+      "binding",
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "aerial-shell-burst-timing",
+    "name": "Aerial Shell Burst Timing",
+    "domain": "pyrotechnics",
+    "unit": "pyrotechnic shell / time-delay fuse",
+    "variation": "fuse burn rate, shell caliber, lift charge intensity",
+    "selection": "shells that burst at incorrect altitude are discarded from choreography",
+    "fitness": "detonation at the designed apex altitude within a timing window",
+    "boundary": "wind speed, fuse composition tolerances, mortar tube diameter",
+    "tags": [
+      "sequence",
+      "threshold",
+      "cascade",
+      "timing",
+      "precision",
+      "constraint"
+    ]
+  },
+  {
+    "id": "pyrotechnic-color-chemistry",
+    "name": "Pyrotechnic Color Chemistry",
+    "domain": "pyrotechnics",
+    "unit": "metal-salt fuel grain",
+    "variation": "choice of metal salt (strontium, barium, copper) and oxidizer ratio",
+    "selection": "emission spectra evaluated for purity; muddy colors rejected",
+    "fitness": "spectral purity and luminous intensity of the emitted color",
+    "boundary": "flame temperature range, oxidizer compatibility, toxic-byproduct regulations",
+    "tags": [
+      "combinatorics",
+      "signal",
+      "threshold",
+      "spectrum",
+      "composition",
+      "constraint"
+    ]
+  },
+  {
+    "id": "combustion-propagation-front",
+    "name": "Combustion Propagation Front",
+    "domain": "pyrotechnics",
+    "unit": "reactive grain boundary in a pressed composition",
+    "variation": "particle size distribution, packing density, binder proportion",
+    "selection": "burn fronts that self-extinguish or deflagrate uncontrolled are failures",
+    "fitness": "stable, predictable linear burn rate",
+    "boundary": "ambient pressure, moisture content, confinement geometry",
+    "tags": [
+      "cascade",
+      "gradient",
+      "feedback-loop",
+      "propagation",
+      "stability",
+      "threshold"
+    ]
+  },
+  {
+    "id": "multi-break-shell-choreography",
+    "name": "Multi-Break Shell Choreography",
+    "domain": "pyrotechnics",
+    "unit": "nested break compartment within a compound shell",
+    "variation": "delay-fuse lengths and star compositions per compartment",
+    "selection": "sequences that produce visually incoherent patterns are cut from shows",
+    "fitness": "audience-perceived aesthetic quality of the multi-stage burst",
+    "boundary": "shell mass limits, transport safety regulations, synchronization tolerance",
+    "tags": [
+      "sequence",
+      "hierarchy",
+      "timing",
+      "cascade",
+      "composition",
+      "emergence"
+    ]
+  },
+  {
+    "id": "star-composition-oxidizer-balance",
+    "name": "Star Composition & Oxidizer Balance",
+    "domain": "pyrotechnics",
+    "unit": "pyrotechnic star pellet",
+    "variation": "fuel-to-oxidizer ratio, mesh size of metal powders, doping agents",
+    "selection": "stars that fail to ignite at shell-burst temperature are eliminated",
+    "fitness": "brightness, color saturation, and burn duration of individual stars",
+    "boundary": "ignition temperature window, humidity sensitivity, chlorate-perchlorate safety margins",
+    "tags": [
+      "threshold",
+      "gradient",
+      "combinatorics",
+      "competition",
+      "stability",
+      "composition"
+    ]
+  },
+  {
+    "id": "pin-tumbler-shear-line",
+    "name": "Pin Tumbler Shear-Line Alignment",
+    "domain": "lock-picking / security engineering",
+    "unit": "pin stack (driver + key pin) in a lock cylinder",
+    "variation": "manufacturing tolerances create slight differences in pin binding order",
+    "selection": "only the pin order that allows sequential setting reaches the shear line",
+    "fitness": "all pin stacks aligned at shear line simultaneously → cylinder rotates",
+    "boundary": "number of pins, tolerance precision, security pins (spools, serrated)",
+    "tags": [
+      "sequence",
+      "threshold",
+      "constraint",
+      "precision",
+      "feedback-loop",
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "key-bitting-combinatorial-space",
+    "name": "Key Bitting Combinatorial Space",
+    "domain": "lock-picking / security engineering",
+    "unit": "cut depth at each bitting position on a key",
+    "variation": "number of depth increments × number of bitting positions",
+    "selection": "MACS (Maximum Adjacent Cut Specification) eliminates physically impossible keys",
+    "fitness": "effective key differs — total usable unique combinations",
+    "boundary": "number of pin positions, depth increments, MACS constraints, master-keying entropy loss",
+    "tags": [
+      "combinatorics",
+      "constraint",
+      "entropy",
+      "enumeration",
+      "security",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "security-pin-false-set",
+    "name": "Security Pin False-Set Feedback",
+    "domain": "lock-picking / security engineering",
+    "unit": "spool or serrated security pin under tension",
+    "variation": "geometry of security pin (spool, mushroom, serrated) and applied torque",
+    "selection": "counter-rotation feedback distinguishes standard pins from security pins",
+    "fitness": "picker's ability to decode the false set and adjust tension",
+    "boundary": "number of security pins, torque sensitivity, tool geometry",
+    "tags": [
+      "feedback-loop",
+      "signal",
+      "deception",
+      "threshold",
+      "adaptation",
+      "sequence"
+    ]
+  },
+  {
+    "id": "bypass-attack-surface",
+    "name": "Bypass Attack Surface Analysis",
+    "domain": "lock-picking / security engineering",
+    "unit": "non-key entry vector (shim, comb, bump, decode)",
+    "variation": "attack methods exploit different mechanical assumptions of the lock design",
+    "selection": "attacks that circumvent the intended key-pin interface entirely",
+    "fitness": "speed and reliability of entry without the correct key",
+    "boundary": "lock design generation, anti-bypass features, attacker tool availability",
+    "tags": [
+      "competition",
+      "vulnerability",
+      "hierarchy",
+      "constraint",
+      "adaptation",
+      "circumvention"
+    ]
+  },
+  {
+    "id": "wafer-lock-tolerance-exploit",
+    "name": "Wafer Lock Tolerance Exploitation",
+    "domain": "lock-picking / security engineering",
+    "unit": "spring-loaded wafer in a wafer-tumbler lock",
+    "variation": "wider manufacturing tolerances in low-security wafer locks",
+    "selection": "jiggling and raking exploit loose tolerances; tight-tolerance locks resist",
+    "fitness": "resistance to decoding under non-destructive manipulation",
+    "boundary": "wafer count, spring tension uniformity, sidebar presence",
+    "tags": [
+      "tolerance",
+      "vulnerability",
+      "gradient",
+      "feedback-loop",
+      "precision",
+      "competition"
+    ]
+  },
+  {
+    "id": "flat-foldability-conditions",
+    "name": "Flat-Foldability Conditions (Kawasaki-Justin)",
+    "domain": "origami mathematics",
+    "unit": "crease vertex in a flat-foldable pattern",
+    "variation": "angles between creases at each interior vertex",
+    "selection": "vertices where alternating angles sum to 180° satisfy flat-foldability; others fail",
+    "fitness": "the crease pattern collapses to a flat state without self-intersection",
+    "boundary": "paper thickness (ideal: zero), number of layers, global vs. local foldability",
+    "tags": [
+      "constraint",
+      "combinatorics",
+      "symmetry",
+      "topology",
+      "threshold",
+      "validation"
+    ]
+  },
+  {
+    "id": "crease-pattern-assignment",
+    "name": "Mountain-Valley Crease Assignment",
+    "domain": "origami mathematics",
+    "unit": "crease segment with mountain or valley assignment",
+    "variation": "2^n possible M/V assignments for n creases at a vertex",
+    "selection": "Maekawa's theorem (M − V = ±2) filters valid assignments; layer ordering eliminates the rest",
+    "fitness": "a globally consistent, non-self-intersecting folded state",
+    "boundary": "Maekawa constraint, layer-ordering feasibility, paper self-intersection",
+    "tags": [
+      "combinatorics",
+      "constraint",
+      "enumeration",
+      "symmetry",
+      "binary",
+      "validation"
+    ]
+  },
+  {
+    "id": "rigid-origami-mechanism",
+    "name": "Rigid Origami Mechanism",
+    "domain": "origami mathematics",
+    "unit": "rigid panel connected by hinge creases",
+    "variation": "panel geometry and hinge axis angles determine degrees of freedom",
+    "selection": "configurations with exactly one DOF are deployable mechanisms; over-constrained ones lock",
+    "fitness": "continuous folding motion from flat to target state without panel deformation",
+    "boundary": "panel rigidity assumption, hinge tolerance, thickness accommodation",
+    "tags": [
+      "constraint",
+      "mechanism",
+      "topology",
+      "transition",
+      "stability",
+      "degrees-of-freedom"
+    ]
+  },
+  {
+    "id": "miura-ori-auxetic-folding",
+    "name": "Miura-Ori Auxetic Folding",
+    "domain": "origami mathematics",
+    "unit": "parallelogram facet in a Miura-ori tessellation",
+    "variation": "fold angle and parallelogram acute angle parameterize the configuration space",
+    "selection": "negative Poisson's ratio behavior emerges only for specific angle ranges",
+    "fitness": "compaction ratio (deployed area / stowed volume)",
+    "boundary": "material elasticity, crease fatigue, minimum fold radius",
+    "tags": [
+      "symmetry",
+      "oscillation",
+      "gradient",
+      "emergence",
+      "tessellation",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "origami-twist-fold-stability",
+    "name": "Origami Twist-Fold Bistability",
+    "domain": "origami mathematics",
+    "unit": "twist-fold polygon at a crease intersection",
+    "variation": "polygon order and crease pre-stress determine the energy landscape",
+    "selection": "patterns with two stable states are bistable; monostable ones spring back",
+    "fitness": "energy barrier height between the two stable configurations",
+    "boundary": "material stiffness, crease plasticity, geometric frustration at vertices",
+    "tags": [
+      "stability",
+      "threshold",
+      "transition",
+      "feedback-loop",
+      "energy-landscape",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "waggle-dance-information",
+    "name": "Waggle Dance Information Encoding",
+    "domain": "beekeeping / apiculture",
+    "unit": "waggle run performed by a forager bee",
+    "variation": "duration and angle of waggle run encode distance and direction to forage",
+    "selection": "dances advertising richer patches recruit more followers; poor-source dances ignored",
+    "fitness": "colony-level foraging efficiency (net energy gain per unit time)",
+    "boundary": "dance-floor congestion, signal noise from hive vibrations, sun-compass drift",
+    "tags": [
+      "signal",
+      "competition",
+      "feedback-loop",
+      "gradient",
+      "encoding",
+      "cooperation"
+    ]
+  },
+  {
+    "id": "swarm-threshold-dynamics",
+    "name": "Swarm Trigger Threshold Dynamics",
+    "domain": "beekeeping / apiculture",
+    "unit": "colony as a superorganism decision unit",
+    "variation": "queen pheromone dilution, brood congestion, nectar-flow intensity",
+    "selection": "colonies exceeding congestion and pheromone-dilution thresholds initiate swarming",
+    "fitness": "reproductive success of the parent colony and the daughter swarm",
+    "boundary": "hive volume, queen age, seasonal nectar window, beekeeper intervention",
+    "tags": [
+      "threshold",
+      "feedback-loop",
+      "growth",
+      "cascade",
+      "signal",
+      "bifurcation"
+    ]
+  },
+  {
+    "id": "brood-cycle-regulation",
+    "name": "Brood Cycle Thermoregulation",
+    "domain": "beekeeping / apiculture",
+    "unit": "brood cell containing a developing larva or pupa",
+    "variation": "nurse-bee fanning, clustering, and metabolic heat generation adjust brood-nest temperature",
+    "selection": "brood reared outside 34–36 °C range shows developmental defects and is culled",
+    "fitness": "proportion of brood that emerges as healthy adult bees",
+    "boundary": "ambient temperature extremes, colony population size, energy reserves (honey stores)",
+    "tags": [
+      "feedback-loop",
+      "oscillation",
+      "threshold",
+      "cooperation",
+      "homeostasis",
+      "constraint"
+    ]
+  },
+  {
+    "id": "queen-pheromone-cohesion",
+    "name": "Queen Pheromone Colony Cohesion",
+    "domain": "beekeeping / apiculture",
+    "unit": "queen mandibular pheromone molecule distributed across the colony",
+    "variation": "pheromone concentration gradient from queen to periphery of hive",
+    "selection": "workers below a pheromone threshold begin rearing emergency queen cells",
+    "fitness": "colony unity and suppression of worker reproduction",
+    "boundary": "colony size, queen vitality, comb geometry affecting pheromone diffusion",
+    "tags": [
+      "gradient",
+      "signal",
+      "threshold",
+      "decay",
+      "feedback-loop",
+      "cooperation",
+      "cascade"
+    ]
+  },
+  {
+    "id": "nectar-flow-foraging-allocation",
+    "name": "Nectar Flow Foraging Allocation",
+    "domain": "beekeeping / apiculture",
+    "unit": "forager bee making source-choice decisions",
+    "variation": "scouts advertise multiple sources; foragers switch based on dance vigor and unloading speed",
+    "selection": "sources with diminishing returns lose recruits to richer alternatives",
+    "fitness": "colony-wide caloric intake rate across all active forage sources",
+    "boundary": "flight range, weather windows, floral phenology, competing colonies",
+    "tags": [
+      "competition",
+      "feedback-loop",
+      "signal",
+      "gradient",
+      "adaptation",
+      "optimization"
+    ]
   }
 ]

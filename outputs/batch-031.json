@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Archard's Wear Law Theory of Institutional Credibility Erosion",
+    "core_claim": "Institutional credibility erodes according to Archard's adhesive wear law: the volume of credibility lost is proportional to the contact load (public scrutiny intensity), the sliding distance (duration of exposure to scrutiny), and inversely proportional to the hardness of the institution (depth of procedural integrity). Small institutions under intense load wear fastest; large institutions with deep procedural buffers can sustain longer sliding distances. The wear coefficient — the institution-specific constant — is determined by the adhesive strength between institutional promises and actual performance.",
+    "mechanism_borrowed_from": "adhesive-wear-archard",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Archard's Adhesive Wear Law",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Water Hammer Theory of Market Flash Crashes",
+    "core_claim": "Financial flash crashes are water hammer events: a sudden valve closure (trading halt, large order cancellation, liquidity withdrawal) sends a pressure transient through the pipeline of interconnected order books at a speed determined by the elasticity of the market medium (depth of limit orders). The pressure wave reflects at pipe junctions (exchange boundaries, dark pool interfaces) and can constructively interfere to produce pressure spikes far exceeding the initial disturbance. The Joukowsky equation analog predicts crash magnitude from the product of flow velocity (trading volume) and the speed of sound in the medium (information propagation speed).",
+    "mechanism_borrowed_from": "water-hammer-pressure-wave",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Water Hammer Pressure Transient",
+    "source_b": "Black-Scholes Option Pricing"
+  },
+  {
+    "name": "Stress Corrosion Cracking Theory of Bilingual Language Attrition",
+    "core_claim": "First-language attrition in bilinguals follows stress corrosion cracking mechanics: the sustained tensile stress of dominant-language immersion, combined with the corrosive environment of reduced L1 input, produces intergranular cracking along the grain boundaries of the L1 system — the weakest morphosyntactic structures fail first, while phonological 'grains' with strong crystallographic orientation resist longest. Neither stress alone (immersion without L1 disuse) nor corrosion alone (L1 disuse without immersion pressure) would produce the characteristic failure pattern; only their synergy cracks the language.",
+    "mechanism_borrowed_from": "stress-corrosion-cracking",
+    "domain_applied_to": "phonology",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Stress Corrosion Cracking Synergy",
+    "source_b": "Phoneme Neutralization"
+  },
+  {
+    "name": "Boid Flocking Theory of Permaculture Guild Assembly",
+    "core_claim": "Permaculture plant guilds self-assemble through three local rules analogous to Reynolds' boid flocking: separation (allelopathic spacing that prevents root competition), alignment (phenological synchronization so that nitrogen fixers, dynamic accumulators, and ground covers operate in temporal concert), and cohesion (mutual attraction through shared mycorrhizal networks and complementary pest-deterrence signals). No central planner is needed; the guild emerges from local rule-following, and the characteristic guild radius is set by the balance between separation and cohesion forces.",
+    "mechanism_borrowed_from": "boid-flocking-alignment",
+    "domain_applied_to": "permaculture design",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Reynolds Flocking Alignment Rule",
+    "source_b": "Plant Guild Mutualistic Assembly"
+  },
+  {
+    "name": "Shell Company Network Theory of Parasitic Worm Life Cycles",
+    "core_claim": "Complex parasitic life cycles are biological shell company networks: each intermediate host is a shell entity that obscures the true beneficiary (the adult parasite in the definitive host). The parasite routes its developmental capital through nested intermediaries to evade the immune-regulatory detection systems of any single host, just as financial fraud routes money through shell companies to evade auditors. The topological signatures of parasite transmission networks — layering, circular ownership, jurisdictional arbitrage — are structurally identical to the network motifs used to detect financial fraud.",
+    "mechanism_borrowed_from": "shell-company-network-topology",
+    "domain_applied_to": "parasitology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Shell Company Network Detection",
+    "source_b": "Parasite Manipulation Hypothesis"
+  },
+  {
+    "name": "Malolactic Fermentation Theory of Political Regime Softening",
+    "core_claim": "Authoritarian regimes undergo malolactic softening: the sharp malic acid of revolutionary ideology is gradually converted to the softer lactic acid of bureaucratic pragmatism by secondary bacterial fermentation (mid-level officials who metabolize ideology into self-interest). The process is spontaneous once the primary fermentation (revolution) is complete and temperatures are permissive (no external threat re-radicalizes the regime). The softened regime is more palatable to citizens but has lost the acidity that preserved it against spoilage (corruption), making it vulnerable to subsequent decay.",
+    "mechanism_borrowed_from": "malolactic-fermentation-shift",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Malolactic Fermentation Shift",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Tephra Dispersal Theory of Misinformation Spread",
+    "core_claim": "Misinformation spreads through media ecosystems like tephra from a volcanic eruption: the largest fragments (outright fabrications, easily debunked) settle close to the source and are quickly identified. Medium-sized particles (misleading framings, selective statistics) travel further and accumulate in a broader ring. The finest ash (subtle bias, shifted Overton windows, normalized assumptions) reaches global distribution, persists in the atmosphere for years, and is nearly impossible to clean up. The size-sorting is aerodynamic: larger lies have higher terminal velocity in the epistemic medium and fall out of circulation faster.",
+    "mechanism_borrowed_from": "tephra-dispersal-sorting",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Tephra Dispersal Sorting",
+    "source_b": "Aristotelian Rhetorical Triangle"
+  },
+  {
+    "name": "Bathtub Curve Theory of Romantic Relationship Failure",
+    "core_claim": "Romantic relationships fail at rates that follow the bathtub curve: high early failure rates (infant mortality — incompatibility discovered in the first months) decline to a low plateau of random failures (the stable middle years), then rise again as wear-out failures accumulate (accumulated resentments, divergent life trajectories, empty-nest decoherence). Interventions targeting different life-phases require different strategies — screening for infant mortality, resilience-building for random failures, and preventive maintenance for wear-out — and applying the wrong strategy to the wrong phase is counter-productive.",
+    "mechanism_borrowed_from": "failure-bathtub-curve",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Bathtub Curve Failure Rate Evolution",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Hardy-Cross Theory of Academic Department Resource Balancing",
+    "core_claim": "University resource allocation across departments self-corrects through Hardy-Cross iterative balancing: each budget cycle, departments with excess pressure (overenrollment, grant overhead) shed flow to neighboring departments through shared resources (cross-listed courses, joint hires, shared facilities), while departments with deficit pressure (underenrollment) receive compensating flow. The system converges through successive corrections, but convergence requires accurate resistance coefficients (administrative cost models) — if these are miscalibrated, the iteration diverges and produces resource oscillations between over- and under-funded departments.",
+    "mechanism_borrowed_from": "pipe-network-pressure-balancing",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Hardy-Cross Pipe Network Balancing",
+    "source_b": "Spaced Repetition (Ebbinghaus)"
+  },
+  {
+    "name": "Phosphorus Foraging Tradeoff Theory of Venture Capital Portfolio Strategy",
+    "core_claim": "Venture capital firms face a mycorrhizal phosphorus foraging tradeoff: they can invest in extensive hyphal networks (many small bets across a wide area, each with low extraction efficiency) or intensive arbuscular penetration (deep engagement with few portfolio companies, high per-company value extraction). The optimal strategy depends on phosphorus availability (deal flow quality) — in rich environments, intensive strategies dominate; in poor environments, extensive foraging is the only viable approach. Firms that match strategy to environment survive; those that maintain intensive strategies in phosphorus-poor markets (talent-scarce regions) starve.",
+    "mechanism_borrowed_from": "phosphorus-foraging-tradeoff",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Phosphorus Foraging Tradeoff",
+    "source_b": "Black-Scholes Option Pricing"
+  },
+  {
+    "name": "Isostatic Rebound Theory of Post-Colonial Cultural Recovery",
+    "core_claim": "Cultures recovering from colonial suppression undergo isostatic rebound: the removal of the colonial 'ice sheet' (political domination, cultural suppression, economic extraction) allows the depressed cultural lithosphere to slowly rise back toward equilibrium. The rebound is not immediate but lags by decades to centuries, as the cultural mantle (intergenerational memory, language revitalization, institutional rebuilding) flows viscously back into the depression. The rebound overshoots equilibrium, producing periods of cultural hypercorrection (aggressive purism, exclusionary nativism) before settling into a new isostatic balance.",
+    "mechanism_borrowed_from": "isostatic-rebound-lag",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Isostatic Rebound Lag",
+    "source_b": "Cultural Evolution (Dual Inheritance)"
+  },
+  {
+    "name": "Alarm Fatigue Theory of Agroecological Pest Signal Masking",
+    "core_claim": "Monoculture crops suffer from inverted alarm fatigue: the uniform chemical signal landscape (identical volatile profiles from every plant) creates a signal environment so monotonous that beneficial predator insects habituate and stop responding to genuine pest-alarm volatiles. Polycultures avoid this by producing a diverse signal environment where pest-specific alarms remain salient against a varied background — the signal-to-noise ratio for any individual alarm compound is paradoxically higher in the noisier polyculture than in the 'clean' monoculture signal environment.",
+    "mechanism_borrowed_from": "alarm-fatigue-habituation",
+    "domain_applied_to": "agroecology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Alarm Fatigue Habituation",
+    "source_b": "Pest Dilution Effect"
+  },
+  {
+    "name": "Seigniorage Extraction Theory of Platform Data Monetization",
+    "core_claim": "Digital platforms extract seigniorage from user data exactly as medieval mints extracted seigniorage from coin: they accept raw material (user behavioral data) at face value, stamp it with their proprietary analytics (minting), and return a debased version (ad-supported services) while retaining the difference. The seigniorage margin is invisible to users, who perceive the minted coin (the service) as having face value equal to the raw material surrendered. Platform monopolies mirror monetary sovereignty — the power to define the exchange rate between data and services is the power to extract unlimited seigniorage.",
+    "mechanism_borrowed_from": "seigniorage-extraction",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Seigniorage Extraction Dynamics",
+    "source_b": "Kolmogorov Complexity"
+  },
+  {
+    "name": "Tree-Ring Crossdating Theory of Software Dependency Archaeology",
+    "core_claim": "The age and provenance of undocumented software systems can be determined through tree-ring crossdating: each dependency version, compiler flag, and API convention leaves a characteristic ring pattern that can be matched against a master chronology of framework releases and language standard changes. Narrow rings (minimal changes) indicate periods of neglect; wide rings (major version jumps) indicate active maintenance episodes. Cross-correlating ring patterns across multiple files establishes the true construction sequence even when commit history has been lost or rewritten.",
+    "mechanism_borrowed_from": "tree-ring-crossdating",
+    "domain_applied_to": "archival science",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Tree-Ring Crossdating Chronology",
+    "source_b": "Provenance Chain Integrity"
+  },
+  {
+    "name": "Soil Microbiome Feedback Theory of Cryptocurrency Community Health",
+    "core_claim": "Cryptocurrency communities develop plant-soil microbiome feedback loops: early community members (pioneer plants) condition the social substrate (norms, governance, culture) in ways that either facilitate or inhibit subsequent community growth. Positive feedback communities accumulate beneficial microbiota (constructive developers, honest validators) that enhance the token's health. Negative feedback communities accumulate pathogens (scammers, pump-and-dump operators) that make the soil toxic for legitimate participants. Once established, the feedback polarity is self-reinforcing and extremely difficult to reverse — explaining why early community culture is the strongest predictor of long-term token viability.",
+    "mechanism_borrowed_from": "soil-microbiome-feedback",
+    "domain_applied_to": "network theory",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Plant-Soil Microbiome Feedback",
+    "source_b": "Scale-Free Network Formation"
+  }
+]

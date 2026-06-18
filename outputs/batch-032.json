@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Pheromone-Trail Theory of Archival Discoverability",
+    "core_claim": "Finding aids in archival systems gain discoverability through a mechanism analogous to ant colony pheromone trails: each researcher access event deposits a 'citation pheromone' that evaporates over time, but frequently accessed collections accumulate reinforced trails that guide future researchers toward high-value materials while neglected collections fade into obscurity. The decay rate of these access signals determines whether archival discovery converges on optimal paths or locks into suboptimal popularity cascades.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-optimization",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Ant Colony Pheromone Trail Optimization",
+    "source_b": "Finding Aid Discoverability Gradient"
+  },
+  {
+    "name": "Hydraulic Jump Theory of Phonological Neutralization",
+    "core_claim": "Phoneme neutralization in unstressed syllables occurs through a process structurally identical to a hydraulic jump: high-energy articulatory distinctions in stressed positions flow into low-energy unstressed environments, where a critical threshold is crossed and the laminar distinctions between phonemes collapse into a turbulent, undifferentiated vowel space. The energy dissipated at this jump predicts which contrasts neutralize first and how much articulatory information is irrecoverably lost.",
+    "mechanism_borrowed_from": "hydraulic-jump-energy-dissipation",
+    "domain_applied_to": "phonology",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Hydraulic Jump Energy Dissipation",
+    "source_b": "Phoneme Neutralization"
+  },
+  {
+    "name": "Bathtub Curve Theory of Coin Trust Degradation",
+    "core_claim": "Trust in a monetary token follows a bathtub-shaped failure curve: new currencies experience high 'infant mortality' as users test and reject unfamiliar denominations, followed by a stable plateau of routine acceptance, and finally a wear-out phase where debasement, counterfeiting accumulation, or political instability triggers accelerating trust decay. The duration of the plateau is determined by the seigniorage extraction rate — if it exceeds a threshold, the wear-out phase arrives catastrophically early.",
+    "mechanism_borrowed_from": "failure-bathtub-curve",
+    "domain_applied_to": "numismatics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Bathtub Curve Failure Rate Evolution",
+    "source_b": "Coin as Trust Token"
+  },
+  {
+    "name": "Martensite Transformation Theory of Oral Tradition Crystallization",
+    "core_claim": "Oral traditions undergo sudden structural transformation analogous to martensite formation in steel: gradual 'cooling' of a tradition's social context — declining performance frequency, shrinking audience — reaches a critical point where the flexible, high-temperature narrative rapidly locks into a rigid, crystalline textual form. This diffusionless transformation preserves the macroscopic shape of the tradition but fundamentally changes its internal structure, replacing improvisational plasticity with brittle fidelity to a fixed text.",
+    "mechanism_borrowed_from": "steel-tempering-martensite-transformation",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Steel Tempering Martensite Transformation",
+    "source_b": "Formulaic Speech Preservation"
+  },
+  {
+    "name": "Trophic Cascade Theory of Forensic Audit Detection",
+    "core_claim": "Removing a top-level financial control (the 'apex predator' of organizational oversight) triggers a trophic cascade through the accounting food web: mid-tier controls are consumed by emboldened fraudulent actors, releasing a bloom of low-level anomalies — round-number clustering, Benford's law violations, temporal gaps — that were previously suppressed. Forensic accountants can infer the loss of high-level controls by detecting these downstream anomaly blooms, just as ecologists infer predator removal from herbivore overpopulation.",
+    "mechanism_borrowed_from": "trophic-cascade",
+    "domain_applied_to": "forensic accounting",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Trophic Cascade",
+    "source_b": "Benford's Law Digit Frequency Anomaly"
+  },
+  {
+    "name": "Dansgaard-Oeschger Oscillation Theory of Swarm Decision Hysteresis",
+    "core_claim": "Swarm decision-making systems exhibit abrupt oscillations between two quasi-stable collective states — analogous to Dansgaard-Oeschger warming events — where slow accumulation of exploratory signals pushes the swarm past a tipping point into a new behavioral mode, which then persists until a different slow variable accumulates to trigger a snap-back. The asymmetric durations of each state (long stable periods punctuated by rapid transitions) are governed by the swarm's pheromone decay constant and quorum threshold.",
+    "mechanism_borrowed_from": "dansgaard-oeschger-oscillation",
+    "domain_applied_to": "swarm intelligence",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Dansgaard-Oeschger Oscillation",
+    "source_b": "Quorum Sensing Activation Threshold"
+  },
+  {
+    "name": "Chiasmus Theory of Wound Healing Phase Reversal",
+    "core_claim": "The four phases of wound healing (hemostasis, inflammation, proliferation, remodeling) follow a chiasmic rhetorical structure where the molecular signals of the second half mirror and invert those of the first: the pro-inflammatory cytokines of phase 2 are structurally answered by anti-inflammatory resolvins in phase 3, and the rapid clot formation of phase 1 is inverted by the slow matrix remodeling of phase 4. Failed healing occurs when this chiasmic symmetry breaks — when the rhetorical 'turn' from destruction to reconstruction is not properly executed.",
+    "mechanism_borrowed_from": "chiasmus-structural-inversion",
+    "domain_applied_to": "wound healing",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "source_a": "Chiasmus Structural Inversion",
+    "source_b": "Inflammation Resolution Cascade"
+  },
+  {
+    "name": "Galvanic Corrosion Theory of Bimetallic Currency Instability",
+    "core_claim": "Bimetallic monetary systems fail through a mechanism isomorphic to galvanic corrosion: when two metals of different 'economic nobility' (intrinsic value relative to face value) are coupled in a common monetary electrolyte (market exchange), the less noble metal is preferentially dissolved from circulation as it is hoarded, melted, or exported. The rate of monetary corrosion depends on the potential difference between the metals' market and face values, exactly as galvanic corrosion rate depends on the electrode potential difference.",
+    "mechanism_borrowed_from": "galvanic-corrosion-potential-difference",
+    "domain_applied_to": "numismatics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Galvanic Corrosion Potential Difference",
+    "source_b": "Bimetallic Ratio Instability"
+  },
+  {
+    "name": "Fitts's Law Theory of Permaculture Zone Optimization",
+    "core_claim": "Permaculture zone placement follows Fitts's Law of motor targeting: the frequency of human interaction with a garden element must be inversely proportional to its distance from the dwelling, weighted by the precision of care required. High-frequency, high-precision elements (herbs, salad greens) must occupy the near-field zone where the 'index of difficulty' is lowest, while low-frequency, low-precision elements (timber, forage) can tolerate the far-field. Violating this information-theoretic constraint on human motor capacity causes systematic neglect of misplaced elements.",
+    "mechanism_borrowed_from": "fitts-law-targeting",
+    "domain_applied_to": "permaculture design",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Fitts's Law Motor Targeting",
+    "source_b": "Zone-Based Attention Gradient"
+  },
+  {
+    "name": "Volcanic Edifice Instability Theory of Organizational Failure",
+    "core_claim": "Large organizations accumulate structural stress through growth in the same way volcanic edifices do: each layer of bureaucracy, acquisition, or product line adds gravitational load to the institutional flanks. Internal 'hydrothermal alteration' — cultural decay, talent attrition, process rot — weakens the core without visible surface symptoms, until a minor triggering event (a market shift, a leadership transition) initiates a sector collapse that can be orders of magnitude larger than the trigger. The ratio of edifice height to base width predicts organizational fragility.",
+    "mechanism_borrowed_from": "volcanic-edifice-instability",
+    "domain_applied_to": "failure analysis",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Volcanic Edifice Instability",
+    "source_b": "Bathtub Curve Failure Rate Evolution"
+  },
+  {
+    "name": "Glacial Surge Theory of Malolactic Fermentation Onset",
+    "core_claim": "Malolactic fermentation onset in wine follows glacial surge dynamics: lactic acid bacteria accumulate slowly at the base of the wine's microbial ecology, building up metabolic 'pressure' beneath a surface layer of chemical inhibition (SO2, low pH). When the inhibitory layer thins past a threshold — through SO2 binding, pH rise, or nutrient availability — the bacterial population surges forward in a rapid, self-reinforcing advance that converts malic acid to lactic acid across the entire volume before decelerating as substrate is exhausted, leaving behind a transformed sensory 'landscape.'",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "enology",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Glacial Surge Oscillation",
+    "source_b": "Malolactic Fermentation Shift"
+  },
+  {
+    "name": "Water Hammer Theory of Cognitive Load Spikes",
+    "core_claim": "Sudden task interruptions in ergonomic environments produce cognitive load spikes analogous to water hammer pressure transients: when a steady flow of attention is abruptly stopped (by an alarm, an unexpected request, or a system error), a pressure wave of unprocessed information propagates backward through the operator's cognitive pipeline, potentially exceeding the design limits of working memory and causing momentary decision paralysis. The magnitude of the cognitive hammer is proportional to the velocity of the interrupted attention flow and the abruptness of the closure.",
+    "mechanism_borrowed_from": "water-hammer-pressure-wave",
+    "domain_applied_to": "ergonomics",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Water Hammer Pressure Transient",
+    "source_b": "Cognitive Load Partitioning"
+  },
+  {
+    "name": "Mycorrhizal Network Theory of Intercropping Communication",
+    "core_claim": "Intercropping systems achieve resource complementarity not merely through niche partitioning but through common mycorrhizal network signaling that functions as an underground agricultural internet: stressed plants broadcast chemical distress signals through hyphal connections, triggering defensive compound production in neighboring crop species before pest arrival. The network's effectiveness depends on mycorrhizal host compatibility between crop species — polycultures with shared mycorrhizal partners outperform those without, regardless of above-ground complementarity.",
+    "mechanism_borrowed_from": "common-mycorrhizal-network",
+    "domain_applied_to": "agroecology",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Common Mycorrhizal Network",
+    "source_b": "Intercropping Resource Complementarity"
+  },
+  {
+    "name": "Zero-Knowledge Proof Theory of Terroir Verification",
+    "core_claim": "Terroir claims in enology can be verified without revealing proprietary winemaking techniques through a protocol structurally identical to zero-knowledge proofs: the winemaker demonstrates that their wine possesses specific mineral isotope ratios, microbial signatures, and phenolic profiles consistent with the claimed origin, without disclosing the viticultural and cellar practices that produced them. The 'soundness' of the proof depends on the computational difficulty of forging these multi-dimensional chemical fingerprints from a different terroir.",
+    "mechanism_borrowed_from": "zero-knowledge-proof",
+    "domain_applied_to": "enology",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Zero-Knowledge Proofs",
+    "source_b": "Terroir Mineral Gradient"
+  },
+  {
+    "name": "Laban Effort-Shape Theory of Glacial Flow Morphology",
+    "core_claim": "Glacial flow patterns can be classified using Laban's effort-shape framework: glaciers exhibit characteristic combinations of weight (ice thickness pressure), time (flow velocity), space (valley confinement), and flow (laminar vs. surging). Temperate glaciers display 'sustained, direct, heavy' effort qualities producing predictable U-shaped valleys, while surge-type glaciers alternate between 'bound' quiescent phases and 'free' surge phases — a movement quality shift that maps onto Laban's effort transitions and predicts the geomorphological record each glacier type leaves behind.",
+    "mechanism_borrowed_from": "laban-effort-shape-movement-analysis",
+    "domain_applied_to": "glaciology",
+    "viability": "incoherent",
+    "confidence": 0.42,
+    "source_a": "Laban Effort-Shape Movement Analysis",
+    "source_b": "Glacial Surge Oscillation"
+  }
+]

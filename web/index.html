@@ -6,15 +6,17 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
   :root { --bg:#0e1116; --fg:#e6edf3; --mut:#8b949e; --acc:#7ee787;
-          --warn:#f0b84a; --bad:#ff7b72; --card:#161b22; --br:#30363d; }
+          --warn:#f0b84a; --bad:#ff7b72; --card:#161b22; --br:#30363d;
+          --blue:#79c0ff; --purple:#d2a8ff; }
   * { box-sizing: border-box; }
   body { margin:0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
          background:var(--bg); color:var(--fg); line-height:1.45; }
-  header { padding: 32px 24px 8px; }
+  header { padding: 32px 24px 8px; display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
   h1 { margin:0; font-size: 22px; letter-spacing:.5px; }
   h1 span { color: var(--acc); }
   p.sub { color: var(--mut); margin: 4px 0 0; font-size: 13px; }
-  main { padding: 16px 24px 80px; max-width: 980px; }
+  .version { color:var(--mut); font-size:11px; }
+  main { padding: 16px 24px 80px; max-width: 1060px; }
   .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin: 16px 0; }
   input, button, select {
     background:var(--card); color:var(--fg); border:1px solid var(--br);
@@ -37,16 +39,18 @@
   .err { color: var(--bad); }
   .prior { color: var(--warn); font-size: 12px; margin: 4px 0 8px; }
   datalist { display:none; }
-  .tabs { display:flex; gap:0; margin: 24px 0 0; border-bottom: 1px solid var(--br); }
-  .tab { padding: 8px 16px; cursor:pointer; color: var(--mut); font-size: 13px;
-         border-bottom: 2px solid transparent; }
+  .tabs { display:flex; gap:0; margin: 24px 0 0; border-bottom: 1px solid var(--br); overflow-x:auto; }
+  .tab { padding: 8px 14px; cursor:pointer; color: var(--mut); font-size: 13px;
+         border-bottom: 2px solid transparent; white-space:nowrap; }
   .tab.active { color: var(--acc); border-bottom-color: var(--acc); }
   .tab:hover { color: var(--fg); }
   .tab-content { display:none; }
   .tab-content.active { display:block; }
   .conf { display:inline-block; min-width:36px; color:var(--acc); font-weight:bold; }
-  .rank-item { padding:8px 0; border-bottom:1px solid var(--br); font-size:13px; }
+  .rank-item { padding:8px 0; border-bottom:1px solid var(--br); font-size:13px; cursor:pointer; }
+  .rank-item:hover .name-link { color:var(--fg); text-decoration:underline; }
   .rank-item .claim { color:var(--mut); margin:4px 0 0; font-size:12px; }
+  .name-link { color:var(--acc); }
   .batch-header { color:var(--acc); font-size:14px; margin:16px 0 4px; cursor:pointer; }
   .batch-header:hover { text-decoration:underline; }
   .batch-items { display:none; padding-left:16px; }
@@ -55,11 +59,64 @@
   .batch-fw .bname { color:var(--fg); }
   select.sm { min-width:auto; font-size:12px; padding:4px 8px; }
   input.sm { min-width:80px; font-size:12px; padding:4px 8px; }
+
+  /* Stats */
+  .stats-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin:16px 0; }
+  .stat-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+               padding:16px; text-align:center; }
+  .stat-val { font-size:28px; font-weight:bold; color:var(--acc); }
+  .stat-label { font-size:11px; color:var(--mut); margin-top:4px; }
+  .bar-chart { margin:16px 0; }
+  .bar-row { display:flex; align-items:center; gap:8px; margin:3px 0; font-size:12px; }
+  .bar-label { min-width:200px; color:var(--mut); text-align:right; overflow:hidden;
+               text-overflow:ellipsis; white-space:nowrap; }
+  .bar { height:16px; background:var(--acc); border-radius:3px; min-width:2px; }
+  .bar-count { color:var(--mut); min-width:24px; }
+
+  /* Deep dives */
+  .dd-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+             padding:16px; margin:12px 0; cursor:pointer; transition: border-color .15s; }
+  .dd-card:hover { border-color:var(--acc); }
+  .dd-title { font-size:15px; color:var(--acc); margin:0 0 6px; }
+  .dd-meta { color:var(--mut); font-size:12px; }
+  .dd-summary { color:var(--fg); font-size:13px; margin:8px 0 0; line-height:1.5; }
+  .dd-detail { margin:16px 0; }
+  .dd-section { margin:12px 0; }
+  .dd-section h4 { color:var(--blue); font-size:13px; margin:0 0 6px; text-transform:uppercase;
+                   letter-spacing:.5px; }
+  .dd-section ul { margin:4px 0; padding-left:18px; }
+  .dd-section li { font-size:12px; color:var(--fg); margin:3px 0; line-height:1.4; }
+  .dd-back { color:var(--acc); cursor:pointer; font-size:13px; margin:0 0 12px; }
+  .dd-back:hover { text-decoration:underline; }
+  .comp-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:8px; }
+  .comp-item { background:var(--bg); border:1px solid var(--br); border-radius:6px; padding:10px; }
+  .comp-key { color:var(--purple); font-size:11px; text-transform:uppercase; letter-spacing:.3px; }
+  .comp-val { font-size:12px; margin-top:4px; }
+
+  /* Search */
+  .search-box { position:relative; }
+  .search-box input { min-width:220px; padding-right:30px; }
+  .search-results { position:absolute; top:100%; left:0; right:0; background:var(--card);
+                    border:1px solid var(--br); border-radius:0 0 8px 8px; max-height:300px;
+                    overflow-y:auto; z-index:10; display:none; }
+  .search-results.open { display:block; }
+  .search-hit { padding:8px 12px; font-size:12px; cursor:pointer; border-bottom:1px solid var(--br); }
+  .search-hit:hover { background:var(--bg); color:var(--acc); }
+  .search-hit .sh-name { color:var(--acc); }
+  .search-hit .sh-claim { color:var(--mut); font-size:11px; }
+
+  /* Viability badges */
+  .badge { display:inline-block; padding:2px 6px; border-radius:4px; font-size:10px;
+           font-weight:bold; text-transform:uppercase; }
+  .badge-promising { background:#1a3a1a; color:var(--acc); }
+  .badge-speculative { background:#3a2a1a; color:var(--warn); }
+  .badge-incoherent { background:#3a1a1a; color:var(--bad); }
 </style>
 </head>
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
+  <span class="version">v0.4</span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
 
@@ -68,6 +125,9 @@
     <div class="tab active" data-tab="forge">forge</div>
     <div class="tab" data-tab="batch">batch forge</div>
     <div class="tab" data-tab="rankings">rankings</div>
+    <div class="tab" data-tab="deep-dives">deep dives</div>
+    <div class="tab" data-tab="theories">theories</div>
+    <div class="tab" data-tab="stats">stats</div>
     <div class="tab" data-tab="history">history</div>
   </div>
 
@@ -80,6 +140,10 @@
       <button id="go">collide domains</button>
       <button id="surprise">surprise me</button>
       <label class="toggle"><input type="checkbox" id="novel" checked> novel only</label>
+      <div class="search-box">
+        <input id="search-input" class="sm" placeholder="search frameworks..." style="min-width:200px">
+        <div id="search-results" class="search-results"></div>
+      </div>
     </div>
     <div id="result"></div>
     <h3 style="margin-top:32px; color:var(--mut); font-size:13px;">top candidate cross-domain pairs</h3>
@@ -113,6 +177,27 @@
     <div id="rank-result"></div>
   </div>
 
+  <!-- DEEP DIVES TAB -->
+  <div class="tab-content" id="tab-deep-dives">
+    <div id="dd-list"></div>
+    <div id="dd-detail" style="display:none"></div>
+  </div>
+
+  <!-- THEORIES TAB -->
+  <div class="tab-content" id="tab-theories">
+    <div class="row">
+      <input id="theory-domain" class="sm" list="domains" placeholder="filter by domain">
+      <button id="theory-go">browse</button>
+      <span id="theory-count" class="meta"></span>
+    </div>
+    <div id="theory-result"></div>
+  </div>
+
+  <!-- STATS TAB -->
+  <div class="tab-content" id="tab-stats">
+    <div id="stats-result"></div>
+  </div>
+
   <!-- HISTORY TAB -->
   <div class="tab-content" id="tab-history">
     <div id="history-result"></div>
@@ -122,6 +207,7 @@
 <script>
 const $ = (id) => document.getElementById(id);
 const fmt = (o) => JSON.stringify(o, null, 2);
+const esc = (s) => s.replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
 // Tab switching
 document.querySelectorAll('.tab').forEach(tab => {
@@ -132,6 +218,9 @@ document.querySelectorAll('.tab').forEach(tab => {
     $('tab-' + tab.dataset.tab).classList.add('active');
     if (tab.dataset.tab === 'history') loadHistory();
     if (tab.dataset.tab === 'rankings') loadRankings();
+    if (tab.dataset.tab === 'deep-dives') loadDeepDives();
+    if (tab.dataset.tab === 'theories') loadTheories();
+    if (tab.dataset.tab === 'stats') loadStats();
   };
 });
 
@@ -147,8 +236,8 @@ async function loadPairs() {
   const rows = await r.json();
   $('pairs').innerHTML = rows.map(p => `
     <div class="pair" data-a="${p.a}" data-b="${p.b}">
-      <span>${p.a_name} <span class="sim">(${p.a_domain})</span>
-        &times; ${p.b_name} <span class="sim">(${p.b_domain})</span></span>
+      <span>${esc(p.a_name)} <span class="sim">(${esc(p.a_domain)})</span>
+        &times; ${esc(p.b_name)} <span class="sim">(${esc(p.b_domain)})</span></span>
       <span class="sim">sim ${p.similarity}</span>
     </div>
   `).join('') || `<div class="card meta">no pairs match current filters.</div>`;
@@ -156,20 +245,26 @@ async function loadPairs() {
     el.onclick = () => collideIds(el.dataset.a, el.dataset.b));
 }
 
+function viabilityBadge(v) {
+  const cls = v === 'promising' ? 'badge-promising' : v === 'speculative' ? 'badge-speculative' : 'badge-incoherent';
+  return `<span class="badge ${cls}">${esc(v||'?')}</span>`;
+}
+
 function render(data, target) {
   target = target || 'result';
-  if (data.error) { $(target).innerHTML = `<div class="card err">${data.error}</div>`; return; }
+  if (data.error) { $(target).innerHTML = `<div class="card err">${esc(String(data.error))}</div>`; return; }
   const { a, b, framework, similarity, prior } = data;
   const priorBlock = prior
-    ? `<div class="prior">&#9888; prior collision on record: <b>${prior.label}</b>
-       [${prior.status}] &mdash; ${prior.note}</div>` : '';
+    ? `<div class="prior">&#9888; prior collision on record: <b>${esc(prior.label)}</b>
+       [${esc(prior.status)}] &mdash; ${esc(prior.note)}</div>` : '';
   $(target).innerHTML += `
     <div class="card">
-      <p class="name">${framework.name || '(unnamed framework)'}</p>
-      <p class="meta">${a.name} (${a.domain}) &times; ${b.name} (${b.domain})
-        ${similarity !== undefined ? '&middot; structural sim ' + similarity : ''}</p>
+      <p class="name">${esc(framework.name || '(unnamed framework)')} ${viabilityBadge(framework.viability)}</p>
+      <p class="meta">${esc(a.name)} (${esc(a.domain)}) &times; ${esc(b.name)} (${esc(b.domain)})
+        ${similarity !== undefined ? '&middot; structural sim ' + similarity : ''}
+        &middot; confidence <strong>${(framework.confidence||0).toFixed(2)}</strong></p>
       ${priorBlock}
-      <pre>${fmt(framework)}</pre>
+      <pre>${esc(fmt(framework))}</pre>
     </div>`;
 }
 
@@ -206,6 +301,28 @@ $('surprise').onclick = async () => {
 
 $('novel').onchange = loadPairs;
 
+// Search
+let searchTimeout;
+$('search-input').oninput = () => {
+  clearTimeout(searchTimeout);
+  const q = $('search-input').value.trim();
+  if (q.length < 2) { $('search-results').classList.remove('open'); return; }
+  searchTimeout = setTimeout(async () => {
+    const r = await fetch(`/search?q=${encodeURIComponent(q)}&limit=10`);
+    const hits = await r.json();
+    if (!hits.length) { $('search-results').innerHTML = '<div class="search-hit"><span class="sh-claim">no results</span></div>'; }
+    else {
+      $('search-results').innerHTML = hits.map(fw => `
+        <div class="search-hit" data-name="${esc(fw.name||'')}">
+          <div class="sh-name">${esc(fw.name||'?')} <span class="conf">${(fw.confidence||0).toFixed(2)}</span></div>
+          <div class="sh-claim">${esc((fw.core_claim||'').substring(0,120))}${(fw.core_claim||'').length>120?'...':''}</div>
+        </div>`).join('');
+    }
+    $('search-results').classList.add('open');
+  }, 300);
+};
+$('search-input').onblur = () => setTimeout(() => $('search-results').classList.remove('open'), 200);
+
 // Batch forge
 $('batch-go').onclick = async () => {
   const btns = document.querySelectorAll('button');
@@ -221,16 +338,16 @@ $('batch-go').onclick = async () => {
       body: JSON.stringify(body),
     });
     const data = await r.json();
-    if (!r.ok) { $('batch-result').innerHTML = `<div class="card err">${data.detail || 'error'}</div>`; return; }
+    if (!r.ok) { $('batch-result').innerHTML = `<div class="card err">${esc(data.detail || 'error')}</div>`; return; }
     $('batch-result').innerHTML = `<div class="meta" style="margin:8px 0">${data.count} frameworks forged</div>`;
     data.results.forEach(item => {
       if (item.error) {
-        $('batch-result').innerHTML += `<div class="card err">${item.a} &times; ${item.b}: ${item.error}</div>`;
+        $('batch-result').innerHTML += `<div class="card err">${esc(item.a)} &times; ${esc(item.b)}: ${esc(item.error)}</div>`;
       } else {
         render(item, 'batch-result');
       }
     });
-  } catch (e) { $('batch-result').innerHTML = `<div class="card err">${e}</div>`; }
+  } catch (e) { $('batch-result').innerHTML = `<div class="card err">${esc(String(e))}</div>`; }
   finally { btns.forEach(b => b.disabled = false); }
 };
 
@@ -244,15 +361,165 @@ async function loadRankings() {
   const data = await r.json();
   if (!data.length) { $('rank-result').innerHTML = '<div class="card meta">no frameworks match filters.</div>'; return; }
   $('rank-result').innerHTML = data.map((fw, i) => `
-    <div class="rank-item">
+    <div class="rank-item" onclick="toggleExpand(this)">
       <span class="conf">${(fw.confidence || 0).toFixed(2)}</span>
-      <strong>${fw.name || '?'}</strong>
-      <span class="sim">&mdash; ${fw._batch || ''}</span>
-      <div class="claim">${(fw.core_claim || '').substring(0, 200)}${(fw.core_claim||'').length > 200 ? '&hellip;' : ''}</div>
+      ${viabilityBadge(fw.viability)}
+      <strong class="name-link">${esc(fw.name || '?')}</strong>
+      <span class="sim">&mdash; ${esc(fw._batch || '')}</span>
+      <div class="claim">${esc((fw.core_claim || '').substring(0, 200))}${(fw.core_claim||'').length > 200 ? '&hellip;' : ''}</div>
+      <div class="rank-expand" style="display:none;margin-top:8px">
+        <pre style="font-size:11px">${esc(fmt(fw))}</pre>
+      </div>
     </div>
   `).join('');
 }
 $('rank-go').onclick = loadRankings;
+
+// Deep Dives
+async function loadDeepDives() {
+  $('dd-detail').style.display = 'none';
+  $('dd-list').style.display = 'block';
+  const r = await fetch('/deep-dives');
+  const dives = await r.json();
+  if (!dives.length) { $('dd-list').innerHTML = '<div class="card meta">no deep dives yet.</div>'; return; }
+  $('dd-list').innerHTML = dives.map(dd => `
+    <div class="dd-card" data-slug="${esc(dd.slug)}">
+      <div class="dd-title">#${dd.rank} ${esc(dd.name)}</div>
+      <div class="dd-meta">confidence ${(dd.confidence||0).toFixed(2)} &middot;
+        ${dd.predictions_count} predictions &middot; ${dd.experiments_count} experiments</div>
+      <div class="dd-summary">${esc((dd.executive_summary||'').substring(0, 250))}${(dd.executive_summary||'').length>250?'...':''}</div>
+    </div>
+  `).join('');
+  document.querySelectorAll('.dd-card').forEach(el => {
+    el.onclick = () => loadDeepDive(el.dataset.slug);
+  });
+}
+
+async function loadDeepDive(slug) {
+  $('dd-list').style.display = 'none';
+  $('dd-detail').style.display = 'block';
+  $('dd-detail').innerHTML = '<div class="card meta">loading&hellip;</div>';
+  const r = await fetch(`/deep-dives/${slug}`);
+  const dd = await r.json();
+  const mc = dd.mapped_components || {};
+  $('dd-detail').innerHTML = `
+    <div class="dd-back" onclick="loadDeepDives()">&larr; back to all deep dives</div>
+    <h2 style="color:var(--acc);margin:0 0 4px">${esc(dd.name||'?')}</h2>
+    <div class="dd-meta">Rank #${dd.rank||'?'} &middot; Confidence ${(dd.confidence||0).toFixed(2)}</div>
+    <div class="dd-section">
+      <h4>Executive Summary</h4>
+      <p style="font-size:13px;line-height:1.6">${esc(dd.executive_summary||'')}</p>
+    </div>
+    <div class="dd-section">
+      <h4>Mapped Components</h4>
+      <div class="comp-grid">
+        ${['unit','variation','selection','fitness','boundary'].map(k => `
+          <div class="comp-item">
+            <div class="comp-key">${k}</div>
+            <div class="comp-val">${esc(mc[k]||'—')}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    <div class="dd-section">
+      <h4>Falsifiable Predictions</h4>
+      <ul>${(dd.falsifiable_predictions||[]).map(p => `<li>${esc(typeof p === 'string' ? p : p.prediction || JSON.stringify(p))}</li>`).join('')}</ul>
+    </div>
+    <div class="dd-section">
+      <h4>Supporting Evidence</h4>
+      <ul>${(dd.supporting_evidence||[]).map(e => `<li>${esc(typeof e === 'string' ? e : e.finding || e.description || JSON.stringify(e))}</li>`).join('')}</ul>
+    </div>
+    <div class="dd-section">
+      <h4>Experimental Designs</h4>
+      ${(dd.experimental_designs||[]).map(exp => `
+        <div class="card">
+          <p class="name" style="font-size:14px">${esc(exp.title || exp.name || 'Experiment')}</p>
+          <p style="font-size:12px">${esc(exp.description || exp.method || JSON.stringify(exp))}</p>
+        </div>
+      `).join('')}
+    </div>
+    <div class="dd-section">
+      <h4>Limitations</h4>
+      <ul>${(dd.limitations||[]).map(l => `<li>${esc(typeof l === 'string' ? l : l.description || JSON.stringify(l))}</li>`).join('')}</ul>
+    </div>
+    <div class="dd-section">
+      <h4>Potential Applications</h4>
+      <ul>${(dd.potential_applications||[]).map(a => `<li>${esc(typeof a === 'string' ? a : a.description || JSON.stringify(a))}</li>`).join('')}</ul>
+    </div>
+    <div class="dd-section">
+      <h4>Connections to Other Frameworks</h4>
+      <ul>${(dd.connections_to_other_frameworks||[]).map(c => `<li>${esc(typeof c === 'string' ? c : c.framework || c.name || JSON.stringify(c))}</li>`).join('')}</ul>
+    </div>
+  `;
+}
+
+// Stats
+async function loadStats() {
+  const r = await fetch('/stats');
+  const s = await r.json();
+  const vb = s.viability_breakdown || {};
+  const cs = s.confidence_stats || {};
+  const maxSrc = Math.max(...(s.top_mechanism_sources||[]).map(x=>x[1]), 1);
+  const maxTgt = Math.max(...(s.top_target_domains||[]).map(x=>x[1]), 1);
+  fetch('/domain-matrix').then(r=>r.json()).then(dm => {
+    $('domain-coverage').innerHTML = `
+      <h3 style="color:var(--mut);font-size:13px;margin:24px 0 8px">domain coverage</h3>
+      <div class="stats-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="stat-card"><div class="stat-val">${dm.total_domains}</div><div class="stat-label">domains</div></div>
+        <div class="stat-card"><div class="stat-val">${dm.pairs_with_collisions}/${dm.total_possible_pairs}</div><div class="stat-label">pairs explored</div></div>
+        <div class="stat-card"><div class="stat-val">${dm.coverage_pct}%</div><div class="stat-label">coverage</div></div>
+      </div>
+      <div style="margin:8px 0;font-size:11px;color:var(--mut)">
+        ${dm.domains.filter(d=>d.collision_count===0).length} domains with zero collisions:
+        <span style="color:var(--warn)">${dm.domains.filter(d=>d.collision_count===0).map(d=>d.domain).join(', ')}</span>
+      </div>`;
+  });
+  $('stats-result').innerHTML = `
+    <div class="row">
+      <button onclick="window.open('/export?format=json','_blank')">export JSON</button>
+      <button onclick="window.open('/export?format=csv','_blank')">export CSV</button>
+      <button onclick="window.open('/export?format=json&min_confidence=0.7','_blank')">export top (0.7+)</button>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-val">${s.theory_count||0}</div><div class="stat-label">seed theories</div></div>
+      <div class="stat-card"><div class="stat-val">${s.domain_count||0}</div><div class="stat-label">domains</div></div>
+      <div class="stat-card"><div class="stat-val">${s.batch_count||0}</div><div class="stat-label">collision batches</div></div>
+      <div class="stat-card"><div class="stat-val">${s.total_frameworks||0}</div><div class="stat-label">unique frameworks</div></div>
+      <div class="stat-card"><div class="stat-val">${s.deep_dive_count||0}</div><div class="stat-label">deep dives</div></div>
+    </div>
+    <div class="stats-grid" style="grid-template-columns:repeat(auto-fit,minmax(120px,1fr))">
+      <div class="stat-card"><div class="stat-val" style="color:var(--acc)">${vb.promising||0}</div><div class="stat-label">promising</div></div>
+      <div class="stat-card"><div class="stat-val" style="color:var(--warn)">${vb.speculative||0}</div><div class="stat-label">speculative</div></div>
+      <div class="stat-card"><div class="stat-val" style="color:var(--bad)">${vb.incoherent||0}</div><div class="stat-label">incoherent</div></div>
+    </div>
+    <div class="stats-grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="stat-card"><div class="stat-val">${cs.mean||0}</div><div class="stat-label">mean confidence</div></div>
+      <div class="stat-card"><div class="stat-val">${cs.max||0}</div><div class="stat-label">max confidence</div></div>
+      <div class="stat-card"><div class="stat-val">${cs.min||0}</div><div class="stat-label">min confidence</div></div>
+    </div>
+    <div id="domain-coverage"></div>
+    <h3 style="color:var(--mut);font-size:13px;margin:24px 0 8px">top mechanism sources</h3>
+    <div class="bar-chart">
+      ${(s.top_mechanism_sources||[]).map(([label,count]) => `
+        <div class="bar-row">
+          <span class="bar-label">${esc(label)}</span>
+          <div class="bar" style="width:${Math.round(count/maxSrc*200)}px"></div>
+          <span class="bar-count">${count}</span>
+        </div>
+      `).join('')}
+    </div>
+    <h3 style="color:var(--mut);font-size:13px;margin:24px 0 8px">top target domains</h3>
+    <div class="bar-chart">
+      ${(s.top_target_domains||[]).map(([label,count]) => `
+        <div class="bar-row">
+          <span class="bar-label">${esc(label)}</span>
+          <div class="bar" style="width:${Math.round(count/maxTgt*200)}px"></div>
+          <span class="bar-count">${count}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
 
 // History
 async function loadHistory() {
@@ -262,20 +529,60 @@ async function loadHistory() {
   $('history-result').innerHTML = batches.map(b => `
     <div>
       <div class="batch-header" onclick="this.nextElementSibling.classList.toggle('open')">
-        ${b.file} &mdash; ${b.count} frameworks
+        ${esc(b.file)} &mdash; ${b.count} frameworks
       </div>
       <div class="batch-items">
         ${b.frameworks.map(fw => `
           <div class="batch-fw">
             <span class="conf">${(fw.confidence||0).toFixed(2)}</span>
-            <span class="bname">${fw.name}</span>
-            <span class="sim">${fw.source_a} &times; ${fw.source_b}</span>
+            <span class="bname">${esc(fw.name)}</span>
+            <span class="sim">${esc(fw.source_a)} &times; ${esc(fw.source_b)}</span>
           </div>
         `).join('')}
       </div>
     </div>
   `).join('');
 }
+
+function toggleExpand(el) {
+  const exp = el.querySelector('.rank-expand');
+  if (exp) exp.style.display = exp.style.display === 'none' ? 'block' : 'none';
+}
+
+// Theories browser
+async function loadTheories() {
+  const domain = $('theory-domain').value.trim();
+  let url = '/theories';
+  if (domain) url += `?domain=${encodeURIComponent(domain)}`;
+  const r = await fetch(url);
+  const data = await r.json();
+  $('theory-count').textContent = `${data.length} theories`;
+  if (!data.length) { $('theory-result').innerHTML = '<div class="card meta">no theories found.</div>'; return; }
+  const grouped = {};
+  data.forEach(t => { (grouped[t.domain] = grouped[t.domain] || []).push(t); });
+  $('theory-result').innerHTML = Object.entries(grouped).sort((a,b) => a[0].localeCompare(b[0])).map(([dom, theories]) => `
+    <div>
+      <div class="batch-header" onclick="this.nextElementSibling.classList.toggle('open')">
+        ${esc(dom)} &mdash; ${theories.length} theories
+      </div>
+      <div class="batch-items">
+        ${theories.map(t => `
+          <div class="card" style="margin:6px 0;padding:10px 12px">
+            <div class="name" style="font-size:14px">${esc(t.name)}</div>
+            <div class="meta">${esc(t.id)}</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:6px;margin-top:8px">
+              ${['unit','variation','selection','fitness','boundary'].map(k => `
+                <div style="font-size:11px"><span class="comp-key">${k}:</span> ${esc(t[k]||'—')}</div>
+              `).join('')}
+            </div>
+            <div style="margin-top:6px;font-size:11px;color:var(--mut)">tags: ${(t.tags||[]).map(tag => `<span class="badge badge-promising" style="margin:1px">${esc(tag)}</span>`).join(' ')}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+$('theory-go').onclick = loadTheories;
 
 loadDomains();
 loadPairs();

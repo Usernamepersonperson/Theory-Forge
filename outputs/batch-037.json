@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Knit Stitch Topology Theory of Argument Structure",
+    "core_claim": "Arguments in natural language have a topological structure analogous to knit fabric: each claim is a loop interlocked with adjacent claims through logical dependencies (knit stitches) and rhetorical contrasts (purl stitches). Strong arguments exhibit high 'gauge' -- dense, regular interlock patterns that resist 'laddering' (the unraveling of one refuted claim cascading through dependent claims). Weak arguments use 'tuck' stitches -- claims that skip logical connections, creating holes that reduce structural integrity. A skilled debater attacks not the strongest loop but the column of stitches most prone to laddering, unraveling an entire line of reasoning by pulling a single thread.",
+    "mechanism_borrowed_from": "knit-stitch-topology",
+    "domain_applied_to": "philosophy of language",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Knit Stitch Topology",
+    "source_b": "Speech Act Theory"
+  },
+  {
+    "name": "Red Queen Theory of Pedagogical Method Evolution",
+    "core_claim": "Teaching methods and student resistance strategies co-evolve in a Red Queen arms race: effective pedagogies (active learning, flipped classrooms) initially produce learning gains because students have not yet evolved countermeasures. But students rapidly develop 'resistance genotypes' -- strategic surface compliance, grade-optimized shortcuts, and social loafing techniques -- that neutralize each pedagogical innovation. The most effective long-term teaching strategy is not any single method but the maintenance of methodological diversity, which prevents any student resistance strategy from becoming dominant. Static pedagogy is the equivalent of a clonal host population -- maximally vulnerable to adapted parasitic strategies.",
+    "mechanism_borrowed_from": "red-queen-hypothesis",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Red Queen Hypothesis",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Reaction-Diffusion Theory of Musical Genre Boundaries",
+    "core_claim": "Musical genre boundaries emerge from reaction-diffusion dynamics: two 'morphogens' -- stylistic convention (the activator, which promotes local coherence) and artistic novelty (the inhibitor, which diffuses faster and suppresses convention at a distance) -- interact to produce stable Turing patterns in style-space. Genres are the spots or stripes of high convention concentration, separated by boundaries where novelty dominance prevents stable genre formation. Fusion genres emerge at the unstable boundary zones, and the wavelength of the pattern (genre granularity) is determined by the ratio of novelty diffusion to convention reaction rate. Algorithmic recommendation systems that reduce novelty diffusion produce fewer, larger, more homogeneous genres.",
+    "mechanism_borrowed_from": "reaction-diffusion",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Reaction-Diffusion Patterns",
+    "source_b": "Generative Theory of Tonal Music"
+  },
+  {
+    "name": "Feedback Linearization Theory of Cross-Cultural Communication",
+    "core_claim": "Effective cross-cultural communication requires feedback linearization: the nonlinear dynamics of cultural interpretation (where the same message produces wildly different responses depending on cultural context) must be canceled by an appropriate 'control law' that transforms the communication into a linear, predictable system. A skilled cross-cultural communicator implicitly estimates the nonlinear response function of their interlocutor's culture and applies the inverse transformation to their message, producing the intended linear effect. Communication failures occur when the estimated nonlinearity is incorrect, producing over- or under-compensation that amplifies rather than cancels the cultural distortion.",
+    "mechanism_borrowed_from": "feedback-linearization",
+    "domain_applied_to": "linguistics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Feedback Linearization",
+    "source_b": "Linguistic Relativity"
+  },
+  {
+    "name": "Minsky Financial Instability Theory of Ecosystem Resilience",
+    "core_claim": "Ecosystems undergo Minsky cycles: stable environmental conditions breed ecological risk-taking as species evolve increasingly specialized, interconnected, and efficiency-optimized strategies (the ecological equivalent of moving from hedge to speculative to Ponzi finance). Each generation of stability reduces redundancy and increases dependence on continued stability. When perturbation finally arrives, the ecosystem's fragility is inversely proportional to the duration of the preceding stability. This framework explains why ecosystems with regular moderate disturbance (fire-adapted forests, flood plains) are more resilient than those in prolonged stable environments (deep ocean communities, old-growth in stable climates) -- the former never reach the Ponzi phase.",
+    "mechanism_borrowed_from": "minsky-moment",
+    "domain_applied_to": "ecology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Minsky Financial Instability",
+    "source_b": "Island Biogeography (MacArthur & Wilson)"
+  },
+  {
+    "name": "Musashi Timing Theory of Market Entry",
+    "core_claim": "Optimal market entry follows Musashi's theory of timing rather than conventional first-mover advantage logic: success depends not on being first but on seizing the interval the incumbent cannot adapt to. The 'rhythm' of incumbent innovation cycles creates predictable gaps -- moments between product releases, during leadership transitions, or while attention is focused on a different competitive front -- that correspond to Musashi's 'void in the opponent's rhythm.' The entrant who strikes during this void gains initiative not through speed alone but through temporal precision. Fast followers succeed not despite being second but because they attack during the incumbent's recovery phase between rhythm beats.",
+    "mechanism_borrowed_from": "musashi-timing",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Musashi's Theory of Timing",
+    "source_b": "Viral Marketing"
+  },
+  {
+    "name": "Liminality Theory of Machine Learning Training",
+    "core_claim": "Neural network training traverses Turner's three phases of liminality: separation (initialization breaks the network from the prior of random weights), the liminal phase (training proper, where the network exists in an ambiguous state -- neither random nor converged -- and experiences 'communitas' as all parameters participate equally in loss reduction), and reincorporation (convergence, where the network acquires its final 'status' as a specialized function approximator). Grokking -- the phenomenon of delayed generalization after memorization -- corresponds to an extended liminal phase where the network undergoes the deep structural transformation that Turner identifies as the essential work of ritual passage. Premature early stopping is a failed initiation.",
+    "mechanism_borrowed_from": "liminality-turner",
+    "domain_applied_to": "machine learning",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Liminality (Turner)",
+    "source_b": "Stochastic Gradient Descent"
+  },
+  {
+    "name": "Hamilton's Rule Theory of Open Source Contribution",
+    "core_claim": "Open source contribution follows Hamilton's rule of kin selection: developers contribute code (altruistic cost c) when the relatedness r (shared technological stack, shared employer, shared user community) multiplied by the benefit b (value to the project) exceeds the cost. This explains why contributions cluster within 'kinship groups' defined by shared technology identity (Rust developers contributing to Rust ecosystem, regardless of project), why corporate sponsorship works (it increases r by making contributors organizational kin), and why projects that fail to establish strong community identity struggle to attract contributions -- they have low r across all potential contributors.",
+    "mechanism_borrowed_from": "eusociality-hamiltons-rule",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Eusociality and Hamilton's Rule (Kin Selection)",
+    "source_b": "P vs NP"
+  },
+  {
+    "name": "Auxin Gradient Theory of Organizational Power Distribution",
+    "core_claim": "Power in organizations distributes according to auxin-like polar transport: power-signals flow directionally from apex (leadership) to base through specific transport proteins (middle managers, reporting structures). High concentrations of power at the apex promote 'elongation' (strategic initiative) while lateral redistribution enables 'branching' (departmental autonomy). The organization's 'phototropism' -- its tendency to grow toward resources -- is mediated by differential power concentration across its structure. Pathological organizations exhibit the equivalent of auxin transport mutations: either uniform power distribution (no directionality, no growth) or blocked transport (isolated apex with atrophied limbs).",
+    "mechanism_borrowed_from": "auxin-hormonal-signaling",
+    "domain_applied_to": "cybernetics",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Plant Hormonal Signaling (Auxin)",
+    "source_b": "Cybernetic Feedback"
+  },
+  {
+    "name": "Spinning Draft Ratio Theory of News Compression",
+    "core_claim": "News production operates as a spinning process: raw information (the roving of facts, quotes, and data) is attenuated through differential 'roller speeds' -- editorial layers that thin the information stream while adding twist (narrative coherence). The draft ratio determines the final 'yarn count' of the news product: broadsheet journalism uses low draft ratios (thick, detailed coverage), tabloids use high ratios (thin, highly twisted narratives), and social media uses extreme ratios that frequently cause 'breakage' (misinformation from over-attenuation). The key insight is that twist and attenuation are coupled: you cannot compress information without imposing narrative structure, and the structure imposed depends on the mechanical settings of the newsroom, not the raw material.",
+    "mechanism_borrowed_from": "spinning-draft-ratio-control",
+    "domain_applied_to": "semiotics",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Spinning Draft Ratio Control",
+    "source_b": "Saussurean Sign Theory"
+  },
+  {
+    "name": "Acoustic Impedance Matching Theory of Psychotherapy",
+    "core_claim": "Therapeutic alliance functions as acoustic impedance matching: the therapist must match the 'impedance' of the client's emotional and cognitive style to maximize the transmission of therapeutic insight across the boundary between them. Impedance mismatch -- a highly analytical therapist with a highly emotional client, or vice versa -- causes most of the therapeutic 'signal' to be reflected back rather than transmitted, regardless of the signal's content quality. The middle ear bones of therapy are the therapeutic techniques (reframing, validation, Socratic questioning) that transform the impedance of the intervention to match the client's receptive characteristics. This explains why therapeutic modality matters less than therapeutic alliance: all modalities work when impedance is matched.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Exposure Therapy (Extinction Learning)"
+  },
+  {
+    "name": "Tobler's First Law Theory of Moral Intuition",
+    "core_claim": "Moral intuitions follow Tobler's First Law: moral concern for entities 'near' the self (in social, genetic, temporal, and spatial distance) is always stronger than concern for distant entities, and this gradient is not a bias to be corrected but a fundamental structure of moral cognition analogous to spatial autocorrelation. Utilitarian ethics attempts to flatten this gradient into uniform concern, which is as physically implausible as a universe without spatial autocorrelation. The practical implication is that effective moral frameworks must work with the gradient rather than against it, designing institutional structures that telescope local moral concern outward through chains of proximate relationships rather than demanding direct long-range moral connection.",
+    "mechanism_borrowed_from": "tobler-first-law",
+    "domain_applied_to": "ethics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Tobler's First Law of Geography",
+    "source_b": "Trolley Problem / Doctrine of Double Effect"
+  },
+  {
+    "name": "Wave-Particle Duality Theory of Organizational Identity",
+    "core_claim": "Organizations exhibit wave-particle duality: when observed through the lens of formal structure (org charts, policies, roles), they appear as discrete particle-like entities with clear boundaries. When observed through the lens of practice (actual workflows, informal networks, cultural norms), they appear as wave-like probability distributions spread across organizational boundaries. The measurement context determines which aspect manifests: audits and compliance reviews collapse the organization into its particle state, while ethnographic observation reveals the wave state. The Heisenberg analog holds: the more precisely you measure formal structure, the less you can know about actual practice, and vice versa. Organizational dysfunction often results from managing the particle state while the wave state determines actual outcomes.",
+    "mechanism_borrowed_from": "wave-particle-duality",
+    "domain_applied_to": "systems theory",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Wave-Particle Duality",
+    "source_b": "General Systems Theory"
+  },
+  {
+    "name": "Soil Formation Theory of Long-Term Relationship Development",
+    "core_claim": "Intimate relationships develop soil-like maturity through Jenny's CLORPT factors: Climate (emotional temperature of the household), Organisms (the personalities and habits of the partners), Relief (power asymmetries and structural dynamics), Parent material (each partner's attachment history and family of origin), and Time. Young relationships are thin, undifferentiated, and easily eroded, while mature relationships develop distinct 'horizons' -- a surface layer of daily interaction, a subsoil of shared meaning, and a bedrock of fundamental commitment. Relationship therapy that addresses only the surface horizon while ignoring the subsoil profile will fail, just as topsoil amendment without addressing compacted subsoil produces only temporary improvement.",
+    "mechanism_borrowed_from": "soil-formation-factors",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Jenny's Factors of Soil Formation",
+    "source_b": "Attachment Theory"
+  },
+  {
+    "name": "Stimulated Emission Theory of Charismatic Leadership",
+    "core_claim": "Charismatic leadership operates through stimulated emission: a leader in a 'population-inverted' organization (one where the majority of members are in an excited, frustrated, or aspirational state above their ground state) can trigger coherent, phase-locked collective action by emitting a signal at the resonant frequency of the group's latent energy. The resulting 'laser' of coordinated movement is qualitatively different from the spontaneous emission of uncoordinated individual actions. The optical cavity corresponds to the organizational boundary that reflects the leader's signal back through the population, amplifying it on each pass. Without population inversion (genuine collective frustration or aspiration), the same leadership signal produces only incoherent fluorescence -- diffuse enthusiasm that dissipates without directionality.",
+    "mechanism_borrowed_from": "laser-stimulated-emission",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Stimulated Emission (Laser Physics)",
+    "source_b": "Diffusion of Innovations"
+  }
+]

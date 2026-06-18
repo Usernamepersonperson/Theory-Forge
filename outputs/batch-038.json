@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stigmergic Theory of Archival Arrangement",
+    "core_claim": "Archival collections self-organize through stigmergic traces: each archivist's processing decision (folder labeling, finding aid annotation, cross-reference note) deposits an environmental signal that guides subsequent archivists' decisions, producing emergent organizational coherence without centralized planning. The resulting arrangement reflects not the original creator's logic but the accumulated trace-history of every handler, much as termite mounds reflect pheromone trails rather than any single insect's blueprint.",
+    "mechanism_borrowed_from": "stigmergy",
+    "domain_applied_to": "library science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Stigmergy",
+    "source_b": "Ranganathan's Five Laws of Library Science"
+  },
+  {
+    "name": "Dose-Response Theory of Judicial Sentencing",
+    "core_claim": "Criminal sentencing follows pharmacological dose-response dynamics: below a threshold severity, punishment has negligible deterrent effect; above it, deterrence follows a sigmoidal curve with diminishing returns; and beyond an upper bound, excessive punishment triggers societal backlash that undermines the legal system's legitimacy, analogous to drug toxicity. The 'therapeutic window' of effective sentencing is narrower than most jurisdictions assume.",
+    "mechanism_borrowed_from": "dose-response",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Dose-Response Curve",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Bragg Diffraction Theory of Electoral Periodicity",
+    "core_claim": "Voter behavior in periodic elections exhibits constructive and destructive interference patterns analogous to Bragg diffraction. When the 'wavelength' of policy-cycle expectations aligns with the 'lattice spacing' of election intervals, voter mobilization constructively interferes to produce landslide outcomes. Misalignment between policy-expectation cycles and electoral timing produces diffuse, low-turnout elections where no clear mandate crystallizes.",
+    "mechanism_borrowed_from": "bragg-diffraction",
+    "domain_applied_to": "demography",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Bragg Diffraction",
+    "source_b": "Demographic Transition Model"
+  },
+  {
+    "name": "Mycelial Routing Theory of Urban Transit",
+    "core_claim": "Optimal public transit networks can be derived by applying mycelial resource-routing principles: routes that carry high passenger throughput are reinforced with greater frequency and capacity (analogous to nutrient-rich hyphal paths thickening), while underperforming routes are pruned. The resulting network topology converges on solutions that outperform centrally planned grids, as demonstrated by Physarum slime-mold experiments with Tokyo rail maps.",
+    "mechanism_borrowed_from": "mycelial-network",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Mycelial Resource Routing",
+    "source_b": "Induced Demand (Braess Paradox)"
+  },
+  {
+    "name": "Quasispecies Theory of Culinary Recipes",
+    "core_claim": "Traditional recipes persist not as fixed formulas but as quasispecies clouds of variants maintained by the high mutation rate of home-cook improvisation. Selection acts on the cloud's mean palatability, not on any canonical version. When the mutation rate exceeds an error threshold (e.g., fusion cuisine pushes too many simultaneous substitutions), the recipe undergoes error catastrophe and fragments into unrecognizable dishes that lose cultural transmission fitness.",
+    "mechanism_borrowed_from": "quasispecies-theory",
+    "domain_applied_to": "culinary science",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Quasispecies Theory (Eigen)",
+    "source_b": "Maillard Reaction"
+  },
+  {
+    "name": "Circadian Oscillator Theory of Financial Markets",
+    "core_claim": "Market sentiment follows a transcription-translation feedback loop structurally identical to circadian clock genes: optimism (the 'protein product') accumulates during trading hours, eventually triggering its own negative regulator (risk aversion), which suppresses further optimism until it degrades overnight. The resulting ~24-hour sentiment oscillation explains persistent intraday patterns in volatility and volume better than rational expectations models.",
+    "mechanism_borrowed_from": "circadian-oscillator",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Circadian Clock (TTFL Model)",
+    "source_b": "Speculative Bubbles"
+  },
+  {
+    "name": "Locard Exchange Theory of Software Debugging",
+    "core_claim": "Every interaction between a developer and a codebase leaves a bidirectional trace: the developer changes the code (intended), but the code also changes the developer's mental model (often unnoticed). Bugs persist when the developer's mental-model traces diverge from the code's actual state traces. Effective debugging requires forensic reconstruction of both trace directions, not just code inspection.",
+    "mechanism_borrowed_from": "locard-exchange-principle",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Locard's Exchange Principle",
+    "source_b": "P vs NP"
+  },
+  {
+    "name": "Trophic Cascade Theory of Academic Citation",
+    "core_claim": "Removal of a top-cited 'keystone paper' from a field triggers a trophic cascade through the citation network: secondary papers that depended on it for legitimacy lose citations, releasing attention-resources to previously suppressed alternative frameworks, which then proliferate. The resulting restructuring of a field after a major retraction follows the same abundance-ratio dynamics as wolf reintroduction in Yellowstone.",
+    "mechanism_borrowed_from": "trophic-cascade",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Trophic Cascade",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Felting Entanglement Theory of Social Trust",
+    "core_claim": "Social trust in communities builds through a mechanism analogous to felting: random interpersonal encounters (fiber contacts) under social 'agitation' (shared crises, festivals, market interactions) form irreversible bonds when the interactions exceed a threshold of emotional intensity. Communities with insufficient agitation remain loose assemblages; those with excessive agitation compact into rigid, exclusionary structures. Trust density follows the same irreversible entanglement kinetics as wool fiber under heat and moisture.",
+    "mechanism_borrowed_from": "felting-fiber-entanglement",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "source_a": "Felting Fiber Entanglement",
+    "source_b": "Gift Economy (Mauss)"
+  },
+  {
+    "name": "Morphogen Gradient Theory of Wealth Distribution",
+    "core_claim": "Income distribution in market economies follows morphogen gradient dynamics: economic policy centers (central banks, fiscal authorities) act as morphogen sources, and the concentration of economic stimulus diffuses outward through institutional layers. Cells (firms and households) at different distances from the source interpret threshold concentrations as fate instructions, differentiating into distinct economic roles. Wealth inequality is thus a positional-information problem, not merely a market-competition outcome.",
+    "mechanism_borrowed_from": "morphogen-gradient",
+    "domain_applied_to": "macroeconomics",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Morphogen Gradient (Turing-Wolpert)",
+    "source_b": "Keynesian Multiplier"
+  },
+  {
+    "name": "Acoustic Impedance Theory of Cross-Cultural Communication",
+    "core_claim": "Cross-cultural communication failures are best modeled as impedance mismatches at cultural boundaries. When the 'communication impedance' (encoded norms for directness, formality, emotional expression) differs sharply between two cultural media, most communicative energy is reflected back rather than transmitted, producing misunderstanding. Effective intercultural mediators function as impedance-matching transformers that gradually taper between cultural registers.",
+    "mechanism_borrowed_from": "acoustic-impedance",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Acoustic Impedance Matching",
+    "source_b": "Linguistic Relativity"
+  },
+  {
+    "name": "Dislocation Theory of Organizational Change",
+    "core_claim": "Organizational change propagates through institutions via dislocation glide, not wholesale restructuring. Line defects in organizational structure (misaligned incentives, legacy processes, informal workarounds) move along 'slip planes' of least institutional resistance when sufficient managerial stress is applied. Plastic deformation (lasting change) occurs only when enough dislocations have moved; below the Peierls barrier of institutional inertia, the organization springs back to its original configuration.",
+    "mechanism_borrowed_from": "dislocations",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Dislocation Theory",
+    "source_b": "Disruptive Innovation"
+  },
+  {
+    "name": "Laban Effort Theory of Rhetorical Delivery",
+    "core_claim": "The persuasive impact of a speech depends on the speaker's modulation of four effort qualities borrowed from dance analysis: weight (assertion vs. gentleness), space (direct vs. indirect argument), time (urgent vs. sustained pacing), and flow (controlled vs. free emotional expression). Master rhetoricians intuitively shift effort combinations to match audience resistance, and the most effective speeches traverse the same effort-space trajectories that choreographers use to sustain audience engagement.",
+    "mechanism_borrowed_from": "laban-effort",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.69,
+    "source_a": "Laban Effort Theory",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Crystal Nucleation Theory of Startup Formation",
+    "core_claim": "Startup formation follows crystal nucleation kinetics: entrepreneurial 'embryonic nuclei' (small teams with an idea) form constantly through thermal fluctuations in the talent market, but only those exceeding a critical radius (minimum viable team size, capital threshold, market timing) survive to grow. Below the critical nucleus size, surface-energy costs (coordination overhead, burn rate) exceed volume-energy gains (revenue potential), and the startup dissolves back into the talent pool.",
+    "mechanism_borrowed_from": "crystal-nucleation",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Crystal Nucleation",
+    "source_b": "Market Competition"
+  },
+  {
+    "name": "Entanglement Distribution Theory of Diplomatic Alliances",
+    "core_claim": "International alliances function as entanglement distribution networks where trust (the diplomatic analog of quantum entanglement) degrades with geopolitical distance and is subject to a no-cloning constraint: a nation cannot simultaneously maintain equally strong bilateral trust with two mutually hostile powers. Alliance maintenance requires continuous 'entanglement distillation' through summits, joint exercises, and treaty renewals, and the effective alliance radius is bounded by the rate at which trust decoheres through competing interests.",
+    "mechanism_borrowed_from": "entanglement-distribution-network",
+    "domain_applied_to": "military strategy",
+    "viability": "speculative",
+    "confidence": 0.54,
+    "source_a": "Entanglement Distribution Network",
+    "source_b": "Clausewitz's Friction of War"
+  }
+]

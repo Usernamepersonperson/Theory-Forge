@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Glacial Erratic Theory of Sunk Cost Persistence",
+    "core_claim": "Sunk cost fallacy persists in organizations through a mechanism analogous to glacial erratic transport: large commitments (projects, strategies, hires) are picked up during periods of institutional momentum and deposited far from their origin context when the momentum recedes. Like boulders stranded on alien lithology, these commitments become landmarks around which subsequent decisions orient, not because they belong in the current landscape but because their sheer mass makes removal costlier than accommodation. The 'till' of accumulated justifications buries the original decision rationale, making the commitment appear native to its current context.",
+    "mechanism_borrowed_from": "plate-tectonics",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Plate Tectonics",
+    "source_b": "Prospect Theory"
+  },
+  {
+    "name": "Wound Healing Theory of Cryptographic Key Rotation",
+    "core_claim": "Cryptographic key rotation follows the phases of wound healing: the inflammatory phase (breach detection triggers immediate key revocation), the proliferative phase (new keys are generated and distributed across endpoints, forming a 'granulation tissue' of provisional trust), and the remodeling phase (redundant key material is pruned and access patterns mature into their final topology over weeks). Systems that skip the proliferative phase and jump directly to new keys suffer the cryptographic equivalent of wound dehiscence -- re-opening of the vulnerability because trust relationships were not properly re-established.",
+    "mechanism_borrowed_from": "general-adaptation-syndrome",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "General Adaptation Syndrome (Selye)",
+    "source_b": "RSA Cryptosystem"
+  },
+  {
+    "name": "Enological Terroir Theory of Game-Theoretic Equilibria",
+    "core_claim": "Nash equilibria in repeated games are not universal constants but terroir-dependent: the same game structure produces different stable equilibria depending on the 'microbiome' of cultural norms, institutional history, and player experience that constitute the game's social terroir. Just as identical grape varieties produce radically different wines across regions due to site-specific microbial communities, identical payoff matrices produce different behavioral equilibria across populations. Attempts to transplant institutional designs across cultures fail for the same reason monoculture vineyards lose complexity -- they strip the terroir that selected for the local equilibrium.",
+    "mechanism_borrowed_from": "terroir-microbiome-encoding",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Terroir Microbiome Encoding",
+    "source_b": "Nash Equilibrium"
+  },
+  {
+    "name": "Tribological Friction Theory of Rhetorical Persuasion",
+    "core_claim": "Persuasive discourse operates under tribological principles: the 'coefficient of friction' between speaker and audience determines whether arguments gain traction or slide past without effect. Ethos functions as surface roughness (credibility creates grip), pathos as adhesive friction (emotional engagement increases contact area), and logos as the normal force pressing the argument against the audience's prior beliefs. Excessive polish (over-rehearsed delivery) reduces friction below the threshold needed for attitude change, while excessive roughness (aggressive confrontation) causes wear and surface damage to the relationship, reducing future persuasive capacity.",
+    "mechanism_borrowed_from": "weaving-tension-dynamics",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Weaving Tension Dynamics",
+    "source_b": "Aristotelian Rhetoric (Ethos/Pathos/Logos)"
+  },
+  {
+    "name": "Phyllotactic Theory of Urban Zoning Emergence",
+    "core_claim": "Organic urban zoning patterns follow phyllotactic inhibition dynamics: each established land use (industrial, commercial, residential) generates an inhibitory field that repels incompatible uses and attracts complementary ones. New development occurs at the point of least inhibition, analogous to leaf primordia forming at the golden angle. The resulting spiral-like pattern of land use diversity maximizes functional variety per unit of urban area, and cities that impose rigid grid zoning override this self-organizing mechanism at the cost of reduced adaptive capacity and increased commute distances.",
+    "mechanism_borrowed_from": "phyllotaxis",
+    "domain_applied_to": "urban planning",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Phyllotaxis",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Autocatalytic Set Theory of Common Law Evolution",
+    "core_claim": "Common law doctrines form autocatalytic sets: each precedent catalyzes the production of further precedents in related areas, and the legal system achieves closure when every doctrinal area has at least one precedent that enables reasoning in adjacent areas. The system is self-sustaining once this closure is achieved, but novel technologies or social arrangements that fall outside the catalytic network require the equivalent of abiogenesis -- a de novo legislative act that seeds a new autocatalytic cluster. The fragility of the common law to truly novel problems is structurally identical to the fragility of early proto-life to environmental perturbation.",
+    "mechanism_borrowed_from": "catalysis",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Autocatalytic Sets",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Nyquist Sampling Theory of Democratic Representation",
+    "core_claim": "Democratic institutions suffer aliasing when the sampling rate of elections falls below twice the frequency of the fastest-changing public concern. If policy sentiment oscillates faster than the electoral cycle can capture, the resulting 'reconstructed' mandate is a distorted, low-frequency phantom of actual public will. This explains why democracies with fixed four-year cycles systematically misrepresent rapidly evolving issues (technological disruption, pandemic response) while adequately capturing slow-moving concerns (infrastructure, education). Continuous polling and referendum mechanisms function as anti-aliasing filters, but introduce their own noise floor.",
+    "mechanism_borrowed_from": "nyquist-shannon-sampling",
+    "domain_applied_to": "moral philosophy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Nyquist-Shannon Sampling Theorem",
+    "source_b": "Rawlsian Veil of Ignorance"
+  },
+  {
+    "name": "Immune Clonal Selection Theory of Startup Ecosystems",
+    "core_claim": "Startup ecosystems function as adaptive immune systems for economies: venture-funded companies are lymphocyte clones, each encoding a different 'antigen receptor' (business hypothesis). When a market opportunity (antigen) appears, the startup with the closest product-market fit undergoes clonal expansion (scaling), while its competitors undergo apoptosis (failure). Somatic hypermutation corresponds to the rapid pivoting of early-stage startups, and the memory B-cell analog is the serial entrepreneur who retains pattern recognition from previous market encounters. The ecosystem's diversity is its immune repertoire, and monoculture venture strategies produce the equivalent of immunodeficiency.",
+    "mechanism_borrowed_from": "immune-clonal-selection",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Clonal Selection (Immunology)",
+    "source_b": "Disruptive Innovation"
+  },
+  {
+    "name": "Bragg Diffraction Theory of Cultural Canon Formation",
+    "core_claim": "Cultural canons form through a process analogous to Bragg diffraction: works of art that are 'in phase' with the periodic structure of institutional review cycles (curriculum revision, anthology publication, prize seasons) constructively interfere and amplify into canonical status. Works that fall between these lattice planes -- published at the wrong moment, in the wrong format, from the wrong institutional position -- destructively interfere and vanish from collective memory regardless of quality. The 'lattice spacing' of the canon is determined by the periodicity of institutional gatekeeping, not by intrinsic artistic merit.",
+    "mechanism_borrowed_from": "bragg-diffraction",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Bragg Diffraction",
+    "source_b": "Institutional Theory of Art"
+  },
+  {
+    "name": "Two-Process Sleep Theory of Organizational Attention",
+    "core_claim": "Organizational attention follows a two-process model structurally identical to Borbely's sleep regulation: Process S (strategic debt) accumulates homeostatically during periods of operational focus, building pressure for strategic review, while Process C (quarterly/annual cycles) provides a circadian-like oscillation of institutional attention. Strategic retreats and planning sessions occur at the intersection of high strategic debt and favorable cycle phase, and organizations that ignore the homeostatic buildup experience the equivalent of sleep deprivation -- degraded strategic judgment, microsleeps of impulsive decision-making, and eventual organizational collapse.",
+    "mechanism_borrowed_from": "two-process-sleep",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Two-Process Model of Sleep Regulation (Borbely)",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Felting Entanglement Theory of Social Movement Consolidation",
+    "core_claim": "Social movements consolidate through a felting mechanism: initially loose, randomly oriented individual grievances are subjected to the agitation of protest events, the heat of media attention, and the moisture of shared emotional experience. These conditions cause the 'cuticle scales' of individual identity -- directional commitments that normally prevent bonding -- to interlock irreversibly. Once felted, the movement cannot be decomposed back into individual threads without destroying the fabric entirely. This explains why movements that never achieve sufficient agitation remain loose collections of complaints, and why successful movements resist internal disaggregation even when their original goals are met.",
+    "mechanism_borrowed_from": "felting-fiber-entanglement",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Felting Fiber Entanglement",
+    "source_b": "Threshold Models of Social Contagion"
+  },
+  {
+    "name": "Thermohaline Circulation Theory of Academic Knowledge Production",
+    "core_claim": "Academic knowledge circulates through a thermohaline-like conveyor: 'warm surface currents' of fashionable research topics flow from elite institutions toward the periphery, cool as they lose novelty, and sink into the 'deep water' of textbook knowledge and standard curricula. This deep circulation slowly returns foundational knowledge to elite institutions where it is reheated by new theoretical frameworks and resurfaces as rediscovered insight. The system's overturning rate determines how quickly forgotten knowledge is recirculated, and disruptions to the density gradient (flattening of institutional prestige hierarchies) can stall the conveyor entirely, producing knowledge stagnation.",
+    "mechanism_borrowed_from": "thermohaline-circulation",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Thermohaline Circulation",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "PID Control Theory of Emotional Regulation",
+    "core_claim": "Mature emotional regulation operates as a PID controller: the proportional term responds to the current magnitude of emotional disturbance, the integral term accumulates unresolved emotional residue over time (preventing chronic low-grade distress from being ignored), and the derivative term anticipates emotional trajectory (enabling preemptive coping). Psychopathology corresponds to mistuned gains: anxiety disorders have excessive derivative gain (overreacting to predicted threats), depression has excessive integral gain (accumulated unresolved distress dominates), and borderline personality features reflect excessive proportional gain with insufficient integral and derivative damping.",
+    "mechanism_borrowed_from": "pid-control",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "PID Control",
+    "source_b": "CBT Cognitive Model"
+  },
+  {
+    "name": "Jacquard Binary Patterning Theory of Genetic Regulation",
+    "core_claim": "Gene regulatory networks operate as biological Jacquard looms: each transcription factor binding event is a binary hook-lift decision (bound/unbound), and the combinatorial pattern of thousands of such decisions across the genome produces the complex 'fabric' of cell-type-specific gene expression. The developmental program is the punch card, and cell differentiation is the sequential reading of cards that produce increasingly specific tissue patterns. Epigenetic modifications function as the card storage mechanism, preserving the pattern instructions across cell divisions. Cancer represents a corrupted card deck producing chaotic, non-repeating patterns.",
+    "mechanism_borrowed_from": "jacquard-binary-patterning",
+    "domain_applied_to": "systems biology",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Jacquard Binary Patterning",
+    "source_b": "Gene Regulatory Networks"
+  },
+  {
+    "name": "Drake Equation Theory of Innovation Pipeline Forecasting",
+    "core_claim": "The expected number of commercially viable innovations emerging from an R&D portfolio can be estimated by a Drake-like product of conditional probabilities: the rate of idea generation, the fraction that survive initial screening, the probability of technical feasibility, the fraction that find product-market fit, and the expected commercial lifespan. Like the Drake Equation, the value of this framework lies not in its output but in forcing explicit estimation of each factor, revealing which stages of the pipeline are genuine bottlenecks versus which are merely assumed to be. Most organizations dramatically overestimate the idea generation term and underestimate the product-market fit fraction.",
+    "mechanism_borrowed_from": "drake-equation",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Drake Equation",
+    "source_b": "Experience / Learning Curve"
+  }
+]

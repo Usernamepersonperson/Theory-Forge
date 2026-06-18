@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Triboelectric Theory of Organizational Blame Transfer",
+    "core_claim": "When organizational units come into repeated contact under pressure, blame accumulates on the unit with lower 'work-function' prestige, exactly as triboelectric charge separates at material interfaces. The resulting blame gradient drives defensive behaviors that further increase friction, until discharge events (firings, restructurings) reset the potential — only for the cycle to resume with the next contact pair.",
+    "mechanism_borrowed_from": "triboelectric-charge-transfer",
+    "domain_applied_to": "forensic accounting",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "source_a": "Triboelectric Charge Separation",
+    "source_b": "Shell Company Network Detection"
+  },
+  {
+    "name": "Hydraulic Jump Theory of Paradigm Shifts",
+    "core_claim": "Scientific paradigms flow in a supercritical regime — fast, shallow, and unable to transmit upstream disturbances (anomalies cannot propagate back to revise core assumptions). A paradigm shift is a hydraulic jump: the supercritical flow abruptly transitions to a subcritical regime that is deeper and slower, dissipating enormous intellectual energy as turbulence. The Froude number analog — the ratio of theoretical velocity to the speed of critical reflection — predicts when the jump becomes inevitable.",
+    "mechanism_borrowed_from": "hydraulic-jump-energy-dissipation",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Hydraulic Jump Energy Dissipation",
+    "source_b": "Photonic Bandgap"
+  },
+  {
+    "name": "Ant Colony Pheromone Theory of Archival Discovery",
+    "core_claim": "Researchers navigating archival collections follow pheromone-trail dynamics: each successful discovery leaves traces — citations, finding-aid annotations, catalog notes — that evaporate over time but temporarily strengthen paths for subsequent researchers. Well-trodden collections develop reinforced trails that attract disproportionate attention, while equally rich but un-pheromoned collections remain undiscovered. The decay rate of scholarly attention determines whether the archive self-organizes toward optimal coverage or locks into suboptimal canonical paths.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-optimization",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Ant Colony Pheromone Trail Optimization",
+    "source_b": "Finding Aid Discoverability Gradient"
+  },
+  {
+    "name": "Paris Law Theory of Trust Erosion in Oral Traditions",
+    "core_claim": "Trust in an oral tradition's fidelity degrades according to Paris Law crack growth: each retelling cycle applies a small stress intensity, and the trust-crack grows at a rate proportional to a power of the number of contested details. Below the threshold stress intensity, trust is indefinitely stable; above it, each generation of retelling widens the crack until catastrophic fracture — the moment a community abandons the tradition as unreliable — occurs abruptly after centuries of apparently stable transmission.",
+    "mechanism_borrowed_from": "fatigue-crack-paris-law",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Paris Law Fatigue Crack Growth",
+    "source_b": "Serial Reproduction Drift"
+  },
+  {
+    "name": "Morphogen Gradient Theory of Wine Terroir Expression",
+    "core_claim": "Terroir expression in wine functions as a morphogen gradient: soil mineral concentration diffuses through root systems with distance-dependent attenuation, and vine cells interpret threshold concentrations as developmental fate instructions for flavor-precursor biosynthesis. Vines at the gradient source produce phenolic-dominant profiles, those at the distal boundary produce aromatic-ester profiles, and the intermediate zone yields the prized complexity of mixed expression — explaining why micro-site variation matters more than bulk soil chemistry.",
+    "mechanism_borrowed_from": "morphogen-gradient",
+    "domain_applied_to": "enology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Morphogen Gradient (Turing-Wolpert)",
+    "source_b": "Terroir Mineral Gradient"
+  },
+  {
+    "name": "Quorum Sensing Theory of Numismatic Debasement Crises",
+    "core_claim": "Coin users tolerate debasement individually until a quorum threshold is reached: once the density of people who have personally detected debased coins exceeds a critical fraction, a collective behavioral switch activates — hoarding, metal testing, premium demands — that transforms gradual debasement into an acute monetary crisis. The crisis is not triggered by the degree of debasement but by the social density of awareness, exactly as bacterial virulence factors activate only above a quorum-sensing autoinducer threshold.",
+    "mechanism_borrowed_from": "quorum-sensing-threshold",
+    "domain_applied_to": "numismatics",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Quorum Sensing Activation Threshold",
+    "source_b": "Gresham's Law Debasement Spiral"
+  },
+  {
+    "name": "Glacial Surge Theory of Creative Block Resolution",
+    "core_claim": "Creative blocks resolve through glacial surge dynamics: subglacial meltwater (unconscious processing) slowly accumulates beneath the frozen creative surface, reducing basal friction until the entire ice mass lurches forward in a surge of productivity. The quiescent phase is not absence of work but pressurization; the surge phase is not inspiration but mechanical release. The oscillation period depends on the ratio of accumulation rate (input/experience) to the drainage efficiency of incremental output.",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Glacial Surge Oscillation",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Common Mycorrhizal Network Theory of Academic Citation",
+    "core_claim": "Academic citation networks function as common mycorrhizal networks: established researchers (large trees) provide carbon (prestige) to the network in exchange for phosphorus (novel ideas from junior researchers), while the fungal network (journals, conferences, reviewers) extracts a carbon tax for facilitating the exchange. The network preferentially routes resources toward kin-group (same-lab, same-school) connections and can be parasitized by mycoheterotrophic agents — researchers who extract citations without contributing original work.",
+    "mechanism_borrowed_from": "common-mycorrhizal-network",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Common Mycorrhizal Network",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Fitts's Law Theory of Democratic Participation Targeting",
+    "core_claim": "Citizen participation in democratic processes follows Fitts's Law: the time and effort to engage with a political target (voting, commenting, petitioning) increases logarithmically with the distance (institutional layers) and decreases logarithmically with the target size (scope of the decision's impact on the citizen). This predicts that hyperlocal issues with large personal impact attract fast, high-participation engagement, while distant federal issues with diffuse impact produce the sluggish, low-precision participation observed in national elections.",
+    "mechanism_borrowed_from": "fitts-law-targeting",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Fitts's Law Motor Targeting",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Vowel Chain Shift Theory of Cryptocurrency Token Migration",
+    "core_claim": "When one blockchain token shifts its functional niche (from currency to store-of-value), it displaces a neighboring token from that niche, which in turn displaces the next, producing a chain shift across the token ecosystem. The shift is driven by the same structural pressure as vowel chain shifts in phonology: tokens must maintain distinctiveness in the functional space, so one movement cascades through the entire system. The direction of the chain (push vs. pull) determines whether the ecosystem expands or contracts in functional diversity.",
+    "mechanism_borrowed_from": "vowel-chain-shift",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.60,
+    "source_a": "Vowel Chain Shift",
+    "source_b": "Black-Scholes Option Pricing"
+  },
+  {
+    "name": "Stribeck Curve Theory of Workplace Conflict Lubrication",
+    "core_claim": "Interpersonal conflict in organizations passes through Stribeck lubrication regimes. At low interaction velocity (rare contact), boundary friction dominates — every encounter generates maximal personal friction. At intermediate velocity, a mixed regime emerges where institutional protocols partially lubricate interactions. At high velocity (constant collaboration), full hydrodynamic lubrication develops — the thick film of shared context and routine eliminates personal friction entirely. The optimal operating point minimizes total organizational wear.",
+    "mechanism_borrowed_from": "stribeck-lubrication-regimes",
+    "domain_applied_to": "ergonomics",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "source_a": "Stribeck Curve Transitions",
+    "source_b": "Alarm Fatigue Habituation"
+  },
+  {
+    "name": "Plinian Column Collapse Theory of Viral Content Dynamics",
+    "core_claim": "Viral content on social media follows Plinian eruption column dynamics: initial momentum drives content upward in a buoyant plume (organic sharing), but if the mass flux (content volume from imitators) exceeds the thermal energy (genuine audience interest), the column collapses into pyroclastic density currents — a lateral surge of low-quality derivative content that buries the original signal. The collapse threshold depends on the ratio of content novelty to imitation rate, not on the quality of the original post.",
+    "mechanism_borrowed_from": "plinian-column-collapse",
+    "domain_applied_to": "marketing",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Plinian Column Collapse Dynamics",
+    "source_b": "Viral Loop Growth"
+  },
+  {
+    "name": "Inflammation Resolution Theory of Post-Conflict Reconciliation",
+    "core_claim": "Post-conflict reconciliation follows the inflammation resolution cascade: an initial pro-inflammatory phase (truth commissions, trials, public reckoning) must actively switch to a pro-resolution phase (amnesty mechanisms, shared institutions) through the production of specialized mediators (restorative justice practitioners, cultural bridge-builders). Failure to switch — chronic inflammation — produces perpetual grievance cycles. The switch is not passive healing but requires active biosynthesis of resolution signals, explaining why reconciliation demands sustained institutional investment.",
+    "mechanism_borrowed_from": "inflammation-resolution-cascade",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Inflammation Resolution Cascade",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Dansgaard-Oeschger Theory of Fashion Trend Oscillation",
+    "core_claim": "Fashion trends exhibit Dansgaard-Oeschger-style oscillations: rapid warming events (trend explosions that sweep the industry in a single season) are followed by gradual cooling (slow decline into ubiquity and then unfashionability). The oscillation is driven by a bipolar seesaw between high-fashion and mass-market adoption — when one warms, the other cools — with the abrupt transitions triggered by threshold crossings in cultural saturation, not by designer intent.",
+    "mechanism_borrowed_from": "dansgaard-oeschger-oscillation",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Dansgaard-Oeschger Oscillation",
+    "source_b": "Kantian Aesthetic Judgment"
+  },
+  {
+    "name": "Permaculture Zone Gradient Theory of Software Architecture",
+    "core_claim": "Software systems should be designed using permaculture zone gradients: modules requiring the most frequent developer attention (Zone 1: core business logic, hot paths) are placed closest to the development team's cognitive center, while stable, rarely-touched infrastructure (Zone 5: logging, monitoring) is allowed to 'go wild' with minimal intervention. The attention-distance gradient predicts maintenance cost better than traditional coupling metrics, because human cognitive proximity, not code dependency, is the binding constraint.",
+    "mechanism_borrowed_from": "permaculture-zone-gradient",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Zone-Based Attention Gradient",
+    "source_b": "Kolmogorov Complexity"
+  }
+]

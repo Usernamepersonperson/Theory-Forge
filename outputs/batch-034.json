@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Triboelectric Charge Theory of Denominational Ladder Selection",
+    "core_claim": "Denominational systems in coinage self-organize through triboelectric charge separation dynamics: frequent transactional 'contact' between denomination levels generates a charge differential — an information gradient about relative purchasing power — that separates denominations into distinct functional roles (small change vs. store of value vs. unit of account). Denominations that fail to accumulate sufficient charge separation from their neighbors are eliminated from circulation, predicting that stable monetary systems require minimum ratio gaps between adjacent denominations analogous to the triboelectric series spacing.",
+    "mechanism_borrowed_from": "triboelectric-charge-transfer",
+    "domain_applied_to": "numismatics",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "source_a": "Triboelectric Charge Separation",
+    "source_b": "Denominational Ladder Selection"
+  },
+  {
+    "name": "Angiogenic Sprouting Theory of Lava Flow Channelization",
+    "core_claim": "Lava flow channelization follows the same competitive branching logic as angiogenic sprouting in wound healing: multiple nascent flow channels compete for thermal gradient-driven advance, with leading 'tip cells' (the hottest, most fluid lava fronts) extending fastest while lateral branches are pruned through cooling-induced solidification. The resulting mature channel network exhibits the same hierarchical, non-random branching geometry as vascular networks, optimized for heat transport from source to flow front, with channel diameter scaling predictably with distance from the vent.",
+    "mechanism_borrowed_from": "angiogenic-sprouting-gradient",
+    "domain_applied_to": "volcanology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Angiogenic Sprouting Gradient",
+    "source_b": "Lava Flow Channelization"
+  },
+  {
+    "name": "Attention Mechanism Theory of Forensic Pattern Detection",
+    "core_claim": "Forensic accounting anomaly detection should be restructured as a transformer-style attention mechanism: each financial transaction generates query, key, and value vectors encoding its temporal, relational, and magnitude properties. The softmax attention score between any two transactions quantifies their 'suspicious similarity,' and transactions that attend strongly to each other despite being in different accounts, time periods, or entities form the high-attention clusters that correspond to fraud rings, round-tripping schemes, or duplicate payment networks.",
+    "mechanism_borrowed_from": "attention-mechanism",
+    "domain_applied_to": "forensic accounting",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Attention (Transformers)",
+    "source_b": "Duplicate Payment Entropy Analysis"
+  },
+  {
+    "name": "Firn Densification Theory of Soil Horizon Development",
+    "core_claim": "Soil horizon formation follows firn densification feedback dynamics: fresh organic inputs (analogous to snowfall) accumulate at the surface and undergo progressive compression, chemical transformation, and grain restructuring as they are buried by successive layers. The transition from O-horizon to A-horizon mirrors the firn-to-ice transition — a critical density threshold where interconnected pore spaces close off, fundamentally changing the material's hydrological and biological properties. The depth of this transition zone is governed by precipitation rate, temperature, and biological activity, just as firn densification depth depends on accumulation rate, temperature, and overburden pressure.",
+    "mechanism_borrowed_from": "firn-densification-feedback",
+    "domain_applied_to": "agroecology",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Firn Densification Feedback",
+    "source_b": "Soil Microbiome Feedback"
+  },
+  {
+    "name": "Escalation Ratchet Theory of Fretting Fatigue Progression",
+    "core_claim": "Fretting fatigue crack nucleation follows escalation ratchet game dynamics: each oscillatory loading cycle represents a round in an escalation game between the applied stress and the material's resistance. Micro-cracks that form cannot 'de-escalate' (heal), so each cycle ratchets the damage state irreversibly upward. The material's strategy of local work-hardening temporarily slows the ratchet but ultimately exhausts its capacity for strategic response, guaranteeing that the escalation crosses the Paris Law threshold and transitions from nucleation to propagation — a game-theoretic inevitability rather than a probabilistic accident.",
+    "mechanism_borrowed_from": "escalation-ratchet-theory",
+    "domain_applied_to": "failure analysis",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Escalation Ratchet Theory",
+    "source_b": "Fretting Fatigue Crack Nucleation"
+  },
+  {
+    "name": "Prosodic Bootstrapping Theory of Tree-Ring Crossdating",
+    "core_claim": "Tree-ring crossdating uses the same signal extraction logic as prosodic bootstrapping in language acquisition: just as infants use rhythmic stress patterns (prosody) to segment continuous speech into words before they know word meanings, dendrochronologists use rhythmic ring-width patterns (climate prosody) to segment and align continuous ring sequences before they know the absolute dates. The 'prosodic' features that enable bootstrapping — marker years, pointer years, signature patterns — function as the rhythmic boundaries that make the continuous growth signal parseable.",
+    "mechanism_borrowed_from": "prosodic-bootstrapping",
+    "domain_applied_to": "paleoclimatology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Prosodic Bootstrapping",
+    "source_b": "Tree-Ring Crossdating Chronology"
+  },
+  {
+    "name": "Reynolds Flocking Theory of Re-epithelialization",
+    "core_claim": "Collective cell migration during wound re-epithelialization follows Reynolds flocking rules: each keratinocyte at the wound edge applies three local rules — separation (avoid overcrowding neighboring cells), alignment (match migration direction with neighbors), and cohesion (move toward the local center of mass of the advancing front). These three simple rules, without any global coordinator, produce the coherent sheet migration observed in re-epithelialization, and the failure modes of wound closure (stalling, fingering, incomplete coverage) correspond to specific parameter regimes in the flocking model.",
+    "mechanism_borrowed_from": "boid-flocking-alignment",
+    "domain_applied_to": "wound healing",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Reynolds Flocking Alignment Rule",
+    "source_b": "Re-epithelialization Collective Migration"
+  },
+  {
+    "name": "Acid Paper Degradation Theory of Volatile Acidity Drift in Wine",
+    "core_claim": "Volatile acidity accumulation in stored wine follows acid paper degradation kinetics: the autocatalytic production of acetic acid mirrors the acid-catalyzed hydrolysis of cellulose, where the reaction products (acid) accelerate the reaction itself. Below a critical acidity threshold, the degradation is imperceptibly slow; above it, the wine enters a self-accelerating decline where acetic acid production feeds back into further bacterial activity. The 'half-life' of a wine's drinkability can be predicted from its initial VA level and storage temperature using the same Arrhenius-modified degradation curves used for paper preservation planning.",
+    "mechanism_borrowed_from": "acid-paper-degradation-curve",
+    "domain_applied_to": "enology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Acid Paper Degradation Curve",
+    "source_b": "Volatile Acidity Oscillation"
+  },
+  {
+    "name": "Semantic Spreading Activation Theory of Pest Dilution",
+    "core_claim": "The pest dilution effect in diverse agroecological systems operates through the same spreading activation mechanism as semantic memory: a pest searching for its host plant in a polyculture activates 'nodes' (visual, chemical, tactile cues) that spread activation to neighboring plant representations. In a monoculture, all activation converges on the correct host; in a polyculture, activation spreads into competing plant representations that inhibit target recognition, producing a dilution effect proportional to the semantic distance between crop species in the pest's perceptual network. Maximum pest dilution occurs when intercropped species are perceptually similar enough to activate competing nodes but taxonomically distinct enough to be nutritionally unsuitable.",
+    "mechanism_borrowed_from": "semantic-spreading-activation",
+    "domain_applied_to": "agroecology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Semantic Spreading Activation",
+    "source_b": "Pest Dilution Effect"
+  },
+  {
+    "name": "Rossby Wave Theory of Tonal Register Drift",
+    "core_claim": "Tonal register drift in tone languages propagates through speaker communities as Rossby waves propagate through the atmosphere: perturbations in the 'mean flow' of tonal register (the average pitch range of a speech community) generate oscillatory waves that propagate westward (or outward from urban centers) due to the Coriolis-like effect of social prestige gradients. These waves modulate local tonal inventories as they pass, producing the observed geographic patterns of tonal merger and split that correlate with dialect isoglosses. The wave speed and wavelength predict the timescale of tonal change.",
+    "mechanism_borrowed_from": "jet-stream-rossby-wave",
+    "domain_applied_to": "phonology",
+    "viability": "incoherent",
+    "confidence": 0.38,
+    "source_a": "Jet Stream Rossby Wave Propagation",
+    "source_b": "Tonal Register Drift"
+  },
+  {
+    "name": "Keynesian Multiplier Theory of Permaculture Edge Productivity",
+    "core_claim": "Edge zones in permaculture systems amplify biological productivity through a Keynesian multiplier effect: each unit of 'biological spending' (nutrient input, water, seed) at an edge zone propagates through a chain of marginal propensities to produce — each organism's output becomes the next organism's input — generating a total productivity gain that is a multiple of the initial input. The multiplier coefficient is determined by the diversity and trophic connectivity of the edge community; highly connected edges have higher multipliers, explaining why permaculture practitioners maximize edge-to-area ratios.",
+    "mechanism_borrowed_from": "keynesian-multiplier",
+    "domain_applied_to": "permaculture design",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Keynesian Multiplier",
+    "source_b": "Edge Effect Productivity Amplification"
+  },
+  {
+    "name": "Tephra Dispersal Theory of Particle Swarm Exploration",
+    "core_claim": "Particle swarm optimization's exploration phase follows tephra dispersal sorting dynamics: the initial 'eruption' of particles into the search space disperses them with a size-dependent sorting where high-inertia particles (large tephra) land close to the eruption point and explore locally, while low-inertia particles (fine ash) travel farthest and explore globally. The optimal inertia weight schedule in PSO corresponds to the atmospheric conditions that produce the most informative tephra deposit — one where the full range of particle sizes is well-separated across the landscape, maximizing information about the search space topology.",
+    "mechanism_borrowed_from": "tephra-dispersal-sorting",
+    "domain_applied_to": "swarm intelligence",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Tephra Dispersal Sorting",
+    "source_b": "Particle Swarm Velocity Update"
+  },
+  {
+    "name": "Creep Rupture Theory of Situation Awareness Degradation",
+    "core_claim": "Situation awareness degradation under sustained cognitive load follows Larson-Miller creep rupture mechanics: the operator's cognitive 'material' deforms slowly under constant stress (workload), accumulating microscopic voids (attention gaps, missed cues) that are individually harmless but collectively reduce the load-bearing cross-section of awareness. The time to rupture (total loss of situation awareness) can be predicted by a Larson-Miller parameter combining stress intensity (task complexity) and temperature (arousal level), explaining why high-arousal operators fail faster under the same workload than low-arousal ones.",
+    "mechanism_borrowed_from": "creep-rupture-larson-miller",
+    "domain_applied_to": "ergonomics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Larson-Miller Creep Rupture Prediction",
+    "source_b": "Situation Awareness Degradation"
+  },
+  {
+    "name": "Milankovitch Forcing Theory of Sur Lie Autolysis Rhythms",
+    "core_claim": "Yeast autolysis during sur lie aging follows Milankovitch orbital forcing patterns at the cellar timescale: seasonal temperature oscillations (annual cycle), barometric pressure variations (synoptic cycle), and long-period cellar humidity fluctuations (multi-year cycle) each drive autolysis at different frequencies. The total autolysis rate is the superposition of these three forcing cycles, and the most complex, desirable flavor profiles emerge when the cycles constructively interfere — producing windows of intense autolytic activity separated by quiescent intervals that allow intermediate compounds to equilibrate before the next burst.",
+    "mechanism_borrowed_from": "orbital-forcing-milankovitch",
+    "domain_applied_to": "enology",
+    "viability": "incoherent",
+    "confidence": 0.40,
+    "source_a": "Milankovitch Orbital Forcing",
+    "source_b": "Sur Lie Autolysis Feedback"
+  },
+  {
+    "name": "Precipitation Hardening Theory of Mycorrhizal Network Resilience",
+    "core_claim": "Mycorrhizal networks develop resilience through a process analogous to precipitation hardening in alloys: dissolved nutrients cycling through the hyphal matrix gradually precipitate as insoluble mineral-organic complexes at fungal cell junctions, creating microscopic 'hardening particles' that impede the propagation of pathogenic infections and physical disruptions through the network. Young networks (solution-treated) are ductile but vulnerable; aged networks (peak-hardened) resist damage but become brittle; over-aged networks lose both flexibility and resistance as the precipitates coarsen and lose coherency with the fungal matrix.",
+    "mechanism_borrowed_from": "precipitation-hardening-age-hardening",
+    "domain_applied_to": "mycorrhizal ecology",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "source_a": "Precipitation Hardening (Age Hardening)",
+    "source_b": "Common Mycorrhizal Network"
+  }
+]

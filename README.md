@@ -4,9 +4,16 @@ A combinatorial theory engine. Borrow a mechanism from one field, apply it in th
 
 The white space (per the PRD): no one has built a tool that maps the *structure* of theories (not their content) and then collides them across domains. This is the smallest thing that does that.
 
+## Current scale
+
+- **514 seed theories** across **149 domains** — from mycology to metallurgy, glaciology to game theory
+- **375+ generated frameworks** across 25 collision batches
+- **20 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
+- **362 unique ranked frameworks** — mean confidence 0.704, top confidence 0.83
+
 ## How it works
 
-1. **Decompose** — every theory is broken into `unit / variation / selection / fitness / boundary / tags`. See [theories.json](theories.json) for the seed (~110 theories across biology, physics, theology, mycology, ML, theology, finance, music theory, mathematics, etc).
+1. **Decompose** — every theory is broken into `unit / variation / selection / fitness / boundary / tags`. See [theories.json](theories.json) for the seed dataset.
 2. **Fingerprint** — tag-set Jaccard *plus* optional sentence-transformer embeddings of the mechanism slots. Blend controlled by `alpha`.
 3. **Filter for novelty** — [tried.json](tried.json) is a ledger of collisions already published (e.g. Darwin × markets → evolutionary economics) or known to fail. The engine excludes these so what you see is white space.
 4. **Collide** — Claude maps the mechanism into the new domain and emits a falsifiable prediction. If a prior collision exists on the same pair, it's surfaced as context so the model proposes something distinct.
@@ -16,10 +23,11 @@ That's the whole loop. ~300 lines.
 ## Files
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
-- [server.py](server.py) — FastAPI: `/theories`, `/domains`, `/ledger`, `/pairs`, `/collide`, `/collide_domains`, `/`.
-- [theories.json](theories.json) — hand-decomposed seed dataset (~110 entries).
+- [server.py](server.py) — FastAPI v0.4: 16 endpoints including batch forge, rankings, deep dives, stats, search, and export.
+- [theories.json](theories.json) — decomposed seed dataset (514 entries across 149 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
-- [web/index.html](web/index.html) — one-page UI with domain autocomplete and a "novel only" toggle.
+- [web/index.html](web/index.html) — tabbed UI: forge, batch forge, rankings, deep dives, theories browser, stats dashboard, history.
+- [outputs/](outputs/) — generated collision batches, rankings, and deep-dive analyses.
 
 ## Run
 
@@ -48,48 +56,36 @@ prints the top candidate cross-domain pairs ranked by structural overlap.
 
 ## API
 
-```bash
-curl http://127.0.0.1:8000/theories
-curl http://127.0.0.1:8000/pairs?limit=10
-
-curl -X POST http://127.0.0.1:8000/collide \
-  -H "Content-Type: application/json" \
-  -d '{"a_id":"natural-selection","b_id":"mycelial-network"}'
-
-curl -X POST http://127.0.0.1:8000/collide_domains \
-  -H "Content-Type: application/json" \
-  -d '{"domain_a":"mycology","domain_b":"economics"}'
+```
+GET  /theories                                seed theories (optional ?domain= filter)
+GET  /theories/{id}                           single theory
+GET  /domains                                 unique domain list
+GET  /ledger                                  known collisions
+GET  /pairs?limit=&novel_only=&alpha=         ranked cross-domain pairs
+POST /collide          { a_id, b_id }         synthesize new framework
+POST /collide_domains  { domain_a, domain_b }
+POST /batch_collide    { count, domain_filter }  batch N collisions
+GET  /history                                 all saved batch outputs
+GET  /rankings?limit=&min_confidence=&domain= ranked frameworks
+GET  /deep-dives                              list deep-dive analyses
+GET  /deep-dives/{slug}                       single deep-dive detail
+GET  /stats                                   aggregate statistics
+GET  /search?q=&limit=                        full-text framework search
+GET  /domain-matrix                           domain coverage analysis
+GET  /export?format=json|csv&min_confidence=  export all frameworks
 ```
 
-Response shape:
+## UI tabs
 
-```json
-{
-  "a": { "...seed theory..." },
-  "b": { "...seed theory..." },
-  "framework": {
-    "name": "...",
-    "core_claim": "...",
-    "mechanism_borrowed_from": "...",
-    "domain_applied_to": "...",
-    "mapped_components": { "unit": "...", "variation": "...", "selection": "...", "fitness": "...", "boundary": "..." },
-    "falsifiable_predictions": ["...", "..."],
-    "viability": "promising | speculative | incoherent",
-    "confidence": 0.62
-  }
-}
-```
-
-## Roadmap
-
-Already in: ~110-theory seed, embedding similarity (`alpha` blend with tag Jaccard), tried/failed ledger with novelty filter and prior-aware prompting.
-
-Next, when this stops being enough:
-
-- **Graph store** — Neo4j once the seed passes ~500 and lineage queries matter.
-- **Sources** — pull from SEP, arXiv, Semantic Scholar instead of hand curation.
-- **Falsifiability filter** — a second LLM pass rejects predictions that aren't testable.
-- **Verdict loop** — let the user mark generated frameworks as `promising`/`failed`, write back to `tried.json`, and the ledger compounds.
+| Tab | What it does |
+|-----|-------------|
+| **forge** | Pick two domains or click "surprise me" to collide random theories. Search box for existing frameworks. |
+| **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
+| **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |
+| **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |
+| **theories** | Browse all 514 seed theories grouped by domain, with full decomposition and tags. |
+| **stats** | Dashboard with counts, viability breakdown, confidence stats, domain coverage, mechanism source charts, and export buttons (JSON/CSV). |
+| **history** | Expandable list of all collision batches with framework details. |
 
 ## Why this shape
 

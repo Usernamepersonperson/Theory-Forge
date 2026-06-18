@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Fretting Fatigue Theory of Trust Erosion in Partnerships",
+    "core_claim": "Long-term business partnerships fail through fretting fatigue rather than catastrophic overload: small-amplitude oscillatory stresses (minor disagreements, slight misalignments of incentives) at the contact interface between partners nucleate micro-cracks of distrust that propagate under continued cycling. The damage is invisible until sudden fracture, and the paradox is that tighter coupling (higher contact pressure) accelerates fretting damage. Partnerships survive longest when they incorporate deliberate slip zones — areas of acknowledged independence that absorb oscillatory stress without nucleating cracks.",
+    "mechanism_borrowed_from": "fretting-fatigue-nucleation",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Fretting Fatigue Crack Nucleation",
+    "source_b": "Commitment Erosion Dynamics"
+  },
+  {
+    "name": "Sediment Transport Threshold Theory of Social Movement Activation",
+    "core_claim": "Social movements activate when the applied shear stress of collective grievance exceeds the Shields parameter threshold for the 'sediment' of potential participants. Larger, heavier 'grains' (risk-averse individuals with more to lose) require higher shear stress to entrain, while fine particles (precarious individuals) mobilize first at lower thresholds. The movement's composition at any given stress level is therefore predictable from the grain-size distribution of the population, and selective transport explains why early-stage movements are demographically unrepresentative of the broader grievance pool.",
+    "mechanism_borrowed_from": "sediment-transport-threshold",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Shields Sediment Entrainment Threshold",
+    "source_b": "Diffusion of Innovations"
+  },
+  {
+    "name": "Dansgaard-Oeschger Oscillation Theory of Artistic Canon Formation",
+    "core_claim": "The artistic canon oscillates between periods of inclusive expansion and exclusive contraction on a timescale governed by paleoclimatic-style bipolar seesaw dynamics: when one hemisphere of the art world (e.g., Western institutions) warms to diversity and expands the canon, it draws critical attention and resources away from the other hemisphere (non-Western traditions), which cools and contracts. The oscillation is quasi-periodic (~25-50 year cycles) and is driven by the 'freshwater forcing' of generational taste shifts that disrupt the established thermohaline circulation of prestige.",
+    "mechanism_borrowed_from": "dansgaard-oeschger-oscillation",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "source_a": "Dansgaard-Oeschger Oscillation",
+    "source_b": "Institutional Theory of Art"
+  },
+  {
+    "name": "Malolactic Fermentation Theory of Grief Processing",
+    "core_claim": "Grief processing undergoes a secondary fermentation structurally identical to malolactic conversion in winemaking: the sharp, acidic primary grief (malic acid) is gradually converted by psychological 'bacteria' (social support, meaning-making, ritual) into a softer, more complex sadness (lactic acid). The conversion is not a reduction in emotional content but a biochemical transformation that makes the emotion more bearable and integrated. Grief that fails to undergo this secondary fermentation remains perpetually sharp and unstable, prone to refermentation under stress.",
+    "mechanism_borrowed_from": "malolactic-fermentation-shift",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Malolactic Fermentation Shift",
+    "source_b": "General Adaptation Syndrome (Selye)"
+  },
+  {
+    "name": "Digital Format Obsolescence Theory of Language Death",
+    "core_claim": "Minority languages die through a process identical to digital format obsolescence: the language (format) remains internally coherent but the ecosystem of readers (speakers, institutions, media) migrates to dominant formats, rendering the minority language unreadable not because of any intrinsic deficiency but because the rendering infrastructure (schools, government services, economic incentives) no longer supports it. Preservation requires the archival science strategy of format migration — continuously translating the language's cultural content into whatever format the current ecosystem supports, while maintaining the original encoding for future recovery.",
+    "mechanism_borrowed_from": "digital-format-obsolescence",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Digital Format Obsolescence Cascade",
+    "source_b": "Linguistic Relativity"
+  },
+  {
+    "name": "Boid Flocking Theory of Architectural Facade Design",
+    "core_claim": "Successful facade systems emerge from three Reynolds flocking rules applied to individual facade elements: separation (maintain minimum thermal and structural clearance from neighbors), alignment (orient with the local flow of environmental forces — sun, wind, rain), and cohesion (move toward the centroid of the local design language). Facades designed by applying these three local rules to each panel produce emergent global patterns that are both aesthetically coherent and environmentally responsive, without requiring top-down parametric control of every element.",
+    "mechanism_borrowed_from": "boid-flocking-alignment",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Reynolds Flocking Alignment Rule",
+    "source_b": "Pattern Language (Alexander)"
+  },
+  {
+    "name": "Isostatic Rebound Theory of Post-Colonial Identity",
+    "core_claim": "Post-colonial societies undergo isostatic rebound: the 'ice sheet' of colonial rule depressed the cultural lithosphere for generations, and its removal triggers a slow, measurable uplift of indigenous identity, language, and governance structures. The rebound is not instantaneous but follows a viscous relaxation curve — decades to centuries — and produces characteristic features: raised cultural 'beaches' (revived traditions now elevated above their pre-colonial context), residual depression at the center of maximum loading (the capital, most thoroughly colonized), and peripheral bulge collapse (diaspora communities that benefited from the depression losing their elevated position).",
+    "mechanism_borrowed_from": "isostatic-rebound-lag",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Isostatic Rebound Lag",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Gresham's Law Theory of Attention Economy",
+    "core_claim": "In information ecosystems, bad content drives out good through Gresham's Law dynamics: when low-effort content (debased currency) and high-effort content (sound currency) circulate at the same nominal value (one scroll-unit of attention), producers rationally hoard their best work (save the good coins) and flood the market with cheap content. The result is a spiral of content debasement that can only be arrested by establishing separate exchange rates — paywalls, curation, prestige signals — that re-differentiate the face value of content quality.",
+    "mechanism_borrowed_from": "greshams-law-debasement",
+    "domain_applied_to": "information theory",
+    "viability": "promising",
+    "confidence": 0.81,
+    "source_a": "Gresham's Law Debasement Spiral",
+    "source_b": "Shannon Channel Capacity"
+  },
+  {
+    "name": "Paris Law Fatigue Theory of Democratic Norm Erosion",
+    "core_claim": "Democratic norms erode through Paris Law fatigue crack growth: each violation of a norm (election interference, procedural override, executive overreach) extends the crack by an increment proportional to the stress intensity raised to a power m. Below a threshold stress intensity, cracks do not grow (minor norm violations heal). Above it, each cycle extends the crack predictably, and the crack growth rate accelerates as the remaining ligament of institutional integrity shrinks. The critical crack length — beyond which fracture is sudden and catastrophic — can be estimated from the material toughness of the constitutional order.",
+    "mechanism_borrowed_from": "fatigue-crack-paris-law",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Paris Law Fatigue Crack Growth",
+    "source_b": "Rights Emergence Threshold Theory"
+  },
+  {
+    "name": "Permaculture Zone Gradient Theory of Cognitive Resource Allocation",
+    "core_claim": "Human cognitive resource allocation follows permaculture zone design: Zone 0 (self-awareness, inner monologue) receives the most frequent attention visits; Zone 1 (immediate tasks, close relationships) receives daily intensive management; Zone 2 (professional skills, community) receives regular but less frequent tending; and Zones 3-5 (distant interests, abstract knowledge, the unconscious) receive progressively less active intervention. Burnout occurs when Zone 3-5 demands are misclassified as Zone 1 activities, collapsing the gradient and requiring unsustainable attention-energy expenditure.",
+    "mechanism_borrowed_from": "permaculture-zone-gradient",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Zone-Based Attention Gradient",
+    "source_b": "Cognitive Load Partitioning"
+  },
+  {
+    "name": "Sonority Sequencing Theory of Narrative Pacing",
+    "core_claim": "Effective narrative pacing follows the sonority sequencing principle: each narrative 'syllable' (scene or chapter) should rise from low-sonority elements (exposition, setting — the obstruents of storytelling) through mid-sonority (dialogue, character development — the nasals and liquids) to a high-sonority nucleus (emotional climax, revelation — the open vowel of narrative), then descend back down. Violations of this sequencing produce narrative 'clusters' that are difficult for readers to process, and the universal preference for certain narrative structures reflects the same perceptual constraints that shape phonotactic rules across languages.",
+    "mechanism_borrowed_from": "sonority-sequencing",
+    "domain_applied_to": "narratology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Sonority Sequencing Principle",
+    "source_b": "Hero's Journey (Monomyth)"
+  },
+  {
+    "name": "Triboelectric Charge Theory of Cultural Polarization",
+    "core_claim": "Cultural polarization accumulates through triboelectric charge transfer: every contact between ideologically different groups (media exposure, political debates, mixed social spaces) transfers charge — each side becomes more extreme in opposite directions, with the magnitude depending on the groups' positions in the 'triboelectric series' of ideological reactivity. Groups far apart on the series (progressive academics and rural conservatives) generate the most charge per contact. Discharge occurs as sudden, destructive 'sparks' (riots, culture wars), and grounding strategies (bridging institutions, deliberative forums) prevent dangerous charge accumulation.",
+    "mechanism_borrowed_from": "triboelectric-charge-transfer",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Triboelectric Charge Separation",
+    "source_b": "Herd Cascade Formation"
+  },
+  {
+    "name": "Mycorrhizal Succession Filter Theory of Startup Ecosystems",
+    "core_claim": "Startup ecosystems develop through mycorrhizal succession: early-stage ecosystems are dominated by arbuscular mycorrhizal analogs (angel investors, incubators) that form simple, non-specific connections and support pioneer species (first-time founders). As the ecosystem matures, ectomycorrhizal analogs (specialized VCs, corporate venture arms) develop complex mantles around specific sectors, forming exclusive networks that filter which startups can access resources. Late-succession ecosystems risk mycorrhizal lock-in, where the fungal network's preferences override the host community's actual fitness landscape.",
+    "mechanism_borrowed_from": "mycorrhizal-succession-filter",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Mycorrhizal Succession Filter",
+    "source_b": "Disruptive Innovation"
+  },
+  {
+    "name": "Water Hammer Theory of Emotional Regulation Failure",
+    "core_claim": "Emotional outbursts follow water hammer dynamics: rapid closure of an emotional valve (suppression of anger, forced composure) creates a pressure transient that propagates backward through the psychological pipeline at the speed of emotional conduction, reflects off upstream boundaries (core beliefs, attachment patterns), and returns as a destructive pressure spike that can exceed the pipe's (psyche's) rated pressure by orders of magnitude. The Joukowsky equation analog predicts that the pressure spike is proportional to the product of emotional flow velocity and the speed of its interruption — sudden suppression of intense emotion produces the most damaging transient.",
+    "mechanism_borrowed_from": "water-hammer-pressure-wave",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Water Hammer Pressure Transient",
+    "source_b": "Psychoanalytic Defense Mechanisms"
+  },
+  {
+    "name": "Moraine Formation Theory of Archival Collection Development",
+    "core_claim": "Archival collections form through moraine dynamics: the advancing 'glacier' of institutional activity bulldozes, entrains, and deposits documentary material in characteristic patterns. Terminal moraines (records from institutional closures) mark the furthest advance of organizational activity; lateral moraines (departmental files) trace the edges; and erratics (misplaced documents found far from their provenance) reveal the glacier's transport history. The stratigraphy of an archive's accession records is therefore a climate proxy for the institution's periods of growth, stasis, and retreat.",
+    "mechanism_borrowed_from": "moraine-formation-record",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Moraine Formation as Climate Record",
+    "source_b": "Archival Appraisal Selection"
+  }
+]

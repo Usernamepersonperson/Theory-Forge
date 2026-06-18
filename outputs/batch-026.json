@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stribeck Lubrication Theory of Diplomatic Relations",
+    "core_claim": "International diplomacy operates across three regimes identical to the Stribeck curve: at low relative velocity (peacetime stasis), boundary lubrication dominates — direct state-to-state contact generates high friction and territorial disputes. As interaction speed increases (trade acceleration, cultural exchange), a mixed regime emerges where institutional lubricants (treaties, international law) partially separate the surfaces. At high velocity (deep economic interdependence), full hydrodynamic lubrication develops — the 'fluid film' of shared institutions completely separates sovereign surfaces, and friction drops to near zero. War occurs when the lubricant film breaks down and the system snaps back to boundary contact.",
+    "mechanism_borrowed_from": "stribeck-lubrication-regimes",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Stribeck Curve Transitions",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Hydraulic Jump Theory of Paradigm Transitions",
+    "core_claim": "Scientific paradigm shifts exhibit the dynamics of a hydraulic jump: normal science flows as a supercritical regime — fast, shallow, and stable — until it encounters an accumulation of anomalies that acts as a downstream depth increase. The transition to the new paradigm is not gradual but occurs as a sudden, turbulent, energy-dissipating jump to subcritical flow, after which the discipline settles into a new, deeper, slower-moving consensus. The Froude number analog (ratio of theoretical velocity to anomaly depth) predicts whether the transition will be a smooth undular bore or a violent breaking jump.",
+    "mechanism_borrowed_from": "hydraulic-jump-energy-dissipation",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Hydraulic Jump Energy Dissipation",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Benford Distribution Theory of Oral Epic Authenticity",
+    "core_claim": "Genuine oral traditions exhibit Benford's Law in the distribution of leading digits of quantitative claims (army sizes, years of wandering, numbers of heroes). Traditions that have been heavily redacted or invented by literate authors show uniform or round-number distributions instead. This provides a forensic test for oral authenticity: compute the chi-squared divergence of a text's numerical claims from the Benford distribution, and texts below a critical threshold are likely products of genuine serial oral reproduction rather than literary fabrication.",
+    "mechanism_borrowed_from": "benfords-law-anomaly-detection",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Benford's Law Digit Frequency Anomaly",
+    "source_b": "Formulaic Speech Preservation"
+  },
+  {
+    "name": "Ant Colony Optimization Theory of Wound Vascularization",
+    "core_claim": "Angiogenic sprouting during wound healing follows an ant colony optimization algorithm: endothelial tip cells lay down VEGF-reinforced 'pheromone trails' as they extend toward hypoxic tissue, subsequent sprouts preferentially follow higher-concentration paths, and evaporation (VEGF degradation) prevents lock-in to suboptimal routes. The resulting vascular network converges on a near-optimal solution to the oxygen delivery problem without central coordination, and pathological healing (keloids, chronic wounds) corresponds to pheromone saturation or evaporation failure.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-optimization",
+    "domain_applied_to": "wound healing",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Ant Colony Pheromone Trail Optimization",
+    "source_b": "Angiogenic Sprouting Gradient"
+  },
+  {
+    "name": "Tannin Polymerization Theory of Legal Precedent Maturation",
+    "core_claim": "Legal doctrines undergo a maturation process structurally identical to tannin polymerization in aging wine: initially harsh, astringent rulings (monomeric tannins) gradually cross-link through citation and reinterpretation into larger polymeric structures that are smoother and more palatable to the legal community. Over-aging causes precipitation — the doctrine becomes so polymerized that it falls out of active jurisprudence as inert sediment. The optimal 'drinking window' for a legal doctrine is when its polymerization provides structural complexity without excessive rigidity.",
+    "mechanism_borrowed_from": "tannin-polymerization-cascade",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Tannin Polymerization Cascade",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Glacial Surge Theory of Revolutionary Mobilization",
+    "core_claim": "Revolutionary movements exhibit glacial surge dynamics: long periods of slow, steady creep (underground organizing, ideological diffusion) punctuated by sudden surges where the movement advances orders of magnitude faster. The surge is triggered when subglacial water pressure (popular grievance) exceeds the overburden pressure of the state's repressive apparatus, decoupling the movement from its base friction. Surges are self-terminating because the rapid advance redistributes the driving stress, and post-surge stagnation explains why revolutions so often fail to consolidate gains.",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Glacial Surge Oscillation",
+    "source_b": "Threshold Models of Social Contagion"
+  },
+  {
+    "name": "Mycorrhizal Network Theory of Institutional Knowledge Transfer",
+    "core_claim": "Large organizations transfer tacit knowledge through common mycorrhizal network dynamics: experienced employees (mature trees) subsidize newcomers (seedlings) through underground fungal-like channels of mentorship and informal guidance, with the 'fungi' being mid-level managers and social connectors who extract a carbon tax (credit, influence) for facilitating the transfer. Organizations that eliminate these connector roles in restructuring suffer the equivalent of mycorrhizal network disruption — knowledge transfer collapses even when the source expertise remains intact.",
+    "mechanism_borrowed_from": "common-mycorrhizal-network",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Common Mycorrhizal Network",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Fitts's Law Theory of Theological Argumentation",
+    "core_claim": "The difficulty of theological arguments follows Fitts's Law: the 'movement time' required to make a persuasive theological claim increases logarithmically with the ratio of the claim's ambition (distance to target) to the precision of available scriptural or experiential evidence (target width). Broad existential claims ('God exists') are easy targets; narrow doctrinal claims ('the filioque is heretical') require exponentially more argumentative precision. Theological disputes persist precisely where the index of difficulty is highest — where claims are ambitious but evidentiary targets are small.",
+    "mechanism_borrowed_from": "fitts-law-targeting",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Fitts's Law Motor Targeting",
+    "source_b": "Apophatic (Negative) Theology"
+  },
+  {
+    "name": "Vowel Chain Shift Theory of Market Price Cascades",
+    "core_claim": "Asset price adjustments in interconnected markets follow vowel chain shift dynamics: when one asset class (vowel) moves in price space, it creates a vacuum or compression that forces adjacent asset classes to shift in sequence, producing a cascade of price realignments that preserves the relative 'phonological distance' between assets. Push chains (one asset inflating forces others upward) and drag chains (one asset deflating pulls others down) produce systematically different cascade patterns, and the entire system resists mergers — two asset classes cannot occupy the same price niche indefinitely.",
+    "mechanism_borrowed_from": "vowel-chain-shift",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Vowel Chain Shift",
+    "source_b": "Speculative Bubbles"
+  },
+  {
+    "name": "Creep Rupture Theory of Organizational Burnout",
+    "core_claim": "Organizational burnout follows Larson-Miller creep rupture dynamics: sustained moderate stress (workload below yield strength) causes progressive deformation over time through dislocation climb and grain boundary sliding at the individual level. The Larson-Miller parameter — combining stress duration and intensity into a single predictive variable — explains why short bursts of extreme work and long periods of moderate overwork produce equivalent failure. Organizations can predict collective burnout thresholds by plotting their stress-temperature-time trajectories against known rupture curves.",
+    "mechanism_borrowed_from": "creep-rupture-larson-miller",
+    "domain_applied_to": "ergonomics",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Larson-Miller Creep Rupture Prediction",
+    "source_b": "Situation Awareness Degradation"
+  },
+  {
+    "name": "Tephra Dispersal Theory of Information Virality",
+    "core_claim": "Viral content disperses through social media following tephra dispersal sorting: the 'eruption column' (initial post) lofts content fragments to varying altitudes (platform amplification levels), and prevailing 'winds' (algorithmic currents, trending topics) carry fragments of different sizes to different distances. Coarse fragments (long-form analysis) deposit proximally near the source community; fine ash (memes, screenshots, quote-tweets) travels farthest but arrives as decontextualized particles. The isopach map of content deposition predicts which communities receive which grain sizes of the original message.",
+    "mechanism_borrowed_from": "tephra-dispersal-sorting",
+    "domain_applied_to": "network theory",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Tephra Dispersal Sorting",
+    "source_b": "Scale-Free Hub Vulnerability"
+  },
+  {
+    "name": "Acid Paper Degradation Theory of Software Technical Debt",
+    "core_claim": "Legacy codebases degrade through a mechanism identical to acid paper degradation: the acid catalyst (poor architectural decisions, deprecated dependencies) is embedded at creation time and causes slow hydrolytic chain scission of the code's logical polymers. The degradation rate follows first-order kinetics — each breaking change accelerates subsequent breakage. Deacidification (refactoring) can halt but not reverse the damage, and the decision between preservation (maintaining legacy) and migration (reformatting to new media) follows the same cost curves that archivists use for paper collections.",
+    "mechanism_borrowed_from": "acid-paper-degradation-curve",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Acid Paper Degradation Curve",
+    "source_b": "Kolmogorov Complexity"
+  },
+  {
+    "name": "Quorum Sensing Theory of Classroom Engagement Thresholds",
+    "core_claim": "Student engagement in classrooms activates through quorum sensing: individual students emit low-level 'autoinducer' signals (questions, visible note-taking, laughter) that accumulate in the social environment. Below a critical concentration threshold, each student remains in a low-expression state. Once the quorum is reached, a synchronized gene-expression-like switch activates collective engagement — participation becomes self-reinforcing. The threshold concentration explains why identical lectures produce radically different engagement in classes of similar composition, and why a few early participators can catalyze or inhibit the entire group.",
+    "mechanism_borrowed_from": "quorum-sensing-threshold",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Quorum Sensing Activation Threshold",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Seigniorage Extraction Theory of Platform Economics",
+    "core_claim": "Digital platforms extract seigniorage from their user-generated content currencies: just as sovereigns profit from the difference between a coin's face value and its metal content, platforms profit from the difference between the social value users attribute to their content (likes, shares, posts) and the marginal cost of hosting it. Platform enshittification follows the same debasement spiral as historical coinage — the platform progressively reduces the 'metal content' (organic reach, chronological feeds) while maintaining the 'face value' (user engagement metrics), until users invoke Gresham's Law and migrate to less-debased platforms.",
+    "mechanism_borrowed_from": "seigniorage-extraction",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Seigniorage Extraction Dynamics",
+    "source_b": "Two-Sided Markets"
+  },
+  {
+    "name": "Intercropping Complementarity Theory of Research Team Composition",
+    "core_claim": "Research team productivity follows intercropping resource complementarity: combining disciplines with different 'root architectures' (methodological depths) and 'canopy structures' (theoretical frameworks) allows the team to exploit more of the available intellectual resource space than any monoculture. Overyielding occurs when complementarity (different resource niches) exceeds interference (communication costs), and the Land Equivalent Ratio analog predicts that a well-designed interdisciplinary team of N members can outperform N/LER disciplinary specialists working independently.",
+    "mechanism_borrowed_from": "intercropping-complementarity",
+    "domain_applied_to": "cognitive science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Intercropping Resource Complementarity",
+    "source_b": "Global Workspace Theory"
+  }
+]

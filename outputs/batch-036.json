@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stigmergic Theory of Codebase Architecture",
+    "core_claim": "Software architecture emerges through stigmergy rather than top-down design: each developer deposits 'traces' (abstractions, naming conventions, patterns) in the codebase that guide subsequent developers' actions. Well-designed code functions as a strong pheromone trail that channels future contributions along coherent architectural lines, while poorly structured code produces weak or contradictory traces that lead to architectural drift. Code review is the evaporation mechanism that degrades low-quality traces before they can mislead. The implication is that architecture documents are less important than the legibility of the traces already deposited in the code itself.",
+    "mechanism_borrowed_from": "stigmergy",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Stigmergy",
+    "source_b": "Kolmogorov Complexity"
+  },
+  {
+    "name": "Dose-Response Theory of Democratic Deliberation",
+    "core_claim": "Public deliberation exhibits a pharmacological dose-response curve: too little exposure to opposing viewpoints produces no attitude modulation (sub-therapeutic dose), moderate exposure triggers the adaptive response of perspective-taking and opinion refinement (therapeutic window), and excessive exposure to adversarial argument produces toxicity in the form of polarization, identity threat, and deliberative shutdown. The EC50 of productive deliberation -- the exposure level producing half-maximal opinion quality -- varies across populations and issues, and effective democratic design requires titrating deliberative exposure to remain within the therapeutic window.",
+    "mechanism_borrowed_from": "dose-response",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Dose-Response Curve",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "SLAM Theory of Autobiographical Memory Construction",
+    "core_claim": "Autobiographical memory construction operates as Simultaneous Localization and Mapping: the self (robot) must simultaneously determine its position in life-narrative space (localization) and build a coherent map of its past (mapping) from noisy sensory observations. Each new experience is a sensor reading that must be integrated into both the self-model and the life-map simultaneously. Loop closure -- recognizing that a current situation resembles a past one -- triggers wholesale revision of the intervening narrative. Identity crises correspond to kidnapped-robot scenarios where accumulated drift between self-position and map makes the entire representation inconsistent.",
+    "mechanism_borrowed_from": "slam-robotics",
+    "domain_applied_to": "developmental psychology",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "SLAM (Simultaneous Localization and Mapping)",
+    "source_b": "Erikson Psychosocial Stages"
+  },
+  {
+    "name": "Sourdough Symbiosis Theory of Political Coalition Stability",
+    "core_claim": "Stable political coalitions operate as sourdough starters: two or more factions (analogous to lactobacilli and yeast) maintain a mutualistic relationship through cross-feeding -- each faction produces political goods (votes, legitimacy, policy expertise) that the other cannot generate alone. The coalition requires regular 'feeding' with shared victories to maintain the population balance. Missed feedings (legislative failures, electoral losses) cause one faction to dominate at the expense of the other, and excessive heat (crisis conditions) favors the more aggressive faction. A healthy coalition, like a healthy starter, is identifiable by its consistent output and stable factional ratios rather than by the dominance of any single component.",
+    "mechanism_borrowed_from": "sourdough-symbiosis-oscillation",
+    "domain_applied_to": "political ideology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Sourdough Symbiosis Oscillation",
+    "source_b": "Social Darwinism (historical)"
+  },
+  {
+    "name": "Mercerization Theory of Institutional Transformation",
+    "core_claim": "Deep institutional reform follows mercerization dynamics: immersion in a strong reforming agent (crisis, regulatory mandate, new leadership) causes differential swelling of the institution's 'crystalline' structures -- some units convert from rigid hierarchical form (cellulose I) to a more flexible, higher-capacity configuration (cellulose II), gaining 'luster' (public trust) and 'dye affinity' (ability to absorb new mandates). But the transformation is irreversible and must be conducted under tension -- without maintained pressure toward the reform goals, the institution relaxes into a disordered amorphous state rather than the desired crystalline rearrangement. Partial mercerization produces the worst outcome: an institution that is neither traditionally rigid nor flexibly reformed.",
+    "mechanism_borrowed_from": "mercerization-swelling",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Mercerization Swelling",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Counterpoint Voice Leading Theory of Diplomatic Negotiation",
+    "core_claim": "Successful multilateral diplomacy follows counterpoint rules: each nation's negotiating position is a voice that must maintain independence (sovereignty) while achieving consonance at strong beats (treaty milestones). Parallel motion (nations moving in lockstep) produces the diplomatic equivalent of parallel fifths -- hollow agreements that lack genuine commitment. Contrary motion (opposing concessions) produces the richest resolutions. The prohibition against parallel octaves corresponds to the instability of two great powers making identical moves simultaneously, which collapses the perceived independence of the diplomatic space and triggers balancing behavior from other parties.",
+    "mechanism_borrowed_from": "counterpoint-voice-leading",
+    "domain_applied_to": "combat theory",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Counterpoint Voice Leading Rules",
+    "source_b": "OODA Loop"
+  },
+  {
+    "name": "Bullwhip Effect Theory of Emotional Contagion in Organizations",
+    "core_claim": "Emotional signals amplify through organizational hierarchies exactly as demand signals amplify through supply chains: a mild expression of concern by a CEO is interpreted as serious worry by VPs, as alarm by directors, and as crisis by front-line managers. Each echelon adds its own forecast error (projection of intent onto ambiguous signals) and safety stock (defensive overreaction), producing emotional bullwhip oscillations where the front line experiences wild swings between panic and complacency while the C-suite perceives only gentle modulation. Information delay (slow communication channels) and batch processing (weekly all-hands meetings) worsen the amplification.",
+    "mechanism_borrowed_from": "bullwhip-effect",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Bullwhip Effect",
+    "source_b": "Conformity (Asch)"
+  },
+  {
+    "name": "Structural Holes Theory of Enzyme Catalysis",
+    "core_claim": "Enzymes achieve catalytic power by occupying structural holes in chemical reaction networks: they bridge otherwise disconnected substrate and product states by providing a low-energy path that no spontaneous reaction pathway connects. The enzyme's information advantage -- knowing the geometry of both the reactant and transition state -- mirrors the broker's advantage in spanning disconnected social clusters. Allosteric regulation corresponds to the broker adjusting their bridging strategy based on network-level signals, and competitive inhibition is a rival broker attempting to occupy the same structural hole.",
+    "mechanism_borrowed_from": "structural-holes",
+    "domain_applied_to": "biochemistry",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Structural Holes (Burt)",
+    "source_b": "Protein Folding"
+  },
+  {
+    "name": "Graph Coloring Theory of Interfaith Dialogue",
+    "core_claim": "Productive interfaith dialogue requires a graph coloring solution: each theological tradition is a vertex, edges connect traditions with overlapping truth-claims, and the 'colors' are interpretive frameworks. Dialogue succeeds when adjacent traditions adopt different interpretive frameworks (comparative, experiential, historical, ethical) such that no two traditions sharing a contested claim use the same framework to discuss it. The chromatic number of the interfaith graph determines the minimum number of distinct interpretive frameworks needed, and the four-color theorem suggests that even the most densely interconnected theological landscape requires at most four distinct dialogical approaches.",
+    "mechanism_borrowed_from": "graph-coloring",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Graph Coloring (Chromatic Number)",
+    "source_b": "Trinitarian Doctrine"
+  },
+  {
+    "name": "Lanchester Square Law Theory of Academic Citation Competition",
+    "core_claim": "Citation competition between research groups follows Lanchester's square law: the citation advantage of a larger research group scales with the square of its publication output, not linearly. This is because each paper in a larger group can cite every other paper in the group (cross-citation), creating a network effect that smaller groups cannot match with quality alone. The implication is that fragmented research communities with many small groups will always lose citation dominance to consolidated groups, even if the aggregate output and quality are identical. This provides a purely structural explanation for the Matthew effect in science independent of actual research quality.",
+    "mechanism_borrowed_from": "lanchester-laws",
+    "domain_applied_to": "information retrieval",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Lanchester's Laws of Combat Attrition",
+    "source_b": "PageRank"
+  },
+  {
+    "name": "Herd Immunity Theory of Misinformation Resistance",
+    "core_claim": "Populations develop resistance to misinformation through a herd immunity mechanism: when a sufficient fraction of the population has been 'immunized' against a specific false claim -- through prebunking, media literacy, or prior exposure to debunked versions -- the claim cannot sustain transmission even among the remaining susceptible individuals. The critical immunization threshold depends on the misinformation's basic reproduction number (virality), and falls between 60-90% for most viral false claims. Partial immunization campaigns that fail to reach threshold produce the worst outcome: a population confident enough to stop fact-checking but not immune enough to resist novel variants of the claim.",
+    "mechanism_borrowed_from": "herd-immunity",
+    "domain_applied_to": "persuasion theory",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Herd Immunity Threshold",
+    "source_b": "Elaboration Likelihood Model"
+  },
+  {
+    "name": "Selvage Edge Theory of National Border Security",
+    "core_claim": "National borders function as selvage edges of the social fabric: their structural integrity depends not on the strength of the boundary material itself (walls, fences) but on the binding pattern that locks the outermost social 'weft' threads into the national 'warp.' Strong selvage requires the border zone to be an active part of the fabric's structure -- integrated through economic exchange, cultural continuity, and institutional presence. Borders that are merely appended barriers (the equivalent of a cut edge) will fray under tension regardless of their material strength, because they lack the structural interlocking that makes selvage self-reinforcing.",
+    "mechanism_borrowed_from": "selvage-edge-stability",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Selvage Edge Stability",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Comparative Advantage Theory of Neural Specialization",
+    "core_claim": "Cortical regions specialize according to Ricardian comparative advantage rather than absolute advantage: a region does not need to be the best at processing a particular input type -- it only needs to have the lowest opportunity cost. This explains why brain areas that seem 'suboptimal' for their assigned function (e.g., the fusiform face area processing faces despite not having the highest spatial resolution) persist: they specialize because their opportunity cost of face processing is lower than that of regions with higher absolute capability but greater demand for their processing in other domains. Lesion-induced reorganization follows the same logic, with surviving regions re-specializing based on updated comparative advantages.",
+    "mechanism_borrowed_from": "comparative-advantage",
+    "domain_applied_to": "neuroscience",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Comparative Advantage (Ricardo)",
+    "source_b": "Global Workspace Theory"
+  },
+  {
+    "name": "Crystal Nucleation Theory of Religious Conversion",
+    "core_claim": "Religious conversion follows crystal nucleation dynamics: a 'supersaturated' individual -- one carrying more existential uncertainty than their current worldview can dissolve -- experiences random fluctuations of meaning-making that occasionally form embryonic belief clusters. Most such clusters are below the critical radius and dissolve back into doubt. But once a belief cluster exceeds the critical size (a threshold number of interlocking convictions, social connections, and experiential confirmations), it spontaneously grows into a complete faith commitment. The free energy barrier explains why conversion is typically sudden rather than gradual, and why 'seeding' by a charismatic figure or crisis event dramatically lowers the activation energy.",
+    "mechanism_borrowed_from": "crystal-nucleation",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Crystal Nucleation",
+    "source_b": "Fanā' (Sufi Annihilation)"
+  },
+  {
+    "name": "ADME Pharmacokinetics Theory of Information Lifecycle in Organizations",
+    "core_claim": "Information in organizations follows ADME pharmacokinetics: Absorption (how information enters through sensing mechanisms), Distribution (how it spreads across departments and hierarchies via communication channels), Metabolism (how it is transformed into actionable knowledge through meetings, analysis, and synthesis), and Excretion (how outdated information is purged from institutional memory). The 'bioavailability' of a piece of information -- the fraction that actually reaches decision-makers in usable form -- is typically below 20%, and the 'therapeutic window' is narrow: too little information produces uninformed decisions while too much produces analysis paralysis. First-pass metabolism by middle management is the primary site of information loss.",
+    "mechanism_borrowed_from": "pharmacokinetics-adme",
+    "domain_applied_to": "cybernetics",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "ADME Pharmacokinetics",
+    "source_b": "Cybernetic Feedback"
+  }
+]

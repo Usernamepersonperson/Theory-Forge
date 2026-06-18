@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Dam Overtopping Theory of Emotional Burnout Cascades",
+    "core_claim": "Professional burnout follows dam overtopping cascade dynamics: emotional stressors accumulate as reservoir inflow behind the dam of coping mechanisms. Overtopping begins not as catastrophic failure but as erosive sheet flow over the crest, which progressively deepens the breach channel through positive feedback — each increment of emotional overflow erodes more coping capacity, accelerating further overflow. The cascade is irreversible once the breach reaches a critical depth, explaining why burnout transitions from manageable stress to total collapse are rapid and difficult to reverse.",
+    "mechanism_borrowed_from": "dam-overtopping-cascade",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Dam Overtopping Failure Cascade",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Benford's Law Theory of Ecological Population Fraud Detection",
+    "core_claim": "Fabricated ecological survey data can be detected using the same Benford's Law digit-frequency analysis applied in forensic accounting. Genuine population counts, biomass measurements, and species abundances follow the expected logarithmic first-digit distribution because they emerge from multiplicative natural processes. Fabricated or rounded data deviates systematically, with over-representation of round numbers and cognitive-bias-driven digit preferences, providing a statistical fingerprint of data fraud in ecological research.",
+    "mechanism_borrowed_from": "benfords-law-anomaly-detection",
+    "domain_applied_to": "ecology",
+    "viability": "promising",
+    "confidence": 0.82,
+    "source_a": "Benford's Law Digit Frequency Anomaly",
+    "source_b": "Lotka-Volterra Predator-Prey"
+  },
+  {
+    "name": "Iceberg Calving Theory of Organizational Layoff Dynamics",
+    "core_claim": "Corporate layoffs follow iceberg calving threshold mechanics: internal fractures (disengagement, quiet-quitting, departmental rivalries) propagate slowly through the organizational ice shelf until the combined stress from market warming and internal fracture networks reaches the calving threshold. The resulting detachment is sudden, removes a coherent block of the organization (not random individuals), and the calved block's size is determined by pre-existing fracture geometry rather than by management intent. Each calving event shifts the stress field, making subsequent events more likely — the layoff begets more layoffs.",
+    "mechanism_borrowed_from": "iceberg-calving-threshold",
+    "domain_applied_to": "business strategy",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Iceberg Calving Threshold",
+    "source_b": "SWOT Feedback Dynamics"
+  },
+  {
+    "name": "Prosodic Bootstrapping Theory of Machine Learning Feature Discovery",
+    "core_claim": "Neural networks performing feature discovery on unstructured data use a mechanism analogous to prosodic bootstrapping in infant language acquisition: coarse-grained statistical regularities in the input (rhythm, envelope, periodicity) are detected first and used as scaffolding to segment the input into candidate units, which then enable finer-grained feature extraction. The hierarchy of feature discovery recapitulates the phonological hierarchy — suprasegmental before segmental before sub-segmental — regardless of the data modality.",
+    "mechanism_borrowed_from": "prosodic-bootstrapping",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Prosodic Bootstrapping",
+    "source_b": "Stochastic Gradient Descent"
+  },
+  {
+    "name": "Angiogenic Sprouting Theory of Startup Ecosystem Growth",
+    "core_claim": "Startup ecosystems grow through angiogenic sprouting: a VEGF-like signal (venture capital availability) creates a chemotactic gradient that attracts tip cells (serial entrepreneurs) who lead sprouting branches of new companies into underserved market tissue. Stalk cells (first employees, operational hires) follow the tip and form the stable vessel lumen. Excessive signal produces chaotic, non-functional vasculature (dot-com bubbles with too many startups and no viable paths to market), while insufficient signal leaves market tissue ischemic and necrotic.",
+    "mechanism_borrowed_from": "angiogenic-sprouting-gradient",
+    "domain_applied_to": "economics",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Angiogenic Sprouting Gradient",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Third-Body Layer Theory of Cultural Translation Zones",
+    "core_claim": "At the interface between two cultures in sustained contact, a third-body layer forms spontaneously — a hybrid cultural material (pidgins, syncretic religions, fusion cuisines, border identities) that is neither culture A nor culture B but an emergent debris layer generated by their mutual friction. This third-body layer is self-organizing, adapts its composition to minimize destructive wear on both parent cultures, and can become load-bearing — the primary medium through which all intercultural exchange occurs — even as both parent cultures claim no affinity with it.",
+    "mechanism_borrowed_from": "third-body-wear-layer",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Third-Body Layer Formation",
+    "source_b": "Cultural Evolution (Dual Inheritance)"
+  },
+  {
+    "name": "Tannin Polymerization Theory of Legal Precedent Hardening",
+    "core_claim": "Legal precedents undergo tannin-like polymerization over time: individual rulings (monomers) cross-link through citation and interpretation into progressively larger doctrinal polymers that become more rigid, less soluble in new factual contexts, and increasingly resistant to judicial modification. Early in the polymerization, precedents are astringent but flexible; late-stage doctrines are smooth but brittle. The process is irreversible under normal conditions — only the extreme heat of legislative override or constitutional amendment can depolymerize a fully hardened doctrine.",
+    "mechanism_borrowed_from": "tannin-polymerization-cascade",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Tannin Polymerization Cascade",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Acid Paper Degradation Theory of Institutional Memory Loss",
+    "core_claim": "Organizations lose institutional memory following the same kinetics as acid paper degradation: the acidic byproducts of normal organizational metabolism (turnover, restructuring, system migrations) catalyze the hydrolysis of knowledge-bearing substrates (documentation, tacit expertise, relationship networks). The degradation follows a sigmoid curve — negligible for decades, then rapidly catastrophic — and is accelerated by heat (organizational stress) and humidity (information overload). Deacidification requires active, sustained intervention (knowledge management programs) that most organizations begin too late.",
+    "mechanism_borrowed_from": "acid-paper-degradation-curve",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Acid Paper Degradation Curve",
+    "source_b": "SWOT Feedback Dynamics"
+  },
+  {
+    "name": "Honeybee Waggle Dance Theory of Scientific Conference Communication",
+    "core_claim": "Scientific conference presentations function as waggle dances: the presenter encodes the direction (methodology) and distance (difficulty/investment required) to a resource (research opportunity) through ritualized performance. The dance's vigor (speaker enthusiasm, result quality) recruits followers proportional to the perceived value of the resource. However, unlike bees, scientists can perform misleading dances — exaggerating resource quality or obscuring direction — and the verification lag between dance and foraging attempt is measured in years, not hours, allowing persistent malinformation in the recruitment system.",
+    "mechanism_borrowed_from": "honeybee-waggle-dance-recruitment",
+    "domain_applied_to": "philosophy of science",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Honeybee Waggle Dance Recruitment",
+    "source_b": "Photonic Bandgap"
+  },
+  {
+    "name": "Myofibroblast Tension Theory of Organizational Restructuring Scars",
+    "core_claim": "Post-restructuring organizations develop scar tissue through myofibroblast-like dynamics: the surviving employees at the wound margin differentiate into hyper-contractile units that pull the organizational edges together with excessive force, producing a rigid scar (over-centralized processes, defensive CYA documentation, trust-deficit protocols) that is mechanically strong but functionally inferior to the original tissue. The scar contracts over time, distorting the surrounding organizational architecture. Without active remodeling (deliberate culture rebuilding), the scar becomes permanent and constrains all future organizational movement.",
+    "mechanism_borrowed_from": "myofibroblast-tension-feedback",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Myofibroblast Mechanical Tension Feedback",
+    "source_b": "SWOT Feedback Dynamics"
+  },
+  {
+    "name": "Shields Entrainment Theory of Social Mobility Thresholds",
+    "core_claim": "Social mobility requires exceeding a Shields-type entrainment threshold: individuals are 'entrained' upward only when the fluid shear stress of economic opportunity exceeds the gravitational and frictional forces of their social sediment — class inertia, network poverty, credential barriers. Larger particles (individuals with more social mass — dependents, debts, community ties) require proportionally greater shear stress to mobilize. The resulting sorting produces graded social strata analogous to sediment sorting in hydraulic channels, with the finest (most mobile) particles transported farthest from their origin.",
+    "mechanism_borrowed_from": "sediment-transport-threshold",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Shields Sediment Entrainment Threshold",
+    "source_b": "Foucauldian Power/Knowledge"
+  },
+  {
+    "name": "Lava Flow Channelization Theory of Internet Traffic Routing",
+    "core_claim": "Internet traffic self-organizes into channels through the same positive feedback that channelizes lava flows: initial random paths that carry slightly more traffic cool their margins (build routing table preferences, reduce latency through caching), which confines subsequent traffic into the same channel. The channel develops levees (QoS policies, peering agreements) that further reinforce the path. Overflow events (DDoS, viral content surges) breach levees and establish new distributary channels, permanently altering the routing topology. The resulting network is not optimally designed but is a frozen accident of flow history.",
+    "mechanism_borrowed_from": "lava-flow-channelization",
+    "domain_applied_to": "network theory",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Lava Flow Channelization",
+    "source_b": "Scale-Free Network Formation"
+  },
+  {
+    "name": "Intercropping Complementarity Theory of Pedagogical Design",
+    "core_claim": "Effective curricula should follow intercropping resource complementarity: subjects planted together in the same time-slot should have complementary cognitive resource demands (one deep-processing, one procedural; one verbal, one spatial) so they draw from different cognitive nutrient pools and reduce total depletion. Monoculture scheduling — consecutive sessions of the same cognitive type — exhausts a single resource pool and invites cognitive pest outbreaks (boredom, attention collapse). The optimal polyculture rotation maximizes total learning yield per unit of student attention.",
+    "mechanism_borrowed_from": "intercropping-complementarity",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Intercropping Resource Complementarity",
+    "source_b": "Spaced Repetition (Ebbinghaus)"
+  },
+  {
+    "name": "Formulaic Speech Preservation Theory of Software API Stability",
+    "core_claim": "Software APIs persist not because they are well-designed but because they are formulaic: heavily-used API patterns become metrically fixed (exact parameter orders, naming conventions, return types) and resist modification through the same selection pressures that preserve oral formulaic expressions. Developers transmit API usage patterns through code copying (oral reproduction), and any mutation to a high-frequency formula is immediately selected against by build failures across thousands of downstream dependents. The most stable APIs are the most formulaic, not the most elegant.",
+    "mechanism_borrowed_from": "formulaic-speech-preservation",
+    "domain_applied_to": "programming languages",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Formulaic Speech Preservation",
+    "source_b": "Curry-Howard Correspondence"
+  },
+  {
+    "name": "Firn Densification Theory of Knowledge Consolidation in Learning",
+    "core_claim": "New knowledge consolidates through firn densification dynamics: freshly deposited information (snow) is initially porous, loosely connected, and easily displaced. Through sustained cognitive pressure (review, application, elaboration) and thermal cycling (sleep-wake memory consolidation), the porous knowledge compresses into dense firn — partially consolidated understanding with residual air pockets of uncertainty. Only under sustained overburden pressure (years of expert practice) does it fully transform into glacial ice — deep expertise with no remaining porosity. The firn-ice transition has a sharp threshold density, explaining the qualitative leap from competence to mastery.",
+    "mechanism_borrowed_from": "firn-densification-feedback",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Firn Densification Feedback",
+    "source_b": "Spaced Repetition (Ebbinghaus)"
+  }
+]

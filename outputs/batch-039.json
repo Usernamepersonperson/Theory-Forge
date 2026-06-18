@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Jacquard Binary Theory of Gene Regulation",
+    "core_claim": "Gene regulatory networks operate as biological Jacquard looms: each transcription factor acts as a binary hook (up/down) controlling whether a gene is expressed. The combinatorial pattern of thousands of simultaneous binary decisions across the genome weaves the 'fabric' of cell identity. Just as Jacquard punch cards encode complex patterns through simple binary lift decisions, epigenetic marks encode cell-type-specific expression programs through binary methylation/acetylation states.",
+    "mechanism_borrowed_from": "jacquard-binary-patterning",
+    "domain_applied_to": "systems biology",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Jacquard Binary Patterning",
+    "source_b": "Gene Regulatory Networks"
+  },
+  {
+    "name": "Bullwhip Effect Theory of Emotional Contagion",
+    "core_claim": "Emotional signals in social hierarchies exhibit bullwhip amplification: a leader's mild frustration is interpreted and amplified at each organizational echelon, so that by the time it reaches front-line workers, the signal has been distorted into panic or rage. Each intermediary over-reacts to compensate for perceived information delay, producing emotional variance amplification structurally identical to supply-chain demand distortion.",
+    "mechanism_borrowed_from": "bullwhip-effect",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Bullwhip Effect",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Stratigraphic Superposition Theory of Memory Consolidation",
+    "core_claim": "Long-term memory consolidation follows archaeological stratigraphy: newer memories deposit as upper layers that compress and distort older ones. Retrieval of deep memories requires 'excavation' through intervening strata, and the accuracy of recall degrades in proportion to the number and thickness of overlying deposits. Traumatic memories act as intrusive features that cut through normal stratification, remaining accessible regardless of depth but disrupting the chronological ordering of surrounding memories.",
+    "mechanism_borrowed_from": "stratigraphy",
+    "domain_applied_to": "neuroscience",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Stratigraphic Superposition",
+    "source_b": "Bayesian Brain Hypothesis"
+  },
+  {
+    "name": "Orographic Precipitation Theory of Innovation Clustering",
+    "core_claim": "Innovation clusters form through orographic precipitation dynamics: when a 'flow' of mobile talent encounters institutional 'mountain barriers' (universities, research parks, regulatory advantages), the talent is forced upward into higher-density interaction, condensing into startups and collaborations on the windward side. The leeward side of the barrier experiences an 'innovation rain shadow' where talent is depleted and entrepreneurial activity is suppressed.",
+    "mechanism_borrowed_from": "orographic-precipitation",
+    "domain_applied_to": "city science",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Orographic Precipitation",
+    "source_b": "Urban Scaling Laws"
+  },
+  {
+    "name": "Selvage Edge Theory of National Borders",
+    "core_claim": "National borders function as selvage edges in the geopolitical fabric: specialized binding structures (customs, border patrols, checkpoints) that prevent the unraveling of state sovereignty. Borders that lack adequate 'edge construction' (weak states, disputed territories) fray under tension, allowing cross-border flows of people, goods, and violence that progressively unweave the state's territorial integrity. The stability of a border depends not on its length but on the quality of its edge-locking mechanism.",
+    "mechanism_borrowed_from": "selvage-edge-stability",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "source_a": "Selvage Edge Stability",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "PID Control Theory of Emotional Regulation",
+    "core_claim": "Emotional regulation operates as a PID controller: the proportional term responds to the current magnitude of emotional deviation from a hedonic setpoint, the integral term tracks accumulated unresolved emotional debt over time (producing chronic mood disorders when it saturates), and the derivative term anticipates emotional trajectories to preemptively dampen anxiety or amplify anticipatory pleasure. Therapeutic interventions can be mapped to tuning specific PID gains.",
+    "mechanism_borrowed_from": "pid-control",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "PID Control",
+    "source_b": "General Adaptation Syndrome (Selye)"
+  },
+  {
+    "name": "Thermohaline Circulation Theory of Knowledge Flow in Organizations",
+    "core_claim": "Knowledge circulates through large organizations via thermohaline-like overturning: 'hot' knowledge (novel insights, market intelligence) rises through informal networks to executive levels where it cools into codified strategy, then sinks as 'cold' directives through formal hierarchies back to operational levels. The circulation rate depends on knowledge density gradients (expertise concentration) and salinity analogs (organizational culture viscosity). Disruption of this circulation produces knowledge 'stagnation zones' equivalent to oceanic dead zones.",
+    "mechanism_borrowed_from": "thermohaline-circulation",
+    "domain_applied_to": "business strategy",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "source_a": "Thermohaline Circulation",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Immune Clonal Selection Theory of Artistic Style",
+    "core_claim": "An artist's mature style develops through a process analogous to clonal selection in the immune system: early career experimentation produces diverse stylistic 'lymphocytes,' each representing a different aesthetic approach. When a particular style achieves strong 'antigen binding' (audience resonance, critical recognition, market success), it is clonally expanded through repetition and refinement, while non-resonant styles are eliminated. Somatic hypermutation (deliberate experimentation within the successful style) fine-tunes the artist's signature approach.",
+    "mechanism_borrowed_from": "immune-clonal-selection",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Clonal Selection (Immunology)",
+    "source_b": "Institutional Theory of Art"
+  },
+  {
+    "name": "Phyllotaxis Theory of Urban Zoning",
+    "core_claim": "Optimal urban land-use zoning follows phyllotactic packing principles: each new development creates an inhibitory field (noise, traffic, shade) that repels similar developments, and the next project of the same type is placed at the point of least inhibition. When market forces are allowed to operate freely under basic constraints, the resulting spatial distribution of commercial, residential, and industrial zones converges on golden-angle spacing that maximizes resource access and minimizes inter-zone conflict.",
+    "mechanism_borrowed_from": "phyllotaxis",
+    "domain_applied_to": "urban planning",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Phyllotaxis",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Mercerization Theory of Cultural Transformation",
+    "core_claim": "Rapid cultural transformation follows mercerization dynamics: immersion in a strong ideological 'solution' (revolution, religious conversion, colonization) causes differential swelling and crystalline rearrangement of social structures. Communities that fully convert from their original 'cellulose I' cultural arrangement to 'cellulose II' gain new properties (cohesion, identity clarity, external signaling power) but lose their original texture irreversibly. Partially converted communities exhibit the weakest structural properties of either arrangement.",
+    "mechanism_borrowed_from": "mercerization-swelling",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Mercerization Swelling",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Lanchester's Law Theory of Market Share Warfare",
+    "core_claim": "Competition between firms in saturated markets follows Lanchester's square law: a firm's attrition advantage over competitors scales with the square of its resource concentration (sales force, advertising spend, distribution points) in a given market segment. This explains why market leaders with 2x the resources achieve 4x the competitive impact, and why niche strategies (concentrating force in narrow segments) can defeat larger opponents who spread resources evenly.",
+    "mechanism_borrowed_from": "lanchester-laws",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Lanchester's Laws of Combat Attrition",
+    "source_b": "Viral Marketing"
+  },
+  {
+    "name": "SLAM Theory of Autobiographical Identity",
+    "core_claim": "The construction of autobiographical identity operates as Simultaneous Localization and Mapping: the self must simultaneously determine where it is in life-space (localization) and construct a coherent narrative map of its past (mapping), using noisy sensory evidence from memory. Identity crises occur when accumulated loop-closure failures (contradictions between the believed map and new evidence) exceed the filter's capacity to maintain a consistent joint estimate.",
+    "mechanism_borrowed_from": "slam-robotics",
+    "domain_applied_to": "developmental psychology",
+    "viability": "speculative",
+    "confidence": 0.60,
+    "source_a": "SLAM (Simultaneous Localization and Mapping)",
+    "source_b": "Piaget's Stage Theory"
+  },
+  {
+    "name": "Red Queen Theory of Fashion Cycles",
+    "core_claim": "Fashion trends follow Red Queen co-evolutionary dynamics: mainstream consumers (hosts) constantly adopt new styles to signal status, while mass-market producers (parasites) track and copy the most common styles. Rare, avant-garde styles enjoy temporary immunity from copying, driving fashion innovators to continuously generate novelty not for aesthetic reasons but to escape the parasite's frequency-dependent tracking. The rate of fashion cycling is set by the copying industry's latency, not by creative inspiration.",
+    "mechanism_borrowed_from": "red-queen-hypothesis",
+    "domain_applied_to": "textile science",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Red Queen Hypothesis",
+    "source_b": "Weaving Tension Dynamics"
+  },
+  {
+    "name": "Galois Theory of Political Coalition Structure",
+    "core_claim": "The solvability of political coalitions corresponds to the structure of their Galois groups: simple coalitions (cyclic group structure) can be decomposed into stable bilateral agreements, while complex coalitions with non-abelian group structure resist decomposition and collapse unpredictably. The fundamental theorem of Galois theory maps onto coalition politics: each subgroup corresponds to a sub-coalition, and the lattice of subgroups predicts which defections are possible and which combinations are stable.",
+    "mechanism_borrowed_from": "galois-theory",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Galois Theory",
+    "source_b": "Coalition Fragmentation Cascade Theory"
+  },
+  {
+    "name": "Hormesis Theory of Creative Practice",
+    "core_claim": "Creative output follows a hormetic dose-response to constraint: zero constraint produces unfocused, low-quality work; moderate constraint (deadlines, formal requirements, material limitations) triggers adaptive creative responses that produce the strongest work; excessive constraint crushes creative capacity entirely. The optimal 'dose window' of constraint is narrow and individual-specific, explaining why the same workshop exercise liberates one artist and paralyzes another.",
+    "mechanism_borrowed_from": "hormesis",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Hormesis",
+    "source_b": "Kantian Aesthetic Judgment"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Third-Body Wear Layer Theory of Pidgin Language Formation",
+    "core_claim": "Pidgin languages form through third-body layer dynamics: when two language surfaces (communities) are in sliding contact under pressure (trade, colonization), neither surface directly contacts the other. Instead, abraded particles from both languages form a third-body layer — the pidgin — that accommodates the velocity difference between the two surfaces, reduces friction, and develops its own internal structure and rheology. Creolization occurs when this third-body layer solidifies into a permanent coating that is no longer dependent on continued sliding contact between the parent surfaces.",
+    "mechanism_borrowed_from": "third-body-wear-layer",
+    "domain_applied_to": "phonology",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Third-Body Layer Formation",
+    "source_b": "Phoneme Neutralization"
+  },
+  {
+    "name": "Plinian Column Collapse Theory of Market Crashes",
+    "core_claim": "Financial market crashes follow Plinian eruption column dynamics: the market's upward momentum sustains a convective column of rising prices as long as the buoyancy flux (new capital inflow) exceeds the entrainment of cold ambient air (short-selling, profit-taking). When the column's mass flux exceeds the buoyancy threshold, the column collapses, generating pyroclastic density currents — ground-hugging avalanches of sell orders that move faster than any individual participant can flee, destroying portfolios in their path. The column height before collapse (market peak) is predictable from the eruption rate (capital inflow velocity) and atmospheric profile (regulatory environment).",
+    "mechanism_borrowed_from": "plinian-column-collapse",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Plinian Column Collapse Dynamics",
+    "source_b": "Minsky Financial Instability"
+  },
+  {
+    "name": "Shell Company Network Topology Theory of Mycorrhizal Parasitism",
+    "core_claim": "Some mycorrhizal networks function as biological shell companies: fungal species create layered network topologies that obscure the ultimate destination of carbon resources, routing them through intermediary hyphae in patterns structurally identical to forensic accounting's shell company detection signatures. The 'beneficial mutualist' label obscures a spectrum from genuine mutualism to parasitic extraction, and the same network topology metrics (betweenness centrality anomalies, circular transaction patterns) that forensic accountants use to detect fraud can identify mycorrhizal species that extract disproportionate carbon while providing minimal mineral nutrients.",
+    "mechanism_borrowed_from": "shell-company-network-topology",
+    "domain_applied_to": "mycorrhizal ecology",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Shell Company Network Detection",
+    "source_b": "Source-Sink Carbon Allocation"
+  },
+  {
+    "name": "Honeybee Waggle Dance Theory of Scientific Citation",
+    "core_claim": "Scientific citations function as waggle dances: each citation communicates the direction (intellectual lineage) and distance (methodological proximity) of a productive resource site (prior finding) to other foragers (researchers). High-impact papers recruit more dancers (citers), and the dance's precision degrades with distance — citations to methodologically remote work are interpreted less accurately by the audience. Citation networks thus constitute a decentralized recruitment system where the colony (discipline) allocates foraging effort through the accumulated choreography of individual dancers, not through central planning.",
+    "mechanism_borrowed_from": "honeybee-waggle-dance-recruitment",
+    "domain_applied_to": "information retrieval",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Honeybee Waggle Dance Recruitment",
+    "source_b": "PageRank"
+  },
+  {
+    "name": "Alarm Fatigue Theory of Prophetic Tradition Decay",
+    "core_claim": "Prophetic traditions lose authority through alarm fatigue habituation: the initial prophetic message functions as a critical alarm — urgent, attention-capturing, demanding immediate response. As the tradition institutionalizes, the alarm repeats with increasing frequency (weekly sermons, daily prayers, constant moral exhortation) without corresponding novel threats, producing habituation. The community's response threshold rises until genuinely critical prophetic warnings are indistinguishable from background liturgical noise. Prophetic renewal movements succeed precisely by introducing novel alarm modalities that bypass the habituated channels.",
+    "mechanism_borrowed_from": "alarm-fatigue-habituation",
+    "domain_applied_to": "theology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Alarm Fatigue Habituation",
+    "source_b": "Liberation Theology"
+  },
+  {
+    "name": "Agroforestry Microclimate Theory of Urban Neighborhood Resilience",
+    "core_claim": "Resilient urban neighborhoods function as agroforestry systems: the 'canopy layer' (major institutions, anchor businesses) buffers the microclimate for understory enterprises and residents, reducing temperature extremes (economic volatility), increasing humidity retention (social capital), and breaking wind (external shocks). When the canopy is removed (hospital closure, factory departure), the understory experiences the full force of macro-economic weather and often dies back. Effective urban planning should design for canopy-understory complementarity rather than monoculture development.",
+    "mechanism_borrowed_from": "agroforestry-microclimate",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Agroforestry Microclimate Buffering",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Firn Densification Theory of Institutional Memory Consolidation",
+    "core_claim": "Institutional memory consolidates through firn densification: fresh experiences (snow) are initially porous, loosely packed, and easily rearranged. Through sustained organizational pressure (repeated reference, training programs, cultural reinforcement), the memory compresses through successive stages — firn (documented procedures), then glacial ice (deep institutional culture). The densification rate depends on overburden pressure (organizational emphasis) and temperature (rate of personnel turnover). At the critical close-off depth, air bubbles (alternative interpretations) are permanently sealed, and the memory becomes a rigid, non-renegotiable organizational assumption.",
+    "mechanism_borrowed_from": "firn-densification-feedback",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Firn Densification Feedback",
+    "source_b": "Provenance Chain Integrity"
+  },
+  {
+    "name": "Denominational Ladder Theory of Academic Credentialing",
+    "core_claim": "Academic credentials form a denominational ladder identical to currency denomination systems: bachelor's degrees (pennies), master's degrees (dollars), PhDs (hundred-dollar bills), and postdocs (treasury bonds) are selected to minimize the number of 'coins' needed for any transaction (job qualification). Credential inflation follows the same dynamics as monetary denomination reform — when the smallest denomination becomes too worthless (bachelor's degree insufficient), the entire ladder shifts upward, and the old high denomination (PhD) becomes the new medium of everyday exchange. The optimal denomination set minimizes total transaction cost across the labor market.",
+    "mechanism_borrowed_from": "denominational-ladder",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Denominational Ladder Selection",
+    "source_b": "Experience / Learning Curve"
+  },
+  {
+    "name": "Lava Flow Channelization Theory of Bureaucratic Process Formation",
+    "core_claim": "Bureaucratic processes self-organize through lava flow channelization: initially, administrative activity spreads as a broad sheet flow across the organizational landscape. As the flow cools (routinizes), levees form at the margins — hardened procedural boundaries that constrain future flow into established channels. Over time, the process becomes a lava tube — a rigid, self-insulating conduit that efficiently transports decisions from input to output but is completely resistant to lateral movement. Breakouts (workarounds) occur only when internal pressure exceeds levee strength, and they immediately begin forming their own channels.",
+    "mechanism_borrowed_from": "lava-flow-channelization",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Lava Flow Channelization",
+    "source_b": "Queueing Theory (M/M/1)"
+  },
+  {
+    "name": "Mnemonic Scaffolding Theory of Software API Design",
+    "core_claim": "Well-designed APIs employ the same mnemonic scaffolding strategies as oral epic traditions: formulaic expressions (consistent naming conventions), thematic clustering (related endpoints grouped by resource), ring composition (request-response symmetry), and metrical constraints (consistent parameter ordering) all serve to reduce the cognitive load of memorizing the interface. APIs that violate these oral-mnemonic principles require constant documentation reference — the developer equivalent of a bard who cannot perform without reading from a scroll — while APIs that embody them become 'recitable' from memory after moderate exposure.",
+    "mechanism_borrowed_from": "mnemonic-scaffolding",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Mnemonic Scaffolding in Oral Epics",
+    "source_b": "Halting Problem"
+  },
+  {
+    "name": "Prosodic Bootstrapping Theory of Machine Learning Feature Discovery",
+    "core_claim": "Unsupervised feature discovery in neural networks recapitulates prosodic bootstrapping: just as infants use suprasegmental cues (rhythm, stress, intonation contour) to bootstrap word boundaries and syntactic categories before understanding any individual word, neural networks in early training epochs learn coarse statistical regularities (the 'prosody' of the data) that scaffold the subsequent discovery of fine-grained features. The critical period for this bootstrapping determines whether the network converges to a useful representation; networks that miss the prosodic window learn word-level features without hierarchical structure.",
+    "mechanism_borrowed_from": "prosodic-bootstrapping",
+    "domain_applied_to": "machine learning",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Prosodic Bootstrapping",
+    "source_b": "Backpropagation"
+  },
+  {
+    "name": "Volatile Acidity Oscillation Theory of Team Morale Dynamics",
+    "core_claim": "Team morale oscillates through volatile acidity dynamics: acetic acid bacteria (cynics, complainers) convert the ethanol of team enthusiasm into vinegar of dissatisfaction in the presence of oxygen (external scrutiny, management pressure). The oscillation arises because high morale (high ethanol) invites exposure to oxygen (visibility, new demands), which feeds acetic bacteria, which reduces morale (converts ethanol to acid), which reduces oxygen exposure (team becomes invisible), allowing ethanol to rebuild. Maintaining morale requires either anaerobic conditions (shielding from external pressure) or sulfite addition (active suppression of cynicism vectors).",
+    "mechanism_borrowed_from": "volatile-acidity-oscillation",
+    "domain_applied_to": "ergonomics",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Volatile Acidity Oscillation",
+    "source_b": "Cognitive Load Partitioning"
+  },
+  {
+    "name": "Dam Overtopping Cascade Theory of Emotional Breakdown",
+    "core_claim": "Emotional breakdowns propagate as dam overtopping cascades: psychological compartmentalization creates a series of emotional reservoirs in sequence, each held back by a dam of coping mechanisms. When upstream stress exceeds the first dam's capacity, the overflow does not simply spill — it adds its full volume to the next reservoir, which was already near capacity, triggering a cascade of sequential failures. The catastrophic nature of breakdowns (disproportionate to the triggering event) is explained by the multiplicative amplification through the reservoir chain, not by the magnitude of the final stressor.",
+    "mechanism_borrowed_from": "dam-overtopping-cascade",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Dam Overtopping Failure Cascade",
+    "source_b": "Allostatic Load"
+  },
+  {
+    "name": "Pest Dilution Theory of Misinformation Resistance",
+    "core_claim": "Informationally diverse media ecosystems resist misinformation through the pest dilution effect: when an audience consumes information from many different sources (high crop diversity), any single misinformation vector (pest species) encounters non-host material more often than host material, reducing its effective transmission rate. Monoculture information diets (consuming only one news source or platform) create the conditions for epidemic-level misinformation damage, just as agricultural monocultures enable pest outbreaks. The prescription is not better pesticide (fact-checking) but greater crop diversity (source plurality).",
+    "mechanism_borrowed_from": "agroecological-pest-dilution",
+    "domain_applied_to": "epidemiology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Pest Dilution Effect",
+    "source_b": "Behavioral Immunity Feedback Theory"
+  },
+  {
+    "name": "Particle Swarm Theory of Architectural Design Optimization",
+    "core_claim": "Architectural design converges on optimal solutions through particle swarm dynamics: each design iteration (particle) has a current position in the solution space (floor plan, structural system, material palette) and a velocity influenced by three attractors — its personal best design so far, the best design found by its local neighborhood (peer firms, regional vernacular), and the global best (award-winning precedents). The swarm explores the design space more efficiently than any individual architect because the social component prevents premature convergence on local optima while the cognitive component ensures each particle learns from its own trajectory.",
+    "mechanism_borrowed_from": "particle-swarm-velocity-update",
+    "domain_applied_to": "architecture",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Particle Swarm Velocity Update",
+    "source_b": "Form-Finding (Hanging Chain Principle)"
+  }
+]
