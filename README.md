@@ -23,7 +23,7 @@ That's the whole loop. ~300 lines.
 ## Files
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
-- [server.py](server.py) — FastAPI v0.4: 16 endpoints including batch forge, rankings, deep dives, stats, search, and export.
+- [server.py](server.py) — FastAPI v0.5: 18 endpoints including batch forge, rankings, deep dives, stats, search, export, and domain network graph.
 - [theories.json](theories.json) — decomposed seed dataset (683 entries across 181 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
 - [web/index.html](web/index.html) — tabbed UI: forge, batch forge, rankings, deep dives, theories browser, stats dashboard, history.
@@ -73,6 +73,8 @@ GET  /stats                                   aggregate statistics
 GET  /search?q=&limit=                        full-text framework search
 GET  /domain-matrix                           domain coverage analysis
 GET  /export?format=json|csv&min_confidence=  export all frameworks
+GET  /random?min_confidence=                  random framework above threshold
+GET  /domain-network                          graph data (nodes + weighted edges)
 ```
 
 ## UI tabs
@@ -85,6 +87,7 @@ GET  /export?format=json|csv&min_confidence=  export all frameworks
 | **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |
 | **theories** | Browse all 514 seed theories grouped by domain, with full decomposition and tags. |
 | **stats** | Dashboard with counts, viability breakdown, confidence stats, domain coverage, mechanism source charts, and export buttons (JSON/CSV). |
+| **network** | Interactive force-directed graph showing domain connections. Drag nodes, hover for details. |
 | **history** | Expandable list of all collision batches with framework details. |
 
 ## Why this shape

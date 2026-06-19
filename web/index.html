@@ -116,7 +116,7 @@
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
-  <span class="version">v0.4</span>
+  <span class="version">v0.5</span>
   <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
@@ -129,6 +129,7 @@
     <div class="tab" data-tab="deep-dives">deep dives</div>
     <div class="tab" data-tab="theories">theories</div>
     <div class="tab" data-tab="stats">stats</div>
+    <div class="tab" data-tab="network">network</div>
     <div class="tab" data-tab="history">history</div>
   </div>
 
@@ -201,6 +202,15 @@
     <div id="stats-result"></div>
   </div>
 
+  <!-- NETWORK TAB -->
+  <div class="tab-content" id="tab-network">
+    <div class="row">
+      <button id="net-load">load domain network</button>
+      <span id="net-stats" class="meta"></span>
+    </div>
+    <canvas id="net-canvas" width="1000" height="600" style="background:var(--bg);border:1px solid var(--br);border-radius:8px;width:100%;cursor:grab"></canvas>
+  </div>
+
   <!-- HISTORY TAB -->
   <div class="tab-content" id="tab-history">
     <div id="history-result"></div>
@@ -224,6 +234,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.tab === 'deep-dives') loadDeepDives();
     if (tab.dataset.tab === 'theories') loadTheories();
     if (tab.dataset.tab === 'stats') loadStats();
+    if (tab.dataset.tab === 'network') loadNetwork();
   };
 });
 
@@ -646,6 +657,123 @@ async function loadHeaderStats() {
     const s = await r.json();
     $('header-stats').textContent = `${s.theory_count} theories · ${s.domain_count} domains · ${s.total_frameworks} frameworks`;
   } catch(e) {}
+}
+
+// Network visualization
+$('net-load').onclick = loadNetwork;
+async function loadNetwork() {
+  $('net-load').disabled = true;
+  $('net-stats').textContent = 'loading...';
+  const r = await fetch('/domain-network');
+  const data = await r.json();
+  $('net-stats').textContent = `${data.node_count} domains, ${data.edge_count} connections`;
+  $('net-load').disabled = false;
+  drawNetwork(data);
+}
+
+function drawNetwork(data) {
+  const canvas = $('net-canvas');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const nodes = data.nodes.map((name, i) => {
+    const angle = (i / data.nodes.length) * Math.PI * 2;
+    const r = Math.min(W, H) * 0.35;
+    return { name, x: W/2 + Math.cos(angle) * r + (Math.random()-0.5)*60,
+                   y: H/2 + Math.sin(angle) * r + (Math.random()-0.5)*60,
+                   vx: 0, vy: 0 };
+  });
+  const nodeMap = {};
+  nodes.forEach((n, i) => nodeMap[n.name] = i);
+  const edges = data.edges.map(e => ({
+    s: nodeMap[e.source], t: nodeMap[e.target], w: e.weight
+  })).filter(e => e.s !== undefined && e.t !== undefined);
+  const maxW = Math.max(...edges.map(e => e.w), 1);
+  const connCount = {};
+  edges.forEach(e => {
+    connCount[e.s] = (connCount[e.s]||0) + e.w;
+    connCount[e.t] = (connCount[e.t]||0) + e.w;
+  });
+
+  function tick() {
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i+1; j < nodes.length; j++) {
+        let dx = nodes[j].x - nodes[i].x, dy = nodes[j].y - nodes[i].y;
+        let d = Math.sqrt(dx*dx + dy*dy) || 1;
+        let f = 800 / (d * d);
+        nodes[i].vx -= dx/d * f; nodes[i].vy -= dy/d * f;
+        nodes[j].vx += dx/d * f; nodes[j].vy += dy/d * f;
+      }
+    }
+    edges.forEach(e => {
+      let dx = nodes[e.t].x - nodes[e.s].x, dy = nodes[e.t].y - nodes[e.s].y;
+      let d = Math.sqrt(dx*dx + dy*dy) || 1;
+      let f = (d - 120) * 0.005 * e.w;
+      nodes[e.s].vx += dx/d * f; nodes[e.s].vy += dy/d * f;
+      nodes[e.t].vx -= dx/d * f; nodes[e.t].vy -= dy/d * f;
+    });
+    nodes.forEach(n => {
+      n.vx += (W/2 - n.x) * 0.001;
+      n.vy += (H/2 - n.y) * 0.001;
+      n.vx *= 0.9; n.vy *= 0.9;
+      n.x += n.vx; n.y += n.vy;
+      n.x = Math.max(30, Math.min(W-30, n.x));
+      n.y = Math.max(20, Math.min(H-20, n.y));
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    edges.forEach(e => {
+      ctx.beginPath();
+      ctx.moveTo(nodes[e.s].x, nodes[e.s].y);
+      ctx.lineTo(nodes[e.t].x, nodes[e.t].y);
+      ctx.strokeStyle = `rgba(126,231,135,${0.08 + 0.3 * e.w/maxW})`;
+      ctx.lineWidth = 0.5 + 2 * e.w/maxW;
+      ctx.stroke();
+    });
+    nodes.forEach(n => {
+      const c = connCount[nodeMap[n.name]] || 1;
+      const r = 3 + Math.min(c/4, 8);
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, r, 0, Math.PI*2);
+      ctx.fillStyle = c > 5 ? '#7ee787' : c > 2 ? '#79c0ff' : '#8b949e';
+      ctx.fill();
+      ctx.font = '9px monospace';
+      ctx.fillStyle = '#e6edf3';
+      ctx.textAlign = 'center';
+      if (nodes.length < 80 || c > 3) {
+        ctx.fillText(n.name, n.x, n.y - r - 3);
+      }
+    });
+  }
+
+  let frame = 0;
+  function animate() {
+    tick();
+    draw();
+    frame++;
+    if (frame < 300) requestAnimationFrame(animate);
+  }
+  animate();
+
+  let dragNode = null;
+  canvas.onmousedown = (ev) => {
+    const rect = canvas.getBoundingClientRect();
+    const sx = W / rect.width, sy = H / rect.height;
+    const mx = (ev.clientX - rect.left) * sx, my = (ev.clientY - rect.top) * sy;
+    dragNode = nodes.find(n => Math.hypot(n.x-mx, n.y-my) < 15) || null;
+    if (dragNode) canvas.style.cursor = 'grabbing';
+  };
+  canvas.onmousemove = (ev) => {
+    if (!dragNode) return;
+    const rect = canvas.getBoundingClientRect();
+    const sx = W / rect.width, sy = H / rect.height;
+    dragNode.x = (ev.clientX - rect.left) * sx;
+    dragNode.y = (ev.clientY - rect.top) * sy;
+    dragNode.vx = 0; dragNode.vy = 0;
+    draw();
+  };
+  canvas.onmouseup = () => { dragNode = null; canvas.style.cursor = 'grab'; };
 }
 
 loadDomains();

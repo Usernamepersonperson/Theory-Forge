@@ -19,6 +19,8 @@ Endpoints:
     GET  /gaps?limit=                             unexplored high-potential domain pairs
     GET  /framework/{name}                        single framework with related frameworks
     GET  /export?format=json|csv&min_confidence=  export all frameworks
+    GET  /random?min_confidence=                  random framework above threshold
+    GET  /domain-network                          graph data (nodes + weighted edges)
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -44,7 +46,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.4.0")
+app = FastAPI(title="Theory Forge", version="0.5.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -523,6 +525,53 @@ def export_frameworks(format: str = "json", min_confidence: float = 0.0):
             headers={"Content-Disposition": "attachment; filename=theory-forge-export.csv"},
         )
     return unique
+
+
+@app.get("/random")
+def random_framework(min_confidence: float = 0.6):
+    out_dir = Path(__file__).parent / "outputs"
+    all_fw = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                if fw.get("confidence", 0) >= min_confidence:
+                    fw["_batch"] = f.name
+                    all_fw.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    if not all_fw:
+        raise HTTPException(404, "No frameworks match that confidence threshold.")
+    return random.choice(all_fw)
+
+
+@app.get("/domain-network")
+def domain_network():
+    out_dir = Path(__file__).parent / "outputs"
+    edges: dict[tuple[str, str], int] = {}
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                src = fw.get("mechanism_source", fw.get("mechanism_borrowed_from", fw.get("source_a", ""))).strip()
+                tgt = fw.get("target_domain", fw.get("domain_applied_to", fw.get("source_b", ""))).strip()
+                if src and tgt:
+                    key = tuple(sorted([src.lower(), tgt.lower()]))
+                    edges[key] = edges.get(key, 0) + 1
+        except (json.JSONDecodeError, KeyError):
+            continue
+    nodes = set()
+    edge_list = []
+    for (a, b), weight in sorted(edges.items(), key=lambda x: -x[1]):
+        nodes.add(a)
+        nodes.add(b)
+        edge_list.append({"source": a, "target": b, "weight": weight})
+    return {
+        "nodes": sorted(nodes),
+        "edges": edge_list,
+        "node_count": len(nodes),
+        "edge_count": len(edge_list),
+    }
 
 
 @app.get("/", response_class=HTMLResponse)
