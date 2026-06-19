@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Gear Train Theory of Supply Chain Amplification",
+    "core_claim": "The bullwhip effect in supply chains is a gear train backlash problem: each tier of the supply chain is a gear that amplifies torque (order size) while reducing speed (responsiveness). The cumulative backlash — dead zones between gear teeth where motion is transmitted with delay and distortion — produces the characteristic oscillatory amplification of demand signals as they propagate upstream. Just as horological gear trains minimize backlash through tight tolerances and anti-backlash spring gears, supply chains reduce the bullwhip effect through information sharing (eliminating dead zones) and vendor-managed inventory (anti-backlash mechanisms that maintain constant tooth contact).",
+    "mechanism_borrowed_from": "gear-train-backlash",
+    "domain_applied_to": "logistics",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Gear Train Power Transmission (Horology)",
+    "source_b": "Bullwhip Effect"
+  },
+  {
+    "name": "Terroir Theory of Programming Language Communities",
+    "core_claim": "Programming language communities develop distinctive 'terroir' — the same algorithmic 'grape' (sorting, parsing, concurrency) planted in different language 'soils' (Rust, Haskell, Python) produces implementations with distinctive and repeatable stylistic 'flavor profiles.' The terroir is not just syntax but the complex interaction of type system (soil chemistry), standard library (rootstock), community norms (microclimate), and deployment ecosystem (aspect and elevation). Porting code between languages without terroir translation produces the computational equivalent of Burgundy Pinot planted in Napa — technically the same variety, recognizably different, and optimized for the wrong conditions.",
+    "mechanism_borrowed_from": "terroir-expression",
+    "domain_applied_to": "programming languages",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Terroir Expression Through Soil-Vine Interaction (Viticulture)",
+    "source_b": "Lambda Calculus"
+  },
+  {
+    "name": "Signature Imposition Theory of Curriculum Design",
+    "core_claim": "Curriculum design is a bookbinding imposition problem: individual learning modules (pages) must be arranged into signatures (course units) that, when folded (delivered sequentially), produce the correct page order (knowledge progression) with minimal waste (redundant content) and even bulk (balanced workload). Misimposition — placing a topic in the wrong signature — means students encounter concepts before their prerequisites or after their relevance, producing a 'misbound' education that is locally comprehensible but globally incoherent. The optimal curriculum minimizes the number of signatures (course boundaries) while keeping each signature thin enough to fold cleanly (cognitively manageable unit size).",
+    "mechanism_borrowed_from": "signature-imposition-ordering",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Signature Gathering and Imposition (Bookbinding)",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Impedance Matching Theory of Cross-Cultural Diplomacy",
+    "core_claim": "Diplomatic failures between cultures are acoustic impedance mismatches: when the communicative impedance of one culture (directness, formality, temporal expectations) differs sharply from another's, most diplomatic energy is reflected at the boundary rather than transmitted. The characteristic impedance of a diplomatic culture is the product of its information density (high-context vs. low-context communication) and its decision velocity (consensus speed). Effective intermediaries function as quarter-wave impedance transformers — their cultural impedance is the geometric mean of the two parties', maximizing transmission across the mismatch. This explains why certain small nations (Switzerland, Singapore, Qatar) excel as diplomatic intermediaries: their cultural impedance happens to sit at the geometric mean of major power blocs.",
+    "mechanism_borrowed_from": "impedance-matching",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Acoustic Impedance Matching (Acoustics)",
+    "source_b": "Linguistic Relativity"
+  },
+  {
+    "name": "Projection Distortion Theory of Empathy",
+    "core_claim": "Empathy is a map projection of another person's experiential surface onto one's own cognitive plane, and like all projections, it introduces systematic distortion. Conformal empathy (preserving the shape of emotions) distorts their magnitude — we understand what someone feels but misjudge how intensely. Equal-area empathy (preserving magnitude) distorts shape — we feel the right intensity but misidentify the emotion. No projection preserves both, which is why perfect empathy is mathematically impossible. The Mercator projection of empathy — preserving local emotional angles at the cost of inflating distant experiences — explains why we empathize fluently with those near us while grotesquely inflating or diminishing the suffering of distant others.",
+    "mechanism_borrowed_from": "projection-distortion-tradeoff",
+    "domain_applied_to": "consciousness studies",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Map Projection Distortion Trade-off (Cartography)",
+    "source_b": "Free Energy Principle"
+  },
+  {
+    "name": "Perfume Pyramid Theory of Software Architecture",
+    "core_claim": "Robust software architectures follow the temporal layering of a perfume pyramid. The top notes (UI, API surface) are volatile and frequently changed — they provide the first impression and must be attention-grabbing but are expected to evolve rapidly. The heart notes (business logic, domain models) are the substantive middle layer that defines the application's character and persists across UI redesigns. The base notes (data models, infrastructure, core algorithms) are heavy molecules that persist for years and anchor everything above them. Architectures that conflate layers — putting base-note logic in the UI or top-note volatility in the data model — produce the software equivalent of a perfume that smells like pure fixative on first spray.",
+    "mechanism_borrowed_from": "perfume-pyramid-layering",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Perfume Pyramid Temporal Sequencing (Perfumery)",
+    "source_b": "Lambda Calculus"
+  },
+  {
+    "name": "Aerial Shell Choreography Theory of Military Campaign Design",
+    "core_claim": "Military campaigns follow multi-break shell choreography: the overall campaign (fireworks show) must sequence individual operations (shells) so that each burst is visible against the sky (achieves strategic effect) without being masked by the previous one's smoke (fog of war, resource depletion). The choreographer's principle — never launch the next shell until the audience has fully perceived the current burst — maps to the operational art principle of exploitation: each operation must achieve its psychological and material effect before the next is initiated. Campaigns that launch all shells simultaneously (overwhelming force doctrines) produce spectacular but undifferentiated displays; sequential choreography produces narrative and cumulative psychological impact.",
+    "mechanism_borrowed_from": "multi-break-choreography",
+    "domain_applied_to": "military strategy",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Multi-Break Shell Choreography (Pyrotechnics)",
+    "source_b": "Lanchester's Square Law"
+  },
+  {
+    "name": "Pin Tumbler Sequence Theory of Cryptographic Key Exchange",
+    "core_claim": "Secure key exchange protocols can be understood through pin tumbler sequential setting: each step of the Diffie-Hellman or ECDH protocol 'sets' a mathematical pin to its shear line (contributes partial information to the shared secret) in a binding order determined by the protocol's algebraic structure. An eavesdropper who observes the partial settings faces the same challenge as a lockpicker without tactile feedback: they can see that pins are being set but cannot determine the binding order or the correct height of each pin. The security of the exchange rests on the computational analog of manufacturing tolerance — the discrete logarithm problem ensures that the 'tolerance' between correct and incorrect pin heights is computationally indistinguishable.",
+    "mechanism_borrowed_from": "pin-tumbler-sequential-setting",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Pin Tumbler Shear-Line Alignment (Lock-picking)",
+    "source_b": "RSA Cryptosystem"
+  },
+  {
+    "name": "Kawasaki-Justin Theory of Ecosystem Stability",
+    "core_claim": "Stable ecosystems satisfy origami flat-foldability conditions at every trophic vertex: the alternating angles between species interactions (predation, competition, mutualism, parasitism) must sum to 180 degrees — a balance condition ensuring that energy and biomass flows can 'fold flat' without self-intersection (impossible biomass accounting). Ecosystems that violate Kawasaki's theorem at even one vertex accumulate structural stress that manifests as population oscillations, trophic cascades, or collapse. Keystone species occupy the vertices with the most crease lines (highest interaction degree), making them the points where flat-foldability is most easily violated by their removal.",
+    "mechanism_borrowed_from": "kawasaki-justin-foldability",
+    "domain_applied_to": "ecology",
+    "viability": "speculative",
+    "confidence": 0.60,
+    "source_a": "Flat-Foldability Conditions (Origami Mathematics)",
+    "source_b": "Trophic Cascade"
+  },
+  {
+    "name": "Waggle Dance Theory of Startup Hiring",
+    "core_claim": "Startup hiring networks operate through waggle dance dynamics: current employees who have found the company to be a 'rich nectar source' (rewarding workplace) perform vigorous recruitment dances (referrals, LinkedIn posts, conference talks) that encode direction (company mission, cultural values) and distance (compensation, work-life balance) to potential candidates. The dance's persuasive power is proportional to the dancer's own foraging success (personal satisfaction, equity upside). Employee referral programs formalize the waggle dance, but their effectiveness depends on whether the dancing bees are genuinely reporting rich nectar or performing coerced dances for depleted patches — the biological system's honesty constraint is what most referral bonus schemes fail to replicate.",
+    "mechanism_borrowed_from": "waggle-dance-recruitment",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Waggle Dance Information Encoding (Beekeeping)",
+    "source_b": "Market Competition"
+  },
+  {
+    "name": "Intertidal Zonation Theory of Social Media Platform Stacking",
+    "core_claim": "Social media platforms occupy distinct zones along a gradient of content exposure intensity, analogous to intertidal zonation. The splash zone (anonymous forums, 4chan) hosts extremophile content creators adapted to maximal turbulence and minimal moderation. The high intertidal (Twitter/X, Reddit) supports organisms tolerant of periodic waves of viral attention and desiccating controversy. The mid intertidal (Instagram, TikTok) is the zone of maximum diversity, where the richest community of content types coexist. The low intertidal (LinkedIn, professional Slack) is submerged in the calm of professional norms. Each platform's content moderation policy acts as the tide level, and creators that attempt to live outside their adapted zone suffer the ecological equivalent of thermal stress and predation.",
+    "mechanism_borrowed_from": "intertidal-zonation-gradient",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Intertidal Zonation Gradient (Tidal Ecology)",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Fretting Fatigue Theory of Long-Term Relationships",
+    "core_claim": "Long-term relationship deterioration follows fretting fatigue mechanics: small-amplitude oscillatory friction (daily minor irritations, repeated micro-conflicts) at the contact surface between two intimately coupled individuals nucleates fatigue cracks that propagate far more destructively than equivalent stress applied in a single large event. The fretting fatigue explanation resolves the paradox of relationships that survive major crises (high-cycle fatigue with rest periods) but fail under the cumulative weight of trivial daily friction (fretting with no relief). The oxide debris generated by fretting (accumulated resentment) acts as an abrasive third body that accelerates crack growth, explaining why unaddressed minor grievances become self-amplifying.",
+    "mechanism_borrowed_from": "fretting-fatigue-nucleation",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Fretting Fatigue Crack Nucleation (Tribology)",
+    "source_b": "Attachment Theory (Bowlby)"
+  },
+  {
+    "name": "Pointer Year Theory of Economic Leading Indicators",
+    "core_claim": "Economic leading indicators should be identified through pointer year analysis borrowed from dendrochronology: rather than seeking variables that continuously correlate with future GDP, analysts should identify 'pointer years' — periods of extreme narrowing or widening in economic 'tree rings' (quarterly growth data) that are synchronous across multiple independent economic 'trees' (sectors, regions, asset classes). A pointer year signal is significant precisely because it appears simultaneously in series that are normally uncorrelated, indicating a forcing event (drought, frost) that overrides local conditions. The dendrochronologist's crossdating technique — sliding series against each other to find synchronous pointer years — can identify economic regime changes that composite indicators miss.",
+    "mechanism_borrowed_from": "pointer-year-signal-detection",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Pointer Year Signal Detection (Dendrochronology)",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Ant Colony Pheromone Theory of Urban Pedestrian Infrastructure",
+    "core_claim": "Optimal pedestrian path networks in cities should be designed through ant colony optimization: rather than imposing top-down path layouts, cities should observe emergent desire lines (pheromone trails) — the paths pedestrians actually take through parks, campuses, and neighborhoods — and pave the trails that accumulate the strongest 'pheromone signal' (foot traffic). The pheromone evaporation rate determines path persistence: paths in high-traffic areas maintain strong signals indefinitely, while paths in seasonal-use areas (beaches, festival grounds) experience seasonal evaporation and should be designed as temporary or adaptive infrastructure. The ant colony algorithm naturally produces near-optimal Steiner trees connecting multiple destinations with minimum total path length.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-optimization",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.81,
+    "source_a": "Ant Colony Pheromone Trail Optimization (Swarm Intelligence)",
+    "source_b": "Induced Demand (Braess Paradox)"
+  },
+  {
+    "name": "Cover Object Selection Theory of Diplomatic Communication",
+    "core_claim": "Diplomatic language operates through steganographic cover object selection: the explicit content of diplomatic communications (the cover object) is chosen not for its informational value but for its capacity to carry hidden signals (the embedded message) without triggering adversarial steganalysis (hostile intelligence services, media scrutiny). The optimal diplomatic cover object — a trade agreement, a cultural exchange, a joint statement on climate — has high entropy (many natural variations in wording) and low suspicion (routine diplomatic activity), maximizing embedding capacity while minimizing detection probability. Diplomatic crises occur when the cover object's capacity is exceeded by the message payload, forcing the hidden content to distort the cover beyond plausible deniability.",
+    "mechanism_borrowed_from": "cover-object-selection-pressure",
+    "domain_applied_to": "rhetoric",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Cover Object Selection Pressure (Steganography)",
+    "source_b": "Foucauldian Power/Knowledge"
+  }
+]
