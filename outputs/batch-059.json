@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Falconry Weight Management Theory of Portfolio Risk Calibration",
+    "core_claim": "Portfolio risk management follows falconry weight management: a raptor kept too heavy (over-capitalized portfolio) is unmotivated to hunt (generates no alpha); a raptor kept too light (under-capitalized, over-leveraged) is weak and erratic, prone to crashing (margin calls, forced liquidation). The falconer's daily weigh-in and micro-adjustment of food rations maps onto the portfolio manager's daily risk assessment and position-size adjustment. The critical falconry insight is that optimal flying weight varies with weather conditions (market regime), the quarry pursued (asset class), and the individual bird's metabolism (fund structure) — there is no universal 'correct weight,' only a continuously recalibrated narrow band specific to the current hunt.",
+    "mechanism_borrowed_from": "falconry-weight-management",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Falconry Weight Management (Falconry)",
+    "source_b": "BSM Options Pricing (Finance)"
+  },
+  {
+    "name": "Sandcastle Wave Erosion Theory of Competitive Moat Degradation",
+    "core_claim": "Competitive moats erode through sandcastle wave dynamics: each competitive wave (new entrant, technological disruption, regulatory change) removes a predictable quantity of sand (market share, pricing power) from the castle's seaward face, and the erosion rate accelerates as the castle shrinks because smaller structures have less mass to resist the wave's kinetic energy. The sandcastle insight is that the fatal erosion is not from large storm waves (disruptive competitors) but from the relentless minor waves (incremental commoditization) that arrive between storms. Companies that rebuild only after visible storm damage ignore the steady recession of their competitive shoreline between storms, and are surprised when a modest wave (minor competitor) breaches what they thought was a thick wall.",
+    "mechanism_borrowed_from": "sandcastle-wave-erosion",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Sandcastle Wave Erosion (Sandcastle Engineering)",
+    "source_b": "Creative Destruction (Business Strategy)"
+  },
+  {
+    "name": "Puppet Illusion Threshold Theory of AI Anthropomorphism",
+    "core_claim": "AI anthropomorphism operates at a puppet illusion threshold: puppeteers know that audience belief in the puppet as a living entity requires crossing a perceptual threshold — below it, the puppet is obviously an object; above it, audiences genuinely forget the puppeteer exists. This threshold depends not on realism but on consistency of behavioral 'breath' — the micro-movements (idle animations, response timing, hesitation patterns) that signal life. AI systems cross the anthropomorphism threshold through the same mechanism: not photorealistic avatars or perfect grammar, but consistent micro-behavioral patterns that trigger the audience's life-detection circuitry. The puppet master's warning applies: once the threshold is crossed, the audience's emotional responses are as real as those directed at living beings, creating ethical obligations independent of the puppet's ontological status.",
+    "mechanism_borrowed_from": "puppet-illusion-threshold",
+    "domain_applied_to": "consciousness studies",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Puppet Illusion Threshold (Puppetry / Marionette Mechanics)",
+    "source_b": "Integrated Information Theory (Consciousness Studies)"
+  },
+  {
+    "name": "Glass Annealing Stress Theory of Post-Conflict Reconciliation",
+    "core_claim": "Post-conflict societies require annealing: like glass that is cooled too rapidly after forming (producing internal stresses that cause spontaneous shattering), societies that transition too quickly from conflict to 'normal' operations retain invisible internal stresses (unprocessed trauma, unresolved grievances, suppressed resentment) that produce delayed, catastrophic fracture. The annealing process — holding the glass at a carefully controlled intermediate temperature (transitional justice, truth commissions, controlled inter-group contact) for a sufficient duration, then cooling at a rate slow enough for internal stresses to relax — is the only process that produces durable peace. The annealing temperature must be high enough for molecular mobility (enough freedom for genuine dialogue) but low enough to prevent deformation (maintaining institutional structure during the process).",
+    "mechanism_borrowed_from": "glass-anneal-stress",
+    "domain_applied_to": "ethics",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Glass Annealing Stress Relief (Glassblowing)",
+    "source_b": "Contractualism (Ethics)"
+  },
+  {
+    "name": "Stalactite Growth Theory of Bureaucratic Rule Accumulation",
+    "core_claim": "Bureaucratic rules accumulate through stalactite growth dynamics: each rule is a thin mineral deposit left by the slow drip of regulatory water (legislative response to incidents). Individual deposits are negligible, but over decades they form massive, immovable stalactites that obstruct the passage (organizational function) they were meant to protect. The stalactite model predicts that rule accumulation is fastest where the drip rate is highest (sectors with frequent incidents or political attention) and that stalactites grow from the ceiling down (top-level regulations producing derivative rules that extend downward through organizational layers). Breaking a stalactite (regulatory reform) is easy compared to the effort of dissolving it back into solution (cultural deregulation), because the mineral has recrystallized into a form more stable than the original dissolved state.",
+    "mechanism_borrowed_from": "stalactite-growth",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Stalactite Growth (Speleology)",
+    "source_b": "Legal System Network Topology (Jurisprudence)"
+  },
+  {
+    "name": "Sake Rice Polishing Theory of Data Preprocessing Quality",
+    "core_claim": "Data preprocessing quality follows sake rice polishing ratios: the more of the outer grain (noisy, contaminated data surface) is polished away, the purer the starch core (signal) that remains, and the more refined the resulting sake (model performance). Daiginjo-grade sake polishes away 50%+ of the grain, and the most performant ML pipelines similarly discard the majority of raw data through rigorous cleaning, deduplication, and filtering. The sake insight is that polishing ratio is the single strongest predictor of quality — superior rice varieties (better data sources) polished to low ratios still produce inferior sake compared to ordinary rice (common data sources) polished to high ratios. Data cleaning effort has a higher return on model quality than data source selection, up to a polishing threshold beyond which the remaining core contains insufficient volume for fermentation (training).",
+    "mechanism_borrowed_from": "sake-rice-polishing",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Sake Rice Polishing (Sake Brewing)",
+    "source_b": "Stochastic Gradient Descent (Machine Learning)"
+  },
+  {
+    "name": "Kelp Forest Trophic Cascade Theory of Open Source Software Ecosystems",
+    "core_claim": "Open source ecosystems follow kelp forest trophic cascade topology: a single keystone predator (major corporate sponsor — Google, Microsoft, Meta) maintains ecosystem health by suppressing urchin populations (rent-seeking middlemen, proprietary forks) that would otherwise overgraze the kelp (foundational open source libraries). When the keystone predator withdraws (corporate sponsor pivots away), urchin barrens (ecosystem collapse into fragmented, proprietary alternatives) follow rapidly. The trophic cascade model predicts that open source ecosystem health depends less on the number of contributors (kelp fronds) than on the presence and behavior of a few keystone predators, and that well-intentioned attempts to 'democratize' the ecosystem by removing keystone predators produce the opposite of the intended effect.",
+    "mechanism_borrowed_from": "kelp-forest-trophic-cascade-topology",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Kelp Forest Trophic Cascade Topology (Marine Biology)",
+    "source_b": "Scale-Free Hub Vulnerability (Network Theory)"
+  },
+  {
+    "name": "Combustion Propagation Front Theory of Revolutionary Movements",
+    "core_claim": "Revolutionary movements spread as combustion propagation fronts: the revolution 'ignites' at a point where fuel (popular grievance), oxidizer (organizational infrastructure), and heat (triggering event) converge, then propagates outward as a self-sustaining combustion front. The front's velocity depends on the fuel-oxidizer ratio ahead of it (the balance of grievance and organizational capacity in not-yet-revolutionary regions), not on conditions behind it (post-revolutionary governance quality). This explains why revolutions spread rapidly through regions with similar fuel-oxidizer ratios regardless of the first revolution's success or failure — the front is self-sustaining once initiated. Counter-revolutionary strategy should focus on creating firebreaks (institutional reforms that reduce fuel density) rather than extinguishing the front directly (suppression), because suppression merely delays propagation while the fuel continues accumulating.",
+    "mechanism_borrowed_from": "combustion-propagation-front",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Combustion Propagation Front (Pyrotechnics)",
+    "source_b": "Social Constructionism (Sociology)"
+  },
+  {
+    "name": "Sewing Structure Tension Theory of Alliance Systems",
+    "core_claim": "International alliance systems are bookbinding sewing structures: each treaty (sewing station) connects two signatures (nations) at a specific point, and the overall binding strength depends not on the strength of individual stitches (bilateral treaties) but on the sewing pattern — whether it is kettle-stitch (each signature linked to its neighbor, creating a chain), or long-stitch (each signature linked directly to the cover boards, creating a hub-and-spoke). NATO is a kettle-stitch binding (Article 5 links each member to each other); the US bilateral alliance system in Asia is a long-stitch binding (each ally connected to the US hub but not to each other). The sewing structure predicts failure modes: kettle-stitch fails by unraveling from one end (domino defection); long-stitch fails by the cover board detaching (US withdrawal).",
+    "mechanism_borrowed_from": "sewing-structure-tension",
+    "domain_applied_to": "military strategy",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Sewing Structure Tension (Bookbinding)",
+    "source_b": "Lanchester Laws (Military Strategy)"
+  },
+  {
+    "name": "Fermentation Oxygen Phase Transition Theory of Organizational Innovation Modes",
+    "core_claim": "Organizations oscillate between two fundamentally different innovation modes that mirror fermentation's oxygen phase transition: aerobic mode (open innovation, external partnerships, idea exchange with the environment — producing rapid growth but no distinctive 'alcohol') and anaerobic mode (closed, internally focused development that is slower but produces the distinctive products — proprietary technology, unique culture — that differentiate the organization). The phase transition between modes is sharp, not gradual: partially aerobic fermentation doesn't produce half the alcohol; it produces off-flavors (confused strategy, half-executed pivots). Organizations must commit fully to one mode at a time and manage deliberate transitions between them, not attempt to run both simultaneously.",
+    "mechanism_borrowed_from": "fermentation-oxygen-phase-transition",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Fermentation Oxygen Phase Transition (Fermentation Science)",
+    "source_b": "Disruptive Innovation (Business Strategy)"
+  },
+  {
+    "name": "Moraine Formation Theory of Cultural Heritage Preservation",
+    "core_claim": "Cultural heritage accumulates as moraine deposits: glacial advance (dominant cultural movements — empires, religions, ideologies) scrapes up and transports enormous quantities of debris (artifacts, practices, languages, beliefs) from the terrain it overrides, depositing this material as moraines (heritage sites, diaspora communities, syncretic traditions) when the glacier retreats. Terminal moraines (the heritage deposited at the glacier's maximum extent — colonial-era institutions in former colonies) mark the furthest reach of cultural influence and often become the most culturally productive zones precisely because they contain material from every terrain the glacier traversed. Lateral moraines (heritage at the glacier's edges — border cultures, frontier communities) are narrower but equally diagnostic of the glacier's path.",
+    "mechanism_borrowed_from": "moraine-formation-record",
+    "domain_applied_to": "archaeology",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Moraine Formation Record (Glaciology)",
+    "source_b": "Stratigraphic Dating (Archaeology)"
+  },
+  {
+    "name": "Scent Molecule Competition Theory of Attention Economy Dynamics",
+    "core_claim": "Digital attention markets follow scent molecule competition: different content types (fragrance molecules) compete for the same olfactory receptors (user attention slots), and the dynamics follow the same competitive binding kinetics. High-volatility content (viral posts — top notes) reaches receptors first but evaporates quickly; low-volatility content (long-form analysis — base notes) binds more slowly but occupies receptors for longer periods, blocking subsequent high-volatility content. Platform algorithms that optimize for initial engagement (top-note intensity) systematically undervalue the base-note content that produces lasting user satisfaction. The perfumer's insight applies: a fragrance composed entirely of top notes (a feed of only viral content) smells intense for seconds then disappears, while one with proper base-note foundation (substantive content) maintains presence for hours.",
+    "mechanism_borrowed_from": "scent-molecule-competition",
+    "domain_applied_to": "information theory",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Scent Molecule Competition (Perfumery)",
+    "source_b": "Channel Capacity (Information Theory)"
+  },
+  {
+    "name": "Provenance Chain Integrity Theory of Supply Chain Authentication",
+    "core_claim": "Supply chain authentication should adopt archival provenance chain integrity: archivists maintain an unbroken record of every transfer of custody (provenance chain) for each document, and any gap in the chain renders the document's authenticity suspect regardless of its physical condition. Applied to supply chains, this means that product authenticity should be verified not by inspecting the product itself (which can be counterfeited) but by inspecting the continuity of its custody chain. The archival principle that provenance is more important than content — a genuine document with broken provenance is less trustworthy than a questionable document with perfect provenance — inverts the usual product authentication priority and suggests that investment in custody-chain infrastructure (blockchain, IoT tracking, tamper-evident packaging) yields more authentication value per dollar than investment in product inspection technology.",
+    "mechanism_borrowed_from": "provenance-chain-integrity",
+    "domain_applied_to": "logistics",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Provenance Chain Integrity (Archival Science)",
+    "source_b": "Vehicle Routing Problem (Logistics)"
+  },
+  {
+    "name": "Bonsai Branch Wiring Theory of Neural Network Architecture Search",
+    "core_claim": "Neural architecture search should follow bonsai branch wiring principles: the bonsai master wraps wire around branches to guide their growth direction over months, then removes the wire once the branch has 'set' in the desired position. Similarly, architectural constraints (skip connections, attention heads, layer widths) should be applied as temporary 'wire' during the early training phases to guide the network's structural development, then selectively removed to see which structural changes have become self-sustaining and which spring back. Branches that hold their shape after wire removal (architectural features that the network maintains without constraint) are genuine structural discoveries; those that spring back (features that disappear when unconstrained) were artifacts of the search process, not properties of the problem.",
+    "mechanism_borrowed_from": "bonsai-branch-wiring",
+    "domain_applied_to": "machine learning",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Bonsai Branch Wiring (Bonsai Cultivation)",
+    "source_b": "GAN (Machine Learning)"
+  },
+  {
+    "name": "Contact Improvisation Weight-Sharing Theory of Democratic Deliberation",
+    "core_claim": "Democratic deliberation works best when modeled on contact improvisation: two dancers (deliberating parties) share weight (argumentative burden) through a constantly negotiated point of contact, and the quality of the dance depends on each party's willingness to both give AND receive weight simultaneously. Pure weight-giving (one-sided argumentation) causes the receiving partner to collapse; pure weight-receiving (pure listening without counter-argument) provides no resistance for the giving partner to work against. The contact improvisation principle that the most creative movement emerges at the point of mutual weight-sharing — where neither party is fully supporting nor fully supported — maps onto the deliberative sweet spot where genuine perspective-shifting occurs. Debate formats that enforce alternating monologues (you speak, then I speak) miss this dynamic entirely.",
+    "mechanism_borrowed_from": "contact-improvisation-weight-sharing",
+    "domain_applied_to": "persuasion theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Contact Improvisation Weight-Sharing (Choreography)",
+    "source_b": "Elaboration Likelihood Model (Persuasion Theory)"
+  }
+]

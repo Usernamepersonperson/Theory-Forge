@@ -1,0 +1,82 @@
+{
+  "name": "Gresham's Law Theory of Attention Economy",
+  "rank": 30,
+  "confidence": 0.81,
+  "source_a": "Gresham's Law Debasement Spiral",
+  "source_b": "Shannon Channel Capacity",
+  "mechanism_borrowed_from": "greshams-law-debasement",
+  "domain_applied_to": "information-theory-attention-economics",
+  "executive_summary": "Gresham's Law Theory of Attention Economy (GLAE) applies the monetary principle that 'bad money drives out good' to information ecosystems. When low-effort content and high-effort content circulate at the same nominal value — one scroll-unit of attention, one position in a feed, one search result slot — the dynamics of Gresham's Law take effect. Producers of high-quality content, finding that their work receives the same casual attention as low-effort content, rationally redirect their best work to channels where quality is differentially rewarded (paywalls, curated communities, premium platforms). The open platform is left flooded with cheap content, just as debased coinage floods circulation when citizens hoard sound money.\n\nThe theory connects this content-debasement dynamic to Shannon's channel capacity theorem from information theory. Every communication channel has a maximum rate at which information can be reliably transmitted. When the signal-to-noise ratio of a platform declines (because low-quality content increases the noise floor), the effective channel capacity for genuine information transfer drops. Users must spend more attention per unit of useful information received. At some critical noise level, the channel becomes information-theoretically useless for its original purpose — the platform has been fully debased, and its remaining content is pure noise from an information-transfer perspective.\n\nGLAE predicts that content debasement is not reversible within the debasing platform's existing structure. Once Gresham's dynamics establish a low-quality equilibrium, the high-quality producers have already established alternative channels. Restoring quality requires creating a new 'exchange rate' — a mechanism that values high-effort and low-effort content differently. Paywalls, subscription models, curation algorithms that explicitly weight production cost, and reputation systems that take time to build all function as 're-monetization' strategies that create parallel currency systems where good content can circulate at its true value rather than being debased to the universal scroll-unit.",
+  "mapped_components": {
+    "unit": "A content item (post, article, video, comment) characterized by its production cost (the creator's investment of time, expertise, and effort) and its nominal value (the attention unit it occupies in the consumer's feed — typically identical regardless of production cost).",
+    "variation": "Production cost variation across content items, ranging from near-zero (reposts, AI-generated filler, engagement bait) to high (investigative reporting, original research, carefully crafted analysis). The variation in production cost creates the conditions for Gresham's Law: a spread between 'intrinsic value' and 'face value.'",
+    "selection": "Consumer attention allocation and creator platform choice. Consumers select content based on readily observable signals (headline, thumbnail, first sentence) that correlate weakly with production cost. Creators select platforms based on the return on production cost — the ratio of audience value received to effort invested. When this ratio declines on a platform, high-cost creators migrate.",
+    "fitness": "For platforms: the sustainable information transfer rate — the amount of genuinely useful information delivered to users per unit of attention spent. For creators: the audience value captured per unit of production cost. Both fitness measures decline during debasement.",
+    "boundary": "The theory applies where: (1) content of varying quality competes for the same attention units, (2) consumers cannot easily distinguish quality before consumption (experience goods), (3) production cost varies significantly across content items. It does not apply to markets where quality is observable before consumption (search results ranked by relevance, academic papers filtered by peer review) or where production cost variation is low (standardized product listings)."
+  },
+  "falsifiable_predictions": [
+    "Platforms that introduce quality-differentiated presentation (visually distinguishing high-production-cost content from low-cost content) will show slower rates of high-quality creator migration than platforms with uniform presentation, controlling for platform size and audience demographics.",
+    "The effective information density of social media feeds (useful information per scroll-minute, as rated by expert evaluators) will decline monotonically over a platform's lifetime, following a trajectory predictable from the platform's content volume growth rate and moderation investment.",
+    "Introducing a paywall or subscription model will cause the remaining free content on a platform to decline in average quality within 6-12 months, because the paywall creates a 'two-currency system' where high-quality content migrates to the premium tier — a testable version of Gresham's migration dynamic.",
+    "The growth rate of AI-generated content on open platforms will accelerate content debasement by 3-5x compared to the pre-AI baseline, because AI dramatically reduces the production cost floor, widening the spread between face value and intrinsic value of content.",
+    "User engagement metrics (time on platform, scroll depth, session frequency) will initially increase during early debasement (because low-quality content is optimized for engagement) but will plateau and decline during advanced debasement (because the channel capacity for useful information drops below the threshold that justifies attention investment).",
+    "Communities with explicit reputation systems that take significant time to build (Stack Overflow, Wikipedia, academic peer review) will show more stable content quality over time than communities with no reputation barrier, because reputation functions as a 'sound currency' that resists debasement."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Akerlof's 'Market for Lemons' (1970) demonstrated that information asymmetry can drive quality out of markets: when buyers cannot distinguish high-quality from low-quality goods before purchase, sellers of high-quality goods exit the market because they cannot recoup their costs. The equilibrium degrades to low quality only.",
+      "relevance": "Provides the microeconomic foundation for GLAE. Content markets exhibit the same information asymmetry as Akerlof's used car market: consumers cannot assess content quality before consuming it, so high-quality producers cannot command a premium, leading to quality degradation.",
+      "source": "Akerlof, G.A. (1970). The market for 'lemons': Quality uncertainty and the market mechanism. Quarterly Journal of Economics, 84(3), 488-500."
+    },
+    {
+      "finding": "Shannon (1948) proved that every communication channel has a maximum capacity determined by its bandwidth and signal-to-noise ratio (C = B log2(1 + S/N)). As noise increases, capacity decreases, and below a critical S/N ratio, reliable communication becomes impossible regardless of encoding strategy.",
+      "relevance": "Provides the information-theoretic framework for GLAE's channel degradation prediction. As low-quality content increases the noise floor, the platform's capacity to transmit useful information decreases according to Shannon's formula — a quantitative prediction that goes beyond the qualitative Gresham's analogy.",
+      "source": "Shannon, C.E. (1948). A mathematical theory of communication. Bell System Technical Journal, 27(3), 379-423."
+    },
+    {
+      "finding": "Zuboff (2019) documented how platform business models systematically extract behavioral surplus from users, creating incentives to maximize engagement time rather than information value delivered. This creates the structural conditions for Gresham's dynamics: platforms benefit from attention-maximizing (low-quality) content even as users' information needs are degraded.",
+      "relevance": "Establishes the institutional mechanism driving content debasement. Platforms are not passive venues where Gresham's Law operates spontaneously — they actively incentivize debasement through engagement-maximizing algorithms that treat all attention as equally valuable revenue.",
+      "source": "Zuboff, S. (2019). The Age of Surveillance Capitalism. PublicAffairs."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Longitudinal Content Quality Measurement Across Platform Lifecycle Stages",
+      "description": "Track content quality on multiple platforms at different lifecycle stages (early growth, maturity, post-debasement) to test the prediction that quality declines monotonically with platform age and content volume.",
+      "method": "Select 10+ content platforms at various lifecycle stages (e.g., new platforms like Bluesky, mature platforms like Reddit, post-debasement platforms like late-stage Facebook). For each platform, sample 1000+ content items from the same topic categories at 6-month intervals over 2 years. Have trained evaluators rate content quality on dimensions including: factual accuracy, depth of analysis, originality, production effort, and information density. Also compute automated metrics: reading level, source citation rate, and originality scores from plagiarism detection tools. Fit quality trajectories to lifecycle models and test whether content volume growth rate predicts quality decline rate.",
+      "expected_results": "Content quality will show statistically significant negative correlation with platform age and content volume growth rate. Platforms with quality-differentiated presentation or reputation systems will show slower decline rates. The decline will be best fit by a logistic model (slow initial decline, rapid middle phase, stabilization at a low-quality floor) rather than linear decline."
+    },
+    {
+      "title": "Natural Experiment: Paywall Introduction and Free-Tier Quality Effects",
+      "description": "Study publications that introduce paywalls to test GLAE's prediction that paywalling premium content degrades the quality of remaining free content.",
+      "method": "Identify 15+ online publications that introduced paywalls during the study period (news sites, Substack newsletters, Medium publications). For each, collect content quality metrics (evaluator ratings, reading level, source density, investigation depth) for free content in the 12 months before and 12 months after paywall introduction. Compare with matched control publications that did not introduce paywalls. Also measure: the fraction of high-quality creators who move their best work behind the paywall, and the entry rate of new low-quality creators into the free tier.",
+      "expected_results": "Free-tier content quality will decline by 15-30% within 12 months of paywall introduction, with the decline driven primarily by high-quality creators migrating their best work behind the paywall rather than by reduced effort from remaining creators. New creator entry rates on the free tier will increase (lower barrier to entry), further diluting average quality. Control publications will show no comparable decline."
+    }
+  ],
+  "limitations": [
+    "The monetary analogy assumes that attention is fungible — that a unit of attention spent on low-quality content is a unit diverted from high-quality content. In reality, attention budgets are elastic: users may consume low-quality content without reducing their high-quality content consumption (scrolling TikTok does not necessarily displace reading longform journalism).",
+    "Gresham's Law in currency markets requires a fixed exchange rate enforced by law. On content platforms, there is no fixed 'exchange rate' between content types — algorithms actively modulate visibility. The theory may describe emergent dynamics without a true Gresham's mechanism, relying instead on attention scarcity as a weaker constraint than legal tender laws.",
+    "The theory assumes that high-quality content is expensive to produce and low-quality content is cheap. AI-generated content disrupts this assumption: AI can produce content that appears high-quality (well-written, detailed, sourced) at near-zero marginal cost. GLAE may need to distinguish between 'production cost' and 'genuine quality' to remain coherent in the AI era.",
+    "Quality is subjective and context-dependent. A meme that GLAE classifies as 'low production cost' may deliver more utility to a stressed user than a carefully researched article. The theory's implicit value judgment — that high-production-cost content is 'good money' — may not align with actual user utility functions."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Seigniorage Extraction Theory of Platform Economics",
+      "relationship": "Directly complementary. SETPE models how platforms extract value from content creators through engagement metric debasement; GLAE models how this extraction degrades the information environment for content consumers. Together they describe the full cycle of platform value extraction and quality degradation."
+    },
+    {
+      "framework": "Costly Signal Gating Theory",
+      "relationship": "CSGT provides the theoretical basis for GLAE's proposed solution: mechanisms that differentiate content by production cost (paywalls, reputation systems, entry barriers) function as costly signal gates that re-establish the quality-price link that Gresham's dynamics destroy."
+    },
+    {
+      "framework": "Red Queen Jurisprudence",
+      "relationship": "Content moderation (the regulatory response to content debasement) follows Red Queen dynamics: moderation rules select for more sophisticated low-quality content that evades detection, requiring continuous moderation evolution. The regulatory arms race accelerates debasement by diverting platform resources from quality promotion to rule enforcement."
+    }
+  ],
+  "potential_applications": [
+    "Content platform design: Engineer platforms with built-in Gresham's resistance by implementing quality-differentiated presentation layers. High-production-cost content (identified by time-on-task metrics, edit history, source citations) receives premium positioning, creating a visible 'exchange rate' between content tiers.",
+    "Media literacy education: Teach consumers to recognize content debasement dynamics — understanding that platform quality decline is structural (driven by economic incentives) rather than random helps users make informed platform migration decisions.",
+    "Advertising market reform: Advertisers currently pay for attention units regardless of content quality context. GLAE suggests that advertising adjacent to high-quality content should command a premium, creating a market-based incentive for platforms to resist debasement. This reframes brand safety as an information-theoretic concept.",
+    "Public interest media policy: Use GLAE's framework to justify public investment in quality content infrastructure (public broadcasting, investigative journalism funds) as a countermeasure to market-driven debasement. The information-theoretic argument — that debasement reduces the channel capacity for democratic discourse — provides a stronger policy justification than subjective quality arguments."
+  ]
+}

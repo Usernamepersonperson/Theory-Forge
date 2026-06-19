@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Bonsai Root Pruning Theory of Institutional Reform",
+    "core_claim": "Effective institutional reform follows bonsai root-pruning logic: periodic, deliberate cutting of the root system (bureaucratic infrastructure) forces the institution to develop a denser network of fine feeder roots (responsive local processes) rather than relying on a few thick taproots (centralized systems). The critical constraint is that root pruning must be proportional to canopy reduction (mandate trimming) — pruning roots without reducing the canopy kills the tree, just as cutting bureaucracy without reducing institutional scope causes collapse. The bonsai master's seasonal timing maps onto electoral and budget cycles.",
+    "mechanism_borrowed_from": "bonsai-root-pruning",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Bonsai Root Pruning (Bonsai Cultivation)",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Steganalysis Arms Race Theory of Tax Evasion Detection",
+    "core_claim": "Tax evasion detection and concealment follow steganalysis arms-race dynamics: as forensic accounting tools improve at detecting hidden financial messages (unreported income embedded in legitimate transactions), evasion techniques evolve toward more sophisticated cover objects (complex corporate structures) with lower embedding rates (smaller per-transaction concealment). The arms race produces a detection-theoretic equilibrium where the cost of concealment equals the expected penalty, and the most dangerous evasion strategies are those that exploit the statistical blindness of current steganalytic (audit) methods.",
+    "mechanism_borrowed_from": "steganalysis-arms-race",
+    "domain_applied_to": "forensic accounting",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Steganalysis Arms Race (Steganography)",
+    "source_b": "Benford's Law Anomaly Detection"
+  },
+  {
+    "name": "Tidal Pool Refuge Theory of Small Business Survival",
+    "core_claim": "Small businesses survive economic cycles by occupying tidal pool refuges: when the tide goes out (recession), organisms stranded in pools (niche markets) survive if the pool retains sufficient volume (customer loyalty), oxygenation (cash flow), and temperature stability (price insensitivity). The key survival trait is not size but pool selection — businesses in deeper pools with better water circulation (diversified revenue within a niche) outlast larger organisms (big companies) stranded on exposed rock. Economic recovery (returning tide) reconnects pools to the open ocean, enabling migration and growth.",
+    "mechanism_borrowed_from": "tidal-pool-refuge",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Tidal Pool Refuge (Tidal Ecology)",
+    "source_b": "Experience Curve"
+  },
+  {
+    "name": "Puppet Articulation Hierarchy Theory of API Design",
+    "core_claim": "Well-designed APIs follow puppet articulation hierarchy: the number of independently controllable joints (endpoints) must match the complexity of movements (operations) the puppet (system) needs to perform. Too few joints produces stiff, unconvincing movement (rigid, monolithic endpoints that force clients into awkward workarounds); too many joints produces an uncontrollable tangle of strings (over-granular microservices). The master puppeteer's insight is that joints should be hierarchically organized — the shoulder moves the whole arm, the elbow moves the forearm, the wrist moves the hand — creating a natural cascade of control granularity.",
+    "mechanism_borrowed_from": "puppet-articulation-hierarchy",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Puppet Articulation Hierarchy (Puppetry / Marionette Mechanics)",
+    "source_b": "Turing Halting Problem"
+  },
+  {
+    "name": "Dendro Dead-Wood Extension Theory of Historical Narrative Reconstruction",
+    "core_claim": "Historical narrative reconstruction uses dead-wood extension logic: living records (contemporary accounts) provide a firmly dated chronology, but the deeper past must be reconstructed by cross-matching overlapping dead records (fragmentary sources) whose absolute dates are unknown. The technique works only when records share a common signal (climate for tree rings, political events for historical texts) and overlap sufficiently to establish unique cross-dating. Pseudo-histories fail the same way false cross-dates fail — they produce plausible local patterns that collapse when checked against independent reference chronologies.",
+    "mechanism_borrowed_from": "dendro-dead-wood-extension",
+    "domain_applied_to": "narratology",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Dendro Dead-Wood Extension (Dendrochronology)",
+    "source_b": "Narrative Structure"
+  },
+  {
+    "name": "Ferrofluid Chain Formation Theory of Political Alliance Polarization",
+    "core_claim": "Political polarization follows ferrofluid chain formation: individual political actors (magnetic nanoparticles) in a weak field (normal politics) exhibit Brownian randomness (independent positions), but as the external field strengthens (crisis, media polarization), particles align into chains along field lines. Once chains form, they self-reinforce — each particle's field adds to its neighbors', making the chain structure resistant to thermal disruption (moderate voices). The chains are one-dimensional and fragile perpendicular to the field axis, explaining why polarized systems are strong along the partisan dimension but brittle to orthogonal shocks.",
+    "mechanism_borrowed_from": "ferrofluid-chain-formation",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.54,
+    "source_a": "Ferrofluid Chain Formation (Ferrofluid Dynamics)",
+    "source_b": "Coalition Fragmentation Cascades"
+  },
+  {
+    "name": "Kintsugi Gold Line Aesthetics Theory of Musical Improvisation",
+    "core_claim": "Jazz improvisation at its highest level practices kintsugi gold-line aesthetics: mistakes (cracked notes, wrong changes) are not hidden or corrected but immediately incorporated and highlighted, transformed into golden seams that become the most memorable moments of the performance. The improviser's skill lies not in avoiding fractures but in the speed and beauty of the repair — turning a wrong note into a chromatic approach, a rhythmic stumble into a polyrhythmic figure. Audiences value the visible repair more than flawless execution because it demonstrates the musician's real-time relationship with imperfection.",
+    "mechanism_borrowed_from": "kintsugi-gold-line-aesthetics",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Kintsugi Gold Line Aesthetics (Kintsugi / Ceramics Repair)",
+    "source_b": "Modal Interchange Borrowed Chords"
+  },
+  {
+    "name": "Parkour Momentum Conservation Theory of Negotiation Dynamics",
+    "core_claim": "Skilled negotiators conserve momentum like parkour practitioners: each concession or demand is a vault or jump that must convert the momentum of the previous move into the setup for the next. Stopping mid-run (breaking the negotiation rhythm) forces a costly restart from standing, while maintaining flow allows the negotiator to clear obstacles (objections) that would be impassable from a static position. The parkour insight that 'the landing IS the takeoff' maps onto the negotiation principle that how you frame a concession determines the energy available for your next demand.",
+    "mechanism_borrowed_from": "parkour-momentum-conservation",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Parkour Momentum Conservation (Parkour / Freerunning)",
+    "source_b": "Nash Equilibrium"
+  },
+  {
+    "name": "Stalactite Growth Theory of Compound Interest Accumulation",
+    "core_claim": "Compound interest accumulation follows stalactite growth dynamics: each supersaturated drip (interest payment) deposits a thin mineral layer (reinvested return) whose thickness depends on evaporation rate (spending rate), drip frequency (compounding period), and mineral concentration (interest rate). The resulting formation grows exponentially in mass but its shape is determined by local airflow (market conditions) — stalactites in still air (stable markets) form regular cones, while those in drafts (volatile markets) develop asymmetric, unpredictable forms. Cave formations that took millennia to build can be broken in seconds, mirroring the asymmetry between wealth accumulation and wealth destruction.",
+    "mechanism_borrowed_from": "stalactite-growth",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Stalactite Growth (Speleology)",
+    "source_b": "Economic Bubble"
+  },
+  {
+    "name": "Morse Relay Amplification Theory of Scientific Citation Networks",
+    "core_claim": "Scientific citation networks function as Morse telegraph relay systems: each relay station (citing paper) receives a weakened signal (original finding), amplifies it (reinterprets and contextualizes), and retransmits. The problem is that relay amplification introduces distortion — each citing paper subtly shifts the original finding's meaning, and after several relays, the transmitted claim may bear little resemblance to the source. Citation chains longer than 3-4 relays should be treated as suspect, just as telegraph messages relayed through multiple stations required end-to-end verification. The 'citation telephone' effect explains how well-established 'facts' in review papers often misrepresent their primary sources.",
+    "mechanism_borrowed_from": "morse-relay-amplification",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Morse Relay Amplification (Morse Code / Telegraph)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Sake Rice Polishing Theory of Data Preprocessing Quality",
+    "core_claim": "Data preprocessing quality follows sake rice-polishing ratios: just as sake quality correlates with how much of the rice grain's outer layers (proteins, fats) are polished away to expose the pure starch core, machine learning model quality correlates with how aggressively raw data is polished — removing outliers, normalizing distributions, handling missing values. Daiginjo-class models (polished to 50%) sacrifice data volume for purity, while table-sake models use minimally polished data for volume. The insight is that optimal polishing ratio depends on the intended use, and over-polishing wastes valuable signal that was misidentified as noise.",
+    "mechanism_borrowed_from": "sake-rice-polishing",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Sake Rice Polishing (Sake Brewing)",
+    "source_b": "Stochastic Gradient Descent"
+  },
+  {
+    "name": "Sandcastle Wave Erosion Theory of Brand Equity Degradation",
+    "core_claim": "Brand equity degrades through sandcastle wave-erosion mechanics: each competitive wave (market disruption, PR crisis, competitor campaign) removes a layer of carefully constructed brand structure. The castle's survival depends not on absolute height (brand value) but on the angle of the seaward face (brand resilience architecture) and the cohesion of the building material (customer loyalty moisture content). Brands built above the high-tide line (premium positioning) experience less frequent erosion but face catastrophic loss when unusually large waves (industry disruption) reach them, while brands in the intertidal zone (mass market) experience constant erosion but develop adaptive morphologies.",
+    "mechanism_borrowed_from": "sandcastle-wave-erosion",
+    "domain_applied_to": "marketing",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Sandcastle Wave Erosion (Sandcastle Engineering)",
+    "source_b": "Viral Marketing"
+  },
+  {
+    "name": "Affinage Rind Coevolution Theory of Student-Teacher Relationship Development",
+    "core_claim": "The student-teacher relationship develops through affinage rind coevolution: the teacher's interventions (washing, turning, environmental control) and the student's autonomous development (internal biochemistry) co-produce a 'rind' (shared pedagogical culture) that is neither fully the teacher's creation nor the student's. Different affinage styles produce different rinds — the cave-aged natural rind of Montessori education differs fundamentally from the washed-rind of direct instruction, and each produces a distinct interior (learning outcome). The cheese cannot be separated from its rind; the student cannot be separated from the pedagogical relationship that shaped them.",
+    "mechanism_borrowed_from": "affinage-rind-coevolution",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Affinage Rind Coevolution (Cheesemaking)",
+    "source_b": "Vygotsky's Zone of Proximal Development"
+  },
+  {
+    "name": "Falconry Imprinting Theory of First-Language Phonological Acquisition",
+    "core_claim": "First-language phonological acquisition follows falconry imprinting dynamics: there is a critical developmental window during which the infant 'imprints' on the phonological system of its linguistic environment, and this imprinting is nearly irreversible — just as an imprinted falcon bonds to a specific handler species, the infant's perceptual system permanently tunes to the phonemic contrasts of its first language. Late-acquired languages are always 'manned' (falconry term for taming a wild-caught bird) rather than imprinted — functional but never exhibiting the effortless bond of the imprinted system. The falconer's knowledge that imprinting timing is species-specific maps onto cross-linguistic variation in critical period boundaries.",
+    "mechanism_borrowed_from": "falconry-imprinting",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Falconry Imprinting (Falconry)",
+    "source_b": "Critical Period Plasticity"
+  },
+  {
+    "name": "Taxidermy Form Anatomy Theory of Historical Biographical Writing",
+    "core_claim": "Historical biography is a taxidermic art: the biographer preserves the subject's skin (documented facts, letters, accounts) and stretches it over an artificial form (narrative structure, psychological interpretation) that determines the final pose and expression. The quality of the biography depends on the anatomical accuracy of the internal form — a form built from the subject's actual skeletal structure (verified chronology, confirmed relationships) produces a lifelike mount, while a generic form (anachronistic psychological frameworks, presentist moral categories) produces an uncanny specimen that resembles the subject only superficially. The eyes (motivational attributions) are always artificial and always the most scrutinized element.",
+    "mechanism_borrowed_from": "taxidermy-form-anatomy",
+    "domain_applied_to": "narratology",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Taxidermy Form Anatomy (Taxidermy / Preservation)",
+    "source_b": "Campbell's Monomyth"
+  }
+]

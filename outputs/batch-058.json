@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Laban Effort-Shape Theory of Machine Learning Model Interpretability",
+    "core_claim": "Neural network behavior can be characterized using Laban Movement Analysis effort qualities: a model's decision-making has Weight (how forcefully it commits to a classification — confidence magnitude), Time (how urgently it converges — training speed), Space (how directly or indirectly it navigates feature space — attention pattern geometry), and Flow (how bound or free its representations are — regularization tightness). Models that are 'all Weight, no Flow' (high confidence, rigid representations) produce the brittle overconfidence that characterizes adversarial vulnerability. Interpretability tools should report Laban effort profiles alongside accuracy metrics, giving practitioners an embodied vocabulary for model behavior that accuracy numbers alone cannot provide.",
+    "mechanism_borrowed_from": "laban-effort-shape-movement-analysis",
+    "domain_applied_to": "machine learning",
+    "viability": "speculative",
+    "confidence": 0.42,
+    "source_a": "Laban Effort-Shape Movement Analysis (Choreography)",
+    "source_b": "Attention Mechanism (Machine Learning)"
+  },
+  {
+    "name": "Hydraulic Jump Theory of Grief Processing",
+    "core_claim": "Grief processing involves a hydraulic jump: the bereaved person's emotional state transitions from supercritical flow (high-velocity, shallow — the initial shock phase where emotions move too fast for reflection) to subcritical flow (slow, deep — the integrated grief state where emotions move slowly but with great depth). The hydraulic jump itself — the turbulent transition zone — is the acute grief crisis, and its violence is proportional to the Froude number (the ratio between the speed of emotional processing and the depth of the loss). Therapeutic intervention should not try to prevent the jump (it is hydraulically inevitable) but should manage its location and energy dissipation, the way engineers place stilling basins downstream of spillways.",
+    "mechanism_borrowed_from": "hydraulic-jump-energy-dissipation",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Hydraulic Jump Energy Dissipation (Hydraulic Engineering)",
+    "source_b": "General Adaptation Syndrome (Psychology)"
+  },
+  {
+    "name": "Triboelectric Charge Transfer Theory of Cultural Appropriation",
+    "core_claim": "Cultural contact produces triboelectric charge transfer: when two cultures 'rub' against each other (sustained contact), electrons (cultural elements — music, cuisine, vocabulary, fashion) transfer from one surface to another based on each culture's position in the triboelectric series (power hierarchy). The direction of transfer is predictable: elements flow from the culture with higher triboelectric affinity (lower power, more 'giving') to the one with lower affinity (higher power, more 'receiving'). The transferred charge (appropriated elements) creates a static potential difference (resentment, inequality) that eventually discharges as a spark (cultural backlash). Grounding (equitable exchange, attribution, reciprocity) prevents dangerous charge accumulation.",
+    "mechanism_borrowed_from": "triboelectric-charge-transfer",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.43,
+    "source_a": "Triboelectric Charge Transfer (Tribology)",
+    "source_b": "Structural Anthropology (Anthropology)"
+  },
+  {
+    "name": "Cartographic Generalization Theory of Memory Consolidation",
+    "core_claim": "Memory consolidation is cartographic generalization: the sleeping brain produces maps at progressively smaller scales (higher abstraction) by applying the same operations cartographers use — selection (retaining only significant features), simplification (smoothing jagged detail into clean contours), displacement (moving memories that overlap at the new scale), and symbolization (replacing detailed episodic records with schematic semantic symbols). Dreams are the intermediate drafts of this generalization process — the distorted, partially-simplified maps that exist between the large-scale survey (episodic memory) and the small-scale atlas (semantic memory). Memory distortion is not error but principled generalization: the same operations that make a map useful at small scale necessarily distort individual features.",
+    "mechanism_borrowed_from": "cartographic-generalization",
+    "domain_applied_to": "neuroscience",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Cartographic Generalization (Cartography)",
+    "source_b": "Hebbian Learning (Neuroscience)"
+  },
+  {
+    "name": "Mycorrhizal Network Theory of Intergenerational Wealth Transfer",
+    "core_claim": "Intergenerational wealth transfer operates as a common mycorrhizal network: established 'mother trees' (wealthy elder generation) channel resources (capital, social connections, institutional knowledge) through underground fungal networks (trusts, family offices, alumni networks) to seedlings (younger generation members) in their root zone. The network exhibits the same source-sink dynamics as forest mycorrhizae: carbon flows from photosynthetically productive adults to shaded juveniles, but also to stressed adults, creating a mutual insurance system. The critical insight is that severing the mycorrhizal network (inheritance tax, estate dissolution) doesn't just stop resource flow — it eliminates the information signaling that tells the network WHERE resources are most needed, producing a landscape of isolated individuals competing rather than a cooperative forest.",
+    "mechanism_borrowed_from": "common-mycorrhizal-network",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Common Mycorrhizal Network (Mycorrhizal Ecology)",
+    "source_b": "Supply and Demand Equilibrium (Economics)"
+  },
+  {
+    "name": "Wine Volatile Acidity Oscillation Theory of Public Discourse Quality",
+    "core_claim": "Public discourse quality oscillates like volatile acidity in wine: a small amount of acetic acid (provocative, contrarian speech) adds complexity and liveliness to the wine (discourse), but above the perception threshold it becomes vinegar (toxic discourse). The oscillation occurs because the bacteria producing volatile acidity (provocateurs, contrarians) thrive in the same conditions that produce the best wine (open, oxygenated discourse environments). Attempting to eliminate volatile acidity entirely (aggressive content moderation) requires sulfiting the wine (suppressing free expression) to the point where fermentation itself is inhibited. The winemaker's art — maintaining volatile acidity just below the perception threshold — is the content moderator's impossible challenge, made harder by the fact that different tasters (audiences) have different perception thresholds.",
+    "mechanism_borrowed_from": "volatile-acidity-oscillation",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Volatile Acidity Oscillation (Enology)",
+    "source_b": "Aristotelian Ethos-Pathos-Logos Triangle (Rhetoric)"
+  },
+  {
+    "name": "Steel Tempering Martensite Theory of Habit Formation",
+    "core_claim": "Habit formation is steel tempering: the initial behavior change (heating steel above the critical temperature) creates an unstable, highly stressed state (austenite — the 'white-knuckling' phase of behavior change). Rapid quenching (sudden, total commitment) produces martensite — extremely hard but brittle habits that shatter under unexpected stress. Slow cooling (gradual behavior change) produces pearlite — softer, more flexible habits that bend without breaking. The tempering process (reheating quenched steel to an intermediate temperature) corresponds to the critical maintenance phase where rigid new habits are deliberately softened and made more flexible through controlled 'reheating' — intentional exposure to the old behavioral environment in controlled doses, producing tempered martensite: hard enough to hold an edge but tough enough not to shatter.",
+    "mechanism_borrowed_from": "steel-tempering-martensite-transformation",
+    "domain_applied_to": "developmental psychology",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Steel Tempering Martensite Transformation (Metallurgy)",
+    "source_b": "Piaget's Developmental Stages (Developmental Psychology)"
+  },
+  {
+    "name": "Helmholtz Resonator Theory of Echo Chamber Formation",
+    "core_claim": "Online echo chambers are Helmholtz resonators: a cavity (ideological community) with a narrow neck (selective information gateway) that resonates at a specific frequency (ideological wavelength) and amplifies signals at that frequency while filtering out all others. The resonator's key property — that its resonant frequency is determined by the ratio of neck area to cavity volume, not by the content of the signal — explains why echo chambers amplify specific ideas independently of their truth value. The Helmholtz prediction is precise: making the neck narrower (more selective gatekeeping) while expanding the cavity (growing the community) lowers the resonant frequency (makes the chamber responsive to longer-wavelength, more abstract ideological signals), explaining the radicalization trajectory from specific grievances to abstract conspiratorial worldviews.",
+    "mechanism_borrowed_from": "helmholtz-resonator-tuning",
+    "domain_applied_to": "network theory",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Helmholtz Resonator Tuning (Acoustics)",
+    "source_b": "Community Detection Resolution (Network Theory)"
+  },
+  {
+    "name": "Rennet Coagulation Theory of Market Bubble Solidification",
+    "core_claim": "Market bubbles solidify through rennet coagulation dynamics: rennet (a catalytic narrative — 'this time is different') cleaves the protective casein micelle structure (rational price discovery) of the market 'milk,' causing dispersed protein (capital) to aggregate into a gel (bubble). The coagulation is initially invisible — the milk looks unchanged until a critical fraction of casein is cleaved, then suddenly solidifies. This explains the paradox of bubbles: the transition from liquid market to solid bubble is a phase transition with a sharp threshold, not a gradual process, and the catalyst (narrative) need only be present in trace amounts. The firmness of the resulting curd (bubble rigidity) depends on temperature (market enthusiasm) and rennet concentration (narrative virality).",
+    "mechanism_borrowed_from": "rennet-coagulation-dynamics",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Rennet Coagulation Dynamics (Cheesemaking)",
+    "source_b": "Black-Scholes / BSM Model (Finance)"
+  },
+  {
+    "name": "Miura-Ori Auxetic Folding Theory of Organizational Restructuring",
+    "core_claim": "Organizational restructuring should follow Miura-ori folding principles: the Miura fold's auxetic property (pulling in one direction causes expansion in the perpendicular direction, unlike normal materials that contract) maps onto the counterintuitive finding that organizational compression in one dimension (reducing hierarchy levels) should produce expansion in the perpendicular dimension (wider span of control, more lateral connections). Organizations restructured along Miura-ori principles would be single-degree-of-freedom systems — a single coordinated action (strategic directive) would simultaneously reconfigure all elements, unlike conventional restructurings that require independent adjustment of each department. The entire organization folds and unfolds as a unit, enabling rapid strategic pivots.",
+    "mechanism_borrowed_from": "miura-ori-auxetic-folding",
+    "domain_applied_to": "operations research",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Miura-Ori Auxetic Folding (Origami Mathematics)",
+    "source_b": "Queueing Theory (Operations Research)"
+  },
+  {
+    "name": "Bonsai Root Pruning Theory of Database Index Optimization",
+    "core_claim": "Database index optimization should follow bonsai root pruning principles: periodically cutting back the root system (index structure) forces the tree (query engine) to develop a dense, compact root ball (highly efficient index) rather than sprawling tap roots (over-specialized indices that serve single query patterns at the expense of overall performance). The bonsai master's counterintuitive insight — that restricting the root system strengthens the tree above ground — translates to the database principle that constraining index proliferation forces the query optimizer to develop more creative execution plans. Root-pruned databases, like root-pruned bonsai, are smaller but more resilient to transplantation (migration) and environmental change (schema evolution).",
+    "mechanism_borrowed_from": "bonsai-root-pruning",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.55,
+    "source_a": "Bonsai Root Pruning (Bonsai Cultivation)",
+    "source_b": "NP-Completeness (Computer Science)"
+  },
+  {
+    "name": "Coral Holobiont Feedback Theory of Team Performance",
+    "core_claim": "High-performing teams are coral holobionts: the team's performance emerges not from individual competence (the coral animal alone) but from the symbiotic relationship between team members (coral polyps), their shared practices (zooxanthellae algae providing photosynthetic energy), and the accumulated institutional knowledge they build (calcium carbonate skeleton). Team 'bleaching' — the breakdown that occurs when shared practices are disrupted (reorganization, remote transition, leadership change) — expels the zooxanthellae and leaves the coral alive but starving. Recovery requires re-establishing symbiosis, not replacing individual polyps. The holobiont model predicts that teams transferred intact to new contexts will outperform teams assembled from individually superior members, because the symbiotic microbiome transfers with the colony.",
+    "mechanism_borrowed_from": "coral-holobiont-feedback",
+    "domain_applied_to": "systems theory",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Coral Holobiont Feedback (Marine Biology)",
+    "source_b": "Ashby's Law of Requisite Variety (Systems Theory)"
+  },
+  {
+    "name": "Fixative Evaporation Cascade Theory of Cultural Memory Persistence",
+    "core_claim": "Cultural memory persists through fixative evaporation cascades: like a perfume's fixative base notes (sandalwood, musk, amber) that remain on skin long after top and middle notes have evaporated, cultural events that encode themselves into the 'fixative layer' of a society (architecture, language, cuisine, ritual) persist for centuries after the 'top notes' (news coverage, social media discourse) and 'middle notes' (academic analysis, political debate) have dissipated. The fixative layer is slow to absorb (events must be sustained or intensely traumatic to reach it) but nearly permanent once set. Cultural amnesia occurs when the fixative layer itself is stripped — through colonization, forced assimilation, or physical destruction of the built environment that serves as the base note carrier.",
+    "mechanism_borrowed_from": "fixative-evaporation-cascade",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Fixative Evaporation Cascade (Perfumery)",
+    "source_b": "Formulaic Speech Preservation (Oral Tradition Studies)"
+  },
+  {
+    "name": "Ant Colony Pheromone Theory of Urban Traffic Routing",
+    "core_claim": "Urban traffic optimization should abandon centralized control in favor of ant colony pheromone trails: each vehicle deposits a digital 'pheromone' (real-time speed and delay data) on the routes it traverses, and subsequent vehicles probabilistically prefer routes with higher pheromone concentration (faster historical throughput). The key ant-colony insight is that the pheromone evaporates (data decays with time), so routes that were fast an hour ago but are now congested lose their attractiveness automatically, without any central controller needing to detect and respond to the change. The emergent behavior — traffic distributing itself across multiple routes in proportion to each route's current capacity — would outperform centralized traffic light optimization because it adapts at the speed of individual vehicle decisions rather than the latency of a central processing loop.",
+    "mechanism_borrowed_from": "ant-colony-pheromone-optimization",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Ant Colony Pheromone Optimization (Swarm Intelligence)",
+    "source_b": "City Scaling Laws (City Science)"
+  },
+  {
+    "name": "Fretting Fatigue Theory of Chronic Relationship Deterioration",
+    "core_claim": "Long-term relationship deterioration follows fretting fatigue mechanics: two surfaces (partners) under constant contact pressure (cohabitation, shared responsibilities) with small oscillatory relative motion (daily micro-disagreements, minor annoyances) develop surface fatigue cracks far more rapidly than either cyclic loading alone (big fights) or static contact alone (stable coexistence) would predict. The fretting mechanism explains why relationships fail from accumulated micro-damage rather than single catastrophic events: the oscillatory motion prevents the protective oxide layer (polite social veneer) from re-forming between cycles, exposing bare metal (raw emotional responses) to corrosive environments (stress, fatigue). Relationship maintenance is the engineering challenge of reducing fretting amplitude without reducing contact pressure — staying close while minimizing abrasive oscillation.",
+    "mechanism_borrowed_from": "fretting-fatigue-nucleation",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Fretting Fatigue Nucleation (Tribology)",
+    "source_b": "Allostatic Load (Psychology)"
+  }
+]

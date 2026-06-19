@@ -6,10 +6,10 @@ The white space (per the PRD): no one has built a tool that maps the *structure*
 
 ## Current scale
 
-- **514 seed theories** across **149 domains** — from mycology to metallurgy, glaciology to game theory
-- **375+ generated frameworks** across 25 collision batches
-- **20 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
-- **362 unique ranked frameworks** — mean confidence 0.704, top confidence 0.83
+- **683 seed theories** across **181 domains** — from mycology to metallurgy, glaciology to glassblowing, kintsugi to cryptography
+- **900+ generated frameworks** across 60 collision batches
+- **30 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
+- **872 unique ranked frameworks** — mean confidence 0.667, top confidence 0.83
 
 ## How it works
 
@@ -24,7 +24,7 @@ That's the whole loop. ~300 lines.
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
 - [server.py](server.py) — FastAPI v0.4: 16 endpoints including batch forge, rankings, deep dives, stats, search, and export.
-- [theories.json](theories.json) — decomposed seed dataset (514 entries across 149 domains).
+- [theories.json](theories.json) — decomposed seed dataset (683 entries across 181 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
 - [web/index.html](web/index.html) — tabbed UI: forge, batch forge, rankings, deep dives, theories browser, stats dashboard, history.
 - [outputs/](outputs/) — generated collision batches, rankings, and deep-dive analyses.

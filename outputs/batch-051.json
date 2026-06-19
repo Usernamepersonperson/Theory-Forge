@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Parkour Route Selection Theory of Judicial Precedent Navigation",
+    "core_claim": "Judges navigate precedent landscapes using parkour route-selection logic: the optimal legal path between current case and desired outcome is not the straight-line doctrinal route but the one that chains together available 'surfaces' (prior rulings) based on their grip quality (binding authority), gap distance (factual similarity), and landing reliability (appellate survival rate). Landmark cases function as parkour 'vaults' — high-commitment moves that clear large doctrinal gaps but risk catastrophic failure if the landing surface is misjudged.",
+    "mechanism_borrowed_from": "parkour-route-selection",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Parkour Route Selection (Parkour / Freerunning)",
+    "source_b": "Common-Law Precedent"
+  },
+  {
+    "name": "Rennet Coagulation Theory of Political Coalition Formation",
+    "core_claim": "Political coalitions form through rennet coagulation dynamics: diffuse political actors (casein micelles) remain suspended in the electorate (whey) until a catalytic event (rennet enzyme) destabilizes the repulsive charges keeping them apart. The coagulation produces a fragile initial 'curd' (proto-coalition) whose firmness depends on cut timing — too early and the coalition lacks structural integrity, too late and it becomes rubbery and unresponsive. The expelled whey represents moderate voters who don't fit the coagulated ideological matrix.",
+    "mechanism_borrowed_from": "rennet-coagulation-dynamics",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Rennet Coagulation Dynamics (Cheesemaking)",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "LSB Embedding Theory of Architectural Adaptive Reuse",
+    "core_claim": "Adaptive reuse of buildings follows steganographic least-significant-bit embedding: successful reuse modifies only the 'least significant bits' of a structure (interior partitions, services, surface finishes) while preserving the 'most significant bits' (structural frame, facade rhythm, spatial proportions). Buildings with high embedding capacity — those whose original design contains redundant or flexible spatial information — tolerate more radical functional change without perceptible distortion, just as images with high-frequency noise tolerate more hidden data before artifacts appear.",
+    "mechanism_borrowed_from": "lsb-embedding-capacity",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "LSB Embedding Capacity (Steganography)",
+    "source_b": "Adaptive Reuse Encoding"
+  },
+  {
+    "name": "Intertidal Zonation Theory of Corporate Hierarchy Stress Distribution",
+    "core_claim": "Corporate hierarchies exhibit intertidal zonation: employees at different organizational levels occupy distinct stress-exposure bands analogous to splash, high-tide, mid-tide, and low-tide zones. Middle managers inhabit the mid-intertidal — the zone of maximum biodiversity but also maximum environmental variability, exposed to both executive pressure (wave energy) and subordinate demands (substrate competition). The organisms that thrive in each zone are precisely those whose stress-tolerance mechanisms match the zone's exposure pattern, explaining why lateral transfers across organizational levels fail more often than vertical promotions.",
+    "mechanism_borrowed_from": "intertidal-zonation-gradient",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Intertidal Zonation Gradient (Tidal Ecology)",
+    "source_b": "General Adaptation Syndrome"
+  },
+  {
+    "name": "Marionette String Coupling Theory of Central Bank Communication",
+    "core_claim": "Central bank forward guidance operates through marionette string coupling: each policy instrument (interest rate, QE, yield curve control) is a control string attached to a specific joint of the economic marionette. The puppeteer's challenge is that strings are unidirectional (they pull but cannot push), creating asymmetric policy effectiveness — loosening is harder than tightening, just as making a marionette sit is harder than making it stand. Cross-talk between strings (policy spillovers) produces unintended limb movements that the audience (markets) interprets as intentional choreography.",
+    "mechanism_borrowed_from": "marionette-string-coupling",
+    "domain_applied_to": "macroeconomics",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Marionette String Coupling (Puppetry / Marionette Mechanics)",
+    "source_b": "Central Bank Policy"
+  },
+  {
+    "name": "Dendrochronological Pointer Year Theory of Software Regression Detection",
+    "core_claim": "Software codebases contain pointer years — specific commits or releases that leave detectable signatures across multiple independent metrics (bug density, test coverage, performance benchmarks) simultaneously, just as extreme climate events leave narrow or wide rings across all trees in a region. By cross-dating these metric 'ring patterns' across modules, teams can identify the exact commit that introduced systemic degradation even when no single metric triggered an alert. The technique is most powerful for detecting slow regressions that accumulate below individual alarm thresholds.",
+    "mechanism_borrowed_from": "pointer-year-signal",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Pointer Year Signal (Dendrochronology)",
+    "source_b": "Complexity Classes"
+  },
+  {
+    "name": "Rosensweig Instability Theory of Crowd Panic Formation",
+    "core_claim": "Crowd panic events follow Rosensweig instability dynamics: a crowd under stress (ferrofluid in a magnetic field) remains flat and orderly until the applied stress (field strength) exceeds a critical threshold, at which point the surface spontaneously erupts into spike-like formations — surges, crushes, and stampede fronts. The wavelength of the instability (spacing between crush points) is predictable from crowd density (fluid depth) and stress intensity (field strength), offering a quantitative tool for venue safety design that goes beyond simple density thresholds.",
+    "mechanism_borrowed_from": "rosensweig-instability",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Rosensweig Instability (Ferrofluid Dynamics)",
+    "source_b": "Social Contagion"
+  },
+  {
+    "name": "Kintsugi Fracture Path Theory of Organizational Restructuring",
+    "core_claim": "Post-crisis organizational restructuring should follow kintsugi principles: rather than disguising or denying the fracture lines left by failure, organizations should make them visible and structurally load-bearing. The gold-filled cracks become the organization's institutional memory — visible, valued reminders of past failure that channel future stress along known, reinforced paths rather than allowing new, unpredictable fractures. Organizations that hide their fracture history (invisible repair) are more brittle than those that celebrate and reinforce it.",
+    "mechanism_borrowed_from": "kintsugi-fracture-path",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Kintsugi Fracture Path (Kintsugi / Ceramics Repair)",
+    "source_b": "Disruptive Innovation"
+  },
+  {
+    "name": "Sourdough Starter Succession Theory of Online Community Moderation",
+    "core_claim": "Online communities undergo sourdough starter succession: early colonizers (founding members) establish a microbial culture (community norms) that selects for specific subsequent arrivals. A healthy community, like a stable sourdough, reaches a climax state where lactobacilli (norm-enforcing regulars) and wild yeast (creative contributors) maintain a symbiotic equilibrium. Platform migration events are analogous to 'refreshing' the starter — transferring a portion of the culture to new flour (platform), where it must re-establish dominance over environmental contaminants (trolls, spam) before stabilizing.",
+    "mechanism_borrowed_from": "sourdough-starter-succession",
+    "domain_applied_to": "network theory",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Sourdough Starter Succession (Sourdough Microbiology)",
+    "source_b": "Community Detection Resolution"
+  },
+  {
+    "name": "Cave Speleogenesis Theory of Neural Pathway Formation",
+    "core_claim": "Neural pathway formation follows speleogenetic principles: repeated cognitive activity (water flow) gradually dissolves resistance (limestone) along preferential routes, creating ever-larger channels (myelinated pathways) that capture increasingly distant tributaries (associated memories). The process exhibits the same positive feedback as cave formation — once a passage enlarges slightly, it captures more flow, which enlarges it further. Cognitive rigidity in aging mirrors cave maturity: the passages become so well-established that new water (novel information) cannot create alternative routes and must follow the existing cave system.",
+    "mechanism_borrowed_from": "cave-speleogenesis",
+    "domain_applied_to": "neuroscience",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Cave Speleogenesis (Speleology)",
+    "source_b": "Hebbian Learning"
+  },
+  {
+    "name": "Falconry Weight Management Theory of Startup Resource Allocation",
+    "core_claim": "Startup management follows falconry weight management: the falcon (team) must be kept at a precise flying weight — too heavy (over-resourced) and it lacks motivation to hunt (innovate), too light (under-resourced) and it lacks the energy for sustained flight (execution). The falconer's daily weighing ritual maps onto burn-rate monitoring, and the critical insight is that optimal flying weight varies with weather (market conditions), quarry (target market), and individual bird (team composition). The most common startup failure mode is the falconry equivalent of a 'fat hawk' — well-funded but unmotivated to chase difficult prey.",
+    "mechanism_borrowed_from": "falconry-weight-management",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Falconry Weight Management (Falconry)",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Glass Annealing Stress Theory of Post-Traumatic Growth",
+    "core_claim": "Post-traumatic psychological growth follows glass annealing principles: trauma introduces internal stress (thermal gradient) that makes the psyche brittle and prone to catastrophic failure. Therapeutic annealing — controlled, gradual re-exposure at decreasing emotional 'temperatures' — allows internal stresses to redistribute and equalize. The critical insight is that rapid cooling (avoidance, suppression) locks in stress permanently, while proper annealing actually produces a psyche stronger than the pre-trauma state, just as annealed glass is more durable than unannealed glass despite having experienced higher temperatures.",
+    "mechanism_borrowed_from": "glass-anneal-stress",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Glass Annealing Stress (Glassblowing)",
+    "source_b": "Exposure Therapy Extinction"
+  },
+  {
+    "name": "Semaphore Error Cascade Theory of Misinformation Propagation",
+    "core_claim": "Misinformation propagates through semaphore error cascades: each relay station (social media reshare) introduces a small angular error in the signal, and these errors compound geometrically across the relay chain. By the fifth relay, the original semaphore position (factual claim) may have drifted into an entirely different letter (meaning). The error rate is highest for signals near the boundary between two valid positions (ambiguous claims), and fog (information overload) increases error at every station simultaneously. The historical solution — requiring acknowledgment signals before proceeding — maps onto fact-checking friction in content sharing.",
+    "mechanism_borrowed_from": "semaphore-error-cascade",
+    "domain_applied_to": "epidemiology",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Semaphore Error Cascade (Semaphore / Signaling)",
+    "source_b": "SIR Epidemic Model"
+  },
+  {
+    "name": "Sake Parallel Fermentation Theory of Bilingual Language Acquisition",
+    "core_claim": "Bilingual language acquisition operates through sake's parallel fermentation mechanism: unlike sequential fermentation (wine), where sugar conversion and alcohol production happen in series, sake brewing runs saccharification and fermentation simultaneously in the same vessel. Bilingual children similarly run two language systems in parallel — converting environmental input (rice starch) into linguistic structure (sugar) and communicative competence (alcohol) for both languages concurrently. This parallel process achieves higher 'alcohol content' (fluency) than sequential approaches because each system's metabolic byproducts feed the other.",
+    "mechanism_borrowed_from": "sake-parallel-fermentation",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Sake Parallel Fermentation (Sake Brewing)",
+    "source_b": "Bilingual Inhibitory Control"
+  },
+  {
+    "name": "Sandcastle Capillary Bridge Theory of Social Trust Networks",
+    "core_claim": "Social trust operates through capillary bridge mechanics: trust between individuals (sand grains) is maintained by thin water films (shared experiences, reciprocal favors) that create capillary bridges generating cohesive force. Too little water (insufficient interaction) produces dry, non-cohesive sand; too much water (over-familiarity, obligation saturation) destroys the capillary bridges by flooding the contact points. The optimal moisture content for social cohesion — enough shared history to bind but not so much that boundaries dissolve — explains why both isolated individuals and enmeshed relationships produce structurally weak social formations.",
+    "mechanism_borrowed_from": "sandcastle-capillary-bridge",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Sandcastle Capillary Bridge (Sandcastle Engineering)",
+    "source_b": "Actor-Network Theory"
+  }
+]

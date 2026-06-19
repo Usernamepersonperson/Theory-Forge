@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ferrofluid Spike Dynamics Theory of Crowd Panic Formation",
+    "core_claim": "Crowd panic events follow ferrofluid spike dynamics: when a magnetic field (threat stimulus) is applied to a ferrofluid (dense crowd), normal-field instability produces spontaneous spike formations — columns of fluid that erupt perpendicular to the surface. In crowds, perceived threats create analogous 'spikes' of directed motion that erupt from the crowd surface. The critical insight is that spike spacing and height are determined by the balance between surface tension (social cohesion) and magnetic force (threat intensity), not by individual particle decisions. Crowd management should focus on modifying the 'surface tension' of the crowd (physical barriers, information channels) rather than the magnetic field (threat itself), because spike geometry is controllable even when the field is not.",
+    "mechanism_borrowed_from": "ferrofluid-spike-dynamics",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Ferrofluid Spike Dynamics (Ferrofluid Dynamics)",
+    "source_b": "Bystander Effect (Psychology)"
+  },
+  {
+    "name": "Cheesemaking Affinage Theory of Philosophical System Maturation",
+    "core_claim": "Philosophical systems mature through affinage — the controlled aging process that transforms fresh cheese (raw intuitions) into complex aged cheese (mature philosophical systems). The rind that develops during affinage (the hardened external presentation of the system — its terminology, formalism, institutional apparatus) both protects the interior from contamination (keeps the system coherent) and introduces the very molds and bacteria (interlocutors, critics) that create the system's distinctive flavor. Philosophical systems that are vacuum-sealed against criticism (analytic rigor without engagement) never develop complexity; those left entirely exposed (continental openness without structure) decompose into mush.",
+    "mechanism_borrowed_from": "affinage-rind-coevolution",
+    "domain_applied_to": "philosophy",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Affinage Rind Coevolution (Cheesemaking)",
+    "source_b": "Hegelian Dialectic (Philosophy)"
+  },
+  {
+    "name": "Pyrotechnic Color Chemistry Theory of Emotional Regulation",
+    "core_claim": "Emotional experiences are pyrotechnic color chemistry: different metal salts (neurotransmitter systems) produce different spectral colors (emotional qualia) when burned (activated). Strontium produces red (anger/excitement via norepinephrine), barium produces green (calm/safety via serotonin), copper produces blue (sadness/reflection via acetylcholine). Emotional dysregulation is a contaminated star composition — impure compounds that produce muddy, unpredictable colors instead of clean spectral lines. Therapeutic intervention is the purification of the star composition: isolating the contributing compounds and adjusting their ratios to produce the intended emotional 'display' rather than an uncontrolled conflagration.",
+    "mechanism_borrowed_from": "pyrotechnic-color-chemistry",
+    "domain_applied_to": "neuroscience",
+    "viability": "speculative",
+    "confidence": 0.37,
+    "source_a": "Pyrotechnic Color Chemistry (Pyrotechnics)",
+    "source_b": "Free Energy Principle (Neuroscience)"
+  },
+  {
+    "name": "Lock Tumbler Shear Line Theory of Democratic Consensus",
+    "core_claim": "Democratic consensus-building is a lock-picking problem: each pin tumbler represents a constituency whose 'key pin' (core interest) must be raised to exactly the shear line (the threshold of acceptability) for the lock (legislative process) to turn. A key that raises all pins to the shear line simultaneously is a successful coalition; a key that raises some too high and others too low produces binding (political deadlock). The lock-picker's technique of applying slight rotational tension while manipulating individual pins maps onto the legislative strategy of maintaining just enough procedural momentum (tension) while addressing individual constituency concerns (pin-by-pin setting). Security pins (ideological hardliners) create false sets that feel like progress but prevent the lock from fully opening.",
+    "mechanism_borrowed_from": "pin-tumbler-shear-line",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Pin Tumbler Shear Line (Lock-Picking / Security Engineering)",
+    "source_b": "Capital Accumulation (Political Economy)"
+  },
+  {
+    "name": "Tidal Pool Refuge Theory of Startup Ecosystem Survival",
+    "core_claim": "Startup ecosystems function as tidal pools: small, isolated bodies of high-salinity water (concentrated capital and talent) left behind when the economic tide retreats (market downturns). Species (startups) that survive in tidal pools are extremophiles adapted to rapid environmental fluctuation — they tolerate both desiccation (funding droughts) and submersion (boom-time capital floods). The tidal pool's key ecological feature is that its isolation creates unique selection pressures that produce species found nowhere else, explaining why startup innovation clusters (Silicon Valley, Shenzhen, Bangalore) generate ideas that large-ocean (corporate) environments cannot. But tidal pools are also fragile: a single rogue wave (regulatory disruption) can flush the entire community.",
+    "mechanism_borrowed_from": "tidal-pool-refuge",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.55,
+    "source_a": "Tidal Pool Refuge (Tidal Ecology)",
+    "source_b": "Comparative Advantage (Economics)"
+  },
+  {
+    "name": "Bookbinding Signature Gathering Theory of Scientific Consensus Formation",
+    "core_claim": "Scientific consensus forms through signature gathering: individual research papers are 'leaves' that are folded into 'signatures' (research programs), which are then sewn together into a 'text block' (paradigm). The binding order matters — signatures sewn in the wrong sequence produce a book whose pages don't read coherently, just as research programs integrated in the wrong order produce paradigms with logical gaps. The key insight is that consensus is not about the quality of individual leaves (papers) but about the quality of the gathering (how research programs are organized into a coherent sequence) and the sewing (how they're linked by review, replication, and meta-analysis).",
+    "mechanism_borrowed_from": "signature-gathering",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Signature Gathering (Bookbinding)",
+    "source_b": "Kuhnian Paradigm Shifts (Philosophy of Science)"
+  },
+  {
+    "name": "Steganography Cover Object Selection Theory of Political Dissent",
+    "core_claim": "Political dissent in authoritarian regimes follows steganographic cover object selection: dissidents embed their true message within 'cover objects' (folk songs, religious sermons, comedy, literary fiction) chosen for their statistical naturalness — the cover must be so culturally expected that its presence raises no suspicion. The art of dissident communication is not encryption (which signals that a secret exists) but steganography (which hides the existence of the secret itself). Regimes that crack down on obvious dissent channels (protests, pamphlets) simply shift dissident communication into higher-capacity cover objects (social media humor, commercial advertising aesthetics), and the arms race follows the same steganalysis/counter-steganography dynamics as digital steganography.",
+    "mechanism_borrowed_from": "cover-object-selection",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Cover Object Selection (Steganography)",
+    "source_b": "Memetics (Sociology)"
+  },
+  {
+    "name": "Beekeeping Waggle Dance Theory of Academic Citation Networks",
+    "core_claim": "Academic citations function as waggle dances: a paper's citation list is a choreographed communication that encodes the direction (intellectual lineage) and distance (methodological proximity) of valuable resource patches (prior work) for other foragers (researchers). The waggle dance's key feature — that it communicates relative position from the hive, not absolute coordinates — maps onto how citations orient readers relative to the citing paper's own position, not to any absolute intellectual map. Citation manipulation (self-citation rings, coercive citation) is the equivalent of a bee performing a fraudulent waggle dance to redirect foragers away from a competitor's patch, a behavior that degrades colony fitness.",
+    "mechanism_borrowed_from": "waggle-dance-information",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Waggle Dance Information (Beekeeping / Apiculture)",
+    "source_b": "Preferential Attachment (Network Science)"
+  },
+  {
+    "name": "Parkour Route Selection Theory of Surgical Decision-Making",
+    "core_claim": "Surgical decision-making in complex cases follows parkour route selection: the traceur (surgeon) must read the environment (anatomy) in real-time and select a movement path (surgical approach) that balances efficiency (minimal tissue disruption), safety (avoiding critical structures), and flow (maintaining operative momentum). The parkour concept of 'reading' the environment — perceiving affordances that untrained eyes miss (a wall ledge becomes a launch point; a tissue plane becomes a dissection corridor) — is the perceptual skill that distinguishes expert from novice surgeons. Training should emphasize environmental reading and adaptive route-finding, not memorization of fixed technique sequences.",
+    "mechanism_borrowed_from": "parkour-route-selection",
+    "domain_applied_to": "decision theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Parkour Route Selection (Parkour / Freerunning)",
+    "source_b": "Satisficing (Decision Theory)"
+  },
+  {
+    "name": "Glacial Surge Oscillation Theory of Creative Productivity",
+    "core_claim": "Creative productivity follows glacial surge oscillation: glaciers alternate between long quiescent phases (slow, steady movement with internal pressure building) and sudden surges (rapid advance where decades of accumulated basal water pressure releases in months). Creative workers similarly alternate between extended 'quiescent' periods (reading, note-taking, failed drafts — internal pressure accumulating) and surge periods (sudden prolific output where the accumulated material releases rapidly). The surge is not triggered by willpower but by reaching a critical basal water pressure threshold — a quantity of internalized material that lubricates the creative bed sufficiently for movement. Attempting to force a surge before the threshold is reached produces crevassing (burnout), not advance.",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "cognitive science",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Glacial Surge Oscillation (Glaciology)",
+    "source_b": "Prototype Theory (Cognitive Science)"
+  },
+  {
+    "name": "Warp-Weft Tension Balancing Theory of Conversational Dynamics",
+    "core_claim": "Conversation operates as a woven textile: one speaker provides the warp threads (stable, structural contributions — topic, frame, context) while the other provides the weft threads (dynamic, cross-cutting contributions — reactions, elaborations, challenges). Good conversation requires balanced tension: if the warp is too tight (one speaker controls topic rigidly), the weft cannot pass through and the fabric becomes a monologue; if the weft is too loose (responses are tangential, non-engaging), the fabric has no structural integrity. Conversational repair is re-tensioning — adjusting the balance when one dimension becomes slack or over-taut. Therapy, specifically, is the art of providing optimal warp tension so the client's weft can produce a coherent fabric.",
+    "mechanism_borrowed_from": "warp-weft-tension-balancing",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Warp-Weft Tension Balancing (Textile Engineering)",
+    "source_b": "Chomsky Universal Grammar (Linguistics)"
+  },
+  {
+    "name": "Horology Escapement Theory of Democratic Election Cycles",
+    "core_claim": "Democratic election cycles function as escapement mechanisms: the escapement's job is to release energy (political power) in precisely metered increments, converting the mainspring's continuous force (popular sovereignty) into regulated discrete ticks (election cycles). Without the escapement, the mainspring would unwind explosively (direct democracy degenerating into mob rule) or not at all (power consolidation). The escapement's genius is that it simultaneously releases AND restrains — each tick both transfers power and immediately locks it again. Term limits, election schedules, and transition protocols are the pallets of the democratic escapement, and their precise geometry determines whether the clock keeps accurate time or runs fast (populist acceleration) or slow (institutional sclerosis).",
+    "mechanism_borrowed_from": "escapement-regulation",
+    "domain_applied_to": "political ideology",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Escapement Regulation (Horology)",
+    "source_b": "Overton Window (Political Ideology)"
+  },
+  {
+    "name": "Intertidal Zonation Theory of Social Media Platform Ecosystems",
+    "core_claim": "Social media platforms form an intertidal zonation gradient: platforms exposed to the full force of public attention (Twitter/X — the splash zone) host only extremophile content that can withstand constant battering; platforms in the mid-tidal zone (Instagram, TikTok) support the richest diversity of content types; platforms in the subtidal zone (Discord servers, private Substacks) host fragile, specialized communities that cannot survive exposure. Content and creators migrate between zones following the same competitive exclusion dynamics as intertidal organisms — a creator optimized for splash-zone survival (controversy, provocation) cannot compete in the subtidal zone where different selection pressures favor depth and specificity.",
+    "mechanism_borrowed_from": "intertidal-zonation-gradient",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Intertidal Zonation Gradient (Tidal Ecology)",
+    "source_b": "Diffusion of Innovation (Marketing)"
+  },
+  {
+    "name": "Numismatic Gresham's Law Theory of Language Death",
+    "core_claim": "Language death follows Gresham's Law of currency debasement: when two languages circulate in the same community, the 'bad money' (economically dominant language with lower cultural information content per utterance) drives out the 'good money' (minority language with higher cultural specificity per word). Speakers begin hoarding the minority language for intimate and ceremonial contexts (saving good money) while spending the dominant language in daily transactions, until the minority language's circulation drops below the threshold needed to sustain intergenerational transmission. Language revitalization programs are effectively re-monetization efforts — restoring a debased currency to circulation by creating contexts where it is the only legal tender.",
+    "mechanism_borrowed_from": "greshams-law-debasement",
+    "domain_applied_to": "linguistics",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Gresham's Law Debasement (Numismatics)",
+    "source_b": "Sapir-Whorf Hypothesis (Linguistics)"
+  },
+  {
+    "name": "Volcanic Edifice Instability Theory of Institutional Collapse",
+    "core_claim": "Large institutions collapse through volcanic edifice instability: the very growth that makes a volcano impressive (institutional accumulation of resources, reputation, complexity) simultaneously increases the gravitational stress on its flanks (organizational debt, legacy commitments, internal contradictions). Sector collapse — where an entire flank of the volcano slides away catastrophically — is not caused by the triggering earthquake (scandal, market shift) but by the pre-existing over-steepening that made the edifice gravitationally unstable. Post-collapse, the debris avalanche (departing talent, lost institutional knowledge) travels much further than expected because it liquefies upon failure, and the resulting amphitheater (organizational scar) permanently redirects future growth in unexpected directions.",
+    "mechanism_borrowed_from": "volcanic-edifice-instability",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Volcanic Edifice Instability (Volcanology)",
+    "source_b": "Disruptive Innovation (Business Strategy)"
+  }
+]

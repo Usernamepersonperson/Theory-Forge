@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Falconry Molt Cycle Theory of Career Sabbatical Planning",
+    "core_claim": "Career sabbaticals should follow the falconry molt cycle: during molt (sabbatical), the falcon is grounded and cannot hunt (produce), but the process replaces worn feathers (depleted skills, outdated knowledge) with fresh ones that restore full flight capability. Falconers who rush molt (abbreviated sabbaticals) produce birds with incomplete feather replacement — functional but with reduced performance that compounds over subsequent seasons. The molt must be supported with rich feeding (financial and intellectual nourishment during sabbatical) despite zero hunting output, and the bird that emerges is measurably superior to the pre-molt version but requires a re-manning period (re-onboarding) before returning to peak performance.",
+    "mechanism_borrowed_from": "falconry-molt-cycle",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Falconry Molt Cycle (Falconry)",
+    "source_b": "Self-Determination Theory"
+  },
+  {
+    "name": "Washed-Rind Biofilm Theory of Open-Source Community Governance",
+    "core_claim": "Open-source project governance develops through washed-rind biofilm dynamics: regular interventions by maintainers (washing with brine) cultivate a specific surface microbial community (contributor norms) that protects the interior (codebase) from contamination while producing distinctive flavor (project identity). The biofilm is not optional decoration — it is a living protective barrier that must be actively cultivated through consistent, repeated contact. Projects that stop 'washing' (active moderation, regular releases, maintainer engagement) develop wild mold (toxic community dynamics) rather than the intended Brevibacterium culture, producing cheese that smells wrong and drives away consumers.",
+    "mechanism_borrowed_from": "washed-rind-biofilm",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Washed-Rind Biofilm (Cheesemaking)",
+    "source_b": "Preferential Attachment"
+  },
+  {
+    "name": "Cave Hydrology Network Theory of Supply Chain Resilience",
+    "core_claim": "Supply chain resilience follows cave hydrology network principles: surface water (market demand) enters the karst system (supply network) through multiple sinkholes (order points) and follows subterranean channels (logistics routes) whose connectivity is invisible from the surface. Karst systems are notoriously unpredictable — a channel that reliably carries flow for years can suddenly collapse (supplier failure), redirecting water through entirely unexpected passages (alternative routing). The hydrogeologist's technique of dye-tracing (injecting dye at sinkholes and watching where it emerges) maps onto supply chain stress-testing: injecting tracer orders to map the actual flow network before a crisis reveals the invisible topology.",
+    "mechanism_borrowed_from": "cave-hydrology-network",
+    "domain_applied_to": "logistics",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Cave Hydrology Network (Speleology)",
+    "source_b": "Bullwhip Effect"
+  },
+  {
+    "name": "Steganographic Cover Object Selection Theory of Resume Writing",
+    "core_claim": "Effective resume writing is cover-object selection for steganographic embedding: the resume's explicit content (cover object) must be a natural, unsuspicious document that simultaneously carries a hidden payload (the candidate's unique value proposition) detectable only by the intended recipient (hiring manager with domain expertise). Resumes that make the payload too visible (aggressive self-promotion) fail the steganalytic test (recruiter pattern-matching rejects them as unnatural); resumes with too little payload (generic descriptions) pass as natural but carry no useful hidden signal. The optimal embedding rate depends on the cover object's statistical properties — highly standardized formats (accounting resumes) tolerate less embedding than variable formats (creative roles).",
+    "mechanism_borrowed_from": "cover-object-selection",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.54,
+    "source_a": "Cover Object Selection (Steganography)",
+    "source_b": "Nudge Choice Architecture"
+  },
+  {
+    "name": "Ferrofluid Spike Dynamics Theory of Social Media Viral Content",
+    "core_claim": "Viral social media content follows ferrofluid spike dynamics: content (ferrofluid surface) in a weak ambient field (normal algorithmic amplification) remains flat, but localized field intensification (trending topic, influencer amplification) causes individual spikes to erupt. Each spike's height is proportional to local field strength, and spikes interact — tall spikes (viral posts) suppress nearby spike formation by concentrating the field lines (attention), creating a winner-take-most dynamic within any trend. The spikes are inherently unstable; removing the field (algorithmic de-amplification) causes immediate collapse, and the fluid returns to flat equilibrium with no permanent deformation (content is forgotten instantly).",
+    "mechanism_borrowed_from": "ferrofluid-spike-dynamics",
+    "domain_applied_to": "network theory",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Ferrofluid Spike Dynamics (Ferrofluid Dynamics)",
+    "source_b": "Scale-Free Hub Vulnerability"
+  },
+  {
+    "name": "Puppet Counterweight Balance Theory of Legislative Bicameralism",
+    "core_claim": "Bicameral legislatures operate through puppet counterweight balance: each chamber is a counterweight that stabilizes the other's movement, preventing the wild swings (radical legislation) that a single-string (unicameral) system produces. The upper chamber (Senate/Lords) provides gravitational drag on the lower chamber's quick, responsive movements, producing smoother, more deliberate legislative 'gestures.' The system fails when the counterweight becomes too heavy (obstructionist upper chamber) — the puppet cannot move at all — or too light (rubber-stamp chamber) — the puppet jerks uncontrollably. The puppeteer's art of adjusting counterweight mass maps onto constitutional reform of chamber powers.",
+    "mechanism_borrowed_from": "puppet-counterweight-balance",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Puppet Counterweight Balance (Puppetry / Marionette Mechanics)",
+    "source_b": "Constitutional Separation of Powers"
+  },
+  {
+    "name": "Sake Water Mineral Profile Theory of Organizational Communication Tone",
+    "core_claim": "Organizational communication derives its character from the 'water' (communication medium and norms) that constitutes 80% of every message, just as sake's character is determined primarily by water mineral profile rather than rice variety. Hard water (formal, hierarchical communication norms) with high mineral content produces dry, structured sake (crisp, unambiguous communications) through vigorous fermentation; soft water (informal, flat communication norms) produces gentler, sweeter sake (collaborative, exploratory messages) through slower fermentation. Organizations that obsess over rice selection (message content) while ignoring their water profile (communication culture) misattribute their communication failures to content problems when they are medium problems.",
+    "mechanism_borrowed_from": "sake-water-mineral-profile",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Sake Water Mineral Profile (Sake Brewing)",
+    "source_b": "Foucault's Power/Knowledge"
+  },
+  {
+    "name": "Kintsugi Fragment Reassembly Theory of Post-Conflict Truth and Reconciliation",
+    "core_claim": "Truth and reconciliation processes are kintsugi fragment reassembly: the shattered society cannot be invisibly restored to its pre-conflict state, but the fragments (communities, institutions, narratives) can be gathered, matched, and rejoined with visible, valued seams (shared acknowledgment of what was broken and how). The gold lacquer (restorative justice) is stronger than the original ceramic — the repaired society has structural properties the original lacked, including visible evidence of its own fragility. The reassembly process requires identifying which fragments belong to the same vessel (shared national identity) and which are fragments of a different object entirely (incompatible narratives that cannot be joined).",
+    "mechanism_borrowed_from": "kintsugi-fragment-reassembly",
+    "domain_applied_to": "ethics",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Kintsugi Fragment Reassembly (Kintsugi / Ceramics Repair)",
+    "source_b": "Veil of Ignorance"
+  },
+  {
+    "name": "Bonsai Ramification Theory of Knowledge Graph Construction",
+    "core_claim": "Knowledge graph quality depends on ramification — the bonsai technique of encouraging fine branching through repeated tip-pruning. Each pruning cut (editorial decision to stop elaborating a concept) forces two or more subsidiary branches (sub-concepts) to develop, producing the dense, fine-textured canopy (rich interconnection) that distinguishes a mature bonsai from a juvenile tree (sparse ontology). Knowledge graphs that grow without ramification produce long, unbranched chains (deep taxonomies with no lateral connections); those pruned too aggressively produce stunted bushes (broad but shallow tag clouds). The bonsai master's patience — ramification takes decades — is the missing virtue in knowledge engineering.",
+    "mechanism_borrowed_from": "bonsai-ramification",
+    "domain_applied_to": "information retrieval",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Bonsai Ramification (Bonsai Cultivation)",
+    "source_b": "PageRank"
+  },
+  {
+    "name": "Sourdough Fermentation Timing Theory of Creative Project Management",
+    "core_claim": "Creative projects require sourdough fermentation timing: the dough (project) must be allowed to ferment (develop) until it reaches optimal gas production (idea generation) and flavor development (conceptual depth), then shaped and baked before over-fermentation produces an acidic, collapsed loaf (over-worked, stale creative output). The baker's 'poke test' (pressing the dough to assess fermentation state by spring-back rate) maps onto the project manager's intuitive assessment of when a creative team has generated enough ideas and must transition from divergent exploration to convergent execution. Under-proofed projects (rushed to market) are dense and flavorless; over-proofed projects (development hell) collapse under their own gas.",
+    "mechanism_borrowed_from": "sourdough-fermentation-timing",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Sourdough Fermentation Timing (Sourdough Microbiology)",
+    "source_b": "Flow State"
+  },
+  {
+    "name": "Glass Cane Pull Theory of Mentorship Knowledge Transfer",
+    "core_claim": "Mentorship knowledge transfer follows glass cane-pull dynamics: two glassblowers (mentor and mentee) simultaneously pull a molten gather (shared knowledge) in opposite directions, stretching it into an increasingly thin cane (refined, transmissible understanding) that preserves the cross-sectional pattern (core insights) at any scale. The pull must be symmetrical — if the mentor pulls faster than the mentee can keep up, the cane necks down and snaps (knowledge transfer breaks); if the mentee pulls without the mentor's counterpull, the gather simply moves laterally (the mentee absorbs the mentor's position but not their knowledge structure). The pattern visible in the finished cane is the proof that genuine bilateral transfer occurred.",
+    "mechanism_borrowed_from": "glass-cane-pull",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Glass Cane Pull (Glassblowing)",
+    "source_b": "Vygotsky's Zone of Proximal Development"
+  },
+  {
+    "name": "Taxidermy Eye Setting Theory of Data Visualization Design",
+    "core_claim": "Data visualization design faces the taxidermist's eye-setting problem: the eyes (key data points, headline metrics) are always artificial and are always the element that determines whether the viewer perceives the specimen (visualization) as alive or dead. Glass eyes that are anatomically correct but improperly set (accurate data, poor visual hierarchy) produce an unsettling, cross-eyed mount that repels rather than informs. The taxidermist's rule — set the eyes first and build the rest of the mount around them — maps onto the visualization principle that the most important data point should determine the entire composition, not be inserted last into a pre-built template.",
+    "mechanism_borrowed_from": "taxidermy-eye-setting",
+    "domain_applied_to": "information theory",
+    "viability": "speculative",
+    "confidence": 0.46,
+    "source_a": "Taxidermy Eye Setting (Taxidermy / Preservation)",
+    "source_b": "Information Entropy"
+  },
+  {
+    "name": "Semaphore Relay Latency Theory of Bureaucratic Decision Speed",
+    "core_claim": "Bureaucratic decision speed is governed by semaphore relay latency: each organizational layer (relay station) introduces a fixed processing delay (read, interpret, re-encode, transmit) that is irreducible regardless of message urgency. Total latency scales linearly with the number of relay stations (hierarchical levels), and the system's throughput is limited by the slowest station in the chain. The historical solution — bypassing intermediate stations with optical telegraph shortcuts for urgent messages — maps onto organizational fast-track processes that skip hierarchical levels for critical decisions. But bypass channels, like telegraph shortcuts, only work when they are rarely used; if every message is 'urgent,' the shortcut becomes a bottleneck.",
+    "mechanism_borrowed_from": "semaphore-relay-latency",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Semaphore Relay Latency (Semaphore / Signaling)",
+    "source_b": "Queueing Theory"
+  },
+  {
+    "name": "Parkour Flow State Lock Theory of Surgical Performance",
+    "core_claim": "Expert surgical performance depends on parkour flow-state lock: the surgeon must enter and maintain a state of continuous perceptual-motor integration where each completed action (suture, incision, dissection) automatically loads the motor program for the next. Interruptions (equipment failure, unexpected anatomy, team communication breakdowns) break the flow lock and force a costly restart from deliberate, conscious control — the parkour equivalent of stopping mid-run and having to re-evaluate the entire obstacle sequence from standing. Operating room design and team protocols should be evaluated primarily on their ability to maintain the surgeon's flow-state lock, not on their individual ergonomic properties.",
+    "mechanism_borrowed_from": "parkour-flow-state-lock",
+    "domain_applied_to": "ergonomics",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Parkour Flow State Lock (Parkour / Freerunning)",
+    "source_b": "Situation Awareness Degradation"
+  },
+  {
+    "name": "Cave Passage Morphology Theory of Organizational Communication Channels",
+    "core_claim": "Organizational communication channels develop cave passage morphology: initial communication pathways form as narrow phreatic tubes (fully saturated, pressure-driven channels like formal email chains), but as organizational 'water table' drops (formality decreases), passages transition to vadose canyons (gravity-driven, open-channel flows like Slack conversations) that cut downward along the path of least resistance. Mature organizational communication systems exhibit the full spectrum of passage types, and the most critical pathways are often the 'fossil passages' — channels that no longer carry active flow but whose historical routing determined the geometry of all subsequent development. Understanding why communication follows certain paths requires speleological survey, not organizational chart analysis.",
+    "mechanism_borrowed_from": "cave-passage-morphology",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Cave Passage Morphology (Speleology)",
+    "source_b": "Actor-Network Theory"
+  }
+]

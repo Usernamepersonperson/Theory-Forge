@@ -1,0 +1,81 @@
+{
+  "name": "Benford's Law Theory of Ecological Population Fraud Detection",
+  "rank": 27,
+  "confidence": 0.82,
+  "source_a": "Benford's Law Digit Frequency Anomaly",
+  "source_b": "Lotka-Volterra Predator-Prey",
+  "mechanism_borrowed_from": "benfords-law-anomaly-detection",
+  "domain_applied_to": "ecology-research-integrity",
+  "executive_summary": "Benford's Law Theory of Ecological Population Fraud Detection (BLEPFD) applies the well-established forensic accounting tool of first-digit frequency analysis to ecological datasets. Benford's Law predicts that in datasets spanning multiple orders of magnitude and arising from multiplicative natural processes, the leading digit 1 appears approximately 30.1% of the time, digit 2 about 17.6%, declining logarithmically to digit 9 at 4.6%. Genuine ecological data — population counts, biomass measurements, species abundances, growth rates — emerges from multiplicative processes (exponential growth, predator-prey cycling, stochastic birth-death) and should conform to this distribution. Fabricated, rounded, or selectively reported data deviates systematically.\n\nThe theory provides a statistical fingerprint for data fraud in ecology that requires no domain expertise to apply. A reviewer need not understand the biology of a species to detect that the population counts in a manuscript are suspiciously uniform in their leading digits, over-represent round numbers, or show the cognitive biases characteristic of human-generated 'random' numbers. BLEPFD extends beyond simple fabrication detection: it can identify selective reporting (discarding inconvenient data points), rounding bias (field researchers rounding counts to the nearest 5 or 10), and pseudo-replication (duplicated datasets with minor perturbations).\n\nThe ecological application adds a layer beyond financial forensics: ecological data has characteristic temporal and spatial correlation structures that constrain what 'genuine' Benford's Law compliance looks like. A population time series should not only show Benford-compliant first digits overall but should show specific digit-frequency transitions between time steps that reflect the underlying Lotka-Volterra or logistic growth dynamics. Fabricators who match the static Benford distribution but get the temporal transitions wrong are detectable through second-order digit analysis — a refinement that makes BLEPFD more powerful than its financial-forensics ancestor.",
+  "mapped_components": {
+    "unit": "A single numerical measurement in an ecological dataset: a population count, biomass estimate, density measurement, or rate calculation. Each measurement's leading digit is the observable that carries information about data provenance.",
+    "variation": "The diversity of ecological processes (exponential growth, logistic growth, predator-prey oscillation, stochastic birth-death, spatial aggregation) that generate the multiplicative dynamics producing Benford-compliant digit distributions. Different ecological processes generate the same first-digit distribution but different higher-order digit correlations.",
+    "selection": "Statistical hypothesis testing selects datasets for scrutiny. A chi-squared or Kolmogorov-Smirnov test compares the observed first-digit distribution against the Benford prediction. Datasets that fail this test at a specified significance level are flagged for investigation. The selection threshold can be tuned to balance false-positive and false-negative rates.",
+    "fitness": "Detection power: the probability of correctly identifying fabricated data (sensitivity) weighted against the probability of falsely flagging genuine data (specificity). High fitness requires both accurate Benford distribution estimates for genuine ecological data and robust models of how fabrication distorts the distribution.",
+    "boundary": "The theory applies to ecological datasets that: (1) span at least two orders of magnitude, (2) arise from processes with multiplicative dynamics, (3) contain at least 100+ data points for reliable digit-frequency estimation. It does not apply to datasets with natural bounds that truncate the value range (e.g., proportions between 0 and 1, pH values between 0 and 14), or to counts that are inherently small (0-10 individuals, where Benford's Law is not expected to hold)."
+  },
+  "falsifiable_predictions": [
+    "Genuine long-term ecological monitoring datasets (e.g., LTER sites, BBS bird counts, forest inventory data) will conform to Benford's Law first-digit distribution with chi-squared p-values > 0.05 in at least 85% of cases, after excluding datasets with natural range truncation.",
+    "Retracted or corrected ecological papers will show significantly higher rates of Benford's Law violation than non-retracted papers from the same journals, testable via a case-control study matching retracted papers with non-retracted papers by journal, year, and taxon.",
+    "Human-generated 'random' ecological data (produced by asking researchers to fabricate realistic population counts) will show characteristic deviations from Benford's Law: over-representation of digits 3, 5, and 7, under-representation of digits 1 and 9, and excessive use of round numbers — distinguishable from the specific violation patterns produced by selective reporting or rounding.",
+    "Time-series ecological data will show first-digit transition probabilities (the probability that a population count starting with digit d at time t starts with digit d' at time t+1) that depend on the growth rate in a predictable way. Fabricated time series will show transition probabilities that are either uniform or match static Benford but violate the growth-rate-conditioned transitions.",
+    "Datasets from species with high growth rates (r-strategists: insects, bacteria) will show wider first-digit frequency variation across time steps than datasets from species with low growth rates (K-strategists: large mammals), because rapid multiplication generates faster digit cycling. Fabricated data will fail to reproduce this taxon-specific variation pattern."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Nigrini (1996) established Benford's Law as a forensic accounting tool, demonstrating that taxpayer data, corporate financial statements, and accounting records conform to the logarithmic first-digit distribution, and that deviations are reliable indicators of manipulation. The method has been adopted by the IRS, major accounting firms, and fraud investigation agencies.",
+      "relevance": "Provides the validated methodology that BLEPFD adapts for ecology. The financial forensics application demonstrates that Benford's Law analysis works as a practical fraud detection tool, not merely a theoretical curiosity.",
+      "source": "Nigrini, M.J. (1996). A taxpayer compliance application of Benford's law. Journal of the American Taxation Association, 18(1), 72-91."
+    },
+    {
+      "finding": "Diekmann (2007) tested Benford's Law on genuine scientific datasets from multiple disciplines, finding that datasets arising from natural multiplicative processes conform well, while datasets derived from constrained or additive processes do not. This established the empirical scope conditions for applying Benford's Law to scientific data.",
+      "relevance": "Defines the boundary conditions for BLEPFD: which types of ecological data should be expected to conform and which should not. Ecological population data, which arises from multiplicative birth-death processes, falls squarely within the conforming category.",
+      "source": "Diekmann, A. (2007). Not the first digit! Using Benford's law to detect fraudulent scientific data. Journal of Applied Statistics, 34(3), 321-329."
+    },
+    {
+      "finding": "Fanelli (2009) conducted a meta-analysis showing that approximately 2% of scientists admit to fabricating data at least once, and up to 33.7% admit to other questionable research practices including selective reporting and rounding. These rates suggest that fraud detection tools applicable to ecological data could flag a meaningful fraction of the published literature.",
+      "relevance": "Establishes the base rate of data fabrication and manipulation in science, justifying the need for automated detection tools like BLEPFD. The high rate of questionable practices (selective reporting, rounding) is particularly relevant because BLEPFD can detect these softer forms of manipulation in addition to outright fabrication.",
+      "source": "Fanelli, D. (2009). How many scientists fabricate and falsify research? A systematic review and meta-analysis of survey data. PLoS ONE, 4(5), e5738."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Validation Study Using Known-Genuine Long-Term Monitoring Data",
+      "description": "Test BLEPFD's false-positive rate by applying Benford's Law analysis to high-quality, independently verified ecological monitoring datasets from established research programs.",
+      "method": "Compile population count datasets from 50+ long-term ecological research programs (LTER Network, British Trust for Ornithology, USDA Forest Inventory and Analysis). For each dataset, compute first-digit and second-digit frequency distributions and test conformity with Benford's Law using chi-squared, Kolmogorov-Smirnov, and Mean Absolute Deviation (MAD) tests. Also compute first-digit transition matrices for time-series data. Estimate the false-positive rate (the fraction of genuine datasets flagged as non-conforming) at various significance thresholds.",
+      "expected_results": "At alpha = 0.05, fewer than 10% of genuine datasets will be flagged as non-conforming (accounting for datasets with natural range truncation or small sample sizes). Time-series transition matrices will show growth-rate-dependent patterns distinguishable from uniform transitions. The false-positive rate will decrease when datasets with known range truncation are excluded."
+    },
+    {
+      "title": "Blinded Fabrication Detection Challenge",
+      "description": "Create a test set of mixed genuine and fabricated ecological datasets and test whether BLEPFD can reliably distinguish them in a blinded evaluation.",
+      "method": "Recruit 20 ecology graduate students and ask each to fabricate one dataset of 200+ population counts 'as realistically as possible' for a specified taxon and habitat type. Mix these 20 fabricated datasets with 20 genuine datasets (from monitoring programs, matched by taxon and sample size). Apply BLEPFD analysis (first-digit test, second-digit test, transition matrix analysis, round-number frequency) to all 40 datasets in blinded fashion. Report sensitivity (correct identification of fabricated datasets) and specificity (correct identification of genuine datasets) for each test individually and in combination.",
+      "expected_results": "Combined analysis (multi-test battery) will achieve sensitivity > 75% and specificity > 85%. First-digit analysis alone will have moderate sensitivity (50-65%) because sophisticated fabricators can match the Benford distribution. Transition matrix analysis will add the most discriminative power, catching fabricators who match static distributions but fail to reproduce dynamic digit-cycling patterns."
+    }
+  ],
+  "limitations": [
+    "Benford's Law conformity is a necessary but not sufficient condition for data authenticity. Genuine data can violate Benford's Law for legitimate reasons (range truncation, small counts, bounded variables), and sophisticated fabricators can produce Benford-compliant fake data. BLEPFD is a screening tool, not a proof of fraud.",
+    "The required sample size (100+ data points) limits applicability to large datasets. Many ecological studies report small numbers of observations (5-30 field sites, 10-50 time points), which are insufficient for reliable digit-frequency analysis.",
+    "Ecological data often involves estimation rather than direct counting (mark-recapture estimates, density extrapolations, biomass calculations from allometric equations). The digit distribution of estimates depends on the estimation method as well as the underlying population, potentially confounding the Benford analysis.",
+    "Cultural and methodological norms vary across ecological subdisciplines. Some fields routinely round measurements, use standardized categories, or report derived indices rather than raw counts. BLEPFD would need subdiscipline-specific baselines to avoid systematically flagging legitimate practices as anomalous."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Bayesian Soil Contamination Inference",
+      "relationship": "Both apply statistical methodology from outside ecology to ecological data quality problems. BSCI optimizes data collection under uncertainty; BLEPFD validates the integrity of collected data. In combination, they address both sampling efficiency and data reliability."
+    },
+    {
+      "framework": "Edaphic Trophic Cascade",
+      "relationship": "ETC's predictions about population dynamics in soil food webs generate specific expectations about what genuine population count data should look like — including Benford-compliant digit distributions with growth-rate-appropriate transition matrices. BLEPFD could validate ETC datasets."
+    },
+    {
+      "framework": "Costly Signal Gating Theory",
+      "relationship": "Passing Benford's Law analysis could function as a costly signal of data authenticity: fabricating Benford-compliant data with correct temporal transitions requires sophisticated knowledge that casual fraudsters lack. Publishing datasets with their Benford analysis included serves as a credibility signal."
+    }
+  ],
+  "potential_applications": [
+    "Journal peer review enhancement: Integrate automated Benford's Law screening into journal submission systems, flagging manuscripts with anomalous digit distributions for additional statistical review before peer review begins.",
+    "Research integrity investigation: Provide university research integrity offices with a quantitative screening tool for allegations of data fabrication, enabling objective triage of complaints before launching full investigations.",
+    "Ecological database curation: Apply BLEPFD to large ecological databases (GBIF, eBird, iNaturalist professional-grade datasets) to identify potentially unreliable records for quality control, improving the reliability of meta-analyses and large-scale ecological studies.",
+    "Environmental compliance monitoring: Use Benford analysis to screen environmental impact assessment data submitted by developers and consultants, detecting potentially fabricated or selectively reported ecological survey results that undercount protected species."
+  ]
+}

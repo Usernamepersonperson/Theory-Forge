@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Kintsugi Gold Line Aesthetics Theory of Scar Tissue in Narrative",
+    "core_claim": "The most resonant narratives are those that practice kintsugi gold-line aesthetics on their own plot fractures: rather than concealing narrative disruptions (time skips, perspective shifts, tonal breaks) with seamless transitions, great storytelling draws attention to the seams with golden joinery — making the points of fracture the most beautiful and meaningful elements of the work. The gold line (explicit meta-narrative acknowledgment of disruption) transforms structural weakness into aesthetic strength. This explains why fragmented narratives (Faulkner, Borges, Sebald) often achieve greater emotional resonance than linear ones: the gold-filled cracks between fragments are where the reader's own meaning-making floods in, producing a text that is stronger at its repaired joints than at its original surface.",
+    "mechanism_borrowed_from": "kintsugi-gold-line-aesthetics",
+    "domain_applied_to": "narratology",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Kintsugi Gold Line Aesthetics (Kintsugi / Ceramics Repair)",
+    "source_b": "Hero's Journey / Monomyth (Narratology)"
+  },
+  {
+    "name": "Biofouling Succession Theory of Software Dependency Accumulation",
+    "core_claim": "Software dependency accumulation follows marine biofouling succession: a clean hull (new codebase) first attracts pioneer organisms (small utility libraries — lodash, moment.js) that create a biofilm (dependency layer) enabling secondary colonizers (frameworks that depend on the pioneers) and eventually climax communities (entire platform ecosystems — React + Redux + React Router + testing libraries). Each layer makes the next layer's attachment easier and the hull (codebase) slower, heavier, and harder to clean. The biofouling model predicts that dependency removal (hull cleaning) must be done regularly and completely — partial cleaning actually accelerates recolonization because the remaining biofilm provides better attachment surfaces than clean hull. 'Vendoring' dependencies is the software equivalent of antifouling paint: it doesn't prevent attachment but slows the succession cycle.",
+    "mechanism_borrowed_from": "biofouling-succession",
+    "domain_applied_to": "programming languages",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Biofouling Succession (Tidal Ecology)",
+    "source_b": "Curry-Howard Correspondence (Programming Languages)"
+  },
+  {
+    "name": "Falconry Imprinting Theory of Brand Loyalty Formation",
+    "core_claim": "Brand loyalty forms through falconry imprinting: raptors imprinted on humans during a critical developmental window (first 2 weeks post-hatch) form a permanent, species-level identification with their handler — they don't merely tolerate humans but genuinely categorize the handler as conspecific. Consumer brand relationships formed during critical developmental windows (first independent purchases in late adolescence, first-job brand encounters, first-child purchases) produce similarly deep identification that persists irrationally against superior alternatives. The falconry insight is that imprinting is irreversible and species-general rather than individual-specific: an imprinted hawk bonds to 'human' not 'this human.' Similarly, brand imprinting creates loyalty to a category-brand identity (Apple as 'my kind of company') rather than to specific products, explaining why brand loyalty survives individual product failures.",
+    "mechanism_borrowed_from": "falconry-imprinting",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Falconry Imprinting (Falconry)",
+    "source_b": "Diffusion of Innovation (Marketing)"
+  },
+  {
+    "name": "Jacquard Binary Patterning Theory of Genetic Regulation",
+    "core_claim": "Gene regulatory networks operate as Jacquard looms: the genome is the set of all possible threads (gene products), and the regulatory apparatus is the Jacquard punch card system that determines which threads are raised or lowered at each row (developmental stage), producing the tissue-specific pattern. Enhancers and silencers are the holes and blanks in the punch cards; transcription factors are the hooks that read the cards and lift the corresponding heddle frames. The Jacquard insight is that the pattern complexity is not limited by the number of threads (genes) but by the number of distinct punch cards (regulatory states) and their sequencing. This explains how organisms with similar gene counts produce vastly different morphological complexity — they have more punch cards, not more threads.",
+    "mechanism_borrowed_from": "jacquard-binary-patterning",
+    "domain_applied_to": "molecular biology",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Jacquard Binary Patterning (Textile Engineering)",
+    "source_b": "Central Dogma (Molecular Biology)"
+  },
+  {
+    "name": "Sandcastle Height Scaling Theory of Organizational Hierarchy Limits",
+    "core_claim": "Organizational hierarchy has sandcastle height scaling limits: a sandcastle's maximum height scales as the 2/3 power of its base width (because gravitational stress scales with height while structural strength scales with cross-section), and organizational hierarchies face an analogous scaling law — the maximum number of management layers scales sub-linearly with organizational base (headcount). Adding hierarchy levels above the scaling limit produces the organizational equivalent of sandcastle collapse: the weight of the management structure exceeds the load-bearing capacity of the operational base. The scaling exponent varies with 'sand quality' (employee skill and autonomy) and 'water content' (cultural cohesion): organizations with higher-quality sand and optimal moisture can build taller before collapse.",
+    "mechanism_borrowed_from": "sandcastle-height-scaling",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Sandcastle Height Scaling (Sandcastle Engineering)",
+    "source_b": "Vehicle Routing Problem (Operations Research)"
+  },
+  {
+    "name": "Glassblowing Bubble Inflation Theory of Speculative Narrative Creation",
+    "core_claim": "Speculative fiction creation follows glass bubble inflation dynamics: the writer begins with a small gather of molten glass (core premise), and inflation (narrative development) must be precisely calibrated — too much pressure too early and the bubble wall thins unevenly and bursts (worldbuilding collapses under its own inconsistencies); too little pressure and the glass cools before achieving its shape (the narrative stalls before reaching critical mass). The glassblower's technique of continuous rotation (maintaining narrative momentum through subplots and character development) prevents gravitational sagging (the tendency of speculative premises to collapse under real-world plausibility). The finished vessel's thickness must be uniform — speculative narratives with 'thin spots' (under-developed implications of their premise) are structurally weak even if the overall form is beautiful.",
+    "mechanism_borrowed_from": "glass-bubble-inflation",
+    "domain_applied_to": "narratology",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Glass Bubble Inflation (Glassblowing)",
+    "source_b": "Hero's Journey / Monomyth (Narratology)"
+  },
+  {
+    "name": "Semaphore Alphabet Design Theory of API Interface Design",
+    "core_claim": "API design should follow semaphore alphabet design principles: the semaphore system's alphabet was not arbitrary but optimized for maximum angular separation between letters (to minimize misreading at distance), minimum arm repositioning between common letter sequences (to maximize transmission speed), and a rest position that is unambiguous (clearly 'no signal' rather than mistaken for a letter). API endpoints similarly need maximum conceptual separation between operations (to prevent developer misuse), minimum cognitive repositioning between common call sequences (to enable fluent composition), and an unambiguous default/empty state (clear distinction between 'no data' and 'error'). The semaphore design principle that the most common letters should require the least arm movement translates to: the most common API operations should require the fewest parameters and the simplest request structure.",
+    "mechanism_borrowed_from": "semaphore-alphabet-design",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Semaphore Alphabet Design (Semaphore / Signaling)",
+    "source_b": "Church-Turing Thesis (Computer Science)"
+  },
+  {
+    "name": "Knit Stitch Topology Theory of Social Safety Net Design",
+    "core_claim": "Social safety nets should be designed using knit stitch topology: knitted fabric's unique property — that each loop is held in place by its neighbors, creating a structure where any single thread failure is contained locally rather than propagating catastrophically (unlike woven fabric where a broken warp thread unravels an entire column) — maps onto the principle that safety net programs should be interlocking loops (programs that catch beneficiaries falling through other programs) rather than parallel threads (independent programs that each serve different populations without cross-referencing). A knitted safety net where unemployment insurance loops through housing assistance which loops through food assistance which loops back to job training creates a self-stabilizing fabric; a woven safety net where each program operates as an independent column creates single-point-of-failure vulnerability.",
+    "mechanism_borrowed_from": "knit-stitch-topology",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Knit Stitch Topology (Textile Engineering)",
+    "source_b": "Keynesian Multiplier (Macroeconomics)"
+  },
+  {
+    "name": "Aerial Shell Burst Timing Theory of Comedic Timing",
+    "core_claim": "Comedic timing follows aerial shell burst timing mechanics: the shell (setup) is launched with a lift charge (premise establishment) and must detonate (punchline) at exactly the apogee of its trajectory — too early and the burst occurs too close to the audience (punchline arrives before the setup has fully expanded in the listener's mind), too late and the shell falls past apogee (the audience's attention begins declining before the payoff). Multi-break shells (jokes with multiple punchlines — callbacks, tags, toppers) require precisely sequenced time-delay fuses so each successive burst occurs at a higher altitude than the last, and the choreography of multiple shells in a show (a comedy set's joke sequence) must balance spectral variety (joke types), spatial distribution (topic range), and temporal rhythm (density and pacing).",
+    "mechanism_borrowed_from": "aerial-shell-burst-timing",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Aerial Shell Burst Timing (Pyrotechnics)",
+    "source_b": "Kantian Sublime (Aesthetics)"
+  },
+  {
+    "name": "Dendrochronology Divergence Problem Theory of Economic Indicator Failure",
+    "core_claim": "The dendrochronological divergence problem — where tree-ring widths that reliably tracked temperature for centuries suddenly decouple from observed temperatures in recent decades — provides a structural model for why economic indicators fail. Indicators like the yield curve, the Phillips curve, and the unemployment-inflation tradeoff reliably tracked their target variables for decades, then 'diverged' as the underlying system changed faster than the proxy relationship could adapt. The dendro insight is that the proxy (tree rings, economic indicator) hasn't failed — the assumption that the proxy-target relationship is stationary has failed. The same variable (ring width, yield spread) now encodes a different signal because the environmental context (CO2 levels, QE-era monetary policy) has shifted the response function. The solution is not to find better proxies but to build non-stationary transfer functions that explicitly model how the proxy-target relationship itself evolves.",
+    "mechanism_borrowed_from": "dendro-divergence-problem",
+    "domain_applied_to": "macroeconomics",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Dendro Divergence Problem (Dendrochronology)",
+    "source_b": "Keynesian Multiplier (Macroeconomics)"
+  },
+  {
+    "name": "Permaculture Edge Productivity Theory of Interdisciplinary Research",
+    "core_claim": "The most productive research occurs at permaculture-style edges: just as the edge between forest and meadow (ecotone) supports more species than either ecosystem alone because organisms from both habitats plus edge-specialist species coexist there, the boundary between academic disciplines supports more novel ideas than either discipline alone. The permaculture principle of maximizing edge-to-area ratio (using curved, fractal boundaries rather than straight ones) translates to: institutional structures that create long, complex disciplinary boundaries (joint departments, cross-listed courses, shared lab spaces) generate more intellectual productivity per square meter than either large disciplinary blocks or small isolated interdisciplinary centers. The edge must be genuine (actual contact between different ecosystems) not artificial (a 'center for interdisciplinary studies' without real disciplinary hinterlands on either side).",
+    "mechanism_borrowed_from": "permaculture-edge-productivity",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Permaculture Edge Productivity (Permaculture Design)",
+    "source_b": "Kuhnian Paradigm Shifts (Philosophy of Science)"
+  },
+  {
+    "name": "Morse Huffman Analogy Theory of Therapeutic Language Selection",
+    "core_claim": "Effective therapy requires Morse-Huffman optimal encoding: Morse code assigns the shortest symbols to the most frequent letters (E = dot, T = dash) following the same principle as Huffman coding. Therapists should similarly assign their shortest, simplest interventions to the most frequent client patterns, reserving complex interpretive frameworks for rare, genuinely unusual presentations. The pathology of psychotherapeutic training is that it encodes common problems with long codes (elaborate theoretical formulations for ordinary sadness, anxiety, interpersonal friction) while leaving rare conditions with short codes ('it's complex PTSD' — a label that compresses away the very detail that would enable treatment). A Huffman-optimal therapeutic language would ensure that encoding length is inversely proportional to pattern frequency, maximizing therapeutic bandwidth per session-minute.",
+    "mechanism_borrowed_from": "morse-huffman-analogy",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Morse Huffman Analogy (Morse Code / Telegraph)",
+    "source_b": "CBT Cognitive Model (Psychology)"
+  },
+  {
+    "name": "Lava Flow Channelization Theory of Information Cascade Routing",
+    "core_claim": "Information cascades in social networks self-channelize like lava flows: initial flow on an undifferentiated slope (new information entering a network) rapidly self-organizes into channels as the edges of the flow cool and solidify (early-engaged users whose opinions are now fixed), creating levees that constrain subsequent flow into narrower, faster channels. The channelization process is irreversible — once the levees form, the information cascade is committed to a specific path through the network regardless of whether that path leads to a receptive or hostile audience. This explains why viral misinformation is so difficult to redirect once it has begun flowing: the rheological properties of social engagement mean that the channel levees (established narrative framing) harden faster than correction campaigns can erode them.",
+    "mechanism_borrowed_from": "lava-flow-channelization",
+    "domain_applied_to": "network theory",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Lava Flow Channelization (Volcanology)",
+    "source_b": "Epidemic Threshold on Networks (Network Theory)"
+  },
+  {
+    "name": "Curd Moisture Partitioning Theory of Attention Distribution in Meditation",
+    "core_claim": "Meditation practice involves curd moisture partitioning: the meditator's task is to expel excess 'whey' (discursive thinking, sensory distraction) from the 'curd' (focused awareness) through sustained gentle pressure (continued attention to the meditation object). Pressing too hard (forceful concentration) produces dry, crumbly curd (rigid, brittle attention that shatters upon any disturbance); pressing too gently (passive observation without effort) retains too much whey (awareness remains diffuse and unfocused). The cheesemaker's knowledge that different cheeses require different moisture levels maps onto the contemplative traditions' insight that different meditation practices aim for different attention textures — vipassana seeks a relatively moist curd (awareness permeable to sensation), while samatha seeks a drier, firmer curd (highly consolidated attention).",
+    "mechanism_borrowed_from": "curd-moisture-partitioning",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Curd Moisture Partitioning (Cheesemaking)",
+    "source_b": "Zen Buddhism (Theology)"
+  },
+  {
+    "name": "Grain Boundary Strengthening Theory of Coalition Government Stability",
+    "core_claim": "Coalition government stability follows the Hall-Petch relationship: just as smaller grain size in metals produces stronger material (because grain boundaries impede dislocation movement), coalition governments with more, smaller parties (finer political 'grain') can be more stable than two-party systems (large-grain) because the numerous inter-party boundaries (coalition agreements, cross-cutting alliances) impede the 'dislocations' (defections, policy reversals) that cause political failure. The Hall-Petch relationship predicts a square-root dependence: stability scales with the inverse square root of party size, not linearly. Below a minimum grain size (too many tiny parties), the inverse Hall-Petch effect takes over — the grain boundaries themselves become the dominant failure mechanism (coalition coordination costs exceed the stability benefits), predicting an optimal party count for maximum governmental stability.",
+    "mechanism_borrowed_from": "grain-boundary-strengthening-hall-petch",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Grain Boundary Strengthening / Hall-Petch (Metallurgy)",
+    "source_b": "Evolutionary Stable Strategy (Game Theory)"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Biofouling Succession Theory of Software Technical Debt",
+    "core_claim": "Technical debt accumulates through biofouling succession: initial colonizers (quick-fix patches, copied code) form a biofilm (legacy layer) that provides substrate for secondary colonizers (workarounds that depend on the patches) and eventually macro-foulers (entire subsystems built on accumulated hacks). Anti-fouling strategies map directly: toxic coatings (strict linting, mandatory code review) prevent initial colonization but are environmentally costly (slow development velocity); non-stick surfaces (clean architecture, dependency injection) reduce adhesion but require periodic renewal. The critical insight is that fouling rate accelerates with roughness — the first patch makes the second patch more likely.",
+    "mechanism_borrowed_from": "biofouling-succession",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Biofouling Succession (Tidal Ecology)",
+    "source_b": "Kolmogorov Complexity"
+  },
+  {
+    "name": "Dendro Divergence Problem Theory of Economic Forecasting Model Failure",
+    "core_claim": "Economic forecasting models suffer from the dendrochronological divergence problem: models calibrated on historical data (tree-ring-temperature correlations) begin to diverge from reality when the underlying causal structure changes (post-1960s divergence in Arctic tree rings). The divergence is insidious because the model continues to produce plausible-looking outputs — the 'rings' still form, they just no longer encode the variable they were calibrated to track. Economic models trained on the Great Moderation period diverge when structural conditions change (zero lower bound, QE), producing confident forecasts that have silently decoupled from the target variable.",
+    "mechanism_borrowed_from": "dendro-divergence-problem",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Dendro Divergence Problem (Dendrochronology)",
+    "source_b": "Minsky Moment"
+  },
+  {
+    "name": "Falconry Hunting Cooperation Theory of Human-AI System Design",
+    "core_claim": "Effective human-AI systems should follow the falconry hunting cooperation model: the falconer (human) provides strategic intelligence (selecting hunting ground, reading terrain, choosing quarry), while the falcon (AI) provides tactical superiority (speed, sensory acuity, strike precision). Neither can hunt effectively alone — the falcon without the falconer wanders aimlessly, the falconer without the falcon lacks the capability to close. The falconer's centuries-old discovery that the optimal control interface is minimal (a whistle, a lure, a gloved fist) rather than continuous (reins, leash) suggests that AI systems perform best with sparse human oversight signals rather than continuous micromanagement.",
+    "mechanism_borrowed_from": "falconry-hunting-cooperation",
+    "domain_applied_to": "robotics",
+    "viability": "promising",
+    "confidence": 0.69,
+    "source_a": "Falconry Hunting Cooperation (Falconry)",
+    "source_b": "SLAM Robotics"
+  },
+  {
+    "name": "Curd Moisture Partitioning Theory of Information Classification Security",
+    "core_claim": "Information security classification follows curd moisture partitioning: the cheesemaker controls final texture (security outcome) primarily through how much whey (unclassified context) remains in the curd (classified document). High-moisture cheeses (documents with extensive unclassified context surrounding classified facts) spoil rapidly (leak easily through contextual inference), while low-moisture cheeses (tightly compartmented information) last longer but are harder to use (require extensive processing before consumption). The classification decision is fundamentally a moisture-partitioning decision: how much context to drain off, and at what stage of the process to cut the curd.",
+    "mechanism_borrowed_from": "curd-moisture-partitioning",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Curd Moisture Partitioning (Cheesemaking)",
+    "source_b": "Zero-Knowledge Proof"
+  },
+  {
+    "name": "Ferrofluid Labyrinthine Pattern Theory of Urban Street Network Evolution",
+    "core_claim": "Organic urban street networks evolve through ferrofluid labyrinthine pattern formation: competing magnetic domains (property boundaries, land uses) produce a maze-like pattern whose geometry emerges from local energy minimization rather than global planning. The labyrinthine pattern's characteristic wavelength (typical block size) is set by the competition between surface tension (construction cost of street frontage) and magnetic energy (land value gradient). Planned grid cities suppress the labyrinthine instability through overwhelming external order, but wherever planning control weakens (informal settlements, historical cores), the labyrinthine pattern re-emerges with predictable wavelength.",
+    "mechanism_borrowed_from": "ferrofluid-labyrinthine-pattern",
+    "domain_applied_to": "urban planning",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Ferrofluid Labyrinthine Pattern (Ferrofluid Dynamics)",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Puppet Illusion Threshold Theory of Suspension of Disbelief in VR",
+    "core_claim": "Virtual reality presence follows the puppet illusion threshold: audiences grant full subjective reality to a puppet (avatar) once a minimum set of behavioral cues crosses the illusion threshold — the puppet doesn't need to be realistic, it needs to be consistently responsive. Below threshold, the puppet is obviously an object; above, it becomes a character. VR avatars occupy the same perceptual space: a geometrically simple avatar with precise motion tracking (responsive puppet) produces stronger presence than a photorealistic avatar with laggy tracking (beautiful but unresponsive puppet). The uncanny valley is a puppet-illusion phenomenon — partial crossing of the threshold is worse than not crossing at all.",
+    "mechanism_borrowed_from": "puppet-illusion-threshold",
+    "domain_applied_to": "cognitive science",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Puppet Illusion Threshold (Puppetry / Marionette Mechanics)",
+    "source_b": "Global Workspace Theory"
+  },
+  {
+    "name": "Sake Koji Enzyme Balance Theory of Classroom Instruction Design",
+    "core_claim": "Classroom instruction design requires koji enzyme balance: the teacher must cultivate multiple enzyme activities (teaching methods) simultaneously — amylase (breaking complex concepts into digestible units), protease (breaking down students' existing misconceptions), and lipase (dissolving motivational barriers). Over-emphasis on any single enzyme produces imbalanced flavor: pure amylase instruction (constant simplification) produces sweet but shallow understanding; pure protease (Socratic deconstruction) produces umami depth but leaves students without constructive frameworks. The koji mold's ability to produce all three enzymes simultaneously from a single organism is the pedagogical ideal.",
+    "mechanism_borrowed_from": "sake-koji-enzyme-balance",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Sake Koji Enzyme Balance (Sake Brewing)",
+    "source_b": "Vygotsky's Zone of Proximal Development"
+  },
+  {
+    "name": "Linguistic Steganography Theory of Political Speechwriting",
+    "core_claim": "Political speeches employ linguistic steganography: the cover text (public message) carries a hidden payload (signal to specific constituencies) that is imperceptible to the general audience but decodable by recipients who possess the key (shared ideological vocabulary, dog-whistle recognition). The stego capacity of political language (how much hidden message can be embedded without detection) depends on the cover text's natural variability — speeches on complex policy topics have higher capacity than simple declarative statements. Steganalysis of political speech (media fact-checking, dog-whistle calling) is an adversarial detection problem with the same false-positive/false-negative tradeoffs as technical steganalysis.",
+    "mechanism_borrowed_from": "linguistic-steganography",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Linguistic Steganography (Steganography)",
+    "source_b": "Burkean Identification Rhetoric"
+  },
+  {
+    "name": "Taxidermy Skin Preservation Theory of Cultural Heritage Digitization",
+    "core_claim": "Cultural heritage digitization is a taxidermic preservation challenge: the 'skin' (surface appearance — images, text, physical form) can be preserved with current technology, but the 'internal anatomy' (cultural context, embodied knowledge, community meaning) decays the moment the specimen is removed from its living environment. High-resolution scans of a ritual mask are equivalent to a well-tanned skin — they preserve surface detail indefinitely but contain none of the living organism's behavior. The field-prep insight from taxidermy applies: the most critical preservation work must happen at the moment of 'collection' (community engagement, oral history recording), not in the lab (digital archive).",
+    "mechanism_borrowed_from": "taxidermy-skin-preservation",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Taxidermy Skin Preservation (Taxidermy / Preservation)",
+    "source_b": "Provenance Chain Integrity"
+  },
+  {
+    "name": "Splash Zone Extremophile Theory of Startup Founder Psychology",
+    "core_claim": "Successful startup founders are splash-zone extremophiles: they thrive in the organizational equivalent of the supralittoral zone — above the high-tide line of institutional support, exposed to extreme desiccation (resource scarcity), UV radiation (public scrutiny), and thermal cycling (market volatility). Their adaptations (high risk tolerance, obsessive focus, narrative construction ability) are precisely the traits that would be maladaptive in the subtidal zone (large corporate environments) where stable conditions select for different organisms. The common failure of 'acqui-hired' founders is an ecological mismatch — transplanting a splash-zone extremophile into the subtidal kills it.",
+    "mechanism_borrowed_from": "splash-zone-extremophile",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Splash Zone Extremophile (Tidal Ecology)",
+    "source_b": "Prospect Theory"
+  },
+  {
+    "name": "Bonsai Seasonal Timing Theory of Product Launch Windows",
+    "core_claim": "Product launches must follow bonsai seasonal timing: each intervention (pruning = feature cuts, wiring = market positioning, repotting = platform migration, fertilizing = marketing spend) has a specific seasonal window when the tree can tolerate the stress. Spring (market expansion periods) is for repotting and heavy pruning; summer (growth phases) for wiring and pinching; fall (maturation) for refinement; winter (dormancy) for structural evaluation. Launching a major feature cut (heavy pruning) during the tree's active growth season (market boom) wastes the growth energy the tree had allocated to the removed branches, producing die-back (customer churn) rather than redirection.",
+    "mechanism_borrowed_from": "bonsai-seasonal-timing",
+    "domain_applied_to": "marketing",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Bonsai Seasonal Timing (Bonsai Cultivation)",
+    "source_b": "Diffusion of Innovations"
+  },
+  {
+    "name": "Semaphore Night Adaptation Theory of Crisis Communication Modality Switching",
+    "core_claim": "Crisis communication requires semaphore night-adaptation: when the visual channel (normal media, social platforms) is degraded by darkness (information fog, platform failures, censorship), operators must switch to alternative signaling modalities — torches, lanterns, signal fires — that trade bandwidth for reliability. Organizations that rely exclusively on high-bandwidth visual semaphore (social media, email blasts) in daylight conditions have no night-signaling capability when crisis hits. The historical semaphore night-adaptation protocols (pre-arranged torch signals, reduced-alphabet systems) provide a template for crisis communication planning: pre-establish low-bandwidth, high-reliability channels before the darkness falls.",
+    "mechanism_borrowed_from": "semaphore-night-adaptation",
+    "domain_applied_to": "risk theory",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Semaphore Night Adaptation (Semaphore / Signaling)",
+    "source_b": "Black Swan Theory"
+  },
+  {
+    "name": "Morse Error Correction Theory of Peer Review Reliability",
+    "core_claim": "Scientific peer review functions as Morse telegraph error correction: the operator (reviewer) compares received message (manuscript) against expected patterns (domain knowledge) and requests retransmission (revision) when errors are detected. The error rate is determined by line quality (methodology transparency), operator skill (reviewer expertise), and message complexity (novelty of claims). The critical limitation — identical to telegraphy — is that the error-correction system can only detect errors it was designed to catch. Systematic biases (always misreading one letter as another) pass through error correction undetected, producing manuscripts that are 'correctly received' but carry a consistent, invisible distortion.",
+    "mechanism_borrowed_from": "morse-error-correction",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Morse Error Correction (Morse Code / Telegraph)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Sandcastle Drip Technique Theory of Agile Software Development",
+    "core_claim": "Agile development follows sandcastle drip technique: rather than building from pre-formed blocks (waterfall specifications), the developer drips small amounts of wet sand (minimal viable increments) that stack into organic, load-bearing structures whose final form emerges from the process rather than preceding it. Drip-built structures are remarkably strong relative to their material because each drip bonds chemically to the one below before the next arrives (continuous integration). The technique's limitation is that drip-built structures cannot produce flat surfaces or right angles (clean architectural boundaries) — they inherently produce organic, irregular forms that may not match the client's rectangular expectations.",
+    "mechanism_borrowed_from": "sandcastle-drip-technique",
+    "domain_applied_to": "computer science",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Sandcastle Drip Technique (Sandcastle Engineering)",
+    "source_b": "Complexity Classes"
+  },
+  {
+    "name": "Glass Gather Viscosity Theory of Early-Stage Venture Capital Timing",
+    "core_claim": "Venture capital investment timing follows glass gather viscosity: the molten glass (startup) must be worked within a narrow viscosity window — too hot (too early) and it flows uncontrollably (the company has no shape, any direction is possible but none is stable); too cool (too late) and it resists shaping (the company's trajectory is set and investor influence is minimal). The optimal working temperature varies by glass composition (industry vertical, technology type), and the glassblower's critical skill is reading viscosity by color and movement, not by thermometer — just as the best VCs read market timing through qualitative signals rather than quantitative metrics.",
+    "mechanism_borrowed_from": "glass-gather-viscosity",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Glass Gather Viscosity (Glassblowing)",
+    "source_b": "Economic Bubble"
+  }
+]

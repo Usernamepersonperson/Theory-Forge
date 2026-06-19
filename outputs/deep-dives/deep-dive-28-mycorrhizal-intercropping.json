@@ -1,0 +1,82 @@
+{
+  "name": "Mycorrhizal Network Theory of Intercropping Communication",
+  "rank": 28,
+  "confidence": 0.82,
+  "source_a": "Common Mycorrhizal Network",
+  "source_b": "Intercropping Resource Complementarity",
+  "mechanism_borrowed_from": "common-mycorrhizal-network",
+  "domain_applied_to": "agroecology",
+  "executive_summary": "Mycorrhizal Network Theory of Intercropping Communication (MNTIC) proposes that the success of intercropping systems depends not merely on above-ground niche partitioning and resource complementarity but on underground communication networks formed by common mycorrhizal fungi (CMN). These fungal networks connect the root systems of different crop species, functioning as an agricultural internet that transmits chemical signals between plants. When one crop species detects herbivore attack, it broadcasts defense-priming signals (jasmonic acid derivatives, volatile organic compounds) through the hyphal network, triggering preemptive defensive compound production in neighboring crop species before the pest arrives.\n\nThe theory's key insight is that mycorrhizal host compatibility between crop species is a stronger predictor of intercropping success than above-ground complementarity. Traditional intercropping theory focuses on light interception, nitrogen fixation, root depth stratification, and temporal niche partitioning. MNTIC adds an underground dimension: crop combinations that share compatible mycorrhizal partners form connected defense networks, while combinations with incompatible mycorrhizal associations (e.g., pairing a strongly arbuscular mycorrhizal crop with a non-mycorrhizal one) lack this communication channel. This explains why certain intercropping combinations outperform expectations based on resource complementarity alone, and why others underperform despite apparently ideal above-ground complementarity.\n\nMNTIC reframes intercropping design as a network engineering problem. The optimal polyculture is not the one with the most diverse above-ground architecture but the one with the best-connected underground communication topology. This has practical implications: soil management practices that disrupt mycorrhizal networks (tillage, phosphorus fertilization, fungicide application) may eliminate the communication benefit of intercropping even when the above-ground architecture is maintained. Conversely, practices that promote mycorrhizal network formation (reduced tillage, mycorrhizal inoculation, cover cropping with mycorrhizal hosts) can enhance intercropping benefits beyond what resource complementarity alone provides.",
+  "mapped_components": {
+    "unit": "A plant-mycorrhiza-plant signaling triad: two crop plants connected through a shared mycorrhizal fungal partner. The triad is the minimum unit of underground communication. Network effects emerge from triads linking into extended communication graphs.",
+    "variation": "Mycorrhizal compatibility variation among crop species. Some crops are strongly mycorrhizal (most grasses, legumes, alliums), some are weakly mycorrhizal (brassicas, chenopods), and some are non-mycorrhizal. The compatibility matrix determines which crop combinations can form communication networks and which cannot.",
+    "selection": "Pest and pathogen pressure selects for connected intercropping systems. Under high pest pressure, crop combinations with functional CMN defense signaling suffer less damage than disconnected combinations, because early warning signals allow preemptive defense investment. Under low pest pressure, the communication benefit is negligible and mycorrhizal carbon costs may reduce yields.",
+    "fitness": "Total polyculture yield stability and pest damage reduction, measured as the Land Equivalent Ratio (LER) under pest pressure. High-fitness intercropping systems maintain LER > 1.5 even during pest outbreaks, because CMN-mediated defense priming reduces crop losses across the polyculture.",
+    "boundary": "The theory applies to intercropping systems where: (1) at least two crop species are arbuscular-mycorrhizal hosts, (2) soil conditions support mycorrhizal network formation (low available phosphorus, intact soil structure, absence of fungicides), (3) pest or pathogen pressure is present. It does not apply to hydroponic or soilless growing systems, highly fertilized soils where mycorrhizal colonization is suppressed, or monoculture systems."
+  },
+  "falsifiable_predictions": [
+    "Intercropping combinations with shared mycorrhizal fungal partners (confirmed by DNA identification of root-colonizing fungi) will show higher Land Equivalent Ratios than combinations without shared partners, after controlling for above-ground resource complementarity metrics.",
+    "Severing mycorrhizal connections between intercropped species (via root exclusion barriers that block hyphal but not water flow, or via fungicide application) will reduce the pest-resistance benefit of intercropping by 30-60%, even when above-ground interactions are maintained.",
+    "Plants connected to pest-attacked neighbors via CMN will show elevated defense compound concentrations (jasmonic acid, proteinase inhibitors, volatile terpenoids) within 48-72 hours of the neighbor's attack, before any above-ground volatile signaling could explain the response.",
+    "Intercropping combinations involving non-mycorrhizal crop species (e.g., brassicas) will show lower-than-expected pest resistance benefits compared to combinations of mycorrhizal hosts with equivalent above-ground complementarity, because the underground communication channel is absent.",
+    "No-till intercropping systems will show greater pest resistance benefits than tilled intercropping systems using the same crop combinations, because tillage disrupts established mycorrhizal networks and forces annual network re-establishment — a prediction testable via multi-year field trials.",
+    "The speed of defense signal propagation through the intercropping system will correlate with the hyphal density of the connecting mycorrhizal network, measurable via root colonization rates and extra-radical hyphal length assessments."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Babikova et al. (2013) demonstrated that bean plants connected to aphid-infested neighbors via mycorrhizal networks produced volatile organic compounds that attracted aphid parasitoids, even when above-ground volatile transmission was blocked. The response required intact hyphal connections and was absent when hyphae were severed.",
+      "relevance": "Directly validates the core mechanism of MNTIC: plants transmit defense signals through mycorrhizal networks that trigger defensive responses in connected neighbors. The experimental design (blocking above-ground signaling while maintaining hyphal connections) isolates the underground communication pathway.",
+      "source": "Babikova, Z., Gilbert, L., Bruce, T.J., Birkett, M., Caulfield, J.C., Woodcock, C., Pickett, J.A., & Johnson, D. (2013). Underground signals carried through common mycelial networks warn neighbouring plants of aphid attack. Ecology Letters, 16(7), 835-843."
+    },
+    {
+      "finding": "Song et al. (2010) showed that tomato plants connected to blight-infected neighbors via CMN upregulated defense-related enzymes (peroxidase, polyphenol oxidase, phenylalanine ammonia-lyase) and showed reduced disease severity compared to unconnected controls. The signal transmission required 65-72 hours.",
+      "relevance": "Validates MNTIC's prediction that CMN-mediated defense priming operates on a timescale (48-72 hours) that provides meaningful early warning in agricultural contexts. The disease reduction in connected plants supports the pest-resistance benefit claim.",
+      "source": "Song, Y.Y., Zeng, R.S., Xu, J.F., Li, J., Shen, X., & Yihdego, W.G. (2010). Interplant communication of tomato plants through underground common mycorrhizal networks. PLoS ONE, 5(10), e13324."
+    },
+    {
+      "finding": "Brooker et al. (2015) reviewed intercropping research and found that the mechanisms underlying yield advantages in polycultures are poorly predicted by above-ground complementarity metrics alone, suggesting that below-ground interactions — potentially including mycorrhizal network effects — contribute substantially to intercropping success.",
+      "relevance": "Identifies the explanatory gap that MNTIC fills. If above-ground complementarity does not fully explain intercropping success, below-ground communication via CMN is a plausible missing mechanism.",
+      "source": "Brooker, R.W., Bennett, A.E., Cong, W.F., et al. (2015). Improving intercropping: a synthesis of research in agronomy, plant physiology and ecology. New Phytologist, 206(1), 107-117."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Mycorrhizal Connectivity Gradient Intercropping Trial",
+      "description": "Establish a factorial field trial crossing mycorrhizal connectivity (connected, severed, non-mycorrhizal crop substitution) with pest pressure (natural, augmented, suppressed) to isolate the contribution of CMN communication to intercropping pest resistance.",
+      "method": "Design a randomized complete block trial with three intercropping treatments: (a) maize-bean intercrop with intact CMN (no-till, no fungicide), (b) maize-bean intercrop with severed CMN (hyphal-severing root barriers or targeted fungicide), (c) maize-brassica intercrop (non-mycorrhizal crop substitution, matched above-ground architecture). Cross these with pest management: natural pest pressure, augmented pressure (pest introduction), and suppressed pressure (insecticide control). Measure: mycorrhizal colonization rates, defense compound concentrations in leaves, pest damage scores, and yield components. Run for 3+ years across 3+ sites.",
+      "expected_results": "Connected maize-bean intercrops under natural and augmented pest pressure will show 25-40% less pest damage and 15-25% higher yields than severed or non-mycorrhizal controls. Under suppressed pest pressure, the connectivity advantage will disappear or reverse (because mycorrhizal carbon costs are not offset by defense benefits). Defense compound concentrations in undamaged plants will be highest in connected treatments with augmented pest pressure."
+    },
+    {
+      "title": "Isotope-Traced Signal Propagation Mapping",
+      "description": "Use stable isotope labeling to trace the movement of defense-related compounds through mycorrhizal networks in an intercropping system, mapping the speed, directionality, and attenuation of signal propagation.",
+      "method": "In a controlled greenhouse intercropping system (maize-bean-squash 'three sisters' planting with confirmed CMN connections), apply 13C-labeled jasmonic acid to one 'sender' plant and track the appearance of 13C-labeled metabolites in connected 'receiver' plants at 12, 24, 48, 72, and 96 hours via mass spectrometry. Include disconnected controls (mesh barriers blocking hyphae) and non-mycorrhizal crop controls. Map the signal attenuation curve (13C enrichment vs. distance from sender) and determine the maximum effective signaling range.",
+      "expected_results": "13C-labeled defense compounds will appear in connected receiver plants within 24-48 hours, with signal intensity decaying with distance from the sender following a power-law or exponential attenuation curve. Maximum effective signaling range will be 0.5-2 meters (consistent with typical intercropping row spacing). Disconnected and non-mycorrhizal controls will show no 13C enrichment above background."
+    }
+  ],
+  "limitations": [
+    "The carbon cost of maintaining mycorrhizal associations (10-20% of host photosynthate) may offset pest resistance benefits in low-pest-pressure environments. MNTIC may overstate the net benefit of CMN connectivity by focusing on the defense signaling benefit while underweighting the metabolic cost.",
+    "Most evidence for CMN defense signaling comes from greenhouse studies with simplified species assemblages. Field-scale intercropping involves complex soil microbial communities, multiple competing mycorrhizal species, and environmental variability that may attenuate or scramble the signaling mechanism.",
+    "The theory assumes that defense signals transmitted through CMN are interpretable across crop species — that a jasmonic acid signal from a bean plant triggers an appropriate defensive response in maize. Cross-species signal interpretation has been demonstrated in a few cases but is not guaranteed for all crop combinations.",
+    "Mycorrhizal network formation is strongly influenced by soil phosphorus levels, and modern agriculture typically applies phosphorus fertilizer at rates that suppress mycorrhizal colonization. MNTIC's practical applicability may be limited to low-input, organic, or phosphorus-limited agricultural systems."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Mycelial Routing Theory of Urban Transit",
+      "relationship": "Both treat fungal network topology as an optimization template. MNTIC uses mycorrhizal networks for information routing between crops; MRUT uses mycelial network growth patterns for transit route optimization. They share the underlying principle that fungal networks self-organize toward efficient resource and information distribution."
+    },
+    {
+      "framework": "Stigmergic Supply Networks",
+      "relationship": "CMN communication is a form of stigmergy: one plant's chemical signal, deposited in the shared mycorrhizal environment, modifies the behavior of other plants that encounter it. MNTIC extends stigmergic coordination from animal systems (ant trails) to plant-fungal systems."
+    },
+    {
+      "framework": "Edaphic Trophic Cascade",
+      "relationship": "ETC's emphasis on soil food web integrity directly supports MNTIC: predatory nematodes and mites that maintain microbial community balance also create conditions favorable for mycorrhizal network establishment. Top predator loss (per ETC) may disrupt both soil structure and mycorrhizal communication networks simultaneously."
+    }
+  ],
+  "potential_applications": [
+    "Mycorrhizal-compatible crop pairing databases: Develop a farmer-accessible database that rates intercropping combinations by mycorrhizal compatibility (shared fungal partners, colonization rates) alongside traditional complementarity metrics, enabling CMN-informed polyculture design.",
+    "Precision agriculture integration: Use soil DNA metabarcoding to map mycorrhizal network extent in real time, enabling farmers to assess whether their intercropping systems have established functional communication networks and to target inoculation to disconnected zones.",
+    "Biological pest management enhancement: Design intercropping layouts that maximize CMN communication topology (e.g., alternating rows of highly mycorrhizal species that serve as signal relay stations), creating field-scale early warning networks that reduce pesticide requirements.",
+    "Climate adaptation strategy: As climate change shifts pest pressure patterns, MNTIC-designed intercropping systems with robust underground communication networks may provide adaptive pest resistance without requiring new chemical interventions — a resilience mechanism not available to monocultures."
+  ]
+}

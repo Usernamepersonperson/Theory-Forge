@@ -229,13 +229,13 @@
   },
   {
     "id": "karma",
-    "name": "Karma (Theravāda)",
+    "name": "Karma (Therav\u0101da)",
     "domain": "theology",
     "unit": "intentional act",
     "variation": "wholesome vs unwholesome intention",
     "selection": "moral law of cause and effect",
     "fitness": "rebirth quality",
-    "boundary": "cycle of saṃsāra",
+    "boundary": "cycle of sa\u1e43s\u0101ra",
     "tags": [
       "causality",
       "feedback",
@@ -635,7 +635,7 @@
     "domain": "statistics",
     "unit": "sum of i.i.d. random variables",
     "variation": "sample draws",
-    "selection": "normalization by √n",
+    "selection": "normalization by \u221an",
     "fitness": "convergence to normal",
     "boundary": "finite variance, independence",
     "tags": [
@@ -811,9 +811,9 @@
     "domain": "theology",
     "unit": "aggregate of experience",
     "variation": "transient sense-impressions",
-    "selection": "none — clinging breeds suffering",
+    "selection": "none \u2014 clinging breeds suffering",
     "fitness": "liberation from craving",
-    "boundary": "saṃsāric perception",
+    "boundary": "sa\u1e43s\u0101ric perception",
     "tags": [
       "negation",
       "belief",
@@ -871,12 +871,12 @@
   },
   {
     "id": "sufism-fana",
-    "name": "Fanāʾ (Sufi Annihilation)",
+    "name": "Fan\u0101\u02be (Sufi Annihilation)",
     "domain": "theology",
     "unit": "egoic self",
     "variation": "degrees of attachment",
     "selection": "dissolution in divine reality",
-    "fitness": "baqāʾ (subsistence in God)",
+    "fitness": "baq\u0101\u02be (subsistence in God)",
     "boundary": "mystical experience, sharia frame",
     "tags": [
       "negation",
@@ -887,9 +887,9 @@
   },
   {
     "id": "advaita",
-    "name": "Advaita Vedānta",
+    "name": "Advaita Ved\u0101nta",
     "domain": "theology",
-    "unit": "appearance (māyā)",
+    "unit": "appearance (m\u0101y\u0101)",
     "variation": "superimpositions on Brahman",
     "selection": "discriminating knowledge (viveka)",
     "fitness": "recognition of non-duality",
@@ -1450,7 +1450,7 @@
     "name": "Minsky Financial Instability",
     "domain": "finance",
     "unit": "debt-financed position",
-    "variation": "hedge → speculative → Ponzi",
+    "variation": "hedge \u2192 speculative \u2192 Ponzi",
     "selection": "stability breeds risk-taking",
     "fitness": "system fragility",
     "boundary": "credit cycle",
@@ -1527,7 +1527,7 @@
   },
   {
     "id": "godel-incompleteness",
-    "name": "Gödel's Incompleteness",
+    "name": "G\u00f6del's Incompleteness",
     "domain": "mathematics",
     "unit": "formal system",
     "variation": "candidate axiom sets",
@@ -3034,7 +3034,7 @@
     "domain": "category theory",
     "unit": "functor pair (F, G) between categories",
     "variation": "candidate correspondences between hom-sets",
-    "selection": "natural bijection Hom(F(A),B) ≅ Hom(A,G(B))",
+    "selection": "natural bijection Hom(F(A),B) \u2245 Hom(A,G(B))",
     "fitness": "universal solution to a mapping problem",
     "boundary": "categories with sufficient limits/colimits",
     "tags": [
@@ -7493,7 +7493,7 @@
     "unit": "corporate entity node in ownership graph",
     "variation": "layering depth, shared directors, circular ownership structures",
     "selection": "unusual graph centrality or cyclicity flags concealment structures",
-    "fitness": "opacity score — ratio of beneficial ownership hops to transaction volume",
+    "fitness": "opacity score \u2014 ratio of beneficial ownership hops to transaction volume",
     "boundary": "jurisdictional disclosure requirements, data availability, nominee masking",
     "tags": [
       "network",
@@ -7601,7 +7601,7 @@
     "id": "honeybee-waggle-dance-recruitment",
     "name": "Honeybee Waggle Dance Recruitment",
     "domain": "swarm intelligence",
-    "unit": "forager–recruit pair",
+    "unit": "forager\u2013recruit pair",
     "variation": "dance duration and angle encode distance and direction to food source",
     "selection": "richer sources recruit more foragers via longer dances",
     "fitness": "colony energy intake rate from recruited foraging",
@@ -7727,10 +7727,10 @@
     "id": "permaculture-zone-gradient",
     "name": "Zone-Based Attention Gradient",
     "domain": "permaculture design",
-    "unit": "management zone (0–5)",
+    "unit": "management zone (0\u20135)",
     "variation": "distance from dwelling, visit frequency, intervention intensity",
     "selection": "high-maintenance elements placed in high-attention zones",
-    "fitness": "labor efficiency — yield per unit of human transit energy",
+    "fitness": "labor efficiency \u2014 yield per unit of human transit energy",
     "boundary": "site topography, access paths, climate extremes, land area",
     "tags": [
       "gradient",
@@ -7766,7 +7766,7 @@
     "unit": "nutrient atom (N, P, K) in the farm system",
     "variation": "composting method, animal integration, cover crop selection",
     "selection": "systems minimizing nutrient export maintain long-term soil fertility",
-    "fitness": "nutrient balance ratio — internal cycling vs. external inputs",
+    "fitness": "nutrient balance ratio \u2014 internal cycling vs. external inputs",
     "boundary": "harvest removal, leaching loss, biological fixation capacity",
     "tags": [
       "feedback-loop",
@@ -8348,7 +8348,7 @@
     "variation": "bacterial strain diversity and temperature fluctuation during secondary fermentation",
     "selection": "lactic acid bacteria outcompete spoilage organisms under controlled pH descent",
     "fitness": "conversion rate of malic to lactic acid; sensory softening of acidity",
-    "boundary": "pH floor (~3.1), sulfite concentration, temperature range (18–25°C)",
+    "boundary": "pH floor (~3.1), sulfite concentration, temperature range (18\u201325\u00b0C)",
     "tags": [
       "threshold",
       "competition",
@@ -9517,7 +9517,7 @@
     "unit": "pin stack (driver + key pin) in a lock cylinder",
     "variation": "manufacturing tolerances create slight differences in pin binding order",
     "selection": "only the pin order that allows sequential setting reaches the shear line",
-    "fitness": "all pin stacks aligned at shear line simultaneously → cylinder rotates",
+    "fitness": "all pin stacks aligned at shear line simultaneously \u2192 cylinder rotates",
     "boundary": "number of pins, tolerance precision, security pins (spools, serrated)",
     "tags": [
       "sequence",
@@ -9533,9 +9533,9 @@
     "name": "Key Bitting Combinatorial Space",
     "domain": "lock-picking / security engineering",
     "unit": "cut depth at each bitting position on a key",
-    "variation": "number of depth increments × number of bitting positions",
+    "variation": "number of depth increments \u00d7 number of bitting positions",
     "selection": "MACS (Maximum Adjacent Cut Specification) eliminates physically impossible keys",
-    "fitness": "effective key differs — total usable unique combinations",
+    "fitness": "effective key differs \u2014 total usable unique combinations",
     "boundary": "number of pin positions, depth increments, MACS constraints, master-keying entropy loss",
     "tags": [
       "combinatorics",
@@ -9606,7 +9606,7 @@
     "domain": "origami mathematics",
     "unit": "crease vertex in a flat-foldable pattern",
     "variation": "angles between creases at each interior vertex",
-    "selection": "vertices where alternating angles sum to 180° satisfy flat-foldability; others fail",
+    "selection": "vertices where alternating angles sum to 180\u00b0 satisfy flat-foldability; others fail",
     "fitness": "the crease pattern collapses to a flat state without self-intersection",
     "boundary": "paper thickness (ideal: zero), number of layers, global vs. local foldability",
     "tags": [
@@ -9624,7 +9624,7 @@
     "domain": "origami mathematics",
     "unit": "crease segment with mountain or valley assignment",
     "variation": "2^n possible M/V assignments for n creases at a vertex",
-    "selection": "Maekawa's theorem (M − V = ±2) filters valid assignments; layer ordering eliminates the rest",
+    "selection": "Maekawa's theorem (M \u2212 V = \u00b12) filters valid assignments; layer ordering eliminates the rest",
     "fitness": "a globally consistent, non-self-intersecting folded state",
     "boundary": "Maekawa constraint, layer-ordering feasibility, paper self-intersection",
     "tags": [
@@ -9732,7 +9732,7 @@
     "domain": "beekeeping / apiculture",
     "unit": "brood cell containing a developing larva or pupa",
     "variation": "nurse-bee fanning, clustering, and metabolic heat generation adjust brood-nest temperature",
-    "selection": "brood reared outside 34–36 °C range shows developmental defects and is culled",
+    "selection": "brood reared outside 34\u201336 \u00b0C range shows developmental defects and is culled",
     "fitness": "proportion of brood that emerges as healthy adult bees",
     "boundary": "ambient temperature extremes, colony population size, energy reserves (honey stores)",
     "tags": [
@@ -9788,7 +9788,7 @@
     "unit": "candidate route through obstacle field",
     "variation": "exploratory movement attempts, line improvisation",
     "selection": "routes that minimize energy cost while maintaining momentum survive in the traceur's repertoire",
-    "fitness": "speed × fluidity / injury risk",
+    "fitness": "speed \u00d7 fluidity / injury risk",
     "boundary": "grip friction, surface geometry, fatigue threshold, legal access",
     "tags": [
       "optimization",
@@ -9896,7 +9896,7 @@
     "unit": "microbial strain in the culture consortium",
     "variation": "mutation, horizontal gene transfer, strain ratio drift between batches",
     "selection": "strains that acidify on schedule and produce desirable flavor compounds dominate; off-flavor producers are diluted out",
-    "fitness": "contribution to target pH curve × flavor desirability",
+    "fitness": "contribution to target pH curve \u00d7 flavor desirability",
     "boundary": "temperature program, nutrient availability, phage predation, back-slopping ratio",
     "tags": [
       "variation",
@@ -9909,7 +9909,7 @@
   },
   {
     "id": "affinage-rind-coevolution",
-    "name": "Affinage–Rind Coevolution",
+    "name": "Affinage\u2013Rind Coevolution",
     "domain": "cheesemaking",
     "unit": "wheel surface microenvironment during aging",
     "variation": "humidity shifts, turning schedule, ambient mold spore diversity",
@@ -9950,7 +9950,7 @@
     "unit": "biofilm community on washed-rind surface",
     "variation": "brine concentration, wash frequency, ambient microbiota",
     "selection": "communities producing Brevibacterium-dominated orange rinds with characteristic aroma are favored; unwanted molds are washed away",
-    "fitness": "color intensity × aroma profile match",
+    "fitness": "color intensity \u00d7 aroma profile match",
     "boundary": "salt tolerance range, wash solution pH, aging room ventilation, competing fungi",
     "tags": [
       "self-assembly",
@@ -9986,7 +9986,7 @@
     "unit": "candidate cover object (image, audio, text)",
     "variation": "object type, natural noise profile, statistical texture",
     "selection": "covers whose native statistics best mask embedded data are preferred; statistically smooth covers reveal artifacts",
-    "fitness": "embedding capacity × statistical indistinguishability",
+    "fitness": "embedding capacity \u00d7 statistical indistinguishability",
     "boundary": "available cover corpus, channel format constraints, observer model sophistication",
     "tags": [
       "selection",
@@ -10184,7 +10184,7 @@
     "unit": "audience seat position relative to puppet stage",
     "variation": "stage height, masking curtain position, lighting angle, puppet scale",
     "selection": "staging geometries that hide the operator while maximizing puppet visibility across seating are adopted; designs exposing mechanics break illusion",
-    "fitness": "percentage of seats with unobstructed puppet view × operator concealment",
+    "fitness": "percentage of seats with unobstructed puppet view \u00d7 operator concealment",
     "boundary": "venue geometry, operator height, puppet size, lighting rig placement",
     "tags": [
       "optimization",
@@ -10202,7 +10202,7 @@
     "unit": "joint in the puppet's kinematic chain",
     "variation": "joint type (hinge, ball, pivot), range of motion, friction coefficient",
     "selection": "joint hierarchies enabling expressive gesture with stable posture are preferred; floppy or rigid chains fail expressiveness tests",
-    "fitness": "gestural expressiveness score × postural stability",
+    "fitness": "gestural expressiveness score \u00d7 postural stability",
     "boundary": "material weight, string count limit, carving precision, wood grain orientation",
     "tags": [
       "hierarchy",
@@ -10274,7 +10274,7 @@
     "unit": "subfossil or structural timber sample",
     "variation": "preservation state, species match, geographic provenance uncertainty",
     "selection": "samples successfully cross-dated against the living-tree chronology extend it backward; undatable samples are excluded",
-    "fitness": "chronology length gained × dating confidence",
+    "fitness": "chronology length gained \u00d7 dating confidence",
     "boundary": "wood preservation chemistry, gap-free overlap requirement, sample availability, species continuity",
     "tags": [
       "extension",
@@ -10292,8 +10292,8 @@
     "unit": "tree-ring series in the post-1960 calibration window",
     "variation": "threshold responses to warming, pollution effects, moisture regime shifts",
     "selection": "series maintaining temperature sensitivity are retained for reconstruction; divergent series violating uniformitarianism are excluded or detrended",
-    "fitness": "stability of the ring-width–temperature relationship across calibration windows",
-    "boundary": "non-climatic growth trends, CO₂ fertilization, ozone damage, site disturbance history",
+    "fitness": "stability of the ring-width\u2013temperature relationship across calibration windows",
+    "boundary": "non-climatic growth trends, CO\u2082 fertilization, ozone damage, site disturbance history",
     "tags": [
       "divergence",
       "calibration",
@@ -10398,7 +10398,7 @@
     "name": "Fracture Path Selection",
     "domain": "kintsugi / ceramics repair",
     "unit": "crack front segment",
-    "variation": "microstructural heterogeneity — grain boundaries, pores, glaze defects — deflect the advancing crack",
+    "variation": "microstructural heterogeneity \u2014 grain boundaries, pores, glaze defects \u2014 deflect the advancing crack",
     "selection": "the crack follows the path of least fracture resistance (lowest local toughness)",
     "fitness": "energy release rate along the chosen path",
     "boundary": "impact energy, ceramic composition, pre-existing flaws, glaze-body interface strength",
@@ -10436,7 +10436,7 @@
     "unit": "visible repair seam segment",
     "variation": "fracture geometry, gold powder grain size, and lacquer application technique produce diverse seam appearances",
     "selection": "seams that create visual contrast and narrative coherence with the vessel are valued; invisible repairs are not kintsugi",
-    "fitness": "aesthetic impact — the degree to which damage history is celebrated rather than concealed",
+    "fitness": "aesthetic impact \u2014 the degree to which damage history is celebrated rather than concealed",
     "boundary": "fracture complexity, gold particle size, cultural framing of wabi-sabi, artisan skill",
     "tags": [
       "emergence",
@@ -10760,7 +10760,7 @@
     "unit": "internode (stem segment between leaf nodes)",
     "variation": "pot restriction, root pruning, and defoliation alter auxin-cytokinin ratios, producing variable internode lengths and leaf sizes",
     "selection": "short internodes with reduced leaf area maintain proportional tree appearance at small scale; leggy growth is pruned away",
-    "fitness": "visual proportionality — ratio of trunk caliper to tree height to leaf size",
+    "fitness": "visual proportionality \u2014 ratio of trunk caliper to tree height to leaf size",
     "boundary": "species vigor, pot volume, root mass, fertilization regime, genetic predisposition to ramification",
     "tags": [
       "constraint",
@@ -10812,7 +10812,7 @@
     "name": "Seasonal Intervention Timing",
     "domain": "bonsai cultivation",
     "unit": "horticultural intervention event (pruning, wiring, repotting, fertilizing)",
-    "variation": "the same intervention performed in different seasons triggers different physiological responses — spring pruning triggers back-budding; autumn pruning risks dieback",
+    "variation": "the same intervention performed in different seasons triggers different physiological responses \u2014 spring pruning triggers back-budding; autumn pruning risks dieback",
     "selection": "interventions timed to species-specific growth phases succeed; mistimed work causes stress, disease entry, or death",
     "fitness": "tree vigor and design progression across the annual cycle",
     "boundary": "species dormancy requirements, local climate, tree health status, recovery time between interventions",
@@ -10866,7 +10866,7 @@
     "name": "Glass Color Redox Chemistry",
     "domain": "glassblowing",
     "unit": "metal oxide dopant",
-    "variation": "oxidation state of transition metals (Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺)",
+    "variation": "oxidation state of transition metals (Fe\u00b2\u207a/Fe\u00b3\u207a, Cu\u207a/Cu\u00b2\u207a)",
     "selection": "atmosphere and temperature determine stable redox state",
     "fitness": "target color saturation and transparency",
     "boundary": "melt composition, furnace atmosphere, cooling schedule",
@@ -11381,6 +11381,547 @@
       "threshold",
       "channel",
       "constraint"
+    ]
+  },
+  {
+    "id": "stroke-momentum-transfer",
+    "name": "Stroke Momentum Transfer",
+    "domain": "calligraphy",
+    "unit": "brush stroke segment",
+    "variation": "velocity, angle of attack, bristle splay at entry",
+    "selection": "strokes that sustain ink deposition without pooling or starvation survive in the canon",
+    "fitness": "uniformity of ink density across stroke length",
+    "boundary": "ink viscosity, paper absorbency, bristle elasticity, hand tremor frequency",
+    "tags": [
+      "momentum",
+      "fluid-dynamics",
+      "pressure",
+      "feedback",
+      "craft",
+      "gesture"
+    ]
+  },
+  {
+    "id": "pressure-modulation-curve",
+    "name": "Pressure Modulation Curve",
+    "domain": "calligraphy",
+    "unit": "nib-to-surface contact patch",
+    "variation": "downforce profile across a single letterform",
+    "selection": "letterforms with smooth thick-thin transitions are preserved and taught",
+    "fitness": "ratio of intended to actual line-weight variation",
+    "boundary": "nib flexibility, writing surface friction, wrist pivot range",
+    "tags": [
+      "pressure",
+      "modulation",
+      "feedback",
+      "control-theory",
+      "aesthetics",
+      "replication"
+    ]
+  },
+  {
+    "id": "ink-capillary-equilibrium",
+    "name": "Ink Capillary Equilibrium",
+    "domain": "calligraphy",
+    "unit": "ink meniscus at nib tine gap",
+    "variation": "tine gap width, ink surface tension, feed channel geometry",
+    "selection": "configurations that deliver steady flow without blobbing or railroading dominate nib design",
+    "fitness": "consistency of ink delivery rate per unit stroke length",
+    "boundary": "ambient humidity, ink evaporation rate, capillary pressure limits",
+    "tags": [
+      "capillarity",
+      "equilibrium",
+      "fluid-dynamics",
+      "self-regulation",
+      "craft",
+      "design"
+    ]
+  },
+  {
+    "id": "letterform-proportion-grammar",
+    "name": "Letterform Proportion Grammar",
+    "domain": "calligraphy",
+    "unit": "proportional relationship (x-height to ascender, counter to stem)",
+    "variation": "scribal tradition, regional style, tool geometry",
+    "selection": "proportions that maximize legibility and aesthetic coherence persist across centuries",
+    "fitness": "reader recognition speed and calligrapher adoption rate",
+    "boundary": "alphabet structure, tool constraints, writing speed demands",
+    "tags": [
+      "proportion",
+      "grammar",
+      "legibility",
+      "tradition",
+      "selection",
+      "aesthetics",
+      "replication"
+    ]
+  },
+  {
+    "id": "ductus-sequence-optimization",
+    "name": "Ductus Sequence Optimization",
+    "domain": "calligraphy",
+    "unit": "stroke order within a glyph",
+    "variation": "permutations of stroke sequence, direction, and pen lifts",
+    "selection": "sequences minimizing pen lifts while maintaining consistent joins are taught and copied",
+    "fitness": "writing speed times letterform fidelity",
+    "boundary": "hand biomechanics, ink drying time, stroke interdependency",
+    "tags": [
+      "optimization",
+      "sequence",
+      "biomechanics",
+      "efficiency",
+      "tradition",
+      "craft"
+    ]
+  },
+  {
+    "id": "pot-still-reflux-gradient",
+    "name": "Pot Still Reflux Gradient",
+    "domain": "whisky distillation",
+    "unit": "vapour fraction at a given still height",
+    "variation": "still neck length, lyne arm angle, copper surface area",
+    "selection": "reflux ratios that separate desirable congeners from fusel oils define house character",
+    "fitness": "concentration of target flavour esters in collected spirit",
+    "boundary": "heat input rate, ambient temperature, still geometry fixed at construction",
+    "tags": [
+      "reflux",
+      "gradient",
+      "separation",
+      "thermodynamics",
+      "craft",
+      "design"
+    ]
+  },
+  {
+    "id": "foreshot-heart-feint-cut",
+    "name": "Foreshots-Hearts-Feints Cut Point Theory",
+    "domain": "whisky distillation",
+    "unit": "distillate fraction (time window during spirit run)",
+    "variation": "cut point timing, sensory thresholds of the stillman, ABV at transition",
+    "selection": "cut decisions that maximize hearts quality while avoiding off-notes are retained as house practice",
+    "fitness": "organoleptic quality score of new-make spirit",
+    "boundary": "wash composition, still charge volume, legal minimum ABV",
+    "tags": [
+      "threshold",
+      "decision",
+      "sensory",
+      "feedback",
+      "tradition",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "cask-maturation-equilibrium",
+    "name": "Cask Maturation Equilibrium",
+    "domain": "whisky distillation",
+    "unit": "spirit-wood interface zone",
+    "variation": "cask type, char level, warehouse microclimate, fill strength",
+    "selection": "cask regimes producing balanced extraction without over-oaking are repeated",
+    "fitness": "sensory complexity index at bottling strength",
+    "boundary": "angel's share loss rate, legal minimum maturation period, warehouse capacity",
+    "tags": [
+      "equilibrium",
+      "diffusion",
+      "aging",
+      "feedback",
+      "scarcity",
+      "craft"
+    ]
+  },
+  {
+    "id": "peat-phenol-absorption",
+    "name": "Peat Phenol Absorption Dynamics",
+    "domain": "whisky distillation",
+    "unit": "phenolic compound bound to malt kernel",
+    "variation": "peat source, kiln temperature, airflow rate, malt moisture content",
+    "selection": "kilning profiles that embed target PPM without acrid bitterness are selected by maltsters",
+    "fitness": "parts per million of target phenols (cresols, guaiacols) in finished malt",
+    "boundary": "malt enzyme survival threshold, peat combustion chemistry, drying time",
+    "tags": [
+      "absorption",
+      "threshold",
+      "chemistry",
+      "craft",
+      "feedback",
+      "agents"
+    ]
+  },
+  {
+    "id": "wash-fermentation-congener-budget",
+    "name": "Wash Fermentation Congener Budget",
+    "domain": "whisky distillation",
+    "unit": "congener species produced per fermentation cycle",
+    "variation": "yeast strain, fermentation temperature, washback material, fermentation length",
+    "selection": "fermentation regimes yielding fruity esters over sulphur compounds are favoured",
+    "fitness": "ester-to-sulphur ratio in wash at distillation",
+    "boundary": "yeast viability limits, sugar availability, bacterial contamination risk",
+    "tags": [
+      "fermentation",
+      "metabolism",
+      "variation",
+      "selection",
+      "agents",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "coral-bleaching-thermal-threshold",
+    "name": "Coral Bleaching Thermal Threshold",
+    "domain": "coral reef ecology",
+    "unit": "coral-Symbiodinium holobiont",
+    "variation": "Symbiodinium clade composition, host heat-shock protein expression",
+    "selection": "holobionts retaining symbionts above local MMM+1\u00b0C survive; others bleach and may die",
+    "fitness": "days of thermal stress tolerated before bleaching onset",
+    "boundary": "maximum monthly mean SST, UV irradiance, nutrient loading",
+    "tags": [
+      "threshold",
+      "symbiosis",
+      "stress-response",
+      "selection",
+      "climate",
+      "feedback"
+    ]
+  },
+  {
+    "id": "symbiodinium-shuffling",
+    "name": "Symbiodinium Shuffling and Switching",
+    "domain": "coral reef ecology",
+    "unit": "Symbiodinium clade proportion within a coral colony",
+    "variation": "background clade abundances shift under thermal stress",
+    "selection": "clades conferring thermotolerance (e.g., clade D) increase post-bleaching",
+    "fitness": "holobiont survival probability under repeated thermal events",
+    "boundary": "photosynthetic efficiency trade-off, clade availability in local pool, host specificity",
+    "tags": [
+      "symbiosis",
+      "adaptation",
+      "trade-off",
+      "variation",
+      "selection",
+      "resilience"
+    ]
+  },
+  {
+    "id": "reef-accretion-erosion-balance",
+    "name": "Reef Accretion-Erosion Balance",
+    "domain": "coral reef ecology",
+    "unit": "net carbonate budget per square metre per year",
+    "variation": "coral growth rate, coralline algae cementation, bioeroder density",
+    "selection": "reef zones where accretion exceeds erosion maintain structural complexity and grow vertically",
+    "fitness": "net vertical accretion rate (mm/yr)",
+    "boundary": "sea level rise rate, ocean pH, storm frequency, parrotfish grazing intensity",
+    "tags": [
+      "accretion",
+      "erosion",
+      "equilibrium",
+      "budget",
+      "feedback",
+      "structure"
+    ]
+  },
+  {
+    "id": "coral-calcification-omega",
+    "name": "Coral Calcification and Aragonite Saturation",
+    "domain": "coral reef ecology",
+    "unit": "aragonite crystal deposited at calicoblastic epithelium",
+    "variation": "seawater \u03a9arag, coral internal pH up-regulation, light-enhanced calcification",
+    "selection": "species maintaining calcification under declining \u03a9arag persist; others retreat",
+    "fitness": "skeletal extension rate (linear mm/yr) at ambient \u03a9arag",
+    "boundary": "metabolic cost of pH up-regulation, dissolved inorganic carbon supply, photosynthate from symbionts",
+    "tags": [
+      "calcification",
+      "chemistry",
+      "adaptation",
+      "threshold",
+      "feedback",
+      "energetics"
+    ]
+  },
+  {
+    "id": "reef-trophic-cascade",
+    "name": "Reef Herbivore-Algae Trophic Cascade",
+    "domain": "coral reef ecology",
+    "unit": "benthic patch (coral vs. macroalgae cover)",
+    "variation": "herbivore biomass, macroalgal recruitment, coral recruitment",
+    "selection": "patches with sufficient herbivory resist algal phase shifts and maintain coral dominance",
+    "fitness": "coral-to-macroalgae cover ratio",
+    "boundary": "fishing pressure, nutrient runoff, larval connectivity, storm disturbance interval",
+    "tags": [
+      "trophic-cascade",
+      "agents",
+      "competition",
+      "bistability",
+      "feedback",
+      "resilience"
+    ]
+  },
+  {
+    "id": "kerning-pair-optimization",
+    "name": "Kerning Pair Optimization",
+    "domain": "typesetting",
+    "unit": "inter-glyph spacing adjustment (kern pair)",
+    "variation": "sidebearing values, glyph contour shapes, class-based vs. flat kerning",
+    "selection": "kern values producing perceptually uniform inter-letter spacing are chosen by type designers",
+    "fitness": "inverse variance of perceived inter-letter area across a text block",
+    "boundary": "glyph count combinatorics, rendering engine precision, font file size limits",
+    "tags": [
+      "optimization",
+      "perception",
+      "aesthetics",
+      "combinatorics",
+      "craft",
+      "feedback"
+    ]
+  },
+  {
+    "id": "leading-readability-curve",
+    "name": "Leading-Readability Curve",
+    "domain": "typesetting",
+    "unit": "baseline-to-baseline distance (leading value)",
+    "variation": "type size, x-height ratio, line length, ascender/descender extent",
+    "selection": "leading values maximizing reading speed and comprehension are adopted in style guides",
+    "fitness": "words-per-minute times comprehension score in reading tests",
+    "boundary": "page height, column width, minimum legible size, printing resolution",
+    "tags": [
+      "readability",
+      "ergonomics",
+      "proportion",
+      "feedback",
+      "tradition",
+      "optimization"
+    ]
+  },
+  {
+    "id": "typographic-river-detection",
+    "name": "Typographic River Formation",
+    "domain": "typesetting",
+    "unit": "vertical white-space alignment across consecutive lines",
+    "variation": "justification algorithm, word-space flexibility, hyphenation aggressiveness",
+    "selection": "paragraph settings that minimize visible rivers are preferred by compositors",
+    "fitness": "inverse count of perceptible vertical white-space channels per page",
+    "boundary": "column width, language word-length distribution, hyphenation dictionary completeness",
+    "tags": [
+      "pattern",
+      "emergence",
+      "perception",
+      "optimization",
+      "aesthetics",
+      "noise"
+    ]
+  },
+  {
+    "id": "optical-margin-alignment",
+    "name": "Optical Margin Alignment",
+    "domain": "typesetting",
+    "unit": "glyph overhang past the margin boundary",
+    "variation": "glyph shape (round, diagonal, serif, punctuation), overshoot percentage",
+    "selection": "overhang values that make the margin appear straight to the eye replace mechanical alignment",
+    "fitness": "perceived margin straightness rating in reader surveys",
+    "boundary": "glyph category inventory, rendering resolution, compositor effort",
+    "tags": [
+      "perception",
+      "illusion",
+      "correction",
+      "aesthetics",
+      "craft",
+      "design"
+    ]
+  },
+  {
+    "id": "font-hinting-grid-fit",
+    "name": "Font Hinting and Grid Fitting",
+    "domain": "typesetting",
+    "unit": "control point adjustment instruction (hint)",
+    "variation": "hinting strategy (manual TrueType, autohint, ClearType), target pixel grid",
+    "selection": "hint programs that preserve glyph identity at small sizes on low-res screens are retained",
+    "fitness": "legibility score at target ppem on target rasterizer",
+    "boundary": "pixel grid resolution, subpixel rendering availability, instruction set complexity limits",
+    "tags": [
+      "discretization",
+      "optimization",
+      "legibility",
+      "adaptation",
+      "feedback",
+      "design"
+    ]
+  },
+  {
+    "id": "differential-hardening-hamon",
+    "name": "Differential Hardening and Hamon Formation",
+    "domain": "swordsmithing",
+    "unit": "martensite-pearlite boundary zone along blade cross-section",
+    "variation": "clay thickness profile, quench medium temperature, steel carbon content",
+    "selection": "clay profiles producing a visible, consistent hamon with hard edge and tough spine are taught and repeated",
+    "fitness": "edge hardness (HRC) times spine toughness (impact resistance)",
+    "boundary": "critical cooling rate of the steel, quench medium heat capacity, warpage risk",
+    "tags": [
+      "phase-transition",
+      "gradient",
+      "craft",
+      "tradition",
+      "feedback",
+      "structure"
+    ]
+  },
+  {
+    "id": "quench-curve-martensite",
+    "name": "Quench Curve and Martensite Transformation",
+    "domain": "swordsmithing",
+    "unit": "austenite grain undergoing quench",
+    "variation": "quench speed, steel alloy composition, blade geometry at quench",
+    "selection": "cooling paths that cross the martensite start temperature before pearlite nose produce hard steel",
+    "fitness": "percentage of martensite formed in the edge zone",
+    "boundary": "TTT diagram of the alloy, blade mass distribution, quenchant agitation",
+    "tags": [
+      "phase-transition",
+      "thermodynamics",
+      "threshold",
+      "irreversibility",
+      "craft",
+      "structure"
+    ]
+  },
+  {
+    "id": "tang-construction-stress",
+    "name": "Tang Construction and Stress Distribution",
+    "domain": "swordsmithing",
+    "unit": "tang cross-section geometry",
+    "variation": "tang taper, width-to-thickness ratio, hole placement for mekugi",
+    "selection": "tang geometries that distribute impact stress without fracture survive generations of use",
+    "fitness": "fatigue life (cycles to failure) under repeated impact loading",
+    "boundary": "steel grain structure, tang length relative to blade, handle mounting method",
+    "tags": [
+      "stress-distribution",
+      "geometry",
+      "durability",
+      "design",
+      "feedback",
+      "structure"
+    ]
+  },
+  {
+    "id": "edge-geometry-sharpness",
+    "name": "Edge Geometry and Cutting Performance",
+    "domain": "swordsmithing",
+    "unit": "edge bevel cross-section (primary and secondary grind)",
+    "variation": "edge angle, grind type (flat, hollow, convex), micro-bevel width",
+    "selection": "edge profiles balancing sharpness against chip resistance for the intended cutting medium are preferred",
+    "fitness": "cutting efficiency (force per unit depth of cut) times edge retention (cuts before dulling)",
+    "boundary": "steel hardness, target material hardness, blade thickness behind edge",
+    "tags": [
+      "geometry",
+      "trade-off",
+      "optimization",
+      "craft",
+      "feedback",
+      "durability"
+    ]
+  },
+  {
+    "id": "fold-welding-homogeneity",
+    "name": "Fold Welding and Carbon Homogeneity",
+    "domain": "swordsmithing",
+    "unit": "steel lamination layer",
+    "variation": "fold count, welding temperature, flux composition, source billet carbon variance",
+    "selection": "folding regimes that homogenize carbon without excessive decarburization produce reliable blades",
+    "fitness": "uniformity of carbon distribution across cross-section",
+    "boundary": "forge temperature limits, oxidation loss per fold, diminishing returns past ~15 folds",
+    "tags": [
+      "homogeneity",
+      "iteration",
+      "craft",
+      "tradition",
+      "diminishing-returns",
+      "structure"
+    ]
+  },
+  {
+    "id": "hexagonal-comb-tiling",
+    "name": "Hexagonal Comb Tiling Efficiency",
+    "domain": "beehive architecture",
+    "unit": "wax cell in the comb lattice",
+    "variation": "cell diameter, wall thickness, tilt angle from horizontal",
+    "selection": "cell geometries that maximize storage volume per unit wax are built by colonies with higher honey surplus",
+    "fitness": "volume-to-wax-mass ratio of the comb structure",
+    "boundary": "wax secretion energy cost, larval size constraints, structural load from stored honey",
+    "tags": [
+      "tiling",
+      "optimization",
+      "geometry",
+      "efficiency",
+      "self-organization",
+      "structure"
+    ]
+  },
+  {
+    "id": "propolis-envelope-sealing",
+    "name": "Propolis Envelope Sealing Strategy",
+    "domain": "beehive architecture",
+    "unit": "propolis deposit at a gap or crack in the hive",
+    "variation": "resin source plant species, application thickness, coverage extent",
+    "selection": "colonies with thorough propolis envelopes show lower pathogen loads and higher overwinter survival",
+    "fitness": "inverse colony pathogen load times overwinter survival rate",
+    "boundary": "resin availability in foraging range, wax-propolis energy trade-off, hive entrance size",
+    "tags": [
+      "sealing",
+      "immunity",
+      "self-organization",
+      "agents",
+      "feedback",
+      "resilience"
+    ]
+  },
+  {
+    "id": "ventilation-corridor-thermoregulation",
+    "name": "Ventilation Corridor Thermoregulation",
+    "domain": "beehive architecture",
+    "unit": "fanning bee position and airflow corridor",
+    "variation": "number of fanning bees, corridor width, entrance orientation",
+    "selection": "ventilation patterns that maintain brood nest at 34-36\u00b0C with minimal fanning workforce are favoured",
+    "fitness": "brood nest temperature stability (inverse variance) per fanning bee deployed",
+    "boundary": "ambient temperature range, colony population, hive insulation, humidity tolerance",
+    "tags": [
+      "thermoregulation",
+      "feedback",
+      "agents",
+      "efficiency",
+      "self-organization",
+      "homeostasis"
+    ]
+  },
+  {
+    "id": "honey-storage-gradient",
+    "name": "Honey Storage Spatial Gradient",
+    "domain": "beehive architecture",
+    "unit": "comb region allocated to honey, pollen, or brood",
+    "variation": "distance from brood nest, frame position, nectar flow intensity",
+    "selection": "spatial arrangements that place honey above and beside brood with pollen interface optimize nurse bee access",
+    "fitness": "brood-rearing rate per unit foraging effort",
+    "boundary": "comb area, colony size, seasonal nectar availability, queen laying rate",
+    "tags": [
+      "gradient",
+      "spatial-organization",
+      "efficiency",
+      "self-organization",
+      "agents",
+      "feedback"
+    ]
+  },
+  {
+    "id": "swarm-comb-construction-consensus",
+    "name": "Swarm Comb Construction Consensus",
+    "domain": "beehive architecture",
+    "unit": "initial comb tongue built by a newly hived swarm",
+    "variation": "festooning chain length, wax scale production rate, ambient temperature",
+    "selection": "colonies that rapidly build parallel combs with correct bee-space gaps establish faster and survive",
+    "fitness": "comb area built per day in the first week times structural regularity",
+    "boundary": "available wax budget from gorged workers, cavity volume, ambient temperature minimum for wax plasticity",
+    "tags": [
+      "consensus",
+      "self-organization",
+      "agents",
+      "structure",
+      "emergence",
+      "efficiency"
     ]
   }
 ]

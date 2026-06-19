@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sourdough pH Regulation Theory of Democratic Deliberation Quality",
+    "core_claim": "Healthy democratic deliberation requires sourdough pH regulation: the acidity (rhetorical intensity) of public discourse must stay within a narrow band — too alkaline (overly civil, euphemistic) and pathogenic ideas (bad-faith arguments) proliferate unchecked, too acidic (hostile, combative) and the productive organisms (good-faith participants) die off. The lactic acid bacteria (institutional norms, moderation) regulate pH through their own metabolic output, creating a self-stabilizing system. The key insight is that some acidity is essential — completely pH-neutral discourse is as lifeless as sterilized flour paste.",
+    "mechanism_borrowed_from": "sourdough-ph-regulation",
+    "domain_applied_to": "rhetoric",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Sourdough pH Regulation (Sourdough Microbiology)",
+    "source_b": "Stasis Theory Issue Framing"
+  },
+  {
+    "name": "Bonsai Branch Wiring Theory of Habit Formation",
+    "core_claim": "Habit formation follows bonsai branch wiring: external structure (wire/routine scaffolding) must be applied to redirect growth (behavior) from its natural trajectory. The wire must remain long enough for the branch to 'set' (neural pathway myelination) but not so long that it bites into the bark (becomes a rigid compulsion rather than a flexible habit). The bonsai master's knowledge that thicker branches require heavier wire and longer setting times maps onto the psychological finding that deeply entrenched behaviors require more intensive intervention and longer maintenance periods. Removing wire too early produces spring-back to the original growth direction.",
+    "mechanism_borrowed_from": "bonsai-branch-wiring",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Bonsai Branch Wiring (Bonsai Cultivation)",
+    "source_b": "Operant Conditioning"
+  },
+  {
+    "name": "Glass Color Redox Theory of Organizational Culture Change",
+    "core_claim": "Organizational culture change operates through glass color redox chemistry: the same metallic ion (leadership initiative) produces entirely different colors (cultural outcomes) depending on the oxidation state of the furnace atmosphere (organizational environment). Copper produces turquoise in oxidizing conditions and deep red in reducing conditions — the same diversity initiative, for instance, produces genuine inclusion in a psychologically safe environment but performative compliance in a fear-based one. Culture consultants who prescribe specific 'colorants' (programs) without controlling the 'atmosphere' (environmental conditions) will get unpredictable and often unwanted colors.",
+    "mechanism_borrowed_from": "glass-color-redox",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Glass Color Redox (Glassblowing)",
+    "source_b": "Bourdieu's Field Theory"
+  },
+  {
+    "name": "Semaphore Angular Resolution Theory of Emotional Granularity",
+    "core_claim": "Emotional intelligence depends on semaphore angular resolution: individuals with high emotional granularity can distinguish between closely spaced emotional signals (the 45-degree difference between frustration and disappointment), while those with low granularity see only the coarse categories (the 90-degree difference between 'good' and 'bad'). Therapeutic interventions that increase emotional vocabulary literally increase the angular resolution of the person's internal semaphore system, allowing them to send and receive more precise emotional signals. Alexithymia is a resolution problem — the semaphore has only two positions (arms up/arms down) rather than the full alphabet.",
+    "mechanism_borrowed_from": "semaphore-angular-resolution",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Semaphore Angular Resolution (Semaphore / Signaling)",
+    "source_b": "CBT Cognitive Model"
+  },
+  {
+    "name": "Cave Ecosystem Zonation Theory of Corporate Innovation Pipeline",
+    "core_claim": "Corporate innovation pipelines exhibit cave ecosystem zonation: the entrance zone (market-facing R&D) receives external light and nutrients (customer feedback, market signals) and supports diverse, fast-moving organisms (incremental innovations). The twilight zone (applied research) receives diminishing external signal and hosts specialized organisms adapted to low-light conditions (platform technologies). The dark zone (basic research) is completely isolated from external energy sources and supports only chemolithoautotrophs — innovations that feed on internal organizational chemistry (core competencies) rather than market signals. Most companies over-invest in entrance-zone innovation while starving the dark zone that produces truly novel capabilities.",
+    "mechanism_borrowed_from": "cave-ecosystem-zonation",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Cave Ecosystem Zonation (Speleology)",
+    "source_b": "Blue Ocean Strategy"
+  },
+  {
+    "name": "Exposure Gradient Morphology Theory of Language Contact Change",
+    "core_claim": "Languages in contact zones develop morphological features that vary with exposure gradient, just as intertidal organisms develop different body forms based on wave exposure. Languages in the high-exposure zone (trade pidgins, border dialects) develop streamlined, simplified morphology — reduced inflection, simplified phonology, analytic structure — analogous to the flat, encrusting forms of wave-battered organisms. Languages in sheltered zones (isolated mountain communities, island dialects) preserve elaborate morphology (complex case systems, tone, polysynthesis) the way sheltered-coast organisms develop tall, branching forms. The gradient is continuous, not binary.",
+    "mechanism_borrowed_from": "exposure-gradient-morphology",
+    "domain_applied_to": "linguistics",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Exposure Gradient Morphology (Tidal Ecology)",
+    "source_b": "Sapir-Whorf Hypothesis"
+  },
+  {
+    "name": "Ferrofluid Viscosity Tuning Theory of Monetary Policy Transmission",
+    "core_claim": "Central banks attempt monetary policy through ferrofluid viscosity tuning: by adjusting the external field strength (policy rate), they change the apparent viscosity (financial conditions) of the economic fluid. In low fields (accommodative policy), the fluid flows freely (easy credit); in high fields (restrictive policy), aligned particle chains increase viscosity (tighter lending standards). The non-Newtonian behavior of ferrofluids under shear (market stress) explains why monetary policy transmission breaks down during crises — under high shear rates, the chains fragment and the fluid's viscosity drops unpredictably, making precise control impossible precisely when it matters most.",
+    "mechanism_borrowed_from": "ferrofluid-viscosity-tuning",
+    "domain_applied_to": "macroeconomics",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Ferrofluid Viscosity Tuning (Ferrofluid Dynamics)",
+    "source_b": "Central Bank Policy"
+  },
+  {
+    "name": "Morse Huffman Analogy Theory of Liturgical Compression",
+    "core_claim": "Liturgical traditions evolve toward Huffman-optimal encoding: the most frequently performed rituals (high-frequency symbols) are compressed into the shortest ceremonial forms (dots), while rare ceremonies (low-frequency symbols) retain elaborate, extended formats (dashes). The Morse-Huffman analogy reveals that liturgical reform is fundamentally an encoding optimization problem — the post-Vatican II simplification of Catholic Mass was a re-encoding that assigned shorter codes to the most common liturgical 'messages,' increasing throughput (more masses per day) at the cost of reduced redundancy (loss of error-correcting ritual repetition that helped congregants track their place in the ceremony).",
+    "mechanism_borrowed_from": "morse-huffman-analogy",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.46,
+    "source_a": "Morse Huffman Analogy (Morse Code / Telegraph)",
+    "source_b": "Covenant Theology"
+  },
+  {
+    "name": "Kintsugi Structural Redistribution Theory of Post-Injury Athletic Biomechanics",
+    "core_claim": "Athletes returning from injury undergo kintsugi structural redistribution: the repaired joint or tissue is not restored to its original state but becomes a structurally distinct element — stiffer, differently loaded, often stronger along the fracture line but weaker in adjacent areas. The gold-filled seam redistributes mechanical stress throughout the kinetic chain, forcing compensatory adaptations in connected joints. Successful rehabilitation programs should design for this redistribution rather than pursuing illusory 'full restoration,' just as the kintsugi artist designs the gold lines to create a new structural logic rather than disguising the break.",
+    "mechanism_borrowed_from": "kintsugi-structural-redistribution",
+    "domain_applied_to": "ergonomics",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Kintsugi Structural Redistribution (Kintsugi / Ceramics Repair)",
+    "source_b": "Fitts's Law Targeting"
+  },
+  {
+    "name": "Sake Yeast Strain Selection Theory of Startup Team Composition",
+    "core_claim": "Startup success depends on yeast strain selection with sake-brewing precision: different yeast strains (team archetypes) produce different flavor profiles (company cultures) and alcohol tolerances (scaling capacities). Association No. 7 yeast (reliable generalists) produces consistent, marketable sake but never transcendent quality; No. 9 (creative risk-takers) produces aromatic excellence but is temperamental and fermentation-failure-prone. The brewer's deepest expertise is matching strain to rice and water — the founder's deepest expertise should be matching team archetype to market and technology. Using a ginjo yeast (artist team) for a table-sake product (commodity market) wastes its best qualities.",
+    "mechanism_borrowed_from": "sake-yeast-strain-selection",
+    "domain_applied_to": "decision theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Sake Yeast Strain Selection (Sake Brewing)",
+    "source_b": "Satisficing"
+  },
+  {
+    "name": "Taxidermy Habitat Diorama Theory of UX Contextual Design",
+    "core_claim": "User experience design is taxidermic habitat diorama construction: the product (mounted specimen) must be placed within a convincing environmental context (diorama) that tells a story about the specimen's natural behavior (intended use case). A technically perfect mount in a poorly constructed diorama (beautiful interface in a confusing information architecture) fails to convince — users sense the artificiality even if they cannot articulate why. The diorama artist's skill in creating seamless transitions between foreground specimens and painted backgrounds maps onto the UX challenge of integrating interactive elements with static content so users cannot perceive the seam.",
+    "mechanism_borrowed_from": "taxidermy-habitat-diorama",
+    "domain_applied_to": "cognitive science",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Taxidermy Habitat Diorama (Taxidermy / Preservation)",
+    "source_b": "Embodied Cognition"
+  },
+  {
+    "name": "Parkour Obstacle Grammar Theory of Regulatory Compliance Strategy",
+    "core_claim": "Regulatory environments constitute an obstacle grammar that firms must parse: each regulation is a grammatical element (wall, rail, gap) with defined physical properties, and compliance strategies are sentences composed by chaining obstacle-specific moves (vaults, precisions, wall runs) in grammatically valid sequences. Expert compliance officers, like expert traceurs, develop fluency in the grammar — they read a regulatory landscape and immediately see the optimal movement sequence, while novices see only individual obstacles. Regulatory reform that changes the grammar (restructuring rules) is more disruptive than reform that merely resizes existing obstacles.",
+    "mechanism_borrowed_from": "parkour-obstacle-grammar",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Parkour Obstacle Grammar (Parkour / Freerunning)",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Sandcastle Height Scaling Theory of Organizational Growth Limits",
+    "core_claim": "Organizational growth follows sandcastle height-scaling laws: maximum achievable height scales with the square root of the base footprint, not linearly. Doubling an organization's height (hierarchical depth, market reach) requires quadrupling its base (support infrastructure, operational capacity). Organizations that grow vertically without proportional base expansion produce the sandcastle equivalent of a tall, narrow tower — impressive but critically unstable, prone to catastrophic collapse from lateral forces (competitive pressure, regulatory change) that a wider-based structure would absorb. The scaling exponent is a measurable organizational vital sign.",
+    "mechanism_borrowed_from": "sandcastle-height-scaling",
+    "domain_applied_to": "complexity",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Sandcastle Height Scaling (Sandcastle Engineering)",
+    "source_b": "Power Law"
+  },
+  {
+    "name": "Sourdough Gluten Matrix Theory of Constitutional Structural Integrity",
+    "core_claim": "Constitutional integrity depends on gluten matrix development: the document's textual provisions (glutenin and gliadin proteins) must be worked (interpreted, litigated, amended) to develop the elastic network (doctrinal framework) that gives the constitution its structural strength. Under-worked constitutions (rarely litigated) lack gluten development and crumble under stress; over-worked constitutions (excessively amended) develop tough, inextensible gluten that tears rather than stretches. The autolyse technique (letting flour hydrate before kneading) maps onto constitutional ratification periods where the text absorbs public meaning before active judicial development begins.",
+    "mechanism_borrowed_from": "sourdough-gluten-matrix",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Sourdough Gluten Matrix (Sourdough Microbiology)",
+    "source_b": "Constitutional Separation of Powers"
+  },
+  {
+    "name": "Glass Bubble Inflation Theory of Speculative Narrative Construction",
+    "core_claim": "Speculative narratives (conspiracy theories, hype cycles, utopian visions) inflate like glassblower's bubbles: a small gather of molten factual material is inflated by rhetorical breath into a thin-walled vessel whose internal volume (narrative scope) vastly exceeds the mass of its material (factual basis). The bubble's shape is determined by gravity (reality constraints), centrifugal force (social momentum), and the tools applied to its surface (media framing). The glassblower's critical skill — knowing when the glass is too thin to sustain further inflation — has no equivalent in narrative construction, which is why speculative bubbles expand until they burst rather than being gracefully closed.",
+    "mechanism_borrowed_from": "glass-bubble-inflation",
+    "domain_applied_to": "rhetoric",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Glass Bubble Inflation (Glassblowing)",
+    "source_b": "Elaboration Likelihood Model"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Bonsai Miniaturization Theory of Cryptographic Key Compression",
+    "core_claim": "Cryptographic key management should follow bonsai miniaturization principles: just as bonsai cultivation constrains a full tree's genetic potential into a miniature form that retains all essential branching structure through selective pruning and root restriction, key derivation functions should compress maximum entropy into minimal key lengths by selectively pruning redundant entropy branches while preserving the full cryptographic 'canopy.' Keys that are miniaturized rather than simply truncated retain structural resilience the way a bonsai retains storm-resistance despite its size.",
+    "mechanism_borrowed_from": "bonsai-miniaturization",
+    "domain_applied_to": "cryptography",
+    "viability": "speculative",
+    "confidence": 0.41,
+    "source_a": "Bonsai Miniaturization (Bonsai Cultivation)",
+    "source_b": "Semantic Key Derivation Lattice (Cryptography)"
+  },
+  {
+    "name": "Falconry Manning Theory of Organizational Onboarding",
+    "core_claim": "Employee onboarding is structurally identical to falconry manning: the gradual process of habituating a wild raptor to the falconer's presence without breaking its hunting instinct maps precisely onto the challenge of socializing a new hire into organizational culture without extinguishing the independent judgment and outside perspective that made them valuable. Manning too aggressively (aggressive cultural indoctrination) produces a tame but useless bird; manning too slowly (sink-or-swim onboarding) produces a bird that bolts at the first opportunity. The optimal manning schedule, like the falconer's, is a carefully graduated exposure sequence calibrated to the individual temperament.",
+    "mechanism_borrowed_from": "falconry-manning",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Falconry Manning (Falconry)",
+    "source_b": "Nudge Architecture Evolution (Behavioral Economics)"
+  },
+  {
+    "name": "Kintsugi Fracture Path Theory of Software Technical Debt",
+    "core_claim": "Technical debt in software should be treated as kintsugi fracture paths: rather than hiding or ignoring the cracks (legacy code seams, architectural compromises), the most resilient systems explicitly mark and reinforce their fracture lines with 'golden joinery' — well-documented interfaces, integration tests, and adapter patterns at exactly the points where the system has historically broken. Systems repaired with kintsugi principles become stronger and more legible than systems that were never broken, because the repair process forces explicit articulation of structural assumptions that were previously implicit.",
+    "mechanism_borrowed_from": "kintsugi-fracture-path",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Kintsugi Fracture Path (Kintsugi / Ceramics Repair)",
+    "source_b": "Halting Problem (Computer Science)"
+  },
+  {
+    "name": "Sandcastle Capillary Bridge Theory of Social Cohesion",
+    "core_claim": "Social cohesion in communities operates through capillary bridges: just as sandcastle stability depends on thin water films between grains creating surface-tension bonds that vanish when water content is either too low (dry sand collapses) or too high (wet sand liquefies), community cohesion depends on an optimal density of weak interpersonal ties that provide just enough social 'moisture' to bind individuals without drowning individual identity. Gentrification and social atomization represent the dry and wet failure modes respectively — too few bridges between old and new residents, or too much institutional homogenization that liquefies distinct subcommunities.",
+    "mechanism_borrowed_from": "sandcastle-capillary-bridge",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Sandcastle Capillary Bridge (Sandcastle Engineering)",
+    "source_b": "Bourdieu's Field Theory (Sociology)"
+  },
+  {
+    "name": "Puppetry String Coupling Theory of Quantum Entanglement Communication",
+    "core_claim": "Marionette string coupling provides an intuitive but structurally precise model for quantum entanglement: each string connects a control bar degree-of-freedom to a puppet limb, and the puppeteer's challenge — coordinating multiple coupled strings where pulling one inevitably perturbs others — mirrors the challenge of quantum gate operations on entangled qubits. The marionette's 'crosstalk problem' (intended knee movement producing unintended head tilt) is formally analogous to entanglement-induced error propagation, and puppetry's centuries-old solutions (string routing, counterweights, bridge configurations) suggest novel error-mitigation architectures for multi-qubit systems.",
+    "mechanism_borrowed_from": "marionette-string-coupling",
+    "domain_applied_to": "quantum computing",
+    "viability": "speculative",
+    "confidence": 0.38,
+    "source_a": "Marionette String Coupling (Puppetry / Marionette Mechanics)",
+    "source_b": "Entanglement Distribution Network (Quantum Computing)"
+  },
+  {
+    "name": "Sourdough Starter Succession Theory of Political Party Formation",
+    "core_claim": "Political party formation follows sourdough starter succession dynamics: an initial inoculation of diverse political microorganisms (factions, ideologies, interest groups) undergoes competitive succession where early colonizers (charismatic founders) create environmental conditions (party platforms, norms) that eventually favor their own successors and displace themselves. The mature starter reaches a stable symbiosis between 'yeast' factions (those generating electoral rise) and 'lactobacillus' factions (those producing the acidic environment that excludes competitors), and this stable culture can be maintained indefinitely through regular 'feeding' (elections) but collapses if starved.",
+    "mechanism_borrowed_from": "sourdough-starter-succession",
+    "domain_applied_to": "political ideology",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Sourdough Starter Succession (Sourdough Microbiology)",
+    "source_b": "Overton Window (Political Ideology)"
+  },
+  {
+    "name": "Glassblowing Gather Viscosity Theory of Negotiation Timing",
+    "core_claim": "Negotiation outcomes are determined by viscosity management: like a glassblower who must work the gather at precisely the right viscosity — too hot and it drips uncontrollably (too much flexibility leads to concession cascades), too cool and it cracks (rigidity produces deadlock) — negotiators must manage the 'temperature' of the deal. The critical insight from glassblowing is that viscosity is not uniform: skilled blowers create temperature gradients within the same gather, keeping some areas workable while others set. Master negotiators similarly maintain different 'viscosity zones' across issues, keeping some fluid while allowing others to solidify strategically.",
+    "mechanism_borrowed_from": "glass-gather-viscosity",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.55,
+    "source_a": "Glass Gather Viscosity (Glassblowing)",
+    "source_b": "Nash Equilibrium (Game Theory)"
+  },
+  {
+    "name": "Dendrochronology Pointer Year Theory of Financial Crisis Detection",
+    "core_claim": "Financial crises leave 'pointer year' signatures across asset classes the way extreme climate events leave narrow rings across all trees in a region. Just as dendrochronologists identify pointer years — rings so distinctively narrow or wide that they serve as absolute date anchors — financial forensics should look for synchronous anomalies across otherwise uncorrelated asset classes as crisis markers. The dendrochronological method of crossdating (matching ring-width sequences across samples) applied to financial time series would detect systemic stress earlier than single-asset monitoring, because the crisis 'signal' appears simultaneously in the growth rings of bonds, equities, real estate, and commodities.",
+    "mechanism_borrowed_from": "pointer-year-signal",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Pointer Year Signal (Dendrochronology)",
+    "source_b": "Black-Scholes / BSM Model (Finance)"
+  },
+  {
+    "name": "Origami Flat-Foldability Theory of Constitutional Design",
+    "core_claim": "A constitution is a legal origami: it must be 'flat-foldable' — meaning its provisions, when tested by real cases, must be able to collapse into consistent binary decisions (constitutional/unconstitutional) without self-intersection. The Kawasaki-Justin theorem (angles around any vertex must satisfy alternating-sum conditions for flat foldability) translates directly: at any legal 'vertex' where multiple constitutional provisions converge, the doctrinal angles must satisfy consistency conditions or the constitution produces irreconcilable self-intersections. Constitutional crises are failed flat-folds — attempts to collapse a crease pattern that violates the theorem's conditions.",
+    "mechanism_borrowed_from": "flat-foldability-conditions",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.43,
+    "source_a": "Flat-Foldability Conditions (Origami Mathematics)",
+    "source_b": "Precedent Fitness Landscape (Jurisprudence)"
+  },
+  {
+    "name": "Speleogenesis Theory of Organizational Knowledge Formation",
+    "core_claim": "Organizational knowledge forms through speleogenesis: the slow dissolution of rock (established assumptions) by slightly acidic water (novel information trickling through the organization) carves out cavern systems (knowledge structures) whose geometry is determined not by the water's intent but by the rock's pre-existing fractures and solubility. Knowledge management initiatives that try to 'drill' knowledge tunnels directly (top-down KM systems) produce unstable bores, while the natural speleogenetic process — slow, following existing weakness planes, creating self-supporting arched passages — produces knowledge structures that persist for millennia.",
+    "mechanism_borrowed_from": "cave-speleogenesis",
+    "domain_applied_to": "business strategy",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Cave Speleogenesis (Speleology)",
+    "source_b": "Disruptive Innovation (Business Strategy)"
+  },
+  {
+    "name": "Semaphore Error Cascade Theory of Misinformation Spread",
+    "core_claim": "Misinformation propagation follows semaphore error cascade dynamics: in a relay chain, each station's small misreading of the previous station's arm positions compounds multiplicatively, and the message degrades fastest when the alphabet is large (nuanced claims) and visibility is poor (low media literacy). The semaphore insight is that error correction requires redundancy at the encoding level (simpler, more distinctive signal shapes), not at the relay level (more fact-checkers in the chain). Reducing the 'alphabet' of public discourse — using fewer, more visually distinct claim-shapes — would reduce cascade errors more effectively than adding relay stations.",
+    "mechanism_borrowed_from": "semaphore-error-cascade",
+    "domain_applied_to": "epidemiology",
+    "viability": "speculative",
+    "confidence": 0.46,
+    "source_a": "Semaphore Error Cascade (Semaphore / Signaling)",
+    "source_b": "Superspreader Topology Theory (Epidemiology)"
+  },
+  {
+    "name": "Sake Parallel Fermentation Theory of Bilingual Cognition",
+    "core_claim": "Bilingual language processing operates like sake's parallel fermentation: in sake brewing, saccharification (koji converting starch to sugar) and alcohol fermentation (yeast converting sugar to ethanol) occur simultaneously in the same vessel, each process's output feeding the other. Bilingual speakers similarly run parallel 'fermentations' — phonological decoding and semantic integration in both languages simultaneously — where each language's partial outputs feed into the other's processing pipeline. This explains both the bilingual advantage (parallel processing produces higher 'alcohol content' — cognitive flexibility) and the bilingual cost (the process requires more careful temperature management — executive control — to prevent one fermentation from overwhelming the other).",
+    "mechanism_borrowed_from": "sake-parallel-fermentation",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Sake Parallel Fermentation (Sake Brewing)",
+    "source_b": "Bilingual Inhibitory Control (Neurolinguistics)"
+  },
+  {
+    "name": "Taxidermy Form Anatomy Theory of Historical Narrative Construction",
+    "core_claim": "Historical narratives are taxidermy: the historian preserves the 'skin' of events (primary sources, dates, names) but must construct an internal 'form' (interpretive framework, causal narrative) that gives the skin shape and posture. The quality of history depends on the quality of the form's anatomy — a form built on accurate skeletal knowledge of the period produces a lifelike mount, while a form based on the historian's own era's assumptions produces something that looks like the past wearing a modern body. The taxidermist's discipline of studying actual anatomy before constructing the form is the methodological equivalent of archival immersion before narrative construction.",
+    "mechanism_borrowed_from": "taxidermy-form-anatomy",
+    "domain_applied_to": "history of science",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Taxidermy Form Anatomy (Taxidermy / Preservation)",
+    "source_b": "Merton Thesis (History of Science)"
+  },
+  {
+    "name": "Morse Relay Amplification Theory of Pedagogical Scaffolding",
+    "core_claim": "Effective teaching operates through morse relay amplification: just as telegraph relay stations re-amplified degrading electrical signals to send them further without distortion, each layer of pedagogical scaffolding should re-amplify the learner's fading understanding signal before it degrades below the noise floor. The key insight is that relays don't add new information — they faithfully reproduce the original signal at full strength. Similarly, the best scaffolding doesn't add new content at the point of confusion but re-presents the original concept with restored signal clarity, cleaning the noise (misconceptions) that accumulated during the learner's internal transmission.",
+    "mechanism_borrowed_from": "morse-relay-amplification",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Morse Relay Amplification (Morse Code / Telegraph)",
+    "source_b": "Zone of Proximal Development (Education)"
+  },
+  {
+    "name": "Perfume Pyramid Sequencing Theory of Architectural Experience Design",
+    "core_claim": "Architectural experience should be designed as a perfume pyramid: top notes (the building's facade, entrance moment — immediate, volatile, attention-grabbing), heart notes (the main circulation spaces, spatial rhythm — the sustained middle experience that defines character), and base notes (the deep structural logic, material honesty, acoustic quality — the lingering impression that persists in memory after leaving). Most failed architecture over-invests in top notes (spectacular facades) while neglecting base notes (thermal comfort, acoustic intimacy), producing buildings that photograph well but evaporate from memory. The perfumer's discipline of balancing all three temporal layers is the missing design methodology.",
+    "mechanism_borrowed_from": "perfume-pyramid-sequencing",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Perfume Pyramid Sequencing (Perfumery)",
+    "source_b": "Circulation Hierarchy Emergence (Architecture)"
+  }
+]
