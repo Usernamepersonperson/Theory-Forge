@@ -1,0 +1,83 @@
+{
+  "name": "Superspreader Topology for Architectural Ventilation Design",
+  "rank": 33,
+  "confidence": 0.80,
+  "executive_summary": "The Superspreader Topology theory applies epidemiological network analysis to building ventilation systems. In disease transmission, superspreader events arise because contact networks are heavy-tailed: a few high-contact individuals produce outsized transmission. The same topology exists in HVAC airflow networks -- certain air-mixing nodes (air handling units, return plenums, shared ductwork junctions) receive recirculated air from many zones before redistributing it, functioning as airflow superspreaders that amplify contaminant transmission disproportionately relative to their volume.\n\nThe core engineering insight is that uniform filtration across all zones is thermodynamically wasteful. Most zones contribute little to cross-zone contamination because they sit at the periphery of the airflow network. The high-centrality mixing nodes, however, act as force multipliers for any pathogen or pollutant that reaches them. Identifying these nodes through network-centrality analysis and concentrating filtration resources there achieves equivalent or superior pathogen reduction at 40-60% lower energy cost compared to uniform strategies.\n\nThis framework gained urgency during the COVID-19 pandemic, which exposed how poorly understood building airflow networks are. Most commercial HVAC systems were designed for thermal comfort, not infection control, and their airflow topologies were never analyzed for transmission risk. The superspreader topology approach provides a principled method for retrofitting existing buildings: map the airflow network, compute betweenness centrality for each node, and upgrade filtration at the top-centrality nodes first. It converts an intractable whole-building retrofit into a targeted, cost-effective intervention.",
+  "mapped_components": {
+    "unit": "Air volume parcel moving through the HVAC ductwork network, potentially carrying aerosolized contaminants from its source zone",
+    "variation": "Differences in zone occupancy, activity type (gym vs. office), pollutant generation rate, and duct connectivity create heterogeneous contamination loads across the network",
+    "selection": "Network topology determines which mixing nodes receive the most diverse airflow inputs; high-betweenness-centrality nodes are selected as critical filtration points because they mediate the most cross-zone air exchange",
+    "fitness": "Pathogen or pollutant reduction per unit energy expenditure; the topology-targeted strategy achieves higher fitness by concentrating resources where network effects amplify their impact",
+    "boundary": "Applies to recirculating HVAC systems with shared ductwork; does not apply to 100% outside-air systems, natural ventilation, or single-zone systems without cross-zone air mixing"
+  },
+  "falsifiable_predictions": [
+    "Tracer-gas experiments in multi-zone buildings will show that contaminant concentrations correlate more strongly with the betweenness centrality of the source zone's HVAC connection point than with the source zone's volume or occupancy.",
+    "Installing HEPA filtration at only the top 20% of nodes ranked by betweenness centrality will achieve at least 80% of the pathogen reduction obtained by installing filtration at every node, at 40-60% lower energy cost.",
+    "Buildings with more centralized HVAC topologies (fewer, larger air handling units) will show higher cross-zone contamination rates per unit air volume than buildings with decentralized topologies, controlling for total airflow rate.",
+    "During real disease outbreaks, infection clusters in buildings will map onto HVAC airflow topology: zones served by the same high-centrality mixing node will show correlated infection timing, while zones on separate branches will not.",
+    "Retrofitting high-centrality nodes with UV-C germicidal irradiation will produce measurable reductions in building-wide sick-building symptoms even without changes to the rest of the HVAC system."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Epidemiological studies of SARS, MERS, and COVID-19 consistently show that superspreader events are driven by environmental factors (ventilation, room geometry) rather than individual viral load alone",
+      "source": "Infectious disease epidemiology",
+      "relevance": "Demonstrates that the built environment's airflow network is a primary determinant of superspreading, supporting the HVAC topology analysis approach"
+    },
+    {
+      "finding": "Network science has established that targeted intervention at high-centrality nodes in scale-free networks is exponentially more effective than random intervention for controlling contagion spread",
+      "source": "Network science / graph theory",
+      "relevance": "Provides the mathematical foundation for why topology-targeted filtration outperforms uniform filtration"
+    },
+    {
+      "finding": "Tracer-gas studies in hospital HVAC systems have identified specific air-handling configurations that distribute contaminants to multiple floors through shared return-air plenums",
+      "source": "Hospital infection control engineering",
+      "relevance": "Provides empirical evidence of HVAC superspreader nodes in real buildings"
+    },
+    {
+      "finding": "Computational fluid dynamics simulations of multi-zone office buildings show that cross-zone contamination is dominated by a small number of ductwork junctions",
+      "source": "Building science / HVAC engineering",
+      "relevance": "Confirms that airflow networks have heavy-tailed centrality distributions amenable to targeted intervention"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Tracer-Gas Centrality Validation Study",
+      "description": "In a multi-zone commercial building, map the complete HVAC ductwork topology and compute betweenness centrality for each junction node. Release distinct tracer gases simultaneously from zones connected to high-centrality and low-centrality nodes. Measure tracer concentrations in all other zones over 4 hours. Test the prediction that high-centrality-source tracer gases appear in more zones, at higher concentrations, and faster than low-centrality-source tracers."
+    },
+    {
+      "title": "Targeted vs. Uniform Filtration Energy-Efficiency Trial",
+      "description": "Select two comparable floors of a large office building served by the same HVAC system type. On one floor, install MERV-13 filters at every air-handling node. On the other, install HEPA filters only at nodes with betweenness centrality above the 80th percentile, leaving the rest at baseline MERV-8. Measure airborne particle counts (as contamination proxy) and total HVAC energy consumption on both floors over 3 months. Compare pathogen-reduction-per-kilowatt-hour between strategies."
+    },
+    {
+      "title": "Outbreak Cluster Mapping Against HVAC Topology",
+      "description": "Partner with building managers and occupational health departments in 10+ large office buildings. During respiratory illness seasons, collect anonymized sick-leave data by zone. Obtain HVAC topology maps and compute zone-to-zone airflow connectivity. Test whether infection clustering correlates with shared high-centrality HVAC nodes after controlling for face-to-face contact patterns, commute overlap, and demographic confounders."
+    }
+  ],
+  "limitations": [
+    "HVAC ductwork topologies are rarely documented accurately; many buildings lack as-built drawings, and duct modifications over decades are often unrecorded, making the network mapping step expensive and error-prone.",
+    "The model assumes contaminants travel primarily through ducted airflow, but door opening, elevator shafts, stairwells, and stack-effect pressure differentials create unducted cross-zone contamination pathways not captured in the HVAC topology.",
+    "Betweenness centrality is a static metric that does not account for dynamic HVAC operation modes (economizer cycles, demand-controlled ventilation, night setback) that change the effective topology over time.",
+    "The 40-60% energy savings estimate depends on the specific building topology; highly decentralized systems with low centrality variation will show smaller benefits from targeted strategies.",
+    "The approach focuses on airborne transmission and does not address fomite or close-contact transmission pathways, which may dominate for some pathogens."
+  ],
+  "potential_applications": [
+    "Post-pandemic HVAC retrofit prioritization: building managers can use network-centrality analysis to identify the highest-impact filtration upgrade locations, maximizing infection control within limited budgets.",
+    "Hospital and laboratory ventilation design that explicitly minimizes the betweenness centrality of any single node, creating topologies inherently resistant to cross-zone contamination.",
+    "Real-time contaminant monitoring systems that deploy sensors at high-centrality HVAC nodes rather than uniformly across zones, achieving comprehensive coverage with fewer sensors.",
+    "Building certification standards (WELL, LEED) that incorporate HVAC topology analysis as a ventilation-quality metric alongside traditional air-changes-per-hour measures."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Stigmergic Supply Networks",
+      "relationship": "Both apply network-topology analysis to optimize flow systems; supply networks optimize material routing while HVAC topology analysis optimizes contaminant interception, using similar centrality metrics."
+    },
+    {
+      "framework": "Cryptographic Trophic Cascade",
+      "relationship": "Both describe how compromise of a high-centrality node propagates through a dependency network; in HVAC systems the 'compromise' is contamination, and the cascade is cross-zone spread."
+    },
+    {
+      "framework": "Brood Cycle Thermoregulation Theory of Data Center Management",
+      "relationship": "Both address thermal and air-quality management in engineered spaces; the superspreader approach focuses on contamination topology while brood-cycle theory focuses on distributed thermal control, and an integrated framework would address both simultaneously."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Fitts's Law Theory of Permaculture Zone Optimization",
+  "rank": 40,
+  "confidence": 0.80,
+  "executive_summary": "The Fitts's Law Theory of Permaculture Zone Optimization formalizes the intuitive permaculture principle of proximity-based zone placement using Fitts's Law from human-computer interaction. Fitts's Law states that the time to reach a target is a logarithmic function of the ratio of target distance to target width -- farther and smaller targets take disproportionately longer to interact with. Applied to permaculture, the frequency of human interaction with a garden element must be inversely proportional to its distance from the dwelling, weighted by the precision of care required.\n\nHigh-frequency, high-precision elements (culinary herbs, salad greens, seedling trays) must occupy the near-field zone where the index of difficulty is lowest. These require daily attention -- pinching, harvesting individual leaves, monitoring for pests at early stages -- and tolerating even modest access friction leads to neglect. Low-frequency, low-precision elements (timber, forage trees, wildlife habitat) can tolerate far-field placement because their interaction events are rare and coarse-grained. Violating this information-theoretic constraint on human motor capacity causes systematic neglect of misplaced elements, explaining the common permaculture failure mode where ambitious plantings in distant zones die from inattention.\n\nThe framework's quantitative contribution is replacing the traditional five-zone model's qualitative guidance ('herbs near the kitchen') with a calculable optimization. Given a set of garden elements with known interaction frequencies and precision requirements, and a site map with distance-from-dwelling contours, Fitts's Law computes the total index of difficulty for any placement configuration. The optimal layout minimizes total daily motor cost across all elements. This produces zone boundaries that are not concentric circles (as traditionally depicted) but irregular contours shaped by the specific element mix, terrain, and access paths of each site.",
+  "mapped_components": {
+    "unit": "A single human interaction event with a garden element: walking to the element, performing a care or harvest action, and returning. Each event has a Fitts's Law index of difficulty determined by distance and precision.",
+    "variation": "Differences in interaction frequency (daily herb harvest vs. annual tree pruning), precision requirement (transplanting seedlings vs. spreading mulch), and physical access constraints (terrain, path layout) create diverse motor-cost profiles across garden elements",
+    "selection": "Human attention and energy budgets select against high-index-of-difficulty interactions: elements that are too far away or require too-precise actions relative to their distance receive progressively less care, leading to neglect and failure",
+    "fitness": "Garden element survival and productivity as a function of received care, which is inversely related to the Fitts index of difficulty of each interaction. Total garden fitness is the sum of element productivities minus total motor cost.",
+    "boundary": "Applies to human-tended systems where care frequency determines element success; does not apply to fully automated systems (irrigated, robot-tended) or to low-maintenance elements (established food forests) that require no ongoing interaction"
+  },
+  "falsifiable_predictions": [
+    "Garden elements placed at distances inconsistent with their interaction frequency (high-frequency elements in far zones) will show measurably lower survival rates and productivity than the same species placed in the Fitts-optimal zone, controlling for soil, water, and light.",
+    "Gardener visitation frequency to specific elements will decline as a logarithmic function of distance from the dwelling, matching Fitts's Law rather than a linear distance-decay function.",
+    "The neglect threshold (distance beyond which a given element type is systematically underserved) will be predictable from the element's required interaction frequency and precision using the Fitts equation, and will be shorter for high-precision elements than low-precision ones at the same frequency.",
+    "Permaculture sites designed using Fitts-optimized zone placement will show higher overall productivity per labor hour than sites designed using standard concentric-zone templates, because the optimized layout accounts for site-specific terrain and access paths.",
+    "Adding a well-maintained path (reducing effective distance by increasing movement speed) to a far-zone element will increase its visitation frequency and care quality by an amount predictable from the Fitts equation's distance term.",
+    "GPS-tracked gardener movement data will show that actual time-per-interaction matches Fitts's Law predictions when distance and element size (target width) are measured, validating the motor-cost model across diverse garden layouts."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Fitts's Law has been validated across thousands of studies in human-computer interaction, sports science, and industrial ergonomics as one of the most robust quantitative laws in human motor behavior",
+      "source": "Human factors / ergonomics",
+      "relevance": "Establishes that the motor-cost model is quantitatively reliable and applicable to any human movement task, including garden work"
+    },
+    {
+      "finding": "Permaculture practitioners consistently report that Zone 1 elements (nearest the dwelling) receive the most attention and produce the highest yields per area, while Zone 4-5 elements are frequently neglected",
+      "source": "Permaculture design literature / practitioner surveys",
+      "relevance": "Confirms the qualitative prediction that distance-from-dwelling determines care intensity, which the Fitts framework quantifies"
+    },
+    {
+      "finding": "Time-motion studies of agricultural workers show that travel time between tasks is a major component of total labor cost, and travel time increases nonlinearly with field distance due to tool retrieval, gate opening, and terrain effects",
+      "source": "Agricultural engineering / ergonomics",
+      "relevance": "Validates that real-world garden/farm movement costs follow the nonlinear distance relationship that Fitts's Law captures"
+    },
+    {
+      "finding": "Kitchen garden proximity to the dwelling is the strongest predictor of dietary diversity from home-grown food in developing-country studies, stronger than garden size or soil quality",
+      "source": "Nutrition / development studies",
+      "relevance": "Provides independent epidemiological evidence that distance-from-dwelling determines garden utilization intensity, consistent with the Fitts motor-cost constraint"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Fitts-Optimized vs. Concentric-Zone Randomized Trial",
+      "description": "Recruit 20 novice permaculture gardeners with comparable sites. Randomly assign half to a standard concentric five-zone layout and half to a Fitts-optimized layout computed from their specific site geometry, access paths, and planned element mix. Provide identical element sets and growing instructions. Measure garden element survival rates, productivity (yield per element), total labor hours, and gardener satisfaction over two growing seasons. Test whether Fitts-optimized sites show higher productivity per labor hour."
+    },
+    {
+      "title": "GPS-Tracked Visitation Frequency Decay Function",
+      "description": "Equip 15 experienced permaculture gardeners with GPS trackers and have them maintain their normal garden routines for one growing season. Map all garden elements and compute distance-from-dwelling for each. Fit the visitation frequency vs. distance relationship to both a linear decay and a Fitts-Law logarithmic decay model. Compare model fit (R-squared, AIC) to determine which better describes actual gardener behavior."
+    },
+    {
+      "title": "Path Intervention Controlled Experiment",
+      "description": "On 10 permaculture sites, identify a productive element in a far zone that is receiving suboptimal care. Install a well-maintained gravel path to the element on 5 randomly selected sites (treatment), leaving 5 with existing access (control). Measure visitation frequency, care quality (weeding, harvesting, pest monitoring), and element productivity for the following season. Test whether the path reduces effective Fitts distance and increases care to the degree predicted by the model."
+    },
+    {
+      "title": "Precision-Weighted Zone Boundary Validation",
+      "description": "For a set of 10 common permaculture elements, independently measure interaction frequency (visits per week) and precision requirement (rated by expert panel on a 1-10 scale based on motor precision needed). Compute the Fitts-optimal maximum distance for each element given a standard gardener profile. Compare these computed boundaries to the zone placement recommendations in three major permaculture design textbooks. Test whether the Fitts-computed boundaries are more or less conservative than conventional guidance, and which better predicts actual element survival rates in a survey of 50 established permaculture sites."
+    }
+  ],
+  "limitations": [
+    "Fitts's Law models motor cost but not motivational factors: a gardener passionate about roses may happily walk to a far-zone rose garden daily, violating the motor-cost prediction because intrinsic motivation overcomes access friction.",
+    "The model assumes a single dwelling as the origin point, but many permaculture sites have multiple activity centers (kitchen, workshop, greenhouse) that create multiple distance fields, complicating the optimization.",
+    "Terrain effects (slopes, mud, thorny barriers) modify effective distance in ways that Fitts's Law does not natively capture without extensions to the target-distance metric.",
+    "The framework focuses on individual element placement but does not account for element-to-element interactions (companion planting, guild design, pollination requirements) that may override pure motor-cost optimization.",
+    "Seasonal variation in interaction frequency (winter dormancy, harvest seasons) means the optimal layout changes over the year, but physical garden elements cannot be moved seasonally."
+  ],
+  "potential_applications": [
+    "Permaculture design software that computes Fitts-optimized zone layouts from site maps, element lists, and interaction-frequency data, replacing the qualitative concentric-zone template with quantitative site-specific placement.",
+    "Therapeutic garden design for elderly or mobility-impaired users, where Fitts's Law constraints are more binding and optimized placement can mean the difference between garden independence and garden abandonment.",
+    "Urban micro-farm layout optimization, where space constraints make optimal placement critical and every meter of unnecessary travel distance represents a significant fraction of the total labor budget.",
+    "Agricultural extension guidance in developing countries, where kitchen garden proximity is the strongest predictor of dietary diversity and Fitts-based placement recommendations could improve nutritional outcomes."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Hardy-Cross Theory of Permaculture Water Cascade Design",
+      "relationship": "Complementary optimization frameworks for permaculture design: Fitts's Law optimizes element placement for human motor cost, while Hardy-Cross optimizes water distribution for hydraulic balance. An integrated design tool would co-optimize both human and water flow."
+    },
+    {
+      "framework": "Stigmergic Supply Networks",
+      "relationship": "Both address optimization of movement through a network: Fitts's Law optimizes human movement to garden elements while stigmergic routing optimizes material movement through supply chains, and both minimize total transport cost through decentralized path selection."
+    },
+    {
+      "framework": "Ant Colony Pheromone Theory of Urban Pedestrian Infrastructure",
+      "relationship": "Both address the relationship between human movement patterns and infrastructure design: Fitts's Law predicts which garden paths will be used most (and therefore should be best maintained), while the ant colony approach observes which urban paths are used most (and should be formalized)."
+    }
+  ]
+}

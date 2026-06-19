@@ -1,0 +1,88 @@
+{
+  "name": "Alloy Satisficing",
+  "rank": 35,
+  "confidence": 0.80,
+  "executive_summary": "Alloy Satisficing applies Herbert Simon's satisficing theory to metallurgical alloy design, arguing that real industrial alloy development operates not by optimization but by bounded-rational search. Engineers explore the composition-processing space and accept the first alloy meeting a threshold bundle of properties -- yield strength, corrosion resistance, weldability, cost -- rather than searching for a global optimum. The search order, which starts from known alloy families and perturbs compositions incrementally, determines which local satisfactory solution is found.\n\nThis produces path-dependent alloy traditions that vary by industrial culture. Japanese, German, and American metallurgical traditions have converged on different standard alloys for equivalent applications (structural steel, marine hardware, automotive castings) not because they face different physics but because they started from different historical alloy families, employed different testing protocols, and applied different threshold bundles reflecting different regulatory and market environments. The theory explains the persistent diversity of alloy standards across nations as an artifact of satisficing search, not as evidence that multiple true optima exist.\n\nThe framework has significant implications for alloy innovation. If current alloys are satisficing solutions, then the composition-processing space likely contains undiscovered alloys that would be superior by any measure but remain unfound because no search path from any existing alloy family leads to them. High-entropy alloys may represent exactly this phenomenon: a region of composition space that was unreachable from traditional base-metal-plus-dopant search strategies and required a paradigm shift (explored by the Metallurgical Paradigm Shifts framework) to enter.",
+  "mapped_components": {
+    "unit": "A candidate alloy composition-processing combination, evaluated against a threshold bundle of required properties",
+    "variation": "Perturbations to known alloy compositions (varying element percentages, heat treatment parameters, processing routes) generate new candidates in the neighborhood of existing solutions",
+    "selection": "The satisficing threshold: a candidate is accepted when it meets minimum requirements on all dimensions simultaneously, and rejected otherwise; the threshold bundle varies by industry, nation, and era",
+    "fitness": "Meeting the threshold bundle is binary (satisfactory or not); among satisfactory alloys, the one found first by the search procedure is adopted, regardless of whether better solutions exist elsewhere in the space",
+    "boundary": "Applies to industrial alloy development under real constraints of cost, time, and testing capacity; does not apply to computational alloy discovery (where exhaustive search is feasible) or to pure materials science research unconstrained by production requirements"
+  },
+  "falsifiable_predictions": [
+    "National alloy standards for equivalent applications (e.g., structural steel for bridges) will cluster into distinct composition-space neighborhoods that are closer to their respective historical predecessor alloys than to each other, even when the application requirements are identical.",
+    "The composition-processing space between national alloy clusters will contain untested compositions that, when synthesized, meet or exceed the threshold bundles of all traditions -- i.e., the gaps between satisficing solutions contain superior alternatives.",
+    "Industries that adopted computational alloy screening (reducing search cost) will show faster convergence toward common global standards than industries that still rely on empirical perturbation from existing alloys.",
+    "When the threshold bundle changes (new regulation, new application requirement), the resulting alloy modification will be a minimal perturbation from the existing standard rather than a de novo search, and different starting alloys will produce different modifications.",
+    "High-entropy alloy discovery was concentrated in research groups that were not embedded in traditional base-metal alloy traditions, because their search strategies were not anchored to conventional starting points.",
+    "The number of distinct alloy standards per application in international use will correlate with the number of independent metallurgical traditions that developed solutions, not with the number of physical optima in the composition space."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Herbert Simon's satisficing theory, supported by extensive empirical research in organizational decision-making, demonstrates that bounded-rational agents consistently accept the first satisfactory solution rather than optimizing",
+      "source": "Behavioral economics / organizational theory",
+      "relevance": "Provides the core theoretical mechanism: alloy engineers are bounded-rational agents facing the same computational constraints Simon identified in all complex decision-making"
+    },
+    {
+      "finding": "International alloy standards (ASTM, JIS, DIN, GB) specify different compositions for equivalent applications, and these differences trace to historical development paths rather than different physical requirements",
+      "source": "Metallurgical standards / industrial history",
+      "relevance": "Directly confirms the path-dependency prediction: different search starting points produced different satisficing solutions for the same problem"
+    },
+    {
+      "finding": "The high-entropy alloy revolution was initiated by researchers (Yeh, Cantor) who deliberately abandoned the base-metal-plus-dopant paradigm, exploring regions of composition space unreachable from conventional search strategies",
+      "source": "Materials science history",
+      "relevance": "Confirms that satisficing search from traditional starting points systematically missed an entire class of superior solutions"
+    },
+    {
+      "finding": "Computational alloy-design tools (CALPHAD, machine learning screening) have identified promising compositions in the gaps between traditional alloy families, confirming that unexplored satisfactory solutions exist",
+      "source": "Computational materials science",
+      "relevance": "Validates the prediction that the inter-cluster composition space contains undiscovered solutions superior to existing satisficing standards"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Cross-Traditional Composition Gap Survey",
+      "description": "For a specific application (e.g., marine-grade structural steel), compile the composition specifications from at least five national standards (ASTM, JIS, DIN, GB, GOST). Map these in multi-dimensional composition space and identify the centroid of each cluster. Synthesize and test alloys at the midpoints between clusters and at the centroid of all clusters combined. Test whether any inter-cluster compositions meet or exceed all five nations' threshold bundles simultaneously, confirming the existence of undiscovered superior solutions."
+    },
+    {
+      "title": "Search-Path Anchoring Experiment",
+      "description": "Give three groups of metallurgy students the same application requirements (target properties for an automotive alloy) but different starting alloys (one from each of three national traditions). Allow each group to iteratively perturb their starting composition over 10 rounds, testing each variant. Record whether the three groups converge on the same solution or remain in separate composition-space neighborhoods. This directly tests the path-dependency mechanism of satisficing search."
+    },
+    {
+      "title": "Threshold Bundle Perturbation Study",
+      "description": "Select an established alloy standard and introduce a single new threshold requirement (e.g., a recyclability metric). Track how the alloy modification process unfolds in three independent labs, each starting from the existing standard. Measure whether modifications are minimal perturbations (consistent with satisficing) or broader explorations, and whether the three labs converge on the same modified composition."
+    },
+    {
+      "title": "Computational vs. Empirical Discovery Rate Comparison",
+      "description": "Compare the rate of new alloy discovery in application domains that have adopted computational screening (using CALPHAD or ML-based tools) versus domains still relying on empirical perturbation. Measure the number of new satisfactory compositions discovered per researcher-year and the composition-space distance from existing standards. Test whether computational search produces solutions further from traditional clusters, consistent with escaping local satisficing neighborhoods."
+    }
+  ],
+  "limitations": [
+    "The satisficing model does not account for cases where genuine physical constraints (phase stability, eutectic boundaries) limit the viable composition space, making path-dependency less relevant than fundamental metallurgy.",
+    "Some alloy standards converge across nations not because of optimization but because of international harmonization processes (ISO standardization), which artificially reduce diversity for trade reasons rather than technical ones.",
+    "The theory assumes that search cost is the binding constraint, but in many modern contexts the bottleneck is testing cost (mechanical testing, corrosion trials) rather than compositional search.",
+    "High-entropy alloys may represent a genuine new optimum rather than merely an unexplored satisficing region, and the theory does not distinguish between these possibilities.",
+    "The framework focuses on composition search but metallurgical performance depends equally on processing (heat treatment, working, surface treatment), which has its own path-dependency dynamics not fully captured by the satisficing model."
+  ],
+  "potential_applications": [
+    "Alloy innovation strategy: companies can systematically explore the composition-space gaps between national standards, where satisficing theory predicts undiscovered superior solutions are likely to exist.",
+    "Standards harmonization: international standards bodies can use the framework to identify where different national standards represent arbitrary satisficing outcomes vs. where they reflect genuine local optima, prioritizing harmonization efforts accordingly.",
+    "Computational alloy discovery tools that explicitly model satisficing bias by initializing search algorithms at multiple starting points across composition space, rather than only near known alloy families.",
+    "Industrial policy: nations seeking to develop domestic metallurgical capability can deliberately avoid anchoring to any single existing tradition, designing search programs that sample broadly rather than incrementally perturbing imported standards."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Metallurgical Paradigm Shifts",
+      "relationship": "Complementary frameworks: satisficing explains the incremental search within a paradigm (normal metallurgy), while paradigm shifts explain how the search landscape itself is redefined when accumulated anomalies force abandonment of the base-metal-plus-dopant framework."
+    },
+    {
+      "framework": "Adaptive Precedent Theory",
+      "relationship": "Both describe how initial encounters permanently bias subsequent responses: alloy satisficing anchors to historical starting compositions just as legal precedent anchors to founding cases, producing path-dependent outcomes that diverge across traditions."
+    },
+    {
+      "framework": "Frustule Ossification Theory",
+      "relationship": "Both describe progressive narrowing of the viable action space through inherited constraints: alloy traditions constrain search to neighborhoods of existing standards just as regulatory frameworks narrow permissible innovation within their inherited structures."
+    }
+  ]
+}

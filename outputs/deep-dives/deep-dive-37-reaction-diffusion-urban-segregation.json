@@ -1,0 +1,88 @@
+{
+  "name": "Reaction-Diffusion Patterning of Urban Segregation",
+  "rank": 37,
+  "confidence": 0.80,
+  "executive_summary": "The Reaction-Diffusion Patterning theory proposes that residential segregation arises from a Turing-type instability in the coupled reaction-diffusion dynamics of two social groups. When the rate of same-group clustering (activation) exceeds the rate of cross-group economic interdependence (inhibition), and when social diffusion rates differ between groups, stable spatial patterns of segregation spontaneously emerge from initially well-mixed conditions. This is not merely an analogy to Turing patterns -- the mathematical structure is identical, and the theory generates quantitative predictions about neighborhood size, boundary sharpness, and pattern geometry that differ from those of existing segregation models.\n\nThe key insight beyond Schelling's tipping-point model is that the characteristic spatial wavelength of segregation -- how large neighborhoods are -- is set by the ratio of social mobility rates between groups. When one group is more mobile (higher diffusion coefficient), the pattern wavelength changes predictably: unequal mobility produces finer-grained patchwork with smaller neighborhood patches, while equal mobility produces larger, more stable districts. This explains an empirical puzzle that Schelling's model cannot: why some cities exhibit fine-grained block-by-block segregation while others show broad district-level separation.\n\nThe framework also predicts that segregation patterns, once formed, are structurally stable -- they resist perturbation and regenerate if disrupted, just as Turing patterns in chemical systems reform after physical disturbance. This has sobering implications for desegregation policy: if the underlying reaction-diffusion parameters (preference strengths and mobility rates) remain unchanged, interventions that disrupt the spatial pattern will be temporary. Lasting desegregation requires changing the parameters themselves, not just the current spatial distribution.",
+  "mapped_components": {
+    "unit": "Household location decision, represented as a point in a two-dimensional spatial field where two social groups have coupled concentration fields",
+    "variation": "Differences in preference intensity for same-group neighbors (activation rate), economic ties to other-group members (inhibition rate), and residential mobility (diffusion coefficient) between the two groups create the instability conditions",
+    "selection": "Turing instability selects for specific spatial wavelengths: perturbations at the unstable wavelength grow exponentially while others decay, producing a characteristic neighborhood size determined by the parameter ratios",
+    "fitness": "Pattern stability: the segregation pattern that emerges is the one whose wavelength satisfies the Turing instability condition, and it persists because it represents a stable attractor of the reaction-diffusion dynamics",
+    "boundary": "Applies when two groups have differential mobility and coupled preference dynamics in a continuous spatial domain; breaks down in cities with strong topographic barriers (rivers, highways) that impose exogenous boundaries, or where more than two groups interact simultaneously"
+  },
+  "falsifiable_predictions": [
+    "The characteristic neighborhood size (spatial wavelength of segregation) will correlate with the ratio of residential mobility rates between the two groups: cities where both groups have similar mobility will show larger neighborhood patches than cities where mobility rates differ significantly.",
+    "Segregation patterns will reform after disruption (e.g., post-disaster resettlement, desegregation policy) on a timescale predictable from the reaction-diffusion parameters, unless the parameters themselves have changed.",
+    "The boundary sharpness between segregated neighborhoods will increase with the activation-to-inhibition ratio (same-group preference strength relative to cross-group economic interdependence), measurable via census-tract transition gradients.",
+    "Cities with higher overall residential mobility (both groups) will show faster pattern formation from initially mixed conditions, with time-to-segregation scaling inversely with the geometric mean of the two diffusion rates.",
+    "Introducing strong cross-group economic interdependence (jobs requiring intergroup collaboration, shared amenities) will dampen the Turing instability and produce measurably more integrated neighborhoods near those interdependence sources.",
+    "Fine-grained segregation data (block-level rather than tract-level) will reveal spatial periodicity (regular spacing of group-concentration peaks) consistent with a dominant Turing wavelength, detectable via Fourier analysis of the concentration field."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Schelling's agent-based segregation model demonstrates that mild individual preferences for same-group neighbors produce strong aggregate segregation, establishing that local activation dynamics can drive macro-scale spatial pattern formation",
+      "source": "Computational social science",
+      "relevance": "Confirms the activation mechanism but does not explain wavelength selection, which the reaction-diffusion extension provides"
+    },
+    {
+      "finding": "Turing patterns have been experimentally validated in chemical systems (CIMA reaction), biological development (zebrafish pigmentation), and ecological systems (vegetation patterns in arid landscapes), confirming the universality of the reaction-diffusion mechanism",
+      "source": "Mathematical biology / pattern formation theory",
+      "relevance": "Establishes that the mathematical mechanism is not domain-specific but operates wherever the activation-inhibition-diffusion conditions are met"
+    },
+    {
+      "finding": "Empirical studies of U.S. residential segregation show that neighborhood sizes vary systematically across cities, and this variation correlates with differences in residential mobility patterns between racial groups",
+      "source": "Urban sociology / demography",
+      "relevance": "Provides correlational evidence consistent with the diffusion-ratio wavelength prediction"
+    },
+    {
+      "finding": "Post-Hurricane Katrina New Orleans showed rapid re-segregation of neighborhoods that had been temporarily mixed by displacement, with the re-established pattern closely matching the pre-disaster configuration",
+      "source": "Urban geography / disaster studies",
+      "relevance": "Consistent with the prediction that segregation patterns are structural attractors that reform after perturbation when parameters are unchanged"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Fourier Analysis of Block-Level Segregation Data",
+      "description": "Obtain block-level census data for 20+ U.S. metropolitan areas. Construct two-dimensional concentration fields for each pair of major demographic groups. Apply spatial Fourier analysis to detect periodic structure in the concentration fields. Test whether a dominant wavelength exists (as the Turing model predicts) and whether it correlates with the measured ratio of residential mobility rates between groups in each city. Compare the observed wavelength-mobility relationship to the quantitative prediction from the reaction-diffusion equations."
+    },
+    {
+      "title": "Post-Disruption Pattern Reformation Tracking",
+      "description": "Identify urban areas that have experienced significant residential mixing events (natural disasters, urban renewal projects, refugee resettlement). Track demographic composition at the block level annually for 10+ years post-disruption using census and American Community Survey data. Measure the timescale of pattern reformation and compare to the prediction from reaction-diffusion dynamics using pre-disruption estimates of preference strength and mobility rates. Test whether the reformed pattern matches the pre-disruption pattern in wavelength and geometry."
+    },
+    {
+      "title": "Cross-Group Interdependence Natural Experiment",
+      "description": "Compare segregation patterns in neighborhoods with and without strong cross-group economic interdependence institutions (e.g., mixed-use commercial districts, integrated workplaces, shared recreational facilities). Use propensity-score matching to control for income, housing stock, and accessibility. Measure whether proximity to interdependence institutions reduces local segregation intensity, consistent with the prediction that increased inhibition dampens the Turing instability."
+    },
+    {
+      "title": "Agent-Based Model Calibration and Prediction",
+      "description": "Implement a continuous-space reaction-diffusion model with parameters estimated from survey data on group preferences (activation rate), economic interdependence (inhibition rate), and mobility data (diffusion coefficients). Run the model forward from historical initial conditions for a set of cities and compare predicted segregation patterns to observed patterns 20 years later. Measure predictive accuracy in terms of wavelength, intensity, and spatial geometry, comparing to the predictive accuracy of Schelling-type models on the same data."
+    }
+  ],
+  "limitations": [
+    "The two-group formulation oversimplifies cities with multiple significant demographic groups; extending to three or more groups introduces mathematical complexity that may not produce clean Turing-type predictions.",
+    "Real cities have strong spatial heterogeneity (rivers, highways, parks, transit stations) that imposes exogenous boundary conditions on the pattern, potentially overwhelming the endogenous Turing dynamics.",
+    "The preference parameters (activation and inhibition rates) are difficult to measure independently of the segregation pattern itself, risking circularity in parameter estimation.",
+    "Institutional factors (redlining, zoning, lending discrimination) may be more powerful drivers of segregation than the emergent reaction-diffusion dynamics the model emphasizes, and these are not well-captured as reaction-diffusion parameters.",
+    "The continuous-space assumption breaks down at the block level where discrete housing units and integer household counts introduce noise that may obscure the predicted spatial periodicity."
+  ],
+  "potential_applications": [
+    "Desegregation policy design: the framework identifies that lasting desegregation requires changing the underlying parameters (reducing same-group preference strength, increasing cross-group economic interdependence, equalizing mobility) rather than directly rearranging the spatial pattern.",
+    "Urban planning that strategically places cross-group interdependence institutions (mixed workplaces, shared amenities) at locations predicted by the model to maximally dampen the Turing instability.",
+    "Predictive modeling of segregation dynamics in rapidly growing cities, using early-stage demographic data and mobility estimates to forecast what segregation patterns will emerge before they solidify.",
+    "Assessment of intervention effectiveness by measuring changes in reaction-diffusion parameters (not just spatial outcomes) before and after policy implementation."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Navier-Stokes Theory of Crowd Dynamics",
+      "relationship": "Both apply PDEs from physics to human spatial behavior; Navier-Stokes governs short-timescale pedestrian flow dynamics while reaction-diffusion governs long-timescale residential patterning, operating at different spatial and temporal scales in the same urban systems."
+    },
+    {
+      "framework": "Morphogen Gradient Dyeing Theory",
+      "relationship": "Both are direct applications of reaction-diffusion mathematics; the segregation model uses the same Turing instability mechanism that the dyeing model uses for color-zone formation, applied to demographic rather than chemical concentration fields."
+    },
+    {
+      "framework": "Third-Body Layer Theory of Cultural Translation Zones",
+      "relationship": "The boundaries between segregated neighborhoods may function as third-body layers where hybrid cultural zones form through mutual friction, connecting the spatial-patterning dynamics of reaction-diffusion with the cultural-mixing dynamics of third-body formation."
+    }
+  ]
+}
