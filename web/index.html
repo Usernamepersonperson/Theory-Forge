@@ -105,6 +105,18 @@
   .search-hit .sh-name { color:var(--acc); }
   .search-hit .sh-claim { color:var(--mut); font-size:11px; }
 
+  /* Framework detail modal */
+  .modal-overlay { position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.7);
+                   z-index:100; display:flex; align-items:center; justify-content:center; }
+  .modal { background:var(--card); border:1px solid var(--br); border-radius:12px;
+           padding:24px; max-width:700px; width:90%; max-height:85vh; overflow-y:auto; }
+  .modal-close { float:right; cursor:pointer; color:var(--mut); font-size:18px; }
+  .modal-close:hover { color:var(--fg); }
+  .related-list { margin:12px 0; }
+  .related-item { padding:6px 0; border-bottom:1px solid var(--br); font-size:12px; cursor:pointer; }
+  .related-item:hover { color:var(--acc); }
+  .related-shared { color:var(--purple); font-size:10px; text-transform:uppercase; }
+
   /* Viability badges */
   .badge { display:inline-block; padding:2px 6px; border-radius:4px; font-size:10px;
            font-weight:bold; text-transform:uppercase; }
@@ -347,17 +359,7 @@ $('search-input').oninput = () => {
       el.onclick = () => {
         $('search-results').classList.remove('open');
         $('search-input').value = '';
-        $('result').innerHTML = '';
-        const fw = hits.find(h => h.name === el.dataset.name);
-        if (fw) {
-          $('result').innerHTML = `<div class="card">
-            <p class="name">${esc(fw.name||'?')} ${viabilityBadge(fw.viability)}</p>
-            <p class="meta">confidence <strong>${(fw.confidence||0).toFixed(2)}</strong>
-              &middot; ${esc(fw.source_a||'')} &times; ${esc(fw.source_b||'')}
-              &middot; ${esc(fw._batch||'')}</p>
-            <pre>${esc(fmt(fw))}</pre>
-          </div>`;
-        }
+        showFramework(el.dataset.name);
       };
     });
   }, 300);
@@ -407,11 +409,11 @@ async function loadRankings(append) {
   const existing = $('rank-result').querySelector('.rank-more');
   if (existing) existing.remove();
   $('rank-result').innerHTML += data.map((fw, i) => `
-    <div class="rank-item" onclick="toggleExpand(this)">
+    <div class="rank-item">
       <span class="conf">${(fw.confidence || 0).toFixed(2)}</span>
       ${viabilityBadge(fw.viability)}
-      <strong class="name-link">${esc(fw.name || '?')}</strong>
-      <span class="sim">&mdash; ${esc(fw._batch || '')}</span>
+      <strong class="name-link" onclick="showFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}')" style="cursor:pointer">${esc(fw.name || '?')}</strong>
+      <span class="sim" onclick="toggleExpand(this.parentElement)" style="cursor:pointer">&mdash; ${esc(fw._batch || '')} &#9660;</span>
       <div class="claim">${esc((fw.core_claim || '').substring(0, 200))}${(fw.core_claim||'').length > 200 ? '&hellip;' : ''}</div>
       <div class="rank-expand" style="display:none;margin-top:8px">
         <pre style="font-size:11px">${esc(fmt(fw))}</pre>
@@ -643,7 +645,7 @@ async function loadSpotlight() {
     $('spotlight').innerHTML = `
       <div class="card" style="border-color:var(--acc);border-style:dashed">
         <div style="font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">spotlight framework</div>
-        <p class="name">${esc(pick.name||'?')} ${viabilityBadge(pick.viability)}</p>
+        <p class="name" onclick="showFramework('${esc((pick.name||'').replace(/'/g,"\\'"))}')" style="cursor:pointer">${esc(pick.name||'?')} ${viabilityBadge(pick.viability)}</p>
         <p class="meta">confidence <strong>${(pick.confidence||0).toFixed(2)}</strong>
           &middot; ${esc(pick.mechanism_borrowed_from||'')} &rarr; ${esc(pick.domain_applied_to||'')}</p>
         <p style="font-size:13px;margin:8px 0 0;line-height:1.5">${esc(pick.core_claim||'')}</p>
@@ -657,6 +659,46 @@ async function loadHeaderStats() {
     const s = await r.json();
     $('header-stats').textContent = `${s.theory_count} theories · ${s.domain_count} domains · ${s.total_frameworks} frameworks`;
   } catch(e) {}
+}
+
+// Framework detail modal
+async function showFramework(name) {
+  try {
+    const r = await fetch(`/framework/${encodeURIComponent(name)}`);
+    if (!r.ok) return;
+    const fw = await r.json();
+    const related = fw.related_frameworks || [];
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+    overlay.innerHTML = `
+      <div class="modal">
+        <span class="modal-close" onclick="this.closest('.modal-overlay').remove()">&times;</span>
+        <h2 style="color:var(--acc);margin:0 0 8px;font-size:18px">${esc(fw.name||'?')} ${viabilityBadge(fw.viability)}</h2>
+        <div class="meta">confidence <strong>${(fw.confidence||0).toFixed(2)}</strong>
+          &middot; ${esc(fw.mechanism_borrowed_from||fw.mechanism_source||'')} &rarr; ${esc(fw.domain_applied_to||fw.target_domain||'')}
+          &middot; ${esc(fw._batch||'')}</div>
+        <p style="font-size:13px;margin:12px 0;line-height:1.6">${esc(fw.core_claim||fw.application||'')}</p>
+        ${fw.prediction ? `<div style="font-size:12px;margin:8px 0"><strong style="color:var(--blue)">Prediction:</strong> ${esc(fw.prediction)}</div>` : ''}
+        ${related.length ? `
+          <h3 style="color:var(--mut);font-size:13px;margin:16px 0 8px">related frameworks</h3>
+          <div class="related-list">
+            ${related.map(r => `
+              <div class="related-item" onclick="this.closest('.modal-overlay').remove();showFramework('${esc(r.name.replace(/'/g,"\\'"))}')">
+                <span class="conf">${(r.confidence||0).toFixed(2)}</span>
+                <span style="color:var(--acc)">${esc(r.name)}</span>
+                <span class="related-shared">${esc(r.shared)}</span>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+        <details style="margin-top:12px">
+          <summary style="cursor:pointer;color:var(--mut);font-size:12px">raw JSON</summary>
+          <pre style="font-size:11px;margin-top:8px">${esc(fmt(fw))}</pre>
+        </details>
+      </div>`;
+    document.body.appendChild(overlay);
+  } catch(e) { console.error(e); }
 }
 
 // Network visualization

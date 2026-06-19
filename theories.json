@@ -11923,5 +11923,545 @@
       "emergence",
       "efficiency"
     ]
+  },
+  {
+    "id": "complication-interaction-coupling",
+    "name": "Complication Interaction Coupling",
+    "domain": "horology",
+    "unit": "complication module (calendar, chronograph, repeater)",
+    "variation": "gear ratios, lever geometries, and spring tensions differ across complication designs",
+    "selection": "configurations where multiple complications share a motion train without interference persist in haute horlogerie",
+    "fitness": "number of simultaneous complications that operate without positional error accumulation",
+    "boundary": "available movement volume, pivot friction limits, hand-setting torque budget",
+    "tags": [
+      "coupling",
+      "modularity",
+      "constraint",
+      "optimization",
+      "hierarchy",
+      "feedback"
+    ]
+  },
+  {
+    "id": "lubrication-degradation-cycle",
+    "name": "Lubrication Degradation Cycle",
+    "domain": "horology",
+    "unit": "oil film at a pivot jewel interface",
+    "variation": "lubricant viscosity, jewel surface energy, capillary geometry at each pivot",
+    "selection": "pivot points where oil migration or oxidation causes amplitude loss are identified at service intervals",
+    "fitness": "time in years before amplitude drops below isochronous threshold",
+    "boundary": "ambient temperature range, seal integrity, molecular weight of synthetic lubricant",
+    "tags": [
+      "decay",
+      "threshold",
+      "feedback-loop",
+      "long-horizon",
+      "boundary",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "hairspring-elastic-hysteresis",
+    "name": "Hairspring Elastic Hysteresis",
+    "domain": "horology",
+    "unit": "coil segment of the balance spring",
+    "variation": "alloy composition, coil pitch, overcoil terminal curve geometry",
+    "selection": "spring forms with minimal positional error across orientations dominate modern caliber design",
+    "fitness": "isochronism \u2014 constancy of period across amplitude and position",
+    "boundary": "metallurgical limits of Nivarox-type alloys, thermal coefficient matching",
+    "tags": [
+      "oscillation",
+      "equilibrium",
+      "symmetry",
+      "optimization",
+      "constraint",
+      "feedback"
+    ]
+  },
+  {
+    "id": "tourbillon-gravitational-averaging",
+    "name": "Tourbillon Gravitational Averaging",
+    "domain": "horology",
+    "unit": "one full rotation of the tourbillon cage",
+    "variation": "cage rotation period, cage mass, number of axes of rotation",
+    "selection": "cage designs that best average gravitational rate errors across all vertical positions are refined and retained",
+    "fitness": "reduction in positional rate variation (seconds per day spread)",
+    "boundary": "cage inertia vs. mainspring torque, air resistance, single- vs. multi-axis geometry",
+    "tags": [
+      "symmetry",
+      "averaging",
+      "gradient",
+      "oscillation",
+      "optimization",
+      "coupling"
+    ]
+  },
+  {
+    "id": "power-reserve-discharge-curve",
+    "name": "Power Reserve Discharge Curve",
+    "domain": "horology",
+    "unit": "torque increment delivered per mainspring unwind step",
+    "variation": "barrel arbor ratio, fusee chain pitch, constant-force remontoire interval",
+    "selection": "mechanisms that flatten the torque delivery curve over the full wind are selected by chronometric competition",
+    "fitness": "constancy of balance amplitude from full wind to 24-hour mark",
+    "boundary": "mainspring fatigue limit, barrel volume, minimum torque to sustain escapement impulse",
+    "tags": [
+      "gradient",
+      "equilibrium",
+      "decay",
+      "constraint",
+      "feedback",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "scoby-pellicle-stratification",
+    "name": "SCOBY Pellicle Stratification",
+    "domain": "fermentation science",
+    "unit": "cellulose microfibril layer in a kombucha pellicle",
+    "variation": "acetobacter strain ratio, glucose vs. fructose availability, dissolved oxygen gradient",
+    "selection": "pellicle architectures that maintain an oxygen-rich upper zone and an anaerobic lower zone sustain stable symbiosis",
+    "fitness": "mechanical integrity of pellicle and steady-state acid/ethanol ratio in the liquid",
+    "boundary": "vessel surface area, ambient temperature, tea polyphenol concentration",
+    "tags": [
+      "gradient",
+      "self-organization",
+      "boundary",
+      "coupling",
+      "emergence",
+      "feedback"
+    ]
+  },
+  {
+    "id": "halophilic-succession-gradient",
+    "name": "Halophilic Succession Gradient",
+    "domain": "fermentation science",
+    "unit": "microbial community composition at a given salt concentration",
+    "variation": "initial brine salinity, vegetable sugar content, ambient temperature, inoculation source",
+    "selection": "salt concentration acts as a sequential gate \u2014 only taxa tolerant of the current NaCl level proliferate",
+    "fitness": "production of target metabolites (lactic acid, mannitol) while suppressing spoilage organisms",
+    "boundary": "salt saturation point, water activity minimum for lactic acid bacteria, temperature extremes",
+    "tags": [
+      "threshold",
+      "selection",
+      "gradient",
+      "cascade",
+      "competition",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "miso-protease-starch-coupling",
+    "name": "Miso Protease-Starch Coupling",
+    "domain": "fermentation science",
+    "unit": "enzyme-substrate reaction site in koji-inoculated soybean-grain matrix",
+    "variation": "koji strain protease/amylase ratio, soybean protein denaturation degree, grain starch gelatinization",
+    "selection": "enzyme ratios that balance amino acid release with sugar availability for Maillard browning define miso grade",
+    "fitness": "umami intensity (free glutamate concentration) at target maturation time",
+    "boundary": "salt inhibition of enzyme activity, moisture content, maturation temperature range",
+    "tags": [
+      "coupling",
+      "cascade",
+      "feedback",
+      "accumulation",
+      "threshold",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "vegetable-cell-lysis-kinetics",
+    "name": "Vegetable Cell Lysis Kinetics",
+    "domain": "fermentation science",
+    "unit": "plant cell undergoing osmotic rupture during salt brining",
+    "variation": "salt concentration, vegetable cell wall thickness, cut geometry, massage intensity",
+    "selection": "lysis rates that release substrate for LAB without premature structural collapse yield crisp fermented product",
+    "fitness": "retained crunch texture at target acidity (pH 3.5\u20134.0)",
+    "boundary": "cell wall pectin chemistry, calcium cross-link density, temperature-dependent diffusion rate",
+    "tags": [
+      "threshold",
+      "dynamics",
+      "gradient",
+      "tradeoff",
+      "flow",
+      "constraint"
+    ]
+  },
+  {
+    "id": "back-slopping-inoculum-drift",
+    "name": "Back-Slopping Inoculum Drift",
+    "domain": "fermentation science",
+    "unit": "microbial strain frequency in a serially transferred starter culture",
+    "variation": "transfer volume, timing of transfer relative to fermentation phase, environmental fluctuations",
+    "selection": "strains with fastest recovery from lag phase at transfer conditions increase in frequency across generations",
+    "fitness": "culture stability \u2014 consistent acidification rate and flavor profile across serial batches",
+    "boundary": "genetic drift at small transfer volumes, phage predation, contamination events",
+    "tags": [
+      "selection",
+      "stochastic",
+      "replication",
+      "feedback-loop",
+      "adaptation",
+      "variation"
+    ]
+  },
+  {
+    "id": "control-bar-force-resolution",
+    "name": "Control Bar Force Resolution",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "input force vector applied at the puppeteer's control bar",
+    "variation": "bar grip angle, wrist rotation speed, finger isolation technique",
+    "selection": "bar manipulations that produce naturalistic limb movement with minimal string cross-talk are retained in performance tradition",
+    "fitness": "ratio of intended joint articulation to parasitic motion in adjacent limbs",
+    "boundary": "puppeteer hand span, bar geometry, number of independently controlled strings",
+    "tags": [
+      "coupling",
+      "signal",
+      "noise",
+      "constraint",
+      "feedback",
+      "agents"
+    ]
+  },
+  {
+    "id": "string-elasticity-response-lag",
+    "name": "String Elasticity Response Lag",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "control string segment between bar attachment and puppet joint",
+    "variation": "string material (cotton, nylon, wire), diameter, free length, environmental humidity",
+    "selection": "string materials that minimize elastic hysteresis while damping high-frequency hand tremor are preferred",
+    "fitness": "fidelity of position transfer from bar to puppet joint across the frequency range of intended gestures",
+    "boundary": "string weight-to-strength ratio, temperature-dependent elasticity, knot slippage threshold",
+    "tags": [
+      "dynamics",
+      "signal",
+      "noise",
+      "tradeoff",
+      "feedback",
+      "threshold"
+    ]
+  },
+  {
+    "id": "gravity-pendulum-gait-cycle",
+    "name": "Gravity-Pendulum Gait Cycle",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "one leg swing of a marionette walking cycle",
+    "variation": "leg segment mass distribution, hip pivot friction, string attachment point on thigh vs. knee",
+    "selection": "mass distributions that produce a natural pendulum period matching human gait cadence at puppet scale are adopted",
+    "fitness": "audience rating of walking realism at performance viewing distance",
+    "boundary": "puppet scale vs. pendulum period mismatch, stage raking angle, air resistance on costume",
+    "tags": [
+      "oscillation",
+      "dynamics",
+      "coupling",
+      "emergence",
+      "agents",
+      "constraint"
+    ]
+  },
+  {
+    "id": "audience-focal-misdirection",
+    "name": "Audience Focal Misdirection",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "audience gaze fixation point during a scene transition",
+    "variation": "puppet head orientation, movement velocity contrast, lighting cue timing, sound cue placement",
+    "selection": "staging techniques that reliably redirect audience gaze away from string visibility and toward puppet face are codified",
+    "fitness": "percentage of audience time spent attending to the puppet character vs. visible mechanism",
+    "boundary": "theatre depth, lighting angle constraints, number of simultaneous puppet characters",
+    "tags": [
+      "signal",
+      "threshold",
+      "agents",
+      "feedback",
+      "encoding",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "weight-distribution-stability",
+    "name": "Weight Distribution Stability",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "center of mass position relative to the suspension point",
+    "variation": "limb segment densities, costume weight, internal counterweights, head ballast mass",
+    "selection": "mass configurations that return the puppet to a neutral hanging pose when control inputs cease are preserved in construction practice",
+    "fitness": "speed and completeness of return to neutral rest pose after perturbation",
+    "boundary": "total puppet weight vs. puppeteer fatigue, stage height clearance, string count",
+    "tags": [
+      "equilibrium",
+      "self-organization",
+      "constraint",
+      "feedback",
+      "optimization",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "reidemeister-move-equivalence",
+    "name": "Reidemeister Move Equivalence",
+    "domain": "knot theory",
+    "unit": "crossing in a knot diagram",
+    "variation": "application of Type I, II, or III Reidemeister moves to local diagram regions",
+    "selection": "move sequences that reduce crossing number or simplify diagram structure are pursued in unknotting algorithms",
+    "fitness": "minimum crossing number achieved for a given knot type",
+    "boundary": "move sequence length, computational complexity of checking equivalence, existence of hard unknot diagrams",
+    "tags": [
+      "optimization",
+      "equivalence",
+      "topology",
+      "constraint",
+      "encoding",
+      "boundary"
+    ]
+  },
+  {
+    "id": "jones-polynomial-invariant",
+    "name": "Jones Polynomial Invariant",
+    "domain": "knot theory",
+    "unit": "skein relation applied at a single crossing",
+    "variation": "choice of crossing to resolve, positive vs. negative crossing orientation",
+    "selection": "polynomial that remains unchanged under all Reidemeister moves distinguishes knot types",
+    "fitness": "discriminating power \u2014 number of distinct knot types the invariant separates",
+    "boundary": "mutant knots sharing the same Jones polynomial, computational cost scaling with crossing number",
+    "tags": [
+      "encoding",
+      "symmetry",
+      "topology",
+      "information",
+      "hierarchy",
+      "boundary"
+    ]
+  },
+  {
+    "id": "unknotting-number-obstruction",
+    "name": "Unknotting Number Obstruction",
+    "domain": "knot theory",
+    "unit": "crossing change (switch of over/under strand at one crossing)",
+    "variation": "which crossings are changed and in what order",
+    "selection": "crossing changes that reduce knot signature or Seifert genus are prioritized in unknotting strategies",
+    "fitness": "minimum number of crossing changes required to reach the unknot",
+    "boundary": "lower bounds from knot signature, genus, and slice genus; NP-hardness of unknotting number computation",
+    "tags": [
+      "optimization",
+      "threshold",
+      "constraint",
+      "topology",
+      "boundary",
+      "information"
+    ]
+  },
+  {
+    "id": "seifert-surface-genus",
+    "name": "Seifert Surface Genus",
+    "domain": "knot theory",
+    "unit": "Seifert circle in the oriented knot diagram",
+    "variation": "choice of diagram orientation, band attachment topology between Seifert circles",
+    "selection": "surfaces of minimal genus provide the tightest bounds on knot complexity and concordance class",
+    "fitness": "genus of the constructed Seifert surface (lower is more informative)",
+    "boundary": "smooth vs. topological genus distinction, difficulty of genus minimization for composite knots",
+    "tags": [
+      "topology",
+      "optimization",
+      "boundary",
+      "hierarchy",
+      "encoding",
+      "constraint"
+    ]
+  },
+  {
+    "id": "knot-group-peripheral-system",
+    "name": "Knot Group Peripheral System",
+    "domain": "knot theory",
+    "unit": "element of the fundamental group of the knot complement",
+    "variation": "choice of Wirtinger generators from diagram crossings, meridian-longitude pair selection",
+    "selection": "group presentations that expose torsion, abelianization rank, or peripheral structure distinguish knot types",
+    "fitness": "completeness of knot classification \u2014 peripheral system determines prime knot type up to mirror image",
+    "boundary": "undecidability of general group isomorphism, composite knot ambiguity, computational word problem",
+    "tags": [
+      "encoding",
+      "information",
+      "topology",
+      "symmetry",
+      "hierarchy",
+      "equivalence"
+    ]
+  },
+  {
+    "id": "capillary-bridge-failure-cascade",
+    "name": "Capillary Bridge Failure Cascade",
+    "domain": "sandcastle engineering",
+    "unit": "liquid bridge between two adjacent sand grains",
+    "variation": "water content, grain size distribution, evaporation rate, wind exposure",
+    "selection": "bridge networks that redistribute stress after individual bridge failure avoid catastrophic collapse",
+    "fitness": "time to structural failure under drying conditions",
+    "boundary": "pendular-to-funicular regime transition, grain surface hydrophobicity, pore air pressure",
+    "tags": [
+      "cascade",
+      "threshold",
+      "network",
+      "decay",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "sandcastle-arch-load-path",
+    "name": "Sandcastle Arch Load Path",
+    "domain": "sandcastle engineering",
+    "unit": "compressive force chain through a sand arch or bridge span",
+    "variation": "arch curvature, span-to-rise ratio, grain angularity, moisture content of fill",
+    "selection": "geometries where force chains route compressive stress to abutments without tensile failure are stable",
+    "fitness": "maximum span length that self-supports without reinforcement",
+    "boundary": "cohesion limit of wet sand in tension, abutment foundation bearing capacity, vibration sensitivity",
+    "tags": [
+      "flow",
+      "constraint",
+      "threshold",
+      "topology",
+      "optimization",
+      "boundary"
+    ]
+  },
+  {
+    "id": "grain-size-segregation-stratification",
+    "name": "Grain Size Segregation Stratification",
+    "domain": "sandcastle engineering",
+    "unit": "grain population sorted by diameter during wet-pour deposition",
+    "variation": "sand source grading, pour slurry viscosity, deposition velocity, container geometry",
+    "selection": "stratification patterns that place finer grains in high-stress zones improve structural cohesion",
+    "fitness": "compressive strength of the deposited column per unit height",
+    "boundary": "uniformly graded sand lacks segregation, turbulent mixing disrupts layering, grain shape effects",
+    "tags": [
+      "self-organization",
+      "gradient",
+      "emergence",
+      "flow",
+      "constraint",
+      "statistics"
+    ]
+  },
+  {
+    "id": "sandcastle-tidal-erosion-race",
+    "name": "Sandcastle Tidal Erosion Race",
+    "domain": "sandcastle engineering",
+    "unit": "surface grain cluster exposed to wave run-up",
+    "variation": "wall slope angle, surface roughness, wave period, grain packing density",
+    "selection": "wall geometries and compaction methods that deflect wave energy and minimize grain entrainment survive longer tidal cycles",
+    "fitness": "percentage of original structure volume retained after N wave impacts",
+    "boundary": "wave energy exceeding cohesion at any wall angle, rising tide depth, sand liquefaction under cyclic loading",
+    "tags": [
+      "boundary",
+      "threshold",
+      "dynamics",
+      "competition",
+      "decay",
+      "optimization"
+    ]
+  },
+  {
+    "id": "sandcastle-moisture-gradient-management",
+    "name": "Sandcastle Moisture Gradient Management",
+    "domain": "sandcastle engineering",
+    "unit": "moisture content at a given depth within the wall cross-section",
+    "variation": "wall thickness, ambient temperature, wind speed, misting frequency, initial water ratio",
+    "selection": "construction schedules that maintain moisture in the optimal 5\u20138% range through the wall section produce the strongest structures",
+    "fitness": "uniformity of cohesive strength across the wall cross-section",
+    "boundary": "evaporation rate exceeding re-wetting capacity, drainage at base, freezing conditions",
+    "tags": [
+      "gradient",
+      "feedback-loop",
+      "equilibrium",
+      "boundary",
+      "tradeoff",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "soundboard-tap-tone-voicing",
+    "name": "Soundboard Tap Tone Voicing",
+    "domain": "luthiery",
+    "unit": "vibrational mode of the instrument soundboard",
+    "variation": "graduation thickness pattern, bracing layout, wood species, grain orientation",
+    "selection": "builders adjust plate thickness until tap tone frequencies and mode shapes match target voicing profiles",
+    "fitness": "closeness of measured mode frequencies to the builder's target spectrum for the instrument model",
+    "boundary": "minimum structural thickness for string load, wood heterogeneity, humidity-dependent stiffness variation",
+    "tags": [
+      "feedback",
+      "optimization",
+      "oscillation",
+      "coupling",
+      "gradient",
+      "craft"
+    ]
+  },
+  {
+    "id": "wood-seasoning-hygroscopic-equilibrium",
+    "name": "Wood Seasoning Hygroscopic Equilibrium",
+    "domain": "luthiery",
+    "unit": "moisture content at a given depth in a tonewood billet",
+    "variation": "species cell structure, initial moisture content, drying schedule (air vs. kiln), ambient RH",
+    "selection": "billets that reach hygroscopic equilibrium without developing internal stress or checking are selected for building",
+    "fitness": "dimensional stability and absence of residual drying stress at target 6\u20138% moisture content",
+    "boundary": "case-hardening from too-rapid drying, fungal degradation during slow drying, species-specific collapse risk",
+    "tags": [
+      "equilibrium",
+      "gradient",
+      "threshold",
+      "long-horizon",
+      "constraint",
+      "decay"
+    ]
+  },
+  {
+    "id": "bridge-soundboard-impedance-matching",
+    "name": "Bridge-Soundboard Impedance Matching",
+    "domain": "luthiery",
+    "unit": "mechanical impedance at the bridge-to-soundboard interface",
+    "variation": "bridge mass, footprint area, soundboard stiffness at bridge location, string break angle",
+    "selection": "impedance ratios that maximize energy transfer from string to soundboard across the playing frequency range are refined across building iterations",
+    "fitness": "sustain duration and volume evenness across all strings and fret positions",
+    "boundary": "bridge mass loading that kills high-frequency response, soundboard deformation under string tension, inharmonicity from excessive bridge compliance",
+    "tags": [
+      "coupling",
+      "optimization",
+      "feedback",
+      "oscillation",
+      "tradeoff",
+      "signal"
+    ]
+  },
+  {
+    "id": "neck-relief-truss-rod-equilibrium",
+    "name": "Neck Relief Truss Rod Equilibrium",
+    "domain": "luthiery",
+    "unit": "longitudinal curvature of the neck under string tension and truss rod counter-force",
+    "variation": "neck wood species, carbon fiber reinforcement, truss rod type (single-action vs. dual), string gauge",
+    "selection": "setups where relief stays within 0.1\u20130.3 mm at the 7th fret across seasonal humidity swings are considered correctly built",
+    "fitness": "playability \u2014 buzz-free action height at target string tension across the full fretboard",
+    "boundary": "wood creep under sustained load, truss rod maximum adjustment range, fret levelness tolerance",
+    "tags": [
+      "equilibrium",
+      "feedback-loop",
+      "constraint",
+      "tradeoff",
+      "long-horizon",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "finish-acoustic-damping-tradeoff",
+    "name": "Finish Acoustic Damping Tradeoff",
+    "domain": "luthiery",
+    "unit": "coating layer (lacquer, shellac, oil, or polymer) on the vibrating surface",
+    "variation": "finish type, number of coats, total film thickness, solvent evaporation rate",
+    "selection": "finishes that protect against moisture and wear while adding minimal mass damping to the soundboard are favored by builders and players",
+    "fitness": "protection durability divided by measured Q-factor reduction of the soundboard's primary modes",
+    "boundary": "minimum film thickness for moisture barrier, UV degradation of natural finishes, aesthetic expectations",
+    "tags": [
+      "tradeoff",
+      "damping",
+      "constraint",
+      "feedback",
+      "optimization",
+      "boundary"
+    ]
   }
 ]
