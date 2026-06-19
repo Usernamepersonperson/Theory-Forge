@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Terroir Mineral Gradient Theory of Neighborhood Identity",
+    "core_claim": "Neighborhood cultural identity is a terroir phenomenon: the unique combination of built environment (soil), economic conditions (climate), historical inhabitants (grape variety), and institutional frameworks (viticulture practice) produces a distinctive cultural 'minerality' that cannot be replicated by transplanting any single element. Gentrification is terroir destruction — replacing the native cultivar while preserving the marketing language of place, producing a wine that carries the appellation but lacks the mineral signature that made the original valuable.",
+    "mechanism_borrowed_from": "terroir-mineral-gradient",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Terroir Mineral Gradient (Enology)",
+    "source_b": "Induced Demand"
+  },
+  {
+    "name": "Spine Flexibility Design Theory of Constitutional Amendments",
+    "core_claim": "Constitutional design faces the same tradeoff as bookbinding spine flexibility: too rigid a spine (unamendable constitution) cracks under stress and pages (provisions) detach; too flexible a spine (easily amended constitution) allows pages to shift out of alignment, losing structural coherence. The optimal spine stiffness matches the expected usage pattern — constitutions for rapidly changing societies need flexible perfect-binding, while those for stable societies benefit from rigid case-binding. The U.S. Constitution's Article V amendment process is a tight case-binding that has begun to crack at the joints.",
+    "mechanism_borrowed_from": "spine-flexibility-design",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Spine Flexibility Design (Bookbinding)",
+    "source_b": "Constitutional Separation of Powers"
+  },
+  {
+    "name": "Euler Graph Theory of Liturgical Ritual Design",
+    "core_claim": "Well-designed liturgical rituals are Eulerian circuits: they traverse every sacred element (edge) exactly once and return to the starting state, ensuring that no element of worship is omitted or redundantly repeated. Rituals that fail the Eulerian condition — containing vertices of odd degree (elements that don't connect smoothly to others) — require awkward transitions or forced repetitions that congregants experience as liturgical 'seams.' The historical evolution of liturgical rites can be understood as an optimization process converging toward Eulerian structure.",
+    "mechanism_borrowed_from": "euler-graph-theorem",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.42,
+    "source_a": "Euler Graph Theorem",
+    "source_b": "Karma (Theravada)"
+  },
+  {
+    "name": "Canopy Microclimate Regulation Theory of Classroom Management",
+    "core_claim": "Effective classroom management creates a canopy microclimate: the teacher's instructional 'canopy' (lesson structure, behavioral expectations) regulates the thermal environment (emotional temperature), light penetration (individual attention), and humidity (social interaction density) that students experience. Over-dense canopy (authoritarian control) produces etiolated learners who stretch toward any available light; over-sparse canopy (permissive environments) exposes students to scorching direct sun (peer pressure, distraction) without protective filtering. Optimal leaf area index for learning varies by developmental stage.",
+    "mechanism_borrowed_from": "canopy-microclimate-regulation",
+    "domain_applied_to": "developmental psychology",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Canopy Microclimate Regulation (Viticulture)",
+    "source_b": "Piaget's Developmental Stages"
+  },
+  {
+    "name": "Locard's Exchange Principle of Computational Forensics",
+    "core_claim": "Every computational interaction leaves a bidirectional trace, following Locard's exchange principle: when two software systems interact, each deposits artifacts on the other — log entries, cache objects, modified state. This principle, applied rigorously, means that perfect digital stealth is as impossible as perfect physical stealth. Forensic analysis of cyberattacks should search for exchange artifacts on both the compromised system AND the attack infrastructure, because the attacker's tools necessarily absorbed traces of the victim's environment during the interaction.",
+    "mechanism_borrowed_from": "locard-exchange-principle",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Locard's Exchange Principle (Forensic Science)",
+    "source_b": "Zero-Knowledge Proof"
+  },
+  {
+    "name": "Tonal Drift Theory of Monetary Policy Expectations",
+    "core_claim": "Central bank communication shifts market expectations through tonal drift: just as tone systems in language drift gradually when speaker communities become isolated (each community's pitch targets shift without awareness), central bank forward guidance drifts in interpretation across different market participant communities. Bond traders, equity analysts, and retail investors each develop slightly different 'pitch targets' for the same policy language, and these drifts compound until a single Fed statement is effectively a different phonological system for each community, producing the divergent market reactions that puzzle monetary economists.",
+    "mechanism_borrowed_from": "tonal-drift",
+    "domain_applied_to": "macroeconomics",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Tonal Drift (Phonology)",
+    "source_b": "Central Bank Policy"
+  },
+  {
+    "name": "Grain Boundary Strengthening Theory of Team Diversity",
+    "core_claim": "Team performance follows the Hall-Petch relationship: smaller 'grain size' (more diverse subgroups within a team, measured by disciplinary, cultural, and cognitive boundaries) increases the team's 'yield strength' (resistance to groupthink and premature consensus). Each grain boundary (interface between different perspectives) acts as a dislocation barrier that prevents intellectual 'slip' (lazy reasoning) from propagating across the entire team. However, below a critical grain size (~3 person subgroups), inverse Hall-Petch softening occurs — excessive diversity fragments the team into individuals who cannot coordinate, reducing strength.",
+    "mechanism_borrowed_from": "grain-boundary-strengthening-hall-petch",
+    "domain_applied_to": "decision theory",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Grain Boundary Strengthening / Hall-Petch (Metallurgy)",
+    "source_b": "Minimax Regret"
+  },
+  {
+    "name": "Deep-Sea Vent Chemosynthetic Theory of Underground Economies",
+    "core_claim": "Informal and underground economies function as deep-sea hydrothermal vent ecosystems: cut off from the 'photosynthetic' energy of the formal economy (legal commerce, regulated banking), they sustain themselves through chemosynthesis — deriving economic energy from chemical gradients between the formal and informal sectors (price differentials, regulatory arbitrage, tax avoidance). Vent communities (black markets) cluster around the steepest gradients (most distortionary regulations), and their biodiversity (variety of goods and services) is highest where the chemical energy flux is greatest.",
+    "mechanism_borrowed_from": "deep-sea-vent-chemosynthetic-gradient",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Deep-Sea Vent Chemosynthetic Gradient (Marine Biology)",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Aristotelian Ethos-Pathos-Logos Theory of Drug Design",
+    "core_claim": "Effective drug design requires the pharmaceutical equivalent of Aristotle's three modes of persuasion: ethos (the drug's credibility — pharmacokinetic profile that reaches the target tissue), pathos (emotional resonance — binding affinity that triggers the receptor's conformational response), and logos (rational argument — selectivity that logically discriminates between target and off-target receptors). Drugs that succeed in trials but fail in practice typically have strong logos (selective) and pathos (potent) but weak ethos (poor bioavailability) — they make a compelling molecular argument that never reaches the audience.",
+    "mechanism_borrowed_from": "aristotelian-ethos-pathos-logos-triangle",
+    "domain_applied_to": "drug design",
+    "viability": "speculative",
+    "confidence": 0.46,
+    "source_a": "Aristotelian Ethos-Pathos-Logos Triangle (Rhetoric)",
+    "source_b": "Lock-and-Key Model"
+  },
+  {
+    "name": "Harris Lines Theory of Economic Recession Detection",
+    "core_claim": "Economic recessions leave Harris lines in demographic and institutional data: just as childhood growth arrest leaves visible lines in long-bone radiographs, economic stress arrest leaves detectable marks in cohort data — reduced educational attainment, compressed wage growth, delayed family formation. These lines are permanent records that allow retrospective dating and severity estimation of economic shocks, even when GDP data is unavailable or unreliable. Developing-economy recession history could be reconstructed from demographic Harris lines rather than national accounts.",
+    "mechanism_borrowed_from": "harris-lines",
+    "domain_applied_to": "macroeconomics",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Harris Lines (Archaeology)",
+    "source_b": "Keynesian Multiplier"
+  },
+  {
+    "name": "Pipe Network Pressure Balancing Theory of Information Ecosystem Health",
+    "core_claim": "Healthy information ecosystems maintain pressure balance across their distribution network, following the same Hardy Cross method used for pipe networks: each information channel (pipe) carries a flow of content, and the system reaches equilibrium when pressure (credibility) is balanced at every junction (platform, aggregator). Misinformation propagates when a channel develops a pressure imbalance — either excess pressure (viral amplification without verification) or vacuum (censorship creating information voids that suck in conspiracy content). Rebalancing requires adjusting flow resistance (moderation) at specific pipes, not at nodes.",
+    "mechanism_borrowed_from": "pipe-network-pressure-balancing",
+    "domain_applied_to": "network theory",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Pipe Network Pressure Balancing (Hydraulic Engineering)",
+    "source_b": "Community Detection Resolution"
+  },
+  {
+    "name": "Phonological Loop Resonance Theory of Pricing Psychology",
+    "core_claim": "Price memorability and perceived fairness are determined by phonological loop resonance: prices whose verbal representation fits neatly into the phonological loop's ~2-second rehearsal window are perceived as more trustworthy and are recalled more accurately. Prices that require longer verbal encoding ($19.97 vs. $20) exploit a resonance mismatch — the complex phonological representation prevents the price from settling into a stable loop orbit, causing the consumer to approximate downward. This explains why charm pricing works in English but has variable effectiveness across languages with different number-word lengths.",
+    "mechanism_borrowed_from": "phonological-loop-resonance",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "source_a": "Phonological Loop Resonance (Neurolinguistics)",
+    "source_b": "Prospect Theory"
+  },
+  {
+    "name": "Coin Trust Token Theory of Social Media Verification",
+    "core_claim": "Social media verification badges function as numismatic trust tokens: they carry no intrinsic value but facilitate transactions (information exchange) by signaling that the issuing authority (platform) has performed assay (identity verification). Like debased coinage, when platforms sell verification badges without maintaining assay standards, the token's trust function collapses through Gresham's dynamics — paid badges (bad coins) circulate alongside legacy verified badges (good coins), and the market's inability to distinguish them devalues both. The solution is the same one historical mints developed: visible, hard-to-counterfeit design features that distinguish genuine from debased tokens.",
+    "mechanism_borrowed_from": "coin-trust-token",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.69,
+    "source_a": "Coin Trust Token (Numismatics)",
+    "source_b": "Structural Holes"
+  },
+  {
+    "name": "Myofibroblast Tension Feedback Theory of Post-Conflict Reconstruction",
+    "core_claim": "Post-conflict societies heal through myofibroblast tension feedback: initial wound closure (ceasefire, peace agreement) is followed by a contraction phase where the social 'wound edges' are pulled together by tension-generating institutions (truth commissions, reconstruction agencies) that function as societal myofibroblasts. Excessive contraction produces scarring (authoritarian overcorrection, ethnic homogenization), while insufficient contraction leaves a chronic open wound (frozen conflict). The mechanical feedback signal that tells biological myofibroblasts when to stop contracting (matrix stiffness reaching threshold) maps onto the institutional signals that should trigger transition from reconstruction to normalization.",
+    "mechanism_borrowed_from": "myofibroblast-tension-feedback",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Myofibroblast Tension Feedback (Wound Healing)",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Quantum Gate Fidelity Theory of Pedagogical Assessment",
+    "core_claim": "Educational assessments should be evaluated using quantum gate fidelity metrics: each test question is a 'gate operation' intended to transform the student's knowledge state, and the fidelity of the assessment measures how closely the actual transformation matches the intended one. Low-fidelity assessments (poorly written questions, ambiguous prompts) introduce errors that compound across the test — just as low gate fidelity compounds across a quantum circuit — producing a final measured state (test score) that bears decreasing resemblance to the student's actual knowledge state. Assessment design should target the same fidelity thresholds that quantum error correction demands.",
+    "mechanism_borrowed_from": "quantum-gate-fidelity-gradient",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Quantum Gate Fidelity Gradient (Quantum Computing)",
+    "source_b": "Vygotsky's Zone of Proximal Development"
+  }
+]

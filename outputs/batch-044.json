@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Temperature-Compensated Balance Theory of Emotional Regulation",
+    "core_claim": "Emotionally resilient individuals possess temperature-compensated balance wheels: composite psychological mechanisms whose net response to environmental 'temperature' changes (stress, social pressure, hormonal fluctuation) cancels out, maintaining a stable oscillation frequency (behavioral consistency). The bimetallic strip analog is the pairing of opposing temperamental tendencies — anxiety paired with curiosity, aggression paired with empathy — whose differential expansion under stress produces a net-zero dimensional change. Individuals with uncompensated balances show dramatic period drift: their behavioral timing (reaction speed, decision latency, mood cycles) varies wildly with environmental conditions.",
+    "mechanism_borrowed_from": "temperature-compensated-balance",
+    "domain_applied_to": "developmental psychology",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Temperature-Compensated Balance (Horology)",
+    "source_b": "Attachment Theory (Bowlby)"
+  },
+  {
+    "name": "Vine Training Architecture Theory of Neural Network Design",
+    "core_claim": "Neural network architectures should follow viticultural training system principles: the 'canopy' (hidden layers) must be shaped to maximize 'sunlight interception' (gradient flow) while limiting 'disease pressure' (overfitting, vanishing gradients). Vertical shoot positioning (sequential layer stacking) maximizes light exposure but creates dense canopies prone to disease in deep networks. Geneva Double Curtain (parallel processing paths) and Smart-Dyson (alternating orientations) architectures improve airflow (information flow) through the canopy. Pruning — both viticultural and neural — follows the same optimization: remove growth that shades productive tissue without reducing total photosynthetic area below the compensation point.",
+    "mechanism_borrowed_from": "vine-training-architecture",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Vine Training System Architecture (Viticulture)",
+    "source_b": "Stochastic Gradient Descent"
+  },
+  {
+    "name": "Spine Flexibility Theory of API Design",
+    "core_claim": "Well-designed APIs exhibit the spine flexibility of fine bookbinding: they allow 'flat opening' at any page (function call) without cracking (breaking changes) or excessive resistance (boilerplate). APIs with rigid spines (tightly coupled interfaces) resist opening and eventually crack under the stress of evolving requirements. APIs with no spine at all (unstructured data passing) flop open everywhere but cannot hold their shape. The bookbinder's ideal — a spine that is rigid enough to hold its shape on the shelf but flexible enough to lie flat when opened — is the API designer's ideal of convention over configuration: structural when idle, compliant when used.",
+    "mechanism_borrowed_from": "spine-flexibility-drape",
+    "domain_applied_to": "programming languages",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Spine Flexibility and Drape (Bookbinding)",
+    "source_b": "Lambda Calculus"
+  },
+  {
+    "name": "Fourier Decomposition Theory of Personality Psychology",
+    "core_claim": "Personality traits are the Fourier components of behavioral waveforms: any individual's complex behavioral pattern over time can be decomposed into a sum of orthogonal trait 'frequencies' (the Big Five or similar dimensional models), each with characteristic amplitude and phase. Low-frequency traits (neuroticism, conscientiousness) describe the broad contour of behavior across months and years; high-frequency traits (situational agreeableness, state extraversion) capture rapid fluctuations. The psychometric power spectrum of an individual reveals whether their personality is dominated by stable fundamentals or by high-frequency situational noise — a distinction invisible to single-timepoint assessments.",
+    "mechanism_borrowed_from": "fourier-decomposition",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Fourier Decomposition of Sound (Acoustics)",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Fixative-Mediated Evaporation Theory of Cultural Memory",
+    "core_claim": "Cultural memories persist differentially based on their 'volatility' and the strength of available 'fixatives.' Light, volatile memories (fashions, slang, pop culture moments) evaporate within a generation unless fixed by institutional preservatives (museums, curricula, media archives). Heavy base-note memories (founding myths, religious narratives, ancestral trauma) persist without fixation due to their inherent molecular weight (emotional and identity significance). The perfumer's fixative mechanism — heavy molecules that physically retard the evaporation of lighter ones — maps to the way canonical works anchor ephemeral references: Shakespeare fixes Elizabethan slang; the Bible fixes ancient Near Eastern customs that would otherwise have evaporated millennia ago.",
+    "mechanism_borrowed_from": "fixative-evaporation-cascade",
+    "domain_applied_to": "anthropology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Fixative-Mediated Evaporation Cascade (Perfumery)",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Bypass Attack Theory of Regulatory Arbitrage",
+    "core_claim": "Financial regulatory arbitrage is a bypass attack: rather than picking the lock (complying with regulations through the intended mechanism), sophisticated actors find attack surfaces that circumvent the key-pin interface entirely — offshore structures, synthetic instruments, and novel legal entities that route around the regulatory mechanism without technically violating it. The lock-picker's taxonomy of bypass attacks (shimming, comb picks, bumping) maps to regulatory bypass categories (structural arbitrage, jurisdictional arbitrage, temporal arbitrage). The defense, as in physical security, is to assume that every lock can be bypassed and design the security system with depth — multiple independent mechanisms that cannot all be bypassed by the same technique.",
+    "mechanism_borrowed_from": "bypass-attack-surface",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Bypass Attack Surface Analysis (Lock-picking)",
+    "source_b": "Minsky Moment"
+  },
+  {
+    "name": "Origami Twist-Fold Bistability Theory of Political Polarization",
+    "core_claim": "Political polarization exhibits twist-fold bistability: the political landscape has two stable folded states (left-right configurations) separated by an energy barrier (the cost of moderate positioning). Once the system is pushed past the bifurcation point, it snaps into one of two stable configurations and resists perturbation back to the flat (centrist) state. The twist-fold mechanism explains why polarization is self-reinforcing: the folded geometry creates strain energy that further stabilizes the folded state, and returning to flat requires not just removing the applied force but actively supplying energy to overcome the geometric lock. Depolarization requires unfolding through the exact reverse sequence of folds — a path-dependent process that cannot be shortcut.",
+    "mechanism_borrowed_from": "origami-twist-fold-bistability",
+    "domain_applied_to": "political ideology",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Origami Twist-Fold Bistability (Origami Mathematics)",
+    "source_b": "Overton Window"
+  },
+  {
+    "name": "Nectar Foraging Theory of Academic Research Funding",
+    "core_claim": "Academic research funding ecosystems optimize through nectar foraging dynamics: funding agencies (hive) deploy scouts (program officers) to evaluate research directions (flower patches), and successful scouts recruit foragers (grants) proportional to patch quality (scientific promise). The system self-corrects as depleted patches (exhausted research veins) naturally reduce recruitment through declining publication rates (reduced waggle dance intensity). However, the colony's response to sudden nectar flow collapse (paradigm shift, negative replication results) is dangerously slow — foragers continue visiting depleted patches for cycles after the nectar is gone, wasting colony resources on post-peak fields.",
+    "mechanism_borrowed_from": "nectar-foraging-optimization",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Nectar Flow Foraging Allocation (Beekeeping)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Tobler's First Law Theory of Emotional Contagion",
+    "core_claim": "Emotional contagion follows Tobler's First Law: near emotions are more related than distant emotions, where 'distance' is measured in social network hops, not physical space. The spatial autocorrelation of mood within social networks decays with a characteristic length scale determined by tie strength and communication frequency. This geographic framing reveals that emotional 'hotspots' (clusters of shared mood) emerge through the same spatial processes as geographic phenomena — diffusion, clustering, and boundary effects — and can be mapped, interpolated, and predicted using the same geostatistical tools (kriging, variograms) that cartographers use for physical landscapes.",
+    "mechanism_borrowed_from": "toblers-first-law",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Tobler's First Law of Geography (Cartography)",
+    "source_b": "Mirror Neurons"
+  },
+  {
+    "name": "Combustion Front Theory of Religious Conversion Waves",
+    "core_claim": "Mass religious conversion events propagate as combustion fronts: the 'fuel' (population susceptibility), 'oxidizer' (social disruption, anomie), and 'ignition source' (charismatic founder or missionary) must co-occur for a self-sustaining conversion wave. The conversion front velocity is determined by the preheating zone — the region ahead of the front where indirect exposure (trade contacts, travelers' reports, material culture) raises the population's 'temperature' toward the ignition point. Religions that spread by deflagration (steady missionary advance) differ structurally from those that spread by detonation (sudden mass conversion): detonation requires a shock wave of social crisis that compresses the susceptible population ahead of the conversion front.",
+    "mechanism_borrowed_from": "combustion-front-propagation",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Combustion Propagation Front (Pyrotechnics)",
+    "source_b": "Karma (Theravada)"
+  },
+  {
+    "name": "Standing Wave Modal Theory of Urban Traffic Patterns",
+    "core_claim": "Urban traffic congestion forms standing wave modal patterns: the road network, bounded by geographic barriers and limited-access points, supports only certain harmonic modes of traffic flow. Rush-hour congestion concentrates at the antinodes (intersections where constructive interference of traffic streams produces maximum amplitude), while nodes (free-flowing stretches between congestion points) experience minimal disruption. The modal structure is determined by network geometry, not driver behavior — changing driver behavior merely shifts which modes are excited, not the frequencies available. Traffic engineering that ignores modal structure is equivalent to soundproofing that ignores room acoustics.",
+    "mechanism_borrowed_from": "standing-wave-modal-structure",
+    "domain_applied_to": "urban planning",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Standing Wave Modal Structure (Acoustics)",
+    "source_b": "Induced Demand (Braess Paradox)"
+  },
+  {
+    "name": "LSB Embedding Theory of Subliminal Persuasion",
+    "core_claim": "Subliminal persuasion operates through least-significant-bit embedding: persuasive content is encoded in the perceptually least significant features of ostensibly neutral communication — word choice frequency, sentence rhythm, color temperature in visual media — at a bitrate below the conscious detection threshold but above the unconscious processing threshold. The embedding capacity frontier defines the maximum persuasive payload that can be hidden in a given cover message without triggering the audience's 'steganalysis' (critical awareness). Heavy-handed propaganda exceeds the capacity frontier and is detectable; sophisticated influence operations stay within it.",
+    "mechanism_borrowed_from": "lsb-embedding-capacity",
+    "domain_applied_to": "persuasion theory",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "LSB Embedding Capacity Frontier (Steganography)",
+    "source_b": "Nudge Theory (Thaler-Sunstein)"
+  },
+  {
+    "name": "Marionette String Coupling Theory of Central Banking",
+    "core_claim": "Central bank policy operates through marionette string coupling: each policy instrument (interest rate, reserve requirements, quantitative easing) is a string attached to a control bar, and the real economy is the puppet. The coupling matrix — the relationship between bar movements (policy changes) and puppet limb responses (economic variables) — is non-diagonal: pulling one string moves multiple limbs, and moving one limb cleanly requires coordinated pulls on multiple strings. The fundamental puppetry challenge applies: the number of independently controllable economic variables cannot exceed the number of independent policy strings, and tangled strings (interacting policy channels) reduce effective control dimensionality below the nominal count.",
+    "mechanism_borrowed_from": "marionette-string-coupling",
+    "domain_applied_to": "macroeconomics",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Marionette String Coupling Matrix (Puppetry)",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Glacial Surge Theory of Technological Disruption",
+    "core_claim": "Technological disruptions follow glacial surge oscillation dynamics: long quiescent periods of incremental advance (normal glacial flow) alternate with sudden, catastrophic surges where the technology advances at 10-100x the normal rate. The surge is triggered when the basal drag (market friction, regulatory resistance, infrastructure lock-in) is suddenly reduced — by a lubricating layer of venture capital, a regulatory thaw, or an infrastructure buildout that eliminates the friction. Like glacial surges, technological surges terminate abruptly when the driving stress is dissipated (capital exhaustion, market saturation), leaving behind a deposit of disrupted industries (terminal moraine) and a landscape permanently altered by the passage.",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "economics",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Glacial Surge Oscillation (Glaciology)",
+    "source_b": "Creative Destruction (Schumpeter)"
+  },
+  {
+    "name": "Stribeck Curve Theory of Organizational Communication",
+    "core_claim": "Organizational communication friction follows a Stribeck curve: at very low communication velocity (rare meetings, minimal email), friction is high and static (boundary lubrication — people interact through formal, rigid protocols). As communication frequency increases, friction drops dramatically as a hydrodynamic film of familiarity and shared context develops (full-film lubrication). But at excessive communication velocity (constant Slack messages, daily standups, meeting culture), friction rises again due to turbulent losses — information overload, context-switching costs, and the paradox of overcommunication where more messages produce less understanding. The Stribeck optimum is the communication frequency that minimizes total organizational friction.",
+    "mechanism_borrowed_from": "stribeck-curve-transitions",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Stribeck Curve Transitions (Tribology)",
+    "source_b": "Dunbar's Number"
+  }
+]

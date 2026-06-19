@@ -9780,5 +9780,1607 @@
       "adaptation",
       "optimization"
     ]
+  },
+  {
+    "id": "parkour-route-selection",
+    "name": "Parkour Route Selection",
+    "domain": "parkour / freerunning",
+    "unit": "candidate route through obstacle field",
+    "variation": "exploratory movement attempts, line improvisation",
+    "selection": "routes that minimize energy cost while maintaining momentum survive in the traceur's repertoire",
+    "fitness": "speed × fluidity / injury risk",
+    "boundary": "grip friction, surface geometry, fatigue threshold, legal access",
+    "tags": [
+      "optimization",
+      "feedback",
+      "agents",
+      "spatial-reasoning",
+      "embodiment",
+      "risk"
+    ]
+  },
+  {
+    "id": "parkour-momentum-conservation",
+    "name": "Momentum Threading",
+    "domain": "parkour / freerunning",
+    "unit": "transition between consecutive obstacles",
+    "variation": "vault type, takeoff angle, limb placement at contact",
+    "selection": "transitions that preserve or redirect kinetic energy are retained; those that stall flow are discarded",
+    "fitness": "exit velocity / entry velocity (momentum transfer ratio)",
+    "boundary": "body mass, obstacle height differential, surface coefficient of restitution",
+    "tags": [
+      "conservation",
+      "feedback",
+      "chaining",
+      "embodiment",
+      "kinematics",
+      "flow"
+    ]
+  },
+  {
+    "id": "parkour-obstacle-grammar",
+    "name": "Obstacle Grammar Parsing",
+    "domain": "parkour / freerunning",
+    "unit": "perceived obstacle affordance",
+    "variation": "perceptual reinterpretation of urban geometry (wall as ramp, rail as balance beam)",
+    "selection": "affordance frames that unlock efficient movement patterns outcompete literal interpretations",
+    "fitness": "number of viable movement options generated per scan",
+    "boundary": "visual acuity, prior movement vocabulary, time pressure",
+    "tags": [
+      "perception",
+      "abstraction",
+      "agents",
+      "spatial-reasoning",
+      "reframing",
+      "combinatorics"
+    ]
+  },
+  {
+    "id": "parkour-flow-state-lock",
+    "name": "Flow-State Lock-In",
+    "domain": "parkour / freerunning",
+    "unit": "attentional focus window during a run",
+    "variation": "fluctuations in arousal, challenge-skill ratio, environmental novelty",
+    "selection": "arousal levels matching task difficulty sustain flow; mismatches trigger exit to deliberate planning",
+    "fitness": "duration of unbroken automatic execution",
+    "boundary": "fatigue onset, unexpected obstacle, fear threshold, distraction",
+    "tags": [
+      "feedback",
+      "threshold",
+      "embodiment",
+      "self-regulation",
+      "emergence",
+      "attention"
+    ]
+  },
+  {
+    "id": "parkour-precision-landing",
+    "name": "Precision Landing Calibration",
+    "domain": "parkour / freerunning",
+    "unit": "landing attempt on a target surface",
+    "variation": "jump distance, takeoff timing, mid-air posture correction",
+    "selection": "landings within the target footprint are reinforced; overshoots and undershoots are penalized by pain or fall",
+    "fitness": "inverse distance from foot placement to target centroid",
+    "boundary": "target surface area, wind, shoe traction, depth-perception accuracy",
+    "tags": [
+      "feedback",
+      "calibration",
+      "embodiment",
+      "precision",
+      "error-correction",
+      "agents"
+    ]
+  },
+  {
+    "id": "rennet-coagulation-dynamics",
+    "name": "Rennet Coagulation Dynamics",
+    "domain": "cheesemaking",
+    "unit": "casein micelle in milk matrix",
+    "variation": "enzyme concentration, pH drift, temperature fluctuation",
+    "selection": "coagulation conditions producing a clean curd break are retained by the cheesemaker; weak or shattered gels are rejected",
+    "fitness": "gel firmness at cut time",
+    "boundary": "milk composition, calcium availability, pasteurization history, rennet type",
+    "tags": [
+      "threshold",
+      "phase-transition",
+      "feedback",
+      "biochemistry",
+      "kinetics",
+      "self-assembly"
+    ]
+  },
+  {
+    "id": "starter-culture-succession",
+    "name": "Starter Culture Succession",
+    "domain": "cheesemaking",
+    "unit": "microbial strain in the culture consortium",
+    "variation": "mutation, horizontal gene transfer, strain ratio drift between batches",
+    "selection": "strains that acidify on schedule and produce desirable flavor compounds dominate; off-flavor producers are diluted out",
+    "fitness": "contribution to target pH curve × flavor desirability",
+    "boundary": "temperature program, nutrient availability, phage predation, back-slopping ratio",
+    "tags": [
+      "variation",
+      "selection",
+      "replication",
+      "ecology",
+      "competition",
+      "symbiosis"
+    ]
+  },
+  {
+    "id": "affinage-rind-coevolution",
+    "name": "Affinage–Rind Coevolution",
+    "domain": "cheesemaking",
+    "unit": "wheel surface microenvironment during aging",
+    "variation": "humidity shifts, turning schedule, ambient mold spore diversity",
+    "selection": "rind conditions that protect the paste while allowing controlled moisture loss are maintained; cracking or excessive mold are corrected",
+    "fitness": "paste texture score at target age",
+    "boundary": "cave humidity, temperature stability, wheel size, salt concentration",
+    "tags": [
+      "feedback",
+      "coevolution",
+      "boundary-layer",
+      "aging",
+      "ecology",
+      "equilibrium"
+    ]
+  },
+  {
+    "id": "curd-moisture-partitioning",
+    "name": "Curd Moisture Partitioning",
+    "domain": "cheesemaking",
+    "unit": "curd particle after cutting",
+    "variation": "cut size, stir speed, cook temperature ramp",
+    "selection": "particle populations converging on target moisture are pressed into the wheel; outliers drain excess whey or retain too much",
+    "fitness": "moisture content proximity to style target",
+    "boundary": "milk fat content, acidification rate, drainage geometry",
+    "tags": [
+      "partitioning",
+      "feedback",
+      "calibration",
+      "phase-transition",
+      "statistics",
+      "homogeneity"
+    ]
+  },
+  {
+    "id": "washed-rind-biofilm",
+    "name": "Washed-Rind Biofilm Assembly",
+    "domain": "cheesemaking",
+    "unit": "biofilm community on washed-rind surface",
+    "variation": "brine concentration, wash frequency, ambient microbiota",
+    "selection": "communities producing Brevibacterium-dominated orange rinds with characteristic aroma are favored; unwanted molds are washed away",
+    "fitness": "color intensity × aroma profile match",
+    "boundary": "salt tolerance range, wash solution pH, aging room ventilation, competing fungi",
+    "tags": [
+      "self-assembly",
+      "ecology",
+      "selection",
+      "competition",
+      "symbiosis",
+      "feedback"
+    ]
+  },
+  {
+    "id": "lsb-embedding-capacity",
+    "name": "LSB Embedding Capacity Frontier",
+    "domain": "steganography",
+    "unit": "bit position in a cover-image pixel",
+    "variation": "number of least-significant bits modified per channel, cover image choice",
+    "selection": "embedding depths that pass statistical steganalysis survive; over-embedded images are detected and discarded",
+    "fitness": "payload size / detectability score",
+    "boundary": "cover image entropy, detector sensitivity, channel noise floor",
+    "tags": [
+      "information",
+      "trade-off",
+      "adversarial",
+      "capacity",
+      "noise",
+      "detection"
+    ]
+  },
+  {
+    "id": "cover-object-selection",
+    "name": "Cover Object Selection Pressure",
+    "domain": "steganography",
+    "unit": "candidate cover object (image, audio, text)",
+    "variation": "object type, natural noise profile, statistical texture",
+    "selection": "covers whose native statistics best mask embedded data are preferred; statistically smooth covers reveal artifacts",
+    "fitness": "embedding capacity × statistical indistinguishability",
+    "boundary": "available cover corpus, channel format constraints, observer model sophistication",
+    "tags": [
+      "selection",
+      "camouflage",
+      "information",
+      "statistics",
+      "adversarial",
+      "entropy"
+    ]
+  },
+  {
+    "id": "steganalysis-arms-race",
+    "name": "Steganalysis Arms Race",
+    "domain": "steganography",
+    "unit": "embedding algorithm generation",
+    "variation": "new embedding techniques, improved feature extractors, adversarial training",
+    "selection": "algorithms undetectable by current steganalyzers propagate; detected methods are abandoned",
+    "fitness": "undetectability under state-of-the-art classifiers",
+    "boundary": "computational cost, payload requirement, cover format evolution",
+    "tags": [
+      "coevolution",
+      "adversarial",
+      "arms-race",
+      "feedback",
+      "adaptation",
+      "detection"
+    ]
+  },
+  {
+    "id": "linguistic-steganography",
+    "name": "Linguistic Steganography via Synonym Substitution",
+    "domain": "steganography",
+    "unit": "word choice in a natural-language cover text",
+    "variation": "synonym selection encoding bits, sentence restructuring, punctuation modulation",
+    "selection": "substitutions that preserve naturalness and readability persist; awkward phrasings trigger human suspicion",
+    "fitness": "bits encoded per sentence / perplexity increase",
+    "boundary": "language model fluency, synonym inventory, semantic drift tolerance",
+    "tags": [
+      "information",
+      "camouflage",
+      "naturalness",
+      "encoding",
+      "language",
+      "adversarial"
+    ]
+  },
+  {
+    "id": "spread-spectrum-stego",
+    "name": "Spread-Spectrum Steganographic Resilience",
+    "domain": "steganography",
+    "unit": "frequency-domain coefficient in a cover signal",
+    "variation": "spreading code, embedding strength, coefficient selection",
+    "selection": "embeddings surviving JPEG recompression, scaling, and noise addition persist; fragile embeddings lose payload",
+    "fitness": "bit-error rate after channel distortion",
+    "boundary": "cover signal bandwidth, distortion budget, key synchronization",
+    "tags": [
+      "resilience",
+      "noise",
+      "information",
+      "spread-spectrum",
+      "robustness",
+      "encoding"
+    ]
+  },
+  {
+    "id": "intertidal-zonation-gradient",
+    "name": "Intertidal Zonation Gradient",
+    "domain": "tidal ecology",
+    "unit": "sessile organism on a rocky shore",
+    "variation": "larval settlement position, species-specific desiccation tolerance",
+    "selection": "organisms positioned within their physiological tolerance band survive; those above dry out, those below face predation",
+    "fitness": "survival to reproduction at a given tidal height",
+    "boundary": "tidal range, wave exposure, rock substrate, climate",
+    "tags": [
+      "gradient",
+      "zonation",
+      "selection",
+      "scarcity",
+      "ecology",
+      "boundary-layer"
+    ]
+  },
+  {
+    "id": "splash-zone-extremophile",
+    "name": "Splash Zone Extremophile Filter",
+    "domain": "tidal ecology",
+    "unit": "microbial or lichen colony in the supralittoral splash zone",
+    "variation": "salt spray intensity, UV exposure, wetting frequency",
+    "selection": "only organisms tolerating extreme desiccation and salinity fluctuation persist; mesophilic colonizers are eliminated",
+    "fitness": "biomass retention through a neap-to-spring tidal cycle",
+    "boundary": "wave fetch, cliff angle, freshwater seepage, latitude",
+    "tags": [
+      "extremophile",
+      "threshold",
+      "selection",
+      "stress-tolerance",
+      "ecology",
+      "filtering"
+    ]
+  },
+  {
+    "id": "biofouling-succession",
+    "name": "Biofouling Community Succession",
+    "domain": "tidal ecology",
+    "unit": "fouling organism on a submerged hard substrate",
+    "variation": "larval arrival order, biofilm conditioning, seasonal recruitment pulses",
+    "selection": "early colonizers (bacteria, diatoms) condition surfaces for later settlers; competitive overgrowth displaces slower species",
+    "fitness": "space occupation at climax community stage",
+    "boundary": "substrate chemistry, flow velocity, grazer pressure, antifouling treatments",
+    "tags": [
+      "succession",
+      "competition",
+      "ecology",
+      "self-assembly",
+      "priority-effects",
+      "colonization"
+    ]
+  },
+  {
+    "id": "tidal-pool-refuge",
+    "name": "Tidal Pool Thermal Refuge Dynamics",
+    "domain": "tidal ecology",
+    "unit": "mobile organism choosing among tide pools at low tide",
+    "variation": "pool volume, shading, algal cover, depth, water exchange rate",
+    "selection": "organisms aggregating in thermally buffered pools survive heat events; those trapped in shallow sunlit pools suffer mortality",
+    "fitness": "survival probability through a low-tide thermal maximum",
+    "boundary": "pool geometry, solar angle, wind speed, rock thermal conductivity",
+    "tags": [
+      "refuge",
+      "agents",
+      "spatial-reasoning",
+      "thermal-regulation",
+      "ecology",
+      "stochastic"
+    ]
+  },
+  {
+    "id": "exposure-gradient-morphology",
+    "name": "Wave Exposure Morphological Plasticity",
+    "domain": "tidal ecology",
+    "unit": "individual organism phenotype along a wave-exposure gradient",
+    "variation": "shell thickness, holdfast strength, body profile, flexibility",
+    "selection": "morphologies matching local hydrodynamic force persist; mismatched forms are dislodged or broken",
+    "fitness": "attachment survival through storm events",
+    "boundary": "wave energy spectrum, substrate rugosity, growth rate, predation pressure",
+    "tags": [
+      "plasticity",
+      "gradient",
+      "selection",
+      "adaptation",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "marionette-string-coupling",
+    "name": "Marionette String Coupling Matrix",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "string connection between control bar and puppet joint",
+    "variation": "string attachment point, length, elasticity, number of strings",
+    "selection": "coupling configurations producing lifelike joint articulation with minimal tangling are retained; clumsy rigs are redesigned",
+    "fitness": "degrees of freedom achievable / string count",
+    "boundary": "puppet weight, string tensile strength, operator hand span, gravity",
+    "tags": [
+      "coupling",
+      "optimization",
+      "feedback",
+      "embodiment",
+      "kinematics",
+      "design"
+    ]
+  },
+  {
+    "id": "puppet-counterweight-balance",
+    "name": "Puppet Counterweight Equilibrium",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "counterweight on the control bar",
+    "variation": "mass placement, bar pivot point, spring tension",
+    "selection": "counterweight configurations achieving neutral buoyancy at rest position survive rehearsal; top-heavy or sagging rigs are rebalanced",
+    "fitness": "effort required to initiate movement from rest",
+    "boundary": "puppet mass distribution, bar length, operator fatigue threshold, performance duration",
+    "tags": [
+      "equilibrium",
+      "calibration",
+      "feedback",
+      "embodiment",
+      "ergonomics",
+      "design"
+    ]
+  },
+  {
+    "id": "puppet-audience-sightline",
+    "name": "Audience Sightline Optimization",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "audience seat position relative to puppet stage",
+    "variation": "stage height, masking curtain position, lighting angle, puppet scale",
+    "selection": "staging geometries that hide the operator while maximizing puppet visibility across seating are adopted; designs exposing mechanics break illusion",
+    "fitness": "percentage of seats with unobstructed puppet view × operator concealment",
+    "boundary": "venue geometry, operator height, puppet size, lighting rig placement",
+    "tags": [
+      "optimization",
+      "spatial-reasoning",
+      "illusion",
+      "perception",
+      "design",
+      "constraint-satisfaction"
+    ]
+  },
+  {
+    "id": "puppet-articulation-hierarchy",
+    "name": "Puppet Articulation Hierarchy",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "joint in the puppet's kinematic chain",
+    "variation": "joint type (hinge, ball, pivot), range of motion, friction coefficient",
+    "selection": "joint hierarchies enabling expressive gesture with stable posture are preferred; floppy or rigid chains fail expressiveness tests",
+    "fitness": "gestural expressiveness score × postural stability",
+    "boundary": "material weight, string count limit, carving precision, wood grain orientation",
+    "tags": [
+      "hierarchy",
+      "kinematics",
+      "embodiment",
+      "design",
+      "trade-off",
+      "articulation"
+    ]
+  },
+  {
+    "id": "puppet-illusion-threshold",
+    "name": "Puppet Animation Illusion Threshold",
+    "domain": "puppetry / marionette mechanics",
+    "unit": "movement sequence performed by the puppeteer",
+    "variation": "timing, amplitude, rhythm, gaze direction of puppet head",
+    "selection": "movement patterns crossing the audience's animacy-perception threshold produce character belief; sub-threshold motions read as dead wood",
+    "fitness": "audience animacy attribution rating",
+    "boundary": "uncanny valley effects, movement speed resolution, audience cultural expectations, lighting",
+    "tags": [
+      "threshold",
+      "perception",
+      "illusion",
+      "emergence",
+      "feedback",
+      "agents"
+    ]
+  },
+  {
+    "id": "pointer-year-signal",
+    "name": "Pointer Year Signal Detection",
+    "domain": "dendrochronology",
+    "unit": "annual growth ring marked as anomalous",
+    "variation": "drought severity, frost timing, volcanic aerosol loading, insect outbreak",
+    "selection": "years showing synchronous extreme growth across many trees are flagged as pointer years; idiosyncratic anomalies are filtered as noise",
+    "fitness": "percentage of trees in a stand showing the same directional anomaly",
+    "boundary": "stand homogeneity, species sensitivity, sample size, competing stress signals",
+    "tags": [
+      "signal-extraction",
+      "threshold",
+      "synchrony",
+      "statistics",
+      "detection",
+      "climate"
+    ]
+  },
+  {
+    "id": "climate-reconstruction-transfer",
+    "name": "Climate Reconstruction Transfer Function",
+    "domain": "dendrochronology",
+    "unit": "calibration-period year linking ring width to instrumental climate data",
+    "variation": "regression model form, predictor selection, calibration window length",
+    "selection": "transfer functions validated on independent verification periods are retained; over-fitted models failing verification are rejected",
+    "fitness": "reduction of error (RE) statistic on the verification period",
+    "boundary": "calibration period length, climate stationarity assumption, biological persistence effects",
+    "tags": [
+      "calibration",
+      "feedback",
+      "statistics",
+      "model-selection",
+      "prediction",
+      "validation"
+    ]
+  },
+  {
+    "id": "dendro-dead-wood-extension",
+    "name": "Dead-Wood Chronology Extension",
+    "domain": "dendrochronology",
+    "unit": "subfossil or structural timber sample",
+    "variation": "preservation state, species match, geographic provenance uncertainty",
+    "selection": "samples successfully cross-dated against the living-tree chronology extend it backward; undatable samples are excluded",
+    "fitness": "chronology length gained × dating confidence",
+    "boundary": "wood preservation chemistry, gap-free overlap requirement, sample availability, species continuity",
+    "tags": [
+      "extension",
+      "correlation",
+      "replication",
+      "preservation",
+      "signal-extraction",
+      "time-depth"
+    ]
+  },
+  {
+    "id": "dendro-divergence-problem",
+    "name": "Divergence Problem in Ring-Width Proxies",
+    "domain": "dendrochronology",
+    "unit": "tree-ring series in the post-1960 calibration window",
+    "variation": "threshold responses to warming, pollution effects, moisture regime shifts",
+    "selection": "series maintaining temperature sensitivity are retained for reconstruction; divergent series violating uniformitarianism are excluded or detrended",
+    "fitness": "stability of the ring-width–temperature relationship across calibration windows",
+    "boundary": "non-climatic growth trends, CO₂ fertilization, ozone damage, site disturbance history",
+    "tags": [
+      "divergence",
+      "calibration",
+      "non-stationarity",
+      "feedback",
+      "climate",
+      "model-selection"
+    ]
+  },
+  {
+    "id": "rosensweig-instability",
+    "name": "Rosensweig Instability",
+    "domain": "ferrofluid dynamics",
+    "unit": "surface perturbation mode",
+    "variation": "thermal fluctuations and surface capillary waves on the ferrofluid interface",
+    "selection": "modes whose magnetic body force exceeds restoring surface tension and gravity grow; others decay",
+    "fitness": "spike amplitude and spatial persistence under applied field",
+    "boundary": "critical magnetic field threshold, fluid viscosity, surface tension, container geometry",
+    "tags": [
+      "instability",
+      "threshold",
+      "symmetry-breaking",
+      "feedback",
+      "field-responsive",
+      "pattern-formation"
+    ]
+  },
+  {
+    "id": "ferrofluid-chain-formation",
+    "name": "Magnetic Chain Aggregation",
+    "domain": "ferrofluid dynamics",
+    "unit": "magnetic nanoparticle cluster",
+    "variation": "Brownian motion and dipole-dipole interaction strengths across particle populations",
+    "selection": "clusters aligned with the external field minimize magnetostatic energy and persist; misaligned clusters disperse",
+    "fitness": "chain length and orientational order parameter",
+    "boundary": "particle concentration, thermal energy kT vs. dipole coupling energy, field uniformity",
+    "tags": [
+      "self-assembly",
+      "alignment",
+      "energy-minimization",
+      "agents",
+      "field-responsive",
+      "aggregation"
+    ]
+  },
+  {
+    "id": "ferrofluid-viscosity-tuning",
+    "name": "Field-Dependent Viscosity",
+    "domain": "ferrofluid dynamics",
+    "unit": "shear-flow microstructure",
+    "variation": "competing formation and rupture of chain-like microstructures under shear",
+    "selection": "microstructures that resist shear deformation increase apparent viscosity; those disrupted by flow reduce it",
+    "fitness": "effective viscosity ratio relative to zero-field baseline",
+    "boundary": "Mason number (viscous vs. magnetic forces), shear rate, particle volume fraction",
+    "tags": [
+      "feedback",
+      "tunable",
+      "competition",
+      "rheology",
+      "field-responsive",
+      "dissipation"
+    ]
+  },
+  {
+    "id": "ferrofluid-labyrinthine-pattern",
+    "name": "Labyrinthine Pattern Formation",
+    "domain": "ferrofluid dynamics",
+    "unit": "domain boundary segment in a thin ferrofluid film",
+    "variation": "fingering instabilities at the boundary between magnetized and non-magnetized regions",
+    "selection": "boundary configurations that minimize total energy (demagnetization + surface tension) are selected",
+    "fitness": "pattern complexity and equilibrium domain width",
+    "boundary": "film thickness, field ramp rate, competing dipolar and interfacial energies",
+    "tags": [
+      "pattern-formation",
+      "energy-minimization",
+      "branching",
+      "instability",
+      "thin-film",
+      "symmetry-breaking"
+    ]
+  },
+  {
+    "id": "ferrofluid-spike-dynamics",
+    "name": "Spike Tip Sharpening",
+    "domain": "ferrofluid dynamics",
+    "unit": "individual ferrofluid spike",
+    "variation": "fluctuations in local field concentration and fluid inflow at spike tips",
+    "selection": "spikes that concentrate field lines at their apex draw more fluid upward, sharpening further; blunted tips lose fluid",
+    "fitness": "tip curvature and height-to-base ratio",
+    "boundary": "gravitational drainage, surface tension rounding, neighboring spike competition for field flux",
+    "tags": [
+      "positive-feedback",
+      "competition",
+      "sharpening",
+      "field-responsive",
+      "morphogenesis",
+      "scarcity"
+    ]
+  },
+  {
+    "id": "kintsugi-fracture-path",
+    "name": "Fracture Path Selection",
+    "domain": "kintsugi / ceramics repair",
+    "unit": "crack front segment",
+    "variation": "microstructural heterogeneity — grain boundaries, pores, glaze defects — deflect the advancing crack",
+    "selection": "the crack follows the path of least fracture resistance (lowest local toughness)",
+    "fitness": "energy release rate along the chosen path",
+    "boundary": "impact energy, ceramic composition, pre-existing flaws, glaze-body interface strength",
+    "tags": [
+      "path-dependence",
+      "energy-minimization",
+      "branching",
+      "irreversibility",
+      "heterogeneity",
+      "fracture"
+    ]
+  },
+  {
+    "id": "kintsugi-lacquer-bonding",
+    "name": "Urushi Lacquer Curing Bond",
+    "domain": "kintsugi / ceramics repair",
+    "unit": "lacquer polymer cross-link site",
+    "variation": "humidity and temperature gradients produce variable oxidative polymerization rates across the joint",
+    "selection": "regions with sufficient moisture and urushiol concentration cure fully; under-cured zones remain weak",
+    "fitness": "joint shear strength and fracture toughness of the repaired seam",
+    "boundary": "humidity window (65-85%), curing temperature, lacquer layer thickness, surface roughness of shards",
+    "tags": [
+      "polymerization",
+      "threshold",
+      "feedback",
+      "curing",
+      "environment-dependent",
+      "bonding"
+    ]
+  },
+  {
+    "id": "kintsugi-gold-line-aesthetics",
+    "name": "Gold Seam Aesthetic Emergence",
+    "domain": "kintsugi / ceramics repair",
+    "unit": "visible repair seam segment",
+    "variation": "fracture geometry, gold powder grain size, and lacquer application technique produce diverse seam appearances",
+    "selection": "seams that create visual contrast and narrative coherence with the vessel are valued; invisible repairs are not kintsugi",
+    "fitness": "aesthetic impact — the degree to which damage history is celebrated rather than concealed",
+    "boundary": "fracture complexity, gold particle size, cultural framing of wabi-sabi, artisan skill",
+    "tags": [
+      "emergence",
+      "aesthetics",
+      "narrative",
+      "contrast",
+      "celebration-of-imperfection",
+      "craft"
+    ]
+  },
+  {
+    "id": "kintsugi-structural-redistribution",
+    "name": "Post-Repair Stress Redistribution",
+    "domain": "kintsugi / ceramics repair",
+    "unit": "stress concentration zone at repaired joint",
+    "variation": "differences in elastic modulus between ceramic body, lacquer joint, and metal-powder fill create variable stress fields",
+    "selection": "load paths shift to stiffer regions; compliant lacquer joints absorb strain but may become failure initiation sites",
+    "fitness": "resistance to secondary fracture under thermal and mechanical cycling",
+    "boundary": "modulus mismatch ratio, joint geometry, thermal expansion coefficients, vessel use conditions",
+    "tags": [
+      "redistribution",
+      "heterogeneity",
+      "compliance",
+      "failure-mode",
+      "cycling",
+      "resilience"
+    ]
+  },
+  {
+    "id": "kintsugi-fragment-reassembly",
+    "name": "Fragment Reassembly Constraint Satisfaction",
+    "domain": "kintsugi / ceramics repair",
+    "unit": "shard-to-shard contact pair",
+    "variation": "fragment rotation, translation, and ordering possibilities form a combinatorial space",
+    "selection": "configurations that satisfy geometric fit, surface continuity, and structural closure survive trial assembly",
+    "fitness": "completeness of reconstruction and minimization of gaps",
+    "boundary": "number of fragments, missing material, dimensional distortion from impact, artisan spatial reasoning",
+    "tags": [
+      "constraint-satisfaction",
+      "combinatorics",
+      "spatial-reasoning",
+      "reconstruction",
+      "puzzle",
+      "closure"
+    ]
+  },
+  {
+    "id": "sourdough-starter-succession",
+    "name": "Starter Culture Ecological Succession",
+    "domain": "sourdough microbiology",
+    "unit": "microbial species population within the starter",
+    "variation": "flour-borne bacteria and wild yeasts compete and cooperate as pH and nutrient profiles shift daily",
+    "selection": "acid-tolerant Lactobacillus and osmotolerant Saccharomyces outcompete transient enterobacteria as pH drops below 4",
+    "fitness": "population stability across feeding cycles",
+    "boundary": "flour type, hydration ratio, ambient temperature, feeding frequency, initial microbial inoculum",
+    "tags": [
+      "succession",
+      "competition",
+      "symbiosis",
+      "pH-driven",
+      "ecosystem",
+      "stability"
+    ]
+  },
+  {
+    "id": "sourdough-ph-regulation",
+    "name": "Lactic-Acetic Acid pH Equilibrium",
+    "domain": "sourdough microbiology",
+    "unit": "organic acid molecule (lactic or acetic)",
+    "variation": "heterofermentative vs. homofermentative Lactobacillus pathways produce different acid ratios depending on temperature and hydration",
+    "selection": "conditions favoring lactic acid (warm, wet) produce milder flavor; acetic-dominant conditions (cool, stiff) produce sharper tang",
+    "fitness": "flavor balance and dough pH within the viable fermentation window (3.5-4.5)",
+    "boundary": "temperature range, dough hydration, oxygen availability, buffering capacity of flour minerals",
+    "tags": [
+      "equilibrium",
+      "feedback",
+      "environment-dependent",
+      "metabolic-pathway",
+      "flavor",
+      "regulation"
+    ]
+  },
+  {
+    "id": "sourdough-yeast-lab-symbiosis",
+    "name": "Yeast-Lactobacillus Metabolic Symbiosis",
+    "domain": "sourdough microbiology",
+    "unit": "metabolic exchange event between yeast and LAB cells",
+    "variation": "yeast releases amino acids and CO2; LAB produces acids that suppress competitors; resource partitioning varies by strain pairing",
+    "selection": "strain pairings with complementary substrate preferences (maltose for LAB, glucose for yeast) coexist; overlapping niches lead to competitive exclusion",
+    "fitness": "co-culture stability ratio maintained across 50+ feeding cycles",
+    "boundary": "substrate availability, cross-feeding dependencies, antimicrobial peptide production, population ratio",
+    "tags": [
+      "symbiosis",
+      "cross-feeding",
+      "niche-partitioning",
+      "co-evolution",
+      "mutualism",
+      "agents"
+    ]
+  },
+  {
+    "id": "sourdough-gluten-matrix",
+    "name": "Gluten Network Acid Modulation",
+    "domain": "sourdough microbiology",
+    "unit": "gluten protein strand (glutenin-gliadin complex)",
+    "variation": "progressive acidification and protease activity alter disulfide bonding and protein solubility during bulk fermentation",
+    "selection": "moderate acidification strengthens gluten elasticity; excessive acid or protease activity degrades the network",
+    "fitness": "dough extensibility-to-elasticity ratio optimal for oven spring",
+    "boundary": "fermentation duration, protease concentration, flour protein content, pH descent rate",
+    "tags": [
+      "structural-integrity",
+      "degradation",
+      "optimization",
+      "threshold",
+      "protein-network",
+      "timing"
+    ]
+  },
+  {
+    "id": "sourdough-fermentation-timing",
+    "name": "Bulk Fermentation Timing Window",
+    "domain": "sourdough microbiology",
+    "unit": "dough volume increment during fermentation",
+    "variation": "gas production rate varies with starter vigor, ambient temperature, and flour enzyme activity",
+    "selection": "dough shaped within the optimal volume increase window (50-75%) retains structure; over-proofed dough collapses from gluten exhaustion",
+    "fitness": "crumb openness and structural integrity after baking",
+    "boundary": "temperature, starter percentage, flour strength, shaping technique, retardation schedule",
+    "tags": [
+      "timing",
+      "threshold",
+      "irreversibility",
+      "optimization",
+      "window",
+      "feedback"
+    ]
+  },
+  {
+    "id": "cave-speleogenesis",
+    "name": "Solutional Cave Formation",
+    "domain": "speleology",
+    "unit": "dissolving limestone surface element",
+    "variation": "CO2-charged groundwater encounters variable rock solubility along bedding planes, joints, and faults",
+    "selection": "flow paths with higher dissolution rates capture more water (positive feedback), enlarging preferentially",
+    "fitness": "conduit discharge capacity and passage cross-sectional area",
+    "boundary": "water table position, CO2 partial pressure, rock purity, hydraulic gradient, geologic time",
+    "tags": [
+      "positive-feedback",
+      "path-dependence",
+      "dissolution",
+      "branching",
+      "self-organization",
+      "deep-time"
+    ]
+  },
+  {
+    "id": "stalactite-growth",
+    "name": "Stalactite Accretion Dynamics",
+    "domain": "speleology",
+    "unit": "calcite crystal deposited at the stalactite tip",
+    "variation": "drip rate, CO2 degassing rate, and solution supersaturation fluctuate seasonally and with surface hydrology",
+    "selection": "crystals nucleate where CO2 loss is greatest (pendant drop surface); growth rings record wet-dry cycles",
+    "fitness": "stalactite length and diameter growth rate per century",
+    "boundary": "drip rate consistency, cave air CO2 concentration, temperature stability, evaporation rate",
+    "tags": [
+      "accretion",
+      "precipitation",
+      "periodicity",
+      "record-keeping",
+      "deep-time",
+      "environment-dependent"
+    ]
+  },
+  {
+    "id": "cave-passage-morphology",
+    "name": "Passage Cross-Section Evolution",
+    "domain": "speleology",
+    "unit": "passage wall surface element",
+    "variation": "turbulent flow, sediment abrasion, and chemical dissolution attack walls unevenly based on flow velocity distribution",
+    "selection": "phreatic (submerged) conditions produce elliptical tubes; vadose (air-filled) conditions produce canyon profiles via floor incision",
+    "fitness": "hydraulic efficiency of the passage cross-section for prevailing flow regime",
+    "boundary": "water table fluctuations, sediment load, passage gradient, rock heterogeneity",
+    "tags": [
+      "morphogenesis",
+      "regime-shift",
+      "erosion",
+      "hydraulics",
+      "adaptation",
+      "environment-dependent"
+    ]
+  },
+  {
+    "id": "cave-ecosystem-zonation",
+    "name": "Cave Ecosystem Light Zonation",
+    "domain": "speleology",
+    "unit": "trophic community in a cave zone (entrance, twilight, dark)",
+    "variation": "light gradient from entrance to deep cave drives community composition shifts across zones",
+    "selection": "obligate cave species (troglobites) dominate dark zones via metabolic efficiency; surface species dominate entrance zones",
+    "fitness": "population persistence in the respective zone across seasonal cycles",
+    "boundary": "organic matter input rate, entrance size, humidity stability, predator-prey dynamics, isolation duration",
+    "tags": [
+      "zonation",
+      "gradient",
+      "specialization",
+      "adaptation",
+      "ecosystem",
+      "energy-scarcity"
+    ]
+  },
+  {
+    "id": "cave-hydrology-network",
+    "name": "Underground Drainage Network Self-Organization",
+    "domain": "speleology",
+    "unit": "groundwater flow path segment",
+    "variation": "infiltrating water distributes across fracture networks with variable apertures and connectivity",
+    "selection": "paths with higher transmissivity capture flow from neighbors; tributaries integrate into trunk conduits",
+    "fitness": "fraction of total catchment discharge carried by the conduit",
+    "boundary": "recharge rate, fracture density, base level position, aquifer storativity",
+    "tags": [
+      "self-organization",
+      "network",
+      "competition",
+      "positive-feedback",
+      "hierarchy",
+      "capture"
+    ]
+  },
+  {
+    "id": "falconry-imprinting",
+    "name": "Imprinting and Social Bond Formation",
+    "domain": "falconry",
+    "unit": "social bond state between raptor and falconer",
+    "variation": "timing of first human contact, handling intensity, and early feeding associations produce variable bond strength",
+    "selection": "birds imprinted within the critical period (species-dependent, ~2-6 weeks) form durable human-directed social bonds; late exposure yields flight-prone birds",
+    "fitness": "reliability of voluntary return to the falconer after free flight",
+    "boundary": "critical period window, species temperament, handling consistency, prior wild socialization",
+    "tags": [
+      "critical-period",
+      "bonding",
+      "threshold",
+      "timing",
+      "irreversibility",
+      "socialization"
+    ]
+  },
+  {
+    "id": "falconry-manning",
+    "name": "Manning and Habituation Gradient",
+    "domain": "falconry",
+    "unit": "fear-response threshold to human stimuli",
+    "variation": "graduated exposure to human presence, novel environments, dogs, and crowds at varying intensities",
+    "selection": "stimuli presented below the panic threshold produce habituation; stimuli above it reinforce avoidance",
+    "fitness": "calm behavioral baseline in diverse field hunting conditions",
+    "boundary": "species flight distance, individual temperament, session duration, falconer patience and skill",
+    "tags": [
+      "habituation",
+      "gradient",
+      "threshold",
+      "conditioning",
+      "desensitization",
+      "trust"
+    ]
+  },
+  {
+    "id": "falconry-weight-management",
+    "name": "Flying Weight Optimization",
+    "domain": "falconry",
+    "unit": "daily body mass of the hunting raptor",
+    "variation": "food intake, exercise, weather, and molt status cause daily weight fluctuations",
+    "selection": "birds at optimal flying weight show peak hunting motivation and responsiveness; too high = disinterest, too low = weakness",
+    "fitness": "hunting success rate and safe return frequency at a given weight",
+    "boundary": "species metabolic rate, ambient temperature, quarry difficulty, minimum safe weight floor",
+    "tags": [
+      "optimization",
+      "window",
+      "feedback",
+      "motivation",
+      "homeostasis",
+      "daily-cycling"
+    ]
+  },
+  {
+    "id": "falconry-hunting-cooperation",
+    "name": "Falcon-Falconer Cooperative Hunting",
+    "domain": "falconry",
+    "unit": "coordinated hunt sequence (flush-pursuit-capture)",
+    "variation": "timing of flush, quarry evasion tactics, wind conditions, and terrain produce variable engagement geometries",
+    "selection": "sequences where falconer flush timing matches raptor positioning yield successful stoops; mistimed flushes waste altitude advantage",
+    "fitness": "capture success per hunting sortie",
+    "boundary": "quarry abundance, raptor fitness, terrain openness, wind speed, mutual read of partner behavior",
+    "tags": [
+      "cooperation",
+      "timing",
+      "coordination",
+      "agents",
+      "strategy",
+      "co-adaptation"
+    ]
+  },
+  {
+    "id": "falconry-molt-cycle",
+    "name": "Molt Cycle and Feather Renewal",
+    "domain": "falconry",
+    "unit": "individual flight feather in molt sequence",
+    "variation": "nutritional status, photoperiod, and stress levels affect molt onset, speed, and feather quality",
+    "selection": "well-nourished birds in low-stress conditions grow stronger, better-barbed feathers; stressed birds produce fault bars and weak shafts",
+    "fitness": "post-molt flight performance and feather durability through the hunting season",
+    "boundary": "protein and calcium availability, day length, ambient temperature, parasite load, chamber vs. free-loft housing",
+    "tags": [
+      "renewal",
+      "periodicity",
+      "resource-dependent",
+      "quality",
+      "cycling",
+      "investment"
+    ]
+  },
+  {
+    "id": "bonsai-miniaturization",
+    "name": "Proportional Miniaturization via Constraint",
+    "domain": "bonsai cultivation",
+    "unit": "internode (stem segment between leaf nodes)",
+    "variation": "pot restriction, root pruning, and defoliation alter auxin-cytokinin ratios, producing variable internode lengths and leaf sizes",
+    "selection": "short internodes with reduced leaf area maintain proportional tree appearance at small scale; leggy growth is pruned away",
+    "fitness": "visual proportionality — ratio of trunk caliper to tree height to leaf size",
+    "boundary": "species vigor, pot volume, root mass, fertilization regime, genetic predisposition to ramification",
+    "tags": [
+      "constraint",
+      "proportionality",
+      "hormone-balance",
+      "scaling",
+      "selection-by-removal",
+      "miniaturization"
+    ]
+  },
+  {
+    "id": "bonsai-root-pruning",
+    "name": "Root Pruning and Nebari Development",
+    "domain": "bonsai cultivation",
+    "unit": "radial surface root (nebari element)",
+    "variation": "root pruning angle, timing, and radial positioning produce variable regrowth patterns around the trunk base",
+    "selection": "roots radiating evenly in all directions are retained; crossing, circling, or downward roots are removed at repotting",
+    "fitness": "radial symmetry and visual stability of the root flare (nebari)",
+    "boundary": "species root regeneration capacity, repotting frequency, soil particle size, seasonal timing",
+    "tags": [
+      "selection-by-removal",
+      "symmetry",
+      "foundation",
+      "iterative-refinement",
+      "structure",
+      "aesthetics"
+    ]
+  },
+  {
+    "id": "bonsai-branch-wiring",
+    "name": "Branch Position Training via Wiring",
+    "domain": "bonsai cultivation",
+    "unit": "branch segment under wire constraint",
+    "variation": "wire gauge, wrapping angle, and application timing interact with branch lignification rate and growth direction",
+    "selection": "branches wired during active growth set into position as wood lignifies; those wired too late or too loosely spring back",
+    "fitness": "permanent angular placement matching the target design silhouette",
+    "boundary": "branch diameter-to-wire gauge ratio, lignification speed, wire-scar risk window, seasonal growth phase",
+    "tags": [
+      "constraint",
+      "plasticity",
+      "timing",
+      "lignification",
+      "shaping",
+      "irreversibility"
+    ]
+  },
+  {
+    "id": "bonsai-seasonal-timing",
+    "name": "Seasonal Intervention Timing",
+    "domain": "bonsai cultivation",
+    "unit": "horticultural intervention event (pruning, wiring, repotting, fertilizing)",
+    "variation": "the same intervention performed in different seasons triggers different physiological responses — spring pruning triggers back-budding; autumn pruning risks dieback",
+    "selection": "interventions timed to species-specific growth phases succeed; mistimed work causes stress, disease entry, or death",
+    "fitness": "tree vigor and design progression across the annual cycle",
+    "boundary": "species dormancy requirements, local climate, tree health status, recovery time between interventions",
+    "tags": [
+      "timing",
+      "periodicity",
+      "risk",
+      "species-specific",
+      "window",
+      "phased-development"
+    ]
+  },
+  {
+    "id": "bonsai-ramification",
+    "name": "Progressive Branch Ramification",
+    "domain": "bonsai cultivation",
+    "unit": "bud site at a branch tip after pruning",
+    "variation": "directional pruning triggers dormant buds; each cut doubles potential branch tips but energy per tip decreases",
+    "selection": "buds oriented outward and upward are retained through successive pruning rounds; inward and downward growth is removed",
+    "fitness": "branch tip density and even pad silhouette after 5+ years of iterative clip-and-grow",
+    "boundary": "species budding propensity, energy reserves, light penetration to inner branches, diminishing returns per division",
+    "tags": [
+      "iterative-refinement",
+      "branching",
+      "exponential-division",
+      "selection-by-removal",
+      "diminishing-returns",
+      "patience"
+    ]
+  },
+  {
+    "id": "glass-gather-viscosity",
+    "name": "Gather Viscosity Gradient",
+    "domain": "glassblowing",
+    "unit": "molten glass gather",
+    "variation": "temperature differentials across the gather surface",
+    "selection": "viscosity must stay within workable range for shaping",
+    "fitness": "uniformity of wall thickness after initial inflation",
+    "boundary": "furnace temperature, gather mass, ambient cooling rate",
+    "tags": [
+      "gradient",
+      "viscosity",
+      "thermal-equilibrium",
+      "feedback",
+      "phase-transition",
+      "craft"
+    ]
+  },
+  {
+    "id": "glass-color-redox",
+    "name": "Glass Color Redox Chemistry",
+    "domain": "glassblowing",
+    "unit": "metal oxide dopant",
+    "variation": "oxidation state of transition metals (Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺)",
+    "selection": "atmosphere and temperature determine stable redox state",
+    "fitness": "target color saturation and transparency",
+    "boundary": "melt composition, furnace atmosphere, cooling schedule",
+    "tags": [
+      "chemistry",
+      "redox",
+      "selection",
+      "phase-transition",
+      "variation",
+      "color"
+    ]
+  },
+  {
+    "id": "glass-anneal-stress",
+    "name": "Annealing Stress Relaxation",
+    "domain": "glassblowing",
+    "unit": "internal stress field in cooled glass",
+    "variation": "thermal gradients during cooling create differential contraction",
+    "selection": "controlled cooling schedule eliminates residual stress",
+    "fitness": "absence of spontaneous fracture; polariscope verification",
+    "boundary": "glass thickness, coefficient of expansion, annealing point temperature",
+    "tags": [
+      "relaxation",
+      "gradient",
+      "irreversibility",
+      "feedback",
+      "threshold",
+      "stability"
+    ]
+  },
+  {
+    "id": "glass-bubble-inflation",
+    "name": "Bubble Inflation Dynamics",
+    "domain": "glassblowing",
+    "unit": "expanding glass bubble",
+    "variation": "breath pressure, rotation speed, gravitational sag",
+    "selection": "thinnest regions expand fastest, risking blowout",
+    "fitness": "achieved diameter-to-wall-thickness ratio",
+    "boundary": "viscosity floor, surface tension, gravitational deformation",
+    "tags": [
+      "scaling",
+      "feedback",
+      "instability",
+      "geometry",
+      "pressure",
+      "craft"
+    ]
+  },
+  {
+    "id": "glass-cane-pull",
+    "name": "Cane Pulling Ratio",
+    "domain": "glassblowing",
+    "unit": "cross-section of drawn glass cane",
+    "variation": "pull speed and temperature produce different diameters and pattern fidelity",
+    "selection": "pattern legibility preserved at target diameter",
+    "fitness": "consistency of cross-section along cane length",
+    "boundary": "viscosity window, pull rate, assistant coordination",
+    "tags": [
+      "scaling",
+      "replication",
+      "geometry",
+      "precision",
+      "feedback",
+      "craft"
+    ]
+  },
+  {
+    "id": "semaphore-angular-resolution",
+    "name": "Semaphore Angular Resolution",
+    "domain": "semaphore / signaling",
+    "unit": "flag position (arm angle)",
+    "variation": "8 discrete arm positions per arm, wind-induced drift",
+    "selection": "observer must distinguish adjacent positions at distance",
+    "fitness": "correct symbol identification rate",
+    "boundary": "viewing distance, atmospheric clarity, flag size, angular separation",
+    "tags": [
+      "encoding",
+      "noise",
+      "threshold",
+      "geometry",
+      "information",
+      "channel"
+    ]
+  },
+  {
+    "id": "semaphore-relay-latency",
+    "name": "Relay Chain Latency Accumulation",
+    "domain": "semaphore / signaling",
+    "unit": "relay station in a chain",
+    "variation": "operator read time, signal hold duration, fatigue drift",
+    "selection": "total latency must beat competing courier speed",
+    "fitness": "end-to-end message delivery time",
+    "boundary": "station spacing, terrain line-of-sight, operator stamina",
+    "tags": [
+      "relay",
+      "latency",
+      "agents",
+      "scaling",
+      "serial",
+      "noise"
+    ]
+  },
+  {
+    "id": "semaphore-error-cascade",
+    "name": "Semaphore Error Cascade",
+    "domain": "semaphore / signaling",
+    "unit": "symbol error at one relay station",
+    "variation": "misread propagates or is caught by context/redundancy",
+    "selection": "downstream stations accept or challenge ambiguous symbols",
+    "fitness": "message fidelity at chain terminus",
+    "boundary": "chain length, error-check protocol, symbol ambiguity rate",
+    "tags": [
+      "noise",
+      "cascade",
+      "feedback",
+      "redundancy",
+      "serial",
+      "agents"
+    ]
+  },
+  {
+    "id": "semaphore-alphabet-design",
+    "name": "Semaphore Alphabet Optimization",
+    "domain": "semaphore / signaling",
+    "unit": "symbol set mapping",
+    "variation": "different arm-angle assignments to letters",
+    "selection": "maximize minimum angular distance between frequent symbols",
+    "fitness": "channel capacity under noise",
+    "boundary": "number of distinguishable positions, letter frequency distribution",
+    "tags": [
+      "encoding",
+      "optimization",
+      "information",
+      "variation",
+      "selection",
+      "design"
+    ]
+  },
+  {
+    "id": "semaphore-night-adaptation",
+    "name": "Night Signaling Adaptation",
+    "domain": "semaphore / signaling",
+    "unit": "light-based signal element (lantern, shutter)",
+    "variation": "switching from spatial (arm position) to temporal (flash pattern) encoding",
+    "selection": "darkness eliminates spatial channel; temporal channel substitutes",
+    "fitness": "information rate maintained across day-night transition",
+    "boundary": "light source intensity, shutter speed, observer dark adaptation",
+    "tags": [
+      "adaptation",
+      "encoding",
+      "channel",
+      "constraint",
+      "modality",
+      "switching"
+    ]
+  },
+  {
+    "id": "sake-koji-enzyme-balance",
+    "name": "Koji Enzyme Balance",
+    "domain": "sake brewing",
+    "unit": "Aspergillus oryzae colony on steamed rice",
+    "variation": "temperature and humidity shifts favor amylase vs. protease production",
+    "selection": "toji adjusts conditions to target enzyme ratio",
+    "fitness": "saccharification power matching yeast demand",
+    "boundary": "rice moisture, koji room temperature range, spore viability",
+    "tags": [
+      "enzyme",
+      "balance",
+      "feedback",
+      "agents",
+      "parallel",
+      "biology"
+    ]
+  },
+  {
+    "id": "sake-parallel-fermentation",
+    "name": "Multiple Parallel Fermentation",
+    "domain": "sake brewing",
+    "unit": "moromi mash (simultaneous saccharification + fermentation)",
+    "variation": "koji converts starch to sugar while yeast converts sugar to alcohol",
+    "selection": "sugar release rate must match yeast consumption to avoid osmotic shock",
+    "fitness": "final alcohol content and flavor profile",
+    "boundary": "temperature, koji activity rate, yeast alcohol tolerance (~20% ABV)",
+    "tags": [
+      "parallel",
+      "coupling",
+      "feedback",
+      "balance",
+      "biology",
+      "threshold"
+    ]
+  },
+  {
+    "id": "sake-rice-polishing",
+    "name": "Rice Polishing Ratio Selection",
+    "domain": "sake brewing",
+    "unit": "rice grain (seimaibuai)",
+    "variation": "polishing removes outer layers containing proteins, fats, minerals",
+    "selection": "higher polishing removes off-flavor precursors but reduces yield",
+    "fitness": "clarity and ginjo aromatic character of finished sake",
+    "boundary": "grain breakage rate, polishing time, raw material cost",
+    "tags": [
+      "tradeoff",
+      "selection",
+      "purity",
+      "scaling",
+      "economics",
+      "craft"
+    ]
+  },
+  {
+    "id": "sake-water-mineral-profile",
+    "name": "Brewing Water Mineral Profile",
+    "domain": "sake brewing",
+    "unit": "mineral ion concentration in brewing water",
+    "variation": "hard water (miyamizu) vs. soft water regions",
+    "selection": "potassium and phosphorus accelerate fermentation; iron destroys color",
+    "fitness": "fermentation vigor and absence of off-colors",
+    "boundary": "local water source chemistry, filtration limits, iron threshold (<0.02 ppm)",
+    "tags": [
+      "chemistry",
+      "constraint",
+      "threshold",
+      "geography",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "id": "sake-yeast-strain-selection",
+    "name": "Sake Yeast Strain Selection",
+    "domain": "sake brewing",
+    "unit": "Saccharomyces cerevisiae strain",
+    "variation": "Association yeast strains (No. 7, 9, 1801) differ in aroma compound production",
+    "selection": "strain chosen to match target flavor profile and alcohol tolerance",
+    "fitness": "ethyl caproate and isoamyl acetate concentrations in finished sake",
+    "boundary": "fermentation temperature, nutrient availability, foaming behavior",
+    "tags": [
+      "selection",
+      "variation",
+      "agents",
+      "biology",
+      "design",
+      "fitness"
+    ]
+  },
+  {
+    "id": "sandcastle-capillary-bridge",
+    "name": "Capillary Bridge Cohesion",
+    "domain": "sandcastle engineering",
+    "unit": "water meniscus between two sand grains",
+    "variation": "water content changes meniscus geometry and suction pressure",
+    "selection": "optimal moisture (~8% by volume) maximizes capillary suction",
+    "fitness": "shear strength of sand aggregate",
+    "boundary": "grain size distribution, evaporation rate, drainage",
+    "tags": [
+      "cohesion",
+      "threshold",
+      "geometry",
+      "scaling",
+      "physics",
+      "optimization"
+    ]
+  },
+  {
+    "id": "sandcastle-grain-interlock",
+    "name": "Grain Interlocking Geometry",
+    "domain": "sandcastle engineering",
+    "unit": "sand grain contact network",
+    "variation": "angular grains interlock; rounded grains slide",
+    "selection": "compaction method determines packing density and friction angle",
+    "fitness": "load-bearing capacity per unit cross-section",
+    "boundary": "grain angularity, size distribution, compaction energy",
+    "tags": [
+      "geometry",
+      "network",
+      "friction",
+      "variation",
+      "structure",
+      "stability"
+    ]
+  },
+  {
+    "id": "sandcastle-wave-erosion",
+    "name": "Wave Erosion Resistance",
+    "domain": "sandcastle engineering",
+    "unit": "structure face exposed to wave action",
+    "variation": "wall angle, moat depth, buttress spacing",
+    "selection": "wave energy dissipation before reaching structural core",
+    "fitness": "survival time under rising tide cycles",
+    "boundary": "wave period, tidal range, sediment supply, foundation scour",
+    "tags": [
+      "erosion",
+      "feedback",
+      "defense",
+      "scaling",
+      "threshold",
+      "design"
+    ]
+  },
+  {
+    "id": "sandcastle-height-scaling",
+    "name": "Structural Height Scaling Law",
+    "domain": "sandcastle engineering",
+    "unit": "sandcastle column",
+    "variation": "base diameter and moisture content set maximum stable height",
+    "selection": "columns exceeding critical height-to-base ratio collapse",
+    "fitness": "maximum height achieved before failure",
+    "boundary": "capillary strength, grain weight, wind load, vibration",
+    "tags": [
+      "scaling",
+      "threshold",
+      "instability",
+      "geometry",
+      "gravity",
+      "constraint"
+    ]
+  },
+  {
+    "id": "sandcastle-drip-technique",
+    "name": "Drip Castle Accretion",
+    "domain": "sandcastle engineering",
+    "unit": "individual sand-slurry drip",
+    "variation": "slurry viscosity, drop height, landing angle",
+    "selection": "each drip must bond to substrate before next drip lands",
+    "fitness": "spire height and structural coherence",
+    "boundary": "evaporation rate, drip interval, wind disturbance",
+    "tags": [
+      "accretion",
+      "serial",
+      "feedback",
+      "precision",
+      "craft",
+      "timing"
+    ]
+  },
+  {
+    "id": "taxidermy-skin-preservation",
+    "name": "Skin Tanning and Preservation",
+    "domain": "taxidermy / preservation",
+    "unit": "specimen skin",
+    "variation": "tanning agents (alum, chromium, vegetable) cross-link collagen differently",
+    "selection": "tanned skin must resist bacterial decay while remaining pliable",
+    "fitness": "long-term dimensional stability and flexibility",
+    "boundary": "skin thickness, fat removal completeness, humidity exposure",
+    "tags": [
+      "chemistry",
+      "stability",
+      "irreversibility",
+      "preservation",
+      "craft",
+      "selection"
+    ]
+  },
+  {
+    "id": "taxidermy-form-anatomy",
+    "name": "Anatomical Form Accuracy",
+    "domain": "taxidermy / preservation",
+    "unit": "sculpted form / mannequin",
+    "variation": "reference measurements, artistic interpretation, pose choice",
+    "selection": "mounted specimen must pass expert anatomical scrutiny",
+    "fitness": "lifelike accuracy of proportions and musculature",
+    "boundary": "reference data quality, material shrinkage, skin elasticity",
+    "tags": [
+      "geometry",
+      "replication",
+      "precision",
+      "feedback",
+      "craft",
+      "agents"
+    ]
+  },
+  {
+    "id": "taxidermy-habitat-diorama",
+    "name": "Habitat Diorama Reconstruction",
+    "domain": "taxidermy / preservation",
+    "unit": "diorama element (plant, rock, substrate)",
+    "variation": "material choices for simulating natural environment",
+    "selection": "ecological accuracy and long-term material stability",
+    "fitness": "viewer perception of naturalistic setting",
+    "boundary": "reference photographs, material aging, display case constraints",
+    "tags": [
+      "simulation",
+      "design",
+      "replication",
+      "ecology",
+      "craft",
+      "stability"
+    ]
+  },
+  {
+    "id": "taxidermy-eye-setting",
+    "name": "Eye Setting and Expression",
+    "domain": "taxidermy / preservation",
+    "unit": "glass eye placement in orbital socket",
+    "variation": "eye size, iris color, pupil dilation, orbital angle",
+    "selection": "incorrect placement triggers uncanny-valley rejection by viewers",
+    "fitness": "perceived lifelikeness and species-correct gaze direction",
+    "boundary": "orbital anatomy reference, adhesive working time, symmetry tolerance",
+    "tags": [
+      "precision",
+      "perception",
+      "threshold",
+      "craft",
+      "feedback",
+      "geometry"
+    ]
+  },
+  {
+    "id": "taxidermy-specimen-field-prep",
+    "name": "Field Specimen Preparation",
+    "domain": "taxidermy / preservation",
+    "unit": "freshly collected specimen",
+    "variation": "time-to-preservation, ambient temperature, available materials",
+    "selection": "enzymatic autolysis and bacterial decay begin immediately post-mortem",
+    "fitness": "tissue integrity at time of studio processing",
+    "boundary": "ambient temperature, humidity, transport duration, borax availability",
+    "tags": [
+      "decay",
+      "timing",
+      "threshold",
+      "irreversibility",
+      "constraint",
+      "biology"
+    ]
+  },
+  {
+    "id": "morse-symbol-timing",
+    "name": "Morse Timing Protocol",
+    "domain": "morse code / telegraph",
+    "unit": "dit (base timing unit)",
+    "variation": "operator speed varies dit length; fatigue causes drift",
+    "selection": "receiver must parse symbol boundaries from continuous signal",
+    "fitness": "character error rate at given words-per-minute",
+    "boundary": "operator skill, line noise, mechanical key response",
+    "tags": [
+      "timing",
+      "encoding",
+      "noise",
+      "agents",
+      "serial",
+      "precision"
+    ]
+  },
+  {
+    "id": "morse-huffman-analogy",
+    "name": "Morse Frequency-Length Encoding",
+    "domain": "morse code / telegraph",
+    "unit": "letter-to-code mapping",
+    "variation": "common letters (E='.', T='-') get shorter codes",
+    "selection": "average message length minimized for English letter frequencies",
+    "fitness": "transmission time per unit of information",
+    "boundary": "fixed binary alphabet (dit/dah), prefix-free constraint approximation",
+    "tags": [
+      "encoding",
+      "optimization",
+      "information",
+      "variation",
+      "selection",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "morse-relay-amplification",
+    "name": "Telegraph Relay Amplification",
+    "domain": "morse code / telegraph",
+    "unit": "electromagnetic relay station",
+    "variation": "signal attenuates with line resistance; relay restores amplitude",
+    "selection": "relay must trigger before signal drops below activation threshold",
+    "fitness": "maximum line distance between relay stations",
+    "boundary": "wire resistance, battery voltage, relay coil sensitivity, weather",
+    "tags": [
+      "relay",
+      "threshold",
+      "amplification",
+      "scaling",
+      "serial",
+      "physics"
+    ]
+  },
+  {
+    "id": "morse-error-correction",
+    "name": "Morse Operator Error Detection",
+    "domain": "morse code / telegraph",
+    "unit": "received character sequence",
+    "variation": "noise, operator error, and abbreviation create ambiguity",
+    "selection": "receiver uses linguistic context and prosigns (HH) to detect/correct errors",
+    "fitness": "message accuracy after human error correction",
+    "boundary": "operator vocabulary, signal-to-noise ratio, message urgency",
+    "tags": [
+      "noise",
+      "redundancy",
+      "feedback",
+      "agents",
+      "correction",
+      "information"
+    ]
+  },
+  {
+    "id": "morse-submarine-cable",
+    "name": "Submarine Cable Signal Dispersion",
+    "domain": "morse code / telegraph",
+    "unit": "electrical pulse in undersea cable",
+    "variation": "capacitance and inductance smear pulses over distance",
+    "selection": "transmission rate must stay below dispersion limit to avoid inter-symbol interference",
+    "fitness": "achievable words-per-minute over transatlantic distance",
+    "boundary": "cable length, insulation quality, mirror galvanometer sensitivity",
+    "tags": [
+      "dispersion",
+      "scaling",
+      "physics",
+      "threshold",
+      "channel",
+      "constraint"
+    ]
   }
 ]

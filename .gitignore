@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .DS_Store
+_new_theories_*.json
+_merge_*.py
+_rebuild_*.py

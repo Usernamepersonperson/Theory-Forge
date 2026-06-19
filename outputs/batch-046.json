@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Fragrance Accord Theory of Coalition Politics",
+    "core_claim": "Political coalitions stabilize or collapse according to the same logic as perfumery accords: each party contributes a distinct ideological 'note,' and the coalition persists only when the blend produces a unified identity that none of the individual notes could achieve alone. When one party's note becomes too dominant — like an unbalanced top note — the accord collapses and voters detect the constituent ideologies as separate, clashing scents rather than a coherent platform.",
+    "mechanism_borrowed_from": "fragrance-accord-balance",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.42,
+    "source_a": "Fragrance Accord Balance",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Flat-Foldability Conditions for Epidemic Containment",
+    "core_claim": "Epidemic containment zones can be optimized using origami flat-foldability constraints: each quarantine boundary acts as a crease line, and the Kawasaki-Justin theorem's requirement that crease angles sum to 180° maps onto the constraint that containment cordons must partition a population into regions whose contact surfaces sum to a manageable total. Containment fails — the 'paper' cannot fold flat — when too many boundaries converge at a single node, exactly as real outbreaks escape at transportation hubs.",
+    "mechanism_borrowed_from": "flat-foldability-conditions",
+    "domain_applied_to": "epidemiology",
+    "viability": "speculative",
+    "confidence": 0.35,
+    "source_a": "Flat-Foldability Conditions",
+    "source_b": "SIR Epidemic Model"
+  },
+  {
+    "name": "Waggle Dance Information Theory of Jury Deliberation",
+    "core_claim": "Jury deliberation follows the information architecture of honeybee waggle dances: each juror who has identified a strong argument performs a 'deliberative waggle' — repeating and elaborating the argument with intensity proportional to their confidence — and the jury converges on a verdict when the aggregate dance-signal for one position crosses a quorum threshold. Hung juries occur when two competing waggle signals remain at parity, identical to the deadlock bees experience when two nest sites are equally attractive.",
+    "mechanism_borrowed_from": "waggle-dance-information",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Waggle Dance Information Transfer",
+    "source_b": "Common Law Precedent"
+  },
+  {
+    "name": "Escapement Regulation Theory of Attention",
+    "core_claim": "Sustained attention operates like a mechanical escapement: the mind's 'mainspring' (arousal/motivation) provides continuous energy, but the attentional escapement converts this into discrete, regulated pulses of focus — each tick-tock cycle being a moment of engagement followed by a micro-disengagement that resets the mechanism. ADHD corresponds to a faulty escapement that either over-releases (hyperfocus) or under-catches (distractibility), rather than a deficit in the mainspring itself.",
+    "mechanism_borrowed_from": "escapement-regulation",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Escapement Regulation",
+    "source_b": "Dual Process Theory"
+  },
+  {
+    "name": "Pin-Tumbler Shear Line Theory of Cryptographic Key Exchange",
+    "core_claim": "Public-key exchange protocols can be physically intuited through pin-tumbler lock mechanics: Alice and Bob each hold a partial key whose bitting depths, when combined, align all pins to the shear line simultaneously. An eavesdropper possessing only one half faces the same combinatorial explosion a lockpick faces — exponentially many possible complementary bittings — and the security reduction from RSA to factoring maps onto the difficulty of inferring hidden pin lengths from external measurements alone.",
+    "mechanism_borrowed_from": "pin-tumbler-shear-line",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Pin-Tumbler Shear Line Mechanism",
+    "source_b": "Public-Key RSA Cryptography"
+  },
+  {
+    "name": "Signature Gathering Theory of Neural Ensemble Formation",
+    "core_claim": "Neural ensembles assemble like bookbinding signatures: individual neurons are 'folded' into functional groups (signatures) by correlated activity, then these signatures are 'gathered' into coherent assemblies by oscillatory binding. The spine of the neural codex is the dominant oscillation frequency, and the binding strength follows the same adhesive-failure curve as bookbinding — too rigid and the ensemble cannot recruit new members, too flexible and it disintegrates under noise.",
+    "mechanism_borrowed_from": "signature-gathering",
+    "domain_applied_to": "neuroscience",
+    "viability": "speculative",
+    "confidence": 0.40,
+    "source_a": "Signature Gathering (Bookbinding)",
+    "source_b": "Hebbian Learning"
+  },
+  {
+    "name": "Aerial Shell Burst Theory of Market Crashes",
+    "core_claim": "Financial market crashes follow the physics of pyrotechnic aerial shells: the 'lift charge' of speculative leverage propels asset prices upward, while a timed 'burst charge' of margin calls and forced liquidation detonates at apogee, scattering 'stars' (selling pressure) in a radial pattern across correlated asset classes. The time-fuse delay between peak euphoria and crash onset is determined by the same pressure-containment dynamics that govern shell burst timing — the casing (market structure) must fail before energy release occurs.",
+    "mechanism_borrowed_from": "aerial-shell-burst-timing",
+    "domain_applied_to": "finance",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Aerial Shell Burst Timing",
+    "source_b": "Minsky Moment"
+  },
+  {
+    "name": "Crease Pattern Assignment Theory of Urban Zoning",
+    "core_claim": "Urban zoning maps are crease pattern assignments in which each zone boundary is a fold line that must be consistently assigned mountain or valley status — residential/commercial or industrial/green — such that the city can 'fold flat' into a functional configuration. Zoning conflicts arise exactly when the pattern is not globally flat-foldable: adjacent zones create impossible overlaps that manifest as noise complaints, traffic congestion, and regulatory disputes.",
+    "mechanism_borrowed_from": "crease-pattern-assignment",
+    "domain_applied_to": "urban planning",
+    "viability": "speculative",
+    "confidence": 0.38,
+    "source_a": "Crease Pattern Assignment (Origami)",
+    "source_b": "Central Place Theory"
+  },
+  {
+    "name": "Tannin Polymerization Theory of Social Trust",
+    "core_claim": "Social trust in institutions polymerizes like tannins in aging wine: individual trust interactions are monomeric phenolics that, over time and under the right conditions (consistent institutional behavior = cellar temperature), cross-link into stable polymeric chains. Young institutions have harsh, astringent trust profiles; mature ones develop smooth, integrated trust that precipitates out extremists as sediment. Institutional scandals act as oxidative shocks that cleave polymer chains back to bitter monomers.",
+    "mechanism_borrowed_from": "tannin-polymerization-cascade",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.55,
+    "source_a": "Tannin Polymerization Cascade",
+    "source_b": "Bourdieu's Field Theory"
+  },
+  {
+    "name": "Glacial Surge Theory of Technological Innovation",
+    "core_claim": "Technological innovation surges follow glacial surge dynamics: knowledge accumulates slowly at the base (basic research = basal meltwater), institutional friction holds back deployment (ice-bed coupling), until lubrication pressure exceeds a threshold and the entire technology front surges forward in a rapid advance. Post-surge, the knowledge base is thinned and depleted, entering a quiescent phase of slow re-accumulation. The AI boom, dot-com bubble, and Industrial Revolution all exhibit surge-quiescence periodicity consistent with glacial oscillation models.",
+    "mechanism_borrowed_from": "glacial-surge-oscillation",
+    "domain_applied_to": "philosophy of science",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Glacial Surge Oscillation",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Dye-Mordant Theory of Memory Consolidation",
+    "core_claim": "Memory consolidation requires a neurochemical mordant analogous to textile dyeing: the experience itself is the dye (transient electrochemical signal), but it will wash out unless fixed by a mordant process (sleep-dependent protein synthesis at the synapse). Different emotional valences act as different mordants — cortisol fixes traumatic memories with excess fastness (PTSD), while dopaminergic mordants fix reward-associated memories. Memories that fail consolidation are simply undyed synapses that return to baseline.",
+    "mechanism_borrowed_from": "dye-mordant-chemistry",
+    "domain_applied_to": "cognitive science",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Dye-Mordant Chemistry (Textiles)",
+    "source_b": "Global Workspace Theory"
+  },
+  {
+    "name": "Stribeck Lubrication Theory of Diplomatic Relations",
+    "core_claim": "International diplomatic relationships traverse Stribeck curve regimes: at low interaction velocity (rare contact between states), boundary lubrication prevails and friction is high — every interaction risks conflict. As engagement frequency increases, a mixed regime emerges (trade agreements, cultural exchange provide partial lubrication). At high velocity (deep economic integration), full hydrodynamic lubrication develops and friction drops to minimum. Sanctions work by deliberately reducing interaction velocity to push the relationship back into the high-friction boundary regime.",
+    "mechanism_borrowed_from": "stribeck-lubrication-regimes",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Stribeck Lubrication Regimes",
+    "source_b": "Prisoner's Dilemma"
+  },
+  {
+    "name": "Warp-Weft Tension Theory of Bilingual Syntax",
+    "core_claim": "Bilingual speakers maintain two grammars in tension like warp and weft threads on a loom: the dominant language provides the structural warp (word order, morphological frame), while the secondary language contributes weft-like insertions (code-switches, loan translations) that interlock at grammatically licensed crossing points. Code-switching failures occur at points of incompatible tension — where the two grammars' 'thread angles' prevent clean interlocking — predicting exactly which syntactic boundaries permit switching and which do not.",
+    "mechanism_borrowed_from": "warp-weft-tension-balancing",
+    "domain_applied_to": "neurolinguistics",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Warp-Weft Tension Balancing",
+    "source_b": "Syntactic Prediction Gradient"
+  },
+  {
+    "name": "Hydraulic Jump Theory of Emotional Regulation",
+    "core_claim": "Emotional dysregulation events are hydraulic jumps: emotional intensity flows as a fast, shallow (supercritical) stream during acute stress, then abruptly transitions to a slow, deep (subcritical) state when a regulatory mechanism (therapeutic intervention, social support) introduces sufficient flow resistance. The energy dissipated at the jump manifests as physiological arousal (tears, trembling). Chronic dysregulation occurs when the emotional Froude number stays permanently supercritical — the person never encounters sufficient resistance to trigger the jump.",
+    "mechanism_borrowed_from": "hydraulic-jump-energy-dissipation",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Hydraulic Jump Energy Dissipation",
+    "source_b": "Attachment Theory"
+  },
+  {
+    "name": "Soil Aggregate Hierarchy Theory of Corporate Structure",
+    "core_claim": "Corporate organizational structure follows soil aggregate hierarchy dynamics: individual employees form microaggregates (teams) bound by interpersonal chemistry (organic binding agents), which nest into macroaggregates (departments) stabilized by institutional policies (fungal hyphae). Organizational resilience depends on aggregate stability — companies with strong micro-level team bonds but flexible macro-level department boundaries outperform those with rigid hierarchies, just as soils with stable aggregates resist erosion while maintaining porosity for resource flow.",
+    "mechanism_borrowed_from": "soil-aggregate-hierarchy",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.56,
+    "source_a": "Soil Aggregate Hierarchy",
+    "source_b": "Blue Ocean Strategy"
+  }
+]

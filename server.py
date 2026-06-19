@@ -16,6 +16,8 @@ Endpoints:
     GET  /deep-dives/{slug}                       single deep-dive
     GET  /stats                                   aggregate statistics
     GET  /search?q=&limit=                        full-text framework search
+    GET  /gaps?limit=                             unexplored high-potential domain pairs
+    GET  /framework/{name}                        single framework with related frameworks
     GET  /export?format=json|csv&min_confidence=  export all frameworks
     GET  /                                        one-page UI
 
@@ -239,7 +241,7 @@ def history():
 
 
 @app.get("/rankings")
-def rankings(limit: int = 50, min_confidence: float = 0.0, domain: str = ""):
+def rankings(limit: int = 50, offset: int = 0, min_confidence: float = 0.0, domain: str = ""):
     out_dir = Path(__file__).parent / "outputs"
     all_fw = []
     for f in sorted(out_dir.glob("batch-*.json")):
@@ -260,7 +262,7 @@ def rankings(limit: int = 50, min_confidence: float = 0.0, domain: str = ""):
                   or d in fw.get("source_b", "").lower()
                   or d in fw.get("mechanism_borrowed_from", "").lower()]
     all_fw.sort(key=lambda fw: -fw.get("confidence", 0))
-    return all_fw[:limit]
+    return all_fw[offset:offset + limit]
 
 
 @app.get("/deep-dives")
@@ -371,6 +373,45 @@ def search_frameworks(q: str = "", limit: int = 20):
             continue
     matches.sort(key=lambda fw: -fw.get("confidence", 0))
     return matches[:limit]
+
+
+@app.get("/gaps")
+def find_gaps(limit: int = 20):
+    out_dir = Path(__file__).parent / "outputs"
+    collided_domains: set[frozenset[str]] = set()
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                sa = fw.get("source_a", "").strip()
+                sb = fw.get("source_b", "").strip()
+                if sa and sb:
+                    collided_domains.add(frozenset({sa.lower(), sb.lower()}))
+        except (json.JSONDecodeError, KeyError):
+            continue
+    theory_domains = sorted({t.domain for t in _theories})
+    domain_theories = {}
+    for t in _theories:
+        domain_theories.setdefault(t.domain, []).append(t)
+    gaps = []
+    for i, da in enumerate(theory_domains):
+        for db in theory_domains[i + 1:]:
+            if frozenset({da.lower(), db.lower()}) not in collided_domains:
+                max_sim = 0.0
+                for ta in domain_theories[da]:
+                    for tb in domain_theories[db]:
+                        s = forge.tag_similarity(ta, tb)
+                        if s > max_sim:
+                            max_sim = s
+                if max_sim >= 0.15:
+                    gaps.append({
+                        "domain_a": da, "domain_b": db,
+                        "max_tag_similarity": round(max_sim, 3),
+                        "theories_a": len(domain_theories[da]),
+                        "theories_b": len(domain_theories[db]),
+                    })
+    gaps.sort(key=lambda g: -g["max_tag_similarity"])
+    return gaps[:limit]
 
 
 @app.get("/framework/{name}")

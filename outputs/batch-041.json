@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Escapement Regulation Theory of Democratic Turn-Taking",
+    "core_claim": "Democratic deliberation depends on an escapement mechanism structurally identical to horological regulation: the energy of collective political will (mainspring) must be released in discrete, metered intervals (parliamentary sessions, election cycles) rather than as a continuous torrent. When the escapement fails — through filibuster abuse, emergency decrees, or perpetual campaigning — the political mechanism either runs down (apathy) or races uncontrolled (mob rule). The isochronism of democratic institutions explains why healthy democracies maintain remarkably stable legislative rhythms regardless of the amplitude of public passion.",
+    "mechanism_borrowed_from": "escapement-regulation",
+    "domain_applied_to": "political economy",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Escapement Regulation (Horology)",
+    "source_b": "Marxist Capital Accumulation"
+  },
+  {
+    "name": "Terroir Expression Theory of Neural Individuation",
+    "core_claim": "Individual cognitive style emerges through a mechanism analogous to viticultural terroir: the same genetic 'grape variety' (neural architecture) planted in different developmental 'soils' (early sensory environments, attachment patterns, nutritional gradients) produces brains with distinctive and repeatable 'flavor profiles' — not because the environments teach specific content, but because they modulate the micro-chemical gradients during critical periods of synaptic pruning. Cognitive terroir is why identical twins raised apart share temperament but diverge in aesthetic preference, humor, and creative style.",
+    "mechanism_borrowed_from": "terroir-expression",
+    "domain_applied_to": "neuroscience",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Terroir Expression Through Soil-Vine Interaction (Viticulture)",
+    "source_b": "Hebbian Learning"
+  },
+  {
+    "name": "Signature Gathering Theory of Genome Assembly",
+    "core_claim": "Genome assembly from shotgun sequencing reads follows the logic of bookbinding signature imposition: short sequence fragments must be gathered into correctly ordered 'signatures' (contigs) that fold into the proper page order (chromosome) with minimal waste (unplaced reads) and even bulk (coverage depth). Misimposition — placing reads in the wrong contig — produces the genomic equivalent of a misbound book: locally readable but globally incoherent. The optimal assembly algorithm is a computational bookbinder matching grain direction (read orientation) to spine (reference strand).",
+    "mechanism_borrowed_from": "signature-imposition",
+    "domain_applied_to": "molecular biology",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Signature Gathering and Imposition (Bookbinding)",
+    "source_b": "Quasispecies Theory (Eigen)"
+  },
+  {
+    "name": "Helmholtz Resonator Theory of Organizational Silence",
+    "core_claim": "Organizations develop Helmholtz-resonator-like structures that selectively absorb specific frequencies of internal criticism. The resonant frequency is set by the 'neck' (reporting channel width) and 'cavity' (institutional buffer capacity): complaints at that frequency are efficiently absorbed and dissipated as heat (HR processes, town halls) while complaints at other frequencies pass through unattenuated, creating the illusion of openness. Redesigning the neck geometry — anonymous channels, skip-level meetings — shifts the absorption band but does not eliminate selective deafness.",
+    "mechanism_borrowed_from": "helmholtz-resonator",
+    "domain_applied_to": "business strategy",
+    "viability": "speculative",
+    "confidence": 0.67,
+    "source_a": "Helmholtz Resonator Tuning (Acoustics)",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Map Projection Distortion Theory of Legal Translation",
+    "core_claim": "Translating legal concepts between jurisdictions is a cartographic projection problem: the curved surface of one legal system cannot be flattened onto another without introducing systematic distortion. A translation can preserve local 'angles' (doctrinal relationships — conformal projection) or 'areas' (scope of rights — equal-area projection) but never both simultaneously. The Tissot indicatrix of legal translation reveals that private law concepts project with moderate distortion while constitutional principles suffer extreme stretching at the periphery, precisely where they matter most for human rights.",
+    "mechanism_borrowed_from": "map-projection-distortion",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Map Projection Distortion Trade-off (Cartography)",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Perfume Pyramid Theory of Narrative Structure",
+    "core_claim": "Effective narratives follow the temporal architecture of a perfume pyramid: top notes (the opening hook) are volatile and attention-grabbing but dissipate within minutes of engagement; heart notes (character development, thematic complexity) emerge as the top notes fade and constitute the bulk of the reader's experience; base notes (the residual meaning, the haunting final image) are heavy molecules that persist long after the book is closed. Stories that front-load base notes feel ponderous; those with only top notes feel disposable. The fixative is genre convention, which retards the evaporation of familiar elements.",
+    "mechanism_borrowed_from": "perfume-pyramid-sequencing",
+    "domain_applied_to": "narratology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Perfume Pyramid Temporal Sequencing (Perfumery)",
+    "source_b": "Hero's Journey (Monomyth)"
+  },
+  {
+    "name": "Aerial Shell Burst Theory of Scientific Discovery",
+    "core_claim": "Major scientific discoveries follow aerial shell pyrotechnics: a mortar charge (funding, institutional support) launches the shell (research program) along a calculated trajectory, but the burst charge (the actual discovery) must detonate at precisely the right altitude (intellectual maturity of the field). Premature bursts produce brilliant but unappreciated results (Mendel, Semmelweis); late bursts are invisible against an already-illuminated sky (simultaneous discovery). Multi-break shells — research programs that produce cascading discoveries — require the most precise timing and the most sophisticated internal architecture.",
+    "mechanism_borrowed_from": "aerial-shell-burst-timing",
+    "domain_applied_to": "history of science",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Aerial Shell Burst Timing (Pyrotechnics)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Pin Tumbler Theory of Therapeutic Breakthrough",
+    "core_claim": "Psychotherapeutic breakthroughs require sequential setting of psychological 'pins' in the correct order, analogous to lock-picking. Each pin represents a defense mechanism that must be gently elevated to its shear line (acknowledged without overwhelming the patient). The binding order — which defense yields first — is determined by the 'manufacturing tolerances' of the patient's psyche (some defenses are looser, more accessible). Attempting to set all pins simultaneously (confrontational therapy) produces a jam; skilled therapists feel for the binding pin through the 'tension wrench' of the therapeutic alliance.",
+    "mechanism_borrowed_from": "pin-tumbler-shear-line",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Pin Tumbler Shear-Line Alignment (Lock-picking)",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Flat-Foldability Theory of Constitutional Design",
+    "core_claim": "A constitution is flat-foldable — capable of being collapsed into practical governance without self-intersection — only when it satisfies the Kawasaki-Justin conditions at every vertex (point where multiple rights and powers meet). At each vertex, the alternating angles between clauses must sum to 180 degrees: grants of power must exactly balance restrictions. Constitutions violating this condition cannot be 'folded flat' into consistent jurisprudence and will always produce irreconcilable precedents at the non-flat-foldable vertices, which become the permanent sites of constitutional litigation.",
+    "mechanism_borrowed_from": "flat-foldability-conditions",
+    "domain_applied_to": "legal theory",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Flat-Foldability Conditions (Origami Mathematics)",
+    "source_b": "Common Law Precedent (Stare Decisis)"
+  },
+  {
+    "name": "Waggle Dance Theory of Scientific Citation",
+    "core_claim": "Scientific citations function as waggle dances: the citing paper encodes the direction (intellectual vector) and distance (relevance) to a productive resource (the cited paper) for other forager-researchers. High-impact papers are rich nectar sources that elicit vigorous dances (extensive citation with methodological detail), while perfunctory citations are weak dances that recruit few followers. Citation cartels are the equivalent of bees dancing for depleted sources — they misdirect collective foraging effort. The round dance / waggle dance threshold maps to the near-field / far-field distinction in interdisciplinary vs. intradisciplinary citation.",
+    "mechanism_borrowed_from": "waggle-dance-encoding",
+    "domain_applied_to": "information retrieval",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Waggle Dance Information Encoding (Beekeeping)",
+    "source_b": "PageRank as Selection"
+  },
+  {
+    "name": "Canopy Microclimate Theory of Classroom Pedagogy",
+    "core_claim": "Classroom learning environments function as viticultural canopies: too dense a curriculum blocks light (cognitive engagement) from reaching the lower clusters (struggling students), while too sparse a curriculum exposes all students to sunburn (cognitive overload from unmediated complexity). The optimal leaf-area index of instruction balances photosynthetic productivity (active learning) against disease pressure (confusion, disengagement). Differentiated instruction is the pedagogical equivalent of selective leaf-pulling — removing material to improve airflow around specific student clusters.",
+    "mechanism_borrowed_from": "canopy-microclimate-regulation",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Canopy Microclimate Regulation (Viticulture)",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Adhesive Spine Bond Theory of Alliance Durability",
+    "core_claim": "International alliances fail through the same mechanisms as adhesive bookbinding: repeated 'opening cycles' (crises that test the alliance) fatigue the bond between signatories. Alliances with rigid spines (inflexible treaty terms) crack under stress; those with excessive flexibility (ambiguous commitments) allow pages (member states) to pull out entirely. The optimal alliance is one whose adhesive (shared interests, institutional entanglement) distributes stress evenly across the spine, and whose 'paper grain' (cultural alignment) runs parallel to the binding direction (strategic orientation).",
+    "mechanism_borrowed_from": "adhesive-spine-bond",
+    "domain_applied_to": "military strategy",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Adhesive Spine Bond Integrity (Bookbinding)",
+    "source_b": "Lanchester's Square Law"
+  },
+  {
+    "name": "Psychoacoustic Masking Theory of Competitive Strategy",
+    "core_claim": "In saturated markets, competing products mask each other following psychoacoustic principles: a dominant product (loud signal) renders competitors within its 'critical band' (feature similarity window) imperceptible to consumers, regardless of their individual quality. Startups succeed not by being louder but by occupying unmasked frequency bands — feature combinations or value propositions that fall outside the masking threshold of incumbents. The temporal masking effect explains why launching immediately before or after a major competitor's release produces forward and backward masking of consumer attention.",
+    "mechanism_borrowed_from": "psychoacoustic-masking",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Psychoacoustic Masking (Acoustics)",
+    "source_b": "Market Competition"
+  },
+  {
+    "name": "Combustion Propagation Theory of Viral Content",
+    "core_claim": "Viral content propagates through social networks as a combustion front: the content (fuel) must encounter sufficient oxidizer (audience receptivity) and an ignition source (initial sharing by influential nodes) to sustain a self-propagating reaction. The burn rate is governed by the content's 'surface area' (shareability across platforms) and the network's 'porosity' (interconnectedness). Content that deflagrates (steady viral spread) differs structurally from content that detonates (instantaneous ubiquity): detonation requires a shock wave of simultaneous cross-platform sharing that compresses the audience ahead of the reaction front.",
+    "mechanism_borrowed_from": "combustion-propagation-front",
+    "domain_applied_to": "network theory",
+    "viability": "speculative",
+    "confidence": 0.69,
+    "source_a": "Combustion Propagation Front (Pyrotechnics)",
+    "source_b": "SIR Epidemic Model"
+  },
+  {
+    "name": "Coordinate Reference Transformation Theory of Moral Relativism",
+    "core_claim": "Moral disagreements between cultures are coordinate reference system mismatches, not genuine contradictions. Each ethical tradition defines a local coordinate system (moral axioms, virtues, taboos) optimized for its region of human experience. Transformations between systems introduce positional errors (moral distortion) that increase with distance from the calibration region. Universal human rights represent an attempt at a global datum — a moral WGS84 — but like all global coordinate systems, they sacrifice local accuracy for worldwide consistency. The residual distortion is irreducible and is precisely what fuels the universalism-relativism debate.",
+    "mechanism_borrowed_from": "coordinate-reference-transformation",
+    "domain_applied_to": "moral philosophy",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Coordinate Reference System Transformation (Cartography)",
+    "source_b": "Trolley Problem Variants"
+  }
+]

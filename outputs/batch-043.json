@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Mainspring Energy Delivery Theory of Creative Burnout",
+    "core_claim": "Creative burnout follows mainspring mechanics: artists store creative potential energy through experience, observation, and emotional accumulation, then release it through work. A fully wound mainspring delivers high but declining torque — the initial creative burst is powerful but output quality degrades as the reserve depletes. The fusée mechanism (varied project difficulty calibrated to remaining energy) maintains constant creative torque across the power reserve. Burnout occurs when the mainspring is repeatedly wound to maximum without the barrel being allowed to rotate — creative input without output, or output demanded beyond the power reserve.",
+    "mechanism_borrowed_from": "mainspring-energy-delivery",
+    "domain_applied_to": "aesthetics",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Mainspring Energy Storage and Delivery (Horology)",
+    "source_b": "Kantian Aesthetic Judgment"
+  },
+  {
+    "name": "Phenological Tracking Theory of Product Lifecycle Management",
+    "core_claim": "Product launches succeed when timed to phenological indicators of market readiness, not calendar dates. Just as vintners track sugar-acid balance across growth stages to determine optimal harvest, product managers must track the ratio of market demand signals (sugar) to competitive saturation (acid) across the product development cycle. Harvesting too early (launching into an immature market) produces thin, acidic products that fail to convert; harvesting too late produces flabby, over-ripe products that lack differentiation. The phenological stages — budbreak (concept validation), flowering (beta), veraison (product-market fit), harvest (launch) — each have measurable indicators that are more reliable than fixed timelines.",
+    "mechanism_borrowed_from": "phenological-stage-tracking",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Phenological Stage Tracking (Viticulture)",
+    "source_b": "Market Competition"
+  },
+  {
+    "name": "Paper Grain Direction Theory of Team Composition",
+    "core_claim": "Teams function optimally when members' cognitive 'grain direction' — the axis along which they think most flexibly — is aligned parallel to the project's spine (primary challenge axis). Cross-grain teams (members whose flexibility axis is perpendicular to the problem) produce work that cockles under stress: individuals resist bending in the required direction, creating internal tensions that warp the output. The bookbinder's rule — always fold with the grain — translates to the management principle that teams should be composed not for diversity of skill alone but for alignment of cognitive flexibility with the project's primary deformation axis.",
+    "mechanism_borrowed_from": "paper-grain-alignment",
+    "domain_applied_to": "ergonomics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Paper Grain Direction Alignment (Bookbinding)",
+    "source_b": "Dunbar's Number"
+  },
+  {
+    "name": "Acoustic Impedance Matching Theory of Technology Adoption",
+    "core_claim": "Technology adoption fails at impedance mismatches: when the 'impedance' of a new technology (complexity, cost, cognitive load) differs sharply from the impedance of the adopting environment (existing skills, infrastructure, expectations), most of the innovation's energy is reflected back rather than transmitted into practice. The characteristic impedance of an adopter group is the product of its information density (cultural 'bulk modulus') and its rate of change tolerance (social 'density'). Quarter-wave transformers — intermediary technologies, training programs, or simplified interfaces that gradually step between impedances — maximize transmission of innovation energy across the boundary.",
+    "mechanism_borrowed_from": "acoustic-impedance-matching",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Acoustic Impedance Matching (Acoustics)",
+    "source_b": "Technology Adoption Lifecycle"
+  },
+  {
+    "name": "Thematic Map Classification Theory of Psychiatric Diagnosis",
+    "core_claim": "Psychiatric diagnostic categories are thematic map classification schemes applied to the continuous surface of human psychological variation. The choice of classification method — natural breaks (cluster-based nosology), equal interval (symptom count thresholds), or quantile (prevalence-normed) — determines which variations are visible and which are obscured. DSM categories use natural breaks that maximize within-diagnosis homogeneity but create artificial boundaries where the underlying surface is smooth. Dimensional approaches are the continuous-tone maps that eliminate class boundaries but sacrifice the diagnostic legibility that clinicians require for treatment decisions.",
+    "mechanism_borrowed_from": "thematic-map-classification",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Thematic Map Classification Scheme (Cartography)",
+    "source_b": "Cognitive Dissonance (Festinger)"
+  },
+  {
+    "name": "Olfactory Fatigue Theory of News Desensitization",
+    "core_claim": "News desensitization follows olfactory receptor adaptation kinetics: sustained exposure to a particular class of news stimulus (violence, political scandal, pandemic updates) causes the corresponding cognitive receptors to downregulate, raising the detection threshold until only increasingly extreme stimuli register. The adaptation is stimulus-specific — desensitization to political news does not reduce sensitivity to celebrity gossip, just as adaptation to one odorant leaves other receptors intact. Media organizations compensate by escalating stimulus intensity (sensationalism) or introducing novel odorants (new crisis categories), producing an attention economy locked in an arms race against its own audience's adaptive biology.",
+    "mechanism_borrowed_from": "olfactory-fatigue-adaptation",
+    "domain_applied_to": "sociology",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Olfactory Fatigue and Receptor Adaptation (Perfumery)",
+    "source_b": "SIR Epidemic Model"
+  },
+  {
+    "name": "Multi-Break Shell Theory of Pedagogical Scaffolding",
+    "core_claim": "Effective lesson design follows multi-break shell choreography: a single launch (motivating question) must produce a timed sequence of conceptual bursts at different altitudes (abstraction levels), each igniting from the residual heat of the previous one. Shells that burst all at once (information dumps) produce momentary spectacle but no narrative arc. The choreographer's constraint — each break must be visually distinct yet thematically coherent — maps to the pedagogical requirement that each scaffolding level must introduce genuinely new structure while remaining connected to the preceding level. Failed lessons are squibs: shells that launch but never burst.",
+    "mechanism_borrowed_from": "multi-break-shell-choreography",
+    "domain_applied_to": "education",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Multi-Break Shell Choreography (Pyrotechnics)",
+    "source_b": "Zone of Proximal Development"
+  },
+  {
+    "name": "Security Pin False-Set Theory of Negotiation Deception",
+    "core_claim": "Skilled negotiators detect deceptive concessions through the same feedback mechanism locksmiths use to identify security pins: a genuine concession (standard pin) sets cleanly to the shear line, while a deceptive concession (security pin) produces a distinctive false-set — the negotiation appears to advance but the plug rotates slightly in the wrong direction (the counterparty's body language, timing, or follow-up behavior subtly contradicts the apparent agreement). Expert negotiators maintain constant tension on the 'wrench' (relational pressure) specifically to amplify these counter-rotation signals, which are invisible without applied torque.",
+    "mechanism_borrowed_from": "security-pin-false-set",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.68,
+    "source_a": "Security Pin False-Set Feedback (Lock-picking)",
+    "source_b": "Nash Equilibrium"
+  },
+  {
+    "name": "Mountain-Valley Assignment Theory of Moral Dilemma Resolution",
+    "core_claim": "Moral dilemmas are crease assignment problems: each ethical consideration defines a fold line, and the dilemma is solvable (flat-foldable) only if each crease can be consistently assigned as mountain (principle upheld) or valley (principle compromised) without the resulting fold pattern self-intersecting (logical contradiction). Tragic dilemmas are crease patterns with no valid mountain-valley assignment — every possible assignment produces a self-intersection somewhere, meaning no resolution can avoid moral contradiction. The Maekawa theorem analog states that at every decision vertex, the number of principles upheld must differ from the number compromised by exactly two.",
+    "mechanism_borrowed_from": "mountain-valley-assignment",
+    "domain_applied_to": "ethics",
+    "viability": "speculative",
+    "confidence": 0.62,
+    "source_a": "Mountain-Valley Crease Assignment (Origami Mathematics)",
+    "source_b": "Trolley Problem Variants"
+  },
+  {
+    "name": "Brood Cycle Thermoregulation Theory of Data Center Management",
+    "core_claim": "Optimal data center thermal management follows honeybee brood cycle thermoregulation: worker bees maintain the brood nest at exactly 35 degrees C through a distributed feedback system where individual bees fan, cluster, or evaporate water based on local temperature sensing, without any central thermostat. Data centers that replace centralized HVAC control with distributed, server-level thermal agents — each adjusting its own fan speed, workload acceptance, and heat dissipation based on local conditions — can achieve the same remarkable thermal precision (plus or minus 0.5 degrees C) at dramatically lower energy cost, because the control granularity matches the heat generation granularity.",
+    "mechanism_borrowed_from": "brood-cycle-thermoregulation",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Brood Cycle Thermoregulation (Beekeeping)",
+    "source_b": "Stochastic Gradient Descent"
+  },
+  {
+    "name": "Isochronism Theory of Therapeutic Dosing Intervals",
+    "core_claim": "The ideal drug dosing interval exhibits isochronism: the therapeutic effect should be independent of the amplitude (dose variation) over a range of physiological conditions, just as a well-designed pendulum's period is independent of its swing amplitude. Drugs with high isochronism (wide therapeutic windows, first-order elimination kinetics) maintain consistent effect duration regardless of moderate dose variations due to absorption differences, body weight, or metabolic rate. Drug delivery systems — extended-release formulations, transdermal patches — are pharmaceutical escapements designed to impose isochronism on inherently non-isochronous drug kinetics.",
+    "mechanism_borrowed_from": "isochronism-pursuit",
+    "domain_applied_to": "pharmacology",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Isochronism Pursuit (Horology)",
+    "source_b": "Dose-Response Curve"
+  },
+  {
+    "name": "Diffraction and Edge Scattering Theory of Policy Spillover",
+    "core_claim": "Government policies diffract around institutional obstacles just as sound waves diffract around physical barriers: a policy aimed at one sector (the direct sound field) bends into adjacent sectors (the shadow zone) through edge scattering at institutional boundaries. The degree of spillover is frequency-dependent — broad, low-frequency policies (macroeconomic stimulus) diffract widely into every sector, while narrow, high-frequency policies (targeted regulations) cast sharp shadows with minimal spillover. Policymakers who ignore diffraction consistently underestimate the reach of their interventions and are surprised by effects in sectors they never intended to affect.",
+    "mechanism_borrowed_from": "diffraction-edge-scattering",
+    "domain_applied_to": "macroeconomics",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Diffraction and Edge Scattering (Acoustics)",
+    "source_b": "Supply and Demand Equilibrium"
+  },
+  {
+    "name": "Star Composition Theory of Drug Combination Therapy",
+    "core_claim": "Combination drug therapy follows pyrotechnic star composition logic: each active ingredient (metal salt) must ignite at the temperature provided by the delivery context (the shell burst — physiological conditions at the target site), and the oxidizer-to-fuel ratio (drug-to-excipient ratio) must be precisely balanced to produce the desired therapeutic 'color' (biological effect) without self-extinguishing (sub-therapeutic concentration) or deflagrating uncontrolled (toxicity). Stars that fail to ignite at burst temperature are the pharmaceutical equivalent of drugs with insufficient bioavailability at the disease site — technically present but therapeutically invisible.",
+    "mechanism_borrowed_from": "star-composition-oxidizer-balance",
+    "domain_applied_to": "drug design",
+    "viability": "speculative",
+    "confidence": 0.65,
+    "source_a": "Star Composition and Oxidizer Balance (Pyrotechnics)",
+    "source_b": "Lock-and-Key Enzyme Model"
+  },
+  {
+    "name": "Nectar Flow Foraging Theory of Venture Capital Allocation",
+    "core_claim": "Venture capital allocation follows honeybee nectar flow foraging optimization: scout investors identify promising sectors (nectar sources) and recruit fellow investors through waggle-dance-equivalent signals (pitch meetings, market reports, conference presentations). The colony allocates foragers (capital) proportional to the reported quality of each source, creating a distributed optimization system that tracks shifting opportunities without central planning. Herding behavior in VC is the pathological case where all scouts report the same source (AI, crypto, cleantech in sequence), producing over-recruitment to a single flower patch that depletes before the colony can redirect.",
+    "mechanism_borrowed_from": "nectar-flow-foraging-allocation",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Nectar Flow Foraging Allocation (Beekeeping)",
+    "source_b": "Minsky Moment"
+  },
+  {
+    "name": "Scale-Dependent Feature Theory of Historical Periodization",
+    "core_claim": "Historical periodization is a scale-dependent feature representation problem: events and trends that are salient at one temporal zoom level (decades) disappear or transform at another (centuries, millennia). The 'cartographic rules' of historiography — which events to represent at each scale — are rarely made explicit, producing the illusion that history has natural joints. At high zoom, history is a continuous flow of contingent events; at low zoom, it congeals into 'periods' whose boundaries are artifacts of the generalization algorithm, not properties of the past itself. Historiographical debates about periodization (When did modernity begin?) are arguments about zoom level disguised as arguments about chronology.",
+    "mechanism_borrowed_from": "scale-dependent-feature-representation",
+    "domain_applied_to": "history of science",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Scale-Dependent Feature Representation (Cartography)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  }
+]

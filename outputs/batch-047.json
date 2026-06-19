@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Olfactory Fatigue Theory of Voter Apathy",
+    "core_claim": "Voter apathy follows the same adaptation curve as olfactory fatigue in perfumery: repeated exposure to political messaging causes receptor-level desensitization, rendering citizens unable to detect differences between candidates just as a nose becomes blind to ambient fragrance. Campaign strategists unconsciously exploit this by introducing 'contrasting notes' (attack ads, scandal) that temporarily reset the electorate's olfactory receptors. Voter turnout correlates inversely with the duration of campaign exposure, following a logarithmic decay matching olfactory adaptation kinetics.",
+    "mechanism_borrowed_from": "olfactory-fatigue-adaptation",
+    "domain_applied_to": "behavioral economics",
+    "viability": "speculative",
+    "confidence": 0.43,
+    "source_a": "Olfactory Fatigue Adaptation",
+    "source_b": "Nudge / Choice Architecture"
+  },
+  {
+    "name": "Isochronism Theory of Democratic Institutions",
+    "core_claim": "Stable democracies achieve institutional isochronism: their electoral and legislative cycles maintain constant period regardless of the amplitude of political disruption, just as a pendulum's period is independent of swing amplitude. Authoritarian drift occurs when the political escapement loses isochronism — crisis amplitudes begin to distort cycle timing (emergency powers extend terms, elections are delayed), breaking the constant-period guarantee that allows citizens to plan and hold leaders accountable.",
+    "mechanism_borrowed_from": "isochronism-pursuit",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.55,
+    "source_a": "Isochronism Pursuit (Horology)",
+    "source_b": "Constitutional Separation of Powers"
+  },
+  {
+    "name": "Combustion Propagation Front Theory of Rumor Spread",
+    "core_claim": "Rumors propagate through social networks as deflagration fronts: the 'fuel' is uninformed population, the 'oxidizer' is social connectivity, and the propagation velocity depends on the rumor's sensationalism (heat of reaction). Rumor extinction occurs when the front encounters a firebreak — a cluster of informed/skeptical individuals — identical to how combustion fronts stall at fuel gaps. Superspreader events are detonation transitions where the rumor front accelerates beyond its normal deflagration speed.",
+    "mechanism_borrowed_from": "combustion-propagation-front",
+    "domain_applied_to": "network theory",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Combustion Propagation Front (Pyrotechnics)",
+    "source_b": "Scale-Free Hub Vulnerability"
+  },
+  {
+    "name": "Coral Holobiont Theory of Open-Source Software",
+    "core_claim": "Open-source software projects are holobionts: the core codebase is the coral skeleton, maintainers are the symbiotic algae providing energy (code review, direction), and the contributor community forms the associated microbiome. Project health depends on holobiont balance — bleaching events (maintainer burnout) expel the symbiotic algae, leaving a skeleton that still exists structurally but can no longer grow. Fork events are fragmentation analogous to coral breakage, where each fragment may or may not recruit new symbionts.",
+    "mechanism_borrowed_from": "coral-holobiont-feedback",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Coral Holobiont Feedback",
+    "source_b": "Complexity Classes"
+  },
+  {
+    "name": "Gear Train Transmission Theory of Bureaucratic Hierarchy",
+    "core_claim": "Bureaucratic hierarchies function as gear trains: each management level is a gear that trades speed for torque. Frontline workers spin fast (many small decisions) with low torque (authority); executives spin slowly (few large decisions) with high torque. The gear ratio between levels determines organizational responsiveness. 'Gear clash' occurs when a level is skipped — a CEO issuing frontline directives — producing the institutional equivalent of stripped teeth: confusion, resistance, and mechanical failure.",
+    "mechanism_borrowed_from": "gear-train-transmission",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Gear Train Transmission (Horology)",
+    "source_b": "Queueing Theory (M/M/1)"
+  },
+  {
+    "name": "Benford's Law Theory of Ecological Population Monitoring",
+    "core_claim": "Healthy ecosystems produce population counts that conform to Benford's Law across species: the leading digits of population sizes follow the expected logarithmic distribution because populations arise from multiplicative growth processes. Ecological disturbance — pollution, habitat fragmentation, invasive species — distorts the Benford distribution in predictable ways. Deviation from Benford's Law in wildlife census data can serve as an early-warning system for ecosystem degradation, just as it flags financial fraud.",
+    "mechanism_borrowed_from": "benfords-law-anomaly-detection",
+    "domain_applied_to": "ecology",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Benford's Law Anomaly Detection",
+    "source_b": "Trophic Cascade"
+  },
+  {
+    "name": "Laban Effort-Shape Theory of Architectural Spatial Experience",
+    "core_claim": "The experiential quality of architectural spaces can be analyzed through Laban's effort-shape framework: a cathedral's nave embodies sustained/direct/light/free effort qualities that produce awe, while a cramped corridor is sudden/indirect/strong/bound. Architects implicitly choreograph movement through buildings by sequencing effort-shape qualities along circulation paths. Successful spatial design creates an effort-shape 'phrase' with dynamic contrast; monotonous buildings fail because they sustain a single effort quality.",
+    "mechanism_borrowed_from": "laban-effort-shape-movement-analysis",
+    "domain_applied_to": "architecture",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Laban Effort-Shape Movement Analysis",
+    "source_b": "Pattern Language"
+  },
+  {
+    "name": "Quorum Sensing Theory of Cryptocurrency Consensus",
+    "core_claim": "Blockchain consensus mechanisms recapitulate bacterial quorum sensing: each node emits 'autoinducer' signals (transaction validations) into the network, and collective state changes (block confirmation) occur only when signal concentration crosses a threshold. Proof-of-work is an energetically expensive autoinducer production mechanism analogous to bioluminescence; proof-of-stake reduces the metabolic cost by coupling signal production to accumulated resources rather than energy expenditure, mirroring how quorum sensing bacteria modulate signal cost based on nutrient availability.",
+    "mechanism_borrowed_from": "quorum-sensing-threshold",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Quorum Sensing Threshold",
+    "source_b": "Zero-Knowledge Proof"
+  },
+  {
+    "name": "Dansgaard-Oeschger Theory of Fashion Cycles",
+    "core_claim": "Fashion trend cycles exhibit Dansgaard-Oeschger oscillation dynamics: long periods of gradual stylistic cooling (minimalism trends, normcore) are punctuated by abrupt warming events (maximalism surges, bold pattern revivals) that occur on a quasi-periodic ~20-year cycle. The rapid onset and slow decay of each fashion warming event mirrors the sawtooth waveform of D-O climate oscillations, driven by an analogous thermohaline-like cultural circulation where deep currents of subcultural innovation periodically breach into mainstream surface fashion.",
+    "mechanism_borrowed_from": "dansgaard-oeschger-oscillation",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.41,
+    "source_a": "Dansgaard-Oeschger Oscillation",
+    "source_b": "Aesthetic Disinterest"
+  },
+  {
+    "name": "Rhizosphere Carbon Pump Theory of Knowledge Management",
+    "core_claim": "Organizational knowledge flows follow rhizosphere carbon pump dynamics: expert employees (root systems) exude tacit knowledge (carbon exudates) into the surrounding organizational soil, feeding a microbiome of junior staff and contractors who mineralize this tacit knowledge into explicit, usable forms. The 'priming effect' — where fresh knowledge inputs accelerate the decomposition of old institutional knowledge — explains why new hires paradoxically cause organizations to lose legacy knowledge: their fresh exudates stimulate breakdown of stored organizational memory.",
+    "mechanism_borrowed_from": "rhizosphere-carbon-pump",
+    "domain_applied_to": "education",
+    "viability": "speculative",
+    "confidence": 0.47,
+    "source_a": "Rhizosphere Carbon Pump",
+    "source_b": "Vygotsky's Zone of Proximal Development"
+  },
+  {
+    "name": "Moraine Formation Theory of Legal Precedent Accumulation",
+    "core_claim": "Legal precedent accumulates at jurisdictional boundaries like glacial moraines: as the 'glacier' of active jurisprudence advances (expanding legal doctrine), it deposits a terminal moraine of settled precedent at its furthest reach. When doctrine retreats (legal reform, constitutional reinterpretation), it leaves behind lateral moraines of partially overturned precedent that create uneven legal terrain. The stratigraphic layers within a precedent moraine record the glacial advances and retreats of judicial philosophy across centuries.",
+    "mechanism_borrowed_from": "moraine-formation-record",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Moraine Formation Record (Glaciology)",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Maillard Reaction Theory of Creative Collaboration",
+    "core_claim": "Creative breakthroughs in collaborative teams follow Maillard reaction kinetics: ideas from different disciplines are the amino acids and reducing sugars, and productive collaboration requires sufficient 'heat' (deadline pressure, creative tension) and controlled 'moisture' (communication bandwidth). Too much moisture (over-communication) prevents browning; too little heat (no pressure) leaves the ingredients unreacted. The hundreds of distinct flavor compounds produced by a single Maillard reaction explain why the outputs of true creative collaboration are irreducible to the sum of individual contributions.",
+    "mechanism_borrowed_from": "maillard-reaction",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Maillard Reaction (Culinary Science)",
+    "source_b": "Flow State"
+  },
+  {
+    "name": "Photonic Bandgap Theory of Social Stratification",
+    "core_claim": "Social class boundaries function as photonic bandgaps: certain 'wavelengths' of social mobility (specific types of advancement — educational, entrepreneurial, cultural) are forbidden within the bandgap, while others propagate freely. The periodicity of social structure (repeating patterns of institutional gatekeeping) creates these forbidden bands through destructive interference of mobility attempts. Class disruption technologies (universal education, internet access) work by introducing defect states that create allowed modes within the bandgap, enabling tunneling across class boundaries.",
+    "mechanism_borrowed_from": "photonic-bandgap",
+    "domain_applied_to": "sociology",
+    "viability": "speculative",
+    "confidence": 0.46,
+    "source_a": "Photonic Bandgap",
+    "source_b": "Foucault's Power/Knowledge"
+  },
+  {
+    "name": "Fretting Fatigue Theory of Romantic Relationship Failure",
+    "core_claim": "Long-term romantic relationships fail through fretting fatigue: small-amplitude, high-frequency oscillatory stresses (daily micro-irritations, minor disagreements) at the contact surface between partners nucleate fatigue cracks that propagate far more rapidly than either partner's stress tolerance would predict from static loading alone. The Goodman diagram for relationships predicts that couples under constant mean stress (financial pressure, chronic illness) have dramatically lower tolerance for alternating stress (arguments), explaining why externally stressed couples break over seemingly trivial triggers.",
+    "mechanism_borrowed_from": "fretting-fatigue-nucleation",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Fretting Fatigue Nucleation (Tribology)",
+    "source_b": "Attachment Theory"
+  },
+  {
+    "name": "Vine Training Architecture Theory of Neural Network Pruning",
+    "core_claim": "Neural network pruning should follow viticulture vine training principles: just as grapevines are pruned to specific architectures (cordon, cane, goblet) that optimize the tradeoff between fruit quality and canopy size for a given terroir, neural networks should be pruned to architecture-specific patterns that match their deployment environment. Over-pruning (excessive spur pruning) reduces yield but increases per-output quality, directly paralleling the accuracy-efficiency tradeoff. The viticultural insight that different rootstock-scion combinations require different training systems predicts that optimal pruning patterns are not universal but architecture-dependent.",
+    "mechanism_borrowed_from": "vine-training-architecture",
+    "domain_applied_to": "machine learning",
+    "viability": "promising",
+    "confidence": 0.57,
+    "source_a": "Vine Training Architecture (Viticulture)",
+    "source_b": "Variational Inference"
+  }
+]

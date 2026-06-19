@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Gear Train Theory of Bureaucratic Cascades",
+    "core_claim": "Bureaucratic hierarchies transmit executive directives through gear trains: each management layer is a gear that trades torque (authority) for speed (implementation rate) or vice versa. Backlash — the dead zone between gear teeth — is the delay and distortion introduced at each handoff. Long gear trains (deep hierarchies) accumulate backlash until the output bears no resemblance to the input. The irreducible friction at each mesh point explains why bureaucracies convert most of their input energy into heat (meetings, memos, status reports) rather than useful work.",
+    "mechanism_borrowed_from": "gear-train-transmission",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Gear Train Power Transmission (Horology)",
+    "source_b": "Pareto Distribution"
+  },
+  {
+    "name": "Scent Molecule Competition Theory of Attention Markets",
+    "core_claim": "Digital content competes for human attention through the same receptor-binding kinetics as scent molecules: higher-affinity content (emotionally triggering, personally relevant) masks lower-affinity content at shared cognitive receptors, regardless of the masked content's informational value. Olfactory fatigue has a direct attention analog — prolonged exposure to any content type causes receptor adaptation, explaining the relentless acceleration of novelty cycles. The attention economy is a perfumer's organ: content creators must compose accords from multiple binding modalities (visual, emotional, intellectual) because single-note content fatigues fastest.",
+    "mechanism_borrowed_from": "scent-receptor-competition",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.74,
+    "source_a": "Scent Molecule Receptor Competition (Perfumery)",
+    "source_b": "Prospect Theory (Kahneman-Tversky)"
+  },
+  {
+    "name": "Miura-Ori Auxetic Theory of Economic Resilience",
+    "core_claim": "Economies that exhibit negative Poisson's ratio behavior — expanding laterally when stretched longitudinally — are structurally resilient in the manner of Miura-ori folds. When stressed along one axis (trade shock, supply chain disruption), auxetic economies widen their engagement across adjacent sectors rather than contracting. This counter-intuitive response emerges from the folded geometry of inter-industry linkages: industries connected in a zigzag pattern of alternating dependencies, rather than aligned in parallel, produce collective expansion under tension. The fold pattern can be deliberately engineered through industrial policy.",
+    "mechanism_borrowed_from": "miura-ori-auxetic-folding",
+    "domain_applied_to": "macroeconomics",
+    "viability": "speculative",
+    "confidence": 0.63,
+    "source_a": "Miura-Ori Auxetic Folding (Origami Mathematics)",
+    "source_b": "Creative Destruction (Schumpeter)"
+  },
+  {
+    "name": "Swarm Trigger Threshold Theory of Bank Runs",
+    "core_claim": "Bank runs initiate through a mechanism identical to honeybee swarm trigger dynamics: individual depositors accumulate private signals of institutional distress (scout bees assessing candidate sites), and withdrawal begins only when the density of alarmed depositors exceeds a quorum threshold — not when any single signal crosses a critical value. The quorum mechanism explains why banks can survive severe individual shocks but fail to apparently minor ones that happen to synchronize across the depositor population. Deposit insurance works by raising the quorum threshold, not by eliminating individual alarm signals.",
+    "mechanism_borrowed_from": "swarm-trigger-threshold",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.78,
+    "source_a": "Swarm Trigger Threshold Dynamics (Beekeeping)",
+    "source_b": "Minsky Moment"
+  },
+  {
+    "name": "Cartographic Generalization Theory of Memory Consolidation",
+    "core_claim": "Sleep-dependent memory consolidation is cartographic generalization: the hippocampus produces a detailed 'large-scale map' of daily experience that is progressively generalized during slow-wave sleep into the 'small-scale maps' stored in neocortex. Generalization preserves spatial relationships (causal and temporal structure) and legibility (retrievability) at the target scale (long-term utility) while eliminating features below the resolution threshold (irrelevant perceptual detail). The Douglas-Peucker algorithm of memory determines which experiential vertices to retain: points of maximum deviation from the smooth narrative arc survive; intermediate points are discarded.",
+    "mechanism_borrowed_from": "cartographic-generalization",
+    "domain_applied_to": "sleep science",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Cartographic Generalization (Cartography)",
+    "source_b": "Circadian Clock (TTFL Model)"
+  },
+  {
+    "name": "Sewing Structure Theory of Coalition Government",
+    "core_claim": "Coalition governments are bound together like bookbinding sewing structures: each party is a signature, and the sewing thread (coalition agreement) must distribute stress evenly across the spine (the legislative agenda) without causing swelling (bloated compromises) at any single point. Kettle stitch connections between signatures (inter-party personal relationships) provide critical cross-linking that prevents individual signatures from detaching. Coptic binding (direct party-to-party links without a spine) produces the most flexible coalitions but the weakest spines; case binding (rigid ideological framework) produces strong spines but inflexible governance.",
+    "mechanism_borrowed_from": "sewing-structure-thread-tension",
+    "domain_applied_to": "political economy",
+    "viability": "speculative",
+    "confidence": 0.66,
+    "source_a": "Sewing Structure and Thread Tension (Bookbinding)",
+    "source_b": "Voting Paradox (Condorcet)"
+  },
+  {
+    "name": "Pyrotechnic Color Chemistry Theory of Brand Identity",
+    "core_claim": "Brand identity operates through the same spectral purity constraints as pyrotechnic color chemistry: brands that emit a pure, narrow-band signal (clear positioning, consistent messaging) are perceived as vivid and memorable, while brands attempting to emit across the full spectrum (everything to everyone) produce muddy, desaturated impressions. Contaminant ions (off-brand partnerships, inconsistent campaigns) broaden the emission spectrum and degrade color purity. The sodium-yellow problem — sodium's dominant emission line overwhelms all other colors — explains why price competition (the sodium of branding) drowns out subtler value propositions unless physically separated from the formulation.",
+    "mechanism_borrowed_from": "pyrotechnic-color-chemistry",
+    "domain_applied_to": "marketing",
+    "viability": "promising",
+    "confidence": 0.76,
+    "source_a": "Pyrotechnic Color Chemistry (Pyrotechnics)",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Key Bitting Combinatorial Theory of Password Security",
+    "core_claim": "Password policies can be optimized using key bitting combinatorial analysis: just as MACS (Maximum Adjacent Cut Specification) eliminates physically impossible keys from the theoretical keyspace, password composition rules should eliminate cognitively impossible passwords — combinations that no human would actually choose or remember. The effective password space is not 95^n but the much smaller subset satisfying human cognitive MACS constraints. Security improves not by expanding the theoretical keyspace (longer passwords) but by ensuring the effective keyspace is explored uniformly — the locksmith's lesson that a million possible keys provide no security if every lock ships with the same three bittings.",
+    "mechanism_borrowed_from": "key-bitting-combinatorics",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.79,
+    "source_a": "Key Bitting Combinatorial Space (Lock-picking)",
+    "source_b": "Shannon's Perfect Secrecy"
+  },
+  {
+    "name": "Standing Wave Resonance Theory of Electoral Cycles",
+    "core_claim": "Electoral systems develop standing wave patterns: the 'chamber' of the political spectrum, bounded by the hard walls of the constitutional framework, admits only certain harmonic modes of political organization. Two-party systems are the fundamental mode; multi-party systems are higher harmonics. The resonant frequencies are set by the boundary conditions (electoral rules, district structure), not by the continuous spectrum of public opinion. Attempts to introduce political parties at non-resonant frequencies (third parties in FPTP systems) produce destructive interference and rapid decay, regardless of their popular support.",
+    "mechanism_borrowed_from": "standing-wave-resonance",
+    "domain_applied_to": "political ideology",
+    "viability": "speculative",
+    "confidence": 0.70,
+    "source_a": "Standing Wave Resonance (Acoustics)",
+    "source_b": "Duverger's Law"
+  },
+  {
+    "name": "Queen Pheromone Theory of Startup Culture",
+    "core_claim": "Startup culture is maintained by a founder pheromone analogous to the queen mandibular pheromone: the founder's physical presence, communication style, and behavioral patterns emit chemical-like social signals that suppress 'reproductive' behavior in employees (starting their own ventures, pursuing independent agendas) and maintain colony cohesion. When the founder departs or the company exceeds the pheromone's effective radius (~150 employees, matching Dunbar's number), the suppressive signal attenuates, workers begin 'laying eggs' (side projects, political factions), and the colony either produces a new queen (cultural successor) or fragments into swarms (spin-offs).",
+    "mechanism_borrowed_from": "queen-pheromone-cohesion",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.77,
+    "source_a": "Queen Pheromone Colony Cohesion (Beekeeping)",
+    "source_b": "Dunbar's Number"
+  },
+  {
+    "name": "Porous Absorber Theory of Grief Processing",
+    "core_claim": "Grief processing functions as porous acoustic absorption: the bereaved psyche must convert the high-energy 'sound waves' of loss into thermal dissipation through friction within a porous medium of social support, ritual, and narrative reconstruction. Thin absorbers (brief condolences, single funeral services) absorb only high-frequency grief (acute shock) while low-frequency grief (existential dread, identity reconstruction) passes through unattenuated. Effective grief support requires absorber thickness proportional to the wavelength of the loss — profound losses require deep, extended support structures. Mounting the absorber away from the reflective wall (delayed grief processing) creates a quarter-wavelength trap that paradoxically improves low-frequency absorption.",
+    "mechanism_borrowed_from": "porous-absorber-performance",
+    "domain_applied_to": "developmental psychology",
+    "viability": "speculative",
+    "confidence": 0.64,
+    "source_a": "Porous Absorber Performance (Acoustics)",
+    "source_b": "Attachment Theory (Bowlby)"
+  },
+  {
+    "name": "Rootstock-Scion Theory of Institutional Mergers",
+    "core_claim": "Corporate mergers succeed or fail based on rootstock-scion compatibility: the acquiring company (rootstock) provides the resource-extraction infrastructure (capital, distribution, regulatory relationships) while the acquired company (scion) provides the productive canopy (products, talent, innovation). Vascular continuity — the alignment of communication channels, data systems, and cultural norms across the graft union — determines whether the combined organism thrives or suffers graft incompatibility (immune rejection of the acquired culture). The most successful mergers use interstock (integration teams) to bridge incompatible rootstock-scion combinations.",
+    "mechanism_borrowed_from": "rootstock-scion-compatibility",
+    "domain_applied_to": "finance",
+    "viability": "promising",
+    "confidence": 0.75,
+    "source_a": "Rootstock-Scion Compatibility (Viticulture)",
+    "source_b": "Creative Destruction (Schumpeter)"
+  },
+  {
+    "name": "Rigid Origami Theory of Tectonic Plate Subduction",
+    "core_claim": "Tectonic plate subduction follows rigid origami mechanics: plates are rigid panels connected by crease lines (fault zones) that fold along predetermined hinge patterns. The Miura-ori-like fold geometry of subduction zones explains why plates descend at characteristic angles rather than arbitrary ones — only certain fold angles satisfy the rigid-foldability constraints imposed by the spherical geometry of Earth's surface. Slab rollback is the kinematic consequence of a rigid fold pattern propagating through the plate, and the Wadati-Benioff zone traces the crease pattern of this planetary origami.",
+    "mechanism_borrowed_from": "rigid-origami-mechanism",
+    "domain_applied_to": "geology",
+    "viability": "speculative",
+    "confidence": 0.61,
+    "source_a": "Rigid Origami Mechanism (Origami Mathematics)",
+    "source_b": "Plate Tectonics"
+  },
+  {
+    "name": "Fragrance Accord Theory of Musical Harmony",
+    "core_claim": "Musical harmony operates through perfumery accord logic: individual notes (tones) combine not by addition but by mutual modification, creating emergent percepts (chords, timbres) that are irreducible to their components. Dissonance is not the presence of 'wrong' notes but the failure of notes to achieve olfactory-style fusion — they remain perceptually separable rather than merging into a unified accord. The perfumer's triangle (top-heart-base) maps to the orchestrator's frequency allocation (brilliance-body-warmth), and both domains discover that the most memorable compositions use exactly three distinct perceptual layers.",
+    "mechanism_borrowed_from": "fragrance-accord-balance",
+    "domain_applied_to": "music theory",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Fragrance Accord Balance (Perfumery)",
+    "source_b": "Fourier Decomposition of Sound"
+  },
+  {
+    "name": "Wafer Lock Tolerance Theory of Software Vulnerability",
+    "core_claim": "Software vulnerabilities are wafer lock tolerance exploits: security mechanisms with loose tolerances (permissive input validation, broad type coercion, generous timeout windows) can be bypassed by 'jiggling and raking' — fuzzing, parameter manipulation, and timing attacks that exploit the gap between the intended key and the range of inputs the lock actually accepts. Tight-tolerance software (strict typing, narrow validation, precise timing checks) resists these attacks but is harder to use (like a tight lock requiring a precisely cut key). The security-usability trade-off is fundamentally a tolerance specification problem.",
+    "mechanism_borrowed_from": "wafer-lock-tolerance",
+    "domain_applied_to": "computer science",
+    "viability": "promising",
+    "confidence": 0.80,
+    "source_a": "Wafer Lock Tolerance Exploitation (Lock-picking)",
+    "source_b": "RSA Cryptosystem"
+  }
+]

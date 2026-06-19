@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Gresham's Law Theory of Content Platform Degradation",
+    "core_claim": "Online content platforms degrade through Gresham's Law dynamics: low-effort content (bad money) drives out high-effort content (good money) because the platform's engagement currency values both equally. When algorithmic feeds reward clickbait and thoughtful analysis with the same unit of attention, creators rationally switch to producing cheap content, and quality creators exit the platform just as holders of full-weight coins hoarded them when debased coins circulated at par. Platform health requires a dual-currency system that distinguishes engagement types.",
+    "mechanism_borrowed_from": "greshams-law-debasement",
+    "domain_applied_to": "information retrieval",
+    "viability": "promising",
+    "confidence": 0.72,
+    "source_a": "Gresham's Law / Debasement (Numismatics)",
+    "source_b": "PageRank"
+  },
+  {
+    "name": "Phoneme Neutralization Theory of Brand Differentiation Collapse",
+    "core_claim": "Competing brands in mature markets undergo phoneme neutralization: distinctive brand identities (phonemic contrasts) merge into a single undifferentiated perception in the consumer's mind, just as phonemic contrasts neutralize in unstressed positions in language. Market saturation acts as the unstressed environment — when consumers pay less attention (reduced cognitive stress on the 'syllable'), brand distinctions that were once salient collapse into a single category. Brands must occupy 'stressed positions' (high-salience moments) to maintain differentiation.",
+    "mechanism_borrowed_from": "phoneme-neutralization",
+    "domain_applied_to": "marketing",
+    "viability": "speculative",
+    "confidence": 0.48,
+    "source_a": "Phoneme Neutralization (Phonology)",
+    "source_b": "Viral Marketing"
+  },
+  {
+    "name": "Intercropping Complementarity Theory of Research Team Composition",
+    "core_claim": "Research teams achieve maximum output through intercropping complementarity: pairing disciplines that occupy different cognitive 'root zones' (theoretical depth vs. empirical breadth) and different 'canopy layers' (abstract vs. applied) allows the team to extract more from the intellectual resource space than monoculture teams. The land-equivalent ratio (LER) of interdisciplinary teams exceeds 1.0 when disciplines are complementary, meaning the combined output exceeds what the same researchers would produce in separate disciplinary teams. Allelopathic effects (disciplinary hostility) reduce LER below 1.0.",
+    "mechanism_borrowed_from": "intercropping-complementarity",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.61,
+    "source_a": "Intercropping Complementarity (Agroecology)",
+    "source_b": "Kuhnian Paradigm Shifts"
+  },
+  {
+    "name": "Fitts's Law Theory of Social Media Engagement",
+    "core_claim": "Social media engagement follows Fitts's Law: the probability of a user interacting with content is a function of the content's 'size' (emotional salience, visual prominence) and 'distance' (scroll position, number of clicks to reach). The information capacity of a social media feed — measured in bits per scroll — is bounded by the same index of difficulty that constrains motor targeting. Platforms that reduce distance (algorithmic surfacing) or increase target size (emotional amplification) are performing Fitts's Law optimization, often at the cost of user wellbeing.",
+    "mechanism_borrowed_from": "fitts-law-targeting",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Fitts's Law Targeting (Ergonomics)",
+    "source_b": "Nudge / Choice Architecture"
+  },
+  {
+    "name": "Malolactic Fermentation Theory of Grief Processing",
+    "core_claim": "Grief processing undergoes a malolactic-like secondary fermentation: the initial loss produces sharp, acidic malic-acid grief (acute anguish, denial, anger), which must undergo a secondary bacterial conversion into softer lactic-acid grief (acceptance, meaning-making) for the emotional product to become stable and integrated. Complicated grief occurs when the secondary fermentation stalls — the emotional 'wine' remains harsh and unstable. Therapeutic interventions act as inoculation with the appropriate bacterial culture, initiating the conversion that the psyche cannot spontaneously begin.",
+    "mechanism_borrowed_from": "malolactic-fermentation-shift",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.51,
+    "source_a": "Malolactic Fermentation Shift (Enology)",
+    "source_b": "Grief / Loss Processing"
+  },
+  {
+    "name": "Key Bitting Combinatorial Theory of Password Security",
+    "core_claim": "Password security policy should be redesigned using key bitting combinatorial analysis: just as a lock's security depends not on key length alone but on the number of effective differs (meaningful depth variations per pin position), password strength depends on the number of character positions that actually vary across a user's password corpus. Most users have low effective differs — they reuse structural patterns across passwords, reducing the combinatorial space far below the theoretical maximum. Security audits should measure effective differs rather than raw entropy.",
+    "mechanism_borrowed_from": "key-bitting-combinatorial-space",
+    "domain_applied_to": "cryptography",
+    "viability": "promising",
+    "confidence": 0.68,
+    "source_a": "Key Bitting Combinatorial Space (Lock-Picking)",
+    "source_b": "Symmetric Cipher"
+  },
+  {
+    "name": "Brood Cycle Regulation Theory of Agile Sprint Planning",
+    "core_claim": "Agile software development sprints should follow honeybee brood cycle regulation: the queen's egg-laying rate (product backlog input) must be calibrated to the colony's nursing capacity (developer bandwidth), and the 21-day brood cycle provides a natural sprint cadence. Overloading the brood nest (sprint overcommitment) produces neglected larvae (half-finished features) that consume resources without contributing to colony fitness. The colony's ability to thermoregulate the brood nest (maintain consistent development environment) is the critical constraint that most sprint planning ignores.",
+    "mechanism_borrowed_from": "brood-cycle-regulation",
+    "domain_applied_to": "operations research",
+    "viability": "promising",
+    "confidence": 0.60,
+    "source_a": "Brood Cycle Regulation (Beekeeping)",
+    "source_b": "Vehicle Routing Problem"
+  },
+  {
+    "name": "Alarm Fatigue Theory of Prophetic Desensitization",
+    "core_claim": "Religious communities experience alarm fatigue toward prophetic warnings: when prophetic voices (alarm systems) generate too many urgent signals without corresponding crises (false alarms), the community habituates and begins ignoring all prophetic input. The alarm fatigue curve from ergonomics — where response probability drops exponentially with alarm frequency — maps precisely onto the historical observation that prophetic traditions lose efficacy in proportion to how frequently they predict imminent divine intervention. Effective prophetic traditions self-regulate alarm frequency to maintain response sensitivity.",
+    "mechanism_borrowed_from": "alarm-fatigue-habituation",
+    "domain_applied_to": "theology",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Alarm Fatigue Habituation (Ergonomics)",
+    "source_b": "Apophatic Theology"
+  },
+  {
+    "name": "Cartographic Generalization Theory of Scientific Modeling",
+    "core_claim": "All scientific models are cartographic generalizations: they must simplify (remove detail below a resolution threshold), smooth (eliminate noise), aggregate (merge similar entities), and exaggerate (amplify small but important features) in order to represent reality at a usable scale. The cartographic paradox — that a perfectly accurate map at 1:1 scale is useless — is identical to the modeling paradox that a simulation as complex as reality provides no explanatory leverage. The quality of a scientific model should be evaluated using the same criteria cartographers use: fitness for purpose at the intended scale of use.",
+    "mechanism_borrowed_from": "cartographic-generalization",
+    "domain_applied_to": "philosophy of science",
+    "viability": "promising",
+    "confidence": 0.73,
+    "source_a": "Cartographic Generalization",
+    "source_b": "Minimum Description Length"
+  },
+  {
+    "name": "Common Mycorrhizal Network Theory of Academic Citation",
+    "core_claim": "Academic citation networks function as common mycorrhizal networks: highly cited papers are 'mother trees' that redistribute intellectual resources (attention, credibility) to younger papers through citation connections. The mycorrhizal network preferentially channels resources toward kin (same-paradigm papers) and can be parasitized by mycoheterotrophic papers that extract citations without contributing original findings. Network disruption (paradigm shift, retraction of a hub paper) severs the common network, starving dependent papers of the citation flow they require to remain visible.",
+    "mechanism_borrowed_from": "common-mycorrhizal-network",
+    "domain_applied_to": "network science",
+    "viability": "promising",
+    "confidence": 0.65,
+    "source_a": "Common Mycorrhizal Network",
+    "source_b": "Preferential Attachment"
+  },
+  {
+    "name": "Creep Rupture Theory of Institutional Corruption",
+    "core_claim": "Institutional corruption follows creep rupture dynamics: under sustained low-level stress (lobbying pressure, revolving-door incentives), institutional integrity slowly deforms over time even at stress levels well below the yield point. The Larson-Miller parameter — combining temperature (political heat) and time (duration of pressure) — predicts when rupture will occur. Institutions that appear structurally sound can be deep into tertiary creep (accelerating deformation) with rupture imminent, explaining why corruption scandals seem to emerge suddenly from previously trusted institutions.",
+    "mechanism_borrowed_from": "creep-rupture-larson-miller",
+    "domain_applied_to": "jurisprudence",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Creep Rupture / Larson-Miller Parameter",
+    "source_b": "Legal Positivism"
+  },
+  {
+    "name": "Formulaic Speech Preservation Theory of Constitutional Interpretation",
+    "core_claim": "Constitutional phrases survive centuries of interpretive drift because they function as oral-formulaic speech: 'due process,' 'equal protection,' and 'cruel and unusual' are formulaic epithets whose meaning is preserved not by semantic precision but by their rhythmic and syntactic position within the constitutional 'song.' Originalist and living-constitution debates are the legal equivalent of the Homeric Question — whether the formulae carry fixed meaning from their composition or accumulate new meaning with each performance (judicial application).",
+    "mechanism_borrowed_from": "formulaic-speech-preservation",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.54,
+    "source_a": "Formulaic Speech Preservation (Oral Tradition)",
+    "source_b": "Common Law Precedent"
+  },
+  {
+    "name": "Iceberg Calving Theory of Organizational Layoffs",
+    "core_claim": "Corporate layoffs follow iceberg calving threshold dynamics: the 'ice shelf' of the workforce accumulates internal stress (misalignment between employee skills and market demands) until a calving threshold is reached, at which point large blocks of employees detach catastrophically. The calving rate accelerates non-linearly as the shelf thins (profit margins shrink), and each calving event further weakens the shelf edge, making subsequent layoffs more likely — the corporate analogue of how calving exposes new ice faces to warm water. Buyouts and hiring freezes are analogous to surface-melt strategies that reduce shelf mass gradually rather than through catastrophic calving.",
+    "mechanism_borrowed_from": "iceberg-calving-threshold",
+    "domain_applied_to": "business strategy",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Iceberg Calving Threshold (Glaciology)",
+    "source_b": "Disruptive Innovation"
+  },
+  {
+    "name": "Pyrotechnic Color Chemistry Theory of Emotional Expression in Art",
+    "core_claim": "The emotional palette available to an artist is constrained by the same principles as pyrotechnic color chemistry: each emotional 'color' requires a specific combination of experiential 'metal salts' (lived experience = strontium for red, barium for green) and technical 'oxidizers' (craft mastery that allows combustion of raw experience into visible light). Artists who lack either the right experiential compounds or sufficient technical oxidizer produce dim, muddy emotional colors. The tradeoff between color purity and brightness in pyrotechnics mirrors the art-world tension between emotional specificity and broad accessibility.",
+    "mechanism_borrowed_from": "pyrotechnic-color-chemistry",
+    "domain_applied_to": "aesthetics",
+    "viability": "speculative",
+    "confidence": 0.43,
+    "source_a": "Pyrotechnic Color Chemistry",
+    "source_b": "Institutional Art Theory"
+  },
+  {
+    "name": "Angiogenic Sprouting Theory of Startup Ecosystem Growth",
+    "core_claim": "Startup ecosystems grow through angiogenic sprouting: established companies (existing blood vessels) sprout new ventures (capillary buds) in response to VEGF-like signals (market opportunity gradients). Tip cells (founding entrepreneurs) navigate toward the opportunity source while stalk cells (early employees) proliferate to extend the vessel. The ecosystem matures when anastomosis occurs — competing startup sprouts connect to form a perfused network. Ecosystem failure mirrors tumor angiogenesis gone wrong: excessive sprouting without anastomosis produces a chaotic, non-functional vessel network that wastes capital without delivering nutrients to viable tissue.",
+    "mechanism_borrowed_from": "angiogenic-sprouting-gradient",
+    "domain_applied_to": "economics",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Angiogenic Sprouting Gradient (Wound Healing)",
+    "source_b": "Experience Curve"
+  }
+]

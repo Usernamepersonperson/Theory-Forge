@@ -1,0 +1,82 @@
+{
+  "name": "Edaphic Trophic Cascade",
+  "rank": 23,
+  "confidence": 0.82,
+  "source_a": "Trophic Cascade",
+  "source_b": "Soil Food Web",
+  "mechanism_borrowed_from": "trophic-cascade",
+  "domain_applied_to": "soil-science",
+  "executive_summary": "Edaphic Trophic Cascade (ETC) theory extends the well-established trophic cascade framework from aquatic and terrestrial above-ground ecosystems into the soil food web, with a critical twist: the cascade does not merely alter population sizes of organisms at successive trophic levels but restructures the physical soil matrix itself. When top soil predators (predatory nematodes, predatory mites, centipedes) are removed or suppressed, the microbial and microfauna populations they regulated undergo blooms. These blooms alter soil aggregate stability, pore architecture, water infiltration rates, and carbon sequestration capacity in ways that feed back into the food web, creating a coupled biological-physical cascade.\n\nThe theory's central claim is that soil structure is not merely a backdrop against which soil biology plays out — it is a trophic-cascade endpoint. A predatory nematode does not simply reduce bacterial populations; it maintains the bacterial population at a density that produces optimal biofilm formation, which in turn creates the glues (extracellular polymeric substances) that stabilize soil aggregates. Remove the predator, and bacterial blooms shift from biofilm-forming to planktonic growth, destabilizing aggregates and collapsing macropore networks. The physical soil degradation then feeds back to reduce habitat quality for the remaining food web, creating a self-reinforcing degradation spiral.\n\nETC reframes soil management around predator conservation rather than prey (microbial) inoculation. The widespread agricultural practice of fumigation, tillage, and broad-spectrum pesticide application preferentially eliminates higher trophic levels (which recover more slowly and have lower reproductive rates), triggering exactly the cascade the theory predicts. ETC suggests that restoring soil health requires rebuilding predator guilds from the top down, not microbiome supplementation from the bottom up — a reversal of current soil health orthodoxy that has significant implications for regenerative agriculture.",
+  "mapped_components": {
+    "unit": "A trophic-level guild within the soil food web: top predators (predatory nematodes, mesostigmatid mites), intermediate consumers (fungivorous and bacterivorous nematodes, collembolans), primary decomposers (bacteria, fungi), and the soil physical matrix (aggregates, pores, organic matter structures). Each guild's population density and activity rate constitutes a state variable.",
+    "variation": "Perturbations to predator guild density — from tillage, fumigation, pesticide application, drought, or deliberate introduction. The intensity and selectivity of the perturbation determines which trophic levels are affected and the magnitude of the resulting cascade.",
+    "selection": "Soil physical structure acts as the ultimate selective environment. Cascade-induced changes in aggregate stability, pore connectivity, and water holding capacity determine which organisms can persist and reproduce in the altered habitat. Organisms that can tolerate the degraded physical environment are selected; those that require intact macropore networks or stable aggregate surfaces are eliminated.",
+    "fitness": "Soil functional capacity: the integrated ability of the soil to support plant growth, infiltrate water, sequester carbon, and cycle nutrients. High fitness corresponds to a food web with intact predator regulation maintaining microbial populations in the biofilm-forming, aggregate-stabilizing mode. Low fitness is the degradation spiral where predator loss triggers aggregate collapse.",
+    "boundary": "The theory applies to soils with established food webs containing at least three trophic levels. It does not apply to recently formed soils (volcanic deposits, mine tailings) lacking established food webs, or to permanently waterlogged soils where anaerobic conditions suppress predatory nematodes and mites."
+  },
+  "falsifiable_predictions": [
+    "Selective removal of top soil predators (predatory nematodes and mites) via targeted biocides will reduce soil aggregate stability by more than 30% within 6 months, even when total microbial biomass increases — because the cascade shifts microbial growth from biofilm to planktonic mode.",
+    "Soil macroporosity (pores > 75 micrometers) will correlate more strongly with predatory nematode density than with total microbial biomass, because predator regulation maintains the burrowing and aggregation activities that create macropores.",
+    "Reintroduction of predatory nematodes into fumigated soils will restore aggregate stability faster than microbial inoculation alone, because top-down regulation restores the biofilm-forming microbial growth mode that bottom-up supplementation does not.",
+    "Agricultural fields under no-till management will show higher predatory nematode-to-bacterivorous nematode ratios and correspondingly higher aggregate stability than tilled fields, with the nematode ratio being a better predictor of aggregate stability than total organic carbon content.",
+    "The cascade propagation speed (time from predator removal to measurable aggregate stability decline) will decrease with soil temperature, because higher temperatures accelerate microbial growth rates and thus the bloom phase of the cascade.",
+    "Soils with higher trophic chain length (four trophic levels vs. three) will exhibit larger amplitude oscillations in aggregate stability following perturbation, consistent with the trophic cascade prediction that longer food chains amplify indirect effects."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Wardle et al. (2004) demonstrated that below-ground food web composition drives above-ground ecosystem properties including litter decomposition, nutrient cycling, and plant community composition, establishing that soil trophic interactions have ecosystem-level consequences beyond population regulation.",
+      "relevance": "Validates the premise that soil food web dynamics have consequences extending beyond organism populations to ecosystem-level properties. ETC extends this to include soil physical structure as a cascade endpoint.",
+      "source": "Wardle, D.A., Bardgett, R.D., Klironomos, J.N., et al. (2004). Ecological linkages between aboveground and belowground biota. Science, 304(5677), 1629-1633."
+    },
+    {
+      "finding": "Six et al. (2004) showed that soil aggregate formation and stability are strongly mediated by microbial extracellular polymeric substances (EPS) and fungal hyphae, with the mode of microbial growth (biofilm vs. planktonic) determining the quantity and quality of aggregate-binding compounds produced.",
+      "relevance": "Provides the mechanistic link between microbial population dynamics and soil physical structure that ETC requires. If predator removal shifts microbes from biofilm to planktonic growth, the EPS production pathway that stabilizes aggregates is disrupted.",
+      "source": "Six, J., Bossuyt, H., Degryze, S., & Denef, K. (2004). A history of research on the link between (micro)aggregates, soil biota, and soil organic matter dynamics. Soil & Tillage Research, 79(1), 7-31."
+    },
+    {
+      "finding": "Ferris et al. (2001) developed the Nematode Maturity Index as a soil health indicator, showing that the ratio of higher-trophic-level nematodes (predators, omnivores) to lower-trophic-level nematodes (bacterivores, fungivores) is a sensitive and reliable indicator of soil ecosystem condition and disturbance history.",
+      "relevance": "Empirically supports ETC's claim that predator guild status is a better indicator of soil health than total microbial biomass. The Maturity Index essentially measures the intactness of the trophic structure that ETC predicts drives soil physical condition.",
+      "source": "Ferris, H., Bongers, T., & de Goede, R.G.M. (2001). A framework for soil food web diagnostics: extension of the nematode faunal analysis concept. Applied Soil Ecology, 18(1), 13-29."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Selective Predator Removal Mesocosm Experiment",
+      "description": "Establish replicated soil mesocosms with intact soil food webs and selectively remove predatory nematodes using targeted biocide (avermectin at sub-lethal concentrations for lower trophic levels), then monitor both biological cascade and soil physical property changes over 12 months.",
+      "method": "Set up 40 mesocosms (20 treatment, 20 control) with field-collected intact soil cores (30 cm diameter, 40 cm depth). Apply avermectin at concentrations shown to suppress predatory nematodes while leaving bacterivorous nematodes largely unaffected. Monthly monitoring: nematode community composition (trophic groups via morphological ID), bacterial biomass and growth mode (biofilm vs. planktonic via crystal violet staining), aggregate stability (wet sieving), macroporosity (X-ray CT), and water infiltration rate (disc permeameter). Include a third treatment: predator removal + microbial inoculation, to test whether bottom-up supplementation compensates for top-down loss.",
+      "expected_results": "Predator-removal mesocosms will show: 50-200% increase in bacterivorous nematode density within 2 months, shift from biofilm to planktonic bacterial growth mode within 3 months, 25-40% decline in aggregate stability within 6 months, and 30-50% reduction in macroporosity within 9 months. Microbial inoculation will not prevent the aggregate stability decline because it does not restore top-down regulation of bacterial growth mode."
+    },
+    {
+      "title": "Field Comparison Along Tillage Intensity Gradient",
+      "description": "Sample soils along a tillage intensity gradient (conventional tillage, reduced tillage, no-till, long-term grassland) on the same soil type and parent material, measuring both food web trophic structure and soil physical properties to test the predicted correlation between predator guild intactness and soil structure.",
+      "method": "Identify 5+ farm sites on the same soil series with documented tillage histories spanning 10+ years. At each site, collect samples from three landscape positions (summit, backslope, toeslope) to control for topographic effects. Measure: complete nematode community trophic structure (100+ individuals per sample), aggregate stability (0-5 cm and 5-15 cm depths), bulk density, saturated hydraulic conductivity, and total organic carbon. Use structural equation modeling to test whether predatory nematode density has a direct path to aggregate stability independent of organic carbon content.",
+      "expected_results": "Structural equation modeling will reveal a significant direct path from predatory nematode density to aggregate stability (standardized path coefficient > 0.3, p < 0.01) that is independent of the organic carbon pathway, supporting ETC's claim that top-down trophic regulation affects soil structure through mechanisms beyond organic matter accumulation."
+    }
+  ],
+  "limitations": [
+    "The theory posits a clean three-to-four-level trophic cascade, but real soil food webs are highly omnivorous — many organisms feed at multiple trophic levels simultaneously. This omnivory may dampen cascade effects relative to the theory's predictions.",
+    "Separating the effects of predator loss on microbial growth mode from the direct physical effects of the perturbation that removed the predators (e.g., tillage physically breaks aggregates regardless of biological cascades) is experimentally challenging. ETC's biological cascade may be a secondary effect riding on top of primary physical disruption.",
+    "The biofilm-to-planktonic growth mode shift is proposed as the key mechanistic link, but microbial communities are enormously diverse and may not shift uniformly. Some bacterial taxa may maintain biofilm formation even without predator pressure, weakening the cascade's structural endpoint.",
+    "Temporal scales are uncertain. Above-ground trophic cascades in lakes and forests propagate over months to years. Soil cascades involving aggregate destabilization may take years to decades, making them difficult to study experimentally and easy to confound with other slow-changing variables."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Bayesian Soil Contamination Inference",
+      "relationship": "Both address soil systems but from different angles. ETC provides the biological mechanism driving soil structural change, while BSCI provides the statistical framework for detecting and mapping soil property changes. Combined, they could enable Bayesian inference about food web disruption from physical soil measurements."
+    },
+    {
+      "framework": "Nutrient-Desert Predation Architecture",
+      "relationship": "Shares the theme of predator regulation driving system-level structural outcomes. NDPA examines how predator distribution shapes nutrient flow landscapes; ETC examines how predator presence shapes the physical soil matrix."
+    },
+    {
+      "framework": "Symbiotic Resilience Theory",
+      "relationship": "Both address how biological relationships maintain system integrity. SRT focuses on mutualistic relationships; ETC focuses on predator-prey relationships. Together they describe complementary mechanisms (mutualism and predation) through which biological interactions sustain physical infrastructure."
+    }
+  ],
+  "potential_applications": [
+    "Regenerative agriculture protocol design: Replace the current emphasis on microbial inoculants with predator guild restoration protocols — introducing predatory nematodes and mites as the primary intervention for degraded soils, with microbial supplementation as a supporting measure.",
+    "Soil health diagnostic tool: Develop a rapid nematode trophic structure assay (using eDNA metabarcoding of predator guilds) as a leading indicator of soil structural decline, enabling intervention before physical degradation becomes measurable by conventional tests.",
+    "Pesticide risk assessment reform: Current pesticide risk assessments focus on direct toxicity to target and non-target organisms. ETC argues that assessments should model the trophic cascade consequences of predator suppression on soil physical properties, adding a structural degradation pathway to the risk calculus.",
+    "Carbon sequestration strategy: If predator-mediated aggregate stability is a primary mechanism of soil organic carbon protection, then carbon sequestration programs should prioritize food web integrity over carbon input rates — a testable reframing with major policy implications."
+  ]
+}

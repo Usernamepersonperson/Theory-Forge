@@ -117,6 +117,7 @@
 <header>
   <h1>Theory <span>Forge</span></h1>
   <span class="version">v0.4</span>
+  <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
 
@@ -139,6 +140,7 @@
       <datalist id="domains"></datalist>
       <button id="go">collide domains</button>
       <button id="surprise">surprise me</button>
+      <button id="explore-gap" title="Collide an unexplored domain pair">explore gap</button>
       <label class="toggle"><input type="checkbox" id="novel" checked> novel only</label>
       <div class="search-box">
         <input id="search-input" class="sm" placeholder="search frameworks..." style="min-width:200px">
@@ -146,6 +148,7 @@
       </div>
     </div>
     <div id="result"></div>
+    <div id="spotlight" style="margin-top:20px"></div>
     <h3 style="margin-top:32px; color:var(--mut); font-size:13px;">top candidate cross-domain pairs</h3>
     <div id="pairs"></div>
   </div>
@@ -301,6 +304,16 @@ $('surprise').onclick = async () => {
 
 $('novel').onchange = loadPairs;
 
+$('explore-gap').onclick = async () => {
+  const r = await fetch('/gaps?limit=30');
+  const gaps = await r.json();
+  if (!gaps.length) { render({error:'no unexplored gaps found'}); return; }
+  const pick = gaps[Math.floor(Math.random() * Math.min(gaps.length, 15))];
+  $('da').value = pick.domain_a;
+  $('db').value = pick.domain_b;
+  post('/collide_domains', { domain_a: pick.domain_a, domain_b: pick.domain_b, novel_only: true });
+};
+
 // Search
 let searchTimeout;
 $('search-input').oninput = () => {
@@ -319,6 +332,23 @@ $('search-input').oninput = () => {
         </div>`).join('');
     }
     $('search-results').classList.add('open');
+    document.querySelectorAll('.search-hit').forEach(el => {
+      el.onclick = () => {
+        $('search-results').classList.remove('open');
+        $('search-input').value = '';
+        $('result').innerHTML = '';
+        const fw = hits.find(h => h.name === el.dataset.name);
+        if (fw) {
+          $('result').innerHTML = `<div class="card">
+            <p class="name">${esc(fw.name||'?')} ${viabilityBadge(fw.viability)}</p>
+            <p class="meta">confidence <strong>${(fw.confidence||0).toFixed(2)}</strong>
+              &middot; ${esc(fw.source_a||'')} &times; ${esc(fw.source_b||'')}
+              &middot; ${esc(fw._batch||'')}</p>
+            <pre>${esc(fmt(fw))}</pre>
+          </div>`;
+        }
+      };
+    });
   }, 300);
 };
 $('search-input').onblur = () => setTimeout(() => $('search-results').classList.remove('open'), 200);
@@ -352,15 +382,20 @@ $('batch-go').onclick = async () => {
 };
 
 // Rankings
-async function loadRankings() {
+let rankOffset = 0;
+const RANK_PAGE = 50;
+async function loadRankings(append) {
+  if (!append) { rankOffset = 0; $('rank-result').innerHTML = ''; }
   const min = $('rank-min').value;
   const domain = $('rank-domain').value.trim();
-  let url = `/rankings?limit=50&min_confidence=${min}`;
+  let url = `/rankings?limit=${RANK_PAGE}&offset=${rankOffset}&min_confidence=${min}`;
   if (domain) url += `&domain=${encodeURIComponent(domain)}`;
   const r = await fetch(url);
   const data = await r.json();
-  if (!data.length) { $('rank-result').innerHTML = '<div class="card meta">no frameworks match filters.</div>'; return; }
-  $('rank-result').innerHTML = data.map((fw, i) => `
+  if (!data.length && !append) { $('rank-result').innerHTML = '<div class="card meta">no frameworks match filters.</div>'; return; }
+  const existing = $('rank-result').querySelector('.rank-more');
+  if (existing) existing.remove();
+  $('rank-result').innerHTML += data.map((fw, i) => `
     <div class="rank-item" onclick="toggleExpand(this)">
       <span class="conf">${(fw.confidence || 0).toFixed(2)}</span>
       ${viabilityBadge(fw.viability)}
@@ -372,8 +407,12 @@ async function loadRankings() {
       </div>
     </div>
   `).join('');
+  rankOffset += data.length;
+  if (data.length === RANK_PAGE) {
+    $('rank-result').innerHTML += '<button class="rank-more" onclick="loadRankings(true)" style="margin:12px 0;width:100%">load more</button>';
+  }
 }
-$('rank-go').onclick = loadRankings;
+$('rank-go').onclick = () => loadRankings(false);
 
 // Deep Dives
 async function loadDeepDives() {
@@ -584,8 +623,35 @@ async function loadTheories() {
 }
 $('theory-go').onclick = loadTheories;
 
+async function loadSpotlight() {
+  try {
+    const r = await fetch('/rankings?limit=20&min_confidence=0.78');
+    const fws = await r.json();
+    if (!fws.length) return;
+    const pick = fws[Math.floor(Math.random() * fws.length)];
+    $('spotlight').innerHTML = `
+      <div class="card" style="border-color:var(--acc);border-style:dashed">
+        <div style="font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">spotlight framework</div>
+        <p class="name">${esc(pick.name||'?')} ${viabilityBadge(pick.viability)}</p>
+        <p class="meta">confidence <strong>${(pick.confidence||0).toFixed(2)}</strong>
+          &middot; ${esc(pick.mechanism_borrowed_from||'')} &rarr; ${esc(pick.domain_applied_to||'')}</p>
+        <p style="font-size:13px;margin:8px 0 0;line-height:1.5">${esc(pick.core_claim||'')}</p>
+      </div>`;
+  } catch(e) {}
+}
+
+async function loadHeaderStats() {
+  try {
+    const r = await fetch('/stats');
+    const s = await r.json();
+    $('header-stats').textContent = `${s.theory_count} theories · ${s.domain_count} domains · ${s.total_frameworks} frameworks`;
+  } catch(e) {}
+}
+
 loadDomains();
 loadPairs();
+loadHeaderStats();
+loadSpotlight();
 </script>
 </body>
 </html>

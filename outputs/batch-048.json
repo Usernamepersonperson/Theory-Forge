@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Fixative Evaporation Cascade Theory of Institutional Memory Loss",
+    "core_claim": "Institutional memory evaporates in a three-stage cascade identical to perfume evaporation: top notes (recent procedural knowledge) vanish within months of employee turnover, heart notes (organizational culture, tacit norms) fade over 2-5 years, and base notes (founding values, origin myths) persist for decades but become unrecognizable without the heart notes to contextualize them. Organizations that invest only in documentation preserve top notes while neglecting the heart-note knowledge that gives documentation meaning.",
+    "mechanism_borrowed_from": "fixative-evaporation-cascade",
+    "domain_applied_to": "archival science",
+    "viability": "promising",
+    "confidence": 0.59,
+    "source_a": "Fixative Evaporation Cascade (Perfumery)",
+    "source_b": "Digital Format Obsolescence"
+  },
+  {
+    "name": "Adhesive Wear Theory of Democratic Norm Erosion",
+    "core_claim": "Democratic norms erode through Archard's adhesive wear law: the volume of institutional material removed is proportional to the sliding distance (duration of political contact), the normal load (intensity of partisan pressure), and inversely proportional to the hardness of the institution. Each norm violation transfers a small particle of institutional legitimacy from the public body to the violating actor. The wear coefficient K — determined by institutional design — predicts whether a democracy experiences mild polishing (healthy adversarialism) or severe galling (institutional seizure).",
+    "mechanism_borrowed_from": "adhesive-wear-archard",
+    "domain_applied_to": "jurisprudence",
+    "viability": "speculative",
+    "confidence": 0.52,
+    "source_a": "Adhesive Wear / Archard's Law",
+    "source_b": "Natural Law Jurisprudence"
+  },
+  {
+    "name": "Contact Improvisation Theory of Negotiation",
+    "core_claim": "Successful negotiation follows the dynamics of contact improvisation dance: both parties must continuously share and receive weight (concessions) through a point of contact (the negotiating table), and the negotiation 'dance' proceeds only when both partners maintain the contact point while shifting weight. Stalemate occurs when one party refuses to receive weight (accept any concession as meaningful), and collapse occurs when both parties lean in simultaneously without a stable base — the negotiation equivalent of two dancers falling because neither maintained structural support.",
+    "mechanism_borrowed_from": "contact-improvisation-weight-sharing",
+    "domain_applied_to": "game theory",
+    "viability": "promising",
+    "confidence": 0.62,
+    "source_a": "Contact Improvisation Weight Sharing",
+    "source_b": "Nash Equilibrium"
+  },
+  {
+    "name": "Bragg Diffraction Theory of Cultural Pattern Recognition",
+    "core_claim": "Cross-cultural understanding operates through Bragg diffraction: cultural practices form a periodic lattice, and an observer can only perceive the underlying structure when their interpretive 'wavelength' (conceptual framework) satisfies the Bragg condition for that lattice spacing. Misunderstanding occurs when the observer's framework wavelength produces no constructive interference — the culture appears amorphous. Anthropological training works by providing observers with a tunable wavelength source (multiple theoretical frameworks) that can be adjusted to diffract off different cultural lattice spacings.",
+    "mechanism_borrowed_from": "bragg-diffraction",
+    "domain_applied_to": "anthropology",
+    "viability": "speculative",
+    "confidence": 0.44,
+    "source_a": "Bragg Diffraction (Crystallography)",
+    "source_b": "Structural Anthropology"
+  },
+  {
+    "name": "Acid Paper Degradation Theory of Oral Tradition Decline",
+    "core_claim": "Oral traditions degrade following the same autocatalytic kinetics as acid paper degradation: each retelling introduces hydrolytic 'acid' (reinterpretation, simplification) that weakens the narrative cellulose, and the degradation products themselves catalyze further degradation. The preservation half-life of an oral tradition depends on its initial 'alkaline reserve' — the redundancy of mnemonic devices, formulaic phrases, and ritual contexts that buffer against retelling-induced acidity. Traditions in societies with strong ritual scaffolding (high alkaline reserve) survive millennia; those in rapidly modernizing contexts (acid environments) crumble within generations.",
+    "mechanism_borrowed_from": "acid-paper-degradation-curve",
+    "domain_applied_to": "oral tradition studies",
+    "viability": "promising",
+    "confidence": 0.58,
+    "source_a": "Acid Paper Degradation Curve",
+    "source_b": "Serial Reproduction Drift"
+  },
+  {
+    "name": "Coriolis Effect Theory of Organizational Spin",
+    "core_claim": "Large organizations deflect initiatives from their intended trajectories through a Coriolis-like effect: the 'rotation' of bureaucratic hierarchy means that a project launched straight toward a goal from any non-central position curves systematically — rightward in corporate cultures (toward revenue) and leftward in governmental ones (toward compliance). The magnitude of deflection increases with organizational latitude (distance from the power center) and initiative velocity (speed of implementation). Only projects launched from the organizational equator (C-suite) travel in straight lines.",
+    "mechanism_borrowed_from": "coriolis-cyclone-formation",
+    "domain_applied_to": "operations research",
+    "viability": "speculative",
+    "confidence": 0.49,
+    "source_a": "Coriolis Cyclone Formation",
+    "source_b": "Vehicle Routing Problem"
+  },
+  {
+    "name": "Seigniorage Extraction Theory of Platform Economics",
+    "core_claim": "Digital platform companies extract seigniorage from their user bases exactly as medieval mints extracted seigniorage from coinage: the platform creates a 'currency' (likes, followers, reputation points) at near-zero marginal cost, charges a transaction tax on exchanges conducted in that currency (algorithmic feed manipulation = debasement), and profits from the spread between the face value users assign to platform tokens and the production cost. Platform enshittification is gradual debasement — reducing the precious-metal content of each token while maintaining its nominal value.",
+    "mechanism_borrowed_from": "seigniorage-extraction",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.71,
+    "source_a": "Seigniorage Extraction (Numismatics)",
+    "source_b": "Hyperbolic Discounting"
+  },
+  {
+    "name": "Felting Fiber Entanglement Theory of Conspiracy Formation",
+    "core_claim": "Conspiracy theories form through felting dynamics: individual claims (fibers) become entangled through repeated agitation (social media sharing), heat (emotional arousal), and moisture (ambient uncertainty). Once felted, the conspiracy becomes structurally self-reinforcing — individual fibers cannot be extracted without destroying the fabric. The irreversibility of felting explains why debunking individual claims fails: the entanglement is a bulk property of the felt, not a property of any single fiber. Prevention requires intervening before the felting point, after which the structure is permanent.",
+    "mechanism_borrowed_from": "felting-fiber-entanglement",
+    "domain_applied_to": "epistemology",
+    "viability": "promising",
+    "confidence": 0.64,
+    "source_a": "Felting Fiber Entanglement (Textiles)",
+    "source_b": "Memetics"
+  },
+  {
+    "name": "Dam Overtopping Cascade Theory of Emotional Flooding",
+    "core_claim": "Emotional flooding in interpersonal conflict follows dam overtopping cascade dynamics: emotional regulation acts as a dam holding back accumulated grievances (reservoir), and once the water level exceeds the dam crest (emotional capacity), flow increases catastrophically because overtopping erodes the dam itself, increasing flow further. The cascade is self-amplifying — each moment of lost regulation reduces regulatory capacity. Gottman's 'flooding' threshold in marital research corresponds precisely to the overtopping initiation point, and the 20-minute cool-down period he prescribes maps to the time required for reservoir drawdown below crest level.",
+    "mechanism_borrowed_from": "dam-overtopping-cascade",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.67,
+    "source_a": "Dam Overtopping Cascade (Hydraulic Engineering)",
+    "source_b": "Operant Conditioning"
+  },
+  {
+    "name": "Rootstock-Scion Compatibility Theory of Organ Transplant Rejection",
+    "core_claim": "Organ transplant compatibility can be modeled using viticulture's rootstock-scion framework: the recipient's immune system is the rootstock that must form a graft union with the donor organ (scion). Compatibility depends not on identity but on complementarity at the graft interface — just as Vitis riparia rootstock supports Vitis vinifera scions despite being different species, because their cambial layers align. Immunosuppression protocols are the viticultural equivalent of grafting wax — temporary protection that allows the graft union to establish before the rootstock's defenses are restored.",
+    "mechanism_borrowed_from": "rootstock-scion-compatibility",
+    "domain_applied_to": "immunology",
+    "viability": "speculative",
+    "confidence": 0.45,
+    "source_a": "Rootstock-Scion Compatibility (Viticulture)",
+    "source_b": "Clonal Selection (Immunology)"
+  },
+  {
+    "name": "Projection Distortion Theory of Cognitive Bias",
+    "core_claim": "Every cognitive bias is a projection distortion: the mind must project the high-dimensional manifold of reality onto a low-dimensional decision surface, and each projection necessarily distorts some property to preserve others. Availability bias is a Mercator-like projection that preserves local salience but distorts global frequency. Anchoring is a gnomonic projection that preserves straight-line paths from a reference point but massively distorts periphery. No bias-free cognition is possible, just as no distortion-free map is possible — the best one can do is choose the projection that minimizes distortion for the task at hand.",
+    "mechanism_borrowed_from": "projection-distortion-tradeoff",
+    "domain_applied_to": "cognitive science",
+    "viability": "promising",
+    "confidence": 0.70,
+    "source_a": "Projection Distortion Tradeoff (Cartography)",
+    "source_b": "Dual Process Theory"
+  },
+  {
+    "name": "Ensemble Unison-Canon Theory of Legislative Voting",
+    "core_claim": "Legislative voting patterns oscillate between unison and canon choreographic modes: party-line votes are unison (all dancers executing the same movement simultaneously), while bipartisan coalition-building follows canon structure (the same voting pattern initiated by a leader and replicated by followers with a time delay). The phase offset in canon voting — how long it takes for each legislator to adopt the leader's position — reveals the true influence network of the legislature more accurately than formal party membership.",
+    "mechanism_borrowed_from": "ensemble-unison-canon-timing",
+    "domain_applied_to": "game theory",
+    "viability": "speculative",
+    "confidence": 0.50,
+    "source_a": "Ensemble Unison-Canon Timing (Choreography)",
+    "source_b": "Evolutionary Stable Strategy"
+  },
+  {
+    "name": "Magma Chamber Recharge Theory of Creative Burnout",
+    "core_claim": "Creative burnout and recovery follow magma chamber recharge dynamics: creative output (eruption) depletes the chamber of differentiated ideas (evolved magma), and recovery requires slow recharge from deep mantle sources (subconscious processing, diverse experience intake). Premature creative demands on a partially recharged chamber produce weak, undifferentiated output — the creative equivalent of basaltic rather than rhyolitic eruption. The recharge rate is governed by the 'thermal flux' of new experiences and the 'crustal thickness' of institutional demands that impede deep-source access.",
+    "mechanism_borrowed_from": "magma-chamber-recharge",
+    "domain_applied_to": "psychology",
+    "viability": "speculative",
+    "confidence": 0.53,
+    "source_a": "Magma Chamber Recharge (Volcanology)",
+    "source_b": "Flow State"
+  },
+  {
+    "name": "Permaculture Zone Gradient Theory of Personal Habit Design",
+    "core_claim": "Personal habit formation should follow permaculture zone design: Zone 0 (the body) contains habits requiring daily attention (sleep hygiene, hydration); Zone 1 (immediate environment) holds habits visited frequently (desk organization, meal prep); outer zones hold progressively less-maintained habits. Most habit-design failures occur from planting Zone-1 habits in Zone-3 locations — requiring a gym membership (Zone 3 travel) for daily exercise (Zone 1 frequency). Successful habit architects match habit maintenance frequency to its spatial and cognitive zone.",
+    "mechanism_borrowed_from": "permaculture-zone-gradient",
+    "domain_applied_to": "behavioral economics",
+    "viability": "promising",
+    "confidence": 0.66,
+    "source_a": "Permaculture Zone Gradient",
+    "source_b": "Prospect Theory"
+  },
+  {
+    "name": "Steel Tempering Theory of Resilience Training",
+    "core_claim": "Psychological resilience is produced by tempering, not by hardening alone: acute stress exposure (quenching) creates a hard but brittle martensite-like psychological state (hypervigilance, rigidity), which must be followed by controlled re-heating (therapeutic processing, gradual re-exposure) that transforms the brittle structure into tough, tempered martensite. PTSD results from quenching without tempering. The optimal tempering temperature (therapeutic intensity) and duration are specific to the individual's 'alloy composition' (genetic predisposition, prior experience), just as different steel grades require different tempering protocols.",
+    "mechanism_borrowed_from": "steel-tempering-martensite-transformation",
+    "domain_applied_to": "psychology",
+    "viability": "promising",
+    "confidence": 0.63,
+    "source_a": "Steel Tempering / Martensite Transformation",
+    "source_b": "Post-Traumatic Growth (Antifragility)"
+  }
+]
