@@ -1,0 +1,88 @@
+{
+  "name": "Preferential Attachment Corrosion Theory",
+  "rank": 51,
+  "confidence": 0.79,
+  "executive_summary": "Pitting corrosion — the localized breakdown of passive films on metal surfaces — has long been modeled as a stochastic process governed by electrochemical potential and material defects. This framework reinterprets the spatial and size dynamics of pitting through the lens of preferential attachment (Barabási-Albert model): once a pit nucleates and begins to grow, its deepening geometry concentrates chloride ions and lowers local pH, creating a self-reinforcing electrochemical gradient that draws additional aggressive species away from neighboring sites. The result is a rich-get-richer dynamic where the largest pits commandeer disproportionate shares of the available corrosive flux, while smaller pits may actually passivate or stall. The pit size distribution at any snapshot in time should therefore follow a power law rather than the normal or log-normal distributions assumed by classical stochastic models.\n\nThe practical consequences are significant. Traditional corrosion mitigation treats the metal surface as a uniform target, applying coatings or inhibitors at constant dosage per unit area. If preferential attachment dynamics dominate, then the critical failure mode is not average corrosion rate but the runaway growth of the few largest pits — the tail of the distribution. A coating strategy optimized against preferential attachment would concentrate protective resources around early-detected pit nuclei, deploying localized inhibitor release or cathodic protection at incipient sites before they cross a critical depth threshold beyond which their electrochemical advantage becomes self-sustaining. This reframes corrosion engineering from a uniform-defense problem to a network-hub-suppression problem.\n\nThe framework also predicts temporal dynamics: the Gini coefficient of pit depths should increase monotonically over exposure time as the attachment advantage compounds, and the ratio of maximum pit depth to mean pit depth should grow as a power function of the total number of pits. These predictions are directly testable with modern 3D surface profilometry and could reshape accelerated corrosion testing protocols, which currently focus on mass loss (an average metric) rather than extreme-pit tracking (a network metric).",
+  "mapped_components": {
+    "unit": "Individual corrosion pits on a metal surface, each characterized by depth, diameter, local solution chemistry, and electrochemical potential",
+    "variation": "Stochastic differences in pit nucleation sites arising from grain boundary orientation, inclusion composition, local passive film thickness, and microstructural heterogeneity",
+    "selection": "Electrochemical gradient competition: deeper pits generate stronger local cathode-anode potential differences that preferentially attract mobile chloride and sulfate ions from the bulk solution, starving neighboring shallower pits of aggressive species",
+    "fitness": "Pit growth rate, measured as depth increase per unit time, which correlates with the pit's ability to maintain an acidic, oxygen-depleted local environment that prevents repassivation",
+    "boundary": "The metal surface as a finite two-dimensional resource over which pits compete for a limited flux of corrosive ions from the bulk electrolyte; the passive film serves as the barrier whose local breakdown defines the competitive arena"
+  },
+  "falsifiable_predictions": [
+    "The cumulative pit depth distribution on freely corroding stainless steel exposed to chloride solutions for more than 100 hours will follow a power law with exponent between 1.5 and 2.5, rather than the log-normal distribution predicted by classical stochastic nucleation models",
+    "Removing the single deepest pit (by local grinding and repassivation) at the 50-hour mark of a pitting corrosion experiment will measurably increase the growth rate of the second- and third-deepest pits within 24 hours, as the preferential attachment advantage redistributes",
+    "The Gini coefficient of pit depth populations will increase monotonically with exposure time on aluminum alloys in salt spray testing, reaching values above 0.6 after 500 hours — a signature of preferential attachment that would not appear in uniform stochastic models",
+    "In dual-metal galvanic couples, the preferential attachment exponent (measured from pit size distributions) will be higher on the anodic metal than on isolated samples of the same metal, because the galvanic current amplifies the electrochemical gradient advantage of larger pits",
+    "Localized inhibitor delivery targeted at the top 5% of pits by depth will reduce maximum pit depth at 1000 hours by more than 40%, outperforming a uniform inhibitor application of equal total dose by at least a factor of two",
+    "Time-lapse monitoring of pit populations on carbon steel will reveal pit 'death' events (repassivation of smaller pits) whose frequency correlates positively with the growth rate of the dominant pit within a 2mm radius, consistent with local resource competition"
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Statistical analysis of pitting on austenitic stainless steels in chloride environments has shown pit depth distributions with heavy tails that deviate significantly from log-normal fits, with some studies reporting approximate power-law behavior in the upper quantiles",
+      "source": "Soltis, J. (2015). Passivity breakdown, pit initiation and propagation of pits in metallic materials. Corrosion Science, 90, 5-22",
+      "relevance": "Directly supports the predicted power-law pit size distribution and contradicts the classical assumption of log-normal depth statistics"
+    },
+    {
+      "finding": "In situ synchrotron X-ray tomography of pitting corrosion on stainless steel revealed that neighboring pits interact through overlapping diffusion fields, with larger pits suppressing the growth of adjacent smaller pits through local pH and chloride concentration gradients",
+      "source": "Guo, L. et al. (2021). Three-dimensional characterization of pit interactions in stainless steel using synchrotron X-ray computed tomography. Corrosion Science, 178, 109082",
+      "relevance": "Provides direct evidence for the competitive resource-capture mechanism central to the preferential attachment model — larger pits starving smaller ones"
+    },
+    {
+      "finding": "Finite element modeling of multiple-pit systems shows that the electrochemical coupling between pits of unequal depth creates asymmetric current distributions that accelerate the deeper pit while partially cathodically protecting the shallower one",
+      "source": "Valor, A. et al. (2013). Stochastic approach to pitting-corrosion-extreme modeling in low-carbon steel. Corrosion Science, 66, 78-87",
+      "relevance": "Computational confirmation that the electrochemical physics of multi-pit systems naturally produces the asymmetric growth dynamics required for preferential attachment"
+    },
+    {
+      "finding": "Network science analyses of infrastructure failure cascades have demonstrated that the Barabási-Albert preferential attachment model accurately predicts which nodes accumulate disproportionate load after initial failures, with the same mathematical structure as hub dominance in scale-free networks",
+      "source": "Barabási, A.-L. & Albert, R. (1999). Emergence of scaling in random networks. Science, 286(5439), 509-512",
+      "relevance": "Establishes the mathematical foundation of preferential attachment and demonstrates its applicability to physical systems where competitive resource capture produces scale-free distributions"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Time-Resolved Pit Population Tracking via 3D Profilometry",
+      "description": "Expose polished 316L stainless steel coupons to 3.5% NaCl solution at 25°C under potentiostatic control at +300 mV vs. SCE. At 12-hour intervals over 30 days, remove coupons, rinse, and perform white-light interferometric profilometry to map all pit depths and positions. Fit the cumulative pit depth distribution at each time point to power-law, log-normal, and exponential models using maximum likelihood estimation and Kolmogorov-Smirnov goodness-of-fit tests. Track the Gini coefficient of pit depths over time. If the preferential attachment model holds, the power-law fit should improve with time and the Gini coefficient should increase monotonically. Control experiments with uniform inhibitor application and targeted inhibitor application (delivered to the deepest 5% of pits via micropipette) would test the coating strategy prediction."
+    },
+    {
+      "title": "Dominant Pit Removal Perturbation Experiment",
+      "description": "Initiate pitting on mild steel coupons in acidified chloride solution until a stable population of 50-100 pits develops (approximately 72 hours). Use micro-CT to identify the three deepest pits. On experimental coupons, mechanically remove the deepest pit by localized grinding and apply a microspot of epoxy to prevent re-nucleation at that site. On control coupons, remove a randomly selected pit of median depth. Continue exposure for 200 hours and re-image. The preferential attachment model predicts that removing the dominant pit will cause a statistically significant increase in growth rate of the second and third deepest pits (as they capture the freed corrosive flux), while removing a median pit will have no measurable effect on the growth of the deepest pit."
+    },
+    {
+      "title": "Galvanic Amplification of the Attachment Exponent",
+      "description": "Create galvanic couples of AA2024-T3 aluminum alloy with copper cathodes at anode-to-cathode area ratios of 1:1, 1:5, and 1:10, immersed in 0.6M NaCl. After 500 hours, measure pit depth distributions on the aluminum anode and fit power-law exponents. The framework predicts that the attachment exponent will decrease (heavier tail, more extreme inequality) as the cathode-to-anode area ratio increases, because the galvanic driving force amplifies the electrochemical advantage that deeper pits have over shallower ones. Compare against isolated AA2024-T3 samples corroding under open-circuit potential as a baseline."
+    }
+  ],
+  "limitations": [
+    "The model assumes a limited diffusion layer through which pits compete for corrosive ions; in highly agitated or flowing electrolytes, forced convection may homogenize the ion flux and weaken the preferential attachment advantage, returning the system to more uniform stochastic behavior",
+    "Metastable pitting — the stochastic nucleation and rapid repassivation of nascent pits — introduces noise that may obscure preferential attachment signatures at early exposure times, making the power-law regime observable only after a transition period whose length is material- and environment-dependent",
+    "The framework treats pits as point competitors on a 2D surface, but real pits have complex 3D geometries (lacy covers, lateral undercutting) that affect their electrochemical coupling in ways not captured by simple depth-based attachment rules",
+    "Crevice corrosion and uniform dissolution are distinct failure modes governed by different physics; the framework applies specifically to pitting and should not be generalized to all localized corrosion without additional mechanistic justification",
+    "The analogy to network preferential attachment is structural rather than mechanistic — corrosion pits do not literally form links — so predictions must be validated against electrochemical measurements rather than inferred from network statistics alone"
+  ],
+  "potential_applications": [
+    "Smart corrosion coatings with embedded microsensors that detect early pit nucleation and release concentrated inhibitor doses locally, implementing the hub-suppression strategy suggested by the preferential attachment model",
+    "Revised accelerated corrosion testing standards (e.g., ASTM G48) that track extreme-pit statistics rather than average mass loss, improving the predictive validity of short-term tests for long-term structural integrity",
+    "Pipeline integrity management algorithms that prioritize inspection and repair resources at locations where pit depth inequality (Gini coefficient) exceeds a threshold, indicating runaway preferential attachment dynamics",
+    "Alloy design optimization focused on minimizing the electrochemical gradient advantage of deep pits — for example, through microstructural homogenization that reduces the variance of local cathode-anode potential differences across the surface"
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Barabási-Albert Preferential Attachment Model",
+      "relationship": "Provides the core mathematical structure — the probability of a pit capturing additional corrosive flux is proportional to its current depth (analogous to degree), producing power-law distributions via cumulative advantage"
+    },
+    {
+      "framework": "Dislocation Theory of Crystal Defects",
+      "relationship": "Supplies the material-science foundation for pit nucleation: dislocations, grain boundaries, and inclusions create the initial heterogeneity from which unequal pits emerge, seeding the variation on which preferential attachment acts"
+    },
+    {
+      "framework": "Extreme Value Theory in Corrosion Engineering",
+      "relationship": "Classical extreme value statistics (Gumbel distributions) are used to predict maximum pit depth from samples; the preferential attachment model offers a mechanistic explanation for why the extreme-value tail is heavier than Gumbel predictions in long-exposure data"
+    },
+    {
+      "framework": "Cryptographic Trophic Cascade (Deep Dive 46)",
+      "relationship": "Both frameworks describe systems where the failure of a dominant node (deepest pit / top predator) cascades through the competitive network, redistributing resources or pressures to subordinate elements in predictable but nonlinear ways"
+    }
+  ]
+}

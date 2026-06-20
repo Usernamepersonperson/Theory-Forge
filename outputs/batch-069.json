@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Topological Load Paths",
+    "mechanism_source": "knot theory",
+    "target_domain": "architecture",
+    "mechanism": "Knot invariants classify structures by properties unchanged under continuous deformation",
+    "application": "Structural load paths in buildings can be analyzed as topological knots, where the invariant properties predict which deformations (settling, wind sway) preserve structural integrity. Architects could classify building frames by their knot genus to identify which designs tolerate ground movement without catastrophic redistribution of stress. This reframes seismic resilience as a topological rather than purely material property.",
+    "prediction": "Buildings whose primary load paths form higher-genus topological configurations will show measurably greater resistance to asymmetric foundation settlement than topologically simple frames of equivalent material strength.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Resonance Pricing Theory",
+    "mechanism_source": "luthiery",
+    "target_domain": "economics",
+    "mechanism": "Instrument bodies are tuned so that wood grain, cavity volume, and plate thickness create sympathetic resonance across frequency ranges",
+    "application": "Market pricing exhibits resonance-like behavior where certain price points amplify demand signals across consumer segments, analogous to how a violin body amplifies specific harmonics. A product priced at a resonant point activates sympathetic buying across demographic cavities that would otherwise remain silent. Firms could map their market's resonance topology to find prices that maximize cross-segment amplification.",
+    "prediction": "Products repositioned to price points identified by cross-segment demand harmonic analysis will show 15-25% greater sales velocity than those optimized by conventional elasticity models alone.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Morpheme Escapement",
+    "mechanism_source": "watchmaking",
+    "target_domain": "linguistics",
+    "mechanism": "The escapement mechanism converts continuous spring energy into discrete, regulated ticks",
+    "application": "Language production converts continuous thought into discrete phonemic outputs through a neural escapement — a gating mechanism that parcels fluid semantic intention into regulated morpheme-sized units. Stuttering and cluttering disorders may represent escapement malfunction, where the gate releases too slowly or too quickly. This model predicts that speech rhythm disorders should respond to interventions targeting the gating interval rather than the content stream.",
+    "prediction": "Neuroimaging during speech production will reveal a basal ganglia oscillation pattern at 4-7 Hz that functions as a morpheme-release gate, and its disruption will correlate with specific fluency disorders.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Choreographic Ferment",
+    "mechanism_source": "fermentation",
+    "target_domain": "dance",
+    "mechanism": "Controlled microbial cultures transform raw substrates through staged metabolic phases with precise temperature and timing",
+    "application": "Dance improvisation groups develop through fermentation-like phases: an inoculation period where a seed idea is introduced, a primary fermentation of wild movement exploration, and a secondary fermentation where the ensemble refines and deepens motifs. The choreographer's role parallels the fermentation master's — controlling environmental conditions (tempo, spatial constraints) rather than dictating the product directly. Over-intervention kills the culture; under-intervention yields chaos.",
+    "prediction": "Improvisation ensembles given structured environmental constraints (lighting shifts, spatial narrowing) at phase-appropriate intervals will produce performances rated as more coherent and innovative than groups given either fixed choreography or unconstrained freedom.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Psychic Reef Bleaching",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "psychology",
+    "mechanism": "Coral bleaching occurs when environmental stress causes coral to expel symbiotic zooxanthellae, losing both color and energy source",
+    "application": "Burnout in highly collaborative professionals mirrors coral bleaching: sustained stress causes individuals to expel their symbiotic relationships (mentors, colleagues, support networks), losing both the emotional color and the metabolic energy those relationships provided. The bleached professional appears structurally intact but is energetically starving. Recovery requires re-inoculation with compatible symbionts under reduced-stress conditions, not simply rest.",
+    "prediction": "Burnout recovery programs that prioritize guided re-establishment of 2-3 specific collaborative relationships under reduced workload will show faster recovery of engagement scores than programs focused on individual rest and stress management alone.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Kerning Niche Theory",
+    "mechanism_source": "typesetting",
+    "target_domain": "ecology",
+    "mechanism": "Kerning adjusts inter-character spacing so that letterforms occupy optical space efficiently without collision or excessive gaps",
+    "application": "Species in ecological communities adjust their niche boundaries through a kerning-like process, where the functional shape of each species determines how tightly it can pack against neighbors. Species with complementary niche shapes (like T and o in typography) can overlap more than species with similar profiles (like H and M). This reframes competitive exclusion as a spacing problem governed by morphological complementarity rather than simple resource overlap.",
+    "prediction": "Community assemblages where species have high functional trait complementarity (analogous to good kerning pairs) will support 20-30% higher species density than predicted by classical niche models based on resource axis overlap alone.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tempering Pedagogy",
+    "mechanism_source": "swordsmithing",
+    "target_domain": "pedagogy",
+    "mechanism": "Differential hardening heats and quenches blade regions at different rates to create a hard edge backed by a flexible spine",
+    "application": "Effective education should differentially temper students — creating hard, precise expertise in core competency areas while maintaining flexible, adaptive thinking in surrounding zones. A curriculum that uniformly hardens (drilling all subjects identically) produces brittle graduates who shatter under novel problems. The master teacher, like the swordsmith, must know which zones to quench rapidly and which to cool slowly.",
+    "prediction": "Students educated with curricula that alternate between intensive precision-drilling in core skills and open-ended exploratory work in adjacent areas will outperform uniformly taught peers on both standardized assessments and novel problem-solving tasks.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Hexagonal Key Schedules",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "cryptography",
+    "mechanism": "Hexagonal cells maximize storage volume while minimizing wall material through shared-wall tessellation",
+    "application": "Cryptographic key schedules could adopt hexagonal tessellation principles, where each round key shares boundary bits with adjacent round keys in a honeycomb arrangement. This creates maximum key diffusion with minimal key material, as each bit participates in multiple round boundaries simultaneously. The resulting cipher would be structurally efficient in the same way a honeycomb is materially efficient.",
+    "prediction": "A block cipher using hexagonal-tessellated key scheduling will achieve equivalent diffusion to AES-256 with 15-20% fewer key schedule operations, measurable through strict avalanche criterion testing.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Brushstroke Stratigraphy",
+    "mechanism_source": "calligraphy",
+    "target_domain": "geology",
+    "mechanism": "Brush pressure, angle, and velocity encode meaning through the layered sequence and character of individual strokes",
+    "application": "Sedimentary strata can be read as calligraphic strokes where depositional pressure (depth, flow velocity), angle (current direction), and speed (sedimentation rate) encode paleoenvironmental meaning. A geologist reading a cliff face uses the same perceptual grammar as a calligrapher reading a scroll — interpreting the quality of each layer's edge, thickness variation, and transition to reconstruct the hand that wrote it. This framework suggests training geologists in stroke analysis could accelerate field interpretation.",
+    "prediction": "Geology students trained in East Asian calligraphic stroke analysis will achieve statistically faster and more accurate field identification of depositional environments from outcrop observation than traditionally trained peers.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Phenolic Gene Expression",
+    "mechanism_source": "whisky distillation",
+    "target_domain": "biology",
+    "mechanism": "Peat smoke during malting infuses barley with phenolic compounds whose expression depends on kilning temperature and duration",
+    "application": "Epigenetic modification mirrors whisky phenolics: environmental stressors during critical developmental windows infuse the genome with regulatory marks whose expression depends on the intensity and timing of exposure. Just as heavily peated whisky requires specific temperature curves to develop balanced flavor rather than acrid smoke, organisms require calibrated stress exposure during development to produce adaptive rather than pathological epigenetic profiles. The terroir of early environment writes itself into the organism's regulatory landscape.",
+    "prediction": "Organisms exposed to moderate, time-limited stressors during specific developmental windows will show a characteristic epigenetic methylation signature that correlates with enhanced stress resilience, distinguishable from both unstressed and chronically stressed profiles.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Warp and Weft Equilibria",
+    "mechanism_source": "game theory",
+    "target_domain": "textiles",
+    "mechanism": "Nash equilibria emerge when no player can improve their outcome by unilaterally changing strategy",
+    "application": "Thread tension in woven textiles reaches Nash equilibrium states where no individual thread can reduce its strain by shifting position without increasing strain on its neighbors. Weaving defects occur when threads are forced into non-equilibrium configurations by the loom setup. This framework predicts that fabric durability correlates with how many threads exist at or near their local Nash equilibrium tension, and that defect-prone zones are identifiable as regions of strategic instability.",
+    "prediction": "Computational modeling of thread tensions as multi-agent equilibrium problems will predict fabric failure points more accurately than traditional finite-element stress analysis for complex weave patterns.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Annealing Archetypes",
+    "mechanism_source": "metallurgy",
+    "target_domain": "folklore",
+    "mechanism": "Annealing heats metal past its recrystallization point and slowly cools it, relieving internal stress and reorganizing grain structure",
+    "application": "Folklore motifs undergo cultural annealing — periods of social upheaval (heating) dissolve rigid narrative structures, and the slow cooling of cultural restabilization allows motifs to recrystallize into lower-stress configurations. Stories that survive annealing cycles have reorganized their internal grain structure to be more culturally durable. This explains why post-crisis folklore often features the same archetypes but in recombined, more internally consistent arrangements.",
+    "prediction": "Content analysis of folklore collected within two generations after major social upheavals will show higher internal narrative consistency and lower motif-conflict scores than folklore from stable periods, consistent with a recrystallization model.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Crop Rotation Epistemology",
+    "mechanism_source": "agriculture",
+    "target_domain": "philosophy",
+    "mechanism": "Crop rotation prevents soil nutrient depletion and pest buildup by alternating what is planted in each field across seasons",
+    "application": "Philosophical inquiry depletes the conceptual soil of its domain when the same methods are applied repeatedly to the same questions. Epistemological crop rotation — deliberately alternating between analytic, phenomenological, pragmatic, and critical approaches to a problem domain — prevents conceptual nutrient depletion and breaks cycles of intellectual pest buildup (fashionable but unproductive arguments). Departments that monoculture a single method produce increasingly diminished yields.",
+    "prediction": "Philosophy departments that systematically rotate methodological approaches across their seminar cycles will produce papers with higher citation impact and more novel thesis claims than departments identified as methodologically monocultural.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Umami Gradient Descent",
+    "mechanism_source": "neuroscience",
+    "target_domain": "cooking",
+    "mechanism": "Neural networks learn by adjusting synaptic weights along error gradients to minimize a loss function",
+    "application": "Expert chefs iteratively adjust seasoning through a process structurally identical to gradient descent — each tasting provides an error signal, and the adjustment (more salt, less acid) moves along the flavor gradient toward a target. The loss function is the distance between current and ideal flavor profile. Chefs who stall at local minima (good but not great dishes) need the equivalent of momentum or learning rate annealing to escape plateaus, which manifests as deliberate overseasoning followed by correction.",
+    "prediction": "Chefs trained to deliberately overshoot target seasoning and correct back (simulated annealing strategy) will converge on expert-panel-preferred flavor profiles in fewer adjustment iterations than chefs trained in conservative incremental seasoning.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Orbital Precedent Mechanics",
+    "mechanism_source": "astronomy",
+    "target_domain": "law",
+    "mechanism": "Celestial bodies follow orbital paths determined by gravitational wells, with perturbations from neighboring masses creating complex but predictable trajectories",
+    "application": "Legal precedent operates as a gravitational system where landmark rulings create deep wells that bend the trajectory of subsequent decisions. Minor rulings act as perturbative bodies, subtly shifting orbits without overcoming the primary attractor. Jurisprudential revolution occurs when accumulated perturbations shift a case past a Lagrange point into the gravitational well of a competing precedent. This model predicts that legal change is not continuous but follows orbital mechanics — cases accelerate as they fall toward new attractors.",
+    "prediction": "Quantitative analysis of citation networks in case law will reveal that the rate of doctrinal change follows an inverse-square pattern with respect to the citation distance from landmark precedents, with identifiable Lagrange-like tipping points preceding major doctrinal shifts.",
+    "viability": "promising",
+    "confidence": 0.69
+  }
+]

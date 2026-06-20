@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Reef Nash Equilibrium",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "game theory",
+    "mechanism": "Coral spawning synchrony where multiple species release gametes simultaneously to overwhelm predators",
+    "application": "Multi-player coordination games can be solved using coral spawning logic: when individual actors cannot survive scrutiny alone, synchronized mass action overwhelms the capacity of opponents to respond. This differs from standard Nash equilibrium by introducing temporal saturation — the strategy isn't optimal in isolation but becomes dominant when enough players commit to the same moment. The mechanism explains flash crashes, viral movements, and coordinated regulatory arbitrage.",
+    "prediction": "In repeated coordination games with predatory opponents, groups that synchronize actions into rare high-volume bursts will achieve higher cumulative payoffs than groups that distribute identical actions uniformly over time.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Kerning Diagnosis",
+    "mechanism_source": "typesetting",
+    "target_domain": "medicine",
+    "mechanism": "Kerning adjustments where spacing between specific letter pairs is individually tuned for visual harmony",
+    "application": "Diagnostic medicine can adopt a kerning approach: rather than evaluating symptoms in isolation or as uniform sets, clinicians adjust the interpretive 'spacing' between specific symptom pairs. Two symptoms that appear benign when read with default spacing become alarming when kerned together — fatigue next to unexplained weight loss reads differently than fatigue next to seasonal allergies. Expert diagnosticians are essentially master typesetters who recognize when the spacing between clinical signs produces a dangerous word.",
+    "prediction": "Diagnostic algorithms that weight specific symptom-pair proximities (temporal co-occurrence within defined windows) will outperform algorithms that weight individual symptom severity alone in identifying rare conditions.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Aikido Crop Management",
+    "mechanism_source": "martial arts",
+    "target_domain": "agriculture",
+    "mechanism": "Aikido's principle of redirecting an attacker's energy rather than opposing it directly",
+    "application": "Pest management can apply aikido principles by redirecting pest energy rather than destroying pests. Instead of pesticides that oppose insect force directly, aikido agriculture designs crop arrangements that channel pest movement toward trap crops, beneficial insect habitats, or areas where pest activity becomes neutral or beneficial. The pest's own foraging momentum carries it into positions where its energy serves the farm system rather than damaging it.",
+    "prediction": "Farms using spatially designed pest-redirection corridors (trap crop gradients oriented along prevailing pest migration paths) will achieve equivalent crop protection to conventional pesticide programs with lower input costs.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Tectonic Choreology",
+    "mechanism_source": "dance",
+    "target_domain": "geology",
+    "mechanism": "Contact improvisation where dancers share weight and respond to each other's momentum in real time",
+    "application": "Tectonic plate interactions can be better modeled using contact improvisation principles: plates don't merely collide or separate but share structural weight and respond to each other's momentum through continuous feedback. Subduction zones are weight-sharing negotiations where one plate accepts the load of another; transform faults are lateral momentum exchanges. This framework explains why plate boundaries exhibit behavioral variety that rigid-body mechanics underpredict — plates are dancing, not just crashing.",
+    "prediction": "Seismic activity at plate boundaries will show temporal patterns consistent with lead-follow dynamics (one plate's acceleration consistently preceding the other's response by a characteristic delay) rather than simultaneous mutual forcing.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Quantum Folklore Superposition",
+    "mechanism_source": "physics",
+    "target_domain": "folklore",
+    "mechanism": "Quantum superposition where particles exist in multiple states simultaneously until observed",
+    "application": "Folktales exist in superposition across oral traditions: a story simultaneously occupies multiple narrative states (the hero wins, the hero fails, the hero transforms) until a specific telling collapses it into one version. Written collection is the act of measurement that forces a definitive state, destroying the tale's oral superposition. This explains why folklorists find incompatible versions of the same tale — they aren't corruptions but collapsed states from a richer quantum narrative field.",
+    "prediction": "Tales collected from oral traditions with less prior written documentation will show greater variance in plot outcomes across informants than tales from traditions with established written versions, consistent with superposition collapse upon measurement.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Maillard Wayfinding",
+    "mechanism_source": "cooking",
+    "target_domain": "navigation",
+    "mechanism": "The Maillard reaction where heat triggers cascading chemical transformations that produce complex flavors from simple sugars and amino acids",
+    "application": "Route optimization through complex terrain can be modeled as a Maillard reaction: the traveler (heat source) encounters waypoints (simple ingredients) that undergo cascading transformations based on the sequence and timing of encounters. The optimal route isn't the shortest path but the one that produces the richest cascade of navigational information — each landmark revealing new data about subsequent landmarks, just as early Maillard products catalyze later flavor development. Speed matters: too fast and the reaction is incomplete; too slow and everything burns.",
+    "prediction": "Navigators who adjust travel speed to spend more time at information-rich waypoints and less at information-poor ones will reach novel destinations faster than those maintaining constant speed along objectively shorter routes.",
+    "viability": "promising",
+    "confidence": 0.58
+  },
+  {
+    "name": "Resonant Annealing",
+    "mechanism_source": "music",
+    "target_domain": "metallurgy",
+    "mechanism": "Sympathetic resonance where untouched strings vibrate when nearby strings sound their shared harmonics",
+    "application": "Metal annealing processes could exploit sympathetic resonance principles: rather than uniformly heating an entire workpiece, targeted vibrational frequencies could induce localized stress relief in specific grain boundaries that share harmonic relationships with the applied frequency. Grains that are 'in tune' with the stimulus relax while others remain rigid, allowing selective microstructural modification. This would enable annealing patterns impossible with thermal methods alone.",
+    "prediction": "Applying specific acoustic frequencies during sub-threshold annealing temperatures will produce preferential grain boundary relaxation in crystallographic orientations whose natural vibration modes are harmonically related to the applied frequency.",
+    "viability": "speculative",
+    "confidence": 0.47
+  },
+  {
+    "name": "Mitotic Dramaturgy",
+    "mechanism_source": "biology",
+    "target_domain": "theater",
+    "mechanism": "Mitotic cell division where genetic material is replicated and separated into two identical daughter cells",
+    "application": "Theater companies can reproduce through mitotic dramaturgy: when an ensemble reaches critical size, it divides into two daughter companies that each carry a complete copy of the artistic DNA (aesthetic principles, rehearsal methods, repertoire philosophy). Like mitosis, this requires first replicating all essential cultural material before separation. Companies that split without complete replication produce incomplete offspring that lack viability, explaining why theater company spinoffs so often fail.",
+    "prediction": "Theater companies that undergo planned division after a deliberate period of method documentation and cross-training will produce daughter companies with higher five-year survival rates than companies formed by unplanned departures of subgroups.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Kiln Psyche Formation",
+    "mechanism_source": "psychology",
+    "target_domain": "ceramics",
+    "mechanism": "Erikson's psychosocial stages where identity forms through sequential crisis resolution",
+    "application": "Ceramic pieces undergo psychosocial development: the wedging stage resolves trust vs. mistrust (will the clay hold together?), throwing resolves autonomy vs. shame (can it stand on its own?), trimming resolves industry vs. inferiority (is it well-crafted?), and firing resolves identity vs. confusion (what has it become?). Pieces that skip stages — rushed to the kiln without proper trimming — carry unresolved structural crises that manifest as cracks, warps, or glaze failures. Master potters intuitively move pieces through developmental stages.",
+    "prediction": "Ceramic pieces that undergo all standard processing stages at recommended durations will show lower defect rates than pieces processed in fewer stages even when total processing time is equivalent.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Inflationary Calligraphy",
+    "mechanism_source": "economics",
+    "target_domain": "calligraphy",
+    "mechanism": "Monetary inflation where increasing money supply devalues individual units of currency",
+    "application": "Calligraphic mark-making suffers from stroke inflation: as a calligrapher adds more strokes to a composition, each individual stroke carries less visual weight and communicative value. Compositions with too many flourishes experience hyperinflation — each mark becomes meaningless. Master calligraphers practice monetary policy by controlling stroke supply, ensuring each mark retains purchasing power in the viewer's attention economy. Negative space functions as a reserve bank, backing the value of each visible stroke.",
+    "prediction": "Calligraphic compositions rated highest by expert judges will cluster around an optimal stroke density, with both sparse and dense compositions rated lower — following a curve analogous to the relationship between money supply and economic output.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Pelagic Mythogenesis",
+    "mechanism_source": "mythology",
+    "target_domain": "oceanography",
+    "mechanism": "The world-serpent archetype (Jörmungandr, Ouroboros) encircling the world and regulating cosmic boundaries",
+    "application": "Thermohaline circulation operates as a world-serpent: a single continuous current encircling the globe, whose movement regulates planetary boundaries between climate regimes. Like Jörmungandr, whose release would trigger Ragnarök, disruption of thermohaline circulation would unmake the current world-order of climate stability. The mythological insight is that boundary maintenance requires continuous circulation — a static wall cannot hold; only an endlessly moving serpent can keep chaos on its proper side.",
+    "prediction": "Regions where thermohaline circulation weakens will show increased variance in climate extremes that is disproportionate to the magnitude of circulation reduction, consistent with a boundary-maintenance rather than linear-forcing model.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Warp-Weighted Star Catalogs",
+    "mechanism_source": "textiles",
+    "target_domain": "astronomy",
+    "mechanism": "Warp-weighted loom construction where vertical tension threads create a framework that determines all subsequent pattern possibilities",
+    "application": "Star catalog construction follows warp-weighted logic: the initial reference frame stars (the warp) are selected and tensioned first, and every subsequent cataloged star is positioned relative to this framework. Like a weaver who cannot change the warp mid-fabric, astronomers cannot easily replace reference frame stars without re-weaving the entire catalog. Systematic errors in the warp propagate into every pattern woven upon it, explaining why catalog revisions produce cascade corrections across seemingly unrelated regions.",
+    "prediction": "Astrometric catalogs will show spatially correlated systematic errors that trace back to the geometric distribution of their reference frame stars, with error magnitude inversely proportional to local reference star density.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Precedent Fermentation",
+    "mechanism_source": "law",
+    "target_domain": "fermentation",
+    "mechanism": "Stare decisis where prior court decisions bind future cases and accumulate into a body of precedent",
+    "application": "Fermentation cultures operate under stare decisis: early metabolic decisions by pioneer microorganisms create chemical precedents (pH levels, metabolite concentrations) that bind subsequent microbial generations. A sourdough starter's character is case law — each feeding cycle adds new precedent while remaining bound by the biochemical decisions of prior cultures. Attempting to overturn established fermentation precedent (radically changing conditions) risks killing the culture entirely, just as overturning deeply embedded legal precedent destabilizes the system.",
+    "prediction": "Fermentation cultures with longer continuous histories will show greater resistance to environmental perturbation (pH shock, temperature change) than freshly established cultures with identical species composition, due to accumulated biochemical precedent.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Valence Shell Combat",
+    "mechanism_source": "chemistry",
+    "target_domain": "martial arts",
+    "mechanism": "Electron shell filling rules (Aufbau principle) where electrons occupy lowest-energy orbitals first",
+    "application": "Martial arts stances and guard positions follow Aufbau-like filling rules: a fighter first fills the lowest-energy defensive positions (chin tucked, hands up, weight centered) before occupying higher-energy offensive positions. Attacking from an incompletely filled defensive shell is like an excited electron — temporarily powerful but unstable and prone to collapse. Master fighters maintain noble-gas configurations (fully filled shells) and attack only by promoting single techniques to higher orbitals while keeping the core shell intact.",
+    "prediction": "Fighters who maintain stable base defensive positions and extend single techniques will have higher strike success rates than fighters who simultaneously vacate multiple defensive positions to launch compound attacks.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Gastrosophical Dialectic",
+    "mechanism_source": "philosophy",
+    "target_domain": "cooking",
+    "mechanism": "Hegelian dialectic where thesis and antithesis resolve into synthesis",
+    "application": "Culinary innovation follows dialectical progression: a dominant flavor profile (thesis) encounters its contradiction (antithesis — a clashing ingredient) and the resolution isn't compromise but synthesis — a new flavor that transcends both. Sweet-and-sour, umami-bitter, and spicy-cool are all dialectical syntheses. Cuisines stagnate when cooks avoid antithetical ingredients out of orthodoxy, and degenerate when they add contradictions without achieving genuine synthesis. The greatest dishes are Aufhebungen — flavors simultaneously preserved, negated, and elevated.",
+    "prediction": "Dishes rated highest by diverse panels of tasters will contain at least one ingredient pairing that individually trained flavor-prediction models would classify as contradictory, indicating successful dialectical synthesis rather than simple complementarity.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

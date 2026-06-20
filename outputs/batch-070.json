@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Raku Equilibrium Strategies",
+    "mechanism_source": "ceramics",
+    "target_domain": "game theory",
+    "mechanism": "Raku firing involves rapid removal from the kiln and thermal shock, where controlled cracking produces desired crackle patterns",
+    "application": "Strategic games under extreme time pressure exhibit raku-like dynamics — players removed from deliberative equilibrium by sudden deadlines produce decision patterns with characteristic crackle structures. The controlled fractures in their strategy reveal the underlying grain of their reasoning, just as raku glaze cracks reveal the clay body beneath. Mechanism designers could exploit thermal shock dynamics to force opponents into revealing their true strategic substrate.",
+    "prediction": "Players subjected to sudden time-pressure shifts during iterated games will exhibit strategy-switching patterns that cluster into identifiable crackle topologies, and these patterns will predict their next-round behavior more accurately than standard mixed-strategy models.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Somatic Choreography of Healing",
+    "mechanism_source": "dance",
+    "target_domain": "medicine",
+    "mechanism": "Choreographic sequences organize body movement through space and time using rhythm, repetition, and progressive variation",
+    "application": "Physical rehabilitation protocols are implicitly choreographic but rarely leverage dance's sophisticated understanding of movement sequencing. A choreographic approach to post-surgical recovery would design movement progressions as phrases with rhythmic structure, dynamic variation, and narrative arc rather than as isolated repetitions. The patient becomes a dancer learning a piece, with motivation and neural encoding both enhanced by the narrative coherence of the movement sequence.",
+    "prediction": "Post-surgical patients following rehabilitation protocols restructured as choreographic phrases with musical accompaniment will achieve functional milestones 10-20% faster than those following traditional repetition-based protocols, with higher compliance rates.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Trickster Symmetry Breaking",
+    "mechanism_source": "folklore",
+    "target_domain": "physics",
+    "mechanism": "Trickster figures in myth violate categorical boundaries, existing between states and forcing transformations through transgression",
+    "application": "Spontaneous symmetry breaking in physics mirrors the trickster function in mythology — a perturbation that violates the existing symmetry of a system, forcing it to choose a ground state from among equivalent possibilities. The Higgs field is the trickster of the Standard Model, transgressing electroweak symmetry to give particles mass. This isomorphism suggests that narrative structure and physical law share a deeper grammar of transformation through boundary violation.",
+    "prediction": "Phase transition systems where the symmetry-breaking perturbation has trickster-like properties (boundary-crossing, state-ambiguous) will exhibit qualitatively different critical exponents than systems with clean, categorical symmetry breakers.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Loom Logic of Neural Binding",
+    "mechanism_source": "textiles",
+    "target_domain": "neuroscience",
+    "mechanism": "Weaving interlaces perpendicular thread systems (warp and weft) to create coherent fabric from independent fibers",
+    "application": "The binding problem in neuroscience — how distributed neural signals combine into unified conscious experience — may follow weaving logic. Sensory modalities function as warp threads (fixed, parallel, modality-specific), while temporal synchrony acts as the weft, interlacing across modalities at each moment to create the fabric of experience. Binding failures (agnosia, synesthesia) represent dropped threads or crossed wefts. The loom is the thalamocortical loop.",
+    "prediction": "Thalamocortical oscillation patterns during multisensory integration will show a mathematically weft-like structure, where cross-modal binding correlates with perpendicular phase relationships between modality-specific gamma rhythms and a shared theta/alpha shuttle rhythm.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Maillard Cosmochemistry",
+    "mechanism_source": "cooking",
+    "target_domain": "astronomy",
+    "mechanism": "The Maillard reaction produces complex flavor compounds through non-enzymatic browning when amino acids and reducing sugars react under heat",
+    "application": "Interstellar molecular cloud chemistry mirrors Maillard chemistry — amino acids and simple sugars on dust grain surfaces undergo heat-driven complexification during stellar ignition events, producing the complex organic molecules detected in protoplanetary disks. The flavor palette of a seared steak and the chemical inventory of a molecular cloud are products of analogous reaction cascades. This framework predicts that specific Maillard intermediates should appear in astrochemical surveys of star-forming regions.",
+    "prediction": "Spectroscopic surveys of protoplanetary disks around young T Tauri stars will detect Amadori rearrangement products and Strecker aldehydes — key Maillard intermediates — at abundances correlating with disk temperature gradients.",
+    "viability": "speculative",
+    "confidence": 0.47
+  },
+  {
+    "name": "Kata Typographic Rhythm",
+    "mechanism_source": "martial arts",
+    "target_domain": "typography",
+    "mechanism": "Kata encode combat sequences as rhythmic patterns of tension and release, with prescribed breathing and tempo changes",
+    "application": "Typographic page design follows kata-like rhythm — the reader's eye moves through sequences of tension (dense text blocks, heavy headings) and release (white space, pull quotes) in patterns that can be choreographed for specific cognitive effects. A page designed with martial rhythm creates a reading experience that alternates engagement and recovery in patterns that match attentional capacity. Poor typography is like a kata with no breathing marks.",
+    "prediction": "Page layouts designed using tension-release ratios derived from classical martial arts kata timing will produce measurably higher comprehension and reading satisfaction scores than layouts optimized by conventional typographic grids alone.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Dramatic Business Cycles",
+    "mechanism_source": "theater",
+    "target_domain": "economics",
+    "mechanism": "Three-act dramatic structure creates narrative momentum through setup, confrontation, and resolution with rising and falling action",
+    "application": "Business cycles follow three-act dramatic structure more faithfully than sinusoidal models suggest. Act I (expansion) establishes characters and stakes; Act II (peak and crisis) introduces the antagonist (overvaluation, debt overhang) and complications; Act III (recession and recovery) resolves through catharsis. Market participants are simultaneously audience and actors, and their narrative expectations about which act they're in shape their behavior. This explains why cycles have asymmetric durations — Act II is always shorter than Act I.",
+    "prediction": "Sentiment analysis of financial media will reveal act-structure markers (rising complication density, antagonist identification, resolution language) that predict cycle phase transitions 2-4 months earlier than leading economic indicators.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Dead Reckoning Morphogenesis",
+    "mechanism_source": "navigation",
+    "target_domain": "biology",
+    "mechanism": "Dead reckoning calculates current position by advancing a known position using estimated speed, heading, and elapsed time without external reference",
+    "application": "Migrating cells during embryonic development navigate by dead reckoning — they compute their position from an initial known location using internally estimated speed and heading, accumulating positional error over distance. Morphogen gradients function not as GPS but as periodic position fixes that correct accumulated dead reckoning drift. This explains why long-range cell migration is noisier than short-range: dead reckoning error accumulates, and correction signals attenuate with distance.",
+    "prediction": "Embryonic cells migrating beyond the effective range of morphogen gradient correction will show positional variance that increases quadratically with migration distance, matching the error accumulation profile of dead reckoning navigation.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Harmonic Stratigraphy",
+    "mechanism_source": "geology",
+    "target_domain": "music",
+    "mechanism": "Stratigraphic unconformities record missing time — erosion surfaces where expected layers are absent, indicating periods of removal rather than deposition",
+    "application": "Musical compositions contain harmonic unconformities — moments where expected chord progressions are absent, and the listener experiences a gap in the harmonic stratigraphy. These unconformities are not silence but evidence of compositional erosion, where the composer has stripped away expected material to expose deeper structural layers. Jazz improvisers who play unconformities — deliberately omitting expected notes to reveal the bedrock — create the musical equivalent of a dramatic canyon exposing geological time.",
+    "prediction": "Listeners' neural surprise responses (measured by MMN amplitude) to harmonically unconformable passages will be qualitatively distinct from responses to simple silence or dissonance, showing a pattern consistent with temporal gap detection rather than expectation violation.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Tidal Load Architecture",
+    "mechanism_source": "oceanography",
+    "target_domain": "architecture",
+    "mechanism": "Tidal forces create rhythmic, bidirectional loading patterns that shape coastlines through cyclic erosion and deposition",
+    "application": "Buildings experience tidal-like cyclic loading from daily thermal expansion, occupancy-driven live loads, and wind pattern diurnal cycles. Designing for these tidal forces — rather than treating them as static loads with safety factors — could produce structures that flex and recover like tidal coastlines rather than rigidly resisting. Tidal architecture would incorporate sacrificial deposition zones that absorb cyclic damage and self-repair through designed material migration.",
+    "prediction": "Structures designed with sacrificial tidal-deposition zones at high-cyclic-stress points will show 30-40% longer service life under thermal cycling than conventionally designed structures of equivalent material cost.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Diagnostic Pantheons",
+    "mechanism_source": "medicine",
+    "target_domain": "mythology",
+    "mechanism": "Differential diagnosis systematically narrows possibilities by testing distinguishing features between candidate conditions",
+    "application": "Mythological pantheons can be analyzed through differential diagnosis — treating conflicting deity attributes across source texts not as contradictions but as diagnostic criteria that distinguish regional cult variants. Just as chest pain differentiates between cardiac and pulmonary causes through associated symptoms, a thunder deity's associated animals, ritual calendar, and epithets differentiate between local manifestations. This produces a diagnostic key for mythological attribution that resolves long-standing scholarly disputes.",
+    "prediction": "Applying differential diagnostic algorithms to contested deity identifications in ancient Near Eastern texts will produce attributions that agree with subsequent archaeological evidence at a higher rate than traditional philological methods.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Encrypted Succession Ecology",
+    "mechanism_source": "cryptography",
+    "target_domain": "ecology",
+    "mechanism": "Public-key cryptography allows encrypted communication where the encryption key is public but the decryption key remains private",
+    "application": "Ecological succession operates on a public-key principle: pioneer species broadcast public chemical and structural signals (nitrogen fixation, shade creation) that any organism can detect, but only species holding the correct private key — the right enzymatic toolkit, symbiotic partnerships, or phenological timing — can decrypt these signals into successful colonization. This explains why succession is directional but not deterministic: the public keys are universal, but private key distribution varies by regional species pool.",
+    "prediction": "Restoration ecology projects that deliberately sequence pioneer species to broadcast specific public chemical signals will achieve target community assembly 25-35% faster when the regional species pool contains organisms with matching metabolic decryption capabilities.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Catalytic Curriculum",
+    "mechanism_source": "pedagogy",
+    "target_domain": "chemistry",
+    "mechanism": "Scaffolded instruction provides temporary support structures that are removed as learner competence increases",
+    "application": "Chemical catalysts function as molecular scaffolds — they temporarily lower activation energy barriers for reactions, then release the products unchanged, exactly as pedagogical scaffolding temporarily lowers cognitive barriers and then withdraws. Designing catalysts with pedagogical principles — staged support removal, zone of proximal development for reaction intermediates — could produce catalysts that guide multi-step reactions through staged energy landscapes rather than simply lowering a single barrier.",
+    "prediction": "Multi-step catalytic systems designed with sequential scaffold-removal logic (each intermediate catalyst activates the next and deactivates itself) will show higher selectivity for target products in complex organic synthesis than single-catalyst approaches.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Statutory Choreography",
+    "mechanism_source": "law",
+    "target_domain": "dance",
+    "mechanism": "Legal statutes constrain behavior through defined boundaries, permitted actions, and enumerated exceptions",
+    "application": "Contact improvisation operates within a statutory framework — unwritten but enforced rules about weight sharing, consent signals, and spatial boundaries that constrain the movement vocabulary while enabling creative expression within those bounds. Making these implicit statutes explicit and studying how they evolve through precedent (memorable performances that expand what's permitted) would formalize the legal structure of improvised dance. Violations produce the dance equivalent of litigation — post-performance disputes about boundary crossing.",
+    "prediction": "Contact improvisation communities with explicitly codified movement statutes will show measurably lower injury rates and higher performer satisfaction scores than communities relying on purely implicit norms, without reduction in creative diversity ratings.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Dialectical Permaculture",
+    "mechanism_source": "philosophy",
+    "target_domain": "agriculture",
+    "mechanism": "Hegelian dialectics progress through thesis-antithesis-synthesis, where contradictions drive development toward higher integration",
+    "application": "Soil health evolves dialectically: a monoculture thesis generates its antithesis (pest pressure, nutrient depletion), and the synthesis is a polyculture that integrates the productive capacity of the original crop with the corrective pressures of its antagonists. Each dialectical cycle produces soil of higher organizational complexity. Industrial agriculture's error is arresting the dialectic at the thesis stage through chemical intervention, preventing the contradiction that drives synthesis.",
+    "prediction": "Farms transitioning from monoculture through a deliberate dialectical sequence (introducing antagonist species before synthesizing polyculture) will achieve stable polyculture yields 1-2 seasons faster than farms attempting direct monoculture-to-polyculture conversion.",
+    "viability": "speculative",
+    "confidence": 0.56
+  }
+]

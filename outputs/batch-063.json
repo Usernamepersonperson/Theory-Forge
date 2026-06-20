@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Tidal Resonance Governance",
+    "mechanism_source": "oceanography",
+    "target_domain": "political science",
+    "mechanism": "tidal resonance amplification in semi-enclosed basins",
+    "application": "Political movements in geographically or culturally semi-enclosed communities can experience resonance effects where moderate external pressure amplifies internal oscillations disproportionately. The basin geometry analogy predicts that mid-sized, partially connected polities are most vulnerable to populist amplitude spikes, not the most isolated or most open ones.",
+    "prediction": "Countries with moderate trade openness (30-60% GDP) will show higher variance in populist vote share over 20-year periods than either highly open or highly closed economies.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Trickster Diffusion Protocol",
+    "mechanism_source": "folklore",
+    "target_domain": "computer science",
+    "mechanism": "the trickster archetype's boundary-crossing and rule-breaking as a catalyst for systemic change",
+    "application": "In distributed systems, introducing deliberate rule-violating agents (trickster nodes) that randomly break protocol conventions can expose hidden fragilities and force more robust consensus mechanisms to evolve. These nodes act like folklore's Coyote or Anansi, revealing the unstated assumptions holding a system together by transgressing them.",
+    "prediction": "Distributed systems subjected to controlled protocol-violating nodes during testing will discover 25-40% more edge-case failures than standard fuzzing approaches targeting the same codebase.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Warp-Weft Organizational Tension",
+    "mechanism_source": "textiles",
+    "target_domain": "management science",
+    "mechanism": "the perpendicular tension between warp and weft threads creating structural integrity",
+    "application": "Organizations require two perpendicular systems of accountability — vertical (hierarchical reporting) and horizontal (cross-functional collaboration) — held in deliberate tension. Like a textile that unravels when either thread system dominates, organizations that over-index on either hierarchy or flat collaboration lose structural coherence. The selvedge edge, where weft turns back, maps to boundary-spanning roles that prevent organizational fraying.",
+    "prediction": "Companies that eliminate middle management (reducing warp tension) will experience a measurable increase in cross-departmental project failure rates within 18 months, reversible by reintroducing boundary-spanning coordinator roles.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Nash Equilibrium Crop Rotation",
+    "mechanism_source": "game theory",
+    "target_domain": "agriculture",
+    "mechanism": "mixed strategy Nash equilibria where randomization outperforms fixed strategies",
+    "application": "Farmers facing unpredictable pest and disease pressure should adopt game-theoretic mixed strategies in crop rotation rather than fixed rotation schedules. By treating the soil-pest ecosystem as a repeated game and randomizing planting sequences according to computed equilibrium probabilities, farmers deny pests the predictability they exploit for population buildup.",
+    "prediction": "Fields managed with game-theoretically randomized crop rotations will show 15-25% lower cumulative pest damage over a 5-year period compared to fixed 3-year rotation schedules in the same region.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Quench Hardening of Habits",
+    "mechanism_source": "metallurgy",
+    "target_domain": "behavioral psychology",
+    "mechanism": "rapid cooling (quenching) traps metal in a metastable, hardened crystalline state",
+    "application": "Behavioral habits formed under sudden environmental change (job loss, relocation, crisis) become 'quench-hardened' — locked into rigid patterns that resist later modification. Just as quenched steel is hard but brittle, crisis-formed habits are persistent but prone to catastrophic failure under stress. Therapeutic 'tempering' through gradual, controlled re-exposure can restore flexibility.",
+    "prediction": "Habits formed during acute life disruptions (measured within 30 days of the event) will require significantly more repetitions to extinguish via behavioral intervention than habits formed during stable periods, with the ratio exceeding 1.5x.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Red Giant Institutional Expansion",
+    "mechanism_source": "astronomy",
+    "target_domain": "organizational theory",
+    "mechanism": "stellar core contraction causing outer envelope expansion in red giant phase",
+    "application": "As an organization's core mission contracts or becomes exhausted, its peripheral activities paradoxically expand — the institution bloats outward into adjacent domains while its central purpose hollows out. Universities adding luxury amenities while core teaching suffers, or hospitals expanding wellness brands while ER capacity shrinks, mirror the red giant's physics of core collapse driving envelope inflation.",
+    "prediction": "Organizations whose core revenue stream declines by more than 20% over 5 years will show a statistically significant increase in the number of new peripheral business lines launched, compared to organizations with stable core revenue.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Le Chatelier Policy Resistance",
+    "mechanism_source": "chemistry",
+    "target_domain": "public policy",
+    "mechanism": "Le Chatelier's principle — systems at equilibrium resist perturbation by shifting to counteract the change",
+    "application": "Policy interventions that push a social system away from its equilibrium will trigger compensatory reactions that partially or fully offset the intended effect. Rent control reduces supply; prohibition creates black markets. Effective policy design must anticipate the equilibrium shift direction and either work with it or apply sustained pressure exceeding the system's counteracting capacity.",
+    "prediction": "Price control policies implemented without supply-side subsidies will result in quantity supplied falling to within 85% of pre-intervention equilibrium within 3 years, measured across at least 10 comparable municipal implementations.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Kata Choreography for Surgical Training",
+    "mechanism_source": "martial arts",
+    "target_domain": "medical education",
+    "mechanism": "kata as formalized movement sequences encoding tactical principles through embodied repetition",
+    "application": "Surgical training could adopt the martial arts kata model: fixed sequences of instrument movements that encode operative principles, practiced until automatic. Unlike current apprenticeship models, surgical kata would standardize the motor vocabulary, allowing trainees to internalize complex procedures as composed sequences of mastered sub-movements before encountering live tissue.",
+    "prediction": "Surgical trainees who practice standardized instrument-movement kata for 50 hours will achieve proficiency benchmarks on simulated procedures 30% faster than trainees with equivalent hours of unstructured simulation practice.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Dramaturgical Debt",
+    "mechanism_source": "theater",
+    "target_domain": "software engineering",
+    "mechanism": "dramaturgical arc — setup, rising action, climax, resolution — as structural debt when acts are skipped",
+    "application": "Software projects accumulate 'dramaturgical debt' when they skip narrative stages: launching features without setup (documentation), building complexity without rising action (incremental releases), or deploying without resolution (post-mortems). Teams that skip acts create systems whose users and maintainers lack the narrative context to understand them, analogous to an audience dropped into Act III.",
+    "prediction": "Software projects that skip incremental release stages (shipping large monolithic updates) will have 40% higher rates of user-reported confusion bugs in the first month compared to projects releasing the same features incrementally.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Dead Reckoning Strategic Planning",
+    "mechanism_source": "navigation",
+    "target_domain": "business strategy",
+    "mechanism": "dead reckoning — estimating current position from last known position plus velocity and heading",
+    "application": "Strategic planning in data-poor environments can adopt dead reckoning: starting from the last reliable market position, projecting forward using estimated velocity (growth rate) and heading (strategic direction), then correcting with periodic position fixes (market research). The key insight is that dead reckoning error grows with time, so organizations must schedule correction points rather than trusting long-range projections.",
+    "prediction": "Strategic plans updated quarterly with market-data corrections will outperform annual plans on 3-year revenue targets by at least 12%, measured across a portfolio of 50+ business units.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Stratigraphic Knowledge Layering",
+    "mechanism_source": "geology",
+    "target_domain": "pedagogy",
+    "mechanism": "stratigraphic superposition — younger layers deposit atop older ones, with unconformities marking gaps",
+    "application": "Learning follows geological deposition: new knowledge layers settle on existing ones, and gaps in foundational understanding create unconformities that destabilize everything above. Diagnostic assessments should map a student's stratigraphic column, identifying unconformities (missing prerequisite knowledge) that explain surface-level failures in advanced topics.",
+    "prediction": "Students whose prerequisite knowledge gaps (unconformities) are identified and remediated before advancing will show 20% higher retention of advanced material at 6-month follow-up compared to students who receive only forward-looking instruction.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Typographic Rivers in Data Visualization",
+    "mechanism_source": "typesetting",
+    "target_domain": "data science",
+    "mechanism": "typographic rivers — unintentional white-space channels that form through justified text",
+    "application": "Data visualizations suffer from analogous 'rivers': unintentional visual channels created by aligned gaps, missing values, or regular spacing artifacts that draw the eye toward spurious patterns. Just as typesetters learned to detect and break up rivers, data visualization designers should scan for alignment artifacts that create false visual narratives in scatter plots, heat maps, and time series.",
+    "prediction": "Viewers shown scatter plots with artificially introduced alignment artifacts will report perceiving correlations at rates 30% higher than viewers shown the same data with jittered positioning, even when no actual correlation exists.",
+    "viability": "speculative",
+    "confidence": 0.61
+  },
+  {
+    "name": "Ship of Theseus Identity Versioning",
+    "mechanism_source": "philosophy",
+    "target_domain": "intellectual property law",
+    "mechanism": "the Ship of Theseus paradox — identity persistence through gradual component replacement",
+    "application": "Software products that undergo complete code replacement over years while maintaining the same brand raise Ship of Theseus questions for patent and copyright law. If every line of code has been rewritten, does the original copyright still apply? This framework proposes a 'planking threshold' — the percentage of original components that must remain for legal identity continuity.",
+    "prediction": "Courts adjudicating software copyright disputes where more than 90% of original code has been replaced will rule in favor of the challenger (finding insufficient originality) at higher rates than disputes where less than 50% has been replaced.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Raku Crackle Innovation",
+    "mechanism_source": "ceramics",
+    "target_domain": "entrepreneurship",
+    "mechanism": "raku firing's thermal shock creates unpredictable crackle patterns that become the artwork's value",
+    "application": "Startups that undergo rapid environmental shocks (market pivots, funding crises, team upheaval) develop 'crackle patterns' — unique structural adaptations that become their competitive advantage. Like raku pottery where the cracks are the art, the scars of near-failure create distinctive organizational capabilities that planned development cannot replicate.",
+    "prediction": "Startups that survived at least one existential crisis in their first 3 years will show higher product differentiation scores (measured by customer-perceived uniqueness surveys) than startups with smooth growth trajectories in the same market.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Abyssal Plain Consensus",
+    "mechanism_source": "oceanography",
+    "target_domain": "conflict resolution",
+    "mechanism": "abyssal plain formation — vast flat regions created by sediment burying underlying topography",
+    "application": "Intractable conflicts can reach resolution not by resolving the underlying disagreements but by burying them under accumulated layers of shared mundane cooperation — trade agreements, cultural exchanges, infrastructure projects. Like ocean sediment smoothing out the rugged mid-ocean ridge topography, enough accumulated cooperative sediment makes the original conflict terrain functionally irrelevant even though it still exists underneath.",
+    "prediction": "Post-conflict regions where bilateral trade volume exceeds pre-conflict levels by 200% will show lower recurrence of armed conflict within 15 years than regions receiving equivalent total aid but with trade below pre-conflict levels.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

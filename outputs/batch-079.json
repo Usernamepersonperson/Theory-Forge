@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Lichenous Constitutionalism",
+    "mechanism_source": "mycology",
+    "target_domain": "democratic theory",
+    "mechanism": "Lichen is not a single organism but a stable mutualism between fungal and photosynthetic partners, each contributing metabolic functions the other cannot perform alone; dissolution of either partner collapses the composite entity entirely.",
+    "application": "Constitutional democracies can be modeled as obligate mutualisms between structural partners — civil society, independent judiciary, free press, and electoral mechanisms — none of which is sovereign alone but each of which provides functions the others cannot supply. Just as mycobiont and photobiont negotiate nutrient exchange through hyphal interfaces, constitutional actors negotiate authority through procedural interfaces like judicial review and legislative override. Regime decay, on this model, resembles mycobiont overgrowth: one partner extracting resources from the mutualism without reciprocating until the composite collapses into a non-living substrate.",
+    "prediction": "Democracies in which one constitutional partner (e.g., executive) grows to dominate resource flows — measured by budget control, appointment authority, or regulatory capture — will show accelerated degradation of the remaining partners within two electoral cycles, analogous to mycobiont overgrowth rates in lichen under nitrogen stress.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Ballast Neurodynamics",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "psychopharmacology",
+    "mechanism": "A vessel's stability depends not just on total ballast mass but on its longitudinal and transverse distribution relative to the center of buoyancy; trim — the differential draft fore and aft — must be actively managed as cargo load shifts to prevent dangerous list or pitch.",
+    "application": "Polypharmacy in psychiatric treatment can be modeled as ballast management: individual drug classes (SSRIs, antipsychotics, mood stabilizers, anxiolytics) each shift the neurochemical center of gravity, and their combined trim must be continuously adjusted as the patient's 'cargo' — stress load, sleep, hormonal state — changes. An SSRI that provides level trim under low-stress conditions may produce dangerous forward pitch (activation syndrome) when the patient's baseline arousal rises. Dose titration protocols that treat each drug independently, ignoring the composite trim state, are analogous to ballasting without consulting the vessel's loading calculator.",
+    "prediction": "Patients whose medication regimens are optimized using a composite neurochemical 'trim score' — weighting sedating versus activating agents relative to diurnal arousal baseline — will show lower rates of treatment-emergent adverse events than those whose dosing is adjusted drug-by-drug in sequence.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Epistemic Exchange Residue Theory",
+    "mechanism_source": "forensics",
+    "target_domain": "epistemology",
+    "mechanism": "Locard's exchange principle holds that every contact between two surfaces leaves a bidirectional trace: the criminal carries away material from the scene and deposits material upon it, making perfect non-contact impossible at the physical interface.",
+    "application": "Every genuine epistemic encounter — reading a text, attending a lecture, engaging in dialogue — alters both the knower and the known-object's social meaning; the reader is changed by the text, but the text's cultural interpretation is also altered by the reader's subsequent commentary, citation, and application. Epistemic exchange residue accumulates in the form of marginalia, citations, refutations, and popularizations that coat the original claim and make recovery of its 'pristine' original meaning forensically difficult. This reframes the problem of interpretation not as discovering authorial intent but as processing a crime scene in which every prior reader has left trace evidence.",
+    "prediction": "Texts that have passed through more documented readers (higher citation and commentary density) will show greater interpretive variance in controlled reading studies than texts of equivalent complexity with sparse reception histories, measurable as inter-rater disagreement on central claim identification.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Bowenian Narrative Differentiation",
+    "mechanism_source": "volcanology",
+    "target_domain": "creative writing",
+    "mechanism": "Bowen's reaction series describes how a single undifferentiated magma crystallizes into progressively distinct mineral phases as it cools, with early high-temperature minerals reacting with or separating from the melt to yield ever more compositionally extreme residuals.",
+    "application": "A narrative can be modeled as a magma body: the initial premise is compositionally undifferentiated, containing latent potential for many story types, but as the writer makes early structural decisions (POV, tense, inciting incident), high-temperature narrative minerals crystallize out, constraining what the remaining melt can become. The final chapters are the most differentiated residual — the most distinctive and irreversible expression of choices made early in crystallization. Writers who attempt to change genre or tone late in a manuscript are attempting to re-melt minerals that have already fractured from the sequence, producing hybrid rocks that petrographers and readers alike find compositionally incoherent.",
+    "prediction": "Manuscripts with documented early structural commitments (genre, POV, temporal structure fixed before chapter five) will receive higher coherence ratings from blind reviewers than manuscripts where these elements were revised late, independent of prose quality scores.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Firn Consolidation Memory Model",
+    "mechanism_source": "glaciology",
+    "target_domain": "memory consolidation",
+    "mechanism": "Firn is the intermediate stage between fresh snow and glacial ice: partially compacted, still permeable to air, not yet fully bonded at crystal interfaces; over years, pressure and recrystallization close the air channels and lock atmospheric samples into discrete ice laminae that preserve chemical and isotopic records with high fidelity.",
+    "application": "Newly encoded memories exist in a firn-like state — partially consolidated, still permeable to interference and recontextualization, not yet bound into the dense laminar structure of long-term storage. Sleep-dependent consolidation is the pressure and recrystallization process that closes the 'air channels' of working-memory interference and fuses episodic details into stable declarative ice. The resulting memory trace, like an ice core, preserves a record that is highly faithful but also compressed and chemically transformed — the original experiential resolution is irreversibly lost even as the informational record is made durable.",
+    "prediction": "Memories encoded under conditions that interrupt the firn-to-ice transition (high post-encoding interference, sleep deprivation) will show not merely weaker recall but systematically higher false-detail insertion rates, as unfused crystal boundaries allow intrusion from adjacent memory laminae.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Bivouac Bridge Traffic Protocol",
+    "mechanism_source": "entomology",
+    "target_domain": "urban traffic engineering",
+    "mechanism": "Army ant columns construct living bridges by having workers anchor themselves at bottleneck points, holding their bodies as structural elements while the colony flows over them; bridge dimensions self-regulate to the point where the traffic benefit of widening is offset by the cost of removing worker-ants from productive foraging.",
+    "application": "Urban traffic networks can be redesigned using bivouac bridge logic: instead of fixed-geometry lane configurations, certain nodes (on-ramps, merge points, interchange connectors) are staffed by adaptive infrastructure — variable lane markings, movable barriers, signal agents — that widen or contract based on real-time throughput optimization rather than static peak-flow estimates. The army ant model predicts a specific equilibrium width for each bottleneck as a function of colony (city) size and resource gradient, giving traffic engineers a theoretical target rather than a heuristic one. Crucially, the model also specifies when NOT to widen: bridges that are too wide relative to foraging returns cause net colony loss, analogous to induced demand degrading overall network efficiency.",
+    "prediction": "Adaptive merge-point control systems designed to reach the ant-predicted equilibrium width — closing lanes when marginal throughput gain drops below worker-maintenance cost equivalent — will reduce induced-demand overshoot by a measurable factor compared to conventional demand-responsive widening.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Asperity Contact Negotiation Theory",
+    "mechanism_source": "tribology",
+    "target_domain": "diplomacy",
+    "mechanism": "In tribology, nominal contact area between two surfaces is always far larger than real contact area — actual load is borne only by asperities, microscopic peaks that touch across an otherwise separated interface; friction and wear are determined by asperity properties, not by the apparent geometric boundary.",
+    "application": "In diplomatic negotiations, the nominal scope of a treaty (territorial, economic, military) constitutes the apparent contact area — the full geometric boundary of declared mutual interest — while real negotiating contact occurs only at asperities: the narrow set of issues where both parties' domestic constraints, red lines, and genuine interests physically meet. Skilled negotiators are tribologists: they identify and work the asperities rather than trying to engage the full nominal surface, because the load (political will) is always concentrated at those few points of true contact. Attempting to negotiate the full nominal surface simultaneously distributes the load so thinly across non-contacting regions that no productive friction — no binding agreement — is generated.",
+    "prediction": "Negotiation processes that begin by mapping asperity contact points (via pre-negotiation interest surveys identifying highest-constraint issues for each party) will reach binding agreement in fewer sessions than processes that proceed issue-by-issue through the full nominal agenda, at equivalent geopolitical stakes.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Bunraku Alignment Architecture",
+    "mechanism_source": "puppetry",
+    "target_domain": "AI alignment",
+    "mechanism": "Bunraku puppetry requires three operators per puppet: the principal operator controls the head and right arm, a second controls the left arm, and a third controls the legs; operators train together for years to achieve seamless movement, with explicit role hierarchy and non-verbal coordination protocols preventing conflict.",
+    "application": "AI alignment can be structured as a multi-operator bunraku system: a primary principal (the model developer) controls high-level value encoding and capability constraints; a secondary operator (the deploying organization) controls context-specific behavioral adaptation; a tertiary operator (the end user) controls immediate task direction — each with defined scope and yield protocols when their instructions conflict. The bunraku model explains why single-operator alignment (training alone, or RLHF alone) produces a puppet that moves jerkily in deployment: the legs and arms are not coordinated with the head because no three-party rehearsal was built into the process. It also predicts that misalignment events occur most frequently at role-boundary handoffs, not within any single operator's domain of control.",
+    "prediction": "AI systems deployed with explicit three-tier operator hierarchy (developer, deployer, user) and formalized role-yield protocols will exhibit fewer value-conflict refusal failures than systems with equivalent training but undifferentiated instruction authority, measurable in adversarial red-teaming scenarios.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Mint Mark Reputation Assay",
+    "mechanism_source": "numismatics",
+    "target_domain": "reputation systems",
+    "mechanism": "Medieval and early modern coinage bore mint marks identifying the issuing mint and assay master, allowing metallurgical analysis of fineness failures to be traced to specific issuing authorities; the assay mark was a cryptographic attestation of metal content that persisted on the coin through its entire circulation life.",
+    "application": "Digital reputation systems can implement mint mark logic by requiring all reputation-generating actions to carry a persistent provenance attestation — identifying not just the actor but the context, protocol version, and verification authority under which the reputation event was certified. Current reputation systems treat reputation points as bullion: accumulated mass with no persistent record of origin or assay conditions, making debasement (reputation laundering, context collapse) impossible to detect. A mint-marked reputation system allows downstream recipients to inspect the assay history of a reputation score, discounting points minted under lax verification conditions just as medieval merchants applied haircuts to coins from historically debased mints.",
+    "prediction": "Reputation systems that expose mint-mark provenance data (source context, verification method, issuing protocol version) will show lower rates of reputation manipulation in adversarial conditions than point-aggregation systems of equal total score range, because manipulation becomes traceable to specific assay failures.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Index Fossil Codebase Stratigraphy",
+    "mechanism_source": "paleontology",
+    "target_domain": "codebase archaeology",
+    "mechanism": "Index fossils are taxa with wide geographic distribution, short temporal range, and high preservation probability that allow geologists to correlate and date rock strata across disconnected outcrops; their presence constrains the age of the surrounding stratum without requiring continuous sedimentary record.",
+    "application": "Legacy codebases accumulate stratigraphic layers of dependency vintages, idiom styles, and API generations that can be dated using index fossil equivalents: specific library versions, deprecated syntax constructs, or characteristic error-handling patterns that were introduced and abandoned within narrow historical windows. A codebase archaeologist can correlate modules across a repository — determining that two disconnected files were written in the same development epoch — by identifying shared index fossils like a specific ORM migration pattern or a now-obsolete async paradigm. This allows technical debt mapping without access to version control history, analogous to correlating outcrops where the sedimentary record was eroded.",
+    "prediction": "Automated codebase analysis tools trained to identify dated-construct index fossils will achieve higher epoch-attribution accuracy on codebases with corrupted or absent version history than tools using authorship metadata alone, with accuracy degrading predictably at stratigraphic unconformities (rewrites, migrations).",
+    "viability": "promising",
+    "confidence": 0.81
+  },
+  {
+    "name": "Olfactory Pyramid Insight Architecture",
+    "mechanism_source": "perfumery",
+    "target_domain": "data science presentation",
+    "mechanism": "Perfumes are structured as olfactory pyramids: top notes are volatile, immediately perceptible, and dissipate within minutes; heart notes emerge as top notes fade and define the fragrance's character; base notes are the slowest to volatilize, least perceptible initially, but most durable and determine the fragrance's lasting impression.",
+    "application": "Data science presentations can be structured as olfactory pyramids, deliberately calibrating insight volatility to audience attention decay: top-note findings are immediately striking, easily communicable in one sentence, and designed to capture attention in the first two minutes before evaporating from working memory; heart-note findings are the core analytic claims, delivered as top notes fade, requiring more cognitive hold time; base-note findings are the durable methodological and structural insights that sophisticated stakeholders carry out of the room and that shape decisions for months. Most data presentations invert this pyramid, leading with base notes (methodology, data provenance) and losing the audience before the top notes can land.",
+    "prediction": "Presentations structured as olfactory pyramids (top notes first, base notes last) will produce higher stakeholder recall of core analytic claims at 48-hour follow-up than matched presentations structured as inverted pyramids (methodology-first), at equivalent content density.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "False Ring Career Chronology",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "career counseling",
+    "mechanism": "Tree rings are annual growth records, but false rings — intra-annual density fluctuations caused by drought followed by late-season moisture — can mimic true annual boundaries and inflate apparent ring counts; missing rings occur when stress was so severe that no cambial growth occurred, creating gaps that compress apparent age.",
+    "application": "Career timelines exhibit dendrochronological anomalies: false rings appear as years of apparent productivity that were actually mid-year resets — a failed startup counted as a founding year, a lateral move treated as career advancement — while missing rings represent years of invisible consolidation where no external credential was earned but deep capability growth occurred. Career counselors who read only the nominal ring count (years of experience, job titles) systematically misdate the individual's developmental stratum, just as dendrochronologists who skip cross-dating against reference chronologies misassign core ages. Cross-dating against behavioral and competency evidence, not just credential timestamps, allows accurate identification of false and missing career rings.",
+    "prediction": "Career assessments that incorporate cross-dating against competency evidence (skills demonstrations, peer evaluations, project outcomes) will predict future performance more accurately than assessments based on credential chronology alone, with the performance gap largest for candidates whose timelines contain identified false or missing rings.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Legend Grounding Ontology Protocol",
+    "mechanism_source": "cartography",
+    "target_domain": "ontology engineering",
+    "mechanism": "A cartographic map legend is a formal symbol grounding system: it assigns each visual token (color, line style, icon) a semantics anchored in a defined class of real-world features, establishing the semiotic contract that makes the map readable by any agent trained on the legend rather than the territory.",
+    "application": "Ontology engineering faces the symbol grounding problem — ensuring that formal class names and property labels pick out stable real-world referents rather than drifting through use into ambiguity — and can adopt cartographic legend construction as a methodology. Each ontological class should be grounded through a legend entry specifying: a canonical visual or verbal exemplar (the equivalent of map color), a boundary criterion (what distinguishes this class from adjacent classes), and a terrain type it is NOT applicable to (the cartographic equivalent of 'this symbol does not appear on nautical charts'). Ontologies built without explicit legend protocols suffer the equivalent of a map where blue means river in one quadrant and administrative boundary in another.",
+    "prediction": "Ontologies constructed with explicit legend-grounding protocols — canonical exemplars, boundary criteria, and non-applicability domains for each class — will show lower inter-annotator disagreement on instance classification tasks than structurally equivalent ontologies documented only through natural language definitions.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Wrack Line Attention Concentration",
+    "mechanism_source": "tidal ecology",
+    "target_domain": "attention economics",
+    "mechanism": "The wrack line is the deposit of organic material left at the upper tidal limit as water retreats; though representing a small fraction of beach area, it concentrates nutrients, seeds, invertebrates, and detritus at a predictable linear boundary, making it a disproportionately productive foraging zone for shorebirds and insects.",
+    "application": "In attention economies, wrack lines form at the retreating boundary of viral events — the 24-to-72-hour window after peak media attention withdraws — where concentrated residual engagement, secondary commentary, and practical-application content accumulates and becomes accessible to smaller creators without competing against the peak wave. Audiences who forage the wrack line (joining a discourse at the post-peak consolidation phase) encounter higher-nutrient content at lower attention cost than those competing at the high-tide front of breaking news. Platform algorithms that fail to surface wrack-line content systematically waste the nutrient concentration that viral events deposit, analogous to raking a beach clean before shorebirds can forage.",
+    "prediction": "Content published in the wrack-line window (24-72 hours post-viral-peak on a topic) will show higher engagement-per-impression ratios than content published at peak or more than one week post-peak, controllable for content quality, because the audience-to-competing-content ratio is maximally favorable at wrack-line timing.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Kawasaki Constraint Amendment Calculus",
+    "mechanism_source": "origami math",
+    "target_domain": "constitutional amendment",
+    "mechanism": "Kawasaki's theorem states that a flat origami crease pattern is foldable flat if and only if at every interior vertex, the alternating sum of sector angles equals zero (180° − 180°); this is a necessary local constraint that propagates globally, making some apparent crease patterns geometrically impossible regardless of how carefully the paper is folded.",
+    "application": "Constitutional amendment processes impose Kawasaki-like local constraints at each structural vertex — each clause, enumerated right, or institutional boundary — such that certain combinations of proposed amendments are collectively geometrically impossible: the paper cannot lie flat. An amendment that grants the executive unlimited emergency powers is locally admissible but violates the alternating-angle condition at the separation-of-powers vertex, producing a crease pattern that cannot be folded into a stable flat constitutional configuration. Constitutional scholars operating without a formal constraint calculus attempt to fold impossible crease patterns through iterative political pressure, which always results in either a permanent wrinkle (constitutional crisis) or a tear (regime rupture).",
+    "prediction": "Constitutional amendment proposals that pass a formal Kawasaki-analog constraint check — verifying that proposed changes satisfy alternating-angle conditions at all institutional-boundary vertices simultaneously — will show lower rates of downstream constitutional crisis (executive overreach, judicial nullification, legislative gridlock) than amendments that pass only textual and majoritarian review.",
+    "viability": "speculative",
+    "confidence": 0.52
+  }
+]

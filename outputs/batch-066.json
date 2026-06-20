@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Iterated Prisoner's Dilemma in Gut Microbiome Stability",
+    "mechanism_source": "game theory",
+    "target_domain": "gastroenterology",
+    "mechanism": "In iterated prisoner's dilemma, tit-for-tat strategies dominate because repeated interactions allow cooperation to emerge through reciprocity, punishment, and memory of past encounters",
+    "application": "Gut microbial communities maintain stability through iterated game-theoretic dynamics. Bacterial species that 'defect' (overconsuming shared nutrients, producing toxins) are punished in subsequent rounds through competitive exclusion by cooperative consortia. Antibiotic courses disrupt stability by resetting the iteration count to zero — eliminating the memory that sustained cooperation — allowing defector species (opportunistic pathogens) to dominate in the memoryless early rounds of recolonization.",
+    "prediction": "Post-antibiotic microbiome recovery will show an initial defector-dominated phase (high pathogen relative abundance) lasting 3-8 weeks before cooperative consortia re-emerge, and this transition timing will correlate with the number of surviving 'memory' species (those present pre- and post-antibiotic) with r > 0.5.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Trophic Cascade Governance in Content Moderation",
+    "mechanism_source": "ecology",
+    "target_domain": "social media regulation",
+    "mechanism": "Trophic cascades occur when removal of an apex predator triggers population explosions in mesopredators, which then overgraze primary producers, collapsing the entire ecosystem from the top down",
+    "application": "Content moderation ecosystems exhibit trophic cascades. Platform trust-and-safety teams function as apex predators controlling mesopredator populations (low-grade trolls, engagement-bait creators). Aggressive deplatforming of major bad actors without addressing mesopredator dynamics causes mesopredator release — a proliferation of minor-league toxic content that overgrazes productive discourse (primary producers). The ecosystem collapses not from the apex predators but from uncontrolled mesopredation.",
+    "prediction": "Platforms that ban top-tier bad actors without simultaneously increasing enforcement on mid-tier violators will see a measurable increase (>20%) in low-grade toxic content volume within 60 days, while platforms implementing graduated enforcement across all trophic levels will not.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Work Hardening in Relationship Resilience",
+    "mechanism_source": "metallurgy",
+    "target_domain": "couples therapy",
+    "mechanism": "Work hardening (strain hardening) increases a metal's yield strength through plastic deformation — dislocation density increases, and dislocations entangle to resist further deformation, making the material stronger but less ductile",
+    "application": "Long-term relationships undergo work hardening: each successfully navigated conflict introduces 'dislocations' (revised expectations, negotiated boundaries) that entangle to increase the relationship's yield strength — its ability to withstand future stress without permanent deformation. However, excessive hardening without annealing (periods of low-stress reconnection) makes relationships strong but brittle, capable of withstanding high loads but shattering catastrophically under novel stress types rather than deforming gracefully.",
+    "prediction": "Couples who report moderate conflict frequency with high resolution rates will score higher on relationship resilience measures than both low-conflict and high-unresolved-conflict couples, following an inverted-U curve with peak resilience at 2-4 resolved conflicts per month.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Stanislavski's Given Circumstances in UX Persona Design",
+    "mechanism_source": "theater",
+    "target_domain": "user experience design",
+    "mechanism": "Stanislavski's method requires actors to internalize the 'given circumstances' — the complete environmental, social, historical, and psychological context of a character — before any action becomes truthful and motivated",
+    "application": "UX personas fail when they describe demographics without given circumstances. Applying Stanislavski's method means each persona must include not just age and income but the complete contextual field: what happened right before they opened the app, what emotional state they carry from their commute, what their hands are doing, what noise surrounds them. Actions in the interface become 'truthful' only when designed for these full circumstances, not for demographic abstractions.",
+    "prediction": "UX teams that adopt given-circumstances persona methods (situational + emotional context) will produce interfaces that score 15%+ higher on task-completion rates in field studies compared to teams using demographic-only personas, with the gap widening for high-stress-context users.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Dead Reckoning Drift in Long-Term Strategic Planning",
+    "mechanism_source": "navigation",
+    "target_domain": "corporate strategy",
+    "mechanism": "Dead reckoning navigates by tracking heading and speed from a known starting point, accumulating positional error over time because small measurement inaccuracies compound without external reference correction",
+    "application": "Corporate strategic plans are dead reckoning systems: they project from a known current position using estimated heading (market direction) and speed (growth rate), but accumulated estimation error makes the projected position diverge from reality over time. Without celestial fixes — external reference points like market research, customer feedback, competitive analysis — strategic plans drift into fantasy. The critical insight is that drift is not a risk to be managed but a mathematical certainty that increases quadratically with planning horizon.",
+    "prediction": "Five-year strategic plans will show positional error (actual vs. projected market position) growing quadratically rather than linearly with time, and organizations that implement quarterly 'celestial fixes' (external reference recalibrations) will reduce terminal drift by 50%+.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Crop Rotation Logic in Creative Output",
+    "mechanism_source": "agriculture",
+    "target_domain": "artistic practice",
+    "mechanism": "Crop rotation prevents soil nutrient depletion by alternating crops with different nutrient demands and root architectures — legumes fix nitrogen that subsequent grain crops consume, while deep-rooted crops break up compaction left by shallow-rooted ones",
+    "application": "Creative practitioners who work exclusively in one medium or genre deplete their cognitive soil — the analogical, emotional, and experiential nutrients that feed creative output. Rotating between creative 'crops' (writing, visual art, music, physical craft) allows each practice to fix nutrients the others consume. Deep-rooted practices (long-form novel writing) break up compaction that shallow-rooted ones (social media content) create. Monoculture creative practice leads to the artistic equivalent of dust bowl collapse.",
+    "prediction": "Artists who formally rotate between 3+ distinct creative practices on a scheduled basis will self-report 25%+ fewer creative blocks and produce work rated as more original by blind reviewers compared to medium-specialist artists, controlling for total hours practiced.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Zero-Knowledge Proof Architecture in Therapeutic Disclosure",
+    "mechanism_source": "cryptography",
+    "target_domain": "psychotherapy",
+    "mechanism": "Zero-knowledge proofs allow one party to prove they possess information without revealing the information itself — the verifier becomes convinced of the claim's truth without learning the underlying secret",
+    "application": "Trauma therapy can adopt zero-knowledge proof structures for patients who cannot yet narrate their experiences. The patient proves to themselves and the therapist that they possess, have accessed, and can process traumatic material without having to fully disclose its content. Somatic markers, emotional responses, and behavioral changes serve as the proof transcript. This framework legitimizes body-based and non-verbal therapeutic approaches as rigorous zero-knowledge verification protocols rather than dismissing them as imprecise.",
+    "prediction": "Trauma patients offered zero-knowledge-structured therapy (proving processing without requiring narrative disclosure) will show equivalent PTSD symptom reduction to narrative-exposure therapy but with 40%+ lower dropout rates, particularly among patients with dissociative presentations.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Labanotation State Space in Robotic Assembly",
+    "mechanism_source": "dance",
+    "target_domain": "industrial robotics",
+    "mechanism": "Labanotation encodes human movement along three simultaneous dimensions — body part, direction, and duration — using a vertical staff that maps time to spatial position, enabling any possible human movement to be precisely notated and reproduced",
+    "application": "Industrial robot programming could adopt Labanotation's encoding scheme for assembly tasks. Current robot programming specifies endpoint coordinates, but Labanotation-inspired encoding would specify movement qualities — effort (weight, space, time, flow) alongside trajectory. This captures the difference between a robot arm that moves rigidly to a coordinate and one that approaches with appropriate force dynamics, enabling robots to handle fragile assemblies, variable-compliance materials, and human-collaborative tasks through movement-quality specification rather than pure geometry.",
+    "prediction": "Robots programmed with Laban-effort-encoded movement specifications will show 30%+ fewer breakage incidents with fragile components and 20%+ faster human-robot collaborative task completion compared to pure coordinate-trajectory programming.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Raku Thermal Shock Aesthetics in Crisis Leadership",
+    "mechanism_source": "ceramics",
+    "target_domain": "organizational leadership",
+    "mechanism": "Raku firing removes pottery from the kiln at peak temperature and subjects it to rapid cooling, thermal shock, and reduction atmosphere — the controlled catastrophe produces unique crackle patterns, metallic lusters, and carbon-trapped surfaces impossible to achieve through gradual cooling",
+    "application": "Crisis leadership can be understood through raku firing: leaders who are 'pulled from the kiln' of high-pressure situations and subjected to rapid environmental change develop unique capabilities (crackle patterns) impossible to cultivate through gradual professional development. The reduction atmosphere — the oxygen-starved post-crisis environment — creates metallic-luster competencies in improvisation and ambiguity tolerance. However, like raku, the piece must be structurally sound before the thermal shock or it shatters entirely.",
+    "prediction": "Leaders who experienced at least one acute organizational crisis within their first 5 years of leadership will score higher on ambiguity-tolerance and improvisational-leadership assessments than crisis-naive peers, but only if they had 2+ years of pre-crisis foundational leadership experience (the structural-soundness prerequisite).",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Stellar Nucleosynthesis of Institutional Complexity",
+    "mechanism_source": "astronomy",
+    "target_domain": "institutional economics",
+    "mechanism": "Stellar nucleosynthesis builds heavier elements through successive fusion stages — hydrogen to helium, helium to carbon, up to iron — with each stage requiring higher temperatures and yielding less energy, until iron fusion becomes endothermic and the star collapses",
+    "application": "Institutions fuse progressively heavier regulatory and procedural 'elements' through successive organizational stages. Early-stage institutions fuse simple hydrogen-like rules (basic contracts, handshake agreements) efficiently. As they mature, they synthesize heavier elements (compliance frameworks, audit procedures, cross-departmental review boards) requiring ever more organizational 'temperature' (management energy) per unit of productive output. The iron ceiling — the point where adding more procedural complexity consumes more energy than it produces — triggers institutional collapse or restructuring.",
+    "prediction": "Institutions can be classified by their nucleosynthetic stage, and those whose procedural-complexity growth rate exceeds their productivity growth rate (approaching the iron ceiling) will undergo restructuring events within 3-5 years, predictable from the ratio of compliance-staff growth to revenue growth.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Prodromal Symptom Recognition in Infrastructure Failure",
+    "mechanism_source": "medicine",
+    "target_domain": "civil engineering",
+    "mechanism": "Prodromal symptoms are early warning signs that precede the acute onset of disease — subtle, often dismissed changes that in retrospect clearly indicated the approaching crisis",
+    "application": "Infrastructure systems exhibit prodromal symptoms before catastrophic failure, but engineering inspection protocols focus on acute pathology (visible cracks, load exceedances) rather than prodromal patterns. Medical diagnostic reasoning — attending to subtle clusters of individually insignificant signs — could transform infrastructure monitoring. The prodromal phase of bridge failure might include changes in vibration frequency, minor drainage pattern shifts, and paint-cracking distributions that individually fall below alarm thresholds but collectively indicate approaching collapse.",
+    "prediction": "Infrastructure monitoring systems that aggregate sub-threshold anomalies using medical prodromal-recognition algorithms will detect impending failures 6-18 months earlier than threshold-based monitoring, with false-positive rates below 15% when using at least 5 independent sensor modalities.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Changeling Substitution in Data Poisoning Attacks",
+    "mechanism_source": "folklore",
+    "target_domain": "machine learning security",
+    "mechanism": "In European folklore, fairies steal human infants and replace them with changelings — superficially similar substitutes that pass casual inspection but exhibit alien behavior under close observation or stress",
+    "application": "Data poisoning attacks in machine learning are changeling substitutions: adversarial training examples that superficially resemble legitimate data (passing automated quality filters) but carry alien behavioral instructions that emerge only under specific conditions. The folklore detection methods map surprisingly well: changelings were revealed by subjecting them to unusual conditions (placing them near fire, offering them unusual food). Similarly, poisoned data points reveal themselves under distributional stress tests and out-of-domain probing that legitimate data tolerates but changelings cannot maintain their disguise through.",
+    "prediction": "Data validation pipelines that include 'changeling tests' — subjecting training examples to distributional perturbations and measuring behavioral consistency — will detect 60%+ more poisoned data points than statistical-outlier-based detection methods while maintaining comparable false-positive rates.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Warp Tension Dynamics in Supply Chain Resilience",
+    "mechanism_source": "textiles",
+    "target_domain": "logistics",
+    "mechanism": "In weaving, warp tension must be precisely maintained — too loose and the shed (the gap through which the shuttle passes) collapses, preventing weft insertion; too tight and threads snap under the stress of the beating action",
+    "application": "Supply chains require warp-tension management: the longitudinal threads (long-term supplier relationships) must maintain precise tension. Too-loose relationships (spot-market purchasing, no commitments) collapse the shed — the operational space through which goods flow — preventing efficient throughput. Too-tight relationships (exclusive contracts, zero inventory tolerance) snap under demand shocks. The loom's tension mechanism — constant adjustment via weighted beams — maps to dynamic contract structures that maintain working tension across demand cycles.",
+    "prediction": "Supply chains using dynamic-tension contracts (price bands, flexible volume commitments, graduated exclusivity) will show 25%+ fewer disruption-days per year than those using either pure spot-market or pure fixed-contract procurement strategies.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Doctrine of Laches in Technical Debt Management",
+    "mechanism_source": "law",
+    "target_domain": "software engineering",
+    "mechanism": "The doctrine of laches bars legal claims when the plaintiff's unreasonable delay in asserting rights has prejudiced the defendant — the right existed, but waiting too long to enforce it forfeits it",
+    "application": "Technical debt claims in software organizations follow laches dynamics: engineering teams that identify architectural problems but unreasonably delay remediation lose the practical ability to fix them. The delay itself creates prejudice — other systems build dependencies on the flawed architecture, teams build expertise around workarounds, and the cost of correction escalates. Like laches, there is an implicit statute of limitations on technical debt: once the surrounding system has sufficiently adapted to the flaw, the flaw effectively becomes the standard and remediation becomes disruptive rather than corrective.",
+    "prediction": "Technical debt items that remain unaddressed for more than 18 months will show a remediation cost increase that follows an exponential rather than linear curve, and items exceeding 30 months will be resolved by 'accepting the debt as architecture' more than 70% of the time.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Le Chatelier's Principle in Electoral System Reform",
+    "mechanism_source": "chemistry",
+    "target_domain": "political science",
+    "mechanism": "Le Chatelier's principle states that a system at equilibrium, when subjected to an external perturbation, will shift to partially counteract the perturbation and establish a new equilibrium",
+    "application": "Electoral system reforms trigger Le Chatelier responses from political systems at equilibrium. Introducing proportional representation (a perturbation toward fragmentation) causes the system to counteract via coalition consolidation, informal power-brokering, and party mergers that partially restore the old equilibrium's concentration of power. The reform achieves a new equilibrium that only partially reflects the reformers' intentions. Understanding this principle predicts that no electoral reform will achieve its full theoretical effect — the system's counteraction is not a failure of implementation but a thermodynamic inevitability.",
+    "prediction": "Electoral reforms predicted to produce N additional competitive parties will consistently produce fewer than N/2 durable new parties after two full election cycles, as Le Chatelier counteraction absorbs 50%+ of the perturbation's theoretical effect.",
+    "viability": "speculative",
+    "confidence": 0.60
+  }
+]

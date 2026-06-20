@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sourdough Starter Dynamics of Open-Source Communities",
+    "mechanism_source": "fermentation",
+    "target_domain": "software engineering",
+    "mechanism": "A sourdough starter maintains a stable microbial ecosystem through regular feeding cycles, where established cultures outcompete invaders via pH manipulation and nutrient depletion, but neglect causes the ecosystem to collapse or be overtaken by undesirable strains",
+    "application": "Open-source communities function as sourdough starters. Regular 'feedings' of new issues, code reviews, and contributor onboarding maintain a healthy culture that self-selects for productive participants. The established community lowers the pH (raises the barrier to low-effort contributions) through code standards and review rigor. Communities that stop regular maintenance don't just stagnate — they get colonized by spam, vendetta forks, and toxic participants, much as a neglected starter grows mold.",
+    "prediction": "Open-source projects that maintain consistent weekly contribution cycles will show significantly lower rates of hostile fork creation and maintainer burnout compared to projects with irregular contribution patterns, with the ratio of constructive-to-destructive community events correlating with feeding regularity (r > 0.5).",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Tempered Steel Pedagogy of Second Language Acquisition",
+    "mechanism_source": "swordsmithing",
+    "target_domain": "linguistics",
+    "mechanism": "Differential hardening in swordsmithing applies clay coatings of varying thickness before quenching, creating a blade with a hard edge and flexible spine — two different crystal structures (martensite and pearlite) coexisting in one object",
+    "application": "Effective language acquisition requires differential hardening of linguistic competencies. Grammar and phonology need the hard martensitic edge — drilled to automaticity through rapid quenching (intensive practice). Pragmatics and cultural fluency need the flexible pearlitic spine — developed through slow cooling (extended immersion). Programs that apply uniform heat treatment produce either brittle speakers (grammatically rigid, culturally deaf) or floppy ones (culturally fluent but structurally incoherent).",
+    "prediction": "Language programs that differentiate instruction intensity — high-frequency drilling for morphosyntax combined with slow-immersion for pragmatics — will produce learners who score at least 15% higher on integrated communicative competence assessments than programs using uniform instructional intensity across all language domains.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Coral Bleaching Model of Institutional Trust Collapse",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "political science",
+    "mechanism": "Coral bleaching occurs when thermal stress causes corals to expel their symbiotic zooxanthellae, losing their primary energy source; the coral doesn't die immediately but enters a vulnerable state where recovery depends on stress duration and algal recolonization speed",
+    "application": "Institutional trust collapse follows coral bleaching dynamics. Citizens maintain symbiotic relationships with institutions (exchanging compliance for services), but sustained stress (corruption scandals, service failures) causes expulsion of the trust-symbiont. The institution doesn't collapse immediately but enters a bleached state — structurally intact but energetically starving. Recovery requires rapid recolonization by trust-building actors before opportunistic 'algae' (populist movements, conspiracy networks) permanently occupy the substrate.",
+    "prediction": "Measuring the interval between a major institutional scandal and the appointment of credible reform leadership will predict whether public trust recovers or permanently shifts to alternative institutions, with a critical window of 18-36 months analogous to coral recovery timelines.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Watchmaker's Escapement Theory of Conversational Turn-Taking",
+    "mechanism_source": "watchmaking",
+    "target_domain": "pragmatics",
+    "mechanism": "The escapement mechanism in a mechanical watch converts continuous energy from the mainspring into precisely regulated discrete impulses, with the escape wheel alternately locking and releasing to create a controlled tick-tock rhythm",
+    "application": "Conversational turn-taking functions as a social escapement mechanism. The continuous energy of communicative intent is converted into discrete, regulated speech acts through the escapement of pragmatic cues (gaze shifts, falling intonation, syntactic completion points). The 'pallet fork' of social attention alternately locks one speaker and releases another. Conversations derail when the escapement loses regulation — interruption-heavy exchanges are the conversational equivalent of a watch running fast.",
+    "prediction": "Acoustic analysis of dyadic conversations will reveal that turn-transition timing follows the same mathematical distribution as escapement oscillation, with healthy conversations clustering around a characteristic frequency and dysfunctional conversations showing the amplitude drift patterns seen in worn escapements.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Mycorrhizal Network Model of Corporate Knowledge Transfer",
+    "mechanism_source": "ecology",
+    "target_domain": "organizational behavior",
+    "mechanism": "Mycorrhizal fungal networks connect tree root systems underground, enabling resource transfer from established trees to saplings and chemical signaling about threats, with the network extracting a carbon 'tax' for its services",
+    "application": "Corporate mentorship programs should be redesigned as mycorrhizal networks rather than one-to-one pairings. The fungal network model suggests that knowledge transfer works best through intermediary connectors (the fungi) who extract a small resource cost but enable many-to-many information flow. Senior employees connected to juniors only through intermediary 'network weavers' produce more resilient knowledge transfer than direct mentorship because the network survives individual departures.",
+    "prediction": "Organizations that implement intermediary-mediated knowledge networks (where dedicated knowledge brokers connect seniors and juniors) will retain more institutional knowledge through leadership transitions than those using direct mentorship, measurable as a smaller drop in decision quality metrics during executive turnover.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Raku Glaze Crackle Theory of Urban Gentrification Patterns",
+    "mechanism_source": "ceramics",
+    "target_domain": "urban sociology",
+    "mechanism": "Raku pottery develops its characteristic crackle pattern because the glaze and clay body have different thermal expansion coefficients, causing the glaze to fracture in predictable patterns during rapid post-firing cooling",
+    "application": "Gentrification crackle patterns emerge from differential economic 'cooling rates' between property values (the glaze) and community social fabric (the clay body). When investment heats a neighborhood and policy suddenly contracts, property values and social structures cool at different rates, producing fracture lines along predictable sociological boundaries. The crackle pattern — where displacement concentrates — is determined not by the heat applied but by the mismatch in cooling coefficients between economic and social layers.",
+    "prediction": "Mapping gentrification displacement will reveal fracture patterns that follow the same mathematical scaling laws as thermal stress cracking, with displacement concentrating along boundaries where the rate of property value change differs most sharply from the rate of social network adaptation.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Counterpoint Voice-Leading Rules for Multi-Agent AI Coordination",
+    "mechanism_source": "music",
+    "target_domain": "artificial intelligence",
+    "mechanism": "In Renaissance counterpoint, independent melodic voices must follow strict rules — no parallel fifths, contrary motion preferred, dissonances prepared and resolved — to produce coherent polyphony from autonomous lines",
+    "application": "Multi-agent AI systems can achieve coherent collective behavior by importing voice-leading constraints from counterpoint. Each agent operates as an independent melodic voice, but coordination rules prohibit 'parallel fifths' (two agents converging on identical strategies simultaneously) and require 'contrary motion' (when one agent escalates, a neighbor must de-escalate). Dissonance — agent conflict — is permitted only when 'prepared' by prior signaling and 'resolved' within a bounded timeframe.",
+    "prediction": "Multi-agent systems governed by counterpoint-derived coordination rules will show fewer catastrophic coordination failures and more graceful degradation under stress than systems using standard consensus protocols, measurable as a reduction in simultaneous-failure events of at least 30%.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Geological Unconformity Model of Biographical Memory",
+    "mechanism_source": "geology",
+    "target_domain": "cognitive psychology",
+    "mechanism": "Geological unconformities are gaps in the rock record where erosion removed strata before new deposition began, creating surfaces where vastly different time periods sit in direct contact with no physical evidence of the missing interval",
+    "application": "Autobiographical memory contains unconformities — periods erased by psychological erosion (trauma suppression, identity reinvention, substance abuse) where memories from vastly different life phases sit in direct contact. The individual experiences these as seamless continuity, just as a naive observer sees continuous rock. Therapeutic excavation of these unconformities reveals the missing strata and explains why the personality layers above and below don't stratigraphically match.",
+    "prediction": "Individuals with identified memory unconformities (gaps of 2+ years in autobiographical recall) will show measurably higher rates of personality trait discontinuity across the gap boundary compared to age-matched controls with continuous memory, detectable via longitudinal personality inventories.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Tidal Locking Theory of Codependent Relationships",
+    "mechanism_source": "astronomy",
+    "target_domain": "clinical psychology",
+    "mechanism": "Tidal locking occurs when gravitational interaction causes a smaller body to always show the same face to the larger body, with the locked body's rotation period exactly matching its orbital period — the result of energy dissipation through tidal friction over time",
+    "application": "Codependent relationships exhibit tidal locking dynamics. The partner with greater emotional 'mass' exerts gravitational influence that gradually synchronizes the other's behavioral rotation to their orbital period. Over time, the codependent partner only shows one face — the accommodating, caregiving side — while their unexpressed aspects face permanently away. The energy dissipated through emotional tidal friction manifests as chronic exhaustion and identity erosion characteristic of codependency.",
+    "prediction": "Longitudinal measurement of behavioral repertoire diversity in codependent relationships will show progressive reduction in the codependent partner's expressed behaviors, converging toward a fixed subset that correlates with the dominant partner's needs, following an exponential decay curve similar to tidal despinning models.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Whisky Angel's Share Principle of Educational Attrition",
+    "mechanism_source": "whisky distillation",
+    "target_domain": "pedagogy",
+    "mechanism": "During whisky maturation, approximately 2% of volume evaporates annually through the oak cask — the 'angel's share' — but this loss is essential because it concentrates flavors and drives chemical exchange between spirit and wood",
+    "application": "Educational programs experience an angel's share — a percentage of enrolled students who leave each year — that is not purely wasteful but partially essential to the maturation of the remaining cohort. The departure of students who find the program misaligned creates concentration effects in classroom dynamics, raises the average engagement level, and drives deeper exchange between learners and curriculum. Programs that achieve zero attrition may be the educational equivalent of sealed casks: no loss, but also no maturation.",
+    "prediction": "Educational programs with moderate, voluntary attrition rates (8-15% annually) will produce graduates with higher measured depth of expertise than either zero-attrition programs or high-attrition programs, following an inverted-U relationship between attrition rate and graduate competence.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Bowline Knot Topology of Constitutional Amendments",
+    "mechanism_source": "knot theory",
+    "target_domain": "law",
+    "mechanism": "The bowline creates a fixed loop that will not slip under load — its topology ensures that increased tension on the standing part actually tightens the knot's grip on the loop, making it more secure precisely when stressed",
+    "application": "Effective constitutional amendments function as bowline knots in the legal fabric. They create fixed loops of protected rights that become more secure under political stress — attempts to pull against them (authoritarian pressure, majoritarian overreach) only tighten their binding force. Amendments that fail this bowline test — becoming looser under stress — are topologically equivalent to slip knots and will eventually come undone. The amendment's drafting structure, not just its content, determines its knot type.",
+    "prediction": "Constitutional provisions whose textual structure creates self-reinforcing logical loops (where any attempt to narrow the right requires first acknowledging the right) will demonstrate greater judicial durability across regime changes than provisions with linear, non-looping logical structure.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Stigmergic Trace Theory of Architectural Desire Paths",
+    "mechanism_source": "entomology",
+    "target_domain": "architecture",
+    "mechanism": "Stigmergy in ant colonies uses pheromone traces left in the environment as indirect communication — each ant's passage strengthens the signal, creating self-organizing pathways without centralized planning",
+    "application": "Desire paths in built environments are human stigmergy. Each pedestrian who cuts across a lawn deposits a trace (worn grass) that increases the probability of the next pedestrian following the same route. Architects who fight these paths with fences are suppressing emergent intelligence. Responsive design treats desire paths as pheromone data — waiting for stigmergic signals to stabilize before paving, producing circulation networks that are computationally optimized by thousands of unconscious agents.",
+    "prediction": "Buildings that delay hardscape installation by 12 months and then pave along observed desire paths will show 25% higher pedestrian flow efficiency and 40% fewer barrier-circumvention behaviors than buildings designed with conventional circulation planning.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Warp Thread Tension Model of Narrative Suspense",
+    "mechanism_source": "textiles",
+    "target_domain": "narratology",
+    "mechanism": "In weaving, warp tension must be precisely calibrated — too loose and the shed won't open cleanly; too tight and threads snap. Different fibers require different tensions, and tension must be adjusted as the woven fabric accumulates on the cloth beam",
+    "application": "Narrative suspense operates as warp tension in the story loom. Each plot thread must maintain calibrated tension — too loose (unresolved threads forgotten) and the narrative shed collapses, making it impossible to weave new events through cleanly. Too tight (every thread overwound with significance) and threads snap into melodrama. Master storytellers adjust tension per thread type: mystery threads tolerate high tension while character-development threads require slack for the narrative to breathe.",
+    "prediction": "Quantifying narrative tension per plot thread (using reader galvanic skin response or reading-speed variation) will reveal that critically acclaimed novels maintain thread-specific tension profiles matching textile engineering optima, while poorly reviewed novels show either uniform over-tension or under-tension across threads.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Phase Diagram Theory of Political Coalition Stability",
+    "mechanism_source": "chemistry",
+    "target_domain": "political science",
+    "mechanism": "Phase diagrams map the stable states of matter as a function of temperature and pressure, with phase boundaries marking conditions where two phases coexist and triple points where three phases meet in unstable equilibrium",
+    "application": "Political coalitions can be mapped onto phase diagrams where the axes are ideological distance (temperature) and external threat level (pressure). At low ideological distance and high external threat, coalitions are solid — rigid and durable. As ideological distance increases or threat decreases, coalitions undergo phase transitions to liquid (flexible but bounded alliances) and gas (uncoordinated individual action). The triple point — where three coalition configurations coexist — predicts maximum political instability.",
+    "prediction": "Plotting historical coalition data on ideological-distance vs. external-threat axes will reveal phase boundaries with sharp transitions in coalition durability, and periods of maximum political instability will cluster near computed triple points where three coalition configurations are simultaneously viable.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Beehive Thermoregulation Model of Classroom Emotional Climate",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "pedagogy",
+    "mechanism": "Honeybees collectively regulate hive temperature to within 1°C of 35°C through coordinated fanning, clustering, and water evaporation, with individual bees acting as distributed thermostats that respond to local temperature deviations",
+    "application": "Effective classrooms maintain emotional thermoregulation through distributed student behaviors analogous to hive temperature management. When emotional 'temperature' rises (anxiety before exams, excitement during debates), socially skilled students act as distributed thermostats — some fan (de-escalate through humor), some cluster (form supportive subgroups), some evaporate water (absorb tension through calm presence). Teachers who centralize emotional regulation rather than cultivating distributed capacity create classrooms that crash when the teacher-thermostat is overwhelmed.",
+    "prediction": "Classrooms where emotional regulation behaviors are distributed across at least 30% of students will show significantly smaller variance in collective emotional arousal measurements during stressful academic events compared to classrooms where regulation depends primarily on the teacher, with the effect size increasing as distribution percentage rises.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

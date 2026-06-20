@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Peircean Trichotomy Parsing Framework",
+    "mechanism_source": "semiotics",
+    "target_domain": "compiler design",
+    "mechanism": "Peirce's sign trichotomy distinguishes icon (resemblance), index (causal relation), and symbol (convention) as three irreducible modes by which a sign relates to its referent. These categories describe how meaning is produced structurally rather than arbitrarily.",
+    "application": "In compiler design, tokens can be classified by their semiotic mode: literals and numeric constants function as icons (direct resemblance to value), pointers and memory addresses as indices (causal, positional relation to data), and keywords or identifiers as symbols (purely conventional). Parsing strategies and error recovery can be differentiated by mode — symbolic tokens require lookup in a convention table, while indexical tokens permit range-based validation. This trichotomy also maps onto the three phases of a classic compiler front-end: lexical analysis handles symbolic recognition, syntactic analysis handles indexical structure, and semantic analysis handles iconicity between code and intended computation.",
+    "prediction": "Compilers that implement distinct error-recovery heuristics per semiotic token class will produce more semantically meaningful diagnostics than those applying uniform recovery, measurable by reduced cascading false-positive errors in test suites with deliberate single-site mutations.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Keel-Sequence Structural Hierarchy Model",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "team formation",
+    "mechanism": "In naval architecture, keel-laying establishes the longitudinal backbone from which all subsequent structural members — frames, stringers, bulkheads — derive their alignment and load-bearing relationships. Deviation at the keel propagates as compounding misalignment throughout the entire hull.",
+    "application": "Team formation can adopt the keel-laying principle by identifying the foundational role — typically an integrating coordinator rather than the highest-ranked individual — whose values, working norms, and communication style set the structural baseline before other members join. Subsequent role additions are sequenced by structural dependency: roles that must interface with the core integrator are placed before peripheral specialists, just as frames are fitted before planking. Teams assembled in reverse order (specialists first, integrator last) would be predicted to exhibit higher norm-conflict and rework, analogous to a hull built without a true keel.",
+    "prediction": "Project teams where the integrating coordinator role is filled within the first 20% of team-assembly time will show statistically lower role-ambiguity scores at week four compared to teams where the integrator joins after 50% of members are already established.",
+    "viability": "speculative",
+    "confidence": 0.66
+  },
+  {
+    "name": "Givaudan Accord Counterpoint Theory",
+    "mechanism_source": "perfumery",
+    "target_domain": "music composition",
+    "mechanism": "Givaudan accord balancing treats a fragrance as a chord of olfactory molecules grouped by volatility into top, heart, and base notes, where the perceived harmony depends not on any single note but on the rate-of-release dynamics and how each register supports and masks the others over time. Perfumers deliberately introduce tension-molecules that would be harsh alone but create resonance within the full accord.",
+    "application": "Music composition can borrow the accord model by treating temporal layers — attack transients, sustained mid-register harmony, and long-decay bass or pedal tones — as volatility classes whose interaction over the piece's duration creates the perceptual 'drydown.' A composer assigns short-duration melodic cells (top notes), medium-duration harmonic progressions (heart notes), and long-duration pedal or ostinato figures (base notes) and designs their mutual interference intentionally. Dissonances that feel abrasive in isolation are placed in the top-note layer where their brief duration prevents fatigue, while the base layer provides resolution that is only perceived retrospectively — a structural analog to musking agents in perfumery.",
+    "prediction": "Listeners rating compositions structured with explicit volatility-class layering will report higher 'coherence over time' scores than listeners rating matched compositions of equal harmonic complexity without volatility stratification, detectable in listening studies using 90-second excerpts.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Cartographic Generalization Curriculum for Neural Feature Selection",
+    "mechanism_source": "cartography",
+    "target_domain": "machine learning",
+    "mechanism": "Cartographic generalization is the principled simplification of spatial information as map scale decreases: features are eliminated, merged, or symbolically exaggerated according to salience rules that preserve the map's communicative purpose at each resolution. The discipline has formalized scale-dependent feature hierarchies over two centuries of practice.",
+    "application": "In machine learning, training at multiple levels of feature granularity mirrors the cartographic problem of representing the same underlying reality at different resolutions. Generalization operators — selection (which features survive at coarser scale), simplification (reducing feature complexity), aggregation (merging related features), and typification (replacing a cluster with a representative symbol) — map directly onto regularization strategies, pooling operations, clustering-based dimensionality reduction, and prototype learning respectively. A curriculum that explicitly cycles through these operators in the order cartographers apply them — from finest to coarsest resolution — may produce models with more interpretable multi-scale representations than those using uniform regularization.",
+    "prediction": "Models trained with a cartographic generalization curriculum — applying feature-selection, simplification, aggregation, and typification operators in sequence across training epochs — will achieve higher accuracy on out-of-distribution coarse-grained test sets than models trained with standard dropout regularization at equivalent parameter counts.",
+    "viability": "speculative",
+    "confidence": 0.71
+  },
+  {
+    "name": "Adhesive Wear Mediation Protocol",
+    "mechanism_source": "tribology",
+    "target_domain": "interpersonal conflict resolution",
+    "mechanism": "Adhesive wear in tribology occurs when two surfaces in contact form micro-junctions that bond at asperity peaks; relative motion tears these junctions, transferring material from one surface to the other and progressively altering both surface topographies. The severity is governed by contact pressure, surface hardness differential, and the presence or absence of a lubricating third body.",
+    "application": "Interpersonal conflict exhibits an analogous adhesive-wear dynamic: high-intensity interactions (contact pressure) between parties of unequal social or institutional power (hardness differential) produce asymmetric 'material transfer' — one party's narrative, framing, or emotional labor is repeatedly appropriated or eroded by the other. Introducing a mediating third body (a neutral facilitator, agreed protocol, or structured communication format) reduces junction formation by preventing direct asperity contact, allowing surfaces to move without tearing. Conflict resolution frameworks can be evaluated by their tribological function: whether they act as lubricants reducing friction, or as hard coatings increasing one party's resistance to wear.",
+    "prediction": "Mediation processes that introduce a structured third-body protocol (explicit turn-taking scripts, neutral reframing by a facilitator) will show lower rates of post-mediation grievance re-filing than face-to-face unmediated negotiation, particularly when institutional power differentials between parties exceed a measurable threshold.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Heraldic Tincture Legibility System for Dashboard Design",
+    "mechanism_source": "heraldry",
+    "target_domain": "data visualization",
+    "mechanism": "The rule of tincture in heraldry prohibits placing a metal (gold or silver) upon another metal, or a colour upon a colour — only metal-on-colour or colour-on-metal combinations are permitted. This rule, refined over five centuries of armorial practice, maximizes foreground-background contrast under varied viewing conditions including distance, poor light, and movement.",
+    "application": "Data visualization dashboards routinely violate contrast principles analogous to the rule of tincture: low-saturation text on low-saturation backgrounds, or simultaneous encoding of multiple high-chroma hues at equal luminance. Applying heraldic tincture logic — classifying data elements as either 'metal' (high luminance, low saturation) or 'colour' (high saturation, lower luminance) and enforcing alternation — provides a systematic, historically validated heuristic for encoding hierarchical layers. Ordinal data hierarchies map naturally onto the metal/colour alternation: the most critical alert level uses metal-on-colour, sub-levels invert, and tertiary elements use conventional gray (a heraldic 'stain') to signal reduced salience.",
+    "prediction": "Dashboards redesigned using the tincture alternation rule for hierarchical data layers will show faster target-element identification times in eye-tracking studies compared to dashboards designed with standard color-palette guidance alone, particularly for users performing tasks under time pressure.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Signor-Lipps Bias Correction for Historical Record Gaps",
+    "mechanism_source": "paleontology",
+    "target_domain": "historiography",
+    "mechanism": "The Signor-Lipps effect describes the systematic smearing of extinction events in the fossil record: because preservation is incomplete, the last appearance datum of any taxon precedes its true extinction, making gradual and abrupt extinctions appear superficially similar. Stratigraphers must apply statistical corrections to infer true extinction timing from truncated occurrence data.",
+    "application": "Historiography faces an identical problem with documentary preservation: the last mention of a practice, institution, or technology in surviving sources precedes its actual disappearance by an interval proportional to source density and archival survival rates. Historians routinely misdate the end of practices by treating the last-appearance datum as the terminus ad quem without Signor-Lipps correction. Applying confidence-interval logic from paleontological occurrence modeling — estimating true extinction from the spacing of last several occurrences — would produce more defensible claims about when phenomena actually ceased rather than when documentation of them ceased.",
+    "prediction": "Applying a Signor-Lipps-type statistical correction to the occurrence density of historical mentions of documented practices will systematically extend estimated end-dates beyond the last-recorded mention, and these corrected dates will show better agreement with independently dated archaeological evidence than uncorrected last-mention dates.",
+    "viability": "promising",
+    "confidence": 0.81
+  },
+  {
+    "name": "Dominance Gradient Classroom Equilibrium Model",
+    "mechanism_source": "primatology",
+    "target_domain": "classroom management",
+    "mechanism": "In primate societies, dominance hierarchies are not maintained by constant aggression but by ritualized submission displays and the negotiated tolerance of high-ranking individuals who permit low-ranking members to access resources in exchange for affiliative behaviors. Stable hierarchies emerge when the gradient is clear but not so steep that subordinates become chronically stressed and disruptive.",
+    "application": "Classroom management can be reframed through this lens: the teacher's authority is most effective not when asserted through direct command (high aggression) but when subordinates — students — voluntarily display engagement and participation as affiliative signals, and the teacher reciprocates with resource access (attention, praise, autonomy). Chronic disruption maps onto the primatological pattern of an unstable hierarchy where the dominance gradient is unclear or contested, and interventions that clarify gradient without steepening it — consistent, transparent expectations combined with distributed autonomy for high-status students — produce more stable group dynamics than punitive assertion. The 'third-party bystander' role, critical in primate conflict resolution, maps onto peer mediation programs.",
+    "prediction": "Classrooms where the teacher explicitly and consistently employs graduated deference-reciprocity exchanges — acknowledging student-initiated status bids and responding with proportional autonomy grants — will show lower rates of escalating behavioral incidents than matched classrooms using standard behavior-management point systems.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Semantic Field Cross-Reference Recommender Architecture",
+    "mechanism_source": "lexicography",
+    "target_domain": "recommendation systems",
+    "mechanism": "Lexicographers organize vocabulary into semantic fields — clusters of words sharing a conceptual domain — and construct explicit cross-reference networks linking near-synonyms, antonyms, hyponyms, and associatively related terms. Thesaural structure captures not just similarity but the type and directional nature of lexical relationships.",
+    "application": "Recommendation systems typically model user preferences as proximity in an embedding space, collapsing all relational types into a single similarity metric. Adopting lexicographic semantic-field architecture would mean distinguishing relationship types explicitly: hyponymic relations (user likes jazz → recommend a jazz subgenre) differ structurally from antonymic relations (user dislikes country → this is not simply the opposite of liking jazz) and associative relations (user likes jazz → recommend jazz-adjacent films). Implementing typed relational graphs rather than uniform embedding similarity would allow recommendation explanations grounded in named relationship types, improving both accuracy and transparency.",
+    "prediction": "A recommendation system using typed relational graphs derived from semantic-field architecture will outperform a cosine-similarity-based embedding baseline on serendipity metrics — recommendations rated as surprising yet satisfying — particularly in domains with rich hierarchical category structure such as music and literature.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Heterophonic Coordination Protocol for Distributed Network Consensus",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "network protocol design",
+    "mechanism": "Heterophony, documented across Southeast Asian gamelan, Middle Eastern maqam ensembles, and Central Asian epic traditions, is a texture in which multiple performers render the same melody simultaneously but with individual ornamental and rhythmic variations, producing emergent coherence without strict synchronization. The shared melodic skeleton tolerates divergence within culturally bounded tolerance zones.",
+    "application": "Distributed network consensus protocols face a structurally similar tension between strict synchrony (expensive, fragile) and pure independence (incoherent). A heterophonic consensus model would define a 'melodic skeleton' — a shared logical state vector — around which individual nodes are permitted to maintain ornamental local variations (caching, prefetching, speculative execution) within explicitly bounded divergence tolerances. Agreement is required only on the skeleton values at defined cadence points, not on every ornamental intermediate state. This maps onto eventual-consistency architectures but with a principled musical model for how much and what kind of local divergence is culturally — here, semantically — tolerable.",
+    "prediction": "Network protocols implementing heterophonic skeleton-plus-tolerance-zone consensus will achieve lower median synchronization latency than strict quorum protocols under high-jitter network conditions, while maintaining equivalent semantic correctness guarantees as measured by conflict rate at cadence points.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Laminar Flow Surgical Field Stabilization Heuristic",
+    "mechanism_source": "aeronautics",
+    "target_domain": "surgical technique",
+    "mechanism": "Laminar flow in aeronautics is the organized, layer-parallel movement of fluid over a surface that minimizes turbulent mixing, drag, and heat transfer; it is maintained by smooth surface geometry, controlled pressure gradients, and suppressing boundary-layer perturbations. Transition to turbulence is catastrophic and difficult to reverse once triggered.",
+    "application": "In minimally invasive surgery, the surgical field — the visual and physical workspace at the instrument tips — exhibits analogous flow-stability concerns: smooth, predictable tissue movement (laminar analog) permits precise instrument placement, while unexpected tissue shifts, bleeding, or smoke plume from cautery represent turbulent perturbation events that collapse field clarity. Surgical technique can be analyzed through boundary-layer logic: instrument approaches that maintain a consistent, low-perturbation trajectory relative to tissue preserve the laminar field, while abrupt angular changes or excessive force introduce the equivalent of flow separation. Training protocols emphasizing 'transition delay' — gentle progressive dilation of tissue planes before commitment to dissection — are the surgical analog of maintaining laminar flow through surface contouring.",
+    "prediction": "Surgical simulation studies comparing approach trajectories designed using laminar-flow boundary-layer principles against standard technique will show reduced unexpected tissue-movement events per procedure and lower intraoperative complication rates in novice surgeons after ten practice sessions.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Crossdating Branch-Point Alignment for Version Control Archaeology",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "software version control",
+    "mechanism": "Dendrochronological crossdating aligns ring-width sequences from trees of overlapping but non-identical lifespans by matching their shared patterns of wide and narrow rings caused by climate signals, extending absolute chronologies far beyond any individual specimen and identifying the precise calendar year of any sampled ring.",
+    "application": "Software repositories with fragmented histories — forks of forks, abandoned branches later merged, vendor-drop commits without ancestry — present an alignment problem exactly analogous to floating chronologies in dendrochronology. Crossdating logic applied to commit metadata (file-change patterns, authorship cadence, test-suite behavior patterns) could align orphaned branch histories to the main timeline by matching their 'ring patterns' of activity. This would allow reconstruction of the true development sequence for audits, licensing disputes, or refactoring efforts where git ancestry has been severed or obscured.",
+    "prediction": "A crossdating algorithm applied to commit activity patterns across known-relationship repository pairs (confirmed forks with severed git ancestry) will correctly identify the divergence point within ±3 commits at a rate exceeding 80%, outperforming hash-based file-similarity matching on repositories with significant post-fork divergence.",
+    "viability": "promising",
+    "confidence": 0.7
+  },
+  {
+    "name": "Speleogenetic Stratigraphy of the Analytic Unconscious",
+    "mechanism_source": "speleology",
+    "target_domain": "psychoanalysis",
+    "mechanism": "Speleology identifies cave formation as the result of differential dissolution — aggressive groundwater exploiting zones of structural weakness in rock, creating void networks whose geometry encodes the history of water-table fluctuations, tectonic stress, and mineralogical variation. The cave is not an absence but a structured record of removal.",
+    "application": "Psychoanalytic theory posits the unconscious as structured by absences — repressions, disavowals, foreclosures — rather than by positive content. The speleogenetic model offers a more mechanistically precise metaphor: the unconscious is shaped by the differential solubility of psychic material under the 'groundwater' of cathected attention, with zones of structural weakness (traumatic or conflictual content) becoming enlarged voids while more resistant material remains as pillars. The cave's speleothems — stalactites, flowstone — correspond to symptom formations: secondary deposits that precipitate at the interface between void and surface, marking the sites of dissolution with new mineral structure. Therapeutic excavation follows the void network rather than excavating uniformly.",
+    "prediction": "This framework is primarily interpretive, but a falsifiable derivative is that symptom formations identified in clinical narratives will cluster around content domains showing highest associative avoidance in free-association latency studies, consistent with the speleogenetic prediction that voids form preferentially at zones of structural weakness.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Intertidal Zonation Model for Content Moderation Cadence",
+    "mechanism_source": "tidal ecology",
+    "target_domain": "content moderation",
+    "mechanism": "Intertidal ecosystems are organized into horizontal zones defined by the duration and frequency of aerial exposure versus submersion: organisms colonize the zone whose exposure-submersion cycle matches their desiccation tolerance and feeding opportunity requirements, producing sharply bounded community bands with characteristic species compositions. Zone boundaries shift with tidal amplitude and substrate gradient.",
+    "application": "Online communities exhibit analogous zonation driven by moderation exposure cycles: content that receives frequent, rhythmic moderation attention (high-tide zones) develops a community of participants tolerant of — or dependent on — high oversight, while content in rarely moderated zones (low-tide analogs) is colonized by actors whose strategies depend on extended periods without intervention. A moderation architecture designed around deliberate exposure-submersion cycling — predictable high-attention periods followed by deliberate low-attention windows — would allow community moderators to predict which actor types will colonize each zone and design interventions accordingly, rather than applying uniform moderation pressure that suppresses all zone differentiation.",
+    "prediction": "Online forums with explicitly varied moderation cadences (alternating high and low attention windows) will develop more stable, self-organized community norm enforcement in low-attention windows than forums with uniform continuous moderation, measurable by peer-reporting rates and user-generated rule clarifications during unmoderated periods.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Miura-Ori Deployment Grammar for Flat-Pack Structural Systems",
+    "mechanism_source": "origami math",
+    "target_domain": "flat-pack architecture",
+    "mechanism": "The Miura-ori fold pattern is a rigid-foldable tessellation in which a single degree of freedom governs the simultaneous deployment of the entire sheet from compact folded state to flat extended state; the fold geometry enforces that every crease activates in concert, eliminating the sequential buckling failures that plague non-rigidly-foldable patterns. Miura-ori's negative Poisson ratio means the sheet expands in both planar dimensions simultaneously during deployment.",
+    "application": "Flat-pack architectural panels — emergency shelters, deployable space structures, prefabricated wall systems — currently rely on sequential hinge-and-lock assembly that introduces alignment errors and requires skilled labor at each step. Encoding Miura-ori or Miura-derived fold grammars into panel geometry replaces sequential assembly with single-degree-of-freedom deployment: the entire panel transitions from shipping configuration to structural configuration through one controlled motion with no intermediate assembly states requiring judgment. The negative Poisson ratio effect means panels simultaneously expand to cover area while the fold geometry self-locks under in-plane compressive load, providing passive structural stiffness without additional fasteners.",
+    "prediction": "Architectural panels fabricated with Miura-ori fold geometry will achieve target deployed configuration within ±2mm tolerance at a higher rate than equivalent hinged-panel designs when deployed by untrained operators, and will show greater resistance to in-plane shear loading due to fold-lock geometry, measurable in standardized structural load testing.",
+    "viability": "incoherent",
+    "confidence": 0.48
+  }
+]

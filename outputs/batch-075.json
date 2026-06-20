@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Allogrooming Reciprocity Mapping",
+    "mechanism_source": "primatology",
+    "target_domain": "diplomatic negotiation",
+    "mechanism": "Non-human primates maintain alliance stability through asymmetric grooming exchanges that track social debt across time; individuals who over-receive without reciprocating lose coalition support and suffer rank loss.",
+    "application": "Diplomatic negotiations can be modeled as grooming reciprocity networks where concessions, intelligence-sharing, and symbolic gestures accumulate as social debt between state actors. Nations that consistently extract without reciprocating face coalition exclusion analogous to primate rank reversal, predicting the eventual isolation of chronic free-riders. Mapping the directionality and frequency of favor-exchange across treaty cycles should reveal latent alliance fragility invisible to formal power-balance analyses.",
+    "prediction": "States whose ratio of concessions-received to concessions-granted exceeds 1.8 over a five-year diplomatic window will show measurable coalition shrinkage (fewer co-signatories on subsequent multilateral instruments) within three years, mirroring grooming-debt collapse in primate troops.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Laminar-to-Turbulent Curriculum Transition Theory",
+    "mechanism_source": "aeronautics",
+    "target_domain": "pedagogy",
+    "mechanism": "In aerodynamics, a boundary layer flows smoothly (laminar) until local Reynolds number exceeds a critical threshold, at which point it transitions to turbulent flow — dramatically increasing drag but also mixing energy that can sustain lift at higher angles of attack.",
+    "application": "Student learning progresses through a laminar phase of smooth, predictable incremental acquisition until cognitive load crosses a critical threshold — analogous to Reynolds number — triggering apparent confusion and error rates that mirror turbulent flow. Rather than treating this transition as failure, educators can recognize it as the onset of deeper schema reorganization, where surface disorder masks productive restructuring. Curriculum design should engineer the transition point deliberately by controlling the 'Reynolds number' of instructional complexity, spacing challenge density to induce productive turbulence at the right moment.",
+    "prediction": "Learners exposed to a controlled complexity spike at 60–70% through a curriculum unit will show a transient performance dip followed by significantly higher retention scores at six-week follow-up compared to learners receiving monotonically increasing difficulty, replicating the drag-then-stabilization signature of turbulent boundary layers.",
+    "viability": "speculative",
+    "confidence": 0.63
+  },
+  {
+    "name": "Glacial Erratic Schema Transport",
+    "mechanism_source": "glaciology",
+    "target_domain": "database migration",
+    "mechanism": "Glacial erratics are boulders entrained by ice sheets and deposited far from their bedrock source, often with no local geological context; their presence signals the path and extent of a now-vanished transport medium.",
+    "application": "In database migrations, orphaned records, legacy foreign keys, and schema artifacts from deprecated systems are the erratics — data objects transported into the new environment by a migration process that no longer exists and whose original logic is undocumented. Glaciological provenance tracing, which identifies erratic origin by mineralogical fingerprinting, maps onto data lineage tooling that reconstructs the transformation chains that deposited anomalous records. Migration architects should treat erratic records not as corruption but as stratigraphic evidence of prior system states, reading their structure to reverse-engineer lost business logic.",
+    "prediction": "Database migration projects that include an erratic-identification phase — systematically cataloging records whose schema attributes have no current-system analogue and tracing their transformation lineage — will resolve post-migration data integrity incidents at least 40% faster than projects that treat anomalous records as immediate deletion candidates.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Flat-Foldability Constraint Propagation in Residue Space",
+    "mechanism_source": "origami math",
+    "target_domain": "protein folding prediction",
+    "mechanism": "Origami mathematics proves that a crease pattern is flat-foldable only if it satisfies Kawasaki's theorem (alternating angles summing to 180°) and Maekawa's theorem (mountain-minus-valley folds equaling ±2); these local constraints propagate globally to determine whether a sheet can collapse to a planar state.",
+    "application": "Protein secondary structure prediction faces an analogous constraint propagation problem: local dihedral angle preferences at each residue (analogous to crease angles) must globally satisfy compatibility conditions for the chain to reach a stable folded state. Flat-foldability theorems suggest a class of rapid pre-filters — checking whether local angle assignments are globally consistent before expensive energy minimization — that could prune the conformational search space. Mountain/valley assignments map naturally onto hydrogen bond donor/acceptor roles in beta-sheet topology, offering a combinatorial framework for sheet register prediction.",
+    "prediction": "A pre-filtering algorithm based on Kawasaki-analog angle consistency applied to predicted secondary structure segments will eliminate more than 30% of physically impossible beta-sheet topologies from conformational search spaces without discarding any native-state-compatible topologies, reducing AlphaFold-class model runtime on beta-rich proteins.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Rod-and-String Control Architecture Typology",
+    "mechanism_source": "puppetry",
+    "target_domain": "management theory",
+    "mechanism": "Puppetry distinguishes rod puppets (direct mechanical linkage — force applied to rigid extensions moves the puppet deterministically) from string marionettes (indirect tension-based control — the puppeteer influences rather than dictates, and the puppet's own weight creates emergent movement).",
+    "application": "Management control systems map precisely onto this typology: rod-control organizations use direct procedural mandates and real-time monitoring where managerial force translates directly to employee action, while string-control organizations govern through incentive structures and cultural tension where employee behavior emerges from the interplay of managerial pull and individual inertia. Rod control optimizes for precision in routine, low-variance tasks but collapses under complexity because the controller must model every degree of freedom. String control tolerates more behavioral variance but enables emergent coordination in novel environments — matching the marionette's capacity for naturalistic movement the rod puppet cannot achieve.",
+    "prediction": "Organizations that shift from rod-to-string control architecture during periods of product-market expansion (measured by span of managerial control and policy-to-guideline ratio) will show higher innovation output but higher behavioral variance; those that maintain rod architecture during expansion will show output ceiling effects predictable from controller bandwidth limits.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Cross-Dating and Missing-Ring Correction in Economic Time Series",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "economic forecasting",
+    "mechanism": "Dendrochronologists cross-date tree-ring sequences from multiple specimens to build master chronologies, and use pointer years — synchronous anomalous rings across many trees — to identify missing rings caused by extreme stress years where no growth occurred.",
+    "application": "Economic time series contain analogous 'missing rings': quarters or years where standard indicator measurements fail to capture genuine economic activity due to measurement gaps, shadow economies, wartime suppression, or hyperinflationary distortion. Cross-dating methodology — aligning multiple independent economic proxies (trade volumes, energy consumption, postal traffic, tax receipts) to identify synchronous anomalies — can reveal these missing periods and correct chronologies used in long-run forecasting models. Pointer-year logic further identifies crisis years that anchor cross-series alignment, offering a principled method for splicing heterogeneous historical datasets.",
+    "prediction": "Economic chronologies for 20th-century developing economies reconstructed using dendrochronology-inspired cross-dating of five or more independent proxy series will produce GDP growth estimates that reduce out-of-sample forecasting error by at least 15% compared to single-series reconstructions, particularly for decades containing known measurement disruptions.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Trapeze Timing and Catch-Phase Coordination in Mass Casualty Response",
+    "mechanism_source": "circus arts",
+    "target_domain": "emergency response",
+    "mechanism": "Flying trapeze acts depend on precise timing windows — the catcher swings into position at a fixed phase of a pendulum cycle, and the flyer must release at the exact moment of peak arc height; missing the window by even a fraction of a second makes the catch geometrically impossible regardless of individual skill.",
+    "application": "Mass casualty incident response involves multiple agencies (fire, EMS, trauma centers, public health) that must coordinate hand-offs — patient triage, transport, hospital surge activation — within narrow temporal windows analogous to trapeze catch phases. An agency that is 'in position' (hospital surge capacity activated) but receives patients before or after the optimal transfer window produces worse outcomes than a slightly less capable system with better phase synchronization. Emergency response protocols should be designed around explicit phase diagrams specifying not just who does what but when in the incident timeline each agency must be in its 'catch position', with safety net protocols analogous to the static net below — fallback procedures that activate automatically when timing windows are missed.",
+    "prediction": "Mass casualty incident simulations where inter-agency hand-off timing is explicitly choreographed to phase-synchronize resource availability with patient flow peaks will show lower peak waiting times and higher survival rates in the critical 30–90 minute window than simulations optimizing only for total resource quantity.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Signature Collation and Case-Binding in Constitutional Amendment Doctrine",
+    "mechanism_source": "bookbinding",
+    "target_domain": "constitutional law",
+    "mechanism": "In bookbinding, folded sheets called signatures are gathered in sequence and sewn together before being encased in a rigid cover; the structural integrity of the finished book depends on the order and completeness of signatures — a missing or misplaced signature makes sections inaccessible even if the cover and other sections are intact.",
+    "application": "Constitutional amendments function as signatures added to the original document-block: each must be gathered in proper ratification sequence, and the structural coherence of constitutional interpretation depends on treating them as an ordered, bound whole rather than isolated provisions. Courts that interpret later amendments without reference to the gathered sequence — analogous to reading a signature in isolation from its gathering position — risk misreading provisions whose meaning derives from their sequential relationship to earlier text. The 'case binding' metaphor further suggests that a constitution's rigid procedural cover (amendment thresholds, ratification requirements) exists precisely because the interior signatures must be protected from reordering once bound.",
+    "prediction": "Constitutional court decisions that explicitly invoke the sequential ratification order of amendments as interpretive evidence will show higher cross-bench consensus rates than decisions treating each amendment as a standalone text, measurable in concurrence/dissent patterns across supreme courts with formal amendment sequences.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Intertidal Zonation and Labor Market Stratification by Stress Tolerance",
+    "mechanism_source": "tidal ecology",
+    "target_domain": "labor markets",
+    "mechanism": "Intertidal zones are vertically stratified by organisms' differential tolerance to desiccation, thermal stress, and wave exposure; species sort into bands not by competitive exclusion alone but by their physiological tolerance of abiotic stress gradients that competitively dominant species cannot survive.",
+    "application": "Labor markets exhibit analogous zonation: workers stratify into occupational tiers that map onto stress-tolerance gradients — precarity, physical hazard, schedule unpredictability — rather than purely onto skill or wage gradients. High-stress occupational zones (gig work, seasonal labor, zero-hour contracts) are not simply low-wage positions but ecological zones that competitively exclude workers whose household structures, health status, or caregiving obligations reduce their stress tolerance, regardless of their skill. This reframes labor market segmentation as a zonation phenomenon driven by abiotic stress thresholds rather than human capital deficits, predicting that reducing zone stress (regularizing schedules, providing benefits) will attract higher-skill workers without wage increases.",
+    "prediction": "Occupational sectors that reduce schedule unpredictability and contract precarity without changing base wages will experience measurable upward skill-grade shift in applicant pools within 18 months, as workers previously excluded by stress-tolerance constraints rather than wage constraints enter the zone — analogous to mid-intertidal recolonization after stress amelioration.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Field-Responsive Viscosity Modulation in Crowd Flux Control",
+    "mechanism_source": "ferrofluid dynamics",
+    "target_domain": "crowd control",
+    "mechanism": "Ferrofluids are colloidal suspensions that undergo reversible viscosity increases of several orders of magnitude when exposed to external magnetic fields, because field-aligned particle chains create yield-stress structures that resist flow without physical barriers.",
+    "application": "Crowd flow through constrained spaces (stadium exits, transit chokepoints, evacuation corridors) exhibits fluid-like behavior with dangerous jamming transitions analogous to ferrofluid solidification. Applying the ferrofluid model suggests that variable-resistance 'field' interventions — dynamic audio cues, light gradients, crowd marshal positioning that increases effective friction in specific zones — can modulate crowd viscosity at targeted locations without physical barriers, preventing the unjamming-to-jamming transition that produces fatal crushes. The key insight is that small, distributed field-like perturbations (analogous to weak magnetic fields) can create yield-stress-like collective behaviors that redirect flow before dangerous density thresholds are reached.",
+    "prediction": "Crowd simulation models incorporating variable viscosity zones controlled by spatially distributed audio-visual 'field' cues will predict safer peak-density distributions in bottleneck scenarios than models using only physical barrier placement, with the effect size increasing in proportion to the number of independently controllable field zones.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Cover-Medium Saturation and Plausible Deniability in Corporate Communication",
+    "mechanism_source": "steganography",
+    "target_domain": "corporate communication",
+    "mechanism": "Steganography conceals information within innocuous cover media by exploiting the redundancy and noise tolerance of the carrier — a message hidden in the least-significant bits of an image is invisible precisely because the cover medium naturally contains variation at that level of detail.",
+    "application": "Corporate communication routinely embeds operationally significant signals within cover media of anodyne official language: reorganization announcements signal impending layoffs to informed insiders, earnings-call word-choice shifts communicate strategic pivots to analyst communities, and policy documents encode priority signals readable only by those with domain fluency. Unlike malicious steganography, organizational steganography often serves coordination functions — allowing differentiated messages to reach different audiences from a single communication — but it also enables deniability when hidden messages contradict official positions. Mapping channel capacity (how much signal can be embedded without detection) and steganalysis resistance (how easily outsiders decode the hidden layer) provides a rigorous framework for analyzing corporate communication failures where stated and operational messages diverged.",
+    "prediction": "Regulatory investigations of corporate misconduct will find that the divergence between embedded operational signals (reconstructed from internal communications analyzed for steganographic patterns) and official external communications is measurable at least six months before public disclosure of the misconduct, using automated linguistic steganalysis techniques adapted from digital watermarking detection.",
+    "viability": "promising",
+    "confidence": 0.7
+  },
+  {
+    "name": "Parasitoid Oviposition Strategy and Targeted Software Exploit Delivery",
+    "mechanism_source": "entomology",
+    "target_domain": "cybersecurity",
+    "mechanism": "Parasitoid wasps locate hosts through a hierarchical search — habitat finding, host habitat finding, host finding, host acceptance — using volatile chemical gradients at each scale; critically, they inject eggs into hosts in developmental stages where the host immune system is suppressed or the parasitoid larva can evade it.",
+    "application": "Advanced persistent threat actors deploy exploits using a hierarchically analogous search strategy: network reconnaissance identifies vulnerable sectors (habitat), service fingerprinting locates specific targets (host habitat), vulnerability scanning finds exploitable versions (host finding), and timing attacks exploit maintenance windows or update cycles when security monitoring is suppressed (developmental stage exploitation). The parasitoid model predicts that defenders focusing only on perimeter detection miss the host-acceptance phase — the moment the attacker evaluates whether a specific target's immune-equivalent (EDR, SIEM alerting, patch level) is currently in a suppressible state. Ovipositor-stage defenses should focus on making this acceptance-phase assessment visible rather than trying to prevent host-finding entirely.",
+    "prediction": "APT intrusion campaigns will show a statistically distinct 'acceptance dwell' period — a pause in activity after initial access but before payload delivery, during which attackers assess defensive coverage — predictable in duration by the target organization's patch cycle and monitoring rotation schedules, consistent with parasitoid host-acceptance evaluation behavior.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Coin Hoarding, Demonetization, and Lexical Withdrawal from Active Circulation",
+    "mechanism_source": "numismatics",
+    "target_domain": "language death",
+    "mechanism": "Coin hoards form when economic or political instability causes currency to be withdrawn from circulation into private storage; numismatists distinguish between coins that drop out of circulation through hoarding versus those demonetized by deliberate policy, because the two processes leave different archaeological signatures.",
+    "application": "Dying languages show analogous withdrawal patterns: words and grammatical forms first move from active productive use into passive recognition (hoarding — speakers understand but no longer generate), then into specialist or ceremonial preservation (numismatic collection — used only in controlled contexts by specialists), and finally into documentary record only (museum pieces — no living users). The numismatic distinction between hoarding and demonetization maps onto the difference between organic language contraction (community gradually stops using forms) and deliberate language suppression (colonial or institutional policy explicitly bans usage). This framework predicts that hoard-type withdrawal produces different revitalization prospects than demonetization-type withdrawal, because passively retained lexical items can re-enter circulation under changed conditions while deliberately suppressed items may require active reconstruction.",
+    "prediction": "Language revitalization programs targeting lexical items in the 'passive recognition' stage (measurable via comprehension-without-production testing in elder speakers) will achieve active reintroduction in community speech at higher rates than programs targeting items already in specialist-only or documentary-only stages, with the success differential increasing with the age gap between the youngest passive recognizers and the revitalization program participants.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Caldera Collapse, Resurgence Cycles, and Startup Ecosystem Boom-Bust Dynamics",
+    "mechanism_source": "volcanology",
+    "target_domain": "startup ecosystems",
+    "mechanism": "Calderas form when magma chamber evacuation during eruption causes roof collapse; many calderas then undergo resurgent uplift as the chamber partially refills, creating a nested topography where the collapse depression contains a rising central dome — a cycle that can repeat across geological timescales.",
+    "application": "Startup ecosystems follow a caldera-analog boom-bust-resurgence cycle: rapid growth phases (magma chamber pressurization) culminate in bust events — regulatory crackdown, funding drought, anchor-company collapse — that cause ecosystem-wide depression (caldera formation) as capital and talent evacuate. Resurgence begins when survivors of the collapse retain tacit knowledge and relationships that constitute a partially filled magma chamber, enabling a second-generation ecosystem to emerge from within the collapse depression, often more structurally stable than the pre-collapse version. The caldera model predicts that ecosystems with high pre-bust knowledge density (measured by patent networks, alumni networks, and acquired-company counts) will show faster and more durable resurgence than those where the bust evacuates knowledge capital along with financial capital.",
+    "prediction": "Post-bust startup ecosystems where more than 40% of pre-bust founders remain in the geography through the trough (measured three years post-peak funding) will show resurgent unicorn production within seven years at rates exceeding pre-bust levels, while ecosystems with higher founder exodus will show caldera-without-resurgence patterns of persistent depression.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Decomposer Guild Succession and Supply Chain Resilience Staging",
+    "mechanism_source": "mycology",
+    "target_domain": "supply chain logistics",
+    "mechanism": "In decomposer ecology, fungal guilds succeed one another in predictable sequence on organic substrates — pioneer species break down labile compounds, mid-successional species attack cellulose, and late-successional species are the only organisms capable of degrading recalcitrant lignin; each guild modifies the substrate in ways that enable the next while precluding its own continued dominance.",
+    "application": "Supply chain disruption recovery follows an analogous guild succession pattern: first-responder logistics actors (air freight, emergency procurement, spot-market brokers) rapidly address acute shortages of labile high-value components but cannot cost-effectively restore base-material flows; mid-recovery actors (regional distributors, alternative-source qualifiers) then restructure intermediate flows; and late-stage resilience actors (dual-sourcing programs, nearshoring investments, strategic stockpile managers) address the recalcitrant structural vulnerabilities that pioneer responders cannot reach. Mismatches occur when organizations attempt to deploy late-stage guild actors during pioneer phases — expensive structural investments made before acute shortages are resolved — or retain pioneer actors into late-stage recovery when their high-cost, low-volume approach becomes destructive to margin.",
+    "prediction": "Supply chain recovery programs that sequence intervention types to match the substrate-modification timeline — acute sourcing before alternative-supplier qualification before structural dual-sourcing — will reach pre-disruption cost-per-unit levels at least 25% faster than programs deploying all intervention types simultaneously or in reverse sequence, with the effect size proportional to disruption severity.",
+    "viability": "incoherent",
+    "confidence": 0.5
+  }
+]

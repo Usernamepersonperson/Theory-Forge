@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stratigraphic Choreography",
+    "mechanism_source": "geology",
+    "target_domain": "dance",
+    "mechanism": "Sedimentary layering and unconformities as records of depositional history",
+    "application": "Choreographic sequences can be composed as sedimentary layers, where each movement phrase deposits atop the last and erosional gaps (deliberate stillness or omission) create unconformities that the audience reads as lost time. Transitions between dance sections function like fault lines — sudden displacements that recontextualize everything above and below. This produces choreography that carries visible geological time within the body.",
+    "prediction": "Audiences watching dances structured with deliberate unconformity gaps will report stronger sensations of elapsed time and narrative depth than those watching continuously flowing choreography of equal duration.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Lactic Drift Linguistics",
+    "mechanism_source": "fermentation",
+    "target_domain": "linguistics",
+    "mechanism": "Controlled microbial succession during fermentation where starter cultures shape subsequent community development",
+    "application": "Language change can be modeled as a fermentation process where early-adopted loanwords or slang terms act as starter cultures, creating an environment that favors certain phonological and syntactic shifts over others. Just as a kombucha SCOBY selects for acid-tolerant organisms, an initial wave of borrowed vocabulary selects for compatible grammatical adaptations. The resulting linguistic 'flavor profile' is path-dependent on which starter terms colonized the language first.",
+    "prediction": "Languages that borrowed heavily from the same source language in the same era will show convergent grammatical drift even without direct contact between the borrowing languages.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Topological Market Entanglement",
+    "mechanism_source": "knot theory",
+    "target_domain": "economics",
+    "mechanism": "Knot invariants that distinguish topologically distinct but visually similar structures",
+    "application": "Financial derivatives and interlocking debt obligations form knot-like topological structures where the crossing number indicates systemic risk. Two portfolios may appear similarly diversified yet have fundamentally different entanglement topologies — one reducible to simpler components and one not. Applying Reidemeister moves to contract networks reveals which obligations can be simplified without altering systemic exposure and which are irreducibly knotted.",
+    "prediction": "Financial networks whose obligation graphs have higher Jones polynomial complexity will exhibit greater contagion spread during stress events than networks with equivalent total exposure but lower topological complexity.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Harmonic Resonance Therapy",
+    "mechanism_source": "luthiery",
+    "target_domain": "psychology",
+    "mechanism": "Tap tuning and bracing patterns that control how a guitar top vibrates at specific frequencies",
+    "application": "Therapeutic interventions can be designed like bracing patterns on a guitar soundboard — strategically placed cognitive supports that don't rigidify the personality but shape which emotional frequencies resonate most freely. Over-bracing produces a psychologically 'stiff' individual unable to resonate with experience, while under-bracing leads to structural collapse under stress. The therapist's task is tap-tuning: finding where the client already vibrates and adjusting brace placement to enrich rather than suppress that natural tone.",
+    "prediction": "Therapy protocols that identify and reinforce a client's two or three dominant emotional response patterns rather than attempting broad-spectrum emotional regulation will produce faster symptom reduction and lower relapse rates.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Escapement Succession",
+    "mechanism_source": "watchmaking",
+    "target_domain": "ecology",
+    "mechanism": "The escapement mechanism that converts continuous spring energy into regulated discrete ticks",
+    "application": "Ecological succession can be reframed through the watchmaking escapement: pioneer species function as the escape wheel, converting continuous solar energy into discrete pulses of biomass accumulation. Each 'tick' of succession releases just enough resources for the next guild of species to advance one step, preventing runaway growth that would exhaust the system. Climax communities represent fully regulated oscillation where energy input and dissipation are perfectly metered.",
+    "prediction": "Ecosystems recovering from disturbance that show regular, pulsed biomass accumulation (analogous to ticking) will reach stable climax states faster than those showing continuous smooth growth curves.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Tidal Scaffolding Pedagogy",
+    "mechanism_source": "oceanography",
+    "target_domain": "pedagogy",
+    "mechanism": "Tidal zone stratification where organisms are adapted to specific levels of submersion and exposure",
+    "application": "Learning environments can be structured like intertidal zones, where students occupy different bands of cognitive immersion. The splash zone offers brief, intermittent exposure to new concepts; the mid-tide zone provides regular cycles of submersion and air; the subtidal zone offers deep continuous immersion. Rather than uniform instruction, educators design curricula that let students migrate between zones as their tolerance for conceptual submersion increases, building resilience to intellectual depth.",
+    "prediction": "Students given graduated exposure cycles to difficult material — alternating between shallow engagement and deep immersion — will demonstrate better long-term retention than students given either constant shallow or constant deep exposure.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Trickster Key Exchange",
+    "mechanism_source": "folklore",
+    "target_domain": "cryptography",
+    "mechanism": "The trickster archetype who transmits hidden messages through apparent nonsense and misdirection",
+    "application": "Cryptographic protocols can incorporate trickster logic by embedding genuine key material inside apparently malformed or nonsensical transmissions that adversaries dismiss as noise. Like Anansi hiding wisdom in ridiculous stories, the protocol wraps cryptographic handshakes in traffic that mimics system errors, garbled packets, or spam. The intended recipient recognizes the trickster pattern; everyone else sees only chaos.",
+    "prediction": "Steganographic protocols that embed key exchanges in traffic patterns mimicking common error states will evade deep packet inspection at higher rates than protocols hidden in normal-looking traffic.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Raku Synaptic Fracture",
+    "mechanism_source": "ceramics",
+    "target_domain": "neuroscience",
+    "mechanism": "Raku firing where thermal shock produces unpredictable crackle glaze patterns",
+    "application": "Neural pathway formation under acute stress mirrors raku firing: rapid heating (intense stimulation) followed by sudden cooling (removal of stimulus) produces crackle patterns of synaptic connections that are unpredictable in detail but consistent in structural character. These stress-crackle networks create novel connectivity that wouldn't emerge from gradual learning, explaining why breakthrough insights often follow periods of intense cognitive strain followed by sudden relaxation.",
+    "prediction": "fMRI imaging of subjects who experience sudden cognitive relief after intense problem-solving will show dendritic branching patterns with higher fractal dimension than those formed during steady-state learning.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Tempered Interval Architecture",
+    "mechanism_source": "swordsmithing",
+    "target_domain": "music",
+    "mechanism": "Differential hardening where a blade's spine remains soft while the edge is hardened through selective quenching",
+    "application": "Musical compositions can employ differential tempering: certain melodic lines are 'hardened' through rigid rhythmic and intervallic constraints while accompanying voices remain 'soft' and flexible. This creates pieces where structural integrity comes from the contrast between brittle precision and ductile improvisation. The hardened melody can hold an edge — cut through dense arrangements — precisely because the softer harmonies absorb shock and flex around it.",
+    "prediction": "Compositions that pair one rhythmically rigid voice against flexible accompanying voices will be rated as more structurally coherent by listeners than compositions where all voices share the same degree of rhythmic strictness.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Stroke Order Morphogenesis",
+    "mechanism_source": "calligraphy",
+    "target_domain": "biology",
+    "mechanism": "Prescribed stroke order where the sequence of strokes affects the final character's balance and energy flow",
+    "application": "Gene expression during embryonic development follows a calligraphic logic where the order of activation matters as much as which genes are expressed. Like a character whose beauty depends on stroke sequence — each new stroke interacting with the wet ink of previous ones — morphogenetic signals layer atop still-active earlier signals. Changing the order of identical gene activations, like reordering calligraphic strokes, produces a recognizably different organism even with the same genetic components.",
+    "prediction": "Artificially reordering the temporal sequence of key developmental gene activations while maintaining their spatial patterns and durations will produce morphological variants distinguishable from wild-type organisms.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Angel's Share Jurisprudence",
+    "mechanism_source": "whisky distillation",
+    "target_domain": "law",
+    "mechanism": "The angel's share — the portion of spirit lost to evaporation during barrel aging that is accepted as necessary for quality",
+    "application": "Legal systems require an angel's share: a predictable, accepted loss of strict justice in individual cases that enables the overall body of law to mature into something nuanced and humane. Attempts to eliminate all case-level injustice (seal the barrel perfectly) produce a legal system that never develops complexity, remaining raw and harsh. The most sophisticated legal traditions are those that have explicitly theorized their acceptable loss rate and designed appellate structures as barrel warehouses where precedent ages.",
+    "prediction": "Legal systems with moderate rates of overturned decisions on appeal (5-15%) will produce more internally consistent and publicly trusted bodies of precedent than systems with very low (<2%) or very high (>25%) overturn rates.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Dramaturgical Catalysis",
+    "mechanism_source": "theater",
+    "target_domain": "chemistry",
+    "mechanism": "The dramatic aside where a character steps outside the scene to address the audience directly",
+    "application": "Certain chemical catalysts function as dramatic asides: they temporarily break the fourth wall of a reaction's energy landscape, allowing reactants to 'address' thermodynamic states they couldn't access within the normal scene. Enzyme active sites create these aside-spaces where substrates adopt conformations that would be energetically forbidden in bulk solution. The catalyst, like the aside, doesn't change the plot but reveals hidden motivations that drive the reaction forward.",
+    "prediction": "Catalysts that create transient microenvironments with dramatically different dielectric constants from the bulk medium will show higher rate enhancements than catalysts that merely lower activation energy through conventional transition-state stabilization.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Dead Reckoning Cosmogony",
+    "mechanism_source": "navigation",
+    "target_domain": "mythology",
+    "mechanism": "Dead reckoning — estimating current position based on previously known position plus estimated speed and direction",
+    "application": "Creation myths function as dead reckoning systems: given a known present state (the world as it is), they estimate backward to an origin point using culturally calibrated assumptions about drift rate and direction. Different mythologies aren't competing truth claims but different dead-reckoning calculations from the same observed position, each internally consistent given its assumptions about cosmic velocity. Comparative mythology becomes a navigation problem — triangulating between reckoning systems to estimate true cosmological drift.",
+    "prediction": "Creation myths from cultures in similar ecological niches will show convergent 'drift assumptions' (similar ratios of chaos-to-order, destruction-to-creation) even without cultural contact, because their observed present positions are similar.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Hexagonal Epistemology",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "philosophy",
+    "mechanism": "Hexagonal cell packing that maximizes storage volume while minimizing construction material",
+    "application": "Philosophical systems can be evaluated by their packing efficiency: how much explanatory volume they enclose per unit of axiomatic material. Hexagonal epistemologies — those that tile perfectly with neighboring knowledge domains without gaps or overlaps — are structurally superior to circular ones that leave interstitial voids. The history of philosophy shows a drift from square (Aristotelian categories) to hexagonal (pragmatist) packing as thinkers discovered that six points of contact with adjacent domains is more stable than four.",
+    "prediction": "Philosophical frameworks with more explicit interface points to neighboring disciplines will show greater longevity and citation persistence in academic literature than frameworks of equivalent depth but fewer interdisciplinary connections.",
+    "viability": "promising",
+    "confidence": 0.60
+  },
+  {
+    "name": "Crop Rotation Parallax",
+    "mechanism_source": "agriculture",
+    "target_domain": "astronomy",
+    "mechanism": "Crop rotation where alternating plant families replenish different soil nutrients in sequence",
+    "application": "Astronomical observation programs can be structured as crop rotations: cycling between different observation targets and instrument configurations replenishes the 'soil' of theoretical understanding that each type of observation depletes. Continuous deep-field imaging exhausts interpretive frameworks just as monoculture exhausts nitrogen; rotating to spectroscopic surveys or transient monitoring restores theoretical fertility. The optimal rotation pattern depends on the current nutrient profile of the field's theoretical soil.",
+    "prediction": "Astronomy research groups that systematically rotate between observational modes on multi-year cycles will produce higher-impact discoveries per telescope-hour than groups that specialize continuously in a single observational technique.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

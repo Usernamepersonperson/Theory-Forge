@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Eusocial Caste Differentiation Theory of Corporate Restructuring",
+    "mechanism_source": "entomology",
+    "target_domain": "corporate restructuring",
+    "mechanism": "In eusocial insect colonies, caste differentiation is triggered by environmental stressors and pheromone gradients, causing totipotent larvae to commit irreversibly to reproductive, worker, or soldier phenotypes; colony fitness depends on maintaining precise caste ratios calibrated to resource availability and threat level.",
+    "application": "Corporate restructuring events can be modeled as forced caste redifferentiation under resource stress, where generalist employees are pushed toward specialized roles (soldier/legal-defensive, worker/operational, reproductive/growth-oriented) through incentive gradients analogous to pheromone signals. Firms that allow caste ratios to drift from environmental demands — over-investing in defensive functions during growth phases or vice versa — exhibit lower post-restructuring survival rates. Intervention design should target the 'pheromone layer' (management signaling, compensation structure) rather than individual role assignments directly.",
+    "prediction": "Companies undergoing restructuring that explicitly rebalance role-type ratios toward environment-appropriate caste distributions (measured by headcount across defensive, operational, and growth functions) will show 15–25% higher three-year revenue recovery than firms that restructure by headcount reduction alone, controlling for industry and restructuring depth.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tribological Contact Mechanics Model of Therapeutic Alliance Rupture",
+    "mechanism_source": "tribology",
+    "target_domain": "psychotherapy",
+    "mechanism": "Tribology describes friction as an emergent property of asperity contact at mating surfaces — real contact area is a small fraction of apparent area, and wear occurs when asperities plastically deform or shear under load; lubrication regimes (hydrodynamic, boundary, mixed) determine whether surfaces are separated by a fluid film or in direct solid contact.",
+    "application": "The therapeutic alliance can be modeled as a tribological interface: therapist and client bring surface 'roughness' in the form of attachment styles, defenses, and relational schemas, and the work of therapy occurs precisely at asperity contact points — moments of misattunement or rupture. High-viscosity lubrication (explicit mentalizing, reflective functioning, therapeutic frame) keeps surfaces separated and wear low, enabling smooth relative motion; boundary lubrication failures correspond to countertransference breakthroughs or empathic failures that cause localized damage. Therapeutic progress requires controlled micro-contact to reshape asperities (schemas) without catastrophic surface failure.",
+    "prediction": "Therapist pairs rated higher on reflective functioning (a proxy for lubrication viscosity) will show rupture-repair cycles that are shorter in duration and followed by stronger alliance scores, while dyads with low reflective functioning will show cumulative 'wear' measured as progressive alliance deterioration across sessions — detectable in session-by-session WAI scores.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Heraldic Blazon Grammar as API Specification Language",
+    "mechanism_source": "heraldry",
+    "target_domain": "API design",
+    "mechanism": "Heraldic blazon is a formal grammar for unambiguously encoding visual coat-of-arms compositions: it specifies field tincture first, then charges in strict hierarchical order, uses precise relational prepositions ('on,' 'between,' 'over all'), and enforces the rule of tincture to prevent color-on-color combinations that reduce legibility; marshalling rules govern how multiple arms are combined (quartering, impalement, inescutcheon) without ambiguity.",
+    "application": "API endpoint design suffers from exactly the combinatorial ambiguity blazon was built to solve: resource hierarchies, method-resource combinations, and compositional rules (pagination, filtering, versioning) are typically documented in prose that is inconsistent and renderer-dependent. A blazon-derived specification grammar would encode resource 'fields' (base data types), 'charges' (operations and their hierarchical priority), and 'marshalling rules' (how APIs from different services combine in gateway compositions) using unambiguous positional grammar. The tincture rule maps to type-safety constraints — certain combinations of parameter types and response shapes are forbidden because they reduce parseability for clients.",
+    "prediction": "API specifications written in a blazon-derived formal grammar will produce client SDKs with measurably fewer integration errors in interoperability tests than equivalent OpenAPI/Swagger specs covering the same endpoints, due to enforced disambiguation of compositional rules — testable by comparing error rates in a controlled SDK generation experiment.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Gresham Debasement Law of Memetic Currency",
+    "mechanism_source": "numismatics",
+    "target_domain": "meme propagation",
+    "mechanism": "Coin debasement reduces intrinsic metal content while preserving face value; Gresham's Law observes that when debased and full-weight coins circulate at the same nominal value, holders hoard the full-weight coins and spend the debased ones, driving good money out of circulation; serial debasement cycles collapse monetary credibility until recoinage or external anchor restoration occurs.",
+    "application": "Information ecosystems exhibit memetic debasement: high-fidelity content (peer-reviewed findings, primary sources, nuanced analysis) and low-fidelity content (oversimplified derivatives, misattributed quotes, emotionally amplified distortions) circulate at the same 'face value' of a share or repost. Audiences rationally hoard high-fidelity content for personal decision-making but circulate debased memes at higher velocity because they trade at face value in attention markets — driving good epistemic content out of social circulation. Platform interventions that create 'exchange rate' differentials (friction on resharing without reading, credibility scores) function as anchor mechanisms resisting debasement cycles.",
+    "prediction": "On platforms that introduce friction-based exchange rate differentials (e.g., 'quote-tweet with comment required'), the ratio of primary-source citations to derivative restatements in viral content will increase measurably within 90 days compared to control platform periods, and the half-life of debased memes will shorten — falsifiable via before/after content provenance analysis.",
+    "viability": "speculative",
+    "confidence": 0.71
+  },
+  {
+    "name": "Lemmatization and Headword Selection as Urban Zoning Epistemics",
+    "mechanism_source": "lexicography",
+    "target_domain": "urban planning",
+    "mechanism": "Dictionary-makers must decide which word forms count as the canonical headword (lemma) and which are inflectional variants to be subsumed — this editorial act determines what gets individual treatment versus what is collapsed into another entry; headword selection encodes implicit theories about what distinctions matter, and over time the dictionary's lemma set shapes which meanings speakers can access as discrete concepts.",
+    "application": "Urban land-use classification systems perform exactly this lemmatization operation on spatial reality: the choice to code a parcel as 'commercial,' 'residential,' or 'mixed-use' collapses enormous variance into a headword, and the variance that falls below the codification threshold becomes legally invisible. Cities whose zoning codes have coarse lemma sets (few distinct use categories) systematically fail to represent — and therefore protect — marginal land uses like informal markets, live-work studios, or care infrastructure, just as dictionaries with few headwords make fine-grained distinctions inexpressible. Expanding the zoning lemma set through granular use categories functions as a lexicographic reform that makes previously uncodeable urban practices legible to planning systems.",
+    "prediction": "Cities that introduce fine-grained zoning categories (expanding use classifications by 30%+) will show measurable increases in informal economic activity formalizing into permitted uses within five years, compared to cities maintaining coarse classifications — measurable via business license data and permit applications.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Semiotic Sign-Vehicle Theory of Innate Immune Pattern Recognition",
+    "mechanism_source": "semiotics",
+    "target_domain": "immunology",
+    "mechanism": "In Peircean semiotics, a sign functions only through the triadic relation of sign-vehicle (the perceptible form), object (what it refers to), and interpretant (the effect produced in the receiving system); sign vehicles are arbitrary with respect to their objects, meaning the same vehicle can acquire different interpretants depending on context, and the interpretant is never the object itself but a mediated representation.",
+    "application": "Innate immune pattern recognition receptor (PRR) signaling is structurally semiotic: pathogen-associated molecular patterns (PAMPs) function as sign-vehicles, the pathogen's threat status is the object, and the downstream cytokine cascade is the interpretant generated in the immune cell. Crucially, the same molecular sign-vehicle (e.g., LPS) can generate different interpretants depending on co-receptor context and cellular state — a feature that semiotic theory predicts but reductionist ligand-receptor models underweight. Autoimmune pathologies correspond to sign misfire: self-molecules are misread as pathogen sign-vehicles, generating interpretants (inflammation) appropriate to an object (threat) that is absent.",
+    "prediction": "Immunological models incorporating semiotic context-dependence — specifically that the same PAMP generates qualitatively different cytokine interpretants depending on co-stimulatory context — will predict cytokine storm susceptibility in novel inflammatory contexts more accurately than models treating PRR binding affinity as the sole determinant, testable against COVID-19 severity datasets.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Polyrhythmic Entrainment Model of Distributed System Clock Synchronization",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "distributed systems",
+    "mechanism": "In West African and Afro-diasporic polyrhythmic music, multiple independent rhythmic cycles of incommensurate lengths (3 against 4, 5 against 7, 12 against 8) are maintained simultaneously by different performers; rather than locking to a single master clock, musicians entrain to a shared composite 'feel' through mutual phase-correction, tolerating drift within acceptable windows and self-correcting without a conductor.",
+    "application": "Distributed system consensus protocols typically enforce a single master clock or leader node, creating bottlenecks and single points of failure; polyrhythmic entrainment suggests an alternative where nodes maintain independent local clocks of incommensurate periods and synchronize through continuous mutual phase-correction signals rather than leader election. This model predicts that systems tolerating loose phase relationships — analogous to acceptable rhythmic drift — can achieve higher throughput and partition tolerance than tight-clock systems, at the cost of eventual (rather than strong) consistency. Network partitions correspond to a musician losing auditory contact with the ensemble, with recovery achieved through gradual re-entrainment rather than hard resynchronization.",
+    "prediction": "A distributed key-value store implementing polyrhythmic mutual entrainment clocking (nodes with incommensurate tick intervals and phase-correction gossip) will achieve 20%+ higher write throughput under simulated network jitter compared to Raft-based leader-clock systems with equivalent node counts, measurable in controlled benchmark environments.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Taphonomic Bias Framework for Venture Capital Portfolio Epistemics",
+    "mechanism_source": "paleontology",
+    "target_domain": "venture capital",
+    "mechanism": "Taphonomy studies the differential preservation of organisms from death to fossilization: hard-shelled, mineralizing organisms in low-energy depositional environments are vastly overrepresented in the fossil record relative to their true abundance, while soft-bodied organisms in high-energy environments are systematically absent; paleontological inference that ignores taphonomic bias produces systematically wrong pictures of past biodiversity.",
+    "application": "Venture capital deal flow suffers from structural taphonomic bias: companies that survive long enough to be visible to investors — those with legible business models, warm network introductions, and pitch-deck-compatible narratives — are preserved in the 'investment record' while non-legible innovations (informal, community-embedded, non-scalable-by-design ventures) are systematically absent. Portfolio diversification strategies built on visible deal flow thus reconstruct a biased sample, overweighting 'hard-shelled' VC-adapted ventures. Taphonomic correction requires deliberate sampling of the soft-bodied record: non-networked founders, non-English pitch materials, revenue-generating businesses that never sought funding.",
+    "prediction": "VC funds that implement systematic 'taphonomic correction' sourcing strategies (defined as >25% of deal flow from non-warm-introduction, non-accelerator channels) will show higher variance in returns but a fatter right tail — specifically, a higher rate of 10x+ outcomes per fund — than matched funds using conventional sourcing, testable across fund vintage cohorts.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Pyroclastic Density Current Dynamics of Social Movement Cascade Failure",
+    "mechanism_source": "volcanology",
+    "target_domain": "social movements",
+    "mechanism": "Pyroclastic flows are gravitationally driven avalanches of hot gas and volcanic debris that maintain coherence through fluidization — entrained gas supports particle weight, reducing inter-particle friction and enabling travel at extreme speeds across flat terrain; they bifurcate around topographic obstacles, lose momentum when their gas-to-particle ratio drops, and deposit material in characteristic graded layers that record flow energy.",
+    "application": "Mobilized social movements exhibit pyroclastic dynamics: high-energy collective action achieves rapid horizontal spread through fluidization of inter-personal friction — shared emotional intensity reduces coordination costs and enables fast diffusion across weak-tie networks. Institutional obstacles (topographic barriers) bifurcate movements into parallel streams that may reconverge or permanently separate; the movement loses coherence when the 'fluidizing agent' (shared grievance salience, media attention, external threat) dissipates and inter-personal friction reasserts, causing rapid deposition of activist energy into localized, lower-mobility organizational forms. The graded deposit layer — residual NGOs, cultural practices, legal precedents — records the flow's peak energy.",
+    "prediction": "Social movements whose mobilization phase shows higher cross-weak-tie spread velocity (measurable via social network analysis of participation diffusion) will show earlier bifurcation into institutionalized versus radical branches, and the bifurcation timing will correlate with a detectable drop in shared grievance salience metrics — testable against longitudinal movement datasets.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Mycelial Sink-Source Allocation Model for Neural Network Pruning",
+    "mechanism_source": "mycology",
+    "target_domain": "neural network architecture",
+    "mechanism": "Mycelial networks allocate carbon and nutrient flows through dynamic source-sink relationships: hyphal pathways that connect productive nutrient sources to active growth sinks are reinforced through increased cytoplasmic streaming, while non-productive branches are selectively abandoned and their resources resorbed; the network continuously remodels its topology in response to spatially heterogeneous resource availability without central coordination.",
+    "application": "Neural network pruning currently relies on magnitude-based or gradient-based static criteria applied post-training; a mycelial dynamic model suggests instead continuous during-training topology remodeling where connection weights are treated as hydraulic conductances and gradient signal as the 'nutrient flux' driving reinforcement or abandonment. Pathways carrying consistent high-magnitude gradient flow between productive input features and output loss reduction are reinforced; pathways with intermittent or zero flow are progressively abandoned and their parameters recycled to high-flux regions. This eliminates the separate pruning phase and adapts network topology to the actual resource (gradient) landscape.",
+    "prediction": "Neural networks trained with mycelial dynamic topology remodeling (continuous conductance-based connection pruning during training) will reach equivalent validation accuracy with 30–40% fewer parameters than post-training magnitude-pruned baselines on standard benchmarks (CIFAR-100, ImageNet), while showing higher retention of rare-class discriminative features — testable via controlled architecture experiments.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Watertight Compartmentalization Doctrine for Modular Curriculum Design",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "curriculum design",
+    "mechanism": "Naval hull compartmentalization divides a vessel into watertight sections so that flooding in one compartment does not propagate to adjacent sections; subdivision is governed by damage stability calculations specifying how many flooded compartments the vessel can sustain while maintaining positive metacentric height; bulkheads must withstand hydrostatic pressure from a fully flooded adjacent compartment without structural failure.",
+    "application": "Curriculum design treats prerequisite failure propagation the way hull designers treat flooding: when a student's deficit in one knowledge domain cascades into failure across all subsequent dependent units, the curriculum lacks effective bulkheads. Compartmentalized curriculum design inserts 'damage control bulkheads' — remediation modules, alternative entry pathways, and mastery gates with bypass routes — that contain learning deficits locally without sinking the student's entire academic trajectory. The metacentric height analog is minimum viable competency: a student can sustain N failed prerequisite compartments and still maintain positive academic stability if the remaining compartments provide sufficient righting moment.",
+    "prediction": "Curricula redesigned with explicit compartmentalization (modular mastery gates with parallel remediation tracks) will show significantly lower dropout rates among students who enter with below-median prerequisite scores, compared to linear prerequisite-chain curricula — testable via controlled comparison across community college cohorts with matched intake profiles.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Olfactory Accord Temporality as Narrative Pacing Architecture",
+    "mechanism_source": "perfumery",
+    "target_domain": "narrative structure",
+    "mechanism": "Perfumes unfold in three temporally distinct note phases governed by molecular volatility: top notes (high volatility, low molecular weight) deliver immediate impression and dissipate within 15–30 minutes; heart notes (moderate volatility) emerge as top notes fade, constituting the dominant character for 2–4 hours; base notes (low volatility, large molecules like musks and resins) emerge last and persist for hours, forming the lasting impression that anchors olfactory memory.",
+    "application": "Narrative structure maps onto this temporal volatility gradient: the opening's hook (high-volatility attention-grabbers — conflict, curiosity gap, sensory immediacy) dissipates quickly if unsupported; the heart of the narrative is the character/thematic accord that must carry sustained engagement once the opening volatility fades; the base notes are the lingering resonance — thematic weight, emotional residue, and changed understanding — that persist in audience memory after the narrative's surface events are forgotten. Writers who invest disproportionately in top-note craft (hooks, plot twists) at the expense of base-note development produce narratives that make strong first impressions but leave no lasting accord.",
+    "prediction": "Narratives rated highest on long-term memorability and emotional impact (measured via delayed recall surveys 30 days post-reading) will show higher structural investment in base-note elements (thematic resolution, character transformation, symbolic recurrence) relative to top-note elements, compared to narratives rated high on immediate engagement but low on long-term resonance — testable via structured content analysis.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Map Projection Distortion Theory of Psychometric Scale Validity",
+    "mechanism_source": "cartography",
+    "target_domain": "psychometrics",
+    "mechanism": "Every map projection is a mathematical transformation from a curved surface to a plane that necessarily preserves some spatial properties (area, shape, distance, direction) only by distorting others; the Tissot indicatrix visualizes local distortion at each point, revealing that no projection is globally undistorted and that the choice of projection encodes an implicit value judgment about which properties matter most.",
+    "application": "Psychometric scales are projections of a high-dimensional psychological construct space onto a low-dimensional measurement plane; every scale choice preserves some construct properties (internal consistency, test-retest reliability) by distorting others (construct coverage, cross-cultural validity, sensitivity at distribution tails). The Tissot indicatrix equivalent for psychometrics is item information curves — which reveal where the scale has discriminative resolution and where it is informationally distorted. Researchers who select scales without examining their distortion profile commit the cartographic error of treating a Mercator projection as equivalent to geographic reality: confident about relative positions near the equator, systematically wrong at high latitudes (extreme or marginal populations).",
+    "prediction": "Meta-analyses of psychological interventions will show that effect sizes estimated using scales with high distortion in the clinical range (as measured by IRT item information functions) are significantly less predictive of real-world functional outcomes than effect sizes from scales with low distortion in that range — detectable by correlating scale information function profiles with prediction validity in clinical follow-up studies.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Trace Evidence Chain-of-Custody Protocol for Software Defect Provenance",
+    "mechanism_source": "forensics",
+    "target_domain": "software debugging",
+    "mechanism": "Forensic trace evidence analysis identifies, collects, and maintains chain-of-custody records for minute physical transfers (fiber, glass, tool marks) that connect suspect, victim, and scene through Locard's exchange principle — every contact leaves a trace; admissibility requires documented continuity of evidence integrity from scene collection through laboratory analysis.",
+    "application": "Software defects leave trace evidence in exactly the Locard sense: every execution leaves traces in logs, memory dumps, network captures, and side-channel timing that connect the bug's origin (causal commit), propagation path (call stack), and symptom site (crash point). Systematic debugging protocols modeled on forensic chain-of-custody treat each diagnostic artifact as evidence requiring integrity documentation — preventing the common debugging failure mode of evidence contamination (modifying the system while investigating, losing log rotation, confounding reproduction environments). Locard's exchange principle reframes every production incident as a crime scene where the defect has left recoverable transfer traces even when direct observation is unavailable.",
+    "prediction": "Software teams that implement forensic chain-of-custody debugging protocols (structured artifact collection with integrity hashes, environment snapshots, and contamination logs for each production incident) will show measurably shorter mean-time-to-root-cause for recurring defects compared to teams using ad-hoc debugging, particularly for heisenbugs that disappear under direct observation — testable via incident postmortem data.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Speleothem Stratification Model of Organizational Memory Sedimentation",
+    "mechanism_source": "speleology",
+    "target_domain": "organizational memory",
+    "mechanism": "Cave formations (speleothems) grow through slow mineral precipitation from percolating groundwater: each growth layer records environmental conditions at the time of deposition — isotopic ratios encode temperature, growth rate encodes precipitation, trace elements encode surface ecology; hiatus surfaces mark periods of drought or disturbance when deposition ceased; older layers are compressed, chemically altered, and increasingly difficult to read without specialist tools.",
+    "application": "Organizational memory sediments in speleothem-like layers: recent knowledge is fluid and accessible (active documentation, current staff); intermediate knowledge is crystallized in procedures, codebases, and institutional norms that are readable but no longer actively updated; deep organizational memory is compressed into founding assumptions, architectural decisions, and cultural heuristics whose original environmental context has been lost, making them difficult to interpret without specialist archaeology. Organizational crises often occur when deep-layer compressed assumptions encounter surface-layer conditions they were not calibrated for — the equivalent of a speleothem record showing a past climate regime that has no modern analog. Knowledge management intervention should focus on marking hiatus surfaces — explicit records of what was known, when deposition stopped, and under what conditions.",
+    "prediction": "Organizations that maintain explicit 'hiatus surface' documentation (structured records marking when knowledge domains ceased active updating and why) will show faster adaptation to domain-relevant environmental changes than organizations with undifferentiated knowledge archives, measurable by time-to-competent-response when dormant knowledge domains become operationally relevant again.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  }
+]

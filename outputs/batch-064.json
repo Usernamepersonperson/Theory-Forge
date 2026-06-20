@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Contrapostural Argument Design",
+    "mechanism_source": "dance",
+    "target_domain": "rhetoric",
+    "mechanism": "contrapposto — the balanced asymmetry of weight shift creating dynamic equilibrium in the body",
+    "application": "Persuasive arguments gain power through contrapposto: deliberately shifting weight between opposing considerations rather than standing square on one position. An argument that leans into its own counterpoints while maintaining forward thrust creates the rhetorical equivalent of dynamic equilibrium — appearing balanced while actually directing movement toward the speaker's conclusion.",
+    "prediction": "Arguments structured with explicit counterpoint acknowledgment (contrapposto form) will be rated as more persuasive by neutral audiences than equivalent arguments presented without counterpoints, with the effect size exceeding d=0.3 in controlled experiments.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Auscultation Pattern Recognition for Infrastructure",
+    "mechanism_source": "medicine",
+    "target_domain": "civil engineering",
+    "mechanism": "cardiac auscultation — diagnosing internal pathology by listening to sound patterns through a stethoscope",
+    "application": "Bridges, dams, and buildings produce vibration signatures analogous to heart sounds. Continuous acoustic monitoring can detect structural pathology — micro-fractures producing 'murmurs,' resonance shifts indicating 'arrhythmias,' and load-bearing failures creating 'gallops.' Training engineers in auscultative diagnosis transfers centuries of medical pattern-recognition expertise to infrastructure health monitoring.",
+    "prediction": "Acoustic monitoring systems trained on medical auscultation classification algorithms will detect structural fatigue in steel bridges 6-12 months earlier than current visual inspection protocols, validated across at least 20 monitored structures.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Maillard Complexity Threshold",
+    "mechanism_source": "cooking",
+    "target_domain": "team dynamics",
+    "mechanism": "the Maillard reaction — heat-driven interaction between amino acids and sugars producing complex flavor compounds",
+    "application": "Team creativity requires a Maillard threshold: sufficient 'heat' (deadline pressure, stakes) applied to a mixture of diverse 'ingredients' (skills, perspectives). Below the threshold, ingredients remain separate and bland. Above it, they undergo irreversible transformation into complex, novel outputs no single ingredient could produce. But excessive heat burns the mixture — too much pressure destroys the very diversity needed for the reaction.",
+    "prediction": "Teams under moderate deadline pressure (4-6 weeks for a complex project) will produce outputs rated as more creative by blind reviewers than teams given either very short (<2 weeks) or very long (>12 weeks) timelines for equivalent scope.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Precedent Sedimentation in AI Ethics",
+    "mechanism_source": "law",
+    "target_domain": "artificial intelligence",
+    "mechanism": "stare decisis — the doctrine that courts should follow precedent, building law through accumulated case decisions",
+    "application": "AI alignment could adopt a common-law approach: rather than trying to specify all ethical rules in advance (statutory model), allow AI systems to build ethical reasoning through accumulated case precedents. Each edge-case decision, once reviewed and approved by human overseers, becomes binding precedent for similar future situations. Over time, a rich body of 'case law' emerges that handles nuance better than rigid rules.",
+    "prediction": "AI systems trained on curated ethical case precedents will show higher agreement with human moral judgments on novel dilemmas than systems trained on explicit rule sets of equivalent scope, measured across at least 500 test scenarios.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Underworld Descent Product Lifecycle",
+    "mechanism_source": "mythology",
+    "target_domain": "product management",
+    "mechanism": "the katabasis — the hero's descent into the underworld and return with transformative knowledge",
+    "application": "Successful products follow the katabasis arc: after initial market success (the ordinary world), they must descend into a period of apparent failure or irrelevance (the underworld) where they confront fundamental limitations. Products that undergo this descent and return — pivoting through near-death — emerge transformed with capabilities their original form could never achieve. Products that avoid the descent stagnate.",
+    "prediction": "Consumer technology products that experienced a period of >30% market share decline before recovering will achieve higher peak market share in their second ascent than products in the same category that grew monotonically, measured across at least 20 product histories.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Mycorrhizal Knowledge Networks",
+    "mechanism_source": "ecology",
+    "target_domain": "knowledge management",
+    "mechanism": "mycorrhizal networks — fungal filaments connecting tree roots, enabling resource and signal sharing across a forest",
+    "application": "Organizations should cultivate mycorrhizal knowledge workers: people whose primary role is connecting knowledge holders rather than holding knowledge themselves. Like mycorrhizal fungi that transfer nutrients from resource-rich trees to saplings, these connectors redistribute expertise from knowledge-surplus departments to knowledge-deficit ones, maintaining ecosystem health without centralizing resources.",
+    "prediction": "Organizations that designate at least 3% of staff as dedicated cross-departmental knowledge connectors will show 20% faster time-to-resolution on novel problems requiring multi-domain expertise compared to organizations relying solely on documentation and search tools.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "One-Time Pad Trust Architecture",
+    "mechanism_source": "cryptography",
+    "target_domain": "interpersonal psychology",
+    "mechanism": "the one-time pad — theoretically unbreakable encryption requiring a shared secret key used only once",
+    "application": "Deep interpersonal trust functions like a one-time pad: it requires a shared experiential key (a formative shared experience) that is unique to the pair and cannot be replicated or transferred. Relationships built on generic shared interests are like weak encryption — functional but breakable. Relationships forged through unrepeatable shared adversity possess one-time-pad-level trust that resists social engineering attacks (gossip, manipulation by third parties).",
+    "prediction": "Friendships formed during shared high-adversity experiences (military service, disaster survival, intense collaborative projects) will show higher resistance to third-party relationship disruption attempts than friendships formed through shared recreational activities, measured by relationship persistence after deliberate social interference.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Scaffolded Forgetting Curriculum",
+    "mechanism_source": "pedagogy",
+    "target_domain": "machine learning",
+    "mechanism": "Vygotsky's scaffolding — temporary support structures removed as the learner gains competence",
+    "application": "Machine learning models could benefit from pedagogical scaffolding during training: providing auxiliary features, simplified loss functions, or teacher signals early in training, then systematically removing them as the model develops competence. Unlike curriculum learning which orders examples by difficulty, scaffolded training modifies the learning environment itself, gradually stripping away supports to force the model toward independent generalization.",
+    "prediction": "Neural networks trained with systematically removed auxiliary loss terms will achieve equivalent test accuracy to standard training while requiring 15-25% fewer training epochs, validated across at least 3 benchmark datasets.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Proprioceptive Code Review",
+    "mechanism_source": "neuroscience",
+    "target_domain": "software quality assurance",
+    "mechanism": "proprioception — the body's sense of its own position and movement without visual confirmation",
+    "application": "Software systems lack proprioception: they have no internal sense of their own state beyond explicit monitoring. Building proprioceptive layers — lightweight internal models that continuously predict what the system's own outputs should be — enables self-diagnosis without external observation. When the proprioceptive prediction diverges from actual behavior, the system flags anomalies before users or monitors detect them.",
+    "prediction": "Systems with proprioceptive anomaly detection (internal self-prediction layers) will detect production incidents a median of 8 minutes earlier than equivalent systems relying solely on external monitoring and alerting.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Escapement Pacing for Deliberation",
+    "mechanism_source": "watchmaking",
+    "target_domain": "democratic process design",
+    "mechanism": "the escapement mechanism — converting continuous energy into regulated, discrete ticks",
+    "application": "Democratic deliberation suffers from either continuous, unstructured debate (energy dissipation) or rigid voting schedules (energy loss through premature closure). An escapement-inspired process would convert the continuous energy of public discourse into regulated, discrete decision moments — each 'tick' releasing exactly enough deliberative energy to advance one position before the mechanism pauses and resets.",
+    "prediction": "Deliberative assemblies using escapement-structured formats (fixed deliberation periods followed by mandatory pause-and-vote cycles) will reach consensus on complex issues in fewer total hours than assemblies using open-ended deliberation, measured across at least 15 matched-topic comparisons.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Sourdough Starter Organizational Culture",
+    "mechanism_source": "fermentation",
+    "target_domain": "startup culture",
+    "mechanism": "sourdough starter maintenance — a living culture requiring regular feeding and environmental stability to remain viable",
+    "application": "Startup culture behaves like a sourdough starter: it is a living ecosystem of values, norms, and behaviors that must be actively maintained through regular 'feeding' (rituals, onboarding, storytelling) and environmental control (hiring practices, physical space). Neglect causes the culture to go dormant or be overtaken by undesirable 'bacteria.' Scaling too fast is like over-feeding — it dilutes the culture's distinctive character.",
+    "prediction": "Startups that grow headcount by more than 100% in a single year will show measurable declines in cultural distinctiveness scores (employee-reported uniqueness of workplace culture) compared to startups growing at 30-50% annually.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Bowline Modularity in API Design",
+    "mechanism_source": "knot theory",
+    "target_domain": "software architecture",
+    "mechanism": "the bowline knot's non-jamming property — holds under load but releases easily when unloaded",
+    "application": "API connections between microservices should exhibit bowline properties: holding firmly under operational load but releasing cleanly when the connection is no longer needed. Current API designs often resemble jamming knots — they bind tighter under stress, making decomposition and refactoring increasingly difficult. Bowline-inspired APIs would include explicit unloading mechanisms that simplify disconnection.",
+    "prediction": "Microservice architectures designed with explicit connection-release protocols will complete service decomposition refactors in 40% less engineering time than architectures using standard REST coupling, measured across at least 10 comparable refactoring projects.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Sound Post Organizational Mediator",
+    "mechanism_source": "luthiery",
+    "target_domain": "corporate governance",
+    "mechanism": "the violin sound post — a small wooden dowel transmitting vibrations between top and back plates, critical to tone quality",
+    "application": "Organizations need a sound post function: a small, precisely positioned mediating element that transmits strategic vibrations between the executive layer (top plate) and the operational layer (back plate). Without this element, the two plates vibrate independently, producing thin, disconnected sound. The sound post role is typically filled by a COO or chief of staff — seemingly minor in scale but catastrophically important to organizational resonance.",
+    "prediction": "Companies that eliminate their chief operating officer or equivalent bridging role will show a measurable increase in strategic-operational misalignment (measured by employee surveys on strategy clarity) within 12 months, compared to matched companies retaining the role.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Hexagonal Comb Data Storage",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "database design",
+    "mechanism": "hexagonal comb cells — maximizing storage volume while minimizing material through tessellating geometry",
+    "application": "Database schemas could adopt honeycomb principles: hexagonal data structures where each record shares 'walls' (foreign keys) with exactly six neighbors, creating a tessellating network that maximizes relational density while minimizing redundant index material. This topology naturally supports six-directional traversal queries, unlike tree-based or tabular structures that privilege hierarchical or sequential access patterns.",
+    "prediction": "Graph databases organized with hexagonal adjacency constraints will show 20% faster average query times for neighborhood-traversal queries (within 3 hops) compared to unconstrained graph topologies on equivalent datasets of 10M+ nodes.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Enso Completion Bias",
+    "mechanism_source": "calligraphy",
+    "target_domain": "cognitive science",
+    "mechanism": "the ensō circle — a single brushstroke circle left deliberately incomplete in Zen calligraphy",
+    "application": "The human mind's compulsion to complete the ensō — to mentally close the gap in a nearly-complete circle — reveals a fundamental cognitive bias toward closure that distorts perception and decision-making. This 'ensō bias' explains why people overvalue near-complete projects, relationships, and narratives: the smaller the gap, the stronger the compulsion to close it, regardless of whether closure is warranted or beneficial.",
+    "prediction": "Participants shown project progress bars at 90% completion will allocate disproportionately more resources to finishing them than participants shown equivalent projects at 60% completion, even when the remaining work is objectively identical in scope and value.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  }
+]

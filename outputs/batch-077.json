@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ferromagnetic Consensus Alignment Theory",
+    "mechanism_source": "ferrofluid dynamics",
+    "target_domain": "opinion polling",
+    "mechanism": "Ferrofluids consist of nanoscale magnetic particles suspended in a carrier liquid that align collectively and reversibly along applied field lines, with particle clustering density proportional to field strength and directionality determined by field geometry.",
+    "application": "Public opinion exists as a distribution of loosely held positions that, under the influence of external 'field' events — media framing, political rhetoric, crisis moments — align rapidly and coherently along a dominant axis. Just as ferrofluid particles form spike patterns along field gradients, voter sentiment clusters into visible peaks at polling moments, then disperses when the field weakens. Polling accuracy therefore depends on sampling at the right field intensity: too early or too late in a news cycle and the particles are mid-transition.",
+    "prediction": "Opinion polls conducted within 24–48 hours of a major framing event (a debate, a scandal, a policy announcement) will show significantly higher inter-respondent agreement and lower variance than polls taken in neutral news periods, regardless of the direction of the shift.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Intronic Regulatory Steganography Model",
+    "mechanism_source": "steganography",
+    "target_domain": "gene regulation",
+    "mechanism": "Steganography embeds functional information within a carrier medium that appears uninformative to a casual observer, with the hidden payload detectable only by parties possessing the correct extraction key or algorithm.",
+    "application": "Non-coding DNA — historically dismissed as 'junk' — may operate as a steganographic layer in which regulatory instructions are encoded within sequences that superficially resemble noise or repetitive filler. Transcription factors and chromatin remodelers act as decoding machinery, extracting positional and temporal gene-expression instructions from sequences whose regulatory function is invisible to sequence-only analysis. This reframes genome annotation as a steganographic decryption problem rather than a simple feature-identification task.",
+    "prediction": "Computational models trained on steganographic detection heuristics (redundancy reduction, statistical deviation from expected entropy) will identify novel functional regulatory elements within intronic and intergenic regions at higher precision than existing conservation-based annotation methods.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Therapeutic Codex Flexibility Framework",
+    "mechanism_source": "bookbinding",
+    "target_domain": "psychotherapy",
+    "mechanism": "In hand-sewn bookbinding, the spine must be flexible enough to open flat without cracking while providing sufficient structure to hold the text block's signatures in cohesive alignment; over-tight binding causes brittleness and eventual catastrophic failure, while under-tight binding allows pages to fall loose.",
+    "application": "A therapeutic relationship operates on an analogous tension: the therapist's theoretical framework (the spine) must be rigid enough to provide coherent treatment structure yet supple enough to flex around the patient's narrative without fracturing the alliance. Overly rigid adherence to a single modality — the tight spine — produces therapeutic brittleness, in which sessions crack under the strain of material that doesn't fit the protocol. Patients whose trauma narratives are poorly 'sewn' into the treatment structure (loose signatures) present as fragmented, with material that won't hold between sessions.",
+    "prediction": "Therapists who score high on both protocol fidelity and session-level flexibility (as measured by adherence and competence scales in opposite subscales) will show better patient retention and symptom reduction than those who score high on only one dimension.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Cascade Timing and Plate Recovery Model",
+    "mechanism_source": "circus arts",
+    "target_domain": "project management",
+    "mechanism": "Plate spinning requires a performer to initiate rotation in each plate at a cadence calibrated to prevent any plate from losing angular momentum below the recovery threshold; the act fails not when a single plate slows but when recovery interventions arrive too late across multiple plates simultaneously.",
+    "application": "Project managers maintaining concurrent workstreams face an identical constraint: each workstream requires periodic re-energizing interventions (status reviews, resource injections, executive attention), and failure occurs not from single-workstream neglect but from cascade collapse when multiple streams simultaneously dip below their respective momentum thresholds. The optimal management cadence is not uniform check-ins but a dynamically scheduled rotation tuned to each workstream's decay rate. High-complexity workstreams with faster angular decay demand shorter intervention intervals.",
+    "prediction": "Projects managed with adaptive, decay-rate-calibrated check-in schedules — where high-complexity workstreams receive more frequent attention — will show lower rates of simultaneous multi-workstream slippage than projects managed with uniform sprint cadences.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Glacial Advance-Retreat Gentrification Cycle",
+    "mechanism_source": "glaciology",
+    "target_domain": "urban gentrification",
+    "mechanism": "Glaciers advance when accumulation rates exceed ablation rates at the terminus, depositing material and reshaping terrain as they move; retreat occurs when the energy budget reverses, leaving moraines — compacted debris ridges — that mark the high-water lines of prior advance and alter drainage patterns for subsequent cycles.",
+    "application": "Gentrification advances when capital accumulation (investment, renovation, displacement pressure) exceeds the community's social cohesion and economic resistance at its frontiers, reshaping neighborhood composition as it progresses. Retreat or arrested gentrification leaves 'socioeconomic moraines' — converted buildings, altered commercial corridors, residual demographic mixes — that redirect subsequent capital flows and set the terrain for the next cycle. The moraine deposits of a previous gentrification wave often serve as the terminal anchors from which the next wave begins its advance.",
+    "prediction": "Neighborhoods that experienced partial gentrification followed by disinvestment will show gentrification re-initiation preferentially from the geographic boundaries of prior displacement pressure rather than from the neighborhood core, replicating a glacial re-advance from moraine positions.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Fairy Ring Rumor Propagation Dynamics",
+    "mechanism_source": "mycology",
+    "target_domain": "rumor propagation",
+    "mechanism": "Fairy rings form as mycorrhizal fungi exhaust nutrients at a colony's center and expand outward along a radial growth front, leaving a depleted, immunologically 'spent' zone at the origin while the active hyphal frontier continues to encounter fresh substrate.",
+    "application": "Rumors propagate through social networks along an analogous exhaustion frontier: the original node cluster becomes informationally saturated (everyone has heard it) while the active spread front advances into naive network regions. The depleted center does not sustain reinfection because credibility and novelty have been exhausted — equivalent to the fungi's spent substrate. Secondary rumors or mutations of the original story emerge preferentially at the active frontier where the information is still surprising.",
+    "prediction": "In mapped social network rumor spreads, the geographic or social-graph origin cluster will show the lowest rates of re-engagement with secondary mutations of the original rumor, while nodes at the furthest propagation radius will show the highest mutation and re-amplification rates.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Apian Quorum Threshold Democracy Model",
+    "mechanism_source": "entomology",
+    "target_domain": "democratic systems",
+    "mechanism": "Honeybee swarms select nest sites through a quorum-sensing process in which scout bees perform waggle dances of intensity proportional to site quality; a decision is triggered not by majority vote but by the number of scouts committed to a single site exceeding a threshold, after which recruitment cascades rapidly.",
+    "application": "Democratic consensus in human institutions may operate less through majority preference aggregation and more through quorum-threshold cascade: a proposal achieves legitimacy not when 51% support it but when the density of visible, enthusiastic endorsers crosses a social threshold that triggers broader bandwagon commitment. Voter turnout, legislative co-sponsorship, and grassroots mobilization may all be threshold phenomena rather than linear preference summations. This implies that increasing the visibility of committed minorities — rather than persuading the indifferent majority — is the more efficient path to democratic activation.",
+    "prediction": "Electoral mobilization interventions that concentrate visible commitment signals in a small but public-facing group (yard signs, public pledges, endorsement clusters) will produce larger turnout increases than equivalent-resource interventions that distribute persuasion uniformly across the electorate.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Questioned Narrative Document Analysis",
+    "mechanism_source": "forensics",
+    "target_domain": "literary criticism",
+    "mechanism": "Forensic document examiners detect forgery and inauthenticity through analysis of ink chemistry, pen pressure striations, line tremor, inter-letter spacing consistency, and anachronistic vocabulary — material traces that betray a document's actual production history regardless of its claimed origin.",
+    "application": "Literary criticism can apply questioned-document methodology to texts of disputed authorship, dating, or compositional integrity: stylometric analysis of function-word frequencies, syntactic pressure patterns, anachronistic lexical intrusions, and inconsistencies in narrative 'ink chemistry' (register, idiolect, conceptual vocabulary) reveal the material history of a text's production. This approach treats the literary text as a physical artifact whose surface claims (authorship, period, unity) are hypotheses to be tested against measurable internal evidence rather than assumed from paratextual attribution.",
+    "prediction": "Stylometric analysis applying questioned-document feature sets (function word ratios, punctuation pressure patterns, micro-level syntactic habits) will correctly identify collaborative or multi-stage authorship in disputed canonical texts at higher accuracy than traditional close-reading attribution methods.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Marionette String Tension Monetary Policy Model",
+    "mechanism_source": "puppetry",
+    "target_domain": "central banking",
+    "mechanism": "Marionette control depends on differential string tension: the puppeteer does not directly position the figure's limbs but instead adjusts the tension gradient between strings, allowing gravity and the figure's own articulated weight to determine the resulting posture — over-tensioning produces rigidity and unnatural movement, while under-tensioning causes collapse.",
+    "application": "Central banks do not directly control economic behavior but adjust the tension gradient across monetary levers (interest rates, reserve requirements, forward guidance), allowing market gravity and institutional inertia to determine outcomes. The economy, like the marionette, has its own skeletal structure and articulation points (credit markets, labor markets, expectations) that mediate between lever adjustment and observable movement. Over-tensioning monetary levers produces rigidity — credit crunch, deflationary lock-in — while under-tensioning produces collapse into unanchored inflationary or liquidity-trap states.",
+    "prediction": "Central bank interventions that simultaneously adjust multiple string-equivalent levers (rate changes paired with forward guidance revisions) will produce more coherent and predictable economic posture changes than single-lever adjustments of equivalent magnitude, due to reduced torque imbalance across articulation points.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Numismatic Authentication Digital Identity Framework",
+    "mechanism_source": "numismatics",
+    "target_domain": "digital identity",
+    "mechanism": "Coin authentication relies on detecting deviations from die-struck signatures: authentic coins carry microscopic strike characteristics, metal flow patterns, and die-crack progressions that are prohibitively expensive to replicate, providing a proof-of-authenticity grounded in production physics rather than appearance alone.",
+    "application": "Digital identity authentication can be restructured around analogous production-physics signatures: instead of verifying surface appearance (passwords, PINs, security questions), systems verify the microscopic behavioral and hardware signatures produced by the specific process of identity generation — keystroke dynamics, device attestation chains, biometric microvariance. A forged digital identity, like a cast counterfeit coin, may match the surface pattern while lacking the production-physics traces of the original strike. Identity systems built on this model treat authenticity as a property of process, not of appearance.",
+    "prediction": "Authentication systems incorporating multi-layer behavioral biometrics (keystroke cadence, pointer micromovement, device attestation) will show lower rates of account takeover by credential-stuffing attacks than systems relying on knowledge-based or appearance-based verification alone.",
+    "viability": "promising",
+    "confidence": 0.80
+  },
+  {
+    "name": "Lahar Secondary Crisis Propagation Model",
+    "mechanism_source": "volcanology",
+    "target_domain": "organizational crisis",
+    "mechanism": "Lahars are secondary volcanic mass flows triggered when eruption products — ash, pyroclastic material — mix with water from ice melt, crater lakes, or rainfall, producing destructive debris torrents that travel far beyond the primary eruption zone along pre-existing drainage channels and can arrive days after the primary event.",
+    "application": "Organizational crises generate primary damage (the eruption) but deposit unstable institutional material — eroded trust, disrupted processes, demoralized personnel, accumulated technical debt — that mixes with subsequent stressors (a personnel departure, a market shift, a regulatory inquiry) to produce secondary crisis flows. These secondary lahars frequently cause more total damage than the original event and strike organizational units far removed from the crisis origin, traveling along pre-existing structural channels (reporting lines, supply chains, customer relationships). Crisis management frameworks that focus only on the primary event systematically underestimate lahar exposure.",
+    "prediction": "Organizations that conduct post-crisis audits specifically mapping deposited institutional vulnerabilities (lahar material) and monitoring subsequent stressor events will experience lower rates of secondary crisis within 18 months than organizations whose post-crisis response focuses exclusively on the primary event's direct damage.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Hull Lines Narrative Waterplane Theory",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "novel writing",
+    "mechanism": "Naval architects design hull forms by specifying waterplane area — the cross-sectional shape of the hull at the waterline — which determines initial stability, resistance to heeling, and the vessel's response to wave action; a narrow waterplane is fast but tender, a broad waterplane stable but slow.",
+    "application": "A novel's 'waterplane area' is the cross-sectional density of narrative information presented at any given moment of the reader's engagement: a narrow, sparse waterplane (minimalist prose, withheld information, elliptical dialogue) produces speed and tension but instability — the reader heels easily toward confusion or disengagement. A broad waterplane (dense world-building, extended interiority, layered subplot) provides stability and immersion but increases resistance and reduces narrative velocity. Skilled authors adjust waterplane geometry across the novel's length, narrowing for action sequences and broadening for character groundwork.",
+    "prediction": "Computational analysis of information density per narrative unit (sentence-level entropy, clause complexity, new-entity introduction rate) will reveal systematic waterplane narrowing in the final third of critically acclaimed literary novels, corresponding to the naval design principle of reducing resistance as approach speed increases.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Sillage and Longevity Brand Presence Model",
+    "mechanism_source": "perfumery",
+    "target_domain": "brand strategy",
+    "mechanism": "Perfumers distinguish sillage — the scent trail a fragrance projects into surrounding space, detectable by others — from longevity, the duration the fragrance remains perceptible to the wearer; a fragrance can have high sillage with low longevity (intense but brief social presence) or low sillage with high longevity (intimate but persistent).",
+    "application": "Brands project into market space along these same two independent axes: sillage corresponds to the brand's ambient presence in consumer attention — how strongly it registers in contexts where the consumer is not actively engaging with it (advertising recall, word-of-mouth, cultural reference). Longevity corresponds to retention among existing customers — how long brand affinity persists after active exposure ends. Premium mass-market brands typically optimize for high sillage; luxury brands optimize for longevity over sillage. Brand strategy failures often result from confusing the two metrics or attempting to maximize both simultaneously, producing a fragrance that is overwhelming at first encounter and forgotten within hours.",
+    "prediction": "Brand health metrics separating ambient market presence (unprompted recall, social mention frequency) from customer retention duration will show that these dimensions are negatively correlated in consumer goods categories, with brands that dominate on one metric systematically underperforming on the other.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Stick-Slip Friction Learning Plateau Model",
+    "mechanism_source": "tribology",
+    "target_domain": "pedagogy",
+    "mechanism": "Stick-slip friction occurs when two surfaces in contact alternately bond at microscopic asperity contact points (stick phase, no macroscopic movement) and then release suddenly when stored elastic energy exceeds the static friction threshold (slip phase, rapid movement), producing characteristic jerky motion rather than smooth progression.",
+    "application": "Skill acquisition plateaus are tribologically analogous: a learner's performance 'sticks' as cognitive and procedural schema consolidate at a new level of complexity, with no observable improvement despite continued practice — elastic potential accumulating at the substrate of tacit understanding. The subsequent breakthrough (slip phase) appears sudden and discontinuous but was preceded by substantial sub-perceptual restructuring. Instructional interventions applied during the stick phase that increase 'normal force' (challenge, complexity, cognitive load) can lower the static friction threshold and accelerate the slip transition.",
+    "prediction": "Learners in plateau phases who receive increased task complexity interventions (higher normal force) rather than remediation or repetition-of-prior-material interventions will show faster breakthrough to the next performance level, with the magnitude of the subsequent performance jump correlating with plateau duration.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Lazarus Taxa Technology Reappearance Framework",
+    "mechanism_source": "paleontology",
+    "target_domain": "technology adoption",
+    "mechanism": "Lazarus taxa are organisms that disappear entirely from the fossil record for extended geological periods — assumed extinct — and then reappear in later strata, having persisted in refugia that left no fossilizable trace; their apparent extinction was an artifact of preservation bias rather than actual disappearance.",
+    "application": "Technologies that appear to have been superseded and abandoned frequently persist in low-visibility refugia — niche industrial applications, hobbyist communities, developing-market deployments, legacy institutional dependencies — and re-emerge as dominant solutions when environmental conditions shift in their favor. Vinyl records, mechanical watches, shortwave radio, and vacuum tube audio amplifiers all exhibit Lazarus reappearance dynamics. Technology forecasting models that treat market share decline as extinction systematically underestimate the probability and timing of reappearance events by failing to model refugia persistence.",
+    "prediction": "Technologies whose market share dropped below 1% but maintained active practitioner communities of any size will show statistically higher rates of commercial reappearance within 20-year windows than technologies that were abandoned without residual practitioner communities, controlling for the technology's core physical capabilities.",
+    "viability": "promising",
+    "confidence": 0.77
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Dendrochronological Lacuna Theory of Lexical Acquisition Gaps",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "psycholinguistics",
+    "mechanism": "Tree rings record environmental stress as narrowed, discolored, or absent growth bands called lacunae, which dendrochronologists use to date traumatic seasons and cross-reference developmental anomalies across specimens. The relative width and density of successive rings encode a continuous timeline of resource availability and systemic disruption.",
+    "application": "Children's vocabulary growth exhibits analogous ring-like strata: periods of rapid lexical acquisition alternate with plateaus or regressions that correlate with illness, family disruption, or educational discontinuity. By treating longitudinal vocabulary assessments as a 'ring series,' clinicians can identify anomalous gaps, date their probable onset, and cross-reference cohort data to distinguish idiosyncratic developmental trauma from population-wide environmental stressors such as pandemic school closures. This approach would reframe delayed language milestones not as fixed deficits but as dateable events embedded in a recoverable developmental record.",
+    "prediction": "Children who experienced a documented stressor (hospitalization, displacement, bereavement) during a sensitive lexical window will show a statistically narrower vocabulary growth band in longitudinal assessments bracketing that period, mirroring the signature narrow ring of a drought year in tree-ring data.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tidal Pool Zonation Model of Electoral Coalition Assembly",
+    "mechanism_source": "tidal ecology",
+    "target_domain": "electoral politics",
+    "mechanism": "Intertidal zones organize into distinct biological communities stratified by tolerance to desiccation and wave exposure, with pioneer species colonizing harsh high zones and competitive exclusion driving niche differentiation toward the lower, resource-rich littoral. Community assembly follows predictable succession rules governed by disturbance frequency rather than fixed membership.",
+    "application": "Electoral coalitions assemble under analogous stress gradients: low-turnout, high-cost participation (primary voting, caucuses) selects for ideologically committed 'high-intertidal' voters tolerant of effort, while general elections represent the resource-rich low zone where competitive exclusion among parties intensifies and opportunistic centrist blocs colonize. Disturbance events—redistricting, candidate scandal, economic shock—function as wave exposure, resetting succession and allowing previously outcompeted factions to recolonize vacated niches. The model predicts that coalition stability correlates inversely with disturbance frequency, mirroring species richness patterns in exposed versus sheltered tidal pools.",
+    "prediction": "Precincts subject to repeated electoral disruptions (boundary changes, contested results, major candidate withdrawals) within a decade will show higher third-party vote-share variance across cycles, consistent with the elevated species turnover observed in high-disturbance tidal zones.",
+    "viability": "speculative",
+    "confidence": 0.62
+  },
+  {
+    "name": "Critical Angle of Attack Theory of Argumentative Stall",
+    "mechanism_source": "aeronautics",
+    "target_domain": "rhetoric",
+    "mechanism": "An airfoil generates lift by maintaining smooth laminar flow over its upper surface; beyond the critical angle of attack, airflow separates and the wing stalls catastrophically, losing lift despite increasing pitch. The stall is not a function of speed alone but of the angle at which the wing presents itself to oncoming air.",
+    "application": "Rhetorical arguments exhibit an analogous stall threshold: an argument gains persuasive 'lift' as it increases its angle of challenge to an audience's prior beliefs, but past a critical point the audience's cognitive processing separates—counterargument generation overwhelms comprehension, and the argument loses all persuasive force regardless of its logical speed or elaboration. Skilled rhetoricians operate just below this critical angle, using incremental reframing (cambered leading edges) to sustain lift across a larger range of audience dispositions. Stall recovery in aeronautics—nose-down pitch reduction before re-establishing lift—maps to strategic concession followed by reintroduction of the contested claim.",
+    "prediction": "In controlled deliberation experiments, arguments that are pre-rated as maximally challenging to audience priors will generate less attitude change than moderately challenging versions of the same argument, with the relationship following an inverted-U curve analogous to lift-versus-angle-of-attack plots.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Alpha Succession and Coalition Bloc Dynamics in Open-Source Maintainership",
+    "mechanism_source": "primatology",
+    "target_domain": "open-source governance",
+    "mechanism": "In chimpanzee communities, alpha succession rarely involves direct dyadic combat; instead, challengers build coalitions with second-tier males, offering grooming and alliance services until the incumbent's coalition erodes and a bloodless transfer of status occurs. Coalition maintenance requires continuous reciprocal signaling and is destabilized by resource scarcity or external threat.",
+    "application": "Open-source project maintainership transitions follow strikingly parallel dynamics: a sitting maintainer rarely loses control through a single fork or vote but through gradual coalition erosion as contributors are courted by an emerging rival who reviews their pull requests, defends their issues, and publicly credits their work. Scarcity of merge bandwidth and release slots functions as the resource pressure that accelerates coalition formation. Governance frameworks that formalize coalition-building (co-maintainership ladders, earned commit rights) tend to produce lower-conflict successions, mirroring the stability advantage of ritualized rank negotiation over direct contest in primate groups.",
+    "prediction": "Open-source projects that lack a documented succession pathway will experience post-succession fork rates at least twice as high as projects with explicit co-maintainer promotion criteria, paralleling higher community fission rates in primate groups lacking established dominance hierarchies.",
+    "viability": "speculative",
+    "confidence": 0.67
+  },
+  {
+    "name": "Heraldic Charge Placement Grammar for Ambient Wayfinding Legibility",
+    "mechanism_source": "heraldry",
+    "target_domain": "urban wayfinding",
+    "mechanism": "Heraldic composition rules govern the placement of charges on a field to maximize visual disambiguation at a distance: ordinaries (bold geometric divisions) establish ground structure before charges (specific symbols) are read, and the rule of tincture prohibits color-on-color or metal-on-metal combinations that collapse contrast under degraded viewing conditions. The grammar evolved precisely for identification under motion and poor visibility.",
+    "application": "Urban signage systems that borrow heraldic compositional logic—establishing bold field divisions (background zones) before layering directional charges (arrows, icons)—achieve faster target fixation and lower error rates than systems that treat signs as flat information planes. The tincture rule translates directly to accessibility contrast standards but extends them: it constrains not just adjacent colors but the layering sequence, ensuring the structural element is always the higher-contrast element. Applying ordinal grammar to transit maps (bold line as 'ordinary,' station names as 'charges') would predict optimal label placement without relying on post-hoc readability testing.",
+    "prediction": "Signage redesigns that explicitly apply heraldic field-and-charge compositional hierarchy will show statistically faster pedestrian target-location times in timed navigation studies compared to redesigns guided by standard WCAG contrast requirements alone.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Lexicographic Sense Partition Theory of Differential Diagnostic Criteria",
+    "mechanism_source": "lexicography",
+    "target_domain": "clinical diagnosis",
+    "mechanism": "Professional lexicographers structure dictionary entries by isolating a headword's core semantic invariant and then partitioning senses by the contextual features that differentiate them, using citation evidence to establish prototypical versus peripheral usage. The definition hierarchy moves from genus (superordinate category) through differentia (distinguishing features) to usage notes (borderline cases).",
+    "application": "Diagnostic criteria in clinical medicine follow an identical deep structure that is rarely made explicit: a disorder's definition requires a genus (nosological category), differentia (symptom cluster distinguishing it from neighboring diagnoses), and usage notes (exclusion criteria and specifiers). Applying formal lexicographic discipline to criteria construction—particularly the citation-based validation of prototypical versus peripheral cases—would reduce the diagnostic drift that accumulates across DSM and ICD revision cycles. Lexicographers' tools for tracking sense proliferation over time offer a model for monitoring how diagnostic boundaries expand or contract as clinical usage diverges from official criteria.",
+    "prediction": "Diagnostic categories constructed using explicit genus-differentia-exclusion lexicographic templates will show higher inter-rater reliability in structured clinical interviews than criteria drafted through committee consensus without formal definition architecture, measurable via kappa statistics across independent rater samples.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Isoline Affective Cartography of Grief Terrain Navigation",
+    "mechanism_source": "cartography",
+    "target_domain": "grief counseling",
+    "mechanism": "Topographic cartography represents three-dimensional terrain on a two-dimensional surface through isolines—contours of equal elevation—that encode slope, basin, ridge, and plateau structures without requiring the reader to experience the terrain directly. Skilled map readers can infer traversability, drainage patterns, and likely routes from contour density alone.",
+    "application": "Grief counselors using cartographic metaphor can guide clients in externalizing their emotional landscape as a topographic map: acute loss creates steep contour gradients (rapid emotional change across short time spans), while anniversary reactions appear as basin features that drain toward a central low point. Identifying plateaus (periods of stable numbness), ridgelines (thresholds of re-engagement), and drainage divides (decisions about meaning-making) gives clients a navigational vocabulary that is spatially concrete rather than pathologically framing. The map format also allows counselors to mark 'waypoints' of completed grief work and project plausible routes forward without implying a single prescribed trajectory.",
+    "prediction": "Grief clients given cartographic externalization exercises will report lower ruminative thought frequency at eight-week follow-up compared to clients using standard narrative journaling, as the spatial metaphor interrupts the temporal loop structure of rumination.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Greimasian Semiotic Square of Flavor Contrast and Mediation",
+    "mechanism_source": "semiotics",
+    "target_domain": "culinary arts",
+    "mechanism": "Algirdas Julien Greimas's semiotic square maps the logical relations among a concept and its contrary, contradictory, and complex complement, generating four positions whose tensions drive narrative or meaning production. The square reveals not just opposition but the generative space between poles where mediated or hybrid meanings emerge.",
+    "application": "Applied to flavor, the semiotic square positions a primary taste (sweet) against its contrary (bitter), its contradictory (non-sweet, as in umami), and the complex term that synthesizes both (the bittersweet). Chefs working explicitly with this grid can identify underexplored quadrants—the 'non-bitter' position, which maps to clean sourness—and use it to diagnose why a dish feels incomplete (it may be occupying only one quadrant). The model also explains why certain condiments function as mediators: fermented black bean sauce occupies the complex term between savory and bitter, which is why it resolves dishes that feel one-dimensionally umami.",
+    "prediction": "Blind tasting panels will rate dishes deliberately composed to activate all four positions of a semiotic square as more 'complete' or 'complex' than dishes with equivalent ingredient counts but monotonal flavor positioning, independent of caloric content or ingredient cost.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Kotekan Interlocking Execution Model for Latency-Tolerant Algorithmic Trading",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "algorithmic trading",
+    "mechanism": "Balinese gamelan kotekan is a two-part interlocking technique in which two players (polos and sangsih) each perform incomplete melodic fragments that, when interleaved, produce a continuous composite melody impossible for either player to execute alone. The technique is robust to small timing perturbations because each part is meaningfully silent where the other sounds.",
+    "application": "High-frequency trading systems operating across geographically distributed execution venues face latency asymmetries that fragment order flow. Kotekan architecture suggests designing paired algorithmic agents—one handling odd-lot fills, one handling even-lot fills—whose actions are deliberately interleaved so that neither agent's latency gap coincides with the other's active window. The composite order stream achieves near-continuous market presence despite each agent's intermittent execution, and the silences in each agent's schedule function as deliberate cool-down periods that reduce adverse selection exposure. Cross-venue synchronization replaces conductor-based coordination with the structural complementarity of the two parts.",
+    "prediction": "Dual-agent interlocking order systems will show lower implementation shortfall on mean-reverting instruments than single-agent systems with equivalent aggregate order rates, because the structural silences reduce information leakage to market makers during each agent's latency window.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Rigid Origami Deployment Geometry for Flat-Pack Emergency Shelter Logistics",
+    "mechanism_source": "origami math",
+    "target_domain": "disaster relief logistics",
+    "mechanism": "Rigid origami constrains folding patterns to crease networks where every panel remains planar during transformation, enabling structures to transition between fully collapsed and fully deployed states along a single degree of freedom. Miura-ori and waterbomb tessellations achieve high area-to-volume ratios while preserving structural integrity throughout the fold path.",
+    "application": "Emergency shelters designed on rigid origami principles can be shipped flat, deployed by a single person without tools, and achieve load-bearing structural stiffness in the fully open state because the crease geometry distributes stress across the panel network rather than concentrating it at joints. Logistically, a pallet of rigid origami shelters occupies a fraction of the volume of equivalent frame-and-fabric systems, radically altering the cost-per-beneficiary of air transport in the first 72-hour response window. The single-degree-of-freedom deployment eliminates assembly error, which is critical when installers are untrained survivors rather than relief workers.",
+    "prediction": "Rigid origami shelter prototypes meeting UNHCR minimum floor-area specifications will achieve a packed-to-deployed volume ratio at least five times greater than current standard-issue emergency shelters, verifiable through standardized packing and deployment trials under field conditions.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Speleothem Stratigraphic Method for Legacy Codebase Archaeology",
+    "mechanism_source": "speleology",
+    "target_domain": "data archaeology",
+    "mechanism": "Cave formations (speleothems) record environmental history in layered mineral deposits whose thickness, isotopic composition, and inclusion content encode past climate, hydrology, and external contamination events. Speleologists drill micro-cores and read these layers to reconstruct sequences of change that surface records never captured.",
+    "application": "Legacy codebases accumulate analogous strata: deprecated APIs entombed by compatibility shims, schema migrations fossilized in column naming conventions, and security patches that calcified over original vulnerabilities. Treating the codebase as a speleothem—drilling through abstraction layers via diff archaeology, dependency graph analysis, and dead-code isotope tracing—allows engineers to reconstruct the sequence of architectural decisions that produced the current formation. This stratigraphic reading reveals which layers are load-bearing (removal would cause collapse) versus which are mere calcite crusts (removable without structural consequence), reframing refactoring as careful excavation rather than demolition.",
+    "prediction": "Teams that perform explicit stratigraphic mapping of legacy codebases before refactoring will introduce fewer regression defects per thousand lines changed than teams that proceed without stratigraphic analysis, because they correctly identify load-bearing versus decorative layers prior to removal.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Magnetic Susceptibility Gradient Model of Algorithmic Content Alignment",
+    "mechanism_source": "ferrofluid dynamics",
+    "target_domain": "social media algorithms",
+    "mechanism": "Ferrofluids are colloidal suspensions of magnetic nanoparticles that align along applied field lines, forming spike patterns (Rosensweig instability) at field-fluid interfaces where surface tension and magnetic pressure compete. Particle clusters migrate toward regions of higher field strength, and the spike geometry encodes the local field topology.",
+    "application": "Social media recommendation algorithms create analogous field topologies: engagement signals (likes, shares, watch time) function as local field strengths, and content items act as susceptible particles that migrate toward high-engagement clusters. The Rosensweig instability maps to filter bubble formation—the spontaneous spiking of content into narrow topical peaks when engagement gradients exceed a surface-tension analog (the cost of cross-topic recommendation). Understanding algorithmic content alignment through ferrofluid dynamics suggests that introducing artificial surface-tension constraints (diversity penalties that resist spike formation) is the correct intervention, rather than simply reducing field strength (engagement weighting).",
+    "prediction": "Recommendation systems that implement diversity penalties modeled on ferrofluid surface-tension coefficients will show measurable reduction in topical spike concentration (measured by topic entropy of user feeds) without proportional reduction in aggregate engagement, mirroring how increased surface tension suppresses Rosensweig spikes without eliminating fluid response to the field.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Folio Signature and Catchword Architecture for Hierarchical Database Index Construction",
+    "mechanism_source": "bookbinding",
+    "target_domain": "database indexing",
+    "mechanism": "Medieval and early modern bookbinders organized manuscripts into nested gatherings called signatures—folded quires of fixed leaf counts—linked by catchwords (the first word of the next gathering printed at the bottom of the last leaf of the current one). This system allowed immediate detection of misbound or missing sections and provided a two-level navigation structure: signature letter for the block, leaf number within it.",
+    "application": "Database B-tree indexes implement a structurally identical architecture: internal nodes function as signatures (fixed-capacity blocks with a defined key range), and high-key pointers serve as catchwords linking each leaf page to its successor. Making this analogy explicit in index design reveals the bookbinder's lesson that catchword integrity is more critical than block fill rate—a corrupted high-key pointer is more damaging than a half-empty leaf page, just as a missing catchword is more disabling than a short gathering. Bookbinding's practice of signature-level repair (rebinding a damaged gathering without disturbing the rest) maps directly to online index page splits that rebalance locally without global restructuring.",
+    "prediction": "Index implementations that prioritize catchword (high-key pointer) integrity verification in their consistency-check routines will recover from partial write failures with fewer corrupted-range queries than implementations that prioritize fill-factor optimization, measurable in fault-injection testing.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Wire-Walking Proprioceptive Feedback Loop as Model for Improvisational Audience Calibration",
+    "mechanism_source": "circus arts",
+    "target_domain": "improvisational comedy",
+    "mechanism": "High-wire performers maintain balance through continuous proprioceptive micro-corrections informed by pole oscillation, foot pressure distribution, and peripheral visual flow rather than conscious deliberate decision-making. Expert wire walkers report that conscious attention to balance produces sway, while redirecting attention to destination allows automatic proprioceptive systems to manage stability.",
+    "application": "Improvisational comedians face an identical attentional paradox: conscious monitoring of audience laughter response produces performance anxiety and timing collapse, while directing attention to scene content allows the performer's trained social proprioception to automatically calibrate pace, volume, and commitment level to audience feedback. The wire-walking model predicts that improv training should develop 'peripheral' audience-sensing (reading laughter decay curves, body language, ambient energy shifts) as a background channel rather than training performers to consciously analyze audience response mid-scene. Advanced improv technique thus becomes a form of proprioceptive expertise: the body knows before the mind decides.",
+    "prediction": "Improv performers trained in peripheral audience-sensing protocols (subliminal laughter-curve awareness exercises) will show lower self-reported performance anxiety and higher audience-rated scene cohesion scores than performers trained in explicit real-time audience analysis techniques.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Steganographic Resonant Cavity Encoding in Architectural Acoustic Design",
+    "mechanism_source": "steganography",
+    "target_domain": "architectural acoustics",
+    "mechanism": "Steganography conceals information within a carrier signal by exploiting the gap between the carrier's perceptual salience and its full information capacity—hiding data in the least-significant bits of an image, or in ultrasonic frequency bands inaudible to humans but detectable by instrumented receivers. The hidden channel is parasitic on the overt channel without disrupting its primary function.",
+    "application": "Buildings contain hidden acoustic channels in the form of resonant cavities formed by wall voids, HVAC ducts, and structural column hollows that transmit specific frequency bands across large distances while the primary acoustic environment (speech, music, ambient noise) masks their presence. Architects who understand these hidden channels can design them deliberately: tuning cavity geometries to carry specific harmonic content that enriches a concert hall's reverb tail without appearing in the room's impulse response measurements, or conversely, identifying and suppressing unintentional steganographic channels that leak private conversation between offices. The model reframes acoustic privacy not as absorption of sound energy but as destruction of hidden channel bandwidth.",
+    "prediction": "Spectrographic analysis of existing buildings will identify recurring resonant frequency peaks in inter-room transmission curves that cannot be explained by direct-path or primary-reflection acoustic models, consistent with the presence of unintentional steganographic cavity channels whose geometry can be reverse-engineered from the peak frequencies.",
+    "viability": "incoherent",
+    "confidence": 0.51
+  }
+]

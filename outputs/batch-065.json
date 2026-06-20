@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Peat Smoke Persistence in Organizational Memory",
+    "mechanism_source": "whisky distillation",
+    "target_domain": "organizational psychology",
+    "mechanism": "Phenolic compounds from peat smoke bind irreversibly to barley malt during kilning, persisting through fermentation, distillation, and years of maturation — a brief early exposure permanently flavors the final product",
+    "application": "Founding-era cultural practices in organizations behave like peat phenols: a brief intense exposure during the 'kilning phase' of company formation permanently imprints values, communication styles, and decision heuristics that survive multiple generations of leadership. These cultural phenolics resist dilution even through rapid scaling (analogous to distillation), explaining why companies retain founder personality long after the founder departs.",
+    "prediction": "Startups whose founding teams operate together for less than 6 months before scaling will show measurably weaker cultural persistence (assessed via employee value surveys) at the 10-year mark compared to those with 12+ month founding-team kilning periods, with effect size d > 0.4.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Coral Bleaching Threshold in Teacher Burnout",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "pedagogy",
+    "mechanism": "Coral bleaching occurs when sustained thermal stress causes coral polyps to expel their symbiotic zooxanthellae algae, crossing an irreversible threshold after which recovery requires extended cool-water periods",
+    "application": "Teacher burnout follows coral bleaching dynamics rather than simple fatigue accumulation. The symbiotic relationship between intrinsic motivation (the zooxanthellae) and institutional demands (the coral structure) collapses at a specific stress-duration threshold. Once 'bleached,' teachers cannot recover through short breaks — they require extended low-demand periods to re-recruit motivational symbionts. Partial bleaching events create vulnerability to future complete bleaching at lower stress levels.",
+    "prediction": "Teachers who experience sustained high-demand periods exceeding a computable thermal-stress-equivalent threshold will show bimodal outcomes (full recovery or full departure) rather than continuous burnout gradients, and prior partial-bleaching events will lower the threshold by at least 15%.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Kerning Pair Logic in Diplomatic Protocol",
+    "mechanism_source": "typesetting",
+    "target_domain": "international relations",
+    "mechanism": "Kerning adjusts the spacing between specific letter pairs based on their shapes, overriding uniform metrics to achieve optical balance — the adjustment depends on the particular pairing, not the letters individually",
+    "application": "Diplomatic protocol spacing between nations functions as kerning rather than uniform foreign-policy doctrine. The 'visual weight' of each nation-pair interaction requires unique spacing adjustments: nations that are individually similar in shape (ideology, economy) may require wider diplomatic kerning to avoid collision, while dissimilar pairs may need tighter kerning to read as coherent. Applying uniform spacing metrics leads to optically unbalanced — and thus unstable — international arrangements.",
+    "prediction": "Trade agreements that include bilateral-specific adjustment clauses (kerning pairs) will show 30%+ longer survival times than those applying uniform terms across all signatories, controlling for GDP similarity.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Differential Tempering Zones in Curriculum Design",
+    "mechanism_source": "swordsmithing",
+    "target_domain": "pedagogy",
+    "mechanism": "Japanese swordsmiths apply clay of varying thickness along the blade before quenching, creating differential hardness — a hard cutting edge and a soft, shock-absorbing spine — in a single piece of steel",
+    "application": "Effective curricula require differential tempering rather than uniform rigor. Core competency zones need hard-quenched precision (standardized assessment, strict sequencing), while creative and integrative zones need soft-spine flexibility (open projects, self-directed exploration). A curriculum uniformly hardened becomes brittle and shatters under real-world application; one uniformly soft cannot cut through complex problems. The clay-application pattern — which zones get rigidity — is the actual art of curriculum design.",
+    "prediction": "Curricula explicitly designed with differential rigor zones (hard-assessed cores, soft-assessed integrative modules) will produce graduates who outperform uniformly-rigorous-program graduates on novel problem-solving tasks by at least 20%, measurable via transfer tests.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Hexagonal Comb Economy in Urban Zoning",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "urban planning",
+    "mechanism": "Honeycomb cells use hexagonal geometry to maximize storage volume per unit of wax expenditure, with cell size varying by function — worker brood, drone brood, and honey storage each have distinct dimensions within the same tessellating structure",
+    "application": "Urban zoning could adopt honeycomb principles: hexagonal districts tessellate without dead space (unlike rectangular grids with corner inefficiencies), and cell-size variation within the tessellation allows functional differentiation without breaking the connectivity pattern. The bee's solution to the packing problem — continuous surface, variable cell volume, shared walls — directly addresses urban density challenges where current rectangular zoning creates orphan parcels and connectivity gaps.",
+    "prediction": "Hexagonal zoning districts will show 8-12% higher land-use efficiency (usable square footage per total area) and 15%+ shorter average travel distances between adjacent functional zones compared to rectangular grid zoning of equal density.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Wave Function Collapse in Jury Deliberation",
+    "mechanism_source": "physics",
+    "target_domain": "law",
+    "mechanism": "In quantum mechanics, a system exists in superposition of states until measurement forces collapse to a single eigenstate, with the probability of each outcome determined by the wave function's amplitude",
+    "application": "Jury deliberation exhibits wave-function-collapse dynamics. Each juror enters deliberation in a superposition of verdict states, with probability amplitudes shaped by evidence presentation. The act of the first vocal vote functions as measurement — collapsing the superposition and biasing subsequent deliberation toward the measured state. The order of 'measurement' (who speaks first) disproportionately determines outcomes, analogous to how measurement basis choice affects quantum outcomes.",
+    "prediction": "In mock jury studies, the verdict correlation with the first publicly stated position will exceed 0.7, and randomizing speaking order will produce measurably different verdict distributions from status-based speaking order, detectable with n > 200 trials.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Mycorrhizal Network Model of Informal Mentorship",
+    "mechanism_source": "biology",
+    "target_domain": "corporate management",
+    "mechanism": "Mycorrhizal fungi create underground networks connecting tree roots, enabling resource transfer from established trees to saplings, with the fungal network taking a percentage and redirecting surplus to where it is most needed",
+    "application": "Informal mentorship networks in corporations function as mycorrhizal systems. Senior employees (established trees) transfer knowledge-resources to juniors (saplings) through fungal-like intermediaries — administrative assistants, project managers, and social connectors who route information but extract a facilitation cost. The network's health determines organizational resilience more than any individual tree's strength. Clear-cutting senior staff without preserving the fungal network destroys the knowledge-transfer substrate entirely.",
+    "prediction": "Organizations that lose more than 40% of their mid-level 'connector' employees (identified via communication network analysis) within a 12-month period will show knowledge-transfer collapse measurable as a 25%+ increase in onboarding time for new hires.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Anchoring Heuristic in Sourdough Starter Culture",
+    "mechanism_source": "psychology",
+    "target_domain": "fermentation",
+    "mechanism": "The anchoring heuristic causes subsequent judgments to be disproportionately influenced by an initial reference point, even when that reference is arbitrary or irrelevant",
+    "application": "Sourdough starter cultures exhibit biological anchoring: the microbial community established in the first 72 hours disproportionately determines the long-term flavor profile and fermentation behavior, even after years of feeding with identical flour and water. Early-colonizer species set a reference point that subsequent microbial generations adjust from but never fully escape. This explains why starters from different origins maintain distinct personalities despite convergent environmental conditions.",
+    "prediction": "Sourdough starters inoculated with deliberately different initial microbial communities but fed identically for 12 months will retain statistically distinguishable volatile organic compound profiles (p < 0.05), with the first-72-hour community explaining more variance than subsequent feeding history.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Veblen Good Dynamics in Open-Source Adoption",
+    "mechanism_source": "economics",
+    "target_domain": "software engineering",
+    "mechanism": "Veblen goods violate standard demand curves — demand increases as price increases because high price signals status and exclusivity",
+    "application": "Certain open-source frameworks exhibit inverse-Veblen dynamics: their zero price creates a credibility deficit that harder-to-access or enterprise-licensed alternatives exploit. The 'cost' in open source is measured in learning curve and community gatekeeping rather than money, and frameworks that artificially increase these barriers paradoxically gain adoption among prestige-seeking engineering teams. This explains why simpler, more accessible tools sometimes lose market share to more complex alternatives.",
+    "prediction": "Open-source frameworks that increase documentation complexity or add certification programs will see enterprise adoption increase by 15-25% within 18 months, while simultaneously decreasing hobbyist adoption, testable via download and usage telemetry segmented by organization size.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Counterpoint Voice Leading in Multi-Agent AI Systems",
+    "mechanism_source": "music",
+    "target_domain": "artificial intelligence",
+    "mechanism": "In counterpoint, independent melodic voices must simultaneously maintain their own coherent line while obeying harmonic rules at each vertical intersection — voices are constrained to move by step or small leap, and parallel fifths/octaves are forbidden",
+    "application": "Multi-agent AI systems can borrow counterpoint rules for coordination. Each agent maintains an independent 'melodic line' (task trajectory), but vertical harmonics (simultaneous agent states) must satisfy consonance constraints. Parallel motion — multiple agents pursuing identical strategies — produces the AI equivalent of forbidden parallel fifths: resource contention and redundancy. Contrary motion (agents moving in complementary directions) creates richer problem coverage, just as it creates richer musical texture.",
+    "prediction": "Multi-agent systems constrained by counterpoint-inspired rules (no parallel strategy pursuit, step-wise state transitions, consonance checks at synchronization points) will solve coordination problems 20%+ faster than unconstrained swarm approaches in benchmark tasks.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Maillard Reaction Thresholds in Political Radicalization",
+    "mechanism_source": "cooking",
+    "target_domain": "political science",
+    "mechanism": "The Maillard reaction requires both sufficient temperature and the presence of reducing sugars and amino acids — below the threshold temperature (~140°C), no browning occurs regardless of duration; above it, the reaction accelerates nonlinearly and produces hundreds of novel flavor compounds",
+    "application": "Political radicalization follows Maillard kinetics: it requires both sufficient 'temperature' (emotional arousal from grievance) and 'reactants' (ideological amino acids — narrative frameworks that give meaning to grievance). Below the activation threshold, prolonged grievance produces no ideological transformation. Above it, radicalization accelerates nonlinearly and generates novel political compounds (hybrid ideologies) not present in the original ingredients. Counter-radicalization is more effective when it removes reactants than when it tries to lower temperature.",
+    "prediction": "Deradicalization programs that focus on dismantling narrative frameworks (removing reactants) will show 35%+ higher success rates than those focused on grievance reduction (lowering temperature), measurable via recidivism rates over 5-year follow-up periods.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Randori Principle in Startup Pivoting",
+    "mechanism_source": "martial arts",
+    "target_domain": "entrepreneurship",
+    "mechanism": "In judo randori (free practice), practitioners learn to flow with an opponent's energy rather than resist it — using incoming force to power throws, converting attack into opportunity through redirection rather than opposition",
+    "application": "Successful startup pivots follow randori principles: instead of resisting market forces that invalidate the original thesis, effective founders redirect incoming competitive or market energy into new product trajectories. The pivot isn't a retreat but a throw — using the momentum of failure to power a new direction. Companies that try to resist market signals (blocking rather than redirecting) exhaust resources, while those that practice strategic yielding convert adversity into acceleration.",
+    "prediction": "Startups whose pivots redirect existing user behavior or market momentum (randori pivots) will reach product-market fit 40%+ faster than those whose pivots require building entirely new market demand (resistance pivots), measurable via time-to-revenue-milestone.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Flying Buttress Load Distribution in Emotional Support Networks",
+    "mechanism_source": "architecture",
+    "target_domain": "clinical psychology",
+    "mechanism": "Gothic flying buttresses transfer lateral thrust from a vaulted ceiling through an external arch to a heavy pier, allowing walls to be thinner and pierced with large windows by externalizing structural loads",
+    "application": "Healthy emotional support networks function as flying buttresses: they externalize psychological load-bearing through arched connections to grounded supporters (piers), allowing the individual's 'walls' to be thinner and more transparent (emotionally open) without structural collapse. Therapeutic interventions that only strengthen the individual's walls (internal coping) without building external buttressing miss the architectural insight that transparency and strength require externalized load paths.",
+    "prediction": "Patients with support networks exhibiting buttress topology (2-3 deeply grounded external supporters connected via regular contact arches) will tolerate vulnerability-based therapies with 30%+ lower dropout rates than those with either no external supports or diffuse, shallow support networks.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Phonemic Drift in Codebase Entropy",
+    "mechanism_source": "linguistics",
+    "target_domain": "software engineering",
+    "mechanism": "The Great Vowel Shift and similar phonemic drift processes cause systematic sound changes across a language over generations, where each individual change is imperceptible but the cumulative effect renders old and new forms mutually unintelligible",
+    "application": "Codebases undergo phonemic drift: individual variable renamings, API adjustments, and convention changes are each imperceptible, but cumulative drift renders year-old documentation and tribal knowledge unintelligible to current developers. Like language drift, this process is regular and predictable — certain 'sounds' (naming patterns, architectural idioms) shift faster than others, and drift accelerates at 'dialect boundaries' (team interfaces, microservice seams).",
+    "prediction": "Codebases can be assigned a 'drift rate' based on convention-change velocity at module boundaries, and repositories with drift rates exceeding 2 standard deviations above the project mean will generate 3x+ more cross-team misunderstanding bugs per quarter.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Trickster Archetype in Immune System Evasion",
+    "mechanism_source": "mythology",
+    "target_domain": "immunology",
+    "mechanism": "The mythological trickster (Loki, Coyote, Anansi) operates by shapeshifting, boundary-crossing, and rule-breaking to destabilize existing order while paradoxically enabling system renewal and adaptation",
+    "application": "Successful pathogens employ trickster-archetype strategies mapped precisely onto mythological functions: antigenic variation is shapeshifting, immune privilege sites are boundary crossings, and molecular mimicry is the trickster's impersonation of authority figures. The mythological insight that tricksters are necessary for system renewal applies: immune systems that never encounter trickster-pathogens become rigid and auto-aggressive, just as societies without trickster figures become brittle. The trickster is the system's own stress test.",
+    "prediction": "Immune systems with higher historical pathogen diversity exposure (more trickster encounters) will show lower rates of autoimmune disorder, with the effect quantifiable as a negative correlation (r < -0.3) between childhood pathogen exposure diversity and adult autoimmune incidence.",
+    "viability": "speculative",
+    "confidence": 0.59
+  }
+]

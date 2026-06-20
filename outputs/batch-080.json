@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Speleomorphic Capital Flow Theory",
+    "mechanism_source": "speleology",
+    "target_domain": "venture capital",
+    "mechanism": "Cave passage morphology describes how water carves preferential conduits through soluble rock: initial fractures capture flow, widen through positive feedback, and leave adjacent passages starved — a process called cave stream piracy. Phreatic and vadose zones impose distinct hydraulic regimes that determine which passages become trunk channels versus dead ends.",
+    "application": "Venture capital deal flow concentrates along established conduit paths (warm introductions, top-tier accelerators) through the same preferential-flow dynamics: early capital widens a startup's network fractures, attracting more flow while adjacent founders in identical markets receive nothing. The phreatic-to-vadose transition maps onto the shift from diffuse seed-stage funding to focused Series A pressure, where gravity-driven (milestone-driven) logic replaces hydrostatic spread. Dead-end passages model zombie companies: fully carved but no longer carrying active flow.",
+    "prediction": "Portfolios constructed by deliberately funding startups outside established conduit paths (cold sourcing, non-hub geographies) will show higher variance but equivalent median returns compared to conduit-following portfolios, falsifiable by comparing IRR distributions across sourcing-method cohorts over a ten-year horizon.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Rosensweig Formation Dynamics in Ensemble Choreography",
+    "mechanism_source": "ferrofluid dynamics",
+    "target_domain": "choreography",
+    "mechanism": "The Rosensweig instability occurs when a ferrofluid in a magnetic field spontaneously organizes into a hexagonally packed array of peaks, with peak height and spacing determined by the balance between magnetic traction, gravity, and surface tension. Modulating field strength causes the pattern to breathe, merge peaks, or bifurcate symmetrically.",
+    "application": "Choreographers can model ensemble formations as a fluid under a variable 'field' of musical intensity and rhythmic pulse: dancers self-organize into stable spatial arrays when musical tension is sustained and scatter into fluid unison when it drops, mirroring peak collapse. The surface-tension analogue is group cohesion cost — the effort required to maintain tight spacing — predicting that formations will be tightest at peak musical energy and most diffuse during rubato passages. This framework gives directors a quantitative vocabulary for spacing decisions tied directly to score structure.",
+    "prediction": "Blind spatial-tracking analysis of ensemble pieces will find that inter-dancer distances are inversely correlated with measured audio energy (RMS amplitude and harmonic density) at the corresponding moment, with r > 0.6 across a sample of ten or more contemporary dance works.",
+    "viability": "speculative",
+    "confidence": 0.62
+  },
+  {
+    "name": "Curricular Steganographic Encoding Model",
+    "mechanism_source": "steganography",
+    "target_domain": "pedagogy",
+    "mechanism": "Steganography encodes a covert message within an innocuous carrier signal by exploiting the carrier's redundancy — least-significant bits in an image, imperceptible timing jitter in audio — such that the surface-level payload appears unchanged to naive inspection while a keyed decoder recovers the hidden content. The carrier's statistical profile must remain within normal perceptual bounds to avoid detection.",
+    "application": "The hidden curriculum operates as a steganographic layer embedded in the overt instructional carrier: official lesson content (carrier) transmits covert messages about authority, compliance, and social hierarchy through spatial arrangements, timing structures, and reward patterns that students decode without explicit instruction. Unlike classical hidden-curriculum theory, the steganographic framing predicts that the covert channel has a capacity limit — schools attempting to embed too many implicit norms will introduce statistical anomalies (detectable inconsistencies between stated and enacted values) that trigger student resistance. Pedagogical reform can be modeled as steganalysis: identifying and surfacing the covert channel before redesigning the carrier.",
+    "prediction": "Students in classrooms with high stated-to-enacted value consistency (low steganographic load) will show lower rates of cynicism about institutional fairness, measurable via validated scales, compared to classrooms with equivalent overt curricula but high stated-to-enacted divergence.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Signature-Based Deployment Binding Framework",
+    "mechanism_source": "bookbinding",
+    "target_domain": "DevOps",
+    "mechanism": "In traditional bookbinding, printed sheets are folded into signatures — discrete quires of 8, 16, or 32 pages — which are then sewn or glued sequentially to form a text block. Each signature must be complete and correctly ordered before binding can proceed; a defective signature invalidates the gathering at that position and cannot be corrected without disassembly.",
+    "application": "Deployment pipelines can be architected as continuous binding processes in which code changes are accumulated into signatures (sprint-sized or feature-complete bundles), validated as atomic units, and stitched into the main text block (production) via a sewing pass (integration gate). The bookbinding model enforces that partial signatures — incomplete features — cannot be bound without compromising the structural integrity of the codex, lending formal justification to feature-flag dark-launching as 'tipping in' loose leaves. Reback operations (removing and replacing a damaged spine) map cleanly onto rollback procedures that preserve surrounding signatures.",
+    "prediction": "Teams that enforce signature-complete deployment gates — releasing only when a defined bundle of related changes passes integration — will show lower post-deployment incident rates than teams using continuous individual-commit deployment, controllable for team size and code churn.",
+    "viability": "speculative",
+    "confidence": 0.64
+  },
+  {
+    "name": "High-Wire Brinkmanship Equilibrium Model",
+    "mechanism_source": "circus arts",
+    "target_domain": "diplomatic protocol",
+    "mechanism": "The high-wire aerialist maintains balance through continuous micro-corrections of a long balancing pole whose rotational inertia extends the recovery window; forward momentum is essential since a stationary wire-walker has no gyroscopic resource to draw upon. Falling is likeliest not at maximum lean angle but during the correction — an overcorrection that sends momentum past the recoverable envelope.",
+    "application": "Diplomatic brinkmanship operates on identical mechanics: negotiators maintain equilibrium by making continuous micro-concessions (pole adjustments) while forward momentum (visible progress toward agreement) provides the gyroscopic inertia that prevents collapse. The model predicts that brinkmanship failures occur most often not at peak tension but during the de-escalation phase, when overcorrected concessions signal weakness and shift momentum past the recoverable envelope — exactly the pattern seen in failed summit collapses after initial breakthroughs. Protocol choreography should therefore prescribe asymmetric de-escalation: small, sequenced concessions with deliberate pauses rather than large reciprocal gestures.",
+    "prediction": "Analysis of historical summit negotiations coded for concession size and timing will find that collapses disproportionately follow large single-session concessions rather than sustained stalemates, at a ratio exceeding 2:1, falsifiable via structured content analysis of declassified diplomatic records.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Grooming Time Budget Architecture for Social Platforms",
+    "mechanism_source": "primatology",
+    "target_domain": "social media platform design",
+    "mechanism": "Primates maintain social cohesion through dyadic grooming, which has a hard time budget: an individual can groom only one partner at a time, and Dunbar's neocortex-ratio analysis places the upper bound of stable social groups at approximately 150 due to the grooming time required to service all bonds. Language and laughter evolved as 'cheap grooming' that allows simultaneous bonding with larger audiences at lower cost per bond.",
+    "application": "Social media platforms function as cheap-grooming amplifiers, and their design choices alter the effective grooming time budget in predictable ways: asynchronous likes and emoji reactions are the cheapest grooming tokens, broadcasting weakly to hundreds simultaneously, while comment threads recover some dyadic depth at higher time cost. Dunbar's analysis predicts a quality-quantity tradeoff that platforms can tune through interface design — surfaces that encourage cheap tokens inflate network size while degrading bond strength, producing the well-documented 'social media loneliness paradox.' Design interventions increasing dyadic depth (voice notes, video replies) should measurably increase reported relationship quality within the platform's active user network.",
+    "prediction": "Users whose median interaction mode shifts from reaction-only to comment or voice-reply, tracked via platform engagement logs, will report higher scores on social connectedness scales at 90-day follow-up, independently of total interaction volume.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Vortex Shedding Aromatic Volatility Model",
+    "mechanism_source": "aeronautics",
+    "target_domain": "wine tasting",
+    "mechanism": "Wingtip vortices and von Kármán vortex streets shed from bluff bodies create organized low-pressure cores that entrain and concentrate surrounding fluid; the frequency and intensity of vortex shedding depends on Reynolds number and body geometry, with periodic shedding at the Strouhal frequency governing wake structure.",
+    "application": "Swirling a wine glass induces vortex structures that strip volatile aromatic compounds from the liquid surface: the low-pressure cores of the shed vortices above the meniscus act as localized concentrators, and the Strouhal scaling predicts that an optimal swirl frequency exists for each glass geometry and wine viscosity that maximizes aroma transport. Taller, narrower glasses should exhibit different Strouhal optima than wide-bowled Burgundy glasses, offering an aerodynamic basis for glassware shape recommendations that currently rest on anecdote. Turbulent versus laminar swirl regimes map onto the sommelier's distinction between 'opening up' and 'bruising' a wine through excessive agitation.",
+    "prediction": "Controlled tribometric measurement of headspace volatile concentration above identically swirled wine in geometrically varied glasses will find a glass-specific optimal swirl rate (Hz) that corresponds to the Strouhal vortex-shedding frequency predicted from glass diameter and wine kinematic viscosity.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Heraldic Quartering as Pedigree Notation in Genetic Counseling",
+    "mechanism_source": "heraldry",
+    "target_domain": "genetic counseling",
+    "mechanism": "Heraldic quartering allows a coat of arms to encode multigenerational lineage by subdividing the escutcheon into quadrants, each representing an ancestral line whose arms are impaled or quartered in, with impalement representing spousal union and quartering representing inherited augmentation across generations. The visual grammar accumulates complexity across generations while preserving each contributing line's identity within the composite field.",
+    "application": "Standard pedigree notation in genetic counseling (squares, circles, horizontal couple-lines, vertical descent-lines) lacks a visual grammar for representing the accumulation of disease-associated allele contributions across multiple ancestry lines simultaneously. Heraldic quartering offers a complement: each quadrant encodes one grandparental lineage's risk-associated variant load as a field tincture or charge, with impalement representing de novo mutations acquired at the carrier-union node. This would allow clinicians and patients to see, at a glance, from which ancestral quadrant a compound heterozygous condition's two alleles originate — information currently buried in tabular genotype reports.",
+    "prediction": "Genetic counseling clients shown heraldic-quartering pedigrees alongside standard pedigrees will score higher on a validated recall test for ancestral allele provenance at 48-hour follow-up compared to clients shown standard pedigrees alone, in a randomized controlled format.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Lexicographic Coverage-Precision Tradeoff in Model Benchmarking",
+    "mechanism_source": "lexicography",
+    "target_domain": "machine learning model evaluation",
+    "mechanism": "Dictionary compilation faces an irreducible coverage-precision tradeoff: maximizing lexical coverage by including rare and peripheral usages inflates the corpus with low-confidence entries, while restricting to high-confidence, well-attested senses improves definitional precision at the cost of vocabulary completeness. Historical lexicographers quantified this as the 'hapax problem' — words appearing only once resist reliable definition.",
+    "application": "Benchmark suites for language model evaluation face the identical tradeoff: broad benchmarks maximizing task-type coverage necessarily include underspecified or low-agreement tasks (analogous to hapax entries) that introduce noise into aggregate scores, while narrow high-precision benchmarks leave capability regions unmeasured. The lexicographic solution — stratifying entries by attestation frequency and confidence, then reporting statistics separately per stratum — maps onto stratified benchmark reporting: performance on well-attested, high-agreement tasks reported separately from performance on rare or contested tasks, producing a reliability-weighted capability profile. The hapax problem in benchmarking corresponds to one-shot or few-example tasks with no ground-truth consensus.",
+    "prediction": "Models ranked by aggregate score on heterogeneous benchmarks will show rank-order reversals exceeding 20% of pairs when re-evaluated on a high-attestation-only subset of the same benchmark, indicating that hapax-equivalent tasks systematically distort aggregate leaderboard rankings.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Call-and-Response Therapeutic Dialogue Protocol",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "psychotherapy",
+    "mechanism": "Call-and-response is a musical form found across West African, blues, gospel, and field-holler traditions in which a leader's phrase (call) is structurally completed or answered by a group or second voice (response), creating a dyadic antiphonal loop that regulates participation, validates utterances, and co-constructs meaning through timed reciprocity. The form encodes social repair: an unanswered call is culturally marked as a rupture.",
+    "application": "Psychotherapeutic dialogue, particularly in person-centered and relational psychoanalytic traditions, operates as a call-and-response system in which the therapist's reflective response is not merely content-paraphrasing but a timed, tonally calibrated completion that validates the patient's call and invites elaboration. Ethnomusicological analysis of response timing, tonal matching, and phrase-length mirroring provides a formal grammar for what therapists learn intuitively: that a response arriving too quickly (before the call resolves) is as damaging as silence, and that tonal mismatch (warm call, flat response) constitutes a therapeutic rupture equivalent to an off-key response in song. Training programs could use call-and-response musical exercises to develop therapists' attunement before clinical placement.",
+    "prediction": "Therapists trained in structured call-and-response musical improvisation exercises will score higher on observer-rated attunement scales (response timing accuracy, tonal matching) in subsequent therapy session transcripts compared to a control group receiving equivalent training hours in verbal reflection techniques.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Punctuated Equilibrium Model of Fashion Cycle Dynamics",
+    "mechanism_source": "paleontology",
+    "target_domain": "fashion trend forecasting",
+    "mechanism": "Punctuated equilibrium theory in paleontology posits that species remain in stable morphological stasis for extended periods, with evolutionary change concentrated in rapid bursts associated with environmental disruption or ecological vacancy — contra the gradual Darwinian model. Stasis is maintained by stabilizing selection; punctuation events require both opportunity (niche opening) and heritable variation already present in the population.",
+    "application": "Fashion trend cycles show the same bimodal tempo: long stasis periods in which silhouettes, palettes, and fabrications remain within a constrained morphospace (the 'stable phenotype'), punctuated by rapid style-phase transitions triggered by cultural disruptions (recessions, pandemics, subculture mainstreaming) that open ecological vacancies in the aesthetic niche space. The punctuation model predicts that forecasting methods based on linear extrapolation of current trends will systematically fail to anticipate phase transitions, while methods monitoring cultural 'extinction pressures' and latent variation (dormant historical silhouettes with maintained but unexpressed presence in archive collections) will outperform them. Heritable variation in this model is the archive: designs present but not dominant in the current season.",
+    "prediction": "A forecasting model trained to detect rising cultural-disruption indices (unemployment rate, media sentiment volatility, subculture media penetration) will predict major silhouette shifts — defined as >30% change in dominant silhouette category share — with greater lead time and accuracy than ARIMA-based trend extrapolation models evaluated on a 20-year retail dataset.",
+    "viability": "promising",
+    "confidence": 0.7
+  },
+  {
+    "name": "Glaciological Calving Model of Organizational Downsizing",
+    "mechanism_source": "glaciology",
+    "target_domain": "organizational downsizing",
+    "mechanism": "Glacier calving occurs when the terminal zone of a tidewater or ice-shelf glacier extends beyond the grounding line into water, progressively losing basal support until buoyancy forces exceed the tensile strength of the ice, triggering fracture and iceberg detachment. The calved mass is not destroyed but becomes an independent floating body that may persist or melt depending on ocean temperature.",
+    "application": "Organizational downsizing driven by structural overextension follows glaciological mechanics: as an organization expands its workforce beyond the revenue grounding line (the point where operational cash flow can support the headcount), terminal zones of staff accumulate without basal support, and periodic restructuring events ('calving') detach these zones as independent units — spin-offs, acqui-hires, or contractor pools — that may persist as viable independent entities or dissolve. The glaciological model correctly predicts that calving events are not random but occur at the weakest tensile point in organizational structure (often at the boundary between core and acquired units), and that the volume calved is proportional to the degree of grounding-line retreat preceding the event. Thinning before calving — workforce attrition signaling structural stress — should be a leading indicator of impending large-scale restructuring.",
+    "prediction": "Organizations with voluntary attrition rates in the 12 months preceding a restructuring announcement that exceed their 5-year baseline by more than 1.5 standard deviations will undergo restructurings that are, on average, 40% larger in headcount terms than organizations with stable pre-event attrition, falsifiable via HR analytics data from publicly disclosed restructuring events.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Ring-Width Chronology Mapping for Diachronic Corpus Analysis",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "corpus linguistics",
+    "mechanism": "Dendrochronology reconstructs past climate by measuring annual tree-ring widths, which encode growing-season conditions in a high-resolution time series; cross-dating synchronizes ring sequences across multiple specimens to build master chronologies extending centuries beyond any single tree's lifespan. Ring-width variability indexes environmental stress, while pointer years (anomalously narrow or wide rings) mark discrete climatic events.",
+    "application": "Diachronic corpus linguistics constructs word-frequency time series analogous to ring-width chronologies: each corpus year is a ring whose 'width' is the normalized frequency or semantic diversity of a target lexeme, and cross-dating across multiple corpora (Google Books, newspaper archives, parliamentary records) allows construction of a master lexical chronology that extends beyond any single corpus's coverage. Pointer years in lexical chronologies — years with anomalous frequency spikes or drops — correspond to discrete sociolinguistic events (neologism introduction, taboo shift, political salience surge) just as dendrochronological pointer years mark droughts or volcanic winters. The framework provides dendrochronology's rigorous statistical toolkit (COFECHA cross-dating, EPS signal strength metrics) for evaluating lexical chronology reliability.",
+    "prediction": "Lexical master chronologies built by cross-dating frequency series for the same set of 100 words across five independent diachronic corpora will show pointer-year co-occurrence rates significantly above chance (p < 0.01), demonstrating that anomalous frequency years reflect real sociolinguistic signal rather than corpus-specific noise.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Draft-and-Freeboard Capacity Metrics for Immigration Policy",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "immigration policy",
+    "mechanism": "A vessel's draft — the depth of the hull below the waterline — increases with cargo load, reducing freeboard (the distance from waterline to deck) and ultimately threatening seaworthiness if the Plimsoll load line is exceeded. Naval architects design ships with specific load capacity envelopes that account for cargo density, sea state, and route conditions, with overloading constituting a legally and physically defined safety violation.",
+    "application": "Immigration policy implicitly invokes capacity concepts — labor market absorption, housing stock, public service bandwidth — but without the precision of draft-and-freeboard metrics. Shipbuilding offers a formalized analogue: national 'draft' is the total resource draw of the current population on infrastructure and social services, 'freeboard' is the remaining absorptive margin, and the Plimsoll line is the policy-defined maximum intake rate beyond which system stress is measurable. Different immigrant 'cargo densities' (skill levels, capital brought, public-service dependency rates) change draft per unit volume, meaning that aggregate intake targets without density adjustment are as meaningless as loading a ship by counting containers rather than weighing them. The model demands density-adjusted intake metrics rather than headline numbers.",
+    "prediction": "Countries that set immigration targets adjusted for human-capital density (weighted by projected fiscal contribution minus projected public-service consumption) will show smaller post-immigration-surge declines in public service quality metrics compared to countries using unadjusted headcount targets, measurable in a cross-national panel study over a 10-year window.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Shadow Puppet Projection as Predictive Processing Architecture",
+    "mechanism_source": "puppetry",
+    "target_domain": "neuroscience",
+    "mechanism": "Shadow puppetry creates perceived figures not by directly presenting objects but by projecting simplified silhouettes onto a screen: the operator behind the scrim manipulates articulated forms, the light source angle determines projection geometry, and the audience constructs a vivid figure from the low-dimensional shadow — inferring depth, material, and motion from a 2D edge contour. The puppet itself is never seen; only its projection is experienced.",
+    "application": "Predictive processing accounts of perception argue that the brain never accesses the world directly but constructs a best-guess model (the shadow) from sensory input (the projected silhouette), with top-down predictions acting as the light source that determines how raw signals are projected into conscious experience. The shadow puppet analogy extends the framework productively: the 'operator' behind the scrim is the generative model, the 'articulated puppet' is the latent world-state, and the screen is the boundary of conscious access. Crucially, the analogy captures why perceptual illusions are not failures but successes — the visual system correctly reconstructs the intended figure from an impoverished silhouette, as a competent audience reconstructs the dragon from two hands and a candle. Degraded or ambiguous shadows (noise-masked stimuli) should produce systematic misidentification predictable from the priors of the generative model.",
+    "prediction": "Participants' misidentification errors for briefly presented, silhouette-masked objects will be predictable from a generative model trained on the same participants' prior exposure frequencies — objects with higher prior frequency generating faster and more confident (even when wrong) recognition responses — at an accuracy level exceeding a naive base-rate model by at least 15 percentage points.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

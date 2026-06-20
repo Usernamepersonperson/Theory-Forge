@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Luthier's Tap Tone Diagnostics for Organizational Health",
+    "mechanism_source": "luthiery",
+    "target_domain": "management science",
+    "mechanism": "Luthiers evaluate wood quality by tapping and listening to the resonant frequency, sustain, and overtone profile — a skilled builder can diagnose internal flaws, moisture content, and stiffness from the tap tone alone without destructive testing",
+    "application": "Organizations can be diagnostically 'tapped' through carefully designed probe interactions — small perturbations introduced to observe the system's resonant response. A healthy organization rings with clear sustain (coherent follow-through on initiatives), while a structurally compromised one produces a dead thud (initiatives absorbed without propagation) or buzzing (chaotic, unfocused response). The diagnostic tap must be calibrated to the organization's size, just as a luthier adjusts tap force to plate thickness.",
+    "prediction": "Organizations whose response to small pilot programs shows high-sustain resonance (measurable as the number of departments that voluntarily adopt the pilot within 6 months) will outperform dead-thud organizations on revenue growth over the following 3 years, with resonance score predicting growth better than traditional engagement surveys.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Oceanic Thermohaline Circulation of Academic Citation Networks",
+    "mechanism_source": "oceanography",
+    "target_domain": "scientometrics",
+    "mechanism": "The global thermohaline circulation (conveyor belt) is driven by density differences from temperature and salinity gradients, creating a slow but planet-spanning current that takes roughly 1000 years to complete a full cycle and redistributes heat globally",
+    "application": "Academic citation flows form a thermohaline circulation across disciplines. Dense, high-salinity fields (mathematics, physics) produce 'deep water' — foundational concepts that sink below surface visibility but slowly circulate through distant disciplines over decades. Warm, low-density fields (pop psychology, management fads) create surface currents — fast-moving but shallow. The system's health depends on the deep circulation continuing; if foundational citation flow stalls (a conceptual 'thermohaline shutdown'), surface disciplines lose their hidden nutrient supply.",
+    "prediction": "Tracking cross-disciplinary citation lag times will reveal a circulation pattern where foundational concepts take 15-25 years to traverse from mathematics to applied social sciences, and disruptions to this flow (measured as declining cross-disciplinary citation rates) will predict a subsequent decline in methodological rigor in downstream fields within 10 years.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Mordant Chemistry Theory of Cultural Memory Fixation",
+    "mechanism_source": "textile dyeing",
+    "target_domain": "cultural anthropology",
+    "mechanism": "Mordants are metallic salts that create a chemical bridge between dye molecules and textile fibers — without mordanting, most natural dyes wash out quickly; the mordant doesn't provide the color but makes it permanent",
+    "application": "Cultural memories require mordants to become permanent. The raw dye of historical events washes out within a generation unless fixed by institutional mordants — rituals, monuments, curricula, and legal frameworks that create chemical bridges between the event and the social fabric. Different mordants produce different colors from the same dye: the same historical event fixed by religious ritual yields a different cultural memory than when fixed by legal codification. Societies that lose their mordanting institutions lose the ability to fix new memories permanently.",
+    "prediction": "Comparing the persistence of cultural memories across societies will show that the number and diversity of mordanting institutions (commemorative rituals, educational curricula, legal recognitions) predicts memory durability better than the magnitude of the original event, with a measurable half-life difference of at least 2x between well-mordanted and poorly-mordanted events of similar scale.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Calligraphic Pressure Modulation in Diplomatic Rhetoric",
+    "mechanism_source": "calligraphy",
+    "target_domain": "international relations",
+    "mechanism": "In brush calligraphy, the stroke's character emerges from continuous pressure modulation — thick-to-thin transitions convey energy, rhythm, and intent. A stroke with uniform pressure appears lifeless; one with purposeful variation communicates mastery and intentionality",
+    "application": "Effective diplomatic communication requires calligraphic pressure modulation. Statements with uniform rhetorical force (all condemnation or all conciliation) read as lifeless or threatening. Skilled diplomats modulate pressure within a single communique — thick strokes of firm position tapering into thin strokes of openness to dialogue. The transitions between thick and thin convey intentionality and control, signaling that firmness is chosen, not reflexive, and flexibility is deliberate, not weak.",
+    "prediction": "Diplomatic statements that exhibit measurable rhetorical pressure variation (quantified via sentiment oscillation analysis) will produce more productive negotiation outcomes than tonally uniform statements, with the optimal oscillation frequency being 2-3 sentiment shifts per substantive paragraph.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Trophic Cascade Theory of Software Dependency Collapse",
+    "mechanism_source": "ecology",
+    "target_domain": "software engineering",
+    "mechanism": "Trophic cascades occur when the removal of a top predator triggers population explosions in herbivores, which then overgraze and collapse plant communities, fundamentally restructuring the ecosystem across multiple trophic levels",
+    "application": "Software ecosystems experience trophic cascades when key maintainer-predators are removed. Top-level maintainers of critical dependencies act as apex predators — they control the population of feature requests and prevent overgrazing of the codebase by well-meaning contributors. When a key maintainer departs, contributor pull requests proliferate unchecked, feature bloat overgrows the architecture, and the foundational code health collapses. The left-pad incident was a trophic cascade triggered by predator removal.",
+    "prediction": "Open-source projects that lose their primary maintainer without replacement will show a statistically significant spike in merged pull requests in the first 6 months followed by a measurable increase in bug reports and a decline in downstream dependent project health within 12-18 months, following the same temporal signature as ecological trophic cascades.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Navigation Dead Reckoning Bias in Career Path Planning",
+    "mechanism_source": "navigation",
+    "target_domain": "vocational psychology",
+    "mechanism": "Dead reckoning accumulates position error over time because each new position estimate is calculated from the previous estimated position — small errors compound, causing the reckoned position to drift progressively further from the true position without external reference fixes",
+    "application": "Career planning by dead reckoning — each decision referenced only to the previous career position — accumulates identity drift. A professional who navigates purely by dead reckoning (each job chosen relative to the last) gradually drifts from their true vocational position without realizing it. External reference fixes (sabbaticals, psychometric assessments, mentorship from outside one's field) correct the accumulated error. The magnitude of drift is proportional to the number of transitions made without an external fix.",
+    "prediction": "Professionals who have made 5+ career transitions without external assessment will show significantly greater misalignment between stated career satisfaction and objective career-values fit than those who periodically recalibrate, with drift magnitude predictable from the number of un-fixed transitions.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Typographic River Detection in Argument Flow Analysis",
+    "mechanism_source": "typesetting",
+    "target_domain": "rhetoric",
+    "mechanism": "In typesetting, 'rivers' are unintentional vertical white-space channels that appear when word spaces align across consecutive lines, creating visual disruption that the eye follows instead of reading horizontally",
+    "application": "Poorly constructed arguments contain rhetorical rivers — vertical channels of logical gaps that run through apparently solid paragraphs. Just as typographic rivers emerge from the interaction of word length, justification algorithm, and column width, argumentative rivers emerge from the interaction of claim granularity, evidence spacing, and logical structure. Skilled readers unconsciously detect these rivers and find the argument unpersuasive without being able to articulate why. Argument analysis should systematically scan for rhetorical rivers.",
+    "prediction": "Arguments rated as 'unconvincing despite seeming well-structured' by evaluators will contain more detectable logical gap alignments (measured as recurring unstated assumptions at regular intervals) than arguments rated as genuinely convincing, with gap-alignment frequency predicting persuasion failure better than argument length or evidence quantity.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Agricultural Crop Rotation Principle for Research Methodology",
+    "mechanism_source": "agriculture",
+    "target_domain": "philosophy of science",
+    "mechanism": "Crop rotation prevents soil nutrient depletion and pest buildup by cycling different plant families through the same field — each crop depletes different nutrients while replenishing others, and breaks the life cycles of crop-specific pathogens",
+    "application": "Research fields suffer from methodological monoculture — the same analytical techniques applied repeatedly to the same questions deplete the 'soil' of available insights and allow methodological 'pests' (systematic biases specific to the technique) to accumulate. Fields that rotate methodologies — cycling between qualitative, quantitative, computational, and experimental approaches — replenish their epistemic soil and break the life cycle of method-specific biases. The replication crisis is partly a symptom of methodological monoculture.",
+    "prediction": "Research subfields that employ at least three distinct methodological approaches within a 10-year window will show higher replication rates and more novel discoveries per publication than methodologically monocultural subfields, controlling for funding levels and researcher count.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Metallurgical Grain Boundary Theory of Team Conflict Propagation",
+    "mechanism_source": "metallurgy",
+    "target_domain": "organizational psychology",
+    "mechanism": "In polycrystalline metals, grain boundaries — where differently oriented crystal lattices meet — are sites of weakness where cracks preferentially initiate and propagate, but also where impurity atoms segregate and where corrosion concentrates",
+    "application": "Team conflicts propagate along organizational grain boundaries — interfaces where differently oriented subcultures meet. Engineering-sales boundaries, headquarters-field office boundaries, and senior-junior boundaries are structurally analogous to metallurgical grain boundaries. Conflicts don't originate randomly; they initiate at these boundaries and propagate along them. Organizational 'impurities' (toxic individuals, unresolved grievances) preferentially segregate to these boundaries, just as sulfur atoms segregate to grain boundaries in steel, causing embrittlement.",
+    "prediction": "Mapping conflict incidents in organizations onto structural boundary diagrams will show that 70%+ of conflicts initiate within one organizational step of a cultural grain boundary, and that teams with deliberate boundary-spanning roles (analogous to grain boundary engineering in metallurgy) will show reduced conflict propagation rates.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Gamelan Tuning Theory of Multicultural Policy Harmonization",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "public policy",
+    "mechanism": "Gamelan ensembles use paired instruments deliberately tuned slightly apart to create 'ombak' (beating) — the acoustic shimmer that gives gamelan its characteristic alive sound. Perfect unison would kill the music's vitality",
+    "application": "Multicultural policy harmonization should aim for gamelan tuning, not orchestral unison. Policies across cultural communities should be deliberately tuned slightly apart — close enough to cohere but different enough to create productive ombak (creative tension) at the interfaces. Perfect policy unison across cultures produces a dead, lifeless governance; the beating frequency between slightly different cultural implementations of similar principles is where social innovation emerges.",
+    "prediction": "Federations or multi-ethnic states that permit deliberate policy variation across cultural regions (measured as coefficient of variation in implementation) within a band of 10-25% will show higher social innovation indices and lower intercommunal conflict than those enforcing either strict uniformity or allowing divergence beyond 25%.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Glacial Erratic Transport Theory of Meme Mutation",
+    "mechanism_source": "glaciology",
+    "target_domain": "memetics",
+    "mechanism": "Glacial erratics are boulders transported far from their geological origin by ice sheets, deposited in landscapes where their composition is completely foreign to local bedrock — their origin is identifiable but their current context makes no geological sense",
+    "application": "Internet memes undergo glacial erratic transport — carried far from their cultural origin by waves of viral sharing and deposited in communities where their original meaning is completely foreign. The meme's 'lithology' (visual structure, catchphrase) remains identifiable, but its semantic context becomes incongruent with its new environment. Like geologists who reconstruct ice flow patterns from erratic distributions, cultural analysts can reconstruct viral propagation pathways from the distribution of decontextualized memes across community boundaries.",
+    "prediction": "Tracking the semantic drift of memes across online communities will show that meaning transformation follows predictable transport patterns, with the degree of semantic change proportional to the cultural distance traveled, and that the original meaning can be reconstructed from the distribution pattern with accuracy above 60%.",
+    "viability": "promising",
+    "confidence": 0.59
+  },
+  {
+    "name": "Martial Arts Ukemi Principle for Organizational Failure Recovery",
+    "mechanism_source": "martial arts",
+    "target_domain": "crisis management",
+    "mechanism": "Ukemi (breakfall technique) in judo teaches practitioners to redirect the energy of a throw into a controlled roll or slap, converting a potentially injurious impact into a safe landing — the key insight is that resisting the throw increases injury while flowing with it enables recovery",
+    "application": "Organizations that practice ukemi — training to convert uncontrolled failures into controlled landings — recover faster and with less damage than those that resist failure. Corporate ukemi involves pre-planned failure modes, distributed impact absorption (the slap that dissipates energy across a larger area), and immediate reorientation to standing position. Organizations that brace rigidly against failure concentrate impact force on their most brittle points, while those trained in ukemi distribute the shock and roll back to operational stance.",
+    "prediction": "Organizations that conduct regular failure-simulation exercises (analogous to ukemi practice) will show recovery times at least 40% shorter after actual crises compared to organizations without such training, and will experience fewer secondary failures triggered by the primary crisis.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Mythological Threshold Guardian as API Gateway Pattern",
+    "mechanism_source": "mythology",
+    "target_domain": "software architecture",
+    "mechanism": "In the Hero's Journey, threshold guardians test the hero's worthiness before granting passage between the ordinary and extraordinary worlds — they are not enemies but selectors that ensure only prepared travelers enter dangerous territory",
+    "application": "API gateways function as mythological threshold guardians. They don't merely authenticate — they test the worthiness of requests before granting passage from the external ordinary world into the internal extraordinary world of business logic. Well-designed gateways, like effective threshold guardians, test multiple dimensions of worthiness (authentication, rate limiting, payload validation, intent verification) and provide cryptic-but-useful feedback to unworthy requests. Gateways that simply block without testing produce the narrative equivalent of a locked door rather than a guardian encounter.",
+    "prediction": "API gateways redesigned with graduated challenge-response patterns (multiple stages of validation with informative feedback at each stage) will reduce both malicious intrusion attempts and legitimate user frustration compared to binary pass/fail gateways, measurable as a decrease in both attack surface probing and support tickets.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Folkloristic Motif Index Classification of Recurring Software Bugs",
+    "mechanism_source": "folklore",
+    "target_domain": "software quality assurance",
+    "mechanism": "The Aarne-Thompson-Uther motif index classifies recurring narrative elements across world folklore into a systematic taxonomy, revealing that superficially different stories across cultures share deep structural motifs",
+    "application": "Software bugs across different codebases, languages, and eras share deep structural motifs that a folkloristic classification system could capture. A race condition in a 1990s C program and a React state management bug share the motif 'two agents contest a single resource without arbitration' — the surface language differs but the structural tale is identical. Building an ATU-style index of bug motifs would enable cross-language, cross-era pattern recognition that current bug databases organized by surface symptoms cannot achieve.",
+    "prediction": "A motif-indexed bug taxonomy applied across 100+ open-source projects in different languages will reveal that fewer than 50 deep structural motifs account for over 80% of all bugs, and that knowing which motifs a codebase is susceptible to will predict future bug categories with precision above 65%.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Neuroscience Hebbian Plasticity Model of Culinary Flavor Pairing",
+    "mechanism_source": "neuroscience",
+    "target_domain": "gastronomy",
+    "mechanism": "Hebbian learning — 'neurons that fire together wire together' — strengthens synaptic connections between co-activated neurons, creating associative pathways that make future co-activation easier and more likely",
+    "application": "Flavor pairing traditions develop through Hebbian cultural learning. Ingredients that appear together in ancestral diets strengthen their gustatory association, making the combination taste 'right' to that culture through repeated co-activation of taste receptor pathways across generations. This explains why flavor pairing algorithms based on shared volatile compounds often produce technically compatible but subjectively wrong combinations — they ignore the Hebbian wiring of cultural taste memory. Successful novel pairings must either leverage existing Hebbian pathways or be repeated enough to forge new ones.",
+    "prediction": "Novel flavor pairings that share at least one ingredient with an established pairing in the target culture's cuisine will achieve consumer acceptance 2-3x faster than pairings with no Hebbian bridge ingredient, even when both pairs score equally on volatile compound compatibility analysis.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  }
+]
