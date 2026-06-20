@@ -13003,5 +13003,545 @@
       "feedback",
       "dynamics"
     ]
+  },
+  {
+    "id": "hammer-rebound-energy-transfer",
+    "name": "Hammer Rebound Energy Transfer",
+    "domain": "blacksmithing",
+    "unit": "hammer strike impulse",
+    "variation": "angle of incidence, hammer mass, velocity, and face geometry vary energy delivered per blow",
+    "selection": "strikes that maximize plastic deformation while minimizing elastic rebound are retained in technique",
+    "fitness": "ratio of energy absorbed by workpiece to total kinetic energy of strike",
+    "boundary": "material yield strength, anvil mass ratio, fatigue limits of the smith's body",
+    "tags": [
+      "feedback",
+      "optimization",
+      "threshold",
+      "dynamics",
+      "coupling",
+      "constraint"
+    ]
+  },
+  {
+    "id": "scale-formation-oxidation-window",
+    "name": "Scale Formation Oxidation Window",
+    "domain": "blacksmithing",
+    "unit": "iron oxide layer on heated stock",
+    "variation": "furnace atmosphere, dwell time, and temperature produce different oxide species (FeO, Fe2O3, Fe3O4)",
+    "selection": "only thin FeO layers permit successful forge welds; thick or mixed scales prevent bonding",
+    "fitness": "weld integrity measured by grain continuity across the joint",
+    "boundary": "oxygen partial pressure, temperature above ~1100 C required, flux chemistry",
+    "tags": [
+      "gradient",
+      "threshold",
+      "boundary",
+      "decay",
+      "competition",
+      "selection"
+    ]
+  },
+  {
+    "id": "normalizing-grain-reset",
+    "name": "Normalizing Grain Reset",
+    "domain": "blacksmithing",
+    "unit": "austenite grain nucleation site",
+    "variation": "heating rate, peak temperature, and hold time produce different grain sizes upon recrystallization",
+    "selection": "fine-grained structures outperform coarse in toughness testing; smiths iterate heat cycles to converge on optimal grain",
+    "fitness": "uniform fine grain with balanced hardness and ductility",
+    "boundary": "carbon content, critical temperature range (Ac1-Ac3), prior deformation history",
+    "tags": [
+      "self-organization",
+      "equilibrium",
+      "feedback-loop",
+      "phase-transition",
+      "accumulation",
+      "optimization"
+    ]
+  },
+  {
+    "id": "taper-drawing-cross-section-flow",
+    "name": "Taper Drawing Cross-Section Flow",
+    "domain": "blacksmithing",
+    "unit": "metal cross-section at each hammer station",
+    "variation": "blow placement, rotation angle, and reduction per pass redistribute material along the bar",
+    "selection": "sequences that produce even tapers without cold shuts or fish-mouthing are preserved in practice",
+    "fitness": "geometric accuracy of final taper relative to design intent",
+    "boundary": "minimum workable temperature, recrystallization limits, stock starting dimensions",
+    "tags": [
+      "flow",
+      "gradient",
+      "constraint",
+      "feedback",
+      "encoding",
+      "optimization"
+    ]
+  },
+  {
+    "id": "spark-shower-carbon-identification",
+    "name": "Spark Shower Carbon Identification",
+    "domain": "blacksmithing",
+    "unit": "spark burst pattern on grinding wheel",
+    "variation": "carbon content, alloying elements, and grain structure produce distinct spark color, length, and branching",
+    "selection": "experienced smiths match observed spark patterns to known steel grades for heat treatment decisions",
+    "fitness": "correct steel identification leading to appropriate quench and temper protocol",
+    "boundary": "ambient lighting, wheel speed, alloy complexity beyond simple carbon steels",
+    "tags": [
+      "signal",
+      "encoding",
+      "information",
+      "threshold",
+      "agents",
+      "feedback"
+    ]
+  },
+  {
+    "id": "wire-catenary-tension-balance",
+    "name": "Wire Catenary Tension Balance",
+    "domain": "tightrope walking / funambulism",
+    "unit": "differential tension along the wire catenary curve",
+    "variation": "walker position, wire sag, and anchor stiffness shift the tension profile continuously",
+    "selection": "configurations where horizontal tension dominates vertical sag keep the wire walkable",
+    "fitness": "ratio of horizontal restoring force to vertical displacement at the walker's position",
+    "boundary": "wire breaking strength, anchor compliance, span length relative to wire diameter",
+    "tags": [
+      "equilibrium",
+      "gradient",
+      "dynamics",
+      "constraint",
+      "coupling",
+      "feedback"
+    ]
+  },
+  {
+    "id": "balance-pole-moment-of-inertia",
+    "name": "Balance Pole Moment of Inertia Regulation",
+    "domain": "tightrope walking / funambulism",
+    "unit": "angular momentum vector of walker-plus-pole system",
+    "variation": "pole length, end-weight distribution, and tilt angle create different rotational inertia profiles",
+    "selection": "pole configurations that slow the angular velocity of lateral tipping give the walker more correction time",
+    "fitness": "time available for corrective torque before center of mass exits the recovery envelope",
+    "boundary": "pole mass limit (fatigue), wind loading, wire lateral stiffness",
+    "tags": [
+      "oscillation",
+      "feedback-loop",
+      "tradeoff",
+      "dynamics",
+      "threshold",
+      "optimization"
+    ]
+  },
+  {
+    "id": "ankle-torque-microbalance",
+    "name": "Ankle Torque Microbalance Loop",
+    "domain": "tightrope walking / funambulism",
+    "unit": "corrective ankle torque impulse",
+    "variation": "proprioceptive delay, muscle response gain, and foot contact width generate continuous micro-corrections",
+    "selection": "torque responses proportional to tilt rate stabilize; over-corrections amplify oscillation",
+    "fitness": "maintenance of center of pressure within the wire contact patch",
+    "boundary": "proprioceptive latency (~80ms), wire diameter vs foot width, vestibular noise floor",
+    "tags": [
+      "feedback-loop",
+      "oscillation",
+      "control-theory",
+      "signal",
+      "noise",
+      "agents"
+    ]
+  },
+  {
+    "id": "lateral-sway-frequency-locking",
+    "name": "Lateral Sway Frequency Locking",
+    "domain": "tightrope walking / funambulism",
+    "unit": "coupled oscillation mode between walker body sway and wire lateral vibration",
+    "variation": "walking cadence, wire natural frequency, and damping ratio produce resonance or detuning",
+    "selection": "walkers who avoid matching wire resonant frequency maintain stability; resonance leads to amplified sway",
+    "fitness": "lateral displacement amplitude kept below recovery threshold",
+    "boundary": "wire span and tension set natural frequency; wind introduces forcing terms outside walker control",
+    "tags": [
+      "oscillation",
+      "coupling",
+      "resonance",
+      "threshold",
+      "adaptation",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "gaze-fixation-vestibular-override",
+    "name": "Gaze Fixation Vestibular Override",
+    "domain": "tightrope walking / funambulism",
+    "unit": "visual-vestibular conflict resolution event",
+    "variation": "focal distance, head angle, and ambient visual flow produce competing orientation signals",
+    "selection": "far-point fixation suppresses destabilizing optic flow; near-gaze amplifies perceived sway",
+    "fitness": "postural stability measured by center-of-mass path deviation",
+    "boundary": "fog, darkness, or absence of fixed reference points eliminate the visual anchor",
+    "tags": [
+      "signal",
+      "feedback",
+      "competition",
+      "agents",
+      "hierarchy",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "casein-micelle-acid-gel-transition",
+    "name": "Casein Micelle Acid-Gel Transition",
+    "domain": "cheesemaking",
+    "unit": "casein micelle cluster at isoelectric point",
+    "variation": "acidification rate, calcium equilibrium, and temperature shift micelle surface charge and aggregation kinetics",
+    "selection": "pH trajectories that reach isoelectric point slowly yield cohesive gels; rapid acid shock produces grainy curd",
+    "fitness": "gel firmness and moisture retention in the final curd matrix",
+    "boundary": "pH 4.6 isoelectric limit, protein concentration, competing whey protein interactions",
+    "tags": [
+      "phase-transition",
+      "gradient",
+      "threshold",
+      "self-organization",
+      "equilibrium",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "salt-moisture-diffusion-gradient",
+    "name": "Salt-Moisture Countercurrent Diffusion",
+    "domain": "cheesemaking",
+    "unit": "NaCl concentration gradient from rind to core",
+    "variation": "brine concentration, immersion time, cheese geometry, and temperature set up diffusion profiles",
+    "selection": "even salt distribution inhibits spoilage and controls proteolysis; steep gradients cause rind defects",
+    "fitness": "uniform salt-in-moisture ratio achieving target flavor and preservation",
+    "boundary": "cheese diameter limits diffusion time; fat content impedes ion transport",
+    "tags": [
+      "gradient",
+      "diffusion",
+      "boundary",
+      "equilibrium",
+      "tradeoff",
+      "flow"
+    ]
+  },
+  {
+    "id": "eye-formation-co2-nucleation",
+    "name": "Eye Formation CO2 Nucleation",
+    "domain": "cheesemaking",
+    "unit": "CO2 gas pocket nucleation site in cheese matrix",
+    "variation": "propionic acid bacteria density, curd elasticity, and pressing pressure determine nucleation site distribution",
+    "selection": "evenly spaced nucleation sites of similar size indicate proper fermentation; irregular eyes signal defects",
+    "fitness": "uniform eye size and distribution characteristic of the target style (e.g. Emmental)",
+    "boundary": "rind impermeability, aging temperature window (20-24 C), matrix elasticity sufficient to stretch without cracking",
+    "tags": [
+      "self-organization",
+      "emergence",
+      "threshold",
+      "feedback",
+      "constraint",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "proteolysis-flavor-cascade",
+    "name": "Proteolysis Flavor Cascade",
+    "domain": "cheesemaking",
+    "unit": "peptide fragment produced by sequential protease action",
+    "variation": "starter and secondary culture enzyme profiles cleave casein at different sites producing distinct peptide pools",
+    "selection": "bitter peptides are further degraded by aminopeptidases; savory peptides accumulate as flavor compounds",
+    "fitness": "balanced umami, sweet, and savory flavor without persistent bitterness",
+    "boundary": "excessive proteolysis yields ammonia off-flavors; insufficient aging leaves bland flavor",
+    "tags": [
+      "cascade",
+      "selection",
+      "competition",
+      "decay",
+      "accumulation",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "surface-mold-terroir-colonization",
+    "name": "Surface Mold Terroir Colonization",
+    "domain": "cheesemaking",
+    "unit": "fungal spore colonization event on cheese rind",
+    "variation": "cave microbiome, humidity, airflow, and rind pH select which mold species establish",
+    "selection": "desirable Penicillium strains outcompete spoilage molds when humidity and turning schedule are optimized",
+    "fitness": "stable rind ecosystem producing target flavor compounds and protective barrier",
+    "boundary": "contamination by pathogenic species, humidity outside 85-95% range, temperature drift beyond cave norms",
+    "tags": [
+      "competition",
+      "self-organization",
+      "agents",
+      "boundary",
+      "adaptation",
+      "emergence"
+    ]
+  },
+  {
+    "id": "warp-tension-shed-geometry",
+    "name": "Warp Tension and Shed Geometry",
+    "domain": "tapestry weaving",
+    "unit": "individual warp thread under tension",
+    "variation": "tension differences across the warp width arise from beam curvature, thread elasticity, and humidity",
+    "selection": "uniform tension produces clean sheds for weft passage; uneven tension causes skipped threads and distortion",
+    "fitness": "consistent shed opening angle and uniform selvedge-to-selvedge beat",
+    "boundary": "warp thread breaking strength, loom frame rigidity, humidity-induced fiber swelling",
+    "tags": [
+      "equilibrium",
+      "gradient",
+      "constraint",
+      "feedback",
+      "coupling",
+      "threshold"
+    ]
+  },
+  {
+    "id": "cartoon-to-weft-color-encoding",
+    "name": "Cartoon-to-Weft Color Encoding",
+    "domain": "tapestry weaving",
+    "unit": "color change point where adjacent weft bobbins meet",
+    "variation": "hatching technique, color blending method (slit, dovetail, interlocking), and bobbin count encode the cartoon design",
+    "selection": "techniques that reproduce color gradients without structural weakness at joins are favored",
+    "fitness": "visual fidelity to the cartoon design while maintaining fabric integrity at color boundaries",
+    "boundary": "warp density limits spatial resolution; available dye palette constrains color gamut",
+    "tags": [
+      "encoding",
+      "compression",
+      "tradeoff",
+      "boundary",
+      "information",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "weft-packing-density-control",
+    "name": "Weft Packing Density Control",
+    "domain": "tapestry weaving",
+    "unit": "weft pick as beaten into the fell line",
+    "variation": "beating force, weft yarn diameter, and angle of insertion produce different cover densities",
+    "selection": "density that fully covers warp threads while maintaining fabric flexibility is selected through practice",
+    "fitness": "complete warp coverage with consistent surface texture and no warp visibility",
+    "boundary": "excessive beating distorts the warp spacing; insufficient beating leaves warp exposed",
+    "tags": [
+      "optimization",
+      "feedback",
+      "constraint",
+      "threshold",
+      "accumulation",
+      "gradient"
+    ]
+  },
+  {
+    "id": "slit-tapestry-structural-compromise",
+    "name": "Slit Tapestry Structural Compromise",
+    "domain": "tapestry weaving",
+    "unit": "vertical slit formed at color boundary between adjacent weft areas",
+    "variation": "slit length, frequency, and orientation create different structural weaknesses and visual effects",
+    "selection": "short slits below critical length preserve structural integrity; long vertical slits require later stitching",
+    "fitness": "maximum design fidelity with minimum structural intervention (stitching, interlocking)",
+    "boundary": "slit length exceeding ~2 cm risks tearing under gravity load; diagonal boundaries avoid slits entirely",
+    "tags": [
+      "tradeoff",
+      "boundary",
+      "threshold",
+      "constraint",
+      "topology",
+      "coupling"
+    ]
+  },
+  {
+    "id": "dimensional-stability-humidity-response",
+    "name": "Dimensional Stability Under Humidity Cycling",
+    "domain": "tapestry weaving",
+    "unit": "fiber-moisture equilibrium state across the woven matrix",
+    "variation": "wool, silk, and linen weft fibers swell and contract at different rates under humidity changes",
+    "selection": "fiber combinations with matched hygroscopic expansion survive centuries without distortion",
+    "fitness": "dimensional stability measured by warp-weft angle deviation over environmental cycles",
+    "boundary": "extreme humidity excursions, mixed-fiber tapestries with mismatched expansion coefficients",
+    "tags": [
+      "equilibrium",
+      "coupling",
+      "dynamics",
+      "decay",
+      "long-horizon",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "fresnel-lens-stepped-refraction",
+    "name": "Fresnel Lens Stepped Refraction",
+    "domain": "lighthouse engineering",
+    "unit": "concentric prismatic ring of the Fresnel lens assembly",
+    "variation": "ring count, prism angle, and glass quality determine the fraction of lamp output captured and collimated",
+    "selection": "designs maximizing candlepower per unit lens weight and cost replaced earlier parabolic reflectors",
+    "fitness": "luminous intensity at the horizon (candelas) per watt of lamp power",
+    "boundary": "glass impurity absorption, maximum practical lens diameter (~2.6m for first-order), thermal stress cracking",
+    "tags": [
+      "optimization",
+      "encoding",
+      "gradient",
+      "hierarchy",
+      "tradeoff",
+      "threshold"
+    ]
+  },
+  {
+    "id": "flash-character-pattern-encoding",
+    "name": "Flash Character Pattern Encoding",
+    "domain": "lighthouse engineering",
+    "unit": "light-dark interval in the characteristic flash pattern",
+    "variation": "rotation speed, number of lens panels, and eclipsing screen geometry produce unique flash signatures",
+    "selection": "patterns must be distinguishable from neighboring lights and from stars; international registry prevents duplication",
+    "fitness": "unambiguous identification by mariners at maximum range under varying visibility",
+    "boundary": "human flicker-fusion threshold (~60ms), atmospheric scintillation, competing light pollution",
+    "tags": [
+      "encoding",
+      "signal",
+      "information",
+      "competition",
+      "constraint",
+      "agents"
+    ]
+  },
+  {
+    "id": "tidal-foundation-scour-resistance",
+    "name": "Tidal Foundation Scour Resistance",
+    "domain": "lighthouse engineering",
+    "unit": "stone or caisson course exposed to tidal and wave action",
+    "variation": "foundation geometry, dovetail interlocking, and base diameter affect scour patterns and wave loading",
+    "selection": "curved-profile bases that deflect wave energy upward survive; vertical walls concentrate impact force",
+    "fitness": "structural survival across centuries of storm loading without foundation undermining",
+    "boundary": "maximum wave height exceeding design load, seabed geology too soft for gravity foundations",
+    "tags": [
+      "boundary",
+      "long-horizon",
+      "optimization",
+      "dynamics",
+      "constraint",
+      "flow"
+    ]
+  },
+  {
+    "id": "fog-signal-atmospheric-propagation",
+    "name": "Fog Signal Atmospheric Propagation",
+    "domain": "lighthouse engineering",
+    "unit": "acoustic wavefront from fog horn or siren",
+    "variation": "temperature inversions, humidity gradients, and wind shear create refraction zones and shadow regions",
+    "selection": "low-frequency signals (<300 Hz) penetrate fog better; high frequencies attenuate rapidly",
+    "fitness": "audible range and directional reliability under fog conditions",
+    "boundary": "acoustic shadow zones where refraction bends sound upward; background noise from surf and wind",
+    "tags": [
+      "signal",
+      "gradient",
+      "boundary",
+      "flow",
+      "noise",
+      "threshold"
+    ]
+  },
+  {
+    "id": "lantern-room-ventilation-thermal-stack",
+    "name": "Lantern Room Ventilation Thermal Stack",
+    "domain": "lighthouse engineering",
+    "unit": "convective airflow cell within the lantern room enclosure",
+    "variation": "lamp heat output, vent sizing, and external wind pressure create different airflow patterns",
+    "selection": "ventilation designs that remove combustion products without introducing salt spray or moisture preserve lens clarity",
+    "fitness": "stable lamp combustion and lens clarity maintained over full watch duration",
+    "boundary": "storm conditions sealing all vents, transition from oil to electric eliminating combustion heat",
+    "tags": [
+      "flow",
+      "equilibrium",
+      "tradeoff",
+      "feedback",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "chawan-thermal-mass-temperature-curve",
+    "name": "Chawan Thermal Mass Temperature Curve",
+    "domain": "tea ceremony",
+    "unit": "heat flux between tea liquid and chawan wall",
+    "variation": "clay body thickness, porosity, and glaze conductivity produce different cooling rate profiles",
+    "selection": "vessels matched to tea type: thick raku for winter (heat retention), thin porcelain for summer (rapid cooling)",
+    "fitness": "tea temperature remaining in the optimal drinking range throughout the service sequence",
+    "boundary": "ambient temperature extremes, thermal shock limits of the clay body",
+    "tags": [
+      "gradient",
+      "tradeoff",
+      "adaptation",
+      "coupling",
+      "dynamics",
+      "flow"
+    ]
+  },
+  {
+    "id": "mizuya-preparation-sequence-timing",
+    "name": "Mizuya Preparation Sequence Timing",
+    "domain": "tea ceremony",
+    "unit": "preparation step interval in the mizuya (preparation room)",
+    "variation": "charcoal readiness, water temperature lag, and guest arrival timing create scheduling constraints",
+    "selection": "sequences where hot water reaches target temperature exactly as guests complete garden path entry are favored",
+    "fitness": "seamless temporal coordination between backstage preparation and guest-facing ceremony",
+    "boundary": "charcoal quality variation, unexpected guest delays, seasonal daylight constraints",
+    "tags": [
+      "optimization",
+      "constraint",
+      "feedback-loop",
+      "agents",
+      "long-horizon",
+      "threshold"
+    ]
+  },
+  {
+    "id": "kama-water-temperature-stratification",
+    "name": "Kama Water Temperature Stratification",
+    "domain": "tea ceremony",
+    "unit": "thermal layer within the iron kettle (kama)",
+    "variation": "charcoal placement, water volume, and lid position create vertical temperature gradients",
+    "selection": "drawing water from the correct depth yields the target temperature without stirring or waiting",
+    "fitness": "water temperature precision for each tea type (70 C gyokuro, 80 C sencha, 100 C matcha)",
+    "boundary": "kettle geometry limits stratification depth; vigorous boiling destroys the gradient",
+    "tags": [
+      "gradient",
+      "equilibrium",
+      "signal",
+      "hierarchy",
+      "flow",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "seasonal-scroll-thematic-resonance",
+    "name": "Seasonal Scroll Thematic Resonance",
+    "domain": "tea ceremony",
+    "unit": "hanging scroll (kakejiku) selection event for a given gathering",
+    "variation": "season, occasion, guest relationships, and prior gatherings constrain the thematic space for scroll choice",
+    "selection": "scrolls that create layered meaning connecting season, calligraphy content, and guest context are preferred",
+    "fitness": "depth of thematic resonance perceived by guests, measured by conversational engagement",
+    "boundary": "host's scroll collection size, guests' literacy in classical references, repetition across gatherings",
+    "tags": [
+      "encoding",
+      "information",
+      "agents",
+      "adaptation",
+      "constraint",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "rottemae-tempo-silence-ratio",
+    "name": "Rottemae Tempo-Silence Ratio",
+    "domain": "tea ceremony",
+    "unit": "interval of deliberate silence (ma) between procedural movements",
+    "variation": "host temperament, ceremony style (wabi vs formal), and guest count modulate the pace of pauses",
+    "selection": "silence durations that allow guests to absorb each action without creating restlessness are reinforced through training",
+    "fitness": "collective meditative state (ichigo ichie) achieved by the gathering",
+    "boundary": "guest attention span, ceremony total time budget, seasonal time-of-day light constraints",
+    "tags": [
+      "oscillation",
+      "agents",
+      "feedback",
+      "signal",
+      "adaptation",
+      "aesthetics"
+    ]
   }
 ]
