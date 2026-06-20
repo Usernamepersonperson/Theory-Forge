@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Luthier Wood Aging Theory of Organizational Culture Maturation",
+    "mechanism_source": "luthiery",
+    "target_domain": "organizational culture",
+    "mechanism": "Tonewoods aging — violin wood must be air-dried for 5-10+ years before use; the slow evaporation of sap and crystallization of lignin transforms acoustically dead wood into resonant material; kiln-drying produces superficially similar but acoustically inferior results",
+    "application": "Organizational cultures must be 'air-dried' through slow natural processes rather than 'kiln-dried' through accelerated culture programs. Companies that try to force-install culture through intensive onboarding and values workshops produce superficially similar but structurally inferior results to cultures that develop slowly through accumulated shared experience. The lignin crystallization equivalent is the slow formation of tacit knowledge and unwritten norms that make a culture genuinely resonant.",
+    "prediction": "Organizations whose culture was developed over 7+ years of organic growth will show higher employee alignment scores on implicit (IAT-style) measures than organizations that achieved similar explicit-survey culture scores through intensive 2-year culture transformation programs.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Fermentation Wild Yeast Capture for Emergent Strategy Formation",
+    "mechanism_source": "fermentation",
+    "target_domain": "strategic management",
+    "mechanism": "Spontaneous fermentation — Belgian lambic beers are fermented by wild yeasts captured from ambient air through open coolship exposure; the brewer controls conditions (temperature, timing, vessel) but not which specific organisms colonize the wort",
+    "application": "Emergent strategy formation is spontaneous fermentation. Leaders who practice 'coolship strategy' — creating optimal conditions (organizational temperature, exposure timing, cultural vessel) and then exposing the organization to ambient market forces — capture strategies they could never have designed. The brewer's discipline is knowing when to close the coolship (stop accepting new inputs) and when to let fermentation proceed without interference. Over-managed strategy is pasteurized beer: consistent but characterless.",
+    "prediction": "Companies that alternate between structured strategic planning periods and deliberate 'coolship' periods of unstructured market exposure will develop more innovative strategies than companies using either continuous planning or continuous emergence alone.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Cartographic Contour Line Intervals for Emotional Granularity Assessment",
+    "mechanism_source": "cartography",
+    "target_domain": "affective science",
+    "mechanism": "Contour interval selection — cartographers choose the vertical distance between contour lines based on terrain steepness; gentle terrain needs smaller intervals for useful representation, while steep terrain needs larger intervals to avoid illegible crowding",
+    "application": "Emotional granularity (the ability to make fine-grained distinctions between emotional states) is a contour interval problem. People with high emotional granularity use small contour intervals — they distinguish between irritated, frustrated, angry, and furious. People with low granularity use large intervals — everything is either 'fine' or 'bad.' The cartographic insight is that optimal contour interval depends on terrain steepness: in emotionally volatile situations, larger intervals may actually be more adaptive than fine distinctions.",
+    "prediction": "Individuals with high emotional granularity (small contour intervals) will outperform low-granularity individuals in stable environments but show no advantage or even disadvantage in highly volatile emotional environments, where coarser emotional mapping is faster and sufficient.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Forensic Toolmark Analysis for Identifying Ghostwriters",
+    "mechanism_source": "forensics",
+    "target_domain": "literary attribution",
+    "mechanism": "Toolmark analysis — every tool (gun barrel, screwdriver, knife) leaves unique microscopic marks on surfaces it contacts, created by manufacturing defects and wear patterns unique to that individual tool; marks can be matched to the specific tool that made them",
+    "application": "Every writer leaves 'toolmarks' in their prose — microscopic stylistic patterns created by their unique cognitive manufacturing process and worn into habitual grooves through practice. Ghostwritten texts can be identified not by content analysis but by toolmark comparison: matching the characteristic micro-patterns of sentence construction, clause ordering, and punctuation rhythm to a known writer's 'barrel striations.' These marks persist even when a writer deliberately tries to imitate another's style.",
+    "prediction": "A stylometric system modeled on forensic toolmark analysis (comparing micro-patterns of syntax rather than word frequency) will achieve higher ghostwriter identification accuracy than current stylometric approaches, particularly when the ghostwriter has deliberately attempted to match the attributed author's style.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Aeronautical Boundary Layer Theory for Classroom Attention Management",
+    "mechanism_source": "aeronautics",
+    "target_domain": "pedagogy",
+    "mechanism": "Boundary layer — the thin layer of air adjacent to an aircraft surface where flow velocity transitions from zero (at the surface) to free-stream velocity; the boundary layer can be laminar (smooth, low drag) or turbulent (chaotic, higher drag but more resistant to separation)",
+    "application": "Student attention in a classroom has a boundary layer. The 'surface' is the educational content, and the 'free stream' is students' natural attention flow. Near the content surface, attention velocity drops to near-zero (deep engagement). A laminar attention boundary layer (quiet, focused classroom) has low 'drag' on the instructor but is prone to sudden separation (mass distraction). A slightly turbulent boundary layer (controlled interactivity, permitted low-level movement) has higher drag but resists the catastrophic separation that kills engagement entirely.",
+    "prediction": "Classrooms that maintain controlled low-level interactivity (turbulent boundary layer) will experience fewer complete attention-loss events per hour than classrooms enforcing strict silence (laminar boundary layer), even though moment-to-moment focus metrics will be slightly lower.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Rhetorical Enthymeme for Recommender System Transparency",
+    "mechanism_source": "rhetoric",
+    "target_domain": "recommender systems",
+    "mechanism": "Enthymeme — a rhetorical syllogism with one premise left unstated, relying on the audience to supply the missing premise from shared knowledge; the audience's active participation in completing the argument makes it more persuasive than explicit deduction",
+    "application": "Recommender systems should present recommendations as enthymemes rather than complete explanations. Instead of 'You might like X because you watched Y and Z' (complete syllogism), the system should present 'You might like X because you watched Y' (enthymeme), letting the user supply the implicit connection to Z. Users who complete the reasoning themselves will find the recommendation more persuasive and satisfying, because they've actively participated in constructing the rationale.",
+    "prediction": "Recommender system explanations that omit one premise (enthymematic) will produce higher user satisfaction and click-through rates than explanations that make all reasoning explicit, because user participation in completing the logic increases perceived relevance.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Dance Laban Movement Analysis for Robot Gait Design",
+    "mechanism_source": "dance",
+    "target_domain": "robotics",
+    "mechanism": "Laban Movement Analysis — a system for describing human movement across four dimensions: Body (what moves), Effort (how it moves — weight, time, space, flow), Shape (what form the body takes), and Space (where it moves)",
+    "application": "Robot gait design focuses almost exclusively on Body and Space while ignoring Effort and Shape. Laban analysis reveals that human acceptance of robot movement depends heavily on Effort qualities — a robot that moves with appropriate weight (heavy vs. light), time (sudden vs. sustained), and flow (bound vs. free) will be perceived as more natural and trustworthy than a robot with biomechanically perfect but effort-flat locomotion. Robots need choreography, not just kinematics.",
+    "prediction": "Humanoid robots whose gaits are tuned for Laban Effort qualities (matching weight and flow to context) will be rated as significantly more natural and approachable by human observers than robots optimized solely for biomechanical efficiency, in controlled perception studies.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Winemaking Malolactic Fermentation for Post-Conflict Reconciliation",
+    "mechanism_source": "winemaking",
+    "target_domain": "peace studies",
+    "mechanism": "Malolactic fermentation — a secondary fermentation where sharp malic acid is converted to softer lactic acid by bacteria, occurring after primary alcoholic fermentation is complete; it softens wine without reducing alcohol content, transforming harshness into complexity",
+    "application": "Post-conflict societies need malolactic fermentation — a secondary process that converts the sharp acid of recent trauma into the softer complexity of historical memory. This occurs after the primary 'fermentation' of conflict resolution (peace agreements, tribunals). Truth and reconciliation commissions function as malolactic bacteria: they don't remove the alcohol of historical reality but convert its sharpest acids into forms a society can digest. Rushing this process produces the equivalent of spoiled wine.",
+    "prediction": "Post-conflict societies that implement truth and reconciliation processes 3-7 years after peace agreements (allowing primary fermentation to complete) will show better long-term social cohesion metrics than societies that implement them immediately or delay beyond 15 years.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Primatological Fission-Fusion Dynamics for Remote Work Organization",
+    "mechanism_source": "primatology",
+    "target_domain": "remote work design",
+    "mechanism": "Fission-fusion sociality — species like chimpanzees and spider monkeys live in communities that dynamically split into smaller foraging parties and merge into larger social groups based on resource distribution and social needs, with party size adjusting continuously",
+    "application": "Remote organizations should adopt primate fission-fusion dynamics rather than fixed team structures. Like chimpanzee communities, remote workers should fluidly split into small task-focused parties when resources (problems) are distributed and merge into larger groups when social bonding or collective decision-making is needed. The key insight is that optimal group size is not fixed but continuously adjusts to the 'resource distribution' of current work, and that the community persists even when all members are in separate fission parties.",
+    "prediction": "Remote teams organized with fission-fusion flexibility (dynamically resizing sub-groups based on task demands) will report both higher productivity and higher social satisfaction than teams with fixed sub-team assignments, measured over a six-month period.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Semiotics of Indexical Signs for Predictive Maintenance",
+    "mechanism_source": "semiotics",
+    "target_domain": "industrial maintenance",
+    "mechanism": "Indexical signs — signs that have a causal or physical connection to their referent (smoke is an index of fire, a weathervane is an index of wind direction); unlike symbols, indexical signs cannot lie because they are physically caused by what they signify",
+    "application": "Predictive maintenance systems should be redesigned around Peircean indexicality. Current sensor systems measure arbitrary parameters designated by engineers (symbolic signs). A semiotic redesign would prioritize indexical signs — measurements that have direct causal connections to failure modes. Vibration is an index of bearing wear (causally connected), while temperature may be merely a symbol of it (correlated but not caused). Systems built on indexical signs are more robust because indices cannot produce false positives in the way symbols can.",
+    "prediction": "Predictive maintenance systems that prioritize causally-connected (indexical) sensor data over correlated (symbolic) sensor data will produce fewer false positive failure predictions while maintaining equivalent true positive detection rates.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Ceramic Glaze Chemistry for Personality Integration Therapy",
+    "mechanism_source": "ceramics",
+    "target_domain": "psychotherapy",
+    "mechanism": "Glaze chemistry — ceramic glazes are composed of flux (which melts), silica (which forms glass), and alumina (which prevents the glaze from running); the ratio of these three determines whether the result is matte, glossy, crystalline, or crawling, and interactions between layers create unpredictable but beautiful effects",
+    "application": "Personality integration can be modeled as glaze chemistry. Emotional openness is flux (creates flow and vulnerability), cognitive structure is silica (creates transparency and rigidity), and behavioral habits are alumina (prevents psychological 'running' but can create opacity). Therapeutic intervention adjusts these ratios: too much flux produces emotional flooding, too much silica creates brittle transparency, too much alumina produces matte impenetrability. The goal is a stable, glossy glaze — visible depth with structural integrity.",
+    "prediction": "A therapeutic framework that explicitly balances emotional openness, cognitive restructuring, and behavioral stabilization (glaze-chemistry ratios) will produce more stable personality integration outcomes than therapies that focus on a single dimension, as measured by 12-month follow-up assessments.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Astronomical Lagrange Point Stability for Multi-Party Political Coalitions",
+    "mechanism_source": "astronomy",
+    "target_domain": "coalition politics",
+    "mechanism": "Lagrange points — the five positions in a two-body gravitational system where a small third body can maintain a stable position; L4 and L5 are stable (objects naturally return after perturbation), while L1, L2, L3 are unstable (objects drift away after any perturbation)",
+    "application": "In a political system dominated by two major parties (two gravitational bodies), smaller parties can only survive at Lagrange-point-equivalent positions. L4/L5 positions (60 degrees ahead/behind a major party's ideological trajectory) are stable — minor parties there naturally return to position after electoral perturbation. L1/L2/L3 positions (directly between or opposite the major parties) are unstable — any perturbation causes the minor party to be captured by one of the major parties. This explains why centrist third parties fail while ideologically offset ones persist.",
+    "prediction": "In two-party-dominant democracies, minor parties positioned ideologically 'between' the two majors (L1 position) will lose vote share over consecutive elections, while minor parties positioned on ideological flanks offset from one major party (L4/L5 positions) will maintain stable vote shares.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Calligraphic Negative Space Theory of Architectural Silence",
+    "mechanism_source": "calligraphy",
+    "target_domain": "architecture",
+    "mechanism": "Counter-forms — in calligraphy, the white space inside and between letters (counters) is as deliberately shaped as the black strokes; master calligraphers design the negative space, and the positive forms follow",
+    "application": "Architecture should be designed counter-form-first, like calligraphy. Instead of designing buildings (positive forms) and accepting whatever spaces result between them, architects should design the negative spaces — the voids, passages, plazas, and gaps — and let building forms be determined by what's needed to create those voids. The calligraphic insight is that the quality of the counters determines the quality of the whole composition, and that designing positive forms first always produces awkward negative space.",
+    "prediction": "Urban developments designed negative-space-first (void and passage design preceding building design) will receive higher pedestrian satisfaction ratings and show higher foot traffic than developments of equivalent density designed building-first.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Knot Theory Unknotting Number for Measuring Institutional Reform Difficulty",
+    "mechanism_source": "knot theory",
+    "target_domain": "institutional reform",
+    "mechanism": "Unknotting number — the minimum number of crossing changes needed to transform a knot into an unknot (simple loop); this measures how 'tangled' a knot is, distinct from its crossing number, and gives a lower bound on the work needed to untangle it",
+    "application": "Institutional reform difficulty can be quantified as an unknotting number. Each regulatory or procedural 'crossing' (where two rules or processes conflict or depend on each other) that must be changed to simplify the institution counts toward its unknotting number. An institution's crossing number (total complexity) may be high, but if its unknotting number is low (only a few key crossings need changing), reform is feasible. Reformers should identify and target the minimal crossing changes, not attempt to redraw the entire knot.",
+    "prediction": "Institutional reforms that identify and target the minimum-crossing-change set (analogous to unknotting number) will succeed at higher rates than reforms that attempt comprehensive restructuring, even when the comprehensive reforms have greater political support.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Mushroom Fairy Ring Expansion for Urban Sprawl Modeling",
+    "mechanism_source": "mycology",
+    "target_domain": "urban planning",
+    "mechanism": "Fairy ring growth — fungi grow outward in expanding circles as the mycelium exhausts nutrients in the center and advances the fruiting zone to the periphery; the ring expands at a predictable rate and the interior becomes nutrient-depleted",
+    "application": "Urban sprawl follows fairy ring dynamics. Development radiates outward from city centers as the central 'nutrients' (affordable land, undeveloped parcels, construction opportunities) are exhausted. The active development zone is always at the periphery, while the center becomes 'nutrient-depleted' (built out, expensive, stagnant). Urban renewal is the equivalent of a new nutrient input at the center that restarts a secondary fairy ring within the depleted interior.",
+    "prediction": "Cities whose development ring expansion rate matches fairy ring growth equations (proportional to peripheral land availability divided by construction cost) will show more predictable sprawl patterns than cities whose growth is modeled as simple diffusion, improving 20-year land-use predictions.",
+    "viability": "promising",
+    "confidence": 0.64
+  }
+]

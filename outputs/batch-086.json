@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Watchmaking Tourbillon Compensation for Cognitive Bias Correction",
+    "mechanism_source": "watchmaking",
+    "target_domain": "cognitive psychology",
+    "mechanism": "Tourbillon — a rotating cage that continuously changes the position of the escapement relative to gravity, averaging out positional errors; the mechanism doesn't eliminate gravity's effect but ensures no single position is favored long enough to accumulate error",
+    "application": "Cognitive debiasing should work like a tourbillon: rather than trying to eliminate biases (impossible, like eliminating gravity), continuously rotate the decision-maker's perspective so no single bias is favored long enough to accumulate error. A 'cognitive tourbillon' would cycle through multiple framing perspectives on each decision at a fixed rotation rate, ensuring that anchoring, framing, and availability biases each influence the decision for equal and limited durations.",
+    "prediction": "Decision-making protocols that rotate through multiple framing perspectives at fixed intervals (tourbillon debiasing) will produce more accurate judgments than protocols that attempt to identify and correct specific biases, as measured by calibration accuracy on forecasting tasks.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Luthier Sound Post Positioning for Team Pivot Point Optimization",
+    "mechanism_source": "luthiery",
+    "target_domain": "team dynamics",
+    "mechanism": "Sound post (âme / soul) — a small wooden dowel wedged between the top and back plates of a violin; its position (adjustable by millimeters) dramatically affects tone, volume, and response; it transfers vibration between plates and is literally called the instrument's 'soul'",
+    "application": "Every high-performing team has a sound post — a single individual whose position in the communication network transfers 'vibrations' (information, energy, culture) between the team's top plate (leadership) and back plate (individual contributors). Moving this person by small amounts (role adjustments, seating changes, meeting assignments) dramatically alters team tone and responsiveness. The sound post is never the loudest person or the formal leader — it's the quiet connector whose removal causes the team to sound 'dead.'",
+    "prediction": "Teams where the highest-betweenness-centrality individual (sound post) is deliberately positioned to maximize information transfer between leadership and individual contributors will outperform teams where that individual is positioned based on formal role hierarchy, on both innovation output and satisfaction metrics.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Forensic Decomposition Timeline for Project Post-Mortem Analysis",
+    "mechanism_source": "forensics",
+    "target_domain": "project management",
+    "mechanism": "Forensic decomposition staging — bodies decompose in predictable stages (fresh, bloat, active decay, advanced decay, dry/skeletal), with each stage's duration affected by temperature, moisture, and insect access; entomological evidence establishes time-of-death independently of witness testimony",
+    "application": "Failed projects decompose in predictable stages: fresh failure (denial, blame assignment), bloat (inflated narratives about what went wrong), active decay (documentation deterioration, team dispersal), advanced decay (institutional memory loss), and dry/skeletal (only the bare framework of lessons remains). Project post-mortems conducted at different decomposition stages yield systematically different findings. The forensic insight is that entomological evidence (who arrived first to feed on the failure) reveals the true cause of death more reliably than witness testimony.",
+    "prediction": "Post-mortem analyses that examine the sequence and timing of early responders to a project failure (who raised concerns first, what was the first metric to degrade) will identify root causes more accurately than conventional post-mortems that rely on participant retrospective accounts.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Ethnomusicological Heterophony for Distributed System Eventual Consistency",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "distributed systems",
+    "mechanism": "Heterophony — a musical texture where multiple performers simultaneously play variations of the same melody, each slightly different in ornamentation and timing; common in Middle Eastern, Southeast Asian, and folk traditions; the 'same' melody exists in multiple simultaneous versions without a single authoritative rendition",
+    "application": "Distributed system eventual consistency is heterophony, not unison. Each node plays its own variation of the 'same' data melody, slightly different in timing and ornamentation (local writes). The system sounds coherent not because all versions are identical but because they're recognizably the same melody. The ethnomusicological insight is that heterophony is aesthetically superior to forced unison — it creates a richer, more resilient texture. Strong consistency (forced unison) kills the qualities that make distributed systems valuable.",
+    "prediction": "Distributed databases designed with explicit 'heterophonic tolerance' (accepting version variations within defined melodic bounds rather than enforcing immediate convergence) will show higher availability under partition conditions while maintaining user-perceived consistency.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Aeronautical Dutch Roll Damping for Emotional Regulation Training",
+    "mechanism_source": "aeronautics",
+    "target_domain": "emotional regulation",
+    "mechanism": "Dutch roll — an oscillatory instability in swept-wing aircraft where the nose yaws side-to-side while the wings roll in the opposite direction; poorly damped, it amplifies until the pilot loses control; damped by yaw dampers that apply small corrective inputs before oscillation amplifies",
+    "application": "Emotional dysregulation exhibits Dutch roll dynamics — mood oscillates in one direction while behavior rolls in the opposite direction (feeling anxious while acting aggressively, feeling sad while performing manic activity). Without damping, these oscillations amplify until the individual loses emotional control. Emotional regulation training should install 'yaw dampers' — automatic micro-corrections applied at the first sign of oscillation onset, before the coupled yaw-roll cycle amplifies. The key is early, small corrections, not large interventions after the oscillation is established.",
+    "prediction": "Emotional regulation interventions that train individuals to detect and correct mood-behavior oscillation coupling at onset (micro-correction approach) will be more effective at preventing emotional crises than interventions that teach coping strategies for fully developed dysregulation.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Ceramic Kiln Atmosphere Control for Classroom Climate Management",
+    "mechanism_source": "ceramics",
+    "target_domain": "educational psychology",
+    "mechanism": "Kiln atmosphere — ceramics outcomes depend critically on whether the kiln atmosphere is oxidizing (excess oxygen, predictable results, bright colors) or reducing (oxygen-starved, unpredictable, deeper colors from metallic effects); potters switch between atmospheres at specific temperatures",
+    "application": "Classroom climate has kiln atmospheres. An 'oxidizing' classroom (abundant resources, clear expectations, excess support) produces predictable, bright student outcomes. A 'reducing' classroom (constrained resources, productive struggle, limited hand-holding) produces unpredictable but deeper learning outcomes through cognitive metallic effects — students who find their own oxygen produce understanding that has a different quality entirely. Master teachers switch atmospheres at specific developmental temperatures.",
+    "prediction": "Students who experience deliberately alternating classroom atmospheres (structured support periods followed by productive struggle periods) will show deeper conceptual understanding on transfer tasks than students in consistently supportive or consistently challenging environments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Semiotics of Floating Signifiers for Understanding Meme Evolution",
+    "mechanism_source": "semiotics",
+    "target_domain": "internet culture studies",
+    "mechanism": "Floating signifier — a sign whose meaning is not fixed but depends entirely on context and the interpretive community; it can be filled with different signifieds by different groups, making it maximally adaptable but semantically unstable",
+    "application": "Successful internet memes are floating signifiers. The Pepe frog, the 'This is fine' dog, and 'galaxy brain' progressions succeed precisely because they have no fixed meaning — different communities fill them with different signifieds. Memes that are semantically fixed (specific text-based jokes) have limited adaptability and shorter lifespans. The semiotic insight is that a meme's longevity is inversely proportional to its semantic specificity — the emptier the signifier, the more communities can fill it.",
+    "prediction": "Internet memes with higher semantic emptiness (more diverse usage contexts in the first month) will have longer active lifespans than memes with more fixed meanings, measurable by tracking usage diversity scores against meme longevity in social media datasets.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Cartographic Map Projection Distortion for Cross-Cultural Communication",
+    "mechanism_source": "cartography",
+    "target_domain": "intercultural communication",
+    "mechanism": "Map projection trade-offs — no flat map can preserve all properties of a sphere simultaneously; every projection distorts at least one of: area, shape, distance, or direction; the choice of projection reveals the mapmaker's priorities",
+    "application": "Every act of cross-cultural communication is a map projection. Translating one culture's concepts onto another's flat surface inevitably distorts some property — you can preserve the 'area' of a concept (its importance) or its 'shape' (its internal structure) or its 'distance' relationships (how it relates to neighboring concepts), but never all simultaneously. Effective cross-cultural communicators explicitly choose which properties to preserve and acknowledge what's distorted, just as responsible cartographers label their projection type.",
+    "prediction": "Cross-cultural training programs that teach projection-awareness (explicit identification of which cultural properties are being preserved vs. distorted in translation) will produce better intercultural competence scores than programs teaching 'accurate' cultural knowledge, because they equip learners to handle novel distortions.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Mycological Decomposition Cascades for Legacy System Decommissioning",
+    "mechanism_source": "mycology",
+    "target_domain": "IT governance",
+    "mechanism": "Fungal decomposition succession — different fungi colonize dead wood in a specific sequence; primary decomposers (soft rot) break down simple sugars first, followed by secondary decomposers (brown rot taking cellulose) and tertiary decomposers (white rot taking lignin); each stage makes the substrate accessible to the next",
+    "application": "Legacy system decommissioning should follow fungal decomposition succession rather than attempting instant removal. Primary decomposers (data migration tools) consume the simple, accessible data first. Secondary decomposers (API translation layers) break down the business logic connections. Tertiary decomposers (archival systems) handle the hardest structural elements last. Attempting to skip stages — going straight to full decommissioning — is like trying to use white rot fungi on fresh wood; the substrate isn't ready.",
+    "prediction": "Legacy system decommissioning projects that follow a staged succession model (data first, logic second, infrastructure last) will complete with fewer production incidents than projects that attempt parallel or big-bang decommissioning approaches.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Astronomical Stellar Nucleosynthesis for Institutional Knowledge Creation",
+    "mechanism_source": "astronomy",
+    "target_domain": "knowledge management",
+    "mechanism": "Stellar nucleosynthesis — heavier elements are forged inside stars through successive fusion cycles, with each generation of stars producing heavier elements that become raw material for the next generation; the heaviest elements require supernova explosions to form",
+    "application": "Institutional knowledge follows stellar nucleosynthesis. First-generation employees fuse 'hydrogen' (raw observations) into 'helium' (basic procedures). Second-generation employees fuse this into heavier elements (complex institutional knowledge, tacit understanding). The heaviest knowledge elements (deep strategic wisdom, institutional culture) require the organizational equivalent of supernova explosions — crises, mergers, or dramatic failures that generate the extreme conditions needed to forge these elements. This knowledge then seeds the next generation of organizational 'stars.'",
+    "prediction": "Organizations that have survived at least one existential crisis (supernova event) will possess qualitatively different institutional knowledge (heavier elements) than organizations of equivalent age that have not, detectable through analysis of strategic decision-making quality in novel situations.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Falconry Weight Management for Motivational Incentive Design",
+    "mechanism_source": "falconry",
+    "target_domain": "behavioral economics",
+    "mechanism": "Flying weight — falconers maintain their bird at a precise weight (measured in grams) where it is motivated to hunt but not so hungry it becomes desperate or aggressive; this weight varies daily based on weather, activity, and condition, requiring constant monitoring and adjustment",
+    "application": "Incentive design should maintain employees at 'flying weight' — motivated enough to perform but not so resource-deprived they become desperate or aggressive. The falconry insight is that optimal motivation weight is not fixed but varies daily based on environmental conditions (market stress, personal circumstances), requiring constant monitoring and micro-adjustment. Standardized incentive structures are the equivalent of feeding every hawk the same amount regardless of individual condition — some will be too heavy to fly, others too light to survive.",
+    "prediction": "Incentive systems that dynamically adjust reward levels based on individual employee condition metrics (workload, stress indicators, recent performance trajectory) will produce higher sustained performance than fixed incentive structures, even when total compensation is equivalent.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Rhetorical Kairos for Deployment Window Optimization",
+    "mechanism_source": "rhetoric",
+    "target_domain": "DevOps",
+    "mechanism": "Kairos — the rhetorical concept of the opportune moment for action, distinct from chronos (sequential time); kairos is qualitative time — the right moment to speak, which depends on audience receptivity, contextual alignment, and situational readiness rather than clock position",
+    "application": "Software deployment windows should be determined by kairos rather than chronos. Current practice schedules deployments by clock time (Tuesdays at 2 PM). Kairotic deployment would assess qualitative readiness: system stability metrics, team alertness, user activity patterns, and the alignment of monitoring coverage. The 'right moment' to deploy is when conditions converge for receptivity, not when the calendar says so. Friday 4 PM might be kairotic if the system is stable and the team is fresh, while Tuesday 2 PM might be anti-kairotic if a dependent system is degraded.",
+    "prediction": "Deployment strategies that trigger releases based on system-readiness convergence metrics (kairotic timing) will produce fewer post-deployment incidents than deployments scheduled at fixed calendar times, even when the fixed times were historically optimized.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Dance Flocking Behavior for Autonomous Drone Swarm Coordination",
+    "mechanism_source": "dance",
+    "target_domain": "drone engineering",
+    "mechanism": "Murmuration choreography — starling flocks (and dancers trained in flocking) coordinate through three simple local rules: separation (maintain minimum distance), alignment (match neighbors' heading), and cohesion (steer toward average position of neighbors), producing complex emergent group behavior without central choreography",
+    "application": "Autonomous drone swarms already use Reynolds flocking rules, but dance-trained flocking adds a critical fourth dimension: intentionality. Human dancers in contact-improvisation flocking don't just follow separation/alignment/cohesion — they develop collective intentionality toward spatial destinations and temporal rhythms without verbal communication. Training drone swarm algorithms on motion-captured human dance-flocking data could transfer this emergent intentionality, producing swarms that navigate toward objectives more fluidly than pure Reynolds-rule swarms.",
+    "prediction": "Drone swarm algorithms trained on motion-capture data from professional dance-flocking performances will navigate complex obstacle environments more efficiently than swarms using standard Reynolds flocking rules with identical separation/alignment/cohesion parameters.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Perfumery Headspace Capture for Documenting Dying Programming Languages",
+    "mechanism_source": "perfumery",
+    "target_domain": "programming language preservation",
+    "mechanism": "Headspace capture — a technique where a glass bell is placed over a living flower and the volatile molecules emitted are captured on an absorbent medium, allowing the scent of a flower to be recorded and reproduced even after the flower dies",
+    "application": "Dying programming languages should be preserved through 'headspace capture' — recording not just the language specification (pressing a dried flower) but the volatile, living aspects: how expert practitioners actually use it, the 'scent' of idiomatic code, the tacit knowledge of experienced developers, the feel of the REPL. Current language preservation captures the dried specimen (syntax, documentation) but loses the headspace (community practices, aesthetic sensibility, problem-solving culture) that made the language a living thing.",
+    "prediction": "Programming language preservation efforts that capture practitioner interviews, screen recordings of expert coding sessions, and community discussion archives (headspace) will enable new learners to write more idiomatic code in the preserved language than efforts that preserve only specifications and documentation.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Philosophical Ship of Theseus for Database Migration Validation",
+    "mechanism_source": "philosophy",
+    "target_domain": "data migration",
+    "mechanism": "Ship of Theseus — if every plank of a ship is gradually replaced, is it the same ship? And if the old planks are reassembled, which is the real Ship of Theseus? The paradox probes identity persistence through component replacement",
+    "application": "Database migrations face a literal Ship of Theseus problem. As records are migrated one-by-one from old to new system, at what point does the new system become 'the database'? If both systems run in parallel, which is authoritative? The philosophical insight is that identity doesn't reside in components (individual records) but in continuity of function and relational structure. Migration validation should verify that the relational structure (the ship's form) is preserved, not just that every plank (record) is accounted for.",
+    "prediction": "Database migration validation strategies that verify relational integrity and functional equivalence (form preservation) will catch migration errors at higher rates than strategies that verify only record-level completeness (plank counting).",
+    "viability": "promising",
+    "confidence": 0.74
+  }
+]

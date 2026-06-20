@@ -1,0 +1,87 @@
+{
+  "name": "Cryptographic Trophic Cascade",
+  "rank": 46,
+  "confidence": 0.79,
+  "executive_summary": "The Cryptographic Trophic Cascade theory applies the ecological concept of trophic cascades -- where the removal of a top predator triggers population explosions and crashes across all lower trophic levels -- to layered cryptographic ecosystems. In ecology, wolves keep elk populations in check, which keeps willow trees from being overgrazed, which stabilizes riverbanks. Remove the wolves, and the entire cascade collapses through indirect effects that far exceed what you would predict from the direct predator-prey interaction alone. In cryptography, a widely-used hardness assumption (like the difficulty of factoring large primes) functions as the apex predator: it keeps entire classes of attack vectors suppressed. If that assumption falls, the suppressed attack vectors explode across every protocol and system that depends on it.\n\nThe cascade propagates through the dependency web. RSA's security depends on the factoring assumption; TLS depends on RSA (among other primitives); web commerce depends on TLS; digital identity depends on certificate authorities that use TLS; and so on down through layers of abstraction. A breakthrough in integer factoring does not merely break RSA -- it releases suppressed attack vectors at every layer of the stack, producing a cascade of vulnerabilities whose total impact dwarfs the direct cryptographic break. The magnitude of the cascade is governed by the topology of the dependency web: monoculture cryptographic stacks (where many protocols depend on a single hardness assumption) experience devastating cascades, while diverse stacks (where different protocols rely on independent assumptions) exhibit damped, localized effects.\n\nThis ecological framing has direct practical implications for cryptographic infrastructure planning. The ongoing transition to post-quantum cryptography is essentially a trophic cascade preparedness exercise: the anticipated removal of the integer-factoring and discrete-log 'apex predators' by quantum computing threatens to release cascade effects across the entire digital infrastructure. The theory recommends diversity of hardness assumptions as the primary defense -- the cryptographic equivalent of maintaining multiple predator species so that the loss of one does not collapse the entire food web.",
+  "mapped_components": {
+    "unit": "A single cryptographic primitive or hardness assumption occupying a position in the dependency trophic structure -- analogous to a species at a specific trophic level",
+    "variation": "Different cryptographic systems rely on different combinations of primitives and assumptions, creating diverse dependency topologies ranging from monoculture (all depending on one assumption) to polyculture (independent assumptions at each layer)",
+    "selection": "The compromise of a primitive at any level releases suppressed attack vectors that 'consume' the security of dependent systems, propagating downward through the dependency web -- analogous to mesopredator release after apex predator removal",
+    "fitness": "The resilience of the overall cryptographic ecosystem, measured by the maximum cascade depth and width triggered by the compromise of any single assumption",
+    "boundary": "Applies to layered systems where security depends on cascading assumptions; does not apply to information-theoretically secure systems (one-time pads) or to systems where each layer's security is independently guaranteed"
+  },
+  "falsifiable_predictions": [
+    "When a widely-used cryptographic hash function is practically broken (as with MD5, SHA-1), the number of discovered vulnerabilities across dependent systems in the following 24 months will exceed the number predicted by simple direct-impact analysis, showing cascade amplification.",
+    "Cryptographic ecosystems with lower dependency diversity (more protocols relying on the same assumption) will show higher total vulnerability counts per assumption compromise than ecosystems with higher diversity.",
+    "The migration cost of replacing a compromised cryptographic primitive will scale super-linearly with the number of dependency layers, because cascade effects at lower layers create additional migration requirements not visible from the top layer.",
+    "Post-quantum cryptography transitions that replace all classical primitives with a single new assumption will create a new monoculture vulnerability, producing a measurable concentration risk that actuaries and risk modelers can quantify.",
+    "Historical analysis of the MD5 and SHA-1 deprecation cascades will show that vulnerability discovery followed the dependency topology: systems with more dependency layers experienced longer and more severe vulnerability windows."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "The practical collision attack on MD5 (2004) triggered a cascade of downstream vulnerabilities including forged SSL certificates, compromised software update mechanisms, and weakened digital signatures across systems that had embedded MD5 deep in their dependency stacks",
+      "source": "Cryptographic security research",
+      "relevance": "Provides a real-world example of a cryptographic trophic cascade: the break at the hash function level propagated through multiple dependency layers to produce vulnerabilities in systems that did not directly use MD5 but depended on components that did"
+    },
+    {
+      "finding": "The Yellowstone wolf reintroduction produced measurable cascade effects across four trophic levels, including changes in elk behavior, willow recovery, beaver population increases, and riverbank stabilization -- demonstrating that single-species changes propagate through entire ecosystems",
+      "source": "Conservation ecology",
+      "relevance": "Validates the source-domain mechanism: trophic cascades produce impacts far exceeding direct predator-prey effects, grounding the expectation that cryptographic assumption compromises will similarly amplify through dependency layers"
+    },
+    {
+      "finding": "NIST's post-quantum cryptography standardization process explicitly considers algorithm diversity as a criterion, selecting multiple algorithms based on different hardness assumptions to prevent monoculture dependency",
+      "source": "NIST PQC standardization / cryptographic policy",
+      "relevance": "Demonstrates that the cryptographic community has independently arrived at the trophic cascade insight: diversity of assumptions is a defense against cascade failure, mirroring ecological diversity as a defense against trophic cascades"
+    },
+    {
+      "finding": "The Heartbleed vulnerability in OpenSSL (2014) affected an estimated 17% of all secure web servers because of the monoculture dependency on a single TLS implementation, demonstrating how implementation-level concentration amplifies the impact of a single flaw",
+      "source": "Internet security incident analysis",
+      "relevance": "Shows that monoculture in cryptographic implementation (not just assumption) amplifies cascade effects, consistent with the theory's prediction that dependency topology determines cascade severity"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Dependency Topology Mapping of Cryptographic Ecosystems",
+      "description": "Map the complete dependency graph from hardness assumptions through primitives, protocols, libraries, and applications for three major cryptographic ecosystems (web PKI, cryptocurrency, secure messaging). Compute trophic level assignments and dependency concentration metrics for each. Simulate the cascade effects of compromising each assumption independently and measure predicted vulnerability counts. Compare monoculture vs. diverse ecosystems to quantify the diversity advantage."
+    },
+    {
+      "title": "Historical Cascade Analysis of MD5 and SHA-1 Deprecation",
+      "description": "Collect all CVEs and security advisories related to MD5 and SHA-1 compromises from initial attack publication through complete deprecation. Map each vulnerability to its dependency-chain depth (direct use of the hash vs. indirect dependency through libraries or protocols). Measure whether vulnerability discovery rates correlate with dependency depth, testing the cascade amplification prediction."
+    },
+    {
+      "title": "Simulated Quantum Cryptographic Trophic Cascade",
+      "description": "Build a dependency model of the current global cryptographic infrastructure, identifying all systems that transitively depend on factoring or discrete-log hardness. Simulate the instantaneous compromise of these assumptions and compute the predicted cascade: number of affected systems, dependency depth of the deepest affected system, and estimated migration timeline. Compare the cascade severity for the current monoculture infrastructure vs. a hypothetical diversified infrastructure with independent post-quantum assumptions at each layer."
+    },
+    {
+      "title": "Monoculture vs. Polyculture Cryptographic Stack Resilience Test",
+      "description": "Deploy two test cryptographic infrastructures for a controlled network: one using a single assumption family for all layers (monoculture) and one using independent assumptions at each layer (polyculture). Introduce a simulated break at the top-level assumption and measure the time, cost, and vulnerability window for recovery in each infrastructure. Test the prediction that the polyculture stack contains the cascade to the directly affected layer while the monoculture stack propagates it throughout."
+    }
+  ],
+  "limitations": [
+    "Ecological trophic cascades involve populations with reproductive dynamics and behavioral responses, while cryptographic dependencies are static logical relationships -- the cascade metaphor loses the dynamic, adaptive aspects of real ecosystems.",
+    "Cryptographic 'predator removal' (assumption compromise) is typically not instantaneous -- practical attacks improve gradually, giving defenders time to migrate, unlike the sudden predator removal that produces the most dramatic ecological cascades.",
+    "The theory focuses on assumption-level compromises but many real cryptographic failures are implementation bugs (Heartbleed, goto fail) rather than fundamental assumption breaks, and these propagate through different pathways.",
+    "Cryptographic primitives can be replaced (algorithm agility), while apex predators cannot be easily substituted -- the defense of 'maintaining cryptographic diversity' has no direct ecological parallel because you cannot engineer a replacement wolf.",
+    "The trophic cascade model assumes relatively stable food webs, but the cryptographic landscape changes rapidly with new protocols and deprecations, making static dependency analysis a snapshot rather than a stable structural feature."
+  ],
+  "potential_applications": [
+    "Cryptographic risk assessment frameworks that use dependency topology analysis to identify single-points-of-failure assumptions whose compromise would trigger the widest cascades, prioritizing these for migration planning.",
+    "Post-quantum migration planning tools that model cascade effects under different transition strategies, enabling organizations to optimize their migration order to minimize the window of cascade vulnerability.",
+    "Cryptographic diversity standards that require organizations to maintain independent hardness assumptions across critical layers of their security infrastructure, enforced through compliance frameworks analogous to ecosystem biodiversity requirements.",
+    "Insurance and actuarial models for cyber risk that incorporate cascade amplification factors based on an organization's cryptographic dependency topology, producing more accurate risk pricing than models that assume independent failure probabilities."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Edaphic Trophic Cascade",
+      "relationship": "Direct domain-parallel applications of trophic cascade theory: edaphic cascades describe how predator removal propagates through soil food webs to reshape physical soil structure, while cryptographic cascades describe how assumption compromise propagates through dependency webs to reshape system security. Both demonstrate that cascade effects are structurally determined by the topology of the dependency network."
+    },
+    {
+      "framework": "Wafer Lock Tolerance Theory of Software Vulnerability",
+      "relationship": "Complementary security analysis frameworks: wafer lock tolerance analyzes individual security mechanism vulnerability (micro-level), while cryptographic trophic cascade analyzes how individual breaks propagate through systemic dependencies (macro-level). Complete security analysis requires both perspectives."
+    },
+    {
+      "framework": "Symbiotic Resilience Theory",
+      "relationship": "Both address system recovery after a critical component is removed: symbiotic resilience describes how ecosystems recover by recruiting new mutualistic components, while cryptographic cascade theory describes how cryptographic ecosystems must replace compromised assumptions. Both emphasize that the recovery window and pathway determine long-term system integrity."
+    }
+  ]
+}

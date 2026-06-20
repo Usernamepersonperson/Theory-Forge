@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Luthier Tap-Tone Tuning for Structural Health Monitoring",
+    "mechanism_source": "luthiery",
+    "target_domain": "civil engineering",
+    "mechanism": "Tap-tone testing — luthiers tap violin plates with a knuckle and listen to the resonant frequency to assess wood thickness, stiffness, and structural integrity; the ideal tap tone indicates optimal graduation",
+    "application": "Bridge and building structural health monitoring could adopt luthier tap-tone methodology. Rather than relying solely on visual inspection or embedded sensors, structures could be assessed by analyzing their resonant response to controlled impulse inputs. Just as a luthier can detect a hidden crack or over-thinned area by a change in tap tone, structural engineers could detect internal degradation by shifts in a building's resonant signature.",
+    "prediction": "Structures monitored with regular impulse-response frequency analysis will have internal defects detected an average of 18 months earlier than structures monitored with conventional visual inspection and periodic sensor readings.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Semiotic Code-Switching for Cryptographic Protocol Design",
+    "mechanism_source": "semiotics",
+    "target_domain": "cryptography",
+    "mechanism": "Code-switching — speakers alternate between semiotic systems (languages, registers, sign systems) within a single discourse, using the switch itself as a meaning-carrying signal",
+    "application": "Cryptographic protocols could use semiotic code-switching as a security layer. Rather than encrypting within a single cipher system, messages would alternate between encryption schemes within a single communication, with the pattern of switching itself carrying authentication information. An eavesdropper who cracks one cipher still cannot read the message without understanding the switching grammar.",
+    "prediction": "A cryptographic protocol that alternates between three encryption schemes using a code-switching grammar will resist known-plaintext attacks more effectively than any single scheme used alone, even when total computational cost is held constant.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Calligraphic Stroke Order Discipline for Surgical Training",
+    "mechanism_source": "calligraphy",
+    "target_domain": "surgical education",
+    "mechanism": "Stroke order rules — East Asian calligraphy enforces strict stroke order (top-to-bottom, left-to-right, outside-before-inside) that produces consistent, balanced characters; violating stroke order produces visually similar but structurally inferior results",
+    "application": "Surgical procedures should be taught with calligraphic stroke-order rigidity. Just as calligraphy students must master exact stroke sequences before developing personal style, surgical trainees should learn operations as invariant procedural sequences. The calligraphic insight is that identical final appearances can mask fundamentally different underlying executions — a character written in wrong stroke order looks similar but has different ink dynamics and structural integrity.",
+    "prediction": "Surgeons trained with strict procedural stroke-order protocols (fixed sequence with no allowed reordering) will have lower complication rates in their first 100 independent procedures than surgeons trained with flexible procedural approaches, even when both groups achieve equivalent speed.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Cartographic Generalization for Legal Precedent Synthesis",
+    "mechanism_source": "cartography",
+    "target_domain": "jurisprudence",
+    "mechanism": "Cartographic generalization — the process of simplifying map detail as scale decreases, using operators like selection, simplification, displacement, and exaggeration to maintain readability while reducing information density",
+    "application": "Legal precedent synthesis is a cartographic generalization problem. Lower courts produce high-resolution 'maps' of legal terrain (detailed fact-specific rulings). Appellate courts generalize these into medium-scale maps (broader principles). Supreme courts produce the most generalized maps (constitutional principles). The cartographic insight is that generalization requires active distortion — some features must be exaggerated, others displaced — and that no single scale captures all truths about the terrain.",
+    "prediction": "Supreme Court opinions that employ more explicit generalization operators (acknowledged simplification of lower court reasoning) will produce more stable precedent than opinions that attempt to preserve detail from lower court rulings, as measured by subsequent reversal or narrowing rates.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Forensic Blood Spatter Analysis for Software Bug Triage",
+    "mechanism_source": "forensics",
+    "target_domain": "software quality assurance",
+    "mechanism": "Blood spatter pattern analysis — the shape, size, distribution, and directionality of blood spatters at a crime scene reconstruct the event sequence, weapon type, relative positions, and number of blows",
+    "application": "Software crash reports and error logs are blood spatter patterns. The distribution of error types across modules, the 'directionality' of stack traces, and the 'impact velocity' (crash severity) can reconstruct the causal event sequence just as blood spatter reconstructs a crime. A cluster of null-pointer exceptions radiating outward from one module is the software equivalent of medium-velocity spatter from a single impact point.",
+    "prediction": "Bug triage teams trained in spatter-pattern analytical frameworks (clustering, directionality, velocity classification) applied to error log distributions will identify root causes in fewer investigation hours than teams using conventional log analysis.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Ethnomusicological Field Recording Ethics for User Research",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "UX research",
+    "mechanism": "Ethnomusicological field ethics — the discipline's hard-won principles about observer effect, informed consent in power-asymmetric relationships, the distortion created by recording technology, and the ethical obligation to return findings to the studied community",
+    "application": "UX research has largely ignored ethnomusicology's century of mistakes about field research ethics. The same observer effects that distort musical performance in a recording context distort user behavior in a usability lab. Ethnomusicology's discovery that the recording device changes the performance maps directly to the finding that screen-recording software changes user behavior. The ethical obligation to return findings to the community maps to sharing research results with study participants.",
+    "prediction": "UX studies that adopt ethnomusicological field protocols (extended unrecorded familiarization periods, participant co-analysis sessions, findings returned to participants) will capture 30% more 'natural' usage patterns than conventional recorded usability studies.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Winemaking Terroir Theory of Regional Innovation Clusters",
+    "mechanism_source": "winemaking",
+    "target_domain": "economic geography",
+    "mechanism": "Terroir — the complete natural environment in which a wine is produced, including soil, climate, topography, and neighboring flora; identical grape varieties produce fundamentally different wines in different terroirs, and terroir cannot be replicated or transplanted",
+    "application": "Innovation clusters have terroir. Silicon Valley's innovation character is not reducible to its components (universities, capital, talent) any more than Burgundy's wine is reducible to pinot noir grapes. The specific combination of cultural soil, economic climate, institutional topography, and neighboring industries creates an irreplicable terroir. Government attempts to create 'the next Silicon Valley' fail for the same reason you cannot create 'the next Burgundy' by planting pinot noir in Arizona.",
+    "prediction": "Government-funded innovation cluster initiatives that attempt to replicate the component list of successful clusters will fail to achieve comparable innovation output within 15 years, while organically emergent clusters built on pre-existing local terroir will succeed at higher rates.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Primatological Grooming Hierarchy for Open Source Maintainer Burnout",
+    "mechanism_source": "primatology",
+    "target_domain": "open source governance",
+    "mechanism": "Grooming reciprocity asymmetry — in primate troops, high-ranking individuals receive grooming from many lower-ranking individuals but reciprocate with fewer partners; this creates an asymmetric care burden where the highest-status individuals receive the most social maintenance",
+    "application": "Open source projects invert the primate grooming hierarchy: the highest-status individual (lead maintainer) provides grooming (code review, issue triage, mentoring) to the entire troop but receives almost no reciprocal maintenance. This inversion explains maintainer burnout — it's the equivalent of an alpha primate who grooms everyone but is never groomed back. Sustainable open source governance requires restoring primate-typical grooming reciprocity.",
+    "prediction": "Open source projects that implement formal 'maintainer care' programs (reciprocal code review of maintainer code, dedicated mentoring of maintainers by other maintainers) will show lower maintainer turnover rates than projects without such reciprocity structures.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Rhetorical Chiasmus Structure for Neural Network Architecture",
+    "mechanism_source": "rhetoric",
+    "target_domain": "deep learning",
+    "mechanism": "Chiasmus — the ABBA rhetorical structure where elements are repeated in reverse order, creating a mirror symmetry that reinforces meaning through structural echo (e.g., 'ask not what your country can do for you, but what you can do for your country')",
+    "application": "Neural network architectures could use chiasmic layer structures (ABBA) where the second half of the network mirrors the first half's layer types in reverse order, but with different weights. This is similar to but distinct from autoencoders — the chiasmic structure doesn't compress to a bottleneck but creates a structural echo that reinforces feature detection through symmetry. The 'meaning reinforcement' of rhetorical chiasmus maps to feature reinforcement through architectural repetition.",
+    "prediction": "Networks with chiasmic layer arrangements (ABBA pattern where A and B are different layer types) will show improved robustness to adversarial perturbations compared to sequential arrangements of the same layer types, due to the symmetric feature reinforcement.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Shipbuilding Watertight Compartmentalization for Microservice Architecture",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "cloud architecture",
+    "mechanism": "Watertight compartmentalization — ships are divided into independent watertight compartments so that a hull breach floods only the breached compartment; the ship remains buoyant as long as flooding doesn't exceed the reserved buoyancy distributed across intact compartments",
+    "application": "Microservice architectures should adopt naval compartmentalization standards rather than simple service isolation. Each service should have a defined 'flooding capacity' (maximum resource consumption before automatic bulkhead closure), and the overall system should maintain 'reserve buoyancy' (spare capacity distributed across healthy services). The naval insight is that compartment size matters — too few large compartments and a single breach sinks the ship; too many small compartments and the structural overhead of bulkheads weakens the hull.",
+    "prediction": "Microservice systems designed with explicit flooding-capacity limits and distributed reserve capacity will maintain availability during cascade failures 2x longer than systems with simple circuit-breaker patterns alone.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Dance Contact Improvisation for Agile Team Coordination",
+    "mechanism_source": "dance",
+    "target_domain": "project management",
+    "mechanism": "Contact improvisation — a dance form where partners maintain a shared point of physical contact and negotiate movement through weight-sharing, with no choreography and no leader; the dance emerges from the mutual sensing of each partner's momentum and intention",
+    "application": "Agile teams should train in contact improvisation principles rather than assigning Scrum roles. The shared point of contact (continuous communication about work state), weight-sharing (load distribution without a designated leader), and momentum sensing (reading team velocity through direct interaction rather than metrics) produce more adaptive coordination than choreographed ceremonies. The key insight is that contact improv works because both partners are simultaneously leading and following.",
+    "prediction": "Software teams that practice literal contact improvisation exercises as team-building will show higher scores on team adaptability metrics and faster response to requirement changes than teams doing conventional Agile training, measured over a six-month period.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Lexicographic Citation Dating for Codebase Archaeology",
+    "mechanism_source": "lexicography",
+    "target_domain": "software maintenance",
+    "mechanism": "Antedating and postdating — lexicographers trace a word's earliest and latest written attestations to establish its lifespan, using citation evidence to determine when a word entered and left active usage",
+    "application": "Legacy codebase maintenance should adopt lexicographic dating methods. Each function, variable name, and coding pattern can be 'antedated' to its first appearance and 'postdated' to its last active use. Patterns that have been 'postdated' (last used years ago but still present) are the code equivalent of archaic words — technically valid but signaling that the surrounding code is legacy. A codebase's 'dictionary age' reveals its true maintenance debt.",
+    "prediction": "Codebases where more than 40% of function signatures can be postdated (last call site added more than 3 years ago) will have bug rates 2x higher than codebases with more recent attestation profiles, independent of total code age.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Astronomical Redshift Measurement for Cultural Drift Detection",
+    "mechanism_source": "astronomy",
+    "target_domain": "cultural anthropology",
+    "mechanism": "Cosmological redshift — light from distant galaxies is shifted toward red wavelengths proportional to their distance, revealing both the object's velocity and the expansion of the space between observer and source",
+    "application": "Cultural practices observed in diaspora communities exhibit 'cultural redshift.' The further a community is in time and space from its origin culture, the more its practices shift toward a characteristic 'red' — conservative, ritualized, frozen forms that no longer exist in the origin culture. This redshift measures not just distance but the expansion of cultural space between communities. The origin culture continues to evolve while the diaspora 'light' was emitted at the moment of departure.",
+    "prediction": "Diaspora communities separated by more than two generations will preserve cultural practices abandoned by the origin culture at rates proportional to the temporal distance of separation, analogous to Hubble's law, with the most temporally distant diasporas being the most culturally 'redshifted.'",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Aeronautical Stall Recovery for Therapeutic Intervention in Depression",
+    "mechanism_source": "aeronautics",
+    "target_domain": "clinical psychology",
+    "mechanism": "Stall recovery — when an aircraft exceeds its critical angle of attack, airflow separates from the wing and lift collapses; recovery requires the counterintuitive action of pushing the nose DOWN (reducing angle of attack) to regain airflow before pulling back up",
+    "application": "Depression treatment often fails because therapists and patients attempt intuitive recovery — pulling the nose up (forcing positive thinking, insisting on activity, 'just be happy'). Aeronautical stall recovery teaches that restoring 'lift' requires first pushing the nose down — acknowledging and moving toward the depression rather than away from it. The counterintuitive descent restores the 'airflow' of emotional processing. Only after smooth flow is reestablished can the patient safely climb.",
+    "prediction": "Therapeutic approaches that begin with deliberate engagement with depressive content (controlled descent) before transitioning to activating interventions will show faster symptom reduction than approaches that immediately implement behavioral activation, testable via randomized controlled trial.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Ceramics Raku Firing Chaos for Creative Process Management",
+    "mechanism_source": "ceramics",
+    "target_domain": "innovation management",
+    "mechanism": "Raku firing — pieces are pulled from the kiln at peak temperature and subjected to rapid thermal shock through reduction in combustible materials; the outcome is intentionally unpredictable, with crackle patterns, metallic lusters, and carbon trapping determined by uncontrollable variables",
+    "application": "Innovation processes need raku moments — deliberate introductions of uncontrollable chaos at peak development intensity. Just as raku's beauty comes from surrendering control at the moment of maximum thermal energy, breakthrough innovations often emerge when teams deliberately surrender control at the moment of maximum creative intensity. The 'reduction chamber' (constrained chaos environment) is key: the chaos must be bounded but uncontrollable within those bounds.",
+    "prediction": "Product development teams that introduce a structured 'raku phase' (48-hour period of unconstrained experimentation with pre-set boundary conditions) at the peak of their development cycle will produce more novel features per cycle than teams following linear development processes.",
+    "viability": "speculative",
+    "confidence": 0.56
+  }
+]

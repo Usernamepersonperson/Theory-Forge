@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Perfume Drydown Dynamics for Economic Recession Analysis",
+    "mechanism_source": "perfumery",
+    "target_domain": "macroeconomics",
+    "mechanism": "Drydown — the phase after a perfume's top and heart notes evaporate, revealing the base notes that were always present but masked; the drydown character often differs dramatically from first impression and determines whether the wearer keeps the fragrance",
+    "application": "Economic booms have a drydown phase that reveals their true base-note character. The volatile top notes of a boom (stock prices, hiring rates, consumer confidence) evaporate first during contraction, followed by the heart notes (corporate investment, real estate). What remains — the drydown — reveals the structural base notes that were always present but masked: infrastructure quality, workforce skills, institutional resilience. Recessions are not separate events but the drydown of preceding booms.",
+    "prediction": "The severity of a recession can be predicted by analyzing the 'base note' structural indicators (infrastructure investment, education spending, institutional trust) during the preceding boom, with booms showing weak base notes producing harsher drydowns regardless of top-note peak height.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Mycological Spore Dispersal Strategy for Academic Paper Distribution",
+    "mechanism_source": "mycology",
+    "target_domain": "scientometrics",
+    "mechanism": "Spore dispersal strategies — fungi use diverse mechanisms including wind dispersal (puffballs), insect vectors (stinkhorns that attract flies with carrion scent), ballistic ejection (Pilobolus), and underground network distribution (truffle scent attracting mammals)",
+    "application": "Academic papers use analogous dispersal strategies. Preprint servers are puffball wind-dispersal (massive undirected release). Conference presentations are insect-vector strategies (attracting specific carrier-researchers with provocative titles). Direct email to colleagues is ballistic ejection (targeted, high-velocity, small audience). Informal citation networks are truffle strategies (underground distribution detected by those with the right 'scent receptors'). Optimizing paper impact requires matching dispersal strategy to paper type.",
+    "prediction": "Papers that use a multi-modal dispersal strategy matching fungal diversity (preprint + conference + targeted outreach + informal network seeding) will accumulate citations 40% faster in their first two years than papers using only one dispersal mode.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Knot Theory Crossing Number for Constitutional Complexity Measurement",
+    "mechanism_source": "knot theory",
+    "target_domain": "constitutional law",
+    "mechanism": "Crossing number — the minimum number of crossings in any diagram of a knot, representing the knot's irreducible complexity; knots with fewer crossings are simpler and more easily manipulated",
+    "application": "Constitutional documents can be measured for functional complexity using a crossing-number analogue. Each point where two constitutional provisions 'cross' (potentially conflict or require judicial interpretation to reconcile) represents a crossing. The minimum crossing number of a constitution — after all possible simplifications of language — measures its irreducible interpretive complexity. Constitutions with higher crossing numbers generate more judicial review and constitutional litigation.",
+    "prediction": "National constitutions with higher provision-crossing numbers (measured by the number of provision pairs requiring judicial reconciliation) will generate proportionally more constitutional court cases per capita, independent of constitution length.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Volcanic Pyroclastic Flow Dynamics for Pandemic Information Spread",
+    "mechanism_source": "volcanology",
+    "target_domain": "epidemiological communication",
+    "mechanism": "Pyroclastic flows — superheated gas-and-ash currents that travel at hundreds of km/h downhill, are denser than air, fill valleys, and are unsurvivable; they follow topography and accelerate through constrictions",
+    "application": "Pandemic misinformation spreads like pyroclastic flows rather than like the disease itself. Misinformation is superheated (emotionally charged), denser than normal information flow (it fills and displaces regular discourse), follows the topography of social networks (flowing into low-lying communities with less information infrastructure), and accelerates through constrictions (algorithmically narrowed feeds). Like pyroclastic flows, misinformation is unsurvivable for the information ecosystem it engulfs — facts cannot survive in the same channel.",
+    "prediction": "Communities with higher 'information elevation' (diverse media sources, media literacy programs, multiple communication channels) will resist misinformation penetration during health crises at rates predictable by topographic flow models, with misinformation 'pooling' in low-elevation information valleys.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Watchmaking Jewel Bearing Principle for Low-Friction Governance",
+    "mechanism_source": "watchmaking",
+    "target_domain": "public administration",
+    "mechanism": "Jewel bearings — synthetic ruby bearings at pivot points in watch movements reduce friction and wear at the points of highest mechanical stress; without them, steel-on-steel pivots wear rapidly and the movement loses accuracy",
+    "application": "Government bureaucracies suffer friction at pivot points — the interfaces between departments, levels of government, or public-private boundaries where requests change direction. Installing 'jewel bearings' (specialized liaison roles with extremely low administrative friction) at these pivot points could reduce the wear that creates bureaucratic sclerosis. The watchmaking insight is that you don't need to redesign the entire mechanism — you just need to reduce friction at the specific points where pivots occur.",
+    "prediction": "Government agencies that create specialized low-friction liaison positions at inter-departmental interfaces will process cross-departmental requests 35% faster than agencies that attempt to reduce friction through comprehensive process redesign.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Paleontological Punctuated Equilibrium for Programming Language Evolution",
+    "mechanism_source": "paleontology",
+    "target_domain": "programming language design",
+    "mechanism": "Punctuated equilibrium — species remain morphologically stable for long periods (stasis) interrupted by rapid bursts of speciation and change, rather than evolving gradually and continuously",
+    "application": "Programming languages evolve through punctuated equilibrium, not gradual improvement. Languages remain syntactically and semantically stable for years (stasis periods where only libraries change), then undergo rapid speciation events triggered by paradigm shifts (object-orientation, functional programming, async/await). The fossil record of deprecated features shows the same pattern as the biological fossil record — abrupt appearance of new forms with minimal transitional intermediates.",
+    "prediction": "An analysis of language specification changelogs will show that syntactic changes cluster in discrete bursts separated by periods of minimal change, with burst timing correlated across multiple languages (indicating shared environmental triggers), matching the temporal signature of punctuated equilibrium.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Heraldic Tincture Rules for Data Visualization Accessibility",
+    "mechanism_source": "heraldry",
+    "target_domain": "information design",
+    "mechanism": "Rule of tincture — in heraldry, metal (gold/silver) must not be placed on metal, and colour on colour; this ensures contrast and readability at battlefield distances regardless of exact shade reproduction",
+    "application": "Data visualization accessibility standards should adopt heraldic tincture rules rather than specific color palette recommendations. By classifying all data-visualization colors into two tincture categories (light-family and dark-family) and enforcing the rule that same-family colors must never be adjacent, visualizations become readable regardless of exact color rendering, display calibration, or color vision deficiency. The heraldic rule is robust because it optimizes for contrast category rather than specific color.",
+    "prediction": "Data visualizations designed with heraldic tincture rules (binary contrast-class enforcement) will be correctly interpreted by color-vision-deficient users at higher rates than visualizations designed with standard colorblind-safe palettes, because the tincture rule is more robust to individual variation.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Entomological Eusociality Division of Labor for Surgical Team Design",
+    "mechanism_source": "entomology",
+    "target_domain": "surgical team management",
+    "mechanism": "Eusocial division of labor — in ant and bee colonies, individuals permanently specialize into castes (queen, worker, soldier, nurse) with morphological adaptations for their role; caste is determined early and is generally irreversible",
+    "application": "Surgical teams currently rotate roles fluidly, but eusocial insect colonies suggest that permanent caste specialization within teams produces superior collective performance. A 'nurse caste' (dedicated prep and post-op specialists), 'soldier caste' (complication responders), and 'worker caste' (primary surgical performers) with fixed roles and extensive caste-specific training would outperform the current generalist-rotation model where everyone does everything competently but nothing superbly.",
+    "prediction": "Surgical teams that adopt fixed-role specialization (permanent scrub nurse, permanent first assist, permanent circulator) will show lower complication rates and shorter procedure times than teams with rotating role assignments, controlling for individual experience levels.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Oceanographic Thermohaline Circulation for Global Supply Chain Modeling",
+    "mechanism_source": "oceanography",
+    "target_domain": "supply chain logistics",
+    "mechanism": "Thermohaline circulation — the global 'conveyor belt' driven by temperature and salinity differences that moves water masses around the planet over centuries; disruption at one point (e.g., freshwater input in the North Atlantic) can halt circulation globally",
+    "application": "Global supply chains are thermohaline circulations driven by cost differentials (temperature) and regulatory density (salinity). Goods flow from low-cost/low-regulation zones to high-cost/high-regulation zones just as cold, dense water sinks and flows toward warmer regions. A sudden equalization of costs at one node (analogous to freshwater input) can halt the entire circulation. The thermohaline model predicts that supply chain disruptions propagate with a decades-long delay, not instantly.",
+    "prediction": "Major regulatory equalization events (e.g., carbon tariffs that equalize manufacturing costs between regions) will produce supply chain reorganization effects that manifest 5-15 years after implementation, not immediately, following thermohaline circulation timescales.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Circus Clown Entrée Structure for Conflict De-escalation",
+    "mechanism_source": "circus arts",
+    "target_domain": "conflict resolution",
+    "mechanism": "Clown entrée — the classic two-clown dynamic where the Auguste (chaotic, rule-breaking) and the Whiteface (authoritarian, rule-enforcing) create escalating conflict that resolves through the Auguste's apparent incompetence revealing the Whiteface's rigidity as the true absurdity",
+    "application": "Conflict de-escalation can use the clown entrée structure. In polarized disputes, both parties believe they are the reasonable Whiteface and the other is the Auguste. A skilled mediator introduces a third-party Auguste — someone who takes both positions to absurd extremes simultaneously, revealing the rigidity on both sides. The laughter of recognition (the audience's response to good clowning) is the physiological release that enables attitude shift.",
+    "prediction": "Mediation sessions that incorporate structured humor interventions modeled on Auguste/Whiteface dynamics (absurd exaggeration of both positions by a neutral party) will reach agreement faster than sessions using standard facilitative mediation techniques.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Bookbinding French Link Stitch for Federated Database Architecture",
+    "mechanism_source": "bookbinding",
+    "target_domain": "database architecture",
+    "mechanism": "French link stitch — a binding method where each signature is linked not only through the spine but also to the adjacent signature through a chain stitch that creates a decorative and structural lateral connection; the result is a book that opens more flexibly than kettle-stitched bindings",
+    "application": "Federated databases should use French link stitch topology rather than simple hub-and-spoke. Each database node is a signature, connected not only to the central spine (coordination layer) but also directly to adjacent nodes through lateral chain links. This creates a system that 'opens more flexibly' — queries can traverse laterally between related databases without routing through the central coordinator, reducing latency while maintaining the structural integrity provided by the spine.",
+    "prediction": "Federated database architectures with lateral peer-to-peer links between related nodes (French link topology) will show 25% lower average query latency for cross-database joins than hub-and-spoke federated architectures with equivalent total bandwidth.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Astronomical Gravitational Lensing for Detecting Hidden Market Influence",
+    "mechanism_source": "astronomy",
+    "target_domain": "financial market analysis",
+    "mechanism": "Gravitational lensing — massive invisible objects (dark matter) bend the light from background galaxies, revealing their presence and mass distribution through the distortion pattern even though they emit no light themselves",
+    "application": "Hidden market influencers (dark pools, shadow banking, undisclosed positions) can be detected through gravitational lensing of visible market data. Just as astronomers detect dark matter by observing how it bends background galaxy light, analysts could detect hidden market forces by observing systematic distortions in the 'light' of publicly visible trades. The distortion pattern reveals the mass and position of the hidden influence without requiring direct observation.",
+    "prediction": "A market analysis system that models price movements as 'lensed' signals and back-calculates the 'dark mass' causing distortions will detect undisclosed large positions 2-5 trading days before they become visible through regulatory filings.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Theology of Kenosis for Leadership Succession Planning",
+    "mechanism_source": "theology",
+    "target_domain": "executive leadership",
+    "mechanism": "Kenosis — the theological concept of divine self-emptying, where God voluntarily relinquishes omnipotence to become human (Philippians 2:7); the paradox that true power is demonstrated through its voluntary surrender",
+    "application": "Effective leadership succession requires kenosis — the outgoing leader must voluntarily empty themselves of power, knowledge-hoarding, and identity-attachment to the role. Leaders who attempt to transfer power while retaining influence create a dual-authority crisis analogous to theological heresies that denied Christ's full humanity. The kenotic insight is that succession is not delegation (sharing power) but self-emptying (surrendering it completely), and that the surrendering act itself is the most powerful leadership act.",
+    "prediction": "CEO successions where the outgoing CEO completely disengages from company operations within 90 days will produce better three-year post-succession company performance than successions with extended advisory periods, controlling for company size and industry.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Tribological Surface Roughness Optimization for Social Media Algorithm Tuning",
+    "mechanism_source": "tribology",
+    "target_domain": "social media design",
+    "mechanism": "Optimal surface roughness — perfectly smooth surfaces actually have higher friction than slightly rough surfaces, because molecular adhesion between flat surfaces exceeds the friction from small asperities; there exists an optimal roughness that minimizes total friction",
+    "application": "Social media feeds have an optimal 'roughness' for user engagement. Perfectly smooth feeds (only content the algorithm predicts users want) create molecular-adhesion-like stickiness that users experience as uncanny and eventually reject. Slightly rough feeds (occasional unexpected content) reduce overall friction because the small asperities of surprise break the adhesion of filter-bubble fatigue. There exists an optimal roughness — too much unexpected content increases friction, too little creates adhesive fatigue.",
+    "prediction": "Social media feeds that inject 10-15% algorithmically unexpected content will show higher long-term retention than feeds optimized for pure relevance (0% unexpected) or high-diversity feeds (>30% unexpected), following the tribological optimal-roughness curve.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Semaphore Flag Signaling Redundancy for Emergency Healthcare Communication",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "emergency medicine",
+    "mechanism": "Naval semaphore — a visual signaling system using two flags held at specific angles to represent letters; the system works at distances where voice fails, in conditions where electronic communication is unavailable, and degrades gracefully (partial visibility still conveys partial information)",
+    "application": "Emergency departments need semaphore-like communication systems that work when electronic systems fail, degrade gracefully under partial visibility, and convey critical information through spatial positioning alone. A physical semaphore system using colored cards at patient bedsides — where card position encodes triage status, resource needs, and time-sensitivity — would function during power outages, network failures, and mass casualty events where electronic systems are overwhelmed.",
+    "prediction": "Emergency departments that implement physical spatial-encoding communication systems (card position encoding patient status) as backup to electronic systems will maintain triage accuracy within 10% of normal during simulated electronic system failures, while departments without such backup will show accuracy drops exceeding 40%.",
+    "viability": "promising",
+    "confidence": 0.61
+  }
+]

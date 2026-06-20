@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Oceanographic Halocline Stratification for Social Class Mobility Analysis",
+    "mechanism_source": "oceanography",
+    "target_domain": "sociology",
+    "mechanism": "Halocline — a sharp vertical gradient in salinity that creates a density barrier between water layers; objects denser than the upper layer but lighter than the lower layer become trapped at the halocline, unable to sink or rise; mixing across the halocline requires extreme energy input",
+    "application": "Social class boundaries are haloclines. Each class boundary is a density gradient where the 'salinity' (accumulated social, cultural, and economic capital) changes sharply. Individuals at the halocline are trapped — too dense (experienced, ambitious) for the layer above but not dense enough (insufficient connections, credentials) for the layer they're trying to enter. Upward mobility requires the social equivalent of extreme energy input (extraordinary talent, structural intervention, crisis) to punch through the density barrier. Most social programs fail because they add energy insufficient to cross the halocline.",
+    "prediction": "Social mobility interventions that concentrate resources in single intensive bursts (enough energy to cross the halocline) will produce more successful class transitions than interventions that distribute equivalent resources over longer periods (insufficient energy density to breach the barrier at any point).",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Volcanological Volcanic Winter for Understanding Technology Platform Collapse",
+    "mechanism_source": "volcanology",
+    "target_domain": "platform economics",
+    "mechanism": "Volcanic winter — massive eruptions inject sulfur aerosols into the stratosphere that reflect sunlight for 1-3 years, cooling the planet; the indirect effects (crop failure, famine, social upheaval) vastly exceed the direct damage from the eruption itself",
+    "application": "Technology platform collapses produce volcanic winters. When a dominant platform 'erupts' (sudden failure, hostile policy change, or regulatory shutdown), the direct damage (loss of the platform itself) is far less consequential than the 'stratospheric aerosols' — the ecosystem-wide cooling effect. The APIs that depended on it, the businesses built on its data, the developer skills specific to its platform — all experience a 'winter' lasting years after the eruption. The aerosol effect explains why platform collapses feel so much worse than the direct impact would suggest.",
+    "prediction": "The economic impact of a major technology platform shutdown will follow volcanic winter curves — an initial direct-damage spike followed by a broader, longer-duration ecosystem cooling effect that exceeds the direct damage by 5-10x, measurable in downstream company revenue declines.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Primatological Dunbar Number Layering for Social Network Feature Design",
+    "mechanism_source": "primatology",
+    "target_domain": "social network design",
+    "mechanism": "Dunbar's number layers — primatological research shows humans maintain relationships in nested layers: ~5 intimate, ~15 close, ~50 friends, ~150 meaningful contacts; each layer requires progressively less interaction frequency but each has cognitive limits tied to neocortex size",
+    "application": "Social networks should enforce Dunbar layering rather than flat connection models. A social platform that restricts intimate-level interactions (direct messages, close-friends stories) to ~5 contacts, frequent-interaction features to ~15, regular-feed visibility to ~50, and notification-worthy activity to ~150 would produce healthier social behavior than platforms that treat all 2000+ 'friends' as a flat list. The primatological insight is that these limits are neurological, not cultural — violating them produces social stress regardless of platform design.",
+    "prediction": "Social networks that implement Dunbar-layered interaction restrictions (limiting high-bandwidth features to inner circles) will show lower user anxiety scores and higher relationship satisfaction than platforms with flat connection models, even though users initially resist the restrictions.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Tribological Stick-Slip Phenomenon for Understanding Creative Process Rhythms",
+    "mechanism_source": "tribology",
+    "target_domain": "creativity research",
+    "mechanism": "Stick-slip — when surfaces under friction alternate between sticking (static friction holds them stationary) and slipping (kinetic friction allows sudden movement); produces jerky motion and is responsible for squeaking brakes, earthquake fault lines, and bowed string vibration",
+    "application": "Creative work exhibits stick-slip dynamics. Creators alternate between 'sticking' (unable to make progress, building up creative potential energy against static friction) and 'slipping' (sudden burst of productive movement when accumulated energy exceeds the static friction threshold). The squeaking violin string is an apt metaphor — beautiful music requires precisely controlled stick-slip. Attempting to eliminate the 'stick' phases (through forced productivity) is like trying to eliminate static friction from a violin — you get a screech or silence, never music.",
+    "prediction": "Creators who accept and plan for stick-slip rhythms (scheduling intensive work sessions for 'slip' phases and low-demand tasks for 'stick' phases) will produce higher-quality creative output than creators who attempt to maintain constant productive velocity, as rated by expert judges.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Ceramic Saggar Firing for Privacy-Preserving Data Processing",
+    "mechanism_source": "ceramics",
+    "target_domain": "data privacy engineering",
+    "mechanism": "Saggar firing — ceramics are placed inside a sealed ceramic container (saggar) during firing; materials placed between the pot and saggar wall (sawdust, salt, copper, seaweed) create atmospheric effects on the pot's surface without the potter or kiln having direct access to the piece during firing",
+    "application": "Privacy-preserving data processing should use saggar architecture. Sensitive data (the ceramic piece) is sealed inside a computational saggar (secure enclave). Processing materials (algorithms, parameters) are placed between the data and the saggar wall, creating transformative effects on the data's surface (outputs) without the processor (potter) or the infrastructure (kiln) having direct access to the raw data during processing. The saggar is opened only to reveal the finished result, never during the firing process.",
+    "prediction": "Data processing architectures designed on saggar principles (sealed processing environments where algorithms interact with data indirectly through environmental effects) will achieve equivalent analytical utility to direct-access processing while maintaining provably stronger privacy guarantees.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Lexicographic Hapax Legomenon for Code Smell Detection",
+    "mechanism_source": "lexicography",
+    "target_domain": "code quality analysis",
+    "mechanism": "Hapax legomenon — a word that occurs only once in a corpus; these single-occurrence words are disproportionately interesting to linguists because they may represent nonce words, errors, dialectal forms, or vocabulary at the edges of usage",
+    "application": "Codebases have hapax legomena — functions, patterns, or constructs that occur only once in the entire codebase. These singletons are disproportionately likely to be bugs, abandoned experiments, or misunderstood API usage. A 'lexicographic linter' that flags hapax code patterns (a particular function call pattern used only once, a specific error-handling structure appearing nowhere else) would detect code smells that conventional linters miss, because singleton patterns are statistically anomalous in large codebases.",
+    "prediction": "A code analysis tool that flags hapax code patterns (constructs occurring only once in a codebase) will identify bugs and code smells at a higher precision rate than frequency-blind static analysis tools, because singleton patterns correlate with developer error or misunderstanding.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Fermentation SCOBY Growth Dynamics for Open Source Community Health",
+    "mechanism_source": "fermentation",
+    "target_domain": "open source ecosystem health",
+    "mechanism": "SCOBY (Symbiotic Culture of Bacteria and Yeast) — the kombucha culture is a multi-species partnership where yeasts break down sugar into alcohol and bacteria convert alcohol to acetic acid; the SCOBY forms a visible cellulose mat that protects the culture from contamination and grows a new layer with each batch",
+    "application": "Healthy open source communities are SCOBYs. Different contributor types (yeasts: feature developers who produce raw code-alcohol; bacteria: reviewers who convert raw code into stable, tested contributions) form a symbiotic culture. The SCOBY mat (community norms, governance documents, CI pipelines) protects against contamination (spam, malicious contributions) and grows a new layer with each release cycle. A community where one type dominates (all feature-developers, no reviewers, or vice versa) produces either raw unreviewed code-alcohol or acetic-acid gatekeeping — neither is healthy kombucha.",
+    "prediction": "Open source projects with balanced ratios of feature-contributors (yeasts) and review-contributors (bacteria) will show both higher code quality and faster feature delivery than projects dominated by either type, with optimal ratios discoverable through SCOBY-growth modeling.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Aeronautical Coffin Corner for Enterprise Architecture Decision-Making",
+    "mechanism_source": "aeronautics",
+    "target_domain": "enterprise architecture",
+    "mechanism": "Coffin corner — at very high altitudes, the margin between stall speed (too slow) and critical Mach number (too fast) narrows until they converge; the aircraft has almost zero speed margin, and any turbulence can push it into either stall or Mach buffet",
+    "application": "Mature enterprise architectures reach a coffin corner. As system complexity increases (altitude), the margin between 'too slow to change' (stall speed — legacy drag prevents adaptation) and 'too fast to be stable' (critical Mach — change velocity creates destructive shock waves through the system) narrows. At sufficient complexity, any external perturbation (market shift, regulatory change) pushes the architecture into either stall (can't respond) or Mach buffet (changes propagate destructively). The only escape is to descend — deliberately reduce complexity.",
+    "prediction": "Enterprise systems whose complexity metrics exceed a threshold (coffin corner entry) will experience a sharp increase in the rate of change-related incidents, as the margin between stall (inability to change) and destructive change narrows, identifiable by converging metrics of change velocity limits and technical debt drag.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Bookbinding Japanese Stab Binding for Modular Documentation Systems",
+    "mechanism_source": "bookbinding",
+    "target_domain": "technical documentation",
+    "mechanism": "Japanese stab binding (yotsume toji) — pages are stacked (not folded into signatures) and bound through holes punched near the spine edge; the binding is visible on the outside and pages can be added or removed by re-sewing; the technique is simple enough to teach in minutes",
+    "application": "Technical documentation should use stab-binding architecture — flat pages (standalone document pages) stacked and bound through visible external connections (hyperlinks, cross-references visible in a sidebar). Unlike Western codex binding (monolithic documentation portals where pages can't be reordered), stab-bound documentation allows pages to be added, removed, or reordered by 're-sewing' (updating the binding pattern). The technique is simple enough that any contributor can add a page, and the binding pattern itself is documentation (it shows how documents relate).",
+    "prediction": "Documentation systems designed with stab-binding architecture (modular standalone pages with visible external binding) will be updated more frequently by more contributors than monolithic documentation systems, because the barrier to adding a single page is lower.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Philosophical Trolley Problem Variants for Autonomous Vehicle Ethics Calibration",
+    "mechanism_source": "philosophy",
+    "target_domain": "autonomous vehicle ethics",
+    "mechanism": "Trolley problem variant generation — the philosophical practice of systematically varying parameters of moral dilemmas (number of people, relationship to agent, certainty of outcome, action vs. inaction) to map the structure of moral intuitions",
+    "application": "Autonomous vehicle ethics can be calibrated using systematic trolley-problem variant generation. Rather than attempting to solve 'the' trolley problem, engineers should generate hundreds of parametric variants (varying pedestrian count, pedestrian age, certainty of harm, alternative options) and map the response surface of public moral intuition. The resulting multi-dimensional moral landscape can then be encoded as a continuous function rather than a set of binary rules, producing more nuanced ethical behavior that tracks the shape of human moral intuition across the parameter space.",
+    "prediction": "Autonomous vehicle ethical decision systems trained on response surfaces from systematic trolley-problem variant surveys will produce decisions rated as more morally acceptable by the public than systems programmed with fixed ethical rules, because the response-surface approach captures the continuous, context-dependent nature of moral intuition.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Cartographic Isoline Interpolation for Salary Negotiation Strategy",
+    "mechanism_source": "cartography",
+    "target_domain": "compensation negotiation",
+    "mechanism": "Isoline interpolation — cartographers create contour lines by interpolating between known elevation points; denser data points produce more accurate contours, and the spacing between isolines indicates gradient steepness (close lines = steep slope)",
+    "application": "Salary negotiation should use isoline mapping. Each data point (known salary for a specific role/company/location/experience combination) allows interpolation of the compensation 'terrain.' Dense data regions (well-reported roles) produce confident contours; sparse regions (unusual role combinations) produce uncertain interpolations. The isoline spacing reveals negotiation leverage: close salary contour lines (steep gradient) between two experience levels means each additional qualification produces large compensation gains; wide spacing means incremental qualifications have diminishing returns.",
+    "prediction": "Job candidates who map compensation isolines (collecting multiple data points and interpolating gradients) before negotiation will achieve offers closer to market maximum than candidates who rely on single-point salary benchmarks, because isoline mapping reveals gradient information that single points cannot.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Mycological Mycelial Network Intelligence for Decentralized AI Architectures",
+    "mechanism_source": "mycology",
+    "target_domain": "distributed AI",
+    "mechanism": "Mycelial network intelligence — fungal networks solve optimization problems (finding shortest paths to food sources, allocating resources across the network, responding to damage by rerouting flows) without any central nervous system, using purely local chemical signaling along hyphal highways",
+    "application": "Decentralized AI architectures could use mycelial network intelligence principles: each node processes information locally and communicates through chemical-signal-equivalent message passing along established pathways, with no central coordinator. The network collectively solves optimization problems through local reinforcement of productive pathways and withdrawal from unproductive ones. The mycelial insight is that intelligence doesn't require a brain — it can emerge from purely local interactions in a sufficiently connected network.",
+    "prediction": "AI systems architectured as mycelial networks (purely local processing with reinforcement-based pathway optimization, no central coordinator) will solve resource allocation and shortest-path problems with computational efficiency approaching centralized solutions while maintaining resilience under node failure that centralized systems cannot match.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Watchmaking Complication Hierarchy for Feature Prioritization",
+    "mechanism_source": "watchmaking",
+    "target_domain": "product feature management",
+    "mechanism": "Complication hierarchy — watchmaking classifies complications (features beyond basic timekeeping) in a strict hierarchy: simple complications (date, alarm), intermediate (chronograph, moon phase), and grand complications (minute repeater, tourbillon, perpetual calendar); each level requires exponentially more skill, parts, and cost; a grand complication watch has fewer than 1000 living makers",
+    "application": "Software feature management should adopt complication hierarchy thinking. Basic features (CRUD, authentication) are simple complications — every team can implement them. Intermediate features (real-time sync, advanced search) require significantly more engineering skill. Grand complications (end-to-end encryption with key recovery, offline-first with conflict resolution, real-time collaboration with CRDT) require rare expertise and exponentially more engineering investment. Teams that attempt grand complications without acknowledging the hierarchy produce the software equivalent of a fake tourbillon — it looks like the feature but doesn't actually work.",
+    "prediction": "Product teams that explicitly classify features using a complication hierarchy and staff accordingly (dedicating specialist engineers to grand complications) will ship fewer buggy complex features than teams that treat all features as equally implementable by any engineer.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Rhetorical Aporia for Productive Impasse in Design Reviews",
+    "mechanism_source": "rhetoric",
+    "target_domain": "design process",
+    "mechanism": "Aporia — the rhetorical state of genuine puzzlement or impasse where a speaker acknowledges they've reached a contradiction they cannot resolve; in Socratic dialogue, aporia is the productive moment — the realization of one's own ignorance that enables genuine inquiry to begin",
+    "application": "Design reviews should cultivate aporia rather than avoid it. The moment when a design team reaches genuine impasse — when two equally valid but contradictory design requirements are identified — is the most productive moment, not a failure. Current design processes treat impasse as something to resolve quickly through voting or executive decision. The Socratic insight is that aporia (acknowledged contradiction) is where genuine design thinking begins, and that premature resolution produces designs that haven't been thought through.",
+    "prediction": "Design teams that spend more time in acknowledged aporia (explicit impasse without rushing to resolution) will produce designs rated as more innovative and thorough by external reviewers than teams that resolve design contradictions quickly through voting or authority.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Entomological Metamorphosis Imaginal Disc Theory for Career Transitions",
+    "mechanism_source": "entomology",
+    "target_domain": "career development theory",
+    "mechanism": "Imaginal discs — clusters of undifferentiated cells that exist inside a caterpillar from hatching, carrying the blueprint for adult structures; during pupation, the caterpillar's body dissolves but the imaginal discs survive and direct the construction of the adult butterfly",
+    "application": "Successful career transitions require imaginal discs — latent skill clusters and identity blueprints that exist within the professional from early in their career, dormant during the 'caterpillar' phase of their current role. When the professional enters the 'pupal' phase of career transition (role dissolution, identity uncertainty), these imaginal discs survive the dissolution and direct the construction of the new professional identity. Career transitions fail when the person has no imaginal discs — no latent alternative identity blueprints — and the dissolution produces nothing new.",
+    "prediction": "Professionals who cultivated side interests, cross-functional skills, or alternative professional identities (imaginal discs) during their primary career phase will navigate career transitions more successfully than professionals who were fully specialized, as measured by time-to-productivity and satisfaction in the new role.",
+    "viability": "promising",
+    "confidence": 0.75
+  }
+]

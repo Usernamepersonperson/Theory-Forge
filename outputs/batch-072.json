@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Astronomical Red Shift Theory of Organizational Memory Decay",
+    "mechanism_source": "astronomy",
+    "target_domain": "organizational psychology",
+    "mechanism": "Cosmological redshift where light from distant objects is stretched to longer wavelengths by the expansion of intervening space, making older signals progressively harder to interpret",
+    "application": "Organizational memories undergo redshift: as institutional time expands between an event and its recall, the 'signal' of that memory is stretched and distorted not by simple forgetting but by the expansion of organizational context. Policies created during a founding era become 'redshifted' — their original meaning stretched beyond recognition by intervening growth. The further back a policy originates, the more interpretive correction is needed to recover its original intent.",
+    "prediction": "The interpretive error rate for organizational policies will increase proportionally to the log of the time since policy creation multiplied by a measure of organizational expansion rate, analogous to the Hubble law relationship between distance and redshift.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Oceanographic Thermocline Model of Socioeconomic Stratification",
+    "mechanism_source": "oceanography",
+    "target_domain": "economic sociology",
+    "mechanism": "The thermocline — a thin layer of rapid temperature change separating warm surface water from cold deep water, which acts as a barrier to vertical mixing and nutrient exchange",
+    "application": "Socioeconomic stratification produces thermoclines: thin but potent barriers separating social strata that prevent vertical mixing of economic resources and social capital. Like oceanic thermoclines, these barriers are maintained by the density differential itself — warm (resource-rich) layers float above cold (resource-poor) layers in a self-reinforcing equilibrium. Seasonal overturn events in oceans correspond to disruptive economic events (wars, revolutions) that temporarily break stratification.",
+    "prediction": "Social mobility metrics across income quintiles will show sharply discontinuous barriers at specific income thresholds (thermoclines) rather than smooth gradients, and the strength of these barriers will correlate with the resource density differential between adjacent strata.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Paleontological Taphonomy of Digital Archive Degradation",
+    "mechanism_source": "paleontology",
+    "target_domain": "information science",
+    "mechanism": "Taphonomy — the study of how organisms decay, become preserved, or are destroyed after death, where preservation is the rare exception requiring specific conditions rather than the default outcome",
+    "application": "Digital archives undergo taphonomic processes: most digital objects decay and are lost (format obsolescence, link rot, storage failure), while preservation requires the digital equivalent of rapid burial in anoxic sediment (active migration, format standardization, institutional commitment). The fossil record's systematic biases — toward hard-bodied organisms, depositional environments, and geological stability — have direct analogues in which digital content survives.",
+    "prediction": "Sampling the surviving web content from any given year will reveal taphonomic bias patterns: institutional content (hard-bodied) persists at 5-10x the rate of personal content (soft-bodied), and content hosted on stable platforms (stable depositional environments) persists at rates predictable from platform longevity metrics.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Semiotic Code-Switching Framework for API Design Patterns",
+    "mechanism_source": "semiotics",
+    "target_domain": "software architecture",
+    "mechanism": "Code-switching in semiotics where communicators shift between sign systems (languages, registers, symbol sets) based on context, audience, and communicative intent, with switching governed by sociolinguistic rules",
+    "application": "Well-designed APIs perform semiotic code-switching: they present different sign systems (REST, GraphQL, webhook) to different audiences while maintaining referential coherence across all codes. API versioning is a temporal code-switch. The friction developers experience with poorly designed APIs maps to the cognitive load of involuntary code-switching — being forced to operate in a sign system mismatched to one's communicative context.",
+    "prediction": "Developer productivity metrics will correlate with the degree of semiotic alignment between API design patterns and the developer's primary programming paradigm, with forced code-switching (e.g., functional programmers using imperative APIs) reducing throughput by 15-30% compared to aligned interfaces.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Rhetorical Enthymeme Structure in Machine Learning Interpretability",
+    "mechanism_source": "rhetoric",
+    "target_domain": "explainable AI",
+    "mechanism": "The enthymeme — a syllogism with one premise left unstated because the audience is expected to supply it, making the argument more persuasive by creating participatory inference",
+    "application": "Effective ML explanations should function as enthymemes rather than complete syllogisms. Current XAI methods fail because they present complete logical chains (all features, all weights) that overwhelm users. Enthymemic explanations would present partial reasoning chains, allowing the human to supply the unstated premise from domain knowledge. This creates participatory understanding rather than passive reception, producing genuinely interpretable models.",
+    "prediction": "XAI explanations structured as enthymemes (presenting two of three key features and letting users infer the third) will produce higher measured comprehension and appropriate trust calibration than complete feature-importance explanations, in controlled experiments with domain experts.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Aeronautical Boundary Layer Theory of Classroom Attention",
+    "mechanism_source": "aeronautics",
+    "target_domain": "educational psychology",
+    "mechanism": "The boundary layer where airflow velocity transitions from zero at a surface to free-stream velocity, with laminar flow near the surface transitioning to turbulent flow at a critical Reynolds number",
+    "application": "Student attention in classrooms exhibits boundary layer behavior. Students nearest the instructor (the surface) show laminar attention flow — smooth, predictable engagement. At a critical distance (analogous to the critical Reynolds number), attention transitions to turbulent flow with chaotic fluctuations. The transition point is not fixed but depends on instructional velocity (pacing) and viscosity (content difficulty). Faster pacing with low-viscosity content pushes the transition point further from the instructor.",
+    "prediction": "Mapping attention metrics (eye-tracking, response latency) by physical distance from the instructor will reveal a sharp laminar-to-turbulent transition at a characteristic distance that shifts predictably with lecture pacing and content difficulty, following boundary layer equations.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Ceramics Thermal Shock Resistance Model of Team Resilience",
+    "mechanism_source": "ceramics",
+    "target_domain": "team science",
+    "mechanism": "Thermal shock resistance in ceramics determined by the ratio of tensile strength to thermal expansion coefficient and elastic modulus — materials that flex slightly under thermal stress survive while rigid high-strength ceramics shatter",
+    "application": "Team resilience under sudden change follows ceramic thermal shock mechanics. Teams with high performance standards (tensile strength) but rigid processes (low thermal expansion, high elastic modulus) are paradoxically more vulnerable to sudden disruption than teams with moderate performance standards and flexible processes. The thermal shock parameter R — strength divided by expansion coefficient times modulus — predicts team survival under rapid environmental change.",
+    "prediction": "Teams subjected to sudden organizational restructuring will show survival rates (maintaining performance above 80% of baseline) predicted by a composite metric analogous to thermal shock parameter R, where process flexibility and moderate cohesion outperform high cohesion with rigid processes.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Ethnomusicological Polyrhythm Theory of Multi-Project Management",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "project management",
+    "mechanism": "West African polyrhythmic structures where multiple independent rhythmic cycles of different lengths interlock, creating a composite pattern that is cognitively managed through a shared timeline (the bell pattern) rather than a common downbeat",
+    "application": "Effective multi-project management operates as polyrhythm rather than as parallel tracks synchronized to a common beat. Each project runs its own rhythmic cycle (sprint length, milestone cadence), and the manager's role is to maintain the bell pattern — an invariant reference timeline against which all project rhythms can be located. Forcing all projects onto the same sprint cadence is like forcing polyrhythm into simple meter: it destroys the emergent groove that makes the system productive.",
+    "prediction": "Portfolio management approaches that allow variable project cadences aligned to a shared reference timeline will outperform synchronized-sprint approaches on portfolio-level throughput by 10-20%, measured across organizations managing 5 or more concurrent projects.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Optics Chromatic Aberration Model of Cross-Cultural Communication Distortion",
+    "mechanism_source": "optics",
+    "target_domain": "intercultural studies",
+    "mechanism": "Chromatic aberration where a lens focuses different wavelengths of light at different points, producing color fringing because the refractive index varies with wavelength",
+    "application": "Cross-cultural communication suffers from chromatic aberration: the cultural 'lens' through which a message passes refracts different components of meaning (factual content, emotional valence, social hierarchy signals, humor) at different focal points. A message composed as white light (integrated meaning) arrives decomposed into spectral components that the receiver must reassemble. High-context cultures use achromatic doublet communication strategies that correct for this by pairing redundant channels.",
+    "prediction": "Communication misunderstandings between cultures with high Hofstede cultural distance will cluster around specific meaning components (emotional valence, hierarchy signals) rather than factual content, with the pattern of which components defocus predictable from the specific cultural dimension differences involved.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Game-Theoretic Trembling Hand Equilibrium in Ecological Community Assembly",
+    "mechanism_source": "game theory",
+    "target_domain": "community ecology",
+    "mechanism": "Trembling hand perfect equilibrium where strategies must remain optimal even when other players make small random mistakes, eliminating equilibria that depend on perfectly rational behavior",
+    "application": "Ecological communities assemble toward trembling-hand perfect equilibria rather than simple Nash equilibria. Species communities that persist long-term are those where each species' survival strategy remains viable even when neighboring species exhibit behavioral noise (suboptimal foraging, irregular migration, variable reproduction). Communities at trembling-hand equilibria are invasion-resistant because they don't depend on any species behaving perfectly.",
+    "prediction": "Ecological communities at trembling-hand perfect equilibria (identifiable by robustness to random behavioral perturbation in agent-based models) will show lower species turnover rates over decadal timescales than communities at Nash equilibria that are not trembling-hand perfect.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Typographic Leading and Kerning Theory of Conversational Turn-Taking",
+    "mechanism_source": "typesetting",
+    "target_domain": "conversation analysis",
+    "mechanism": "Leading (vertical spacing between lines) and kerning (horizontal spacing between letter pairs) in typography, where optimal readability requires non-uniform spacing adjusted to the specific shapes of adjacent elements",
+    "application": "Conversational turn-taking follows typographic spacing principles. The pause between turns (leading) must be adjusted based on the weight and complexity of adjacent utterances, while overlap management (kerning) requires non-uniform adjustment based on the specific shapes of adjacent speech acts. Conversations that feel natural have been unconsciously 'typeset' with variable leading and kerning rather than fixed-interval turn gaps.",
+    "prediction": "Conversations rated as most natural by independent raters will show pause duration patterns that correlate with adjacent utterance complexity (analogous to proportional leading) rather than fixed pause lengths, with natural conversations exhibiting lower variance in a complexity-adjusted spacing metric.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Network Science Percolation Threshold in Language Extinction",
+    "mechanism_source": "network science",
+    "target_domain": "sociolinguistics",
+    "mechanism": "Percolation threshold — the critical probability at which a random network transitions from disconnected clusters to a single giant connected component, exhibiting sharp phase transition behavior",
+    "application": "Language extinction exhibits percolation dynamics. A language survives as long as its speaker network remains above the percolation threshold — the critical density of interconnected speakers needed to maintain a giant component of active use. Below threshold, the network fragments into isolated clusters that undergo independent drift and eventual silence. Language revitalization efforts succeed or fail based on whether they push the speaker network above or below this critical connectivity threshold.",
+    "prediction": "Endangered languages will show a sharp survival-extinction transition at a critical speaker network connectivity value rather than gradual decline, and this threshold will be predictable from the language's network topology (average degree, clustering coefficient) rather than from raw speaker count alone.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Information-Theoretic Channel Capacity Model of Therapeutic Alliance",
+    "mechanism_source": "information theory",
+    "target_domain": "psychotherapy research",
+    "mechanism": "Shannon's channel capacity theorem establishing the maximum rate at which information can be reliably transmitted over a noisy channel, determined by bandwidth and signal-to-noise ratio",
+    "application": "The therapeutic alliance defines a communication channel whose capacity limits the rate of therapeutic information transfer. Alliance quality determines the signal-to-noise ratio (trust reduces noise from defensiveness and distortion), while session frequency determines bandwidth. Therapists who exceed channel capacity — attempting to transmit more insight than the alliance can support — produce errors analogous to data corruption, where therapeutic interventions are received as attacks.",
+    "prediction": "Therapy sessions where the rate of interpretive interventions exceeds a threshold predictable from alliance quality measures will show paradoxical worsening of client outcomes, following an information-theoretic error curve rather than a linear dose-response relationship.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Urban Planning Desire Path Theory of Informal Knowledge Networks",
+    "mechanism_source": "urban planning",
+    "target_domain": "knowledge management",
+    "mechanism": "Desire paths — unofficial trails worn by foot traffic that deviate from designed walkways, revealing actual movement patterns that planners failed to anticipate",
+    "application": "Organizations develop knowledge desire paths — informal information channels that deviate from official knowledge management systems, revealing the actual topology of information needs. These paths are not failures of the formal system but intelligence about actual knowledge flow requirements. Paving desire paths (formalizing observed informal channels) is more effective than redesigning the formal system from first principles.",
+    "prediction": "Organizations that audit and formalize their top 5 informal knowledge-sharing channels (desire paths) will see a 20-35% improvement in knowledge access speed compared to organizations that redesign formal KM systems without reference to informal channels.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Glaciological Crevasse Formation Theory of Organizational Fracture",
+    "mechanism_source": "glaciology",
+    "target_domain": "organizational crisis management",
+    "mechanism": "Crevasses form in glaciers when tensile stress from differential flow rates exceeds the ice's fracture strength, with crevasse depth limited by the compressive stress at depth that closes the crack",
+    "application": "Organizational fractures (schisms, departures, factional splits) follow crevasse mechanics. Differential velocity between organizational units (departments growing or moving at different rates) creates tensile stress. When this exceeds the organization's fracture strength (culture, shared identity), crevasses open. The fracture depth is self-limiting: at sufficient organizational depth, compressive forces (shared resources, market dependence) close the crack, preventing complete separation.",
+    "prediction": "Organizational fracture events will initiate at points of maximum velocity differential between adjacent units and propagate to a depth predictable from the ratio of tensile (differential growth) to compressive (resource interdependence) forces, with accuracy exceeding chance by 2x.",
+    "viability": "speculative",
+    "confidence": 0.56
+  }
+]

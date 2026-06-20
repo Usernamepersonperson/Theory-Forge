@@ -527,6 +527,27 @@ def export_frameworks(format: str = "json", min_confidence: float = 0.0):
     return unique
 
 
+@app.get("/tag-analysis")
+def tag_analysis():
+    tag_counts: dict[str, int] = {}
+    tag_domains: dict[str, set[str]] = {}
+    for t in _theories:
+        for tag in t.tags:
+            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+            tag_domains.setdefault(tag, set()).add(t.domain)
+    tags_sorted = sorted(tag_counts.items(), key=lambda x: -x[1])
+    return {
+        "total_unique_tags": len(tag_counts),
+        "top_tags": [{"tag": t, "count": c, "domains": len(tag_domains[t])} for t, c in tags_sorted[:30]],
+        "rare_tags": [{"tag": t, "count": c, "domains": len(tag_domains[t])} for t, c in tags_sorted if c <= 3],
+        "tag_domain_spread": [
+            {"tag": t, "count": c, "domain_count": len(tag_domains[t]),
+             "domains": sorted(tag_domains[t])}
+            for t, c in tags_sorted[:50]
+        ],
+    }
+
+
 @app.get("/random")
 def random_framework(min_confidence: float = 0.6):
     out_dir = Path(__file__).parent / "outputs"

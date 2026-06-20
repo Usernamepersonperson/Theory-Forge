@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Glacial Surge Dynamics of Market Panic Propagation",
+    "mechanism_source": "glaciology",
+    "target_domain": "behavioral economics",
+    "mechanism": "Glacial surges where basal meltwater lubricates the ice-bedrock interface, causing sudden acceleration from years of slow creep to catastrophic flow velocities",
+    "application": "Financial market panics follow glacial surge mechanics. Prolonged periods of slow stress accumulation (overleveraging, risk mispricing) correspond to ice mass buildup, while liquidity injections act as basal meltwater — lubricating the system in normal times but, past a critical threshold, triggering catastrophic acceleration. The surge terminates not when fear subsides but when the system reaches a new geometric configuration, analogous to how glacial surges end when ice redistributes.",
+    "prediction": "Market crash velocity profiles will show the same asymmetric acceleration-deceleration signature as glacial surges: exponential onset followed by power-law deceleration, with the total displacement predictable from pre-surge stress accumulation metrics with correlation above 0.55.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Textile Warp-Weft Theory of Legal Code Architecture",
+    "mechanism_source": "textile engineering",
+    "target_domain": "jurisprudence",
+    "mechanism": "Woven fabric achieves emergent properties (drape, bias stretch, shear resistance) from the perpendicular interlacing of warp and weft threads under controlled tension",
+    "application": "Legal codes function as woven textiles where statutes form the warp (longitudinal, fixed during construction) and case law forms the weft (lateral, threaded through interpretive acts). The 'drape' of a legal system — its ability to conform to novel situations — emerges from the weave density and the angle of judicial interpretation. Systems with too-tight weaves (over-codified) lose drape; too-loose weaves (under-codified) lose structural integrity.",
+    "prediction": "Jurisdictions can be ranked by 'legal drape coefficient' computed from statute density times case-law citation frequency, and this metric will predict the time-to-resolution of novel case types better than simple statute count or precedent volume alone.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Fermentation Lag Phase Model of Scientific Paradigm Shifts",
+    "mechanism_source": "fermentation science",
+    "target_domain": "philosophy of science",
+    "mechanism": "The lag phase in microbial fermentation where organisms adapt to new media, synthesizing enzymes and adjusting metabolism before exponential growth begins",
+    "application": "Kuhnian paradigm shifts exhibit fermentation kinetics. The lag phase corresponds to anomaly accumulation where the scientific community synthesizes new conceptual 'enzymes' (mathematical tools, experimental techniques, vocabulary). The log phase maps to rapid adoption once the paradigm proves productive. Crucially, the lag phase length is predictable from the 'nutrient distance' between old and new paradigms — how much conceptual retooling is required.",
+    "prediction": "Measuring the conceptual distance between competing paradigms using co-citation network analysis will predict the duration of the transition period (lag phase) with an R-squared above 0.5, validated across at least 10 historical paradigm shifts.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Acoustic Resonance Theory of Social Movement Amplification",
+    "mechanism_source": "acoustics",
+    "target_domain": "political sociology",
+    "mechanism": "Sympathetic resonance where an object vibrating at a frequency matching another object's natural frequency causes the second to vibrate with amplified amplitude without direct contact",
+    "application": "Social movements amplify through sympathetic resonance rather than direct recruitment. A movement's 'frequency' — its core narrative rhythm and cadence of action — excites latent sympathetic vibration in populations whose structural grievances share the same natural frequency. This explains why movements with modest resources sometimes produce massive effects while well-funded campaigns fail: resonance depends on frequency matching, not amplitude of the driving force.",
+    "prediction": "Narrative analysis of successful vs. failed social movements will show that temporal cadence matching (protest rhythm aligned with target population's grievance cycle) predicts mobilization success better than resource mobilization metrics, with an effect size (Cohen's d) above 0.6.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Cartographic Projection Distortion in Psychological Self-Assessment",
+    "mechanism_source": "cartography",
+    "target_domain": "cognitive psychology",
+    "mechanism": "Map projections inevitably distort at least one of area, shape, distance, or direction when representing a curved surface on a flat plane, with the type of distortion determined by the projection method chosen",
+    "application": "Self-assessment is a projection problem: a high-dimensional psychological reality must be projected onto the low-dimensional flat space of self-report. Like cartographic projections, every self-assessment method preserves some properties at the expense of others. The Dunning-Kruger effect is a specific projection artifact — a conformal projection that preserves local shape (relative skill ordering within one's reference group) while grossly distorting area (absolute competence level).",
+    "prediction": "Different self-assessment instruments will produce systematic distortion patterns classifiable by projection type, and the specific distortion signature of each instrument will be predictable from its item structure using a projection-theoretic framework.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Knot Invariant Classification of Protein Misfolding Diseases",
+    "mechanism_source": "knot theory",
+    "target_domain": "molecular biology",
+    "mechanism": "Knot invariants — algebraic quantities (Jones polynomial, writhe, linking number) that remain unchanged under ambient isotopy and uniquely classify knot types",
+    "application": "Prion diseases and amyloidopathies can be classified using knot-theoretic invariants of their misfolded conformations. Each pathological fold creates a topological signature that determines its propagation behavior, resistance to degradation, and tissue tropism. The Jones polynomial of a misfolded protein's backbone trace predicts its strain properties more reliably than sequence or secondary structure analysis alone.",
+    "prediction": "Computing the Jones polynomial approximation of amyloid fibril backbone traces from cryo-EM structures will cluster disease strains into topologically distinct classes that correspond to clinical phenotypes with classification accuracy above 75%.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Origami Crease Pattern Theory of Neural Cortical Folding",
+    "mechanism_source": "origami mathematics",
+    "target_domain": "developmental neuroscience",
+    "mechanism": "Flat-foldability conditions in origami where crease patterns must satisfy Maekawa's theorem (mountain-valley difference equals plus-or-minus 2 at each vertex) and Kawasaki's theorem (alternating angles sum to 180 degrees) to fold flat",
+    "application": "Cortical gyrification follows origami flat-foldability constraints. Sulci and gyri correspond to mountain and valley folds, and their arrangement at junction points must satisfy analogues of Maekawa's and Kawasaki's theorems for mechanical stability. Abnormal folding patterns in lissencephaly and polymicrogyria represent violations of these theorems, producing mechanically unstable or non-flat-foldable configurations.",
+    "prediction": "Measuring the mountain-valley fold ratios and junction angles in MRI-derived cortical surface meshes will show that normally developed brains satisfy origami flat-foldability conditions within measurement error, while brains with folding disorders systematically violate Maekawa's theorem.",
+    "viability": "promising",
+    "confidence": 0.59
+  },
+  {
+    "name": "Shipbuilding Hull Form Theory of Organizational Drag",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "organizational behavior",
+    "mechanism": "Hull form optimization balancing wave-making resistance (dependent on speed-length ratio), frictional resistance (dependent on wetted surface area), and form drag (dependent on hull shape) to minimize total drag",
+    "application": "Organizations experience three analogous drag forces: wave-making resistance (the organizational 'bow wave' created by moving through market environments at speed), frictional resistance (proportional to the total surface area of bureaucratic interfaces), and form drag (determined by organizational shape and hierarchy). Most restructuring efforts address only form drag while ignoring that frictional resistance scales with the square of organizational surface area.",
+    "prediction": "Organizational velocity (measured as time-to-market for new initiatives) will correlate with a composite drag coefficient computed from market speed-to-size ratio, total inter-departmental interface count, and hierarchy depth, outperforming any single metric alone.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Mycorrhizal Network Model of Academic Citation Dynamics",
+    "mechanism_source": "mycology",
+    "target_domain": "bibliometrics",
+    "mechanism": "Mycorrhizal networks where fungi connect plant root systems, enabling resource transfer from established trees to seedlings and chemical signaling across the network, with hub trees disproportionately supporting the network",
+    "application": "Academic citation networks function as mycorrhizal systems. Seminal papers act as mother trees, transferring conceptual nutrients (legitimacy, framing, methodology) to newer publications through citation connections. The fungal network corresponds to review articles and textbooks that create underground connections between otherwise disconnected research clusters. This model predicts that disrupting hub papers (retraction) causes cascading nutrient starvation in dependent clusters.",
+    "prediction": "Retraction of highly-cited hub papers will cause citation rate declines not just in direct citers but in second- and third-order citation neighbors, with decay following the same distance-dependent attenuation pattern observed in mycorrhizal nutrient transfer experiments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Watchmaking Escapement Theory of Legislative Tempo",
+    "mechanism_source": "watchmaking",
+    "target_domain": "legislative studies",
+    "mechanism": "The escapement mechanism converts continuous energy from the mainspring into precisely regulated discrete impulses, with the balance wheel oscillation period determining the rate of energy release",
+    "application": "Effective legislatures require an escapement mechanism that converts the continuous pressure of public opinion into discrete, measured policy actions. Without an escapement (as in direct-referendum systems), the mainspring energy releases uncontrollably. The balance wheel corresponds to committee structures whose oscillation period — the time between impulse and counter-impulse — determines governance tempo. Over-damped systems (excessive deliberation) stop; under-damped systems (insufficient deliberation) race.",
+    "prediction": "Legislative systems with intermediate committee deliberation periods will produce higher policy stability scores than both rapid-response and extensively delayed systems, following an inverted-U relationship predictable from escapement mechanics.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Soil Horizon Development Model of Institutional Memory Formation",
+    "mechanism_source": "soil science",
+    "target_domain": "organizational theory",
+    "mechanism": "Soil horizons form through pedogenesis — the slow differentiation of uniform parent material into distinct layers through leaching, accumulation, weathering, and biological activity over decades to millennia",
+    "application": "Institutional memory develops through organizational pedogenesis. Raw experience (parent material) differentiates into distinct horizons: surface organic layer (active tacit knowledge), topsoil A-horizon (documented procedures), illuvial B-horizon (accumulated cultural assumptions leached down from above), and unchanged C-horizon (founding principles). Organizational disruptions function as erosion events that strip upper horizons, exposing subsoil assumptions never meant to face the surface.",
+    "prediction": "Organizations that have undergone rapid leadership turnover will show eroded knowledge profiles where procedural documentation (A-horizon) is thin while cultural assumptions (B-horizon) remain intact but exposed, producing measurably higher rates of assumption-practice misalignment.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Entomological Metamorphosis Model of Curriculum Transformation",
+    "mechanism_source": "entomology",
+    "target_domain": "education policy",
+    "mechanism": "Complete metamorphosis (holometabolism) where the organism dissolves most larval structures in the pupal stage before rebuilding the adult form from imaginal discs — predetermined clusters of cells that survived dissolution",
+    "application": "Successful curriculum reform requires holometabolous transformation rather than incremental modification. The existing curriculum must enter a pupal dissolution phase where most structures are broken down, while imaginal discs — core competency clusters predetermined by educational research — survive to template the new form. Attempted reforms that skip the pupal stage produce chimeric curricula that are neither old nor new, analogous to failed metamorphosis.",
+    "prediction": "Curriculum reforms that involve a full-dissolution phase (temporary suspension of the old curriculum before the new one launches) will produce higher student outcome improvements at 3-year follow-up than phased transition approaches, with effect sizes above 0.3 standard deviations.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Viticulture Terroir Framework for Software Development Ecosystems",
+    "mechanism_source": "viticulture",
+    "target_domain": "software engineering",
+    "mechanism": "Terroir — the complete natural environment (soil, climate, topography, microbiome) in which a grape variety is cultivated, producing distinctive and irreproducible characteristics in the resulting wine",
+    "application": "Software projects express terroir: the same programming language and architecture (grape variety) produces fundamentally different software when developed in different organizational environments. The terroir includes team culture (soil), market pressure (climate), organizational hierarchy (topography), and the existing tool ecosystem (microbiome). This explains why attempts to replicate successful software projects in different organizations consistently produce different results despite identical technical specifications.",
+    "prediction": "Controlling for programming language, architecture, and team size, software quality metrics will cluster by organizational environment factors (team tenure, communication patterns, deployment infrastructure) rather than by technical choices, explaining more than 40% of quality variance.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Luthiery Wood Seasoning Theory of Leadership Development",
+    "mechanism_source": "luthiery",
+    "target_domain": "leadership studies",
+    "mechanism": "Instrument-grade tonewood must be slowly air-dried over years, allowing cellular structure to stabilize and resins to crystallize, producing acoustic properties impossible to achieve through kiln-drying shortcuts",
+    "application": "Leadership capability, like tonewood quality, requires slow seasoning that cannot be shortcut by intensive programs (kiln-drying). The cellular structure of leadership — judgment, relational skill, contextual wisdom — must stabilize through gradual exposure to varied conditions. Kiln-dried leaders (fast-tracked through accelerated programs) appear structurally sound but lack the resonant properties that emerge only from slow crystallization of experience into wisdom.",
+    "prediction": "Leaders who reached senior positions through gradual progression (more than 15 years) will score higher on contextual judgment tasks and receive higher 360-degree feedback on resonance dimensions than fast-tracked leaders (fewer than 8 years), controlling for cognitive ability and personality.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Calligraphic Stroke Order Theory of Surgical Procedure Sequencing",
+    "mechanism_source": "calligraphy",
+    "target_domain": "surgical methodology",
+    "mechanism": "Stroke order rules in East Asian calligraphy where the sequence of brush strokes is rigidly prescribed because each stroke's placement depends on the ink absorption pattern and paper deformation created by preceding strokes",
+    "application": "Surgical procedure sequencing follows calligraphic stroke-order logic: each surgical action alters tissue properties (tension, hydration, visibility) in ways that constrain which subsequent actions are possible. Optimal procedure sequences, like optimal stroke orders, are not arbitrary conventions but physical necessities dictated by substrate response. Deviations from established sequences fail not because of tradition but because the tissue field has been deformed in ways that make subsequent actions imprecise.",
+    "prediction": "Surgical complication rates for procedures performed in non-standard sequence will correlate with the degree of sequence deviation as measured by a calligraphic edit distance metric, even when each individual step is performed with equivalent technical skill.",
+    "viability": "promising",
+    "confidence": 0.69
+  }
+]

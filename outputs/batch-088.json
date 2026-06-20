@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Watchmaking Mainspring Fatigue for Burnout Cycle Prediction",
+    "mechanism_source": "watchmaking",
+    "target_domain": "occupational health",
+    "mechanism": "Mainspring fatigue — a watch mainspring stores energy when wound but develops 'set' (permanent deformation) over thousands of wind-unwind cycles; a fatigued spring delivers less energy per wind, runs for shorter periods, and eventually breaks; the fatigue is invisible until near-failure",
+    "application": "Employee burnout follows mainspring fatigue dynamics. Each work cycle (project sprint, quarterly push) winds and unwinds the employee's motivational spring. Over hundreds of cycles, the spring develops 'set' — permanent deformation that reduces the energy delivered per cycle. A fatigued employee runs for shorter periods between re-windings (needs more frequent vacations), delivers less energy per cycle (lower output quality), and the fatigue is invisible until near-failure (sudden collapse that surprises managers). The spring cannot be un-fatigued; it can only be replaced or the winding reduced.",
+    "prediction": "Employee performance decline patterns will follow mainspring fatigue curves (gradual reduction in peak output per cycle with decreasing cycle duration) rather than linear decline, and employees who have completed more than N high-intensity cycles will show a sudden-failure risk profile regardless of current performance level.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Aeronautical Ground Effect for Early-Stage Startup Dynamics",
+    "mechanism_source": "aeronautics",
+    "target_domain": "startup financing",
+    "mechanism": "Ground effect — aircraft flying within one wingspan of the ground experience dramatically increased lift and reduced drag because the ground interferes with wingtip vortices; this makes takeoff easier but can mask insufficient airspeed for sustained flight; pilots must ensure adequate speed before leaving ground effect",
+    "application": "Early-stage startups fly in ground effect. Incubator proximity, founder networks, initial press coverage, and small-market dominance create a 'ground effect' that provides extra lift and reduced competitive drag. Startups in ground effect appear to fly well but may lack the airspeed (revenue, product-market fit) needed for sustained flight at altitude. The dangerous moment is leaving ground effect — scaling beyond the incubator, entering competitive markets — where the lift bonus disappears and under-speeded startups stall.",
+    "prediction": "Startups that graduate from incubators (leave ground effect) will experience a measurable performance dip in the 6-12 months following graduation, with the dip severity inversely proportional to their revenue velocity (airspeed) at the time of graduation.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Ceramic Bisque Firing for Minimum Viable Product Philosophy",
+    "mechanism_source": "ceramics",
+    "target_domain": "product development",
+    "mechanism": "Bisque firing — the first firing of unfired clay (greenware) at a lower temperature; it hardens the piece enough to handle and paint but leaves it porous enough to absorb glaze; bisqueware is functional but deliberately incomplete, designed to receive the finishing treatment",
+    "application": "The minimum viable product should be a bisque firing, not a finished piece. Bisqueware is deliberately porous — it's hardened enough to be functional but intentionally left absorbent so it can receive the 'glaze' of user feedback and market refinement. Current MVP philosophy often produces either greenware (too fragile to test) or fully glazed ware (too finished to absorb feedback). The bisque stage is the precise point where the product is durable enough for use but porous enough for transformation.",
+    "prediction": "Products launched at 'bisque' completeness (core functionality hardened, surface finish deliberately porous to feedback) will iterate to product-market fit faster than products launched at either lower (greenware/prototype) or higher (fully polished) completeness levels.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Entomological Ant Mill Death Spiral for Groupthink Modeling",
+    "mechanism_source": "entomology",
+    "target_domain": "group decision-making",
+    "mechanism": "Ant mill (death spiral) — when army ants lose the pheromone trail, they begin following each other in an ever-tightening circle, each ant following the one ahead, until the entire group spirals to exhaustion and death; caused by positive feedback in trail-following with no external reference point",
+    "application": "Organizational groupthink is an ant mill. When a decision-making group loses its external reference point (market data, customer feedback, dissenting voices), members begin following each other's signals in a tightening spiral. Each member reinforces the group direction because they're following the member ahead, and the spiral tightens until the group exhausts itself pursuing a circular path. The cure is the same as for ant mills: introduce an external signal (an outsider, fresh data, a forced perspective shift) that breaks the circular following pattern.",
+    "prediction": "Decision-making groups that receive mandatory external-reference-point injections at fixed intervals (outside consultant reviews, customer data presentations, devil's advocate sessions) will avoid groupthink spirals at higher rates than groups that rely on internal dissent mechanisms alone.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Luthier F-Hole Placement for Acoustic Architecture of Meeting Rooms",
+    "mechanism_source": "luthiery",
+    "target_domain": "architectural acoustics",
+    "mechanism": "F-hole design — the f-shaped sound holes in violins are precisely sized and positioned to optimize air resonance inside the body; their shape, placement, and the distance between them determine which frequencies are amplified and which are damped",
+    "application": "Meeting room acoustic design should use f-hole principles. The sound apertures in a meeting room (doors, windows, HVAC vents, gaps between acoustic panels) function as f-holes that determine which frequencies resonate within the space. Currently these apertures are placed for non-acoustic reasons. Deliberate f-hole-style placement of acoustic apertures could optimize speech intelligibility by amplifying the 300Hz-3kHz voice range and damping distracting frequencies, turning the room itself into a resonant instrument tuned for human conversation.",
+    "prediction": "Meeting rooms with acoustic apertures redesigned using violin f-hole optimization principles (positioned to maximize air resonance at speech frequencies) will show measurably higher speech intelligibility scores than conventionally designed rooms of equivalent size and material.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Philosophical Veil of Ignorance for Machine Learning Fairness Testing",
+    "mechanism_source": "philosophy",
+    "target_domain": "ML fairness",
+    "mechanism": "Veil of ignorance (Rawls) — moral principles should be chosen from behind a veil that prevents you from knowing your own position in society; rational agents behind the veil would choose principles that protect the worst-off, since they might be the worst-off",
+    "application": "ML fairness testing should implement a literal veil of ignorance. Before evaluating a model's outputs, evaluators should be placed behind a veil — they don't know which demographic group each output corresponds to. They then assess whether the distribution of outcomes is one they'd accept if they didn't know which group they'd be assigned to. This transforms fairness evaluation from checking statistical parity (which is easily gamed) to checking whether a rational agent would accept the system's outcomes without knowing their group assignment.",
+    "prediction": "Fairness evaluations conducted under veil-of-ignorance conditions (evaluators blind to group assignments while assessing outcome distributions) will identify fairness violations that statistical parity metrics miss, particularly in cases where formally equal metrics mask substantively unequal impacts.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Mycological Symbiotic Lichen Formation for Public-Private Partnership Design",
+    "mechanism_source": "mycology",
+    "target_domain": "public policy",
+    "mechanism": "Lichen symbiosis — a lichen is not a single organism but a stable partnership between a fungus (provides structure, protection, mineral absorption) and an alga or cyanobacterium (provides photosynthetic energy); neither partner can survive alone in the lichen's ecological niche, and the partnership produces a composite organism more resilient than either component",
+    "application": "Public-private partnerships should be designed as lichens, not contracts. The public entity provides the structural mycobiont (regulatory framework, legitimacy, long-term stability) while the private entity provides the photobiont (energy, innovation, revenue generation). True lichen partnerships produce a composite entity that occupies ecological niches neither partner could survive in alone. Current PPPs fail because they're structured as contracts between separate organisms rather than as symbiotic composite organisms with shared metabolism.",
+    "prediction": "Public-private partnerships structured with shared governance and integrated operations (lichen model) will outperform conventionally contracted PPPs in infrastructure longevity and cost efficiency, particularly in hostile regulatory or market environments where neither partner could operate alone.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Astronomical Olbers' Paradox Resolution for Information Overload Theory",
+    "mechanism_source": "astronomy",
+    "target_domain": "information science",
+    "mechanism": "Olbers' paradox — if the universe is infinite and uniformly filled with stars, the night sky should be infinitely bright (every line of sight eventually terminates at a star); the resolution is that the universe is finite in age, so light from distant stars hasn't reached us yet, and expansion redshifts distant light below visibility",
+    "application": "The internet should produce Olbers' paradox for information — if the web is effectively infinite and uniformly filled with content, every search query should return an infinitely dense wall of results. The resolution mirrors the astronomical one: the information universe has finite age (old content decays and disappears), and 'expansion' (platform proliferation, format evolution) redshifts old content below discoverability. Information overload is not the paradox — the paradox is why we don't experience more of it.",
+    "prediction": "The perceived intensity of information overload will correlate inversely with the rate of platform proliferation (expansion rate), because faster platform expansion redshifts more content below discoverability thresholds, counterintuitively reducing effective information density.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Shipbuilding Plimsoll Line for Cloud Computing Cost Control",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "cloud computing economics",
+    "mechanism": "Plimsoll line (load line) — markings on a ship's hull indicating the maximum depth to which it can be safely loaded under various conditions (tropical, summer, winter, freshwater); loading beyond the line risks capsizing; different conditions have different safe-load limits",
+    "application": "Cloud computing accounts need Plimsoll lines — visible markings indicating maximum safe resource loading under various conditions. Just as a ship's safe load varies with water conditions (tropical seas allow less loading than calm freshwater), cloud resource limits should vary with business conditions (peak sales season allows higher loading than normal operations). The key Plimsoll insight is that the line must be painted on the outside (visible to observers/auditors), not just measured internally, and that exceeding it should be a regulatory violation.",
+    "prediction": "Cloud accounts that implement externally visible, condition-dependent spending limits (Plimsoll lines) will experience fewer cost overrun incidents than accounts using fixed monthly budgets, because the condition-dependent limits account for legitimate load variation while maintaining visible safety margins.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Dance Butoh Darkness Practice for Creative Block Resolution",
+    "mechanism_source": "dance",
+    "target_domain": "creative psychology",
+    "mechanism": "Butoh ankoku butoh (dance of darkness) — performers cultivate a state of radical receptivity by surrendering conscious control and allowing the body to be 'danced by' images, memories, and impulses from the unconscious; movement emerges from emptiness rather than intention",
+    "application": "Creative blocks are failures of intentional control, not failures of creativity. Like butoh practitioners, blocked creators need to surrender the attempting-to-create posture and enter radical receptivity — allowing work to emerge from emptiness rather than forcing it from intention. The butoh insight is that the body (creative faculty) already knows how to move (create); conscious intention is the obstacle, not the solution. Creative block resolution requires darkening the studio (reducing stimulation and expectation) and waiting for the work to 'dance you.'",
+    "prediction": "Creators experiencing block who undergo a structured 'darkness practice' (reduced sensory input, suspended goal-orientation, receptive rather than productive posture) will resume creative output faster than creators who attempt to power through the block with disciplined production schedules.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Forensic Digital Chain of Custody for AI Training Data Provenance",
+    "mechanism_source": "forensics",
+    "target_domain": "AI governance",
+    "mechanism": "Chain of custody — the unbroken documented trail showing who collected, handled, stored, and transferred evidence at every point from crime scene to courtroom; any break in the chain can render evidence inadmissible regardless of its actual integrity",
+    "application": "AI training data needs forensic chain-of-custody standards. Every dataset used to train an AI system should have an unbroken documented trail showing who collected it, how it was processed, where it was stored, and who transferred it at every point from source to model training. Any break in this chain should render the resulting model's outputs legally and ethically questionable, just as broken chain-of-custody renders evidence inadmissible regardless of its actual integrity.",
+    "prediction": "AI systems trained on data with complete chain-of-custody documentation will face fewer legal challenges and regulatory penalties than systems trained on equivalent data without provenance documentation, as AI regulation matures.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Ethnomusicological Participatory vs Presentational Music for Meeting Design",
+    "mechanism_source": "ethnomusicology",
+    "target_domain": "meeting facilitation",
+    "mechanism": "Participatory vs presentational music — ethnomusicologist Thomas Turino distinguishes between music where everyone participates (drum circles, hymn singing) and music performed for an audience; each creates fundamentally different social bonds and serves different cultural functions",
+    "application": "Meetings should be explicitly designed as either participatory or presentational, never hybrid. Participatory meetings (brainstorms, retrospectives) should follow drum-circle principles: no audience, everyone plays, rhythm more important than melody, mistakes absorbed by the group. Presentational meetings (status updates, demos) should follow concert principles: clear performer-audience distinction, polished delivery, silent reception. The pathology of most meetings is that they're hybrid — participatory expectations with presentational structure — producing neither good jamming nor good performance.",
+    "prediction": "Teams that explicitly classify meetings as either participatory or presentational and apply format-appropriate rules to each will rate meeting effectiveness higher than teams running hybrid-format meetings, even when total meeting time is unchanged.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Origami Wet-Folding for Graceful Degradation in Software Systems",
+    "mechanism_source": "origami",
+    "target_domain": "fault tolerance",
+    "mechanism": "Wet-folding — dampening paper before folding allows gentler, rounder curves instead of sharp creases; the paper is more pliable during construction but dries into a rigid final form; wet-folded models have a softer, more organic appearance and are structurally stronger at their folds because the fibers interlock during drying",
+    "application": "Software systems should be designed with wet-folding principles for graceful degradation. Sharp-creased code (rigid, precise, brittle) fails catastrophically at fold points under stress. Wet-folded code is more pliable during runtime — it bends gently around errors rather than cracking. The wet-folding approach means building components that are slightly imprecise but interlock their error-handling fibers during normal operation, creating fold points that are structurally stronger than the surrounding material. Dry, sharp code is precise but shatters under unexpected load.",
+    "prediction": "Software systems designed with intentional flexibility at component boundaries (wet-folded — accepting slightly imprecise inputs and gracefully rounding error responses) will maintain higher availability under unexpected load conditions than systems with rigid, precise interface contracts.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Calligraphic Ma (Negative Time) for Presentation Pacing",
+    "mechanism_source": "calligraphy",
+    "target_domain": "public speaking",
+    "mechanism": "Ma — the Japanese aesthetic concept of meaningful negative space/time; in calligraphy, the intervals between strokes are as deliberately composed as the strokes themselves; in music, rests are notes; in architecture, emptiness is structure",
+    "application": "Presentation pacing should be designed ma-first. Instead of filling time with content and adding pauses, speakers should compose the silences first and fit content between them. The intervals between ideas are the structural elements; the spoken words are the fill. A presentation with well-composed ma creates the same effect as calligraphy with well-composed negative space: the audience perceives the content as more elegant, meaningful, and memorable because the emptiness gives the fullness its shape.",
+    "prediction": "Presentations designed silence-first (deliberate ma composition) will receive higher audience comprehension and retention scores than content-equivalent presentations designed content-first with pauses added afterward, in controlled comparison studies.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Heraldic Abatement of Arms for Corporate Reputation Damage Signaling",
+    "mechanism_source": "heraldry",
+    "target_domain": "corporate reputation management",
+    "mechanism": "Abatement of honour — marks of disgrace added to a coat of arms for dishonorable conduct (rarely enforced historically); the bearer must display the abatement, publicly advertising their dishonor; unlike criminal punishment, the abatement modifies identity rather than restricting freedom",
+    "application": "Corporate misconduct should result in heraldic abatement rather than (or in addition to) fines. A company found guilty of environmental violations, fraud, or labor abuse would be required to display an 'abatement mark' on all corporate communications, branding, and products for a defined period. Unlike fines (which large companies absorb as cost of business), abatement modifies corporate identity — it forces the company to advertise its dishonor in every customer interaction, making the reputational cost continuous and visible.",
+    "prediction": "Companies subject to mandatory public abatement-style disclosure requirements (visible misconduct marks on branding) would change behavior faster than companies subject to equivalent monetary fines alone, because identity modification is more aversive than financial cost to brand-dependent organizations.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

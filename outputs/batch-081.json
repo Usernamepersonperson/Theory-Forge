@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sourdough Starter Dynamics of Political Revolutions",
+    "mechanism_source": "fermentation",
+    "target_domain": "political science",
+    "mechanism": "Sourdough starter maintenance — a stable microbial culture requires regular feeding and discard cycles; neglect causes either death or hostile takeover by acetobacter",
+    "application": "Revolutionary movements function like sourdough starters: they require regular 'feeding' of grievances and partial 'discard' of radical elements to maintain a viable culture. Movements that are never fed (suppressed grievances) die, while those never discarded (no moderation of extremists) turn to vinegar — toxic and unusable. The healthiest revolutionary cultures maintain a rhythm of incorporation and expulsion.",
+    "prediction": "Revolutionary movements that undergo at least one internal purge of extreme factions within their first three years will achieve stated policy goals at higher rates than those that never moderate, testable across post-1945 revolutionary movements.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Origami Crease Pattern Theory of Database Indexing",
+    "mechanism_source": "origami",
+    "target_domain": "database engineering",
+    "mechanism": "Origami flat-foldability — a crease pattern must satisfy Kawasaki's theorem (alternating angles sum to 180°) and Maekawa's theorem (mountain-valley difference is ±2) to fold flat",
+    "application": "Database index structures can be optimized by treating each index as a 'crease' in the data space. Just as origami requires specific angle relationships between creases for flat-foldability, database indices require specific cardinality relationships to 'fold' query space efficiently. Redundant or poorly-angled indices create the database equivalent of crumpled paper — wasted space with no structural benefit.",
+    "prediction": "Index configurations where the cardinality ratios between adjacent composite index columns satisfy a ratio constraint analogous to Kawasaki's theorem will show measurably lower query planning time than configurations violating this constraint.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Falconry Manning Protocol for AI Alignment",
+    "mechanism_source": "falconry",
+    "target_domain": "artificial intelligence",
+    "mechanism": "Manning — the gradual habituation process where a wild-caught raptor is slowly acclimated to human presence through controlled exposure, food association, and incremental trust-building over weeks",
+    "application": "AI alignment could adopt falconry's manning protocol: rather than attempting to instill values through training alone (the equivalent of trying to tame a hawk in one session), alignment should proceed through graduated exposure stages where the AI system is given incrementally larger action spaces paired with reward signals. The falconer never trusts a freshly manned hawk at quarry — there are intermediate stages of creance (tethered) flying before free flight.",
+    "prediction": "AI systems trained with staged capability release (restricted action space gradually expanded contingent on alignment metrics) will show more robust goal adherence under distribution shift than systems given full capabilities from the start.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Mycorrhizal Network Model of Corporate Knowledge Transfer",
+    "mechanism_source": "mycology",
+    "target_domain": "organizational behavior",
+    "mechanism": "Mycorrhizal networks — fungal hyphae connect tree root systems underground, enabling nutrient transfer from resource-rich trees to resource-poor ones, with the fungus taking a percentage as metabolic commission",
+    "application": "Corporate knowledge management should be restructured as mycorrhizal networks rather than top-down knowledge bases. Informal knowledge brokers (the fungal hyphae) connect information-rich departments to information-poor ones, extracting a 'commission' in the form of social capital. Organizations that try to eliminate these brokers through centralized wikis are effectively clear-cutting the mycelium — the trees still stand but lose their underground support system.",
+    "prediction": "Organizations that identify and formally support knowledge broker individuals (without replacing them with databases) will show 15-25% faster cross-departmental problem resolution times compared to organizations that invest equivalent resources in centralized knowledge management systems.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Knot Invariant Classification of Musical Keys",
+    "mechanism_source": "knot theory",
+    "target_domain": "music theory",
+    "mechanism": "Knot invariants — mathematical properties (crossing number, Jones polynomial, unknotting number) that remain unchanged regardless of how a knot is deformed, used to classify knots as equivalent or distinct",
+    "application": "Musical keys and their relationships can be classified using knot invariant logic. Each key signature, when its circle-of-fifths transitions are traced as a path through pitch space, forms a topological knot. Enharmonic equivalents are ambient isotopies — different projections of the same knot. The 'crossing number' of a key's characteristic melodic patterns could classify compositional complexity in a way that traditional theory misses.",
+    "prediction": "Compositions in keys whose circle-of-fifths knot representations have higher crossing numbers will be rated as more harmonically complex by trained musicians, independent of the specific notes used.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Tidal Bore Propagation Model of Viral Content Spread",
+    "mechanism_source": "oceanography",
+    "target_domain": "media studies",
+    "mechanism": "Tidal bores — when an incoming tide enters a narrowing river channel, the wave front steepens into a wall of water that propagates upstream against the current, intensifying as the channel narrows",
+    "application": "Viral content spreads like a tidal bore rather than a simple wave. Content entering a narrow community channel (niche subreddit, specialist forum) steepens into a concentrated wall of engagement that travels upstream against the normal information flow. The narrower and more defined the community channel, the more intense the bore. Content that goes viral in broad, open channels (mainstream social media) dissipates like tides on open coastline.",
+    "prediction": "Content that first achieves virality in a community with fewer than 50,000 members will reach mainstream saturation 40% faster than content that first goes viral on platforms with over 10 million users, as measured by Google Trends velocity.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Heraldic Blazon Grammar for API Documentation",
+    "mechanism_source": "heraldry",
+    "target_domain": "software engineering",
+    "mechanism": "Blazon — the formal language for describing coats of arms, which uses strict positional grammar to unambiguously reconstruct a visual design from text alone, with no reference to color names but rather tincture categories (metal, colour, fur)",
+    "application": "API documentation could adopt blazon's unambiguous descriptive grammar. Just as blazon can reconstruct any coat of arms from text without images, a 'code blazon' would describe API endpoints, parameters, and responses in a strict positional grammar that eliminates ambiguity. The tincture system (categorizing elements by type rather than specific value) maps to typing systems that describe data shape rather than content.",
+    "prediction": "Developers given API documentation written in a blazon-inspired positional grammar will produce correct first-attempt integrations at higher rates than developers given equivalent conventional REST documentation, measurable through a controlled coding exercise.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Circus Aerial Rigging Safety Protocol for Financial Regulation",
+    "mechanism_source": "circus arts",
+    "target_domain": "financial regulation",
+    "mechanism": "Aerial rigging redundancy — circus rigging uses triple-redundant attachment points, independent safety lines, and the principle that no single point of failure should exist; every load-bearing element is backed by two independent alternatives",
+    "application": "Financial regulatory frameworks should adopt circus aerial rigging principles: every systemically important institution should have triple-redundant capital buffers with independent trigger mechanisms. Just as aerial rigs are tested to 10x the performer's weight, bank stress tests should use 10x historical worst-case scenarios. The circus principle that the audience should never see the safety equipment maps to the regulatory goal of maintaining market confidence.",
+    "prediction": "Banks required to maintain three independent capital reserve mechanisms (each triggered by different metrics) will be less likely to require government bailouts than banks with single-metric capital requirements, even when total required reserves are equivalent.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Perfume Note Pyramid for Curriculum Design",
+    "mechanism_source": "perfumery",
+    "target_domain": "education",
+    "mechanism": "Fragrance pyramid — perfumes are constructed in three layers: top notes (immediately perceived, volatile, evaporate first), heart notes (emerge after top notes fade, form the main character), and base notes (slow-release, persist longest, anchor the composition)",
+    "application": "Curricula should be designed as fragrance pyramids. Top notes are the immediately engaging hooks (demonstrations, provocative questions, hands-on activities) that evaporate after the first session. Heart notes are the core concepts that emerge once initial excitement fades and form the main learning experience. Base notes are the foundational principles that students don't perceive until much later but persist longest in memory and anchor all other learning.",
+    "prediction": "Courses explicitly designed with a three-layer temporal engagement structure (hook/core/foundation) will show higher 12-month knowledge retention than courses that front-load all foundational material, as measured by delayed post-tests.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Tribological Wear Pattern Analysis of Relationship Deterioration",
+    "mechanism_source": "tribology",
+    "target_domain": "social psychology",
+    "mechanism": "Tribological wear modes — surfaces in contact undergo adhesive wear (material transfer between surfaces), abrasive wear (harder surface scratches softer), fatigue wear (cyclic stress causes subsurface cracks), and corrosive wear (chemical degradation at contact points)",
+    "application": "Romantic relationship deterioration follows distinct tribological wear modes. Adhesive wear occurs when partners lose individual identity through excessive enmeshment. Abrasive wear happens when a dominant partner erodes the other's autonomy. Fatigue wear results from repetitive low-level conflicts that create subsurface emotional cracks. Corrosive wear occurs when external stressors (financial, family) chemically degrade the contact surface between partners.",
+    "prediction": "Couples whose primary conflict pattern maps to fatigue wear (high-frequency, low-intensity repeating arguments) will show relationship dissolution patterns distinct from couples with abrasive wear patterns (asymmetric power), with fatigue-wear couples reporting sudden unexpected breakups and abrasive-wear couples reporting gradual disengagement.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Volcanic Caldera Collapse Model of Organizational Restructuring",
+    "mechanism_source": "volcanology",
+    "target_domain": "management science",
+    "mechanism": "Caldera formation — when a magma chamber empties rapidly during eruption, the unsupported roof collapses inward, creating a depression much larger than the original vent; subsequent magma intrusion can cause resurgent doming within the caldera",
+    "application": "Major corporate restructurings follow caldera dynamics. When key talent or capital (magma) is rapidly extracted through layoffs or divestiture, the organizational structure above collapses inward into a depression far larger than the original 'vent' of the problem being addressed. Subsequent reinvestment (magma intrusion) can cause resurgent doming — new growth within the collapsed structure — but the organization's topography is permanently altered.",
+    "prediction": "Companies that lose more than 20% of mid-level management in a single restructuring event will experience productivity declines in departments not directly affected by the cuts, with the affected zone being 2-3x larger than predicted by the restructuring plan.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Watchmaking Escapement Mechanism for Democratic Deliberation",
+    "mechanism_source": "watchmaking",
+    "target_domain": "democratic theory",
+    "mechanism": "Escapement — the mechanism that converts continuous energy (mainspring) into regulated discrete ticks by alternately locking and releasing the gear train, preventing the energy from discharging all at once",
+    "application": "Democratic deliberation needs an escapement mechanism to convert the continuous energy of public opinion into regulated discrete policy actions. Without an escapement, populist energy discharges all at once (mob rule). Overly restrictive escapements (excessive bureaucracy) slow the mechanism to uselessness. The optimal escapement allows exactly one 'tick' of policy change per deliberation cycle, maintaining constitutional tempo.",
+    "prediction": "Democracies with institutional structures that enforce mandatory cooling-off periods between proposal and vote (functioning as escapements) will show lower policy reversal rates than democracies that allow immediate floor votes on new proposals.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Entomological Metamorphosis Stages of Startup Development",
+    "mechanism_source": "entomology",
+    "target_domain": "entrepreneurship",
+    "mechanism": "Holometabolous metamorphosis — complete transformation through egg, larva, pupa, and adult stages, where the pupal stage involves near-complete dissolution of larval tissues before adult structures form from imaginal discs",
+    "application": "Successful startups undergo holometabolous metamorphosis. The larval stage (early growth) optimizes for consumption and growth, not reproduction. The pupal stage (Series A-B transition) requires near-complete dissolution of the founding team's original processes before adult organizational structures crystallize from 'imaginal discs' — small groups of employees who carry the template for the mature organization. Startups that try to skip the pupal dissolution stage produce malformed adults.",
+    "prediction": "Startups that undergo a major operational restructuring between their growth and scaling phases (pupal dissolution) will achieve profitability at higher rates than startups that attempt to scale their original organizational structure intact.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Bookbinding Signature Gathering for Distributed Systems Consensus",
+    "mechanism_source": "bookbinding",
+    "target_domain": "distributed computing",
+    "mechanism": "Signature gathering — in traditional bookbinding, individual printed sheets (signatures) are folded, collated in order, and sewn together through their shared spine; a missing or out-of-order signature is immediately detectable by page numbering",
+    "application": "Distributed systems consensus protocols could use a bookbinding signature model where each node contributes a 'signature' (ordered data page) that must be folded and collated before the 'book' (consensus state) is bound. Missing signatures are immediately detectable by sequence gaps. The sewing-through-spine mechanism maps to a shared hash chain that physically connects all signatures, making tampering as obvious as a torn page.",
+    "prediction": "A consensus protocol designed around sequential signature collation with spine-hash binding will achieve Byzantine fault detection with fewer message rounds than traditional PBFT in networks with ordered node identities.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Paleontological Taphonomy of Digital Archive Decay",
+    "mechanism_source": "paleontology",
+    "target_domain": "digital preservation",
+    "mechanism": "Taphonomy — the study of how organisms decay, become buried, and fossilize; only a tiny fraction of organisms are preserved, and preservation is systematically biased toward hard-bodied, shallow-water, rapidly-buried specimens",
+    "application": "Digital archives undergo taphonomic processes identical to fossil formation. Only a tiny fraction of digital content is 'fossilized' (archived), and preservation is systematically biased toward well-structured, popular, institutionally-backed content (the 'hard-bodied shallow-water organisms' of the internet). Ephemeral, informal, or marginalized digital content decays like soft-bodied organisms — leaving no trace. Understanding digital taphonomy reveals what future historians will and won't be able to reconstruct.",
+    "prediction": "Analysis of Internet Archive coverage will show the same preservation biases found in the fossil record: content from institutional sources will be archived at 10x+ the rate of individual-produced content, and text-heavy content will be preserved at higher rates than multimedia, mirroring the hard-body/soft-body preservation disparity.",
+    "viability": "promising",
+    "confidence": 0.78
+  }
+]

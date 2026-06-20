@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ceramic Raku Firing Theory of Improvisational Jazz Pedagogy",
+    "mechanism_source": "ceramics",
+    "target_domain": "music education",
+    "mechanism": "Raku firing where pottery is removed from the kiln at peak temperature and subjected to rapid cooling and reduction in combustible material, producing unpredictable surface effects that the potter learns to guide but never fully control",
+    "application": "Jazz improvisation pedagogy should follow raku firing principles: students must be removed from the controlled kiln of structured practice and subjected to the thermal shock of live performance at peak readiness, not after cooling into safe competence. The characteristic crackle glaze of raku — produced by thermal stress — corresponds to the tension-derived beauty of live jazz. Controlled studio recording is like conventional kiln firing: predictable, polished, but lacking the emergent surface effects.",
+    "prediction": "Jazz students introduced to live performance contexts earlier in their training (raku approach) will develop more distinctive improvisational voices (measured by listener differentiation tasks) than students who complete structured training before performing, despite lower technical polish scores.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Oceanographic Upwelling Model of Innovation in Declining Industries",
+    "mechanism_source": "oceanography",
+    "target_domain": "innovation economics",
+    "mechanism": "Coastal upwelling where wind-driven surface currents push warm water offshore, drawing cold nutrient-rich deep water to the surface, creating the most biologically productive marine zones",
+    "application": "Innovation flourishes at the boundaries of declining industries through an upwelling mechanism. When market winds push established firms offshore (displacement by new technology), they draw up deep pools of accumulated expertise that become newly accessible. The richest innovation zones are not at the leading edge of new industries but at the upwelling boundaries where old expertise meets new surface conditions. This explains why many breakthrough innovations emerge from recombining legacy knowledge with new market forces.",
+    "prediction": "Patent citation analysis will show that innovations at industry transition boundaries cite a disproportionate share of deep legacy knowledge (patents older than 15 years) compared to innovations in established or purely new industries, with the citation depth profile matching upwelling nutrient profiles.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Semiotics of Indexical Signs Applied to Biomarker Interpretation",
+    "mechanism_source": "semiotics",
+    "target_domain": "clinical diagnostics",
+    "mechanism": "Peircean indexical signs that derive meaning from causal or physical connection to their referent (smoke indexes fire, a footprint indexes a walker) rather than from convention or resemblance",
+    "application": "Medical biomarkers function as indexical signs in Peirce's taxonomy, and diagnostic errors arise from treating them as symbolic signs (conventional associations) instead. An elevated troponin is an index of myocardial injury (causally connected) but is often read as a symbol of heart attack (conventional association). Semiotic analysis reveals that diagnostic accuracy improves when clinicians reason indexically (what causal process connects this sign to its referent) rather than symbolically (what does this sign conventionally mean).",
+    "prediction": "Training clinicians in Peircean indexical reasoning will reduce false-positive diagnostic rates for ambiguous biomarker presentations by 10-20% compared to pattern-recognition training alone, measured across a standardized set of clinical vignettes.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Aeronautical Vortex Shedding Theory of Political Instability Cycles",
+    "mechanism_source": "aeronautics",
+    "target_domain": "political science",
+    "mechanism": "Von Karman vortex streets where alternating vortices are shed from a bluff body in a flow stream at a frequency determined by the Strouhal number, creating periodic oscillating forces perpendicular to the flow",
+    "application": "Political regimes in developing states experience vortex shedding: as the flow of modernization passes around the bluff body of traditional power structures, alternating vortices of progressive and reactionary movements are shed at a characteristic frequency. The Strouhal number analog — determined by the ratio of modernization velocity to institutional size — predicts the oscillation period. Resonance occurs when vortex shedding frequency matches the natural frequency of the political structure, causing catastrophic instability.",
+    "prediction": "The period of political regime oscillations (democratic opening followed by authoritarian retrenchment) in transitional states will correlate with a Strouhal-derived frequency based on GDP growth rate divided by bureaucratic size, with prediction accuracy exceeding simple growth-rate models.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Knot Theory Reidemeister Moves in Diplomatic Negotiation",
+    "mechanism_source": "knot theory",
+    "target_domain": "international relations",
+    "mechanism": "Reidemeister moves — three elementary local manipulations that can transform any knot diagram into any equivalent diagram, proving that knot equivalence can be established through a finite sequence of simple operations",
+    "application": "Complex diplomatic deadlocks are tangled knot diagrams where the entanglement of issues obscures whether a resolution exists. Reidemeister-type moves — local issue swaps (Type I), pairwise concession exchanges (Type II), and three-party rerouting (Type III) — can systematically simplify any negotiation tangle. If the underlying structure is an unknot (resolvable), a finite sequence of these moves will reach resolution. If it is genuinely knotted (irreconcilable), no sequence will work, and the invariant analysis reveals this early.",
+    "prediction": "Diplomatic negotiations where mediators systematically apply Reidemeister-classified simplification moves will reach resolution or confirmed deadlock faster than unstructured negotiations, with time savings of 15-25% measured across simulated multilateral scenarios.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Origami Rigidity Theory of Deployable Space Structures",
+    "mechanism_source": "origami mathematics",
+    "target_domain": "aerospace engineering",
+    "mechanism": "Rigid origami where panels remain flat during folding and all deformation is concentrated at crease lines, enabling structures that fold compactly but deploy into rigid three-dimensional forms",
+    "application": "Satellite solar arrays and space habitat modules can be designed using rigid origami principles, where the deployed structure achieves full rigidity without additional locking mechanisms because the crease pattern constrains the degrees of freedom to a single folding path. The Miura-ori fold and its generalizations provide a mathematical framework for structures that are simultaneously compact (for launch) and rigid (for operation), with the fold pattern itself encoding the deployment sequence.",
+    "prediction": "Solar array designs based on rigid origami crease patterns will achieve deployment reliability above 99.5% and specific stiffness ratios exceeding conventional designs by 30% or more, validated through ground-based deployment testing of meter-scale prototypes.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Watchmaking Complication Architecture in Database Query Optimization",
+    "mechanism_source": "watchmaking",
+    "target_domain": "database engineering",
+    "mechanism": "Horological complications where additional functions (chronograph, perpetual calendar, minute repeater) are layered onto the base movement through auxiliary gear trains that must share the same mainspring energy without interfering with timekeeping accuracy",
+    "application": "Database query optimizers should be architectured like watch complications: each optimization (join reordering, predicate pushdown, materialized view selection) operates as an auxiliary gear train sharing the same computational energy budget. Like watch complications, query optimizations must be independent enough to function alone but synchronized enough to share resources without interfering with base query accuracy. Over-complicated queries, like over-complicated watches, become unreliable.",
+    "prediction": "Query optimizer architectures designed with explicit energy-budget sharing between optimization passes (complication architecture) will produce more stable execution plans under varying data distributions than monolithic optimizers, with plan stability improving by 20% or more.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Mycological Spore Dispersal Theory of Startup Ecosystem Seeding",
+    "mechanism_source": "mycology",
+    "target_domain": "entrepreneurship ecosystems",
+    "mechanism": "Fungal spore dispersal strategies ranging from passive wind dispersal (broad, low-precision) to active ballistic ejection (targeted, high-energy) to insect-vectored transport (co-opted network), with germination dependent on landing in suitable substrate",
+    "application": "Startup ecosystems are seeded through spore dispersal analogs. Failed startups release entrepreneurial spores (experienced founders, developed technologies, trained teams) through wind dispersal (job market distribution), ballistic ejection (spin-offs launched with momentum from the parent failure), and insect-vectored transport (VC networks carrying founders to new substrate). Ecosystem fertility depends not on preventing startup failure but on ensuring spore viability and substrate quality.",
+    "prediction": "Regional startup ecosystem productivity will correlate more strongly with the rate and dispersal pattern of resources from failed startups (spore dispersal metrics) than with raw startup creation rates, with dispersal-aware models explaining 15-25% more variance in new venture quality.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Paleontological Punctuated Equilibrium Model of Programming Language Evolution",
+    "mechanism_source": "paleontology",
+    "target_domain": "programming language theory",
+    "mechanism": "Punctuated equilibrium where species exhibit long periods of morphological stasis interrupted by rapid bursts of speciation, typically associated with geographic isolation and environmental change",
+    "application": "Programming language evolution follows punctuated equilibrium rather than phyletic gradualism. Languages remain morphologically stable for long periods (C unchanged for decades, COBOL for longer), with rapid speciation events triggered by environmental shifts (new hardware paradigms, new problem domains) and geographic isolation (community forks, organizational boundaries). Intermediate forms are rare in the language fossil record because speciation occurs rapidly in small isolated populations.",
+    "prediction": "Analysis of programming language feature adoption over time will show bimodal distributions — features either adopted rapidly during speciation events or not at all — rather than gradual diffusion curves, with the timing of speciation events correlated with hardware or platform paradigm shifts.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Entomological Eusociality Framework for Open Source Governance",
+    "mechanism_source": "entomology",
+    "target_domain": "open source software governance",
+    "mechanism": "Eusocial insect colonies with reproductive division of labor, overlapping generations, and cooperative brood care, where colony fitness is optimized through inclusive fitness mechanisms rather than individual reproductive success",
+    "application": "Successful open source projects converge on eusocial governance structures. Core maintainers function as the reproductive caste (producing the canonical codebase), contributors as workers (foraging for features, defending against bugs), and the project's inclusive fitness is maximized when contributors' genetic relatedness analog (shared technical values, coding standards) is high. Projects that lack eusocial structure — where every contributor attempts to be reproductive (pushing architectural changes) — fragment like solitary insect populations.",
+    "prediction": "Open source projects with governance structures scoring higher on a eusociality index (role differentiation, generational overlap, cooperative maintenance) will show lower fork rates and higher contributor retention than projects with flat governance, controlling for project size and domain.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Textile Felting Theory of Knowledge Integration in Interdisciplinary Teams",
+    "mechanism_source": "textile engineering",
+    "target_domain": "science of team science",
+    "mechanism": "Felting where loose wool fibers become permanently interlocked through the combination of heat, moisture, and mechanical agitation, with the directional scales on wool fibers creating irreversible entanglement",
+    "application": "Interdisciplinary knowledge integration follows felting mechanics. Individual disciplinary knowledge fibers must be subjected to the right combination of conceptual heat (intellectual challenge), social moisture (trust and psychological safety), and mechanical agitation (structured interaction protocols) to interlock permanently. Like wool scales, disciplinary knowledge has directional features that make integration irreversible once achieved — truly integrated knowledge cannot be separated back into component disciplines.",
+    "prediction": "Interdisciplinary teams subjected to structured interaction protocols combining intellectual challenge, trust-building, and repeated interaction (felting conditions) will produce more deeply integrated research outputs (measured by cross-disciplinary citation patterns) than teams with equivalent expertise but unstructured interaction.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Viticulture Vintage Variation Theory of Cohort Effects in Education",
+    "mechanism_source": "viticulture",
+    "target_domain": "educational assessment",
+    "mechanism": "Vintage variation where the same grape variety from the same vineyard produces wines of dramatically different quality depending on the growing season's weather, with exceptional vintages commanding premium prices and recognition",
+    "application": "Student cohorts exhibit vintage variation: the same educational program (vineyard) with the same curriculum (grape variety) produces dramatically different outcomes depending on the conditions of the educational growing season — economic climate, cultural moment, technological disruption, even global events. Current assessment frameworks that ignore vintage effects attribute cohort-level variation entirely to institutional performance, producing systematic evaluation errors.",
+    "prediction": "Controlling for institutional quality and student demographics, year-of-enrollment will explain 8-15% of variance in educational outcomes, with specific vintage years identifiable as exceptional or poor based on contemporaneous socioeconomic stress indicators, analogous to vintage charts in viticulture.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Luthiery Bridge Placement Theory of Organizational Communication Nodes",
+    "mechanism_source": "luthiery",
+    "target_domain": "organizational network analysis",
+    "mechanism": "Bridge placement on stringed instruments where the bridge position determines which harmonics are amplified or suppressed by dividing the string into specific fractional lengths, with millimeter deviations producing dramatic tonal changes",
+    "application": "Key communication nodes in organizations function as instrument bridges: their precise position in the organizational network determines which information harmonics (frequencies of communication) are amplified and which are suppressed. Moving a single bridge-node by one reporting relationship can dramatically alter the organization's information tonal quality. This explains why seemingly minor organizational restructurings sometimes produce outsized effects on communication culture.",
+    "prediction": "Network analysis of organizational communication before and after restructuring will show that changes to bridge-position nodes (high betweenness centrality, connecting distinct clusters) produce tonal shifts in communication frequency spectra 3-5x larger than changes to non-bridge nodes of equivalent seniority.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Fermentation Wild Yeast Theory of Emergent Urban Subcultures",
+    "mechanism_source": "fermentation science",
+    "target_domain": "cultural geography",
+    "mechanism": "Spontaneous fermentation where wild yeasts and bacteria from the local environment colonize the substrate without inoculation, producing location-specific flavors (as in Belgian lambic brewing) that cannot be reproduced elsewhere",
+    "application": "Urban subcultures emerge through spontaneous fermentation: the cultural substrate of a neighborhood is colonized by wild social 'yeasts' — the specific mix of populations, institutions, and chance events unique to that location. Attempts to reproduce successful subcultures (arts districts, tech hubs) in new locations fail for the same reason industrial lambic fails: the wild microbial flora cannot be transplanted. Planned cultural districts are inoculated fermentations — predictable but lacking the complexity of spontaneous culture.",
+    "prediction": "Urban cultural districts that emerged spontaneously will show higher cultural diversity indices and longer lifespans than planned cultural districts of equivalent size and funding, with the diversity difference attributable to the number of independent cultural lineages (wild yeast strains) present at emergence.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Calligraphic Negative Space Theory of Architectural Void Design",
+    "mechanism_source": "calligraphy",
+    "target_domain": "architecture",
+    "mechanism": "Ma (negative space) in East Asian calligraphy where the unwritten portions of a character carry as much compositional weight as the brushstrokes, with master calligraphers described as painting the space rather than the strokes",
+    "application": "Architectural design should treat voids (corridors, courtyards, atriums, gaps between buildings) as the primary compositional elements rather than residual spaces left after solid elements are placed. Like calligraphic negative space, architectural voids carry functional and experiential weight that determines how the built environment is inhabited. Buildings designed void-first (painting the space) achieve qualitatively different spatial experiences than those designed solid-first with voids as afterthought.",
+    "prediction": "Buildings designed with explicit void-first methodology will score higher on post-occupancy evaluation metrics for wayfinding, social interaction, and subjective spaciousness than buildings of equivalent program and square footage designed with conventional solid-first approaches.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Shipbuilding Hull Fairing for Resume Optimization",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "career development",
+    "mechanism": "Hull fairing — the process of shaping a ship's hull into smooth, flowing curves that minimize hydrodynamic drag; unfaired hulls with flat spots or bumps create turbulence that dramatically increases resistance even at low speeds",
+    "application": "Resumes need fairing. Career narratives with abrupt transitions (flat spots), unexplained gaps (bumps), or misaligned role progressions create 'cognitive drag' in the reader that slows comprehension and reduces persuasive impact. Resume fairing smooths the career hull into a hydrodynamically efficient narrative where each role flows into the next. The shipbuilder's insight is that fairing is subtractive — you achieve smoothness by removing material at high points, not by adding material to fill low points.",
+    "prediction": "Resumes that are 'faired' by removing detail from over-described roles (rather than adding detail to under-described roles) will receive higher callback rates than resumes that fill gaps with additional explanation, controlling for equivalent content.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Theological Apophatic Method for Requirements Elicitation",
+    "mechanism_source": "theology",
+    "target_domain": "requirements engineering",
+    "mechanism": "Apophatic theology (via negativa) — defining God by what God is not, since positive statements about infinite being are always inadequate; 'God is not finite, not material, not comprehensible' progressively triangulates the divine nature",
+    "application": "Software requirements should be gathered apophatically — by systematically asking stakeholders what the system should NOT do, rather than what it should do. Stakeholders are notoriously poor at articulating positive requirements but excellent at identifying what they hate in existing systems. The apophatic method triangulates the desired system by progressively eliminating what it is not. The resulting 'negative requirements space' constrains the solution more precisely than positive requirements ever could.",
+    "prediction": "Requirements gathered through structured negative elicitation ('what should this system never do?') will produce software with higher user satisfaction scores than requirements gathered through traditional positive elicitation ('what should this system do?'), in a controlled comparison study.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Winemaking Bâtonnage for Data Lake Quality Improvement",
+    "mechanism_source": "winemaking",
+    "target_domain": "data engineering",
+    "mechanism": "Bâtonnage (lees stirring) — periodically stirring the dead yeast sediment (lees) back into aging wine, which releases proteins and polysaccharides that add body, texture, and complexity; the sediment that would otherwise be waste becomes a quality enhancer",
+    "application": "Data lakes accumulate 'lees' — dead data, deprecated schemas, orphaned tables, and stale metadata that settle to the bottom of the lake. Rather than treating this sediment as pure waste (the current approach of periodic purging), data engineers should practice bâtonnage: periodically stirring this sediment back into active data flows. Dead data contains schema evolution history, deprecated feature usage patterns, and failed experiment results that add 'body and texture' to analytical models when reintegrated.",
+    "prediction": "Data analytics teams that periodically reintegrate deprecated data sources and historical schema information into their active data models will produce more robust predictive models than teams that maintain clean, pruned data lakes, as measured by model performance on distribution-shift test sets.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Origami Rigid Foldability for Deployable Emergency Shelter Design",
+    "mechanism_source": "origami",
+    "target_domain": "humanitarian engineering",
+    "mechanism": "Rigid foldability — some origami patterns can be folded from rigid panels connected by hinges, without requiring the panels to flex; these patterns enable flat-packed structures that deploy into 3D forms through hinge rotation alone",
+    "application": "Emergency shelters should be designed using rigid-foldable origami patterns. Current flat-pack shelters require flexible materials (tents) or complex assembly (prefab). Rigid-foldable designs ship as flat rigid panels connected by hinges and deploy into habitable 3D structures through a single folding motion — no tools, no instructions, no flexible materials that degrade in weather. The Miura-fold variant enables structures that deploy along a single pulling axis, achievable by one person.",
+    "prediction": "Rigid-foldable origami shelters will achieve deployment times under 5 minutes by a single untrained person, compared to 30+ minutes for conventional flat-pack emergency shelters, while providing equivalent structural integrity in wind loading tests.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Heraldic Cadency Marks for Software Version Identification",
+    "mechanism_source": "heraldry",
+    "target_domain": "software versioning",
+    "mechanism": "Cadency marks — small symbols added to a coat of arms to distinguish between sons in the same family; the first son adds a label, second a crescent, third a mullet, etc., preserving the family identity while uniquely identifying the individual bearer",
+    "application": "Software versioning could adopt heraldic cadency rather than semantic versioning. Each fork or derivative of a project would inherit the parent project's 'arms' (visual and functional identity) with a cadency mark indicating its lineage position. This preserves the legibility of family relationships that semver obscures — you can tell at a glance that a project is a third-generation fork of the original, just as a mullet on a coat of arms indicates a third son. The system handles branching ancestry naturally, which semver cannot.",
+    "prediction": "A cadency-based version identification system will enable developers to reconstruct the fork-and-merge history of a project ecosystem faster and more accurately than semantic version numbers alone, testable through a controlled code archaeology exercise.",
+    "viability": "speculative",
+    "confidence": 0.47
+  },
+  {
+    "name": "Entomological Pheromone Trail Optimization for Last-Mile Delivery Routing",
+    "mechanism_source": "entomology",
+    "target_domain": "logistics optimization",
+    "mechanism": "Ant pheromone trail optimization — ants deposit pheromones along paths to food sources; shorter paths accumulate more pheromone (ants return faster, reinforcing the trail), while longer paths evaporate; the colony converges on near-optimal routes without central coordination",
+    "application": "Last-mile delivery fleets should use pheromone trail logic rather than centralized route optimization. Each delivery vehicle deposits a digital 'pheromone' along its route, and subsequent vehicles probabilistically follow reinforced trails while occasionally exploring alternatives. The evaporation mechanism naturally adapts to changing conditions (road closures, new delivery clusters) without requiring the entire route network to be recalculated. This is especially powerful for dynamic environments where central optimization is computationally prohibitive.",
+    "prediction": "A pheromone-trail-based last-mile delivery routing system will achieve within 8% of optimal route efficiency while adapting to real-time disruptions 5x faster than centralized recalculation systems, measured in fleet fuel consumption and delivery time variance.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Oceanographic Dead Zone Formation for Understanding Intellectual Echo Chambers",
+    "mechanism_source": "oceanography",
+    "target_domain": "epistemology",
+    "mechanism": "Marine dead zones — areas of hypoxic water caused by nutrient overloading (eutrophication) where algal blooms consume all oxygen, killing all aerobic life; paradoxically caused by too much nutrient input, not too little",
+    "application": "Intellectual echo chambers are dead zones caused by epistemic eutrophication — too much information of the same type. Like agricultural nutrient runoff causing algal blooms, excessive reinforcing information causes 'idea blooms' that consume all intellectual oxygen (capacity for alternative viewpoints). The result is an epistemically hypoxic environment where no alternative ideas can survive. The cure is the same: reduce nutrient loading (information flow) from the dominant source, not increase it from alternatives.",
+    "prediction": "Reducing the volume of ideologically congruent content (nutrient loading reduction) will be more effective at restoring viewpoint diversity in online communities than adding ideologically diverse content (oxygenation), testable through controlled community experiments.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Circus Wire Walking Balance for Central Bank Monetary Policy",
+    "mechanism_source": "circus arts",
+    "target_domain": "monetary policy",
+    "mechanism": "Wire walking — tightrope walkers maintain balance not by staying perfectly still but through constant micro-corrections; they use a heavy balance pole whose rotational inertia slows the rate of instability, buying time for corrective movements",
+    "application": "Central bank monetary policy is wire walking. The balance pole is foreign currency reserves and fiscal buffers — they don't prevent instability but slow its rate, buying time for corrective rate adjustments. Wire walkers who grip the pole too tightly (rigid policy) fall; those who let it swing freely (no intervention) also fall. The expertise is in the quality of micro-corrections, not in the absence of wobble. A wire walker who never wobbles isn't more skilled — they're on a wider wire (a more forgiving economy).",
+    "prediction": "Central banks that make more frequent, smaller interest rate adjustments (micro-corrections) will maintain more stable inflation rates than central banks that make fewer, larger adjustments, controlling for economic volatility and reserve adequacy.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Philosophical Zombie Argument for Chatbot Evaluation Methodology",
+    "mechanism_source": "philosophy",
+    "target_domain": "human-computer interaction",
+    "mechanism": "Philosophical zombies (p-zombies) — the thought experiment positing beings that are functionally identical to conscious humans in every observable way but lack subjective experience; the argument probes whether behavioral equivalence implies experiential equivalence",
+    "application": "Current chatbot evaluation is vulnerable to the p-zombie problem: a chatbot that produces functionally identical outputs to a helpful human assistant may be a 'p-zombie' — behaviorally equivalent but lacking the understanding that makes human assistance genuinely adaptive. Evaluation methods that only measure behavioral output (Turing tests, user satisfaction scores) cannot distinguish between understanding and sophisticated mimicry. The philosophical insight is that this distinction matters practically, because p-zombie assistants will fail at novel edge cases that require genuine comprehension.",
+    "prediction": "Chatbots that score equivalently on standard benchmarks will show measurably different performance on novel, out-of-distribution tasks, with the performance gap predicting which systems have more robust internal representations versus surface-level pattern matching.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Perfumery Accord Construction for Multi-Drug Therapy Design",
+    "mechanism_source": "perfumery",
+    "target_domain": "pharmacology",
+    "mechanism": "Accord — a perfumery concept where three or more ingredients blend so completely that no individual component is identifiable; the accord smells like a single new substance, not a mixture, and achieves effects impossible for any ingredient alone",
+    "application": "Multi-drug therapy design should aim for pharmaceutical accords rather than simple combinations. Current combination therapies are 'linear blends' — each drug remains identifiable in its effect. A true pharmacological accord would combine drugs at ratios where their individual mechanisms are unidentifiable, producing a unified therapeutic effect that none could achieve alone. The perfumer's skill is in finding the precise ratios where ingredients lose individual identity and become something new.",
+    "prediction": "Drug combinations optimized for synergistic interaction at 'accord ratios' (where individual drug effects are subsumed into a unified mechanism) will show therapeutic efficacy curves qualitatively different from linear dose-response combinations of the same drugs.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Tribological Scuffing Failure Mode for Relationship Trust Collapse",
+    "mechanism_source": "tribology",
+    "target_domain": "relationship psychology",
+    "mechanism": "Scuffing — a sudden, catastrophic failure mode where lubrication between sliding surfaces breaks down, causing direct metal-to-metal contact, rapid temperature rise, and surface welding-tearing cycles that destroy both surfaces in seconds",
+    "application": "Relationship trust collapse follows scuffing dynamics rather than gradual wear. When the 'lubrication' of goodwill between partners breaks down (through accumulated minor breaches or a single major one), direct emotional contact without the buffering layer creates rapid escalation — each interaction generates more heat and damage, creating a welding-tearing cycle where partners alternately bond intensely and rip apart. Scuffing is catastrophic and sudden; the relationship was 'fine' until it wasn't. Prevention requires maintaining lubrication, not strengthening surfaces.",
+    "prediction": "Couples who report sudden relationship collapse (scuffing pattern) will show a preceding period of measurably declining 'lubrication behaviors' (gratitude expressions, benefit-of-the-doubt interpretations) detectable in communication analysis, even when both partners reported the relationship as stable.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Lexicographic Descriptivism vs Prescriptivism for AI Ethics Frameworks",
+    "mechanism_source": "lexicography",
+    "target_domain": "AI ethics",
+    "mechanism": "Descriptivism vs prescriptivism — the ongoing debate in lexicography between recording language as it is actually used (descriptivism) and dictating how it should be used (prescriptivism); modern lexicography favors descriptivism while acknowledging prescriptivism's social functions",
+    "application": "AI ethics frameworks face the same tension. Prescriptivist frameworks (deontological rules about what AI should never do) are brittle and quickly outdated, like prescriptivist dictionaries that declare 'ain't' incorrect while millions use it. Descriptivist frameworks (observing how AI is actually used and documenting emerging norms) are more adaptive but risk legitimizing harmful practices. The lexicographic resolution — primarily descriptive with limited prescriptive interventions for cases of genuine harm — offers a model for sustainable AI governance.",
+    "prediction": "AI ethics frameworks designed with primarily descriptivist methodology (monitoring actual use patterns and codifying emerging norms) with limited prescriptivist guardrails will remain relevant longer and require fewer revisions than purely prescriptivist frameworks, measured over a 5-year period.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Volcanic Fumarole Monitoring for Early Detection of Organizational Toxic Culture",
+    "mechanism_source": "volcanology",
+    "target_domain": "human resources",
+    "mechanism": "Fumarole monitoring — volcanologists monitor gas emissions from vents (fumaroles) to detect rising magma; changes in gas composition (especially SO2/CO2 ratios) provide early warning of eruption weeks before seismic signals",
+    "application": "Organizational culture 'eruptions' (mass resignations, scandals, workplace violence) can be predicted by monitoring cultural fumaroles — the informal channels where organizational gases vent. Changes in Slack emoji usage patterns, meeting cancellation rates, and anonymous survey free-text sentiment are the SO2/CO2 ratios of organizational volcanology. These 'gas composition' changes precede the 'seismic signals' (formal complaints, exit interviews) by months.",
+    "prediction": "Organizations that monitor informal communication sentiment metrics (cultural fumaroles) will detect toxic culture eruptions 3-6 months earlier than organizations relying on formal HR reporting channels (seismic monitoring), as measured by time between first detectable signal and major incident.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Bookbinding Headband Sewing for API Gateway Decoration",
+    "mechanism_source": "bookbinding",
+    "target_domain": "API design",
+    "mechanism": "Headbands — decorative fabric bands sewn to the top and bottom of a book's spine; originally structural (reinforcing the joint between textblock and cover), they evolved into purely decorative elements, but their presence still signals quality craftsmanship",
+    "application": "API gateways need 'headbands' — elements that were once structurally necessary (CORS headers, rate-limit declarations, versioning prefixes) but now primarily signal quality and intentionality. A well-decorated API, like a well-headbanded book, communicates craftsmanship before the consumer reads a single page. The bookbinding insight is that the transition from structural to decorative doesn't make the element optional — its absence signals cheapness even when its structural function has been superseded.",
+    "prediction": "APIs that include well-crafted 'headband' elements (descriptive error messages, informative rate-limit headers, explicit deprecation notices) will achieve higher developer adoption rates than functionally equivalent APIs that omit these decorative-structural elements.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Paleontological Lazarus Taxon Phenomenon for Technology Comeback Prediction",
+    "mechanism_source": "paleontology",
+    "target_domain": "technology forecasting",
+    "mechanism": "Lazarus taxa — organisms that disappear from the fossil record for extended periods then reappear, apparently having survived in refugia too small or geologically unfavorable for fossilization; they were never truly extinct, just invisible to the record",
+    "application": "Technologies declared 'dead' often survive in refugia (niche applications, developing markets, hobbyist communities) invisible to mainstream technology coverage. Vinyl records, mechanical watches, and server-side rendering are Lazarus taxa — they disappeared from the mainstream fossil record but survived in refugia and re-emerged when conditions changed. Predicting technology comebacks requires identifying the refugia where 'extinct' technologies persist, not scanning the mainstream record where they're absent.",
+    "prediction": "Technologies that maintain active refugia communities (at least 1000 active practitioners in niche applications) during their 'extinction' period will re-enter mainstream adoption within 15 years at rates significantly higher than technologies without such refugia, identifiable by monitoring niche forum activity.",
+    "viability": "promising",
+    "confidence": 0.74
+  }
+]

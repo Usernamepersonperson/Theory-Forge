@@ -12463,5 +12463,545 @@
       "optimization",
       "boundary"
     ]
+  },
+  {
+    "id": "aerial-pendulum-momentum-transfer",
+    "name": "Aerial Pendulum Momentum Transfer",
+    "domain": "circus arts",
+    "unit": "swing cycle on a flying trapeze",
+    "variation": "body shape changes (tuck, pike, layout) alter moment of inertia at different swing phases",
+    "selection": "timing-shape combinations that maximize peak height and catcher-window alignment are retained through training",
+    "fitness": "vertical gain per pump cycle and spatial precision at the catch point",
+    "boundary": "rigging height, cable elasticity, performer mass-to-strength ratio, grip endurance",
+    "tags": [
+      "oscillation",
+      "momentum",
+      "coupling",
+      "optimization",
+      "threshold",
+      "feedback"
+    ]
+  },
+  {
+    "id": "cascade-pattern-siteswap-stability",
+    "name": "Cascade Pattern Siteswap Stability",
+    "domain": "circus arts",
+    "unit": "single throw-catch arc in a juggling pattern",
+    "variation": "throw height, dwell time, and hand-crossing angle differ across siteswap sequences",
+    "selection": "patterns where timing errors self-correct on subsequent throws persist in performance repertoire",
+    "fitness": "mean time before pattern collapse (drop) under stochastic throw perturbation",
+    "boundary": "human reaction time floor, maximum trackable object count (~7), gravity-imposed flight-time minimum",
+    "tags": [
+      "self-organization",
+      "oscillation",
+      "feedback",
+      "stability",
+      "topology",
+      "constraint"
+    ]
+  },
+  {
+    "id": "balance-microadjustment-loop",
+    "name": "Balance Microadjustment Control Loop",
+    "domain": "circus arts",
+    "unit": "center-of-mass correction on a tightwire or rola bola",
+    "variation": "correction amplitude, latency, and limb-selection strategy vary across performers",
+    "selection": "adjustment strategies that keep COM projection within the support polygon under perturbation are reinforced",
+    "fitness": "duration of sustained balance and tolerance to external impulse",
+    "boundary": "support surface width, proprioceptive delay (~80 ms), footwear friction coefficient",
+    "tags": [
+      "feedback-loop",
+      "equilibrium",
+      "oscillation",
+      "threshold",
+      "gradient",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "clown-expectation-violation-arc",
+    "name": "Clown Expectation-Violation Arc",
+    "domain": "circus arts",
+    "unit": "setup-violation-resolution gag sequence",
+    "variation": "violation magnitude, timing of reveal, and status inversion depth vary across routines",
+    "selection": "gag structures that produce audience laughter above a volume threshold are retained in repertoire",
+    "fitness": "laugh density (audience response events per minute) across demographic variation",
+    "boundary": "cultural norms of absurdity, audience fatigue onset, language dependence of verbal gags",
+    "tags": [
+      "feedback",
+      "threshold",
+      "oscillation",
+      "bifurcation",
+      "selection",
+      "coupling"
+    ]
+  },
+  {
+    "id": "corde-lisse-friction-gradient",
+    "name": "Corde Lisse Friction Gradient",
+    "domain": "circus arts",
+    "unit": "body-rope contact wrap during a climb or lock",
+    "variation": "wrap angle, skin moisture, rope diameter, and resin application alter friction coefficient",
+    "selection": "wrap configurations that hold static load while permitting controlled slide on release are selected through practice",
+    "fitness": "hold security (static friction margin) versus descent controllability (dynamic friction range)",
+    "boundary": "rope burn threshold, grip fatigue, rope material degradation under repeated loading",
+    "tags": [
+      "gradient",
+      "tradeoff",
+      "constraint",
+      "friction",
+      "feedback",
+      "optimization"
+    ]
+  },
+  {
+    "id": "wabi-sabi-imperfection-aesthetic",
+    "name": "Wabi-Sabi Imperfection Aesthetic",
+    "domain": "tea ceremony",
+    "unit": "single aesthetic judgment of a tea utensil's surface irregularity",
+    "variation": "glaze crawl, kiln atmosphere variation, and clay body inclusions produce unique surface textures",
+    "selection": "irregularities perceived as evoking transience and naturalness are valued; those read as defect or carelessness are rejected",
+    "fitness": "depth of contemplative engagement elicited in the guest during the utensil-viewing moment",
+    "boundary": "cultural training of the viewer, functional integrity of the vessel, host's curatorial intent",
+    "tags": [
+      "selection",
+      "threshold",
+      "aesthetics",
+      "emergence",
+      "boundary",
+      "feedback"
+    ]
+  },
+  {
+    "id": "seasonal-utensil-correspondence",
+    "name": "Seasonal Utensil Correspondence",
+    "domain": "tea ceremony",
+    "unit": "utensil-season pairing decision for a single gathering (chakai)",
+    "variation": "scroll theme, flower selection, chawan shape, and natsume lacquer motif vary with 72 micro-seasons",
+    "selection": "combinations that produce a unified seasonal narrative without redundancy are preferred by tea masters",
+    "fitness": "coherence of seasonal allusion across all five senses during the gathering",
+    "boundary": "regional climate deviation from classical Kyoto calendar, utensil collection constraints, guest familiarity",
+    "tags": [
+      "coupling",
+      "constraint",
+      "modularity",
+      "hierarchy",
+      "selection",
+      "aesthetics"
+    ]
+  },
+  {
+    "id": "temae-movement-economy",
+    "name": "Temae Movement Economy",
+    "domain": "tea ceremony",
+    "unit": "single hand movement in the preparation procedure (temae)",
+    "variation": "path curvature, wrist angle, and pause duration differ across ryuha (schools) and practitioners",
+    "selection": "movements that minimize unnecessary motion while preserving graceful rhythm are codified and transmitted",
+    "fitness": "smoothness and temporal regularity of the full preparation sequence as perceived by the guest",
+    "boundary": "utensil placement geometry, tatami spatial constraint, practitioner physical limitation",
+    "tags": [
+      "optimization",
+      "constraint",
+      "feedback",
+      "rhythm",
+      "self-organization",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "chakin-thermal-mediation",
+    "name": "Chakin Thermal Mediation",
+    "domain": "tea ceremony",
+    "unit": "heat exchange event between hot water, chawan, and chakin cloth",
+    "variation": "chawan wall thickness, clay porosity, water temperature, and chakin wringing pressure vary",
+    "selection": "warming and wiping sequences that bring the bowl to a temperature comfortable for the guest's hands are retained",
+    "fitness": "chawan surface temperature at the moment of presentation (target ~55-60\u00b0C)",
+    "boundary": "ambient temperature extremes, chawan thermal mass, seasonal water temperature conventions (furo vs. ro)",
+    "tags": [
+      "gradient",
+      "feedback",
+      "equilibrium",
+      "constraint",
+      "tradeoff",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "matcha-suspension-chasen-dynamics",
+    "name": "Matcha Suspension Chasen Dynamics",
+    "domain": "tea ceremony",
+    "unit": "single whisking stroke of the chasen (bamboo whisk)",
+    "variation": "wrist frequency, stroke amplitude, chasen tine count, and water temperature alter foam structure",
+    "selection": "whisking patterns that produce fine, uniform microfoam with no undissolved powder clumps are transmitted",
+    "fitness": "foam cell uniformity, surface sheen, and absence of bitter sediment layer at the bowl bottom",
+    "boundary": "matcha particle size distribution, water hardness, chasen tine fatigue and breakage",
+    "tags": [
+      "oscillation",
+      "self-organization",
+      "gradient",
+      "optimization",
+      "feedback",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "insect-succession-wave-model",
+    "name": "Insect Succession Wave Model",
+    "domain": "forensic entomology",
+    "unit": "colonization event by a single insect species on decomposing remains",
+    "variation": "arrival time, oviposition rate, and larval development speed differ across species and microclimate",
+    "selection": "species whose arrival window and resource requirements match the current decomposition stage colonize successfully",
+    "fitness": "larval survival to pupation on the available tissue substrate",
+    "boundary": "geographic species pool, access barriers (wrapping, burial depth), toxicological interference",
+    "tags": [
+      "succession",
+      "threshold",
+      "coupling",
+      "gradient",
+      "dynamics",
+      "selection"
+    ]
+  },
+  {
+    "id": "accumulated-degree-hour-estimation",
+    "name": "Accumulated Degree-Hour PMI Estimation",
+    "domain": "forensic entomology",
+    "unit": "one degree-hour of thermal accumulation above a species-specific developmental threshold",
+    "variation": "ambient temperature fluctuation, microhabitat shading, and maggot-mass thermogenesis create thermal variation",
+    "selection": "ADH models calibrated to local Calliphoridae populations yield tighter PMI confidence intervals",
+    "fitness": "accuracy of minimum post-mortem interval estimate (hours of error)",
+    "boundary": "temperatures below developmental zero, freeze-thaw cycles, indoor climate-controlled environments",
+    "tags": [
+      "accumulation",
+      "threshold",
+      "gradient",
+      "feedback",
+      "calibration",
+      "boundary"
+    ]
+  },
+  {
+    "id": "maggot-mass-thermogenesis",
+    "name": "Maggot Mass Thermogenesis",
+    "domain": "forensic entomology",
+    "unit": "aggregation of blow fly larvae generating metabolic heat",
+    "variation": "larval density, mass volume, ambient temperature, and tissue moisture alter core mass temperature",
+    "selection": "mass sizes that elevate core temperature to accelerate development without reaching lethal limits persist",
+    "fitness": "developmental rate advantage relative to solitary larvae (days saved to pupation)",
+    "boundary": "lethal thermal ceiling (~50\u00b0C), oxygen diffusion limit at mass core, substrate depletion rate",
+    "tags": [
+      "self-organization",
+      "feedback-loop",
+      "threshold",
+      "emergence",
+      "gradient",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "entomotoxicology-dose-distortion",
+    "name": "Entomotoxicology Dose Distortion",
+    "domain": "forensic entomology",
+    "unit": "xenobiotic compound bioaccumulated in a single larval specimen",
+    "variation": "drug concentration, metabolite profile, and larval instar stage create variable bioaccumulation",
+    "selection": "specimens from predictable feeding sites (e.g., natural orifices) yield more reliable toxicological readings",
+    "fitness": "correlation between larval drug concentration and actual ante-mortem dose in the decedent",
+    "boundary": "drug lipophilicity limits, pupal case impermeability, postmortem redistribution artifacts",
+    "tags": [
+      "accumulation",
+      "gradient",
+      "calibration",
+      "boundary",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "aquatic-diptera-submersion-indicator",
+    "name": "Aquatic Diptera Submersion Indicator",
+    "domain": "forensic entomology",
+    "unit": "colonization event by aquatic Chironomidae or Ephydridae on submerged remains",
+    "variation": "water temperature, flow rate, dissolved oxygen, and substrate exposure alter aquatic insect community composition",
+    "selection": "species assemblages diagnostic of specific submersion durations and water body types are validated forensically",
+    "fitness": "discriminatory power of the assemblage for distinguishing submersion intervals",
+    "boundary": "hypoxic or polluted water bodies with depauperate fauna, tidal disturbance, seasonal emergence gaps",
+    "tags": [
+      "succession",
+      "selection",
+      "coupling",
+      "boundary",
+      "calibration",
+      "emergence"
+    ]
+  },
+  {
+    "id": "mercator-conformal-area-tradeoff",
+    "name": "Mercator Conformal-Area Tradeoff",
+    "domain": "map projection",
+    "unit": "infinitesimal circle (Tissot indicatrix) at a given latitude",
+    "variation": "projection equations stretch the indicatrix differently in area, shape, and direction at each point",
+    "selection": "navigational use selects conformal projections (angle-preserving); thematic mapping selects equal-area",
+    "fitness": "minimization of the distortion metric relevant to the map's intended use (angular error or area ratio)",
+    "boundary": "no projection can preserve both area and angles simultaneously (Gauss's Theorema Egregium consequence)",
+    "tags": [
+      "tradeoff",
+      "constraint",
+      "topology",
+      "optimization",
+      "invariant",
+      "gradient"
+    ]
+  },
+  {
+    "id": "datum-transformation-error-propagation",
+    "name": "Datum Transformation Error Propagation",
+    "domain": "map projection",
+    "unit": "coordinate pair undergoing transformation between two geodetic datums",
+    "variation": "Helmert parameter uncertainty, local geoid undulation, and tectonic plate motion introduce positional error",
+    "selection": "transformation models with lower residuals at control points are adopted by national geodetic agencies",
+    "fitness": "root-mean-square positional error at independent check points (sub-meter target)",
+    "boundary": "tectonic deformation zones, sparse control networks, epoch mismatch in time-dependent frames",
+    "tags": [
+      "accumulation",
+      "calibration",
+      "gradient",
+      "boundary",
+      "feedback",
+      "constraint"
+    ]
+  },
+  {
+    "id": "interrupted-projection-continuity-loss",
+    "name": "Interrupted Projection Continuity Loss",
+    "domain": "map projection",
+    "unit": "gore or lobe boundary where the projection surface is cut",
+    "variation": "cut placement, number of lobes, and centering meridian selection vary across interrupted designs",
+    "selection": "cut placements that minimize distortion over land (or ocean) masses while sacrificing continuity elsewhere are preferred",
+    "fitness": "mean distortion over the region of interest weighted by the area of intended use",
+    "boundary": "any cut destroys topological continuity; cuts through inhabited regions reduce map usability",
+    "tags": [
+      "tradeoff",
+      "topology",
+      "optimization",
+      "boundary",
+      "bifurcation",
+      "constraint"
+    ]
+  },
+  {
+    "id": "scale-factor-convergence-zone",
+    "name": "Scale Factor Convergence Zone",
+    "domain": "map projection",
+    "unit": "local scale factor (ratio of map distance to true distance) at a grid point",
+    "variation": "distance from the projection's standard parallel or central meridian controls scale factor magnitude",
+    "selection": "zone width is chosen so that maximum scale distortion stays below a tolerable threshold (e.g., 1:2500 for UTM)",
+    "fitness": "usable zone width before distortion exceeds engineering tolerance",
+    "boundary": "zone overlap management, polar convergence singularities, cross-zone coordinate continuity",
+    "tags": [
+      "gradient",
+      "threshold",
+      "optimization",
+      "boundary",
+      "constraint",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "adaptive-raster-reprojection-aliasing",
+    "name": "Adaptive Raster Reprojection Aliasing",
+    "domain": "map projection",
+    "unit": "pixel in a raster dataset undergoing reprojection resampling",
+    "variation": "resampling kernel (nearest, bilinear, cubic), source cell size, and local distortion gradient produce aliasing artifacts",
+    "selection": "resampling methods that preserve spectral content without introducing false spatial frequency dominate in remote sensing",
+    "fitness": "spatial fidelity of reprojected raster (structural similarity index to ground truth)",
+    "boundary": "extreme polar distortion, discontinuous projections, sub-pixel registration error",
+    "tags": [
+      "gradient",
+      "optimization",
+      "feedback",
+      "boundary",
+      "coupling",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "plateau-law-triple-junction",
+    "name": "Plateau's Law Triple Junction Equilibrium",
+    "domain": "soap bubble physics",
+    "unit": "triple junction (Plateau border) where three bubble films meet",
+    "variation": "film curvatures, surface tension anisotropy, and bubble size ratios alter junction geometry",
+    "selection": "junctions that satisfy the 120-degree dihedral angle rule are mechanically stable; others rearrange instantly",
+    "fitness": "persistence time of the junction configuration before topological rearrangement (T1 event)",
+    "boundary": "foam drainage reducing film thickness below critical rupture threshold (~100 nm), four-film vertices are always unstable",
+    "tags": [
+      "equilibrium",
+      "topology",
+      "self-organization",
+      "constraint",
+      "threshold",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "young-laplace-pressure-cascade",
+    "name": "Young-Laplace Pressure Cascade",
+    "domain": "soap bubble physics",
+    "unit": "gas transfer event across a shared film between two bubbles of unequal size",
+    "variation": "bubble radius ratio, surfactant type, and film permeability control gas diffusion rate",
+    "selection": "smaller bubbles (higher internal pressure) lose gas to larger neighbors, accelerating their own shrinkage",
+    "fitness": "growth rate of the larger bubble (coarsening velocity)",
+    "boundary": "surfactant depletion stiffening the film, foam confinement preventing expansion, Marangoni flow stabilization",
+    "tags": [
+      "gradient",
+      "feedback-loop",
+      "dynamics",
+      "bifurcation",
+      "decay",
+      "coupling"
+    ]
+  },
+  {
+    "id": "marangoni-drainage-stabilization",
+    "name": "Marangoni Drainage Stabilization",
+    "domain": "soap bubble physics",
+    "unit": "surfactant concentration gradient along a draining film",
+    "variation": "surfactant molecular weight, CMC, and adsorption kinetics alter the strength of the Marangoni counterflow",
+    "selection": "surfactant systems where Marangoni stress opposes gravitational thinning produce longer-lived films",
+    "fitness": "film lifetime before rupture (seconds to minutes for demonstration foams)",
+    "boundary": "evaporation rate in dry air, surfactant desorption at extreme thinning, mechanical perturbation",
+    "tags": [
+      "feedback-loop",
+      "gradient",
+      "equilibrium",
+      "dynamics",
+      "tradeoff",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "minimal-surface-catenoid-collapse",
+    "name": "Minimal Surface Catenoid Collapse",
+    "domain": "soap bubble physics",
+    "unit": "soap film spanning two parallel circular wire frames",
+    "variation": "frame separation distance, frame diameter ratio, and surface tension determine film curvature",
+    "selection": "catenoid solutions exist only below a critical separation-to-diameter ratio; beyond it, the film collapses to two discs",
+    "fitness": "total film area (the catenoid minimizes area for given boundary constraints)",
+    "boundary": "critical aspect ratio (~0.6627), frame misalignment, asymmetric evaporation",
+    "tags": [
+      "bifurcation",
+      "topology",
+      "constraint",
+      "threshold",
+      "equilibrium",
+      "optimization"
+    ]
+  },
+  {
+    "id": "foam-drainage-equation-regime",
+    "name": "Foam Drainage Equation Regime",
+    "domain": "soap bubble physics",
+    "unit": "liquid slug flowing through a Plateau border channel",
+    "variation": "border cross-section, liquid viscosity, surface mobility, and gravitational orientation alter flow regime",
+    "selection": "channel geometries where viscous drag balances gravitational driving force reach a steady drainage profile",
+    "fitness": "liquid fraction profile stability (uniform versus catastrophic drainage front)",
+    "boundary": "rigid-interface limit (immobile surfactants), node-dominated versus channel-dominated dissipation transition",
+    "tags": [
+      "gradient",
+      "equilibrium",
+      "dynamics",
+      "threshold",
+      "self-organization",
+      "feedback"
+    ]
+  },
+  {
+    "id": "forge-welding-oxide-exclusion",
+    "name": "Forge Welding Oxide Exclusion",
+    "domain": "blacksmithing",
+    "unit": "interface between two steel surfaces being forge welded",
+    "variation": "flux composition, heating rate, surface preparation, and hammer blow pressure vary across welds",
+    "selection": "welding sequences where flux dissolves the oxide layer and hammer pressure expels slag before reoxidation produce sound joints",
+    "fitness": "weld integrity \u2014 tensile strength of the joint as a fraction of parent metal strength",
+    "boundary": "burning temperature (grain boundary liquation), excessive scale in non-flux methods, alloy incompatibility",
+    "tags": [
+      "threshold",
+      "coupling",
+      "dynamics",
+      "constraint",
+      "feedback",
+      "optimization"
+    ]
+  },
+  {
+    "id": "austenite-martensite-quench-transformation",
+    "name": "Austenite-Martensite Quench Transformation",
+    "domain": "blacksmithing",
+    "unit": "austenite grain undergoing diffusionless shear transformation during quench",
+    "variation": "carbon content, quench medium severity, and section thickness alter transformation completeness and martensite morphology",
+    "selection": "quench protocols that achieve full martensitic transformation without cracking are refined through experience",
+    "fitness": "as-quenched hardness (Rockwell C) relative to the steel's theoretical maximum for its carbon content",
+    "boundary": "critical cooling rate for the alloy, section thickness causing core-surface differential, retained austenite fraction",
+    "tags": [
+      "bifurcation",
+      "threshold",
+      "gradient",
+      "dynamics",
+      "constraint",
+      "tradeoff"
+    ]
+  },
+  {
+    "id": "grain-refinement-thermal-cycling",
+    "name": "Grain Refinement Through Thermal Cycling",
+    "domain": "blacksmithing",
+    "unit": "austenite grain nucleating during heating above the upper critical temperature",
+    "variation": "peak temperature overshoot, hold time, and number of normalizing cycles alter resulting grain size",
+    "selection": "cycling protocols that produce fine, equiaxed grain structure with minimal residual stress are preferred",
+    "fitness": "ASTM grain size number (higher is finer) and resulting toughness improvement (Charpy impact energy)",
+    "boundary": "excessive temperature causing grain coarsening, decarburization depth per cycle, cumulative scale loss",
+    "tags": [
+      "oscillation",
+      "self-organization",
+      "optimization",
+      "threshold",
+      "dynamics",
+      "feedback"
+    ]
+  },
+  {
+    "id": "differential-hardening-clay-gradient",
+    "name": "Differential Hardening Clay Gradient",
+    "domain": "blacksmithing",
+    "unit": "clay-thickness zone on a blade spine controlling local quench rate",
+    "variation": "clay mixture composition, application thickness, and blade geometry create a cooling-rate gradient from edge to spine",
+    "selection": "clay profiles that produce a hard martensitic edge with a tough pearlitic spine and a visible hamon are refined",
+    "fitness": "edge hardness (>60 HRC) combined with spine flexibility (no brittle fracture under bending)",
+    "boundary": "clay adhesion during quench, warpage from asymmetric thermal stress, alloy suitability (low-alloy carbon steels only)",
+    "tags": [
+      "gradient",
+      "tradeoff",
+      "coupling",
+      "bifurcation",
+      "constraint",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "tool-geometry-force-distribution",
+    "name": "Tool Geometry Force Distribution",
+    "domain": "blacksmithing",
+    "unit": "cross-sectional element of a forged tool (chisel, hammer, tongs) under working load",
+    "variation": "taper angle, cross-section shape, mass distribution, and temper gradient differ across tool designs",
+    "selection": "geometries that concentrate force at the working surface while distributing stress below the fatigue limit elsewhere persist in use",
+    "fitness": "service life in cycles before deformation or fracture at the working end",
+    "boundary": "available steel alloy properties, ergonomic handle-weight limits, task-specific force magnitude",
+    "tags": [
+      "optimization",
+      "gradient",
+      "constraint",
+      "tradeoff",
+      "feedback",
+      "dynamics"
+    ]
   }
 ]

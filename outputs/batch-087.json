@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Knot Theory Reidemeister Moves for Legal Contract Simplification",
+    "mechanism_source": "knot theory",
+    "target_domain": "contract law",
+    "mechanism": "Reidemeister moves — three elementary moves that can transform any knot diagram into any equivalent diagram of the same knot; any two diagrams of the same knot are related by a finite sequence of these three moves",
+    "application": "Legal contracts can be simplified using Reidemeister-move equivalents. Every contract, no matter how complex, can be reduced to its simplest equivalent form through three elementary operations: removing self-referential loops (clauses that reference themselves), straightening crossed clauses (reordering provisions that unnecessarily interleave), and eliminating redundant crossings (provisions that create apparent complexity without adding legal substance). Two contracts related by these moves are legally equivalent regardless of apparent complexity difference.",
+    "prediction": "Contracts simplified through systematic application of three defined elementary operations (self-reference removal, clause reordering, redundancy elimination) will be rated as legally equivalent to originals by practicing attorneys while being comprehensible to non-lawyers at significantly higher rates.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Oceanographic Internal Waves for Understanding Organizational Undercurrents",
+    "mechanism_source": "oceanography",
+    "target_domain": "organizational psychology",
+    "mechanism": "Internal waves — waves that propagate along density interfaces within the ocean interior, invisible from the surface but carrying enormous energy; they can be 100+ meters tall while the surface appears calm, and they profoundly affect nutrient transport and submarine navigation",
+    "application": "Organizations have internal waves — massive energy fluctuations propagating along density interfaces (between management layers, between departments, between old and new employees) that are invisible from the surface. An organization can appear calm while 100-meter internal waves of resentment, enthusiasm, or confusion travel along the interface between engineering and management. These internal waves carry far more organizational energy than the surface chop visible in all-hands meetings and Slack channels.",
+    "prediction": "Organizations that monitor sentiment at specific density interfaces (between job levels, between tenure cohorts, between departments) will detect morale shifts and turnover risk earlier than organizations that monitor only aggregate surface sentiment metrics.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Volcanological Lahar Flow Modeling for Technical Debt Cascade Prediction",
+    "mechanism_source": "volcanology",
+    "target_domain": "software architecture",
+    "mechanism": "Lahars — volcanic mudflows triggered when erupted material mixes with water (rainfall, snowmelt, lake breach); they follow river valleys, accelerate on slopes, and grow by incorporating debris; they can travel hundreds of kilometers from the volcano and arrive hours after eruption",
+    "application": "Technical debt cascades are lahars. A code 'eruption' (breaking change, security vulnerability) mixes with the 'water' of accumulated technical debt to create a mudflow that follows the dependency graph 'river valleys,' incorporating more debris (secondary failures, workaround breakages) as it travels. The lahar arrives at downstream systems hours or days after the triggering event, and its destructive power depends more on the volume of accumulated debris (technical debt) in its path than on the size of the original eruption.",
+    "prediction": "The severity of cascading failures following breaking changes will correlate more strongly with the technical debt density along the dependency path (debris volume) than with the magnitude of the initial breaking change, measurable by comparing failure blast radius against pre-existing code-quality metrics.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Heraldic Marshalling for Microservice API Composition",
+    "mechanism_source": "heraldry",
+    "target_domain": "API architecture",
+    "mechanism": "Marshalling — the heraldic practice of combining two or more coats of arms on a single shield to represent alliances, marriages, or inherited claims; strict rules govern quartering, impalement, and precedence to ensure each component remains identifiable while forming a unified display",
+    "application": "Composite APIs that aggregate multiple microservices should use heraldic marshalling rules. Each service's response 'arms' should be combined on the composite response 'shield' following strict quartering rules that preserve each service's identity while forming a unified response. Impalement (side-by-side combination) for equal-priority services, quartering for hierarchical composition, and escutcheon of pretence (overlay) for services that claim authority over others. The rules prevent the common API composition failure: mashups where individual service identities are lost.",
+    "prediction": "Composite API responses designed with explicit marshalling rules (preserving component service identity through structured composition) will be easier for consuming developers to debug and maintain than monolithic aggregation approaches, measurable by time-to-resolution for integration bugs.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Circus Trapeze Timing for Market Entry Strategy",
+    "mechanism_source": "circus arts",
+    "target_domain": "business strategy",
+    "mechanism": "Trapeze catch timing — the flyer must release the fly bar at the exact apex of their swing, execute their trick during freefall, and arrive at the catch point at the exact moment the catcher's hands are in position; all timing is relative to the pendulum period, not absolute clock time",
+    "application": "Market entry timing is a trapeze catch. Companies must release their current position (fly bar) at the apex of their momentum, execute their transformation (trick) during the freefall of market transition, and arrive at the new market position at the exact moment customer demand (the catcher) is in position. Releasing too early (before apex) produces insufficient momentum; too late (after apex) means the catcher has already swung past. The timing is relative to market cycle period, not calendar dates.",
+    "prediction": "Companies that time market entry to coincide with the inflection point of technology adoption curves (trapeze apex) will achieve market share faster than companies entering at either the early-growth or late-growth phases, controlling for product quality and investment.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Primatological Tactical Deception for Cybersecurity Honeypot Design",
+    "mechanism_source": "primatology",
+    "target_domain": "cybersecurity",
+    "mechanism": "Tactical deception in primates — chimpanzees and other great apes deliberately mislead competitors about food locations, suppress food calls when rivals are present, and lead rivals away from food before doubling back; the deception is calibrated to the specific rival's knowledge state",
+    "application": "Cybersecurity honeypots should adopt primate tactical deception rather than static traps. Current honeypots are fixed decoys; primatological honeypots would actively mislead attackers, suppress 'food calls' (valuable-looking data) when the attacker is near real assets, and lead the attacker away from sensitive systems before the defender 'doubles back' to monitor. Critically, the deception should be calibrated to the specific attacker's knowledge state — showing different false information to attackers who have different levels of network reconnaissance.",
+    "prediction": "Adaptive honeypots that calibrate deceptive responses to individual attacker reconnaissance depth (primatological deception) will maintain attacker engagement 3x longer and extract more attacker technique intelligence than static honeypots.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Theological Perichoresis for Multi-Agent AI System Design",
+    "mechanism_source": "theology",
+    "target_domain": "multi-agent systems",
+    "mechanism": "Perichoresis (circumincession) — the theological concept of the mutual indwelling of the three persons of the Trinity; each person fully contains and is contained by the others while remaining distinct; unity without absorption, distinction without separation",
+    "application": "Multi-agent AI systems could implement perichoretic architecture where each agent fully contains the others' models while maintaining distinct function. Rather than agents communicating through message-passing (the persons of the Trinity sending emails to each other), perichoretic agents would mutually indwell — each agent's decision-making process would include full models of all other agents' decision processes. This produces unity of action without requiring centralized coordination or sacrificing agent specialization.",
+    "prediction": "Multi-agent systems where each agent maintains full internal models of all other agents' decision processes (perichoretic architecture) will achieve consensus faster and with less communication overhead than systems using standard message-passing coordination, in cooperative task environments.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Tribological Third-Body Theory for Understanding Cultural Intermediaries",
+    "mechanism_source": "tribology",
+    "target_domain": "cultural studies",
+    "mechanism": "Third body — in tribology, the wear debris and lubricant film between two sliding surfaces forms a 'third body' that is neither surface material nor lubricant but a distinct entity with its own properties; the third body governs the friction behavior more than either primary surface",
+    "application": "When two cultures come into sustained contact, they generate a 'third body' — a cultural layer that is neither culture A nor culture B but a distinct entity with its own properties (pidgin languages, syncretic religions, fusion cuisines). This third-body culture governs the interaction between the primary cultures more than either culture's inherent properties. Cultural conflict reduction requires understanding and managing the third body, not modifying the primary cultures.",
+    "prediction": "Communities at cultural interfaces where a robust third-body culture has formed (stable hybrid practices, lingua francas, syncretic institutions) will show lower intergroup conflict rates than communities at cultural interfaces where authorities have attempted to maintain clear cultural boundaries, controlling for economic factors.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Calligraphic Ductus for Programming Style Guide Design",
+    "mechanism_source": "calligraphy",
+    "target_domain": "software development practices",
+    "mechanism": "Ductus — the prescribed sequence, direction, and number of strokes for each letter in a calligraphic hand; it defines not what the letter looks like but how it is made, and different hands with identical letter shapes may have entirely different ductus",
+    "application": "Programming style guides focus on what code looks like (formatting, naming conventions) but ignore ductus — how the code is made. Two functions with identical final appearance may have been written with completely different ductus: one top-down (signature first, implementation later), the other bottom-up (helper functions first, public API last). Codifying programming ductus (prescribed sequence of composition) could improve code quality more than formatting rules, because ductus affects the thinking process, not just the visual outcome.",
+    "prediction": "Development teams that adopt ductus-style coding protocols (prescribed composition sequences: tests first, interface second, implementation third) will produce code with fewer architectural defects than teams with only formatting-focused style guides, even when final code appearance is equivalent.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Shipbuilding Launching Ceremony Psychology for Product Launch Rituals",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "product management",
+    "mechanism": "Ship launching ritual — the ceremony of christening and launching a ship, including champagne breaking, godmother naming, and the moment the hull first contacts water; psychologically transitions the ship from 'construction project' to 'vessel with identity,' and historically was believed to protect against maritime disaster",
+    "application": "Software product launches lack the psychological transition ritual that shipbuilding provides. Without a launching ceremony, products slip from development into production as 'construction projects that happen to have users' rather than 'vessels with identity.' The ship-launching insight is that the ritual isn't superstition — it psychologically transitions the team from builder mentality (iterate freely, break things) to operator mentality (maintain, protect, navigate). Products launched without this transition carry construction-phase psychology into production.",
+    "prediction": "Product teams that conduct deliberate launch rituals marking the psychological transition from building to operating will show faster adoption of production-appropriate behaviors (monitoring, incident response, change management) than teams that treat launch as just another deployment.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Entomological Aposematic Coloring for Security Warning Design",
+    "mechanism_source": "entomology",
+    "target_domain": "security UX design",
+    "mechanism": "Aposematism — toxic or dangerous organisms advertise their danger through conspicuous coloring (bright reds, yellows, black-and-yellow stripes); the signal is honest (backed by actual danger), universal across species, and learned quickly after a single negative encounter",
+    "application": "Security warnings should follow aposematic principles: they must be conspicuous (impossible to miss), honest (only displayed for genuine threats), and universally recognizable (consistent across all applications). Current security UX violates all three: warnings are easily dismissed (not conspicuous), frequently shown for non-threats (dishonest — 'the boy who cried wolf'), and visually inconsistent across platforms (not universal). An aposematic security warning system would use a single, reserved visual pattern exclusively for genuine threats.",
+    "prediction": "Security warning systems that reserve a specific visual pattern exclusively for high-severity genuine threats (aposematic honesty) will produce higher user compliance rates than systems that use the same visual language for warnings of varying severity.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Winemaking Assemblage for Ensemble Machine Learning",
+    "mechanism_source": "winemaking",
+    "target_domain": "machine learning",
+    "mechanism": "Assemblage (blending) — the art of combining wines from different grape varieties, vineyards, and vintages to create a final blend that is superior to any component; the blender tastes hundreds of combinations and selects the ratio that achieves balance, complexity, and consistency",
+    "application": "Ensemble machine learning methods are assemblage, but they lack the winemaker's art. Current ensemble methods (bagging, boosting, stacking) combine models mechanically. A winemaking-inspired approach would involve 'tasting' model combinations for qualitative properties beyond accuracy — balance (performance across different data segments), complexity (capturing subtle patterns no single model detects), and consistency (robustness across vintages/time periods). The assemblage metaphor suggests that the blending ratio is as important as the component models.",
+    "prediction": "Ensemble methods that optimize blending ratios for balance and consistency metrics (cross-segment and cross-temporal performance) in addition to accuracy will outperform accuracy-only-optimized ensembles on out-of-distribution test sets.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Paleontological Mass Extinction Recovery Patterns for Post-Pandemic Industry Recovery",
+    "mechanism_source": "paleontology",
+    "target_domain": "industrial economics",
+    "mechanism": "Post-extinction recovery patterns — after mass extinctions, recovery follows a predictable sequence: disaster taxa proliferate immediately (weedy generalists), then pioneer communities establish (early specialists), before mature ecosystems rebuild over millions of years; full recovery takes 5-10x longer than the extinction event",
+    "application": "Post-pandemic industry recovery follows mass extinction recovery patterns. Immediately after economic disruption, disaster taxa proliferate (generic delivery services, generic video conferencing — weedy generalists that thrive in disturbed environments). Pioneer communities then establish (early specialists adapting to the new landscape). Full ecosystem maturity (diversified, specialized industry landscape) takes 5-10x the duration of the disruption. Industries that mistake the disaster-taxa phase for the new normal will over-invest in generalists.",
+    "prediction": "Industries that experience pandemic-driven disruption will see the generalist companies that thrived during the disruption phase lose market share to specialists within 3-5 years post-disruption, following the mass-extinction disaster-taxa-to-pioneer-community transition pattern.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Fermentation Koji Cultivation for Knowledge Inoculation in New Teams",
+    "mechanism_source": "fermentation",
+    "target_domain": "team formation",
+    "mechanism": "Koji cultivation — Aspergillus oryzae spores are inoculated onto steamed rice under precisely controlled temperature and humidity; the mold colonizes the substrate over 48 hours, breaking down starches into sugars that enable subsequent fermentation; koji is the essential starter culture for sake, miso, and soy sauce",
+    "application": "New teams need koji inoculation — the deliberate introduction of cultural starter organisms (experienced members from existing teams) onto the fresh substrate of a newly formed team. The koji members break down the 'starches' of formal structure into the 'sugars' of working relationships that enable the subsequent 'fermentation' of productive collaboration. Without koji inoculation, the team substrate sits inert. Too much koji (too many experienced members) overwhelms the fresh substrate and produces the old culture rather than a new one.",
+    "prediction": "New teams seeded with 20-30% experienced members from high-performing existing teams (koji ratio) will develop productive collaboration norms faster than teams with either 0% (no inoculation) or 50%+ (substrate overwhelm) experienced members.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Speleological Cave Formation for Long-Term Memory Consolidation Theory",
+    "mechanism_source": "geology",
+    "target_domain": "neuroscience",
+    "mechanism": "Speleogenesis — caves form through the dissolution of soluble rock by slightly acidic water over millennia; the water follows the path of least resistance, enlarging existing fractures and creating passage networks whose geometry is determined by the rock's pre-existing weaknesses",
+    "application": "Long-term memory consolidation may follow speleological dynamics. Memories are 'carved' into neural substrate by the repeated flow of activation (slightly acidic water) along existing synaptic pathways (fractures in the rock). The resulting memory 'cave system' is determined more by the brain's pre-existing neural architecture (rock structure) than by the content of what's being remembered. This explains why memories are often distorted in systematic ways — the cave follows the rock's weaknesses, not the water's intentions.",
+    "prediction": "Individual differences in memory distortion patterns will correlate with structural connectivity measures (diffusion tensor imaging) of the corresponding brain regions, because memory 'cave' geometry is constrained by neural 'rock' structure, not just encoding experience.",
+    "viability": "speculative",
+    "confidence": 0.55
+  }
+]

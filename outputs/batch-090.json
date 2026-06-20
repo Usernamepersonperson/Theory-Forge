@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Paleontological Trace Fossil Interpretation for User Behavior Analytics",
+    "mechanism_source": "paleontology",
+    "target_domain": "behavioral analytics",
+    "mechanism": "Ichnology (trace fossil study) — interpreting behavior from traces (footprints, burrows, feeding marks) left by organisms whose bodies are absent; trace fossils often reveal behaviors invisible in body fossils, and a single organism can produce multiple trace types while different organisms can produce identical traces",
+    "application": "User behavior analytics is ichnology. Users are organisms whose 'bodies' (motivations, intentions, mental models) are absent from the data — only their traces remain (clicks, scrolls, session durations, navigation paths). The ichnological insight is critical: different users can produce identical traces (convergent traces), and a single user can produce wildly different traces depending on context (multiple trace types from one organism). Analytics systems that assume trace-to-organism identity will systematically misinterpret user behavior.",
+    "prediction": "User analytics systems that account for convergent trace production (different user types producing identical behavior patterns) will generate more accurate user segmentation than systems that assume one-to-one mapping between behavior patterns and user types.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Astronomical Binary Star Dynamics for Co-CEO Leadership Models",
+    "mechanism_source": "astronomy",
+    "target_domain": "corporate governance",
+    "mechanism": "Binary star systems — two stars orbiting a common center of mass, with their interaction governed by mass ratio; equal-mass binaries orbit a point between them, while unequal binaries have the smaller star orbiting closer to the larger one; some binaries are so close they exchange mass",
+    "application": "Co-CEO arrangements are binary star systems. The leadership dynamics are entirely determined by the mass ratio (relative authority/influence) of the two leaders. Equal-mass co-CEOs orbit a shared center (balanced authority), but this configuration is inherently unstable — any perturbation grows until one star captures mass from the other. Unequal-mass co-CEOs are more stable but the smaller 'star' always orbits closer to the larger one's center of gravity, creating a visible hierarchy that undermines the co-CEO premise. The most dangerous configuration is contact binaries — co-CEOs so close they exchange authority on specific issues.",
+    "prediction": "Co-CEO arrangements with explicitly unequal authority domains (unequal-mass binaries with defined orbits) will persist longer than arrangements attempting perfect authority balance (equal-mass binaries), because the latter are gravitationally unstable.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Theological Negative Theology for Defining Consciousness",
+    "mechanism_source": "theology",
+    "target_domain": "consciousness studies",
+    "mechanism": "Negative theology (via negativa) — the mystical tradition arguing that God can only be known through negation because positive attributes always fail to capture the infinite; each negation brings closer understanding by eliminating what the divine is not",
+    "application": "Consciousness research should adopt negative theology. Every positive definition of consciousness (information integration, global workspace, higher-order representation) inevitably fails to capture the phenomenon. A via negativa approach would progressively define consciousness by what it is not: not mere computation, not mere reactivity, not mere self-modeling, not mere integration. Each negation narrows the conceptual space. The theological insight is that some phenomena are genuinely knowable only through negation, and that demanding positive definition is a category error.",
+    "prediction": "A research program that defines consciousness through systematic negation (experimentally eliminating candidate necessary conditions) will converge on a tighter characterization of consciousness within 20 years than research programs attempting to prove positive theories, because negation is experimentally more tractable than confirmation.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Shipbuilding Deadweight Tonnage for Technical Team Capacity Planning",
+    "mechanism_source": "shipbuilding",
+    "target_domain": "engineering management",
+    "mechanism": "Deadweight tonnage (DWT) — the total weight a ship can carry including cargo, fuel, crew, provisions, and water; critically, it is not the same as cargo capacity because fuel, crew, and provisions consume a significant fraction of DWT; longer voyages require more fuel, leaving less capacity for cargo",
+    "application": "Engineering team capacity is deadweight tonnage, not cargo capacity. A team's DWT includes cargo (feature work), fuel (meetings, planning, communication overhead), crew provisions (learning, onboarding, personal development), and water ballast (slack time for stability). Managers who plan as if DWT equals cargo capacity will overload the ship. Longer 'voyages' (more complex projects) require more fuel (more coordination overhead), leaving less capacity for actual feature cargo. A team's true cargo capacity is DWT minus all operational weight.",
+    "prediction": "Engineering teams whose sprint capacity is calculated as DWT minus measured operational overhead (meetings, reviews, on-call, etc.) will complete planned work at higher rates than teams that plan capacity based on headcount alone, regardless of total DWT.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Fermentation Maillard Reaction Analogy for Interdisciplinary Research Productivity",
+    "mechanism_source": "fermentation",
+    "target_domain": "research methodology",
+    "mechanism": "Maillard reaction — the complex browning reaction between amino acids and reducing sugars that produces hundreds of flavor compounds; it requires specific temperature ranges (too low: no reaction; too high: burning) and the right ratio of reactants; the result is qualitatively different from either input",
+    "application": "Interdisciplinary research productivity follows Maillard reaction dynamics. When two disciplines (amino acids and sugars) are combined at the right intensity (temperature) and in the right ratio, they produce hundreds of novel research 'flavor compounds' that are qualitatively different from either input discipline. Too little interdisciplinary intensity (low temperature) produces no reaction; too much (forced collaboration without genuine integration) produces burning — superficial interdisciplinarity that destroys both disciplines' contributions. The ideal Maillard zone produces golden-brown novelty.",
+    "prediction": "Interdisciplinary research teams operating at moderate integration intensity (regular but not daily collaboration, shared methods but distinct expertise) will produce more novel findings than teams at either low integration (occasional seminars) or high integration (fully merged departments), following the Maillard temperature curve.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Circus Human Cannonball Trajectory for Career Risk-Taking Optimization",
+    "mechanism_source": "circus arts",
+    "target_domain": "career strategy",
+    "mechanism": "Human cannonball physics — the trajectory is entirely determined at the moment of launch (angle, powder charge); once airborne, the performer has zero control; the landing net must be positioned based on pre-launch calculation; any mid-flight adjustment is impossible",
+    "application": "Major career moves (changing industries, starting a company, relocating) are human cannonball acts. The trajectory is almost entirely determined at the moment of launch — the preparation, timing, and initial conditions. Once 'airborne' (after quitting, after signing, after moving), there is effectively zero ability to adjust trajectory. All the work must be done before launch: calculating the landing zone, positioning the safety net (financial reserves, network contacts, fallback options). The career advice 'just jump and figure it out mid-air' is the equivalent of firing a human cannonball without calculating the trajectory.",
+    "prediction": "Career changers who invest more time in pre-launch preparation (financial runway, skill building, network positioning) relative to total transition duration will report higher satisfaction and income outcomes than changers who spend more time in the 'airborne' phase figuring things out after launching.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Perfumery Maceration Time for Database Query Optimization",
+    "mechanism_source": "perfumery",
+    "target_domain": "database performance",
+    "mechanism": "Maceration — after a perfume is blended, it must sit undisturbed for weeks to months while the molecules interact and form new chemical bonds; a freshly mixed perfume smells harsh and disjointed, but after maceration the components integrate into a unified scent",
+    "application": "Complex database queries need maceration time. A freshly written multi-join query may be logically correct but 'smells harsh' — the query planner hasn't had time to encounter the query pattern, collect statistics on the involved tables, and optimize the execution plan. Queries that are run repeatedly 'macerate' as the database accumulates statistics, builds adaptive indexes, and warms caches. The implication is that query performance benchmarks on first execution are misleading — they're smelling unmacerated perfume.",
+    "prediction": "Database query performance measured after a maceration period (100+ executions with statistics accumulation) will differ from first-execution performance by margins large enough to change optimization decisions, with some initially slow queries becoming fastest-in-class after maceration.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Dance Flamenco Compás for Heartbeat-Synchronized UI Design",
+    "mechanism_source": "dance",
+    "target_domain": "user interface design",
+    "mechanism": "Compás — the rhythmic cycle in flamenco that organizes all musical and dance elements; different palos (styles) use different compás patterns (12-beat, 4-beat, 3-beat cycles); the compás is felt in the body rather than counted intellectually, and performers who lose the compás cannot recover without stopping",
+    "application": "User interfaces should operate on a compás — a rhythmic cycle that organizes all interaction elements. Currently, UI timing is arbitrary: animations have designer-chosen durations, loading spinners appear at random thresholds, and notifications arrive arrhythmically. A compás-designed UI would synchronize all temporal elements to a single underlying rhythm (perhaps derived from the user's natural interaction tempo), creating a felt coherence that reduces cognitive load. Users who are 'in compás' with their UI would experience flow; losing the compás would signal the UI has become dysrhythmic.",
+    "prediction": "User interfaces with temporally synchronized elements (animations, transitions, and feedback timed to a consistent underlying rhythm) will produce lower cognitive load measurements and higher task completion rates than interfaces with equivalent features at arbitrary timings.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "Forensic Blood Typing for Software Dependency Compatibility Assessment",
+    "mechanism_source": "forensics",
+    "target_domain": "dependency management",
+    "mechanism": "Blood typing and crossmatching — blood transfusions require compatibility between donor and recipient types; type O- is the universal donor, type AB+ the universal recipient; incompatible transfusions trigger immune reactions that can be fatal",
+    "application": "Software dependencies should be blood-typed. Each library has a 'blood type' determined by its assumptions about runtime environment, concurrency model, error handling philosophy, and state management approach. Incompatible transfusions (combining libraries with different blood types — e.g., a callback-based library into an async/await codebase) trigger immune reactions (subtle bugs, performance degradation, maintainability problems). Some libraries are universal donors (zero-assumption, pure-function libraries) while others are universal recipients (frameworks that can absorb any library). Most are type-specific.",
+    "prediction": "Software projects that assess library 'blood type' compatibility (runtime assumptions, concurrency model, error philosophy) before integration will experience fewer integration-related bugs than projects that assess only API compatibility, measurable through bug tracking data.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Heraldic Supporters for Stakeholder Mapping in Complex Projects",
+    "mechanism_source": "heraldry",
+    "target_domain": "stakeholder management",
+    "mechanism": "Heraldic supporters — figures (animals, humans, mythological beings) standing on either side of a shield, literally holding it up; they represent allies, protectors, or sources of authority; only those of sufficient rank may bear supporters, and they indicate the shield-bearer's network of support",
+    "application": "Complex projects need explicit heraldic supporters — identified individuals or organizations that literally hold up the project shield. The heraldic system makes support relationships visible and formal: everyone who sees the coat of arms knows who the supporters are. Projects that fail often have invisible or assumed support structures. Making supporters explicit (displayed on the project's 'shield' in all communications) creates accountability — a supporter who withdraws support visibly changes the project's heraldry, alerting all stakeholders to the shift in the support structure.",
+    "prediction": "Projects that formally identify and publicly display their key supporters (making support visible on project documentation) will maintain stakeholder commitment longer than projects with informal support structures, because public support creates social accountability that private support does not.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Oceanographic Rogue Wave Formation for Black Swan Event Modeling",
+    "mechanism_source": "oceanography",
+    "target_domain": "risk management",
+    "mechanism": "Rogue wave formation — waves far exceeding the expected maximum height for given sea conditions, formed through constructive interference when multiple wave trains from different storms temporarily superimpose; they are not anomalies but emergent properties of complex wave-field interactions",
+    "application": "Black swan events in financial and organizational risk are rogue waves — not anomalies but emergent properties of multiple 'wave trains' (risk factors from different sources) temporarily superimposing. Each individual risk factor is within normal parameters, but their constructive interference produces an event far exceeding expected maximum severity. Rogue wave physics shows these events are predictable in frequency (if not timing) from the complexity of the wave field — more independent risk-factor sources means higher rogue-event probability.",
+    "prediction": "Organizations exposed to a larger number of independent risk-factor sources will experience black swan events at higher frequency than organizations with fewer sources, even when each individual source is well-managed, because constructive interference probability increases with wave-train diversity.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Luthier Bridge Placement Precision for Database Index Placement Optimization",
+    "mechanism_source": "luthiery",
+    "target_domain": "database tuning",
+    "mechanism": "Bridge placement — a guitar or violin bridge must be placed at a mathematically exact position (determined by scale length) for intonation; even 1mm displacement causes all notes to be systematically sharp or flat; the bridge transmits string vibration to the soundboard, and its placement determines whether the instrument plays in tune",
+    "application": "Database index placement requires bridge-precision positioning. An index on the wrong column, or a composite index with columns in the wrong order, is like a bridge placed 2mm off — every query that uses it will be systematically 'out of tune' (suboptimal). The luthier's insight is that bridge placement errors cause systematic (not random) degradation: every note is affected in the same direction. Similarly, a misplaced index doesn't randomly affect some queries — it systematically biases the query planner toward suboptimal plans for all queries that reference it.",
+    "prediction": "Databases with indexes optimized for column-order precision (composite index column ordering matched to query selectivity patterns) will show systematically lower query variance than databases with correct columns but imprecise ordering, because placement precision eliminates systematic bias rather than random noise.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Philosophical Zeno's Paradox for Understanding Software Estimation Failure",
+    "mechanism_source": "philosophy",
+    "target_domain": "software estimation",
+    "mechanism": "Zeno's paradox of Achilles and the tortoise — Achilles can never overtake the tortoise because by the time he reaches where it was, it has moved ahead; the paradox reveals that continuous subdivision of a process creates an infinite series of diminishing steps that seems to prevent completion",
+    "application": "Software estimation fails because of a Zeno's paradox. Each time the team assesses remaining work, they discover new work created by the work already done. By the time they've completed what was estimated, the project has 'moved ahead' — new requirements, technical debt from the implementation, integration issues. The remaining work is always a fraction of what was just completed, creating a diminishing but infinite series. The mathematical resolution (convergent infinite series) suggests that projects DO complete, but only if the ratio of discovered-to-completed work is less than 1.",
+    "prediction": "Software projects where the ratio of newly-discovered work to newly-completed work exceeds 1.0 (measured per sprint) will never converge on completion, while projects maintaining a ratio below 0.7 will reliably complete near estimates, with the ratio being a more reliable predictor than any other estimation metric.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Semiotics of the Panopticon Sign for Privacy Architecture Design",
+    "mechanism_source": "semiotics",
+    "target_domain": "privacy engineering",
+    "mechanism": "Panopticon as sign — Bentham's panopticon operates not through actual observation but through the sign of possible observation; the prisoner who cannot know whether they are being watched behaves as if always watched; the architecture is a semiotic system where the sign (watchtower) produces behavior change independent of the signified (actual watching)",
+    "application": "Privacy architecture should design against panopticon semiotics. Current privacy engineering focuses on whether data IS collected (the signified) while ignoring whether users BELIEVE data is collected (the sign). A system that collects no data but whose architecture semiotically signals surveillance (terms of service, cookie banners, data-request prompts) produces the same behavioral chilling effect as actual surveillance. Conversely, a system that collects data but whose architecture signals privacy (no visible surveillance signs) produces false comfort. Privacy architecture must manage both the data reality and its semiotic signaling.",
+    "prediction": "Users will modify their behavior based on perceived surveillance (semiotic signals) independently of actual data collection, and privacy-architecture interventions that reduce surveillance signaling will restore natural behavior even when actual data practices are unchanged, testable through behavioral experiments comparing sign-manipulated and data-manipulated conditions.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Calligraphic Stroke Weight Modulation for Audio Dynamic Range Compression",
+    "mechanism_source": "calligraphy",
+    "target_domain": "audio engineering",
+    "mechanism": "Stroke weight modulation — calligraphers vary line thickness by changing pen pressure and angle, creating thick-thin contrast that gives letters rhythm and readability; a script with uniform stroke weight (monoline) is legible but monotonous and fatiguing to read at length",
+    "application": "Audio dynamic range compression is the monoline pen of audio engineering — it produces uniform 'stroke weight' that is clear but fatiguing. Calligraphic audio processing would modulate dynamics using thick-thin contrast principles: important sonic elements (melodic peaks, vocal emphasis) get thick strokes (preserved dynamics), while connective elements (transitions, ambient bed) get thin strokes (compressed dynamics). The result would be audio that has the readability benefits of compression without the fatigue of monoline uniformity.",
+    "prediction": "Audio processed with calligraphic dynamic modulation (selective compression preserving emphasis points while compressing connective passages) will be rated as less fatiguing in extended listening sessions than uniformly compressed audio of equivalent average loudness, in controlled listener studies.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

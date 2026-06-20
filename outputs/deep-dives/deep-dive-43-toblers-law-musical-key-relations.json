@@ -1,0 +1,88 @@
+{
+  "name": "Tobler's Law Theory of Musical Key Relations",
+  "rank": 43,
+  "confidence": 0.80,
+  "executive_summary": "Tobler's First Law of Geography states that 'everything is related to everything else, but near things are more related than distant things.' The Tobler's Law Theory of Musical Key Relations applies this principle to tonal space: perceived harmonic relatedness between musical keys follows a distance-decay function on the circle of fifths, and this relationship governs not just harmonic tension but listener memory, expectation, and emotional response. Keys that are 'geographically' nearby on the circle of fifths share more pitch content, produce smoother voice-leading, and feel more naturally connected, while modulations to distant keys create the musical equivalent of teleportation disorientation.\n\nThe circle of fifths is, in this framework, literally a geographic map of tonal space -- a toroidal manifold where distance has measurable consequences for perceptual relatedness. A modulation from C major to G major (one step on the circle) preserves six of seven scale tones and feels seamless; a modulation from C major to F-sharp major (the antipodal point) shares only two scale tones and produces a jarring discontinuity. The decay of relatedness with tonal distance follows a predictable function that mirrors spatial autocorrelation in geography: nearby keys are highly correlated, intermediate keys show moderate correlation, and antipodal keys are maximally uncorrelated.\n\nThis framework has practical implications for composition, music therapy, and music information retrieval. Composers can treat the circle of fifths as a travel planning tool, designing harmonic journeys with calculated 'distances' that control tension and release. Music therapists can use tonal proximity to manage arousal levels, keeping modulations within a comfortable distance for patients who need stability. Music recommendation algorithms can use tonal distance as a similarity metric, suggesting songs in nearby keys for smooth playlist transitions.",
+  "mapped_components": {
+    "unit": "A single key (tonal center plus mode) occupying a position on the circle of fifths, functioning as a location in tonal geographic space with measurable distances to all other keys",
+    "variation": "Modulations between keys create 'journeys' of varying distance across tonal space, with distance determined by the number of steps on the circle of fifths and modified by chromatic mediants, enharmonic equivalence, and modal interchange",
+    "selection": "Listener perception and compositional convention select for modulations whose distance matches the intended emotional trajectory: close modulations for continuity, distant ones for surprise or disruption",
+    "fitness": "The aesthetic and communicative effectiveness of a harmonic sequence, measured by how well the pattern of tonal distances serves the musical narrative -- smooth gradients for development, sudden jumps for contrast",
+    "boundary": "Applies primarily to tonal Western music where the circle of fifths is a meaningful organizing structure; breaks down in atonal, microtonal, or non-Western pitch systems where tonal distance is not defined on this manifold"
+  },
+  "falsifiable_predictions": [
+    "Listener ratings of harmonic smoothness between two keys will decay as a monotonic function of circle-of-fifths distance, with the decay curve matching the form of Tobler's spatial autocorrelation function rather than a linear decline.",
+    "Short-term musical memory for melodic fragments will be stronger when preceded by a passage in a nearby key than in a distant key, because tonal proximity preserves more of the activated pitch schema.",
+    "Listeners will perceive modulations of equal circle-of-fifths distance as equally surprising regardless of the specific keys involved, demonstrating that distance on the tonal map is the primary determinant of perceptual relatedness rather than absolute key identity.",
+    "EEG responses to unexpected chords will show amplitude scaling with circle-of-fifths distance: larger mismatch negativity (MMN) for harmonically distant surprises than for near ones.",
+    "Playlist listening behavior will show higher skip rates at transitions between songs in distant keys compared to nearby keys, even when tempo, genre, and energy level are matched.",
+    "Composers across historical periods and genres will show a statistical preference for modulations to adjacent keys on the circle of fifths, with distant modulations reserved for marked dramatic moments -- confirming that compositional practice implicitly obeys Tobler's distance-decay law."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Krumhansl and Kessler's probe-tone studies established quantitative key-distance profiles showing that perceived relatedness between keys correlates with shared pitch-class content, which in turn correlates with circle-of-fifths distance",
+      "source": "Music cognition / psychoacoustics",
+      "relevance": "Provides direct empirical measurement of the distance-decay relationship in tonal perception that the Tobler framework formalizes"
+    },
+    {
+      "finding": "fMRI studies show that the auditory cortex maintains tonotopic maps and that harmonic expectation violations produce activation patterns whose magnitude scales with the degree of tonal distance",
+      "source": "Cognitive neuroscience of music",
+      "relevance": "Demonstrates that the brain represents tonal space as a spatial map with distance-dependent processing, consistent with Tobler's geographic analogy"
+    },
+    {
+      "finding": "Corpus analyses of Western classical music show that modulations to adjacent keys on the circle of fifths account for the vast majority of key changes, with distant modulations occurring at dramatically lower frequency",
+      "source": "Computational musicology",
+      "relevance": "Confirms that compositional practice follows a distance-decay distribution consistent with Tobler's Law applied to tonal space"
+    },
+    {
+      "finding": "Tobler's First Law has been validated across dozens of geographic phenomena (disease spread, economic interaction, social influence) as a robust predictor of spatial autocorrelation",
+      "source": "Quantitative geography / spatial statistics",
+      "relevance": "Establishes that the distance-decay principle is sufficiently universal to justify its application to non-physical spaces like tonal geography"
+    }
+  ],
+  "experimental_designs": [
+    {
+      "title": "Tonal Distance-Decay Function Measurement",
+      "description": "Present 60 listeners with pairs of short musical passages in all 66 unique key pairings (12 keys, all combinations). Ask listeners to rate perceived relatedness on a continuous scale. Fit the resulting data to distance-decay functions (exponential, power-law, Gaussian) using circle-of-fifths distance as the predictor. Compare model fit to determine which decay function best describes tonal perception, and test whether the best-fit function matches known geographic autocorrelation forms."
+    },
+    {
+      "title": "Cross-Key Memory Interference Experiment",
+      "description": "Present participants with a melody in key A, followed by an intervening passage in key B at varying circle-of-fifths distances (1, 3, or 6 steps), followed by a memory test for the original melody. Measure recall accuracy and response time. Test the Tobler prediction that nearby intervening keys produce less interference than distant ones, because tonal proximity preserves more of the activated pitch schema."
+    },
+    {
+      "title": "Playlist Skip Rate Analysis",
+      "description": "Analyze skip behavior data from a music streaming platform for transitions between consecutive songs. Compute the circle-of-fifths distance for each transition using key metadata. Control for tempo difference, genre match, energy level, and listener preference. Test whether skip rate increases with tonal distance, and whether the effect size is comparable to known predictors like tempo mismatch."
+    },
+    {
+      "title": "EEG Mismatch Negativity Scaling with Tonal Distance",
+      "description": "Record EEG while presenting listeners with chord progressions that contain an unexpected chord at a controlled circle-of-fifths distance from the established key (1, 2, 3, 4, 5, or 6 steps). Measure the amplitude of the mismatch negativity (MMN) component for each distance. Test the prediction that MMN amplitude scales monotonically with tonal distance, providing a neural correlate of the Tobler distance-decay relationship."
+    }
+  ],
+  "limitations": [
+    "The circle of fifths is a simplification of tonal space that does not capture all perceptually relevant relationships: chromatic mediants (e.g., C major to E major) are perceived as relatively smooth despite being four steps apart on the circle, suggesting a multi-dimensional tonal space rather than a simple circle.",
+    "Modal relationships (major vs. minor) introduce a second dimension of tonal distance that the circle of fifths does not capture: C major and C minor are perceptually close but occupy different positions on parallel circles.",
+    "The framework assumes Western tonal perception as universal, but listeners from non-Western musical traditions may not organize pitch relationships on the circle of fifths, limiting the theory's cross-cultural applicability.",
+    "In popular music, key relationships may matter less than timbral and rhythmic continuity: a song transition in a very distant key but with matching energy and timbre may feel smoother than a nearby-key transition with mismatched production.",
+    "Tobler's Law is a description, not an explanation -- it says that near things are more related but does not specify why. In music, the 'why' (shared pitch content, voice-leading efficiency) is already well understood, raising the question of whether the Tobler framing adds explanatory power beyond what music theory already provides."
+  ],
+  "potential_applications": [
+    "Music recommendation and playlist generation algorithms that use circle-of-fifths distance as a transition smoothness parameter, enabling automated playlist curation that minimizes jarring key transitions.",
+    "Composition assistance tools that visualize harmonic plans as journeys across a tonal map, allowing composers to control tension and release by planning modulation distances in advance.",
+    "Music therapy protocols that maintain tonal proximity to a patient's comfort key during sessions designed for relaxation, and use calculated tonal jumps during sessions designed for emotional processing or arousal modulation.",
+    "Music education curricula that teach harmonic relationships through geographic metaphors -- tonal neighborhoods, harmonic travel, key distance -- making abstract theory spatial and intuitive for visual-spatial learners."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Reaction-Diffusion Patterning of Urban Segregation",
+      "relationship": "Both apply spatial mathematics to non-physical domains: Tobler's Law maps tonal space as geography, while reaction-diffusion maps social dynamics as chemistry. Both demonstrate that spatial modeling tools generalize beyond their original physical domains."
+    },
+    {
+      "framework": "Impedance-Matched Pedagogy",
+      "relationship": "Both address the optimization of transitions between states: Tobler's key relations optimize harmonic transitions for perceptual smoothness, while impedance matching optimizes knowledge transfer across expertise boundaries. Both identify a 'distance' metric whose minimization improves transmission efficiency."
+    },
+    {
+      "framework": "Bio-Social Oscillator Unification",
+      "relationship": "Both involve phase relationships in oscillating systems: tonal keys can be modeled as oscillator phases on the circle of fifths, and crowd synchrony depends on phase alignment of individual oscillators. The mathematical tools of phase-coupled oscillator analysis apply to both."
+    }
+  ]
+}
