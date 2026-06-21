@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Change Ringing Load Theory",
+    "mechanism_source": "church bell ringing (campanology)",
+    "target_domain": "load balancing",
+    "mechanism": "Change ringing distributes the sequence of bell strikes across all ringers using permutation patterns, ensuring no single bell dominates and every bell participates in a mathematically exhaustive rotation.",
+    "application": "Load balancers can adopt campanological permutation logic to cycle requests across servers not just by weight or round-robin, but by exhaustive non-repeating sequences that guarantee every node handles every request type before the pattern repeats. This prevents subtle thermal and memory hotspots that weighted round-robin misses. The mathematical completeness of change ringing (visiting every permutation exactly once) maps to session-level fairness guarantees.",
+    "prediction": "A load balancer using change-ringing permutation schedules will show measurably lower variance in per-node memory pressure over 24-hour windows compared to weighted round-robin, detectable in clusters of 4-8 nodes where full extent sequences are computationally tractable.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Tatami Zoning Fit",
+    "mechanism_source": "tatami mat fitting",
+    "target_domain": "urban zoning",
+    "mechanism": "Tatami layouts solve the problem of fitting discrete, fixed-ratio rectangles into irregular room shapes using a small set of canonical arrangements (zukuri), where the mat's indivisible unit constrains and harmonizes all spatial decisions.",
+    "application": "Urban zoning can adopt the tatami principle by defining a minimum indivisible land parcel unit whose aspect ratio constrains all higher-order plot subdivisions, forcing organic harmony between micro-lots, blocks, and district boundaries. This eliminates the slivers and oddly shaped residual parcels that plague grid-overlay zoning in irregular terrain. The zukuri catalog of valid arrangements gives planners a finite combinatorial toolkit rather than open-ended discretion.",
+    "prediction": "Cities piloting tatami-constrained parcel units in infill neighborhoods will generate fewer disputed boundary cases per hectare than comparable flexible-parcel zones, with the effect size largest in terrain with more than 15% gradient variation.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Cold Press Knowledge Yield",
+    "mechanism_source": "olive oil pressing",
+    "target_domain": "knowledge extraction",
+    "mechanism": "Olive oil pressing uses graduated pressure stages: first cold press yields the highest-quality, lowest-interference oil; subsequent heat and solvent extraction recovers more volume but degrades quality and introduces contaminants.",
+    "application": "Knowledge extraction from expert interviews or document corpora should follow a staged-pressure model: low-interference first passes (open-ended prompts, unsupervised topic modeling) yield highest-fidelity tacit knowledge, while aggressive later passes (structured questionnaires, forced-choice surveys) increase volume but introduce response bias and framing artifacts. Organizations that skip directly to high-pressure extraction consistently over-index on explicit, easily articulated knowledge at the cost of tacit insight. The pressing sequence should be locked before extraction begins, not chosen opportunistically.",
+    "prediction": "Expert knowledge elicitation protocols that begin with unstructured narrative passes before introducing structured prompts will recover a larger proportion of tacit procedural knowledge (measured by blind evaluation of protocol transcripts) than protocols that begin with structured instruments, with the gap exceeding 20% in domains where tacit skill is central.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Hood-Drop Onboarding",
+    "mechanism_source": "falconry hood training",
+    "target_domain": "onboarding design",
+    "mechanism": "Falconers use a hood to control sensory exposure during the manning process: the bird is introduced to stimuli incrementally with the hood controlling what is revealed and when, building trust and reducing flight responses before full environmental exposure.",
+    "application": "Employee onboarding should throttle information and social exposure using a hood-drop sequence: new hires are shielded from the full organizational complexity (competing priorities, political factions, legacy tool sprawl) during an initial trust-building window, then stimuli are unhooded in deliberate stages as anchoring relationships form. Premature full exposure to organizational chaos is the primary driver of early attrition, just as premature environmental exposure breaks a hawk's manning. The hood is not deception but sensory pacing.",
+    "prediction": "Onboarding programs that delay unstructured all-hands access and cross-team exposure by at least three weeks while providing one structured mentor relationship will show lower 90-day voluntary attrition than programs offering full access from day one, controlling for role seniority.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Glacial Debt Carving",
+    "mechanism_source": "glacier erosion",
+    "target_domain": "debt restructuring",
+    "mechanism": "Glaciers erode through two distinct mechanisms: abrasion (slow grinding that smooths and deepens) and plucking (sudden detachment of large rock masses when meltwater refreezes in cracks). The combination produces landscapes neither mechanism alone could create.",
+    "application": "Debt restructuring has an analogous dual mechanism: slow renegotiation (abrasion) gradually reduces principal and extends terms, while haircut events (plucking) suddenly remove large debt blocks when liquidity crises refreeze creditor positions. Restructuring frameworks that rely exclusively on abrasion miss the conditions under which plucking is the more efficient mechanism, and vice versa. The glacial model predicts that the most successful restructurings alternate between phases rather than committing to one mode.",
+    "prediction": "Sovereign debt restructurings that combine at least one discrete haircut event with subsequent extended amortization schedules will achieve debt sustainability thresholds faster than restructurings using only maturity extension or only haircuts, measurable across IMF case histories from 1995 to 2020.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Bamboo Scaffold Iteration",
+    "mechanism_source": "bamboo scaffolding",
+    "target_domain": "rapid prototyping",
+    "mechanism": "Bamboo scaffolding achieves structural adequacy through lashing joints that are intentionally non-rigid: each node flexes slightly, distributing stress across the whole lattice, and the entire structure can be disassembled and reconfigured without damage to components.",
+    "application": "Rapid prototyping methodologies should adopt the bamboo principle by designing all integration points between prototype modules as lashed joints — deliberately loose interfaces that distribute feedback stress rather than rigid API contracts that fracture when requirements shift. The non-rigidity is a feature, not a defect: it allows the scaffold to carry load while remaining fully reconfigurable. Teams that over-specify prototype interfaces too early create brittle structures that resist the disassembly rapid prototyping requires.",
+    "prediction": "Prototype projects using explicitly underspecified integration contracts between modules will complete more design-change cycles within a fixed time budget than projects using formally specified interfaces, with the difference being largest when stakeholder requirement stability is below 60%.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Tasseography Signal Extraction",
+    "mechanism_source": "tea leaf reading",
+    "target_domain": "predictive analytics",
+    "mechanism": "Tasseography interprets residual patterns left by a process (tea consumption) as signals about future states — the pattern is an artifact of the process, not a direct measurement, and its interpretive value depends entirely on the reader's pattern grammar.",
+    "application": "Predictive analytics teams often treat behavioral residue data (clickstreams, log files, purchase receipts) the same way: as artifact patterns left by underlying processes, requiring an interpretive grammar to extract signal. The tasseography parallel highlights that the grammar itself is the critical variable — two analysts with identical data but different feature-engineering grammars produce orthogonal predictions. This reframes model selection as grammar selection and suggests that ensemble methods work because they average across grammars rather than averaging across signal.",
+    "prediction": "Ensemble predictive models that explicitly diversify feature-engineering grammars (using different temporal windows, aggregation functions, and entity resolution strategies across base learners) will outperform ensembles that diversify only model architecture while holding feature engineering constant, measurable on datasets where behavioral residue is the primary signal source.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Mineral Buffer Affect Theory",
+    "mechanism_source": "volcanic hot spring chemistry",
+    "target_domain": "emotional regulation",
+    "mechanism": "Volcanic hot springs maintain stable pH despite continuous acid input through mineral buffering: dissolved carbonates and silicates absorb proton load, keeping the system in a dynamic equilibrium that resists acute perturbation without eliminating responsiveness.",
+    "application": "Emotional regulation can be modeled as a buffering capacity problem rather than a suppression problem: psychologically resilient individuals maintain affective equilibrium not by preventing emotional responses but by having sufficient cognitive and social mineral reserves that absorb acute emotional load without pH collapse. Therapeutic interventions that build buffering capacity (social connection, meaning-making frameworks, somatic resources) outperform those that attempt to reduce emotional input. The model also predicts buffer depletion: chronic stress exhausts reserves just as sustained acid input eventually overwhelms spring chemistry.",
+    "prediction": "Individuals with higher measured social support and cognitive reappraisal repertoires will show smaller cortisol AUC responses to standardized laboratory stressors than individuals with equivalent trait neuroticism but lower buffering resources, with buffering capacity mediating rather than moderating the stress response.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Spawning Window Strategy",
+    "mechanism_source": "coral spawning synchrony",
+    "target_domain": "product launch timing",
+    "mechanism": "Coral mass spawning exploits a narrow annual window triggered by multiple converging environmental cues (lunar phase, water temperature, photoperiod) to overwhelm predator satiation — no single spawning event succeeds, but simultaneous mass release ensures enough gametes survive.",
+    "application": "Product launches can exploit market predator satiation by coordinating with other launches in adjacent categories to overwhelm reviewer attention, press bandwidth, and consumer decision fatigue simultaneously. A launch that arrives in a sparse window faces concentrated scrutiny; a launch embedded in a mass-spawning moment benefits from attention diffusion. This inverts conventional wisdom that sparse competitive windows are optimal and suggests that some products should actively time launches to coincide with ecosystem activity rather than avoid it.",
+    "prediction": "Consumer technology products launched within two weeks of five or more adjacent-category launches will achieve higher aggregate review scores in their first 30 days than comparable products launched in sparse competitive windows, because reviewer attention diffusion reduces the depth of critical scrutiny per product.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Sandstone Org Weathering",
+    "mechanism_source": "sandstone weathering",
+    "target_domain": "organizational decay",
+    "mechanism": "Sandstone weathers through differential erosion: harder mineral grains resist while softer matrix material is selectively removed by water infiltration along micro-fractures, eventually isolating the hard grains until the entire structure loses coherence despite the individual grains remaining intact.",
+    "application": "Organizations decay through differential attrition of connective tissue: high-performing individuals (hard grains) may remain while middle-management coordination capacity and institutional knowledge (soft matrix) erodes through turnover and process neglect. The organization appears structurally sound grain by grain while losing the binding material that creates collective capability. This predicts that organizational health metrics focused on talent retention miss the matrix erosion signal until catastrophic coherence loss.",
+    "prediction": "Organizations that maintain low senior talent attrition but high mid-level coordinator turnover will show steeper declines in cross-functional project completion rates than organizations with moderate attrition uniformly distributed across levels, detectable within 18 months of matrix erosion onset.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Siege Defense Posture",
+    "mechanism_source": "medieval siege warfare",
+    "target_domain": "hostile takeover defense",
+    "mechanism": "Medieval siege defense combined passive barriers (walls, moats) with active sorties, resource denial to the attacker, interior line advantages for defenders, and alliance-seeking with external powers to break sieges from outside the perimeter.",
+    "application": "Hostile takeover defense maps cleanly onto this architecture: poison pills and staggered boards are walls and moats; share buybacks that raise acquisition cost are resource denial; faster board decision-making relative to the acquirer's coordination speed is interior line advantage; white knight solicitation is alliance-seeking. The siegecraft model adds a critical insight conventional M&A defense misses: defenders who rely exclusively on passive barriers without interior line mobility eventually fall to attrition. Active defense requires sorties — counter-acquisitions or strategic partnerships that change the cost calculus for the attacker.",
+    "prediction": "Companies that respond to hostile bids with at least one active counter-move (strategic acquisition, partnership announcement, or recapitalization) within 60 days of the initial bid will achieve better shareholder outcomes than companies relying exclusively on passive defensive measures, controlling for deal premium offered.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Uncapping Ethics Protocol",
+    "mechanism_source": "honey extraction",
+    "target_domain": "data mining ethics",
+    "mechanism": "Honey extraction requires uncapping (removing the wax seal bees built to protect stores), centrifugal extraction, and then returning empty comb to the hive — taking value while preserving the structural capacity for regeneration and maintaining colony viability.",
+    "application": "Ethical data mining should follow the honey extraction protocol: uncapping corresponds to gaining consent and revealing what data will be accessed; centrifugal extraction corresponds to the minimal-extraction principle (taking only what is needed at adequate fidelity); returning empty comb corresponds to feeding back aggregate insights or utilities to the data-generating population. Most current data practices skip the third step entirely, extracting indefinitely without returning structural benefit to the community whose behavior generates the data.",
+    "prediction": "Data partnerships in which organizations share aggregate model insights or personalized utilities back to the populations whose data trained the model will show higher longitudinal data quality and lower opt-out rates than comparable programs without reciprocal return, measurable over 24-month engagement windows.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Candle Burn Attention Arc",
+    "mechanism_source": "candle making",
+    "target_domain": "attention span design",
+    "mechanism": "Candle performance depends on wick-to-wax ratio, vessel geometry, and fragrance load: a correctly engineered candle burns with a stable flame that neither drowns in its own melt pool nor burns too hot and consumes itself prematurely.",
+    "application": "Attention-sustaining content design has the same tripartite engineering problem: wick (arousal/novelty rate), wax (cognitive load supply), and vessel (working memory container). Content that novelty-spikes too frequently (overwick) burns hot and exhausts attention reserves before the message is delivered; content with insufficient novelty relative to cognitive demand (underwick) drowns in its own complexity. Optimal attention design maintains a steady flame — calibrated novelty-to-load ratio matched to the vessel size of the target audience's working memory capacity.",
+    "prediction": "Educational content sequences engineered to maintain a fixed novelty-to-cognitive-load ratio (measured by inter-stimulus interval and concept density per minute) will show higher sustained engagement and recall than sequences that front-load novelty, particularly for audiences with lower baseline working memory capacity.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Tidal Crowd Harvest",
+    "mechanism_source": "tidal power harvesting",
+    "target_domain": "crowd energy management",
+    "mechanism": "Tidal power works by capturing energy during predictable flux cycles — not constant flow — using turbine geometry tuned to the tidal range of a specific location, and storing surplus during peak flow for release during slack.",
+    "application": "Crowd energy at events (concerts, protests, sporting events) follows tidal patterns: predictable peaks driven by event structure, with flux between high-engagement and low-engagement phases. Event architects can harvest and store crowd energy by deliberately creating slack phases (structured pauses, participatory rituals) that allow recharge before the next peak, rather than attempting to sustain maximum engagement continuously. Crowds managed as constant-peak demands exhaust and fragment; tidal management produces more total energy delivered over the event arc.",
+    "prediction": "Live events that incorporate structured low-intensity participatory intervals at 25-35 minute intervals (mapped to audience arousal cycle data) will generate higher aggregate audience energy ratings in post-event surveys than events with continuous high-stimulus programming, controlling for content quality.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Ember Threshold Calibration",
+    "mechanism_source": "fire walking",
+    "target_domain": "risk tolerance calibration",
+    "mechanism": "Fire walking works through a combination of Leidenfrost effect, coal thermal conductivity properties, and critical exposure time — the risk is real but bounded by physical constraints, and successful crossing requires calibrated pace rather than either hesitation or recklessness.",
+    "application": "Risk tolerance calibration in organizations fails in two symmetric ways mirroring fire walk errors: hesitation (prolonged contact with the coals, maximizing heat transfer) corresponds to analysis paralysis that extends exposure to market risk without action; recklessness (running and destabilizing footing) corresponds to impulsive commitment that ignores the physical constraints of the decision surface. The fire walk model prescribes a calibrated pace — fast enough to limit exposure time, steady enough to maintain footing — as the objective function for organizational risk decisions, rather than maximizing or minimizing risk appetite.",
+    "prediction": "Organizations that implement explicit pace-based risk decision frameworks (defined time-to-commitment windows with structured go/no-go gates) will show better risk-adjusted returns than organizations relying on either open-ended deliberation or rapid-response cultures, measurable across comparable investment decision cohorts.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  }
+]

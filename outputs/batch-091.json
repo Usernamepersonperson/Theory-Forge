@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Folded Attack Surface",
+    "mechanism_source": "origami",
+    "target_domain": "cybersecurity",
+    "mechanism": "Sequential folding collapses a flat sheet into a compact, multi-layered structure where interior surfaces become inaccessible from the outside",
+    "application": "Security architectures can be designed using fold-sequence logic: each authentication layer folds the access surface inward, hiding inner system states from external visibility. Just as a finished origami form exposes only certain faces while concealing internal paper layers, a well-folded security perimeter reveals only intentional interfaces. Reversibility matters too — unfolding the model (incident response) should expose every crease (log trace) in sequence.",
+    "prediction": "Systems designed with explicit fold-sequence access models will show measurably lower lateral-movement success rates in red-team exercises compared to flat, perimeter-only architectures, because interior privilege layers are structurally unreachable without reversing prior folds.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Hive Interest Mechanics",
+    "mechanism_source": "beekeeping",
+    "target_domain": "monetary policy",
+    "mechanism": "A healthy hive maintains a precise ratio of forager bees to nurse bees to guards; disrupting the ratio collapses colony productivity even if total bee count stays constant",
+    "application": "Monetary systems similarly depend not on total money supply but on the functional ratio of capital in active circulation versus hoarded reserves versus defensive hedging. Central banks focusing only on aggregate supply (total bees) miss ratio imbalances that strangle productive flow. A hive-ratio policy framework would monitor and target the proportion of capital actively foraging (investment), nursing (working capital), and guarding (precautionary savings) rather than a single M2 figure.",
+    "prediction": "Economies where the investment-to-precautionary-savings ratio falls below a threshold analogous to the forager-to-nurse collapse point will exhibit credit contractions within 18 months even when aggregate money supply continues to grow.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Gather and Breathe",
+    "mechanism_source": "glassblowing",
+    "target_domain": "psychotherapy",
+    "mechanism": "Glassblowing alternates between gathering molten mass onto the blowpipe and controlled breath expansion; the piece can only be shaped during narrow thermal windows, and forcing shape outside those windows shatters it",
+    "application": "Therapeutic progress follows the same thermal-window logic: a client is shapeable only during specific affective states — neither too defended (glass too cool) nor too dysregulated (glass too fluid to hold form). Skilled therapists recognize and use these windows rather than forcing insight during defensive or flooded states. The gather phase corresponds to building enough relational material (sessions, trust) before introducing breath — a reflective challenge that expands inner structure.",
+    "prediction": "Therapists trained to explicitly identify and wait for client co-regulation windows before introducing reframing interventions will achieve durable behavior change in significantly fewer sessions than therapists who apply interventions on a fixed schedule.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Projection and Territory",
+    "mechanism_source": "cartography",
+    "target_domain": "gene therapy",
+    "mechanism": "Every map projection preserves certain spatial properties (area, angle, distance) while necessarily distorting others; the choice of projection is an irreducible trade-off determined by intended use",
+    "application": "Viral vectors used in gene therapy are biological projections: they accurately deliver a genetic payload to some cell types while distorting (off-targeting) in others. Choosing a vector is a projection choice — AAV9 preserves CNS tropism but distorts liver specificity; lentivirus preserves integration fidelity but distorts immune invisibility. Framing vector selection as projection selection forces explicit acknowledgment of which biological properties are being preserved and which are being distorted rather than treating off-target effects as mere failures.",
+    "prediction": "Research teams that formally map vector tropism trade-offs using a projection-analogy matrix before trial design will identify off-target risk profiles earlier in development and file fewer post-trial protocol amendments due to unanticipated tissue expression.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "String Theory Logistics",
+    "mechanism_source": "puppetry",
+    "target_domain": "supply chain logistics",
+    "mechanism": "A puppet's movement is entirely determined by string tension relationships — slack in one string transfers motion load to adjacent strings, and the puppeteer must model the whole tension network rather than individual limbs",
+    "application": "Supply chain nodes are coupled by tension relationships: slack inventory at one node (excess buffer stock) transfers strain to upstream suppliers who must absorb demand variance. Managing each node independently is like pulling individual strings without watching the puppet — the system produces unintended, jerky behavior. A tension-network model tracks constraint coupling across the chain, identifying which nodes are load-bearing strings versus decorative ones and where slack intentionally needs to live.",
+    "prediction": "Supply chains modeled as tension networks, with explicit slack-allocation strategies derived from constraint coupling maps, will exhibit 20–35% lower bullwhip amplification than chains managed with node-by-node safety stock optimization.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Zonation Compiler Pass",
+    "mechanism_source": "tide pool ecology",
+    "target_domain": "compiler design",
+    "mechanism": "Tide pools organize species into vertical zonation bands by stress tolerance — high-zone organisms survive prolonged exposure but are competitively excluded from richer low zones; community structure is determined by intersecting stress gradients and competition",
+    "application": "Compiler optimization passes can be conceived as zonation layers: early passes (high-stress zone) handle only transformations safe under minimal assumptions about program state; later passes (low-stress, resource-rich zone) apply aggressive optimizations that require prior passes to have established preconditions. Organisms that colonize the wrong zone die — optimizations applied before their preconditions are met introduce bugs. The zonation lens makes pass-ordering constraints ecological rather than ad hoc.",
+    "prediction": "Compiler pipelines designed with explicit stress-tolerance prerequisites for each optimization pass — where passes are blocked from running unless lower-zone preconditions are certified — will produce fewer miscompilation bugs than pipelines using heuristic pass ordering.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Koji Mediation Protocol",
+    "mechanism_source": "sake brewing",
+    "target_domain": "conflict resolution",
+    "mechanism": "Sake production requires koji mold to pre-digest starches into sugars before yeast can ferment; no direct path from rice to alcohol exists — the intermediary transformation is mandatory and cannot be accelerated beyond the mold's biological pace",
+    "application": "Entrenched conflicts often fail because parties attempt direct negotiation before positions have been enzymatically broken down into negotiable components. A koji-protocol mediator functions as mandatory pre-digestion: identifying the hard structural elements (territorial claims, identity grievances, resource rights) and converting them into smaller, fermentable units that parties can actually process. Attempting to rush to agreement without this phase produces the equivalent of unfermented rice — nothing can proceed.",
+    "prediction": "Multi-party conflicts subjected to structured pre-negotiation decomposition phases — where issues are formally broken into component interests before any positional bargaining begins — will reach durable agreements at higher rates than conflicts that proceed directly to positional negotiation.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "The Weathered Fist Return",
+    "mechanism_source": "falconry",
+    "target_domain": "venture capital",
+    "mechanism": "A trained falcon is released to hunt independently but returns to the falconer's fist because the relationship, not a cage, is the retention mechanism; the bird is capable of leaving permanently at any moment, so the falconer's skill lies in maintaining voluntary return",
+    "application": "Portfolio founders are not caged assets — they can leave a VC's ecosystem at any time, especially post-Series B when options multiply. The falconry model reframes portfolio management around voluntary return: founders return to the investor's network for follow-on capital, introductions, and board support only if the relationship provides genuine value. Investors who rely on contractual lock-in rather than earned return discover, like poor falconers, that their birds drift away the moment conditions allow.",
+    "prediction": "VC firms whose founders voluntarily join their scout networks, take advisory roles in other portfolio companies, and refer deals post-exit will outperform firms with equivalent financial returns but low voluntary engagement, as measured by quality of proprietary deal flow in the subsequent fund.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Spine and Signature",
+    "mechanism_source": "bookbinding",
+    "target_domain": "neural architecture",
+    "mechanism": "In sewn binding, individual signatures (folded page gatherings) are stitched to each other and to a spine; the binding's durability comes from distributed load-sharing across signatures rather than a single adhesive joint",
+    "application": "Deep neural networks with single large dense layers are perfect-bound books — strong but brittle, failing catastrophically when one region is damaged. Architectures organized as modular signature-like blocks (residual units, capsules, attention heads) sewn together through skip connections share representational load across units, improving robustness to localized weight damage or pruning. The spine corresponds to the residual stream or embedding space that runs through all signatures without being owned by any one.",
+    "prediction": "Neural networks with explicit modular signature structures and inter-module stitching connections will retain a greater fraction of task performance after random unit ablation compared to monolithic architectures matched for total parameter count.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Bleaching Threshold Transit",
+    "mechanism_source": "coral reef biology",
+    "target_domain": "urban transit",
+    "mechanism": "Coral bleaching occurs when thermal stress causes zooxanthellae expulsion — the coral loses its productive symbiont and turns white; mild bleaching is recoverable, but prolonged stress causes irreversible mortality because the symbiotic relationship cannot be re-established quickly",
+    "application": "Urban transit ridership operates on analogous symbiotic thresholds: regular riders are productive symbionts whose habitual use cross-subsidizes off-peak service. Service disruptions above a frequency or duration threshold cause commuters to establish alternative routines (driving, remote work) that become entrenched — the symbiont leaves and does not return even after service is restored. Transit agencies need bleaching-threshold awareness: they can absorb short disruptions but must protect against duration crossings that cause permanent ridership loss.",
+    "prediction": "Transit systems that experience service disruptions exceeding empirically determined duration thresholds (varying by route density and available alternatives) will show multi-year ridership suppression that does not recover to pre-disruption baselines even after full service restoration.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Cold Smoke Lineage",
+    "mechanism_source": "smoke curing",
+    "target_domain": "data governance",
+    "mechanism": "Smoke curing preserves food by depositing phenolic compounds that inhibit microbial growth while simultaneously imparting flavor; the process works through slow, low-temperature permeation that changes the substrate's surface chemistry without cooking it",
+    "application": "Data governance suffers from a heat problem: aggressive access controls (high heat) destroy the analytical utility of data by locking it beyond usability. A smoke-curing model applies persistent, low-intensity governance — metadata tagging, lineage tracking, consent tokens — that permeates datasets without degrading them. Like phenolics, these governance compounds change the data's surface chemistry (how it is accessed and attributed) while preserving the underlying analytical substrate for future use.",
+    "prediction": "Data governance frameworks implementing continuous, lightweight lineage-permeation protocols will achieve higher data-quality compliance scores and lower incident rates than frameworks relying on periodic high-intensity access audits, while maintaining equivalent or higher analytical utility scores.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Shadow and Gnomon Bias",
+    "mechanism_source": "sundial design",
+    "target_domain": "behavioral economics",
+    "mechanism": "A sundial reads time through the angle of a shadow cast by the gnomon; accuracy depends entirely on correct geographic calibration — a sundial built for Rome read at the same latitude will be wrong, and no amount of careful shadow-reading corrects a miscalibrated gnomon",
+    "application": "Behavioral economic interventions function as shadow-readings: they nudge decisions based on an assumed gnomon (a model of what the agent values and how they process information). Interventions fail persistently not because the nudge logic is wrong but because the gnomon — the underlying model of the agent — is miscalibrated for the actual population. Loss-aversion defaults built for Western university students are sundials planted at the wrong latitude when applied to rural subsistence populations.",
+    "prediction": "Behavioral interventions that include an explicit population-calibration phase — measuring the local gnomon (actual decision architecture of the target group) before deploying nudges — will show significantly higher effect sizes and lower variance across demographic subgroups than interventions ported directly from canonical lab studies.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Quilt Consensus Protocol",
+    "mechanism_source": "quilting",
+    "target_domain": "distributed systems",
+    "mechanism": "A quilt is constructed from heterogeneous fabric scraps stitched into a coherent whole; each block is individually complete, but the quilt's structural integrity requires that seams align across blocks — local decisions propagate alignment constraints to neighbors",
+    "application": "Distributed consensus algorithms face the quilting problem: each node makes locally valid decisions, but seam alignment (consistency) must propagate across the system. The quilting lens highlights that alignment failure usually originates at seams between unlike blocks — heterogeneous node types, version mismatches, or network partition boundaries — rather than within homogeneous regions. Designing consensus protocols with explicit seam-management logic for heterogeneous block transitions improves Byzantine fault tolerance.",
+    "prediction": "Distributed consensus systems that implement distinct seam-validation protocols at heterogeneous node boundaries (cross-version, cross-datacenter, cross-hardware interfaces) will exhibit lower split-brain incident rates than systems applying uniform consensus rules across all node pairs.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Intrusive Clause Geology",
+    "mechanism_source": "volcanic geology",
+    "target_domain": "contract law",
+    "mechanism": "Magmatic intrusions force molten material into existing rock formations, creating igneous bodies that cross-cut and alter surrounding strata; the intrusion's properties differ from host rock but the two become permanently bonded — removal requires destroying both",
+    "application": "Boilerplate contractual clauses function as intrusive bodies: standard terms force-injected into bespoke agreements that alter surrounding provisions by cross-cutting them. Like dykes cutting through sedimentary strata, an integrated arbitration clause or indemnification provision cross-cuts and metamorphoses neighboring terms (choice-of-law, damages caps) through contact effects. Contract drafters who map intrusive clause interactions can identify zones of metamorphic alteration — provisions whose practical meaning has been changed by a nearby standard insertion.",
+    "prediction": "Litigation arising from complex commercial contracts will disproportionately involve disputes at intrusion-contact zones — where boilerplate provisions cross-cut bespoke terms — rather than disputes confined to either purely bespoke or purely standard sections.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Bell Metal Community",
+    "mechanism_source": "bell founding",
+    "target_domain": "community organizing",
+    "mechanism": "Bell founding requires precise alloy ratios (typically 80% copper, 20% tin) and a mold that defines both outer form and inner void; the bell's acoustic character emerges not from the metal alone but from the relationship between the alloy, the void geometry, and the moment of strike",
+    "application": "Community organizing produces resonance through an analogous triad: the composition of participants (alloy), the shape of the organizing container — meeting structure, decision rules, physical space (mold void) — and the moment of collective action (strike). Communities with the right people in the wrong container resonate poorly; the same people in a well-shaped structure produce durable collective voice. Organizers who obsess only over participant recruitment (alloy selection) while neglecting container design will cast bells that clunk.",
+    "prediction": "Community organizations that systematically design and iterate their structural containers (meeting formats, decision-making protocols, spatial arrangements) will demonstrate higher sustained participation and greater campaign success rates than organizations that hold structural design constant while focusing exclusively on member recruitment.",
+    "viability": "promising",
+    "confidence": 0.72
+  }
+]

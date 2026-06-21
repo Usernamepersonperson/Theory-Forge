@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Bobbin Thread Security",
+    "mechanism_source": "lace making",
+    "target_domain": "network security",
+    "mechanism": "interlocking thread paths creating tamper-evident structural redundancy",
+    "application": "Lace is not woven but knotted: each thread passes over and under neighbors in a specific sequence, so that pulling any single thread redistributes tension visibly across the entire fabric — damage cannot be localized. Network zero-trust architectures should encode the same principle: each authentication token and session credential should be structurally interlocked with adjacent sessions, such that spoofing one credential creates detectable tension anomalies in the surrounding credential graph. Current perimeter security treats threads as independent; lace-architecture security makes every thread's integrity legible through its neighbors.",
+    "prediction": "Zero-trust network implementations that cryptographically link session tokens to the credential graph of adjacent authenticated sessions (mutual attestation meshes) will detect lateral movement attacks at a statistically higher rate and earlier in the kill chain than implementations using independent per-session tokens.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Aquifer Debt Structure",
+    "mechanism_source": "well drilling",
+    "target_domain": "venture debt",
+    "mechanism": "depth-dependent yield curves and drawdown risk",
+    "application": "Well drilling returns diminish non-linearly with depth: shallow aquifers yield quickly but deplete fast; deep confined aquifers are harder to reach but sustain higher drawdown rates. Venture debt occupies an identical depth-yield structure: early-stage debt (shallow well) is accessible but creates rapid liquidity drawdown if the company's revenue aquifer is thin. Late-stage venture debt (deep confined aquifer) requires more drilling cost (covenants, warrants) but taps a more sustainable revenue formation. Drawdown risk — pumping faster than aquifer recharge — maps directly to debt service coverage erosion.",
+    "prediction": "Venture-debt facilities issued to companies with less than 18 months of revenue history (shallow aquifer) will show default rates at least 2.5x higher than facilities to companies with 36+ months of recurring revenue, after controlling for facility size, because shallow aquifers cannot sustain the drawdown rate the debt service requires.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Preservation Posture Decay",
+    "mechanism_source": "taxidermy",
+    "target_domain": "digital preservation",
+    "mechanism": "internal armature determining long-term form retention against entropy",
+    "application": "Quality taxidermy depends not on the exterior skin but on the internal armature — the wire and foam structure that maintains form as organic material desiccates and shifts over decades. A poorly armature-d specimen looks correct initially but collapses over time. Digital preservation has the same hidden-armature problem: file format migration (the skin) is insufficient without preserving the interpretive armature — software context, rendering dependencies, schema documentation — that determines how the bit-stream produces meaningful form. Archives that migrate files without documenting the armature will find their specimens collapsing into unreadable bit-streams.",
+    "prediction": "Digital archives that pair every preserved file with a containerized execution environment (armature documentation) will show measurably higher successful-render rates on 20-year-old materials than archives that store files alone with format migration logs, when tested by researchers attempting unassisted access.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "SCOBY Culture Transfer",
+    "mechanism_source": "kombucha brewing",
+    "target_domain": "organizational learning",
+    "mechanism": "symbiotic culture propagation requiring live starter with each new batch",
+    "application": "Kombucha cannot be started from sterile ingredients alone — each new batch requires a live SCOBY (symbiotic culture of bacteria and yeast) transferred from a previous batch, carrying the established microbial community. Organizational learning has the same inoculation requirement: new teams cannot be seeded from documentation alone. They require a live 'starter' — at least a small cohort of experienced practitioners who carry tacit knowledge, informal norms, and embodied heuristics that do not survive the pasteurization of written process. Organizations that expand through documentation transfer without starter cohorts produce sterile culture.",
+    "prediction": "New organizational units seeded with at least 15% experienced staff from the source unit will reach operational competency benchmarks (output quality, decision accuracy) in significantly less time than units seeded entirely with new hires given equivalent documentation, because the SCOBY proportion determines fermentation viability.",
+    "viability": "promising",
+    "confidence": 0.80
+  },
+  {
+    "name": "Gold Seam Reconciliation",
+    "mechanism_source": "kintsugi",
+    "target_domain": "post-conflict reconciliation",
+    "mechanism": "fracture repair with visible precious-metal joinery that increases rather than conceals breakage history",
+    "application": "Kintsugi repairs broken ceramics with gold lacquer, making the fracture lines the most visible and valuable feature of the repaired object — the break is not erased but honored as constitutive of the object's history and worth. Post-conflict reconciliation processes that attempt to return to pre-conflict normalcy (invisible repair) systematically fail because the fracture lines persist in social memory. Kintsugi-model reconciliation makes the harm visible and precious: truth commissions, public memorialization, and reparative institution-naming that explicitly gold-lines the rupture produce more durable social cohesion than amnesty-based erasure.",
+    "prediction": "Post-conflict societies that implement formal truth-and-acknowledgment processes (visible gold-seam reconciliation) will show lower rates of ethnic violence recurrence within 15 years than societies that implement amnesties without public harm acknowledgment, controlling for economic recovery trajectory and international peacekeeping presence.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Pleach and Layer Border",
+    "mechanism_source": "hedge laying",
+    "target_domain": "border security policy",
+    "mechanism": "controlled wounding and weaving to create a self-thickening living barrier",
+    "application": "Hedge laying involves partially cutting (pleaching) upright stems and weaving them horizontally so the wound stimulates dense lateral growth — the barrier becomes thicker and more impenetrable precisely because controlled damage activates the plant's growth response. Physical border barriers built on impenetrable-wall logic degrade over time and displace pressure laterally. Border security designed on hedge-laying principles uses controlled permeability points (managed crossing corridors) that stimulate legal-channel growth: the more robust the legal crossing infrastructure, the denser and more self-reinforcing the legitimate flow becomes, displacing illegal crossing organically.",
+    "prediction": "Border regions where investment in official crossing capacity per linear kilometer is highest will show lower rates of illegal crossings in adjacent unmonitored segments than low-investment border regions, because pleached legitimate infrastructure outcompetes and displaces unauthorized crossings rather than simply deflecting them.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Divining Rod PMF",
+    "mechanism_source": "dowsing",
+    "target_domain": "product-market fit",
+    "mechanism": "ideomotor-driven confirmation bias mistaken for external signal detection",
+    "application": "Dowsing rods move because the practitioner's unconscious muscular micromotion (ideomotor effect) responds to their own beliefs about where water should be, not to any external field — the instrument amplifies internal signal, not external reality. Founder product-market fit intuition operates identically: the conviction that customers want what the founder built is often an ideomotor phenomenon, where confirmation-seeking founder behavior (leading demo questions, cherry-picked user interviews) amplifies internal signal and mistakes it for external market response. The rod appears to dip because you already believe it will.",
+    "prediction": "PMF assessments conducted by founders who personally run customer interviews will systematically rate fit higher than assessments conducted by independent researchers interviewing identical customer cohorts, with the divergence increasing with founder conviction level as measured by prior pitch confidence scores.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Keystone Treaty Architecture",
+    "mechanism_source": "dry stone walling",
+    "target_domain": "international treaty design",
+    "mechanism": "friction-fit interlocking without mortar, relying on weight distribution and keystone placement",
+    "application": "Dry stone walls hold without mortar because each stone's irregular surface creates friction with its neighbors, and strategically placed large keystones distribute load across multiple courses — remove a keystone and sections collapse, but the wall self-stabilizes against minor perturbations without any binding agent. International treaties that rely on enforcement mortar (supranational courts, sanctions regimes) are expensive to maintain and crack under sovereignty pressure. Dry-stone treaty design relies instead on mutual friction (interlocking economic dependencies, distributed verification burdens) and keystones (anchor signatories whose withdrawal destabilizes the whole structure) rather than external binding.",
+    "prediction": "Treaties structured around deep mutual economic interdependency among signatories (high friction-fit) will show higher long-term compliance rates than treaties of equivalent scope that rely primarily on external enforcement mechanisms, because friction-fit distributes compliance incentives rather than concentrating them in an enforcement body that can be defunded.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Meadowsweet Ecosystem Mead",
+    "mechanism_source": "mead brewing",
+    "target_domain": "ecosystem restoration",
+    "mechanism": "must preparation and wild yeast succession driving fermentation toward desired character",
+    "application": "Mead brewed with wild yeast undergoes a predictable succession: initial aggressive yeasts dominate early fermentation, then are outcompeted by more alcohol-tolerant species that complete fermentation and define the final flavor profile. Ecosystem restoration follows identical yeast-succession logic: pioneer species (r-strategists) must first colonize disturbed substrate, then be outcompeted by late-successional species as conditions mature. Restorationists who plant climax-community species into bare substrate without seeding the pioneer succession stage are attempting to pitch slow-fermenting yeast into sterile must — it will not take.",
+    "prediction": "Ecosystem restorations that explicitly seed pioneer-succession plant communities before introducing target-climax species will show higher climax-species establishment rates at 5 years than restorations that plant climax species directly, because pioneer succession conditions the 'must' — soil microbiome, moisture retention, and shade gradients — that climax species require.",
+    "viability": "promising",
+    "confidence": 0.81
+  },
+  {
+    "name": "String Tension Central Banking",
+    "mechanism_source": "marionette theater",
+    "target_domain": "central banking",
+    "mechanism": "distributed string tension creating coherent movement from remote control points",
+    "application": "A marionette's apparent autonomy is produced by the puppeteer managing differential string tension: tighten one string while slackening others to produce coordinated limb movement without the figure knowing it is controlled. Central bank open market operations work identically: the central bank tightens one rate string (overnight fed funds) and slackens another (reserve requirements or forward guidance), producing coordinated movement in the macroeconomy's 'limbs' — credit, employment, inflation — without directly commanding any actor. The economy's apparent self-direction is an artifact of the puppeteer's string geometry.",
+    "prediction": "Central bank communication strategies that explicitly name which 'strings' are being adjusted (instrument-specific forward guidance) will produce lower dispersion in market rate expectations than strategies that announce desired outcomes (inflation targets) without specifying which instruments will move, because marionette coordination requires visible string assignment.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Mordant Sentiment Binding",
+    "mechanism_source": "wool dyeing",
+    "target_domain": "sentiment analysis",
+    "mechanism": "mordant chemistry determining dye uptake permanence and color fidelity",
+    "application": "Natural dyes do not bond permanently to wool without a mordant — a metallic salt that binds to both fiber and dye molecule, bridging them. Without mordant, color is surface-deposited and fades rapidly; with mordant, it penetrates and becomes structurally part of the fiber. Sentiment analysis models trained on raw text (no mordant) capture surface emotional tone that is context-sensitive and rapidly obsolete. Models that incorporate structural mordants — long-range semantic context, speaker identity, platform affordance, community norms — show sentiment that is fiber-deep: stable, transferable, and resistant to adversarial surface rewording.",
+    "prediction": "Sentiment classifiers augmented with mordant features (speaker history, platform context, community semantic norms) will maintain accuracy on adversarially reworded inputs at a significantly higher rate than classifiers trained on surface text features alone, because surface dye fades under adversarial washing while mordanted sentiment is structurally bound.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Retort Attention Kiln",
+    "mechanism_source": "charcoal production",
+    "target_domain": "attention economics",
+    "mechanism": "pyrolysis under oxygen restriction converting low-density biomass into high-density energy carrier",
+    "application": "Charcoal production (pyrolysis) converts bulky, low-energy-density wood into compact, high-energy-density charcoal by driving off volatiles under oxygen restriction — the absence of combustion is what enables densification. Attention economics inverts this: the retort of focused, low-distraction cognitive environments converts diffuse, low-density informational input into high-density understanding (insight, memory consolidation, skill acquisition). Oxygen — distraction and notification affordances — causes combustion (immediate heat, no residue) rather than pyrolysis. The attention economy is a kiln running hot with the lid open.",
+    "prediction": "Knowledge workers who spend a measurable proportion of weekly hours in retort conditions (no-notification, single-task deep work blocks) will show higher output quality scores on complex problem-solving tasks per hour of total work time than workers with equivalent total hours but no retort periods, because pyrolysis requires sealed conditions.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Weld Line Integration",
+    "mechanism_source": "damascus steel forging",
+    "target_domain": "multicultural integration",
+    "mechanism": "repeated folding and forge-welding of dissimilar metals creating emergent third-material properties",
+    "application": "Damascus steel is not an alloy in the conventional sense but a composite produced by repeated folding and welding of high and low carbon steels — each fold increases layer count exponentially, and the diffusion at weld interfaces produces properties (edge retention, flexibility) that neither constituent steel possesses alone. Multicultural integration fails when modeled as alloy (complete melting) or as mosaic (tiles in proximity without bonding). The Damascus model requires forge-welding under controlled heat and pressure: specific institutional contact zones where cultural communities work on shared structural problems, repeated over time, creating interface diffusion that generates properties absent in either source culture.",
+    "prediction": "Cities that invest in mixed-community civic infrastructure (shared institutional projects requiring cross-cultural collaboration under structured conditions) will show higher intergroup social trust scores and lower ethnic residential segregation indices after 20 years than cities pursuing either assimilationist policies or multicultural separation policies, because only forge-welding produces interface diffusion.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Ritual Forcing Function",
+    "mechanism_source": "rain dance ceremony",
+    "target_domain": "climate policy advocacy",
+    "mechanism": "collective ritual performance creating social cohesion and behavioral commitment independent of causal efficacy",
+    "application": "Rain dance ceremonies do not cause rain, but they reliably produce something valuable: synchronized community belief, rehearsed collective action, and seasonal coordination of agricultural behavior that buffers against the uncertainty of actual rainfall. Climate policy advocacy faces a parallel structure: large-scale mobilization events (marches, pledges, net-zero commitments) may have negligible direct causal impact on atmospheric CO2 but serve as rain-dance functions — they synchronize community commitment, rehearse collective action capacity, and consolidate political identity that enables downstream policy change. The efficacy question is misframed if aimed at direct causation.",
+    "prediction": "Countries with higher rates of climate-related civic participation (marches, public pledges, school strikes per capita) will show stronger public support for carbon pricing legislation in the following electoral cycle, independent of actual emission trajectories, because rain-dance function is social-cohesion causation, not atmospheric causation.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Tidal Inundation Valuation",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "startup valuation",
+    "mechanism": "structural integrity optimized for demonstration window before inevitable inundation",
+    "application": "Expert sandcastles are not built to last but to stand maximally impressive during the low-tide window before the sea reclaims them — structural choices (hollow chambers, flying buttresses, surface detail) are optimized for the demonstration period, not for permanence. Early-stage startup valuations are sandcastle engineering: the structure is optimized to stand impressively during the fundraising window (ARR multiples, growth rate narratives, comparable exits), not for the tidal return of revenue reality. The builder and the audience both know the tide is coming; the question is only whether the castle falls before or after the next funding round.",
+    "prediction": "Startup valuations assigned at Series A will show a higher negative correlation with 5-year survival rates in high-interest-rate environments (shorter low-tide windows) than in low-rate environments, because sandcastles optimized for a long tide window are structurally less viable when the tide returns faster than expected.",
+    "viability": "speculative",
+    "confidence": 0.61
+  }
+]

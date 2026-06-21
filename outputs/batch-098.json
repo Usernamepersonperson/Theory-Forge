@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Transverse Flame Navigation",
+    "mechanism_source": "moth navigation",
+    "target_domain": "dark pattern detection",
+    "mechanism": "Moths navigate by maintaining a fixed angular relationship to distant light sources (transverse orientation), but artificial point-source lights cause the moth to spiral inward because the angle correction algorithm was never calibrated for nearby sources.",
+    "application": "Dark patterns exploit the same vulnerability in human decision-making: users apply heuristics (transverse orientation rules) calibrated for trustworthy environments, but manipulative interfaces function as artificial point sources — close, bright, and designed to trigger the heuristic in a way that spirals behavior toward the designer's target rather than the user's goal. Dark pattern detection can use this model to identify interface elements that function as artificial light sources: those that trigger navigation heuristics at the wrong spatial scale. A detector would flag elements that are simultaneously high-salience, close to the decision point, and misaligned with the user's stated goal direction.",
+    "prediction": "A dark pattern classifier trained on the feature combination of visual salience rank, proximity to primary call-to-action, and goal-alignment score will outperform classifiers using any single feature alone, with the interaction term between salience and misalignment being the strongest predictor.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Stone Mill Compression",
+    "mechanism_source": "grain milling",
+    "target_domain": "information compression",
+    "mechanism": "Grain milling uses two stone surfaces with different rotational speeds and a calibrated gap: the differential shear and compression reduces grain to flour of a specific particle size distribution, with the gap setting determining fineness and the stone dressing pattern determining texture.",
+    "application": "Information compression algorithms can be modeled as millstone systems: the gap between two representational surfaces (source vocabulary and target vocabulary) determines compression ratio, while the dressing pattern (the structure of the encoding scheme) determines the texture of what survives compression. Most lossy compression debates focus only on the gap (how much to compress) while ignoring stone dressing — the structural choices about which features of the source distribution are preserved as texture in the compressed form. This model predicts that compression schemes with identical ratios but different dressing patterns produce qualitatively different outputs suited to different downstream uses.",
+    "prediction": "Lossy audio compression schemes at identical bitrates will show divergent subjective quality ratings when listeners perform tasks requiring different signal features (pitch recognition vs. timbre discrimination), confirming that dressing pattern rather than gap alone determines fitness for purpose.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Stigma Supply Chain Logic",
+    "mechanism_source": "saffron harvesting",
+    "target_domain": "rare earth supply chains",
+    "mechanism": "Saffron's value derives from extreme labor concentration at a single non-mechanizable extraction point (hand-picking stigmas from Crocus sativus), creating supply chains where the bottleneck is irreducibly human and geographically constrained, making synthetic substitution and geographic diversification both technically possible but economically resistant.",
+    "application": "Rare earth supply chains share the same structural bottleneck: processing and separation (the equivalent of stigma extraction) is technically straightforward but economically concentrated because the labor and infrastructure investment thresholds are high and returns only materialize at scale. The saffron model predicts that supply chain diversification efforts will fail unless they address the extraction bottleneck specifically rather than diversifying mining operations — the geologically distributed equivalent of growing more crocus but leaving all harvesting in one location. Strategic investment must target the processing infrastructure, not the ore source.",
+    "prediction": "National rare earth diversification programs that invest primarily in mining rights without co-investing in domestic separation and processing capacity will fail to reduce supply concentration ratios within a decade, while programs that co-invest in processing infrastructure will show measurable diversification within five years.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Snowflake Culture Lattice",
+    "mechanism_source": "snow crystal formation",
+    "target_domain": "organizational culture",
+    "mechanism": "Snow crystal morphology is determined by temperature and humidity at the moment of nucleation, with subsequent growth amplifying the initial symmetry — each crystal is unique but the set of possible forms is constrained by physical law, and the environment at formation time is locked into the crystal's structure permanently.",
+    "application": "Organizational culture nucleates at founding: the temperature (urgency/resource scarcity) and humidity (talent density/market conditions) at founding permanently encode a symmetry pattern that subsequent growth amplifies but rarely changes. This explains why culture change programs targeting mature organizations are systematically less effective than founding-condition interventions — they are trying to recrystallize a lattice that has already solidified. The model also predicts that organizations founded under similar environmental conditions will converge on similar culture morphologies regardless of explicit culture design efforts.",
+    "prediction": "Organizations founded during periods of high resource scarcity and high competitive urgency will show systematically higher internal coordination costs and lower psychological safety scores at maturity than organizations founded during resource-abundant periods, controlling for industry and size, because scarcity-nucleated cultures amplify internal competition as they grow.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Canopy Governance Cascade",
+    "mechanism_source": "kelp forest dynamics",
+    "target_domain": "platform ecosystem governance",
+    "mechanism": "Kelp forests maintain biodiversity through canopy structure: giant kelp provides the physical architecture that enables mid-water and understory species, but the system is vulnerable to urchin barrens — a phase transition triggered when keystone predator removal allows urchin populations to overgraze the holdfasts.",
+    "application": "Platform ecosystems exhibit the same canopy-urchin dynamic: the platform provides architectural structure enabling third-party developers (mid-water species), but when platform policies remove keystone constraints (antitrust enforcement, API access rules), dominant third parties can transition to urchin behavior — overgrazing the platform's own developer surface until the ecosystem collapses into a barren of undifferentiated commodity apps. Platform governance must manage the urchin transition risk specifically, not just optimize for developer growth metrics which are insensitive to phase transition approach.",
+    "prediction": "App store ecosystems in which a small number of third-party developers capture more than 60% of category revenue will show declining new-developer entry rates within 18 months of that threshold being crossed, consistent with holdfasts being overgrazed before canopy collapse becomes visible in aggregate metrics.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Clay Pipe Deprecation Path",
+    "mechanism_source": "clay pipe making",
+    "target_domain": "infrastructure deprecation",
+    "mechanism": "Clay pipes fail through gradual crack propagation from external soil pressure and root intrusion rather than sudden failure — they remain nominally functional while structural integrity degrades invisibly, and replacement is complicated by the fact that surrounding infrastructure has adapted to their exact geometry.",
+    "application": "Legacy software infrastructure depreciates through the same slow crack propagation model: systems remain nominally functional while hidden technical debt accumulates, and replacement is complicated not by the system itself but by the surrounding code, processes, and organizational knowledge that has adapted to its exact geometry and failure modes. Deprecation planning that targets the nominal function misses this: the true cost is the infrastructure of adaptation that must be simultaneously replaced. Clay pipe replacement projects routinely discover that the pipe itself is the cheapest part.",
+    "prediction": "Infrastructure deprecation projects that budget for surrounding adaptation removal (dependent system rewrites, process changes, documentation updates) at a ratio of at least 3:1 against the core system replacement cost will complete on schedule more often than projects that budget core and adaptation separately or treat adaptation as an afterthought.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Desert Varnish Brand Age",
+    "mechanism_source": "desert varnish formation",
+    "target_domain": "brand patina",
+    "mechanism": "Desert varnish is a microbiologically-mediated manganese and iron oxide coating that accumulates on rock surfaces over millennia — it cannot be artificially accelerated, it records environmental history in its layering, and its presence signals surface stability and antiquity in ways that observers recognize even without conscious analysis.",
+    "application": "Brand patina functions as a cultural equivalent of desert varnish: it accumulates through consistent environmental exposure over time and cannot be accelerated or manufactured without producing instantly recognizable counterfeits. Brands that attempt to simulate heritage through visual retrodesign or origin mythology fail in the same way fake varnish fails — trained observers detect the absence of actual layering. The actionable implication is that brand authenticity investment has the longest time horizon of any brand activity and the most asymmetric return profile: real patina appreciates indefinitely, while manufactured patina erodes rapidly under scrutiny.",
+    "prediction": "Consumer goods brands with genuine operational histories exceeding 50 years will show higher willingness-to-pay premiums in blind attribution tests than brands with similar visual heritage signals but shorter actual histories, with the premium largest among consumers who have domain expertise in the category.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Ferrofluid Crowd Topology",
+    "mechanism_source": "ferrofluid dynamics",
+    "target_domain": "crowd behavior modeling",
+    "mechanism": "Ferrofluids form spike patterns (Rosensweig instability) when magnetic field strength exceeds surface tension: the fluid self-organizes into a regular array of peaks whose spacing is determined by competing forces, and the pattern is reversible — remove the field and the spikes collapse instantly.",
+    "application": "Crowd behavior in protest or concert contexts exhibits Rosensweig-like dynamics: when external social/political field strength exceeds the surface tension of individual behavioral norms, the crowd self-organizes into coherent action clusters (spikes) with characteristic spacing determined by competing forces of solidarity and personal risk. The model predicts that crowd crystallization into coherent action is threshold-driven and reversible — the action clusters collapse when field strength drops below the critical value, not gradually. This has direct implications for crowd management: interventions that reduce field strength rather than targeting individual spikes are more effective and less likely to produce hysteresis effects.",
+    "prediction": "Crowd action events that begin with a discrete identifiable field-strength spike (a triggering event with high emotional valence) will show faster crystallization into coherent behavior and faster dissolution when the trigger is removed, compared to events driven by sustained low-level field application, measurable via time-series analysis of spatial clustering in crowd footage.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Dispersal Vector Memetics",
+    "mechanism_source": "seed dispersal mechanisms",
+    "target_domain": "meme propagation",
+    "mechanism": "Plants have evolved specialized dispersal syndromes matched to specific vectors: wind (small, dry, high surface area), animal endozoochory (nutritive reward encasing the viable propagule), animal epizoochory (hooks that attach to passing hosts), and explosive dehiscence (ballistic self-dispersal). Each syndrome reaches different spatial distributions and requires different plant investment.",
+    "application": "Meme propagation follows the same syndrome logic: wind-dispersed memes are lightweight and low-investment but travel far with low fidelity (image macros, slogans); endozoochory memes embed the propagule inside rewarding content that incentivizes sharing but requires high production investment; epizoochory memes attach to high-traffic content through commentary and quotation without requiring the host's cooperation; explosive memes are self-generated controversy that disperses the idea ballistically in all directions. Meme strategy selection should match the syndrome to the target distribution, not default to one syndrome for all goals.",
+    "prediction": "Advocacy campaigns that match content format to intended dispersal vector (lightweight shareable for broad reach, reward-embedded long-form for community retention, controversy-attachment for rapid velocity) will achieve higher target metric performance than campaigns using a single content format across all objectives, measurable in controlled social media experiments.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Stalactite Compound Return",
+    "mechanism_source": "stalactite formation",
+    "target_domain": "compound interest strategy",
+    "mechanism": "Stalactites grow through mineral deposition at the tip — each water drop deposits a thin calcite ring, and growth rate is determined by solution concentration, drop rate, and evaporation, producing a structure that records its own history in its layering and grows fastest where it has grown longest.",
+    "application": "Compound interest strategies are stalactite dynamics: the critical variable is not the rate but the initiation timing and the environmental conditions (concentration = return rate, drop rate = contribution frequency, evaporation = inflation) that determine whether deposition occurs at all. Most compound interest communication focuses on rate while underweighting initiation timing, which the stalactite model shows is the dominant variable over geological timescales. The model also highlights that stalactites stop growing when the cave ceiling is sealed — equivalent to investment vehicles that cap contribution or eliminate tax advantage at threshold.",
+    "prediction": "Financial literacy interventions that frame compound interest through initiation-timing primacy (showing the cost of delay in absolute rather than percentage terms) will produce larger increases in early investment behavior than interventions framing the same information through rate-comparison, measurable in randomized controlled trials with young adult participants.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Mangrove Resilience Network",
+    "mechanism_source": "mangrove root systems",
+    "target_domain": "disaster preparedness",
+    "mechanism": "Mangrove prop roots create a three-dimensional structural lattice that dissipates wave energy through drag and turbulence, traps sediment to build elevation, and provides nursery habitat — the system is simultaneously protective infrastructure, ecosystem engineer, and self-repairing structure.",
+    "application": "Disaster preparedness frameworks that combine physical infrastructure, social network density, and economic diversity replicate the mangrove architecture: each element provides independent protection while simultaneously strengthening the others. Single-function preparedness (only physical hardening, or only economic reserves, or only social networks) replicates the failure mode of cleared mangrove coastlines — adequate under moderate stress but catastrophically vulnerable when all three stressors arrive simultaneously. The prop root model argues that preparedness investment should be evaluated on cross-element reinforcement, not per-element performance.",
+    "prediction": "Communities with high scores on all three preparedness dimensions (physical infrastructure, social network density, economic diversity) will show superlinear recovery speed advantages over communities high on one or two dimensions, with the advantage being largest for compound disasters (storm surge + economic disruption + social fragmentation occurring simultaneously).",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Caravanserai Gateway Design",
+    "mechanism_source": "silk road caravanserai",
+    "target_domain": "API gateway design",
+    "mechanism": "Caravanserais were standardized way-stations that provided rest, resupply, currency exchange, information brokering, and dispute resolution at regular intervals along trade routes — they worked because the service bundle was predictable and the operator was neutral relative to the goods being transported.",
+    "application": "API gateways replicate the caravanserai function: they provide authentication (currency exchange), rate limiting (resupply allocation), routing (route guidance), logging (information brokering), and error handling (dispute resolution). The caravanserai model adds a design principle current gateway frameworks underweight: neutrality relative to payload. Gateways that optimize for specific payload types (favoring certain clients, certain response formats, certain partners) break the neutrality that makes the way-station trustworthy to all caravans. Gateway governance should be evaluated on neutrality preservation as a first-order constraint, not an afterthought.",
+    "prediction": "API ecosystems in which gateway operators are commercially neutral with respect to traffic participants will show higher third-party developer adoption rates and lower integration abandonment rates than ecosystems where the gateway operator also competes in the application layer, controlling for technical gateway capability.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Aurora Spectacle Frequency",
+    "mechanism_source": "aurora borealis",
+    "target_domain": "spectacle marketing",
+    "mechanism": "Auroras derive their psychological power from rarity, unpredictability, and the requirement for specific environmental conditions to witness them — their value is partly constituted by the difficulty of access and the impossibility of scheduling. A predictable aurora would be a different and lesser phenomenon.",
+    "application": "Spectacle marketing events (product launches, limited releases, brand moments) are subject to the same rarity-value relationship: the spectacle's impact is constituted in part by its unpredictability and access difficulty. Brands that attempt to produce Aurora-class spectacle on predictable quarterly schedules convert the event into a meteor shower — more frequent but categorically less impactful. The aurora model prescribes that spectacle events should be separated by intervals long enough to prevent expectation formation and should require some environmental alignment (travel, community participation, skill) to witness.",
+    "prediction": "Brand spectacle events with irregular, non-announced timing and some access barrier will generate higher earned media volume per dollar of production cost than equivalent-production events announced on a predictable schedule, with the multiplier largest for brands whose core identity is associated with exclusivity or craft.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Song Frequency Encryption",
+    "mechanism_source": "whale song communication",
+    "target_domain": "encrypted messaging",
+    "mechanism": "Whale songs encode information across multiple frequency channels simultaneously, with meaning emerging from the relationship between channels rather than any single channel — interception of a single channel yields partial signal that is misleading rather than merely incomplete.",
+    "application": "Encrypted messaging protocols can borrow whale song's multi-channel relational encoding: rather than encrypting a single message channel, encoding information across the relationship between multiple simultaneously transmitted signals means that any intercepted subset is not just opaque but actively misleading. This is distinct from standard encryption, which makes the channel unreadable — whale-song architecture makes partial interception produce confident but wrong inferences in the attacker. The approach is particularly relevant for metadata-resistant communication where content encryption is insufficient because the existence of communication is itself sensitive.",
+    "prediction": "Multi-channel relational encoding schemes will show higher resistance to traffic analysis attacks than single-channel encrypted schemes with equivalent key strength, because partial interception generates confident false conclusions in the attacker rather than inconclusive noise, measurable through red-team analysis exercises.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Obsidian Decision Glass",
+    "mechanism_source": "volcanic glass formation",
+    "target_domain": "rapid decision crystallization",
+    "mechanism": "Obsidian forms when lava cools so rapidly that no crystal lattice can organize — the result is a glass: thermodynamically metastable, homogeneous, and brittle in characteristic ways. Its fracture is conchoidal and predictable precisely because there are no grain boundaries to redirect crack propagation.",
+    "application": "Decisions made under extreme time pressure (rapid crystallization) form the organizational equivalent of obsidian: homogeneous in that they reflect the decision-maker's unmediated mental model without collaborative grain structure, brittle in characteristic and predictable ways (they fracture along the decision-maker's cognitive biases rather than at the grain boundaries where deliberation would have introduced structural complexity), and metastable — appearing solid but susceptible to rapid collapse under specific stress conditions. The model predicts that obsidian decisions are not simply worse than deliberated decisions; they are differently structured and fail in qualitatively different patterns.",
+    "prediction": "High-velocity decisions made under extreme time pressure will show higher variance in outcomes and characteristic failure modes (consistent with individual cognitive bias profiles of the decision-maker) compared to deliberated decisions, which will show lower variance but failure modes consistent with group dynamics artifacts — both predictions falsifiable through post-hoc decision audits.",
+    "viability": "incoherent",
+    "confidence": 0.48
+  }
+]

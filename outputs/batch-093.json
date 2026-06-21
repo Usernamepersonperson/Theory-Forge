@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Thatch Layer Overfitting",
+    "mechanism_source": "thatching",
+    "target_domain": "machine learning",
+    "mechanism": "layered redundancy with graduated exposure",
+    "application": "Thatchers apply successive layers of reed at precise angles, so outer layers shed water while inner layers provide insulation — redundancy is structural, not accidental. ML models can be designed with analogous graduated exposure layers where shallow features handle common-case noise deflection while deeper layers process rarer, penetrating signals. This suggests architectures where early layers are intentionally over-parameterized for robustness rather than efficiency.",
+    "prediction": "Neural networks trained with explicit 'weathering layer' dropout schedules — high dropout in early layers, low in deep layers — will outperform standard dropout on datasets with high surface-level noise but rare deep signal, such as medical imaging with artifact contamination.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Accord Coalition Theory",
+    "mechanism_source": "perfume blending",
+    "target_domain": "coalition politics",
+    "mechanism": "accord construction through layered volatility",
+    "application": "Master perfumers build accords by combining top notes (volatile, first impression), heart notes (defining character), and base notes (persistent anchoring). Coalition governments exhibit the same tripartite volatility structure: high-energy populist demands (top notes) gain initial buy-in but fade, ideological commitments (heart notes) define the coalition's character, and shared patronage or constitutional arrangements (base notes) determine longevity. Blending errors — too much volatility up front, no anchoring base — predict coalition collapse timelines.",
+    "prediction": "Coalitions in which the stated governing agreement prioritizes short-term popular policies (high top-note ratio) without durable institutional side-payments will dissolve within 18 months at a rate significantly higher than coalitions that front-load base-note arrangements.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tumbler Resistance Mapping",
+    "mechanism_source": "lock picking",
+    "target_domain": "psychoanalysis",
+    "mechanism": "sequential tension-and-release across resistance stacks",
+    "application": "Lock picking requires applying rotational tension while probing individual tumblers to their binding point, setting each in sequence — the lock opens only when all pins clear simultaneously. Psychoanalytic resistance works identically: the analyst maintains consistent interpretive pressure (tension) while probing distinct defensive structures one by one, until each 'sets' into conscious acknowledgment. Premature full tension (confronting all defenses at once) jams the mechanism; insufficient tension (pure empathy without interpretive pressure) lets set pins drop.",
+    "prediction": "Therapeutic protocols that explicitly sequence resistance targets — addressing the most superficial defense first, then incrementally deeper ones, while maintaining steady interpretive frame — will show faster symptom resolution in structured clinical trials than protocols allowing the patient to choose which material to address each session.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Aspect Ratio Spread Dynamics",
+    "mechanism_source": "kite design",
+    "target_domain": "epidemiology",
+    "mechanism": "lift-to-drag ratio as transmission efficiency under environmental resistance",
+    "application": "A kite's aspect ratio (wingspan squared / area) determines how efficiently it converts wind energy to altitude against drag; high-aspect designs soar in steady winds but destabilize in gusts. Epidemic spread has an analogous ratio: a pathogen's effective reproduction number R encodes lift, while population immunity, behavior change, and intervention friction encode drag. High-aspect pathogens (high intrinsic transmissibility, narrow tissue tropism) spread efficiently in naive populations but crash rapidly when herd immunity provides turbulence.",
+    "prediction": "Pathogens with high baseline R0 but narrow receptor specificity will show steeper epidemic curves with earlier and more pronounced collapses than pathogens with moderate R0 and broad cellular tropism, independent of intervention levels, because the high-aspect architecture is inherently less stable under immunity-induced turbulence.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Stave Grain Sharding",
+    "mechanism_source": "barrel cooperage",
+    "target_domain": "database sharding",
+    "mechanism": "radial grain alignment for uniform stress distribution across curved assemblies",
+    "application": "Coopers select staves so that wood grain runs radially outward from the barrel's center, ensuring hoop stress distributes evenly across all staves rather than concentrating at weak tangential grain points. Database sharding should follow the same principle: shard keys must align with the natural 'grain' of query access patterns so that load distributes radially across nodes rather than concentrating on hot shards with tangential (cross-grain) access. Misaligned shard keys — like tangential-grain staves — create stress concentration points that fail under load.",
+    "prediction": "Sharded databases whose shard key is derived directly from the primary access-pattern dimension (e.g., user ID for user-centric apps) will exhibit p99 latency variance at least 40% lower than databases sharded on secondary attributes, analogous to reduced stress concentration in radially-grained staves.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Shadow Disclosure Optics",
+    "mechanism_source": "shadow puppetry",
+    "target_domain": "investor relations",
+    "mechanism": "controlled silhouette projection that simplifies without falsifying",
+    "application": "Shadow puppetry communicates narrative through deliberate simplification — the flat silhouette removes color and texture noise, projecting only structural outline onto the screen. Effective investor relations operates on the same principle: executives must reduce complex operational reality to projected outlines (guidance, narrative arcs) that communicate structural form without falsifying it. The puppeteer controls what the audience sees by controlling the angle of the light source; IR teams control perception by controlling which metrics they illuminate and how they frame causality.",
+    "prediction": "Companies that adopt a consistent 'silhouette set' — a fixed small number of KPIs highlighted each quarter regardless of which metrics look best — will show lower analyst forecast dispersion and higher institutional holding periods than companies that vary their featured metrics with performance.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Salvage Priority Triage",
+    "mechanism_source": "shipwreck salvage",
+    "target_domain": "legacy code migration",
+    "mechanism": "depth-stratified recovery prioritizing high-value low-risk assets first",
+    "application": "Marine salvage operators assess a wreck by depth, structural integrity, and cargo value — recovering accessible high-value items first before committing to risky deep penetration, and deliberately abandoning sections where recovery cost exceeds asset value. Legacy code migration should follow identical triage: identify modules with high business value and low coupling first (shallow, stable wreck sections), migrate those while leaving deeply entangled subsystems untouched until surrounding structure is cleared. Attempting to extract the deepest cargo first collapses the wreck.",
+    "prediction": "Migrations that begin with the highest-coupling modules (attempting to resolve dependencies first) will exceed time estimates by a larger margin and produce more regression defects than migrations that begin with low-coupling, high-value modules and defer dependency resolution.",
+    "viability": "promising",
+    "confidence": 0.79
+  },
+  {
+    "name": "Spice Route Immune Grammar",
+    "mechanism_source": "spice trading",
+    "target_domain": "immune system regulation",
+    "mechanism": "entrepôt processing as signal amplification and re-export",
+    "application": "Historical spice trade relied on entrepôt ports — middlemen who aggregated, processed, and redistributed goods between producers and consumers, extracting value and adding information (provenance certification, blending). Lymph nodes function as immunological entrepôts: they aggregate antigenic signals from peripheral tissues, process and amplify them through clonal selection, and re-export calibrated immune responses. Just as entrepôt failure (blockade, plague) disrupted both supply and information flow, lymph node dysfunction disrupts both signal amplification and immune memory consolidation.",
+    "prediction": "Disruption of lymph node architecture (through fibrosis or surgical removal) will impair not just local immune response magnitude but the fidelity of antigen-specific memory encoding, resulting in measurably lower antibody affinity maturation relative to intact lymph node controls — analogous to entrepôt blockades degrading provenance information.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Glaze Crawl Reputation",
+    "mechanism_source": "pottery glazing",
+    "target_domain": "reputation management",
+    "mechanism": "crawl and pinhole defects from thermal coefficient mismatch",
+    "application": "Ceramic glazes fail when their thermal expansion coefficient mismatches the clay body — the glaze cracks (crazing) or pulls away (crawling) under cooling stress. Organizational reputation follows the same physics: public-facing messaging (the glaze) fails when its thermal coefficient — the rate at which claims expand under scrutiny — mismatches the underlying organizational culture (the clay body). Over-polished messaging applied to a coarser organizational reality crazes under investigative heat; authentic messaging matched to actual practice remains intact.",
+    "prediction": "Companies in which external brand claims about culture or values are independently rated as mismatched to employee satisfaction data (Glassdoor vs. public messaging) will experience larger and longer-lasting stock price drops following negative news events than companies with matched glaze-to-body thermal coefficients.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Pole Pivot Deterrence",
+    "mechanism_source": "tightrope walking",
+    "target_domain": "nuclear deterrence",
+    "mechanism": "balance pole as inertial stabilizer against oscillation amplification",
+    "application": "The tightrope walker's pole works by lowering the center of gravity and increasing rotational inertia — small wobbles do not amplify into falls because the system has slow angular response. Nuclear deterrence requires the same inertial stabilization: command-and-control structures that slow the angular response to perturbations (false alarms, miscommunication, limited strikes) prevent small wobbles from amplifying into launch decisions. Dead-hand systems and hair-trigger postures remove the balance pole, making the system fast-responsive to small perturbations.",
+    "prediction": "Nuclear dyads that adopt launch-on-warning postures (low rotational inertia) will show a statistically higher rate of documented 'near-miss' incidents per decade than dyads that retain launch-under-attack doctrines, controlling for geopolitical tension levels.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Seed Vault Branching",
+    "mechanism_source": "seed banking",
+    "target_domain": "version control",
+    "mechanism": "viability testing and stratified cold storage for long-term dormant preservation",
+    "application": "Seed banks do not simply archive — they periodically germinate samples to test viability, refresh degraded stock, and maintain genetic diversity across stratified temperature conditions. Version control systems treat branches as costless and eternal, but the seed-banking analogy demands viability testing: dormant branches should be periodically 'germinated' against the main trunk to detect merge debt accumulation, and branches with zero recent activity should be stratified to cold archive with documented germination cost. Diversity (branch divergence) is valuable only if viability is maintained.",
+    "prediction": "Repositories that implement automated 'viability checks' — weekly merge-conflict-cost estimation between long-lived feature branches and main — will resolve merge conflicts in fewer hours and with fewer defects than repositories that allow branches to remain dormant without cost tracking.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Grain Direction Originalism",
+    "mechanism_source": "whittling",
+    "target_domain": "constitutional interpretation",
+    "mechanism": "working with versus against material grain to determine feasible cut direction",
+    "application": "Whittling requires reading the wood's grain before cutting — working with grain produces clean results, against grain causes tear-out regardless of blade sharpness. Constitutional interpretation faces the same constraint: the 'grain' of the document is its underlying structural logic (separation of powers, federalism, individual liberty architectures), and interpretive methods that run against this grain produce doctrinal tear-out (internal inconsistency, cascading exceptions). Originalism and living constitutionalism are rival theories about which direction is 'with the grain,' not about whether grain exists.",
+    "prediction": "Supreme Court opinions that legal scholars independently rate as working against the structural grain of their own methodological framework (by measures of internal consistency) will be overruled or substantially narrowed within 30 years at a higher rate than opinions rated as grain-consistent.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Ballast Workforce Cycling",
+    "mechanism_source": "hot air ballooning",
+    "target_domain": "workforce planning",
+    "mechanism": "ballast-and-burn altitude management through asymmetric resource expenditure",
+    "application": "Hot air balloon altitude control is fundamentally asymmetric: descending requires dropping ballast (permanent resource loss), ascending requires burning fuel (ongoing expenditure). Once ballast is dropped, you cannot regain it without landing. Workforce planning has identical asymmetry: laying off experienced staff (dropping ballast) provides immediate descent to lower cost altitude but permanently destroys organizational knowledge capital. Organizations that repeatedly cycle through layoff-and-hire rather than burn-rate adjustment (flexible compensation, reduced hours) pay compounding ballast depletion costs.",
+    "prediction": "Technology firms that respond to downturns primarily through headcount reduction (ballast dropping) rather than compensation flexibility (burn adjustment) will show lower revenue-per-employee ratios 3 years post-recovery than firms that preserved headcount, due to knowledge-ballast depletion requiring expensive re-ascent.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Nucleation Loyalty Theory",
+    "mechanism_source": "pearl cultivation",
+    "target_domain": "brand loyalty",
+    "mechanism": "irritant nucleation and incremental nacre deposition as loyalty accretion",
+    "application": "Pearl cultivation inserts a specific nucleant bead — the irritant — around which the oyster deposits successive nacre layers over years, producing value proportional to deposition time and layer regularity. Brand loyalty accretes identically: an initial friction point (the nucleant — a product discovery moment, a problem solved, a gifted experience) triggers successive layering of positive associations, purchase history, and identity investment. Brands that skip nucleation (mass broadcast, no friction encounter) get no pearl — only ambient seawater. Loyalty depth is proportional to the quality of the original nucleant and time allowed for deposition.",
+    "prediction": "Brands whose highest-loyalty customer cohorts can identify a specific 'nucleant moment' (the exact problem or interaction that began the relationship) will show higher customer lifetime value than brands whose high-loyalty cohorts report gradual awareness with no distinct nucleation event, controlling for category and spend level.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Flash Sand Redistricting",
+    "mechanism_source": "sand casting",
+    "target_domain": "electoral redistricting",
+    "mechanism": "single-use mold destruction releasing the cast form",
+    "application": "Sand casting produces its shape by packing sand around a pattern, pouring metal, then destroying the mold to extract the casting — the mold cannot be reused, and each casting requires a new mold. Electoral districts are drawn by a process that is structurally analogous but perversely inverted: the 'casting' (population distribution) changes every decade, but incumbents attempt to preserve the old mold (existing district lines). The casting analogy demands destroying the mold each cycle and re-packing from the current population pattern. Gerrymandering is the fallacy of reusing a sand mold.",
+    "prediction": "Redistricting processes that use independent commissions with strict prohibition on using prior district lines as a starting template will produce compactness scores and competitive district ratios closer to mathematical optima than processes that begin with existing maps and adjust for population shifts.",
+    "viability": "incoherent",
+    "confidence": 0.48
+  }
+]

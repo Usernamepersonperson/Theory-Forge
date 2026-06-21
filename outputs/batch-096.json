@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Cold Smoke Prior Art",
+    "mechanism_source": "fish smoking",
+    "target_domain": "intellectual property law",
+    "mechanism": "Cold smoking preserves fish by saturating tissue with antimicrobial phenols and aldehydes from smoke at temperatures too low to cook the flesh; the preservation is not uniform — surface layers receive the highest concentration while interior layers receive diffused residual penetration; the treatment creates a stable boundary between preserved exterior and live interior",
+    "application": "Intellectual property law borrows the cold-smoke penetration model to analyze prior art scope: a published invention smokes the surrounding conceptual space with phenolic prior-art compounds, saturating the surface claims space most densely while diffusing into adjacent claim territory at lower concentration. Patent examiners using smoke-penetration mapping can identify which proposed claims sit in high-concentration prior-art zones (surface claims) versus genuinely interior novel territory that received only diffused influence and may still be patentable.",
+    "prediction": "Patent offices using prior-art penetration-depth mapping — scoring proposed claims by conceptual distance from published prior art rather than binary prior-art presence or absence — will issue fewer claims later invalidated in litigation compared to offices using keyword-similarity prior-art searches, measurable in post-grant IPR success rates.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Fire Return Intervals",
+    "mechanism_source": "prairie fire ecology",
+    "target_domain": "creative destruction economics",
+    "mechanism": "Prairie fire ecology depends on fire-return interval: too frequent burning prevents woody encroachment but also prevents restorative soil carbon accumulation; too infrequent allows canopy closure that eliminates the grass layer; the prairie optimum is a specific interval that clears competitive incumbents while allowing enough inter-fire recovery for root-system strengthening",
+    "application": "Creative destruction economics borrows the return-interval model: disruptive innovation cycles have an optimum interval analogous to fire-return frequency. Too-rapid disruption prevents firms from accumulating the institutional root mass (tacit knowledge, customer trust, supply chain depth) that allows them to survive the next disruption; too-slow disruption allows incumbent canopy closure that blocks new entrant growth. Policy should target disruption interval optimization rather than simply maximizing disruption frequency.",
+    "prediction": "Sectors with regulatory environments that enforce fire-return-interval constraints — minimum stability windows between major platform shifts combined with forced periodic re-competition — will show higher long-run productivity growth than sectors with either continuous disruption or protected incumbent stasis, detectable in ten-year TFP trend data.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Resist Pattern Privacy",
+    "mechanism_source": "shibori dyeing",
+    "target_domain": "privacy-preserving computation",
+    "mechanism": "Shibori uses physical resist techniques — binding, stitching, folding, clamping — to prevent dye from penetrating specific cloth regions; the resist is applied before dyeing and removed after; the undyed regions preserve the original fabric state precisely; pattern emerges from the relationship between dyed and resisted zones",
+    "application": "Privacy-preserving computation borrows the shibori resist model: sensitive data fields are bound and clamped with cryptographic resist material before computation proceeds over the full dataset; the dye (computation) saturates free regions (non-sensitive fields) and produces meaningful analytical output from the dyed pattern while resist-protected fields emerge from the computation entirely unchanged and unexamined. The privacy guarantee is topological — it derives from the physical binding structure, not from post-hoc redaction.",
+    "prediction": "Privacy-preserving analytical pipelines built on topological resist architecture — where sensitive field isolation is enforced by data-structure binding rather than access-control lists — will show lower sensitive-field exposure rates in adversarial red-team audits compared to pipelines using role-based access control over unified datasets.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Lock Chamber Admissions",
+    "mechanism_source": "canal lock engineering",
+    "target_domain": "immigration policy",
+    "mechanism": "Canal locks use enclosed chambers to transfer vessels between water levels without draining the canal; a vessel enters the chamber at one water level, the chamber equalizes pressure to the destination level, then the exit gate opens; throughput is a function of chamber size, fill rate, and gate cycle time rather than raw flow volume",
+    "application": "Immigration policy borrows the lock-chamber model: rather than treating admissions as a border-permeability problem (how much flow crosses), it treats it as a chamber-throughput problem. Applicants enter a bounded integration chamber — a defined status with access to services, time-limited — while equalization occurs (credential recognition, language acquisition, background adjudication). The exit gate to permanent status opens when equalization is complete. Throughput is increased by adding parallel chambers or reducing equalization time, not by raising the water level.",
+    "prediction": "Immigration systems designed around parallel equalization chambers with defined equalization completion criteria will show higher rates of labor-market integration within five years of entry compared to systems using linear queue processing with indefinite status uncertainty, measurable in income-to-native-benchmark ratios at the five-year cohort mark.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Calving Event Spinoffs",
+    "mechanism_source": "glacier calving",
+    "target_domain": "corporate spinoffs",
+    "mechanism": "Glacier calving is not gradual erosion but threshold fracture: basal meltwater creates a lubrication layer that allows the glacier to advance faster than the terminus can ablate, building internal stress until a fracture propagates and a large mass separates suddenly; the calved iceberg then moves independently under ocean current influence",
+    "application": "Corporate spinoffs borrow the calving threshold model: a division separates not when it is strategically planned but when internal stress — accumulated from misaligned growth rates, resource allocation friction, and cultural lubrication failure — passes a fracture threshold. Companies that monitor basal meltwater proxies (rate of internal resource-allocation disputes, talent flight at division boundaries, revenue-growth differential between division and parent) can predict calving events and manage the fracture plane before the break becomes uncontrolled.",
+    "prediction": "Corporate governance frameworks that track calving-proxy metrics — division-level resource-allocation dispute frequency, talent boundary-crossing rates, growth-rate divergence — will show higher spinoff valuation outcomes at three years post-separation compared to spinoffs that were not preceded by proxy monitoring, measurable in post-spinoff stock performance relative to sector benchmarks.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Acoustic Return Research",
+    "mechanism_source": "bat echolocation",
+    "target_domain": "market research",
+    "mechanism": "Bat echolocation emits brief ultrasonic pulses and extracts environmental structure from return echoes; bats use pulse interval, frequency sweep, and harmonic analysis of the echo — not the pulse itself — to construct a spatial map; the signal is designed specifically to produce maximally informative echoes rather than to describe the environment directly",
+    "application": "Market research borrows echolocation's pulse-design logic: instead of asking direct questions designed to describe consumer attitudes (which produce shaped, socially acceptable responses), researchers design stimulus pulses — product placements, price anchors, scenario prompts — specifically engineered to produce informative echo patterns in the response data. The research artifact is analyzed for what it reflects about the hidden environmental structure of preference, not for its surface content.",
+    "prediction": "Market research protocols using echolocation-designed indirect stimuli — where survey instruments are explicitly optimized for echo informativeness rather than direct attitude capture — will show higher predictive validity for actual purchase behavior at six months compared to direct-attitude survey protocols in matched product categories.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Center of Gravity Work",
+    "mechanism_source": "stone balancing",
+    "target_domain": "work-life integration",
+    "mechanism": "Stone balancing achieves stability not by flattening contact surfaces but by finding the precise center-of-gravity alignment between asymmetric stones; each stone's irregularity becomes a feature that enables contact with the adjacent stone's complementary surface; the stack is stable only in motion — minor perturbations are absorbed by micro-adjustments rather than by rigid fixing",
+    "application": "Work-life integration borrows stone-balance mechanics: rather than seeking flat symmetric surfaces (equal time allocation), individuals find center-of-gravity contact points between work and life domains by matching the irregular texture of one to the complementary surface of the other. A demanding work phase with high cognitive load aligns with a life phase that requires physical presence but low cognitive engagement. Stability is achieved through continuous micro-adjustment rather than fixed scheduling, and perturbation is absorbed rather than resisted.",
+    "prediction": "Individuals trained in dynamic integration protocols — identifying complementary surface contact points between work and non-work domains rather than targeting equal time allocation — will report higher sustained integration satisfaction scores at twelve months compared to individuals following fixed time-boundary protocols, measurable in validated work-life balance instrument scores.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Conchoidal Argument Fracture",
+    "mechanism_source": "obsidian knapping",
+    "target_domain": "argument construction",
+    "mechanism": "Obsidian knapping exploits conchoidal fracture: force applied to a prepared platform propagates through the glassy matrix in a predictable cone, producing a flake whose shape is determined by platform angle, applied force vector, and glass homogeneity — not by the knapper striking the intended flake shape directly",
+    "application": "Argument construction borrows conchoidal fracture logic: a strong conclusion is not struck directly but is produced by preparing a platform — establishing shared premises and framing — and then applying force at precisely the right angle so the logical fracture propagates through the opponent's position and removes a flake of concession whose shape was determined by their own belief structure's homogeneity. The arguer designs the platform, not the conclusion; the audience's cognitive matrix produces the conclusion shape.",
+    "prediction": "Debaters trained in platform-preparation rhetoric — structuring arguments to exploit the opponent's stated premise structure rather than directly asserting conclusions — will achieve higher rates of genuine position change in audience members compared to debaters trained in direct assertion rhetoric, measurable in pre-post belief surveys in structured debate formats.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Bore Wave Virality",
+    "mechanism_source": "tidal bore dynamics",
+    "target_domain": "viral marketing",
+    "mechanism": "A tidal bore occurs when the incoming tide's energy is funneled into a narrowing estuary, compressing the wave front into a coherent wall of water that travels upstream against the river current; bore amplitude depends on tidal range, estuary geometry, and river flow rate; the bore is not a large wave but a resonance effect of channel shape",
+    "application": "Viral marketing borrows tidal bore dynamics: content does not go viral through intrinsic amplitude but through channel geometry. A moderate-energy content piece funneled into a narrowing distribution channel — a niche community whose network topology compresses sharing into a coherent wave front — travels against the current of existing attention upstream into mainstream platforms. Campaign design focuses on estuary geometry (community funnel shape) rather than tidal range (content quality alone).",
+    "prediction": "Marketing campaigns that deliberately seed content in communities with bore-favorable network topology — high internal sharing density with a narrow bridge to a larger platform — will achieve mainstream reach with lower initial production budgets than campaigns relying on broad-base seeding across flat social networks, measurable in reach-per-dollar ratios across matched content categories.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Queen Cell Succession",
+    "mechanism_source": "apiary queen rearing",
+    "target_domain": "succession planning",
+    "mechanism": "Queen cells are produced from genetically identical worker larvae but are fed exclusively royal jelly, which epigenetically activates a different developmental pathway; the colony prepares multiple queen cells simultaneously, allowing natural selection between viable queens before one emerges and the others are suppressed or swarm",
+    "application": "Succession planning borrows the queen-cell model: multiple succession candidates are drawn from the same organizational gene pool but are placed in differentiated developmental environments (distinct leadership rotations, challenge assignments, mentorship pairings) that epigenetically activate different leadership phenotypes from equivalent raw material. The organization prepares parallel developmental cells and observes emergent phenotype before committing to a single successor, rather than pre-selecting based on larval traits.",
+    "prediction": "Organizations using parallel developmental succession tracks — where multiple candidates receive differentiated assignments simultaneously and successor selection occurs after observable phenotype differentiation — will show higher five-year post-succession performance retention compared to organizations using sequential high-potential programs with pre-selected single successors.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Stellar Sequence Curriculum",
+    "mechanism_source": "star chart navigation",
+    "target_domain": "curriculum sequencing",
+    "mechanism": "Pre-GPS celestial navigation requires establishing multiple position lines from star sights taken over time, then advancing earlier sights to a common fix time using dead reckoning; the accuracy of the final position fix depends on the geometric spread of the selected stars — sights taken from stars clustered in one quadrant produce a poor fix regardless of individual measurement quality",
+    "application": "Curriculum sequencing borrows celestial fix geometry: learning objectives are positioned as stars across the cognitive sky, and a strong learner position fix requires drawing position lines from objectives distributed across multiple cognitive quadrants (conceptual, procedural, metacognitive, affective). Curricula that cluster objectives in one quadrant produce poor learner position fixes regardless of individual lesson quality. Sequence design should first check the geometric spread of objectives before optimizing individual lesson fidelity.",
+    "prediction": "Curricula redesigned for cognitive-quadrant geometric spread — deliberately distributing objectives across conceptual, procedural, metacognitive, and affective domains — will produce more accurate learner self-assessment (narrower gap between self-rated and assessed competence) compared to curricula with equivalent content but clustered quadrant distribution.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Thallus Boundary Governance",
+    "mechanism_source": "lichen symbiosis",
+    "target_domain": "public-private partnerships",
+    "mechanism": "Lichen is not a merged organism but a stable interface: the fungal partner provides structure and water retention while the algal or cyanobacterial partner provides photosynthate; neither partner loses its genetic identity; the interface layer manages resource exchange and neither organism could survive in that substrate independently; the partnership is dissolved if environmental conditions shift sufficiently",
+    "application": "Public-private partnerships borrow the lichen interface model: the government partner provides structural substrate (regulatory certainty, infrastructure, risk absorption) while the private partner provides photosynthate (capital, operational efficiency, innovation). The partnership is managed at the interface layer — a joint governance mechanism that mediates resource exchange without either partner ceding identity. Crucially, the lichen model predicts that partnerships dissolve not from bad faith but from substrate shift — when regulatory or market environments change enough that the interface is no longer metabolically viable.",
+    "prediction": "Public-private partnerships structured with explicit interface governance layers — independent joint bodies managing the exchange terms — will show lower mid-term dissolution rates than PPPs managed through bilateral contract enforcement alone, measurable in project-completion rates across matched infrastructure categories in OECD countries.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Slag Precedent Refinement",
+    "mechanism_source": "iron smelting",
+    "target_domain": "judicial precedent",
+    "mechanism": "Iron smelting separates iron from slag through repeated heating and working; slag rises to the surface because its silicate compounds are less dense than molten iron; early heats produce bloom iron still heavily contaminated with slag inclusions; repeated working at high temperature drives slag to the surface where it is struck off, progressively concentrating iron content",
+    "application": "Judicial precedent accumulation borrows the smelting model: early common-law decisions are bloom precedents — the legal principle is present but heavily contaminated with case-specific slag (factual idiosyncrasies, era-specific social assumptions, poor analogical reasoning). Successive cases reheat and work the precedent, driving factual slag to the surface where it is struck off by the distinguishing opinion, progressively concentrating the pure legal principle. Appellate review is the hammer that separates iron from inclusion.",
+    "prediction": "Legal principles that have passed through a higher number of distinguishing appellate decisions — measured as the number of cases that cited and distinguished rather than simply applied the precedent — will show higher predictive consistency in novel fact patterns compared to precedents of similar age that were only applied without being worked, measurable in judicial outcome prediction model accuracy.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Silver Iodide Demand",
+    "mechanism_source": "cloud seeding",
+    "target_domain": "demand generation",
+    "mechanism": "Cloud seeding does not create weather from clear sky; it introduces condensation nuclei into already-supersaturated air masses that contain sufficient moisture but lack the nucleation sites needed to initiate precipitation; the intervention is effective only when latent potential is already present and would dissipate unused without nucleation",
+    "application": "Demand generation borrows cloud-seeding logic: effective campaigns do not manufacture desire in a clear market but introduce nucleation events into markets already supersaturated with latent demand — consumers who have the problem, the budget, and the context but lack a crystallizing stimulus. Campaign targeting should first identify supersaturation conditions (high problem awareness, low solution awareness) before designing nucleating content. Marketing into unsaturated markets is seeding a cloudless sky.",
+    "prediction": "Demand generation campaigns targeting markets identified as supersaturated — high problem awareness, low solution awareness, verified budget — will achieve higher conversion rates per marketing dollar than equivalent campaigns in markets where solution awareness is already high, measurable across matched B2B campaign cohorts with pipeline attribution.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Resin Entombment Archives",
+    "mechanism_source": "amber preservation",
+    "target_domain": "cultural heritage digitization",
+    "mechanism": "Amber preserves biological inclusions by rapidly encasing organisms in viscous resin that polymerizes around them, excluding oxygen and moisture; the preservation is so complete that DNA, cellular structure, and behavioral posture are maintained for millions of years; but the encasement is permanent — the inclusion cannot be extracted without destroying the amber matrix",
+    "application": "Cultural heritage digitization borrows amber's encasement logic: the highest-fidelity preservation embeds an artifact in a dense relational matrix — surrounding context, provenance data, conservation records, associated material culture — that polymerizes around the artifact's digital representation. Extracted bare digital files (high-resolution images without matrix) degrade in meaning over time as context is lost; amber-encased records maintain interpretability because the matrix preserves orientation and environmental posture alongside the artifact.",
+    "prediction": "Digital heritage archives that embed artifact records in dense contextual matrices — linking provenance, conservation history, associated objects, and contemporary documentation in a single queryable record — will show higher rates of correct scholarly interpretation of ambiguous artifacts at twenty-year review compared to archives storing high-resolution images with minimal contextual metadata.",
+    "viability": "promising",
+    "confidence": 0.76
+  }
+]

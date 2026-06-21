@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Damascene Method Fusion",
+    "mechanism_source": "damascene inlay",
+    "target_domain": "interdisciplinary research methodology",
+    "mechanism": "damascene inlay cuts precise grooves into a base metal, then hammers contrasting metal wire into the grooves so that compression permanently bonds the inlay flush with the surface — the decoration is structurally embedded, not applied, and the base metal's grain determines where cuts are feasible",
+    "application": "Interdisciplinary research fails when disciplines are layered (literature review added atop existing methods) rather than inlaid. The damascene mechanism demands cutting deliberate grooves into the base discipline — identifying where its existing grain allows foreign material to enter — and hammering the secondary discipline in under pressure until the bond is structural. The resulting methodology is flush: neither discipline stands proud of the other. This predicts that productive interdisciplinary work begins with base-discipline practitioners identifying their field's natural 'groove lines' (open theoretical gaps), not with external disciplines proposing what to contribute.",
+    "prediction": "Interdisciplinary research projects initiated by identifying theoretical gaps in the base discipline (groove-first methodology) will produce higher citation impact and cross-field uptake than projects initiated by external discipline practitioners proposing applications, measurable in grant outcome databases and cross-discipline citation analyses.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Frozen Carbon Assets",
+    "mechanism_source": "tundra permafrost carbon",
+    "target_domain": "stranded asset economics",
+    "mechanism": "tundra permafrost holds vast carbon stocks that are economically 'inert' under cold conditions — the carbon is real but inaccessible; as temperatures rise, the carbon becomes biologically active and releases, but this release represents a liability (atmospheric warming) rather than a recoverable asset, destroying value that appeared stable",
+    "application": "Stranded assets in energy and real estate are permafrost carbon: real value that appears stable under prevailing 'temperature' (regulatory climate, demand assumptions, technology costs) but becomes a liability rather than a recoverable asset as conditions warm. The permafrost model contributes a critical insight conventional stranded asset analysis misses: the release, once initiated, is self-reinforcing. Carbon release warms conditions, accelerating further release. Regulatory tightening raises the cost of holding fossil assets, reducing their value, triggering further regulatory pressure. Asset managers should model permafrost-style feedback acceleration, not linear depreciation schedules.",
+    "prediction": "Stranded asset portfolios modeled with positive-feedback depreciation curves (accelerating write-down as regulatory temperature rises) will produce more accurate 10-year asset value estimates than linear or scenario-step depreciation models, falsifiable against actual stranded asset write-down data from 2015-2025 energy transitions.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Stone Vault Meeting",
+    "mechanism_source": "cathedral acoustics",
+    "target_domain": "meeting room design",
+    "mechanism": "cathedral acoustic design uses parallel hard surfaces to create long reverberation times that blend sound into continuous wash, while stone columns and irregular surfaces diffuse rather than focus reflections — the acoustic environment shapes how speech is experienced and whether individual voices merge into collective resonance",
+    "application": "Meeting room acoustics are almost universally optimized for speech intelligibility (short reverberation, absorptive panels) — the secular equivalent of a dry lecture hall. Cathedral acoustic principles suggest an alternative: rooms designed for certain meeting types (brainstorming, visioning, creative sessions) benefit from moderate reverberation that blends individual contributions into collective wash, reducing social anxiety about individual word choice and increasing associative thinking. Rooms for negotiation or decision-making need the opposite — anechoic clarity where each word lands distinctly.",
+    "prediction": "Creative ideation sessions held in rooms with 1.5-2.0 second mid-frequency reverberation times will produce higher idea counts and higher inter-participant cross-pollination rates than identical sessions in standard 0.4-0.6 second meeting rooms, measurable in controlled workplace experiments using standardized creativity benchmarks.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Reef Scaffold Trust",
+    "mechanism_source": "oyster reef restoration",
+    "target_domain": "community trust rebuilding",
+    "mechanism": "oyster reef restoration works by deploying substrate (shell hash, concrete structures) that gives juvenile oysters a surface to attach to — reefs cannot establish on bare sediment because juveniles require rugose hard substrate; once a critical density of settlers attaches, the reef becomes self-sustaining and generates its own substrate for future cohorts",
+    "application": "Community trust cannot establish on bare institutional sediment after a breach — there is nothing for nascent trust to attach to. Restoration requires deploying trust substrate: small, low-risk, high-visibility institutional actions that give community members something concrete to attach initial positive experiences to. These early-settler experiences must reach critical density before the reef self-sustains. Crucially, the substrate is not trust itself but the structural precondition for trust accumulation — process transparency, consistent follow-through on minor commitments, accessible grievance channels.",
+    "prediction": "Communities where institutions deploy explicit 'trust substrate' programs (structured sequences of small-commitment demonstrations) following a trust-breach event will reach measurable trust score recovery 40% faster than communities where institutions respond with large symbolic gestures alone, testable in post-scandal municipal trust survey data.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Magma Talent Fractionation",
+    "mechanism_source": "magma chamber differentiation",
+    "target_domain": "talent pipeline stratification",
+    "mechanism": "magma differentiates as it cools in a chamber — denser minerals crystallize and sink first, lighter silicic minerals remain in suspension longer, producing compositionally distinct layers from a single original melt; the final erupted product depends on how long differentiation proceeds and which layer is tapped",
+    "application": "Talent pipelines differentiate in chambers (training programs, early-career cohorts) through analogous density sorting: high-specialist density individuals settle into technical tracks early, generalist-buoyant individuals remain in the suspension of rotational programs longer. Organizations that tap too early get undifferentiated melt; those that allow full differentiation and then tap targeted compositional layers get the specific talent type they need. The model also predicts that forcing all talent through identical cooling rates (uniform promotion timelines) suppresses natural differentiation and produces homogeneous output regardless of input diversity.",
+    "prediction": "Organizations that allow variable-length talent differentiation periods (versus fixed-rotation timeline programs) will show higher 5-year retention rates for both specialist and generalist tracks, because individuals are tapped at the right compositional stage, measurable in cohort career trajectory data from large professional services firms.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Spore Print Knowledge",
+    "mechanism_source": "mycology spore printing",
+    "target_domain": "knowledge transfer protocols",
+    "mechanism": "a spore print captures a mushroom's identity by pressing the cap directly onto paper — the spores fall in exact radial patterns that reveal gill structure, spore color, and density; it is a direct physical impression of structure rather than a verbal description, and it remains viable for years as a propagation medium",
+    "application": "Most knowledge transfer relies on verbal description — documentation, training materials, interviews — which captures the fruiting body's appearance but not its spore structure. Spore print methodology translates to direct structural impression: having knowledge holders perform tasks with observers capturing the exact decision radii (where attention goes, in what sequence, what is dismissed without articulation) rather than asking holders to describe what they do. The print is the transfer medium, not a representation of it. Expertise can then be 'germinated' from the print rather than reconstructed from description.",
+    "prediction": "Knowledge transfer programs using structured task shadowing with simultaneous decision-capture (spore print protocols) will produce demonstrably faster time-to-competence in successors than programs using documentation and verbal debrief alone, measurable in controlled handover experiments in technical domains with objective competence assessments.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Dry Age Strategy",
+    "mechanism_source": "dry aging",
+    "target_domain": "strategic patience frameworks",
+    "mechanism": "dry aging beef concentrates flavor and tenderizes texture through controlled enzymatic breakdown (proteolysis) and moisture loss over weeks in precise humidity and airflow conditions — the process cannot be rushed without spoilage, and the external crust (pellicle) that forms protects the interior while being discarded at the end",
+    "application": "Strategic patience frameworks typically treat waiting as passive — a gap between action and outcome. Dry aging reframes patience as active enzymatic work: the period of apparent inaction is when structural transformation happens, enabled by controlled conditions (clear strategic intent, protected resources, monitored competitive humidity). The pellicle insight is critical: the outer layer that forms during patient periods often looks unattractive and gets discarded before the value is revealed — organizations mistake the pellicle (interim confusion, public ambiguity, lost quick wins) for spoilage rather than protective crust.",
+    "prediction": "Organizations that maintain explicit protected-resource commitments through a defined patience period (analogous to controlled aging conditions) without interim harvesting will produce stronger competitive positions at period end than those that harvest interim gains — measurable in longitudinal competitive analysis of companies that maintained R&D spending through downturns versus those that cut.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Stratigraphic Code Reading",
+    "mechanism_source": "archaeological stratigraphy",
+    "target_domain": "code archaeology",
+    "mechanism": "archaeological stratigraphy reads the history of a site by analyzing layer sequence, intrusion events (where later material cuts through earlier layers), and context artifacts — the sequence is the evidence; disturbed stratigraphy (mixed layers) indicates violent events, while clean layers indicate stable periods",
+    "application": "Legacy codebases are archaeological sites. Stratigraphic code archaeology reads git history, file modification timestamps, and architectural layers to reconstruct the development history: clean layers indicate stable periods of coherent design, intrusion events (refactors that cut across module boundaries) mark crisis or pivot points, and mixed layers (files touched by many unrelated tickets) indicate disturbed stratigraphy — usually where the most dangerous technical debt is buried. This reframes legacy code reading from 'what does this do' to 'what events produced this sequence.'",
+    "prediction": "Codebase risk assessments using stratigraphic analysis (mapping intrusion events and layer disturbance patterns in version history) will predict bug density and refactoring cost more accurately than static code complexity metrics alone, falsifiable by comparing assessment scores against actual bug report and refactoring hour data in open-source repositories.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Estuary Integration Policy",
+    "mechanism_source": "estuary mixing zones",
+    "target_domain": "cultural integration policy",
+    "mechanism": "estuaries are not rivers or oceans but a third environment defined by salinity gradients — mixing zones where fresh and salt water create brackish conditions that support unique species found in neither source environment; the gradient, not the elimination of difference, is the productive feature",
+    "application": "Cultural integration policy defaults to one of two failure modes: assimilation (forcing saltwater into freshwater) or segregation (keeping them separate with a hard boundary). Estuary logic prescribes a third architecture: managed mixing zones with maintained gradients where neither source identity is eliminated. The unique species of the estuary — cultural forms, hybrid institutions, creole languages, fusion practices — only emerge in the gradient and cannot be engineered directly. Policy should protect the mixing zone conditions (contact without erasure) rather than managing toward a homogeneous outcome.",
+    "prediction": "Cultural integration programs that maintain explicit gradient zones (bilingual institutions, bicultural civic events, mixed residential development with neither group dominant) will produce higher long-term social cohesion scores and lower inter-group conflict rates than assimilation or segregation-dominant policies, measurable in longitudinal immigrant integration outcome studies.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Bottle Constraint Design",
+    "mechanism_source": "ship in a bottle",
+    "target_domain": "constraint-driven innovation",
+    "mechanism": "ship-in-a-bottle construction requires building a full-rigged ship through a bottle neck — masts are hinged to fold flat for insertion, then raised with strings pulled through the neck after the hull is placed; the impossibility-appearing constraint forces invention of collapsible architectures that are often structurally superior to unconstrained versions",
+    "application": "Constraints imposed on innovation projects (budget caps, timeline mandates, material restrictions) are conventionally treated as problems to minimize. Ship-in-bottle logic reframes them as design requirements that force collapsible architecture: solutions that must pass through a narrow neck by definition cannot rely on brute-force assembly and must instead be structurally articulated. The hinge mechanism — the invention that makes passage possible — is often the most durable and novel element of the final product. Innovation programs should deliberately introduce bottle necks at early stages to force hinge invention before scaling.",
+    "prediction": "Product development teams given explicit resource constraints before the concept phase will produce solutions with higher structural elegance scores (rated by blind technical reviewers) and lower failure rates at scale-up than teams given unconstrained early phases with constraints introduced later, measurable in staged product development experiments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Bark Call Cybersecurity",
+    "mechanism_source": "prairie dog warning systems",
+    "target_domain": "cybersecurity alert design",
+    "mechanism": "prairie dog alarm calls encode specific predator information (aerial vs. ground, size, speed, color) in call structure — receivers respond with precisely calibrated escape behaviors rather than generic flight; call specificity reduces false positives and panic responses that would themselves be costly",
+    "application": "Cybersecurity alert systems produce enormous volumes of undifferentiated alerts, triggering analyst fatigue equivalent to generic alarm responses that cannot distinguish hawk from badger. Prairie dog alert design suggests alert architectures that encode specific threat attributes (attack vector, lateral movement signature, data sensitivity of targeted asset, estimated dwell time) in the alert structure itself, enabling precisely calibrated responses rather than uniform escalation. The evolutionary constraint — callers that cry wolf erode colony survival — maps directly onto the cost of false positive alert volume to analyst capacity.",
+    "prediction": "Security operations centers that adopt attribute-encoded alert classification systems (specifying at minimum attack vector, target sensitivity, and estimated stage in kill chain) will show 30%+ reductions in mean time to contain true positive threats and 40%+ reductions in analyst alert fatigue scores compared to binary severity (high/medium/low) alert systems.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Starter Culture Ritual",
+    "mechanism_source": "sourdough starter maintenance",
+    "target_domain": "team culture preservation",
+    "mechanism": "sourdough starter is a living microbial community that survives through regular feeding cycles — flour and water refresh the substrate, remove accumulated acid that would otherwise become toxic, and the discard-and-feed rhythm maintains the microbial balance that gives the starter its character; the community degrades if overfed, underfed, or subjected to temperature shocks",
+    "application": "Team culture is a living microbial community maintained by regular feeding rituals — retrospectives, shared meals, onboarding practices, symbolic artifacts — that refresh the substrate and remove accumulated toxins (unresolved conflicts, outdated norms, burnout buildup). The discard-and-feed mechanism is critical: maintaining culture requires periodically discarding elements (rituals that have lost meaning, norms that no longer fit the team's scale) while feeding the active community. Culture that is never fed degrades; culture that is never discarded becomes acidic. Growth events (scaling, acquisitions) are temperature shocks that can kill the starter if not managed with gradual acclimation.",
+    "prediction": "Teams that maintain explicit culture-feeding rituals at regular intervals (weekly to monthly depending on team size) with deliberate discard cycles (annual ritual audits that retire outdated practices) will show higher culture-cohesion scores and lower involuntary turnover through scaling events than teams with organic or purely top-down culture management.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Retreat Line Strategy",
+    "mechanism_source": "glacier retreat mapping",
+    "target_domain": "market contraction strategy",
+    "mechanism": "glacier retreat mapping tracks the terminus position over time, distinguishing seasonal advance from long-term recession, and identifies which valleys retain ice longest due to elevation, aspect, and accumulation zone size — retreat is not uniform and strategic ice retention in favorable terrain preserves the glacier's regenerative potential",
+    "application": "Market contraction strategy typically treats retreat as uniform surrender. Glacier mapping logic demands terrain analysis: which market segments retain favorable conditions (high elevation — premium, defensible), which have productive accumulation zones (loyal customer bases that recharge revenue), and which valleys are exposed to maximum ablation (competitive heat, margin pressure). Retreat should be managed by strategic concentration in favorable terrain rather than uniform withdrawal, preserving regenerative potential in the accumulation zone so advance is possible when conditions change.",
+    "prediction": "Companies executing market contraction by systematically concentrating resources in highest-margin, highest-loyalty segments (favorable terrain) rather than proportional across-the-board cuts will preserve revenue base more effectively and show faster recovery when conditions improve, measurable in revenue trajectory data for companies contracting during demand shocks.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Lightning Glass Innovation",
+    "mechanism_source": "fulgurite formation",
+    "target_domain": "breakthrough innovation",
+    "mechanism": "fulgurites form when lightning strikes sand — the extreme energy of a single instantaneous discharge fuses silica grains into a glassy tube that preserves the exact path the current took; the structure is entirely determined by pre-existing conditions (sand composition, moisture gradient, mineral impurities) that the lightning reveals rather than creates",
+    "application": "Breakthrough innovations (fulgurites) appear to be produced by exceptional energy events (genius, investment surges, strategic pivots) but are actually reveals of pre-existing structural potential in the surrounding material. The lightning does not bring glass from outside — it discloses glass latent in the sand. This reframes innovation strategy: the productive question is not 'how do we generate more lightning' but 'what is the composition and moisture gradient of our sand' — what latent structural potential exists in current knowledge, infrastructure, and market conditions that a discharge event would fuse into a novel form.",
+    "prediction": "Innovation programs that begin with structured pre-condition mapping (identifying latent capability combinations in current organizational assets) before applying resource discharge events will produce higher rates of durable novel outputs than programs that begin with resource concentration alone, measurable in controlled R&D program design experiments.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Bog Iron Fundraising",
+    "mechanism_source": "bog iron extraction",
+    "target_domain": "grassroots fundraising",
+    "mechanism": "bog iron forms when iron-bearing groundwater encounters organic acids in boggy soil, precipitating iron hydroxides that accumulate in nodules near the surface — it is low-grade, widely distributed, and renewable (nodules regrow in 20-50 years); historically it was the only iron available to communities without access to ore mines, worked by patient accumulation rather than concentrated extraction",
+    "application": "Grassroots fundraising is bog iron metallurgy: the donor base is not a rich ore vein but a widely distributed, low-concentration resource that must be patiently accumulated across a broad surface rather than extracted from a single deep point. Bog iron's renewable property maps onto the donor relationship — the source regenerates if not over-harvested and enough time is allowed between extraction cycles. High-volume, low-ask, geographically broad campaigns with long re-engagement cycles outperform concentrated major-gift approaches when the latter are not available. The 20-50 year renewal cycle maps onto generational donor cultivation timelines.",
+    "prediction": "Grassroots campaigns that implement explicit donor-renewal cycles (defined minimum intervals between asks scaled to ask size) will show higher cumulative 10-year fundraising totals and lower donor attrition than campaigns optimizing for peak annual extraction, measurable in nonprofit donor retention and lifetime value data.",
+    "viability": "speculative",
+    "confidence": 0.60
+  }
+]
