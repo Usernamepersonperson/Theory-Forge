@@ -53,7 +53,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.6.0")
+app = FastAPI(title="Theory Forge", version="0.7.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -932,11 +932,98 @@ def synthesis_report(domain: str = "", top_n: int = 10, format: str = "markdown"
     report = "\n".join(report_lines)
 
     if format == "html":
-        try:
-            import markdown
-            html = markdown.markdown(report)
-        except ImportError:
-            html = f"<pre>{report}</pre>"
+        viab_data = json.dumps(dict(viability_counts))
+        conf_values = json.dumps([round(fw.get("confidence", 0), 3) for fw in top])
+        names_data = json.dumps([fw.get("name", "?")[:30] for fw in top])
+        html = f"""<!doctype html><html><head><meta charset="utf-8">
+<title>Synthesis Report{': ' + domain.title() if domain else ''}</title>
+<style>
+body {{ font-family: ui-monospace, Consolas, monospace; background:#0e1116; color:#e6edf3; padding:32px; max-width:900px; margin:auto; }}
+h1 {{ color:#7ee787; }} h2 {{ color:#79c0ff; border-bottom:1px solid #30363d; padding-bottom:6px; }}
+.stats {{ display:flex; gap:16px; flex-wrap:wrap; margin:16px 0; }}
+.stat {{ background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; text-align:center; flex:1; min-width:120px; }}
+.stat-val {{ font-size:28px; font-weight:bold; color:#7ee787; }}
+.stat-lbl {{ font-size:11px; color:#8b949e; }}
+canvas {{ background:#161b22; border:1px solid #30363d; border-radius:8px; }}
+.fw {{ background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; margin:12px 0; }}
+.fw h3 {{ color:#7ee787; margin:0 0 8px; }}
+.fw .meta {{ color:#8b949e; font-size:12px; }}
+.fw .claim {{ margin:8px 0; line-height:1.6; }}
+.badge {{ display:inline-block; padding:2px 6px; border-radius:4px; font-size:10px; font-weight:bold; }}
+.badge-promising {{ background:#1a3a1a; color:#7ee787; }}
+.badge-speculative {{ background:#3a2a1a; color:#f0b84a; }}
+.badge-incoherent {{ background:#3a1a1a; color:#ff7b72; }}
+.pred {{ color:#d2a8ff; font-size:13px; }}
+</style></head><body>
+<h1>Theory Forge Synthesis Report{': ' + domain.title() if domain else ''}</h1>
+<div class="stats">
+  <div class="stat"><div class="stat-val">{len(filtered)}</div><div class="stat-lbl">frameworks analyzed</div></div>
+  <div class="stat"><div class="stat-val">{len(top)}</div><div class="stat-lbl">top shown</div></div>
+  <div class="stat"><div class="stat-val">{avg_conf:.3f}</div><div class="stat-lbl">avg confidence</div></div>
+  <div class="stat"><div class="stat-val">{len(domains_involved)}</div><div class="stat-lbl">domains involved</div></div>
+</div>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin:24px 0">
+  <div><canvas id="viabChart" width="250" height="180"></canvas></div>
+  <div><canvas id="confChart" width="500" height="180"></canvas></div>
+</div>
+"""
+        for i, fw in enumerate(top, 1):
+            name = fw.get("name", "Unnamed")
+            conf = fw.get("confidence", 0)
+            viab = fw.get("viability", "?")
+            badge_cls = "badge-promising" if viab == "promising" else "badge-speculative" if viab == "speculative" else "badge-incoherent"
+            mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "?"))
+            tgt = fw.get("domain_applied_to", fw.get("target_domain", "?"))
+            claim = fw.get("core_claim", fw.get("application", ""))
+            preds = fw.get("falsifiable_predictions", [])
+            pred_html = ""
+            if isinstance(preds, list) and preds:
+                pred_html = "".join(f'<div class="pred">• {p}</div>' for p in preds[:3])
+            else:
+                pred_html = f'<div class="pred">• {fw.get("prediction", "N/A")}</div>'
+            html += f"""
+<div class="fw">
+  <h3>{i}. {name} <span class="badge {badge_cls}">{viab}</span></h3>
+  <div class="meta">Confidence: <strong>{conf:.2f}</strong> | {mech} → {tgt}</div>
+  <div class="claim">{claim}</div>
+  <div style="margin-top:8px"><strong style="color:#79c0ff;font-size:12px">KEY PREDICTIONS</strong></div>
+  {pred_html}
+</div>"""
+
+        html += f"""
+<script>
+const viabData = {viab_data};
+const confValues = {conf_values};
+const names = {names_data};
+// Viability pie chart
+const vc = document.getElementById('viabChart').getContext('2d');
+const colors = {{'promising':'#7ee787','speculative':'#f0b84a','incoherent':'#ff7b72','unknown':'#8b949e'}};
+const total = Object.values(viabData).reduce((a,b)=>a+b,0);
+let startAngle = -Math.PI/2;
+Object.entries(viabData).forEach(([k,v]) => {{
+  const slice = (v/total)*Math.PI*2;
+  vc.beginPath(); vc.moveTo(90,90); vc.arc(90,90,75,startAngle,startAngle+slice);
+  vc.fillStyle = colors[k]||'#8b949e'; vc.fill();
+  const mid = startAngle+slice/2;
+  vc.fillStyle='#e6edf3'; vc.font='11px monospace'; vc.textAlign='center';
+  vc.fillText(k+' '+v, 90+Math.cos(mid)*50, 90+Math.sin(mid)*50);
+  startAngle += slice;
+}});
+// Confidence bar chart
+const cc = document.getElementById('confChart').getContext('2d');
+const barW = Math.min(40, (480/confValues.length)-4);
+confValues.forEach((v,i) => {{
+  const h = v*150; const x = 10+i*(barW+4);
+  cc.fillStyle = v>=0.7?'#7ee787':v>=0.5?'#f0b84a':'#ff7b72';
+  cc.fillRect(x,170-h,barW,h);
+  cc.fillStyle='#8b949e'; cc.font='8px monospace'; cc.textAlign='center';
+  cc.save(); cc.translate(x+barW/2,172); cc.rotate(-Math.PI/4);
+  cc.fillText(names[i],0,0); cc.restore();
+}});
+</script>
+<div style="margin-top:32px;color:#8b949e;font-size:11px">
+Report generated by Theory Forge v0.7
+</div></body></html>"""
         return HTMLResponse(html)
 
     return StreamingResponse(
@@ -944,6 +1031,225 @@ def synthesis_report(domain: str = "", top_n: int = 10, format: str = "markdown"
         media_type="text/markdown",
         headers={"Content-Disposition": f"attachment; filename=synthesis-{domain or 'all'}.md"},
     )
+
+
+# ---- Visualization: Domain Heatmap ----
+
+@app.get("/domain-heatmap")
+def domain_heatmap():
+    """Jaccard similarity between all domain tag sets — data for a heatmap."""
+    theory_domains = sorted({t.domain for t in _theories})
+    domain_tags: dict[str, set[str]] = {}
+    for t in _theories:
+        domain_tags.setdefault(t.domain, set()).update(t.tags)
+
+    rows = []
+    for da in theory_domains:
+        row = []
+        tags_a = domain_tags.get(da, set())
+        for db in theory_domains:
+            tags_b = domain_tags.get(db, set())
+            union = len(tags_a | tags_b)
+            row.append(round(len(tags_a & tags_b) / union, 3) if union else 0)
+        rows.append(row)
+    return {"domains": theory_domains, "matrix": rows}
+
+
+# ---- Visualization: Theory Genealogy ----
+
+@app.get("/genealogy")
+def genealogy():
+    """Map which seed theories produced which frameworks."""
+    all_fw = _load_all_frameworks()
+    theory_names = {t.name.lower(): t.to_dict() for t in _theories}
+    tree: dict[str, list] = {}
+    for fw in all_fw:
+        for src_key in ("source_a", "source_b"):
+            src = fw.get(src_key, "").strip()
+            if src and src.lower() in theory_names:
+                tree.setdefault(src, []).append({
+                    "name": fw.get("name", "?"),
+                    "confidence": fw.get("confidence", 0),
+                    "viability": fw.get("viability", "?"),
+                    "partner": fw.get("source_b" if src_key == "source_a" else "source_a", ""),
+                })
+    top_parents = sorted(tree.items(), key=lambda x: -len(x[1]))[:60]
+    return {
+        "total_parent_theories": len(tree),
+        "parents": [
+            {"theory": name, "offspring_count": len(children),
+             "offspring": sorted(children, key=lambda c: -c["confidence"])[:10]}
+            for name, children in top_parents
+        ],
+    }
+
+
+# ---- Visualization: Discovery Timeline ----
+
+@app.get("/timeline")
+def discovery_timeline():
+    """When each domain was first explored across collision batches."""
+    out_dir = Path(__file__).parent / "outputs"
+    domain_first: dict[str, dict] = {}
+    for f in sorted(out_dir.glob("batch-*.json")):
+        batch_num_match = re.search(r"batch-(\d+)", f.name)
+        if not batch_num_match:
+            continue
+        batch_num = int(batch_num_match.group(1))
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, KeyError):
+            continue
+        for fw in data:
+            for key in ("mechanism_borrowed_from", "mechanism_source", "domain_applied_to", "target_domain", "source_a", "source_b"):
+                d = fw.get(key, "").strip()
+                if d and d.lower() not in domain_first:
+                    domain_first[d.lower()] = {
+                        "domain": d,
+                        "first_batch": batch_num,
+                        "first_framework": fw.get("name", "?"),
+                        "batch_file": f.name,
+                    }
+    timeline = sorted(domain_first.values(), key=lambda x: x["first_batch"])
+    batches_with_new = defaultdict(list)
+    for entry in timeline:
+        batches_with_new[entry["first_batch"]].append(entry["domain"])
+    return {
+        "total_domains_discovered": len(timeline),
+        "timeline": timeline,
+        "by_batch": [
+            {"batch": b, "new_domains": ds}
+            for b, ds in sorted(batches_with_new.items())
+        ],
+    }
+
+
+# ---- Compare Frameworks ----
+
+@app.get("/compare")
+def compare_frameworks(names: str = ""):
+    """Compare 2-3 frameworks side by side."""
+    if not names:
+        raise HTTPException(400, "Provide comma-separated framework names via ?names=")
+    name_list = [n.strip() for n in names.split(",") if n.strip()][:3]
+    if len(name_list) < 2:
+        raise HTTPException(400, "Need at least 2 framework names to compare.")
+    all_fw = _load_all_frameworks()
+    fw_by_name: dict[str, dict] = {}
+    for fw in all_fw:
+        fn = fw.get("name", "").strip().lower()
+        if fn and fn not in fw_by_name:
+            fw_by_name[fn] = fw
+    results = []
+    for name in name_list:
+        fw = fw_by_name.get(name.lower())
+        if not fw:
+            raise HTTPException(404, f"Framework '{name}' not found.")
+        results.append(fw)
+
+    all_tags = set()
+    fw_tags = []
+    for fw in results:
+        tags = set()
+        mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", ""))
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", ""))
+        for t in _theories:
+            if t.name.lower() in fw.get("source_a", "").lower() or t.name.lower() in fw.get("source_b", "").lower():
+                tags.update(t.tags)
+            if t.domain.lower() == mech.lower() or t.domain.lower() == tgt.lower():
+                tags.update(t.tags)
+        fw_tags.append(tags)
+        all_tags.update(tags)
+
+    shared_tags = fw_tags[0]
+    for t in fw_tags[1:]:
+        shared_tags = shared_tags & t
+    unique_tags = [t - shared_tags for t in fw_tags]
+
+    return {
+        "frameworks": results,
+        "shared_tags": sorted(shared_tags),
+        "unique_tags": [sorted(u) for u in unique_tags],
+        "overlap_ratio": round(len(shared_tags) / len(all_tags), 3) if all_tags else 0,
+        "structural_comparison": {
+            "fields": ["name", "confidence", "viability", "mechanism_borrowed_from",
+                        "domain_applied_to", "core_claim", "prediction"],
+            "values": [
+                [fw.get(f, fw.get({"mechanism_borrowed_from": "mechanism_source",
+                                    "domain_applied_to": "target_domain"}.get(f, f), ""))
+                 for f in ["name", "confidence", "viability", "mechanism_borrowed_from",
+                           "domain_applied_to", "core_claim", "prediction"]]
+                for fw in results
+            ],
+        },
+    }
+
+
+# ---- Surprise Chain ----
+
+@app.get("/surprise-chain")
+def surprise_chain(depth: int = 10):
+    """Pick a random high-confidence framework and build a 10-hop exploration path."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    high_conf = [fw for fw in all_fw if fw.get("confidence", 0) >= 0.65]
+    if not high_conf:
+        high_conf = all_fw
+    start = random.choice(high_conf)
+    start_name = start.get("name", "")
+    chain = [start]
+    visited = {start_name.lower().strip()}
+
+    for _ in range(depth):
+        current = chain[-1]
+        mech = current.get("mechanism_borrowed_from", current.get("mechanism_source", "")).lower()
+        dom = current.get("domain_applied_to", current.get("target_domain", "")).lower()
+        candidates = []
+        for fw in all_fw:
+            fn = fw.get("name", "").lower().strip()
+            if fn in visited:
+                continue
+            fw_mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).lower()
+            fw_dom = fw.get("domain_applied_to", fw.get("target_domain", "")).lower()
+            score = 0
+            link = ""
+            if dom and dom in fw_mech:
+                score = fw.get("confidence", 0) + 0.3
+                link = "domain→mechanism"
+            elif mech and mech in fw_dom:
+                score = fw.get("confidence", 0) + 0.2
+                link = "mechanism→domain"
+            elif dom and dom in fw_dom:
+                score = fw.get("confidence", 0) + 0.1
+                link = "shared domain"
+            elif mech and mech in fw_mech:
+                score = fw.get("confidence", 0) + 0.05
+                link = "shared mechanism"
+            if score > 0:
+                candidates.append((fw, score, link))
+        if not candidates:
+            break
+        candidates.sort(key=lambda x: -x[1])
+        top_picks = candidates[:5]
+        pick, _, link_type = random.choice(top_picks)
+        pick["_link_type"] = link_type
+        visited.add(pick.get("name", "").lower().strip())
+        chain.append(pick)
+
+    return {
+        "chain_length": len(chain),
+        "frameworks": [
+            {
+                "name": fw.get("name", "?"),
+                "confidence": fw.get("confidence", 0),
+                "viability": fw.get("viability", "?"),
+                "mechanism_source": fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")),
+                "target_domain": fw.get("domain_applied_to", fw.get("target_domain", "")),
+                "core_claim": fw.get("core_claim", fw.get("application", "")),
+                "link_type": fw.get("_link_type", "origin"),
+            }
+            for fw in chain
+        ],
+    }
 
 
 @app.get("/", response_class=HTMLResponse)

@@ -141,12 +141,40 @@
   .sem-result { padding:10px 0; border-bottom:1px solid var(--br); font-size:13px; cursor:pointer; }
   .sem-result:hover { color:var(--acc); }
   .sem-score { color:var(--blue); font-size:11px; }
+
+  /* Compare */
+  .cmp-table { width:100%; border-collapse:collapse; font-size:12px; margin:12px 0; }
+  .cmp-table th { color:var(--acc); text-align:left; padding:6px 8px; border-bottom:2px solid var(--br); font-size:11px; text-transform:uppercase; }
+  .cmp-table td { padding:6px 8px; border-bottom:1px solid var(--br); vertical-align:top; max-width:280px; word-wrap:break-word; }
+  .cmp-tags { display:flex; flex-wrap:wrap; gap:4px; margin:8px 0; }
+  .cmp-tag { padding:2px 6px; border-radius:4px; font-size:10px; }
+  .cmp-shared { background:#1a3a1a; color:var(--acc); }
+  .cmp-unique { background:#1a2a3a; color:var(--blue); }
+
+  /* Heatmap */
+  .heatmap-wrap { overflow:auto; max-height:70vh; }
+  .heatmap-label { font-size:8px; color:var(--mut); writing-mode:vertical-lr; text-align:center; }
+
+  /* Timeline */
+  .tl-bar { display:flex; align-items:center; gap:8px; margin:2px 0; font-size:11px; }
+  .tl-batch { color:var(--acc); min-width:60px; text-align:right; }
+  .tl-domains { display:flex; flex-wrap:wrap; gap:4px; }
+  .tl-domain { background:var(--card); border:1px solid var(--br); border-radius:4px; padding:2px 6px; font-size:10px; }
+
+  /* Genealogy */
+  .gen-parent { margin:8px 0; }
+  .gen-parent-name { color:var(--acc); font-size:14px; cursor:pointer; }
+  .gen-parent-name:hover { text-decoration:underline; }
+  .gen-count { color:var(--mut); font-size:12px; }
+  .gen-children { display:none; padding-left:16px; margin:4px 0; }
+  .gen-children.open { display:block; }
+  .gen-child { font-size:12px; padding:3px 0; color:var(--fg); border-bottom:1px solid var(--br); }
 </style>
 </head>
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
-  <span class="version">v0.6</span>
+  <span class="version">v0.7</span>
   <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
@@ -161,6 +189,9 @@
     <div class="tab" data-tab="theories">theories</div>
     <div class="tab" data-tab="stats">stats</div>
     <div class="tab" data-tab="network">network</div>
+    <div class="tab" data-tab="heatmap">heatmap</div>
+    <div class="tab" data-tab="timeline">timeline</div>
+    <div class="tab" data-tab="genealogy">genealogy</div>
     <div class="tab" data-tab="history">history</div>
   </div>
 
@@ -228,8 +259,29 @@
         </select>
         <button id="synth-go">generate report</button>
         <button id="synth-dl">download .md</button>
+        <button id="synth-html">view as HTML</button>
       </div>
       <div id="synth-results" style="white-space:pre-wrap;font-size:13px;line-height:1.6"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>surprise chain</h3>
+      <div class="row">
+        <button id="surprise-chain-go">build random 10-hop chain</button>
+        <span id="surprise-chain-status" class="meta"></span>
+      </div>
+      <div id="surprise-chain-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>compare frameworks</h3>
+      <div class="row">
+        <input id="cmp-a" placeholder="framework 1" style="min-width:200px">
+        <input id="cmp-b" placeholder="framework 2" style="min-width:200px">
+        <input id="cmp-c" placeholder="framework 3 (optional)" style="min-width:200px">
+        <button id="cmp-go">compare</button>
+      </div>
+      <div id="cmp-results"></div>
     </div>
   </div>
 
@@ -290,6 +342,38 @@
     <canvas id="net-canvas" width="1000" height="600" style="background:var(--bg);border:1px solid var(--br);border-radius:8px;width:100%;cursor:grab"></canvas>
   </div>
 
+  <!-- HEATMAP TAB -->
+  <div class="tab-content" id="tab-heatmap">
+    <div class="row">
+      <button id="heatmap-load">load domain heatmap</button>
+      <span id="heatmap-status" class="meta"></span>
+    </div>
+    <div class="heatmap-wrap">
+      <canvas id="heatmap-canvas" width="1200" height="1200" style="border:1px solid var(--br);border-radius:8px"></canvas>
+    </div>
+  </div>
+
+  <!-- TIMELINE TAB -->
+  <div class="tab-content" id="tab-timeline">
+    <div class="row">
+      <button id="tl-load">load discovery timeline</button>
+      <span id="tl-status" class="meta"></span>
+    </div>
+    <div style="margin:12px 0">
+      <canvas id="tl-canvas" width="1000" height="400" style="width:100%;background:var(--card);border:1px solid var(--br);border-radius:8px"></canvas>
+    </div>
+    <div id="tl-list"></div>
+  </div>
+
+  <!-- GENEALOGY TAB -->
+  <div class="tab-content" id="tab-genealogy">
+    <div class="row">
+      <button id="gen-load">load theory genealogy</button>
+      <span id="gen-status" class="meta"></span>
+    </div>
+    <div id="gen-results"></div>
+  </div>
+
   <!-- HISTORY TAB -->
   <div class="tab-content" id="tab-history">
     <div id="history-result"></div>
@@ -314,6 +398,9 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.tab === 'theories') loadTheories();
     if (tab.dataset.tab === 'stats') loadStats();
     if (tab.dataset.tab === 'network') loadNetwork();
+    if (tab.dataset.tab === 'heatmap') loadHeatmap();
+    if (tab.dataset.tab === 'timeline') loadTimeline();
+    if (tab.dataset.tab === 'genealogy') loadGenealogy();
     if (tab.dataset.tab === 'research') { /* loaded on demand via buttons */ }
   };
 });
@@ -978,6 +1065,222 @@ function drawNetwork(data) {
   };
   canvas.onmouseup = () => { dragNode = null; canvas.style.cursor = 'grab'; };
 }
+
+// Surprise chain
+$('surprise-chain-go').onclick = async () => {
+  $('surprise-chain-status').textContent = 'building chain...';
+  $('surprise-chain-results').innerHTML = '';
+  const r = await fetch('/surprise-chain?depth=10');
+  const data = await r.json();
+  $('surprise-chain-status').textContent = `${data.chain_length} frameworks in chain`;
+  $('surprise-chain-results').innerHTML = data.frameworks.map((fw, i) => `
+    <div class="chain-node">
+      ${i > 0 ? '<span class="chain-arrow">&rarr;</span>' : '<span style="width:24px"></span>'}
+      <div style="flex:1">
+        <strong style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}')">${esc(fw.name||'?')}</strong>
+        <span class="conf">${(fw.confidence||0).toFixed(2)}</span>
+        ${viabilityBadge(fw.viability||'?')}
+        ${i > 0 ? `<span class="chain-link-type">${esc(fw.link_type)}</span>` : ''}
+        <div style="color:var(--mut);font-size:12px">${esc(fw.mechanism_source||'')} &rarr; ${esc(fw.target_domain||'')}</div>
+        <div style="font-size:12px;margin-top:2px">${esc((fw.core_claim||'').substring(0,180))}</div>
+      </div>
+    </div>
+  `).join('');
+};
+
+// Compare frameworks
+$('cmp-go').onclick = async () => {
+  const names = [$('cmp-a').value.trim(), $('cmp-b').value.trim(), $('cmp-c').value.trim()].filter(Boolean);
+  if (names.length < 2) { $('cmp-results').innerHTML = '<div class="card err">need at least 2 framework names</div>'; return; }
+  $('cmp-results').innerHTML = '<div class="meta">comparing...</div>';
+  const r = await fetch(`/compare?names=${encodeURIComponent(names.join(','))}`);
+  if (!r.ok) { const e = await r.json(); $('cmp-results').innerHTML = `<div class="card err">${esc(e.detail||'error')}</div>`; return; }
+  const data = await r.json();
+  const sc = data.structural_comparison;
+  let tableHtml = '<table class="cmp-table"><thead><tr><th>field</th>';
+  names.forEach((n,i) => { tableHtml += `<th>${esc(sc.values[i]?.[0]||n)}</th>`; });
+  tableHtml += '</tr></thead><tbody>';
+  sc.fields.forEach((f, fi) => {
+    if (f === 'name') return;
+    tableHtml += `<tr><td style="color:var(--purple)">${esc(f)}</td>`;
+    sc.values.forEach(row => {
+      const v = row[fi];
+      tableHtml += `<td>${esc(typeof v === 'number' ? v.toFixed(3) : String(v||'—'))}</td>`;
+    });
+    tableHtml += '</tr>';
+  });
+  tableHtml += '</tbody></table>';
+  $('cmp-results').innerHTML = tableHtml +
+    `<div style="margin:12px 0"><strong style="color:var(--blue);font-size:12px">SHARED TAGS (${data.shared_tags.length})</strong>
+      <div class="cmp-tags">${data.shared_tags.map(t => `<span class="cmp-tag cmp-shared">${esc(t)}</span>`).join('')}</div></div>` +
+    data.unique_tags.map((tags, i) => `
+      <div style="margin:8px 0"><strong style="color:var(--mut);font-size:12px">UNIQUE TO ${esc(names[i])} (${tags.length})</strong>
+        <div class="cmp-tags">${tags.map(t => `<span class="cmp-tag cmp-unique">${esc(t)}</span>`).join('')}</div></div>
+    `).join('') +
+    `<div class="meta" style="margin-top:8px">structural overlap: ${(data.overlap_ratio*100).toFixed(1)}%</div>`;
+};
+
+// HTML synthesis report
+$('synth-html').onclick = () => {
+  const domain = $('synth-domain').value.trim();
+  const n = $('synth-n').value;
+  window.open(`/synthesis?domain=${encodeURIComponent(domain)}&top_n=${n}&format=html`, '_blank');
+};
+
+// Heatmap
+$('heatmap-load').onclick = loadHeatmap;
+async function loadHeatmap() {
+  $('heatmap-status').textContent = 'loading...';
+  const r = await fetch('/domain-heatmap');
+  const data = await r.json();
+  const domains = data.domains;
+  const matrix = data.matrix;
+  const n = domains.length;
+  $('heatmap-status').textContent = `${n}x${n} domains`;
+  const canvas = $('heatmap-canvas');
+  const margin = 120;
+  const cellSize = Math.max(4, Math.min(8, Math.floor((1200 - margin) / n)));
+  canvas.width = margin + n * cellSize + 10;
+  canvas.height = margin + n * cellSize + 10;
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  // Draw cells
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      const v = matrix[i][j];
+      const intensity = Math.floor(v * 255);
+      ctx.fillStyle = i === j ? '#7ee787' : `rgb(${intensity},${Math.floor(intensity*0.9)},${Math.floor(intensity*0.4)})`;
+      ctx.fillRect(margin + j * cellSize, margin + i * cellSize, cellSize - 1, cellSize - 1);
+    }
+  }
+  // Labels
+  ctx.fillStyle = '#8b949e';
+  ctx.font = `${Math.min(cellSize, 8)}px monospace`;
+  if (cellSize >= 5) {
+    for (let i = 0; i < n; i++) {
+      ctx.save();
+      ctx.translate(margin + i * cellSize + cellSize/2, margin - 4);
+      ctx.rotate(-Math.PI/4);
+      ctx.textAlign = 'left';
+      ctx.fillText(domains[i].substring(0, 15), 0, 0);
+      ctx.restore();
+      ctx.textAlign = 'right';
+      ctx.fillText(domains[i].substring(0, 15), margin - 4, margin + i * cellSize + cellSize);
+    }
+  }
+  // Tooltip on hover
+  canvas.onmousemove = (ev) => {
+    const rect = canvas.getBoundingClientRect();
+    const sx = canvas.width / rect.width, sy = canvas.height / rect.height;
+    const mx = (ev.clientX - rect.left) * sx - margin;
+    const my = (ev.clientY - rect.top) * sy - margin;
+    const ci = Math.floor(mx / cellSize), ri = Math.floor(my / cellSize);
+    if (ci >= 0 && ci < n && ri >= 0 && ri < n) {
+      $('heatmap-status').textContent = `${domains[ri]} × ${domains[ci]}: Jaccard ${matrix[ri][ci].toFixed(3)}`;
+    }
+  };
+}
+
+// Timeline
+$('tl-load').onclick = loadTimeline;
+async function loadTimeline() {
+  $('tl-status').textContent = 'loading...';
+  const r = await fetch('/timeline');
+  const data = await r.json();
+  $('tl-status').textContent = `${data.total_domains_discovered} domains discovered`;
+  // Draw timeline chart
+  const canvas = $('tl-canvas');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+  const byBatch = data.by_batch;
+  if (!byBatch.length) return;
+  const maxBatch = Math.max(...byBatch.map(b => b.batch));
+  const cumulative = [];
+  let total = 0;
+  const batchMap = {};
+  byBatch.forEach(b => { batchMap[b.batch] = b.new_domains.length; });
+  for (let i = 1; i <= maxBatch; i++) {
+    total += (batchMap[i] || 0);
+    cumulative.push({ batch: i, total, newCount: batchMap[i] || 0 });
+  }
+  const maxTotal = total;
+  const padL = 50, padR = 20, padT = 30, padB = 40;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  // Axes
+  ctx.strokeStyle = '#30363d'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(padL, padT); ctx.lineTo(padL, H-padB); ctx.lineTo(W-padR, H-padB); ctx.stroke();
+  // Labels
+  ctx.fillStyle = '#8b949e'; ctx.font = '10px monospace'; ctx.textAlign = 'center';
+  ctx.fillText('batch number', W/2, H-5);
+  ctx.save(); ctx.translate(12, H/2); ctx.rotate(-Math.PI/2); ctx.fillText('cumulative domains', 0, 0); ctx.restore();
+  // Grid + ticks
+  for (let i = 0; i <= 5; i++) {
+    const y = padT + (plotH * (1 - i/5));
+    const val = Math.round(maxTotal * i / 5);
+    ctx.fillStyle = '#8b949e'; ctx.textAlign = 'right'; ctx.fillText(val, padL - 6, y + 4);
+    ctx.strokeStyle = '#1a1f26'; ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(W-padR, y); ctx.stroke();
+  }
+  // Cumulative line
+  ctx.beginPath();
+  ctx.strokeStyle = '#7ee787'; ctx.lineWidth = 2;
+  cumulative.forEach((p, i) => {
+    const x = padL + (p.batch / maxBatch) * plotW;
+    const y = padT + plotH * (1 - p.total / maxTotal);
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+  // New domain bars
+  cumulative.forEach(p => {
+    if (p.newCount > 0) {
+      const x = padL + (p.batch / maxBatch) * plotW;
+      const barH = (p.newCount / maxTotal) * plotH;
+      const y = H - padB - barH;
+      ctx.fillStyle = 'rgba(121,192,255,0.4)';
+      ctx.fillRect(x - 2, y, 4, barH);
+    }
+  });
+  // Batch-by-batch list
+  $('tl-list').innerHTML = '<h3 style="color:var(--mut);font-size:13px;margin:16px 0 8px">domains by batch</h3>' +
+    byBatch.map(b => `
+      <div class="tl-bar">
+        <span class="tl-batch">batch ${b.batch}</span>
+        <div class="tl-domains">${b.new_domains.map(d => `<span class="tl-domain">${esc(d)}</span>`).join('')}</div>
+      </div>
+    `).join('');
+}
+
+// Genealogy
+$('gen-load').onclick = loadGenealogy;
+async function loadGenealogy() {
+  $('gen-status').textContent = 'loading...';
+  const r = await fetch('/genealogy');
+  const data = await r.json();
+  $('gen-status').textContent = `${data.total_parent_theories} parent theories`;
+  $('gen-results').innerHTML = data.parents.map(p => `
+    <div class="gen-parent">
+      <span class="gen-parent-name" onclick="this.nextElementSibling.classList.toggle('open')">${esc(p.theory)}</span>
+      <span class="gen-count">&mdash; ${p.offspring_count} frameworks</span>
+      <div class="gen-children">
+        ${p.offspring.map(c => `
+          <div class="gen-child">
+            <span class="conf">${(c.confidence||0).toFixed(2)}</span>
+            ${viabilityBadge(c.viability||'?')}
+            <span style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc((c.name||'').replace(/'/g,"\\'"))}')">${esc(c.name||'?')}</span>
+            <span style="color:var(--mut);font-size:11px">with ${esc(c.partner||'?')}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+// Tab switching for new tabs
+const tabLoaders = {
+  'heatmap': loadHeatmap,
+  'timeline': loadTimeline,
+  'genealogy': loadGenealogy,
+};
 
 loadDomains();
 loadPairs();
