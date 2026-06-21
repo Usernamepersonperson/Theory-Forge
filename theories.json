@@ -14263,5 +14263,736 @@
       "dynamics",
       "boundary"
     ]
+  },
+  {
+    "id": "rope-abrasion-sheath-failure",
+    "name": "Rope Abrasion Sheath Failure Threshold",
+    "domain": "caving",
+    "unit": "sheath fiber bundle at rock contact point",
+    "variation": "angle of rope bend, limestone sharpness, mud lubrication, load oscillation frequency",
+    "selection": "repeated friction cycles sever outer sheath fibers before core strands; once sheath breach exceeds 40% circumference, core exposure accelerates failure",
+    "fitness": "rope survives full descent-ascent cycle without exposing core fibers at any contact point",
+    "boundary": "does not model thermal degradation from rappel devices or chemical weakening from bat guano ammonia",
+    "tags": [
+      "abrasion",
+      "sheath-integrity",
+      "vertical-caving",
+      "rope-management",
+      "friction",
+      "safety-margin"
+    ]
+  },
+  {
+    "id": "cave-survey-loop-closure-error",
+    "name": "Survey Loop Closure Error Propagation",
+    "domain": "caving",
+    "unit": "survey leg (compass bearing + clinometer angle + tape distance)",
+    "variation": "magnetic declination drift, instrument calibration error, station placement ambiguity, body interference with compass",
+    "selection": "loop closures expose cumulative error; legs with highest angular uncertainty contribute disproportionately to positional drift",
+    "fitness": "loop closure error below 1% of total loop length, producing a map that matches physical passage geometry",
+    "boundary": "breaks down in passages with strong magnetic anomalies from iron-bearing rock or near surface rebar",
+    "tags": [
+      "survey",
+      "error-propagation",
+      "loop-closure",
+      "compass-bearing",
+      "cave-mapping",
+      "measurement"
+    ]
+  },
+  {
+    "id": "squeeze-passage-body-mechanics",
+    "name": "Squeeze Passage Body Mechanics Optimization",
+    "domain": "caving",
+    "unit": "caver body cross-section at the tightest restriction point",
+    "variation": "shoulder rotation angle, lung inflation volume, arm position (superman vs. arms-back), clothing compression",
+    "selection": "the configuration that minimizes effective cross-section while preserving ability to generate forward thrust wins passage",
+    "fitness": "caver transits the restriction without becoming stuck or requiring rescue assistance",
+    "boundary": "does not apply to vertical squeezes where gravity assists or resists; assumes dry rock without water sumps",
+    "tags": [
+      "squeeze",
+      "body-mechanics",
+      "restriction",
+      "technique",
+      "cross-section",
+      "horizontal-caving"
+    ]
+  },
+  {
+    "id": "cave-rescue-haul-system-efficiency",
+    "name": "Cave Rescue Haul System Mechanical Advantage Decay",
+    "domain": "caving",
+    "unit": "pulley-rope interaction point in a hauling system",
+    "variation": "number of redirects, carabiner friction vs. pulley efficiency, rope stretch under load, mud contamination on rope",
+    "selection": "each additional redirect adds friction loss; systems exceeding 4:1 theoretical advantage rarely achieve 2:1 effective advantage underground",
+    "fitness": "patient extracted from depth to surface within the survivable time window for their injury profile",
+    "boundary": "assumes rope-based vertical rescue; does not cover horizontal drag rescue or dive rescue in sumped passages",
+    "tags": [
+      "rescue",
+      "haul-system",
+      "mechanical-advantage",
+      "friction-loss",
+      "pulley",
+      "vertical-rescue"
+    ]
+  },
+  {
+    "id": "speleothem-airflow-navigation",
+    "name": "Speleothem Airflow Navigation Heuristic",
+    "domain": "caving",
+    "unit": "air current detectable at a passage junction",
+    "variation": "barometric pressure differential, passage cross-section ratio, temperature gradient between surface and cave interior, seasonal reversal",
+    "selection": "passages connected to larger volumes or additional entrances produce stronger, more consistent airflow; dead-end passages show stagnant air",
+    "fitness": "navigator identifies the continuing passage or second entrance by following airflow direction and intensity",
+    "boundary": "fails in single-entrance caves during barometric equilibrium or in mines with sealed portals",
+    "tags": [
+      "navigation",
+      "airflow",
+      "speleothem",
+      "passage-finding",
+      "barometric",
+      "underground-orientation"
+    ]
+  },
+  {
+    "id": "saponification-lye-concentration-curve",
+    "name": "Saponification Rate vs. Lye Concentration Curve",
+    "domain": "soap making",
+    "unit": "triglyceride molecule at the oil-lye interface",
+    "variation": "NaOH concentration, oil temperature, water-to-lye ratio, mixing turbulence intensity",
+    "selection": "higher lye concentration accelerates initial reaction but risks lye-heavy pockets; moderate concentration with sustained mixing produces uniform conversion",
+    "fitness": "complete saponification with no free lye remaining and no unreacted oil pockets after 24-hour cure",
+    "boundary": "applies to cold-process NaOH soap; hot-process and KOH liquid soap follow different kinetic profiles",
+    "tags": [
+      "saponification",
+      "lye-concentration",
+      "cold-process",
+      "reaction-kinetics",
+      "NaOH",
+      "mixing"
+    ]
+  },
+  {
+    "id": "trace-acceleration-emulsification",
+    "name": "Trace Acceleration Through Emulsification Stability",
+    "domain": "soap making",
+    "unit": "oil droplet suspended in the lye-water phase",
+    "variation": "stick blender speed, oil melting point profile, fragrance oil polarity, sugar or honey additives",
+    "selection": "smaller droplet size increases surface area for saponification; certain fragrance oils destabilize the emulsion causing false trace or rice-grain seizure",
+    "fitness": "batter reaches true trace (stable emulsion with partial saponification) without false trace, separation, or seizing",
+    "boundary": "does not explain trace in hot-process where temperature drives the reaction past emulsion dependence",
+    "tags": [
+      "trace",
+      "emulsification",
+      "stick-blender",
+      "droplet-size",
+      "false-trace",
+      "fragrance-interaction"
+    ]
+  },
+  {
+    "id": "superfat-rancidity-tradeoff",
+    "name": "Superfat Percentage Rancidity Tradeoff",
+    "domain": "soap making",
+    "unit": "unsaponified fatty acid molecule in the cured bar",
+    "variation": "superfat percentage (2-20%), oil type (saturated vs. polyunsaturated), storage humidity, antioxidant presence (vitamin E, ROE)",
+    "selection": "higher superfat increases moisturizing but exposes more unsaturated chains to oxidation; oils high in linoleic acid go rancid fastest",
+    "fitness": "bar remains free of dreaded orange spots (DOS) for at least 12 months while maintaining skin-conditioning properties",
+    "boundary": "does not apply to syndet bars or melt-and-pour bases where free fatty acid content is controlled industrially",
+    "tags": [
+      "superfat",
+      "rancidity",
+      "DOS",
+      "oxidation",
+      "shelf-life",
+      "moisturizing",
+      "linoleic-acid"
+    ]
+  },
+  {
+    "id": "essential-oil-flash-point-retention",
+    "name": "Essential Oil Flash Point Retention in Cold Process",
+    "domain": "soap making",
+    "unit": "volatile aromatic compound in the soap batter",
+    "variation": "flash point of the essential oil, batter temperature at addition, gel phase intensity, cure duration",
+    "selection": "compounds with flash points below saponification exotherm temperature volatilize during gel phase; anchoring with clay or starch improves retention",
+    "fitness": "finished bar retains recognizable scent intensity after 6-week cure without morphing into off-notes",
+    "boundary": "does not cover synthetic fragrance oils which have different volatility profiles and IFRA safety limits",
+    "tags": [
+      "essential-oil",
+      "flash-point",
+      "scent-retention",
+      "gel-phase",
+      "volatility",
+      "cold-process"
+    ]
+  },
+  {
+    "id": "soap-colorant-migration-bleeding",
+    "name": "Soap Colorant Migration and Bleeding Dynamics",
+    "domain": "soap making",
+    "unit": "colorant particle or dissolved dye molecule in the soap matrix",
+    "variation": "colorant type (oxide vs. lake vs. mica vs. dye), pH stability, particle size, water content during cure",
+    "selection": "water-soluble dyes migrate along moisture gradients during cure, causing color bleeding across swirl boundaries; insoluble pigments stay fixed",
+    "fitness": "multi-colored design maintains crisp boundaries between color zones through full cure and first months of use",
+    "boundary": "does not apply to single-color bars or embeds where colors are physically separated by clear soap walls",
+    "tags": [
+      "colorant",
+      "migration",
+      "bleeding",
+      "swirl-design",
+      "pigment",
+      "dye",
+      "pH-stability"
+    ]
+  },
+  {
+    "id": "stroke-rate-distance-per-stroke-tradeoff",
+    "name": "Stroke Rate vs. Distance Per Stroke Efficiency Frontier",
+    "domain": "competitive swimming",
+    "unit": "single stroke cycle (catch through recovery)",
+    "variation": "stroke rate (strokes/min), distance per stroke, swimmer anthropometry, fatigue-induced technique degradation",
+    "selection": "optimal velocity is the product of stroke rate and DPS; increasing rate beyond threshold collapses DPS disproportionately due to shortened catch",
+    "fitness": "fastest sustainable split time for the target race distance without premature lactate accumulation",
+    "boundary": "does not apply to underwater dolphin kick phases where propulsion mechanics differ entirely from surface stroking",
+    "tags": [
+      "stroke-rate",
+      "distance-per-stroke",
+      "efficiency",
+      "pacing",
+      "freestyle",
+      "race-strategy"
+    ]
+  },
+  {
+    "id": "wave-drag-body-position",
+    "name": "Wave Drag Amplification at Body Position Threshold",
+    "domain": "competitive swimming",
+    "unit": "surface wave generated by the swimmer's body moving at the air-water interface",
+    "variation": "hip depth, head position, kick amplitude, velocity relative to hull speed for body length",
+    "selection": "as velocity approaches hull speed, wave drag grows cubically; lowering head and hips reduces the effective hull cross-section and delays the drag wall",
+    "fitness": "swimmer maintains target velocity with minimal energy wasted on wave generation",
+    "boundary": "irrelevant for fully submerged phases (streamline off walls) where only pressure and friction drag apply",
+    "tags": [
+      "wave-drag",
+      "body-position",
+      "hull-speed",
+      "hydrodynamics",
+      "head-position",
+      "drag-reduction"
+    ]
+  },
+  {
+    "id": "flip-turn-wall-contact-impulse",
+    "name": "Flip Turn Wall Contact Impulse Optimization",
+    "domain": "competitive swimming",
+    "unit": "the push-off impulse (force x time) against the wall",
+    "variation": "foot placement height, knee bend angle at contact, core rotation timing, streamline entry angle",
+    "selection": "deeper knee bend stores more elastic energy but increases wall contact time; optimal angle (~90-110 degrees) maximizes impulse without stalling rotation",
+    "fitness": "breakout speed exceeds mid-pool swimming speed, with distance to 15m mark covered in minimum time",
+    "boundary": "applies to freestyle/backstroke flip turns; open turns in breaststroke and butterfly have different contact mechanics",
+    "tags": [
+      "flip-turn",
+      "wall-contact",
+      "impulse",
+      "push-off",
+      "knee-angle",
+      "breakout-speed"
+    ]
+  },
+  {
+    "id": "negative-split-lactate-management",
+    "name": "Negative Split Lactate Buffering Strategy",
+    "domain": "competitive swimming",
+    "unit": "200m race split (each 50m segment)",
+    "variation": "first-50 pace relative to threshold, aerobic base depth, buffering capacity, psychological tolerance of early restraint",
+    "selection": "starting 2-3% below max pace preserves phosphocreatine stores and delays lactate accumulation, enabling a faster final 50m than positive-split competitors",
+    "fitness": "total race time is faster than equal-split or positive-split alternatives for the same swimmer",
+    "boundary": "does not apply to 50m sprints where the race is entirely anaerobic, or to 1500m where aerobic steady-state dominates",
+    "tags": [
+      "pacing",
+      "negative-split",
+      "lactate",
+      "200m",
+      "race-strategy",
+      "buffering",
+      "energy-systems"
+    ]
+  },
+  {
+    "id": "catch-elbow-high-pressure-differential",
+    "name": "High-Elbow Catch Pressure Differential Generation",
+    "domain": "competitive swimming",
+    "unit": "hand-forearm paddle surface during the catch phase",
+    "variation": "elbow height relative to hand, finger spread, wrist angle, shoulder rotation timing",
+    "selection": "early vertical forearm creates a larger effective paddle area sooner in the stroke; dropped elbow reduces pressure differential and wastes the first third of the pull",
+    "fitness": "maximum propulsive force generated during the catch phase per unit of energy expenditure",
+    "boundary": "specific to freestyle and butterfly; breaststroke catch uses a sculling motion with different pressure dynamics",
+    "tags": [
+      "catch",
+      "high-elbow",
+      "EVF",
+      "propulsion",
+      "pressure-differential",
+      "freestyle",
+      "technique"
+    ]
+  },
+  {
+    "id": "lead-came-structural-flex-fatigue",
+    "name": "Lead Came Structural Flex Fatigue Cycle",
+    "domain": "stained glass",
+    "unit": "single lead came joint between two glass pieces",
+    "variation": "came profile (H vs. U), alloy hardness, solder joint size, panel orientation (vertical vs. angled), wind load cycling",
+    "selection": "thermal expansion and wind pressure flex the came; softer lead absorbs more cycles but sags under gravity; harder alloys resist sag but crack at solder joints sooner",
+    "fitness": "panel maintains structural integrity and weather-seal for 50+ years in its installed orientation",
+    "boundary": "does not cover copper foil technique (Tiffany method) which has entirely different stress distribution",
+    "tags": [
+      "lead-came",
+      "fatigue",
+      "structural",
+      "wind-load",
+      "solder-joint",
+      "longevity",
+      "flex-cycle"
+    ]
+  },
+  {
+    "id": "glass-score-fracture-propagation",
+    "name": "Glass Score Line Fracture Propagation Control",
+    "domain": "stained glass",
+    "unit": "micro-crack at the score line on the glass surface",
+    "variation": "cutter wheel angle, scoring pressure, glass type (cathedral vs. opalescent), surface texture, score speed consistency",
+    "selection": "a clean single-pass score creates a uniform stress riser; too much pressure crushes the surface creating multiple fracture origins; too little fails to initiate the crack",
+    "fitness": "glass breaks cleanly along the entire score line with no deviation, chip-out, or uncontrolled fracture",
+    "boundary": "does not apply to glass grinding/grozing for fine shaping or to fused glass which requires diamond saw cutting",
+    "tags": [
+      "glass-cutting",
+      "score-line",
+      "fracture-propagation",
+      "micro-crack",
+      "stress-riser",
+      "cutting-technique"
+    ]
+  },
+  {
+    "id": "transmitted-color-spectral-shift",
+    "name": "Transmitted Color Spectral Shift Under Varying Light",
+    "domain": "stained glass",
+    "unit": "photon wavelength band passing through a colored glass piece",
+    "variation": "glass thickness, metallic oxide colorant type, incident light angle, time of day (solar spectrum shift), adjacent color influence",
+    "selection": "thicker glass absorbs more of the complementary wavelengths, deepening saturation; low-angle light travels a longer path through glass, shifting apparent color toward the absorption band edges",
+    "fitness": "the installed panel produces the intended color narrative across the full range of daily and seasonal lighting conditions",
+    "boundary": "does not address painted or enameled details which reflect rather than transmit, or backlit artificial illumination",
+    "tags": [
+      "color-theory",
+      "transmission",
+      "spectral-shift",
+      "metallic-oxide",
+      "thickness",
+      "light-angle",
+      "solar-spectrum"
+    ]
+  },
+  {
+    "id": "panel-reinforcement-bar-placement",
+    "name": "Panel Reinforcement Bar Placement Strategy",
+    "domain": "stained glass",
+    "unit": "steel reinforcement bar (rebar) soldered to the lead came network",
+    "variation": "bar spacing, attachment points to came, panel aspect ratio, wind load zone classification, glass weight per area",
+    "selection": "bars placed along natural division lines in the design resist bowing without visual disruption; horizontal bars resist gravity sag while vertical bars resist wind suction",
+    "fitness": "panel remains flat within 5mm deviation across its surface under maximum design wind load",
+    "boundary": "applies to traditional leaded panels; faceted dalle de verre (slab glass in concrete) uses a rigid matrix requiring no rebar",
+    "tags": [
+      "reinforcement",
+      "rebar",
+      "structural-support",
+      "wind-load",
+      "panel-flatness",
+      "bowing-resistance"
+    ]
+  },
+  {
+    "id": "solder-flow-temperature-window",
+    "name": "Solder Flow Temperature Window at Lead Joints",
+    "domain": "stained glass",
+    "unit": "solder bead at the intersection of lead came strips",
+    "variation": "solder alloy (50/50 vs. 60/40 tin-lead), iron tip temperature, flux type, came oxidation level, joint mass",
+    "selection": "too cold and solder balls without flowing into the joint; too hot and it melts through the came or cracks adjacent glass; the working window is narrow (~30C range)",
+    "fitness": "smooth domed solder bead that fills the joint completely, bonds to both came faces, and shows no cold-joint cracks",
+    "boundary": "does not apply to lead-free soldering (required in some jurisdictions) which uses different alloys with wider plastic ranges",
+    "tags": [
+      "soldering",
+      "temperature-window",
+      "tin-lead",
+      "flux",
+      "joint-quality",
+      "came-bonding"
+    ]
+  },
+  {
+    "id": "natural-rind-development-succession",
+    "name": "Natural Rind Microbial Succession Dynamics",
+    "domain": "cheese cave aging",
+    "unit": "microbial colony on the cheese surface",
+    "variation": "ambient mold spore diversity, salt concentration on surface, humidity level, turning frequency, neighboring cheese varieties",
+    "selection": "early acid-tolerant yeasts lower surface pH, enabling Geotrichum colonization, which prepares substrate for Penicillium; disrupting succession order produces off-flavors or pathogenic openings",
+    "fitness": "stable, continuous rind with characteristic flavor contribution and no pathogenic contamination after full aging period",
+    "boundary": "does not apply to wax-sealed or vacuum-packed cheeses where rind development is intentionally suppressed",
+    "tags": [
+      "rind-development",
+      "microbial-succession",
+      "Geotrichum",
+      "Penicillium",
+      "surface-flora",
+      "natural-rind"
+    ]
+  },
+  {
+    "id": "cave-humidity-moisture-gradient",
+    "name": "Cave Humidity and Cheese Moisture Gradient Control",
+    "domain": "cheese cave aging",
+    "unit": "water molecule at the cheese surface-to-core gradient",
+    "variation": "cave relative humidity (85-98%), air velocity, cheese size and shape, rind permeability, fat content",
+    "selection": "humidity below 85% desiccates the rind and cracks it; above 98% prevents rind formation and encourages mucor; optimal range maintains slow, even moisture loss from core to surface",
+    "fitness": "cheese loses target weight percentage (typically 10-20%) over aging period with no cracking, case-hardening, or excessive surface moisture",
+    "boundary": "does not model forced-air industrial aging rooms where humidity cycling is programmatically controlled minute-by-minute",
+    "tags": [
+      "humidity",
+      "moisture-gradient",
+      "cave-aging",
+      "weight-loss",
+      "rind-permeability",
+      "desiccation"
+    ]
+  },
+  {
+    "id": "proteolysis-flavor-compound-cascade",
+    "name": "Proteolysis-Driven Flavor Compound Cascade",
+    "domain": "cheese cave aging",
+    "unit": "casein protein chain being cleaved by residual enzymes",
+    "variation": "rennet type (animal vs. microbial), starter culture enzyme profile, aging temperature, pH trajectory, salt-to-moisture ratio",
+    "selection": "initial proteolysis produces bitter peptides; continued breakdown by peptidases converts these to savory amino acids and volatile aromatics; premature aging temperature accelerates bitterness without resolution",
+    "fitness": "cheese develops target flavor profile (nutty, sweet, savory) without persistent bitterness or ammoniation at intended aging endpoint",
+    "boundary": "does not cover lipolysis-driven flavors (blue cheese) where mold lipases are the primary flavor engine",
+    "tags": [
+      "proteolysis",
+      "flavor-compounds",
+      "casein",
+      "bitterness",
+      "amino-acids",
+      "enzyme-cascade",
+      "aging-temperature"
+    ]
+  },
+  {
+    "id": "blue-mold-vein-penetration-depth",
+    "name": "Blue Mold Vein Penetration Depth Control",
+    "domain": "cheese cave aging",
+    "unit": "Penicillium roqueforti mycelial front advancing through a needle hole channel",
+    "variation": "piercing needle gauge and spacing, paste openness (mechanical curd handling), oxygen availability at depth, salt distribution uniformity",
+    "selection": "wider needles and more open paste allow deeper oxygen penetration and bluer veins; overly tight paste restricts growth to shallow surface pockets regardless of piercing",
+    "fitness": "even blue-green veining throughout the cross-section with no anaerobic brown-center defect at target aging time",
+    "boundary": "specific to internally-mold-ripened blues; does not apply to surface-ripened styles like Brie where Penicillium grows only externally",
+    "tags": [
+      "blue-cheese",
+      "Penicillium-roqueforti",
+      "piercing",
+      "veining",
+      "oxygen-penetration",
+      "paste-openness"
+    ]
+  },
+  {
+    "id": "smear-rind-brevibacterium-management",
+    "name": "Smear Rind Brevibacterium Colonization Management",
+    "domain": "cheese cave aging",
+    "unit": "Brevibacterium linens colony on washed-rind cheese surface",
+    "variation": "washing frequency, brine concentration, cave temperature (12-16C), ambient humidity, cross-contamination from mature wheels",
+    "selection": "regular brine washing suppresses mold competitors and distributes B. linens; too-frequent washing removes established colonies; too-infrequent allows mold overgrowth",
+    "fitness": "uniform orange-pink smear rind with characteristic pungent aroma and no competitive mold patches at packaging time",
+    "boundary": "does not apply to dry-rind aged cheeses (Parmigiano, aged Gouda) where surface flora is undesirable",
+    "tags": [
+      "washed-rind",
+      "Brevibacterium",
+      "smear",
+      "brine-washing",
+      "mold-competition",
+      "surface-ripening"
+    ]
+  },
+  {
+    "id": "dit-dah-timing-ratio-stability",
+    "name": "Dit-Dah Timing Ratio Stability Under Speed",
+    "domain": "morse telegraphy",
+    "unit": "individual dit element as the fundamental timing unit",
+    "variation": "sending speed (WPM), operator fatigue, key type (straight vs. bug vs. paddle), emotional state under traffic pressure",
+    "selection": "at higher speeds, operators compress dah duration below the standard 3:1 ratio, creating a 'clipped' fist; receiving operators decode by pattern recognition rather than precise timing",
+    "fitness": "transmitted message decoded correctly by a trained operator at the receiving end without requests for repeats",
+    "boundary": "does not apply to machine-generated Morse (e.g., NDB identifiers) which maintains perfect 1:3 ratio regardless of speed",
+    "tags": [
+      "timing-ratio",
+      "dit-dah",
+      "operator-fist",
+      "sending-speed",
+      "WPM",
+      "keying-technique"
+    ]
+  },
+  {
+    "id": "qrm-error-correction-protocol",
+    "name": "QRM Interference Error Correction Protocol Efficiency",
+    "domain": "morse telegraphy",
+    "unit": "word group in a transmitted message requiring verification",
+    "variation": "atmospheric noise (QRN), adjacent-station interference (QRM), signal-to-noise ratio, operator copy skill, message structure (plain text vs. cipher groups)",
+    "selection": "prosign-based error correction (sending HH and repeating) costs time; cipher groups with no linguistic redundancy require more repeats than plain text where context aids reconstruction",
+    "fitness": "100% accurate message copy achieved with minimum total transmission time including corrections",
+    "boundary": "does not cover digital error correction (FEC, ARQ) used in modern radio data modes like FT8 or RTTY",
+    "tags": [
+      "error-correction",
+      "QRM",
+      "prosign",
+      "interference",
+      "copy-accuracy",
+      "cipher-groups"
+    ]
+  },
+  {
+    "id": "relay-amplification-signal-distortion",
+    "name": "Relay Station Signal Regeneration Distortion Accumulation",
+    "domain": "morse telegraphy",
+    "unit": "Morse character passing through a relay operator or repeater",
+    "variation": "relay operator skill, sounder/key response lag, line resistance and capacitance, number of relay hops, operator interpretation of ambiguous characters",
+    "selection": "each relay hop introduces timing jitter; human relays add interpretation errors on similar characters (B/6, U/V); electrical repeaters add contact bounce artifacts",
+    "fitness": "message arrives at final destination with content identical to origin after passing through all relay stations",
+    "boundary": "historical to wire telegraph era; modern amateur radio uses direct RF paths or digital store-and-forward",
+    "tags": [
+      "relay",
+      "signal-regeneration",
+      "distortion",
+      "multi-hop",
+      "character-ambiguity",
+      "telegraph-line"
+    ]
+  },
+  {
+    "id": "operator-skill-plateau-curve",
+    "name": "Operator Receiving Speed Plateau Breakthrough Curve",
+    "domain": "morse telegraphy",
+    "unit": "operator's character recognition latency (time from hearing to identifying)",
+    "variation": "learning method (Farnsworth vs. standard spacing), practice session duration, character set complexity, prior musical training",
+    "selection": "operators hit plateaus at ~10, ~18, and ~25 WPM where conscious letter-by-letter decoding must yield to word/phrase-level pattern recognition; Farnsworth spacing forces character-speed learning early",
+    "fitness": "operator achieves solid copy at target speed (typically 20+ WPM) without reverting to conscious character counting",
+    "boundary": "does not model sending skill which has separate plateaus related to muscle memory and keying coordination",
+    "tags": [
+      "skill-curve",
+      "plateau",
+      "Farnsworth",
+      "pattern-recognition",
+      "receiving-speed",
+      "learning",
+      "WPM"
+    ]
+  },
+  {
+    "id": "straight-key-contact-bounce",
+    "name": "Straight Key Contact Bounce Suppression Through Technique",
+    "domain": "morse telegraphy",
+    "unit": "key contact closure event producing an electrical make/break",
+    "variation": "spring tension adjustment, contact gap distance, operator wrist vs. arm motion, key mass and mounting stability",
+    "selection": "lighter touch with firm key mounting minimizes contact bounce; excessive downward force causes rebound dits; worn contacts develop pitting that worsens bounce over time",
+    "fitness": "clean, bounce-free contact closures producing crisp elements at the operator's target sending speed",
+    "boundary": "does not apply to electronic keyers which debounce paddle inputs in firmware before generating RF keying",
+    "tags": [
+      "straight-key",
+      "contact-bounce",
+      "keying-technique",
+      "spring-tension",
+      "debounce",
+      "wrist-motion"
+    ]
+  },
+  {
+    "id": "bamboo-node-bending-strength",
+    "name": "Bamboo Node Bending Strength Concentration Effect",
+    "domain": "bamboo construction",
+    "unit": "bamboo culm node (diaphragm and wall thickening at node point)",
+    "variation": "node spacing (species-dependent), wall thickness ratio at node vs. internode, moisture content, node damage from harvesting",
+    "selection": "nodes act as reinforcement rings increasing local bending resistance by 30-60%; but damaged or cracked nodes become stress concentrators that initiate splitting",
+    "fitness": "structural member resists design bending load with node locations positioned at or near maximum moment points",
+    "boundary": "does not model compressive column behavior where internode buckling is the primary failure mode",
+    "tags": [
+      "node-mechanics",
+      "bending-strength",
+      "culm",
+      "stress-concentration",
+      "diaphragm",
+      "structural"
+    ]
+  },
+  {
+    "id": "bamboo-lashing-joint-creep",
+    "name": "Bamboo Lashing Joint Creep Under Sustained Load",
+    "domain": "bamboo construction",
+    "unit": "fiber-rope lashing wrap at a bamboo joint intersection",
+    "variation": "lashing material (rattan, nylon, wire), wrap pattern (square vs. diagonal), number of wraps, sustained load magnitude, humidity cycling",
+    "selection": "natural fiber lashings stretch and loosen under sustained load (creep); periodic re-tightening or use of wedge-locking patterns compensates; synthetic cord creeps less but cuts into bamboo under point loads",
+    "fitness": "joint maintains structural rigidity within acceptable deflection limits for the design life of the structure",
+    "boundary": "does not apply to bolted or doweled bamboo connections which have different load transfer mechanics",
+    "tags": [
+      "joinery",
+      "lashing",
+      "creep",
+      "sustained-load",
+      "wrap-pattern",
+      "rattan",
+      "joint-rigidity"
+    ]
+  },
+  {
+    "id": "bamboo-moisture-expansion-splitting",
+    "name": "Bamboo Moisture-Induced Radial Expansion Splitting",
+    "domain": "bamboo construction",
+    "unit": "bamboo culm wall responding to moisture content change",
+    "variation": "species fiber density, wall thickness, rate of wetting/drying, presence of end-sealing, ambient humidity range",
+    "selection": "bamboo swells radially 5-8% from oven-dry to fiber saturation; rapid wetting creates differential expansion between outer silica-rich skin and inner parenchyma, initiating longitudinal splits",
+    "fitness": "culm survives seasonal humidity cycling without developing structural splits for the intended service life",
+    "boundary": "does not model insect damage (powder post beetle) which creates separate failure pathways independent of moisture",
+    "tags": [
+      "moisture",
+      "expansion",
+      "splitting",
+      "radial-swelling",
+      "humidity-cycling",
+      "differential-expansion"
+    ]
+  },
+  {
+    "id": "borax-boric-acid-treatment-penetration",
+    "name": "Borax-Boric Acid Treatment Penetration Depth in Bamboo",
+    "domain": "bamboo construction",
+    "unit": "preservative solution molecule moving through bamboo vascular tissue",
+    "variation": "treatment method (soak vs. pressure vs. Boucherie), solution concentration, culm age at harvest, node diaphragm perforation, green vs. dry treatment",
+    "selection": "Boucherie method forces solution through intact vascular bundles achieving deepest penetration; soaking only penetrates cut ends and outer surface; nodes partially block longitudinal flow",
+    "fitness": "boron concentration exceeds insecticidal/fungicidal threshold throughout the entire wall cross-section",
+    "boundary": "specific to boron-based treatment; CCA and creosote treatments have different penetration chemistry and are restricted in many applications",
+    "tags": [
+      "preservation",
+      "borax",
+      "treatment",
+      "penetration-depth",
+      "Boucherie",
+      "vascular-bundle",
+      "insect-resistance"
+    ]
+  },
+  {
+    "id": "bamboo-culm-taper-structural-grading",
+    "name": "Bamboo Culm Taper and Structural Grading Protocol",
+    "domain": "bamboo construction",
+    "unit": "bamboo culm section evaluated for structural use",
+    "variation": "diameter taper rate along culm length, wall thickness taper, straightness deviation, node density variation, harvest age (3-5 years optimal)",
+    "selection": "basal sections have thicker walls but more taper; mid-culm sections offer best uniformity for beams; culms harvested before 3 years lack fiber maturity and fail under load",
+    "fitness": "selected culm section meets minimum diameter, wall thickness, and straightness criteria for its assigned structural role",
+    "boundary": "does not apply to processed bamboo (laminated, strand-woven) where natural geometry is destroyed during manufacturing",
+    "tags": [
+      "grading",
+      "taper",
+      "culm-selection",
+      "harvest-age",
+      "wall-thickness",
+      "structural-design",
+      "quality-control"
+    ]
+  },
+  {
+    "id": "celestial-fix-cocked-hat-resolution",
+    "name": "Celestial Fix Cocked Hat Error Triangle Resolution",
+    "domain": "astronomical navigation",
+    "unit": "line of position (LOP) derived from a celestial sight",
+    "variation": "number of celestial bodies observed, azimuth spread between LOPs, sight timing errors, index error residual, horizon clarity",
+    "selection": "three LOPs forming a small cocked hat indicate consistent systematic error; a large triangle indicates random errors in one or more sights; the fix lies inside the triangle biased toward the most reliable sight",
+    "fitness": "determined position falls within 2 nautical miles of true position under normal ocean conditions",
+    "boundary": "does not apply to GPS or radar fixes; assumes clear horizon and identifiable celestial bodies",
+    "tags": [
+      "celestial-fix",
+      "cocked-hat",
+      "line-of-position",
+      "error-triangle",
+      "azimuth-spread",
+      "sight-accuracy"
+    ]
+  },
+  {
+    "id": "sight-reduction-intercept-method",
+    "name": "Sight Reduction Intercept Method Computational Chain",
+    "domain": "astronomical navigation",
+    "unit": "sextant altitude observation requiring reduction to a line of position",
+    "variation": "assumed position accuracy, sight reduction table precision (HO-249 vs. HO-229), arithmetic error in computation, dip and refraction correction accuracy",
+    "selection": "the intercept method compares observed altitude to computed altitude from an assumed position; each correction error (dip, refraction, semi-diameter, parallax) shifts the LOP; errors compound non-linearly at low altitudes",
+    "fitness": "computed intercept and azimuth produce an LOP that, combined with other LOPs, yields an accurate fix",
+    "boundary": "specific to the Marcq Saint Hilaire intercept method; does not cover the older longitude-by-chronometer or noon sight latitude methods",
+    "tags": [
+      "sight-reduction",
+      "intercept-method",
+      "Marcq-Saint-Hilaire",
+      "HO-229",
+      "altitude-correction",
+      "computation"
+    ]
+  },
+  {
+    "id": "chronometer-drift-rate-prediction",
+    "name": "Chronometer Drift Rate Prediction and Compensation",
+    "domain": "astronomical navigation",
+    "unit": "chronometer error accumulating per day from true GMT",
+    "variation": "temperature variation in chronometer housing, mainspring torque curve (mechanical), crystal aging (quartz), ship motion and vibration, comparison radio time signal availability",
+    "selection": "a chronometer with stable drift rate (even if large) is more useful than one with erratic drift; linear interpolation between radio time checks compensates for known drift; non-linear drift defeats prediction",
+    "fitness": "time error at moment of sight is known to within 1 second, corresponding to 0.25 nautical miles of longitude error",
+    "boundary": "historical concern for mechanical chronometers; modern quartz and GPS time references make drift largely irrelevant",
+    "tags": [
+      "chronometer",
+      "drift-rate",
+      "time-error",
+      "longitude",
+      "temperature-compensation",
+      "radio-time-signal"
+    ]
+  },
+  {
+    "id": "star-identification-magnitude-pattern",
+    "name": "Star Identification Through Magnitude and Pattern Recognition",
+    "domain": "astronomical navigation",
+    "unit": "unidentified celestial body observed through the sextant",
+    "variation": "sky familiarity of the navigator, latitude (determining which stars are above horizon), time of year (seasonal sky rotation), planet presence causing confusion, atmospheric extinction dimming low stars",
+    "selection": "navigators use constellation patterns, relative brightness, and star finder (Rude 2102-D) to identify bodies; planets identified by steady light vs. twinkling; wrong identification produces a systematically wrong LOP",
+    "fitness": "all observed bodies correctly identified, producing LOPs that converge to a coherent fix rather than a scattered pattern",
+    "boundary": "does not apply to sun or moon observations where identity is obvious; specific to twilight multi-star fixes",
+    "tags": [
+      "star-identification",
+      "magnitude",
+      "constellation-pattern",
+      "star-finder",
+      "planet-confusion",
+      "twilight-observation"
+    ]
+  },
+  {
+    "id": "refraction-low-altitude-correction",
+    "name": "Atmospheric Refraction Low-Altitude Correction Uncertainty",
+    "domain": "astronomical navigation",
+    "unit": "light ray from celestial body bending through the atmosphere to the observer",
+    "variation": "observed altitude (critical below 10 degrees), atmospheric temperature gradient, barometric pressure anomaly, humidity, mirage conditions (temperature inversion)",
+    "selection": "standard refraction tables assume a model atmosphere; anomalous refraction at low altitudes (below 5 degrees) can introduce errors exceeding 5 arcminutes; navigators avoid sights below 15 degrees when possible",
+    "fitness": "applied refraction correction brings observed altitude to within 0.5 arcminutes of true altitude for reliable LOP computation",
+    "boundary": "does not model extreme polar refraction (Novaya Zemlya effect) or miraging conditions where celestial bodies appear above the geometric horizon",
+    "tags": [
+      "refraction",
+      "low-altitude",
+      "atmospheric-correction",
+      "temperature-gradient",
+      "arcminute-error",
+      "sight-selection"
+    ]
   }
 ]
