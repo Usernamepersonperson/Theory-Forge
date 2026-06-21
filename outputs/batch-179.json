@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Crystal Nucleation Marine Biology Logic",
+    "mechanism_source": "crystallography",
+    "target_domain": "marine biology",
+    "mechanism": "Crystal Nucleation in crystallography operates through the interaction of atomic cluster as the fundamental unit of analysis. Variation arises through thermal fluctuations form embryonic nuclei, creating a diverse population of candidates that face differential pressures. The selection mechanism—only nuclei exceeding critical radius survive—determines which variants persist and propagate, while fitness is measured by free energy barrier overcome. This process is bounded by supersaturation, temperature, impurities, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to marine biology, the mechanism from crystallography suggests that the core units of marine biology undergo an analogous evolutionary process. The variation mechanism (thermal fluctuations form embryonic nuclei) maps onto the generative processes in marine biology, while the selection pressure (only nuclei exceeding critical radius survive) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that marine biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in crystallography, but expressed through domain-specific substrates and timescales. The boundary conditions (supersaturation, temperature, impurities) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in marine biology designed using crystallography structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.77,
+    "tags": [
+      "threshold",
+      "crystallography",
+      "phase-transition",
+      "marine",
+      "noise"
+    ]
+  },
+  {
+    "name": "General Relativity Oceanography Schema",
+    "mechanism_source": "physics",
+    "target_domain": "oceanography",
+    "mechanism": "General Relativity in physics operates through the interaction of spacetime event as the fundamental unit of analysis. Variation arises through matter-energy distribution, creating a diverse population of candidates that face differential pressures. The selection mechanism—geodesics minimize action—determines which variants persist and propagate, while fitness is measured by curvature satisfying Einstein equations. This process is bounded by smooth manifold, classical limit, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to oceanography, the mechanism from physics suggests that the core units of oceanography undergo an analogous evolutionary process. The variation mechanism (matter-energy distribution) maps onto the generative processes in oceanography, while the selection pressure (geodesics minimize action) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that oceanography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in physics, but expressed through domain-specific substrates and timescales. The boundary conditions (smooth manifold, classical limit) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in oceanography designed using physics structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=100 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.81,
+    "tags": [
+      "oceanography",
+      "optimization",
+      "physics",
+      "geometry",
+      "field"
+    ]
+  },
+  {
+    "name": "Precedent Fitness Landscape Theory Category Theory Theory",
+    "mechanism_source": "jurisprudence",
+    "target_domain": "category theory",
+    "mechanism": "Precedent Fitness Landscape Theory in jurisprudence operates through the interaction of judicial precedent as the fundamental unit of analysis. Variation arises through reinterpretation of prior rulings across jurisdictions and fact patterns, creating a diverse population of candidates that face differential pressures. The selection mechanism—appellate review and citation frequency by subsequent courts—determines which variants persist and propagate, while fitness is measured by maximized doctrinal coherence and applicability across novel cases. This process is bounded by breaks down when legislative override or constitutional amendment renders precedent moot, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from jurisprudence suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (reinterpretation of prior rulings across jurisdictions and fact patterns) maps onto the generative processes in category theory, while the selection pressure (appellate review and citation frequency by subsequent courts) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in jurisprudence, but expressed through domain-specific substrates and timescales. The boundary conditions (breaks down when legislative override or constitutional amendment renders precedent moot) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using jurisprudence structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "jurisprudence",
+      "category",
+      "memory",
+      "hierarchy",
+      "selection"
+    ]
+  },
+  {
+    "name": "Protein Folding Architecture Strategy",
+    "mechanism_source": "biochemistry",
+    "target_domain": "architecture",
+    "mechanism": "Protein Folding in biochemistry operates through the interaction of amino acid chain as the fundamental unit of analysis. Variation arises through conformational ensemble, creating a diverse population of candidates that face differential pressures. The selection mechanism—free energy minimum—determines which variants persist and propagate, while fitness is measured by native state stability. This process is bounded by solvent, temperature, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to architecture, the mechanism from biochemistry suggests that the core units of architecture undergo an analogous evolutionary process. The variation mechanism (conformational ensemble) maps onto the generative processes in architecture, while the selection pressure (free energy minimum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that architecture systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in biochemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (solvent, temperature) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in architecture designed using biochemistry structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "architecture",
+      "optimization",
+      "ensemble",
+      "biochemistry",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Cosmic Inflation Sake Brewing Protocol",
+    "mechanism_source": "cosmology",
+    "target_domain": "sake brewing",
+    "mechanism": "Cosmic Inflation in cosmology operates through the interaction of region of space as the fundamental unit of analysis. Variation arises through quantum fluctuations of inflaton, creating a diverse population of candidates that face differential pressures. The selection mechanism—exponential expansion stretches modes—determines which variants persist and propagate, while fitness is measured by density perturbation spectrum. This process is bounded by early universe, inflaton potential, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to sake brewing, the mechanism from cosmology suggests that the core units of sake brewing undergo an analogous evolutionary process. The variation mechanism (quantum fluctuations of inflaton) maps onto the generative processes in sake brewing, while the selection pressure (exponential expansion stretches modes) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that sake brewing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cosmology, but expressed through domain-specific substrates and timescales. The boundary conditions (early universe, inflaton potential) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in sake brewing designed using cosmology structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=150 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "cosmology",
+      "sake",
+      "amplification",
+      "phase-transition",
+      "noise"
+    ]
+  },
+  {
+    "name": "Expected Utility Theory Jurisprudence Framework",
+    "mechanism_source": "decision theory",
+    "target_domain": "jurisprudence",
+    "mechanism": "Expected Utility Theory in decision theory operates through the interaction of risky prospect as the fundamental unit of analysis. Variation arises through probability-outcome pairs, creating a diverse population of candidates that face differential pressures. The selection mechanism—rational agent maximizes probability-weighted utility sum—determines which variants persist and propagate, while fitness is measured by expected utility value. This process is bounded by von Neumann-Morgenstern axioms, known probabilities, stable preferences, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to jurisprudence, the mechanism from decision theory suggests that the core units of jurisprudence undergo an analogous evolutionary process. The variation mechanism (probability-outcome pairs) maps onto the generative processes in jurisprudence, while the selection pressure (rational agent maximizes probability-weighted utility sum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that jurisprudence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (von Neumann-Morgenstern axioms, known probabilities, stable preferences) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in jurisprudence designed using decision theory structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.71,
+    "tags": [
+      "agents",
+      "optimization",
+      "decision",
+      "jurisprudence",
+      "statistics"
+    ]
+  },
+  {
+    "name": "Network Motif Enrichment Selection Photonics Synthesis",
+    "mechanism_source": "network theory",
+    "target_domain": "photonics",
+    "mechanism": "Network Motif Enrichment Selection in network theory operates through the interaction of subgraph motif (3-4 node pattern) as the fundamental unit of analysis. Variation arises through functional requirements generate non-random subgraph frequencies, creating a diverse population of candidates that face differential pressures. The selection mechanism—motifs enabling stable dynamics are overrepresented versus null model—determines which variants persist and propagate, while fitness is measured by motif z-score (enrichment significance). This process is bounded by loses meaning in dense networks where all subgraph counts converge, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to photonics, the mechanism from network theory suggests that the core units of photonics undergo an analogous evolutionary process. The variation mechanism (functional requirements generate non-random subgraph frequencies) maps onto the generative processes in photonics, while the selection pressure (motifs enabling stable dynamics are overrepresented versus null model) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that photonics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in network theory, but expressed through domain-specific substrates and timescales. The boundary conditions (loses meaning in dense networks where all subgraph counts converge) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in photonics designed using network theory structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=100 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "topology",
+      "photonics",
+      "network",
+      "selection"
+    ]
+  },
+  {
+    "name": "Demographic Transition Model Narratology Algebra",
+    "mechanism_source": "demography",
+    "target_domain": "narratology",
+    "mechanism": "Demographic Transition Model in demography operates through the interaction of national population as the fundamental unit of analysis. Variation arises through death rates and birth rates over development stages, creating a diverse population of candidates that face differential pressures. The selection mechanism—mortality falls first with development; fertility follows with lag—determines which variants persist and propagate, while fitness is measured by net population growth rate. This process is bounded by economic development trajectory, cultural norms, policy, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to narratology, the mechanism from demography suggests that the core units of narratology undergo an analogous evolutionary process. The variation mechanism (death rates and birth rates over development stages) maps onto the generative processes in narratology, while the selection pressure (mortality falls first with development; fertility follows with lag) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that narratology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in demography, but expressed through domain-specific substrates and timescales. The boundary conditions (economic development trajectory, cultural norms, policy) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in narratology designed using demography structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=80 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.81,
+    "tags": [
+      "dynamics",
+      "narratology",
+      "demography",
+      "long-horizon",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Bamboo Lashing Joint Astrobiology Model",
+    "mechanism_source": "bamboo construction",
+    "target_domain": "astrobiology",
+    "mechanism": "Bamboo Lashing Joint Creep Under Sustained Load in bamboo construction operates through the interaction of fiber-rope lashing wrap at a bamboo joint intersection as the fundamental unit of analysis. Variation arises through lashing material (rattan, nylon, wire), wrap pattern (square vs. diagonal), number of wraps, sustained load magnitude, humidity cycling, creating a diverse population of candidates that face differential pressures. The selection mechanism—natural fiber lashings stretch and loosen under sustained load (creep); periodic re-tightening or use of wedge-locking patterns compensates; synthetic cord creeps less but cuts into bamboo under point loads—determines which variants persist and propagate, while fitness is measured by joint maintains structural rigidity within acceptable deflection limits for the design life of the structure. This process is bounded by does not apply to bolted or doweled bamboo connections which have different load transfer mechanics, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from bamboo construction suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (lashing material (rattan, nylon, wire), wrap pattern (square vs. diagonal), number of wraps, sustained load magnitude, humidity cycling) maps onto the generative processes in astrobiology, while the selection pressure (natural fiber lashings stretch and loosen under sustained load (creep); periodic re-tightening or use of wedge-locking patterns compensates; synthetic cord creeps less but cuts into bamboo under point loads) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in bamboo construction, but expressed through domain-specific substrates and timescales. The boundary conditions (does not apply to bolted or doweled bamboo connections which have different load transfer mechanics) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using bamboo construction structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=100 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "lashing",
+      "bamboo",
+      "creep",
+      "astrobiology",
+      "joinery"
+    ]
+  },
+  {
+    "name": "Feedback Linearization Soil Science Synthesis",
+    "mechanism_source": "control theory",
+    "target_domain": "soil science",
+    "mechanism": "Feedback Linearization in control theory operates through the interaction of nonlinear dynamic system as the fundamental unit of analysis. Variation arises through nonlinear state feedback cancels nonlinearities, creating a diverse population of candidates that face differential pressures. The selection mechanism—exact cancellation transforms system to linear normal form—determines which variants persist and propagate, while fitness is measured by linear controllability of originally nonlinear plant. This process is bounded by full state measurement, relative degree well-defined, no zero dynamics instability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to soil science, the mechanism from control theory suggests that the core units of soil science undergo an analogous evolutionary process. The variation mechanism (nonlinear state feedback cancels nonlinearities) maps onto the generative processes in soil science, while the selection pressure (exact cancellation transforms system to linear normal form) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that soil science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in control theory, but expressed through domain-specific substrates and timescales. The boundary conditions (full state measurement, relative degree well-defined, no zero dynamics instability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in soil science designed using control theory structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=80 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "dynamics",
+      "optimization",
+      "control",
+      "soil"
+    ]
+  },
+  {
+    "name": "Qubit Encoding Platform Competition Culinary Science Framework",
+    "mechanism_source": "quantum computing",
+    "target_domain": "culinary science",
+    "mechanism": "Qubit Encoding Platform Competition in quantum computing operates through the interaction of physical qubit implementation (superconducting, trapped ion, photonic, etc.) as the fundamental unit of analysis. Variation arises through different physical substrates offer different coherence, speed, connectivity tradeoffs, creating a diverse population of candidates that face differential pressures. The selection mechanism—scalability bottlenecks and error rates eliminate uncompetitive platforms—determines which variants persist and propagate, while fitness is measured by useful quantum volume maximized. This process is bounded by manufacturing yield, cryogenic overhead, interconnect density, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to culinary science, the mechanism from quantum computing suggests that the core units of culinary science undergo an analogous evolutionary process. The variation mechanism (different physical substrates offer different coherence, speed, connectivity tradeoffs) maps onto the generative processes in culinary science, while the selection pressure (scalability bottlenecks and error rates eliminate uncompetitive platforms) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that culinary science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in quantum computing, but expressed through domain-specific substrates and timescales. The boundary conditions (manufacturing yield, cryogenic overhead, interconnect density) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in culinary science designed using quantum computing structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "scarcity",
+      "variation",
+      "culinary",
+      "quantum",
+      "selection"
+    ]
+  },
+  {
+    "name": "Protein Folding Textile Science Synthesis",
+    "mechanism_source": "biochemistry",
+    "target_domain": "textile science",
+    "mechanism": "Protein Folding in biochemistry operates through the interaction of amino acid chain as the fundamental unit of analysis. Variation arises through conformational ensemble, creating a diverse population of candidates that face differential pressures. The selection mechanism—free energy minimum—determines which variants persist and propagate, while fitness is measured by native state stability. This process is bounded by solvent, temperature, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to textile science, the mechanism from biochemistry suggests that the core units of textile science undergo an analogous evolutionary process. The variation mechanism (conformational ensemble) maps onto the generative processes in textile science, while the selection pressure (free energy minimum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that textile science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in biochemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (solvent, temperature) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in textile science designed using biochemistry structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=60 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "textile",
+      "optimization",
+      "ensemble",
+      "biochemistry",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Maillard Reaction Quantum Computing Schema",
+    "mechanism_source": "culinary science",
+    "target_domain": "quantum computing",
+    "mechanism": "Maillard Reaction in culinary science operates through the interaction of amino acid + reducing sugar pair as the fundamental unit of analysis. Variation arises through temperature, pH, water activity, reactant identity, creating a diverse population of candidates that face differential pressures. The selection mechanism—cascade of intermediates branches into flavor/color compounds—determines which variants persist and propagate, while fitness is measured by desired flavor and browning profile. This process is bounded by temperature window (110-180 C), moisture level, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to quantum computing, the mechanism from culinary science suggests that the core units of quantum computing undergo an analogous evolutionary process. The variation mechanism (temperature, pH, water activity, reactant identity) maps onto the generative processes in quantum computing, while the selection pressure (cascade of intermediates branches into flavor/color compounds) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that quantum computing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in culinary science, but expressed through domain-specific substrates and timescales. The boundary conditions (temperature window (110-180 C), moisture level) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in quantum computing designed using culinary science structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "dynamics",
+      "variation",
+      "culinary",
+      "quantum",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Preferential Attachment Systems Biology Grammar",
+    "mechanism_source": "network science",
+    "target_domain": "systems biology",
+    "mechanism": "Preferential Attachment in network science operates through the interaction of node as the fundamental unit of analysis. Variation arises through new edges arrive, creating a diverse population of candidates that face differential pressures. The selection mechanism—high-degree nodes preferred—determines which variants persist and propagate, while fitness is measured by degree. This process is bounded by growing network, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems biology, the mechanism from network science suggests that the core units of systems biology undergo an analogous evolutionary process. The variation mechanism (new edges arrive) maps onto the generative processes in systems biology, while the selection pressure (high-degree nodes preferred) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in network science, but expressed through domain-specific substrates and timescales. The boundary conditions (growing network) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems biology designed using network science structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "amplification",
+      "feedback",
+      "systems",
+      "network"
+    ]
+  },
+  {
+    "name": "Morphogen Gradient Parkour / Freerunning Protocol",
+    "mechanism_source": "developmental biology",
+    "target_domain": "parkour / freerunning",
+    "mechanism": "Morphogen Gradient (Turing-Wolpert) in developmental biology operates through the interaction of cell receiving positional information as the fundamental unit of analysis. Variation arises through concentration gradient of diffusing morphogen, creating a diverse population of candidates that face differential pressures. The selection mechanism—cells interpret threshold concentrations as fate instructions—determines which variants persist and propagate, while fitness is measured by correct tissue patterning. This process is bounded by source-sink geometry, diffusion rate, threshold precision, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to parkour / freerunning, the mechanism from developmental biology suggests that the core units of parkour / freerunning undergo an analogous evolutionary process. The variation mechanism (concentration gradient of diffusing morphogen) maps onto the generative processes in parkour / freerunning, while the selection pressure (cells interpret threshold concentrations as fate instructions) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that parkour / freerunning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in developmental biology, but expressed through domain-specific substrates and timescales. The boundary conditions (source-sink geometry, diffusion rate, threshold precision) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in parkour / freerunning designed using developmental biology structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "threshold",
+      "gradient",
+      "parkour",
+      "developmental",
+      "selection"
+    ]
+  }
+]

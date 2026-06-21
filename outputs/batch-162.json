@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Security Pin False-Set Feedback Decision Theory Grammar",
+    "mechanism_source": "lock-picking / security engineering",
+    "target_domain": "decision theory",
+    "mechanism": "Security Pin False-Set Feedback in lock-picking / security engineering operates through the interaction of spool or serrated security pin under tension as the fundamental unit of analysis. Variation arises through geometry of security pin (spool, mushroom, serrated) and applied torque, creating a diverse population of candidates that face differential pressures. The selection mechanism—counter-rotation feedback distinguishes standard pins from security pins—determines which variants persist and propagate, while fitness is measured by picker's ability to decode the false set and adjust tension. This process is bounded by number of security pins, torque sensitivity, tool geometry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to decision theory, the mechanism from lock-picking / security engineering suggests that the core units of decision theory undergo an analogous evolutionary process. The variation mechanism (geometry of security pin (spool, mushroom, serrated) and applied torque) maps onto the generative processes in decision theory, while the selection pressure (counter-rotation feedback distinguishes standard pins from security pins) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that decision theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in lock-picking / security engineering, but expressed through domain-specific substrates and timescales. The boundary conditions (number of security pins, torque sensitivity, tool geometry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in decision theory designed using lock-picking / security engineering structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=120 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "lock-picking",
+      "decision",
+      "feedback-loop",
+      "deception",
+      "signal"
+    ]
+  },
+  {
+    "name": "Satisficing Geomorphology Grammar",
+    "mechanism_source": "decision theory",
+    "target_domain": "geomorphology",
+    "mechanism": "Satisficing (Simon) in decision theory operates through the interaction of decision-maker searching alternatives as the fundamental unit of analysis. Variation arises through aspiration level and search order, creating a diverse population of candidates that face differential pressures. The selection mechanism—first option meeting threshold accepted; optimization abandoned—determines which variants persist and propagate, while fitness is measured by decision speed vs optimality tradeoff under bounded rationality. This process is bounded by cognitive limits, search cost, time pressure, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to geomorphology, the mechanism from decision theory suggests that the core units of geomorphology undergo an analogous evolutionary process. The variation mechanism (aspiration level and search order) maps onto the generative processes in geomorphology, while the selection pressure (first option meeting threshold accepted; optimization abandoned) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that geomorphology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (cognitive limits, search cost, time pressure) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in geomorphology designed using decision theory structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=40 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "agents",
+      "tradeoff",
+      "geomorphology",
+      "threshold",
+      "decision"
+    ]
+  },
+  {
+    "name": "Mycelial Resource Routing Semiotics Topology",
+    "mechanism_source": "mycology",
+    "target_domain": "semiotics",
+    "mechanism": "Mycelial Resource Routing in mycology operates through the interaction of hyphal segment as the fundamental unit of analysis. Variation arises through branch growth, fusion, pruning, creating a diverse population of candidates that face differential pressures. The selection mechanism—nutrient gradient reinforcement—determines which variants persist and propagate, while fitness is measured by throughput of nutrients to host trees. This process is bounded by soil chemistry, host availability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to semiotics, the mechanism from mycology suggests that the core units of semiotics undergo an analogous evolutionary process. The variation mechanism (branch growth, fusion, pruning) maps onto the generative processes in semiotics, while the selection pressure (nutrient gradient reinforcement) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that semiotics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mycology, but expressed through domain-specific substrates and timescales. The boundary conditions (soil chemistry, host availability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in semiotics designed using mycology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "feedback",
+      "semiotics",
+      "mycology",
+      "self-organization",
+      "network"
+    ]
+  },
+  {
+    "name": "Enzyme Kinetics in Cooking Whisky Distillation Strategy",
+    "mechanism_source": "culinary science",
+    "target_domain": "whisky distillation",
+    "mechanism": "Enzyme Kinetics in Cooking in culinary science operates through the interaction of enzyme-substrate complex as the fundamental unit of analysis. Variation arises through temperature and pH modulate enzyme activity, creating a diverse population of candidates that face differential pressures. The selection mechanism—Michaelis-Menten saturation curve governs rate—determines which variants persist and propagate, while fitness is measured by desired textural or flavor transformation rate. This process is bounded by denaturation temperature, substrate concentration, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to whisky distillation, the mechanism from culinary science suggests that the core units of whisky distillation undergo an analogous evolutionary process. The variation mechanism (temperature and pH modulate enzyme activity) maps onto the generative processes in whisky distillation, while the selection pressure (Michaelis-Menten saturation curve governs rate) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that whisky distillation systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in culinary science, but expressed through domain-specific substrates and timescales. The boundary conditions (denaturation temperature, substrate concentration) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in whisky distillation designed using culinary science structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=150 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "dynamics",
+      "threshold",
+      "optimization",
+      "whisky",
+      "culinary"
+    ]
+  },
+  {
+    "name": "Two-Process Model of Sleep Regulation Agroecology Grammar",
+    "mechanism_source": "sleep science",
+    "target_domain": "agroecology",
+    "mechanism": "Two-Process Model of Sleep Regulation (Borbely) in sleep science operates through the interaction of sleep pressure / circadian phase as the fundamental unit of analysis. Variation arises through homeostatic sleep pressure (Process S) and circadian drive (Process C), creating a diverse population of candidates that face differential pressures. The selection mechanism—sleep onset when S exceeds upper threshold; wake when it falls below lower—determines which variants persist and propagate, while fitness is measured by sleep timing and duration optimized. This process is bounded by circadian period ~24h, ultradian oscillation of REM/NREM within sleep, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to agroecology, the mechanism from sleep science suggests that the core units of agroecology undergo an analogous evolutionary process. The variation mechanism (homeostatic sleep pressure (Process S) and circadian drive (Process C)) maps onto the generative processes in agroecology, while the selection pressure (sleep onset when S exceeds upper threshold; wake when it falls below lower) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that agroecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sleep science, but expressed through domain-specific substrates and timescales. The boundary conditions (circadian period ~24h, ultradian oscillation of REM/NREM within sleep) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in agroecology designed using sleep science structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "threshold",
+      "agroecology",
+      "sleep"
+    ]
+  },
+  {
+    "name": "Supply and Demand Equilibrium Mycology Model",
+    "mechanism_source": "economics",
+    "target_domain": "mycology",
+    "mechanism": "Supply and Demand Equilibrium in economics operates through the interaction of good / price as the fundamental unit of analysis. Variation arises through quantity offered, quantity desired, creating a diverse population of candidates that face differential pressures. The selection mechanism—price clears the market—determines which variants persist and propagate, while fitness is measured by market-clearing price. This process is bounded by rational agents, no externalities, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to mycology, the mechanism from economics suggests that the core units of mycology undergo an analogous evolutionary process. The variation mechanism (quantity offered, quantity desired) maps onto the generative processes in mycology, while the selection pressure (price clears the market) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that mycology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in economics, but expressed through domain-specific substrates and timescales. The boundary conditions (rational agents, no externalities) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in mycology designed using economics structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=60 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "feedback",
+      "scarcity",
+      "economics",
+      "mycology",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Mycelial Resource Routing Entomology Geometry",
+    "mechanism_source": "mycology",
+    "target_domain": "entomology",
+    "mechanism": "Mycelial Resource Routing in mycology operates through the interaction of hyphal segment as the fundamental unit of analysis. Variation arises through branch growth, fusion, pruning, creating a diverse population of candidates that face differential pressures. The selection mechanism—nutrient gradient reinforcement—determines which variants persist and propagate, while fitness is measured by throughput of nutrients to host trees. This process is bounded by soil chemistry, host availability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to entomology, the mechanism from mycology suggests that the core units of entomology undergo an analogous evolutionary process. The variation mechanism (branch growth, fusion, pruning) maps onto the generative processes in entomology, while the selection pressure (nutrient gradient reinforcement) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that entomology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mycology, but expressed through domain-specific substrates and timescales. The boundary conditions (soil chemistry, host availability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in entomology designed using mycology structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "feedback",
+      "entomology",
+      "mycology",
+      "self-organization",
+      "network"
+    ]
+  },
+  {
+    "name": "Viral Marketing Decision Theory Logic",
+    "mechanism_source": "marketing",
+    "target_domain": "decision theory",
+    "mechanism": "Viral Marketing in marketing operates through the interaction of share / impression as the fundamental unit of analysis. Variation arises through creative variants, creating a diverse population of candidates that face differential pressures. The selection mechanism—share-worthiness amplifies reach—determines which variants persist and propagate, while fitness is measured by viral coefficient K. This process is bounded by platform algorithms, audience, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to decision theory, the mechanism from marketing suggests that the core units of decision theory undergo an analogous evolutionary process. The variation mechanism (creative variants) maps onto the generative processes in decision theory, while the selection pressure (share-worthiness amplifies reach) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that decision theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in marketing, but expressed through domain-specific substrates and timescales. The boundary conditions (platform algorithms, audience) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in decision theory designed using marketing structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=100 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.77,
+    "tags": [
+      "feedback",
+      "decision",
+      "transmission",
+      "amplification",
+      "marketing"
+    ]
+  },
+  {
+    "name": "Saussurean Sign Theory Systems Theory Paradigm",
+    "mechanism_source": "semiotics",
+    "target_domain": "systems theory",
+    "mechanism": "Saussurean Sign Theory in semiotics operates through the interaction of sign (signifier + signified) as the fundamental unit of analysis. Variation arises through arbitrary pairing of sound-image to concept, creating a diverse population of candidates that face differential pressures. The selection mechanism—convention within speech community stabilizes sign—determines which variants persist and propagate, while fitness is measured by communicative reliability. This process is bounded by synchronic language system (langue), establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems theory, the mechanism from semiotics suggests that the core units of systems theory undergo an analogous evolutionary process. The variation mechanism (arbitrary pairing of sound-image to concept) maps onto the generative processes in systems theory, while the selection pressure (convention within speech community stabilizes sign) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in semiotics, but expressed through domain-specific substrates and timescales. The boundary conditions (synchronic language system (langue)) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems theory designed using semiotics structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=80 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "systems",
+      "boundary",
+      "semiotics",
+      "stasis",
+      "encoding"
+    ]
+  },
+  {
+    "name": "Marangoni Drainage Stabilization Forensic Science Topology",
+    "mechanism_source": "soap bubble physics",
+    "target_domain": "forensic science",
+    "mechanism": "Marangoni Drainage Stabilization in soap bubble physics operates through the interaction of surfactant concentration gradient along a draining film as the fundamental unit of analysis. Variation arises through surfactant molecular weight, CMC, and adsorption kinetics alter the strength of the Marangoni counterflow, creating a diverse population of candidates that face differential pressures. The selection mechanism—surfactant systems where Marangoni stress opposes gravitational thinning produce longer-lived films—determines which variants persist and propagate, while fitness is measured by film lifetime before rupture (seconds to minutes for demonstration foams). This process is bounded by evaporation rate in dry air, surfactant desorption at extreme thinning, mechanical perturbation, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to forensic science, the mechanism from soap bubble physics suggests that the core units of forensic science undergo an analogous evolutionary process. The variation mechanism (surfactant molecular weight, CMC, and adsorption kinetics alter the strength of the Marangoni counterflow) maps onto the generative processes in forensic science, while the selection pressure (surfactant systems where Marangoni stress opposes gravitational thinning produce longer-lived films) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that forensic science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in soap bubble physics, but expressed through domain-specific substrates and timescales. The boundary conditions (evaporation rate in dry air, surfactant desorption at extreme thinning, mechanical perturbation) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in forensic science designed using soap bubble physics structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=60 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "forensic",
+      "gradient",
+      "soap",
+      "feedback-loop",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Preferential Attachment Endocrinology Architecture",
+    "mechanism_source": "network science",
+    "target_domain": "endocrinology",
+    "mechanism": "Preferential Attachment in network science operates through the interaction of node as the fundamental unit of analysis. Variation arises through new edges arrive, creating a diverse population of candidates that face differential pressures. The selection mechanism—high-degree nodes preferred—determines which variants persist and propagate, while fitness is measured by degree. This process is bounded by growing network, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to endocrinology, the mechanism from network science suggests that the core units of endocrinology undergo an analogous evolutionary process. The variation mechanism (new edges arrive) maps onto the generative processes in endocrinology, while the selection pressure (high-degree nodes preferred) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that endocrinology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in network science, but expressed through domain-specific substrates and timescales. The boundary conditions (growing network) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in endocrinology designed using network science structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=120 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.81,
+    "tags": [
+      "amplification",
+      "feedback",
+      "endocrinology",
+      "network"
+    ]
+  },
+  {
+    "name": "Preferential Attachment Pharmacology Synthesis",
+    "mechanism_source": "network science",
+    "target_domain": "pharmacology",
+    "mechanism": "Preferential Attachment in network science operates through the interaction of node as the fundamental unit of analysis. Variation arises through new edges arrive, creating a diverse population of candidates that face differential pressures. The selection mechanism—high-degree nodes preferred—determines which variants persist and propagate, while fitness is measured by degree. This process is bounded by growing network, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to pharmacology, the mechanism from network science suggests that the core units of pharmacology undergo an analogous evolutionary process. The variation mechanism (new edges arrive) maps onto the generative processes in pharmacology, while the selection pressure (high-degree nodes preferred) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that pharmacology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in network science, but expressed through domain-specific substrates and timescales. The boundary conditions (growing network) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in pharmacology designed using network science structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "amplification",
+      "feedback",
+      "pharmacology",
+      "network"
+    ]
+  },
+  {
+    "name": "Lead Came Structural Flex Fatigue Cycle Swarm Intelligence Strategy",
+    "mechanism_source": "stained glass",
+    "target_domain": "swarm intelligence",
+    "mechanism": "Lead Came Structural Flex Fatigue Cycle in stained glass operates through the interaction of single lead came joint between two glass pieces as the fundamental unit of analysis. Variation arises through came profile (H vs. U), alloy hardness, solder joint size, panel orientation (vertical vs. angled), wind load cycling, creating a diverse population of candidates that face differential pressures. The selection mechanism—thermal expansion and wind pressure flex the came; softer lead absorbs more cycles but sags under gravity; harder alloys resist sag but crack at solder joints sooner—determines which variants persist and propagate, while fitness is measured by panel maintains structural integrity and weather-seal for 50+ years in its installed orientation. This process is bounded by does not cover copper foil technique (Tiffany method) which has entirely different stress distribution, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swarm intelligence, the mechanism from stained glass suggests that the core units of swarm intelligence undergo an analogous evolutionary process. The variation mechanism (came profile (H vs. U), alloy hardness, solder joint size, panel orientation (vertical vs. angled), wind load cycling) maps onto the generative processes in swarm intelligence, while the selection pressure (thermal expansion and wind pressure flex the came; softer lead absorbs more cycles but sags under gravity; harder alloys resist sag but crack at solder joints sooner) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swarm intelligence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in stained glass, but expressed through domain-specific substrates and timescales. The boundary conditions (does not cover copper foil technique (Tiffany method) which has entirely different stress distribution) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swarm intelligence designed using stained glass structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=40 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "fatigue",
+      "swarm",
+      "structural",
+      "stained",
+      "lead-came"
+    ]
+  },
+  {
+    "name": "Submarine Cable Signal Dispersion Geomorphology Dynamics",
+    "mechanism_source": "morse code / telegraph",
+    "target_domain": "geomorphology",
+    "mechanism": "Submarine Cable Signal Dispersion in morse code / telegraph operates through the interaction of electrical pulse in undersea cable as the fundamental unit of analysis. Variation arises through capacitance and inductance smear pulses over distance, creating a diverse population of candidates that face differential pressures. The selection mechanism—transmission rate must stay below dispersion limit to avoid inter-symbol interference—determines which variants persist and propagate, while fitness is measured by achievable words-per-minute over transatlantic distance. This process is bounded by cable length, insulation quality, mirror galvanometer sensitivity, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to geomorphology, the mechanism from morse code / telegraph suggests that the core units of geomorphology undergo an analogous evolutionary process. The variation mechanism (capacitance and inductance smear pulses over distance) maps onto the generative processes in geomorphology, while the selection pressure (transmission rate must stay below dispersion limit to avoid inter-symbol interference) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that geomorphology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in morse code / telegraph, but expressed through domain-specific substrates and timescales. The boundary conditions (cable length, insulation quality, mirror galvanometer sensitivity) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in geomorphology designed using morse code / telegraph structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "scaling",
+      "geomorphology",
+      "physics",
+      "dispersion",
+      "morse"
+    ]
+  },
+  {
+    "name": "Bloodstain Pattern Impact Biology System",
+    "mechanism_source": "forensic science",
+    "target_domain": "biology",
+    "mechanism": "Bloodstain Pattern Impact Angle Reconstruction in forensic science operates through the interaction of individual bloodstain ellipse on target surface as the fundamental unit of analysis. Variation arises through drop velocity, impact angle, surface porosity, and blood viscosity produce stains of different width-to-length ratios, creating a diverse population of candidates that face differential pressures. The selection mechanism—only stain geometries consistent with physical fluid dynamics survive as valid data points for area-of-origin convergence—determines which variants persist and propagate, while fitness is measured by spatial convergence accuracy of back-projected trajectories to a common origin region. This process is bounded by non-Newtonian blood behavior at extremes, satellite spatter noise, surface irregularities distorting ellipse geometry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to biology, the mechanism from forensic science suggests that the core units of biology undergo an analogous evolutionary process. The variation mechanism (drop velocity, impact angle, surface porosity, and blood viscosity produce stains of different width-to-length ratios) maps onto the generative processes in biology, while the selection pressure (only stain geometries consistent with physical fluid dynamics survive as valid data points for area-of-origin convergence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in forensic science, but expressed through domain-specific substrates and timescales. The boundary conditions (non-Newtonian blood behavior at extremes, satellite spatter noise, surface irregularities distorting ellipse geometry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in biology designed using forensic science structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "biology",
+      "forensic",
+      "gradient",
+      "encoding",
+      "signal"
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Autopoiesis Culinary Science Principle",
+    "mechanism_source": "systems theory",
+    "target_domain": "culinary science",
+    "mechanism": "Autopoiesis in systems theory operates through the interaction of self-producing system as the fundamental unit of analysis. Variation arises through internal processes regenerate components, creating a diverse population of candidates that face differential pressures. The selection mechanism—boundary maintenance—determines which variants persist and propagate, while fitness is measured by organizational closure. This process is bounded by membrane separating system from environment, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to culinary science, the mechanism from systems theory suggests that the core units of culinary science undergo an analogous evolutionary process. The variation mechanism (internal processes regenerate components) maps onto the generative processes in culinary science, while the selection pressure (boundary maintenance) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that culinary science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in systems theory, but expressed through domain-specific substrates and timescales. The boundary conditions (membrane separating system from environment) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in culinary science designed using systems theory structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "feedback",
+      "systems",
+      "boundary",
+      "culinary",
+      "self-organization"
+    ]
+  },
+  {
+    "name": "Law and Economics Systems Biology Calculus",
+    "mechanism_source": "legal theory",
+    "target_domain": "systems biology",
+    "mechanism": "Law and Economics in legal theory operates through the interaction of legal rule as the fundamental unit of analysis. Variation arises through alternative rule configurations, creating a diverse population of candidates that face differential pressures. The selection mechanism—rules that minimize total social cost adopted or recommended—determines which variants persist and propagate, while fitness is measured by allocative efficiency. This process is bounded by Coasian assumptions, transaction costs, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems biology, the mechanism from legal theory suggests that the core units of systems biology undergo an analogous evolutionary process. The variation mechanism (alternative rule configurations) maps onto the generative processes in systems biology, while the selection pressure (rules that minimize total social cost adopted or recommended) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in legal theory, but expressed through domain-specific substrates and timescales. The boundary conditions (Coasian assumptions, transaction costs) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems biology designed using legal theory structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "tags": [
+      "tradeoff",
+      "legal",
+      "agents",
+      "systems",
+      "optimization"
+    ]
+  },
+  {
+    "name": "Squeeze Passage Body Biochemistry Model",
+    "mechanism_source": "caving",
+    "target_domain": "biochemistry",
+    "mechanism": "Squeeze Passage Body Mechanics Optimization in caving operates through the interaction of caver body cross-section at the tightest restriction point as the fundamental unit of analysis. Variation arises through shoulder rotation angle, lung inflation volume, arm position (superman vs. arms-back), clothing compression, creating a diverse population of candidates that face differential pressures. The selection mechanism—the configuration that minimizes effective cross-section while preserving ability to generate forward thrust wins passage—determines which variants persist and propagate, while fitness is measured by caver transits the restriction without becoming stuck or requiring rescue assistance. This process is bounded by does not apply to vertical squeezes where gravity assists or resists; assumes dry rock without water sumps, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to biochemistry, the mechanism from caving suggests that the core units of biochemistry undergo an analogous evolutionary process. The variation mechanism (shoulder rotation angle, lung inflation volume, arm position (superman vs. arms-back), clothing compression) maps onto the generative processes in biochemistry, while the selection pressure (the configuration that minimizes effective cross-section while preserving ability to generate forward thrust wins passage) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that biochemistry systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in caving, but expressed through domain-specific substrates and timescales. The boundary conditions (does not apply to vertical squeezes where gravity assists or resists; assumes dry rock without water sumps) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in biochemistry designed using caving structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=40 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "restriction",
+      "caving",
+      "squeeze",
+      "biochemistry",
+      "body-mechanics"
+    ]
+  },
+  {
+    "name": "Hormesis Culinary Science Dynamics",
+    "mechanism_source": "toxicology",
+    "target_domain": "culinary science",
+    "mechanism": "Hormesis in toxicology operates through the interaction of organism + stressor as the fundamental unit of analysis. Variation arises through dose level, creating a diverse population of candidates that face differential pressures. The selection mechanism—low-dose stress triggers adaptive response—determines which variants persist and propagate, while fitness is measured by resilience. This process is bounded by narrow dose window, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to culinary science, the mechanism from toxicology suggests that the core units of culinary science undergo an analogous evolutionary process. The variation mechanism (dose level) maps onto the generative processes in culinary science, while the selection pressure (low-dose stress triggers adaptive response) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that culinary science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in toxicology, but expressed through domain-specific substrates and timescales. The boundary conditions (narrow dose window) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in culinary science designed using toxicology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "tradeoff",
+      "feedback",
+      "threshold",
+      "toxicology",
+      "culinary"
+    ]
+  },
+  {
+    "name": "Reaction-Diffusion Patterns Developmental Psychology Architecture",
+    "mechanism_source": "chemistry",
+    "target_domain": "developmental psychology",
+    "mechanism": "Reaction-Diffusion Patterns in chemistry operates through the interaction of chemical concentration as the fundamental unit of analysis. Variation arises through local reaction + spatial diffusion, creating a diverse population of candidates that face differential pressures. The selection mechanism—Turing instability—determines which variants persist and propagate, while fitness is measured by emergent spatial pattern. This process is bounded by reactor geometry, diffusion ratios, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to developmental psychology, the mechanism from chemistry suggests that the core units of developmental psychology undergo an analogous evolutionary process. The variation mechanism (local reaction + spatial diffusion) maps onto the generative processes in developmental psychology, while the selection pressure (Turing instability) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that developmental psychology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in chemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (reactor geometry, diffusion ratios) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in developmental psychology designed using chemistry structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=200 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "chemistry",
+      "emergence",
+      "developmental",
+      "phase-transition",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Queen Pheromone Colony Cohesion Soap Bubble Physics Strategy",
+    "mechanism_source": "beekeeping / apiculture",
+    "target_domain": "soap bubble physics",
+    "mechanism": "Queen Pheromone Colony Cohesion in beekeeping / apiculture operates through the interaction of queen mandibular pheromone molecule distributed across the colony as the fundamental unit of analysis. Variation arises through pheromone concentration gradient from queen to periphery of hive, creating a diverse population of candidates that face differential pressures. The selection mechanism—workers below a pheromone threshold begin rearing emergency queen cells—determines which variants persist and propagate, while fitness is measured by colony unity and suppression of worker reproduction. This process is bounded by colony size, queen vitality, comb geometry affecting pheromone diffusion, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to soap bubble physics, the mechanism from beekeeping / apiculture suggests that the core units of soap bubble physics undergo an analogous evolutionary process. The variation mechanism (pheromone concentration gradient from queen to periphery of hive) maps onto the generative processes in soap bubble physics, while the selection pressure (workers below a pheromone threshold begin rearing emergency queen cells) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that soap bubble physics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beekeeping / apiculture, but expressed through domain-specific substrates and timescales. The boundary conditions (colony size, queen vitality, comb geometry affecting pheromone diffusion) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in soap bubble physics designed using beekeeping / apiculture structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "beekeeping",
+      "threshold",
+      "gradient",
+      "soap",
+      "signal"
+    ]
+  },
+  {
+    "name": "Convolution Impulse Response Shaping Category Theory Theory",
+    "mechanism_source": "signal processing",
+    "target_domain": "category theory",
+    "mechanism": "Convolution Impulse Response Shaping in signal processing operates through the interaction of sample-by-sample multiply-accumulate operation between input and kernel as the fundamental unit of analysis. Variation arises through kernel length, coefficient values, and symmetry properties produce different filtering behaviors (lowpass, highpass, bandpass), creating a diverse population of candidates that face differential pressures. The selection mechanism—kernel designs minimizing passband ripple and maximizing stopband attenuation for given length dominate filter design practice—determines which variants persist and propagate, while fitness is measured by frequency response conformance to design specification measured by maximum deviation from target magnitude. This process is bounded by finite kernel length limits frequency selectivity, latency from kernel length, Gibbs phenomenon at sharp transitions, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from signal processing suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (kernel length, coefficient values, and symmetry properties produce different filtering behaviors (lowpass, highpass, bandpass)) maps onto the generative processes in category theory, while the selection pressure (kernel designs minimizing passband ripple and maximizing stopband attenuation for given length dominate filter design practice) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in signal processing, but expressed through domain-specific substrates and timescales. The boundary conditions (finite kernel length limits frequency selectivity, latency from kernel length, Gibbs phenomenon at sharp transitions) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using signal processing structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "constraint",
+      "optimization",
+      "category",
+      "encoding",
+      "signal"
+    ]
+  },
+  {
+    "name": "Cladistic Classification Stained Glass System",
+    "mechanism_source": "paleontology",
+    "target_domain": "stained glass",
+    "mechanism": "Cladistic Classification in paleontology operates through the interaction of taxon as the fundamental unit of analysis. Variation arises through shared derived characters (synapomorphies), creating a diverse population of candidates that face differential pressures. The selection mechanism—parsimony or likelihood selects best tree—determines which variants persist and propagate, while fitness is measured by phylogenetic coherence. This process is bounded by available character matrix, fossil record gaps, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to stained glass, the mechanism from paleontology suggests that the core units of stained glass undergo an analogous evolutionary process. The variation mechanism (shared derived characters (synapomorphies)) maps onto the generative processes in stained glass, while the selection pressure (parsimony or likelihood selects best tree) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that stained glass systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in paleontology, but expressed through domain-specific substrates and timescales. The boundary conditions (available character matrix, fossil record gaps) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in stained glass designed using paleontology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=120 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "compression",
+      "paleontology",
+      "stained",
+      "encoding",
+      "selection"
+    ]
+  },
+  {
+    "name": "Minimum Entropy Production Mycology Theory",
+    "mechanism_source": "non-equilibrium thermodynamics",
+    "target_domain": "mycology",
+    "mechanism": "Minimum Entropy Production (Near-Equilibrium) in non-equilibrium thermodynamics operates through the interaction of thermodynamic steady state as the fundamental unit of analysis. Variation arises through candidate flux configurations near equilibrium, creating a diverse population of candidates that face differential pressures. The selection mechanism—system relaxes to state of minimum entropy production rate—determines which variants persist and propagate, while fitness is measured by entropy production rate (minimized). This process is bounded by linear regime, fixed boundary conditions, Onsager symmetry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to mycology, the mechanism from non-equilibrium thermodynamics suggests that the core units of mycology undergo an analogous evolutionary process. The variation mechanism (candidate flux configurations near equilibrium) maps onto the generative processes in mycology, while the selection pressure (system relaxes to state of minimum entropy production rate) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that mycology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in non-equilibrium thermodynamics, but expressed through domain-specific substrates and timescales. The boundary conditions (linear regime, fixed boundary conditions, Onsager symmetry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in mycology designed using non-equilibrium thermodynamics structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=100 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.72,
+    "tags": [
+      "dynamics",
+      "optimization",
+      "mycology",
+      "non-equilibrium",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Stroke Momentum Transfer Machine Learning Dynamics",
+    "mechanism_source": "calligraphy",
+    "target_domain": "machine learning",
+    "mechanism": "Stroke Momentum Transfer in calligraphy operates through the interaction of brush stroke segment as the fundamental unit of analysis. Variation arises through velocity, angle of attack, bristle splay at entry, creating a diverse population of candidates that face differential pressures. The selection mechanism—strokes that sustain ink deposition without pooling or starvation survive in the canon—determines which variants persist and propagate, while fitness is measured by uniformity of ink density across stroke length. This process is bounded by ink viscosity, paper absorbency, bristle elasticity, hand tremor frequency, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to machine learning, the mechanism from calligraphy suggests that the core units of machine learning undergo an analogous evolutionary process. The variation mechanism (velocity, angle of attack, bristle splay at entry) maps onto the generative processes in machine learning, while the selection pressure (strokes that sustain ink deposition without pooling or starvation survive in the canon) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that machine learning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in calligraphy, but expressed through domain-specific substrates and timescales. The boundary conditions (ink viscosity, paper absorbency, bristle elasticity, hand tremor frequency) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in machine learning designed using calligraphy structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "fluid-dynamics",
+      "pressure",
+      "machine",
+      "calligraphy",
+      "momentum"
+    ]
+  },
+  {
+    "name": "Lava Flow Channelization Systems Theory Principle",
+    "mechanism_source": "volcanology",
+    "target_domain": "systems theory",
+    "mechanism": "Lava Flow Channelization in volcanology operates through the interaction of active lava lobe as the fundamental unit of analysis. Variation arises through effusion rate fluctuations, slope changes, and cooling-crust formation create competing flow paths, creating a diverse population of candidates that face differential pressures. The selection mechanism—paths with highest flux maintain thermal viability; starved branches crust over and solidify—determines which variants persist and propagate, while fitness is measured by flow length achieved before solidification. This process is bounded by effusion rate, ground slope, ambient temperature, lava viscosity, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems theory, the mechanism from volcanology suggests that the core units of systems theory undergo an analogous evolutionary process. The variation mechanism (effusion rate fluctuations, slope changes, and cooling-crust formation create competing flow paths) maps onto the generative processes in systems theory, while the selection pressure (paths with highest flux maintain thermal viability; starved branches crust over and solidify) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in volcanology, but expressed through domain-specific substrates and timescales. The boundary conditions (effusion rate, ground slope, ambient temperature, lava viscosity) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems theory designed using volcanology structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "systems",
+      "volcanology",
+      "competition",
+      "self-organization",
+      "feedback-loop"
+    ]
+  },
+  {
+    "name": "Cunningham Chance-Based Composition Beekeeping / Apiculture Framework",
+    "mechanism_source": "choreography",
+    "target_domain": "beekeeping / apiculture",
+    "mechanism": "Cunningham Chance-Based Composition in choreography operates through the interaction of chance-determined sequence as the fundamental unit of analysis. Variation arises through Choreographic elements independently determined by chance operations, producing combinations no aesthetic preference would generate., creating a diverse population of candidates that face differential pressures. The selection mechanism—Physical impossibility and performer capacity impose selection during rehearsal; unperformable outcomes are modified.—determines which variants persist and propagate, while fitness is measured by A chance-based composition achieves fitness when removal of choreographic habit reveals aesthetic possibilities invisible to intentional composition.. This process is bounded by Collapses when performers unconsciously smooth chance-generated sequences into habitual patterns., establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to beekeeping / apiculture, the mechanism from choreography suggests that the core units of beekeeping / apiculture undergo an analogous evolutionary process. The variation mechanism (Choreographic elements independently determined by chance operations, producing combinations no aesthetic preference would generate.) maps onto the generative processes in beekeeping / apiculture, while the selection pressure (Physical impossibility and performer capacity impose selection during rehearsal; unperformable outcomes are modified.) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that beekeeping / apiculture systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in choreography, but expressed through domain-specific substrates and timescales. The boundary conditions (Collapses when performers unconsciously smooth chance-generated sequences into habitual patterns.) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in beekeeping / apiculture designed using choreography structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "beekeeping",
+      "choreography",
+      "variation",
+      "stochastic",
+      "selection"
+    ]
+  },
+  {
+    "name": "Quasispecies Theory Architecture Algebra",
+    "mechanism_source": "virology",
+    "target_domain": "architecture",
+    "mechanism": "Quasispecies Theory (Eigen) in virology operates through the interaction of RNA sequence variant as the fundamental unit of analysis. Variation arises through high mutation rate during replication, creating a diverse population of candidates that face differential pressures. The selection mechanism—selection acts on mutant cloud distribution, not single sequence—determines which variants persist and propagate, while fitness is measured by mean fitness of quasispecies ensemble. This process is bounded by error threshold: mutation rate must stay below inverse of genome length, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to architecture, the mechanism from virology suggests that the core units of architecture undergo an analogous evolutionary process. The variation mechanism (high mutation rate during replication) maps onto the generative processes in architecture, while the selection pressure (selection acts on mutant cloud distribution, not single sequence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that architecture systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in virology, but expressed through domain-specific substrates and timescales. The boundary conditions (error threshold: mutation rate must stay below inverse of genome length) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in architecture designed using virology structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "architecture",
+      "variation",
+      "ensemble",
+      "selection",
+      "virology"
+    ]
+  },
+  {
+    "name": "Pest Dilution Effect Macroeconomics Architecture",
+    "mechanism_source": "agroecology",
+    "target_domain": "macroeconomics",
+    "mechanism": "Pest Dilution Effect in agroecology operates through the interaction of herbivore-host encounter in a diverse field as the fundamental unit of analysis. Variation arises through crop diversity, spatial arrangement, non-host plant density, creating a diverse population of candidates that face differential pressures. The selection mechanism—specialist herbivores have lower colonization success in diverse stands—determines which variants persist and propagate, while fitness is measured by inverse pest load per unit crop yield. This process is bounded by pest mobility, host specificity, field scale, natural enemy abundance, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to macroeconomics, the mechanism from agroecology suggests that the core units of macroeconomics undergo an analogous evolutionary process. The variation mechanism (crop diversity, spatial arrangement, non-host plant density) maps onto the generative processes in macroeconomics, while the selection pressure (specialist herbivores have lower colonization success in diverse stands) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that macroeconomics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in agroecology, but expressed through domain-specific substrates and timescales. The boundary conditions (pest mobility, host specificity, field scale, natural enemy abundance) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in macroeconomics designed using agroecology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "macroeconomics",
+      "agroecology",
+      "competition",
+      "signal",
+      "noise"
+    ]
+  },
+  {
+    "name": "Curry-Howard Correspondence Machine Learning Strategy",
+    "mechanism_source": "type theory",
+    "target_domain": "machine learning",
+    "mechanism": "Curry-Howard Correspondence in type theory operates through the interaction of typed term / proof as the fundamental unit of analysis. Variation arises through programs in a typed lambda calculus, creating a diverse population of candidates that face differential pressures. The selection mechanism—type checking verifies proof validity—determines which variants persist and propagate, while fitness is measured by inhabited type = provable proposition. This process is bounded by constructive logic, simply-typed or dependent types, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to machine learning, the mechanism from type theory suggests that the core units of machine learning undergo an analogous evolutionary process. The variation mechanism (programs in a typed lambda calculus) maps onto the generative processes in machine learning, while the selection pressure (type checking verifies proof validity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that machine learning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in type theory, but expressed through domain-specific substrates and timescales. The boundary conditions (constructive logic, simply-typed or dependent types) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in machine learning designed using type theory structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=100 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "type",
+      "compression",
+      "synthesis",
+      "machine",
+      "encoding"
+    ]
+  }
+]

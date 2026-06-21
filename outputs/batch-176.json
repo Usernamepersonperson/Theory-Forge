@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Phyllotaxis Sleep Science Strategy",
+    "mechanism_source": "botany",
+    "target_domain": "sleep science",
+    "mechanism": "Phyllotaxis in botany operates through the interaction of leaf or floret primordium as the fundamental unit of analysis. Variation arises through inhibitory field of existing primordia, creating a diverse population of candidates that face differential pressures. The selection mechanism—new primordium forms at position of least inhibition (golden angle ~137.5 degrees)—determines which variants persist and propagate, while fitness is measured by packing efficiency and light capture. This process is bounded by meristem geometry, inhibitory field range, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to sleep science, the mechanism from botany suggests that the core units of sleep science undergo an analogous evolutionary process. The variation mechanism (inhibitory field of existing primordia) maps onto the generative processes in sleep science, while the selection pressure (new primordium forms at position of least inhibition (golden angle ~137.5 degrees)) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that sleep science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in botany, but expressed through domain-specific substrates and timescales. The boundary conditions (meristem geometry, inhibitory field range) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in sleep science designed using botany structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=40 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "emergence",
+      "optimization",
+      "botany",
+      "sleep",
+      "self-organization"
+    ]
+  },
+  {
+    "name": "Gene Regulatory Networks Jurisprudence Ecology",
+    "mechanism_source": "systems biology",
+    "target_domain": "jurisprudence",
+    "mechanism": "Gene Regulatory Networks in systems biology operates through the interaction of gene as the fundamental unit of analysis. Variation arises through transcription factor binding, creating a diverse population of candidates that face differential pressures. The selection mechanism—network attractors define cell types—determines which variants persist and propagate, while fitness is measured by stable expression pattern. This process is bounded by genome, cellular context, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to jurisprudence, the mechanism from systems biology suggests that the core units of jurisprudence undergo an analogous evolutionary process. The variation mechanism (transcription factor binding) maps onto the generative processes in jurisprudence, while the selection pressure (network attractors define cell types) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that jurisprudence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in systems biology, but expressed through domain-specific substrates and timescales. The boundary conditions (genome, cellular context) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in jurisprudence designed using systems biology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "attractor",
+      "feedback",
+      "systems",
+      "jurisprudence",
+      "network"
+    ]
+  },
+  {
+    "name": "Protein Folding Game Design Principle",
+    "mechanism_source": "biochemistry",
+    "target_domain": "game design",
+    "mechanism": "Protein Folding in biochemistry operates through the interaction of amino acid chain as the fundamental unit of analysis. Variation arises through conformational ensemble, creating a diverse population of candidates that face differential pressures. The selection mechanism—free energy minimum—determines which variants persist and propagate, while fitness is measured by native state stability. This process is bounded by solvent, temperature, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to game design, the mechanism from biochemistry suggests that the core units of game design undergo an analogous evolutionary process. The variation mechanism (conformational ensemble) maps onto the generative processes in game design, while the selection pressure (free energy minimum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that game design systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in biochemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (solvent, temperature) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in game design designed using biochemistry structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=150 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "game",
+      "optimization",
+      "ensemble",
+      "biochemistry",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Plinian Column Collapse Dynamics Operations Research Algebra",
+    "mechanism_source": "volcanology",
+    "target_domain": "operations research",
+    "mechanism": "Plinian Column Collapse Dynamics in volcanology operates through the interaction of eruption column segment as the fundamental unit of analysis. Variation arises through fluctuations in mass eruption rate, vent geometry, and atmospheric entrainment, creating a diverse population of candidates that face differential pressures. The selection mechanism—columns maintaining buoyancy rise convectively; those exceeding density threshold collapse into pyroclastic density currents—determines which variants persist and propagate, while fitness is measured by maximum column height sustained before collapse. This process is bounded by mass eruption rate, atmospheric stratification, vent radius, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to operations research, the mechanism from volcanology suggests that the core units of operations research undergo an analogous evolutionary process. The variation mechanism (fluctuations in mass eruption rate, vent geometry, and atmospheric entrainment) maps onto the generative processes in operations research, while the selection pressure (columns maintaining buoyancy rise convectively; those exceeding density threshold collapse into pyroclastic density currents) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that operations research systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in volcanology, but expressed through domain-specific substrates and timescales. The boundary conditions (mass eruption rate, atmospheric stratification, vent radius) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in operations research designed using volcanology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.81,
+    "tags": [
+      "threshold",
+      "cascade",
+      "volcanology",
+      "operations",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Piaget's Stage Theory Chronobiology System",
+    "mechanism_source": "developmental psychology",
+    "target_domain": "chronobiology",
+    "mechanism": "Piaget's Stage Theory in developmental psychology operates through the interaction of cognitive schema as the fundamental unit of analysis. Variation arises through assimilation / accommodation, creating a diverse population of candidates that face differential pressures. The selection mechanism—disequilibrium drives restructuring—determines which variants persist and propagate, while fitness is measured by schema adequacy. This process is bounded by maturational constraints, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to chronobiology, the mechanism from developmental psychology suggests that the core units of chronobiology undergo an analogous evolutionary process. The variation mechanism (assimilation / accommodation) maps onto the generative processes in chronobiology, while the selection pressure (disequilibrium drives restructuring) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that chronobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in developmental psychology, but expressed through domain-specific substrates and timescales. The boundary conditions (maturational constraints) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in chronobiology designed using developmental psychology structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "feedback",
+      "update",
+      "chronobiology",
+      "developmental",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Quasispecies Theory Numismatics Protocol",
+    "mechanism_source": "virology",
+    "target_domain": "numismatics",
+    "mechanism": "Quasispecies Theory (Eigen) in virology operates through the interaction of RNA sequence variant as the fundamental unit of analysis. Variation arises through high mutation rate during replication, creating a diverse population of candidates that face differential pressures. The selection mechanism—selection acts on mutant cloud distribution, not single sequence—determines which variants persist and propagate, while fitness is measured by mean fitness of quasispecies ensemble. This process is bounded by error threshold: mutation rate must stay below inverse of genome length, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to numismatics, the mechanism from virology suggests that the core units of numismatics undergo an analogous evolutionary process. The variation mechanism (high mutation rate during replication) maps onto the generative processes in numismatics, while the selection pressure (selection acts on mutant cloud distribution, not single sequence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that numismatics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in virology, but expressed through domain-specific substrates and timescales. The boundary conditions (error threshold: mutation rate must stay below inverse of genome length) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in numismatics designed using virology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "numismatics",
+      "variation",
+      "ensemble",
+      "selection",
+      "virology"
+    ]
+  },
+  {
+    "name": "Hero's Journey Astrobiology Method",
+    "mechanism_source": "narratology",
+    "target_domain": "astrobiology",
+    "mechanism": "Hero's Journey (Monomyth) in narratology operates through the interaction of story beat as the fundamental unit of analysis. Variation arises through cultural surface details, creating a diverse population of candidates that face differential pressures. The selection mechanism—recurring archetypal sequence—determines which variants persist and propagate, while fitness is measured by audience resonance. This process is bounded by myth and popular narrative, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from narratology suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (cultural surface details) maps onto the generative processes in astrobiology, while the selection pressure (recurring archetypal sequence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in narratology, but expressed through domain-specific substrates and timescales. The boundary conditions (myth and popular narrative) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using narratology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "emergence",
+      "stasis",
+      "narratology",
+      "astrobiology",
+      "encoding"
+    ]
+  },
+  {
+    "name": "MDA Framework Mycology Logic",
+    "mechanism_source": "game design",
+    "target_domain": "mycology",
+    "mechanism": "MDA Framework (Mechanics-Dynamics-Aesthetics) in game design operates through the interaction of game component as the fundamental unit of analysis. Variation arises through mechanics specified by designer, dynamics emerge from play, aesthetics felt by player, creating a diverse population of candidates that face differential pressures. The selection mechanism—player experience (aesthetics) selects for retained mechanics—determines which variants persist and propagate, while fitness is measured by player engagement and emotional response. This process is bounded by designer controls mechanics; emergent dynamics are indirect, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to mycology, the mechanism from game design suggests that the core units of mycology undergo an analogous evolutionary process. The variation mechanism (mechanics specified by designer, dynamics emerge from play, aesthetics felt by player) maps onto the generative processes in mycology, while the selection pressure (player experience (aesthetics) selects for retained mechanics) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that mycology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in game design, but expressed through domain-specific substrates and timescales. The boundary conditions (designer controls mechanics; emergent dynamics are indirect) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in mycology designed using game design structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=80 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "agents",
+      "feedback",
+      "game",
+      "emergence",
+      "mycology"
+    ]
+  },
+  {
+    "name": "Flow-State Lock-In Category Theory Paradigm",
+    "mechanism_source": "parkour / freerunning",
+    "target_domain": "category theory",
+    "mechanism": "Flow-State Lock-In in parkour / freerunning operates through the interaction of attentional focus window during a run as the fundamental unit of analysis. Variation arises through fluctuations in arousal, challenge-skill ratio, environmental novelty, creating a diverse population of candidates that face differential pressures. The selection mechanism—arousal levels matching task difficulty sustain flow; mismatches trigger exit to deliberate planning—determines which variants persist and propagate, while fitness is measured by duration of unbroken automatic execution. This process is bounded by fatigue onset, unexpected obstacle, fear threshold, distraction, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from parkour / freerunning suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (fluctuations in arousal, challenge-skill ratio, environmental novelty) maps onto the generative processes in category theory, while the selection pressure (arousal levels matching task difficulty sustain flow; mismatches trigger exit to deliberate planning) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in parkour / freerunning, but expressed through domain-specific substrates and timescales. The boundary conditions (fatigue onset, unexpected obstacle, fear threshold, distraction) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using parkour / freerunning structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "feedback",
+      "threshold",
+      "embodiment",
+      "category",
+      "parkour"
+    ]
+  },
+  {
+    "name": "Clonal Selection Swarm Intelligence Schema",
+    "mechanism_source": "immunology",
+    "target_domain": "swarm intelligence",
+    "mechanism": "Clonal Selection (Immunology) in immunology operates through the interaction of lymphocyte clone as the fundamental unit of analysis. Variation arises through somatic hypermutation, creating a diverse population of candidates that face differential pressures. The selection mechanism—antigen binding affinity—determines which variants persist and propagate, while fitness is measured by clone proliferation. This process is bounded by self/non-self discrimination, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swarm intelligence, the mechanism from immunology suggests that the core units of swarm intelligence undergo an analogous evolutionary process. The variation mechanism (somatic hypermutation) maps onto the generative processes in swarm intelligence, while the selection pressure (antigen binding affinity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swarm intelligence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in immunology, but expressed through domain-specific substrates and timescales. The boundary conditions (self/non-self discrimination) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swarm intelligence designed using immunology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "replication",
+      "immunology",
+      "swarm",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "name": "Quasispecies Theory Sociology Geometry",
+    "mechanism_source": "virology",
+    "target_domain": "sociology",
+    "mechanism": "Quasispecies Theory (Eigen) in virology operates through the interaction of RNA sequence variant as the fundamental unit of analysis. Variation arises through high mutation rate during replication, creating a diverse population of candidates that face differential pressures. The selection mechanism—selection acts on mutant cloud distribution, not single sequence—determines which variants persist and propagate, while fitness is measured by mean fitness of quasispecies ensemble. This process is bounded by error threshold: mutation rate must stay below inverse of genome length, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to sociology, the mechanism from virology suggests that the core units of sociology undergo an analogous evolutionary process. The variation mechanism (high mutation rate during replication) maps onto the generative processes in sociology, while the selection pressure (selection acts on mutant cloud distribution, not single sequence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that sociology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in virology, but expressed through domain-specific substrates and timescales. The boundary conditions (error threshold: mutation rate must stay below inverse of genome length) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in sociology designed using virology structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=200 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "variation",
+      "sociology",
+      "ensemble",
+      "selection",
+      "virology"
+    ]
+  },
+  {
+    "name": "Demographic Transition Model Puppetry / Marionette Mechanics Paradigm",
+    "mechanism_source": "demography",
+    "target_domain": "puppetry / marionette mechanics",
+    "mechanism": "Demographic Transition Model in demography operates through the interaction of national population as the fundamental unit of analysis. Variation arises through death rates and birth rates over development stages, creating a diverse population of candidates that face differential pressures. The selection mechanism—mortality falls first with development; fertility follows with lag—determines which variants persist and propagate, while fitness is measured by net population growth rate. This process is bounded by economic development trajectory, cultural norms, policy, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to puppetry / marionette mechanics, the mechanism from demography suggests that the core units of puppetry / marionette mechanics undergo an analogous evolutionary process. The variation mechanism (death rates and birth rates over development stages) maps onto the generative processes in puppetry / marionette mechanics, while the selection pressure (mortality falls first with development; fertility follows with lag) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that puppetry / marionette mechanics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in demography, but expressed through domain-specific substrates and timescales. The boundary conditions (economic development trajectory, cultural norms, policy) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in puppetry / marionette mechanics designed using demography structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "dynamics",
+      "puppetry",
+      "demography",
+      "long-horizon",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Elaboration Likelihood Model Forensic Science Ecology",
+    "mechanism_source": "persuasion theory",
+    "target_domain": "forensic science",
+    "mechanism": "Elaboration Likelihood Model in persuasion theory operates through the interaction of message processing episode as the fundamental unit of analysis. Variation arises through argument strength vs peripheral cues, creating a diverse population of candidates that face differential pressures. The selection mechanism—motivation and ability determine central vs peripheral route—determines which variants persist and propagate, while fitness is measured by attitude change durability. This process is bounded by individual cognitive resources, message relevance, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to forensic science, the mechanism from persuasion theory suggests that the core units of forensic science undergo an analogous evolutionary process. The variation mechanism (argument strength vs peripheral cues) maps onto the generative processes in forensic science, while the selection pressure (motivation and ability determine central vs peripheral route) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that forensic science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in persuasion theory, but expressed through domain-specific substrates and timescales. The boundary conditions (individual cognitive resources, message relevance) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in forensic science designed using persuasion theory structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "agents",
+      "update",
+      "forensic",
+      "routing",
+      "persuasion"
+    ]
+  },
+  {
+    "name": "Nutrient Cycling Closure Forensic Accounting System",
+    "mechanism_source": "agroecology",
+    "target_domain": "forensic accounting",
+    "mechanism": "Nutrient Cycling Closure in agroecology operates through the interaction of nutrient atom (N, P, K) in the farm system as the fundamental unit of analysis. Variation arises through cover crop species, residue management, composting method, creating a diverse population of candidates that face differential pressures. The selection mechanism—systems with tighter nutrient loops reduce input dependency—determines which variants persist and propagate, while fitness is measured by ratio of internally recycled to externally imported nutrients. This process is bounded by leaching rate, harvest export, soil buffering capacity, climate, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to forensic accounting, the mechanism from agroecology suggests that the core units of forensic accounting undergo an analogous evolutionary process. The variation mechanism (cover crop species, residue management, composting method) maps onto the generative processes in forensic accounting, while the selection pressure (systems with tighter nutrient loops reduce input dependency) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that forensic accounting systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in agroecology, but expressed through domain-specific substrates and timescales. The boundary conditions (leaching rate, harvest export, soil buffering capacity, climate) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in forensic accounting designed using agroecology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "forensic",
+      "growth",
+      "agroecology",
+      "feedback-loop",
+      "decay"
+    ]
+  },
+  {
+    "name": "Red Queen Hypothesis Stained Glass Architecture",
+    "mechanism_source": "parasitology",
+    "target_domain": "stained glass",
+    "mechanism": "Red Queen Hypothesis in parasitology operates through the interaction of host-parasite genotype pair as the fundamental unit of analysis. Variation arises through host and parasite genotype frequencies, creating a diverse population of candidates that face differential pressures. The selection mechanism—co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones—determines which variants persist and propagate, while fitness is measured by infection resistance (host) / infectivity (parasite). This process is bounded by sexually reproducing host, obligate parasite, overlapping generations, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to stained glass, the mechanism from parasitology suggests that the core units of stained glass undergo an analogous evolutionary process. The variation mechanism (host and parasite genotype frequencies) maps onto the generative processes in stained glass, while the selection pressure (co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that stained glass systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in parasitology, but expressed through domain-specific substrates and timescales. The boundary conditions (sexually reproducing host, obligate parasite, overlapping generations) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in stained glass designed using parasitology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=80 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "tags": [
+      "oscillation",
+      "stained",
+      "parasitology",
+      "co-evolution",
+      "selection"
+    ]
+  }
+]

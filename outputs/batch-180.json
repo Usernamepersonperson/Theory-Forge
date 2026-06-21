@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Island Biogeography Psychology Paradigm",
+    "mechanism_source": "ecology",
+    "target_domain": "psychology",
+    "mechanism": "Island Biogeography (MacArthur & Wilson) in ecology operates through the interaction of species on an island as the fundamental unit of analysis. Variation arises through island area and distance from mainland, creating a diverse population of candidates that face differential pressures. The selection mechanism—immigration and extinction rates reach equilibrium species number—determines which variants persist and propagate, while fitness is measured by species richness at equilibrium. This process is bounded by island size, isolation, colonization ability of species, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to psychology, the mechanism from ecology suggests that the core units of psychology undergo an analogous evolutionary process. The variation mechanism (island area and distance from mainland) maps onto the generative processes in psychology, while the selection pressure (immigration and extinction rates reach equilibrium species number) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that psychology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in ecology, but expressed through domain-specific substrates and timescales. The boundary conditions (island size, isolation, colonization ability of species) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in psychology designed using ecology structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=80 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "dynamics",
+      "ecology",
+      "threshold",
+      "psychology",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Cascade Pattern Siteswap Stability Astrobiology Grammar",
+    "mechanism_source": "circus arts",
+    "target_domain": "astrobiology",
+    "mechanism": "Cascade Pattern Siteswap Stability in circus arts operates through the interaction of single throw-catch arc in a juggling pattern as the fundamental unit of analysis. Variation arises through throw height, dwell time, and hand-crossing angle differ across siteswap sequences, creating a diverse population of candidates that face differential pressures. The selection mechanism—patterns where timing errors self-correct on subsequent throws persist in performance repertoire—determines which variants persist and propagate, while fitness is measured by mean time before pattern collapse (drop) under stochastic throw perturbation. This process is bounded by human reaction time floor, maximum trackable object count (~7), gravity-imposed flight-time minimum, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from circus arts suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (throw height, dwell time, and hand-crossing angle differ across siteswap sequences) maps onto the generative processes in astrobiology, while the selection pressure (patterns where timing errors self-correct on subsequent throws persist in performance repertoire) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in circus arts, but expressed through domain-specific substrates and timescales. The boundary conditions (human reaction time floor, maximum trackable object count (~7), gravity-imposed flight-time minimum) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using circus arts structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "circus",
+      "astrobiology",
+      "self-organization"
+    ]
+  },
+  {
+    "name": "Expected Utility Theory Glassblowing Algebra",
+    "mechanism_source": "decision theory",
+    "target_domain": "glassblowing",
+    "mechanism": "Expected Utility Theory in decision theory operates through the interaction of risky prospect as the fundamental unit of analysis. Variation arises through probability-outcome pairs, creating a diverse population of candidates that face differential pressures. The selection mechanism—rational agent maximizes probability-weighted utility sum—determines which variants persist and propagate, while fitness is measured by expected utility value. This process is bounded by von Neumann-Morgenstern axioms, known probabilities, stable preferences, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to glassblowing, the mechanism from decision theory suggests that the core units of glassblowing undergo an analogous evolutionary process. The variation mechanism (probability-outcome pairs) maps onto the generative processes in glassblowing, while the selection pressure (rational agent maximizes probability-weighted utility sum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that glassblowing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (von Neumann-Morgenstern axioms, known probabilities, stable preferences) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in glassblowing designed using decision theory structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=60 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "agents",
+      "optimization",
+      "decision",
+      "glassblowing",
+      "statistics"
+    ]
+  },
+  {
+    "name": "Hegelian Dialectic Parasitology Logic",
+    "mechanism_source": "philosophy",
+    "target_domain": "parasitology",
+    "mechanism": "Hegelian Dialectic in philosophy operates through the interaction of concept / thesis as the fundamental unit of analysis. Variation arises through antithesis arises in opposition, creating a diverse population of candidates that face differential pressures. The selection mechanism—synthesis resolves contradiction—determines which variants persist and propagate, while fitness is measured by completeness of the resulting concept. This process is bounded by rational discourse, history, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to parasitology, the mechanism from philosophy suggests that the core units of parasitology undergo an analogous evolutionary process. The variation mechanism (antithesis arises in opposition) maps onto the generative processes in parasitology, while the selection pressure (synthesis resolves contradiction) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that parasitology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in philosophy, but expressed through domain-specific substrates and timescales. The boundary conditions (rational discourse, history) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in parasitology designed using philosophy structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "contradiction",
+      "synthesis",
+      "parasitology",
+      "philosophy",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Two-Process Model of Sleep Regulation Neuroscience Paradigm",
+    "mechanism_source": "sleep science",
+    "target_domain": "neuroscience",
+    "mechanism": "Two-Process Model of Sleep Regulation (Borbely) in sleep science operates through the interaction of sleep pressure / circadian phase as the fundamental unit of analysis. Variation arises through homeostatic sleep pressure (Process S) and circadian drive (Process C), creating a diverse population of candidates that face differential pressures. The selection mechanism—sleep onset when S exceeds upper threshold; wake when it falls below lower—determines which variants persist and propagate, while fitness is measured by sleep timing and duration optimized. This process is bounded by circadian period ~24h, ultradian oscillation of REM/NREM within sleep, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to neuroscience, the mechanism from sleep science suggests that the core units of neuroscience undergo an analogous evolutionary process. The variation mechanism (homeostatic sleep pressure (Process S) and circadian drive (Process C)) maps onto the generative processes in neuroscience, while the selection pressure (sleep onset when S exceeds upper threshold; wake when it falls below lower) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that neuroscience systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sleep science, but expressed through domain-specific substrates and timescales. The boundary conditions (circadian period ~24h, ultradian oscillation of REM/NREM within sleep) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in neuroscience designed using sleep science structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.6,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "threshold",
+      "sleep",
+      "neuroscience"
+    ]
+  },
+  {
+    "name": "Rottemae Tempo-Silence Ratio Machine Learning Algebra",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "machine learning",
+    "mechanism": "Rottemae Tempo-Silence Ratio in tea ceremony operates through the interaction of interval of deliberate silence (ma) between procedural movements as the fundamental unit of analysis. Variation arises through host temperament, ceremony style (wabi vs formal), and guest count modulate the pace of pauses, creating a diverse population of candidates that face differential pressures. The selection mechanism—silence durations that allow guests to absorb each action without creating restlessness are reinforced through training—determines which variants persist and propagate, while fitness is measured by collective meditative state (ichigo ichie) achieved by the gathering. This process is bounded by guest attention span, ceremony total time budget, seasonal time-of-day light constraints, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to machine learning, the mechanism from tea ceremony suggests that the core units of machine learning undergo an analogous evolutionary process. The variation mechanism (host temperament, ceremony style (wabi vs formal), and guest count modulate the pace of pauses) maps onto the generative processes in machine learning, while the selection pressure (silence durations that allow guests to absorb each action without creating restlessness are reinforced through training) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that machine learning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in tea ceremony, but expressed through domain-specific substrates and timescales. The boundary conditions (guest attention span, ceremony total time budget, seasonal time-of-day light constraints) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in machine learning designed using tea ceremony structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=200 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "agents",
+      "feedback",
+      "oscillation",
+      "tea",
+      "machine"
+    ]
+  },
+  {
+    "name": "Trophic Cascade Lighthouse Engineering Calculus",
+    "mechanism_source": "ecology",
+    "target_domain": "lighthouse engineering",
+    "mechanism": "Trophic Cascade in ecology operates through the interaction of trophic level as the fundamental unit of analysis. Variation arises through top predator perturbation, creating a diverse population of candidates that face differential pressures. The selection mechanism—propagates down the food web—determines which variants persist and propagate, while fitness is measured by abundance ratios across levels. This process is bounded by food web topology, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to lighthouse engineering, the mechanism from ecology suggests that the core units of lighthouse engineering undergo an analogous evolutionary process. The variation mechanism (top predator perturbation) maps onto the generative processes in lighthouse engineering, while the selection pressure (propagates down the food web) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that lighthouse engineering systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in ecology, but expressed through domain-specific substrates and timescales. The boundary conditions (food web topology) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in lighthouse engineering designed using ecology structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=120 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "feedback",
+      "ecology",
+      "lighthouse",
+      "amplification",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Perfume Pyramid Temporal Sequencing Systems Biology Framework",
+    "mechanism_source": "perfumery",
+    "target_domain": "systems biology",
+    "mechanism": "Perfume Pyramid Temporal Sequencing in perfumery operates through the interaction of note layer (top / heart / base) as the fundamental unit of analysis. Variation arises through ingredient volatility and concentration within each layer, creating a diverse population of candidates that face differential pressures. The selection mechanism—transitions between layers must be smooth; jarring shifts penalized by evaluators—determines which variants persist and propagate, while fitness is measured by perceived narrative arc from opening to dry-down. This process is bounded by evaporation kinetics, skin chemistry, ingredient cost constraints, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems biology, the mechanism from perfumery suggests that the core units of systems biology undergo an analogous evolutionary process. The variation mechanism (ingredient volatility and concentration within each layer) maps onto the generative processes in systems biology, while the selection pressure (transitions between layers must be smooth; jarring shifts penalized by evaluators) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in perfumery, but expressed through domain-specific substrates and timescales. The boundary conditions (evaporation kinetics, skin chemistry, ingredient cost constraints) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems biology designed using perfumery structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "transition",
+      "systems",
+      "gradient",
+      "perfumery",
+      "sequence"
+    ]
+  },
+  {
+    "name": "Plateau's Law Triple Cybernetics System",
+    "mechanism_source": "soap bubble physics",
+    "target_domain": "cybernetics",
+    "mechanism": "Plateau's Law Triple Junction Equilibrium in soap bubble physics operates through the interaction of triple junction (Plateau border) where three bubble films meet as the fundamental unit of analysis. Variation arises through film curvatures, surface tension anisotropy, and bubble size ratios alter junction geometry, creating a diverse population of candidates that face differential pressures. The selection mechanism—junctions that satisfy the 120-degree dihedral angle rule are mechanically stable; others rearrange instantly—determines which variants persist and propagate, while fitness is measured by persistence time of the junction configuration before topological rearrangement (T1 event). This process is bounded by foam drainage reducing film thickness below critical rupture threshold (~100 nm), four-film vertices are always unstable, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to cybernetics, the mechanism from soap bubble physics suggests that the core units of cybernetics undergo an analogous evolutionary process. The variation mechanism (film curvatures, surface tension anisotropy, and bubble size ratios alter junction geometry) maps onto the generative processes in cybernetics, while the selection pressure (junctions that satisfy the 120-degree dihedral angle rule are mechanically stable; others rearrange instantly) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that cybernetics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in soap bubble physics, but expressed through domain-specific substrates and timescales. The boundary conditions (foam drainage reducing film thickness below critical rupture threshold (~100 nm), four-film vertices are always unstable) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in cybernetics designed using soap bubble physics structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=40 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "cybernetics",
+      "soap",
+      "topology",
+      "self-organization",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Peircean Semiotic Triad Blacksmithing Grammar",
+    "mechanism_source": "semiotics",
+    "target_domain": "blacksmithing",
+    "mechanism": "Peircean Semiotic Triad in semiotics operates through the interaction of sign-object-interpretant triad as the fundamental unit of analysis. Variation arises through icon, index, symbol classes, creating a diverse population of candidates that face differential pressures. The selection mechanism—interpretant mediates sign-object relation through inference—determines which variants persist and propagate, while fitness is measured by semiotic adequacy (interpretive convergence). This process is bounded by unlimited semiosis, community of inquiry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to blacksmithing, the mechanism from semiotics suggests that the core units of blacksmithing undergo an analogous evolutionary process. The variation mechanism (icon, index, symbol classes) maps onto the generative processes in blacksmithing, while the selection pressure (interpretant mediates sign-object relation through inference) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that blacksmithing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in semiotics, but expressed through domain-specific substrates and timescales. The boundary conditions (unlimited semiosis, community of inquiry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in blacksmithing designed using semiotics structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=150 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "feedback",
+      "semiotics",
+      "blacksmithing",
+      "encoding",
+      "causality"
+    ]
+  },
+  {
+    "name": "Optical Margin Alignment Systems Biology Topology",
+    "mechanism_source": "typesetting",
+    "target_domain": "systems biology",
+    "mechanism": "Optical Margin Alignment in typesetting operates through the interaction of glyph overhang past the margin boundary as the fundamental unit of analysis. Variation arises through glyph shape (round, diagonal, serif, punctuation), overshoot percentage, creating a diverse population of candidates that face differential pressures. The selection mechanism—overhang values that make the margin appear straight to the eye replace mechanical alignment—determines which variants persist and propagate, while fitness is measured by perceived margin straightness rating in reader surveys. This process is bounded by glyph category inventory, rendering resolution, compositor effort, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to systems biology, the mechanism from typesetting suggests that the core units of systems biology undergo an analogous evolutionary process. The variation mechanism (glyph shape (round, diagonal, serif, punctuation), overshoot percentage) maps onto the generative processes in systems biology, while the selection pressure (overhang values that make the margin appear straight to the eye replace mechanical alignment) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that systems biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in typesetting, but expressed through domain-specific substrates and timescales. The boundary conditions (glyph category inventory, rendering resolution, compositor effort) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in systems biology designed using typesetting structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=120 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.82,
+    "tags": [
+      "systems",
+      "illusion",
+      "correction",
+      "perception",
+      "typesetting"
+    ]
+  },
+  {
+    "name": "Higher-Order Thought Theory Swarm Intelligence Architecture",
+    "mechanism_source": "consciousness studies",
+    "target_domain": "swarm intelligence",
+    "mechanism": "Higher-Order Thought Theory in consciousness studies operates through the interaction of mental state as the fundamental unit of analysis. Variation arises through first-order representations, creating a diverse population of candidates that face differential pressures. The selection mechanism—meta-cognitive monitoring promotes state to consciousness—determines which variants persist and propagate, while fitness is measured by availability to higher-order representation. This process is bounded by cognitive architecture, metacognitive capacity, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swarm intelligence, the mechanism from consciousness studies suggests that the core units of swarm intelligence undergo an analogous evolutionary process. The variation mechanism (first-order representations) maps onto the generative processes in swarm intelligence, while the selection pressure (meta-cognitive monitoring promotes state to consciousness) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swarm intelligence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in consciousness studies, but expressed through domain-specific substrates and timescales. The boundary conditions (cognitive architecture, metacognitive capacity) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swarm intelligence designed using consciousness studies structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "feedback",
+      "consciousness",
+      "update",
+      "swarm",
+      "routing"
+    ]
+  },
+  {
+    "name": "Locard Trace Transfer Persistence Dance Paradigm",
+    "mechanism_source": "forensic science",
+    "target_domain": "dance",
+    "mechanism": "Locard Trace Transfer Persistence in forensic science operates through the interaction of trace evidence particle transferred at contact as the fundamental unit of analysis. Variation arises through contact pressure, surface texture, and material adhesion produce different transfer quantities and retention rates, creating a diverse population of candidates that face differential pressures. The selection mechanism—only particles with sufficient adhesion to substrate survive environmental degradation, handling, and collection procedures—determines which variants persist and propagate, while fitness is measured by evidential value measured by traceability to source with statistical exclusion of alternative origins. This process is bounded by secondary and tertiary transfer noise, environmental contamination, particle size below analytical detection limits, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to dance, the mechanism from forensic science suggests that the core units of dance undergo an analogous evolutionary process. The variation mechanism (contact pressure, surface texture, and material adhesion produce different transfer quantities and retention rates) maps onto the generative processes in dance, while the selection pressure (only particles with sufficient adhesion to substrate survive environmental degradation, handling, and collection procedures) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that dance systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in forensic science, but expressed through domain-specific substrates and timescales. The boundary conditions (secondary and tertiary transfer noise, environmental contamination, particle size below analytical detection limits) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in dance designed using forensic science structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "threshold",
+      "forensic",
+      "dance",
+      "signal",
+      "decay"
+    ]
+  },
+  {
+    "name": "Thermohaline Circulation Bamboo Construction Architecture",
+    "mechanism_source": "oceanography",
+    "target_domain": "bamboo construction",
+    "mechanism": "Thermohaline Circulation in oceanography operates through the interaction of water parcel as the fundamental unit of analysis. Variation arises through temperature and salinity gradients, creating a diverse population of candidates that face differential pressures. The selection mechanism—density differences drive deep-water formation and overturning—determines which variants persist and propagate, while fitness is measured by meridional heat transport. This process is bounded by ocean basin geometry, freshwater input, wind forcing, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to bamboo construction, the mechanism from oceanography suggests that the core units of bamboo construction undergo an analogous evolutionary process. The variation mechanism (temperature and salinity gradients) maps onto the generative processes in bamboo construction, while the selection pressure (density differences drive deep-water formation and overturning) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that bamboo construction systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in oceanography, but expressed through domain-specific substrates and timescales. The boundary conditions (ocean basin geometry, freshwater input, wind forcing) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in bamboo construction designed using oceanography structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "dynamics",
+      "feedback",
+      "oceanography",
+      "bamboo",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Plinian Column Collapse Dynamics Swordsmithing Theory",
+    "mechanism_source": "volcanology",
+    "target_domain": "swordsmithing",
+    "mechanism": "Plinian Column Collapse Dynamics in volcanology operates through the interaction of eruption column segment as the fundamental unit of analysis. Variation arises through fluctuations in mass eruption rate, vent geometry, and atmospheric entrainment, creating a diverse population of candidates that face differential pressures. The selection mechanism—columns maintaining buoyancy rise convectively; those exceeding density threshold collapse into pyroclastic density currents—determines which variants persist and propagate, while fitness is measured by maximum column height sustained before collapse. This process is bounded by mass eruption rate, atmospheric stratification, vent radius, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swordsmithing, the mechanism from volcanology suggests that the core units of swordsmithing undergo an analogous evolutionary process. The variation mechanism (fluctuations in mass eruption rate, vent geometry, and atmospheric entrainment) maps onto the generative processes in swordsmithing, while the selection pressure (columns maintaining buoyancy rise convectively; those exceeding density threshold collapse into pyroclastic density currents) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swordsmithing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in volcanology, but expressed through domain-specific substrates and timescales. The boundary conditions (mass eruption rate, atmospheric stratification, vent radius) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swordsmithing designed using volcanology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "threshold",
+      "cascade",
+      "volcanology",
+      "phase-transition",
+      "swordsmithing"
+    ]
+  }
+]

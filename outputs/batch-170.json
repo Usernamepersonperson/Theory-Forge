@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Mash Enzyme Temperature Optimum Race Botany Grammar",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "botany",
+    "mechanism": "Mash Enzyme Temperature Optimum Race in brewing chemistry operates through the interaction of starch-to-sugar conversion event by amylase enzyme as the fundamental unit of analysis. Variation arises through mash temperature selects between beta-amylase (fermentable maltose) and alpha-amylase (unfermentable dextrins) activity dominance, creating a diverse population of candidates that face differential pressures. The selection mechanism—temperature ramp rate and rest duration determine which enzyme contributes more to final wort sugar profile—determines which variants persist and propagate, while fitness is measured by target ratio of fermentable to unfermentable sugars matching desired body and attenuation. This process is bounded by enzyme denaturation above 72C, gelatinization temperature of grain starch, pH-dependent activity curves, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to botany, the mechanism from brewing chemistry suggests that the core units of botany undergo an analogous evolutionary process. The variation mechanism (mash temperature selects between beta-amylase (fermentable maltose) and alpha-amylase (unfermentable dextrins) activity dominance) maps onto the generative processes in botany, while the selection pressure (temperature ramp rate and rest duration determine which enzyme contributes more to final wort sugar profile) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that botany systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in brewing chemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (enzyme denaturation above 72C, gelatinization temperature of grain starch, pH-dependent activity curves) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in botany designed using brewing chemistry structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "threshold",
+      "gradient",
+      "botany",
+      "competition",
+      "brewing"
+    ]
+  },
+  {
+    "name": "Marangoni Drainage Stabilization Category Theory Calculus",
+    "mechanism_source": "soap bubble physics",
+    "target_domain": "category theory",
+    "mechanism": "Marangoni Drainage Stabilization in soap bubble physics operates through the interaction of surfactant concentration gradient along a draining film as the fundamental unit of analysis. Variation arises through surfactant molecular weight, CMC, and adsorption kinetics alter the strength of the Marangoni counterflow, creating a diverse population of candidates that face differential pressures. The selection mechanism—surfactant systems where Marangoni stress opposes gravitational thinning produce longer-lived films—determines which variants persist and propagate, while fitness is measured by film lifetime before rupture (seconds to minutes for demonstration foams). This process is bounded by evaporation rate in dry air, surfactant desorption at extreme thinning, mechanical perturbation, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from soap bubble physics suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (surfactant molecular weight, CMC, and adsorption kinetics alter the strength of the Marangoni counterflow) maps onto the generative processes in category theory, while the selection pressure (surfactant systems where Marangoni stress opposes gravitational thinning produce longer-lived films) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in soap bubble physics, but expressed through domain-specific substrates and timescales. The boundary conditions (evaporation rate in dry air, surfactant desorption at extreme thinning, mechanical perturbation) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using soap bubble physics structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "gradient",
+      "soap",
+      "category",
+      "feedback-loop",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Gödel's Incompleteness Endocrinology Grammar",
+    "mechanism_source": "mathematics",
+    "target_domain": "endocrinology",
+    "mechanism": "Gödel's Incompleteness in mathematics operates through the interaction of formal system as the fundamental unit of analysis. Variation arises through candidate axiom sets, creating a diverse population of candidates that face differential pressures. The selection mechanism—self-reference exposes undecidable statements—determines which variants persist and propagate, while fitness is measured by completeness vs consistency tradeoff. This process is bounded by sufficiently expressive system, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to endocrinology, the mechanism from mathematics suggests that the core units of endocrinology undergo an analogous evolutionary process. The variation mechanism (candidate axiom sets) maps onto the generative processes in endocrinology, while the selection pressure (self-reference exposes undecidable statements) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that endocrinology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mathematics, but expressed through domain-specific substrates and timescales. The boundary conditions (sufficiently expressive system) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in endocrinology designed using mathematics structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=80 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.74,
+    "tags": [
+      "mathematics",
+      "limit",
+      "endocrinology",
+      "negation",
+      "contradiction"
+    ]
+  },
+  {
+    "name": "Fractal Self-Similarity Machine Learning Calculus",
+    "mechanism_source": "fractal geometry",
+    "target_domain": "machine learning",
+    "mechanism": "Fractal Self-Similarity (Mandelbrot) in fractal geometry operates through the interaction of geometric pattern at a scale as the fundamental unit of analysis. Variation arises through observation scale, creating a diverse population of candidates that face differential pressures. The selection mechanism—statistical or exact self-similarity recurs across scales—determines which variants persist and propagate, while fitness is measured by fractal dimension D exceeds topological dimension. This process is bounded by finite inner and outer scales cut off fractal behavior, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to machine learning, the mechanism from fractal geometry suggests that the core units of machine learning undergo an analogous evolutionary process. The variation mechanism (observation scale) maps onto the generative processes in machine learning, while the selection pressure (statistical or exact self-similarity recurs across scales) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that machine learning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in fractal geometry, but expressed through domain-specific substrates and timescales. The boundary conditions (finite inner and outer scales cut off fractal behavior) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in machine learning designed using fractal geometry structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "fractal",
+      "emergence",
+      "statistics",
+      "machine",
+      "self-organization"
+    ]
+  },
+  {
+    "name": "Clonal Selection Geomorphology Model",
+    "mechanism_source": "immunology",
+    "target_domain": "geomorphology",
+    "mechanism": "Clonal Selection (Immunology) in immunology operates through the interaction of lymphocyte clone as the fundamental unit of analysis. Variation arises through somatic hypermutation, creating a diverse population of candidates that face differential pressures. The selection mechanism—antigen binding affinity—determines which variants persist and propagate, while fitness is measured by clone proliferation. This process is bounded by self/non-self discrimination, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to geomorphology, the mechanism from immunology suggests that the core units of geomorphology undergo an analogous evolutionary process. The variation mechanism (somatic hypermutation) maps onto the generative processes in geomorphology, while the selection pressure (antigen binding affinity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that geomorphology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in immunology, but expressed through domain-specific substrates and timescales. The boundary conditions (self/non-self discrimination) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in geomorphology designed using immunology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=80 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "replication",
+      "immunology",
+      "geomorphology",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "name": "Amplification Through Accumulatio Archaeology Synthesis",
+    "mechanism_source": "rhetoric",
+    "target_domain": "archaeology",
+    "mechanism": "Amplification Through Accumulatio in rhetoric operates through the interaction of accumulated detail as the fundamental unit of analysis. Variation arises through Speakers vary the number, specificity, emotional register, and sequencing of accumulated details., creating a diverse population of candidates that face differential pressures. The selection mechanism—Accumulations that build toward a perceptual threshold persist; lists that merely enumerate are pruned.—determines which variants persist and propagate, while fitness is measured by Accumulatio achieves fitness when aggregation produces an emergent impression greater than the sum of individual items.. This process is bounded by Fails when accumulated details are too heterogeneous to cohere or when audience attention exhausts before threshold., establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to archaeology, the mechanism from rhetoric suggests that the core units of archaeology undergo an analogous evolutionary process. The variation mechanism (Speakers vary the number, specificity, emotional register, and sequencing of accumulated details.) maps onto the generative processes in archaeology, while the selection pressure (Accumulations that build toward a perceptual threshold persist; lists that merely enumerate are pruned.) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that archaeology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in rhetoric, but expressed through domain-specific substrates and timescales. The boundary conditions (Fails when accumulated details are too heterogeneous to cohere or when audience attention exhausts before threshold.) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in archaeology designed using rhetoric structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "rhetoric",
+      "threshold",
+      "emergence",
+      "archaeology",
+      "gradient"
+    ]
+  },
+  {
+    "name": "Multiplex Layer Interdependence Cascade Culinary Science Method",
+    "mechanism_source": "network theory",
+    "target_domain": "culinary science",
+    "mechanism": "Multiplex Layer Interdependence Cascade in network theory operates through the interaction of inter-layer dependency link as the fundamental unit of analysis. Variation arises through layer overlap, coupling strength, and node multiplexity, creating a diverse population of candidates that face differential pressures. The selection mechanism—failure in one layer propagates through dependency links to others—determines which variants persist and propagate, while fitness is measured by mutual giant component size under cascading failure. This process is bounded by reduces to single-network percolation when layers are fully correlated, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to culinary science, the mechanism from network theory suggests that the core units of culinary science undergo an analogous evolutionary process. The variation mechanism (layer overlap, coupling strength, and node multiplexity) maps onto the generative processes in culinary science, while the selection pressure (failure in one layer propagates through dependency links to others) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that culinary science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in network theory, but expressed through domain-specific substrates and timescales. The boundary conditions (reduces to single-network percolation when layers are fully correlated) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in culinary science designed using network theory structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=100 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "phase-transition",
+      "culinary",
+      "network",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Speculative Bubbles Photonics Synthesis",
+    "mechanism_source": "finance",
+    "target_domain": "photonics",
+    "mechanism": "Speculative Bubbles in finance operates through the interaction of asset price as the fundamental unit of analysis. Variation arises through momentum buying, creating a diverse population of candidates that face differential pressures. The selection mechanism—positive feedback until trigger—determines which variants persist and propagate, while fitness is measured by price deviation from fundamentals. This process is bounded by credit availability, sentiment, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to photonics, the mechanism from finance suggests that the core units of photonics undergo an analogous evolutionary process. The variation mechanism (momentum buying) maps onto the generative processes in photonics, while the selection pressure (positive feedback until trigger) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that photonics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in finance, but expressed through domain-specific substrates and timescales. The boundary conditions (credit availability, sentiment) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in photonics designed using finance structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=100 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.74,
+    "tags": [
+      "feedback",
+      "finance",
+      "photonics",
+      "amplification",
+      "phase-transition"
+    ]
+  },
+  {
+    "name": "Eusociality and Hamilton's Rule Hydraulic Engineering Model",
+    "mechanism_source": "entomology",
+    "target_domain": "hydraulic engineering",
+    "mechanism": "Eusociality and Hamilton's Rule (Kin Selection) in entomology operates through the interaction of altruistic act as the fundamental unit of analysis. Variation arises through coefficient of relatedness r, benefit b, cost c, creating a diverse population of candidates that face differential pressures. The selection mechanism—altruism spreads when rb > c (inclusive fitness benefit exceeds cost)—determines which variants persist and propagate, while fitness is measured by inclusive fitness. This process is bounded by haplodiploidy or repeated interactions in nest, r measurable, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to hydraulic engineering, the mechanism from entomology suggests that the core units of hydraulic engineering undergo an analogous evolutionary process. The variation mechanism (coefficient of relatedness r, benefit b, cost c) maps onto the generative processes in hydraulic engineering, while the selection pressure (altruism spreads when rb > c (inclusive fitness benefit exceeds cost)) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that hydraulic engineering systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in entomology, but expressed through domain-specific substrates and timescales. The boundary conditions (haplodiploidy or repeated interactions in nest, r measurable) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in hydraulic engineering designed using entomology structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "hydraulic",
+      "scarcity",
+      "entomology",
+      "selection",
+      "network"
+    ]
+  },
+  {
+    "name": "Feedback Linearization Morse Telegraphy Model",
+    "mechanism_source": "control theory",
+    "target_domain": "morse telegraphy",
+    "mechanism": "Feedback Linearization in control theory operates through the interaction of nonlinear dynamic system as the fundamental unit of analysis. Variation arises through nonlinear state feedback cancels nonlinearities, creating a diverse population of candidates that face differential pressures. The selection mechanism—exact cancellation transforms system to linear normal form—determines which variants persist and propagate, while fitness is measured by linear controllability of originally nonlinear plant. This process is bounded by full state measurement, relative degree well-defined, no zero dynamics instability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to morse telegraphy, the mechanism from control theory suggests that the core units of morse telegraphy undergo an analogous evolutionary process. The variation mechanism (nonlinear state feedback cancels nonlinearities) maps onto the generative processes in morse telegraphy, while the selection pressure (exact cancellation transforms system to linear normal form) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that morse telegraphy systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in control theory, but expressed through domain-specific substrates and timescales. The boundary conditions (full state measurement, relative degree well-defined, no zero dynamics instability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in morse telegraphy designed using control theory structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.67,
+    "tags": [
+      "dynamics",
+      "optimization",
+      "control",
+      "morse"
+    ]
+  },
+  {
+    "name": "Monads in Category Theory Moral Philosophy Architecture",
+    "mechanism_source": "category theory",
+    "target_domain": "moral philosophy",
+    "mechanism": "Monads in Category Theory in category theory operates through the interaction of endofunctor with unit and multiplication as the fundamental unit of analysis. Variation arises through candidate algebraic structures on a category, creating a diverse population of candidates that face differential pressures. The selection mechanism—monad laws (associativity, unit) constrain composition—determines which variants persist and propagate, while fitness is measured by Kleisli or Eilenberg-Moore algebra structure. This process is bounded by endofunctor category, coherence conditions, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to moral philosophy, the mechanism from category theory suggests that the core units of moral philosophy undergo an analogous evolutionary process. The variation mechanism (candidate algebraic structures on a category) maps onto the generative processes in moral philosophy, while the selection pressure (monad laws (associativity, unit) constrain composition) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that moral philosophy systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in category theory, but expressed through domain-specific substrates and timescales. The boundary conditions (endofunctor category, coherence conditions) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in moral philosophy designed using category theory structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "synthesis",
+      "category",
+      "control",
+      "encoding",
+      "moral"
+    ]
+  },
+  {
+    "name": "Natural Selection Botany Principle",
+    "mechanism_source": "biology",
+    "target_domain": "botany",
+    "mechanism": "Natural Selection in biology operates through the interaction of organism / gene as the fundamental unit of analysis. Variation arises through random mutation, recombination, creating a diverse population of candidates that face differential pressures. The selection mechanism—differential survival under environmental pressure—determines which variants persist and propagate, while fitness is measured by reproductive success. This process is bounded by heritability, finite resources, time, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to botany, the mechanism from biology suggests that the core units of botany undergo an analogous evolutionary process. The variation mechanism (random mutation, recombination) maps onto the generative processes in botany, while the selection pressure (differential survival under environmental pressure) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that botany systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in biology, but expressed through domain-specific substrates and timescales. The boundary conditions (heritability, finite resources, time) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in botany designed using biology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "tags": [
+      "replication",
+      "biology",
+      "botany",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "name": "Star Identification Through Parasitology Calculus",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "parasitology",
+    "mechanism": "Star Identification Through Magnitude and Pattern Recognition in astronomical navigation operates through the interaction of unidentified celestial body observed through the sextant as the fundamental unit of analysis. Variation arises through sky familiarity of the navigator, latitude (determining which stars are above horizon), time of year (seasonal sky rotation), planet presence causing confusion, atmospheric extinction dimming low stars, creating a diverse population of candidates that face differential pressures. The selection mechanism—navigators use constellation patterns, relative brightness, and star finder (Rude 2102-D) to identify bodies; planets identified by steady light vs. twinkling; wrong identification produces a systematically wrong LOP—determines which variants persist and propagate, while fitness is measured by all observed bodies correctly identified, producing LOPs that converge to a coherent fix rather than a scattered pattern. This process is bounded by does not apply to sun or moon observations where identity is obvious; specific to twilight multi-star fixes, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to parasitology, the mechanism from astronomical navigation suggests that the core units of parasitology undergo an analogous evolutionary process. The variation mechanism (sky familiarity of the navigator, latitude (determining which stars are above horizon), time of year (seasonal sky rotation), planet presence causing confusion, atmospheric extinction dimming low stars) maps onto the generative processes in parasitology, while the selection pressure (navigators use constellation patterns, relative brightness, and star finder (Rude 2102-D) to identify bodies; planets identified by steady light vs. twinkling; wrong identification produces a systematically wrong LOP) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that parasitology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in astronomical navigation, but expressed through domain-specific substrates and timescales. The boundary conditions (does not apply to sun or moon observations where identity is obvious; specific to twilight multi-star fixes) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in parasitology designed using astronomical navigation structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=100 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "constellation-pattern",
+      "magnitude",
+      "star-identification",
+      "parasitology",
+      "astronomical"
+    ]
+  },
+  {
+    "name": "Marxist Capital Accumulation Cosmology Algebra",
+    "mechanism_source": "political economy",
+    "target_domain": "cosmology",
+    "mechanism": "Marxist Capital Accumulation in political economy operates through the interaction of capital stock as the fundamental unit of analysis. Variation arises through reinvestment of surplus value, creating a diverse population of candidates that face differential pressures. The selection mechanism—competition forces accumulation—determines which variants persist and propagate, while fitness is measured by capital growth rate. This process is bounded by labor supply, crisis tendencies, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to cosmology, the mechanism from political economy suggests that the core units of cosmology undergo an analogous evolutionary process. The variation mechanism (reinvestment of surplus value) maps onto the generative processes in cosmology, while the selection pressure (competition forces accumulation) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that cosmology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in political economy, but expressed through domain-specific substrates and timescales. The boundary conditions (labor supply, crisis tendencies) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in cosmology designed using political economy structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=40 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "agents",
+      "cosmology",
+      "feedback",
+      "political",
+      "scarcity"
+    ]
+  },
+  {
+    "name": "Adjoint Functors Map Projection Framework",
+    "mechanism_source": "category theory",
+    "target_domain": "map projection",
+    "mechanism": "Adjoint Functors in category theory operates through the interaction of functor pair (F, G) between categories as the fundamental unit of analysis. Variation arises through candidate correspondences between hom-sets, creating a diverse population of candidates that face differential pressures. The selection mechanism—natural bijection Hom(F(A),B) ≅ Hom(A,G(B))—determines which variants persist and propagate, while fitness is measured by universal solution to a mapping problem. This process is bounded by categories with sufficient limits/colimits, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to map projection, the mechanism from category theory suggests that the core units of map projection undergo an analogous evolutionary process. The variation mechanism (candidate correspondences between hom-sets) maps onto the generative processes in map projection, while the selection pressure (natural bijection Hom(F(A),B) ≅ Hom(A,G(B))) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that map projection systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in category theory, but expressed through domain-specific substrates and timescales. The boundary conditions (categories with sufficient limits/colimits) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in map projection designed using category theory structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=100 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "map",
+      "optimization",
+      "synthesis",
+      "category",
+      "coupling"
+    ]
+  }
+]

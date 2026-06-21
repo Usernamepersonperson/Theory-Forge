@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Stream Power Erosion Model Behavioral Economics Dynamics",
+    "mechanism_source": "geomorphology",
+    "target_domain": "behavioral economics",
+    "mechanism": "Stream Power Erosion Model in geomorphology operates through the interaction of channel reach as the fundamental unit of analysis. Variation arises through discharge, channel slope, and substrate erodibility, creating a diverse population of candidates that face differential pressures. The selection mechanism—erosion rate proportional to unit stream power exceeding threshold—determines which variants persist and propagate, while fitness is measured by channel incision and landscape denudation rate. This process is bounded by bedrock vs alluvial channel, discharge variability, tectonic uplift, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to behavioral economics, the mechanism from geomorphology suggests that the core units of behavioral economics undergo an analogous evolutionary process. The variation mechanism (discharge, channel slope, and substrate erodibility) maps onto the generative processes in behavioral economics, while the selection pressure (erosion rate proportional to unit stream power exceeding threshold) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that behavioral economics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in geomorphology, but expressed through domain-specific substrates and timescales. The boundary conditions (bedrock vs alluvial channel, discharge variability, tectonic uplift) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in behavioral economics designed using geomorphology structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=40 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "dynamics",
+      "geomorphology",
+      "threshold",
+      "behavioral",
+      "long-horizon"
+    ]
+  },
+  {
+    "name": "Coral Holobiont Feedback Theory Sandcastle Engineering Algebra",
+    "mechanism_source": "marine biology",
+    "target_domain": "sandcastle engineering",
+    "mechanism": "Coral Holobiont Feedback Theory in marine biology operates through the interaction of coral holobiont (coral host plus symbiotic microbiome) as the fundamental unit of analysis. Variation arises through stochastic acquisition and shuffling of Symbiodiniaceae clades and bacterial consortia, creating a diverse population of candidates that face differential pressures. The selection mechanism—thermal stress events differentially eliminate holobionts with maladapted symbiont communities—determines which variants persist and propagate, while fitness is measured by maximized photosynthetic yield and calcification rate under variable thermal regimes. This process is bounded by breaks down when bleaching events exceed the adaptive capacity of any available symbiont combination, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to sandcastle engineering, the mechanism from marine biology suggests that the core units of sandcastle engineering undergo an analogous evolutionary process. The variation mechanism (stochastic acquisition and shuffling of Symbiodiniaceae clades and bacterial consortia) maps onto the generative processes in sandcastle engineering, while the selection pressure (thermal stress events differentially eliminate holobionts with maladapted symbiont communities) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that sandcastle engineering systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in marine biology, but expressed through domain-specific substrates and timescales. The boundary conditions (breaks down when bleaching events exceed the adaptive capacity of any available symbiont combination) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in sandcastle engineering designed using marine biology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "feedback",
+      "sandcastle",
+      "variation",
+      "marine",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Gresham's Law Debasement Spiral Beekeeping / Apiculture Principle",
+    "mechanism_source": "numismatics",
+    "target_domain": "beekeeping / apiculture",
+    "mechanism": "Gresham's Law Debasement Spiral in numismatics operates through the interaction of circulating coin as the fundamental unit of analysis. Variation arises through mints issue coins with varying metal purity under fiscal pressure, creating a diverse population of candidates that face differential pressures. The selection mechanism—holders hoard high-purity coins and spend debased ones—determines which variants persist and propagate, while fitness is measured by circulation velocity of the debased coin; hoarding rate of the pure coin. This process is bounded by legal tender laws, detection difficulty, public trust threshold, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to beekeeping / apiculture, the mechanism from numismatics suggests that the core units of beekeeping / apiculture undergo an analogous evolutionary process. The variation mechanism (mints issue coins with varying metal purity under fiscal pressure) maps onto the generative processes in beekeeping / apiculture, while the selection pressure (holders hoard high-purity coins and spend debased ones) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that beekeeping / apiculture systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in numismatics, but expressed through domain-specific substrates and timescales. The boundary conditions (legal tender laws, detection difficulty, public trust threshold) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in beekeeping / apiculture designed using numismatics structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "numismatics",
+      "beekeeping",
+      "selection-pressure",
+      "feedback-loop",
+      "signal"
+    ]
+  },
+  {
+    "name": "Locard's Exchange Principle Marine Biology Paradigm",
+    "mechanism_source": "forensic science",
+    "target_domain": "marine biology",
+    "mechanism": "Locard's Exchange Principle in forensic science operates through the interaction of physical contact event as the fundamental unit of analysis. Variation arises through materials transferred between surfaces, creating a diverse population of candidates that face differential pressures. The selection mechanism—every contact leaves a trace; transfer is bidirectional—determines which variants persist and propagate, while fitness is measured by evidentiary trace quantity and persistence. This process is bounded by trace degradation, contamination, detection threshold, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to marine biology, the mechanism from forensic science suggests that the core units of marine biology undergo an analogous evolutionary process. The variation mechanism (materials transferred between surfaces) maps onto the generative processes in marine biology, while the selection pressure (every contact leaves a trace; transfer is bidirectional) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that marine biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in forensic science, but expressed through domain-specific substrates and timescales. The boundary conditions (trace degradation, contamination, detection threshold) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in marine biology designed using forensic science structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=150 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "forensic",
+      "boundary",
+      "transmission",
+      "marine",
+      "coupling"
+    ]
+  },
+  {
+    "name": "SLAM Machine Learning Paradigm",
+    "mechanism_source": "robotics",
+    "target_domain": "machine learning",
+    "mechanism": "SLAM (Simultaneous Localization and Mapping) in robotics operates through the interaction of robot pose + map landmark as the fundamental unit of analysis. Variation arises through sensor observations with noise, creating a diverse population of candidates that face differential pressures. The selection mechanism—probabilistic filter (EKF, particle filter) updates joint pose-map belief—determines which variants persist and propagate, while fitness is measured by consistent map and accurate localization. This process is bounded by sensor range and noise, loop-closure detection, dynamic environments, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to machine learning, the mechanism from robotics suggests that the core units of machine learning undergo an analogous evolutionary process. The variation mechanism (sensor observations with noise) maps onto the generative processes in machine learning, while the selection pressure (probabilistic filter (EKF, particle filter) updates joint pose-map belief) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that machine learning systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in robotics, but expressed through domain-specific substrates and timescales. The boundary conditions (sensor range and noise, loop-closure detection, dynamic environments) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in machine learning designed using robotics structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=40 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "feedback",
+      "update",
+      "uncertainty",
+      "machine",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Morse Operator Error Detection Meteorology Model",
+    "mechanism_source": "morse code / telegraph",
+    "target_domain": "meteorology",
+    "mechanism": "Morse Operator Error Detection in morse code / telegraph operates through the interaction of received character sequence as the fundamental unit of analysis. Variation arises through noise, operator error, and abbreviation create ambiguity, creating a diverse population of candidates that face differential pressures. The selection mechanism—receiver uses linguistic context and prosigns (HH) to detect/correct errors—determines which variants persist and propagate, while fitness is measured by message accuracy after human error correction. This process is bounded by operator vocabulary, signal-to-noise ratio, message urgency, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to meteorology, the mechanism from morse code / telegraph suggests that the core units of meteorology undergo an analogous evolutionary process. The variation mechanism (noise, operator error, and abbreviation create ambiguity) maps onto the generative processes in meteorology, while the selection pressure (receiver uses linguistic context and prosigns (HH) to detect/correct errors) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that meteorology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in morse code / telegraph, but expressed through domain-specific substrates and timescales. The boundary conditions (operator vocabulary, signal-to-noise ratio, message urgency) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in meteorology designed using morse code / telegraph structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=120 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.55,
+    "tags": [
+      "feedback",
+      "redundancy",
+      "meteorology",
+      "morse",
+      "noise"
+    ]
+  },
+  {
+    "name": "Campbell's Monomyth Endocrinology Ecology",
+    "mechanism_source": "mythology",
+    "target_domain": "endocrinology",
+    "mechanism": "Campbell's Monomyth (Hero's Journey) in mythology operates through the interaction of narrative stage as the fundamental unit of analysis. Variation arises through cultural surface details across world mythologies, creating a diverse population of candidates that face differential pressures. The selection mechanism—departure-initiation-return structure recurs cross-culturally—determines which variants persist and propagate, while fitness is measured by psychological resonance and cultural transmission. This process is bounded by voluntary vs imposed journey; genre scope debated, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to endocrinology, the mechanism from mythology suggests that the core units of endocrinology undergo an analogous evolutionary process. The variation mechanism (cultural surface details across world mythologies) maps onto the generative processes in endocrinology, while the selection pressure (departure-initiation-return structure recurs cross-culturally) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that endocrinology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mythology, but expressed through domain-specific substrates and timescales. The boundary conditions (voluntary vs imposed journey; genre scope debated) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in endocrinology designed using mythology structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "emergence",
+      "mythology",
+      "endocrinology",
+      "transmission",
+      "encoding"
+    ]
+  },
+  {
+    "name": "Drake Equation Swordsmithing Strategy",
+    "mechanism_source": "astrobiology",
+    "target_domain": "swordsmithing",
+    "mechanism": "Drake Equation in astrobiology operates through the interaction of civilization in the galaxy as the fundamental unit of analysis. Variation arises through parameter estimates (star formation, habitability, intelligence), creating a diverse population of candidates that face differential pressures. The selection mechanism—product of factors yields expected count—determines which variants persist and propagate, while fitness is measured by number of detectable civilizations N. This process is bounded by Milky Way, current epoch, radio-detectable window, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swordsmithing, the mechanism from astrobiology suggests that the core units of swordsmithing undergo an analogous evolutionary process. The variation mechanism (parameter estimates (star formation, habitability, intelligence)) maps onto the generative processes in swordsmithing, while the selection pressure (product of factors yields expected count) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swordsmithing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in astrobiology, but expressed through domain-specific substrates and timescales. The boundary conditions (Milky Way, current epoch, radio-detectable window) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swordsmithing designed using astrobiology structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "uncertainty",
+      "astrobiology",
+      "statistics",
+      "long-horizon",
+      "swordsmithing"
+    ]
+  },
+  {
+    "name": "Lanchester's Laws of Combat Attrition Oceanography Dynamics",
+    "mechanism_source": "military strategy",
+    "target_domain": "oceanography",
+    "mechanism": "Lanchester's Laws of Combat Attrition in military strategy operates through the interaction of combat unit as the fundamental unit of analysis. Variation arises through force size and firepower efficiency, creating a diverse population of candidates that face differential pressures. The selection mechanism—square law: attrition advantage scales with force-size squared for ranged combat—determines which variants persist and propagate, while fitness is measured by surviving force size at battle end. This process is bounded by homogeneous units, continuous engagement, no terrain effects, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to oceanography, the mechanism from military strategy suggests that the core units of oceanography undergo an analogous evolutionary process. The variation mechanism (force size and firepower efficiency) maps onto the generative processes in oceanography, while the selection pressure (square law: attrition advantage scales with force-size squared for ranged combat) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that oceanography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in military strategy, but expressed through domain-specific substrates and timescales. The boundary conditions (homogeneous units, continuous engagement, no terrain effects) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in oceanography designed using military strategy structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=100 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "dynamics",
+      "oceanography",
+      "scarcity",
+      "military",
+      "amplification"
+    ]
+  },
+  {
+    "name": "Yeast-Lactobacillus Metabolic Symbiosis Network Science Calculus",
+    "mechanism_source": "sourdough microbiology",
+    "target_domain": "network science",
+    "mechanism": "Yeast-Lactobacillus Metabolic Symbiosis in sourdough microbiology operates through the interaction of metabolic exchange event between yeast and LAB cells as the fundamental unit of analysis. Variation arises through yeast releases amino acids and CO2; LAB produces acids that suppress competitors; resource partitioning varies by strain pairing, creating a diverse population of candidates that face differential pressures. The selection mechanism—strain pairings with complementary substrate preferences (maltose for LAB, glucose for yeast) coexist; overlapping niches lead to competitive exclusion—determines which variants persist and propagate, while fitness is measured by co-culture stability ratio maintained across 50+ feeding cycles. This process is bounded by substrate availability, cross-feeding dependencies, antimicrobial peptide production, population ratio, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to network science, the mechanism from sourdough microbiology suggests that the core units of network science undergo an analogous evolutionary process. The variation mechanism (yeast releases amino acids and CO2; LAB produces acids that suppress competitors; resource partitioning varies by strain pairing) maps onto the generative processes in network science, while the selection pressure (strain pairings with complementary substrate preferences (maltose for LAB, glucose for yeast) coexist; overlapping niches lead to competitive exclusion) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that network science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sourdough microbiology, but expressed through domain-specific substrates and timescales. The boundary conditions (substrate availability, cross-feeding dependencies, antimicrobial peptide production, population ratio) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in network science designed using sourdough microbiology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=120 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "cross-feeding",
+      "niche-partitioning",
+      "symbiosis",
+      "sourdough",
+      "network"
+    ]
+  },
+  {
+    "name": "Cosmic Inflation Taxidermy / Preservation Method",
+    "mechanism_source": "cosmology",
+    "target_domain": "taxidermy / preservation",
+    "mechanism": "Cosmic Inflation in cosmology operates through the interaction of region of space as the fundamental unit of analysis. Variation arises through quantum fluctuations of inflaton, creating a diverse population of candidates that face differential pressures. The selection mechanism—exponential expansion stretches modes—determines which variants persist and propagate, while fitness is measured by density perturbation spectrum. This process is bounded by early universe, inflaton potential, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to taxidermy / preservation, the mechanism from cosmology suggests that the core units of taxidermy / preservation undergo an analogous evolutionary process. The variation mechanism (quantum fluctuations of inflaton) maps onto the generative processes in taxidermy / preservation, while the selection pressure (exponential expansion stretches modes) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that taxidermy / preservation systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cosmology, but expressed through domain-specific substrates and timescales. The boundary conditions (early universe, inflaton potential) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in taxidermy / preservation designed using cosmology structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=120 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "cosmology",
+      "taxidermy",
+      "amplification",
+      "phase-transition",
+      "noise"
+    ]
+  },
+  {
+    "name": "Red Queen Hypothesis Neurolinguistics Model",
+    "mechanism_source": "parasitology",
+    "target_domain": "neurolinguistics",
+    "mechanism": "Red Queen Hypothesis in parasitology operates through the interaction of host-parasite genotype pair as the fundamental unit of analysis. Variation arises through host and parasite genotype frequencies, creating a diverse population of candidates that face differential pressures. The selection mechanism—co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones—determines which variants persist and propagate, while fitness is measured by infection resistance (host) / infectivity (parasite). This process is bounded by sexually reproducing host, obligate parasite, overlapping generations, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to neurolinguistics, the mechanism from parasitology suggests that the core units of neurolinguistics undergo an analogous evolutionary process. The variation mechanism (host and parasite genotype frequencies) maps onto the generative processes in neurolinguistics, while the selection pressure (co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that neurolinguistics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in parasitology, but expressed through domain-specific substrates and timescales. The boundary conditions (sexually reproducing host, obligate parasite, overlapping generations) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in neurolinguistics designed using parasitology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=80 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.82,
+    "tags": [
+      "neurolinguistics",
+      "oscillation",
+      "parasitology",
+      "co-evolution",
+      "selection"
+    ]
+  },
+  {
+    "name": "Mercator Conformal-Area Tradeoff Category Theory Topology",
+    "mechanism_source": "map projection",
+    "target_domain": "category theory",
+    "mechanism": "Mercator Conformal-Area Tradeoff in map projection operates through the interaction of infinitesimal circle (Tissot indicatrix) at a given latitude as the fundamental unit of analysis. Variation arises through projection equations stretch the indicatrix differently in area, shape, and direction at each point, creating a diverse population of candidates that face differential pressures. The selection mechanism—navigational use selects conformal projections (angle-preserving); thematic mapping selects equal-area—determines which variants persist and propagate, while fitness is measured by minimization of the distortion metric relevant to the map's intended use (angular error or area ratio). This process is bounded by no projection can preserve both area and angles simultaneously (Gauss's Theorema Egregium consequence), establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from map projection suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (projection equations stretch the indicatrix differently in area, shape, and direction at each point) maps onto the generative processes in category theory, while the selection pressure (navigational use selects conformal projections (angle-preserving); thematic mapping selects equal-area) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in map projection, but expressed through domain-specific substrates and timescales. The boundary conditions (no projection can preserve both area and angles simultaneously (Gauss's Theorema Egregium consequence)) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using map projection structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=100 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.61,
+    "tags": [
+      "tradeoff",
+      "constraint",
+      "map",
+      "topology",
+      "category"
+    ]
+  },
+  {
+    "name": "Advaita Vedānta Swarm Intelligence Schema",
+    "mechanism_source": "theology",
+    "target_domain": "swarm intelligence",
+    "mechanism": "Advaita Vedānta in theology operates through the interaction of appearance (māyā) as the fundamental unit of analysis. Variation arises through superimpositions on Brahman, creating a diverse population of candidates that face differential pressures. The selection mechanism—discriminating knowledge (viveka)—determines which variants persist and propagate, while fitness is measured by recognition of non-duality. This process is bounded by linguistic and conceptual scaffolding, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swarm intelligence, the mechanism from theology suggests that the core units of swarm intelligence undergo an analogous evolutionary process. The variation mechanism (superimpositions on Brahman) maps onto the generative processes in swarm intelligence, while the selection pressure (discriminating knowledge (viveka)) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swarm intelligence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in theology, but expressed through domain-specific substrates and timescales. The boundary conditions (linguistic and conceptual scaffolding) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swarm intelligence designed using theology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "belief",
+      "swarm",
+      "synthesis",
+      "negation",
+      "theology"
+    ]
+  },
+  {
+    "name": "Branch Position Training via Wiring Ecology Protocol",
+    "mechanism_source": "bonsai cultivation",
+    "target_domain": "ecology",
+    "mechanism": "Branch Position Training via Wiring in bonsai cultivation operates through the interaction of branch segment under wire constraint as the fundamental unit of analysis. Variation arises through wire gauge, wrapping angle, and application timing interact with branch lignification rate and growth direction, creating a diverse population of candidates that face differential pressures. The selection mechanism—branches wired during active growth set into position as wood lignifies; those wired too late or too loosely spring back—determines which variants persist and propagate, while fitness is measured by permanent angular placement matching the target design silhouette. This process is bounded by branch diameter-to-wire gauge ratio, lignification speed, wire-scar risk window, seasonal growth phase, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to ecology, the mechanism from bonsai cultivation suggests that the core units of ecology undergo an analogous evolutionary process. The variation mechanism (wire gauge, wrapping angle, and application timing interact with branch lignification rate and growth direction) maps onto the generative processes in ecology, while the selection pressure (branches wired during active growth set into position as wood lignifies; those wired too late or too loosely spring back) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that ecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in bonsai cultivation, but expressed through domain-specific substrates and timescales. The boundary conditions (branch diameter-to-wire gauge ratio, lignification speed, wire-scar risk window, seasonal growth phase) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in ecology designed using bonsai cultivation structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=40 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.77,
+    "tags": [
+      "ecology",
+      "constraint",
+      "bonsai",
+      "timing",
+      "plasticity"
+    ]
+  }
+]

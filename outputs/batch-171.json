@@ -1,0 +1,256 @@
+[
+  {
+    "name": "PageRank Astrobiology Strategy",
+    "mechanism_source": "information retrieval",
+    "target_domain": "astrobiology",
+    "mechanism": "PageRank in information retrieval operates through the interaction of web page as the fundamental unit of analysis. Variation arises through incoming link distribution, creating a diverse population of candidates that face differential pressures. The selection mechanism—stationary distribution of random surfer—determines which variants persist and propagate, while fitness is measured by rank score. This process is bounded by directed graph, damping factor, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from information retrieval suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (incoming link distribution) maps onto the generative processes in astrobiology, while the selection pressure (stationary distribution of random surfer) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in information retrieval, but expressed through domain-specific substrates and timescales. The boundary conditions (directed graph, damping factor) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using information retrieval structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=100 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "feedback",
+      "routing",
+      "astrobiology",
+      "information",
+      "network"
+    ]
+  },
+  {
+    "name": "Brouwer Fixed-Point Theorem Ecology Principle",
+    "mechanism_source": "topology",
+    "target_domain": "ecology",
+    "mechanism": "Brouwer Fixed-Point Theorem in topology operates through the interaction of continuous map on a compact convex set as the fundamental unit of analysis. Variation arises through candidate continuous functions from disk to itself, creating a diverse population of candidates that face differential pressures. The selection mechanism—topological argument (no retraction) guarantees at least one fixed point—determines which variants persist and propagate, while fitness is measured by existence of fixed point x such that f(x) = x. This process is bounded by compact convex domain in R^n, continuity required, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to ecology, the mechanism from topology suggests that the core units of ecology undergo an analogous evolutionary process. The variation mechanism (candidate continuous functions from disk to itself) maps onto the generative processes in ecology, while the selection pressure (topological argument (no retraction) guarantees at least one fixed point) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that ecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in topology, but expressed through domain-specific substrates and timescales. The boundary conditions (compact convex domain in R^n, continuity required) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in ecology designed using topology structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.81,
+    "tags": [
+      "topology",
+      "ecology",
+      "limit",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Eusociality and Hamilton's Rule Fermentation Science Architecture",
+    "mechanism_source": "entomology",
+    "target_domain": "fermentation science",
+    "mechanism": "Eusociality and Hamilton's Rule (Kin Selection) in entomology operates through the interaction of altruistic act as the fundamental unit of analysis. Variation arises through coefficient of relatedness r, benefit b, cost c, creating a diverse population of candidates that face differential pressures. The selection mechanism—altruism spreads when rb > c (inclusive fitness benefit exceeds cost)—determines which variants persist and propagate, while fitness is measured by inclusive fitness. This process is bounded by haplodiploidy or repeated interactions in nest, r measurable, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to fermentation science, the mechanism from entomology suggests that the core units of fermentation science undergo an analogous evolutionary process. The variation mechanism (coefficient of relatedness r, benefit b, cost c) maps onto the generative processes in fermentation science, while the selection pressure (altruism spreads when rb > c (inclusive fitness benefit exceeds cost)) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that fermentation science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in entomology, but expressed through domain-specific substrates and timescales. The boundary conditions (haplodiploidy or repeated interactions in nest, r measurable) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in fermentation science designed using entomology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "fermentation",
+      "scarcity",
+      "entomology",
+      "selection",
+      "network"
+    ]
+  },
+  {
+    "name": "Climate Feedback Loops Typesetting Framework",
+    "mechanism_source": "climatology",
+    "target_domain": "typesetting",
+    "mechanism": "Climate Feedback Loops in climatology operates through the interaction of climate variable as the fundamental unit of analysis. Variation arises through perturbation in forcing, creating a diverse population of candidates that face differential pressures. The selection mechanism—amplifying or damping response—determines which variants persist and propagate, while fitness is measured by equilibrium sensitivity. This process is bounded by radiative budget, ocean inertia, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to typesetting, the mechanism from climatology suggests that the core units of typesetting undergo an analogous evolutionary process. The variation mechanism (perturbation in forcing) maps onto the generative processes in typesetting, while the selection pressure (amplifying or damping response) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that typesetting systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in climatology, but expressed through domain-specific substrates and timescales. The boundary conditions (radiative budget, ocean inertia) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in typesetting designed using climatology structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=60 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "feedback",
+      "typesetting",
+      "climatology",
+      "amplification",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Mycorrhizal Succession Filter Marine Biology Principle",
+    "mechanism_source": "mycorrhizal ecology",
+    "target_domain": "marine biology",
+    "mechanism": "Mycorrhizal Succession Filter in mycorrhizal ecology operates through the interaction of mycorrhizal fungal species in a plant community as the fundamental unit of analysis. Variation arises through early-successional ruderals vs. late-successional stress-tolerant fungi colonize roots at different stages, creating a diverse population of candidates that face differential pressures. The selection mechanism—host plant community composition shifts, favoring fungi matched to dominant plant strategies—determines which variants persist and propagate, while fitness is measured by persistence and sporulation rate across successional stages. This process is bounded by disturbance frequency, soil organic matter accumulation, host specificity constraints, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to marine biology, the mechanism from mycorrhizal ecology suggests that the core units of marine biology undergo an analogous evolutionary process. The variation mechanism (early-successional ruderals vs. late-successional stress-tolerant fungi colonize roots at different stages) maps onto the generative processes in marine biology, while the selection pressure (host plant community composition shifts, favoring fungi matched to dominant plant strategies) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that marine biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mycorrhizal ecology, but expressed through domain-specific substrates and timescales. The boundary conditions (disturbance frequency, soil organic matter accumulation, host specificity constraints) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in marine biology designed using mycorrhizal ecology structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "mycorrhizal",
+      "selection-pressure",
+      "adaptation",
+      "hierarchy",
+      "marine"
+    ]
+  },
+  {
+    "name": "Expected Utility Theory Epidemiology Method",
+    "mechanism_source": "decision theory",
+    "target_domain": "epidemiology",
+    "mechanism": "Expected Utility Theory in decision theory operates through the interaction of risky prospect as the fundamental unit of analysis. Variation arises through probability-outcome pairs, creating a diverse population of candidates that face differential pressures. The selection mechanism—rational agent maximizes probability-weighted utility sum—determines which variants persist and propagate, while fitness is measured by expected utility value. This process is bounded by von Neumann-Morgenstern axioms, known probabilities, stable preferences, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to epidemiology, the mechanism from decision theory suggests that the core units of epidemiology undergo an analogous evolutionary process. The variation mechanism (probability-outcome pairs) maps onto the generative processes in epidemiology, while the selection pressure (rational agent maximizes probability-weighted utility sum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that epidemiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (von Neumann-Morgenstern axioms, known probabilities, stable preferences) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in epidemiology designed using decision theory structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=60 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "agents",
+      "epidemiology",
+      "optimization",
+      "decision",
+      "statistics"
+    ]
+  },
+  {
+    "name": "Denoising Diffusion Models Fermentation Calculus",
+    "mechanism_source": "machine learning",
+    "target_domain": "fermentation",
+    "mechanism": "Denoising Diffusion Models in machine learning operates through the interaction of latent sample as the fundamental unit of analysis. Variation arises through added Gaussian noise per step, creating a diverse population of candidates that face differential pressures. The selection mechanism—learn reverse denoising—determines which variants persist and propagate, while fitness is measured by data log-likelihood. This process is bounded by noise schedule, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to fermentation, the mechanism from machine learning suggests that the core units of fermentation undergo an analogous evolutionary process. The variation mechanism (added Gaussian noise per step) maps onto the generative processes in fermentation, while the selection pressure (learn reverse denoising) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that fermentation systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in machine learning, but expressed through domain-specific substrates and timescales. The boundary conditions (noise schedule) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in fermentation designed using machine learning structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "update",
+      "fermentation",
+      "optimization",
+      "machine",
+      "noise"
+    ]
+  },
+  {
+    "name": "Mycelial Resource Routing Ethics Architecture",
+    "mechanism_source": "mycology",
+    "target_domain": "ethics",
+    "mechanism": "Mycelial Resource Routing in mycology operates through the interaction of hyphal segment as the fundamental unit of analysis. Variation arises through branch growth, fusion, pruning, creating a diverse population of candidates that face differential pressures. The selection mechanism—nutrient gradient reinforcement—determines which variants persist and propagate, while fitness is measured by throughput of nutrients to host trees. This process is bounded by soil chemistry, host availability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to ethics, the mechanism from mycology suggests that the core units of ethics undergo an analogous evolutionary process. The variation mechanism (branch growth, fusion, pruning) maps onto the generative processes in ethics, while the selection pressure (nutrient gradient reinforcement) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that ethics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in mycology, but expressed through domain-specific substrates and timescales. The boundary conditions (soil chemistry, host availability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in ethics designed using mycology structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.61,
+    "tags": [
+      "feedback",
+      "ethics",
+      "mycology",
+      "self-organization",
+      "network"
+    ]
+  },
+  {
+    "name": "Clonal Selection Speleology Theory",
+    "mechanism_source": "immunology",
+    "target_domain": "speleology",
+    "mechanism": "Clonal Selection (Immunology) in immunology operates through the interaction of lymphocyte clone as the fundamental unit of analysis. Variation arises through somatic hypermutation, creating a diverse population of candidates that face differential pressures. The selection mechanism—antigen binding affinity—determines which variants persist and propagate, while fitness is measured by clone proliferation. This process is bounded by self/non-self discrimination, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to speleology, the mechanism from immunology suggests that the core units of speleology undergo an analogous evolutionary process. The variation mechanism (somatic hypermutation) maps onto the generative processes in speleology, while the selection pressure (antigen binding affinity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that speleology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in immunology, but expressed through domain-specific substrates and timescales. The boundary conditions (self/non-self discrimination) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in speleology designed using immunology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.72,
+    "tags": [
+      "replication",
+      "immunology",
+      "speleology",
+      "variation",
+      "selection"
+    ]
+  },
+  {
+    "name": "Two-Process Model of Sleep Regulation Archaeology Synthesis",
+    "mechanism_source": "sleep science",
+    "target_domain": "archaeology",
+    "mechanism": "Two-Process Model of Sleep Regulation (Borbely) in sleep science operates through the interaction of sleep pressure / circadian phase as the fundamental unit of analysis. Variation arises through homeostatic sleep pressure (Process S) and circadian drive (Process C), creating a diverse population of candidates that face differential pressures. The selection mechanism—sleep onset when S exceeds upper threshold; wake when it falls below lower—determines which variants persist and propagate, while fitness is measured by sleep timing and duration optimized. This process is bounded by circadian period ~24h, ultradian oscillation of REM/NREM within sleep, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to archaeology, the mechanism from sleep science suggests that the core units of archaeology undergo an analogous evolutionary process. The variation mechanism (homeostatic sleep pressure (Process S) and circadian drive (Process C)) maps onto the generative processes in archaeology, while the selection pressure (sleep onset when S exceeds upper threshold; wake when it falls below lower) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that archaeology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sleep science, but expressed through domain-specific substrates and timescales. The boundary conditions (circadian period ~24h, ultradian oscillation of REM/NREM within sleep) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in archaeology designed using sleep science structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=100 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "threshold",
+      "archaeology",
+      "sleep"
+    ]
+  },
+  {
+    "name": "Red Queen Hypothesis Bamboo Construction Strategy",
+    "mechanism_source": "parasitology",
+    "target_domain": "bamboo construction",
+    "mechanism": "Red Queen Hypothesis in parasitology operates through the interaction of host-parasite genotype pair as the fundamental unit of analysis. Variation arises through host and parasite genotype frequencies, creating a diverse population of candidates that face differential pressures. The selection mechanism—co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones—determines which variants persist and propagate, while fitness is measured by infection resistance (host) / infectivity (parasite). This process is bounded by sexually reproducing host, obligate parasite, overlapping generations, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to bamboo construction, the mechanism from parasitology suggests that the core units of bamboo construction undergo an analogous evolutionary process. The variation mechanism (host and parasite genotype frequencies) maps onto the generative processes in bamboo construction, while the selection pressure (co-evolutionary arms race: rare host genotypes favored, parasite tracks common ones) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that bamboo construction systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in parasitology, but expressed through domain-specific substrates and timescales. The boundary conditions (sexually reproducing host, obligate parasite, overlapping generations) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in bamboo construction designed using parasitology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=200 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "oscillation",
+      "bamboo",
+      "parasitology",
+      "co-evolution",
+      "selection"
+    ]
+  },
+  {
+    "name": "Swarm Trigger Threshold Dynamics Astrobiology Topology",
+    "mechanism_source": "beekeeping / apiculture",
+    "target_domain": "astrobiology",
+    "mechanism": "Swarm Trigger Threshold Dynamics in beekeeping / apiculture operates through the interaction of colony as a superorganism decision unit as the fundamental unit of analysis. Variation arises through queen pheromone dilution, brood congestion, nectar-flow intensity, creating a diverse population of candidates that face differential pressures. The selection mechanism—colonies exceeding congestion and pheromone-dilution thresholds initiate swarming—determines which variants persist and propagate, while fitness is measured by reproductive success of the parent colony and the daughter swarm. This process is bounded by hive volume, queen age, seasonal nectar window, beekeeper intervention, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from beekeeping / apiculture suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (queen pheromone dilution, brood congestion, nectar-flow intensity) maps onto the generative processes in astrobiology, while the selection pressure (colonies exceeding congestion and pheromone-dilution thresholds initiate swarming) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beekeeping / apiculture, but expressed through domain-specific substrates and timescales. The boundary conditions (hive volume, queen age, seasonal nectar window, beekeeper intervention) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using beekeeping / apiculture structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=60 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "beekeeping",
+      "threshold",
+      "growth",
+      "astrobiology",
+      "feedback-loop"
+    ]
+  },
+  {
+    "name": "Propolis Envelope Sealing Strategy Astrobiology Logic",
+    "mechanism_source": "beehive architecture",
+    "target_domain": "astrobiology",
+    "mechanism": "Propolis Envelope Sealing Strategy in beehive architecture operates through the interaction of propolis deposit at a gap or crack in the hive as the fundamental unit of analysis. Variation arises through resin source plant species, application thickness, coverage extent, creating a diverse population of candidates that face differential pressures. The selection mechanism—colonies with thorough propolis envelopes show lower pathogen loads and higher overwinter survival—determines which variants persist and propagate, while fitness is measured by inverse colony pathogen load times overwinter survival rate. This process is bounded by resin availability in foraging range, wax-propolis energy trade-off, hive entrance size, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to astrobiology, the mechanism from beehive architecture suggests that the core units of astrobiology undergo an analogous evolutionary process. The variation mechanism (resin source plant species, application thickness, coverage extent) maps onto the generative processes in astrobiology, while the selection pressure (colonies with thorough propolis envelopes show lower pathogen loads and higher overwinter survival) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that astrobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beehive architecture, but expressed through domain-specific substrates and timescales. The boundary conditions (resin availability in foraging range, wax-propolis energy trade-off, hive entrance size) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in astrobiology designed using beehive architecture structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=150 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "sealing",
+      "astrobiology",
+      "self-organization",
+      "immunity",
+      "beehive"
+    ]
+  },
+  {
+    "name": "Urban Scaling Laws Ecology Grammar",
+    "mechanism_source": "city science",
+    "target_domain": "ecology",
+    "mechanism": "Urban Scaling Laws in city science operates through the interaction of city as the fundamental unit of analysis. Variation arises through population size, creating a diverse population of candidates that face differential pressures. The selection mechanism—superlinear scaling of innovation, sublinear of infrastructure—determines which variants persist and propagate, while fitness is measured by per-capita output or resource use. This process is bounded by metropolitan boundary definition, data resolution, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to ecology, the mechanism from city science suggests that the core units of ecology undergo an analogous evolutionary process. The variation mechanism (population size) maps onto the generative processes in ecology, while the selection pressure (superlinear scaling of innovation, sublinear of infrastructure) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that ecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in city science, but expressed through domain-specific substrates and timescales. The boundary conditions (metropolitan boundary definition, data resolution) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in ecology designed using city science structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.7,
+    "tags": [
+      "ecology",
+      "emergence",
+      "statistics",
+      "amplification",
+      "city"
+    ]
+  },
+  {
+    "name": "Dispute Resolution Phase Developmental Psychology Algebra",
+    "mechanism_source": "jurisprudence",
+    "target_domain": "developmental psychology",
+    "mechanism": "Dispute Resolution Phase Transition Theory in jurisprudence operates through the interaction of legal dispute as the fundamental unit of analysis. Variation arises through escalation pathways from negotiation to mediation to arbitration to litigation, creating a diverse population of candidates that face differential pressures. The selection mechanism—cost-benefit calculus at each phase boundary determines whether disputes escalate or settle—determines which variants persist and propagate, while fitness is measured by minimized total resolution cost weighted by outcome satisfaction. This process is bounded by breaks down when power asymmetries or emotional stakes make rational cost-benefit analysis inapplicable, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to developmental psychology, the mechanism from jurisprudence suggests that the core units of developmental psychology undergo an analogous evolutionary process. The variation mechanism (escalation pathways from negotiation to mediation to arbitration to litigation) maps onto the generative processes in developmental psychology, while the selection pressure (cost-benefit calculus at each phase boundary determines whether disputes escalate or settle) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that developmental psychology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in jurisprudence, but expressed through domain-specific substrates and timescales. The boundary conditions (breaks down when power asymmetries or emotional stakes make rational cost-benefit analysis inapplicable) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in developmental psychology designed using jurisprudence structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "threshold",
+      "jurisprudence",
+      "flow",
+      "developmental",
+      "phase-transition"
+    ]
+  }
+]

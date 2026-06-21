@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Pressure Modulation Curve Semiotics Principle",
+    "mechanism_source": "calligraphy",
+    "target_domain": "semiotics",
+    "mechanism": "Pressure Modulation Curve in calligraphy operates through the interaction of nib-to-surface contact patch as the fundamental unit of analysis. Variation arises through downforce profile across a single letterform, creating a diverse population of candidates that face differential pressures. The selection mechanism—letterforms with smooth thick-thin transitions are preserved and taught—determines which variants persist and propagate, while fitness is measured by ratio of intended to actual line-weight variation. This process is bounded by nib flexibility, writing surface friction, wrist pivot range, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to semiotics, the mechanism from calligraphy suggests that the core units of semiotics undergo an analogous evolutionary process. The variation mechanism (downforce profile across a single letterform) maps onto the generative processes in semiotics, while the selection pressure (letterforms with smooth thick-thin transitions are preserved and taught) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that semiotics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in calligraphy, but expressed through domain-specific substrates and timescales. The boundary conditions (nib flexibility, writing surface friction, wrist pivot range) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in semiotics designed using calligraphy structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.67,
+    "tags": [
+      "feedback",
+      "semiotics",
+      "modulation",
+      "pressure",
+      "calligraphy"
+    ]
+  },
+  {
+    "name": "Quasispecies Theory Control Theory Strategy",
+    "mechanism_source": "virology",
+    "target_domain": "control theory",
+    "mechanism": "Quasispecies Theory (Eigen) in virology operates through the interaction of RNA sequence variant as the fundamental unit of analysis. Variation arises through high mutation rate during replication, creating a diverse population of candidates that face differential pressures. The selection mechanism—selection acts on mutant cloud distribution, not single sequence—determines which variants persist and propagate, while fitness is measured by mean fitness of quasispecies ensemble. This process is bounded by error threshold: mutation rate must stay below inverse of genome length, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to control theory, the mechanism from virology suggests that the core units of control theory undergo an analogous evolutionary process. The variation mechanism (high mutation rate during replication) maps onto the generative processes in control theory, while the selection pressure (selection acts on mutant cloud distribution, not single sequence) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that control theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in virology, but expressed through domain-specific substrates and timescales. The boundary conditions (error threshold: mutation rate must stay below inverse of genome length) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in control theory designed using virology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "variation",
+      "control",
+      "ensemble",
+      "selection",
+      "virology"
+    ]
+  },
+  {
+    "name": "Threshold Models of Social Contagion Beekeeping / Apiculture Topology",
+    "mechanism_source": "sociology",
+    "target_domain": "beekeeping / apiculture",
+    "mechanism": "Threshold Models of Social Contagion in sociology operates through the interaction of individual as the fundamental unit of analysis. Variation arises through neighbor adoption count, creating a diverse population of candidates that face differential pressures. The selection mechanism—adopt if threshold exceeded—determines which variants persist and propagate, while fitness is measured by adoption rate. This process is bounded by social network topology, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to beekeeping / apiculture, the mechanism from sociology suggests that the core units of beekeeping / apiculture undergo an analogous evolutionary process. The variation mechanism (neighbor adoption count) maps onto the generative processes in beekeeping / apiculture, while the selection pressure (adopt if threshold exceeded) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that beekeeping / apiculture systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sociology, but expressed through domain-specific substrates and timescales. The boundary conditions (social network topology) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in beekeeping / apiculture designed using sociology structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=100 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.67,
+    "tags": [
+      "beekeeping",
+      "threshold",
+      "sociology",
+      "transmission",
+      "network"
+    ]
+  },
+  {
+    "name": "Cybernetic Feedback Tightrope Walking / Funambulism Topology",
+    "mechanism_source": "cybernetics",
+    "target_domain": "tightrope walking / funambulism",
+    "mechanism": "Cybernetic Feedback in cybernetics operates through the interaction of controller + plant as the fundamental unit of analysis. Variation arises through control signal, creating a diverse population of candidates that face differential pressures. The selection mechanism—reduce error from setpoint—determines which variants persist and propagate, while fitness is measured by tracking error. This process is bounded by observability, controllability, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to tightrope walking / funambulism, the mechanism from cybernetics suggests that the core units of tightrope walking / funambulism undergo an analogous evolutionary process. The variation mechanism (control signal) maps onto the generative processes in tightrope walking / funambulism, while the selection pressure (reduce error from setpoint) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that tightrope walking / funambulism systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cybernetics, but expressed through domain-specific substrates and timescales. The boundary conditions (observability, controllability) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in tightrope walking / funambulism designed using cybernetics structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "feedback",
+      "update",
+      "cybernetics",
+      "optimization",
+      "tightrope"
+    ]
+  },
+  {
+    "name": "Back-Slopping Inoculum Drift Swarm Intelligence Strategy",
+    "mechanism_source": "fermentation science",
+    "target_domain": "swarm intelligence",
+    "mechanism": "Back-Slopping Inoculum Drift in fermentation science operates through the interaction of microbial strain frequency in a serially transferred starter culture as the fundamental unit of analysis. Variation arises through transfer volume, timing of transfer relative to fermentation phase, environmental fluctuations, creating a diverse population of candidates that face differential pressures. The selection mechanism—strains with fastest recovery from lag phase at transfer conditions increase in frequency across generations—determines which variants persist and propagate, while fitness is measured by culture stability — consistent acidification rate and flavor profile across serial batches. This process is bounded by genetic drift at small transfer volumes, phage predation, contamination events, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to swarm intelligence, the mechanism from fermentation science suggests that the core units of swarm intelligence undergo an analogous evolutionary process. The variation mechanism (transfer volume, timing of transfer relative to fermentation phase, environmental fluctuations) maps onto the generative processes in swarm intelligence, while the selection pressure (strains with fastest recovery from lag phase at transfer conditions increase in frequency across generations) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that swarm intelligence systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in fermentation science, but expressed through domain-specific substrates and timescales. The boundary conditions (genetic drift at small transfer volumes, phage predation, contamination events) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in swarm intelligence designed using fermentation science structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=60 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "replication",
+      "fermentation",
+      "swarm",
+      "stochastic",
+      "selection"
+    ]
+  },
+  {
+    "name": "Plant Hormonal Signaling Mycorrhizal Ecology Model",
+    "mechanism_source": "botany",
+    "target_domain": "mycorrhizal ecology",
+    "mechanism": "Plant Hormonal Signaling (Auxin) in botany operates through the interaction of plant cell in meristem as the fundamental unit of analysis. Variation arises through auxin concentration gradient across tissues, creating a diverse population of candidates that face differential pressures. The selection mechanism—high auxin promotes cell elongation; polar transport creates directionality—determines which variants persist and propagate, while fitness is measured by phototropic and gravitropic growth response. This process is bounded by concentration range, receptor saturation, competing hormones, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to mycorrhizal ecology, the mechanism from botany suggests that the core units of mycorrhizal ecology undergo an analogous evolutionary process. The variation mechanism (auxin concentration gradient across tissues) maps onto the generative processes in mycorrhizal ecology, while the selection pressure (high auxin promotes cell elongation; polar transport creates directionality) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that mycorrhizal ecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in botany, but expressed through domain-specific substrates and timescales. The boundary conditions (concentration range, receptor saturation, competing hormones) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in mycorrhizal ecology designed using botany structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "mycorrhizal",
+      "feedback",
+      "gradient",
+      "botany",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Protein Folding Forensic Science Logic",
+    "mechanism_source": "biochemistry",
+    "target_domain": "forensic science",
+    "mechanism": "Protein Folding in biochemistry operates through the interaction of amino acid chain as the fundamental unit of analysis. Variation arises through conformational ensemble, creating a diverse population of candidates that face differential pressures. The selection mechanism—free energy minimum—determines which variants persist and propagate, while fitness is measured by native state stability. This process is bounded by solvent, temperature, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to forensic science, the mechanism from biochemistry suggests that the core units of forensic science undergo an analogous evolutionary process. The variation mechanism (conformational ensemble) maps onto the generative processes in forensic science, while the selection pressure (free energy minimum) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that forensic science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in biochemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (solvent, temperature) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in forensic science designed using biochemistry structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=80 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "tags": [
+      "forensic",
+      "optimization",
+      "ensemble",
+      "biochemistry",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Ethanol Tolerance Threshold Entomology Synthesis",
+    "mechanism_source": "fermentation science",
+    "target_domain": "entomology",
+    "mechanism": "Ethanol Tolerance Threshold in fermentation science operates through the interaction of yeast cell membrane integrity under ethanol stress as the fundamental unit of analysis. Variation arises through membrane lipid composition varies across cells and generations, creating a diverse population of candidates that face differential pressures. The selection mechanism—ethanol accumulation kills cells with less robust membranes—determines which variants persist and propagate, while fitness is measured by ethanol tolerance maximized (fermentation completion rate). This process is bounded by absolute ethanol toxicity limit ~18% v/v; heat synergizes lethality, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to entomology, the mechanism from fermentation science suggests that the core units of entomology undergo an analogous evolutionary process. The variation mechanism (membrane lipid composition varies across cells and generations) maps onto the generative processes in entomology, while the selection pressure (ethanol accumulation kills cells with less robust membranes) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that entomology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in fermentation science, but expressed through domain-specific substrates and timescales. The boundary conditions (absolute ethanol toxicity limit ~18% v/v; heat synergizes lethality) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in entomology designed using fermentation science structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.72,
+    "tags": [
+      "threshold",
+      "fermentation",
+      "entomology",
+      "selection",
+      "decay"
+    ]
+  },
+  {
+    "name": "Attention Pharmacology Grammar",
+    "mechanism_source": "machine learning",
+    "target_domain": "pharmacology",
+    "mechanism": "Attention (Transformers) in machine learning operates through the interaction of token as the fundamental unit of analysis. Variation arises through query / key / value projections, creating a diverse population of candidates that face differential pressures. The selection mechanism—softmax over similarity—determines which variants persist and propagate, while fitness is measured by context-mixed representation. This process is bounded by sequence length, head count, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to pharmacology, the mechanism from machine learning suggests that the core units of pharmacology undergo an analogous evolutionary process. The variation mechanism (query / key / value projections) maps onto the generative processes in pharmacology, while the selection pressure (softmax over similarity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that pharmacology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in machine learning, but expressed through domain-specific substrates and timescales. The boundary conditions (sequence length, head count) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in pharmacology designed using machine learning structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=80 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.77,
+    "tags": [
+      "pharmacology",
+      "routing",
+      "machine",
+      "selection",
+      "network"
+    ]
+  },
+  {
+    "name": "Plant Hormonal Signaling Geology Schema",
+    "mechanism_source": "botany",
+    "target_domain": "geology",
+    "mechanism": "Plant Hormonal Signaling (Auxin) in botany operates through the interaction of plant cell in meristem as the fundamental unit of analysis. Variation arises through auxin concentration gradient across tissues, creating a diverse population of candidates that face differential pressures. The selection mechanism—high auxin promotes cell elongation; polar transport creates directionality—determines which variants persist and propagate, while fitness is measured by phototropic and gravitropic growth response. This process is bounded by concentration range, receptor saturation, competing hormones, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to geology, the mechanism from botany suggests that the core units of geology undergo an analogous evolutionary process. The variation mechanism (auxin concentration gradient across tissues) maps onto the generative processes in geology, while the selection pressure (high auxin promotes cell elongation; polar transport creates directionality) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that geology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in botany, but expressed through domain-specific substrates and timescales. The boundary conditions (concentration range, receptor saturation, competing hormones) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in geology designed using botany structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=150 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "geology",
+      "feedback",
+      "gradient",
+      "botany",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Attention Persuasion Theory Architecture",
+    "mechanism_source": "machine learning",
+    "target_domain": "persuasion theory",
+    "mechanism": "Attention (Transformers) in machine learning operates through the interaction of token as the fundamental unit of analysis. Variation arises through query / key / value projections, creating a diverse population of candidates that face differential pressures. The selection mechanism—softmax over similarity—determines which variants persist and propagate, while fitness is measured by context-mixed representation. This process is bounded by sequence length, head count, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to persuasion theory, the mechanism from machine learning suggests that the core units of persuasion theory undergo an analogous evolutionary process. The variation mechanism (query / key / value projections) maps onto the generative processes in persuasion theory, while the selection pressure (softmax over similarity) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that persuasion theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in machine learning, but expressed through domain-specific substrates and timescales. The boundary conditions (sequence length, head count) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in persuasion theory designed using machine learning structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=200 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.58,
+    "tags": [
+      "routing",
+      "persuasion",
+      "machine",
+      "selection",
+      "network"
+    ]
+  },
+  {
+    "name": "Waggle Dance Information Encoding Cheese Cave Aging Principle",
+    "mechanism_source": "beekeeping / apiculture",
+    "target_domain": "cheese cave aging",
+    "mechanism": "Waggle Dance Information Encoding in beekeeping / apiculture operates through the interaction of waggle run performed by a forager bee as the fundamental unit of analysis. Variation arises through duration and angle of waggle run encode distance and direction to forage, creating a diverse population of candidates that face differential pressures. The selection mechanism—dances advertising richer patches recruit more followers; poor-source dances ignored—determines which variants persist and propagate, while fitness is measured by colony-level foraging efficiency (net energy gain per unit time). This process is bounded by dance-floor congestion, signal noise from hive vibrations, sun-compass drift, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to cheese cave aging, the mechanism from beekeeping / apiculture suggests that the core units of cheese cave aging undergo an analogous evolutionary process. The variation mechanism (duration and angle of waggle run encode distance and direction to forage) maps onto the generative processes in cheese cave aging, while the selection pressure (dances advertising richer patches recruit more followers; poor-source dances ignored) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that cheese cave aging systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beekeeping / apiculture, but expressed through domain-specific substrates and timescales. The boundary conditions (dance-floor congestion, signal noise from hive vibrations, sun-compass drift) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in cheese cave aging designed using beekeeping / apiculture structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=60 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "beekeeping",
+      "cheese",
+      "competition",
+      "feedback-loop",
+      "signal"
+    ]
+  },
+  {
+    "name": "Bragg Diffraction Oceanography Dynamics",
+    "mechanism_source": "crystallography",
+    "target_domain": "oceanography",
+    "mechanism": "Bragg Diffraction in crystallography operates through the interaction of X-ray photon + lattice plane as the fundamental unit of analysis. Variation arises through angle of incidence on periodic planes, creating a diverse population of candidates that face differential pressures. The selection mechanism—constructive interference at integer-wavelength path difference—determines which variants persist and propagate, while fitness is measured by diffraction peak intensity. This process is bounded by crystal symmetry, wavelength, lattice spacing, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to oceanography, the mechanism from crystallography suggests that the core units of oceanography undergo an analogous evolutionary process. The variation mechanism (angle of incidence on periodic planes) maps onto the generative processes in oceanography, while the selection pressure (constructive interference at integer-wavelength path difference) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that oceanography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in crystallography, but expressed through domain-specific substrates and timescales. The boundary conditions (crystal symmetry, wavelength, lattice spacing) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in oceanography designed using crystallography structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.62,
+    "tags": [
+      "oceanography",
+      "boundary",
+      "crystallography",
+      "encoding",
+      "selection"
+    ]
+  },
+  {
+    "name": "Prototype Theory Speleology Grammar",
+    "mechanism_source": "cognitive science",
+    "target_domain": "speleology",
+    "mechanism": "Prototype Theory (Rosch) in cognitive science operates through the interaction of concept category as the fundamental unit of analysis. Variation arises through graded membership by similarity to prototype, creating a diverse population of candidates that face differential pressures. The selection mechanism—most typical member anchors the category—determines which variants persist and propagate, while fitness is measured by category judgment speed and accuracy. This process is bounded by natural categories, fuzzy boundaries, cultural variation, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to speleology, the mechanism from cognitive science suggests that the core units of speleology undergo an analogous evolutionary process. The variation mechanism (graded membership by similarity to prototype) maps onto the generative processes in speleology, while the selection pressure (most typical member anchors the category) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that speleology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cognitive science, but expressed through domain-specific substrates and timescales. The boundary conditions (natural categories, fuzzy boundaries, cultural variation) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in speleology designed using cognitive science structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=80 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "cognitive",
+      "speleology",
+      "emergence",
+      "encoding",
+      "selection"
+    ]
+  },
+  {
+    "name": "Induced Demand Entomology Strategy",
+    "mechanism_source": "urban planning",
+    "target_domain": "entomology",
+    "mechanism": "Induced Demand (Braess Paradox) in urban planning operates through the interaction of road segment / commuter as the fundamental unit of analysis. Variation arises through added road capacity, creating a diverse population of candidates that face differential pressures. The selection mechanism—additional capacity attracts latent demand, restoring congestion—determines which variants persist and propagate, while fitness is measured by total travel time across network. This process is bounded by equilibrium routing, elastic demand, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to entomology, the mechanism from urban planning suggests that the core units of entomology undergo an analogous evolutionary process. The variation mechanism (added road capacity) maps onto the generative processes in entomology, while the selection pressure (additional capacity attracts latent demand, restoring congestion) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that entomology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in urban planning, but expressed through domain-specific substrates and timescales. The boundary conditions (equilibrium routing, elastic demand) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in entomology designed using urban planning structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=120 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.76,
+    "tags": [
+      "feedback",
+      "urban",
+      "routing",
+      "entomology",
+      "network"
+    ]
+  }
+]

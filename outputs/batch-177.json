@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Harris Matrix Moral Philosophy Topology",
+    "mechanism_source": "archaeology",
+    "target_domain": "moral philosophy",
+    "mechanism": "Harris Matrix (Archaeological Stratigraphy) in archaeology operates through the interaction of stratigraphic unit (context) as the fundamental unit of analysis. Variation arises through depositional, interfacial, and structural contexts, creating a diverse population of candidates that face differential pressures. The selection mechanism—physical superposition and cutting relations order contexts—determines which variants persist and propagate, while fitness is measured by internally consistent site chronology. This process is bounded by single excavation, intact stratification, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to moral philosophy, the mechanism from archaeology suggests that the core units of moral philosophy undergo an analogous evolutionary process. The variation mechanism (depositional, interfacial, and structural contexts) maps onto the generative processes in moral philosophy, while the selection pressure (physical superposition and cutting relations order contexts) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that moral philosophy systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in archaeology, but expressed through domain-specific substrates and timescales. The boundary conditions (single excavation, intact stratification) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in moral philosophy designed using archaeology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=100 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.8,
+    "tags": [
+      "archaeology",
+      "long-horizon",
+      "encoding",
+      "network",
+      "moral"
+    ]
+  },
+  {
+    "name": "Panspermia Hypothesis Phonology Theory",
+    "mechanism_source": "astrobiology",
+    "target_domain": "phonology",
+    "mechanism": "Panspermia Hypothesis in astrobiology operates through the interaction of viable organism on ejecta as the fundamental unit of analysis. Variation arises through survival through radiation, vacuum, reentry, creating a diverse population of candidates that face differential pressures. The selection mechanism—organisms that tolerate interplanetary transit seed new worlds—determines which variants persist and propagate, while fitness is measured by successful colonization of destination. This process is bounded by interplanetary transfer time, sterilization hazards, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to phonology, the mechanism from astrobiology suggests that the core units of phonology undergo an analogous evolutionary process. The variation mechanism (survival through radiation, vacuum, reentry) maps onto the generative processes in phonology, while the selection pressure (organisms that tolerate interplanetary transit seed new worlds) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that phonology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in astrobiology, but expressed through domain-specific substrates and timescales. The boundary conditions (interplanetary transfer time, sterilization hazards) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in phonology designed using astrobiology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "boundary",
+      "astrobiology",
+      "transmission",
+      "phonology",
+      "selection"
+    ]
+  },
+  {
+    "name": "Euler's Theorem Forensic Science Ecology",
+    "mechanism_source": "graph theory",
+    "target_domain": "forensic science",
+    "mechanism": "Euler's Theorem (Graph Theory) in graph theory operates through the interaction of graph edge traversal as the fundamental unit of analysis. Variation arises through vertex degree parity, creating a diverse population of candidates that face differential pressures. The selection mechanism—Eulerian circuit exists iff all vertices have even degree—determines which variants persist and propagate, while fitness is measured by existence of a single traversal covering all edges. This process is bounded by connected graph, undirected or directed variant, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to forensic science, the mechanism from graph theory suggests that the core units of forensic science undergo an analogous evolutionary process. The variation mechanism (vertex degree parity) maps onto the generative processes in forensic science, while the selection pressure (Eulerian circuit exists iff all vertices have even degree) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that forensic science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in graph theory, but expressed through domain-specific substrates and timescales. The boundary conditions (connected graph, undirected or directed variant) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in forensic science designed using graph theory structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=120 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "forensic",
+      "graph",
+      "topology",
+      "encoding",
+      "network"
+    ]
+  },
+  {
+    "name": "Minimax Regret Quantum Computing System",
+    "mechanism_source": "decision theory",
+    "target_domain": "quantum computing",
+    "mechanism": "Minimax Regret in decision theory operates through the interaction of decision under uncertainty as the fundamental unit of analysis. Variation arises through regret matrix across actions and states of the world, creating a diverse population of candidates that face differential pressures. The selection mechanism—choose action minimizing worst-case regret—determines which variants persist and propagate, while fitness is measured by maximum regret minimized. This process is bounded by finite action and state space, no probabilities assumed, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to quantum computing, the mechanism from decision theory suggests that the core units of quantum computing undergo an analogous evolutionary process. The variation mechanism (regret matrix across actions and states of the world) maps onto the generative processes in quantum computing, while the selection pressure (choose action minimizing worst-case regret) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that quantum computing systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (finite action and state space, no probabilities assumed) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in quantum computing designed using decision theory structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "agents",
+      "optimization",
+      "decision",
+      "uncertainty",
+      "quantum"
+    ]
+  },
+  {
+    "name": "HPA Axis Hormonal Feedback Loop Structural Engineering Model",
+    "mechanism_source": "endocrinology",
+    "target_domain": "structural engineering",
+    "mechanism": "HPA Axis Hormonal Feedback Loop in endocrinology operates through the interaction of hormone concentration (CRH, ACTH, cortisol) as the fundamental unit of analysis. Variation arises through stressor input and glucocorticoid receptor sensitivity, creating a diverse population of candidates that face differential pressures. The selection mechanism—cortisol negative feedback suppresses CRH and ACTH release—determines which variants persist and propagate, while fitness is measured by return to basal cortisol setpoint. This process is bounded by receptor downregulation under chronic stress, circadian rhythm, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to structural engineering, the mechanism from endocrinology suggests that the core units of structural engineering undergo an analogous evolutionary process. The variation mechanism (stressor input and glucocorticoid receptor sensitivity) maps onto the generative processes in structural engineering, while the selection pressure (cortisol negative feedback suppresses CRH and ACTH release) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that structural engineering systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in endocrinology, but expressed through domain-specific substrates and timescales. The boundary conditions (receptor downregulation under chronic stress, circadian rhythm) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in structural engineering designed using endocrinology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "structural",
+      "control",
+      "endocrinology"
+    ]
+  },
+  {
+    "name": "Capillary Bridge Failure Cascade Ecology Topology",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "ecology",
+    "mechanism": "Capillary Bridge Failure Cascade in sandcastle engineering operates through the interaction of liquid bridge between two adjacent sand grains as the fundamental unit of analysis. Variation arises through water content, grain size distribution, evaporation rate, wind exposure, creating a diverse population of candidates that face differential pressures. The selection mechanism—bridge networks that redistribute stress after individual bridge failure avoid catastrophic collapse—determines which variants persist and propagate, while fitness is measured by time to structural failure under drying conditions. This process is bounded by pendular-to-funicular regime transition, grain surface hydrophobicity, pore air pressure, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to ecology, the mechanism from sandcastle engineering suggests that the core units of ecology undergo an analogous evolutionary process. The variation mechanism (water content, grain size distribution, evaporation rate, wind exposure) maps onto the generative processes in ecology, while the selection pressure (bridge networks that redistribute stress after individual bridge failure avoid catastrophic collapse) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that ecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in sandcastle engineering, but expressed through domain-specific substrates and timescales. The boundary conditions (pendular-to-funicular regime transition, grain surface hydrophobicity, pore air pressure) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in ecology designed using sandcastle engineering structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=60 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "ecology",
+      "threshold",
+      "sandcastle",
+      "cascade",
+      "network"
+    ]
+  },
+  {
+    "name": "Peircean Semiotic Triad Falconry System",
+    "mechanism_source": "semiotics",
+    "target_domain": "falconry",
+    "mechanism": "Peircean Semiotic Triad in semiotics operates through the interaction of sign-object-interpretant triad as the fundamental unit of analysis. Variation arises through icon, index, symbol classes, creating a diverse population of candidates that face differential pressures. The selection mechanism—interpretant mediates sign-object relation through inference—determines which variants persist and propagate, while fitness is measured by semiotic adequacy (interpretive convergence). This process is bounded by unlimited semiosis, community of inquiry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to falconry, the mechanism from semiotics suggests that the core units of falconry undergo an analogous evolutionary process. The variation mechanism (icon, index, symbol classes) maps onto the generative processes in falconry, while the selection pressure (interpretant mediates sign-object relation through inference) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that falconry systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in semiotics, but expressed through domain-specific substrates and timescales. The boundary conditions (unlimited semiosis, community of inquiry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in falconry designed using semiotics structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=60 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.67,
+    "tags": [
+      "falconry",
+      "feedback",
+      "semiotics",
+      "encoding",
+      "causality"
+    ]
+  },
+  {
+    "name": "HPA Axis Hormonal Feedback Loop Choreography Synthesis",
+    "mechanism_source": "endocrinology",
+    "target_domain": "choreography",
+    "mechanism": "HPA Axis Hormonal Feedback Loop in endocrinology operates through the interaction of hormone concentration (CRH, ACTH, cortisol) as the fundamental unit of analysis. Variation arises through stressor input and glucocorticoid receptor sensitivity, creating a diverse population of candidates that face differential pressures. The selection mechanism—cortisol negative feedback suppresses CRH and ACTH release—determines which variants persist and propagate, while fitness is measured by return to basal cortisol setpoint. This process is bounded by receptor downregulation under chronic stress, circadian rhythm, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to choreography, the mechanism from endocrinology suggests that the core units of choreography undergo an analogous evolutionary process. The variation mechanism (stressor input and glucocorticoid receptor sensitivity) maps onto the generative processes in choreography, while the selection pressure (cortisol negative feedback suppresses CRH and ACTH release) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that choreography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in endocrinology, but expressed through domain-specific substrates and timescales. The boundary conditions (receptor downregulation under chronic stress, circadian rhythm) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in choreography designed using endocrinology structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=60 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "feedback",
+      "oscillation",
+      "choreography",
+      "control",
+      "endocrinology"
+    ]
+  },
+  {
+    "name": "Isothermal Metamorphism Bond Sintering Chronobiology Calculus",
+    "mechanism_source": "avalanche science",
+    "target_domain": "chronobiology",
+    "mechanism": "Isothermal Metamorphism Bond Sintering in avalanche science operates through the interaction of ice neck forming between adjacent snow grains via vapor diffusion as the fundamental unit of analysis. Variation arises through temperature, grain size distribution, and contact geometry control sintering rate and resulting bond strength between grains, creating a diverse population of candidates that face differential pressures. The selection mechanism—well-sintered layers with high bond-to-grain ratio gain shear strength; poorly bonded layers remain as persistent weak layers—determines which variants persist and propagate, while fitness is measured by shear strength gain rate sufficient to support overlying slab loads before next loading event. This process is bounded by temperature gradient re-establishment destroying sinter bonds, rain-freeze crusts creating impermeable barriers, extremely cold temperatures slowing sintering kinetics, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to chronobiology, the mechanism from avalanche science suggests that the core units of chronobiology undergo an analogous evolutionary process. The variation mechanism (temperature, grain size distribution, and contact geometry control sintering rate and resulting bond strength between grains) maps onto the generative processes in chronobiology, while the selection pressure (well-sintered layers with high bond-to-grain ratio gain shear strength; poorly bonded layers remain as persistent weak layers) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that chronobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in avalanche science, but expressed through domain-specific substrates and timescales. The boundary conditions (temperature gradient re-establishment destroying sinter bonds, rain-freeze crusts creating impermeable barriers, extremely cold temperatures slowing sintering kinetics) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in chronobiology designed using avalanche science structural principles will show 35% improvement in resilience measures compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "avalanche",
+      "chronobiology",
+      "self-organization",
+      "accumulation",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "PageRank Chronobiology Algebra",
+    "mechanism_source": "information retrieval",
+    "target_domain": "chronobiology",
+    "mechanism": "PageRank in information retrieval operates through the interaction of web page as the fundamental unit of analysis. Variation arises through incoming link distribution, creating a diverse population of candidates that face differential pressures. The selection mechanism—stationary distribution of random surfer—determines which variants persist and propagate, while fitness is measured by rank score. This process is bounded by directed graph, damping factor, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to chronobiology, the mechanism from information retrieval suggests that the core units of chronobiology undergo an analogous evolutionary process. The variation mechanism (incoming link distribution) maps onto the generative processes in chronobiology, while the selection pressure (stationary distribution of random surfer) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that chronobiology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in information retrieval, but expressed through domain-specific substrates and timescales. The boundary conditions (directed graph, damping factor) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in chronobiology designed using information retrieval structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=100 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.65,
+    "tags": [
+      "feedback",
+      "chronobiology",
+      "routing",
+      "information",
+      "network"
+    ]
+  },
+  {
+    "name": "Choreographic Counterpoint Virology Geometry",
+    "mechanism_source": "dance",
+    "target_domain": "virology",
+    "mechanism": "Choreographic Counterpoint in dance operates through the interaction of dancer trajectory in space-time as the fundamental unit of analysis. Variation arises through independent movement voices, creating a diverse population of candidates that face differential pressures. The selection mechanism—spatial and rhythmic alignment/contrast—determines which variants persist and propagate, while fitness is measured by visual coherence of ensemble. This process is bounded by stage geometry, ensemble size, music, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to virology, the mechanism from dance suggests that the core units of virology undergo an analogous evolutionary process. The variation mechanism (independent movement voices) maps onto the generative processes in virology, while the selection pressure (spatial and rhythmic alignment/contrast) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that virology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in dance, but expressed through domain-specific substrates and timescales. The boundary conditions (stage geometry, ensemble size, music) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in virology designed using dance structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=80 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "oscillation",
+      "coupling",
+      "dance",
+      "network",
+      "virology"
+    ]
+  },
+  {
+    "name": "Waggle Dance Information Encoding Whisky Distillation Ecology",
+    "mechanism_source": "beekeeping / apiculture",
+    "target_domain": "whisky distillation",
+    "mechanism": "Waggle Dance Information Encoding in beekeeping / apiculture operates through the interaction of waggle run performed by a forager bee as the fundamental unit of analysis. Variation arises through duration and angle of waggle run encode distance and direction to forage, creating a diverse population of candidates that face differential pressures. The selection mechanism—dances advertising richer patches recruit more followers; poor-source dances ignored—determines which variants persist and propagate, while fitness is measured by colony-level foraging efficiency (net energy gain per unit time). This process is bounded by dance-floor congestion, signal noise from hive vibrations, sun-compass drift, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to whisky distillation, the mechanism from beekeeping / apiculture suggests that the core units of whisky distillation undergo an analogous evolutionary process. The variation mechanism (duration and angle of waggle run encode distance and direction to forage) maps onto the generative processes in whisky distillation, while the selection pressure (dances advertising richer patches recruit more followers; poor-source dances ignored) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that whisky distillation systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beekeeping / apiculture, but expressed through domain-specific substrates and timescales. The boundary conditions (dance-floor congestion, signal noise from hive vibrations, sun-compass drift) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in whisky distillation designed using beekeeping / apiculture structural principles will show 28% increase in output quality compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.57,
+    "tags": [
+      "beekeeping",
+      "whisky",
+      "competition",
+      "feedback-loop",
+      "signal"
+    ]
+  },
+  {
+    "name": "Cosmic Inflation Materials Science Algebra",
+    "mechanism_source": "cosmology",
+    "target_domain": "materials science",
+    "mechanism": "Cosmic Inflation in cosmology operates through the interaction of region of space as the fundamental unit of analysis. Variation arises through quantum fluctuations of inflaton, creating a diverse population of candidates that face differential pressures. The selection mechanism—exponential expansion stretches modes—determines which variants persist and propagate, while fitness is measured by density perturbation spectrum. This process is bounded by early universe, inflaton potential, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to materials science, the mechanism from cosmology suggests that the core units of materials science undergo an analogous evolutionary process. The variation mechanism (quantum fluctuations of inflaton) maps onto the generative processes in materials science, while the selection pressure (exponential expansion stretches modes) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that materials science systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cosmology, but expressed through domain-specific substrates and timescales. The boundary conditions (early universe, inflaton potential) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in materials science designed using cosmology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "cosmology",
+      "materials",
+      "amplification",
+      "phase-transition",
+      "noise"
+    ]
+  },
+  {
+    "name": "Panspermia Hypothesis Mathematics Dynamics",
+    "mechanism_source": "astrobiology",
+    "target_domain": "mathematics",
+    "mechanism": "Panspermia Hypothesis in astrobiology operates through the interaction of viable organism on ejecta as the fundamental unit of analysis. Variation arises through survival through radiation, vacuum, reentry, creating a diverse population of candidates that face differential pressures. The selection mechanism—organisms that tolerate interplanetary transit seed new worlds—determines which variants persist and propagate, while fitness is measured by successful colonization of destination. This process is bounded by interplanetary transfer time, sterilization hazards, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to mathematics, the mechanism from astrobiology suggests that the core units of mathematics undergo an analogous evolutionary process. The variation mechanism (survival through radiation, vacuum, reentry) maps onto the generative processes in mathematics, while the selection pressure (organisms that tolerate interplanetary transit seed new worlds) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that mathematics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in astrobiology, but expressed through domain-specific substrates and timescales. The boundary conditions (interplanetary transfer time, sterilization hazards) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in mathematics designed using astrobiology structural principles will show 22% lower error rates compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "boundary",
+      "mathematics",
+      "astrobiology",
+      "transmission",
+      "selection"
+    ]
+  },
+  {
+    "name": "Minsky Financial Instability Oceanography Topology",
+    "mechanism_source": "finance",
+    "target_domain": "oceanography",
+    "mechanism": "Minsky Financial Instability in finance operates through the interaction of debt-financed position as the fundamental unit of analysis. Variation arises through hedge → speculative → Ponzi, creating a diverse population of candidates that face differential pressures. The selection mechanism—stability breeds risk-taking—determines which variants persist and propagate, while fitness is measured by system fragility. This process is bounded by credit cycle, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to oceanography, the mechanism from finance suggests that the core units of oceanography undergo an analogous evolutionary process. The variation mechanism (hedge → speculative → Ponzi) maps onto the generative processes in oceanography, while the selection pressure (stability breeds risk-taking) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that oceanography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in finance, but expressed through domain-specific substrates and timescales. The boundary conditions (credit cycle) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in oceanography designed using finance structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "feedback",
+      "threshold",
+      "oceanography",
+      "finance",
+      "phase-transition"
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Musashi's Theory of Timing Marine Biology Theory",
+    "mechanism_source": "martial arts",
+    "target_domain": "marine biology",
+    "mechanism": "Musashi's Theory of Timing in martial arts operates through the interaction of combative exchange as the fundamental unit of analysis. Variation arises through rhythm, tempo, and interval between actions, creating a diverse population of candidates that face differential pressures. The selection mechanism—seize the interval the opponent cannot adapt to—determines which variants persist and propagate, while fitness is measured by initiative dominance. This process is bounded by one-on-one engagement, perceptual lag, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to marine biology, the mechanism from martial arts suggests that the core units of marine biology undergo an analogous evolutionary process. The variation mechanism (rhythm, tempo, and interval between actions) maps onto the generative processes in marine biology, while the selection pressure (seize the interval the opponent cannot adapt to) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that marine biology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in martial arts, but expressed through domain-specific substrates and timescales. The boundary conditions (one-on-one engagement, perceptual lag) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in marine biology designed using martial arts structural principles will show 20% higher performance scores compared to conventional approaches, measurable across a sample of n=80 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "agents",
+      "dynamics",
+      "martial",
+      "control",
+      "marine"
+    ]
+  },
+  {
+    "name": "Cosmic Inflation Anthropology Paradigm",
+    "mechanism_source": "cosmology",
+    "target_domain": "anthropology",
+    "mechanism": "Cosmic Inflation in cosmology operates through the interaction of region of space as the fundamental unit of analysis. Variation arises through quantum fluctuations of inflaton, creating a diverse population of candidates that face differential pressures. The selection mechanism—exponential expansion stretches modes—determines which variants persist and propagate, while fitness is measured by density perturbation spectrum. This process is bounded by early universe, inflaton potential, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to anthropology, the mechanism from cosmology suggests that the core units of anthropology undergo an analogous evolutionary process. The variation mechanism (quantum fluctuations of inflaton) maps onto the generative processes in anthropology, while the selection pressure (exponential expansion stretches modes) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that anthropology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cosmology, but expressed through domain-specific substrates and timescales. The boundary conditions (early universe, inflaton potential) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in anthropology designed using cosmology structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=120 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.56,
+    "tags": [
+      "cosmology",
+      "anthropology",
+      "amplification",
+      "phase-transition",
+      "noise"
+    ]
+  },
+  {
+    "name": "Island Biogeography Category Theory Protocol",
+    "mechanism_source": "ecology",
+    "target_domain": "category theory",
+    "mechanism": "Island Biogeography (MacArthur & Wilson) in ecology operates through the interaction of species on an island as the fundamental unit of analysis. Variation arises through island area and distance from mainland, creating a diverse population of candidates that face differential pressures. The selection mechanism—immigration and extinction rates reach equilibrium species number—determines which variants persist and propagate, while fitness is measured by species richness at equilibrium. This process is bounded by island size, isolation, colonization ability of species, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to category theory, the mechanism from ecology suggests that the core units of category theory undergo an analogous evolutionary process. The variation mechanism (island area and distance from mainland) maps onto the generative processes in category theory, while the selection pressure (immigration and extinction rates reach equilibrium species number) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that category theory systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in ecology, but expressed through domain-specific substrates and timescales. The boundary conditions (island size, isolation, colonization ability of species) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in category theory designed using ecology structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=80 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "dynamics",
+      "ecology",
+      "threshold",
+      "category",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Hindley-Milner Type Inference Agroecology Ecology",
+    "mechanism_source": "programming languages",
+    "target_domain": "agroecology",
+    "mechanism": "Hindley-Milner Type Inference in programming languages operates through the interaction of expression in polymorphic lambda calculus as the fundamental unit of analysis. Variation arises through candidate type assignments, creating a diverse population of candidates that face differential pressures. The selection mechanism—unification algorithm finds principal type—determines which variants persist and propagate, while fitness is measured by most general type without annotations. This process is bounded by rank-1 polymorphism, decidable inference, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to agroecology, the mechanism from programming languages suggests that the core units of agroecology undergo an analogous evolutionary process. The variation mechanism (candidate type assignments) maps onto the generative processes in agroecology, while the selection pressure (unification algorithm finds principal type) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that agroecology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in programming languages, but expressed through domain-specific substrates and timescales. The boundary conditions (rank-1 polymorphism, decidable inference) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in agroecology designed using programming languages structural principles will show 18% greater diversity indices compared to conventional approaches, measurable across a sample of n=150 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.79,
+    "tags": [
+      "compression",
+      "optimization",
+      "agroecology",
+      "programming",
+      "encoding"
+    ]
+  },
+  {
+    "name": "Satisficing Business Strategy Schema",
+    "mechanism_source": "decision theory",
+    "target_domain": "business strategy",
+    "mechanism": "Satisficing (Simon) in decision theory operates through the interaction of decision-maker searching alternatives as the fundamental unit of analysis. Variation arises through aspiration level and search order, creating a diverse population of candidates that face differential pressures. The selection mechanism—first option meeting threshold accepted; optimization abandoned—determines which variants persist and propagate, while fitness is measured by decision speed vs optimality tradeoff under bounded rationality. This process is bounded by cognitive limits, search cost, time pressure, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to business strategy, the mechanism from decision theory suggests that the core units of business strategy undergo an analogous evolutionary process. The variation mechanism (aspiration level and search order) maps onto the generative processes in business strategy, while the selection pressure (first option meeting threshold accepted; optimization abandoned) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that business strategy systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in decision theory, but expressed through domain-specific substrates and timescales. The boundary conditions (cognitive limits, search cost, time pressure) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in business strategy designed using decision theory structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=60 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "agents",
+      "tradeoff",
+      "threshold",
+      "business",
+      "decision"
+    ]
+  },
+  {
+    "name": "Blockchain Consensus Equilibrium Theory Photonics Strategy",
+    "mechanism_source": "cryptography",
+    "target_domain": "photonics",
+    "mechanism": "Blockchain Consensus Equilibrium Theory in cryptography operates through the interaction of consensus participant (miner, validator, staker) as the fundamental unit of analysis. Variation arises through heterogeneous computational resources, staking amounts, network latency, and strategic behavior, creating a diverse population of candidates that face differential pressures. The selection mechanism—protocol reward and punishment mechanisms (block rewards, slashing, difficulty adjustment)—determines which variants persist and propagate, while fitness is measured by maximized expected reward minus operational cost for honest participation strategy. This process is bounded by breaks down when >50% of consensus power colludes or when reward economics incentivize deviation, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to photonics, the mechanism from cryptography suggests that the core units of photonics undergo an analogous evolutionary process. The variation mechanism (heterogeneous computational resources, staking amounts, network latency, and strategic behavior) maps onto the generative processes in photonics, while the selection pressure (protocol reward and punishment mechanisms (block rewards, slashing, difficulty adjustment)) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that photonics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in cryptography, but expressed through domain-specific substrates and timescales. The boundary conditions (breaks down when >50% of consensus power colludes or when reward economics incentivize deviation) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in photonics designed using cryptography structural principles will show 25% reduction in failure rates compared to conventional approaches, measurable across a sample of n=60 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.64,
+    "tags": [
+      "agents",
+      "cryptography",
+      "photonics",
+      "network",
+      "equilibrium"
+    ]
+  },
+  {
+    "name": "Autocatalytic Sets Volcanology Principle",
+    "mechanism_source": "chemistry",
+    "target_domain": "volcanology",
+    "mechanism": "Autocatalytic Sets in chemistry operates through the interaction of molecular species as the fundamental unit of analysis. Variation arises through reaction network composition, creating a diverse population of candidates that face differential pressures. The selection mechanism—closure under catalysis—determines which variants persist and propagate, while fitness is measured by self-sustaining cycle. This process is bounded by chemical inventory, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to volcanology, the mechanism from chemistry suggests that the core units of volcanology undergo an analogous evolutionary process. The variation mechanism (reaction network composition) maps onto the generative processes in volcanology, while the selection pressure (closure under catalysis) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that volcanology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in chemistry, but expressed through domain-specific substrates and timescales. The boundary conditions (chemical inventory) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in volcanology designed using chemistry structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=200 cases over a 6-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.68,
+    "tags": [
+      "chemistry",
+      "feedback",
+      "volcanology",
+      "self-organization",
+      "network"
+    ]
+  },
+  {
+    "name": "Neck Relief Truss Rod Equilibrium Geomorphology Synthesis",
+    "mechanism_source": "luthiery",
+    "target_domain": "geomorphology",
+    "mechanism": "Neck Relief Truss Rod Equilibrium in luthiery operates through the interaction of longitudinal curvature of the neck under string tension and truss rod counter-force as the fundamental unit of analysis. Variation arises through neck wood species, carbon fiber reinforcement, truss rod type (single-action vs. dual), string gauge, creating a diverse population of candidates that face differential pressures. The selection mechanism—setups where relief stays within 0.1–0.3 mm at the 7th fret across seasonal humidity swings are considered correctly built—determines which variants persist and propagate, while fitness is measured by playability — buzz-free action height at target string tension across the full fretboard. This process is bounded by wood creep under sustained load, truss rod maximum adjustment range, fret levelness tolerance, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to geomorphology, the mechanism from luthiery suggests that the core units of geomorphology undergo an analogous evolutionary process. The variation mechanism (neck wood species, carbon fiber reinforcement, truss rod type (single-action vs. dual), string gauge) maps onto the generative processes in geomorphology, while the selection pressure (setups where relief stays within 0.1–0.3 mm at the 7th fret across seasonal humidity swings are considered correctly built) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that geomorphology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in luthiery, but expressed through domain-specific substrates and timescales. The boundary conditions (wood creep under sustained load, truss rod maximum adjustment range, fret levelness tolerance) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in geomorphology designed using luthiery structural principles will show 12% reduction in resource waste compared to conventional approaches, measurable across a sample of n=150 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.67,
+    "tags": [
+      "geomorphology",
+      "constraint",
+      "feedback-loop",
+      "equilibrium",
+      "luthiery"
+    ]
+  },
+  {
+    "name": "Linguistic Relativity Cybernetics Grammar",
+    "mechanism_source": "linguistics",
+    "target_domain": "cybernetics",
+    "mechanism": "Linguistic Relativity in linguistics operates through the interaction of linguistic category as the fundamental unit of analysis. Variation arises through vocabulary and grammar differences, creating a diverse population of candidates that face differential pressures. The selection mechanism—habitual thought shaped by language—determines which variants persist and propagate, while fitness is measured by cognitive accessibility. This process is bounded by speech community, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to cybernetics, the mechanism from linguistics suggests that the core units of cybernetics undergo an analogous evolutionary process. The variation mechanism (vocabulary and grammar differences) maps onto the generative processes in cybernetics, while the selection pressure (habitual thought shaped by language) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that cybernetics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in linguistics, but expressed through domain-specific substrates and timescales. The boundary conditions (speech community) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in cybernetics designed using linguistics structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.78,
+    "tags": [
+      "linguistics",
+      "belief",
+      "cybernetics",
+      "encoding",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Stream Power Erosion Model Botany Grammar",
+    "mechanism_source": "geomorphology",
+    "target_domain": "botany",
+    "mechanism": "Stream Power Erosion Model in geomorphology operates through the interaction of channel reach as the fundamental unit of analysis. Variation arises through discharge, channel slope, and substrate erodibility, creating a diverse population of candidates that face differential pressures. The selection mechanism—erosion rate proportional to unit stream power exceeding threshold—determines which variants persist and propagate, while fitness is measured by channel incision and landscape denudation rate. This process is bounded by bedrock vs alluvial channel, discharge variability, tectonic uplift, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to botany, the mechanism from geomorphology suggests that the core units of botany undergo an analogous evolutionary process. The variation mechanism (discharge, channel slope, and substrate erodibility) maps onto the generative processes in botany, while the selection pressure (erosion rate proportional to unit stream power exceeding threshold) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that botany systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in geomorphology, but expressed through domain-specific substrates and timescales. The boundary conditions (bedrock vs alluvial channel, discharge variability, tectonic uplift) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in botany designed using geomorphology structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=40 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.73,
+    "tags": [
+      "dynamics",
+      "geomorphology",
+      "threshold",
+      "botany",
+      "long-horizon"
+    ]
+  },
+  {
+    "name": "Climate Feedback Loops Complexity Calculus",
+    "mechanism_source": "climatology",
+    "target_domain": "complexity",
+    "mechanism": "Climate Feedback Loops in climatology operates through the interaction of climate variable as the fundamental unit of analysis. Variation arises through perturbation in forcing, creating a diverse population of candidates that face differential pressures. The selection mechanism—amplifying or damping response—determines which variants persist and propagate, while fitness is measured by equilibrium sensitivity. This process is bounded by radiative budget, ocean inertia, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to complexity, the mechanism from climatology suggests that the core units of complexity undergo an analogous evolutionary process. The variation mechanism (perturbation in forcing) maps onto the generative processes in complexity, while the selection pressure (amplifying or damping response) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that complexity systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in climatology, but expressed through domain-specific substrates and timescales. The boundary conditions (radiative budget, ocean inertia) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in complexity designed using climatology structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=120 cases over a 18-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.66,
+    "tags": [
+      "feedback",
+      "complexity",
+      "climatology",
+      "amplification",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Navier-Stokes Equations Demography Principle",
+    "mechanism_source": "fluid dynamics",
+    "target_domain": "demography",
+    "mechanism": "Navier-Stokes Equations in fluid dynamics operates through the interaction of fluid parcel as the fundamental unit of analysis. Variation arises through velocity and pressure fields, creating a diverse population of candidates that face differential pressures. The selection mechanism—conservation of momentum and mass at every point—determines which variants persist and propagate, while fitness is measured by flow field satisfying boundary conditions. This process is bounded by viscosity, incompressibility assumption, boundary geometry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to demography, the mechanism from fluid dynamics suggests that the core units of demography undergo an analogous evolutionary process. The variation mechanism (velocity and pressure fields) maps onto the generative processes in demography, while the selection pressure (conservation of momentum and mass at every point) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that demography systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in fluid dynamics, but expressed through domain-specific substrates and timescales. The boundary conditions (viscosity, incompressibility assumption, boundary geometry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in demography designed using fluid dynamics structural principles will show 40% faster convergence rates compared to conventional approaches, measurable across a sample of n=120 cases over a 24-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.69,
+    "tags": [
+      "dynamics",
+      "fluid",
+      "demography",
+      "field",
+      "coupling"
+    ]
+  },
+  {
+    "name": "Load Path Analysis Photonics Ecology",
+    "mechanism_source": "structural engineering",
+    "target_domain": "photonics",
+    "mechanism": "Load Path Analysis in structural engineering operates through the interaction of structural member as the fundamental unit of analysis. Variation arises through geometry, material, connection type, creating a diverse population of candidates that face differential pressures. The selection mechanism—loads follow stiffest continuous path to ground—determines which variants persist and propagate, while fitness is measured by stress utilization ratio below yield. This process is bounded by material strength, building codes, geometry, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to photonics, the mechanism from structural engineering suggests that the core units of photonics undergo an analogous evolutionary process. The variation mechanism (geometry, material, connection type) maps onto the generative processes in photonics, while the selection pressure (loads follow stiffest continuous path to ground) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that photonics systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in structural engineering, but expressed through domain-specific substrates and timescales. The boundary conditions (material strength, building codes, geometry) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in photonics designed using structural engineering structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=150 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.75,
+    "tags": [
+      "boundary",
+      "optimization",
+      "structural",
+      "photonics",
+      "routing"
+    ]
+  },
+  {
+    "name": "Intercropping Resource Complementarity Climatology Theory",
+    "mechanism_source": "agroecology",
+    "target_domain": "climatology",
+    "mechanism": "Intercropping Resource Complementarity in agroecology operates through the interaction of crop species pair in a polyculture as the fundamental unit of analysis. Variation arises through root depth stratification, canopy architecture, nutrient demand profiles, creating a diverse population of candidates that face differential pressures. The selection mechanism—species combinations that partition niche space outperform monocultures—determines which variants persist and propagate, while fitness is measured by land equivalent ratio (LER > 1). This process is bounded by soil type, water availability, planting density, allelopathy, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to climatology, the mechanism from agroecology suggests that the core units of climatology undergo an analogous evolutionary process. The variation mechanism (root depth stratification, canopy architecture, nutrient demand profiles) maps onto the generative processes in climatology, while the selection pressure (species combinations that partition niche space outperform monocultures) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that climatology systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in agroecology, but expressed through domain-specific substrates and timescales. The boundary conditions (soil type, water availability, planting density, allelopathy) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in climatology designed using agroecology structural principles will show 30% increase in adaptive capacity compared to conventional approaches, measurable across a sample of n=200 cases over a 12-month observation period using domain-standard assessment instruments.",
+    "viability": "promising",
+    "confidence": 0.63,
+    "tags": [
+      "gradient",
+      "cooperation",
+      "agroecology",
+      "competition",
+      "climatology"
+    ]
+  },
+  {
+    "name": "Queen Pheromone Colony Cohesion Textile Engineering Logic",
+    "mechanism_source": "beekeeping / apiculture",
+    "target_domain": "textile engineering",
+    "mechanism": "Queen Pheromone Colony Cohesion in beekeeping / apiculture operates through the interaction of queen mandibular pheromone molecule distributed across the colony as the fundamental unit of analysis. Variation arises through pheromone concentration gradient from queen to periphery of hive, creating a diverse population of candidates that face differential pressures. The selection mechanism—workers below a pheromone threshold begin rearing emergency queen cells—determines which variants persist and propagate, while fitness is measured by colony unity and suppression of worker reproduction. This process is bounded by colony size, queen vitality, comb geometry affecting pheromone diffusion, establishing the conditions under which the mechanism produces reliable outcomes. The structural insight is that any domain exhibiting analogous unit-variation-selection dynamics should show comparable emergent patterns regardless of substrate.",
+    "application": "When transplanted to textile engineering, the mechanism from beekeeping / apiculture suggests that the core units of textile engineering undergo an analogous evolutionary process. The variation mechanism (pheromone concentration gradient from queen to periphery of hive) maps onto the generative processes in textile engineering, while the selection pressure (workers below a pheromone threshold begin rearing emergency queen cells) corresponds to the evaluative forces that determine which innovations, strategies, or structures persist in the target domain. This cross-domain mapping predicts that textile engineering systems will exhibit phase transitions, path dependencies, and fitness landscape topologies that mirror those observed in beekeeping / apiculture, but expressed through domain-specific substrates and timescales. The boundary conditions (colony size, queen vitality, comb geometry affecting pheromone diffusion) constrain where the analogy holds and where it breaks down.",
+    "prediction": "Systems in textile engineering designed using beekeeping / apiculture structural principles will show 15% improvement in efficiency metrics compared to conventional approaches, measurable across a sample of n=150 cases over a 8-month observation period using domain-standard assessment instruments.",
+    "viability": "speculative",
+    "confidence": 0.59,
+    "tags": [
+      "beekeeping",
+      "textile",
+      "threshold",
+      "gradient",
+      "signal"
+    ]
+  }
+]
