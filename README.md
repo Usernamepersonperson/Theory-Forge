@@ -6,10 +6,10 @@ The white space (per the PRD): no one has built a tool that maps the *structure*
 
 ## Current scale
 
-- **773 seed theories** across **192 domains** — from mycology to metallurgy, glaciology to glassblowing, kintsugi to cryptography
-- **1350+ generated frameworks** across 90 collision batches
-- **56 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
-- **1321 unique ranked frameworks** — mean confidence 0.662, top confidence 0.83
+- **853 seed theories** across **205 domains** — from mycology to metallurgy, glaciology to glassblowing, kintsugi to cryptography
+- **1500+ generated frameworks** across 100+ collision batches
+- **61 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
+- **1471 unique ranked frameworks** — mean confidence 0.664, top confidence 0.83
 
 ## How it works
 
@@ -24,7 +24,7 @@ That's the whole loop. ~300 lines.
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
 - [server.py](server.py) — FastAPI v0.5: 18 endpoints including batch forge, rankings, deep dives, stats, search, export, and domain network graph.
-- [theories.json](theories.json) — decomposed seed dataset (773 entries across 192 domains).
+- [theories.json](theories.json) — decomposed seed dataset (853 entries across 205 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
 - [web/index.html](web/index.html) — tabbed UI: forge, batch forge, rankings, deep dives, theories browser, stats dashboard, history.
 - [outputs/](outputs/) — generated collision batches, rankings, and deep-dive analyses.
@@ -75,6 +75,11 @@ GET  /domain-matrix                           domain coverage analysis
 GET  /export?format=json|csv&min_confidence=  export all frameworks
 GET  /random?min_confidence=                  random framework above threshold
 GET  /domain-network                          graph data (nodes + weighted edges)
+GET  /semantic-search?q=&limit=               embedding-based semantic search
+GET  /recommend?limit=&strategy=              collision recommendations (coverage/diversity/bridge)
+GET  /chain/{name}?depth=                     framework exploration chain
+GET  /synthesis?domain=&top_n=&format=        synthesis report (markdown/html)
+GET  /tag-analysis                            tag frequency and domain spread
 ```
 
 ## UI tabs
@@ -82,6 +87,7 @@ GET  /domain-network                          graph data (nodes + weighted edges
 | Tab | What it does |
 |-----|-------------|
 | **forge** | Pick two domains or click "surprise me" to collide random theories. Search box for existing frameworks. |
+| **research** | Research Assistant: semantic search (embeddings), collision recommendations (3 strategies), framework chain explorer, synthesis report generator with markdown download. |
 | **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
 | **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |
 | **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |
