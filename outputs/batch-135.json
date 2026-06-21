@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Dendritic Branching Organizational Structure",
+    "mechanism_source": "snow crystal formation",
+    "target_domain": "organizational structure",
+    "mechanism": "Snow crystals grow through the deposition of water vapor onto a seed ice nucleus, with the final hexagonal branching pattern determined entirely by the temperature and humidity conditions the crystal encounters as it falls through different atmospheric layers. Dendritic arms extend because crystal tips are exposed to slightly supersaturated vapor relative to concave regions, creating tip-growth preference. No two crystals are identical because each traces a unique atmospheric path, yet all exhibit the same underlying hexagonal symmetry because it reflects the molecular geometry of ice.",
+    "application": "Organizational structures that grow under consistent environmental conditions — stable market demands, consistent technology constraints, stable cultural substrate — should exhibit the same combination of unique surface morphology and invariant deep symmetry as snow crystals. Teams crystallize differently from the same organizational seed (founding principles, business model) because they encounter different micro-environmental conditions (specific talent compositions, local market pressures). Attempting to force identical surface structure while the environment varies destroys the adaptive dendritic advantage.",
+    "prediction": "Organizations that allow team structures to adapt to local operating conditions while enforcing strict symmetry of core operating principles (decision rights, reporting norms, value commitments) will show higher productivity variance between teams but higher average productivity than organizations enforcing uniform surface structure regardless of local conditions.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Kinetic Chain Public Speaking",
+    "mechanism_source": "archery biomechanics",
+    "target_domain": "public speaking",
+    "mechanism": "Accurate archery depends on a sequential kinetic chain from feet through legs, core, shoulder girdle, draw arm, and bow arm — each segment must be correctly positioned and stable before the next segment can function optimally. Errors propagate forward: a collapsed stance destabilizes the core, which introduces shoulder torque, which produces inconsistent draw length, which makes sight picture unreliable. The release is the final event in a chain that is either set up correctly before the arrow is nocked or cannot be corrected at the moment of release.",
+    "application": "Effective public speaking is an upstream kinetic chain. Audience analysis (stance) determines topic framing (core), which determines narrative architecture (shoulder girdle), which determines sentence-level language choice (draw arm), which makes the moment-of-delivery intuitive and self-managing (release). Speakers who try to correct delivery — modulating voice, managing anxiety, tracking audience response — without having established the upstream chain find that real-time corrections cannot compensate for structural instability. The preparation sequence is the performance.",
+    "prediction": "Speakers trained with an upstream-to-downstream preparation protocol (audience analysis before structure before language before delivery rehearsal) will receive higher audience engagement ratings than speakers trained with equivalent total preparation time but in reverse order (delivery rehearsal before language before structure), on identical topic assignments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Halophyte Gradient Border Economics",
+    "mechanism_source": "salt marsh ecology",
+    "target_domain": "border zone economics",
+    "mechanism": "Salt marshes occupy the tidal gradient between subtidal mud flats and terrestrial ecosystems, stratified by salinity tolerance into distinct vegetation zones: Spartina alterniflora in the regularly flooded low marsh, Spartina patens in the irregularly flooded high marsh, and transitional species at the terrestrial edge. This zonation produces extraordinarily high productivity: the tidal energy subsidy (nutrient delivery, waste removal, oxygenation) allows marsh grasses to fix carbon at rates exceeding most agricultural systems. The marsh is productive precisely because it spans incompatible regimes — it cannot be replaced by deepening either adjacent system.",
+    "application": "Border zone economies — special economic zones, free trade zones, cross-border cities, immigration corridors — exhibit the same tidal-subsidy productivity. They are productive not despite spanning incompatible regulatory, labor market, and currency regimes but because of it: the energy subsidy of cross-regime arbitrage (lower labor cost gradient, tax differential, regulatory gap) fuels economic activity impossible in either adjacent pure-regime system. Policies that attempt to eliminate the gradient (extending one regime fully over the border zone) destroy the tidal subsidy mechanism.",
+    "prediction": "Special economic zones located at the interface between significantly different regulatory or fiscal regimes (measured by a composite regulatory difference index) will show higher total factor productivity than zones with equivalent infrastructure quality but lower regulatory gradient, because the gradient is the primary energy input, not the infrastructure.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Gather-Melt-Wind Modular Curriculum",
+    "mechanism_source": "glass bead making",
+    "target_domain": "modular curriculum design",
+    "mechanism": "Lampwork glass beads are created by gathering molten glass from a rod onto a mandrel (the bead hole former), shaping the gather through heat management and gravity, and adding color layers, inclusions, and surface textures through sequential gather-and-melt cycles. Each cycle can only modify the outermost layer; the core retain all previous layers. The final bead is a stratigraphic record of every gather sequence. Critically, each color layer must be compatible in coefficient of thermal expansion with adjacent layers — incompatible glasses that expand and contract at different rates produce beads that crack on cooling.",
+    "application": "Modular curriculum design requires the same gather-and-melt architecture. Each learning module adds a new layer over retained prior knowledge: the 'thermal expansion coefficient' of each module is its conceptual compatibility with the layer beneath. Modules with incompatible conceptual expansion rates (e.g., statistical inference modules placed over qualitative-only foundations) produce curricula that crack on 'cooling' — when students attempt to integrate knowledge in application contexts. Curriculum designers must sequence modules by conceptual expansion compatibility, not just by topic logic.",
+    "prediction": "Students progressing through curricula in which each module's prerequisite knowledge was explicitly mapped for conceptual compatibility (matching abstraction level and formalization degree) will show higher knowledge integration performance on capstone assessments than students progressing through curricula sequenced by topic progression alone.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Biosonar Channel Submarine Communication",
+    "mechanism_source": "whale echolocation",
+    "target_domain": "submarine communication",
+    "mechanism": "Toothed whales produce focused sound beams through a fatty melon organ that acts as an acoustic lens, directing high-frequency clicks into a forward beam while receiving returning echoes through the lower jaw and internal fat channels leading to the inner ear. The biosonar system automatically adapts click amplitude to target range (automatic gain control), preventing acoustic overload at close range and ensuring sufficient signal-to-noise ratio at long range. Sperm whales produce the loudest biological sounds on Earth — up to 230 dB — focused into narrow beams that can stun prey and propagate through kilometers of ocean.",
+    "application": "Submarine acoustic communication systems can adopt the melon-and-fat-channel architecture for directional, variable-gain underwater communication. A focused acoustic transducer array analogous to the melon can direct communication beams to minimize intercept probability while maximizing signal reach. Automatic gain control calibrated to detected ocean acoustic conditions (thermocline depth, ambient noise floor) mirrors the whale's range-adaptive click amplitude. The lower-jaw reception pathway suggests that broad-area hydrophone arrays distributed along the hull rather than concentrated at a single point improve signal recovery through structural channeling.",
+    "prediction": "Submarine acoustic communication systems using phased-array transmitters calibrated to dynamically focus beam width based on ambient noise level will achieve higher bit-error rates at equivalent distances than systems using omnidirectional acoustic transmitters at the same power budget, because beam focusing trades coverage for signal density.",
+    "viability": "speculative",
+    "confidence": 0.64
+  },
+  {
+    "name": "Mortise-and-Tenon Argument Frameworks",
+    "mechanism_source": "timber framing",
+    "target_domain": "argumentation frameworks",
+    "mechanism": "Timber frame construction uses heavy structural members connected by mortise-and-tenon joints — a projecting tenon cut from one member fits into a corresponding mortise socket in another, secured by a wooden peg (treenail) driven through the joint. The frame derives its strength not from the strength of individual members but from the joint geometry: under load, the joint geometry forces members into greater mutual compression, making the structure self-tightening. The frame can also be partially disassembled by removing treenails, allowing repair without destroying the structure.",
+    "application": "Argumentation frameworks should be built on the timber-frame model: core claims (posts and beams) are connected by joint mechanisms — logical inferential steps (mortise and tenon) — whose geometry tightens under adversarial load. An argument that becomes more compelling under attack (because counter-arguments force the joint into greater compression) is structurally superior to one that depends on the strength of any single premise. The treenail is the key evidentiary pin: it secures the joint but can be removed and replaced with better evidence without demolishing the argument's structural geometry.",
+    "prediction": "Arguers who explicitly identify their inferential joint geometry (the logical step connecting each premise to each conclusion) before engaging in formal debate will successfully rebut more counter-arguments by tightening rather than defending their claims than arguers who treat their arguments as lists of premises to defend individually.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Mantle Plume Innovation Cluster Analysis",
+    "mechanism_source": "volcanic hotspot tracking",
+    "target_domain": "innovation cluster analysis",
+    "mechanism": "Volcanic hotspots are anomalously hot mantle plumes fixed in the deep mantle through which tectonic plates slowly move overhead. As the plate moves, successive volcanic islands or seamounts form above the fixed plume, creating age-progressive chains — the Hawaiian-Emperor seamount chain records the Pacific Plate's trajectory over 85 million years. The hotspot itself is stationary; the surface expression moves. Hotspot location can be back-calculated from the chain's age progression, and future surface expression can be projected forward from plate velocity vectors.",
+    "application": "Innovation clusters exhibit hotspot dynamics: the underlying generative mechanism (a concentration of research institutions, risk capital, regulatory tolerance, cultural attitudes toward failure) is relatively stationary, while the surface expression — the specific technology sector dominating the cluster at any time — moves as each sector matures and is replaced by a newer one surfacing over the same deep-mantle conditions. Tracking the age-progression of dominant sectors across a single geographic cluster reveals the fixed hotspot's characteristics, enabling projection of which sector will surface next.",
+    "prediction": "Innovation clusters that have sequentially dominated in two or more technology sectors over 30 years will show that the transitioning dominant sector maintains a consistent generative institutional substrate (identifiable by anchor institution composition), allowing the next dominant sector to be predicted from substrate characteristics with better-than-chance accuracy 10 years in advance.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Secondary Metabolite Brand Ecology",
+    "mechanism_source": "cheese rind development",
+    "target_domain": "brand protection",
+    "mechanism": "Natural cheese rinds develop through the sequential colonization of the cheese surface by a microbial succession: initial yeasts deacidify the surface, enabling bacteria to colonize, followed by secondary mold and bacterial species specific to cave environment and cheese type. The rind is not decoration — it regulates moisture loss, gas exchange, and enzymatic activity within the paste. Crucially, the rind ecology is site-specific: Comté from the Jura and Comté from elsewhere differ in rind microflora because the cave ecology cannot be fully replicated in a different physical environment. The rind is a biological terroir marker.",
+    "application": "Brand authenticity functions as a rind ecology: the surface expression of a brand (visual identity, tone, community) is colonized by a site-specific succession of cultural associations that cannot be fully replicated in a different context without replicating the original generative environment. Brand counterfeiting and brand dilution (through extension or licensing) fail the rind test — the succession cannot complete properly outside the original cave. Brand protection is not just legal enforcement but maintenance of the ecological conditions (brand values, target community, origin story coherence) that allow genuine rind development.",
+    "prediction": "Brand extensions into product categories that share fewer than three of the parent brand's core cultural associations will show lower consumer attribution of extension to parent brand and higher confusion with competitors than extensions into categories sharing three or more associations, because insufficient ecological overlap prevents genuine rind succession.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tidal Head Cyclical Harvest Engineering",
+    "mechanism_source": "tide mill engineering",
+    "target_domain": "cyclical resource harvesting",
+    "mechanism": "Tide mills capture the energy in the tidal cycle by impounding high-tide water behind a dam through sluice gates, then releasing it through a waterwheel as the tide ebbs. The mill can only operate during the ebbing portion of each tidal cycle — roughly 6 hours out of every 12.4 — and the power available varies through the ebb as head (height differential) decreases. Tide millers learned to schedule grinding tasks to align with peak head (maximum power availability), store intermediate products for the fallow period, and maintain mill mechanisms during low-head phases when grinding was inefficient.",
+    "application": "Cyclical resource harvesting — of seasonal agricultural commodities, of cyclical market opportunities, of periodic regulatory windows — requires the same tide mill scheduling discipline. Peak-head phases (maximum opportunity concentration) should be reserved for highest-value, most power-intensive activities. Intermediate products (partially processed commodities, pre-positioned inventory, drafted regulatory filings) should be maintained during fallow phases so that peak-head periods are spent harvesting, not preparing. Maintenance is explicitly a low-head activity, not something deferred from a high-head phase.",
+    "prediction": "Agricultural operations that explicitly map their activity schedules to seasonal resource availability curves (performing high-value processing at seasonal peaks and maintenance and preparation during off-season periods) will show higher net margins per unit of resource harvested than operations with uniform activity distribution across the cycle, because they align power demand with power availability.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Microstructural Acoustic Moth Wing Engineering",
+    "mechanism_source": "moth wing structure",
+    "target_domain": "acoustic engineering",
+    "mechanism": "Many moth species have evolved wing scales with specific microstructural properties — highly porous, multi-layered chitin lattices — that absorb ultrasonic frequencies used by echolocating bats. The absorption mechanism involves viscous and thermal losses within the porous scale microstructure rather than simple reflection or scatter. A single scale layer only millimeters thick achieves acoustic absorption coefficients at 40-80 kHz that rival engineered absorber materials many times thicker. The structure is simultaneously ultralight, multifunctional (thermoregulatory and acoustic), and operates across a broad frequency band.",
+    "application": "Acoustic engineering for lightweight broadband absorption — in aviation, vehicle design, and architectural acoustics — can draw on moth wing microstructure design principles. Hierarchical porous materials with scale-geometry lattices at the sub-millimeter level achieve broadband absorption through viscous loss mechanisms rather than resonance, which is inherently narrowband. The multifunctionality principle (acoustic absorption co-functional with thermal management) is also transferable: acoustic panels that simultaneously manage heat exchange reduce total system mass, which is premium in aerospace applications.",
+    "prediction": "Acoustic absorption panels designed with hierarchical porous microstructures modeled on moth scale geometry will achieve broadband absorption coefficients (averaged across 1-8 kHz) at least 20% higher per unit mass than conventional foam absorbers of equivalent thickness and material cost, because multi-scale porosity generates viscous loss across a wider frequency range than uniform-pore foams.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Assisted Propagation Community Mental Health",
+    "mechanism_source": "coral gardening",
+    "target_domain": "community mental health",
+    "mechanism": "Coral gardening is a reef restoration technique in which coral fragments (nubbins) are attached to underwater 'tree' structures — wire or pipe frameworks — where they grow in optimal conditions away from substrate competition, sedimentation, and predation. Once fragments reach sufficient size, they are transplanted to degraded reef areas. The nursery phase allows exponential propagation: a single coral head can provide hundreds of nubbins, and nursery conditions produce faster growth rates than reef conditions. Critically, coral gardening works best with species already adapted to local conditions — introduced corals from distant reefs show lower survival.",
+    "application": "Community mental health systems can adopt the coral gardening architecture. Rather than trying to treat individuals in the high-stress substrate of their degraded community environment, a 'nursery phase' — structured peer support groups, community anchor programs, therapeutic community spaces — provides conditions that allow individuals to develop resilience capacities before returning to high-stress environments. Local-strain prioritization translates to working with community-specific protective factors rather than imported generic therapeutic models that lack local adaptation.",
+    "prediction": "Mental health interventions that include a structured peer-support nursery phase (8-12 weeks of intensive community-based support before return to routine social environment) will show higher maintenance of treatment gains at 12-month follow-up than equivalent individual therapy without a nursery phase, because the nursery phase develops locally adapted resilience mechanisms.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Amalgam Dissolution Team Integration",
+    "mechanism_source": "quicksilver amalgamation",
+    "target_domain": "team integration",
+    "mechanism": "Mercury amalgamation was used historically to extract precious metals from ore: mercury dissolves gold and silver from crushed ore by forming liquid amalgams, leaving gangue minerals behind. The amalgam is then separated and heated to drive off the mercury by volatilization, leaving pure metal. The process has two critical phases: the dissolution phase, where individual metal particles are absorbed into a liquid mercury matrix and lose their distinct boundaries, and the recovery phase, where mercury is removed and the metal re-solidifies as a coherent mass. Attempting recovery before complete dissolution leaves unmixed particles; delaying recovery too long causes mercury loss.",
+    "application": "Team integration after mergers, reorganizations, or the formation of new cross-functional teams follows the amalgamation sequence. The dissolution phase requires a structured period in which individual identity boundaries (prior team affiliations, functional loyalties, status hierarchies) are temporarily suspended into a shared liquid matrix (joint projects, mixed working groups, shared physical space). Recovery — the crystallization of a new team identity — can only produce a coherent mass if dissolution was complete. Integration programs that skip the dissolution phase produce teams with unmixed particles (persistent subgroup identity) that undermine collective function.",
+    "prediction": "Merged organizational units that undergo a minimum 90-day structured dissolution phase (joint projects requiring cross-unit collaboration before any formal structural integration) will show higher team identification scores and lower subgroup conflict measures at 18 months post-merger than units that receive formal structural integration immediately without a dissolution phase.",
+    "viability": "speculative",
+    "confidence": 0.62
+  },
+  {
+    "name": "Kaolin Calcination Luxury Brand Strategy",
+    "mechanism_source": "bone china production",
+    "target_domain": "luxury brand strategy",
+    "mechanism": "Bone china achieves its distinctive translucency, whiteness, and strength through a specific formulation: approximately 50% calcined cattle bone ash, 25% china stone (petuntse), and 25% kaolin clay. The bone ash component, derived from careful calcination at precise temperatures, provides calcium phosphate that melts at lower temperatures than pure porcelain and forms a glassy matrix that transmits light. The resulting material is simultaneously more translucent, stronger in tension, and more thermally stable than hard-paste porcelain, but it is exceptionally difficult to produce at scale because the high bone-ash content makes the unfired body weak and prone to warping.",
+    "application": "Luxury brand strategy requires the bone china formulation logic: a specific ratio of ephemeral luxury materials (exclusivity, heritage narrative, craft demonstration) to structural strengtheners (product performance, durability, utility) to forming aids (accessibility via entry-level products, lifestyle association). Too much exclusivity (high bone ash) without structural utility makes the brand beautiful but fragile — prone to collapse when production scales or market conditions shift. Too much utility without ephemeral content produces a strong but opaque product that cannot command luxury pricing. The calcination temperature (brand tension management) determines whether the luxury glassy matrix actually forms.",
+    "prediction": "Luxury brands that maintain a consistent ratio of heritage/craft narrative content to functional performance communication in brand messaging will show more stable price premium maintenance over economic downturns than luxury brands that skew heavily toward either pure status signaling or pure functional differentiation, because the mixed formulation provides both translucency and structural resilience.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Magnetic Inclination Intuitive Navigation",
+    "mechanism_source": "lodestone navigation",
+    "target_domain": "intuitive decision making",
+    "mechanism": "Early navigators using lodestone compasses did not have a precise theory of geomagnetism — they observed that the magnetized needle consistently pointed toward a direction they learned to call north, and used that directional consistency to navigate without understanding the underlying field geometry. Magnetic declination (the difference between magnetic and true north) varied by location and was unknown to most users; skilled navigators corrected for it empirically by tracking landmark correlations without formal knowledge of its cause. The lodestone worked as a reliable directional indicator even in the absence of mechanistic understanding.",
+    "application": "Intuitive decision making functions as lodestone navigation: experienced practitioners develop reliable directional sensitivity toward optimal decisions in their domain through accumulated pattern exposure, without necessarily having explicit access to the causal mechanisms generating the signal. Like magnetic declination, systematic biases exist in intuitive judgment and vary by domain and individual — skilled practitioners implicitly correct for these through experience-based landmark correlations. The failure mode is not the lack of explicit theory but using lodestone (domain-trained intuition) in a territory where the magnetic field is inverted (a novel domain with different causal geometry).",
+    "prediction": "Domain experts making intuitive judgments in their trained domain will show higher decision accuracy than novices applying explicit decision frameworks, but experts transferred to structurally different domains will show lower accuracy than novices with explicit frameworks, because domain-trained intuition applies an incorrect magnetic correction to a different field.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Subsurface Reservoir Crisis Anticipation",
+    "mechanism_source": "geothermal geyser prediction",
+    "target_domain": "crisis anticipation",
+    "mechanism": "Geyser eruptions are predictable to the degree that the subsurface plumbing geometry is known and stable. Old Faithful erupts on a predictable interval because its reservoir, constriction tube, and surface vent maintain consistent geometry — eruption interval is directly determined by recharge time to threshold volume. Geysers with variable geometry are inherently unpredictable; those with stable geometry allow interval forecasting from the surface without any subsurface access. Precursor signals — seismic microevents, ground tilt, water temperature changes at the vent — indicate when recharge is approaching threshold and an eruption is imminent.",
+    "application": "Organizational and social crises are predictable to the degree that the underlying 'plumbing geometry' — the accumulation mechanisms for grievance, resource tension, or systemic stress — is known and stable. Where the geometry is consistent (recurring budget cycles, predictable regulatory review periods, known competitive threat patterns), crisis intervals can be estimated from surface precursor signals without access to internal conditions. Variable-geometry crises (triggered by novel exogenous shocks) are inherently less predictable. Crisis anticipation should invest in plumbing geometry mapping as its primary activity rather than in pattern-matching against surface signals alone.",
+    "prediction": "Organizations that invest in explicit mapping of their internal pressure accumulation mechanisms (identifying what conditions recharge crisis potential and what threshold triggers release) will issue crisis response protocols an average of 15 or more days earlier during unfolding crises than organizations relying on surface signal monitoring alone, because subsurface geometry knowledge allows earlier recognition of threshold approach.",
+    "viability": "promising",
+    "confidence": 0.73
+  }
+]

@@ -1,23 +1,23 @@
 [
   {
-    "name": "Spectral Leakage Literary Frame",
+    "name": "Aliasing Artifact Model of Historical Revisionism",
     "mechanism_source": "signal processing",
-    "target_domain": "literary criticism",
-    "mechanism": "When a finite-duration signal is analyzed via discrete Fourier transform, energy from one frequency component bleeds into adjacent frequency bins because the implicit rectangular window creates discontinuities at its edges. Windowing functions such as Hann or Blackman-Harris taper the signal toward zero at the edges, trading leakage suppression against frequency resolution. The leakage-resolution tradeoff is fundamental: no window function eliminates both problems simultaneously, and the choice of window encodes analytical assumptions about the signal's structure.",
-    "application": "Literary critics applying interpretive frameworks to texts face an analogous windowing problem. A Marxist or psychoanalytic lens acts as a window function: it selects which textual frequencies (themes, figures, structures) are amplified and which are attenuated, and the choice of window determines how much interpretive energy 'leaks' from intended critical categories into adjacent ones. Critics who ignore their window choice will mistake leakage artifacts — apparent textual evidence produced by the framework's own analytical boundary effects — for genuine features of the work.",
-    "prediction": "Empirical studies of peer-reviewed literary criticism comparing essays that explicitly state their interpretive frame versus those that do not will find that frameless essays produce measurably higher rates of internally contradictory evidence claims, detectable by automated coherence scoring, because unacknowledged windowing creates hidden leakage that authors mistake for convergent evidence.",
-    "viability": "speculative",
-    "confidence": 0.52
+    "target_domain": "historiography",
+    "mechanism": "Aliasing occurs when a continuous signal is sampled below the Nyquist rate — twice the highest frequency component — causing high-frequency content to fold back into the sampled spectrum as phantom low-frequency components indistinguishable from genuine ones. Once aliased, the original signal cannot be recovered from the samples alone; anti-aliasing filters must be applied before sampling, not after.",
+    "application": "Historical archives sample continuous social processes at irregular intervals determined by what contemporaries chose to record. When the sampling rate is too low for the actual tempo of social change — rapid revolutions recorded only in weekly dispatches, daily market panics preserved only in monthly ledgers — high-frequency dynamics alias into the historical record as phantom slow trends. Revisionist historians who attempt to 'reconstruct' rapid dynamics from under-sampled archives risk mistaking aliasing artifacts for genuine patterns, just as audio engineers cannot remove aliasing after digitization.",
+    "prediction": "Historical events whose documentary sampling rate falls below twice the estimated frequency of the underlying social dynamics (e.g., daily events recorded only weekly) will generate statistically more contradictory scholarly interpretations per event than well-sampled events of comparable complexity, measurable across historiographic citation networks.",
+    "viability": "promising",
+    "confidence": 0.64
   },
   {
-    "name": "Maillard Glide Path Chemistry",
+    "name": "Diacetyl Rest Protocol for Organizational Culture Change",
     "mechanism_source": "brewing chemistry",
-    "target_domain": "pension fund management",
-    "mechanism": "The Maillard reaction between reducing sugars and amino acids during kilning follows Arrhenius kinetics: reaction rate roughly doubles for every 10°C temperature increase. Brewers balance kilning temperature and time to achieve target wort color and flavor while avoiding over-caramelization that produces harsh bitterness. The reaction is irreversible past certain thresholds — once melanoidins have formed and precursors are consumed, no subsequent process can restore the original flavor profile.",
-    "application": "Pension fund glide paths embody the same time-temperature irreversibility. Higher-risk allocations function as elevated kilning temperatures: they accelerate return generation but also accelerate irreversible loss crystallization. Once a funding ratio drops below certain thresholds near liability maturity — the over-caramelization point — no recovery strategy can restore prior funding status within the required timeframe. Glide-path de-risking is the pension equivalent of lowering kiln temperature before the reaction goes too far.",
-    "prediction": "Pension funds that begin equity de-risking at funding ratios above 95% will show lower variance in terminal funding ratios at maturity compared to funds beginning de-risking below 85%, controlling for starting funding ratio and contribution rates, because the latter group is already past the Maillard irreversibility threshold when they begin de-risking.",
+    "target_domain": "organizational development",
+    "mechanism": "During lager fermentation, yeast produces diacetyl (2,3-butanedione) as a metabolic byproduct of valine synthesis. Left unchecked, diacetyl imparts an undesirable buttery off-flavor. Brewers perform a 'diacetyl rest' — raising the fermentation temperature by 2-5°C near the end of primary fermentation — which accelerates yeast reabsorption and enzymatic reduction of diacetyl to the flavorless compound acetoin. Skipping this rest permanently locks the off-flavor into the final product.",
+    "application": "Organizational culture changes produce analogous metabolic byproducts: resentment, confusion, and informal resistance generated as the organization 'ferments' new norms. A diacetyl-rest protocol would mandate a deliberate pause after the main restructuring push — a short period of slightly elevated psychological safety and communication intensity — during which the organization's own social processes reabsorb and neutralize the byproducts of change before they become permanently locked into the new culture.",
+    "prediction": "Organizations that implement a structured 4-6 week 'diacetyl rest' phase (increased communication cadence, temporary relaxation of new performance metrics) after major restructuring will show 30% lower voluntary turnover in the following 12 months compared to organizations that maintain constant restructuring intensity through completion.",
     "viability": "promising",
-    "confidence": 0.70
+    "confidence": 0.69
   },
   {
     "name": "Locard Exchange Colonization Protocol",

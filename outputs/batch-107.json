@@ -1,13 +1,13 @@
 [
   {
-    "name": "Grout Line Accessibility Heuristics",
+    "name": "Lead Line Threat Modeling",
     "mechanism_source": "stained glass",
-    "target_domain": "childhood education",
-    "mechanism": "In stained glass, the lead came network constrains the color palette to discrete bounded zones — each piece of glass is a single hue, and all chromatic complexity emerges from juxtaposition across boundaries rather than gradients within pieces. The came width itself is a design variable: wider cames create stronger visual separation and structural strength but reduce the total illuminated area, while narrower cames allow finer detail at the cost of fragility.",
-    "application": "Elementary classroom design can adopt stained glass logic: each learning zone (reading corner, lab bench, art station) should be a chromatically and functionally discrete 'pane' separated by visible boundaries (floor tape, furniture edges, color coding) whose width signals the degree of transition effort required. Wider boundaries between incompatible activities (quiet reading vs. group work) and narrower boundaries between compatible ones (art and science) mirrors came-width engineering for structural and visual coherence.",
-    "prediction": "Classrooms redesigned with explicit came-width boundary logic — wider physical separators between incompatible activity zones, narrower ones between compatible zones — will show 20% fewer off-task transitions per hour compared to open-plan classrooms of equivalent size and staffing.",
+    "target_domain": "cybersecurity",
+    "mechanism": "In stained glass, the lead came matrix defines both the structural skeleton and the visual grammar of the window. Each lead line is a boundary that simultaneously separates color fields, bears mechanical load, and channels stress. Craftspeople must anticipate where fracture will propagate under thermal expansion or impact, designing the lead network so stress paths terminate at strong anchor points rather than crossing open glass. The pattern is not decorative accident — it is structural load-path engineering.",
+    "application": "Network segmentation in cybersecurity maps directly to lead came design: firewall rules and VLAN boundaries are lead lines that must channel attack propagation toward containment points rather than allowing lateral movement across open zones. Just as a window with too few lead lines sags and cracks, a flat network with insufficient segmentation has no natural stress terminators — a single breach propagates through the full pane.",
+    "prediction": "Organizations that perform lead-line stress-path analysis — identifying nodes where attack propagation would naturally concentrate — and place security controls at those nodes will show measurably lower lateral-movement dwell times in red-team exercises than organizations using perimeter-only segmentation of equivalent cost.",
     "viability": "promising",
-    "confidence": 0.66
+    "confidence": 0.67
   },
   {
     "name": "Affinage Intervention Rhythm",

@@ -1,152 +1,152 @@
 [
   {
-    "name": "Crease Pattern Assignment Theory",
+    "name": "Crease Memory Transfer Protocol",
     "mechanism_source": "origami engineering",
     "target_domain": "escape room design",
-    "mechanism": "In computational origami, every flat-foldable crease pattern requires each crease to be assigned as a mountain or valley fold such that the Maekawa and Kawasaki theorems are simultaneously satisfied. A single mis-assignment propagates through the sheet, making the intended 3D form unachievable regardless of subsequent folds. The global locked state arises from local binary constraints interacting across the entire crease network.",
-    "application": "Escape room puzzle networks function analogously: each clue or lock acts as a crease whose 'assignment' (solved/unsolved) must satisfy local consistency rules with neighboring puzzles. Designers can audit rooms by mapping crease-assignment constraints — identifying nodes where a single player's wrong interpretation (mis-assignment) will globally block the intended solution path rather than merely delaying one branch.",
-    "prediction": "Escape rooms whose puzzle dependency graphs satisfy a 'Kawasaki-equivalent' parity condition — where every interior node has an even alternating sequence of blocking and enabling edges — will have measurably lower unresolvable-stall rates than rooms that violate this condition, detectable via session-completion logs.",
-    "viability": "promising",
-    "confidence": 0.61
-  },
-  {
-    "name": "Ink Migration Homeostasis",
-    "mechanism_source": "tattoo art",
-    "target_domain": "veterinary behavioral therapy",
-    "mechanism": "Tattoo ink particles injected into the dermis are phagocytosed by macrophages; when those macrophages die, neighboring macrophages re-ingest the same pigment clusters, maintaining the tattoo's spatial pattern for decades through iterative cellular handoffs. The stability of the image depends on the balance between macrophage turnover rate and cluster particle size — too-small particles migrate, too-large particles are rejected.",
-    "application": "In veterinary behavioral therapy, conditioned fear memories are similarly 'stored' by synaptic weight clusters that transfer between neural circuits during reconsolidation windows. The ink-migration model predicts that therapeutic interventions targeting the reconsolidation moment (analogous to the macrophage handoff) with competing behavioral signals of the right 'particle size' — intensity matched to the original trauma — will produce lasting extinction rather than suppression.",
-    "prediction": "Animals subjected to behavioral extinction trials timed to reconsolidation windows (4–6 hours post-retrieval) and matched in stimulus intensity to the original aversive event will show lower spontaneous recovery rates at 30-day follow-up than animals treated with standard fixed-interval extinction, a difference measurable via startle amplitude.",
-    "viability": "promising",
-    "confidence": 0.67
-  },
-  {
-    "name": "Mycelial Anastomosis Franchise Model",
-    "mechanism_source": "mycology",
-    "target_domain": "sourdough bakery franchise",
-    "mechanism": "When hyphae from compatible fungal colonies meet, they fuse through anastomosis, forming cytoplasmic bridges that allow bidirectional exchange of nutrients, water, and signaling molecules. Anastomosis is genetically gated by het (heterokaryon incompatibility) loci; incompatible pairings trigger programmed cell death at the junction rather than productive connection. The network's resilience derives from selective fusion rather than universal connection.",
-    "application": "Sourdough franchise expansion mirrors this: each new bakery location (hyphal tip) must achieve metabolic and cultural 'compatibility' with headquarters before cytoplasmic exchange — shared starter cultures, flour sourcing, and fermentation protocols — can flow bidirectionally. Franchise networks that enforce incompatibility checkpoints before granting location autonomy avoid the programmed-cell-death equivalent: a rogue location contaminating the brand's starter culture or fermentation identity.",
-    "prediction": "Sourdough franchises that implement a staged compatibility audit (water chemistry, flour protein content, ambient temperature alignment) before transferring live starter cultures to new locations will maintain significantly more consistent crumb structure scores across locations than franchises that ship standardized commercial yeast as a workaround, measurable via blind panel scoring.",
-    "viability": "promising",
-    "confidence": 0.72
-  },
-  {
-    "name": "Persistent Homology Route Grading",
-    "mechanism_source": "topology",
-    "target_domain": "competitive rock climbing",
-    "mechanism": "Persistent homology tracks how topological features — connected components, loops, voids — appear and disappear as a filtration parameter increases across a data manifold. A 'persistence diagram' plots each feature's birth and death, with long-lived features representing genuine structural signal rather than noise. The method is metric-independent, capturing shape without relying on coordinates.",
-    "application": "Rock climbing route complexity can be mapped as a topological filtration: holds are nodes, and a filtration parameter represents the minimum grip strength required to treat two holds as 'connected.' Persistent loops in this diagram correspond to sequences where climbers must commit to a closed movement chain before gaining rest — the topological fingerprint of crux sections. Route setters could use persistence diagrams to deliberately engineer routes where multiple crux loops appear at similar birth-death persistence values, ensuring the route has no single dominant crux.",
-    "prediction": "Routes whose persistence diagrams show multiple crux loops with persistence values within 10% of each other will receive bimodal difficulty ratings from climbers — some rating the route easier than expected, others harder — at a higher rate than routes with a single dominant loop, detectable in crowdsourced grade databases.",
-    "viability": "speculative",
-    "confidence": 0.49
-  },
-  {
-    "name": "Schelling Focal Point Narration",
-    "mechanism_source": "game theory",
-    "target_domain": "audiobook narration",
-    "mechanism": "In coordination games, Schelling focal points are solutions players converge on without communication because they are uniquely salient — a natural prominence in the strategy space. Salience is not intrinsic but contextually constructed: the same option becomes focal when cultural, linguistic, or perceptual cues make it 'stand out' relative to alternatives. Narrators in multi-player coordination games can shift which equilibrium becomes focal by altering how options are framed or ordered.",
-    "application": "Audiobook narrators function as involuntary Schelling focal-point constructors: their prosodic emphasis, pause placement, and character-voice differentiation make certain interpretations salient over others without the listener consciously choosing. Narrators who understand focal-point mechanics can deliberately distribute prosodic salience across multiple valid interpretations in ambiguous passages, preserving authorial polyvalence rather than collapsing it to one reading.",
-    "prediction": "Listeners to the same ambiguous literary passage will converge on the narrator's prosodically emphasized interpretation at rates above 80% when emphasis is concentrated, but show interpretation distributions matching the author's intended ambiguity spread when narrators are trained to use 'neutral focal distribution' techniques, measurable via comprehension surveys.",
-    "viability": "promising",
-    "confidence": 0.66
-  },
-  {
-    "name": "Thermal Annealing Seed Viability",
-    "mechanism_source": "glassblowing",
-    "target_domain": "heritage seed banking",
-    "mechanism": "After a glass piece is shaped, it must pass through a controlled annealing oven that slowly reduces temperature over hours to relieve internal stress gradients introduced during forming. Annealing works by allowing glass molecules sufficient thermal energy to reorganize and equalize stress without the piece cracking. Skipping or rushing annealing leaves frozen-in stress that causes spontaneous fracture under future thermal or mechanical shock.",
-    "application": "Heritage seeds removed from long-term cryogenic storage undergo an analogous thermal stress problem: rehydration must proceed in controlled humidity and temperature gradients to prevent membrane stress crystallization that ruptures seed cells. The glassblowing model suggests applying a 'seed annealing protocol' — staged temperature increments matched to the seed coat's thermal expansion coefficient — rather than a single-step thaw, particularly for seeds with high oil content and rigid coats.",
-    "prediction": "Heritage seed lots rehydrated using a multi-stage, temperature-ramp protocol (analogous to glass annealing curves) will demonstrate germination rates at least 15 percentage points higher than identical lots rehydrated at constant room temperature, with the advantage largest for high-lipid seeds with brittle coats like sunflower and squash, verifiable in controlled germination trials.",
+    "mechanism": "In origami, a pre-creased sheet retains structural memory that guides subsequent folds into complex forms without constant external instruction. The crease pattern encodes the full solution path before any folding begins. Designers exploit this by sequencing folds so each action reveals and enables the next.",
+    "application": "Escape room puzzles can be architected so each solved element physically or conceptually pre-creases the next challenge, making the solution path feel inevitable in hindsight rather than arbitrary. Clue artifacts are designed with embedded directionality — a rotated cipher wheel, when solved, points physically toward the next prop. This reduces frustration while maintaining the illusion of open exploration.",
+    "prediction": "Rooms designed with crease-memory sequencing will show lower hint-request rates and higher completion satisfaction scores than rooms with parallel or unstructured puzzle graphs.",
     "viability": "promising",
     "confidence": 0.74
   },
   {
-    "name": "Yeast Pitch Rate Sequencing",
-    "mechanism_source": "brewing chemistry",
-    "target_domain": "Formula 1 pit stop optimization",
-    "mechanism": "Yeast pitch rate — cells per milliliter per degree Plato — critically governs fermentation kinetics: underpitching stresses cells causing off-flavor precursors and stalled fermentation; overpitching suppresses ester production through excessive biomass competition. The optimal pitch rate is substrate-specific and varies with wort gravity, temperature, and strain, requiring brewer adjustment rather than a universal rule.",
-    "application": "Formula 1 pit stop crews face an analogous rate-matching problem: the number of mechanics assigned to each task (wheel gun, front wing, jack) represents 'pitch rate,' and both under-staffing (slow execution) and over-staffing (physical interference, communication overhead) degrade stop time. Brewing chemistry's insight is that optimal crew density is tire-compound and pit-box geometry-specific, not universal — teams should empirically derive their optimal 'pitch rate' per circuit layout and stop type (tire only vs. wing change) rather than applying a universal crew assignment.",
-    "prediction": "F1 teams that vary crew assignment density by stop-type category (tire-only vs. front wing vs. nose) based on empirically derived task-saturation curves will achieve mean stop-time reductions of 0.15–0.3 seconds versus teams using uniform crew assignments, detectable in publicly available telemetry data across a full season.",
-    "viability": "promising",
-    "confidence": 0.63
-  },
-  {
-    "name": "Luminol Chemiluminescence Scheduling",
-    "mechanism_source": "forensic science",
-    "target_domain": "community orchestra management",
-    "mechanism": "Luminol reacts with iron in hemoglobin to produce chemiluminescence only in the presence of hydrogen peroxide as oxidant; the glow is transient, peaking within seconds and fading as reagents are consumed. Forensic technicians must photograph immediately and cannot re-trigger the reaction at the same location once reagents are exhausted. Detection is a one-shot, time-critical process requiring prepared documentation infrastructure before the reaction is initiated.",
-    "application": "Community orchestras experience analogous one-shot detection windows: the brief period when a talented amateur musician is available, motivated, and not yet committed to another ensemble is a luminol-flash moment. Orchestras that pre-position their 'documentation infrastructure' — audition processes, onboarding paperwork, social integration events ready to deploy — can capture these windows; orchestras that only begin preparation after identifying a candidate lose them before the process completes.",
-    "prediction": "Community orchestras that maintain a 'standing intake pipeline' (audition slots available within 14 days, section-leader mentor pre-assigned, uniform/music on hand) will convert musician inquiries to active membership at rates more than twice those of orchestras requiring 6+ weeks of preparation after first contact, measurable via intake conversion rate tracking across ensembles.",
-    "viability": "promising",
-    "confidence": 0.69
-  },
-  {
-    "name": "Kalman Filter Compatibility Scoring",
-    "mechanism_source": "signal processing",
-    "target_domain": "professional matchmaking",
-    "mechanism": "The Kalman filter maintains a running estimate of a system's true state by combining a prior prediction (based on a dynamics model) with a noisy measurement, weighted by each source's uncertainty (Kalman gain). As new measurements arrive, the filter continuously updates both the state estimate and the uncertainty covariance, converging toward the true state as information accumulates. The filter degrades when the dynamics model is misspecified, causing the estimate to diverge from reality even with good measurements.",
-    "application": "Professional matchmaking involves the same dual-source estimation problem: a matchmaker's prior model of compatibility (based on stated preferences, demographics, past patterns) is combined with noisy observational data (reported date quality, behavioral signals). Explicitly modeling measurement noise — recognizing that a client's post-date feedback is a noisy, potentially biased signal of true compatibility — and applying Kalman-style weighted updating would prevent matchmakers from over-correcting on single data points and would flag when the prior model is diverging (i.e., when stated preferences consistently fail to predict reported satisfaction).",
-    "prediction": "Matchmaking services that implement Kalman-inspired feedback weighting — discounting post-date scores by each client's historical rating variance before updating preference models — will achieve higher long-term relationship success rates per match attempted than services using unweighted average preference updating, detectable via 12-month relationship persistence surveys.",
-    "viability": "promising",
-    "confidence": 0.58
-  },
-  {
-    "name": "No-Take Zone Spillover Mechanics",
-    "mechanism_source": "forensic science",
-    "target_domain": "marine protected area design",
-    "mechanism": "Forensic trace evidence follows Locard's exchange principle — every contact leaves a transfer — and crime scene analysts use spatial diffusion models to infer contact zones from particle distribution gradients. High-density evidence zones surrounded by decreasing gradients reveal the locus of primary contact and its secondary dispersal radius. The inverse problem (inferring source from gradient) requires knowing the dispersal kernel of the specific particle type.",
-    "application": "Marine protected area boundary design requires solving the same spatial inverse problem: fish populations in no-take zones 'spill over' into adjacent fishing areas following species-specific dispersal kernels. Rather than designing MPAs based on administrative convenience, forensic spatial gradient modeling applied to larval dispersal and adult movement telemetry data would allow managers to back-calculate the boundary location that maximizes spillover into targeted fishing grounds while maintaining interior population density above recovery thresholds.",
-    "prediction": "MPAs whose boundaries are positioned using dispersal-kernel-optimized spillover modeling will show 30% greater recovery of adjacent commercial fish biomass within 5 years compared to same-area MPAs positioned using standard distance-from-shore rules, testable via paired underwater visual census surveys at optimized vs. conventionally sited MPAs.",
+    "name": "Skin Trauma Desensitization Mapping",
+    "mechanism_source": "tattoo art",
+    "target_domain": "veterinary behavioral therapy",
+    "mechanism": "Experienced tattoo artists use a graduated pressure and pacing technique to manage client pain response, reading micro-flinches and skin tension to modulate needle depth and speed in real time. Repeated sessions create a conditioned tolerance as the nervous system habituates to controlled, predictable dermal stimuli. The artist-client feedback loop is essentially a live desensitization protocol.",
+    "application": "Veterinary behavioral therapists can formalize a stimulus-mapping approach for touch-averse animals, delivering incremental tactile inputs at graded intensities mapped to observable stress signals — analogous to the tattoo artist's real-time modulation. Session pacing is determined by the animal's autonomic recovery rate, not a fixed time schedule. This operationalizes desensitization in a measurable, repeatable clinical framework.",
+    "prediction": "Animals treated under graduated tactile mapping will reach handling compliance thresholds in fewer sessions than those treated under fixed-interval exposure protocols.",
     "viability": "promising",
     "confidence": 0.71
   },
   {
-    "name": "Graffiti Ink Weathering Prioritization",
-    "mechanism_source": "forensic science",
-    "target_domain": "graffiti removal logistics",
-    "mechanism": "Forensic document examiners use ink weathering analysis — measuring dye degradation, solvent evaporation rates, and paper oxidation profiles — to sequence when multiple inks were applied to a surface. Different ink formulations weather at known rates under UV, humidity, and temperature exposure, allowing examiners to rank application order and estimate elapsed time since deposition.",
-    "application": "Graffiti removal crews face the same ink weathering physics in reverse: aerosol paint layers applied at different times have different penetration depths and solvent bond strengths depending on elapsed time and substrate porosity. A forensic weathering assessment of each tagged surface — mapping paint age and layer sequence — would allow crews to select solvent chemistry and mechanical pressure matched to the specific ink age profile rather than applying a universal protocol that either fails on deep-penetrated old paint or damages the substrate when used on fresh paint.",
-    "prediction": "Removal crews using forensic ink-age assessment to select solvent type and application pressure will achieve full substrate restoration on at least 85% of tagged surfaces in a single treatment versus less than 60% for crews using fixed-protocol chemical application, testable in a randomized field trial across matched surface types.",
-    "viability": "speculative",
-    "confidence": 0.52
-  },
-  {
-    "name": "Emulsification Stability Flavor Mapping",
-    "mechanism_source": "soap making",
-    "target_domain": "artisanal ice cream formulation",
-    "mechanism": "Cold-process soap making achieves emulsification through saponification: triglycerides react with lye to form fatty acid salts whose hydrophilic carboxylate heads and hydrophobic carbon tails self-arrange at oil-water interfaces. The HLB (hydrophilic-lipophilic balance) of the resulting soap determines whether it stabilizes oil-in-water or water-in-oil emulsions. Superfatting — leaving a fraction of oils unsaponified — controls final skin feel by preserving free fatty acids.",
-    "application": "Ice cream formulation requires precisely the same emulsifier HLB engineering: the ratio of hydrophilic to hydrophobic groups in lecithin or mono/diglyceride emulsifiers determines whether fat globules are partially coalesced (contributing to smooth body) or fully dispersed (producing icier texture). Soap-making's systematic HLB calculation framework, applied to ice cream emulsifier blending, would allow formulators to precisely target partial coalescence levels by calculating composite HLB from mixed emulsifier ratios rather than empirical trial-and-error.",
-    "prediction": "Ice cream formulas designed using calculated composite HLB values targeting the partial-coalescence window (HLB 3.5–6.0 for the emulsifier blend) will score higher on instrumental hardness-to-melt consistency and panel smoothness ratings than formulas developed through unguided ingredient substitution, verifiable in a blinded sensory panel with texture analysis.",
-    "viability": "promising",
-    "confidence": 0.76
-  },
-  {
-    "name": "Aerial Apparatus Load Path Mnemonics",
-    "mechanism_source": "circus arts",
-    "target_domain": "competitive spelling bee coaching",
-    "mechanism": "Aerial circus performers memorize complex sequence choreography using kinesthetic load-path anchoring: each movement is associated with a specific proprioceptive sensation (centripetal pull direction, grip tension pattern) that serves as an embodied cue chain. The physical sensation sequence is more reliably retrievable under performance stress than verbal or visual memorization because kinesthetic memory is encoded in motor cortex circuits less susceptible to anxiety-induced prefrontal interference.",
-    "application": "Competitive spellers under stage stress show the same prefrontal interference pattern — their verbal memorization strategies fail precisely when retrieval is most needed. Coaching spellers to anchor word knowledge to kinesthetic sequences (tapping finger patterns for etymological roots, body position changes for letter doublings) could provide a stress-resistant retrieval pathway, allowing competitors to access spelling knowledge through motor memory when verbal recall is blocked.",
-    "prediction": "Spellers trained using kinesthetic-anchor mnemonic techniques for their top 500 challenge words will demonstrate lower error rates in high-anxiety simulation conditions (public performance, time pressure) compared to spellers trained using standard visualization and verbal repetition, with the difference largest for words the speller previously misspelled under pressure.",
-    "viability": "speculative",
-    "confidence": 0.53
-  },
-  {
-    "name": "Prosody Rhythm Station Design",
-    "mechanism_source": "morse telegraphy",
-    "target_domain": "airport lounge design",
-    "mechanism": "Morse telegraphy achieves high information transfer reliability by encoding meaning in the temporal rhythm of on/off states rather than amplitude — a dot is a 1-unit signal, a dash 3 units, and critically, inter-character and inter-word silences carry equal structural weight to the signals themselves. Operators achieve fluency when they internalize rhythm patterns as holistic units (the 'fist') rather than counting individual elements; interference causes errors primarily when it disrupts the silence-duration parsing.",
-    "application": "Airport lounge acoustic environments fail along identical lines: meaningful announcements (gate changes, boarding calls) must be parsed from background noise, and comprehension collapses not when the announcement is quieter than the background but when background noise fills the inter-word silences that carry syntactic structure. Lounge acoustic design should treat silence preservation — acoustic absorption timed to announcement inter-word gaps — as structurally equivalent to announcement amplification, following the Morse principle that the pauses carry the structure.",
-    "prediction": "Airport lounges redesigned with directional absorption panels that reduce reverberant tail energy during announcement inter-word intervals (targeting RT60 reduction specifically in the 250–1000 Hz band) will show measurably higher passenger comprehension scores on announcement content tests compared to lounges that increase announcement speaker output power by the same dB amount.",
+    "name": "Mycelial Network Franchise Topology",
+    "mechanism_source": "mycology",
+    "target_domain": "sourdough bakery franchise",
+    "mechanism": "Fungal mycelial networks allocate nutrients dynamically, routing resources from nutrient-rich nodes to starved nodes through decentralized signaling without central coordination. The network self-prunes low-yield paths and reinforces high-throughput corridors over time. Resilience comes from redundancy and the absence of single-node failure points.",
+    "application": "A sourdough franchise can model inter-location resource flow — shared starter cultures, specialist staff, bulk grain orders — on mycelial logic, routing surpluses from high-performing locations to struggling ones automatically via a shared logistics dashboard. Underperforming locations trigger resource inflow rather than punitive review. The network self-strengthens its most productive nodes while maintaining baseline viability across all.",
+    "prediction": "Franchise networks using dynamic inter-node resource allocation will show lower location closure rates and faster recovery from local supply disruptions than hierarchically managed chains.",
     "viability": "promising",
     "confidence": 0.68
   },
   {
-    "name": "Culm Node Governance Architecture",
-    "mechanism_source": "bamboo construction",
-    "target_domain": "blockchain governance",
-    "mechanism": "Bamboo culms achieve extraordinary strength-to-weight ratios through hollow cylindrical geometry reinforced at regular intervals by solid diaphragm nodes. These nodes are not merely connectors but active stress-redistribution elements: when a culm bends, compressive buckling initiates between nodes, and the node walls arrest propagation. The inter-node spacing is not arbitrary — it is tuned to the culm's diameter-to-wall-thickness ratio to keep buckling wavelength shorter than node spacing, ensuring arrest before failure propagates.",
-    "application": "Blockchain governance protocols suffer an analogous buckling-propagation problem: a governance attack (51% vote capture, validator cartel formation) that initiates in one protocol region can propagate through the entire system because there are no structural diaphragm nodes — checkpoints that arrest propagation regardless of what is happening between them. Bamboo culm architecture suggests designing governance 'nodes' at regular governance-cycle intervals: immutable parameter locks that cannot be modified by any single vote sequence, limiting attack propagation to the inter-node span.",
-    "prediction": "Blockchain protocols that implement immutable governance-cycle locks (parameters frozen for fixed epochs regardless of voting outcomes, analogous to bamboo diaphragms) will show lower incidence of governance-attack cascades in adversarial simulations than protocols with continuous parameter mutability, measurable via formal protocol analysis and historical governance attack post-mortems.",
+    "name": "Topological Hold Equivalence Classes",
+    "mechanism_source": "topology",
+    "target_domain": "competitive rock climbing",
+    "mechanism": "Topology classifies shapes by properties preserved under continuous deformation, grouping objects into equivalence classes based on connectivity rather than metric geometry. A torus and a coffee cup are topologically identical; what matters is the number and type of holes, not surface appearance. This abstraction strips away irrelevant variation to reveal structural identity.",
+    "application": "Climbing movement coaches can classify holds and body positions into topological equivalence classes based on contact-point connectivity and center-of-mass relationship, ignoring superficial grip shape differences. A crimp and a pinch on different walls may be topologically equivalent movement problems, allowing training transfer to be precisely predicted. Routesetters can design problems that systematically explore topological movement space rather than repeating structurally identical challenges in different visual guises.",
+    "prediction": "Climbers trained using topologically classified movement libraries will generalize to novel routes faster than those trained on visually diverse but structurally redundant problem sets.",
     "viability": "promising",
-    "confidence": 0.64
+    "confidence": 0.61
+  },
+  {
+    "name": "Schelling Point Voice Casting",
+    "mechanism_source": "game theory",
+    "target_domain": "audiobook narration",
+    "mechanism": "Schelling points are coordination solutions players converge on without communication, arising from shared cultural salience. In coordination games, agents select the option that stands out as the natural focal choice. The power of a Schelling point lies in its self-fulfilling obviousness within a shared cognitive frame.",
+    "application": "Audiobook publishers can select narrators whose vocal qualities form Schelling points for specific genre-listener communities — the voice that listeners in that genre would independently converge on as right for that text. This is distinct from subjective preference testing; it exploits the self-reinforcing social perception that a voice belongs to a genre. Narrators who already occupy Schelling positions in a category should command premium placement because their selection reduces listener cognitive friction and boosts completion rates.",
+    "prediction": "Audiobooks narrated by genre-Schelling-point voices will show higher listener completion rates and stronger word-of-mouth spread than those narrated by equally skilled but genre-peripheral voices.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Annealing Resilience in Seed Archive Design",
+    "mechanism_source": "glassblowing",
+    "target_domain": "heritage seed banking",
+    "mechanism": "After forming, glass must be annealed — held at a controlled elevated temperature then cooled very slowly — to relieve internal stresses that would otherwise cause spontaneous fracture. Rushing the cooling creates invisible fault lines that appear structurally sound until mechanical or thermal stress reveals the failure. The annealing schedule is as critical as the forming process.",
+    "application": "Heritage seed banks can apply an annealing logic to their acquisition and accessioning pipeline: newly collected seed lots should undergo a mandatory stabilization period — controlled humidity cycling, germination testing across temperature gradients — before being considered archive-ready. Skipping this phase creates invisible viability fault lines detectable only when the seeds are critically needed for regeneration. Accession standards should mandate documented annealing records alongside provenance data.",
+    "prediction": "Seed lots with documented post-harvest stabilization protocols will show significantly higher germination viability at decade-scale reassessment than lots accessioned under expedited intake procedures.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Fermentation Cascade Timing Model",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "Formula 1 pit stop optimization",
+    "mechanism": "Brewing fermentation proceeds through overlapping biochemical cascades — yeast glycolysis, ester formation, diacetyl reduction — where each phase has an optimal start window that depends on the completion state of the previous phase, not a fixed clock time. Brewers who time interventions to biochemical readiness rather than elapsed hours produce consistently superior results. The system is state-driven, not schedule-driven.",
+    "application": "F1 pit stop crews can model the stop as a fermentation cascade: each task (jack, wheel removal, wheel fitting, jack release) has a readiness signal from the preceding task, and the optimal trigger for each action is state-based rather than time-counted. Crew training should emphasize reading completion signals from adjacent operators rather than executing on internal counts. This reduces the coordination errors that arise when one sub-task runs long but downstream operators begin on schedule anyway.",
+    "prediction": "Pit stop crews trained on state-triggered handoff protocols will show lower variance in stop times and fewer stationary overruns than crews trained on fixed-count timing rhythms.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Trace Evidence Sectioning for Repertoire Archaeology",
+    "mechanism_source": "forensic science",
+    "target_domain": "community orchestra management",
+    "mechanism": "Forensic analysts section physical evidence in layers to reconstruct chronological history, using stratification to distinguish primary from secondary deposits and identifying contamination events. The sequence of layers encodes a timeline more reliably than any single layer's content. Cross-referencing multiple evidence streams resolves ambiguities that single-source analysis cannot.",
+    "application": "Community orchestra managers can apply forensic sectioning to repertoire and membership archives, layering historical program data, attendance records, and musician retention figures to identify which programming eras drove growth versus attrition. Rather than relying on institutional memory or current committee opinion, the stratified record becomes the primary source. This evidence-based repertoire archaeology replaces recurring arguments about what the audience wants with a recoverable factual baseline.",
+    "prediction": "Orchestras that conduct formal archival repertoire analysis before programming decisions will show better audience retention stability than those relying on committee consensus or single-season trend data.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Matched Filter Compatibility Scoring",
+    "mechanism_source": "signal processing",
+    "target_domain": "professional matchmaking",
+    "mechanism": "A matched filter maximizes signal detection by correlating the received signal against a template of the expected signal, suppressing noise while amplifying the specific pattern being sought. The filter is tuned to the target signal's shape, not to a generic strong-signal criterion. This specificity is precisely what distinguishes it from simple amplitude thresholding.",
+    "application": "Professional matchmakers can formalize compatibility assessment as a matched-filter operation: rather than scoring clients against a universal desirability metric, each client's profile becomes the template filter applied to the candidate pool, surfacing candidates whose full-dimensional profile shape correlates most strongly with that specific client's pattern. This reframes matching as signal detection rather than ranking, and explains why the best-on-paper candidate is often a false positive. Weighting dimensions by client-specific salience rather than population averages is the operational implementation.",
+    "prediction": "Matchmaking services using client-specific dimensional weighting will achieve higher reported relationship satisfaction at six-month follow-up than those using population-normed compatibility scoring.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Saponification Boundary Chemistry in Reserve Zoning",
+    "mechanism_source": "soap making",
+    "target_domain": "marine protected area design",
+    "mechanism": "Saponification requires precise stoichiometric ratios at the oil-lye interface; excess lye creates a caustic product while excess oil leaves an unsaponified fraction. The reaction proceeds from the boundary inward, meaning boundary chemistry determines the character of the whole product. Buffer zones in the reaction — superfatting — intentionally leave a small unsaponified fraction to confer desired skin-contact properties.",
+    "application": "Marine protected area designers can treat the boundary zone between fully protected no-take areas and adjacent extractive-use waters as an active interface where the character of both zones is co-determined. Buffer zones with intermediate use rules serve the superfatting function — deliberately leaving productive capacity partially accessible at the margin to sustain boundary-zone fish populations that seed both the reserve interior and the extraction zone. Boundary precision in MPA design means the transition gradient matters as much as the protected core acreage.",
+    "prediction": "MPAs with formally designed graduated buffer zones will show higher fish biomass in adjacent extractive waters than MPAs with hard no-take boundaries and no buffer, at equivalent total protected area.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Aerial Rigging Load Path Optimization",
+    "mechanism_source": "circus arts",
+    "target_domain": "graffiti removal logistics",
+    "mechanism": "Circus riggers distribute load across multiple anchor points using force vectors calculated to keep each anchor within safe working limits while enabling dynamic loading from performers in motion. The rigging plan maps load paths before any equipment is installed, and the sequence of attachment points determines the system's redundancy and failure modes. Efficient rigging minimizes equipment while maximizing coverage and safety margin.",
+    "application": "Graffiti removal teams operating on complex building facades — columns, overhangs, curved surfaces — can apply rigging load-path logic to their equipment placement, pre-mapping anchor points and access vectors before mobilizing. This replaces the common practice of ad-hoc scaffold placement adjusted on-site, which creates coverage gaps and unnecessary resets. A pre-computed access map reduces crew hours per facade by eliminating repositioning caused by unplanned geometric obstructions.",
+    "prediction": "Removal crews using pre-computed facade access maps derived from geometric load-path analysis will complete complex facade jobs in fewer mobilizations than crews using standard scaffold-and-assess methods.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Keying Interval Texture in Flavor Sequencing",
+    "mechanism_source": "morse telegraphy",
+    "target_domain": "artisanal ice cream formulation",
+    "mechanism": "Morse code encodes information through the ratio and rhythm of marks and spaces — dit and dah durations, inter-element gaps, and inter-word silences — rather than through mark intensity alone. Skilled operators recognize messages through temporal pattern, not signal strength. The spaces carry as much meaning as the signals.",
+    "application": "Artisanal ice cream formulators can design flavor sequencing in multi-component recipes on a temporal texture logic analogous to Morse rhythm: primary flavor compounds are marks, and the textural or fat-based elements between them function as spaces that define the perceivable rhythm of the eating experience. Adjusting inclusion particle size and melt rate controls inter-flavor interval timing. A formula is not just a list of flavors but a scored temporal sequence of perception events.",
+    "prediction": "Ice cream formulas designed with explicit inter-flavor interval targets will score higher on complexity and finish in blind tastings than formulas balanced only on ingredient proportion ratios.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Culm Grading Stress-Zone Assignment",
+    "mechanism_source": "bamboo construction",
+    "target_domain": "competitive spelling bee coaching",
+    "mechanism": "Skilled bamboo builders grade culms by fiber density, internode length, and wall thickness, then assign each culm to the structural role matching its load profile — high-density culms to compression members, flexible culms to tension elements. Misassignment wastes material and creates failure risk; correct assignment produces a structure stronger than any uniform material plan. The grading process is as technically demanding as the construction itself.",
+    "application": "Spelling bee coaches can apply culm-grading logic to word list assignment: each competitor is assessed across multiple difficulty axes — etymological pattern recognition, phonemic ambiguity tolerance, memory under pressure — and words are assigned to practice categories matching the competitor's stress-profile vulnerabilities rather than a standardized difficulty ladder. A student with strong classical root knowledge but weak phonemic ambiguity tolerance gets dense drilling in the latter, not general hard-word practice. Grading the learner before assigning load is the operative principle.",
+    "prediction": "Competitors trained under individualized vulnerability-mapped word assignment will outperform those trained on standardized frequency-ranked word lists at equivalent total practice hours.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Escapement Dead-Zone Buffering in Dwell Space Design",
+    "mechanism_source": "watchmaking",
+    "target_domain": "airport lounge design",
+    "mechanism": "A watch escapement contains a brief dead zone — a micro-pause engineered into the gear interaction where neither drive nor resistance is applied — that allows the oscillator to swing freely before the next impulse. This dead zone is not wasted time; it is the interval during which energy imparted in the previous cycle completes its work. Removing the dead zone destroys the oscillator's regularity.",
+    "application": "Airport lounge designers can engineer deliberate dead-zone spaces — transitional decompression zones between the entry threshold and the main lounge floor — where no service, no screens, and no wayfinding signage compete for attention. These zones allow arriving passengers to complete the psychological transition from terminal stress before entering the service environment. Current lounge design typically begins stimulation at the entry point, undermining the recovery function the lounge is meant to serve.",
+    "prediction": "Lounges with designated transitional dead-zones at entry will show higher passenger-reported stress recovery scores and longer voluntary dwell times than lounges with immediate service engagement at entry.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Tap Tuning Frequency Cascade in Governance Token Design",
+    "mechanism_source": "luthiery",
+    "target_domain": "blockchain governance",
+    "mechanism": "Luthiers tap-tune instrument plates by tapping the wood and listening for resonant frequency modes, then carving to shift specific modes into prescribed harmonic relationships. The goal is a frequency cascade where lower modes support upper ones without destructive interference. Altering one mode inevitably shifts others, so the tuner works the whole system iteratively rather than fixing modes in isolation.",
+    "application": "Blockchain governance designers can treat voting-power token distribution as a frequency cascade: the fundamental mode is plutocratic concentration, and higher modes are minority participation, proposal diversity, and quorum dynamics. Interventions targeting one dimension — such as quadratic voting to reduce concentration — shift the others in ways that must be anticipated and retuned. Governance designers should model the full modal cascade before deploying any single mechanism change rather than treating each mechanism as independent.",
+    "prediction": "Governance systems designed using full-modal cascade modeling will experience fewer coordination failures and lower proposal reversal rates within twelve months of deployment than systems that implement isolated mechanism changes.",
+    "viability": "incoherent",
+    "confidence": 0.45
   }
 ]

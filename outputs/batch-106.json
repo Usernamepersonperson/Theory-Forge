@@ -1,13 +1,13 @@
 [
   {
-    "name": "LeadCaming Protocol",
+    "name": "Zinc White Fire Sequencing",
     "mechanism_source": "stained glass",
-    "target_domain": "cybersecurity",
-    "mechanism": "In traditional stained glass, individual colored panes are held together by H-profile lead strips called came. The came is mechanically folded around each glass edge, creating a watertight seal and structural integrity for the whole panel. Critically, the came itself is a relatively soft, ductile metal—it absorbs stress and flexes slightly under thermal expansion and wind pressure rather than transmitting that stress into the brittle glass. The joint between came and glass is not adhesive but compressive, relying on physical confinement.",
-    "application": "Network segmentation architecture mirrors this logic: network zones (panes) should be bounded by ductile, flexible boundary controllers (came) that absorb inter-zone stress—authentication tokens, rate-limiting, protocol translation—rather than forcing rigid, brittle direct connections. Each boundary controller must conform to the edge geometry of the zone it protects, accepting irregularities in traffic shape rather than demanding uniform packets. When pressure mounts (DDoS, lateral movement), the boundary layer deforms controllably rather than shattering the interior.",
-    "prediction": "Networks designed with explicit boundary absorption layers between every zone pair will show lower lateral-movement blast radii in red-team exercises than flat or simple VLAN-segmented networks of equivalent node count, measurable by the percentage of assets compromised per lateral-movement chain.",
+    "target_domain": "corporate mergers",
+    "mechanism": "Traditional stained glass windows are assembled in stages: individual colored glass panes are first cut and shaped, then painted with grisaille and enamel details, then fired in a kiln to fuse the painted layers to the glass surface, and only then leaded together into the final panel. Each firing stage must fully complete before the next begins—firing painted pieces before the previous layer is fully cured causes blistering and delamination. The sequential dependency between stages is non-negotiable: the window's structural integrity depends on honoring the firing order.",
+    "application": "Post-merger integration fails when sequential stage dependencies are violated by parallel execution pressure. Cultural integration (painting the grisaille) cannot occur before the organizations have been formally structured together (cutting the panes); technology integration (fusing layers) cannot succeed before cultural alignment has been established. Mergers that attempt to run all integration workstreams simultaneously experience the stained glass equivalent of firing undercured layers—surface integration that delaminates under operational stress within 18 months.",
+    "prediction": "Mergers that document and enforce sequential stage-gate dependencies between integration workstreams (with formal completion criteria before advancing) will show lower integration failure rates at 24 months than mergers using fully parallel integration planning, verifiable through post-merger performance data in matched acquisition studies.",
     "viability": "promising",
-    "confidence": 0.71
+    "confidence": 0.70
   },
   {
     "name": "Affinage Trust Gradient",
