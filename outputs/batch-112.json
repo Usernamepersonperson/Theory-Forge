@@ -20,44 +20,44 @@
     "confidence": 0.69
   },
   {
-    "name": "Locard Exchange Colonization Protocol",
+    "name": "Blood Spatter Pattern Analysis for Network Intrusion Forensics",
     "mechanism_source": "forensic science",
-    "target_domain": "space colonization",
-    "mechanism": "Locard's exchange principle holds that every physical contact leaves a bilateral trace: a perpetrator deposits material at a scene and removes material from it. Modern forensic trace analysis uses scanning electron microscopy with energy-dispersive X-ray spectroscopy to identify transferred glass fragments, paint chips, and fiber types at microgram quantities. The analytical power comes from the bilateral, irrevocable nature of transfer — contact cannot occur without mutual contamination.",
-    "application": "Space colonization generates an identical bilateral trace problem: every habitat, suit, and tool carries Earth-origin biological and chemical signatures that must be tracked to prevent forward contamination of target bodies and backward contamination of Earth. A Locard-based colonization protocol would mandate bidirectional material-trace logging at every human-environment interface — recording what biological and chemical material each crew member, robot, and vehicle delivers to and removes from each zone — treating contamination as an irrevocable exchange rather than a preventable event.",
-    "prediction": "Analog habitat missions that implement bidirectional trace logging from mission inception will detect contamination propagation events at least 40% earlier than those relying on endpoint swab testing alone, as demonstrated in controlled trials at Antarctic stations or Mars-analog desert sites where contamination events can be verified against introduced tracers.",
+    "target_domain": "cybersecurity forensics",
+    "mechanism": "Bloodstain pattern analysis reconstructs the dynamics of violent events by measuring spatter droplet size, shape (ellipticity reveals impact angle), distribution pattern (cast-off versus impact versus projected), and convergence geometry (tracing droplet trajectories backward to locate the area of origin in 3D space). The physics of blood — a non-Newtonian fluid with known surface tension and viscosity — constrains the inverse problem: droplet diameter encodes velocity, tail direction encodes trajectory, and satellite spatter encodes secondary impacts.",
+    "application": "Network intrusion forensics can adopt spatter analysis methodology: data exfiltration packets are 'droplets' whose size (payload volume), shape (encoding and fragmentation patterns), distribution (destination diversity), and timing (cast-off versus impact patterns) encode the dynamics of the breach event. Tracing packet trajectories backward from detection points to reconstruct the area of origin — the initial compromise point — mirrors the geometric convergence method used in physical bloodstain analysis.",
+    "prediction": "Intrusion forensics teams using spatter-convergence analysis (geometric back-tracing of exfiltration packet characteristics to identify breach origin) will correctly identify the initial compromise point in post-incident investigations at least 25% faster than teams using conventional log-timeline methods, in controlled red-team exercise evaluations.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Drafting Slip-Stream Model of Academic Citation Networks",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "academic publishing",
+    "mechanism": "In competitive swimming, drafting behind another swimmer reduces hydrodynamic drag by 10-20% by exploiting the reduced-pressure wake zone behind the lead swimmer. The benefit is asymmetric: the drafter gains a significant energetic advantage while the leader receives no benefit and may even experience slightly increased drag from trailing-edge turbulence. Draft position is strategic — too close risks collision, too far loses the wake benefit — and the optimal gap scales with the leader's body size and velocity.",
+    "application": "Academic citation follows identical drafting dynamics: papers published immediately behind a high-profile paper in the same topic area experience reduced 'visibility drag' by riding in the citation wake of the lead paper. The benefit is asymmetric — the follower paper gains citations through bibliographic coupling while the lead paper receives no reciprocal benefit. The optimal publication gap (typically 3-9 months after a landmark paper) balances being close enough to ride the wake against being so close that the paper appears redundant.",
+    "prediction": "Papers published within 3-9 months after a highly cited landmark paper on the same topic will receive 20-40% more citations in their first three years than equally novel papers published either simultaneously with or more than 18 months after the landmark, controlling for journal impact factor and author h-index.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Decoder Ring Vulnerability Model of API Security",
+    "mechanism_source": "lock picking",
+    "target_domain": "API security design",
+    "mechanism": "Lock picking bypasses intended key-based access by exploiting physical tolerances that create information leakage: binding order reveals pin heights, click feedback confirms successful sets, and tension wrench torque provides a side-channel readout of internal state. The fundamental vulnerability is that the lock's mechanical feedback was designed for key operation but inadvertently communicates internal state to adversaries through the same physical interface.",
+    "application": "API endpoints leak analogous side-channel information through response timing, error message specificity, and behavioral differences between valid-but-unauthorized and invalid requests. A lock-picking-informed API security model would audit every endpoint for information leakage that, while designed for legitimate client feedback, inadvertently reveals internal state to attackers — treating each distinct error response as a 'click' that narrows the adversary's search space.",
+    "prediction": "APIs audited using a lock-picking side-channel framework (cataloging all distinguishable response patterns and measuring the information leaked per interaction) will show at least 40% fewer successful enumeration attacks in penetration testing compared to APIs audited using conventional OWASP checklists alone.",
     "viability": "promising",
     "confidence": 0.71
   },
   {
-    "name": "Drag Quadratic Parsing Load",
-    "mechanism_source": "competitive swimming",
-    "target_domain": "psycholinguistics",
-    "mechanism": "Hydrodynamic drag on a swimmer scales with the square of velocity: doubling stroke rate quadruples drag force, rapidly overwhelming thrust capacity. Elite swimmers therefore optimize stroke efficiency at sub-maximal stroke rates rather than attempting maximal stroke frequency. Tumble turns are designed to exploit wall momentum precisely because recovering momentum from a near-stop requires far more energy than maintaining it — drag physics makes recovery disproportionately expensive.",
-    "application": "Sentence parsing follows a structurally similar quadratic cost function at syntactic garden paths. When a reader constructs an initial parse that must be abandoned, the reanalysis cost is not proportional to the distance traveled along the incorrect parse — it scales superlinearly with syntactic commitment depth, because each additional embedded decision based on the initial parse must be individually reversed. The swimming model predicts that garden-path severity should scale quadratically with the depth of syntactic embedding reached before disambiguation, not linearly.",
-    "prediction": "Reading time measures at garden-path disambiguation points should fit a quadratic rather than linear function of the number of syntactic decisions committed prior to disambiguation, detectable in eye-tracking corpora where disambiguation position and prior commitment depth can be independently coded, and this fit should hold across languages with different canonical word orders.",
-    "viability": "speculative",
-    "confidence": 0.50
-  },
-  {
-    "name": "False Set Choreographic Binding",
-    "mechanism_source": "lock picking",
-    "target_domain": "dance choreography",
-    "mechanism": "Single-pin picking exploits manufacturing tolerances in pin tumbler locks: rotational tension causes pins to bind sequentially in tolerance order. A picker lifts each binding pin to the shear line, feeling it set, before moving to the next. Security spool pins introduce deliberate false sets — the hourglass-shaped pin body catches at the shear line in an intermediate state, requiring the picker to momentarily reduce tension to allow full setting. Missing this cue and maintaining full tension causes the pin to counter-rotate and unset.",
-    "application": "Choreographers developing ensemble phrases encounter binding in the same sequential order: each dancer's technical and expressive constraints creates binding points in the movement vocabulary that prevent the phrase from setting cleanly. A false-set choreography method would deliberately hold partial phrase completions in rehearsal, reading which movement ideas bind — resist fluid execution — and resolving those constraints before attempting to fully set the phrase, rather than drilling complete phrases until compliance forces the resistance underground rather than genuinely resolving it.",
-    "prediction": "Ensemble pieces developed using constraint-first iterative phrase-setting (resolving movement binding points in the sequence the ensemble reveals them) will show statistically fewer individual dancer deviations in final performances compared to pieces developed by full-phrase drilling, measurable by motion-capture deviation analysis from a notated score ideal.",
-    "viability": "promising",
-    "confidence": 0.63
-  },
-  {
-    "name": "Burst Apex Relief Staging",
+    "name": "Star Composition Color Theory of Fireworks-Inspired Data Visualization",
     "mechanism_source": "pyrotechnics",
-    "target_domain": "disaster relief logistics",
-    "mechanism": "Aerial firework shells use a delay composition between the lift charge and the burst charge, calibrated so the burst occurs at the apex of the shell's trajectory where velocity is momentarily zero and the resulting star pattern expands symmetrically. If the delay burns too quickly, the shell bursts below apex and stars are forced downward by residual momentum; too slowly and the burst occurs in descent, producing an asymmetric pattern. Multi-break shells layer multiple burst compositions at different time-delays after the primary burst, each deploying a distinct effect into the expanding space left by the prior break.",
-    "application": "Disaster relief resource deployment faces the identical burst-sequencing problem: deploying all resource categories simultaneously overwhelms local absorption capacity, just as simultaneous breaks compete for the same spatial volume. A pyrotechnic staging model pre-packages relief resources into sequenced layers, each released only after field confirmation that the prior layer has been absorbed and distributed — the burst apex is the moment of maximum community absorption capacity, not an arbitrary calendar date. Multi-break protocol means each resource type (search-and-rescue, medical, water, food, shelter) has a calculated delay from the prior type based on observed absorption rates.",
-    "prediction": "Relief operations that use absorption-confirmation-gated staged deployment (each resource category releases upon verified distribution completion of the prior category) will achieve at least 25% higher effective utilization rates of delivered goods compared to operations using simultaneous or calendar-scheduled release, in populations receiving equivalent resource volumes across comparable disaster types.",
+    "target_domain": "data visualization design",
+    "mechanism": "Pyrotechnic star composition determines color through metal salt chemistry: strontium carbonate for red, barium chlorate for green, copper compounds for blue. Achieving clean colors requires precise oxidizer-fuel ratios and the suppression of competing emission wavelengths through chlorine donors that form volatile metal chlorides with narrow emission bands. Color purity is the primary challenge — most compositions produce a broad emission spectrum contaminated by incandescent carbon and sodium impurities that wash out intended hues.",
+    "application": "Data visualization color palettes face the same purity-contamination tradeoff: each data category should map to a perceptually distinct 'emission band,' but chart backgrounds, gridlines, annotations, and adjacent colors act as spectral contaminants that wash out intended distinctions. A pyrotechnic color-purity approach would design visualization palettes by first characterizing the 'spectral contamination' of the display context (background luminance, competing UI elements, adjacent data series) and then selecting data colors whose perceptual emission bands remain distinguishable despite that contamination.",
+    "prediction": "Data visualizations designed using contamination-aware color selection (palette chosen relative to measured background and context chromaticity) will produce faster and more accurate category identification in user studies compared to visualizations using context-independent palettes like ColorBrewer defaults, across both light and dark display modes.",
     "viability": "promising",
-    "confidence": 0.74
+    "confidence": 0.68
   },
   {
     "name": "Spine Flexibility Preservation Model",
@@ -100,14 +100,14 @@
     "confidence": 0.67
   },
   {
-    "name": "Carnot Efficiency Immigration Engine",
+    "name": "Maxwell's Demon Model of Content Moderation Labor",
     "mechanism_source": "thermodynamics",
-    "target_domain": "immigration policy",
-    "mechanism": "The Carnot efficiency limit establishes that no heat engine operating between a hot reservoir at T_H and a cold reservoir at T_C can convert more than η = 1 − T_C/T_H of input heat to work. All real engines fall short of this limit due to irreversibilities: friction, heat conduction across finite temperature gradients, and turbulence. The second law guarantees that attempts to exceed the Carnot limit are impossible, and that the only legitimate paths to higher efficiency are raising T_H or lowering T_C.",
-    "application": "Immigration sorting systems are thermodynamic engines that attempt to extract economic and social value from population flows while minimizing negative externalities. The Carnot framing reveals irreducible processing inefficiencies — fraudulent applications, misclassified refugees, skilled workers lost to processing delays — as thermodynamic necessities rather than administrative failures. The maximum extractable value depends on the quality differential between sending and receiving labor markets; policy proposals claiming to eliminate processing waste without changing this fundamental temperature differential are second-law violations.",
-    "prediction": "Across OECD immigration systems, bureaucratic complexity measured by number of distinct visa categories and processing stages will show a significant negative correlation with throughput efficiency measured as ratio of approved-and-economically-integrated migrants to total applicants, after controlling for application volume, legal migration targets, and receiving-country labor market conditions.",
+    "target_domain": "content moderation",
+    "mechanism": "Maxwell's demon is a thought experiment in which an intelligent agent sorts fast and slow gas molecules between two chambers, apparently decreasing entropy without doing work. Landauer's principle resolves the paradox: the demon must erase information about each molecule's state after processing it, and this erasure has a minimum thermodynamic cost of kT ln 2 per bit, ensuring total entropy still increases. The demon's cognitive labor is physically real work, not free.",
+    "application": "Content moderators are Maxwell's demons sorting acceptable from unacceptable content between the public feed and the removed-content chamber. Platform economics often treats this sorting as zero-cost cognitive labor, but Landauer's principle applies: each moderation decision requires the moderator to process, judge, and then erase (psychologically suppress) disturbing content, with a real cognitive-thermodynamic cost per decision. The model predicts that moderation systems cannot reduce content entropy below a floor set by the moderator's information-erasure capacity — their psychological processing bandwidth — regardless of how many moderators are employed.",
+    "prediction": "Content moderator accuracy (true positive rate for policy violations) will decline measurably after a threshold number of decisions per shift that corresponds to their information-erasure capacity, and this threshold will be lower for categories requiring higher cognitive processing (contextual hate speech) than for categories requiring lower processing (obvious spam), testable via platform moderation queue data.",
     "viability": "promising",
-    "confidence": 0.63
+    "confidence": 0.73
   },
   {
     "name": "Cercarial Penetration Lighting Design",

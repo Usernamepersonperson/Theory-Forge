@@ -1,142 +1,152 @@
 [
   {
-    "name": "Propolis Barrier Sealing Framework",
+    "name": "Hive Superorganism Deck Architecture",
     "mechanism_source": "beekeeping",
     "target_domain": "competitive Magic: The Gathering",
-    "mechanism": "Honeybees collect plant resins to manufacture propolis, an antimicrobial compound used to seal cracks, reduce entrance size, and coat foreign objects inside the hive. The bees apply it selectively based on threat assessment, concentrating propolis at high-risk entry points. The material hardens on curing, creating a rigid defensive perimeter that does not impede internal traffic. This asymmetric investment—heavy sealing at vulnerable junctions, minimal interior application—maximizes colony survivability per unit of foraging cost.",
-    "application": "In competitive Magic: The Gathering, deckbuilders can apply propolis logic to sideboard construction by identifying the specific entry points opponents exploit—graveyard recursion, artifact synergies, combat step pivots—and investing heavily in targeted hate cards for those vectors while keeping the main deck uncluttered. Rather than hedging broadly, the framework prescribes concentrating defensive density around the most statistically common attack vectors in a given metagame. The sealed crack becomes a two-card sideboard package that shuts out an entire archetype.",
-    "prediction": "Sideboards constructed with high-concentration propolis logic—three copies of two hate cards targeting the top metagame archetype—will achieve better match win rates than equivalent-slot sideboards spread across four or more target archetypes, detectable in tournament result databases across at least two formats with stable metagames.",
-    "viability": "promising",
-    "confidence": 0.67
-  },
-  {
-    "name": "Harmonic Constituent Decomposition for Urban Heat",
-    "mechanism_source": "tide prediction",
-    "target_domain": "urban heat island mitigation",
-    "mechanism": "Tidal prediction decomposes the sea surface height signal into a sum of sinusoidal harmonic constituents, each tagged to a specific astronomical forcing frequency—M2 (principal lunar semidiurnal), S2 (solar semidiurnal), K1 (lunisolar diurnal), and dozens more. The method of harmonic analysis, established by Lord Kelvin, fits amplitudes and phases for each constituent using least-squares regression on historical tide gauge records. Superimposing all fitted constituents then predicts future tide height with sub-centimeter accuracy years in advance. The technique succeeds because the forcing is periodic and the ocean response is nearly linear.",
-    "application": "Urban heat island intensity varies with overlapping periodic drivers—solar insolation cycles (daily and seasonal), anthropogenic waste-heat schedules (weekday vs. weekend), and boundary-layer flushing by mesoscale wind circulations. Treating hourly temperature anomaly data from a dense sensor network as a composite signal and decomposing it into constituent heat harmonics can isolate which driver dominates at which frequency. Planners can then schedule cool-surface treatments, irrigation pulses, or traffic restrictions to destructively interfere with dominant constituents rather than applying static interventions.",
-    "prediction": "Cities that schedule dynamic albedo interventions according to a harmonic constituent forecast model will reduce mean heat island intensity by at least 15% more than cities using fixed-schedule interventions, measurable over three consecutive summers with a sensor array of at least 50 stations.",
+    "mechanism": "A honeybee colony operates as a distributed decision-making superorganism where individual workers perform specialized roles—foragers, nurses, guards, and scouts—with no central coordinator. The colony's resilience comes from redundancy and role-switching under stress: when forager populations drop, nurse bees transition roles within hours. Swarm intelligence emerges from waggle dance communication, where scouts advertise resource sites and the colony reaches consensus through repeated signaling.",
+    "application": "A Magic deck can be architected on the same principle: individual cards serve specialized roles (threats, interaction, card draw, mana fixing), but the optimal build maintains redundant role-fillers so the deck functions when key cards are answered. Sideboard construction mirrors colony adaptation—under metagame pressure, swap specialists to reconfigure the deck's functional roles without losing coherence.",
+    "prediction": "Decks designed with explicit role-redundancy ratios (at least two cards per functional role) will show higher win-rate consistency across diverse metagame environments than equivalently powered decks with unique role-holders.",
     "viability": "promising",
     "confidence": 0.71
   },
   {
-    "name": "Size-Bath Sequencing Principle in NICU Sensory Care",
+    "name": "Harmonic Thermal Sink Mapping",
+    "mechanism_source": "tide prediction",
+    "target_domain": "urban heat island mitigation",
+    "mechanism": "Tide prediction uses harmonic analysis, decomposing observed water-level time series into a sum of sinusoidal constituents—each tied to an astronomical forcing frequency such as the M2 semidiurnal lunar tide or the S2 solar tide. Amplitudes and phases for each constituent are fitted to historical gauge data, allowing future water levels to be predicted by summing the reconstructed harmonics. This separates predictable periodic forcing from stochastic residuals like storm surge.",
+    "application": "Urban heat islands exhibit strong periodic temperature signatures—diurnal cycles driven by solar insolation, weekly cycles tied to human activity patterns, and seasonal envelopes. Applying harmonic decomposition to dense urban sensor networks isolates the predictable thermal forcing from anomalous heat events, enabling planners to schedule cool-surface interventions, irrigation pulses, or transit-based ventilation at the specific phase of each cycle where marginal impact is greatest.",
+    "prediction": "Cities that schedule reflective pavement treatments and vegetation irrigation using harmonic phase-optimized timing will achieve measurably greater peak temperature reduction per dollar spent than cities using fixed-calendar schedules.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Marbling Surface Tension Care Sequencing",
     "mechanism_source": "paper marbling",
     "target_domain": "neonatal intensive care",
-    "mechanism": "In Turkish ebru and Western paper marbling, pigment drops spread on a size bath—a viscous medium of carrageenan or ox gall—according to surface tension differentials. Smaller drops added after larger ones cannot occupy already-occupied surface zones and instead tessellate into remaining gaps. Craftspeople exploit this size-exclusion behavior by sequencing pigment additions to control pattern granularity and spatial organization. The viscosity of the size bath is the primary control variable: higher viscosity slows spreading and preserves finer detail at the cost of total coverage area.",
-    "application": "NICU developmental care increasingly recognizes that sensory inputs compete for limited neonatal attentional bandwidth analogously to competing surface domains on a size bath. The marbling framework suggests care interventions should be sequenced by priority mass—introducing high-value sensory inputs (kangaroo care, caregiver voice) first to establish dominant pattern domains, then interspersing lower-priority clinical procedures in interstitial windows. The infant's arousal state maps to bath viscosity: low-arousal states permit wider spreading of stimuli, while high-arousal states compress available bandwidth and require smaller, faster interventions.",
-    "prediction": "NICU care schedules structured with marbling sequencing—anchoring a 30-minute kangaroo contact session before any procedural cluster—will show lower cortisol spike magnitude in premature infants (28–34 weeks corrected) compared to conventional schedules, measurable via salivary cortisol sampling within 15 minutes post-procedure.",
+    "mechanism": "Paper marbling suspends pigments on a viscous carrageenan or ox-gall size medium where surface tension differentials determine pigment spread and pattern formation. When a drop of color with lower surface tension hits the size, it spreads laterally and displaces adjacent colors, creating expanding cells. The sequence of color additions and stylus manipulations is non-reversible—each intervention permanently changes the surface topology and constrains all subsequent moves.",
+    "application": "Neonatal intensive care interventions are similarly path-dependent and irreversible: a given sequence of oxygen supplementation, feeding protocol introduction, and skin-contact scheduling produces different developmental outcomes than the same interventions reordered. Recognizing this, NICU care teams can map intervention dependencies the way a marblist sequences drops—front-loading lowest-disruption interventions to preserve the widest option space for later critical decisions.",
+    "prediction": "NICUs that formally sequence care interventions using dependency-graph planning (modeling which interventions constrain future options) will show lower rates of iatrogenic complications than units using ad-hoc or round-based scheduling.",
     "viability": "speculative",
-    "confidence": 0.49
+    "confidence": 0.48
   },
   {
-    "name": "Depth-Layered Revelation in Influencer Campaign Architecture",
-    "mechanism_source": "ice sculpting",
+    "name": "Subduction Slab Pull and Viral Content Gravity",
+    "mechanism_source": "plate tectonics",
     "target_domain": "influencer marketing",
-    "mechanism": "Ice sculptors work from the outside inward, removing material in staged passes with chainsaws, chisels, and die grinders. Each pass reveals a deeper structural layer; the sculptor must anticipate the final form while managing heat transfer that can melt surface detail before deep structure is complete. Controlled melt—using heat guns selectively—is also a finishing technique that rounds sharp edges and creates translucency. The medium is inherently lossy and time-bounded, requiring prioritization of which features to complete based on ambient temperature and event timing.",
-    "application": "Influencer marketing campaigns can be structured as time-bounded depth-revelation sequences: initial posts expose the broadest block form of a product story (brand identity, category), middle-phase content progressively chisels to feature specifics, and final-phase content uses selective melt—emotionally warm storytelling and personal testimonials—to soften hard-selling edges. Campaign timing should front-load rough-cut impression volume while reserving precise detail content for audiences already warmed by prior exposure.",
-    "prediction": "Influencer campaigns structured as three-phase depth-revelation sequences (awareness block, feature chisel, emotional melt) will outperform single-burst or flat-cadence campaigns on purchase conversion rate by at least 20% when tracked via UTM codes over a 30-day attribution window, controlling for total spend and audience size.",
+    "mechanism": "At convergent boundaries, the gravitational descent of a dense oceanic slab drives subduction and drags the trailing plate with it—a self-reinforcing process called slab pull where increasing depth increases slab density, amplifying the driving force. Back-arc extension develops behind the subduction zone as the slab retreats, creating zones of rapid spreading controlled entirely by the slab's own dynamics. The force is distributed: no single contact point drives the system, but the cumulative weight of the slab dominates over ridge-push and mantle drag combined.",
+    "application": "Viral influencer content exhibits analogous self-reinforcing gravitational dynamics: once a post crosses an engagement threshold, algorithmic amplification increases visibility, which drives further engagement, densifying the signal and pulling more viewers into the content's orbit. Back-arc equivalent zones emerge as secondary creators post reactions and commentary, extending the content's reach through adjacent social spaces. Brands can position content to benefit from slab-pull by seeding posts just below the algorithmic threshold and providing a small engagement subsidy—the equivalent of initiating subduction—after which the system becomes self-driving.",
+    "prediction": "Influencer posts that receive a coordinated engagement boost within the first 30 minutes of publication (sufficient to cross platform algorithmic amplification thresholds) will achieve final reach metrics at least four times higher than equivalent posts without early intervention, measurable via A/B testing on matched content pairs.",
     "viability": "promising",
-    "confidence": 0.63
+    "confidence": 0.70
   },
   {
-    "name": "Cross-Dating Vitality Signals in Heritage Language Revitalization",
-    "mechanism_source": "dendrochronology",
+    "name": "Living Root Vocabulary Propagation",
+    "mechanism_source": "mycorrhizal networks",
     "target_domain": "heritage language revitalization",
-    "mechanism": "Dendrochronology cross-dates tree-ring sequences from multiple specimens by aligning their distinctive wide-narrow ring patterns, which reflect shared climatic events. A master chronology is built by overlapping sequences from living trees with beams from historical structures, extending the record centuries beyond any single specimen. The key insight is that signal correlation across specimens is achievable only when each ring represents a real environmental event rather than internal growth noise; cross-dating separates climatic signal from biological variance. Pointer years—rings of exceptional narrowness or width—serve as reference anchors for alignment.",
-    "application": "Heritage language communities can apply cross-dating by treating each speaker's lexical and phonological profile as a ring sequence. Shared archaisms or phoneme shifts that appear across multiple speaker generations serve as pointer-year anchors—events that affected all community members simultaneously. Cross-dating the idiolects of elder speakers against partial records of middle-generation learners creates a master phonological chronology, identifying which features have been consistently transmitted versus which are idiosyncratic. Revitalization programs can then target documented break-point features rather than assuming uniform decay.",
-    "prediction": "Revitalization curricula designed using cross-dated phonological chronologies will produce higher intelligibility ratings from elder speakers evaluating learner speech at 24 months compared to curricula designed without cross-dating analysis, detectable in a controlled study across at least three heritage language communities.",
-    "viability": "promising",
-    "confidence": 0.68
-  },
-  {
-    "name": "Anchor Point Consistency Framework for Roller Coaster Design",
-    "mechanism_source": "archery",
-    "target_domain": "roller coaster design",
-    "mechanism": "In target archery, the anchor point is the repeatable contact position of the draw hand against the face—typically the thumb knuckle at the jaw or the index finger at the corner of the mouth. Consistent anchoring is the single most important variable for shot-to-shot repeatability because it fixes the rear end of the arrow's trajectory; even small deviations of 2–3 mm produce significant point-of-impact displacement at 18 meters. Archers train anchor point consistency before any other technical element, using kinesthetic bone-to-bone contact as the primary feedback cue. The anchor also fixes draw length, which governs stored energy and arrow speed.",
-    "application": "Roller coaster profiles produce predictable passenger experience when kinesthetically distinct anchor moments—brief, clear postural reference points—are placed consistently relative to peak forces. After a launch or lift crest, riders have zero proprioceptive anchor and are most vulnerable to disorientation. Placing a high-g inversion immediately after a crest is equivalent to an archery release at inconsistent anchor: the experience is jarring. The framework prescribes inserting brief zero-g parabolic arcs as reset anchors before major inversions, giving riders a proprioceptive baseline before the next force peak.",
-    "prediction": "Roller coaster inversion sequences with a zero-g reset arc inserted before each major inversion will score higher on rider comfort ratings in post-ride surveys than matched profiles without resets, controlling for peak g-force level, detectable across at least three coaster installations.",
-    "viability": "promising",
-    "confidence": 0.61
-  },
-  {
-    "name": "Olfactory Pyramid Temporal Weighting in Pet Adoption Algorithms",
-    "mechanism_source": "perfumery",
-    "target_domain": "pet adoption algorithms",
-    "mechanism": "Classical perfumery structures a fragrance as a three-tiered pyramid: top notes (citrus, light aldehydes) provide the immediate impression that fades within 15–30 minutes as the most volatile compounds evaporate; heart notes (florals, spices) constitute the true character and persist 2–4 hours; base notes (musks, resins, woods) anchor the dry-down and last 6–12 hours. Each tier interacts chemically with skin and other notes; a well-constructed accord ensures that the experience at every evaporation stage is harmonious. The time-sequenced reveal means a fragrance must be evaluated across all three phases to be truly judged.",
-    "application": "Pet adoption algorithms typically match adopters to animals on immediate-impression features—appearance, breed, size—analogous to top notes, while ignoring the slower-revealing personality traits and long-term compatibility factors that constitute the behavioral base notes. A perfumery-informed algorithm would weight immediate visual cues at low confidence, require data from heart-note interactions (15-minute supervised play session scores) before weighting personality compatibility, and use adopter lifestyle data to model long-term dry-down fit. Adopter profiles should themselves be decomposed into what draws them initially versus what sustains attachment.",
-    "prediction": "Pet adoption platforms using a three-tier temporally weighted matching algorithm will show 30-day return rates at least 25% lower than platforms using appearance-first matching, measurable across a dataset of at least 500 adoptions with follow-up contact at 30 and 90 days post-adoption.",
-    "viability": "promising",
-    "confidence": 0.74
-  },
-  {
-    "name": "String Hierarchy Control Model for Craft Distillery Operations",
-    "mechanism_source": "puppetry",
-    "target_domain": "craft distillery operations",
-    "mechanism": "Marionette performance involves a hierarchical control structure: the puppeteer's primary hand governs the main control bar, which is segmented into independently tiltable sub-bars for legs, arms, and head. String length determines the resting position of each limb; tension in a string produces displacement proportional to force applied divided by string stiffness. Complex actions require coordinating multiple sub-bars simultaneously while the performer manages body weight transfer and spatial orientation in three dimensions. The illusion of organic movement emerges from the dynamic interaction of many simple constraint relationships rather than direct programming of each limb.",
-    "application": "Craft distillery operations involve layered control hierarchies: grain bill ratios control the primary fermentation substrate, yeast strain selection governs fermentation character, still cut points determine flavor band capture, and barrel entry proof adjusts wood interaction rate. Like marionette strings, each variable has an independent resting state and a responsive displacement when perturbed. The framework treats master distillers as puppeteers managing a primary control bar (fermentation parameters) with dependent sub-bars (still operation, maturation). Mapping the true string lengths—the lag times between input change and measurable output effect—is the core operational discipline.",
-    "prediction": "Distilleries that formally map parameter lag times (hours from grain-bill change to fermentation pH shift, days from cut-point change to sensory score change) will reduce batch-to-batch flavor variance by at least 20% within 18 months compared to distilleries using experience-based informal control, measurable via GC-MS flavor compound panels.",
+    "mechanism": "Mycorrhizal fungi form hyphal networks connecting root systems of multiple plants, transferring carbon, water, phosphorus, and signaling compounds bidirectionally. Established mother trees support seedlings through the network during their light-limited establishment phase, subsidizing growth until the seedling can sustain photosynthetic independence. Network connectivity—not just individual plant health—determines forest regeneration success after disturbance.",
+    "application": "Heritage language revitalization succeeds not through isolated learner instruction but through network connectivity: fluent elder speakers (mother trees) must be functionally connected to younger partial speakers through repeated, low-stakes interaction contexts. Revitalization programs that create dense social network ties between elders and youth—daily activity contexts rather than classroom sessions—allow vocabulary and pragmatic knowledge to flow along relationship channels the way nutrients flow through hyphae.",
+    "prediction": "Heritage language programs that engineer at least three elder-youth interaction hours per week in naturalistic contexts will show higher speaker fluency gains over five years than programs with equivalent instructional hours in formal classroom settings.",
     "viability": "promising",
     "confidence": 0.69
   },
   {
-    "name": "Acetification Front Dynamics in Investigative Journalism",
-    "mechanism_source": "fermentation",
-    "target_domain": "investigative journalism",
-    "mechanism": "In acetic acid fermentation, Acetobacter bacteria oxidize ethanol to acetic acid at a liquid-air interface, forming a dynamic mother-of-vinegar biofilm that migrates as substrate is consumed. The oxidation front advances through the bulk liquid at a rate limited by oxygen diffusion, not by bacterial abundance; increasing surface area accelerates production more than increasing bacterial density. The process is strongly temperature sensitive: above 32°C Acetobacter denature, below 20°C activity nearly ceases. The mother biofilm both catalyzes the reaction and protects against contaminating organisms by lowering local pH.",
-    "application": "Investigative journalism's exposure boundary—the point where sources have been interviewed, documents verified, and corroboration achieved—advances fastest when surface area is maximized: parallel simultaneous document requests, multiple simultaneous source contacts, and distributed team members covering different geographic nodes of a story. Concentrating resources on a single interview chain is equivalent to increasing bacterial density without expanding the air-liquid interface, producing diminishing returns. Institutional hostility maps to high temperature: under hostile press conditions, the exposure front collapses regardless of reporter effort.",
-    "prediction": "Investigative journalism teams that explicitly track reporting surface area (number of distinct active source lines and document request threads open simultaneously) will publish more corroborating-source stories per reporter-month than teams with equivalent hours concentrated in sequential interview chains, detectable in a survey study of at least 20 investigative units across three countries.",
-    "viability": "speculative",
-    "confidence": 0.51
-  },
-  {
-    "name": "Isoline Navigation Matching for Organ Transplant Allocation",
-    "mechanism_source": "cartography",
-    "target_domain": "organ transplant matching",
-    "mechanism": "Topographic cartography represents continuous scalar fields as isoline networks—curves connecting points of equal value. Isolines never cross, and their spacing encodes gradient steepness: tightly packed isolines indicate rapid change, widely spaced ones indicate gentle slopes. Navigation along isolines minimizes effort expenditure, while crossing isolines maximizes rate of change. A watershed is a connected region within a drainage divide, determinable entirely from isoline topology without knowing absolute elevations. Contour analysis reveals saddle points—minimum-barrier passes between adjacent drainage basins.",
-    "application": "Organ transplant compatibility is a multi-dimensional scalar field where each dimension—HLA antigen match, blood type, crossmatch result, ischemic time tolerance, size compatibility—defines a gradient. Current allocation algorithms navigate this space via sequential threshold filtering, equivalent to crossing isolines arbitrarily. An isoline navigation approach would define multi-dimensional compatibility surfaces and route allocation decisions along near-equivalent compatibility contours, preferring donor-recipient pairs that stay close to the same compatibility level across all dimensions rather than excelling on one dimension while failing another.",
-    "prediction": "Transplant allocation models using multi-dimensional isoline surface navigation will select donor-recipient pairs with lower predicted delayed graft function rates than sequential-threshold models on the same historical dataset, detectable in a retrospective simulation on at least 5,000 kidney transplant cases.",
-    "viability": "promising",
-    "confidence": 0.72
-  },
-  {
-    "name": "Reynolds Number Threshold Model for Theme Park Queue Design",
-    "mechanism_source": "turbulence theory",
-    "target_domain": "theme park queue design",
-    "mechanism": "Turbulence in a boundary layer is characterized by chaotic vortex shedding, high momentum exchange perpendicular to flow direction, and a sharp transition from laminar flow at a critical Reynolds number (Re ≈ 5 × 10⁵ for a flat plate). Prandtl's mixing-length theory describes how turbulent eddies transport momentum; larger eddies carry energy from the mean flow and cascade it to smaller scales until viscous dissipation occurs. The turbulent boundary layer has three sub-layers: viscous sublayer (laminar-like, immediately adjacent to the wall), buffer layer (transitional), and log-law region (fully turbulent).",
-    "application": "Theme park queues exhibit analogous layered flow structures. Guests near queue walls move slowly and predictably due to barrier friction, analogous to the viscous sublayer; those in the queue center experience highest throughput but also maximum social turbulence—crowding anxiety and personal space violations. Queue design can apply mixing-length theory by calibrating queue width to keep crowd density below a turbulence transition threshold, and inserting periodic chicanes to re-laminarize flow. Themed environments act as wall-roughness elements that either trip turbulence or suppress it depending on the level of visual engagement they induce.",
-    "prediction": "Queue designs using variable-width chicane profiles calibrated to maintain crowd density below 2.0 persons per square meter will show lower self-reported anxiety scores and higher throughput per unit queue length than straight queues at matched density, measurable in controlled experiments at two or more theme park installations.",
-    "viability": "promising",
-    "confidence": 0.66
-  },
-  {
-    "name": "Quantum Tunneling Probability in Professional Mentorship Barriers",
-    "mechanism_source": "quantum mechanics",
-    "target_domain": "professional mentorship programs",
-    "mechanism": "Quantum tunneling describes the phenomenon where a particle with insufficient classical energy to surmount a potential barrier has a finite probability of appearing on the far side. Tunneling probability decreases exponentially with barrier width and the square root of the energy deficit: T ∝ exp(−2d√(2m(V−E))/ħ). For thin, low barriers, tunneling rates are significant; for thick or high barriers, they are negligible. This is not random guessing but a precise consequence of the particle's wave function extending continuously through the barrier, and the probability is exactly calculable from barrier geometry.",
-    "application": "Career advancement barriers exist for many mentees—credential gaps, network exclusion, organizational invisibility. Direct classical advancement requires accumulating all prerequisites before transition, but mentoring functions as tunneling: the mentor's network connections and advocacy allow the mentee's professional wave function to extend through a barrier, enabling transitions that would classically require years of credential accumulation. Crucially, the framework predicts that single thin barriers (one missing credential or network node) are highly tuneable by mentorship, while multiple compounding exclusions create thick barriers where tunneling probability drops exponentially regardless of mentor quality.",
-    "prediction": "Mentorship programs pairing mentees with single-barrier career gaps will produce promotion rates at least 2x those of programs pairing mentees with multiple compounding barriers, even when mentor quality is held equal by seniority and network size, detectable in a longitudinal study of at least 300 mentorship pairs over 36 months.",
-    "viability": "speculative",
-    "confidence": 0.53
-  },
-  {
-    "name": "Hub-Tree Topology in Coworking Space Design",
-    "mechanism_source": "mycorrhizal networks",
-    "target_domain": "coworking space design",
-    "mechanism": "Mycorrhizal networks connect plant root systems via fungal hyphae, enabling bidirectional transfer of carbon, phosphorus, nitrogen, and water between trees. Carbon flows preferentially from photosynthetically active source plants toward shaded sink plants, reversing seasonally or during stress events. Network topology is not random: hub trees maintain hyphal connections with far more neighbors than peripheral trees, creating a scale-free structure where hub removal dramatically reduces network connectivity. Defense-priming chemical signals also travel through the network, allowing hub trees to warn neighbors of herbivore attack.",
-    "application": "Coworking spaces can be designed with mycorrhizal topology principles by identifying hub desks—locations naturally hosting frequent informal interaction due to adjacency to kitchens, printers, and collaboration zones—and deliberately routing high-value amenities through those nodes. Resource transfer between members (skill sharing, referrals, equipment lending) follows hub-mediated paths; designing furniture arrangements that maximize hub connectivity increases overall community resilience. Just as defense signals travel the network under stress, well-connected hubs can rapidly disseminate crisis information to all members when capacity or facility issues arise.",
-    "prediction": "Coworking spaces redesigned to maximize hub-mediated adjacency by placing high-traffic amenities near the top 20% of interaction-density nodes will show higher member-reported collaboration rates and longer membership retention at 12 months than spaces with uniform amenity distribution, measurable via usage tracking and exit surveys.",
+    "name": "Ice Stress Fracture Load Distribution in Coaster Spines",
+    "mechanism_source": "ice sculpting",
+    "target_domain": "roller coaster design",
+    "mechanism": "Ice sculptors manage crystalline stress by understanding that ice fractures propagate preferentially along crystal grain boundaries and that thermal gradients create internal stresses that can spontaneously crack a block. Controlled scoring and chisel placement direct crack propagation along desired lines, while temperature management slows or accelerates the stress release. Bulk material removal through chainsaw cuts must account for how weight redistribution changes internal stress fields.",
+    "application": "Roller coaster structural spines experience dynamic load distributions that shift moment-to-moment as train mass moves through curves and hills. Designers can model the coaster spine as an ice block under evolving stress: identifying grain-boundary analogs (welded joints, cross-beam intersections) where crack propagation risk concentrates, then engineering controlled stress-relief features—expansion joints and sacrificial flex points—that direct fatigue failure to inspectable, replaceable components.",
+    "prediction": "Coaster spine designs incorporating stress-relief flex points positioned at finite-element-identified maximum dynamic stress concentration nodes will show lower cumulative fatigue crack propagation rates over a ten-year inspection cycle than designs using uniform cross-section spines.",
     "viability": "promising",
     "confidence": 0.65
   },
   {
-    "name": "Deaccession Volcanism Model for Rare Book Collecting",
-    "mechanism_source": "plate tectonics",
-    "target_domain": "rare book collecting",
-    "mechanism": "At convergent plate boundaries, the denser oceanic plate subducts beneath the lighter continental plate and descends into the mantle. As it descends, increasing pressure and temperature drive dehydration reactions in hydrated minerals, releasing water that lowers the melting point of the overlying mantle wedge and triggers arc volcanism. The subducted material is not destroyed but transformed: its chemical signature reappears in arc magmas as distinctive trace element enrichment patterns (high Ba/Ta, low Nb/Ta). Over geological time, formerly subducted material is recycled back to the surface, completing a geochemical cycle.",
-    "application": "Rare book markets operate with a subduction-like recycling cycle. Institutional libraries—dense, stable continental plates—absorb copies from private collectors (more dynamic oceanic plates); copies entering institutional custody effectively subduct, removed from the open market for decades or centuries. When institutions deaccession (the analog of arc volcanism), previously subducted copies resurface, often transformed by provenance addition, conservation treatment, or new cataloguing. Collectors who track deaccession cycles at major libraries can anticipate volcanic events—auction appearances of long-absent copies—and position bids accordingly before auction house valuation catchesup.",
-    "prediction": "Collectors who systematically monitor institutional deaccession announcements and model expected resurfacing timelines based on acquisition date distributions will achieve auction purchase prices at least 15% below market mean for equivalent-condition copies, detectable in auction result data over a five-year tracking period.",
+    "name": "Ring-Width Variance as Behavioral Sensitivity Signal",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "pet adoption algorithms",
+    "mechanism": "Dendrochronology reads annual growth rings to reconstruct past climate variability: narrow rings indicate stress years (drought, cold, competition), while wide rings signal favorable conditions. Crossdating aligns ring series from multiple trees to build a master chronology, revealing not just average growth but variance patterns—how a particular tree responded to environmental stress relative to its cohort. High variance indicates stress-sensitive individuals; low variance indicates buffered, resilient ones.",
+    "application": "Pet behavioral history contains analogous variance signals: an animal's behavior across multiple shelter intake records, foster placements, and behavioral assessments constitutes a time series. Matching algorithms can compute a stress-response variance score from this series, identifying animals likely to be sensitive to environmental disruption versus resilient ones. Adopters are then matched not just on lifestyle fit but on their household's stability relative to the pet's demonstrated stress sensitivity.",
+    "prediction": "Adoption matching algorithms that incorporate behavioral variance scores derived from multi-placement histories will show lower return rates at six months than algorithms matching solely on current behavioral profile and adopter lifestyle survey.",
     "viability": "promising",
-    "confidence": 0.60
+    "confidence": 0.66
+  },
+  {
+    "name": "Arrow Spine Resonance and Distillery Cut Timing",
+    "mechanism_source": "archery",
+    "target_domain": "craft distillery operations",
+    "mechanism": "Arrow flight accuracy depends critically on dynamic spine—the arrow's flex response during the paradox phase as it bends around the bow riser immediately after release. An arrow with insufficient spine over-corrects and fishtails; one with excessive spine under-corrects. Optimal spine is matched to draw weight and point mass, creating a resonant flex cycle that straightens before the arrow exits the bow's influence. The tuning is iterative: small changes in point weight or draw weight shift the ideal spine window.",
+    "application": "Distillery heads, hearts, and tails cuts in a pot still run exhibit a similar tuning sensitivity: the transition points between fractions depend on still geometry, wash composition, and distillation rate in a non-linear, interactive way. Treating cut timing as a dynamic resonance problem—where the distiller iteratively adjusts run rate and temperature to tune the system so hearts cuts arrive cleanly—frames the process optimization as spine matching rather than fixed-threshold measurement.",
+    "prediction": "Distilleries that use iterative run-rate adjustment protocols (varying flow rate across a series of small test runs to find the rate that sharpens hearts-cut boundaries) will produce spirits with lower fusel alcohol carryover into hearts fraction than distilleries using fixed rate-and-temperature protocols.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Accord Evidentiary Structure",
+    "mechanism_source": "perfumery",
+    "target_domain": "investigative journalism",
+    "mechanism": "Perfumers construct accords by combining top, middle, and base notes that interact chemically and temporally: top notes evaporate first and create initial impression, middle notes emerge as the accord's character, and base notes anchor and fix the fragrance over hours. A well-built accord cannot be reduced to any single note—the perceptual whole emerges from the interaction. Some combinations create off-notes that mask flaws in cheap materials; experienced noses identify these masking structures.",
+    "application": "Investigative stories are built from evidentiary accords: documentary sources provide stable base notes, human sources provide volatile top notes that create immediate narrative momentum but decay in reliability, and on-the-record institutional responses provide the middle layer that defines the piece's lasting character. Journalists can audit their evidentiary accord for masking structures—human sources whose emotional vividness is covering for documentary gaps—the way a nose identifies synthetic fixatives masking weak base materials.",
+    "prediction": "Investigative pieces published with explicit source-type ratios (proportion of documentary versus human-source evidence) will show lower rates of post-publication factual corrections than pieces where source composition is not tracked during editing.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Projection Distortion in Organ Matching",
+    "mechanism_source": "cartography",
+    "target_domain": "organ transplant matching",
+    "mechanism": "Every map projection preserves some geometric properties (area, shape, distance, direction) while distorting others—the Mercator projection preserves local angles but distorts area at high latitudes, making Greenland appear comparable to Africa. Cartographers choose projections based on which distortions are acceptable given the map's purpose. No projection can simultaneously preserve all properties; the choice is an explicit tradeoff declaration that shapes what decisions the map supports.",
+    "application": "Organ-recipient compatibility scoring is analogous to projection choice: the current additive KDPI/EPTS scoring system preserves clinical urgency at the cost of distorting biological compatibility geometry—HLA mismatch and sensitization interact nonlinearly with ischemic time in ways that additive scoring cannot represent. Explicitly declaring which matching properties the scoring system preserves and which it distorts allows transplant centers to apply local corrections in the known distortion zones, the way navigators apply chart corrections in areas of known systematic error.",
+    "prediction": "A transplant matching model incorporating nonlinear interaction terms between HLA mismatch level and panel reactive antibody score will outperform the current additive KDPI/EPTS scoring system in predicting five-year graft survival in a retrospective cohort analysis.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Fermentation Lag Phase and Queue Entry Design",
+    "mechanism_source": "fermentation",
+    "target_domain": "theme park queue design",
+    "mechanism": "Fermentation proceeds through distinct phases: lag (yeast adaptation, enzyme induction, no net growth), exponential (rapid cell division, metabolite production), stationary (resource limitation, secondary metabolite peaks), and decline. The lag phase duration is determined by inoculum health, temperature, and medium complexity—managing it shortens total fermentation time and improves batch consistency. Brewers adjust pitch rate and nutrient supplementation specifically to minimize lag without inducing osmotic stress.",
+    "application": "Theme park queues have an analogous lag phase: guests entering a queue experience initial orientation time (reading signage, assessing crowd density, choosing merge lanes) before settling into passive wait mode. Queue designers who treat this entry-adaptation phase explicitly—providing rich sensory input, narrative immersion cues, and legible queue structure in the first 200 meters—can shorten the perceptual lag and improve overall wait satisfaction without changing actual wait time.",
+    "prediction": "Queues with explicitly designed entry-enrichment zones (first 10% of queue length featuring dense theming and interactive elements) will score higher on post-experience wait satisfaction surveys than queues with evenly distributed theming at equivalent total theming budget.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Kolmogorov Cascade in Mentorship Knowledge Transfer",
+    "mechanism_source": "turbulence theory",
+    "target_domain": "professional mentorship programs",
+    "mechanism": "In fully developed turbulence, the Kolmogorov energy cascade describes how kinetic energy injected at large scales passes through a hierarchy of progressively smaller eddies until viscous dissipation converts it to heat at the Kolmogorov microscale. The cascade is largely scale-independent in the inertial subrange: energy transfer rate remains constant across intermediate scales regardless of specific eddy geometry. Large-scale injection must pass through all intermediate scales—it cannot bypass the cascade.",
+    "application": "Mentorship knowledge transfer follows the same cascade logic: wisdom and strategic perspective injected at the senior mentor level cannot leap directly to junior mentee behavior without passing through intermediate cognitive and practice scales (conceptual understanding, then deliberate practice, then integrated skill). Programs that treat mentorship as direct senior-to-junior knowledge transfer—without scaffolding the intermediate eddies of peer discussion, reflective practice, and low-stakes application—lose energy to heat at each bypassed scale, resulting in advice that is heard but not internalized.",
+    "prediction": "Mentorship programs that structure knowledge transfer across three explicit scales (conceptual framing sessions with mentor, peer application sessions with cohort, and solo reflective journaling) will show higher mentee skill application rates at six-month follow-up than programs relying solely on direct mentor-mentee dialogue.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Quantum Decoherence and Coworking Focus Fragmentation",
+    "mechanism_source": "quantum mechanics",
+    "target_domain": "coworking space design",
+    "mechanism": "Quantum decoherence describes how a system in superposition loses coherence through entanglement with environmental degrees of freedom—each interaction with the environment projects the system from a superposition of states into a classical probability distribution. Decoherence time scales inversely with environmental coupling strength: more interactions per unit time collapse the superposition faster. Once decoherence occurs, the original quantum information is irreversibly dispersed into environmental degrees of freedom and practically unrecoverable.",
+    "application": "A knowledge worker's focused cognitive state resembles a fragile superposition: attentional coherence allows parallel processing of complex problem threads, but each environmental interruption (notification, ambient conversation, visual motion) acts as a decoherence event, collapsing the cognitive superposition into a single, lower-bandwidth classical state. Coworking space design can extend cognitive decoherence time by reducing environmental coupling density—acoustic separation, visual flow management, and notification-free zones—in a way that parallels isolating a quantum system from its thermal bath.",
+    "prediction": "Coworking spaces with acoustically isolated deep-work zones (achieving at least 10 dB ambient noise reduction versus open floor) will show measurably higher rates of task completion and self-reported flow state among occupants compared to open-plan coworking spaces of equivalent occupancy, measured via survey and task-completion logging.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Puppet String Tension Beacon Navigation",
+    "mechanism_source": "puppetry",
+    "target_domain": "avalanche victim search",
+    "mechanism": "Marionette control depends on string tension geometry: the puppeteer reads the puppet's position through proprioceptive feedback transmitted along strings, with tension differentials encoding the puppet's weight distribution and momentum. Skilled puppeteers build a three-dimensional mental model of the puppet's state from this multi-string tension map, making anticipatory adjustments before visual confirmation of position. The string network functions as a real-time spatial sensing system operating entirely through indirect signal.",
+    "application": "Avalanche transceivers emit 457 kHz magnetic field signals whose flux lines form elliptical three-dimensional patterns that rescuers navigate by reading signal strength gradients—an indirect spatial sensing task the analogy frames as string-tension reading. The training transfer claim rests on this structural similarity, but the motor skill domains differ substantially: puppeteer proprioception involves fine hand-tension sensitivity, while beacon search involves full-body navigation through unstable terrain. The mechanism by which one skill set transfers to the other is not specified.",
+    "prediction": "Avalanche rescue trainees who complete beacon search training using three-dimensional flux-field visualization exercises will achieve lower mean probe-strike times in standardized single-burial drills than trainees using standard protocol training, but the effect will not replicate reliably across independent training programs given the tenuous motor-transfer basis.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Loss Aversion Sunk-Cost Rare Book Valuation",
+    "mechanism_source": "behavioral economics",
+    "target_domain": "rare book collecting",
+    "mechanism": "Prospect theory establishes that losses loom approximately twice as large as equivalent gains in subjective value, and that reference points shift dynamically as a transaction progresses. The endowment effect—valuing owned objects more than equivalent unowned objects—is a loss-aversion artifact: once a collector owns a book, selling it is experienced as a loss rather than a gain, distorting willingness-to-accept relative to willingness-to-pay. Sunk cost bias further inflates retention value: money spent on acquiring, binding, or provenance-researching a book becomes a psychological barrier to rational repricing.",
+    "application": "Rare book collectors and dealers systematically overprice inventory relative to current market-clearing values because the reference point for each book is the acquisition price rather than the current bid. This produces bid-ask spreads that widen as acquisition prices diverge from current market conditions, slowing market liquidity. Auction houses that present books as drawn from a pool (the 'new' framing) rather than as a specific owner's possession (the 'loss' framing) reduce the endowment effect in sellers, narrowing reserve price gaps and improving clearance rates.",
+    "prediction": "Rare book auction lots presented with anonymous consignor framing (no seller provenance narrative) will achieve higher clearance rates than matched lots from the same catalog presented with named-collection provenance framing, controlling for book quality and reserve price level.",
+    "viability": "speculative",
+    "confidence": 0.55
   }
 ]

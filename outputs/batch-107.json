@@ -126,8 +126,8 @@
     "mechanism": "Knot theory studies topological equivalence classes of closed curves in 3-space. Two knots are equivalent if related by Reidemeister moves — local deformations that preserve crossing structure. Knot invariants (Jones polynomial, Alexander polynomial) remain constant under all such moves and characterize the knot's intrinsic topology regardless of how it is drawn or deformed on the page.",
     "application": "Harmonic progressions can be treated as knot-like objects where voice-leading represents spatial path and the invariant is harmonic function under transformation. The same functional progression (ii–V–I) can be drawn many ways — different voicings, tritone substitutions, modal interchange — as Reidemeister-equivalent deformations that preserve underlying harmonic topology. Composers can use this to generate maximally varied reharmonizations guaranteed to preserve functional coherence.",
     "prediction": "Musicians with formal harmonic training will rate chord progressions as functionally equivalent at above-chance accuracy when progressions are voice-leading Reidemeister-equivalent, and at near-chance accuracy for progressions differing in harmonic crossing number even when surface texture is matched.",
-    "viability": "speculative",
-    "confidence": 0.47
+    "viability": "incoherent",
+    "confidence": 0.46
   },
   {
     "name": "Unit Cell Defect Governance Audit",
