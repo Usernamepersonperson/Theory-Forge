@@ -7,9 +7,9 @@ The white space (per the PRD): no one has built a tool that maps the *structure*
 ## Current scale
 
 - **853 seed theories** across **205 domains** — from mycology to metallurgy, glaciology to glassblowing, kintsugi to cryptography
-- **2100+ generated frameworks** across 140 collision batches
-- **61 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
-- **2070 unique ranked frameworks** — mean confidence 0.663, top confidence 0.83
+- **2400+ generated frameworks** across 160 collision batches
+- **81 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
+- **2341 unique ranked frameworks** — mean confidence 0.660, top confidence 0.83
 
 ## How it works
 
@@ -23,10 +23,10 @@ That's the whole loop. ~300 lines.
 ## Files
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
-- [server.py](server.py) — FastAPI v0.5: 18 endpoints including batch forge, rankings, deep dives, stats, search, export, and domain network graph.
+- [server.py](server.py) — FastAPI v0.7: 30 endpoints including Research Assistant, visualizations, batch forge, rankings, deep dives, stats, search, export, and domain network graph.
 - [theories.json](theories.json) — decomposed seed dataset (853 entries across 205 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
-- [web/index.html](web/index.html) — tabbed UI: forge, batch forge, rankings, deep dives, theories browser, stats dashboard, history.
+- [web/index.html](web/index.html) — 12-tab UI: forge, research assistant, batch forge, rankings, deep dives, theories, stats, network, heatmap, timeline, genealogy, history.
 - [outputs/](outputs/) — generated collision batches, rankings, and deep-dive analyses.
 
 ## Run
@@ -80,6 +80,11 @@ GET  /recommend?limit=&strategy=              collision recommendations (coverag
 GET  /chain/{name}?depth=                     framework exploration chain
 GET  /synthesis?domain=&top_n=&format=        synthesis report (markdown/html)
 GET  /tag-analysis                            tag frequency and domain spread
+GET  /domain-heatmap                          Jaccard similarity matrix for all domains
+GET  /genealogy                               seed theory → framework lineage tree
+GET  /timeline                                when each domain was first explored
+GET  /compare?names=a,b,c                     side-by-side framework comparison
+GET  /surprise-chain?depth=                   random high-confidence 10-hop chain
 ```
 
 ## UI tabs
@@ -87,13 +92,16 @@ GET  /tag-analysis                            tag frequency and domain spread
 | Tab | What it does |
 |-----|-------------|
 | **forge** | Pick two domains or click "surprise me" to collide random theories. Search box for existing frameworks. |
-| **research** | Research Assistant: semantic search (embeddings), collision recommendations (3 strategies), framework chain explorer, synthesis report generator with markdown download. |
+| **research** | Research Assistant: semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). |
 | **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
 | **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |
 | **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |
-| **theories** | Browse all 514 seed theories grouped by domain, with full decomposition and tags. |
+| **theories** | Browse all 853 seed theories grouped by domain, with full decomposition and tags. |
 | **stats** | Dashboard with counts, viability breakdown, confidence stats, domain coverage, mechanism source charts, and export buttons (JSON/CSV). |
 | **network** | Interactive force-directed graph showing domain connections. Drag nodes, hover for details. |
+| **heatmap** | Interactive domain similarity heatmap — Jaccard overlap between all 205 domains on a color-coded canvas matrix. |
+| **timeline** | Discovery timeline — cumulative chart showing when each domain was first explored, batch-by-batch domain list. |
+| **genealogy** | Theory genealogy tree — which seed theories produced the most frameworks, expandable offspring list. |
 | **history** | Expandable list of all collision batches with framework details. |
 
 ## Why this shape
