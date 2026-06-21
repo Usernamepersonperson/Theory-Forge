@@ -9,7 +9,7 @@ The white space (per the PRD): no one has built a tool that maps the *structure*
 - **853 seed theories** across **205 domains** — from mycology to metallurgy, glaciology to glassblowing, kintsugi to cryptography
 - **2400+ generated frameworks** across 160 collision batches
 - **81 deep-dive analyses** with mapped components, falsifiable predictions, and experimental designs
-- **2341 unique ranked frameworks** — mean confidence 0.660, top confidence 0.83
+- **2371 unique ranked frameworks** — mean confidence 0.659, top confidence 0.83
 
 ## How it works
 
