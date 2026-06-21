@@ -123,12 +123,30 @@
   .badge-promising { background:#1a3a1a; color:var(--acc); }
   .badge-speculative { background:#3a2a1a; color:var(--warn); }
   .badge-incoherent { background:#3a1a1a; color:var(--bad); }
+
+  /* Research Assistant */
+  .ra-section { margin:20px 0; }
+  .ra-section h3 { color:var(--blue); font-size:14px; margin:0 0 8px; }
+  .rec-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+              padding:12px 16px; margin:8px 0; }
+  .rec-score { color:var(--acc); font-weight:bold; font-size:14px; }
+  .rec-reason { color:var(--mut); font-size:12px; margin:4px 0 0; }
+  .rec-domains { color:var(--fg); font-size:13px; }
+  .chain-node { display:flex; align-items:center; gap:12px; padding:10px 0;
+                border-bottom:1px solid var(--br); }
+  .chain-arrow { color:var(--acc); font-size:18px; }
+  .chain-link-type { color:var(--purple); font-size:10px; text-transform:uppercase; }
+  .strategy-btn { padding:6px 12px; }
+  .strategy-btn.active { border-color:var(--acc); color:var(--acc); background:rgba(126,231,135,.1); }
+  .sem-result { padding:10px 0; border-bottom:1px solid var(--br); font-size:13px; cursor:pointer; }
+  .sem-result:hover { color:var(--acc); }
+  .sem-score { color:var(--blue); font-size:11px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
-  <span class="version">v0.5</span>
+  <span class="version">v0.6</span>
   <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
@@ -136,6 +154,7 @@
 <main>
   <div class="tabs">
     <div class="tab active" data-tab="forge">forge</div>
+    <div class="tab" data-tab="research">research</div>
     <div class="tab" data-tab="batch">batch forge</div>
     <div class="tab" data-tab="rankings">rankings</div>
     <div class="tab" data-tab="deep-dives">deep dives</div>
@@ -164,6 +183,54 @@
     <div id="spotlight" style="margin-top:20px"></div>
     <h3 style="margin-top:32px; color:var(--mut); font-size:13px;">top candidate cross-domain pairs</h3>
     <div id="pairs"></div>
+  </div>
+
+  <!-- RESEARCH ASSISTANT TAB -->
+  <div class="tab-content" id="tab-research">
+    <div class="ra-section">
+      <h3>semantic search</h3>
+      <div class="row">
+        <input id="sem-q" placeholder="search by meaning, not just keywords..." style="min-width:320px">
+        <button id="sem-go">search</button>
+      </div>
+      <div id="sem-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>collision recommendations</h3>
+      <div class="row">
+        <button class="strategy-btn active" data-strategy="coverage">coverage gaps</button>
+        <button class="strategy-btn" data-strategy="diversity">tag diversity</button>
+        <button class="strategy-btn" data-strategy="bridge">bridge clusters</button>
+        <button id="rec-go">get recommendations</button>
+      </div>
+      <div id="rec-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>framework chain explorer</h3>
+      <div class="row">
+        <input id="chain-name" placeholder="framework name to start from..." style="min-width:280px">
+        <select id="chain-depth" class="sm">
+          <option value="3">3 hops</option><option value="5" selected>5 hops</option><option value="8">8 hops</option>
+        </select>
+        <button id="chain-go">explore chain</button>
+      </div>
+      <div id="chain-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>synthesis report</h3>
+      <div class="row">
+        <input id="synth-domain" list="domains" placeholder="domain (blank = all)" style="min-width:200px">
+        <select id="synth-n" class="sm">
+          <option value="5">top 5</option><option value="10" selected>top 10</option><option value="20">top 20</option>
+        </select>
+        <button id="synth-go">generate report</button>
+        <button id="synth-dl">download .md</button>
+      </div>
+      <div id="synth-results" style="white-space:pre-wrap;font-size:13px;line-height:1.6"></div>
+    </div>
   </div>
 
   <!-- BATCH FORGE TAB -->
@@ -247,6 +314,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.tab === 'theories') loadTheories();
     if (tab.dataset.tab === 'stats') loadStats();
     if (tab.dataset.tab === 'network') loadNetwork();
+    if (tab.dataset.tab === 'research') { /* loaded on demand via buttons */ }
   };
 });
 
@@ -660,6 +728,99 @@ async function loadHeaderStats() {
     $('header-stats').textContent = `${s.theory_count} theories · ${s.domain_count} domains · ${s.total_frameworks} frameworks`;
   } catch(e) {}
 }
+
+// ---- Research Assistant ----
+
+// Semantic search
+$('sem-go').onclick = async () => {
+  const q = $('sem-q').value.trim();
+  if (!q) return;
+  $('sem-results').innerHTML = '<div class="meta">searching embeddings...</div>';
+  const r = await fetch(`/semantic-search?q=${encodeURIComponent(q)}&limit=15`);
+  const hits = await r.json();
+  if (!hits.length) { $('sem-results').innerHTML = '<div class="meta">no results.</div>'; return; }
+  $('sem-results').innerHTML = hits.map(fw => `
+    <div class="sem-result" onclick="showFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}')">
+      <span class="conf">${(fw.confidence||0).toFixed(2)}</span>
+      ${viabilityBadge(fw.viability)}
+      <strong style="color:var(--acc)">${esc(fw.name||'?')}</strong>
+      <span class="sem-score">sim ${fw._similarity||'?'}</span>
+      <div style="color:var(--mut);font-size:12px;margin-top:2px">${esc((fw.core_claim||fw.application||'').substring(0,150))}</div>
+    </div>
+  `).join('');
+};
+$('sem-q').onkeydown = (e) => { if (e.key === 'Enter') $('sem-go').click(); };
+
+// Recommendations
+let currentStrategy = 'coverage';
+document.querySelectorAll('.strategy-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.strategy-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentStrategy = btn.dataset.strategy;
+  };
+});
+$('rec-go').onclick = async () => {
+  $('rec-results').innerHTML = '<div class="meta">analyzing coverage gaps...</div>';
+  const r = await fetch(`/recommend?limit=15&strategy=${currentStrategy}`);
+  const recs = await r.json();
+  if (!recs.length) { $('rec-results').innerHTML = '<div class="meta">no recommendations for this strategy.</div>'; return; }
+  $('rec-results').innerHTML = recs.map(rec => `
+    <div class="rec-card">
+      <div class="rec-domains">
+        <span class="rec-score">${Math.round(rec.score)}</span>
+        <strong>${esc(rec.domain_a)}</strong> &times; <strong>${esc(rec.domain_b)}</strong>
+        <span class="badge badge-promising">${esc(rec.strategy)}</span>
+      </div>
+      <div class="rec-reason">${esc(rec.reason)}</div>
+    </div>
+  `).join('');
+};
+
+// Chain explorer
+$('chain-go').onclick = async () => {
+  const name = $('chain-name').value.trim();
+  if (!name) return;
+  const depth = $('chain-depth').value;
+  $('chain-results').innerHTML = '<div class="meta">building exploration chain...</div>';
+  const r = await fetch(`/chain/${encodeURIComponent(name)}?depth=${depth}`);
+  if (!r.ok) { $('chain-results').innerHTML = '<div class="card err">framework not found</div>'; return; }
+  const data = await r.json();
+  $('chain-results').innerHTML = `<div class="meta">${data.chain_length} frameworks in chain</div>` +
+    data.frameworks.map((fw, i) => `
+      <div class="chain-node">
+        ${i > 0 ? '<span class="chain-arrow">&rarr;</span>' : '<span style="width:24px"></span>'}
+        <div style="flex:1">
+          <strong style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}')">${esc(fw.name||'?')}</strong>
+          <span class="conf">${(fw.confidence||0).toFixed(2)}</span>
+          ${i > 0 ? `<span class="chain-link-type">${esc(fw.link_type)}</span>` : ''}
+          <div style="color:var(--mut);font-size:12px">${esc(fw.mechanism_source||'')} &rarr; ${esc(fw.target_domain||'')}</div>
+          <div style="font-size:12px;margin-top:2px">${esc((fw.core_claim||'').substring(0,180))}</div>
+        </div>
+      </div>
+    `).join('');
+};
+$('chain-name').onkeydown = (e) => { if (e.key === 'Enter') $('chain-go').click(); };
+
+// Synthesis report
+let lastReport = '';
+$('synth-go').onclick = async () => {
+  const domain = $('synth-domain').value.trim();
+  const n = $('synth-n').value;
+  $('synth-results').innerHTML = 'generating report...';
+  const r = await fetch(`/synthesis?domain=${encodeURIComponent(domain)}&top_n=${n}&format=markdown`);
+  const text = await r.text();
+  lastReport = text;
+  $('synth-results').textContent = text;
+};
+$('synth-dl').onclick = () => {
+  if (!lastReport) return;
+  const blob = new Blob([lastReport], {type:'text/markdown'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `synthesis-${$('synth-domain').value.trim()||'all'}.md`;
+  a.click();
+};
 
 // Framework detail modal
 async function showFramework(name) {

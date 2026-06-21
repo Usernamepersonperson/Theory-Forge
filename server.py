@@ -21,6 +21,11 @@ Endpoints:
     GET  /export?format=json|csv&min_confidence=  export all frameworks
     GET  /random?min_confidence=                  random framework above threshold
     GET  /domain-network                          graph data (nodes + weighted edges)
+    GET  /semantic-search?q=&limit=               embedding-based semantic search
+    GET  /recommend?limit=&strategy=              collision recommendations (coverage/diversity/bridge)
+    GET  /chain/{name}?depth=                     framework exploration chain
+    GET  /synthesis?domain=&top_n=&format=        synthesis report (markdown/html)
+    GET  /tag-analysis                            tag frequency and domain spread
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -39,6 +44,8 @@ from pathlib import Path
 
 import csv
 import io
+import re
+from collections import Counter, defaultdict
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse, StreamingResponse
@@ -46,7 +53,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.5.0")
+app = FastAPI(title="Theory Forge", version="0.6.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -593,6 +600,350 @@ def domain_network():
         "node_count": len(nodes),
         "edge_count": len(edge_list),
     }
+
+
+def _load_all_frameworks() -> list[dict]:
+    out_dir = Path(__file__).parent / "outputs"
+    all_fw = []
+    for f in sorted(out_dir.glob("batch-*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for fw in data:
+                fw["_batch"] = f.name
+                all_fw.append(fw)
+        except (json.JSONDecodeError, KeyError):
+            continue
+    return all_fw
+
+
+def _unique_frameworks(all_fw: list[dict]) -> list[dict]:
+    seen = set()
+    unique = []
+    for fw in all_fw:
+        n = fw.get("name", "").strip().lower()
+        if n and n not in seen:
+            seen.add(n)
+            unique.append(fw)
+    return unique
+
+
+# ---- Research Assistant: Semantic Search ----
+
+_fw_embeddings = None
+
+def _ensure_fw_embeddings():
+    global _fw_embeddings
+    if _fw_embeddings is not None:
+        return _fw_embeddings
+    try:
+        from sentence_transformers import SentenceTransformer
+        import numpy as np
+    except ImportError:
+        return None
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    texts = []
+    for fw in all_fw:
+        text = " ".join(filter(None, [
+            fw.get("name", ""),
+            fw.get("core_claim", ""),
+            fw.get("mechanism", ""),
+            fw.get("application", ""),
+            fw.get("prediction", ""),
+            fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")),
+            fw.get("domain_applied_to", fw.get("target_domain", "")),
+        ]))
+        texts.append(text)
+    model = SentenceTransformer(forge.EMBED_MODEL)
+    vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+    _fw_embeddings = {"frameworks": all_fw, "vectors": vecs, "model": model}
+    return _fw_embeddings
+
+
+@app.get("/semantic-search")
+def semantic_search(q: str = "", limit: int = 20):
+    if not q or len(q) < 2:
+        return []
+    emb = _ensure_fw_embeddings()
+    if emb is None:
+        return search_frameworks(q=q, limit=limit)
+    import numpy as np
+    q_vec = emb["model"].encode([q], normalize_embeddings=True)
+    scores = (emb["vectors"] @ q_vec.T).flatten()
+    top_idx = np.argsort(-scores)[:limit]
+    results = []
+    for i in top_idx:
+        if scores[i] < 0.15:
+            break
+        fw = dict(emb["frameworks"][i])
+        fw["_similarity"] = round(float(scores[i]), 3)
+        results.append(fw)
+    return results
+
+
+# ---- Research Assistant: Recommendation Engine ----
+
+@app.get("/recommend")
+def recommend_collisions(limit: int = 20, strategy: str = "coverage"):
+    """Suggest which domain pairs to collide next.
+
+    Strategies:
+    - coverage: prioritize domains with fewest collisions
+    - diversity: prioritize pairs with high tag diversity (different structural patterns)
+    - bridge: find domains that could bridge disconnected clusters
+    """
+    all_fw = _load_all_frameworks()
+    collided_pairs: set[frozenset[str]] = set()
+    domain_collision_count: Counter = Counter()
+    for fw in all_fw:
+        src = fw.get("mechanism_source", fw.get("mechanism_borrowed_from", fw.get("source_a", ""))).strip().lower()
+        tgt = fw.get("target_domain", fw.get("domain_applied_to", fw.get("source_b", ""))).strip().lower()
+        if src and tgt:
+            collided_pairs.add(frozenset({src, tgt}))
+            domain_collision_count[src] += 1
+            domain_collision_count[tgt] += 1
+
+    theory_domains = sorted({t.domain for t in _theories})
+    domain_theories = defaultdict(list)
+    for t in _theories:
+        domain_theories[t.domain].append(t)
+    domain_tags = {}
+    for d in theory_domains:
+        tags = set()
+        for t in domain_theories[d]:
+            tags.update(t.tags)
+        domain_tags[d] = tags
+
+    recommendations = []
+
+    if strategy == "coverage":
+        underexplored = [(d, domain_collision_count.get(d.lower(), 0)) for d in theory_domains]
+        underexplored.sort(key=lambda x: x[1])
+        cold_domains = [d for d, c in underexplored[:30]]
+        for i, da in enumerate(cold_domains):
+            for db in cold_domains[i+1:]:
+                if frozenset({da.lower(), db.lower()}) not in collided_pairs:
+                    overlap = len(domain_tags.get(da, set()) & domain_tags.get(db, set()))
+                    recommendations.append({
+                        "domain_a": da, "domain_b": db,
+                        "strategy": "coverage",
+                        "reason": f"Both under-explored ({domain_collision_count.get(da.lower(),0)} and {domain_collision_count.get(db.lower(),0)} collisions)",
+                        "tag_overlap": overlap,
+                        "score": 100 - domain_collision_count.get(da.lower(), 0) - domain_collision_count.get(db.lower(), 0) + overlap * 2,
+                    })
+
+    elif strategy == "diversity":
+        for i, da in enumerate(theory_domains):
+            for db in theory_domains[i+1:]:
+                if frozenset({da.lower(), db.lower()}) in collided_pairs:
+                    continue
+                tags_a = domain_tags.get(da, set())
+                tags_b = domain_tags.get(db, set())
+                if not tags_a or not tags_b:
+                    continue
+                union = len(tags_a | tags_b)
+                intersection = len(tags_a & tags_b)
+                diversity = (union - intersection) / union if union else 0
+                if intersection >= 1 and diversity >= 0.5:
+                    recommendations.append({
+                        "domain_a": da, "domain_b": db,
+                        "strategy": "diversity",
+                        "reason": f"High tag diversity ({diversity:.0%}) with {intersection} shared tags",
+                        "tag_overlap": intersection,
+                        "tag_diversity": round(diversity, 3),
+                        "score": diversity * 100 + intersection * 5,
+                    })
+
+    elif strategy == "bridge":
+        adjacency: dict[str, set[str]] = defaultdict(set)
+        for fw in all_fw:
+            src = fw.get("mechanism_source", fw.get("mechanism_borrowed_from", fw.get("source_a", ""))).strip().lower()
+            tgt = fw.get("target_domain", fw.get("domain_applied_to", fw.get("source_b", ""))).strip().lower()
+            if src and tgt:
+                adjacency[src].add(tgt)
+                adjacency[tgt].add(src)
+        for i, da in enumerate(theory_domains):
+            neighbors_a = adjacency.get(da.lower(), set())
+            for db in theory_domains[i+1:]:
+                if frozenset({da.lower(), db.lower()}) in collided_pairs:
+                    continue
+                neighbors_b = adjacency.get(db.lower(), set())
+                shared_neighbors = neighbors_a & neighbors_b
+                if not shared_neighbors and (neighbors_a or neighbors_b):
+                    overlap = len(domain_tags.get(da, set()) & domain_tags.get(db, set()))
+                    if overlap >= 1:
+                        recommendations.append({
+                            "domain_a": da, "domain_b": db,
+                            "strategy": "bridge",
+                            "reason": f"Would bridge disconnected clusters ({len(neighbors_a)} and {len(neighbors_b)} neighbors, 0 shared)",
+                            "tag_overlap": overlap,
+                            "score": (len(neighbors_a) + len(neighbors_b)) * 2 + overlap * 10,
+                        })
+
+    recommendations.sort(key=lambda x: -x.get("score", 0))
+    return recommendations[:limit]
+
+
+# ---- Research Assistant: Framework Chain/Exploration ----
+
+@app.get("/chain/{name}")
+def framework_chain(name: str, depth: int = 3):
+    """Follow a chain of related frameworks across domains.
+    Starting from a named framework, find related frameworks by shared
+    mechanism source or target domain, building a multi-hop exploration path."""
+    all_fw = _load_all_frameworks()
+    name_lower = name.lower().strip()
+    start = None
+    for fw in all_fw:
+        if fw.get("name", "").lower().strip() == name_lower:
+            start = fw
+            break
+    if not start:
+        raise HTTPException(404, f"Framework '{name}' not found.")
+
+    chain = [start]
+    visited = {name_lower}
+
+    for _ in range(depth):
+        current = chain[-1]
+        mech = current.get("mechanism_borrowed_from", current.get("mechanism_source", "")).lower()
+        dom = current.get("domain_applied_to", current.get("target_domain", "")).lower()
+        best = None
+        best_score = -1
+        for fw in all_fw:
+            fn = fw.get("name", "").lower().strip()
+            if fn in visited:
+                continue
+            fw_mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).lower()
+            fw_dom = fw.get("domain_applied_to", fw.get("target_domain", "")).lower()
+            score = 0
+            link_type = ""
+            if dom and dom in fw_mech:
+                score = fw.get("confidence", 0) + 0.3
+                link_type = "domain→mechanism"
+            elif mech and mech in fw_dom:
+                score = fw.get("confidence", 0) + 0.2
+                link_type = "mechanism→domain"
+            elif dom and dom in fw_dom:
+                score = fw.get("confidence", 0) + 0.1
+                link_type = "shared domain"
+            if score > best_score:
+                best_score = score
+                best = fw
+                best["_link_type"] = link_type
+        if best:
+            visited.add(best.get("name", "").lower().strip())
+            chain.append(best)
+        else:
+            break
+
+    return {
+        "start": name,
+        "chain_length": len(chain),
+        "frameworks": [
+            {
+                "name": fw.get("name", "?"),
+                "confidence": fw.get("confidence", 0),
+                "mechanism_source": fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")),
+                "target_domain": fw.get("domain_applied_to", fw.get("target_domain", "")),
+                "core_claim": fw.get("core_claim", fw.get("application", "")),
+                "link_type": fw.get("_link_type", "origin"),
+                "_batch": fw.get("_batch", ""),
+            }
+            for fw in chain
+        ],
+    }
+
+
+# ---- Research Assistant: Synthesis Report ----
+
+@app.get("/synthesis")
+def synthesis_report(domain: str = "", top_n: int = 10, format: str = "markdown"):
+    """Generate a synthesis report summarizing the top N frameworks
+    in a chosen domain (or across all domains)."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    if domain:
+        d = domain.lower()
+        filtered = [fw for fw in all_fw
+                    if d in fw.get("domain_applied_to", "").lower()
+                    or d in fw.get("target_domain", "").lower()
+                    or d in fw.get("mechanism_borrowed_from", "").lower()
+                    or d in fw.get("mechanism_source", "").lower()]
+    else:
+        filtered = all_fw
+
+    filtered.sort(key=lambda fw: -fw.get("confidence", 0))
+    top = filtered[:top_n]
+    if not top:
+        raise HTTPException(404, f"No frameworks found for domain '{domain}'.")
+
+    viability_counts = Counter(fw.get("viability", "unknown") for fw in top)
+    avg_conf = sum(fw.get("confidence", 0) for fw in top) / len(top) if top else 0
+    domains_involved = set()
+    for fw in top:
+        domains_involved.add(fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")))
+        domains_involved.add(fw.get("domain_applied_to", fw.get("target_domain", "")))
+    domains_involved.discard("")
+
+    report_lines = [
+        f"# Theory Forge Synthesis Report{': ' + domain.title() if domain else ''}",
+        "",
+        f"**Generated from {len(filtered)} frameworks** | Top {len(top)} shown",
+        f"**Average confidence:** {avg_conf:.3f} | "
+        f"**Promising:** {viability_counts.get('promising', 0)} | "
+        f"**Speculative:** {viability_counts.get('speculative', 0)}",
+        f"**Domains involved:** {', '.join(sorted(domains_involved))}",
+        "",
+        "---",
+        "",
+    ]
+
+    for i, fw in enumerate(top, 1):
+        name = fw.get("name", "Unnamed")
+        conf = fw.get("confidence", 0)
+        viab = fw.get("viability", "?")
+        mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "?"))
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", "?"))
+        claim = fw.get("core_claim", fw.get("application", ""))
+        preds = fw.get("falsifiable_predictions", [])
+        if isinstance(preds, list) and preds:
+            pred_block = "\n".join(f"   - {p}" for p in preds[:3])
+        else:
+            pred_block = f"   - {fw.get('prediction', 'N/A')}"
+
+        report_lines.extend([
+            f"## {i}. {name}",
+            f"**Confidence:** {conf:.2f} | **Viability:** {viab} | "
+            f"**{mech}** → **{tgt}**",
+            "",
+            claim,
+            "",
+            f"**Key predictions:**",
+            pred_block,
+            "",
+        ])
+
+    report_lines.extend([
+        "---",
+        "",
+        f"*Report generated by Theory Forge v0.6 | "
+        f"{len(_theories)} seed theories across {len({t.domain for t in _theories})} domains*",
+    ])
+
+    report = "\n".join(report_lines)
+
+    if format == "html":
+        try:
+            import markdown
+            html = markdown.markdown(report)
+        except ImportError:
+            html = f"<pre>{report}</pre>"
+        return HTMLResponse(html)
+
+    return StreamingResponse(
+        io.StringIO(report),
+        media_type="text/markdown",
+        headers={"Content-Disposition": f"attachment; filename=synthesis-{domain or 'all'}.md"},
+    )
 
 
 @app.get("/", response_class=HTMLResponse)

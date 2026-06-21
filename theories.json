@@ -13543,5 +13543,725 @@
       "adaptation",
       "aesthetics"
     ]
+  },
+  {
+    "id": "aerial-silk-wrap-friction-lock",
+    "name": "Aerial Silk Wrap Friction Lock",
+    "domain": "circus arts",
+    "unit": "silk-body contact wrap",
+    "variation": "number of wraps, body angle, and fabric tension vary the friction force holding the aerialist in place",
+    "selection": "wrap configurations that distribute load across soft tissue while maintaining secure grip are retained in repertoire",
+    "fitness": "hold security measured by zero slippage under dynamic loading while preserving blood circulation",
+    "boundary": "fabric coefficient of friction, performer weight, moisture from sweat reducing grip, fabric elasticity limits",
+    "tags": [
+      "friction",
+      "threshold",
+      "constraint",
+      "feedback",
+      "equilibrium",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "juggling-siteswap-orbit-stability",
+    "name": "Juggling Siteswap Orbit Stability",
+    "domain": "circus arts",
+    "unit": "throw-catch event in a siteswap sequence",
+    "variation": "throw height, dwell time, and hand crossing pattern generate distinct periodic and aperiodic orbit families",
+    "selection": "patterns where timing windows between adjacent throws exceed minimum reaction time survive performance pressure",
+    "fitness": "pattern sustainability measured by consecutive error-free cycles under tempo increase",
+    "boundary": "human reaction time floor (~200ms), maximum practical throw height, number of objects exceeding hand capacity",
+    "tags": [
+      "oscillation",
+      "periodicity",
+      "encoding",
+      "constraint",
+      "self-organization",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "clown-comedic-timing-tension-release",
+    "name": "Clown Comedic Timing Tension-Release",
+    "domain": "circus arts",
+    "unit": "audience expectation gap between setup and payoff",
+    "variation": "pause duration, misdirection depth, and physical escalation create different tension accumulation curves",
+    "selection": "timing intervals that maximize audience laughter amplitude without crossing boredom threshold are refined through performance iteration",
+    "fitness": "peak laugh response intensity relative to tension buildup duration",
+    "boundary": "cultural context, audience fatigue after repeated bits, attention span limits, age demographic of audience",
+    "tags": [
+      "threshold",
+      "oscillation",
+      "feedback",
+      "accumulation",
+      "agents",
+      "bifurcation"
+    ]
+  },
+  {
+    "id": "trapeze-release-catch-momentum-window",
+    "name": "Trapeze Release-Catch Momentum Window",
+    "domain": "circus arts",
+    "unit": "flyer-catcher momentum match at catch point",
+    "variation": "release timing, swing amplitude, and body rotation speed produce different trajectories through the catch zone",
+    "selection": "only trajectories where relative velocity between flyer and catcher falls within grippable range yield successful catches",
+    "fitness": "catch reliability measured by wrist-lock engagement before gravitational acceleration exceeds grip strength",
+    "boundary": "human grip force limits, net safety envelope, angular momentum conservation during tucked rotations",
+    "tags": [
+      "dynamics",
+      "threshold",
+      "coupling",
+      "optimization",
+      "constraint",
+      "feedback"
+    ]
+  },
+  {
+    "id": "contortion-joint-capsule-remodeling",
+    "name": "Contortion Joint Capsule Remodeling",
+    "domain": "circus arts",
+    "unit": "collagen fiber orientation in joint capsule",
+    "variation": "sustained stretch duration, angle, and frequency trigger differential collagen turnover rates across capsule regions",
+    "selection": "remodeling patterns that increase range of motion while maintaining joint stability under load are preserved through progressive training",
+    "fitness": "maximum active range of motion achieved without joint subluxation or pain",
+    "boundary": "bone impingement geometry, ligament rupture threshold, age-dependent collagen regeneration rate",
+    "tags": [
+      "adaptation",
+      "gradient",
+      "threshold",
+      "accumulation",
+      "feedback-loop",
+      "constraint"
+    ]
+  },
+  {
+    "id": "locard-trace-transfer-persistence",
+    "name": "Locard Trace Transfer Persistence",
+    "domain": "forensic science",
+    "unit": "trace evidence particle transferred at contact",
+    "variation": "contact pressure, surface texture, and material adhesion produce different transfer quantities and retention rates",
+    "selection": "only particles with sufficient adhesion to substrate survive environmental degradation, handling, and collection procedures",
+    "fitness": "evidential value measured by traceability to source with statistical exclusion of alternative origins",
+    "boundary": "secondary and tertiary transfer noise, environmental contamination, particle size below analytical detection limits",
+    "tags": [
+      "decay",
+      "signal",
+      "threshold",
+      "accumulation",
+      "boundary",
+      "information"
+    ]
+  },
+  {
+    "id": "chain-of-custody-integrity-decay",
+    "name": "Chain of Custody Integrity Decay",
+    "domain": "forensic science",
+    "unit": "evidence transfer event between custodians",
+    "variation": "number of transfers, documentation gaps, storage condition deviations, and personnel changes introduce integrity uncertainty",
+    "selection": "courts exclude evidence where cumulative integrity score falls below admissibility threshold",
+    "fitness": "unbroken documentary trail with verifiable timestamps and tamper-evident seals from scene to courtroom",
+    "boundary": "legal jurisdiction standards, digital evidence hash verification limits, physical seal technology reliability",
+    "tags": [
+      "decay",
+      "accumulation",
+      "threshold",
+      "information",
+      "agents",
+      "feedback"
+    ]
+  },
+  {
+    "id": "bloodstain-pattern-impact-angle-reconstruction",
+    "name": "Bloodstain Pattern Impact Angle Reconstruction",
+    "domain": "forensic science",
+    "unit": "individual bloodstain ellipse on target surface",
+    "variation": "drop velocity, impact angle, surface porosity, and blood viscosity produce stains of different width-to-length ratios",
+    "selection": "only stain geometries consistent with physical fluid dynamics survive as valid data points for area-of-origin convergence",
+    "fitness": "spatial convergence accuracy of back-projected trajectories to a common origin region",
+    "boundary": "non-Newtonian blood behavior at extremes, satellite spatter noise, surface irregularities distorting ellipse geometry",
+    "tags": [
+      "encoding",
+      "signal",
+      "gradient",
+      "constraint",
+      "information",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "decomposition-succession-clock",
+    "name": "Decomposition Succession Clock",
+    "domain": "forensic science",
+    "unit": "arthropod colonization wave on remains",
+    "variation": "temperature, humidity, access by fauna, and tissue chemistry shift the timing and species composition of each succession wave",
+    "selection": "only colonizers matching current decomposition chemistry and microhabitat conditions establish viable populations",
+    "fitness": "accurate post-mortem interval estimation through correlation of insect developmental stage with accumulated degree days",
+    "boundary": "sealed environments blocking insect access, chemical preservation, aquatic vs terrestrial decomposition pathway divergence",
+    "tags": [
+      "succession",
+      "accumulation",
+      "gradient",
+      "threshold",
+      "self-organization",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "gunshot-residue-dispersion-cone",
+    "name": "Gunshot Residue Dispersion Cone",
+    "domain": "forensic science",
+    "unit": "GSR particle deposited on surface",
+    "variation": "muzzle-to-target distance, barrel length, propellant chemistry, and ambient airflow shape the spatial distribution cone",
+    "selection": "characteristic particle morphology (spheroid lead-barium-antimony) distinguishes GSR from environmental background metals",
+    "fitness": "correct classification of shooting distance range from particle density gradient on target",
+    "boundary": "heavy rain or washing removing particles, time-dependent transfer to secondary surfaces, lead-free ammunition chemistry",
+    "tags": [
+      "gradient",
+      "decay",
+      "signal",
+      "encoding",
+      "boundary",
+      "threshold"
+    ]
+  },
+  {
+    "id": "mash-enzyme-temperature-optimum-race",
+    "name": "Mash Enzyme Temperature Optimum Race",
+    "domain": "brewing chemistry",
+    "unit": "starch-to-sugar conversion event by amylase enzyme",
+    "variation": "mash temperature selects between beta-amylase (fermentable maltose) and alpha-amylase (unfermentable dextrins) activity dominance",
+    "selection": "temperature ramp rate and rest duration determine which enzyme contributes more to final wort sugar profile",
+    "fitness": "target ratio of fermentable to unfermentable sugars matching desired body and attenuation",
+    "boundary": "enzyme denaturation above 72C, gelatinization temperature of grain starch, pH-dependent activity curves",
+    "tags": [
+      "competition",
+      "threshold",
+      "gradient",
+      "optimization",
+      "bifurcation",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "hop-alpha-acid-isomerization-kinetics",
+    "name": "Hop Alpha Acid Isomerization Kinetics",
+    "domain": "brewing chemistry",
+    "unit": "alpha-acid molecule undergoing thermal isomerization to iso-alpha-acid",
+    "variation": "boil duration, wort pH, and specific gravity control the rate and extent of conversion from insoluble humulone to soluble iso-humulone",
+    "selection": "only isomerized forms contribute bitterness; unisomerized acids precipitate out during cooling and fermentation",
+    "fitness": "target IBU level achieved with minimal loss to trub and krausen adsorption",
+    "boundary": "maximum utilization ceiling (~35%), oxidation degradation during aging, pH-dependent solubility shifts",
+    "tags": [
+      "threshold",
+      "decay",
+      "gradient",
+      "equilibrium",
+      "constraint",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "yeast-flocculation-timing-tradeoff",
+    "name": "Yeast Flocculation Timing Tradeoff",
+    "domain": "brewing chemistry",
+    "unit": "yeast cell surface lectin-mannose binding event",
+    "variation": "calcium concentration, ethanol level, and surface protein expression timing vary flocculation onset from early to late",
+    "selection": "strains that flocculate too early leave residual sugar; too late produce clarity problems; medium-timed strains dominate craft brewing",
+    "fitness": "complete attenuation followed by rapid clarification without filtration",
+    "boundary": "genetic flocculation gene (FLO) expression variability, temperature shock disrupting floc structure, pH extremes denaturing lectins",
+    "tags": [
+      "bifurcation",
+      "threshold",
+      "feedback",
+      "competition",
+      "self-organization",
+      "constraint"
+    ]
+  },
+  {
+    "id": "brewing-water-mineral-flavor-map",
+    "name": "Brewing Water Mineral Flavor Map",
+    "domain": "brewing chemistry",
+    "unit": "dissolved mineral ion in brewing water",
+    "variation": "sulfate-to-chloride ratio, calcium hardness, and bicarbonate alkalinity steer hop perception, malt roundness, and mash pH",
+    "selection": "ion profiles that enhance target flavor character (crisp vs. full) for a given beer style are preferentially adopted by brewers",
+    "fitness": "sensory panel alignment between intended style profile and perceived flavor balance",
+    "boundary": "off-flavor thresholds for individual ions (e.g., iron >0.3 ppm), interaction effects masking single-ion contributions",
+    "tags": [
+      "gradient",
+      "encoding",
+      "optimization",
+      "feedback",
+      "equilibrium",
+      "coupling"
+    ]
+  },
+  {
+    "id": "diacetyl-rest-reabsorption-cycle",
+    "name": "Diacetyl Rest Reabsorption Cycle",
+    "domain": "brewing chemistry",
+    "unit": "diacetyl molecule produced by yeast valine synthesis pathway",
+    "variation": "fermentation temperature, yeast vitality, and precursor (alpha-acetolactate) concentration govern diacetyl production and reabsorption rates",
+    "selection": "only fermentation schedules where yeast remain active long enough to reduce diacetyl below flavor threshold produce clean beer",
+    "fitness": "diacetyl concentration below sensory detection limit (10-15 ppb) at packaging",
+    "boundary": "premature yeast removal, cold-crashing before reabsorption complete, bacterial contamination producing non-reabsorbable diacetyl",
+    "tags": [
+      "feedback-loop",
+      "threshold",
+      "decay",
+      "accumulation",
+      "oscillation",
+      "constraint"
+    ]
+  },
+  {
+    "id": "fourier-basis-decomposition-completeness",
+    "name": "Fourier Basis Decomposition Completeness",
+    "domain": "signal processing",
+    "unit": "sinusoidal basis function coefficient in frequency domain",
+    "variation": "signal morphology generates different spectral coefficient distributions across frequency bins",
+    "selection": "coefficients below noise floor are discarded; dominant coefficients define signal character and enable compression",
+    "fitness": "reconstruction fidelity measured by mean squared error between original and inverse-transformed signal",
+    "boundary": "finite window effects (spectral leakage), non-stationary signals violating periodicity assumption, computational resolution of FFT bins",
+    "tags": [
+      "encoding",
+      "information",
+      "decomposition",
+      "threshold",
+      "optimization",
+      "constraint"
+    ]
+  },
+  {
+    "id": "wiener-filter-noise-suppression",
+    "name": "Wiener Filter Noise Suppression",
+    "domain": "signal processing",
+    "unit": "frequency-domain gain coefficient applied to noisy signal",
+    "variation": "local signal-to-noise ratio at each frequency determines gain between full pass (SNR high) and full suppression (SNR low)",
+    "selection": "gain values that minimize mean squared error between filtered output and true signal are selected by the optimization criterion",
+    "fitness": "maximum noise reduction with minimum signal distortion across the passband",
+    "boundary": "requires accurate noise power spectrum estimate, non-stationary noise defeats fixed-filter assumption, phase distortion in causal implementations",
+    "tags": [
+      "optimization",
+      "gradient",
+      "feedback",
+      "threshold",
+      "equilibrium",
+      "signal"
+    ]
+  },
+  {
+    "id": "nyquist-aliasing-frequency-fold",
+    "name": "Nyquist Aliasing Frequency Fold",
+    "domain": "signal processing",
+    "unit": "spectral component above Nyquist frequency",
+    "variation": "sampling rate relative to signal bandwidth determines which high-frequency components fold back as phantom low-frequency aliases",
+    "selection": "anti-aliasing filters attenuate components above Nyquist before sampling; those passing through create irrecoverable distortion",
+    "fitness": "alias-free reconstruction where every spectral component maps uniquely to its true frequency",
+    "boundary": "ideal brick-wall filter impossibility, transition band width tradeoff, multiband signals with energy near Nyquist",
+    "tags": [
+      "boundary",
+      "threshold",
+      "information",
+      "encoding",
+      "constraint",
+      "bifurcation"
+    ]
+  },
+  {
+    "id": "convolution-impulse-response-shaping",
+    "name": "Convolution Impulse Response Shaping",
+    "domain": "signal processing",
+    "unit": "sample-by-sample multiply-accumulate operation between input and kernel",
+    "variation": "kernel length, coefficient values, and symmetry properties produce different filtering behaviors (lowpass, highpass, bandpass)",
+    "selection": "kernel designs minimizing passband ripple and maximizing stopband attenuation for given length dominate filter design practice",
+    "fitness": "frequency response conformance to design specification measured by maximum deviation from target magnitude",
+    "boundary": "finite kernel length limits frequency selectivity, latency from kernel length, Gibbs phenomenon at sharp transitions",
+    "tags": [
+      "encoding",
+      "optimization",
+      "constraint",
+      "coupling",
+      "accumulation",
+      "signal"
+    ]
+  },
+  {
+    "id": "adaptive-filter-lms-convergence",
+    "name": "Adaptive Filter LMS Convergence",
+    "domain": "signal processing",
+    "unit": "filter coefficient update step driven by error gradient",
+    "variation": "step size (mu), input signal correlation structure, and filter order produce different convergence trajectories and steady-state error floors",
+    "selection": "step sizes balancing fast convergence against low misadjustment noise are selected; too large causes divergence, too small tracks poorly",
+    "fitness": "minimum excess mean squared error achieved within acceptable convergence time",
+    "boundary": "eigenvalue spread of input autocorrelation matrix, non-stationary environments requiring tracking, computational precision limits",
+    "tags": [
+      "feedback-loop",
+      "gradient",
+      "optimization",
+      "threshold",
+      "bifurcation",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "miura-ori-deployment-ratio",
+    "name": "Miura-Ori Deployment Ratio",
+    "domain": "origami engineering",
+    "unit": "parallelogram facet in Miura-ori tessellation",
+    "variation": "fold angle, sector angle, and panel aspect ratio generate different compaction ratios and deployment force profiles",
+    "selection": "configurations achieving maximum area deployment from minimum stowed volume while maintaining single-degree-of-freedom kinematics are preferred",
+    "fitness": "compaction ratio multiplied by deployment reliability across thermal cycling",
+    "boundary": "material thickness preventing ideal zero-thickness folding, panel hinge fatigue limits, gravitational vs. microgravity deployment differences",
+    "tags": [
+      "self-organization",
+      "constraint",
+      "optimization",
+      "encoding",
+      "dynamics",
+      "coupling"
+    ]
+  },
+  {
+    "id": "rigid-foldability-spherical-linkage-closure",
+    "name": "Rigid Foldability Spherical Linkage Closure",
+    "domain": "origami engineering",
+    "unit": "vertex where crease lines meet forming a spherical linkage",
+    "variation": "sector angles and mountain-valley assignments at each vertex determine whether rigid panel motion is kinematically possible",
+    "selection": "only vertex configurations satisfying the spherical linkage closure condition permit continuous folding without panel flexure",
+    "fitness": "full range of motion from flat to folded state achievable with rigid panels",
+    "boundary": "panel thickness interference at vertices, elastic deformation masking non-rigid solutions, multi-vertex coupling creating over-constrained systems",
+    "tags": [
+      "constraint",
+      "bifurcation",
+      "encoding",
+      "threshold",
+      "coupling",
+      "self-organization"
+    ]
+  },
+  {
+    "id": "crease-pattern-encoded-target-shape",
+    "name": "Crease Pattern Encoded Target Shape",
+    "domain": "origami engineering",
+    "unit": "crease segment with assigned mountain or valley parity",
+    "variation": "crease position, length, angle, and mountain-valley assignment encode different three-dimensional target geometries from flat sheet",
+    "selection": "patterns satisfying Kawasaki-Justin and Maekawa theorems at every vertex are geometrically valid; invalid patterns cannot fold flat",
+    "fitness": "geometric fidelity of folded form to intended 3D target shape",
+    "boundary": "paper thickness violating zero-thickness assumption, self-intersection during folding sequence, crease fatigue from repeated folding",
+    "tags": [
+      "encoding",
+      "information",
+      "constraint",
+      "self-organization",
+      "optimization",
+      "boundary"
+    ]
+  },
+  {
+    "id": "flat-foldability-layer-ordering-consistency",
+    "name": "Flat Foldability Layer Ordering Consistency",
+    "domain": "origami engineering",
+    "unit": "face-face overlap region in flat-folded state",
+    "variation": "different folding sequences produce different layer orderings; some orderings require faces to pass through each other",
+    "selection": "only layer orderings where no face penetrations occur and all adjacency constraints are satisfied yield physically realizable flat folds",
+    "fitness": "complete flat fold with consistent global layer ordering and no self-intersection",
+    "boundary": "NP-hardness of general flat-foldability decision, thickness accumulation preventing physical flatness, crease memory in real materials",
+    "tags": [
+      "constraint",
+      "encoding",
+      "self-organization",
+      "threshold",
+      "information",
+      "boundary"
+    ]
+  },
+  {
+    "id": "origami-metamaterial-auxetic-response",
+    "name": "Origami Metamaterial Auxetic Response",
+    "domain": "origami engineering",
+    "unit": "unit cell in tessellated origami metamaterial",
+    "variation": "fold pattern geometry and rest angle determine Poisson's ratio, which can be tuned from positive through zero to negative (auxetic)",
+    "selection": "unit cell designs producing target negative Poisson's ratio under compression are selected for impact absorption and morphing structure applications",
+    "fitness": "magnitude and consistency of auxetic response across strain range",
+    "boundary": "material yield strain, hinge fatigue life, scale-dependent behavior differences from macro to micro fabrication",
+    "tags": [
+      "self-organization",
+      "coupling",
+      "optimization",
+      "gradient",
+      "encoding",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "burden-of-proof-allocation-advantage",
+    "name": "Burden of Proof Allocation Advantage",
+    "domain": "competitive debate",
+    "unit": "claim requiring evidential support from one side",
+    "variation": "topic wording, framework interpretation, and definitional choices shift presumption and burden between affirmative and negative",
+    "selection": "the side that successfully frames the burden allocation forces the opponent into a higher evidential threshold, gaining structural advantage",
+    "fitness": "judge acceptance of proposed burden framework measured by ballot alignment with framing arguments",
+    "boundary": "judge paradigm overriding debater framing, mutual burden topics, kritik arguments rejecting burden frameworks entirely",
+    "tags": [
+      "agents",
+      "threshold",
+      "competition",
+      "feedback",
+      "constraint",
+      "bifurcation"
+    ]
+  },
+  {
+    "id": "rebuttal-cascade-argument-collapse",
+    "name": "Rebuttal Cascade Argument Collapse",
+    "domain": "competitive debate",
+    "unit": "linked premise in an opponent's argument chain",
+    "variation": "targeting different premises (warrant, impact, uniqueness, link) produces different cascade patterns of argument invalidation",
+    "selection": "rebuttals against load-bearing premises cascade to collapse dependent claims; attacks on peripheral premises have local effect only",
+    "fitness": "number of opponent's independent voting issues neutralized per rebuttal invested",
+    "boundary": "independent argument structures immune to cascade, time constraints limiting rebuttal depth, judge's willingness to follow cascading logic",
+    "tags": [
+      "feedback",
+      "threshold",
+      "decomposition",
+      "dynamics",
+      "coupling",
+      "competition"
+    ]
+  },
+  {
+    "id": "argument-extension-depth-tradeoff",
+    "name": "Argument Extension Depth Tradeoff",
+    "domain": "competitive debate",
+    "unit": "argument extension in successive rebuttals",
+    "variation": "debaters choose between extending many arguments shallowly or few arguments deeply across limited speech time",
+    "selection": "judges weigh depth of analysis over breadth; insufficiently extended arguments are treated as dropped even if mentioned",
+    "fitness": "winning the ballot by having the most thoroughly developed arguments on key voting issues",
+    "boundary": "judge speed capacity, different judging paradigms valuing breadth vs. depth, novice vs. experienced panel sensitivity",
+    "tags": [
+      "competition",
+      "optimization",
+      "constraint",
+      "agents",
+      "threshold",
+      "feedback"
+    ]
+  },
+  {
+    "id": "judge-adaptation-paradigm-detection",
+    "name": "Judge Adaptation Paradigm Detection",
+    "domain": "competitive debate",
+    "unit": "strategic choice adapted to specific judge's evaluation paradigm",
+    "variation": "judges vary in paradigm (policymaker, critic, stock issues, tabula rasa), speed tolerance, and argument preferences",
+    "selection": "teams that correctly identify and adapt to judge paradigm gain win-rate advantage over teams running fixed strategies",
+    "fitness": "ballot win rate improvement from paradigm-matched strategy vs. generic strategy",
+    "boundary": "unknown judges with no prior record, panel judging with conflicting paradigms, judge inconsistency across rounds",
+    "tags": [
+      "agents",
+      "feedback",
+      "optimization",
+      "adaptation",
+      "signal",
+      "competition"
+    ]
+  },
+  {
+    "id": "spread-strategy-cognitive-overload",
+    "name": "Spread Strategy Cognitive Overload",
+    "domain": "competitive debate",
+    "unit": "independent argument introduced per unit speaking time",
+    "variation": "speaking rate, argument density, and structural signposting vary the cognitive processing load imposed on opponents",
+    "selection": "opponents who cannot address all arguments concede some by default; but excessive spreading risks judge comprehension loss",
+    "fitness": "net advantage measured by arguments conceded by opponent minus arguments lost to judge incomprehension",
+    "boundary": "judge speed preference limits, accessibility norms penalizing exclusionary speed, opponent's own spreading capacity neutralizing advantage",
+    "tags": [
+      "competition",
+      "threshold",
+      "accumulation",
+      "agents",
+      "constraint",
+      "bifurcation"
+    ]
+  },
+  {
+    "id": "needle-depth-dermis-targeting",
+    "name": "Needle Depth Dermis Targeting",
+    "domain": "tattoo art",
+    "unit": "needle penetration into skin layer",
+    "variation": "needle protrusion, machine speed, hand pressure, and skin thickness vary ink deposition depth from epidermis through dermis",
+    "selection": "ink placed in the stable dermal layer persists; epidermal deposits shed within weeks; hypodermal deposits blur and migrate",
+    "fitness": "crisp line longevity measured by edge definition retention over years",
+    "boundary": "skin thickness variation by body location (0.5-4mm), scar tissue density, client age affecting dermal collagen density",
+    "tags": [
+      "gradient",
+      "threshold",
+      "constraint",
+      "feedback",
+      "optimization",
+      "boundary"
+    ]
+  },
+  {
+    "id": "ink-particle-macrophage-migration",
+    "name": "Ink Particle Macrophage Migration",
+    "domain": "tattoo art",
+    "unit": "pigment particle phagocytosed by dermal macrophage",
+    "variation": "particle size, chemical composition, and immune response intensity determine whether pigment stays local or migrates to lymph nodes",
+    "selection": "large particles resist phagocytic transport and remain fixed; small particles are carried away, causing fading and lymph node discoloration",
+    "fitness": "color density retention at tattoo site over decades",
+    "boundary": "UV-induced photodegradation breaking particles into mobile fragments, laser removal exploiting this mechanism, autoimmune conditions accelerating clearance",
+    "tags": [
+      "decay",
+      "selection",
+      "threshold",
+      "dynamics",
+      "gradient",
+      "competition"
+    ]
+  },
+  {
+    "id": "wound-healing-ink-encapsulation",
+    "name": "Wound Healing Ink Encapsulation",
+    "domain": "tattoo art",
+    "unit": "fibroblast collagen fiber deposited around ink particles",
+    "variation": "wound severity, aftercare compliance, and individual healing response produce different encapsulation densities and scar tissue quantities",
+    "selection": "optimal healing produces thin collagen capsules that lock pigment without visible scarring; over-healing creates raised keloid tissue",
+    "fitness": "smooth skin surface with stable pigment encapsulation and no hypertrophic scarring",
+    "boundary": "keloid-prone skin types, infection disrupting normal healing, autoimmune responses rejecting certain pigment chemistries",
+    "tags": [
+      "feedback-loop",
+      "threshold",
+      "self-organization",
+      "adaptation",
+      "accumulation",
+      "constraint"
+    ]
+  },
+  {
+    "id": "pigment-chromophore-skin-tone-interaction",
+    "name": "Pigment Chromophore Skin Tone Interaction",
+    "domain": "tattoo art",
+    "unit": "photon interaction between ink chromophore and melanin in overlying epidermis",
+    "variation": "melanin density, ink color wavelength absorption, and dermal depth create different perceived colors through subtractive color mixing",
+    "selection": "pigment-skin combinations where target hue remains distinguishable through epidermal melanin filtering are selected for each skin tone",
+    "fitness": "color accuracy and contrast visibility of healed tattoo across lighting conditions",
+    "boundary": "dark skin tones limiting viable color palette, UV-driven melanin changes altering perceived color over seasons, aging-related skin thinning shifting color appearance",
+    "tags": [
+      "encoding",
+      "gradient",
+      "coupling",
+      "signal",
+      "constraint",
+      "feedback"
+    ]
+  },
+  {
+    "id": "tattoo-blowout-pressure-threshold",
+    "name": "Tattoo Blowout Pressure Threshold",
+    "domain": "tattoo art",
+    "unit": "ink deposit that has breached the dermal-hypodermal boundary",
+    "variation": "excessive needle depth, speed, or pressure push ink past the dermis into subcutaneous fat where it spreads uncontrollably",
+    "selection": "experienced artists maintain pressure below blowout threshold through haptic feedback from needle resistance changes across skin layers",
+    "fitness": "zero blowout events across an entire tattoo session",
+    "boundary": "thin-skinned areas (wrists, feet, ribs) with minimal dermis, client movement during application, scar tissue with unpredictable layer boundaries",
+    "tags": [
+      "threshold",
+      "feedback",
+      "boundary",
+      "constraint",
+      "gradient",
+      "dynamics"
+    ]
+  },
+  {
+    "id": "snowpack-temperature-gradient-faceting",
+    "name": "Snowpack Temperature Gradient Faceting",
+    "domain": "avalanche science",
+    "unit": "snow crystal undergoing kinetic metamorphism in temperature gradient",
+    "variation": "temperature gradient magnitude (>1C/10cm), vapor pressure differential, and pore space geometry drive faceted crystal growth rates and forms",
+    "selection": "strong gradients produce large faceted crystals and depth hoar with minimal intergranular bonding; weak gradients favor rounding and sintering",
+    "fitness": "weak layer development assessed by shear strength relative to slab load above",
+    "boundary": "near-isothermal conditions halting facet growth, rain crusts interrupting vapor transport, snowpack depth insufficient to sustain gradient",
+    "tags": [
+      "gradient",
+      "self-organization",
+      "threshold",
+      "dynamics",
+      "bifurcation",
+      "accumulation"
+    ]
+  },
+  {
+    "id": "weak-layer-fracture-propagation",
+    "name": "Weak Layer Fracture Propagation",
+    "domain": "avalanche science",
+    "unit": "fracture front advancing through buried weak layer",
+    "variation": "weak layer crystal type, slab properties (density, thickness, stiffness), and slope angle determine critical crack length and propagation propensity",
+    "selection": "fractures exceeding critical crack length (~0.2-1m) propagate; shorter cracks arrest and self-heal through sintering",
+    "fitness": "propagation potential score predicting whether triggered fracture will produce a slab avalanche",
+    "boundary": "terrain features interrupting slab continuity, wet snow conditions changing fracture mechanics, wind-loaded vs. storm snow slab behavioral differences",
+    "tags": [
+      "threshold",
+      "dynamics",
+      "bifurcation",
+      "feedback",
+      "constraint",
+      "coupling"
+    ]
+  },
+  {
+    "id": "terrain-trap-consequence-amplification",
+    "name": "Terrain Trap Consequence Amplification",
+    "domain": "avalanche science",
+    "unit": "terrain feature that increases burial depth or impact force beyond slope-angle prediction",
+    "variation": "gullies, cliff bands, tree wells, and terrain concavities concentrate debris flow, increasing burial depth and reducing survival probability",
+    "selection": "routes avoiding terrain traps have higher survival rates for equivalent avalanche probability; backcountry decision frameworks penalize trap exposure",
+    "fitness": "consequence reduction measured by expected burial depth decrease from terrain trap avoidance",
+    "boundary": "terrain trap identification requires snow-free familiarity or detailed mapping, variable debris flow patterns with wet vs. dry avalanches, tree density thresholds for tree-well risk",
+    "tags": [
+      "accumulation",
+      "threshold",
+      "constraint",
+      "agents",
+      "feedback",
+      "boundary"
+    ]
+  },
+  {
+    "id": "isothermal-metamorphism-bond-sintering",
+    "name": "Isothermal Metamorphism Bond Sintering",
+    "domain": "avalanche science",
+    "unit": "ice neck forming between adjacent snow grains via vapor diffusion",
+    "variation": "temperature, grain size distribution, and contact geometry control sintering rate and resulting bond strength between grains",
+    "selection": "well-sintered layers with high bond-to-grain ratio gain shear strength; poorly bonded layers remain as persistent weak layers",
+    "fitness": "shear strength gain rate sufficient to support overlying slab loads before next loading event",
+    "boundary": "temperature gradient re-establishment destroying sinter bonds, rain-freeze crusts creating impermeable barriers, extremely cold temperatures slowing sintering kinetics",
+    "tags": [
+      "equilibrium",
+      "self-organization",
+      "accumulation",
+      "gradient",
+      "threshold",
+      "feedback-loop"
+    ]
+  },
+  {
+    "id": "spatial-variability-trigger-point-lottery",
+    "name": "Spatial Variability Trigger Point Lottery",
+    "domain": "avalanche science",
+    "unit": "spatially variable weak spot in buried weak layer",
+    "variation": "wind deposition patterns, solar aspect, vegetation, and terrain micro-features create heterogeneous weak layer thickness and slab loading across a slope",
+    "selection": "avalanche initiation occurs at spatial sweet spots where thin weak layer coincides with thick slab loading, regardless of conditions elsewhere on slope",
+    "fitness": "predictive accuracy of stability assessment accounting for spatial variability vs. point-measurement extrapolation",
+    "boundary": "snowpit representativeness limited to ~1m radius, remote triggering from adjacent terrain, spatial variability below measurement resolution",
+    "tags": [
+      "gradient",
+      "threshold",
+      "signal",
+      "coupling",
+      "dynamics",
+      "boundary"
+    ]
   }
 ]
