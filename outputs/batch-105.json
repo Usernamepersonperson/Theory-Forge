@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Lacto-Acid Gradient Bias Accumulation Model",
+    "mechanism_source": "fermentation",
+    "target_domain": "machine learning bias",
+    "mechanism": "In lacto-fermentation, Lactobacillus bacteria produce lactic acid that progressively lowers pH, selecting for acid-tolerant strains while suppressing competitors. This creates a feedback loop: early microbial dominance shapes environmental conditions that reinforce that dominance, making the final microbial community path-dependent on initial inoculant composition. Buffering compounds (salts, minerals) can moderate pH shift rate but cannot reverse established community structure once pH drops below critical thresholds.",
+    "application": "Machine learning models exhibit analogous path-dependent bias accumulation: initial training data composition acts as the inoculant, early-learned feature associations lower the 'pH' of the representational space (reducing dimensionality for underrepresented groups), and subsequent fine-tuning reinforces the dominant representation. Buffering interventions (re-sampling, regularization) moderate but cannot reverse deep structural bias once it is embedded in early layer weights.",
+    "prediction": "Debiasing interventions applied to output layers of pre-trained models will show significantly smaller bias reduction than equivalent interventions applied during initial pre-training data curation, measurable by a standardized counterfactual fairness benchmark.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Carnot Efficiency Negotiation Ceiling Theory",
+    "mechanism_source": "thermodynamics",
+    "target_domain": "diplomatic negotiations",
+    "mechanism": "The Carnot efficiency theorem establishes that no heat engine operating between two thermal reservoirs can exceed the efficiency η = 1 − T_cold/T_hot, regardless of mechanism design. The efficiency ceiling is determined entirely by the temperature differential between reservoirs, not by engineering ingenuity. Attempts to exceed Carnot efficiency violate the second law of thermodynamics; real engines approach Carnot efficiency only in the quasi-static limit where irreversible entropy generation approaches zero.",
+    "application": "Diplomatic negotiations operate between two 'temperature reservoirs': the maximum concession each party can offer (T_hot) and the minimum outcome each will accept (T_cold). The Carnot analogy predicts an efficiency ceiling on agreement quality — the best achievable deal is bounded by the structural temperature differential, not by negotiating skill. Irreversible entropy (trust damage, public commitment, face-loss events) reduces real negotiation outcomes below the theoretical ceiling.",
+    "prediction": "The quality of negotiated agreements (measured by joint-gain index) will correlate more strongly with pre-negotiation BATNA differentials (reservoir temperatures) than with negotiator experience levels, controlling for issue complexity.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Matched Filter Triage Signal Detection",
+    "mechanism_source": "signal processing",
+    "target_domain": "emergency room triage",
+    "mechanism": "A matched filter is the optimal linear filter for detecting a known signal in additive white Gaussian noise; it maximizes signal-to-noise ratio by correlating the received waveform with a template of the expected signal. The filter output peaks when the received signal most closely matches the template, and the detection threshold balances false positive rate against false negative rate according to the Neyman-Pearson criterion. Mismatched filters — those correlated with an incorrect template — degrade detection performance even when total signal energy is identical.",
+    "application": "Emergency room triage requires detecting 'signals' of acute deterioration against a background noise of presenting symptoms. Triage nurses act as matched filters: their mental template of high-acuity presentations (STEMI, stroke, sepsis) determines their detection sensitivity. A nurse whose template is miscalibrated (trained on an older patient population) acts as a mismatched filter for pediatric presentations, degrading detection performance even though the physiological signal is equally strong.",
+    "prediction": "Triage nurses assessed as having well-calibrated mental models for all demographic subpopulations will show lower missed high-acuity event rates than nurses with equivalent overall experience but population-limited exposure, after controlling for total years in service.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Maillard Browning Progression Game Pacing",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "indie game development",
+    "mechanism": "The Maillard reaction proceeds through sequential condensation stages: initial glycosylamine formation, Amadori rearrangement, and then branching pathways producing hundreds of flavor and color compounds. The reaction rate is exponentially sensitive to temperature and governed by the activation energies of each stage; rapid heating skips intermediate compounds and produces harsh, acrid flavors, while controlled temperature progression develops complex character. Brewers exploit this by precise kilning temperature ramps to hit specific flavor targets.",
+    "application": "Indie game development pacing follows an analogous multi-stage progression: tutorial (glycosylamine stage), skill acquisition (Amadori rearrangement), and mastery expression (branching flavor compounds). Games that rush through early stages — compressing tutorial and skill-acquisition phases to reach 'complex content' faster — produce harsh learning curves analogous to high-temperature Maillard shortcuts. Controlled temperature ramping maps to graduated difficulty curves.",
+    "prediction": "Indie games with tutorial-to-core-gameplay transition times calibrated to player skill acquisition rates (measured through beta playtest session completion data) will show higher 90-day retention than games where transition timing was set by developer intuition alone.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Trace Evidence Transfer Moderation Attribution",
+    "mechanism_source": "forensic science",
+    "target_domain": "social media moderation",
+    "mechanism": "Locard's exchange principle states that every contact between surfaces leaves traces on both; forensic scientists exploit secondary and tertiary transfer to reconstruct contact chains when direct evidence is absent. Glass fragments, fiber transfers, and pollen grains can be typed to their source population with population frequency statistics, allowing probabilistic source attribution even from indirect transfer. Transfer quantity decays with each secondary contact but retains typeable characteristics.",
+    "application": "Social media content moderation can apply trace-evidence logic to coordinated inauthentic behavior: each interaction between accounts leaves semantic and behavioral 'transfer traces' — shared vocabulary patterns, timing correlations, template reuse — that persist through secondary amplification. Content moderators who reconstruct contact chains from these traces can identify coordinating networks even when no single account shows unambiguous policy violations, analogous to tertiary fiber transfer reconstruction.",
+    "prediction": "Coordinated inauthentic behavior detection systems that model interaction-graph trace patterns across three or more degrees of separation will identify campaign networks at 20% earlier stages than systems relying on per-account behavioral signals alone.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Lead Line Appraisal Density Grading",
+    "mechanism_source": "stained glass",
+    "target_domain": "real estate appraisal",
+    "mechanism": "Stained glass construction uses lead came — H-profile strips of lead — to join individual glass pieces into a panel. The structural integrity of the panel depends on the came gauge profile, solder joint quality at intersections, and the perimeter support frame. Thin came allows finer detail lines but reduces structural capacity; thick came provides strength but visually overwhelms the glass. The lead-to-glass area ratio is a key quality metric: high lead ratio indicates structural patching of fragmented glass rather than planned design, reducing both aesthetic and structural value.",
+    "application": "Real estate appraisal of renovated properties faces an analogous came-ratio problem: each renovation patch (repair, addition, material substitution) represents a structural seam that adds interface complexity but may indicate underlying fragmentation in the original structure. Appraisers can use a 'seam density' metric — proportion of observable renovation interfaces to total surface area — to flag properties where patching complexity may indicate structural issues beneath cosmetic improvements.",
+    "prediction": "Properties with high renovation-interface density (one standard deviation above neighborhood average) will show higher post-sale repair cost incidence within 24 months than comparable properties with lower interface density, controlling for age.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Cave Humidity Cycling Pharmaceutical Stability",
+    "mechanism_source": "cheese cave aging",
+    "target_domain": "pharmaceutical trials",
+    "mechanism": "Cheese caves maintain precise microclimatic conditions — typically 90–95% relative humidity and 10–14°C — that govern rind development through controlled moisture exchange between cheese surface and atmosphere. Affinage (cave aging) requires monitoring and adjusting cave microclimate seasonally, as external temperature shifts alter cave humidity gradients. Rind development rate, moisture loss, and proteolysis depth are direct functions of temperature-humidity cycling; deviations produce defects (cracking, unwanted mold species) that compromise both safety and flavor.",
+    "application": "Pharmaceutical trials of temperature-sensitive biologics face analogous storage-condition dependence: stability studies must characterize drug behavior across the humidity-temperature space encountered in real supply chains, not just at ideal storage conditions. Cave aging logic suggests that cycling stability studies — exposing drug samples to representative temperature-humidity cycles rather than static stress testing — will better predict real-world degradation rates than accelerated single-condition testing.",
+    "prediction": "Biologic drugs characterized using cycling stability protocols (simulating real supply-chain temperature-humidity variation) will have lower post-approval shelf-life recall rates than drugs characterized only under ICH static accelerated stability conditions.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Celestial Fix Refugee Way-Point Navigation",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "refugee resettlement",
+    "mechanism": "Celestial navigation uses the angle between a celestial body and the horizon (altitude) measured at a known time to produce a line of position (LOP); the navigator is somewhere on that circle of equal altitude. Two or more LOPs from different bodies intersect to produce a celestial fix. Errors compound through inaccurate timepieces, horizon dip, and atmospheric refraction; navigators correct for each error source systematically and assign a confidence ellipse to their fix based on LOP intersection geometry.",
+    "application": "Refugee resettlement case management involves navigating to a 'fix' — a stable integration outcome — from multiple intersecting lines of assessment: language proficiency, employment history, family network, and health status. Like LOPs, each assessment provides a partial constraint on the likely resettlement trajectory. Poor intersection geometry (all assessments pointing the same direction) produces a poorly constrained fix; diverse assessment dimensions produce a tight confidence ellipse and more accurate placement prediction.",
+    "prediction": "Resettlement agencies using multi-domain intake assessments with at least four independent measurement dimensions will achieve better 12-month self-sufficiency outcomes than agencies using fewer assessment dimensions, controlling for case complexity.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Quench Hardening Dog Temperament Setting",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "dog training",
+    "mechanism": "In blacksmithing, quench hardening involves heating steel to above its austenitizing temperature (typically 800–900°C for high-carbon steel) to produce a homogeneous austenite phase, then rapidly cooling (quenching) in oil or water to trap carbon in a distorted martensite crystal lattice. Martensite is extremely hard but brittle; subsequent tempering at lower temperatures (150–300°C) allows some carbon to precipitate as fine carbides, reducing brittleness while retaining hardness. The final hardness-toughness balance depends on both quench rate and tempering temperature.",
+    "application": "Early critical period socialization in dogs is analogous to the austenitizing phase: the developmental window (3–14 weeks in puppies) during which the behavioral phase is uniformly plastic and receptive to exposure. The socialization experiences delivered during this window are the quench — rapidly fixing behavioral templates. Subsequent training is tempering: controlled stress application that reduces behavioral rigidity while preserving the socialized foundation. Insufficient socialization (low quench temperature) produces soft, unstructured behavior; over-stressful early experience (too-rapid quench) produces brittleness — reactive anxiety.",
+    "prediction": "Dogs receiving structured multi-environment socialization during the critical period (8–14 weeks) followed by systematic desensitization training from 4–6 months will show lower fear-reactivity scores at 18 months than age-matched dogs receiving only one of the two interventions.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Tightrope Perturbation Recovery Booking Arc",
+    "mechanism_source": "funambulism",
+    "target_domain": "professional wrestling booking",
+    "mechanism": "A tightrope walker maintains balance through a long balancing pole that increases moment of inertia around the wire axis, micro-corrections in foot placement, and controlled arm movements that generate angular momentum opposite to perturbations. The balancing pole's mass distributed at its ends maximizes rotational inertia, giving the walker more time to respond to perturbations before they exceed recoverable amplitude. The recovery time window is proportional to the square root of pole moment of inertia divided by gravitational torque.",
+    "application": "Professional wrestling booking places performers on a narrative 'wire' where audience investment can be perturbed by injury, real-world controversy, or creative missteps. A long-pole booking strategy — building narrative equity through extended character consistency — gives bookers more recovery time when perturbations occur. Short-pole booking (rapid character changes, gimmick pivots) reduces moment of inertia and narrows the correction window, making falls from audience investment harder to prevent.",
+    "prediction": "Performers maintained in a consistent character alignment for 16 or more weeks before a perturbation event (injury hiatus, title loss) will recover audience investment ratings faster post-return than performers with shorter pre-perturbation consistency windows.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Warp Tension Route Capacity Allocation",
+    "mechanism_source": "tapestry weaving",
+    "target_domain": "airline route planning",
+    "mechanism": "In tapestry weaving, warp threads (vertical) are held under controlled tension on the loom and serve as the fixed structural framework; weft threads (horizontal) carry the design and are woven at variable densities. Warp tension must be uniform across all threads or the finished piece will distort — high-tension threads pull the fabric narrow while low-tension threads buckle. The sectional warp beam distributes tension across independent sections, allowing the weaver to assign different weft densities per section without losing overall structural integrity.",
+    "application": "Airline route networks use hub-and-spoke structures where hub connections (warp threads) must maintain consistent operational tension (minimum frequency thresholds) or the network distorts — overloaded spokes cause delay propagation while underloaded spokes fail economically. Tapestry beaming logic suggests that route capacity allocation should treat hub connectivity as uniformly tensioned structural warp, varying spoke frequency (weft density) to serve demand patterns without compromising hub tension uniformity.",
+    "prediction": "Hub-and-spoke networks that maintain minimum hub connection frequency thresholds as a hard constraint during capacity reductions will show lower delay propagation during disruptions than networks that reduce hub frequency proportionally alongside spoke frequency.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Fresnel Zone Language Domain Focusing",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "language revitalization",
+    "mechanism": "A Fresnel lens achieves the focusing power of a thick lens in a thin profile by dividing the lens into concentric annular zones, each contributing to constructive interference at the focal point. Zones that would contribute destructive interference are blocked or phase-shifted by 180 degrees. The effective focal power scales with the number of zones; each added zone increases intensity at the focal point but requires higher precision fabrication to avoid introducing aberrations from zone boundary errors.",
+    "application": "Language revitalization programs can apply Fresnel zone logic by identifying the concentric zones of language use — family, community, religious, economic, and formal education domains — and designing each zone to contribute constructively to a focal point of fluent daily use. Domains that create destructive interference (those where the dominant language provides strong economic advantage) need phase-shifting interventions rather than simple blocking: providing economic value through the endangered language rather than suppressing competing language use.",
+    "prediction": "Language revitalization programs that actively create economic productivity opportunities within the endangered language domain will sustain speaker population growth longer than programs focused solely on education and cultural preservation domains.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Chasen Whisk Turbulence Bolus Aeration",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "competitive eating",
+    "mechanism": "In Japanese matcha preparation, the chasen (bamboo whisk) is used in a rapid W-motion to create a fine, stable foam through mechanical aeration: the whisk breaks the matcha suspension into micro-bubbles, increasing surface area and producing the characteristic froth. Foam stability depends on matcha concentration, water temperature (70–80°C for optimal viscosity), and whisk speed; over-whisking collapses foam while under-whisking produces coarse bubbles with shorter stability. The specific W-motion maximizes turbulent mixing while minimizing shear-driven defoaming.",
+    "application": "In competitive eating, the combination of solid food with controlled liquid intake serves an analogous aeration function: liquid introduction reduces the viscosity of the food bolus and increases the rate of pharyngeal clearance — the competitive eating equivalent of whisking matcha to optimal consistency. Competitors who calibrate liquid-to-solid ratios and intake timing to the mechanical properties of each food type (analogous to matching water temperature and whisk speed to matcha concentration) will optimize throughput without triggering gag reflex.",
+    "prediction": "Competitive eaters who use food-type-specific hydration ratios and intake timing protocols will outperform eaters using fixed hydration strategies on standardized food items measured by intake rate per unit time.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Speleothem Lamina Dating Archaeological Calibration",
+    "mechanism_source": "caving",
+    "target_domain": "archaeological excavation",
+    "mechanism": "Speleothems grow through calcium carbonate deposition from supersaturated cave drip water at rates ranging from 0.01–1 mm per year depending on drip rate, CO2 partial pressure, and temperature. U-Th disequilibrium dating provides age estimates with precision of ±1–2% for formations younger than 500,000 years. Laminar growth banding records seasonal and climatic variation; lamina counting cross-checked with U-Th ages provides an independent chronometer for cave sediments overlapping with the speleothem growth interval.",
+    "application": "Archaeological sites in cave environments often contain sediment sequences difficult to date directly by radiocarbon due to old carbon contamination. Speleothem growth rate calibration offers an independent chronometer: identifying the sediment layer level that was exposed at the time a nearby stalagmite was actively growing, and using the speleothem's U-Th age to bracket the sediment deposit age. This provides high-precision age constraints without relying on organic material from potentially contaminated contexts.",
+    "prediction": "Cave archaeological sites that use adjacent speleothem U-Th ages to bracket sediment deposits will show significantly lower age estimate variance compared to sites using only radiocarbon dating of the same cave sediments, particularly for contexts older than 30,000 years.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Flowing Rebuttal Theatrical Lighting Collapse",
+    "mechanism_source": "competitive debate",
+    "target_domain": "theatrical lighting design",
+    "mechanism": "In competitive parliamentary and policy debate, 'flowing' is the practice of tracking every argument and its responses in a two-column grid; an argument that receives no direct response is considered 'dropped' and conceded. The principle of argument completeness requires that every issued argument must be addressed or the unaddressed argument is awarded to the issuer. Strategic debaters selectively extend high-value dropped arguments in rebuttals to force a collapse: the opponent cannot recover a conceded argument without a new time allocation they no longer have.",
+    "application": "This mechanism maps incoherently onto theatrical lighting design. While theatrical lighting operates through spatial, chromatic, and temporal dimensions, there is no adversarial completion requirement: unaddressed areas of the stage are simply dark, not conceded to an opposing argument. Lighting designers do not respond to spatial claims but rather author a visual field holistically. The competitive debate framework offers no predictive or prescriptive leverage over lighting design decisions.",
+    "prediction": "There is no falsifiable prediction derivable from competitive debate flowing mechanics that would distinguish good from poor theatrical lighting design choices.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

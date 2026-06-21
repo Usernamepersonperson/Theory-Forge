@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Marionette String Geometry and the Transmission Mechanism Problem",
+    "mechanism_source": "puppetry",
+    "target_domain": "central banking",
+    "mechanism": "Marionette control depends on string geometry: each string subtends a specific joint or body segment, and pulling a string transmits force through a defined mechanical path to produce intended movement. String slack introduces lag and imprecision—the puppet does not respond until the string is taut. More critically, over-articulated puppets (too many control strings) suffer from cross-string interference, where pulling one string inadvertently tensions adjacent ones, producing unintended subsidiary movements throughout the figure.",
+    "application": "Central bank transmission mechanisms operate through analogous string geometry: policy rate adjustments (string pulls) transmit through defined channels (bank lending, exchange rate, asset price, expectations) to the real economy (puppet joints). String slack corresponds to balance-sheet constraints or credit market dysfunction—policy rate changes produce no movement until taut conditions are met. Over-instrumented central banks (multiple simultaneous tools: rate, QE, forward guidance, macro-prudential policy) suffer cross-instrument interference, where asset purchase programs tension inflation expectations in ways that complicate rate signaling.",
+    "prediction": "Central banks deploying three or more simultaneous unconventional instruments during a single easing cycle will show greater forecast dispersion among professional forecasters for both inflation and output, compared to periods of single-instrument use, controlling for shock severity—evidence of cross-string interference in expectation formation.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Waggle Dance Quorum and Consensus in Leaderless Distributed Systems",
+    "mechanism_source": "beekeeping",
+    "target_domain": "distributed systems",
+    "mechanism": "Honeybee swarms select new nest sites through a decentralized quorum process: scout bees inspect candidate sites and perform waggle dances whose duration encodes site quality. Better sites generate longer dances and recruit more scouts; poorer sites generate shorter dances, resulting in fewer converts. The quorum threshold is reached when a critical number of scouts are simultaneously present at a single site, triggering departure. Crucially, no single bee has a global view—consensus emerges entirely from local interaction dynamics.",
+    "application": "Leaderless distributed consensus protocols (Raft without an established leader, epidemic/gossip protocols) mirror waggle dance dynamics: nodes advertise competing values with message frequency proportional to local confidence, accumulating 'recruits' through peer replication until a quorum threshold triggers commitment. The dance-duration analog is message TTL or replication factor assigned by node confidence; higher-confidence values self-amplify to quorum faster. Systems designed around variable-confidence message weighting rather than uniform voting may achieve faster consensus under partial partition.",
+    "prediction": "A gossip-based consensus protocol in which nodes weight their rebroadcast probability by a confidence score derived from local evidence will converge to consensus faster under 20-30% node failure rates than a uniform-broadcast protocol with equivalent bandwidth, measurable in simulation with network sizes between 100 and 10,000 nodes.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Gather and Blow Cadence as a Model for Positional Flexibility in Negotiation",
+    "mechanism_source": "glassblowing",
+    "target_domain": "negotiation theory",
+    "mechanism": "Glassblowing alternates between two irreducible phases: gathering (adding material, building mass, creating possibility) and blowing (shaping through internal pressure, committing form). Neither phase can be indefinitely extended—glass cools continuously, and a blower who gathers too long without shaping loses workability, while one who blows prematurely without sufficient mass produces thin, fragile walls. The master glassblower reads heat color and viscosity to time transitions between phases precisely.",
+    "application": "Negotiation dynamics parallel the gather-blow cycle. Gathering phases—information exchange, relationship building, option generation—accumulate negotiating material and expand the zone of possible agreement. Blowing phases—anchoring, making offers, demanding concessions—commit to specific shapes and must be timed to the temperature of the interaction. Parties who remain in perpetual gathering mode (endless exploratory talks) lose leverage as deadlines cool the interaction; parties who blow prematurely (anchor before sufficient information is gathered) produce brittle agreements. Effective negotiators read 'temperature signals' (urgency, relationship warmth, BATNA changes) to pace phase transitions.",
+    "prediction": "Negotiators who vary their information-gathering to position-stating ratio across sessions—increasing gathering during early sessions and transitioning to positional moves as deadlines approach—will achieve higher joint-gain outcomes in experimental negotiation tasks than negotiators who maintain a constant ratio throughout.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Ring Width Compression Events and Leading Indicator Archaeology",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "economic forecasting",
+    "mechanism": "Dendrochronology reads tree rings as annual growth archives: ring width encodes growing-season conditions (temperature, precipitation, competition), while density encodes spring-summer thermal history. Pointer years—rings dramatically narrower or wider than adjacent years—record discrete disturbance events (frost, drought, volcanic cooling) and can be cross-dated across thousands of specimens to create precisely dated chronologies extending centuries before instrument records. The resolution is annual with sub-seasonal intra-ring density variation.",
+    "application": "Economic time series can be read as dendrochronological archives: asset price rings (annual return bands), credit spread rings, and employment cohort rings each record the 'growing conditions' of their period. Cross-dating logic—identifying pointer years (crises, booms) that appear synchronously across multiple independent economic series—allows retrospective calibration of long-run economic chronologies beyond the reliable data era. Compression event detection in multiple series simultaneously is the analog of volcanic frost rings: a signal so widespread it identifies systemic rather than idiosyncratic shocks.",
+    "prediction": "Economic forecasting models that incorporate multi-series pointer-year cross-dating—identifying years in which five or more independent economic indicators simultaneously show anomalous readings—will produce more accurate recession onset timing predictions (within a six-month window) than models using single-series leading indicators, testable against NBER recession dates.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Gold Seam Integration and the Metabolic Incorporation of Rupture",
+    "mechanism_source": "kintsugi",
+    "target_domain": "trauma therapy",
+    "mechanism": "Kintsugi (golden joinery) repairs broken ceramics by filling fracture lines with lacquer mixed with gold, silver, or platinum powder. Unlike invisible mending, kintsugi makes the repair the most visually prominent feature of the object. The gold seam is structurally functional—it bonds the fragments—but also aesthetically transformative, converting the fracture history into the defining visual narrative of the piece. The repaired object is not returned to a pre-break state but reconstituted into a different, arguably richer form.",
+    "application": "Post-traumatic growth frameworks in psychotherapy can be reoriented around kintsugi principles: the therapeutic goal is not restoration to a pre-trauma baseline but integration of the rupture into a reconstituted identity narrative where the trauma becomes load-bearing rather than hidden. Narrative exposure therapy and meaning-making approaches that explicitly foreground traumatic events (apply the gold) rather than suppressing or minimizing them (invisible mending) align with this model. The 'gold' is the meaning attributed to the break—purpose, connection, revised values—not the absence of scar.",
+    "prediction": "Trauma therapy protocols that explicitly incorporate meaning-making narrative work (identifying personal growth attributed to the traumatic experience) will show greater long-term post-traumatic growth scores (PTG Inventory) at 12-month follow-up than symptom-focused protocols alone, even when both achieve equivalent PTSD symptom reduction at treatment end.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Salvage Survey Triage and the Asset Recovery Sequencing Problem",
+    "mechanism_source": "shipwreck salvage",
+    "target_domain": "corporate turnaround",
+    "mechanism": "Maritime salvage begins with a rapid structural survey to assess hull integrity, buoyancy potential, and cargo accessibility before any recovery action is taken. Salvors prioritize: first, preventing further sinking (stabilization); second, recovering highest-value easily accessible cargo; third, attempting structural refloating only if cost-benefit is favorable. Critically, premature refloating of a structurally compromised hull causes catastrophic secondary sinking, destroying cargo that could have been recovered piece by piece from a stable wreck.",
+    "application": "Corporate turnaround follows identical triage logic. Distressed companies require immediate stabilization (cash preservation, halting operational hemorrhage) before any strategic repositioning—attempting 'refloating' (growth investment, M&A) on a structurally compromised balance sheet causes secondary failure. Turnaround specialists survey the asset map first: which product lines, customer segments, and capabilities are recoverable and at what extraction cost? High-value, easily accessible assets (profitable business units) are divested first to fund stabilization of core operations, not preserved for a refloating plan that may never materialize.",
+    "prediction": "Corporate restructurings that begin with explicit asset triage followed by sequenced stabilization-before-growth protocols will achieve higher rates of emergence from bankruptcy as going concerns, compared to restructurings that pursue simultaneous stabilization and growth investment, controlling for pre-distress asset quality.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Auger Hole Positioning and the Signal-to-Noise Problem in Indirect Detection",
+    "mechanism_source": "ice fishing",
+    "target_domain": "dark matter detection",
+    "mechanism": "Ice fishing requires drilling holes in ice that is opaque to direct visual inspection of the water column. The fisher infers fish presence from indirect signals: sonar returns, line tension vibration, bait descent rate changes. Hole placement is theory-dependent—knowledge of thermal stratification, weed structure, and species behavior guides auger positioning to maximize encounter probability with unseen targets. False signals (snags, current, debris) must be distinguished from genuine fish indicators using multi-signal correlation.",
+    "application": "Dark matter detection experiments operate in an identical epistemic structure: the target is invisible to direct observation, detectors are positioned based on theoretical models of dark matter density profiles (galactic halo models, analogous to thermal stratification maps), and candidate signals must be distinguished from backgrounds (neutrinos, cosmic rays, radioactive decay—the snags and debris) using multi-channel correlation. The experimental placement logic is wholly theory-dependent, meaning null results constrain theoretical parameter space rather than proving absence, just as no-strike ice fishing constrains but does not eliminate fish presence.",
+    "prediction": "Dark matter direct detection experiments sited using updated galactic density profiles from Gaia astrometric data will show improved exclusion limit slopes per unit exposure time compared to experiments sited using pre-Gaia halo models, testable against published cross-section exclusion curves.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Wax Resist Boundaries and the Semantic Isolation of Encrypted Data Regions",
+    "mechanism_source": "batik dyeing",
+    "target_domain": "encryption",
+    "mechanism": "Batik creates patterns by applying hot wax to fabric as a resist agent before dyeing; dye penetrates unwaxed regions while wax-covered regions remain the original color. Multiple dye baths with sequential waxing and de-waxing build up layered color patterns: areas waxed in the first bath retain an earlier color while later baths saturate newly exposed regions. Craquelure (wax cracking) creates the characteristic fine-line dye penetration—an unintended but distinctive leakage pattern.",
+    "application": "Encryption schemes can be conceptualized through batik logic: plaintext regions are the unwaxed fabric (dye penetrates, meaning is accessible); encrypted regions are waxed (dye/meaning cannot enter). Layered encryption (nested encryption keys, onion routing) mirrors multi-bath batik: each decryption layer removes a wax coat to reveal the next color beneath. Craquelure maps to side-channel leakage—unintended fine-line information pathways (timing, power consumption, electromagnetic emission) that penetrate the conceptual wax resist and reveal structure about the underlying plaintext.",
+    "prediction": "Encryption implementations that explicitly model and patch their craquelure (side-channel leakage paths) during design, rather than addressing them post-hoc, will show lower rates of successful side-channel attack in standardized evaluation frameworks, measurable across NIST-submitted cipher candidates.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Spillway Capacity and the Absorptive Limits of Immigration Infrastructure",
+    "mechanism_source": "dam engineering",
+    "target_domain": "immigration policy",
+    "mechanism": "Dam engineering centers on the spillway design flood—the maximum inflow the spillway can safely pass without overtopping the dam. Spillway capacity must exceed not the average inflow but the probable maximum flood, accounting for upstream catchment changes (deforestation, urbanization) that alter runoff coefficients over time. Dams designed to historical flood frequencies become inadequate as catchment conditions change, requiring costly retrofit or accepting residual risk of overtopping failure.",
+    "application": "National immigration infrastructure (adjudication capacity, housing, health services, labor integration programs) has an analogous spillway design flood: the maximum processing rate without systemic overtopping (legal backlog explosion, settlement service failure, social tension). Systems designed to historical arrival frequencies fail when catchment conditions change (regional instability, climate displacement, economic pull factors) in ways that increase arrival volume. The policy implication is that immigration infrastructure must be designed to probable maximum arrival events, not average historical flows, with dynamically adjustable spillway capacity (surge processing mechanisms).",
+    "prediction": "Countries with pre-built immigration processing surge capacity—temporary adjudication courts, pre-approved housing placement networks, expedited labor credential recognition pathways—will show lower asylum decision backlog growth rates during arrival surge events than countries without surge capacity, even when baseline arrival volumes are equivalent.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Wild Yeast Terroir and the Place-Based Resilience of Civic Networks",
+    "mechanism_source": "sourdough fermentation",
+    "target_domain": "community organizing",
+    "mechanism": "Sourdough starter cultures are ecologically embedded: they harbor wild yeasts and lactobacilli drawn from the local flour, water, and ambient microbiome. Starters transported between environments gradually shift microbial composition toward the new locale—a process called terroir drift. Mature starters exhibit resilience through microbial diversity: a monoculture can be wiped out by a single pathogen, but a diverse culture self-regulates pH and outcompetes pathogens through competitive exclusion. Regular feeding (substrate renewal) is essential; starved starters lose diversity before dying.",
+    "application": "Community organizations derive resilience from local ecological embedding: their leadership networks, knowledge practices, and resource flows are drawn from and adapted to specific place-based conditions. Parachuted organizations (external NGOs imposing standard models without local terroir adaptation) fail at the rate monoculture starters fail in new environments. Diverse civic networks—cross-sector, cross-demographic, intergenerational—exhibit competitive exclusion of authoritarian or capture dynamics. The feeding imperative maps to sustained resource flows; defunded organizations lose network diversity before collapsing entirely.",
+    "prediction": "Community organizations with higher leadership diversity across sector, demographic, and institutional origin will show greater programmatic continuity through funding disruption events than organizationally homogeneous peers, testable against longitudinal nonprofit survival data stratified by leadership composition metrics.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Specimen Pose Arrest and the Authentic Stasis Problem in Digital Archiving",
+    "mechanism_source": "taxidermy",
+    "target_domain": "digital preservation",
+    "mechanism": "Taxidermy arrests a biological specimen in a posed, apparently living state using preserved skin mounted on an artificial form. The technique faces an inherent paradox: it preserves superficial appearance (fur, feathers, scale pattern) while replacing all functional biological substrate (organs, musculature, skeleton) with inert materials. Over time, skin tanning chemicals interact with the mounting form, color fades, and the specimen diverges from the original appearance it was meant to preserve. The specimen is authentic in form but thoroughly artificial in substance.",
+    "application": "Digital preservation faces an identical paradox: migrating file formats to keep content accessible preserves the appearance (rendered text, image pixels) while replacing the original technical substrate (encoding, metadata, software dependencies). A PDF migrated from WordPerfect format retains surface readability but loses authentic formatting semantics, macro behavior, and linked resource relationships. Emulation strategies (running original software in virtual machines) are the taxidermy equivalent of freeze-drying over artificial forms—more authentic but still subject to substrate decay (emulator bit rot). Long-term digital objects are always specimens, never living documents.",
+    "prediction": "Digital objects preserved through emulation strategies will score higher on multi-dimensional authenticity assessments (format integrity, metadata completeness, behavioral fidelity) after 20-year preservation intervals than format-migrated equivalents, but both will show significant authenticity degradation compared to freshly created control documents.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Nucleation Layer Deposition and the Long Preparation Phase in Talent Development",
+    "mechanism_source": "pearl cultivation",
+    "target_domain": "talent development",
+    "mechanism": "Cultured pearls begin with a nucleation event: a bead nucleus and mantle tissue graft are surgically implanted into the oyster. The oyster responds by secreting nacre layers around the irritant; each layer is microscopically thin (less than 1 micrometer) but the cumulative layering over 2-5 years produces the luster depth that determines pearl quality. Rushing the process—removing pearls before sufficient nacre depth—yields thin-skinned pearls that chip and lose luster rapidly. Layer quality depends on consistent water temperature and nutrition throughout the entire growth period.",
+    "application": "Expert talent development requires an analogous nucleation-plus-layering model. A nucleus event (exposure to a domain, early significant challenge, identity-forming experience) initiates the developmental process, but mastery depth depends on consistent layer-by-layer accumulation over years, not intensity bursts. Early specialization without nucleation produces brittle expertise that chips under novel challenge; rushed development programs that compress layering timelines produce thin-skinned performers who degrade rapidly under competitive pressure. Talent managers who optimize for early performance extraction sacrifice long-run luster.",
+    "prediction": "Athletes or performers who report a clear early nucleation event (formative challenge or role model encounter before age 12) combined with consistent rather than highly variable training volume across development years will show greater career longevity and peak performance maintenance than those with either element missing, controlling for absolute training hours.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Mesh Aperture Optimization and the Qualifying Signal Problem in Outbound Sales",
+    "mechanism_source": "fog harvesting",
+    "target_domain": "lead generation",
+    "mechanism": "Fog harvesters collect atmospheric water by deploying mesh screens that intercept fog droplets. Collection efficiency follows a nonmonotonic relationship with mesh aperture: too fine a mesh causes droplets to deflect around the screen (aerodynamic bypass), while too coarse a mesh allows droplets to pass through without capture. An optimal intermediate aperture maximizes the ratio of captured to bypassed droplets. Additionally, mesh position relative to prevailing fog flow direction is critical; misaligned meshes collect near zero even at optimal aperture.",
+    "application": "Lead generation systems face the identical aperture problem: qualification criteria that are too narrow (fine mesh) cause viable leads to deflect through alternative channels or self-qualify out before contact; criteria too broad (coarse mesh) allow low-intent prospects to pass through the pipeline without capture, wasting conversion resources. Optimal qualification aperture is channel-specific and flow-direction-dependent—a qualification framework tuned for inbound content leads will miss or misclassify outbound cold-contact leads moving through a different behavioral flow trajectory.",
+    "prediction": "Sales organizations that independently calibrate lead qualification criteria by channel (inbound vs. outbound, referral vs. cold) will achieve higher qualified-lead-to-closed-revenue conversion rates than organizations applying uniform qualification criteria across channels, measurable from CRM pipeline data across matched revenue segments.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Keystone Species Removal and the Critical Node Problem in Organizational Resilience",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "organizational resilience",
+    "mechanism": "Coral reef ecosystems depend on keystone species—organisms whose functional contribution to ecosystem stability is disproportionately large relative to their biomass. Removal of a keystone (crown-of-thorns starfish predators, parrotfish) triggers cascading trophic collapses that restructure the entire ecosystem. Critically, coral reef resilience is not uniform across the system: bleaching resistance, recovery capacity, and phase-shift vulnerability vary by local conditions (thermal history, water quality, herbivory pressure), creating a landscape of high- and low-resilience nodes.",
+    "application": "Organizations contain keystone individuals and processes whose functional contribution to systemic stability exceeds their visible role. Departure of a keystone employee (the person who maintains cross-departmental translation, absorbs ambiguity at system interfaces) triggers cascading coordination failures invisible in org chart analysis. Organizational resilience mapping should identify these keystones through network centrality and information-flow analysis, then actively maintain redundancy around them. Resilience is spatially heterogeneous in organizations, just as reef resilience varies by location—some departments are inherently more phase-shift-prone than others.",
+    "prediction": "Organizations that conduct social network analysis to identify high-betweenness-centrality employees and implement cross-training redundancy programs specifically targeting those nodes will show lower performance degradation during unexpected key employee departures than organizations with equivalent training investment distributed uniformly.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Smoke Column Encoding and Axonal Burst Coding in Neural Circuits",
+    "mechanism_source": "smoke signaling",
+    "target_domain": "neural communication",
+    "mechanism": "Indigenous smoke signaling systems encode information through signal parameters (column height, color, rhythm of interruptions) rather than arbitrary symbol strings. Column height indicates distance visibility and signal urgency; color (white from wet fuel, dark from dry fuel) distinguishes signal type; interruption rhythm (number and spacing of puffs) encodes specific categorical messages. The channel is low-bandwidth but extremely long-range, with the receiver decoding a compressed message from a small number of distinguishable parameters.",
+    "application": "Axonal burst coding in neural circuits operates on analogous compressed-parameter logic: neurons encode information not merely in spike rate (column height) but in burst structure—the number, timing, and inter-spike interval pattern of spike clusters. Different burst patterns (analogous to smoke rhythm) signal categorically different downstream targets even when mean firing rate is equivalent. Long-range axonal projections (analogous to smoke's long range) use burst codes precisely because they are bandwidth-limited: the metabolic cost of sustained high-frequency firing over long distances favors compressed burst encoding over rate coding.",
+    "prediction": "Optogenetic experiments that deliver stimuli matched to natural burst patterns (rather than rate-matched Poisson trains) to long-range projection neurons will evoke qualitatively different downstream neural responses and behavioral outputs, demonstrating that burst structure carries information independent of mean firing rate.",
+    "viability": "promising",
+    "confidence": 0.77
+  }
+]

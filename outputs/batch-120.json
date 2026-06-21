@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Temae Sequence Tolerance Design",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "Renaissance faire operations",
+    "mechanism": "The Japanese tea ceremony (chanoyu) structures every preparatory action into a fixed sequence of movements called temae, where each step is performed at a specific pace and spatial position. The host arrives early to set the garden path, arrange the tokonoma alcove, and heat the water to precisely 80°C for green tea, all before guests arrive. This pre-event choreography eliminates improvisation during the ceremony itself, allowing the host full attentional presence. The principle is that invisible preparation makes visible experience seamless.",
+    "application": "Renaissance faire operations suffer from chaotic morning setups where vendors, performers, and logistics crews collide without sequenced handoffs. Applying temae logic means assigning each crew a fixed spatial zone and time window for setup, in a predetermined order that flows from infrastructure outward to costume and prop detail. Directors begin with gate and signage, then food stalls, then performer staging areas, then roving entertainers — each wave clearing before the next begins.",
+    "prediction": "Faires that adopt a sequenced zone-clearance setup protocol will report fewer performer injuries and vendor conflicts on opening day compared to faires using simultaneous open-lot setup, measurable via incident logs across at least two seasons.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Tightrope Calibration Transfer",
+    "mechanism_source": "funambulism",
+    "target_domain": "professional sommelier training",
+    "mechanism": "Funambulists maintain balance on a wire through continuous micro-corrections — small counter-rotations of the balancing pole shift the body's center of mass back over the cable within milliseconds. The wire itself provides proprioceptive feedback that travels up through the feet and ankles, giving the walker real-time data about deviation before it becomes visible. Expert walkers describe not fighting the wire but listening to it, interpreting tension as directional information. This is a closed feedback loop where the performer is both sensor and actuator.",
+    "application": "Sommelier blind tasting is similarly a real-time feedback loop: the palate detects a signal (acid, tannin, minerality), the taster forms a hypothesis (Burgundy, 2015), then the next sip either confirms or destabilizes that guess. Training programs that explicitly model this as dynamic rebalancing — rather than pattern matching to a fixed library — develop tasters who recover gracefully when a wine violates expectations. Students are drilled to treat a surprising note not as an error but as proprioceptive data requiring a micro-correction to their mental model.",
+    "prediction": "Sommelier candidates trained with an explicit 'hypothesis-correction' loop framework will score higher on difficult blind tastings featuring atypical vintages than candidates trained on flavor-wheel memorization alone, with difference detectable in WSET Diploma practical exam scores.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Warp-Thread Scenario Planning",
+    "mechanism_source": "tapestry weaving",
+    "target_domain": "storm chasing logistics",
+    "mechanism": "In tapestry weaving, the warp threads are set first as a fixed structural skeleton under tension on the loom; the weft threads then interleave perpendicularly, creating the image. Warp threads cannot change position once set, but weft threads can vary in color, texture, and density in response to the emerging design. The weaver must decide the warp layout before any image detail is possible, committing to a structural grid that constrains but also enables all subsequent choices. This produces a hard-constraint / soft-constraint duality built into the workflow.",
+    "application": "Storm chasing logistics divide naturally into warp decisions (vehicle routes, fuel cache placement, communication frequencies, rally points) made in advance based on synoptic-scale forecasts, and weft decisions (real-time lane changes, intercept angles, abort triggers) made as the storm evolves. Teams that confuse these layers — trying to renegotiate fuel stops in real time, or locking intercept angles the night before — incur compounding errors. The warp-weft model formalizes which decisions must be precommitted and which must remain fluid, reducing cognitive load during active intercept.",
+    "prediction": "Storm chasing teams briefed with an explicit pre-chase / in-chase decision taxonomy will make fewer fuel-crisis aborts and radio-frequency conflicts per season than teams using ad-hoc coordination, measurable across a multi-team field research program.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Passage Commitment Architecture",
+    "mechanism_source": "caving",
+    "target_domain": "competitive CrossFit programming",
+    "mechanism": "In technical caving, moving through a narrow squeeze passage requires full commitment: the caver exhales, rotates to the minimum cross-section, and pulls forward with no option to reverse mid-passage. Experienced cavers call this the point-of-no-return and assess it before entry, not during. The decision structure is binary and irreversible once initiated, which means risk assessment must be front-loaded and movement must be executed with complete intention. Partial commitment increases injury risk by creating hesitation mid-squeeze.",
+    "application": "CrossFit programming contains analogous commitment points — particularly in maximal-effort lifts and sprint intervals where deceleration mid-rep increases injury risk more than either full execution or clean abort. Programming coaches can map each workout's commitment architecture in advance, flagging movements where athletes must decide their effort tier before the clock starts rather than adjusting mid-rep. This reframes the warm-up not as physical preparation alone but as the pre-passage risk assessment, where go/no-go decisions about load and intensity are locked in.",
+    "prediction": "CrossFit athletes whose coaches explicitly designate pre-movement commitment decisions will show lower rates of form-breakdown injuries on Olympic lifts compared to athletes in programs that allow mid-set load adjustments, detectable over a 12-month injury tracking period.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Dead Reckoning Memorial Cartography",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "cemetery landscape design",
+    "mechanism": "Pre-GPS astronomical navigation uses dead reckoning: from a known fix (a star sighting), navigators project forward position using speed, heading, and elapsed time, accumulating positional error that grows with distance from the last fix. Skilled navigators minimize drift by taking frequent celestial fixes at optimal star-rise windows, resetting their error budget each time. The entire system is structured around planned uncertainty — knowing exactly where doubt accumulates and scheduling corrections accordingly. Each fix is not just a position but a reset of confidence.",
+    "application": "Cemetery landscape design across multi-decade timescales faces analogous drift: original planting schemes, pathway grades, and drainage assumptions degrade as trees mature, sections fill, and soil compaction shifts water flow. Treating each major infrastructure update (a new section opening, a columbarium installation) as a navigational fix — an opportunity to survey the full landscape and reset the maintenance plan against actual conditions rather than projected ones — prevents the accumulated drift where maintenance crews are following plans that no longer match the terrain.",
+    "prediction": "Cemeteries that schedule comprehensive landscape reassessment tied to section-opening milestones will show lower drainage-failure rates and replanting costs over 20-year periods than those following fixed annual maintenance calendars, measurable in grounds-management cost records.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Pin Stack Fiber Sequencing",
+    "mechanism_source": "lock picking",
+    "target_domain": "artisanal paper making",
+    "mechanism": "In pin tumbler lock picking, applying rotational tension to the plug causes one binding pin to bear more friction than the others due to manufacturing tolerances. The picker sets that pin first, then moves to the next binding pin, working through the stack in the order the lock's tolerances dictate rather than in a fixed sequence. This is anti-intuitive: the picker must listen to the lock's mechanical hierarchy rather than impose a predetermined order. Success depends on reading resistance gradients and responding to the lock's actual structure.",
+    "application": "Artisanal paper making from mixed fiber sources (cotton linter, flax, abaca, recycled cotton rag) requires beating and hydration times tuned to each fiber's freeness — its drainage rate when water is removed. Papermakers who beat all fibers together to a target freeness often get uneven sheets because each fiber reaches its optimal hydrogen-bonding surface area at different points. Applying pin-stack logic means testing each fiber's resistance to beating individually, identifying the most stubborn fiber first, and sequencing the combined beating around that constraint rather than imposing a uniform schedule.",
+    "prediction": "Papermakers who sequence multi-fiber beating by individual freeness curves will produce sheets with more uniform tensile strength and fewer formation defects than those using combined-fiber beating to a single Schopper-Riegler target, verifiable through standardized sheet formation testing.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Shell Break Failure Cascade Model",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "professional improv comedy",
+    "mechanism": "In aerial shell pyrotechnics, a multi-break shell contains nested charges that fire in sequence: the lift charge, the burst charge that opens the shell, and one or more color-star charges that produce the visual effect. If any intermediate charge misfires or fires out of sequence, the entire display is compromised — stars ignite too early, the shell tumbles, or the audience sees a dud. Each charge depends on the previous completing correctly, and there is no recovery path mid-flight. The failure modes compound rather than cap.",
+    "application": "Improv comedy scenes have analogous sequential dependency: a scene's first offer establishes the world, the second player's acceptance builds on it, and subsequent moves layer callbacks and escalations. When a player denies or undercuts a foundational offer — the improv equivalent of a burst charge misfire — subsequent players are building on unstable ground, and the scene compounds in confusion rather than comedy. Training programs that diagram scenes as shell break sequences help performers recognize which moments are load-bearing charges versus which are decorative stars, teaching them to protect the structural fires.",
+    "prediction": "Improv performers trained with explicit scene-structure diagrams identifying load-bearing versus decorative moves will receive higher audience coherence ratings on long-form sets than performers trained exclusively through repetition, measurable through controlled performance evaluations with naive audiences.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Sewing Signature Debris Taxonomy",
+    "mechanism_source": "bookbinding",
+    "target_domain": "space debris tracking",
+    "mechanism": "In traditional sewn bookbinding, individual folded sections called signatures are gathered in a precise sequence and sewn together through their folds with a continuous thread that links each signature to the previous one. The binding's integrity depends on knowing the spatial relationship between every signature — a misplaced or inverted signature causes systematic misalignment in all subsequent ones. Binders catalog each signature by gathering mark (a small printed symbol on the spine fold) to verify correct ordering before sewing begins. The catalog is the precondition for structural integrity.",
+    "application": "Space debris tracking catalogs suffer from object-association errors — particularly after fragmentation events where one object becomes hundreds and tracking algorithms must re-associate radar returns to the correct parent objects. Applying bookbinding logic means treating each debris field as a signature set, where the gathering marks are the orbital element signatures (inclination, eccentricity, RAAN) that identify family membership. Systematic verification of orbital family association before updating the catalog prevents compounding misattribution errors that propagate through subsequent conjunction analyses.",
+    "prediction": "Debris tracking systems that implement orbital-family verification gates after fragmentation events will show lower false-conjunction alert rates in the 30 days post-event compared to systems that immediately integrate new objects into the general catalog without family-association checks.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Waiting-on-the-Fist Patience Training",
+    "mechanism_source": "falconry",
+    "target_domain": "vintage car restoration",
+    "mechanism": "In falconry, manning a newly acquired bird requires the falconer to carry the hawk on the gloved fist for hours at a time over many days, allowing the bird to habituate to human presence at its own pace without pressure. Forcing interaction before the hawk is ready produces bating — panicked flight attempts from the fist — which sets back trust and creates avoidance behaviors that are harder to reverse than the original wildness. The falconer's role is to be present and available while the bird self-paces its own desensitization.",
+    "application": "Vintage car restoration frequently suffers from impatient disassembly — restorers pulling apart components before fully understanding their assembled state, destroying the evidence needed to recreate correct geometry and finish. The manning principle applied here means spending the first phase of any restoration project in pure observation: driving or inspecting the car in its found condition, photographing every surface, measuring geometry before removing anything. The car's existing state contains information that disappears the moment the first fastener is loosened.",
+    "prediction": "Restorers who document a minimum of 20 hours of inspection and measurement before beginning disassembly will complete restorations with fewer specification reversals and sourced-wrong-part errors than those who begin disassembly within the first session, measurable through restoration project logs.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Provenance Chain Curriculum Sequencing",
+    "mechanism_source": "numismatics",
+    "target_domain": "Montessori curriculum design",
+    "mechanism": "In numismatics, a coin's provenance chain — the documented sequence of owners and sales from minting to present — directly affects both its authenticity confidence and its market value. A gap in the chain raises suspicion even when the coin appears genuine, because the gap represents an interval where substitution could have occurred. Provenance is not merely historical interest but a structural guarantee of the object's integrity. Numismatists treat chain completeness as a prerequisite for grading, not as supplementary information.",
+    "application": "Montessori curriculum sequencing is built on the principle that each material and concept must be experienced in a specific developmental order, with each level providing the cognitive 'provenance' — the experiential foundation — that gives the next level its meaning. When children skip materials or move to abstractions before completing concrete-level work, their conceptual provenance chain has a gap. Like a coin with a missing auction record, the gap may be invisible on the surface but creates fragility in the structure beneath. Curriculum consultants can use provenance-chain audits to identify which children have conceptual gaps masquerading as readiness.",
+    "prediction": "Montessori classrooms that conduct systematic material-completion audits before advancing children to abstract-level work will show more consistent performance on standardized math reasoning assessments at age 9 compared to classrooms using teacher observation alone as advancement criteria.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Specimen Armature Food Architecture",
+    "mechanism_source": "taxidermy",
+    "target_domain": "professional food styling",
+    "mechanism": "In taxidermy, the preserved skin is mounted over an internal armature — a form made of foam, wire, or polyurethane that replicates the animal's body volume and musculature. Without the armature, the skin collapses or distorts; the armature is entirely invisible in the finished piece but determines every visible contour. Experienced taxidermists select or sculpt armatures that are slightly oversized at key muscle groups to compensate for the skin's tendency to contract during drying. The invisible structure creates the visible truth.",
+    "application": "Professional food styling for photography requires food to hold position, maintain volume, and resist gravity and heat for 30-60 minutes under lights. Stylists use internal supports — toothpicks, bamboo skewers, cardboard inserts, food-safe silicone wedges — that are cropped out or hidden in the final image. Applying taxidermy armature logic formalizes this into a pre-shoot structural design phase: mapping which elements will collapse, which will pool, which will wilt, and engineering the hidden support system before the hero ingredients are placed. This reduces reshoot rates by preventing structural failures mid-shoot.",
+    "prediction": "Food styling teams that complete a formal pre-shoot structural engineering brief (identifying each element's failure mode and specifying its support) will complete shoots in fewer setups than teams relying on on-the-fly adjustment, measurable through production time logs across comparable projects.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Mordant Bonding Therapeutic Alliance Model",
+    "mechanism_source": "textile dyeing",
+    "target_domain": "wilderness therapy programs",
+    "mechanism": "In natural textile dyeing, mordants (typically metal salts like alum, iron, or copper) are applied to fiber before dyeing to create chemical bonds between the dye molecule and the fiber's protein or cellulose structure. Without a mordant, dye molecules rest on the fiber surface and wash out; with the right mordant, the dye forms coordination bonds that become part of the fiber's molecular structure. Different mordants produce different colors from the same dyebath because they alter the dye molecule's electron configuration. The mordant is not the color — it is the relationship that makes color permanent.",
+    "application": "Wilderness therapy's therapeutic outcomes depend not on the wilderness experiences themselves but on the therapeutic alliance formed between participant and therapist before, during, and after field activities. The experiences are the dye — vivid, potentially transformative — but without a strong therapeutic relationship acting as mordant, the insights wash out when the participant returns to their home environment. Program design should explicitly schedule mordanting phases: relationship-building sessions before field challenges, and processing sessions after, where the therapist bonds the experience to the participant's existing meaning-making structure.",
+    "prediction": "Wilderness therapy programs that mandate structured pre-expedition and post-expedition therapeutic alliance sessions will show higher 6-month outcome retention (measured by validated instruments like the YOQ) than programs emphasizing field experience volume over therapeutic relationship density.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Angle of Repose Drone Line Control",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "competitive drone racing",
+    "mechanism": "Sandcastle builders working with dry or saturated sand must respect the material's angle of repose — the maximum slope angle at which the granular material remains stable before avalanching. Wet sand with optimal moisture content (around 8% water by mass) creates capillary bridges between grains that dramatically increase structural cohesion, allowing near-vertical walls. Builders also know that tower height is limited by base width; narrowing the base to add height creates exponentially increasing collapse probability. These structural limits are material properties, not design failures.",
+    "application": "Competitive drone racing through tight gate sequences involves analogous structural limits: the drone's velocity envelope at each gate is constrained by its turning radius (determined by mass, thrust-to-weight ratio, and prop pitch), and attempting to fly the theoretical shortest path often exceeds these limits, producing crashes. Pilots who treat their drone's kinematic envelope as a material property — like sand's angle of repose — and design their racing line to stay within it rather than pushing against it, achieve faster lap times through consistency. The fastest line is not the geometrically shortest line but the line that best respects the material.",
+    "prediction": "Drone racing pilots explicitly trained on kinematic envelope modeling (calculating maximum entry velocities for each gate based on drone specifications) will achieve faster average lap times in practice sessions than pilots trained through trial-and-error line finding, measurable in time-trial data.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Golden Seam Alteration Philosophy",
+    "mechanism_source": "kintsugi",
+    "target_domain": "bespoke tailoring",
+    "mechanism": "Kintsugi is the Japanese practice of repairing broken ceramics with lacquer mixed with powdered gold, silver, or platinum, making the repair lines visible rather than hiding them. The philosophy treats breakage and repair as part of the object's history, not as defects to conceal. The gold seam is structurally functional — urushi lacquer creates a strong adhesive bond — but its visibility is intentional and aesthetic. The repaired object is considered more beautiful and more honest than the unbroken original because it carries visible evidence of survival.",
+    "application": "Bespoke tailoring traditionally treats alterations as flaws to hide — let-out seams are pressed to minimize visibility, patch repairs are camouflaged with matching thread. For clients with garments of significant sentimental or historical value, a kintsugi approach treats visible repair as testimony: using contrast thread color in let-out seams, allowing a thoughtfully placed patch to use complementary fabric rather than matching, or reinforcing a worn collar with visible topstitching in a coordinating color. This reframes aging and repair as part of the garment's narrative rather than evidence of its decline.",
+    "prediction": "Bespoke clients offered kintsugi-style visible repair options for sentimental garments will report higher long-term satisfaction with the repaired garment at 12-month follow-up than clients whose repairs were executed with standard concealment techniques, measurable through client survey.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Hydrodynamic Drafting Coral Fragment Positioning",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "coral nursery management",
+    "mechanism": "In competitive swimming, drafting occurs when a trailing swimmer positions themselves directly behind a lead swimmer, benefiting from the reduced pressure zone and accelerated water flow in the leader's wake. The trailing swimmer can maintain race pace at 10-15% lower energy expenditure. Elite relay and open-water coaches map drafting positions geometrically — not just behind, but at a specific lateral offset determined by the lead swimmer's stroke width and body size. The hydrodynamic benefit is position-specific and diminishes rapidly outside the optimal draft corridor.",
+    "application": "Coral nursery tree structures position coral fragments on hanging lines or PVC frames in flowing water, and fragment survival and growth rate are significantly affected by water flow velocity across each polyp's surface. Fragments in low-flow shadow zones show reduced calcification rates due to depleted oxygen and food particle delivery. Applying swimming drafting geometry to fragment placement means modeling each fragment's downstream flow wake and ensuring no fragment is positioned in another's hydrodynamic shadow — or conversely, positioning slower-growing fragments in accelerated flow corridors behind larger colonies to boost their calcification. This is the inverse of swimming: shadows hurt, not help.",
+    "prediction": "Coral nursery trees designed with computational flow modeling to eliminate inter-fragment flow shadows will show measurably higher average calcification rates across all fragments compared to trees with standard uniform spacing, detectable through buoyant weight measurements over a 6-month growth period.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

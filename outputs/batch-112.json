@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Spectral Leakage Literary Frame",
+    "mechanism_source": "signal processing",
+    "target_domain": "literary criticism",
+    "mechanism": "When a finite-duration signal is analyzed via discrete Fourier transform, energy from one frequency component bleeds into adjacent frequency bins because the implicit rectangular window creates discontinuities at its edges. Windowing functions such as Hann or Blackman-Harris taper the signal toward zero at the edges, trading leakage suppression against frequency resolution. The leakage-resolution tradeoff is fundamental: no window function eliminates both problems simultaneously, and the choice of window encodes analytical assumptions about the signal's structure.",
+    "application": "Literary critics applying interpretive frameworks to texts face an analogous windowing problem. A Marxist or psychoanalytic lens acts as a window function: it selects which textual frequencies (themes, figures, structures) are amplified and which are attenuated, and the choice of window determines how much interpretive energy 'leaks' from intended critical categories into adjacent ones. Critics who ignore their window choice will mistake leakage artifacts — apparent textual evidence produced by the framework's own analytical boundary effects — for genuine features of the work.",
+    "prediction": "Empirical studies of peer-reviewed literary criticism comparing essays that explicitly state their interpretive frame versus those that do not will find that frameless essays produce measurably higher rates of internally contradictory evidence claims, detectable by automated coherence scoring, because unacknowledged windowing creates hidden leakage that authors mistake for convergent evidence.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Maillard Glide Path Chemistry",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "pension fund management",
+    "mechanism": "The Maillard reaction between reducing sugars and amino acids during kilning follows Arrhenius kinetics: reaction rate roughly doubles for every 10°C temperature increase. Brewers balance kilning temperature and time to achieve target wort color and flavor while avoiding over-caramelization that produces harsh bitterness. The reaction is irreversible past certain thresholds — once melanoidins have formed and precursors are consumed, no subsequent process can restore the original flavor profile.",
+    "application": "Pension fund glide paths embody the same time-temperature irreversibility. Higher-risk allocations function as elevated kilning temperatures: they accelerate return generation but also accelerate irreversible loss crystallization. Once a funding ratio drops below certain thresholds near liability maturity — the over-caramelization point — no recovery strategy can restore prior funding status within the required timeframe. Glide-path de-risking is the pension equivalent of lowering kiln temperature before the reaction goes too far.",
+    "prediction": "Pension funds that begin equity de-risking at funding ratios above 95% will show lower variance in terminal funding ratios at maturity compared to funds beginning de-risking below 85%, controlling for starting funding ratio and contribution rates, because the latter group is already past the Maillard irreversibility threshold when they begin de-risking.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Locard Exchange Colonization Protocol",
+    "mechanism_source": "forensic science",
+    "target_domain": "space colonization",
+    "mechanism": "Locard's exchange principle holds that every physical contact leaves a bilateral trace: a perpetrator deposits material at a scene and removes material from it. Modern forensic trace analysis uses scanning electron microscopy with energy-dispersive X-ray spectroscopy to identify transferred glass fragments, paint chips, and fiber types at microgram quantities. The analytical power comes from the bilateral, irrevocable nature of transfer — contact cannot occur without mutual contamination.",
+    "application": "Space colonization generates an identical bilateral trace problem: every habitat, suit, and tool carries Earth-origin biological and chemical signatures that must be tracked to prevent forward contamination of target bodies and backward contamination of Earth. A Locard-based colonization protocol would mandate bidirectional material-trace logging at every human-environment interface — recording what biological and chemical material each crew member, robot, and vehicle delivers to and removes from each zone — treating contamination as an irrevocable exchange rather than a preventable event.",
+    "prediction": "Analog habitat missions that implement bidirectional trace logging from mission inception will detect contamination propagation events at least 40% earlier than those relying on endpoint swab testing alone, as demonstrated in controlled trials at Antarctic stations or Mars-analog desert sites where contamination events can be verified against introduced tracers.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Drag Quadratic Parsing Load",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "psycholinguistics",
+    "mechanism": "Hydrodynamic drag on a swimmer scales with the square of velocity: doubling stroke rate quadruples drag force, rapidly overwhelming thrust capacity. Elite swimmers therefore optimize stroke efficiency at sub-maximal stroke rates rather than attempting maximal stroke frequency. Tumble turns are designed to exploit wall momentum precisely because recovering momentum from a near-stop requires far more energy than maintaining it — drag physics makes recovery disproportionately expensive.",
+    "application": "Sentence parsing follows a structurally similar quadratic cost function at syntactic garden paths. When a reader constructs an initial parse that must be abandoned, the reanalysis cost is not proportional to the distance traveled along the incorrect parse — it scales superlinearly with syntactic commitment depth, because each additional embedded decision based on the initial parse must be individually reversed. The swimming model predicts that garden-path severity should scale quadratically with the depth of syntactic embedding reached before disambiguation, not linearly.",
+    "prediction": "Reading time measures at garden-path disambiguation points should fit a quadratic rather than linear function of the number of syntactic decisions committed prior to disambiguation, detectable in eye-tracking corpora where disambiguation position and prior commitment depth can be independently coded, and this fit should hold across languages with different canonical word orders.",
+    "viability": "speculative",
+    "confidence": 0.50
+  },
+  {
+    "name": "False Set Choreographic Binding",
+    "mechanism_source": "lock picking",
+    "target_domain": "dance choreography",
+    "mechanism": "Single-pin picking exploits manufacturing tolerances in pin tumbler locks: rotational tension causes pins to bind sequentially in tolerance order. A picker lifts each binding pin to the shear line, feeling it set, before moving to the next. Security spool pins introduce deliberate false sets — the hourglass-shaped pin body catches at the shear line in an intermediate state, requiring the picker to momentarily reduce tension to allow full setting. Missing this cue and maintaining full tension causes the pin to counter-rotate and unset.",
+    "application": "Choreographers developing ensemble phrases encounter binding in the same sequential order: each dancer's technical and expressive constraints creates binding points in the movement vocabulary that prevent the phrase from setting cleanly. A false-set choreography method would deliberately hold partial phrase completions in rehearsal, reading which movement ideas bind — resist fluid execution — and resolving those constraints before attempting to fully set the phrase, rather than drilling complete phrases until compliance forces the resistance underground rather than genuinely resolving it.",
+    "prediction": "Ensemble pieces developed using constraint-first iterative phrase-setting (resolving movement binding points in the sequence the ensemble reveals them) will show statistically fewer individual dancer deviations in final performances compared to pieces developed by full-phrase drilling, measurable by motion-capture deviation analysis from a notated score ideal.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Burst Apex Relief Staging",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "disaster relief logistics",
+    "mechanism": "Aerial firework shells use a delay composition between the lift charge and the burst charge, calibrated so the burst occurs at the apex of the shell's trajectory where velocity is momentarily zero and the resulting star pattern expands symmetrically. If the delay burns too quickly, the shell bursts below apex and stars are forced downward by residual momentum; too slowly and the burst occurs in descent, producing an asymmetric pattern. Multi-break shells layer multiple burst compositions at different time-delays after the primary burst, each deploying a distinct effect into the expanding space left by the prior break.",
+    "application": "Disaster relief resource deployment faces the identical burst-sequencing problem: deploying all resource categories simultaneously overwhelms local absorption capacity, just as simultaneous breaks compete for the same spatial volume. A pyrotechnic staging model pre-packages relief resources into sequenced layers, each released only after field confirmation that the prior layer has been absorbed and distributed — the burst apex is the moment of maximum community absorption capacity, not an arbitrary calendar date. Multi-break protocol means each resource type (search-and-rescue, medical, water, food, shelter) has a calculated delay from the prior type based on observed absorption rates.",
+    "prediction": "Relief operations that use absorption-confirmation-gated staged deployment (each resource category releases upon verified distribution completion of the prior category) will achieve at least 25% higher effective utilization rates of delivered goods compared to operations using simultaneous or calendar-scheduled release, in populations receiving equivalent resource volumes across comparable disaster types.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Spine Flexibility Preservation Model",
+    "mechanism_source": "bookbinding",
+    "target_domain": "architectural preservation",
+    "mechanism": "A well-bound sewn book uses a flexible spine with PVA or paste adhesive that allows the text block to open flat without cracking. Over-rigid adhesives — hot-melt glues, early PVA formulations — embrittle within decades as polymers crosslink, causing spine cracks when the book is opened. Conservators assess spine flexibility by measuring the force required to open the book to 90° and classify adhesive degradation stages by crack pattern morphology. The binding's longevity depends on maintaining adhesive elasticity across temperature cycles.",
+    "application": "Historic masonry structures require the same flexibility-rigidity balance. Over-restoration using rigid Portland cement fills the expansion joints and micro-cracks that allow historic masonry to accommodate thermal cycling and seismic micromotion; the cement's higher stiffness concentrates stress at the cement-stone interface and initiates new fractures adjacent to the repair. A bookbinding-derived preservation standard would require that all repair materials have elastic moduli within 20% of the substrate and specify reassessment intervals calibrated to material embrittlement timescales.",
+    "prediction": "Historic masonry structures repaired with flexible lime-based mortars will show statistically fewer new crack initiations over a 20-year monitoring period compared to matched structures repaired with Portland cement, controlling for structural loading history and climate exposure class, detectable in long-term monitoring datasets from European conservation programs.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Manning Curve Audience Accretion",
+    "mechanism_source": "falconry",
+    "target_domain": "podcast production",
+    "mechanism": "Manning a wild-caught hawk is the gradual process of habituating the bird to human presence, starting with the bird hooded on the fist and progressively increasing stimulation as the hawk demonstrates calm at each prior level. Moving through stages too quickly triggers flight response and resets trust-building; moving too slowly prolongs aversive captivity without productive habituation. The falconer reads behavioral cues — feather position, muscle tension, bating frequency — to calibrate progression rate individually to each bird.",
+    "application": "Podcast producers building new audiences must calibrate content complexity to listener readiness using an identical progressive habituation model. Introducing dense technical vocabulary, controversial framings, or unconventional formats before the audience has been manned to the host's voice, pacing, and epistemic style triggers drop-off that is difficult to reverse. A manning-curve production approach stages content complexity increases to completion rate data, only escalating challenge when episode-level retention metrics show stability at the prior difficulty level.",
+    "prediction": "Podcasts that structure their first 20 episodes with content complexity increasing monotonically at rates calibrated to episode completion data will show higher 90-day subscriber retention than podcasts releasing high-complexity episodes in the first 5 episodes, across genres with comparable topic appeal and equivalent promotional investment.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Thin Film Patina Esports Authentication",
+    "mechanism_source": "numismatics",
+    "target_domain": "competitive esports",
+    "mechanism": "Ancient coin authentication uses patina analysis: authentic patinas form over centuries through electrochemical reaction with soil environments, producing stratified mineral layers (malachite on bronze, cerargyrite on silver) whose depth profiles, crystalline structures, and mineral ratios are characteristic of genuine long-term burial. Artificial patinas applied to forgeries lack this stratified depth and show anomalous mineral ratios under X-ray fluorescence. The key diagnostic is that authentic patina has a depth profile that requires time — it cannot be replicated rapidly regardless of chemistry.",
+    "application": "Competitive esports anti-smurf detection faces the identical authenticity problem: high-skill players using new accounts lack the behavioral patina that genuine accounts accumulate over hundreds of hours — characteristic micro-error profiles, champion-pool breadth, decision-timing signatures, and loss-pattern distributions that develop organically through real skill progression. An authentication system modeled on numismatic patina analysis would construct multi-layer behavioral depth profiles and flag accounts whose behavioral stratigraphy is inconsistent with their claimed play history, regardless of current performance level.",
+    "prediction": "An anti-smurf detection algorithm using behavioral patina depth scoring — ratio of played-champion variance to win-rate consistency over time, combined with micro-timing signature depth — will identify smurf accounts with greater than 85% precision and 80% recall compared to Elo-discrepancy baseline methods, validated on labeled datasets from esports platforms with verified ground-truth smurf identifications.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Annealing Regulatory Stress Relief",
+    "mechanism_source": "glassblowing",
+    "target_domain": "pharmaceutical regulation",
+    "mechanism": "After a glass object is formed, it must pass through an annealing oven that slowly reduces temperature from the annealing point (~500°C, where glass viscosity is 10^13 poise) to the strain point (~450°C, viscosity 10^14.5 poise) over several hours, allowing thermal stress gradients frozen into the glass during working to relax by viscous flow. Cooling too rapidly below the strain point freezes residual stresses that cause spontaneous fracture hours or days later; cooling through the critical window at the correct rate is non-negotiable for glass durability.",
+    "application": "Pharmaceutical products approved under accelerated timelines carry analogous frozen stress gradients: manufacturing process validations, pharmacovigilance systems, supply chain qualifications, and prescriber education programs that have not had time to equilibrate with market demands. These un-annealed systems fracture spontaneously — as post-approval safety signals, supply disruptions, and label revisions — in the months following approval. A regulatory annealing model would require mandatory stabilization periods between Phase III data lock and approval, during which ancillary systems equilibrate, treating these as the critical viscosity window rather than administrative delays.",
+    "prediction": "Pharmaceutical products approved under standard review timelines with mandatory 6-month post-NDA manufacturing stabilization periods will show significantly lower rates of post-marketing safety label revisions in the first 3 years compared to products approved under accelerated pathways without analogous stabilization requirements, controlling for disease indication severity and prior therapeutic evidence base.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Carnot Efficiency Immigration Engine",
+    "mechanism_source": "thermodynamics",
+    "target_domain": "immigration policy",
+    "mechanism": "The Carnot efficiency limit establishes that no heat engine operating between a hot reservoir at T_H and a cold reservoir at T_C can convert more than η = 1 − T_C/T_H of input heat to work. All real engines fall short of this limit due to irreversibilities: friction, heat conduction across finite temperature gradients, and turbulence. The second law guarantees that attempts to exceed the Carnot limit are impossible, and that the only legitimate paths to higher efficiency are raising T_H or lowering T_C.",
+    "application": "Immigration sorting systems are thermodynamic engines that attempt to extract economic and social value from population flows while minimizing negative externalities. The Carnot framing reveals irreducible processing inefficiencies — fraudulent applications, misclassified refugees, skilled workers lost to processing delays — as thermodynamic necessities rather than administrative failures. The maximum extractable value depends on the quality differential between sending and receiving labor markets; policy proposals claiming to eliminate processing waste without changing this fundamental temperature differential are second-law violations.",
+    "prediction": "Across OECD immigration systems, bureaucratic complexity measured by number of distinct visa categories and processing stages will show a significant negative correlation with throughput efficiency measured as ratio of approved-and-economically-integrated migrants to total applicants, after controlling for application volume, legal migration targets, and receiving-country labor market conditions.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Cercarial Penetration Lighting Design",
+    "mechanism_source": "parasitology",
+    "target_domain": "theatrical lighting",
+    "mechanism": "Schistosome cercariae locate hosts by detecting fatty acid gradients (linoleic acid) and skin temperature differentials, then penetrate by secreting cercarial elastase to digest the stratum corneum before transforming into schistosomula that downregulate immune recognition by absorbing host membrane antigens. The penetration process is a two-phase operation: first the barrier is enzymatically disrupted, then the organism passes through the disrupted layer while masking itself against the host's detection systems.",
+    "application": "Theatrical lighting must penetrate the audience's ambient visual adaptation layer before delivering emotional content to the attentional substrate. A cercarial lighting protocol designs cues in two phases: the disruption phase uses a sudden color temperature shift or intensity change to enzymatically break the audience's adapted visual baseline, then the focus phase guides attention through the disrupted perceptual layer toward the dramatic focal element while peripheral masking reduces competing visual information — analogous to surface antigen downregulation — to prevent attentional re-capture by non-focal elements.",
+    "prediction": "Audiences in productions using two-phase disruption-then-focus lighting cues with simultaneous peripheral desaturation will show faster gaze convergence on intended focal elements and longer sustained fixation on those elements compared to audiences receiving conventional wash-plus-special lighting, measurable via eye-tracking under controlled theatrical conditions holding dramatic content constant.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Yield Stress Sediment Exploration Ethics",
+    "mechanism_source": "rheology",
+    "target_domain": "deep sea exploration",
+    "mechanism": "Yield stress fluids — Bingham plastics, Herschel-Bulkley fluids — behave as elastic solids below a critical shear stress threshold and flow viscously above it. Deep-sea sediments and muds are yield-stress materials whose rheological parameters can be characterized by oscillatory rheometry measuring the crossover point where storage modulus G' drops below loss modulus G''. Applied stress below the yield point causes recoverable elastic deformation; stress above the yield point initiates irreversible viscoplastic flow and can trigger turbidity currents.",
+    "application": "Deep-sea exploration instruments apply shear stress to sediment and biological communities with every contact. A rheological exploration protocol would require pre-deployment characterization of target-zone sediment yield stress and establish equipment contact force limits that stay below irreversible deformation thresholds, analogous to staying below G'/G'' crossover. This converts exploration ethics from a vague 'minimize disturbance' standard into a measurable mechanical constraint, with sampling strategies redesigned around the substrate's actual yield stress profile rather than generic precautionary principles.",
+    "prediction": "Deep-sea sampling missions that conduct pre-deployment sediment yield stress characterization and constrain equipment contact forces below measured yield thresholds will report statistically lower rates of visible sediment disturbance per sample collected compared to standard penetration-rate-controlled protocols, as measured by post-mission seafloor photography and turbidity sensor logs.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Lorenz Attractor Reward Topology",
+    "mechanism_source": "chaos theory",
+    "target_domain": "dog training",
+    "mechanism": "A strange attractor is a fractal structure in phase space toward which a chaotic dynamical system evolves — trajectories never repeat exactly but remain confined to the attractor's basin, producing behavior that appears random locally but is statistically stable globally. The Lorenz attractor's butterfly topology has two lobes; trajectories switch between lobes unpredictably, but the switching statistics are deterministic functions of the system's parameters. Small perturbations produce exponentially diverging trajectories but do not move the system out of the attractor basin.",
+    "application": "Variable-ratio reinforcement in dog training produces behavior topologically equivalent to a strange attractor: the dog's behavior varies unpredictably trial-to-trial but remains statistically confined to the target behavioral basin. Formalizing this analogy suggests that training should be understood as attractor engineering — widening the basin of the desired behavioral attractor (making more behavioral variants lead to reinforcement) while shrinking competing attractors (selectively extinguishing alternative behavioral clusters). The two-lobe Lorenz topology warns that behaviors with high surface resemblance but different underlying dynamics — sit-from-excitement versus sit-from-calmness — are genuinely distinct attractors that require separate stabilization.",
+    "prediction": "Dogs trained with reinforcement protocols explicitly designed to widen the behavioral basin around the target response (rewarding topographic variants that share the functional criterion) will show significantly longer extinction resistance than dogs trained with narrow criterion protocols requiring identical topographic form, controlling for total reinforcement history and behavioral baseline.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Minimum Description Length Climate Emulation",
+    "mechanism_source": "information theory",
+    "target_domain": "climate modeling",
+    "mechanism": "The minimum description length principle selects models by minimizing the combined length of the model description and the residuals between model predictions and data — operationalizing Occam's razor in information-theoretic terms. Kolmogorov complexity provides the theoretical grounding: the best model is the shortest program that generates the data. In practice, MDL is implemented via penalized likelihood criteria such as BIC, but the underlying principle is that the best model maximally compresses the observed data without losing predictive fidelity.",
+    "application": "Climate model parameterization schemes represent tradeoffs between physical fidelity and computational cost. MDL-guided emulator design would evaluate each parameterization sub-scheme by measuring its contribution to total description length — the joint cost of the parameterization code complexity plus residuals relative to full-physics reference runs. This identifies which physical processes are information-theoretically necessary at a given resolution versus which add description length without compressing the climate state, guiding resource allocation to genuinely irreducible physical complexity.",
+    "prediction": "Climate model parameterization schemes selected via minimum description length criteria applied to historical reanalysis compression will achieve lower root-mean-square error per unit of parameter count on held-out climate variables compared to schemes selected via conventional skill-score optimization, testable across an ensemble of CMIP-class models validated against ERA5 reanalysis data for at least three independent climate variables.",
+    "viability": "promising",
+    "confidence": 0.68
+  }
+]

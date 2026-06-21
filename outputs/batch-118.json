@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stigmergic Score Composition",
+    "mechanism_source": "swarm intelligence",
+    "target_domain": "algorithmic music generation",
+    "mechanism": "In swarm systems, agents leave environmental traces (stigmergy) that guide subsequent agents, producing emergent global structure without central coordination. Musical phrases can function as pheromone-like attractors: each generated motif biases probability distributions for subsequent note selection, allowing complex compositional arcs to emerge from local rules. The feedback loop between trace deposition and trace following mirrors call-and-response harmonic development. Decay rates on traces correspond to phrase memory length, controlling stylistic coherence over time.",
+    "application": "An algorithmic composer assigns each generated measure a weighted 'trace' value across dimensions such as harmonic tension, rhythmic density, and register. Subsequent generation steps sample from distributions shaped by accumulated traces, producing self-reinforcing stylistic episodes that eventually decay and allow new directions to emerge. This replaces hand-coded transition matrices with adaptive, history-sensitive generation.",
+    "prediction": "Compositions generated via stigmergic weighting will exhibit longer-range structural coherence and more naturalistic phrase-arc repetition than Markov-chain baselines at equivalent parameter counts.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Reef Zonation Crop Stratification",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "vertical farming operations",
+    "mechanism": "Coral reefs organize species into depth-dependent zones driven by light attenuation, water flow, and inter-species competition, maximizing total biomass production across a vertical gradient. Each zone exploits resources unavailable to adjacent zones, and pioneer species modify microhabitats enabling later colonizers. Vertical farms present an analogous gradient of light intensity, temperature, and CO2 concentration across rack tiers. Successional logic can guide crop sequencing so early high-light crops on upper tiers condition airflow and humidity for shade-tolerant crops below.",
+    "application": "Farm operators map each rack tier to a reef zone archetype and assign crops accordingly: high-irradiance leafy greens at the top canopy tier, mid-light herbs in the intermediate zone, and root crops or fungi at the low-light bottom tier. Transpiration from upper-tier crops is channeled downward to increase humidity for moisture-demanding lower-tier species, mimicking how coral mucus films modify local chemistry. Crop rotation follows a succession schedule rather than simple time intervals.",
+    "prediction": "Zonation-stratified vertical farms will achieve 15-25% higher combined biomass yield per watt of lighting versus single-crop-per-tier configurations with equivalent total planting area.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Spectral Line Isolation for Emotional Frequency Mapping",
+    "mechanism_source": "radio astronomy",
+    "target_domain": "divorce mediation",
+    "mechanism": "Radio astronomers isolate faint spectral emission lines from noisy broadband backgrounds by identifying characteristic frequency signatures and subtracting the continuum baseline, revealing otherwise invisible molecular species. In high-conflict mediation sessions, core emotional grievances are typically buried in broadband narrative noise — accusations, historical recounting, and procedural disputes. A mediator trained in spectral-isolation technique learns to identify recurring emotional 'lines' (abandonment, respect, financial insecurity) and systematically subtract the procedural continuum to surface them.",
+    "application": "Mediators use a structured listening protocol adapted from spectral analysis: they log every stated concern, tag its emotional frequency category, and after an initial session produce a 'spectrum' of dominant themes. Subsequent sessions address each emotional line in isolation, preventing cross-contamination between legal arguments and attachment injuries. The baseline-subtraction step corresponds to tabling procedural matters before emotional work begins.",
+    "prediction": "Mediation sessions using explicit emotional-frequency mapping will reach partial agreement on at least one substantive issue within two fewer sessions on average compared to unstructured mediation.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Keystone Species Curation Heuristic",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "film festival curation",
+    "mechanism": "Keystone species in reef ecosystems exert disproportionate structural influence relative to their biomass, maintaining biodiversity by preventing competitive exclusion. A reef without its keystone species collapses toward monoculture. Film festival programs risk analogous collapse when selections cluster around a dominant aesthetic or genre, reducing audience diversity and critical discourse. Identifying programmatic 'keystone films' — works whose presence enables otherwise marginal films to find an audience — structures a program that supports a wider ecosystem of reception.",
+    "application": "Curators explicitly designate two to three keystone titles per program strand whose broad appeal or critical framing creates interpretive context for adjacent challenging or marginal works. Scheduling places keystone films at anchor positions (opening night, midday prime) that draw diverse audiences who then flow into neighboring screenings. Selection committees assess each candidate's ecological role — does its inclusion protect or crowd out adjacent films?",
+    "prediction": "Festivals applying keystone-curation logic will show measurably higher attendance variance across program slots, indicating broader audience reach beyond a core self-selecting demographic.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Helmholtz Resonance and Formant Shaping Transfer",
+    "mechanism_source": "wind instrument acoustics",
+    "target_domain": "professional voice training",
+    "mechanism": "Wind instruments amplify specific frequencies through resonant cavity geometry: bore shape, tone-hole placement, and bell flare collectively determine the formant structure of the instrument's output spectrum. Players learn to match oral cavity shape to the instrument's resonant peaks, producing efficient sound transfer. The human vocal tract is itself a variable-geometry acoustic resonator, and formant shaping (adjusting pharyngeal width, velum position, lip aperture) directly controls vocal resonance efficiency. Instrument-building principles offer a geometric vocabulary for describing and teaching formant adjustments.",
+    "application": "Voice coaches borrow bore-geometry concepts to describe vowel modification: widening the pharyngeal cavity is analogized to flaring the bell of a brass instrument, increasing low-frequency resonance. Students visualize their tract as a tube with adjustable constrictions and practice modifying them in response to acoustic feedback that mirrors instrument-maker quality tests. Singing through target formant configurations is treated as 'tuning the bore' rather than as an abstract tonal goal.",
+    "prediction": "Singers trained with bore-geometry analogies will demonstrate faster acquisition of covered vowel resonance and measurably higher singer's formant amplitudes at 8-month evaluation compared to control groups using standard imagery.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Warp-and-Weft Structural Redundancy in Masonry Repair",
+    "mechanism_source": "silk weaving",
+    "target_domain": "heritage building restoration",
+    "mechanism": "Silk weaving achieves structural integrity through the orthogonal interlock of warp and weft threads: damage to individual threads is arrested by the surrounding grid, and load redistributes across intact fiber. Heritage masonry behaves similarly — a single failed joint or spalled stone transfers stress to neighbors — but restoration practice often treats failures as isolated events rather than redistributive network problems. Textile redundancy logic frames each repair as a re-knitting of the load-transfer mesh, prioritizing joints that are carrying displaced stress from prior failures over visually prominent but structurally marginal damage.",
+    "application": "Restoration engineers map the masonry as a weave diagram, marking each joint and unit as a node and tracing stress-redistribution paths from known failure points. Repair sequencing follows the logic of re-threading a damaged textile: anchor points (pilasters, corners) are stabilized first as warp threads, then horizontal courses are addressed as weft. Grout injection and pinning replicate thread splicing, reconnecting severed load paths before cosmetic repointing.",
+    "prediction": "Restoration projects using stress-redistribution sequencing will show lower rates of secondary failure within five years compared to projects sequenced by visual damage priority.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Tesserae Color Field Theory for Argument Mapping",
+    "mechanism_source": "mosaic art",
+    "target_domain": "competitive debate judging",
+    "mechanism": "Mosaic artists arrange small tesserae such that locally heterogeneous colors resolve at viewing distance into coherent chromatic fields. Individual tiles are not evaluated in isolation but by their contribution to the emergent image. Competitive debate arguments function similarly: individual claims may be flawed or incomplete in isolation, but their cumulative arrangement can constitute a coherent evidentiary field that is persuasive at the round's level of analysis. Judges who evaluate each argument in micro-isolation (tile-by-tile judging) systematically underweight cases built from many small supporting contentions.",
+    "application": "Judges trained in tesserae theory are instructed to maintain two simultaneous evaluative registers: close analysis of individual argument quality and gestalt assessment of what the argument cluster establishes. Scoring rubrics separate 'tile quality' (evidence quality, logical validity) from 'field coherence' (whether the argument cluster, taken together, carries the burden). Debaters are incentivized to explicitly name the field their arguments are constructing rather than relying on judges to infer it.",
+    "prediction": "Judges using dual-register evaluation will show higher inter-judge agreement on round outcomes when debaters employ distributed-evidence strategies, reducing split decisions by at least 20%.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Clinker Overlap Redundancy for Pipeline Network Resilience",
+    "mechanism_source": "shipwrighting",
+    "target_domain": "refugee camp water systems",
+    "mechanism": "Clinker-built hulls overlap each plank over the one below, creating a structure where each element provides both its own structural function and a backup load-transfer path for its neighbor. Failure of one plank does not propagate catastrophically because adjacent overlapping planks maintain integrity. Refugee camp water distribution networks are typically single-path (one pipe per branch), meaning any break creates immediate total outage for downstream users. Applying clinker logic means building deliberate redundant overlapping loop paths so every node has at least two supply routes.",
+    "application": "Camp water engineers design distribution networks as clinker loops rather than branching trees: each major supply line is paralleled by a secondary line of smaller diameter that shares connection points at regular intervals. Valve placement follows plank-overlap logic, ensuring that closing any single segment leaves an alternative path open. Repair crews are trained to 'shift load to the overlap' — partially opening the secondary line before isolating a damaged primary segment.",
+    "prediction": "Clinker-loop water networks in camp settings will reduce total service-interruption hours per household by more than 60% over 12 months compared to branching-tree designs with equivalent pipe volume.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Brushstroke Energy Gradient and Laser Pulse Sequencing",
+    "mechanism_source": "calligraphy",
+    "target_domain": "tattoo removal clinics",
+    "mechanism": "In classical calligraphy, ink density varies within a single stroke based on brush speed, pressure, and fiber saturation — entry strokes are dense, the stroke body lighter, and exit strokes trail off. This gradient reflects the physical distribution of pigment at different layers of fiber contact. Tattoo ink similarly distributes non-uniformly within dermal tissue: needle entry points have deeper, denser deposits; edges of filled areas have lighter surface deposits. Laser removal protocols that apply uniform fluence across an entire tattoo ignore this gradient, over-treating light edges while under-treating dense deposits.",
+    "application": "Clinicians perform initial intake mapping analogous to stroke analysis, identifying dense deposit zones (center fills, outline entry points) and lighter peripheral zones from tattoo photography and dermoscopy. Laser sessions apply a fluence gradient: higher pulse energy to stroke-body analogues, lower energy to edge regions, reducing thermal damage in lighter areas while achieving better fragmentation of dense deposits in fewer sessions. Sequential sessions rotate target zones as in repeat-stroke calligraphy practice.",
+    "prediction": "Gradient-fluence removal protocols will achieve equivalent ink clearance in 20-30% fewer sessions compared to uniform-fluence standard care, with lower incidence of hypopigmentation at treated edges.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Tontine Swarm Lending Coordination",
+    "mechanism_source": "swarm intelligence",
+    "target_domain": "micro-lending platforms",
+    "mechanism": "Swarm systems solve resource allocation problems through decentralized agent voting rather than central optimization: each agent evaluates its local information and signals a preference, and the aggregate signal determines resource flow. Micro-lending platforms currently rely on centralized credit scoring that aggregates individual data but loses social network information. Swarm-voting loan allocation has each borrower's social network connections contribute weighted approval signals based on direct knowledge of the borrower's reliability, producing an emergent creditworthiness score that encodes locally held information no centralized model accesses.",
+    "application": "The platform implements a stigmergic endorsement layer: borrowers solicit endorsements from prior borrowers in their social graph, each endorsement weighted by the endorser's own repayment track record. Loan allocation algorithms treat the endorsement field as a pheromone map, routing credit toward borrowers with dense positive signals. Endorsers receive small interest-rate benefits when endorsed borrowers repay, aligning incentives without requiring formal guarantee structures.",
+    "prediction": "Platforms using swarm-endorsed credit allocation will achieve default rates 25-40% lower than score-only baselines among first-time borrowers with thin credit files.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Fear Gradient Zoning from Occulted Light Geometry",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "haunted house design",
+    "mechanism": "Lighthouse optical systems rotate a beam through a dark background, creating a spatial field where observers experience alternating full illumination and complete darkness at a predictable cadence. The psychological effect depends on contrast ratio and cycle duration: longer dark intervals heighten anxiety about the beam's return; very short intervals reduce fear by maintaining near-continuous light. Haunted attraction design can borrow the occulted-light cadence model to calibrate ambient light cycling so that darkness intervals fall within the window of peak anticipatory anxiety without triggering disorientation or safety concerns.",
+    "application": "Designers parameterize each room by a target fear-arousal level and select light occlusion cadences accordingly: high-arousal rooms use 4-8 second dark intervals matching lighthouse slow-flash characteristics; transitional corridors use 1-2 second intervals to sustain arousal without full-dark panic. Scare actors time their appearances to the beam-return moment, exploiting the neurological startle that occurs at illumination onset after a dark interval. The predictable cadence trains anticipation that the random actor timing then violates.",
+    "prediction": "Haunted attractions using calibrated occlusion cadences will score higher on post-visit fear-enjoyment surveys and show lower exit rates at scare points compared to venues using continuous dim lighting.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Ice Core Stratigraphic Gait Analysis",
+    "mechanism_source": "glaciology",
+    "target_domain": "professional dog show judging",
+    "mechanism": "Glaciologists read ice cores as temporal stratigraphies: each layer encodes a discrete environmental event, and the sequence of layers reveals cumulative history rather than snapshot state. A single anomalous layer is interpreted in the context of surrounding strata, not in isolation. Dog show gait judging typically evaluates movement as a series of discrete passes, scoring each pass independently. Stratigraphic judging would instead read each gait pass as a layer, accumulating evidence about underlying structural qualities (angulation, reach and drive consistency, topline stability) that only become legible across multiple passes.",
+    "application": "Judges are trained to withhold preliminary gait scores until three or more passes have been observed, then synthesize a stratigraphic reading: does gait consistency hold across directions and distances, or do anomalies in one pass reflect compensatory patterns visible in others? Scoring sheets include a 'stratigraphic coherence' column that rewards dogs whose gait qualities are stable across passes over dogs who produce one exceptional pass. Video replay of multiple passes in sequence is used for educational calibration.",
+    "prediction": "Judges trained in stratigraphic gait analysis will show higher intra-judge consistency across the same dog evaluated in two separate ring patterns compared to standard single-pass evaluation training.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Leading Edge Thermal Shadow Mapping for Satellite Attitude Control",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "spacecraft thermal management",
+    "mechanism": "Lighthouse designers calculate shadow sectors — arcs where the beam is intentionally occluded to prevent confusion with other navigational lights — and engineer the physical lantern housing to cast precise thermal and optical shadows. The geometry of occlusion is a design variable, not an incidental byproduct. Spacecraft in low Earth orbit experience periodic eclipse-to-sunlight transitions that create extreme thermal gradients across structure. Applying lighthouse shadow-sector logic means treating the spacecraft's own structural geometry as a programmable shadow-casting element: attitude control maneuvers are scheduled to deliberately position thermal-sensitive components in the shadow of a leading structure during the highest-flux solar exposure phases.",
+    "application": "Mission planners define 'shadow sectors' for each thermally sensitive payload component analogously to lighthouse occlusion arcs, then incorporate attitude control maneuvers that rotate the spacecraft to place sensitive elements behind a thermal shield at eclipse emergence when flux rates peak. Reaction wheel scheduling is adjusted to make these protective attitudes coincide with low-delta-V orbital phases, minimizing propellant cost. The maneuver library is parameterized by solar beta angle, allowing autonomous onboard selection.",
+    "prediction": "Spacecraft using shadow-sector attitude scheduling will show peak temperature differentials across sensitive components reduced by 15-30% during eclipse emergence compared to attitude-neutral thermal management.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Cave Microclimate Terroir Transfer to Conching Control",
+    "mechanism_source": "cheese cave aging",
+    "target_domain": "artisanal chocolate production",
+    "mechanism": "Cheese cave aging produces distinctive flavor profiles through the microclimate's humidity, temperature stability, air circulation, and microbial community — the aggregate of these variables constitutes a terroir that is reproduced by maintaining stable cave conditions over years. Artisanal chocolate conching and tempering are typically controlled by time-and-temperature recipes that ignore ambient humidity and microbial surface conditions. Cave-aging logic frames the conching environment as a microclimate to be cultivated: consistent room humidity, ambient microbial profiles from prior batches, and temperature stability during resting phases collectively shape flavor development.",
+    "application": "Chocolatiers apply cave-management practices: maintaining a stable conching room humidity between 60-70% RH, allowing a resident microbial community to develop on equipment surfaces between batches rather than sterilizing between every production run, and logging microclimate conditions with the batch record as part of the flavor profile. Resting periods between conching stages are treated as mini-aging intervals where microclimate exposure continues flavor development. Batch-to-batch comparisons track microclimate variables alongside recipe variables.",
+    "prediction": "Chocolate batches produced under stable-microclimate conditions will receive higher flavor complexity ratings from trained tasters and show more consistent volatile compound profiles across production runs than batches produced in variable-humidity environments.",
+    "viability": "promising",
+    "confidence": 0.60
+  },
+  {
+    "name": "Quench Hardening Phase Transition as Triage State Crystallization",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "emergency dispatch routing",
+    "mechanism": "Blacksmiths quench heated steel to lock a high-energy crystalline phase (martensite) that would otherwise revert to a softer equilibrium state given time. The quench is a deliberate interruption of equilibration: the system is frozen in a non-equilibrium configuration that is useful precisely because it will not self-correct. Emergency dispatch systems face an analogous problem in multi-casualty incidents: initial resource allocation decisions made under uncertainty will drift toward re-equilibration (units pulled to whichever scene calls loudest) unless the dispatch state is deliberately quenched — locked against reallocation for a defined interval to prevent the system from collapsing toward a locally responsive but globally suboptimal configuration.",
+    "application": "Dispatch protocols adopt a quench interval for major incident initial allocation: once an incident commander confirms a resource assignment pattern, a software lock prevents reallocation of designated units for a configurable time window (analogous to quench duration). Requests to pull quenched units trigger an escalation to incident command rather than automatic reallocation, preserving the intended coverage geometry. The quench interval is parameterized by incident type, mirroring how blacksmiths select quench medium (water vs. oil) by steel grade.",
+    "prediction": "Dispatch systems using quench-interval locking in simulated mass-casualty scenarios will show lower total response-time variance across all incident locations compared to systems allowing continuous reallocation.",
+    "viability": "speculative",
+    "confidence": 0.54
+  }
+]

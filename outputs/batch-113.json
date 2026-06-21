@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Phase-Vocoder Temporal Stretch",
+    "mechanism_source": "signal processing",
+    "target_domain": "dance choreography",
+    "mechanism": "The phase vocoder is a signal processing technique that independently controls the time duration and pitch of audio by transforming it into the short-time Fourier domain, stretching the temporal envelope while preserving spectral content. It works by analyzing the instantaneous frequency and amplitude of each spectral component across overlapping windows, then resynthesizing at a different frame rate. The critical challenge is phase coherence: when time-stretching, the relative phases of harmonically related frequency components must be maintained or transient events—attacks, rhythmic impacts—become smeared or doubled as ghosting artifacts.",
+    "application": "Choreographic adaptation of existing phrase material for different musical tempos faces the exact phase vocoder problem: stretching a movement phrase to fit a slower musical tempo risks temporal smearing of gestural attacks, where the sharp accent that gives a phrase its punctuation becomes diffuse, losing rhythmic coherence. The phase coherence principle prescribes that movement adaptation must preserve the temporal relationships between accent-points within the phrase—the 'phase' relationships between kinetic impulses—even as the overall duration changes, or the phrase loses its structural identity.",
+    "prediction": "Expert dance observers should rate temporally stretched or compressed movement phrases that preserve accent-to-accent ratios as significantly more stylistically coherent than phrases stretched with uniform time scaling (which distorts internal accent ratios), even when both versions fit the target musical tempo—testable with annotated video stimuli presented to judges in a blinded rating study.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Hops-Isomerization Bitterness Budget",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "pharmaceutical regulation",
+    "mechanism": "Hops alpha acids (humulone, cohumulone, adhumulone) are insoluble in wort but isomerize during the boil into iso-alpha acids, which are soluble and provide bitterness. Isomerization efficiency depends on boil time, pH, and temperature, but critically, there is a saturation limit: wort can only hold a finite concentration of iso-alpha acids in solution before they fall out during fermentation. Adding more hops beyond the saturation threshold does not produce proportionally more bitterness—it produces waste, as excess iso-alpha acids precipitate with yeast. Brewers must calculate International Bitterness Units (IBUs) against the solubility ceiling for the target beer style.",
+    "application": "Pharmaceutical regulation operates with an analogous saturation limit: regulatory requirements below the solubility threshold produce proportional safety improvements, but requirements added beyond the regulatory processing capacity of the industry produce 'precipitation'—they fall out of effective compliance into checkbox behavior, adding cost without safety yield. The saturation model predicts that beyond a threshold regulatory density, additional requirements generate diminishing marginal safety returns and increasing compliance theater, exactly as excess hops generate foam, not bitterness.",
+    "prediction": "Analysis of drug safety outcomes across regulatory regimes differing in total compliance requirement density should show a saturation curve: safety outcomes should improve with increasing requirements up to a threshold (identifiable from the inflection point) and then plateau or decline, while compliance costs continue rising monotonically—testable with cross-national pharmaceutical safety and compliance cost data controlling for development budgets.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Bloodstain-Pattern Narrative Arc",
+    "mechanism_source": "forensic science",
+    "target_domain": "literary criticism",
+    "mechanism": "Bloodstain pattern analysis reconstructs the mechanics of a violent event from the geometry, size distribution, and directionality of blood deposits. Cast-off patterns (arcing stains from a swinging weapon), impact spatter (circular stains with satellite droplets indicating incoming direction), and transfer patterns (contact smears) are classified by their fluid dynamic signatures. Crucially, the patterns are read backwards from effect to cause: the analyst reasons from the frozen final state of the stain field back through the fluid dynamic sequence to reconstruct the original event's kinematics.",
+    "application": "Narrative analysis in literary criticism similarly reads backwards from the finished text to reconstruct the authorial decision sequence. The text is a frozen pattern of linguistic choices—word selections, structural breaks, syntactic constructions—each of which carries directional information about the forces that produced it. The bloodstain model argues that critics should explicitly model their reasoning as reverse-engineering: identifying the 'velocity' and 'angle of impact' of compositional decisions rather than treating the text as a spatial object to be described from outside.",
+    "prediction": "Literary analysts trained explicitly in reverse-engineering methodology (explicitly modeling authorial decision sequences from textual evidence) should produce significantly higher inter-rater agreement on attributing textual choices to authorial intent versus cultural constraint than analysts using conventional close-reading approaches—testable in a blinded rating study using contested-authorship texts.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Drafting-Wake Amplification",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "disaster relief logistics",
+    "mechanism": "In open-water swimming and lane swimming, drafting allows a following swimmer to benefit from the reduced water pressure in the wake of a lead swimmer, decreasing hydrodynamic drag by up to 20-30%. The effect is strongest at a specific following distance—close enough to remain in the low-pressure zone but not so close as to disrupt the lead swimmer's kick. In pack swimming, drafting chains can form where multiple swimmers each gain advantage from the one ahead, though the lead swimmer bears the full drag penalty with no benefit.",
+    "application": "Disaster relief convoy logistics exhibits identical wake dynamics: the lead organization bears the full cost of road reconnaissance, security coordination, and community negotiation while follower organizations draft in the cleared path at reduced operational cost. Unlike competitive swimming where drafting is strategic, relief logistics often fails to formalize the lead organization's disproportionate cost burden, creating systematic underfunding of the organizations doing the hardest work. The model predicts that relief coordination protocols should include explicit lead-cost compensation mechanisms analogous to race pace-setting agreements.",
+    "prediction": "Disaster relief operations where one organization is formally designated as lead convoy coordinator with commensurate additional funding should deliver supplies to beneficiaries significantly faster than operations with ad hoc coordination or rotating informal leadership, controlling for total convoy size and resource equivalence—testable against humanitarian logistics performance databases.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Decoder-Ring Substitution Blindspot",
+    "mechanism_source": "lock picking",
+    "target_domain": "deep sea exploration",
+    "mechanism": "In cryptanalysis-adjacent lock security research, the known-plaintext attack exploits situations where an attacker has access to both plaintext and its encrypted ciphertext form. Lock picking under constraint operates similarly: when a picker has seen the bitting pattern of a key, they can exploit that known configuration rather than picking blindly. The lock's security collapses from an N-dimensional search space to a confirmation problem. Security engineering's response is to ensure that key-bitting information is never observable by potential attackers even through indirect channels (shadow photography, wax impressions, key measurement during custody).",
+    "application": "Deep-sea autonomous vehicle navigation under sensor-limited conditions faces the known-plaintext exploitation problem in reverse: ROVs equipped with sonar and camera arrays accumulate a partial map of their environment, but adversarial seafloor morphology (overhangs, cave entrances, gas bubble interference zones) creates 'bitting patterns' that appear to confirm safe navigation corridors while actually concealing fatal geometric constraints. Vehicles that exploit apparent known-geometry shortcuts rather than maintaining full sensor vigilance are equivalent to attackers using known-plaintext assumptions that collapse the actual uncertainty.",
+    "prediction": "Autonomous underwater vehicle navigation algorithms that maintain active uncertainty quantification rather than exploiting apparent environmental confirmation should show significantly lower rates of entanglement or mission failure in complex benthic environments with occluded geometry, compared to algorithms that lock onto apparently confirmed path corridors—testable in simulation environments modeled on known complex seafloor morphologies.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Crossette-Burst Cascade Architecture",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "space colonization",
+    "mechanism": "Crossette shells are a firework type where the initial burst produces large stars that, after traveling a set distance, simultaneously erupt into four smaller stars radiating outward in a cross pattern—a second-order burst. Multi-break shells generalize this to multiple sequential detonation levels, each triggered by a time-delay composition embedded in the star itself. The design challenge is ensuring all second-level breaks occur at consistent distances from the first break despite variations in initial trajectory angle and air resistance, requiring each star's delay timing to compensate for its particular kinetic situation.",
+    "application": "Space colonization's supply-chain architecture should follow crossette design principles: the Earth-based logistics hub (initial burst) dispatches primary supply vessels that, upon reaching Mars transfer orbit, each release secondary autonomous delivery units targeting specific colony nodes. Each secondary unit must carry its own navigational 'delay fuse' calibrated to its unique trajectory and arrival conditions rather than relying on centralized timing from Earth. The crossette model prescribes hierarchical autonomy with embedded timing calibration at each stage as the solution to multi-hop supply chain reliability.",
+    "prediction": "Simulation modeling of multi-hop space supply chains comparing centralized versus distributed timing control architectures should show that distributed architectures (each stage independently calibrates delivery timing) achieve significantly higher delivery success rates under trajectory perturbation conditions than centralized architectures, with the advantage growing proportionally with the number of relay stages in the chain.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Sewing-Thread-Wax Friction Gradient",
+    "mechanism_source": "bookbinding",
+    "target_domain": "dog training",
+    "mechanism": "In hand-sewing bookbinding, thread is traditionally pulled through beeswax before use. Waxing reduces friction between thread and paper, allowing the needle to draw thread through folded signatures without tearing the paper or fraying the thread itself. The optimal wax coating is thin enough to preserve thread flexibility and knot security but thick enough to lubricate the passage through tight folds. Over-waxed thread doesn't knot securely; under-waxed thread frays and tears the signature holes over time as tension accumulates.",
+    "application": "In dog training, the friction between the dog's current behavioral repertoire and new command demands follows an analogous lubrication gradient. High-friction training attempts—asking behaviors far outside current capability without scaffolding—fray the training relationship and tear the learning substrate. Zero-friction requests—asking only what the dog already does naturally—produce no thread passage, no new connection made. Optimal training friction produces reliable knot-formation: the command reliably draws the target behavior through the dog's response repertoire, waxed just enough to enable passage without fraying.",
+    "prediction": "Training sessions targeting behaviors rated by the handler as requiring 2-4 shaping steps above current reliable performance should produce significantly higher long-term retention rates than sessions targeting behaviors requiring either 0-1 steps (too little friction) or 5+ steps (too much friction), when controlled for session duration and treat motivation level—testable in a controlled animal learning experiment.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Reclamation-Molt Strategy",
+    "mechanism_source": "falconry",
+    "target_domain": "architectural preservation",
+    "mechanism": "In falconry, the molt is the annual period when raptors shed and regrow flight feathers. During molt, birds cannot fly efficiently and must be maintained on minimal exercise while new feathers grow. Experienced falconers use molt strategically: birds flown hard in the hunting season are given enriched nutrition during molt to replace feathers with higher-quality growth. A bird flown without adequate recovery during molt grows poor-quality feathers that break during the following season, creating a compounding degradation spiral that can permanently compromise the bird's flying ability.",
+    "application": "Historic building maintenance follows a molt-cycle logic that preservation practice frequently violates: buildings subjected to heavy public use without scheduled 'molt' periods—intervals of reduced loading and active material regeneration (repointing, resealing, structural consolidation)—accumulate micro-damage that accelerates future degradation geometrically. The falconry model prescribes mandatory low-use restoration intervals not driven by visible failure but by the building's usage intensity history, framing the molt period as nutritional investment rather than reactive repair.",
+    "prediction": "Historic buildings maintained under scheduled low-use restoration intervals (occupancy reduced during active consolidation phases) should show significantly lower rates of emergency structural interventions and lower cumulative restoration cost per decade compared to equivalent-age buildings maintained only reactively (restoration triggered by visible damage)—testable against historic preservation maintenance cost databases.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Die-Axis Alignment Consistency",
+    "mechanism_source": "numismatics",
+    "target_domain": "podcast production",
+    "mechanism": "Coin die axis refers to the rotational alignment between the obverse (heads) and reverse (tails) dies used to strike a coin. Medals typically use 0° (medallic orientation, both sides upright when flipped on vertical axis) while circulating coins use 180° (coin orientation, reverse upright when flipped on horizontal axis). Inconsistent die axis—visible in coins from the same issue where some specimens show 0°, others 90°, others 180°—is a production quality indicator: tight die alignment tolerances required expensive press maintenance and skilled operators. Collectors use die axis consistency as a quality and authenticity signal.",
+    "application": "Podcast series consistency—episode-to-episode alignment of production values, structural format, host register, and thematic framing—functions as a die-axis quality signal for listeners. A series where each episode approaches the same topic from a completely different structural orientation (long-form interview one episode, solo monologue the next, roundtable the next) may contain individually high-quality content but signals inconsistent production quality control. The numismatic model predicts that listeners use inter-episode consistency as an authenticity and trust signal, not merely a stylistic preference.",
+    "prediction": "Podcast series with measurably higher episode-to-episode structural consistency (quantifiable by automated analysis of episode length variance, segment timing, and host-to-guest speaking ratio variance) should show significantly higher subscriber retention rates and higher average listener completion rates than structurally inconsistent series, controlling for average episode rating and subject matter type.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Furnace-Gather Timing Intuition",
+    "mechanism_source": "glassblowing",
+    "target_domain": "psycholinguistics",
+    "mechanism": "Master glassblowers develop timing intuition for furnace gather operations that cannot be reduced to explicit rules: they learn to 'read' the glass's temperature and viscosity through visual color shifts (from white-hot through orange to dark red as it cools) and tactile feedback through the blowpipe handle. This embodied knowledge resists verbalization—experienced gaffers report that they 'just know' when to pull from the furnace, but cannot reliably articulate what information they are reading. The knowledge is procedural and situated, transferred primarily through extended observation and imitative practice rather than propositional instruction.",
+    "application": "First-language syntactic processing intuitions—native speakers' immediate judgments of grammaticality and naturalness—are similarly tacit and resistant to verbalization. Linguists use grammaticality judgments as primary data but psycholinguistic research shows that these judgments are constructed partly from episodic memory, social performance expectations, and implicit statistical learning, not purely from internalized grammatical rules. Like furnace timing, grammaticality intuition integrates multiple channels of information that the judge cannot fully report, raising fundamental questions about using introspective judgment as evidence for grammatical competence.",
+    "prediction": "Native speaker grammaticality judgments for sentences near the grammaticality boundary should show significantly higher inter-speaker variance in the presence of time pressure (400ms response window) compared to unlimited response time, and the direction of errors under time pressure should be predictable from lexical frequency effects—testable with a controlled psycholinguistic judgment experiment using reaction time measurement.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Entropy-Compression Colonial Bandwidth",
+    "mechanism_source": "information theory",
+    "target_domain": "space colonization",
+    "mechanism": "Shannon's source coding theorem proves that the minimum average code length per symbol from a source cannot be less than the source's entropy, and approaches entropy as the code length approaches infinity. For communication systems with finite bandwidth, the practical implication is that compressing the message below its entropy is impossible without losing information. In deep-space communication, bandwidth is severely constrained and signal latency is measured in minutes to hours, making every transmitted bit's information content a critical resource whose allocation requires careful entropy-aware prioritization.",
+    "application": "Mars colony Earth-communication protocols must treat message entropy as a precious resource: transmitting low-information-density content (status confirmations, routine telemetry that repeats known states) consumes the same bandwidth as high-entropy emergency updates. Colony communication governance should implement entropy-weighted priority queuing, where high-entropy messages (novel emergencies, scientific discoveries, irreversible decisions requiring Earth consultation) receive priority bandwidth allocation. The model predicts that colonies without entropy-aware communication protocols will systematically starve critical-decision bandwidth with routine reporting.",
+    "prediction": "Simulated Mars colony communication scenarios using entropy-weighted message queuing should achieve significantly higher rates of successful Earth-consultation for time-sensitive decisions compared to scenarios using first-in-first-out queuing or priority-by-source-rank, under identical simulated bandwidth constraints and emergency event rates—testable in controlled mission simulation environments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Tephra-Stratigraphic Oral History",
+    "mechanism_source": "volcanology",
+    "target_domain": "literary criticism",
+    "mechanism": "Tephrochronology uses volcanic ash layers (tephra) as time markers in sediment sequences. Each volcanic eruption deposits a chemically and mineralogically distinct tephra layer that is geologically instantaneous on archaeological time scales and geographically wide-spread. By identifying and dating tephra layers in lake sediment cores or peat sequences, volcanologists create absolute chronological anchors for the entire sediment record above and below each layer. The tephra layer doesn't merely date the volcanic event—it provides a temporal reference frame for everything else in the stratigraphic column.",
+    "application": "Literary criticism of long-duration textual traditions (oral epic, religious canon, folk narrative) can use historically datable textual events as tephra layers: the composition of a text that explicitly responds to a specific dateable historical event functions as a chronological anchor for surrounding compositional strata. Rather than using internal stylistic analysis to date texts—which suffers from circularity—the tephra model argues for identifying textual 'instantaneous events' (responses to known historical moments) and using these as fixed chronological markers to date surrounding textual material stratigraphically.",
+    "prediction": "Dating estimates for textual compositions derived from tephra-method anchoring (texts anchored to historically datable event references plus stratigraphic position relative to anchor texts) should show significantly higher inter-scholarly agreement than dates derived from stylistic analysis alone—testable by comparing dating consensus across an annotated corpus of texts where both methods are applicable.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Apiary-Swarm-Scout Consensus",
+    "mechanism_source": "apiculture",
+    "target_domain": "disaster relief logistics",
+    "mechanism": "When a honeybee swarm seeks a new nest site, scout bees perform waggle dances on the swarm cluster to advertise candidate locations. Each scout recruits followers to visit their proposed site; returning visitors perform their own dances with dance vigor proportional to site quality. Crucially, scouts from inferior sites progressively reduce their dance vigor as they visit competing superior sites, eventually abandoning their advocacy and joining the winning site's dance. The consensus emerges through quality-proportional signal decay rather than voting or authority decision—the best site wins because its enthusiasts sustain advocacy longer.",
+    "application": "Disaster relief resource allocation decisions—which neighborhoods to prioritize, which supply routes to use, which shelter sites to establish—are typically made by authority hierarchy rather than quality-proportional consensus. The swarm model prescribes a field-level deliberation system where responders who have directly assessed conditions advocate for allocations through a structured signal decay mechanism: advocates for resource-intensive options must continuously re-justify their advocacy as new field information arrives, and advocacy ceases when conditions no longer support it rather than when authority decides.",
+    "prediction": "Disaster relief allocation decisions made through structured advocacy systems with mandatory periodic re-justification requirements should show higher geographic coverage efficiency (measured as beneficiaries reached per resource unit) than equivalent decisions made through traditional command hierarchy, particularly in rapidly evolving situations where field conditions change faster than headquarters communication cycles—testable in disaster simulation exercises.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Kintsugi-Repair Visibility Paradox",
+    "mechanism_source": "kintsugi",
+    "target_domain": "competitive esports",
+    "mechanism": "Kintsugi is the Japanese art of repairing broken ceramics with lacquer mixed with gold, silver, or platinum powder, making the repair lines deliberately visible and aesthetically central rather than concealed. The philosophical premise is that breakage is part of the object's history, and visible repair demonstrates both that damage occurred and that skillful restoration was achieved. The gold lines do not disguise the break—they make it structurally legible as a distinct material phase with different optical and mechanical properties than the original ceramic body.",
+    "application": "Esports team roster changes, loss streaks, and strategic pivots are typically managed with narrative concealment—teams minimize discussion of roster instability and loss causes to project strength. The kintsugi model prescribes the opposite: deliberately making roster changes, strategic pivots, and acknowledged losses visible as part of the team's public identity, with the 'gold lines' being the explicit narrative of how the team incorporated the difficulty into its development. Teams practicing kintsugi-style visibility may build more durable fan loyalty and recruit more candidly-motivated players.",
+    "prediction": "Esports teams that publicly and in detail narrate roster changes and strategic pivots as adaptive responses to acknowledged difficulties should show significantly higher fan retention rates and more stable practice rosters over 24-month periods compared to teams using standard narrative minimization, controlling for competitive performance outcomes during the same period.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Sandcastle-Capillary-Curvature Governance",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "pharmaceutical regulation",
+    "mechanism": "Sandcastle stability depends on capillary bridges formed between sand grains when water is present in precise amounts. The cohesive force is governed by the Laplace pressure in the water meniscus at each grain contact: F = 2πRγ where R is the effective radius of curvature and γ is water's surface tension. At very low water content, insufficient bridges form; at high water content, the menisci coalesce into a connected water network that no longer generates bridging capillary forces. The maximum strength occurs at an intermediate 'funicular' saturation where discrete capillary bridges are numerous but not yet coalesced—a narrow moisture window of optimal structural performance.",
+    "application": "Pharmaceutical regulatory requirements generate cohesive structure in drug development organizations through capillary-bridge equivalents: each regulatory requirement forms a bridge between a development decision point and an eventual approval outcome, creating structural tension that maintains organizational integrity. At very low regulatory density, insufficient structural bridging produces organizations that collapse toward whatever is locally expedient (no safety bridges). At very high regulatory density, requirements coalesce into a continuous water network—omnipresent compliance overhead that actually reduces structural force and produces pure bureaucratic inertia. The funicular zone of optimal regulation balances maximum cohesive safety force with organizational mobility.",
+    "prediction": "Drug development organizations operating under regulatory frameworks quantitatively classified as 'funicular' (intermediate requirement density with high inter-requirement independence) should show both higher approval rates and lower post-approval safety withdrawal rates than organizations under either sparse or highly dense regulatory frameworks—testable across FDA, EMA, and PMDA regulatory environments controlling for therapeutic area and development stage.",
+    "viability": "promising",
+    "confidence": 0.61
+  }
+]

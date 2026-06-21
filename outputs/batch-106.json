@@ -1,0 +1,152 @@
+[
+  {
+    "name": "LeadCaming Protocol",
+    "mechanism_source": "stained glass",
+    "target_domain": "cybersecurity",
+    "mechanism": "In traditional stained glass, individual colored panes are held together by H-profile lead strips called came. The came is mechanically folded around each glass edge, creating a watertight seal and structural integrity for the whole panel. Critically, the came itself is a relatively soft, ductile metal—it absorbs stress and flexes slightly under thermal expansion and wind pressure rather than transmitting that stress into the brittle glass. The joint between came and glass is not adhesive but compressive, relying on physical confinement.",
+    "application": "Network segmentation architecture mirrors this logic: network zones (panes) should be bounded by ductile, flexible boundary controllers (came) that absorb inter-zone stress—authentication tokens, rate-limiting, protocol translation—rather than forcing rigid, brittle direct connections. Each boundary controller must conform to the edge geometry of the zone it protects, accepting irregularities in traffic shape rather than demanding uniform packets. When pressure mounts (DDoS, lateral movement), the boundary layer deforms controllably rather than shattering the interior.",
+    "prediction": "Networks designed with explicit boundary absorption layers between every zone pair will show lower lateral-movement blast radii in red-team exercises than flat or simple VLAN-segmented networks of equivalent node count, measurable by the percentage of assets compromised per lateral-movement chain.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Affinage Trust Gradient",
+    "mechanism_source": "cheese cave aging",
+    "target_domain": "refugee resettlement",
+    "mechanism": "Cheese cave aging (affinage) relies on maintaining precise environmental gradients—temperature bands from 8–14°C, humidity above 90%, and controlled airflow—that differ by cave zone. Cheeses are physically moved between zones as they mature: cooler outer zones slow rind development while warmer interior shelves accelerate proteolysis. The affineur reads surface signals (mold color, rind firmness, ammonia smell) to decide when to flip, brush, wash, or relocate each wheel. Premature environmental transitions damage texture irreversibly.",
+    "application": "Refugee resettlement can be structured as a phased environmental gradient rather than a single placement event. Newly arrived individuals enter high-support 'cave zones'—dense caseworker contact, enclave housing, native-language services—then graduate through progressively lower-support zones as social and economic indicators mature. Caseworkers act as affineurs, reading integration signals (employment status, language test scores, social network size) to authorize zone transitions, preventing premature moves to independence that produce 'structural defects' like debt spirals or social isolation.",
+    "prediction": "Resettlement programs using formal, indicator-triggered zone transitions with explicit re-entry pathways will show lower 12-month public-benefit recidivism rates than programs using fixed 90-day transition timelines, detectable in administrative records across matched cohorts.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Sidereal Commit Drift",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "corporate mergers",
+    "mechanism": "Celestial navigators using sidereal time track star positions relative to a fixed inertial reference frame (the celestial sphere) rather than the solar day. Because Earth's orbital motion adds one extra solar day per year, sidereal time drifts about 4 minutes per day from solar time. Navigators must account for this accumulated drift when computing fix positions, or small daily errors compound into large positional errors over a voyage. The correction requires knowing both the elapsed sidereal time and the observer's longitude precisely.",
+    "application": "During merger integration, each organization operates on its own 'sidereal calendar'—reporting cycles, performance review rhythms, and budget timelines that appear synchronized at deal close but accumulate drift as integration proceeds. Finance teams that attempt to consolidate reporting without explicitly correcting for inter-company calendar drift produce compounding errors in like-for-like comparisons. Integration management offices should measure and publish the 'drift correction factor' between the two legacy calendars before any combined financial reporting begins.",
+    "prediction": "Mergers that conduct an explicit calendar-and-reporting-cycle harmonization audit in the first 60 days will report fewer material restatements in the first combined annual filing than mergers that skip such an audit, verifiable through SEC EDGAR restatement filings for matched-deal samples.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Quench-Temper Attention Cycle",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "childhood education",
+    "mechanism": "In blacksmithing, steel is hardened by heating it above the austenitizing temperature (typically 750–900°C) until the crystal structure transforms to austenite, then rapidly quenching in oil or water. Quenching traps the high-hardness martensitic structure, but also introduces extreme internal stress that makes the blade brittle. Tempering at a lower temperature (150–300°C) then releases some stress, trading a fraction of hardness for toughness—the ability to absorb impact without shattering. Skipping tempering produces a blade that holds an edge but snaps under lateral force.",
+    "application": "Intensive focused learning (quenching) concentrates information into memory but creates cognitive brittleness—students can recall facts under direct prompting but fail when knowledge must flex across novel problem contexts. Interleaved low-stakes retrieval practice and application exercises (tempering) release the brittleness by re-activating and slightly destabilizing memory traces, forcing reconsolidation across broader associative networks. Curriculum design that treats the quench-temper cycle as a unit—not just coverage followed by test—should produce knowledge that is both durable and transferable.",
+    "prediction": "Students in curricula that insert a structured 48–72-hour low-stakes application session after each intensive coverage block will outperform students in mass-practice curricula on transfer problems at 4-week delay, measurable in randomized controlled classroom trials using isomorphic problem sets.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Slack-Wire Load Distribution",
+    "mechanism_source": "funambulism",
+    "target_domain": "satellite engineering",
+    "mechanism": "A funambulists wire is never perfectly taut; controlled slack allows the cable to adopt a catenary profile that distributes the walker's weight along the wire's length rather than concentrating it at the anchor points. When the walker shifts laterally, the wire geometry changes, redistributing tension and providing a restoring torque through the resulting asymmetric catenary. Too much tension removes this geometric restoring force; too little increases sway amplitude dangerously. Skilled wire-walkers use a long balancing pole to lower their center of mass and extend the stabilizing inertia.",
+    "application": "In satellite constellation design, orbital slots should not be packed to maximum density (fully taut wire) but should retain controlled spacing slack that allows slot migration during conjunction avoidance without cascading collision risk. The catenary analogy suggests that orbital geometries with a slight surplus of arc length—more phasing options than strictly necessary—provide a geometric restoring force when one satellite requires emergency repositioning, distributing the perturbation across the constellation rather than forcing immediate close-approach maneuvers at anchor points.",
+    "prediction": "Constellations designed with 10–15% excess inter-satellite phasing flexibility will require fewer emergency collision-avoidance maneuvers per year per satellite than tightly-packed constellations of equivalent coverage, verifiable against operator-reported maneuver logs for LEO constellations of similar altitude.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Warp-Shed Branching",
+    "mechanism_source": "tapestry weaving",
+    "target_domain": "indie game development",
+    "mechanism": "Tapestry weaving advances one weft thread at a time, and at every color boundary the weaver must decide whether to interlocking-weave adjacent color areas or leave a slit. Slits create structural weakness but sharp color delineation; interlocking loops diffuse boundary sharpness but maintain tensile integrity. The weaver also 'bubbles' the weft—arcing it before beating—to prevent the tapestry from drawing in at the selvedges as horizontal tension accumulates. Missing a bubble correction causes progressive warp distortion visible only several rows later.",
+    "application": "Indie game branching narrative design faces the exact same deferred-distortion problem: choices made in Act 1 create structural tension that only manifests as contradictions or dead-end states in Act 3. The bubbling correction suggests deliberately inserting 'slack beats'—low-stakes scenes that allow narrative tension to redistribute before the next major branch point. Interlocking vs. slit weaving maps to whether choice consequences bleed into adjacent story threads (interlocking) or remain cleanly isolated (slit), with corresponding tradeoffs between emergent complexity and narrative legibility.",
+    "prediction": "Narrative games that use structured slack-beat scenes after major branch points will receive higher player-perceived story coherence ratings in blind reviews than structurally equivalent games without slack beats, testable with matched narrative structures across a small-sample A/B release study.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Fresnel Zone Clearance",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "public health",
+    "mechanism": "Lighthouse Fresnel lenses concentrate candlepower by stacking concentric refractive prism rings around a central bull's-eye, each ring angled to redirect light from the lamp into a narrow horizontal beam. The efficiency of this system depends on maintaining clearance zones around each prism annulus: any obstruction within the Fresnel zone of a given ring scatters the redirected beam and reduces effective range. Lighthouse engineers specify a 'hazard clearance radius' around the lens assembly that scales with wavelength and focal length.",
+    "application": "Public health messaging campaigns can be analyzed as Fresnel lens systems: a central, high-intensity message (bull's-eye) surrounded by successive reinforcement channels (prism rings)—community health workers, social media, primary care providers. When any reinforcement channel is obstructed by competing messages, misinformation, or access barriers (objects within the Fresnel zone), the entire campaign's effective reach drops non-linearly. Campaign designers should audit whether each successive reinforcement channel has adequate 'clearance'—absence of countermessaging within the spatial and demographic zone that channel covers.",
+    "prediction": "Public health campaigns that pre-map and clear misinformation within each reinforcement channel's demographic Fresnel zone before launch will achieve higher intended-behavior uptake rates at 90 days than campaigns that launch simultaneously across all channels without misinformation clearance, testable via randomized geographic rollout.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Chanoyu Wa Interval",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "film editing",
+    "mechanism": "The Japanese tea ceremony (chanoyu) structures time through the concept of ma—negative space or meaningful pause—and the principle of wa (harmony), which requires that no gesture anticipate or overlap the previous one. The host's movements follow a precisely codified sequence where each action is completed in full before the next begins, and brief pauses between actions allow the guest's attention to fully resolve on the just-completed gesture before redirecting. This produces a subjective dilation of time and heightened salience for each discrete action.",
+    "application": "Film editors can apply ma logic to scene transition design: rather than cutting on movement or at peak action (which creates cognitive overlap between outgoing and incoming scenes), inserting a 1–3-frame 'resolution beat' after the semantic content of a shot completes allows audience attention to close before the next shot opens. This is distinct from standard Hollywood cutting-on-action; it is a deliberate non-action pause before cut that produces perceptual clarity rather than continuity illusion. It should increase audience recall of scene-final information.",
+    "prediction": "Versions of the same film with ma-principle cuts (brief post-peak pauses before transitions) will produce higher scene-boundary recall scores in immediate recognition tests than versions cut on-action, measurable in controlled viewing studies with counterbalanced clip presentation.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Phreatic Tube Routing",
+    "mechanism_source": "caving",
+    "target_domain": "autonomous vehicles",
+    "mechanism": "Phreatic cave passages form when water moves through rock under hydrostatic pressure, dissolving conduits that follow the path of least hydraulic resistance through the three-dimensional rock mass—not the steepest downhill slope but the lowest-energy route through connected porosity. The resulting tubes are often circular in cross-section, change elevation freely, and can pass up-gradient when pressure demands it. Speleologists map these tubes to reconstruct paleohydrology and predict where undiscovered passages must exist based on hydraulic logic.",
+    "application": "Autonomous vehicle routing in complex urban environments can borrow phreatic logic: rather than optimizing strictly for shortest Euclidean path or minimum travel time on current road states, a phreatic router computes the three-dimensional minimum-energy path through the traffic pressure field—treating dense traffic as high hydraulic resistance and sparse corridors as low resistance, including counter-intuitive routes that go 'uphill' in distance to pass through low-congestion zones. The key insight is that the optimal path shape is determined by the pressure gradient field, not the geometric topology alone.",
+    "prediction": "AV routing algorithms that incorporate a dynamic three-dimensional pressure-gradient field (accounting for vertical interchanges, tunnels, and time-of-day traffic density) will reduce mean trip time by a measurable margin over Dijkstra-based shortest-path algorithms in dense urban simulation benchmarks with realistic congestion distributions.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Mosquito Index Sentinel",
+    "mechanism_source": "forensic entomology",
+    "target_domain": "electoral politics",
+    "mechanism": "Forensic entomologists use blowfly succession sequences on decomposing remains to establish post-mortem intervals: different species arrive and complete developmental stages in a predictable temperature-dependent order. By identifying which species are present and at what instar stage, and then applying accumulated degree-day calculations, investigators can back-calculate time of death to within hours across days-long intervals. The method relies on the species acting as obligate chronological indicators whose biology is precisely calibrated to ambient temperature.",
+    "application": "Electoral polling firms can use a 'forensic entomology' approach to campaign momentum: rather than tracking horse-race numbers directly, they track leading-indicator populations—early-voting request rates, small-donor donation velocity, volunteer sign-up counts, search-query sentiment—that arrive and peak at predictable intervals before Election Day. Like blowfly instars, each indicator has a known developmental arc relative to election date. Tracking which indicators are at peak vs. declining allows analysts to back-calculate where a campaign is in its momentum lifecycle with greater precision than topline poll averages.",
+    "prediction": "Electoral forecasting models that incorporate multi-indicator succession sequencing (treating each leading indicator as a distinct chronological species) will achieve lower mean absolute error in final election-week forecasts than single-indicator or polling-average-only models, verifiable against historical results across 50+ contested races.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Epidemiological Seeding Window",
+    "mechanism_source": "epidemiology",
+    "target_domain": "music composition",
+    "mechanism": "Epidemic seeding theory holds that the eventual size of an outbreak is disproportionately determined by the conditions present at the moment of initial introduction—the founding population of infectious individuals, the susceptibility landscape, and the network connectivity at the seeding node. A pathogen introduced into a highly-connected hub during a low-immunity period triggers exponentially larger outbreaks than the same pathogen introduced into a peripheral node during a partial-immunity window, even with identical R0 values. This is because the early exponential phase is highly sensitive to initial conditions while the disease is below herd-immunity thresholds.",
+    "application": "Musical motif development follows seeding logic: the context in which a theme is first introduced—harmonic density at that moment, metric placement, orchestration thickness—determines the 'susceptibility landscape' that governs how broadly the motif spreads through the listener's memory. A motif seeded in a harmonically sparse, metrically prominent position propagates into memory more efficiently than the same motif buried in a dense texture. Composers can optimize motif recall by engineering seeding moments—stripping texture to near-zero immediately before first theme statement.",
+    "prediction": "In blind listening studies, themes introduced against sparse harmonic backgrounds will be recognized and recalled significantly more often after a single hearing than identical themes introduced against dense harmonic backgrounds, measurable using a forced-choice recognition task at 30-minute delay.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Bernoulli Constriction Pricing",
+    "mechanism_source": "fluid dynamics",
+    "target_domain": "restaurant management",
+    "mechanism": "The Bernoulli principle describes an inverse relationship between flow velocity and static pressure in an incompressible fluid: where a pipe narrows (venturi effect), flow velocity increases and static pressure drops. This creates a natural pressure differential that can drive secondary fluid injection without a pump. In industrial applications, the venturi meter uses this relationship to measure volumetric flow rate from a simple pressure differential reading across a known constriction geometry.",
+    "application": "Restaurant table-turn management faces a venturi equivalent: during peak-demand periods, artificially constricting the 'pipe' at the reservation booking stage (limiting party sizes, requiring deposits, shortening allowable reservation windows) increases velocity of the dining experience—customers arrive prepared, linger less at decision points, and cycle faster—while paradoxically reducing the 'static pressure' of waitlist friction that drives walk-away losses. Tightening intake geometry improves throughput without increasing seating capacity.",
+    "prediction": "Restaurants that implement party-size caps and prepaid deposit requirements during peak service periods will show statistically higher revenue per seat-hour than matched restaurants relying solely on waitlist management, verifiable through POS transaction data across paired outlets of the same chain.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Trefoil Lock Dependency",
+    "mechanism_source": "knot theory",
+    "target_domain": "addiction treatment",
+    "mechanism": "In knot theory, a trefoil knot cannot be transformed into its mirror image (a left-handed vs. right-handed trefoil) through any continuous deformation in three-dimensional space—the two forms are topologically distinct. Additionally, composite knots formed by connecting two simpler knots cannot be decomposed back into their components without cutting the strand. These properties mean that certain knot topologies are 'locked in' by the structure of three-dimensional space itself, independent of how much energy is applied to the strand.",
+    "application": "Addiction recovery can be modeled using composite knot topology: the addictive behavior is not a simple loop that can be untied by straightforward treatment, but a composite knot—the behavior pattern (knot A) entangled with co-occurring conditions like trauma, social environment, and identity (knot B). Standard single-axis interventions attempt to unravel the whole composite by working on one component, but the topological result is merely redistributed tightness. Treatment protocols that identify the composite's junction points and address both component knots simultaneously should achieve more durable outcomes.",
+    "prediction": "Addiction treatment programs using formal co-occurring condition assessment at intake and concurrent dual-track treatment from week one will show lower relapse rates at 12 months than sequential programs (substance first, then co-occurring conditions) of matched duration, testable in randomized allocation studies across inpatient facilities.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Perihelion Crystal Habit",
+    "mechanism_source": "crystallography",
+    "target_domain": "fashion design",
+    "mechanism": "Crystal habit describes the characteristic external shape that a crystal adopts during growth, determined by the relative growth rates of different crystallographic faces. Faces that grow quickly become smaller and eventually disappear; faces that grow slowly dominate the final morphology. Solvent conditions, temperature, and trace impurities can dramatically shift which faces are inhibited, producing habits ranging from needles to plates to cubes from identical chemical compositions. The Wulff construction predicts the equilibrium habit from surface energy minimization.",
+    "application": "Fashion trend morphology follows an analogous habit logic: a design motif's final cultural 'shape' is determined not by the designer's original vision but by which facets of the design receive rapid adoption (and thus shrink through normalization) versus which receive slow, selective uptake (and thus dominate the trend's visible surface). Couture houses can deliberately inhibit fast-adopting facets—by withholding certain elements from mass licensing—to preserve the 'slow faces' that define the trend's high-value morphology, analogous to adding impurities that block specific crystal faces.",
+    "prediction": "Fashion lines that selectively license simplified versions of a design (suppressing structurally complex elements) will maintain premium-tier price points for the full design longer than lines that license the complete design, verifiable from resale market price data across comparable licensed and unlicensed design releases.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Ethogram Deviation Score",
+    "mechanism_source": "ethology",
+    "target_domain": "sports analytics",
+    "mechanism": "Ethologists construct ethograms—comprehensive catalogs of all species-typical behaviors with associated frequencies, durations, and transition probabilities between behavioral states. When an individual animal's behavioral transition matrix deviates from the species-typical ethogram, it signals stress, illness, or environmental mismatch before gross performance metrics decline. The power of ethogram deviation scoring lies in detecting multi-step transition anomalies: not just that behavior A increased, but that the A→B→C transition sequence departed from the modal pattern.",
+    "application": "Elite athlete performance analytics can adopt ethogram logic by constructing 'movement ethograms'—per-athlete behavioral repertoires of typical motion-sequence transition probabilities derived from tracking data. Pre-injury or pre-slump periods are characterized by subtle shifts in movement transition probabilities (e.g., altered deceleration-to-cut sequencing) that precede measurable performance decline. Monitoring ethogram deviation scores in real-time would allow coaching staff to identify fatigue or injury precursors from movement pattern changes before performance outputs drop.",
+    "prediction": "Ethogram deviation scores derived from player tracking data will predict performance declines or injury events in the following two-week window with higher sensitivity than traditional load monitoring metrics (RPE, GPS distance), testable retrospectively against injury records and performance splits for NBA or soccer tracking datasets.",
+    "viability": "promising",
+    "confidence": 0.73
+  }
+]

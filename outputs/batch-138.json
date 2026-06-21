@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Nest Architecture Patent Defense",
+    "mechanism_source": "bird nest construction",
+    "target_domain": "defensive patent strategy",
+    "mechanism": "Many bird species construct nests that are structurally overdetermined for protection — weaver birds tie elaborate entrance tunnels beneath their nests specifically to exclude nest-raiding snakes, not to house more eggs. The structure's complexity exceeds functional reproduction requirements; its excess engineering is devoted entirely to exclusion. Construction draws on the widest possible material range and multiple interlocking techniques, making duplication by a competitor species physiologically impossible.",
+    "application": "Defensive patent portfolios should be engineered on nest-exclusion principles: the patent claims exceed what is needed to protect the core product and instead create structural complexity that makes adjacent approaches physiologically impossible for competitors to build. The entrance tunnel — a continuation patent or divisional filing that adds approach complexity — deters the direct-route entry that would otherwise be easiest. The overdetermined structure signals construction capability that itself deters competition.",
+    "prediction": "Companies that file continuation and divisional patents systematically around core innovations, creating multi-layer claim architectures, will show fewer successful infringement challenges from competitors than companies that file single independent claims of equivalent scope, even when the core claim breadth is identical.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Calcification Institutional Ossification",
+    "mechanism_source": "coral calcification",
+    "target_domain": "institutional ossification",
+    "mechanism": "Reef-building corals secrete calcium carbonate skeletons that accumulate over centuries into massive reef structures. Each polyp's individual flexibility is sacrificed as it builds its own calcified chamber; the reef's macrostructure is rigid precisely because it is composed of countless individually immobilized polyps. Growth continues only at the outer surface where living polyps interact with the water column; the interior is dead carbonate with no adaptive capacity.",
+    "application": "Institutions ossify through an identical process: each codified rule, fixed role, and standardized procedure is a calcified polyp chamber — individually rational, collectively rigid. Living adaptive capacity concentrates at the institutional surface (frontline workers, boundary-spanning roles, new hires) while the interior accumulates dead regulatory carbonate with no adaptive function. Institutional reform that targets the interior carbonate without addressing the surface calcification rate will fail because the living edge continues depositing new rigidity faster than reform can remove it.",
+    "prediction": "Institutional reform efforts that focus change management resources on boundary-spanning roles and frontline workers (the living coral surface) rather than on middle-management process redesign will show higher sustained reform adoption rates at 3 years post-intervention than efforts of equal resource investment targeting internal process layers.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Crystalline Knowledge Lattice",
+    "mechanism_source": "honey crystallization",
+    "target_domain": "knowledge crystallization",
+    "mechanism": "Honey crystallizes when glucose molecules precipitate out of supersaturated solution and arrange into a stable lattice around nucleation sites — typically pollen grains or air bubbles. The process is temperature-dependent and irreversible without reheating; once crystallized, glucose is locked in a lower-energy configuration that resists dissolution. Different honey varietals crystallize at different rates based on glucose/fructose ratio, but all crystallize eventually under the right conditions.",
+    "application": "Organizational knowledge crystallizes from tacit supersaturated understanding into explicit codified form around nucleation sites — documentation requests, onboarding needs, regulatory audits, or knowledge transfer events. Like honey, knowledge in supersaturated tacit form is more flexible but unstable; crystallized explicit knowledge is stable but loses some richness. The glucose/fructose ratio maps to the tacit/explicit knowledge ratio in a domain: high-tacit domains (craft skills, clinical judgment) resist crystallization and require sustained thermal energy (practitioner involvement) to maintain in usable explicit form.",
+    "prediction": "Organizations that create deliberate crystallization events — structured documentation sprints tied to specific triggering conditions (new hire onboarding, near-miss incident reviews) — will show higher knowledge retention after expert departure than organizations that rely on continuous ambient documentation practices.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Ice Dam Bottleneck Analysis",
+    "mechanism_source": "ice dam formation",
+    "target_domain": "bureaucratic bottleneck analysis",
+    "mechanism": "Ice dams form on roofs when heat loss from the building warms the roof deck above the eaves, melting snow in the upper roof zone; the meltwater flows downslope to the cold overhang where it refreezes, building a dam. Subsequent meltwater backs up behind the dam and seeps under shingles into the building interior. The dam is not caused by cold — it is caused by a temperature differential, a zone of excess energy adjacent to a zone of insufficient energy. Removing the dam without addressing the differential causes immediate reformation.",
+    "application": "Bureaucratic bottlenecks follow the identical differential structure: a zone of high output energy (a productive team, an efficient process) immediately upstream of a zone of insufficient processing capacity (approval gatekeepers, compliance review, IT provisioning) produces a backing-up of work that seeps into unintended channels (workarounds, shadow IT, informal approvals). Removing the backlog without addressing the thermal differential — the mismatch in processing capacity — causes immediate reformation of the bottleneck.",
+    "prediction": "Organizations that diagnose and address the capacity differential adjacent to identified workflow bottlenecks (rather than adding resources at the bottleneck itself) will show 50% longer intervals before bottleneck reformation than organizations that address the bottleneck directly through headcount addition.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Lava Tube Pipeline Design",
+    "mechanism_source": "lava tube formation",
+    "target_domain": "organizational pipeline design",
+    "mechanism": "Lava tubes form when the outer surface of a lava flow cools and solidifies while molten lava continues flowing through the interior, eventually draining to leave a hollow conduit. The solidified outer shell is thermally insulating, allowing lava to travel much farther from the volcanic source than it could on an open surface where radiation cooling would solidify it. The tube forms itself through the flow it carries; its existence is a consequence of high-volume sustained throughput.",
+    "application": "Organizational pipelines for high-throughput work (software release pipelines, supply chain logistics, talent development programs) self-form their structure through sustained high-volume use — the process documentation, tooling, and role clarity that constitute the 'tube wall' solidify around active high-volume flows. Attempting to pre-design a pipeline at low volume is like pouring a trickle of lava and expecting a tube to form; the insulating shell never has enough material flux to solidify. Pipeline design should follow throughput, not precede it.",
+    "prediction": "Software release pipelines that were built incrementally in response to actual throughput demand will show lower failure rates per deployment than architecturally pre-designed pipelines of equivalent capacity, because the incremental pipeline's structure reflects actual flow patterns rather than anticipated ones.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Lichen Charter Partnership",
+    "mechanism_source": "lichen symbiosis",
+    "target_domain": "public-private partnerships",
+    "mechanism": "Lichens are not single organisms but stable symbioses between a fungal partner and photosynthetic algae or cyanobacteria. The fungal partner provides structural architecture, water retention, and mineral access; the photosynthetic partner provides fixed carbon energy. Neither partner is the 'host' in an exploitative sense — the relationship is obligate for both in their lithic (rock-colonizing) forms, and the combined organism colonizes substrates (bare rock, Antarctic ice) that neither partner could survive alone. The partnership is defined by mutual constraint and mutual capability expansion.",
+    "application": "Successful public-private partnerships exhibit lichen-like obligate mutualism: the public partner provides structural legitimacy, regulatory access, and long-duration capital (the fungal architecture); the private partner provides efficiency, innovation metabolism, and rapid carbon fixation (photosynthetic throughput). Arrangements that are facultative — where either partner could exit without fundamental capability loss — will behave exploitatively when conditions change, as the more mobile partner exits at the first opportunity. True PPP durability requires designing for mutual substrate dependence.",
+    "prediction": "Public-private partnerships where both parties have made non-recoverable infrastructure commitments to the joint venture will show higher project completion rates and longer operational lifetimes than PPPs where one party (typically the private) retains fully recoverable assets, even controlling for contract quality.",
+    "viability": "speculative",
+    "confidence": 0.61
+  },
+  {
+    "name": "Wick Capillary Feed Algorithm",
+    "mechanism_source": "oil lamp wick mechanics",
+    "target_domain": "information feed algorithms",
+    "mechanism": "An oil lamp wick draws fuel to the flame through capillary action — the narrow fiber channels create surface tension gradients that move oil upward against gravity at a rate determined by wick diameter, material porosity, and oil viscosity. If the wick delivers oil too fast, the flame smothers in unvaporized fuel; too slow and the flame starves and extinguishes. The optimal wick-to-oil match maintains a combustion zone at the wick tip where fuel vaporization rate equals oxygen availability.",
+    "application": "Information feed algorithms face the identical flow-rate optimization problem: the wick is the algorithmic filter (content selection and sequencing), the oil is the available content pool, and the flame is the user's attention. Over-delivery (high-engagement bait content flooding the feed) smothers attention in low-quality fuel; under-delivery (excessive filtering) starves engagement. The optimal algorithm maintains a combustion zone — content that is novel enough to sustain attention but familiar enough to vaporize quickly into comprehension. Feed quality degrades when wick material (ranking signals) and oil viscosity (content complexity) are mismatched.",
+    "prediction": "Social feed algorithms that dynamically adjust content delivery rate based on measured comprehension signals (reading time, completion rate) rather than engagement signals alone will show higher user-reported satisfaction and lower session regret ratings than algorithms optimizing for raw engagement metrics, while maintaining comparable session duration.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Oxbow Spin-Off Topology",
+    "mechanism_source": "river oxbow formation",
+    "target_domain": "organizational spin-offs",
+    "mechanism": "River meanders amplify their curvature through erosion-deposition feedback until a flood event cuts through the narrow meander neck, connecting the two sides of the loop directly and isolating the old meander as a crescent-shaped oxbow lake. The oxbow retains water, biota, and sediment from the main channel but is no longer in current — it becomes a stable, low-energy environment with its own ecology that evolves differently from the now-faster main channel. The cutoff is abrupt; the divergence thereafter is gradual.",
+    "application": "Corporate spin-offs follow the oxbow topology: a business unit becomes increasingly curved (specialized, capital-intensive, culturally distinct) from the main channel until a restructuring event cuts through the neck and creates an independent entity. The spun-off oxbow retains inherited organizational DNA (culture, talent, customer relationships) but is no longer in the main strategic current — it develops its own ecology, optimizes for its own conditions, and often becomes ecologically richer than the simplified main channel that prioritized flow velocity over diversity.",
+    "prediction": "Corporate spin-offs whose business units had achieved significant operational distinctiveness (separate P&L, distinct customer base, separate technology stack) before spin-off will show higher post-spin-off revenue growth rates than spin-offs of units that were deeply integrated into the parent's operational structure at the time of separation.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Testa Dormancy Strategic Patience",
+    "mechanism_source": "seed coat dormancy",
+    "target_domain": "strategic patience in investing",
+    "mechanism": "Many plant seeds possess a dormancy mechanism enforced by the testa (seed coat) — a hard, chemically resistant outer layer that blocks water imbibition and gas exchange, preventing germination until specific environmental signals (temperature cycling, fire scarification, acid treatment by animal digestion) breach the coat. The embryo inside the dormant seed is metabolically minimal but completely viable; the testa is an active delay mechanism, not a sign of embryo death. Breaking dormancy prematurely — before conditions are suitable — produces seedlings that cannot survive.",
+    "application": "Sophisticated investors employ testa logic for positions acquired ahead of their catalytic conditions: the investment thesis (viable embryo) is held in metabolic minimum through a dormancy coat of low conviction, small position size, and reduced monitoring frequency until specific scarification signals arrive (regulatory change, technology inflection, management transition). Breaching dormancy prematurely — scaling position before the environmental signal — produces investments that germinate into inhospitable conditions. The dormancy management protocol is itself a form of risk control.",
+    "prediction": "Long-duration value investors who explicitly document the scarification conditions required before position scaling will show lower drawdown during adverse pre-catalyst periods than investors of equivalent conviction who scale positions at thesis formation, controlling for position quality at thesis initiation.",
+    "viability": "speculative",
+    "confidence": 0.60
+  },
+  {
+    "name": "Gossamer Diaspora Dynamics",
+    "mechanism_source": "spider ballooning",
+    "target_domain": "talent diaspora dynamics",
+    "mechanism": "Spiderlings and small adult spiders disperse via ballooning — they climb to an elevated point, release silk threads that catch updrafts (including electrostatic gradients in the atmospheric electric field), and are carried hundreds of kilometers to new territories. The strategy is high-variance: most balloon landings occur on inhospitable substrate, but the rare successful colonist establishes a new population far from competition. Ballooning spiders cannot control landing location; they optimize departure conditions and silk length.",
+    "application": "Talent diaspora from elite institutions — graduate programs, leading technology companies, successful startups — follows ballooning dispersal logic. Alumni release into the labor market from a common elevated platform, carried by opportunity updrafts (recruiting, network referrals, sector booms) to unpredictable landing locations. Most land in adequate-but-unremarkable substrate; a small fraction land in conditions that allow rapid ecosystem establishment and become high-impact founders or institutional builders. The source institution optimizes departure conditions (training quality, network density, prestige elevation) rather than landing destination.",
+    "prediction": "The geographic distribution of high-impact startup founders will show a power-law relationship with source institution prestige and network density, with diaspora from top-decile institutions showing landing-location variance at least 3x higher than diaspora from median institutions — reflecting the high-variance ballooning strategy vs. more constrained dispersal.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Subduction Market Disruption Cycle",
+    "mechanism_source": "tectonic subduction",
+    "target_domain": "market disruption cycles",
+    "mechanism": "At convergent tectonic plate boundaries, oceanic crust subducts beneath continental crust because of its higher density — a slow, continuous, mechanically inevitable process driven by gravity acting on a density differential. The subducting slab drags the overlying plate downward at the trench while generating earthquakes and volcanism along the subduction zone. The process is irreversible: once a slab begins subducting, it continues until it reaches the mantle transition zone, releasing its stored elastic energy in discrete seismic events along the way.",
+    "application": "Market disruption follows subduction mechanics: lower-cost, lower-margin (denser) entrants subduct beneath premium incumbents whose superior surface elevation (brand, margins, customer relationships) initially masks the downward drag being exerted at the boundary. Incumbents experience discrete seismic events (market share inflections, customer defection spikes) rather than continuous erosion, because the elastic stress accumulates silently before releasing. Volcanic activity on the incumbent side (desperate product launches, price cutting) is a symptom of the subduction process, not evidence of competitive health.",
+    "prediction": "Incumbent companies in markets where a lower-cost entrant has been gaining share for more than 3 years will show a bimodal distribution of competitive response timing — either responding within the first 18 months or not until after 60% of low-end market share has been lost — consistent with elastic strain accumulation before seismic release.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Tidal Stratum Social Stratification",
+    "mechanism_source": "tide pool stratification",
+    "target_domain": "social class dynamics",
+    "mechanism": "Intertidal rocky shores exhibit vertical zonation: distinct species assemblages occupy narrow bands at specific tidal heights, determined by their tolerance for desiccation stress, wave exposure, and predation pressure. Each zone's upper boundary is set by physiological stress tolerance; its lower boundary is set by competitive exclusion by superior competitors. Organisms cannot occupy zones outside their stress tolerance envelope, and those capable of tolerating higher-stress zones are displaced downward by more competitive species in lower-stress zones.",
+    "application": "Social class stratification follows intertidal logic: each stratum's lower boundary is maintained by competitive exclusion (those above are more capable of extracting resources in lower-stress environments), and its upper boundary is maintained by physiological stress tolerance (insufficient capital, networks, or credentials to survive in higher-stress higher-reward zones). Mobility requires either expanding stress tolerance (acquiring credentials, capital) or a disturbance event (recession, social disruption) that resets competitive exclusion dynamics — analogous to tidal disturbance creating empty substrate for recolonization.",
+    "prediction": "Social class mobility events will cluster around major economic disruptions (recessions, sectoral booms) at rates significantly above baseline, consistent with disturbance-driven recolonization dynamics, and mobility will be highest in strata adjacent to the disruption zone rather than at stratum extremes.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Ballistic Disclosure Impact Model",
+    "mechanism_source": "volcanic bomb trajectory",
+    "target_domain": "whistleblower impact modeling",
+    "mechanism": "Volcanic bombs are large fragments of molten or solidified lava ejected ballistically from volcanic vents. Their trajectory is determined by ejection angle and initial velocity; they follow parabolic paths that are predictable from ballistic physics, landing at calculable distances from the vent. Impact energy depends on mass and velocity; larger bombs travel shorter distances (air resistance and gravity dominate) while smaller bombs carry farther. The vent cannot retract a bomb once ejected.",
+    "application": "Whistleblower disclosure events follow ballistic trajectories: the initial ejection angle (disclosure channel — regulator, media, internal ethics line) and velocity (evidence quality and completeness) determine landing distance from the source institution (impact on public perception versus internal correction). High-mass disclosures (comprehensive documented evidence packages) travel shorter distances (more likely absorbed internally) while lighter disclosures (partial evidence, single-source claims) carry farther into public media space. The institution cannot retract a disclosure once ejected.",
+    "prediction": "Whistleblower disclosures made directly to regulatory bodies with comprehensive documentary evidence will result in internal institutional correction without public media amplification at rates at least 2x higher than disclosures made to media outlets first, consistent with high-mass short-range ballistic trajectories.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Phlogiston Debt Accounting",
+    "mechanism_source": "phlogiston theory",
+    "target_domain": "technical debt rationalization",
+    "mechanism": "Phlogiston theory postulated a weightless substance released during combustion that explained fire, rusting, and calcination within a unified but entirely fictitious framework. The theory's explanatory elegance made it resistant to falsification — anomalous results (metals gaining weight when burned) were accommodated by assigning phlogiston negative weight. The framework generated confident predictions and internal consistency while being completely disconnected from the actual mechanism (oxidation). Its internal coherence was its danger.",
+    "application": "Technical debt rationalization systems exhibit phlogiston-structure: engineering teams construct internally consistent frameworks — 'legacy code,' 'accumulated shortcuts,' 'refactoring backlog' — that explain system fragility without referencing the actual mechanism (specific architectural decisions, specific code paths, specific dependency chains). Like phlogiston, the framework accommodates anomalies by adding epicycles ('it's complicated legacy stuff') rather than identifying the actual oxidation process. The framework's internal coherence prevents the precise measurement that would enable targeted remediation.",
+    "prediction": "This framework is incoherent because technical debt is not a mechanism-free analogy problem — it is a measurable engineering phenomenon with established metrics (cyclomatic complexity, dependency coupling, test coverage) that have no meaningful mapping to phlogiston's fictional substance. Applying phlogiston epistemology to technical debt produces no falsifiable predictions because the analogy's source is precisely defined by its falsity.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Spindle Thread Narrative Construction",
+    "mechanism_source": "wool spinning",
+    "target_domain": "narrative thread construction",
+    "mechanism": "Spinning converts raw wool fleece — a tangled mass of short, individually weak fibers — into thread by simultaneously drafting (drawing fibers parallel) and twisting (locking them together under tension). Thread strength emerges from the twist-induced friction between parallel fibers; too little twist produces weak, drafty yarn; too much produces a wiry, brittle thread that kinks on itself. The spinner must maintain consistent tension and draft rate to produce thread of even character and predictable strength.",
+    "application": "Narrative construction follows the same fiber-to-thread mechanics: raw experiential material (anecdotes, data points, observations) must be drafted parallel through thematic selection and then twisted into thread through causal linkage and temporal sequencing. Weak narratives have insufficient twist — individual anecdotes remain independent and do not lock into a coherent load-bearing thread. Over-twisted narratives are brittle — every element is so tightly causally determined that the thread kinks and breaks under the weight of counter-examples. Narrative strength requires calibrated tension maintained throughout.",
+    "prediction": "Persuasive narratives with an intermediate causal density (each scene or data point connected to the next by exactly one causal link rather than zero or multiple) will show higher audience conviction scores than narratives with equivalent content organized as parallel-but-disconnected anecdotes or as over-determined causal chains with multiple reinforcing links at each step.",
+    "viability": "promising",
+    "confidence": 0.66
+  }
+]

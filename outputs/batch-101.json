@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Aerial Silks Tension Gradient Model",
+    "mechanism_source": "circus arts",
+    "target_domain": "machine learning",
+    "mechanism": "In aerial silks performance, the fabric wraps around the aerialist's body in layered, tension-bearing coils. Each wrap redistributes load: tighter interior coils bear compression while outer coils bear tension, and the total system achieves a stable equilibrium only when the geometric relationship between body, gravity, and fabric stiffness is balanced. If the wrap count or body angle shifts slightly, the system's load distribution cascades through all layers simultaneously.",
+    "application": "Gradient flow in deep neural networks operates analogously: each layer redistributes representational load, and a small perturbation in early layers cascades through later ones. The 'wrap count' corresponds to network depth, and the aerialist's body angle corresponds to the learning rate—too steep an angle (high learning rate) causes slip; too shallow (low rate) means the wrap never loads properly and the net learns slowly.",
+    "prediction": "Networks trained with a layer-wise learning rate schedule that mimics aerial-silks load redistribution (higher rates in early layers, progressively lower in later layers proportional to wrap-count analogue) will converge faster than constant-rate or standard cosine-decay schedules on image classification benchmarks, measurable by comparing epoch-to-accuracy curves on CIFAR-100.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Waterbomb Base Bistability Theory",
+    "mechanism_source": "origami engineering",
+    "target_domain": "diplomacy",
+    "mechanism": "The waterbomb base in origami is a bistable structure: it can rest stably in two configurations—one with the apex pointing up, one pointing down—and switching between states requires passing through a high-energy intermediate where all four triangular panels simultaneously flatten. The two stable states are energetically equivalent but topologically distinct; external force applied symmetrically causes immediate, irreversible snap-through rather than gradual deformation.",
+    "application": "Diplomatic negotiations exhibit analogous bistability between cooperation and defection equilibria. Talks can rest stably in either a 'positive-sum framing' configuration or a 'zero-sum impasse' configuration, and incremental concessions often have no effect until a threshold is crossed—at which point the entire negotiating posture snaps through to the other state. Mediators who apply symmetric pressure to all parties simultaneously (rather than sequential bilateral pressure) are more likely to trigger snap-through to cooperation.",
+    "prediction": "In structured analyses of multilateral treaty negotiations (e.g., UNFCCC sessions), rounds where mediators introduced simultaneous reciprocal concession packages will show higher rates of breakthrough agreement than rounds using sequential bilateral offer formats, with the difference statistically significant at p < 0.05 across at least 30 historical sessions.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Prosign Overhead Minimization Framework",
+    "mechanism_source": "morse telegraphy",
+    "target_domain": "supply chain management",
+    "mechanism": "Morse code uses procedural signals (prosigns) such as AR (end of message), SK (end of contact), and BT (break text) that carry no information content but are mandatory overhead for reliable session framing. Skilled operators minimize prosign frequency by batching messages and using abbreviations, trading per-message overhead for throughput. The ratio of prosign characters to information characters—protocol overhead ratio—directly determines channel efficiency.",
+    "application": "In supply chain communication, handoff protocols between tiers (purchase orders, acknowledgments, advance shipment notices) function as prosigns: mandatory overhead that frames information but carries no inventory content. Reducing the number of mandatory handoff touchpoints per SKU movement—while maintaining error-correction integrity—directly improves throughput in high-volume distribution networks. Consolidating order acknowledgment and ASN into a single transmission maps to eliminating redundant prosigns.",
+    "prediction": "Distribution networks that consolidate mandatory handoff message types from four or more discrete transaction sets (PO, PO acknowledgment, ASN, GR confirmation) into two compound messages will show measurable reduction in average order-to-receipt cycle time of at least 8%, controllable for volume and geography, in a prospective A/B pilot across matched DC pairs.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Culm Node Reinforcement Scheduling Theory",
+    "mechanism_source": "bamboo construction",
+    "target_domain": "venture capital",
+    "mechanism": "Bamboo culms (stalks) gain compressive and tensile strength primarily at internodal segments but achieve lateral shear resistance through the dense fibrovascular bundles concentrated at each node. The nodes interrupt crack propagation paths and redistribute point loads into distributed fiber tension. Bamboo's strength-to-weight ratio exceeds structural steel precisely because node spacing is not uniform—it is denser at the base and becomes increasingly spaced toward the apex, matching the load gradient of a cantilevered column.",
+    "application": "Venture capital funding milestones function as structural nodes in a startup's growth culm. Early-stage milestones should be densely spaced (like basal nodes) to interrupt failure propagation and redistribute capital loads before the organization is mature enough to handle distributed stress. As the company scales, milestone spacing can widen because the organizational fiber density—team strength, process maturity—is sufficient to handle inter-node loads without catastrophic buckling.",
+    "prediction": "Venture-backed companies whose funding milestone cadence is front-loaded (more milestones in the first 18 months, fewer after month 24) will show lower rates of Series B dropout and higher revenue-per-headcount at Series C compared to companies with evenly spaced milestones, measurable in a cohort analysis of 200+ VC-backed startups across comparable sectors.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Pallet Escapement Interference Model",
+    "mechanism_source": "watchmaking",
+    "target_domain": "criminal justice",
+    "mechanism": "In a lever escapement, the pallet fork alternates between two states: locking (where the escape wheel tooth rests on the locking face) and impulse (where the tooth rides the impulse face, transferring energy to the balance wheel). The critical parameter is draw angle—a slight inward slope on the locking face that pulls the pallet deeper into the locked position whenever the train tries to push through. Without draw, the slightest shock causes unlocking and runaway; with too much draw, the escapement requires excess driving force to unlock.",
+    "application": "Bail and pretrial detention decisions operate as pallet escapements in the criminal justice system: they allow case processing to advance in metered increments while preventing 'runaway' (defendants absconding or committing new offenses). The draw angle corresponds to detention stringency—too little and the system runs away (high FTA rates); too much and the energy cost (pretrial detention burden) grows unsustainable. Optimal bail calibration should be calculated like draw angle: just enough to overcome perturbation, no more.",
+    "prediction": "Jurisdictions implementing risk-assessment-calibrated bail thresholds (where detention stringency is proportional to flight risk score in a piecewise function) will show lower failure-to-appear rates without increased pretrial detention days, compared to jurisdictions using flat bail schedules, measurable in a 24-month longitudinal study across at least six comparable jurisdictions.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Harmonic Bar Scalloping Gradient Theory",
+    "mechanism_source": "luthiery",
+    "target_domain": "psychotherapy",
+    "mechanism": "In acoustic guitar construction, the luthier scallops the harmonic bars (braces) on the soundboard top to create a graduated stiffness gradient: stiffer at the center where the bridge transmits string energy, progressively more flexible toward the perimeter where the plate must vibrate freely. This scalloping allows the top to behave as a frequency-dependent filter—rigid enough to resist collapse under string tension, flexible enough to radiate low frequencies efficiently. Getting the gradient wrong by even a few grams of wood removal changes the instrument's tonal character irreversibly.",
+    "application": "In psychotherapy, the therapist's interpretive pressure should follow a scalloping gradient: more directive (stiffer) when addressing the structural core of the client's presenting issue, progressively more reflective (flexible) toward peripheral defenses. Applying uniform directiveness flattens the therapeutic resonance—the client cannot generate the low-frequency emotional movement needed for insight. Applying uniform reflection at the core means the structure collapses under affective load.",
+    "prediction": "Therapy sessions coded for directiveness gradient (sessions where directiveness scores decrease from core-topic to peripheral-topic segments) will show significantly higher client-rated insight scores at session end than sessions with flat or inverted directiveness profiles, measurable via session coding of existing therapy transcripts rated by two blind coders.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Saponification Completion Front Theory",
+    "mechanism_source": "soap making",
+    "target_domain": "urban planning",
+    "mechanism": "In cold-process soap making, saponification (the reaction of fatty acids with lye to form soap and glycerin) does not complete instantaneously. The reaction propagates through the batter as a moving front: the outer regions, first exposed to the lye solution, saponify first and begin to gel, while the interior remains unsaponified. The 'hot gel phase' is a transient state where the exothermic reaction creates a moving boundary between solid gel and liquid batter. If the front stalls due to insufficient insulation or incorrect water ratio, lye pockets persist and the bar becomes caustic.",
+    "application": "Urban neighborhood revitalization propagates as a saponification front: early-adopter zones (typically near transit nodes or anchor institutions) undergo transformation first, creating an exothermic attractiveness signal that drives the front inward. If insulation (infrastructure investment) is withdrawn before the front reaches interior blocks, revitalization stalls, leaving 'lye pockets'—zones of concentrated disadvantage surrounded by gentrified areas. City planners must maintain investment density until the transformation front reaches completion.",
+    "prediction": "Urban revitalization projects that maintain infrastructure investment continuity until all census tracts within the target zone show above-baseline development indicators will show fewer residual high-poverty tracts at 10-year follow-up than projects that taper investment after early-adopter zones transform, measurable via Census ACS data in matched paired interventions across comparable metros.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Slab Avalanche Crown Fracture Propagation Model",
+    "mechanism_source": "avalanche science",
+    "target_domain": "social media algorithms",
+    "mechanism": "A slab avalanche initiates when a weak layer within the snowpack collapses, causing the overlying cohesive slab to fracture at its crown. Fracture propagation speed far exceeds the initial failure zone: the crack travels laterally through the weak layer at hundreds of meters per second, far faster than gravity could drive motion, because the slab's elastic energy is released sequentially. The key parameter is the crack propagation threshold—the ratio of slab weight to weak-layer fracture toughness—which determines whether a localized failure stays local or becomes a full-slope release.",
+    "application": "Content cascade failures on algorithmic platforms mirror slab avalanche dynamics: a localized piece of viral misinformation (the initial fracture) propagates laterally through the recommendation graph at a speed determined by engagement elasticity (the 'slab energy') relative to the platform's content moderation fracture toughness. When the ratio exceeds the crack propagation threshold, moderation cannot keep pace and the cascade becomes self-sustaining. Platform design should focus on increasing fracture toughness (moderation capacity) rather than only detecting initial failures.",
+    "prediction": "Platforms that implement distributed fracture-toughness mechanisms (e.g., friction-introducing engagement delays or moderation checkpoints at lateral propagation nodes) will show lower peak cascade sizes for equivalent initial misinformation seeding events, measurable in A/B platform experiments comparing cascade size distributions before and after mechanism deployment.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Dermographic Needle Depth Encoding Theory",
+    "mechanism_source": "tattoo art",
+    "target_domain": "constitutional law",
+    "mechanism": "Tattoo permanence depends on needle penetration reaching the dermis (1.5–2mm depth) rather than the epidermis. Ink deposited in the epidermis is sloughed off within weeks as the skin renews; ink in the dermis is encapsulated by fibroblasts and macrophages, rendering it semi-permanent. Too shallow and the design fades; too deep and the ink spreads ('blowout'), blurring fine lines. The depth calibration determines whether a mark is temporary expression or lasting constitutional tissue.",
+    "application": "Constitutional amendments function analogously: a legal change deposited only in statute (epidermis) is sloughed off when political majorities shift; a change embedded in constitutional text (dermis) is encapsulated by judicial precedent and fibroblast-like doctrinal institutions, rendering it durable. 'Blowout' occurs when amendments are written too broadly, causing interpretive spread that obscures original boundaries. Constitutional design should specify the depth layer at which each legal commitment is meant to operate.",
+    "prediction": "Constitutional provisions ratified with explicit structural protections (supermajority amendment requirements, judicial review triggers) will show greater durability over 50-year periods—measured as lower rates of legislative modification or judicial invalidation—than equivalent statutory provisions, controllable for legal system type, in a comparative cross-national legal database study.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Flip Turn Velocity Recovery Protocol",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "emergency medicine",
+    "mechanism": "In competitive swimming, the flip turn converts forward momentum into wall-push momentum with minimal velocity loss. The swimmer tucks, rotates 180 degrees, plants feet on the wall during peak tuck rotation, and extends explosively, using stored kinetic energy plus wall reaction force to re-enter streamline at speeds exceeding open-water swimming pace. Elite swimmers lose less than 0.3 seconds per turn through precise timing of the tuck initiation 1–1.5 body lengths from the wall—too early wastes deceleration time; too late causes stutter.",
+    "application": "Emergency department patient handoffs between care phases (triage to assessment, assessment to intervention) function as flip turns: they require converting diagnostic momentum (gathered information) into treatment momentum (initiated protocol) with minimal velocity loss. The optimal handoff occurs when the receiving clinician is briefed at the 'tuck initiation point'—before the patient physically arrives at the next care station—allowing seamless momentum transfer. Late briefings cause velocity loss (re-assessment); early briefings waste information retention.",
+    "prediction": "Emergency departments implementing pre-arrival briefing protocols where receiving physicians are informed of SBAR summaries 60–90 seconds before patient transfer (analogous to optimal tuck initiation distance) will show measurably lower door-to-intervention times for time-sensitive conditions (STEMI, stroke) compared to departments using bedside-arrival briefings, measurable in a prospective multicenter study.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Tidal Harmonic Constituent Superposition Model",
+    "mechanism_source": "tide prediction",
+    "target_domain": "dating apps",
+    "mechanism": "Tidal prediction decomposes the observed water-level signal into harmonic constituents—each a sinusoidal component with a specific frequency, amplitude, and phase lag derived from astronomical forcing (sun, moon, higher harmonics). The dominant constituents (M2, S2, K1, O1) arise from the lunar semidiurnal, solar semidiurnal, lunisolar diurnal, and principal lunar diurnal cycles. Superimposing these constituents reproduces the complex tidal signal with high fidelity; removing any major constituent degrades prediction accuracy significantly.",
+    "application": "User compatibility on dating platforms can be modeled as harmonic superposition: each compatibility dimension (values, lifestyle rhythm, physical chemistry, communication style) is a constituent with its own frequency and amplitude. Short-term resonance (high initial attraction) is dominated by high-amplitude, high-frequency constituents (physical chemistry, humor), while long-term relationship stability requires alignment of low-frequency, high-persistence constituents (values, life goals). Matching algorithms that optimize only for high-frequency constituents produce 'tidal anomalies'—strong initial matches with poor long-term retention.",
+    "prediction": "Dating app matching algorithms incorporating a multi-constituent compatibility score (weighting both fast-changing preferences and slow-changing values dimensions) will show higher 6-month relationship retention rates among matched users than single-dimension or purely behavioral algorithms, measurable in an A/B experiment on an active platform with at least 50,000 users per arm.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Die Variety Population Survival Curve Theory",
+    "mechanism_source": "numismatics",
+    "target_domain": "wildlife conservation",
+    "mechanism": "In numismatics, each mint die strikes a finite number of coins before failing; the surviving coin population for any die variety follows a predictable survival curve shaped by initial mintage, loss rates (melting, loss, wear destruction), and survival probability differentials (gold survives better than copper). Population estimates for rare varieties are made by extrapolation from census data using survivor-bias-corrected survival models. Dies themselves survive with different probabilities depending on how carefully collections were maintained.",
+    "application": "Wildlife population surveys face structurally identical problems: observed counts are survivor-biased samples of true populations, with differential survival probabilities across age classes, habitats, and detection methods. Numismatic die-variety survival models—particularly the Esty correction for small surviving populations—can be directly applied to estimate true population size from census data when detectability is heterogeneous across subpopulations, as commonly occurs in cryptic species surveys.",
+    "prediction": "Applying numismatic Esty-corrected survival population models to detectability-heterogeneous wildlife survey data (e.g., cryptic amphibian species with habitat-varying detection rates) will produce population estimates with narrower confidence intervals than standard mark-recapture models, testable by comparing retrospective estimates against known-true populations in enclosed study systems.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Peregrine Waiting-on Altitude Bank Theory",
+    "mechanism_source": "falconry",
+    "target_domain": "standup comedy",
+    "mechanism": "In high-performance falconry with longwing raptors (especially peregrines), the falcon is 'waiting on': circling high above the falconer in a thermal or powered climb, maintaining altitude advantage while the falconer flushes quarry below. The waiting-on altitude represents stored potential energy that is converted to kinetic energy in a stoop (dive). The raptor does not commit to the stoop until quarry is fully flushed and committed to flight—premature stooping on an unsighted quarry wastes altitude; waiting too long loses thermal lift.",
+    "application": "A standup comedian's setup functions as a waiting-on altitude bank: tension is accumulated through misdirection and premise elaboration before the punchline commits. Delivering the punchline too early (before sufficient tension altitude is banked) produces a weak stoop—laughter is minimal because kinetic energy is low. Waiting too long dissipates the accumulated tension as the audience loses track of the premise. The optimal punch point mirrors the falcon's stoop trigger: maximum altitude, quarry committed to escape, conversion window open.",
+    "prediction": "Standup sets coded for setup-length relative to punchline delivery point will show that jokes with setup durations in a comedian-specific optimal range (measurable as tension accumulation units via audience galvanic skin response) produce significantly higher laughter amplitude and duration than jokes delivered shorter or longer than that range, testable in a lab performance study.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Fugitive Soot Particle Deposition Model",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "museum curation",
+    "mechanism": "In pyrotechnic shell construction, fugitive soot and unburned carbon particles deposit on surfaces near the burst zone at a rate governed by particle size distribution, burst temperature, and atmospheric turbulence. Fine particles (< 1 micron) follow gas streamlines and deposit on vertical surfaces through diffusion; coarse particles (> 10 microns) follow ballistic trajectories and deposit preferentially on horizontal surfaces. The deposition pattern serves as forensic evidence of burst type and composition.",
+    "application": "Museum collections accrue particulate damage from visitor traffic, HVAC systems, and lighting in a pattern structurally identical to pyrotechnic soot deposition. Fine particles (ultrafine dust, combustion products from visitors) reach vertical surfaces through diffusion and are most damaging to matte pigments and textiles; coarse particles deposit ballistically on horizontal surfaces (sculpture plinths, open vitrine rims). Curatorial protection protocols—vitrine placement, HVAC filter ratings, surface orientation—can be optimized using pyrotechnic deposition models to minimize collection damage.",
+    "prediction": "Museum galleries where display orientation is optimized using particle-deposition trajectory models (vertical-surface artifacts in low-diffusion zones, horizontal-surface artifacts in low-ballistic-deposition zones) will show measurably lower surface particulate accumulation rates than galleries with random placement, measurable via gravimetric dust sampling on witness coupons over a 12-month period.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Tension-Release Pick Binding Sequence Theory",
+    "mechanism_source": "lock picking",
+    "target_domain": "agriculture",
+    "mechanism": "In single-pin picking (SPP), the lock picker applies rotational tension to the plug while lifting each driver pin sequentially. Because manufacturing tolerances create a non-uniform binding order, only one pin binds against the shear line at any given tension level; the others float free. The picker lifts the binding pin to the shear line, where it sets; tension is momentarily released to allow the next pin to bind, then re-applied. Each pin must be set in the specific order dictated by the plug's tolerance stack, and over-tension causes false sets that must be cleared.",
+    "application": "Crop rotation and soil remediation follow the same sequential binding logic. In a degraded field, soil health parameters (nitrogen, organic matter, pH, microbial diversity) bind in a specific sequence: the most deficient parameter 'binds' first and limits yield regardless of other parameter improvements. Agronomic interventions must identify and address the binding pin in order—adding nitrogen when phosphorus is the binding constraint achieves nothing. Crop sequencing that 'sets' one limiting factor per season before moving to the next mirrors optimal SPP technique.",
+    "prediction": "Farms implementing soil-health remediation sequences guided by binding-constraint identification (Liebig's law applied sequentially, one limiting factor addressed per season) will reach target yield levels in fewer seasons and with less total input cost than farms applying balanced multi-nutrient programs simultaneously, measurable in a randomized field trial across degraded soils with known deficiency profiles.",
+    "viability": "promising",
+    "confidence": 0.73
+  }
+]

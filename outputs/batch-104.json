@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Crease Pattern Bias Mapping",
+    "mechanism_source": "origami engineering",
+    "target_domain": "machine learning bias",
+    "mechanism": "In origami engineering, a crease pattern encodes every fold before any physical folding occurs; the final 3D form is entirely determined by the 2D layout of mountain and valley folds. Errors or asymmetries in the crease pattern propagate and amplify through successive folds, so a tiny angular deviation early in the sequence produces large geometric distortions in the finished form. Origami mathematicians use Maekawa's theorem and Kawasaki's theorem to audit crease patterns for flat-foldability before any material is touched.",
+    "application": "ML training pipelines can be audited as crease patterns: each preprocessing step, label assignment, and feature selection decision is a 'fold' whose downstream distortion can be traced analytically before training runs. Bias introduced in tokenization or sampling compounds through layer activations much as angular errors compound through fold sequences, suggesting that bias audits should target the earliest pipeline stages rather than output distributions alone.",
+    "prediction": "Models trained after applying origami-inspired sequential-fold audits to their preprocessing pipelines will show measurably lower intersectional bias scores than models corrected only at the output layer, because upstream compounding errors are eliminated rather than masked.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Morse Silence Protocol",
+    "mechanism_source": "morse telegraphy",
+    "target_domain": "diplomatic negotiations",
+    "mechanism": "Morse telegraphy transmits information through the structured alternation of marks (dots and dashes) and spaces; critically, the inter-element, inter-character, and inter-word silences are as semantically load-bearing as the signals themselves, with defined timing ratios of 1:3:7. Early telegraph operators developed a culture of deliberate pauses to allow channel noise to settle and to signal readiness to receive, preventing simultaneous transmission collisions on shared lines.",
+    "application": "Diplomatic negotiators can formalize silence intervals as structured protocol rather than treating pauses as dead air to be filled: a short pause signals continued engagement, a medium pause signals consideration, and a long pause signals a substantive reframe is forthcoming. Embedding these ratios in negotiation session rules reduces the competitive pressure to speak first and creates shared expectation that silence carries meaning rather than indicating breakdown.",
+    "prediction": "Negotiation sessions that adopt an explicit tiered-silence protocol will reach fewer impasses attributable to simultaneous concession demands, because each party has a legible signal for 'I am processing, not withdrawing.'",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Culm Segmentation Triage",
+    "mechanism_source": "bamboo construction",
+    "target_domain": "emergency room triage",
+    "mechanism": "Bamboo culms achieve their structural strength through hollow internodal segments separated by solid diaphragm nodes; the nodes redistribute compressive and tensile stress, preventing crack propagation from one segment to the next. Engineers exploit this by sizing node spacing to match expected load frequencies, so that each segment fails independently under extreme load rather than triggering cascading structural collapse. The ratio of wall thickness to outer diameter, combined with node density, governs both flexibility and failure isolation.",
+    "application": "ER triage can be restructured as a culm model: patient cohorts are segmented by acuity level with hard 'node' handoff checkpoints between zones that prevent resource cascade — if one zone is overwhelmed, the node boundary slows bleed-through to adjacent zones. Staffing ratios at each node checkpoint are sized to match arrival-frequency load, just as node spacing is matched to load frequency in bamboo engineering.",
+    "prediction": "EDs that implement hard-boundary handoff nodes between acuity zones with dedicated checkpoint staff will show lower rates of high-acuity patient deterioration during surge events compared to open-flow triage models.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Escapement Mechanic Pacing",
+    "mechanism_source": "watchmaking",
+    "target_domain": "indie game development",
+    "mechanism": "A mechanical watch escapement releases stored mainspring energy in precisely metered increments, with the pallet fork alternately locking and unlocking the escape wheel at the frequency set by the balance wheel's oscillation. The elegance of the design is that a single oscillating component governs both energy release rate and positional feedback, creating a self-regulating loop with no external input required. Swiss lever escapements achieve this with tolerances measured in microns, because any slop in the geometry translates directly to timekeeping drift.",
+    "application": "Indie game pacing can be engineered as an escapement: a single 'tension oscillator' mechanic — typically a resource that builds and releases in a defined cycle — governs both the rate at which new content unlocks and the feedback signal to the player that progress is occurring. Designing one core loop to do double duty as both energy release and feedback, rather than layering separate progression and reward systems, keeps scope manageable for small teams.",
+    "prediction": "Indie games designed around a single dual-function tension oscillator mechanic will achieve higher 30-day retention per developer-hour invested than games with separately designed progression and reward subsystems, because the integrated design reduces scope creep and tuning complexity.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Acoustic Wood Selection Moderation",
+    "mechanism_source": "luthiery",
+    "target_domain": "social media moderation",
+    "mechanism": "Luthiers select tonewoods by measuring stiffness-to-weight ratio (specific modulus) and internal damping coefficient; a top wood with high specific modulus transmits vibration efficiently across a wide frequency range, while high damping kills sustain and dynamic range. Master builders tap-tune plates to specific resonant modes (Chladni patterns) before assembly, removing material selectively to tune the plate's tap tone without reducing structural integrity. The result is a graduated, frequency-dependent response to acoustic input rather than a binary pass/fail.",
+    "application": "Content moderation systems can adopt a tap-tuning model: instead of binary remove/keep decisions, moderators assess content along two axes analogous to specific modulus (signal-to-noise ratio of informational content) and damping (velocity of harmful narrative amplification). High-modulus, low-damping content — accurate and fast-spreading — is passed; high-damping, low-modulus content — slow misinformation — is selectively reduced through distribution throttling rather than deletion.",
+    "prediction": "Platforms implementing a dual-axis moderation model calibrated on content signal-to-noise and spread velocity will reduce false-positive removal rates for factually accurate but emotionally provocative content compared to single-threshold classifiers.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Saponification Value Appraisal",
+    "mechanism_source": "soap making",
+    "target_domain": "real estate appraisal",
+    "mechanism": "Soap making relies on saponification: triglycerides in fats react with sodium or potassium hydroxide in fixed stoichiometric ratios (the SAP value) to produce soap and glycerol. Each fat has a unique SAP value because fatty acid chain length and saturation level determine how much alkali is needed to fully react the oil; using incorrect SAP values leaves either excess lye (caustic product) or excess oil (soft, rancid product). Soap makers use weighted blending calculations to combine oils with different SAP values, targeting a precise superfat percentage.",
+    "application": "Real estate appraisal can adopt a SAP-value blending model: each property attribute (location, condition, lot size, recent sales) is assigned a domain-specific weighting coefficient analogous to a SAP value, and the final appraisal is a weighted saponification sum rather than a subjective comparable-sales average. This forces explicit documentation of each coefficient, making appraisal bias auditable in the same way a soap maker's lye calculation is auditable.",
+    "prediction": "Appraisal firms that publish explicit attribute-weighting coefficients for each property type will show smaller racial valuation gaps in matched-pair audits than firms using undocumented comparable-selection methods, because hidden downweighting of minority-neighborhood attributes becomes traceable.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Slab Weak Layer Archaeology",
+    "mechanism_source": "avalanche science",
+    "target_domain": "archaeological excavation",
+    "mechanism": "Avalanche slab failures originate at persistent weak layers — faceted crystals or surface hoar buried by subsequent snowfall — that can remain dormant under stress for weeks before catastrophic shear failure. Snow scientists probe snowpacks with extended column tests to locate these weak layers without triggering them, mapping the spatial extent of failure probability before any slab is disturbed. The critical insight is that weak layers have a characteristic crystal structure and hardness signature detectable by non-destructive probing.",
+    "application": "Archaeological excavation can treat stratigraphic discontinuities as potential weak layers: unconsolidated or waterlogged deposits between artifact-bearing strata represent shear planes where excavation pressure can cause context collapse. Applying extended column test logic — probing lateral extent of fragile interfaces before vertical excavation — would guide where to place excavation walls and when to switch from trowel to brush techniques.",
+    "prediction": "Excavation projects that conduct lateral resistance profiling of inter-stratum interfaces before vertical digging will report lower rates of in-situ artifact displacement compared to projects using standard top-down layer removal without lateral discontinuity mapping.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Dermographic Narrative Arcing",
+    "mechanism_source": "tattoo art",
+    "target_domain": "professional wrestling booking",
+    "mechanism": "Skilled tattoo artists plan large-scale body suits by designing negative space and flow lines that guide the eye across anatomical contours; the composition must account for how skin stretches, how muscle mass changes with age, and how ink migrates in dermis over decades. A sleeve design establishes a visual anchor, a midpoint climax element, and a resolution motif, with transitional filler preventing compositional dead zones. The permanence constraint forces artists to commit to a long-arc narrative rather than episodic improvisation.",
+    "application": "Wrestling bookers can apply tattoo composition principles by designing long-arc character journeys with anchor events (debut gimmick), climax elements (championship moments or betrayals), and resolution motifs (retirement or alignment conclusion), with transitional 'filler' matches deliberately chosen to prevent narrative dead zones rather than filled arbitrarily. The permanence parallel is kayfabe investment: once a major angle is inked into audience memory, contradicting it carries permanent scar-tissue credibility costs.",
+    "prediction": "Promotions that map character arcs as explicit anchor-climax-resolution compositions before booking individual matches will show higher sustained pay-per-view buy rates across a two-year window than promotions that book reactively based on crowd response alone.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Drafting Hydrodynamics Hub Routing",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "airline route planning",
+    "mechanism": "In competitive swimming, drafting — swimming in the pressure wake directly behind a leading swimmer — reduces hydrodynamic drag on the following swimmer by 10-26%, depending on distance and body position. Elite open-water swimmers exploit draft packs to conserve energy on long-course segments, then break from the pack and sprint during the final stage when drafting advantage diminishes. The physics are governed by Bernoulli pressure differentials in the swimmer's bow wave and turbulent wake.",
+    "application": "Airlines can model hub-and-spoke routing using drafting logic: high-frequency trunk routes create 'pressure wakes' of infrastructure (gates, ground crews, air traffic slots) that reduce marginal operating costs for connecting services that follow immediately behind them in the schedule. Scheduling connections to depart 35-60 minutes after high-frequency trunk arrivals — within the wake window — captures this infrastructure draft, lowering per-seat costs on thin routes.",
+    "prediction": "Airlines that schedule regional connecting departures within a 35-60-minute window of high-frequency trunk arrivals at shared hubs will show measurably lower ground operation costs per regional departure than airlines using evenly spaced scheduling independent of trunk arrival timing.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Mycelial Reinforcement Schedules",
+    "mechanism_source": "mycology",
+    "target_domain": "dog training",
+    "mechanism": "Mycelial networks grow toward nutrient gradients and reinforce successful hyphal pathways through increased chitin deposition in cell walls; pathways that encounter productive substrates are physically thickened and branched, while non-productive pathways are abandoned through programmed autolysis. The network dynamically redistributes resources based on gradient signals without central coordination, with anastomosis (fusion of hyphae) creating redundant pathways to reliable nutrient sources. Reinforcement is therefore proportional to gradient strength and sustained by repeated successful encounters.",
+    "application": "Dog training schedules can be designed as mycelial reinforcement maps: behaviors are reinforced on a gradient-proportional schedule where reinforcement magnitude matches the reliability of the behavior signal, and behaviors that produce reliable cues are rewarded with increased 'pathway thickness' (higher value treats, more frequent reinforcement) while unreliable cue-response links are pruned through extinction. Variable ratio schedules emerge naturally from this model as gradient noise.",
+    "prediction": "Dogs trained on gradient-proportional reinforcement schedules tied to behavioral reliability metrics will generalize trained behaviors to novel environments faster than dogs trained on fixed-ratio schedules, because the training encodes gradient-seeking rather than specific context-response associations.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Topological Equivalence Trial Arms",
+    "mechanism_source": "topology",
+    "target_domain": "pharmaceutical trials",
+    "mechanism": "Topology studies properties preserved under continuous deformation — a coffee mug is topologically equivalent to a donut because both have one hole, regardless of shape differences. Homeomorphic spaces share all topological invariants (connectedness, compactness, genus) even when their metric geometries differ dramatically. In applied topology, persistent homology tracks which features of a data space survive across multiple scales of measurement, distinguishing signal from noise in high-dimensional datasets.",
+    "application": "Pharmaceutical trial design can use topological equivalence to identify patient subpopulations that are homeomorphic in pharmacokinetic response space — patients whose drug absorption, distribution, metabolism, and excretion profiles are continuously deformable into each other — allowing trial arms to be stratified by topological class rather than demographic proxies. Persistent homology applied to biomarker data could identify which response features persist across dosing scales and which are noise.",
+    "prediction": "Clinical trials that stratify arms using persistent homology of baseline biomarker profiles will show smaller within-arm response variance and larger detectable effect sizes at equivalent sample sizes compared to trials stratified by age and weight alone.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Nash Equilibrium Resettlement Matching",
+    "mechanism_source": "game theory",
+    "target_domain": "refugee resettlement",
+    "mechanism": "In game theory, a Nash equilibrium is a strategy profile where no player can improve their outcome by unilaterally changing their strategy, given the strategies of other players. Stable matching algorithms (Gale-Shapley) extend this to two-sided markets, producing assignments where no pair of agents would mutually prefer to be matched to each other over their current assignment. The mechanism is strategy-proof on one side when agents truthfully reveal preferences rather than gaming the algorithm.",
+    "application": "Refugee resettlement matching between families and host communities can be structured as a two-sided stable matching market: families rank preferred destinations by language, employment, and family proximity factors, while municipalities rank refugee profiles by integration resource fit. The Gale-Shapley algorithm produces a Nash-stable assignment set that is resistant to individual defection, reducing secondary migration rates that follow forced arbitrary placement.",
+    "prediction": "Resettlement programs using stable matching algorithms with preference inputs from both refugees and municipalities will show lower 12-month secondary migration rates than programs using administrative assignment without preference elicitation, because matched placements reflect mutual equilibrium rather than unilateral allocation.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Isochrone Contour Lighting",
+    "mechanism_source": "cartography",
+    "target_domain": "theatrical lighting design",
+    "mechanism": "Cartographic isochrones are lines connecting points of equal travel time from a source, analogous to topographic contour lines connecting points of equal elevation. Isochrone maps reveal accessibility gradients and show how information, people, or goods diffuse outward from a source over time, with contour density indicating rate of diffusion change. Map designers use isochrone layering to communicate temporal relationships spatially, with color gradients encoding elapsed time.",
+    "application": "Theatrical lighting designers can treat stage space as an isochrone map with the narrative focus point as the source: light intensity contours radiate from the primary action zone, with contour density (rate of intensity change with distance) encoding the emotional urgency of the scene. Slow diffusion scenes use widely spaced soft gradients; high-urgency scenes compress the isochrones into hard edges that isolate the action in tight pools.",
+    "prediction": "Audience attention tracking in productions using isochrone-modeled light gradients will show tighter gaze clustering on intended focus points during multi-character scenes compared to productions using fixed wash-and-spot conventional designs, because the gradient explicitly encodes spatial hierarchy.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Superorganism Intake Optimization",
+    "mechanism_source": "beekeeping",
+    "target_domain": "competitive eating",
+    "mechanism": "A honeybee colony functions as a superorganism with distributed foraging intelligence: scout bees assess nectar source quality by sugar concentration and proximity, returning to perform waggle dances whose duration and vigor encode source distance and quality. The colony allocates forager bees to sources proportionally to dance competition outcomes, maximizing colony-level caloric intake rate rather than individual forager efficiency. Intake is also regulated by receiver bees whose responsiveness to returning foragers signals colony saturation.",
+    "application": "Competitive eating strategy can be modeled as a superorganism allocation problem: a competitor's 'forager allocation' is attention distributed across chewing rate, swallowing timing, hydration management, and pacing against competitors. Optimal strategy maximizes intake rate at the colony level (total food consumed) rather than individual action efficiency, suggesting that periodic micro-pauses that reset swallow reflex and hydration — analogous to receiver bee saturation signals — improve total throughput over pure speed approaches.",
+    "prediction": "Competitive eaters who incorporate structured 8-12 second hydration and reset intervals every 90 seconds will achieve higher total consumption in 10-minute formats than eaters using continuous maximum-speed approaches, because the reset intervals prevent the swallowing bottleneck that caps continuous intake.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Annealing Stress Release Language Revival",
+    "mechanism_source": "glassblowing",
+    "target_domain": "language revitalization",
+    "mechanism": "After a blown glass piece is formed, it must be annealed: placed in a kiln at the glass transition temperature (~480 degrees C for soda-lime glass) to allow residual thermal stresses to relax through viscous flow, then cooled at a controlled rate slow enough that no new stress gradients form. Rapid cooling locks in stress differentials between surface and core that cause spontaneous fracture hours or days later. The annealing schedule — time at temperature versus cooling rate — is the critical determinant of long-term structural integrity.",
+    "application": "Language revitalization programs often introduce new speakers rapidly through immersion curricula, creating a thermal shock of usage patterns that stress the sociolinguistic structure between heritage speakers (the core) and learners (the surface). Annealing theory predicts that a controlled normalization phase — extended mixed-register interaction between learner and heritage populations before formal institutional use — allows sociolinguistic stress to relax before the language is expected to bear full communicative load.",
+    "prediction": "Revitalization programs that include a structured heritage-learner co-use period of at least 18 months before institutional language mandates will show higher learner retention and intergenerational transmission rates than programs that move directly from immersion to institutional requirement.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

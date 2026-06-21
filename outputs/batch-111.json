@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Nyquist-Narrative Threshold",
+    "mechanism_source": "signal processing",
+    "target_domain": "literary criticism",
+    "mechanism": "The Nyquist-Shannon sampling theorem states that a continuous signal can be perfectly reconstructed only if it is sampled at a rate at least twice its highest frequency component. Sampling below this threshold causes aliasing—where high-frequency components fold back and masquerade as lower frequencies, producing systematic distortion that cannot be distinguished from genuine signal. The theorem defines a hard information-theoretic boundary between faithful representation and irreversible corruption.",
+    "application": "Literary critics operate as samplers of a text's full semantic bandwidth: close readers sampling at high rates (word-by-word analysis) reconstruct nuance accurately, while distant reading at low rates aliases thematic complexity into crude patterns. When a critic's conceptual vocabulary has fewer categories than the text's semantic frequencies, aliasing occurs—rich ambiguity collapses into false clarity and anachronistic meaning-shapes appear that were never in the original.",
+    "prediction": "Critics using fewer than N distinct analytical categories to describe a text with N measurable semantic dimensions should produce interpretations whose conclusions systematically converge with each other despite disagreeing on surface readings, exactly as aliased signals from different sources converge—testable by corpus analysis of reviews against semantic dimensionality measures.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Wort-Gravity Depletion Index",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "pension fund management",
+    "mechanism": "In brewing, specific gravity measures the density of dissolved sugars in wort relative to water. As yeast metabolize sugars into ethanol and CO₂, gravity falls in a predictable curve toward a terminal gravity determined by yeast attenuation limits and residual unfermentable dextrins. Brewers monitor the attenuation rate—how quickly gravity drops—to detect stuck fermentations, yeast health problems, and predict final alcohol content before fermentation completes.",
+    "application": "Pension fund asset drawdown follows an analogous depletion curve: the 'original gravity' is the fund's starting capitalization, the 'terminal gravity' is the minimum acceptable reserve threshold, and beneficiary payouts are the metabolizing agents consuming principal. Attenuation rate tracking can flag 'stuck' funds where drawdown has slowed suspiciously (possibly from underreporting liabilities) or accelerated beyond actuarial projections before the fund hits its terminal floor.",
+    "prediction": "Pension funds whose drawdown rates diverge by more than 15% from actuarial attenuation curves in any rolling 36-month window should show elevated probability of insolvency within 10 years at a rate significantly higher than actuarially sound funds—testable against historical pension failure datasets.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Loupe-Provenance Chain",
+    "mechanism_source": "forensic science",
+    "target_domain": "space colonization",
+    "mechanism": "Forensic chain-of-custody protocols require that every person who handles evidence be documented, that transfer times and conditions be recorded, and that no gap exist in the custody record—any break renders evidence inadmissible by introducing doubt about tampering or contamination. The principle extends to material analysis: forensic mineralogy can trace rock samples to specific geological formations using trace element signatures and isotope ratios that function as provenance fingerprints.",
+    "application": "Space colony supply chains spanning months of transit time face catastrophic chain-of-custody vulnerabilities: biological samples, pharmaceutical compounds, and structural alloys can degrade, contaminate, or be substituted during transit with no real-time verification possible. Implementing forensic isotopic fingerprinting of all critical materials at origin, paired with cryptographic chain-of-custody logs, could provide tamper-evident provenance verification upon arrival—detecting substitution, contamination, or mislabeling that could otherwise go undetected for mission-critical cargo.",
+    "prediction": "Simulated long-duration supply missions where forensic isotope fingerprinting is applied to cargo at origin and verified upon arrival should detect intentional contamination or substitution events at rates above 94% while generating fewer than 3% false positives, versus under 40% detection without the protocol.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Drag-Phase Deliberation Model",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "psycholinguistics",
+    "mechanism": "In competitive swimming, hydrodynamic drag is decomposed into form drag (from the swimmer's cross-sectional profile), friction drag (from boundary layer skin friction), and wave drag (from surface wave generation). Elite swimmers minimize total drag through streamlining body position, reducing wetted surface turbulence, and timing strokes to avoid destructive interference between their own bow wave and reflected pool walls. The interplay between these drag components creates non-obvious optima where reducing one form of drag can inadvertently increase another.",
+    "application": "Language production faces analogous drag components: articulatory form drag (phonotactic complexity requiring longer production time), semantic friction drag (searching for precise lexical items), and pragmatic wave drag (anticipating listener comprehension and adjusting formulation). Psycholinguists could model fluent speech as drag-minimization, predicting that disfluencies cluster at points where multiple drag types peak simultaneously—exactly as swimmers slow at turns where wave interference is highest.",
+    "prediction": "Corpus analysis of spontaneous speech should show that disfluency density (hesitations, repairs, restarts) is significantly predicted by the intersection of high phonotactic complexity, low lexical frequency, and high pragmatic uncertainty at the same utterance position, more strongly than any single factor alone—testable with annotated speech corpora paired with psycholinguistic difficulty ratings.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Security-Pin False-Set Choreography",
+    "mechanism_source": "lock picking",
+    "target_domain": "dance choreography",
+    "mechanism": "In lock picking, security pins (spool pins, serrated pins) are designed to create false sets: when picking tension is applied and a driver pin reaches the shear line, the pin's non-cylindrical shape causes the plug to slightly rotate and feel like it has set, but the pin is actually binding in a false position. The picker must recognize the false set by subtle tactile feedback, release slight tension to allow the pin to finish setting correctly, then resume tension—requiring iterative pressure-release cycles rather than continuous monotonic force.",
+    "application": "Choreographic composition encounters false sets when a movement phrase feels resolved—a gesture lands on the beat, the body returns to neutral, tension releases—but the piece hasn't actually arrived at its deeper structural resolution. Skilled choreographers recognize these false sets as moments requiring additional iterative development cycles: releasing the tension of apparent closure to allow deeper compositional elements to finish setting before the true resolution is reached.",
+    "prediction": "Dance works rated by expert panels as having 'premature closure' or 'unearned resolution' should exhibit significantly fewer tension-release cycles in the final compositional section before the climax than works rated as having satisfying structural resolution, when movement phrase boundaries are annotated and cycle counts extracted.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Star-Oxidizer Balance Protocol",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "disaster relief logistics",
+    "mechanism": "Pyrotechnic star compositions require precise oxidizer-to-fuel ratios to sustain controlled combustion. Too little oxidizer produces incomplete combustion with dense smoke and poor color; too much oxidizer burns too rapidly, destroying the color-producing metal salts before they can emit characteristic wavelengths. The working ratio window is narrow, and each colorant metal (barium chlorate for green, strontium for red, copper for blue) has different stoichiometric requirements that must be balanced against the shared oxidizer pool in multi-effect compositions.",
+    "application": "Disaster relief logistics faces an identical allocation problem: the 'oxidizer' corresponds to logistics infrastructure capacity (vehicles, fuel, coordination bandwidth), which must be apportioned across multiple response 'fuels'—shelter, food, medical, water. Over-allocating logistics to any single commodity category exhausts the shared infrastructure before other needs are met; under-allocating leaves resources stranded. The stoichiometric window concept predicts that each commodity type has a different optimal infrastructure-to-commodity ratio below which delivery is incomplete and above which infrastructure is wasted.",
+    "prediction": "Analysis of historical disaster relief operations should reveal that missions allocating logistics infrastructure within ±20% of the commodity-specific optimal ratios (derivable from operational datasets) achieve significantly higher beneficiary coverage rates than those outside this window, holding total resource volume constant.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Headband-Tension Imprint Model",
+    "mechanism_source": "bookbinding",
+    "target_domain": "podcast production",
+    "mechanism": "In traditional bookbinding, the headband is a decorative and structural element sewn at the head and tail of the text block. The tension of headband thread must be calibrated to match the sewing tension of the text block signatures: if headband tension is too loose, the book's spine becomes susceptible to head-to-tail torsional stress and the text block sags; if too tight, the headband compresses the signatures unevenly and creates a convex spine that prevents the book from lying flat. The headband serves as a tension-equalizing interface between the cover boards and the text block.",
+    "application": "In podcast production, the intro and outro sequences function as headbands: they must match the tension (pacing, register, emotional intensity) of the episode body. An intro that is too casual relative to a dense analytical episode creates a mismatch that listeners perceive as cognitive whiplash; an over-produced, high-energy intro before a reflective conversation compresses the episode's opening, preventing listeners from 'lying flat' into its rhythm. The headband model predicts that tension-matched framing produces measurably better listener retention.",
+    "prediction": "Listener retention curves for podcast episodes with intro/outro production intensity scores within one standard deviation of the episode body's measured intensity should show significantly lower drop-off rates in the first two minutes and final two minutes than episodes with large tension mismatches—testable against streaming analytics paired with audio feature extraction.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Haggard-Lure Habituation Curve",
+    "mechanism_source": "falconry",
+    "target_domain": "dating apps",
+    "mechanism": "In falconry, a haggard is a bird caught in the wild as an adult that has already formed strong independent hunting patterns. Training a haggard requires the falconer to use a lure—a padded weight swung on a line resembling prey—as both a recall signal and a reward delivery mechanism. Haggards habituate to lures more rapidly than passage hawks (juveniles) and will stop responding if the lure is presented too predictably; the falconer must vary the lure's flight path, occasionally withhold it, and use variable reward schedules to maintain the bird's engagement without triggering either full habituation or frustration-induced flight.",
+    "application": "Dating app engagement mechanics face the haggard problem: experienced adult users who have used multiple platforms have pre-formed matching strategies and habituate rapidly to predictable recommendation algorithms. Variable reward schedules—already exploited by app designers—are the equivalent of unpredictable lure flight paths, but the haggard model also predicts a critical threshold beyond which variability itself becomes the expected pattern, triggering meta-habituation. Apps must periodically introduce qualitatively different engagement modes, not just varied timing.",
+    "prediction": "Dating app users with more than 18 months of cumulative app experience should show measurably faster habituation to any new matching feature (measured as return to pre-feature engagement baseline) than users with less than 6 months experience, and this effect should be significantly stronger for features using fixed rather than variable reward schedules.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Patina-Authenticity Gradient",
+    "mechanism_source": "numismatics",
+    "target_domain": "architectural preservation",
+    "mechanism": "In numismatics, patina is the complex surface chemistry that develops on coins over decades or centuries through oxidation, mineral interaction, and environmental exposure. Authentic ancient patina shows specific crystalline structures, isotopic signatures, and layer sequences that can be distinguished from artificial patinas applied to forgeries. Crucially, genuine patina is irreversibly bound to the coin's surface microstructure—any cleaning that removes patina also removes the evidentiary record of the coin's history encoded in those chemical layers.",
+    "application": "Historic building surfaces accumulate an analogous chemical and biological patina: lichen colonies, carbonation gradients in limestone, oxidized copper flashings, and UV-darkened wood fibers encode the building's authentic chronological record in their material chemistry. Aggressive cleaning or 'restoration' that removes this surface record destroys irreplaceable provenance data. The numismatic principle suggests that surface preservation protocols should prioritize patina chemistry as primary historical evidence, not merely aesthetic texture.",
+    "prediction": "Architectural samples from restored building facades subjected to aggressive cleaning should show measurably reduced ability to date the structure's construction and modification history via isotopic and mineralogical analysis compared to unrestored control sections of the same building, with accuracy degrading proportionally to cleaning intensity.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Marver-Gather Temperature Window",
+    "mechanism_source": "glassblowing",
+    "target_domain": "competitive esports",
+    "mechanism": "In glassblowing, the marver is a flat steel or graphite surface used to shape and cool the molten gather of glass on the blowpipe. The gather must be worked within a precise temperature window: too hot and it flows uncontrollably, resisting shape retention; too cool and it becomes stiff, resisting further shaping and cracking under stress. Glassblowers develop tactile and visual sensitivity to the narrow working range where the glass is plastic enough to shape but cool enough to hold form briefly—and they must alternate between the furnace and marver in rhythmic cycles to stay within this window.",
+    "application": "Competitive esports players must maintain their mental-physical state within an analogous performance window: too aroused (heat) and reaction decisions become impulsive and uncontrollable; too underaroused (cool) and response times slow and strategic flexibility rigidifies. Unlike traditional sports, esports competitions can span 6-8 hour tournament days requiring players to actively thermoregulate their cognitive state by cycling between high-intensity play and deliberate cool-down routines—applying the marver rhythm of alternating intensity and recovery rather than sustaining peak arousal continuously.",
+    "prediction": "Esports teams that implement structured inter-game cool-down protocols (verified through biometric monitoring) during tournament days lasting more than 4 hours should show significantly smaller performance degradation in late-tournament rounds compared to teams without such protocols, controlling for total hours played and player experience level.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Thermocline-Exclusion Barrier",
+    "mechanism_source": "thermodynamics",
+    "target_domain": "immigration policy",
+    "mechanism": "A thermocline is a sharp thermal gradient in a body of water where a warm surface layer (epilimnion) sits atop a cold deep layer (hypolimnion), separated by a zone of rapid temperature change. The thermocline acts as a density barrier that resists vertical mixing: organisms and particles below the thermocline cannot easily cross into the warmer layer without energy input, while surface nutrients cannot sink passively. The barrier is not impermeable but requires specific forcing conditions—wind-driven turbulence, seasonal overturn—to break down.",
+    "application": "Immigration policy regimes create analogous stratification layers: legal pathways function as the epilimnion (warm, nutrient-rich, accessible from within), while undocumented populations occupy the hypolimnion (cold, isolated, nutrient-poor). The thermocline—the enforcement and documentation barrier—resists mobility between strata without specific forcing events (amnesty programs, policy reforms, employer sponsorship as 'wind turbulence'). Thermocline models predict that purely enforcement-based thickening of the barrier increases stability but also reduces the beneficial mixing that distributes economic 'nutrients' across strata.",
+    "prediction": "Immigration policy regimes with sharper enforcement-documentation barriers (measurable by ratio of deportations to regularizations) should show higher within-stratum clustering of economic outcomes but lower cross-stratum economic mobility over 10-year periods, compared to regimes with more permeable regularization pathways—testable against OECD immigration outcome datasets.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Rheological Yield-Point Commitment",
+    "mechanism_source": "rheology",
+    "target_domain": "theatrical lighting",
+    "mechanism": "Rheology is the study of how materials flow and deform under stress. Yield-stress fluids (Bingham plastics, Herschel-Bulkley fluids) behave as elastic solids below a critical stress threshold but flow as viscous liquids above it. The yield point is the exact stress at which the material transitions from storing deformation energy elastically to dissipating it through irreversible flow. Thixotropic materials add a time dimension: the yield stress itself decreases with sustained shear (structural breakdown) and recovers at rest.",
+    "application": "Theatrical lighting states function as yield-stress systems: a lighting configuration stores and sustains dramatic tension elastically while the scene's emotional stress remains below the cue threshold, then irreversibly 'flows' into a new state when the cue fires. The yield point is the moment the lighting designer commits the audience's perceptual state to a new register—before the yield point, recovery is possible; after, the scene's emotional state has flowed irreversibly. Thixotropy predicts that lighting changes fired in rapid succession lower the audience's yield threshold, making subsequent changes feel more abrupt.",
+    "prediction": "Audience physiological arousal measures (skin conductance, heart rate) should show significantly sharper response peaks to identical lighting transitions when those transitions are preceded by a sequence of three or more rapid cues within 90 seconds, versus identical transitions preceded by a sustained 3-minute single lighting state—testable in controlled theatrical performance experiments.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Attractor-Basin Foraging Collapse",
+    "mechanism_source": "chaos theory",
+    "target_domain": "deep sea exploration",
+    "mechanism": "In chaos theory, strange attractors define the bounded region of phase space toward which a dynamical system evolves. Basin boundaries—the boundaries between regions that lead to different attractors—can be fractal, meaning that arbitrarily close initial conditions can lead to completely different long-term behaviors. Near a fractal basin boundary, predictability collapses exponentially: even vanishingly small measurement errors in initial state produce qualitatively different trajectory outcomes, making any trajectory forecasting fundamentally unreliable.",
+    "application": "Deep-sea remotely operated vehicle (ROV) navigation operates near fractal basin boundaries when maneuvering in complex terrain with strong, chaotic current patterns. The ROV's trajectory from a given position-velocity state can bifurcate toward either safe recovery or entanglement/loss based on measurement errors within sensor precision limits. Rather than attempting to improve trajectory prediction (impossible near fractal boundaries), mission design should map the basin structure itself—identifying zones where small positional errors are safe versus zones where they are catastrophically divergent.",
+    "prediction": "ROV mission failure rates in complex benthic terrain should be significantly higher in deployment zones where oceanographic current models predict high local Lyapunov exponents (rapid error growth), independently of average current speed, and this risk should be predictable from pre-dive hydrodynamic modeling at significantly better than chance accuracy.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Kolmogov-Shannon Malt Conversion",
+    "mechanism_source": "brewing chemistry",
+    "target_domain": "dog training",
+    "mechanism": "In brewing, mashing converts starches in malted grain into fermentable sugars through enzymatic action. Two primary enzyme classes work at different temperature optima: beta-amylase (active at 60-65°C) cleaves maltose from starch chains producing highly fermentable wort, while alpha-amylase (active at 68-72°C) produces longer dextrins that yeast cannot ferment, leaving residual body and sweetness. Mash temperature precisely controls the ratio of fermentable to unfermentable sugars, determining both alcohol content and final mouthfeel in a single, irreversible conversion step.",
+    "application": "Dog training operates on an analogous dual-enzyme conversion: low-arousal training sessions (beta-amylase temperature) produce highly fermentable, immediately actionable learned behaviors—precise sit/stay responses that are fluid and reliable. High-arousal training (alpha-amylase temperature) produces less precise but more robust generalized behaviors that resist extinction in novel environments but are less exact. The mash temperature model predicts that the ratio of low to high arousal training sessions should be calibrated to the target behavior type: precision tasks need beta-dominant mashing; field reliability needs alpha-dominant mashing.",
+    "prediction": "Dogs trained for precision obedience tasks with predominantly low-arousal sessions (below handler-rated threshold for excitement) should score significantly higher on formal obedience trials than dogs trained with predominantly high-arousal sessions, while the reverse should be true for search-and-rescue generalization tests in novel environments—testable in controlled training protocol experiments.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Parasitic-Load Information Drain",
+    "mechanism_source": "parasitology",
+    "target_domain": "pharmaceutical regulation",
+    "mechanism": "Parasitological fitness theory models how parasites affect host fitness through direct resource extraction (nutrients, blood), immune system priming costs, and behavioral manipulation. The parasite-host coevolution dynamic produces arms races where hosts evolve resistance mechanisms and parasites evolve immune evasion, creating escalating metabolic overhead on both sides. Critically, even when parasite burden is below the threshold that produces visible pathology, subthreshold infections impose measurable fitness costs through chronic immune activation that diverts metabolic resources from growth and reproduction.",
+    "application": "Pharmaceutical regulatory burden imposes analogous subthreshold fitness costs on drug development: compliance requirements below the threshold that derail a program still divert scientific talent and capital toward documentation, reporting, and legal review—resources that cannot simultaneously fund experimental work. Like subthreshold parasite loads, subthreshold regulatory burden is often invisible in outcome data (approved drugs look healthy) but measurable in development timelines, pipeline breadth, and early-stage exploration rates. The model suggests an optimal regulatory load exists below which safety oversight is genuinely inadequate and above which total drug development output declines.",
+    "prediction": "Countries with regulatory burden scores in an intermediate range should produce significantly more novel drug approvals per R&D dollar than countries at either extreme of low or high regulatory burden, following a hump-shaped relationship testable across OECD pharmaceutical datasets controlling for GDP and research infrastructure.",
+    "viability": "speculative",
+    "confidence": 0.57
+  }
+]

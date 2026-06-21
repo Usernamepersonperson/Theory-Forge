@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Echo Return Empathy Calibration Model",
+    "mechanism_source": "sonar technology",
+    "target_domain": "empathy training",
+    "mechanism": "Sonar works by emitting a precisely calibrated acoustic pulse and analyzing the returning echo's timing, frequency shift, and amplitude to reconstruct the properties of a distant object. The system must know the properties of its own emitted pulse precisely in order to interpret what the returning signal reveals about the target. Doppler analysis of frequency shift reveals the target's velocity relative to the sonar; reverberation analysis distinguishes target echoes from background noise. The sonar receiver must be silent during the listening window to detect the faint returning signal.",
+    "application": "Empathy training can be structured as sonar calibration: the trainee first learns to characterize their own 'emitted pulse'—their default communicative tone, assumptions, and emotional register—before attempting to interpret what others' responses reveal. The returning 'echo' (the other person's emotional and verbal responses) only yields accurate information about the other person's inner state if the trainee's own signal characteristics are known and controlled. The most important skill is the 'listening window'—becoming genuinely silent, suppressing the self's ongoing signal, to detect faint emotional returns that would otherwise be masked by reverberation.",
+    "prediction": "Empathy training programs that include explicit self-signal calibration—structured exercises requiring trainees to characterize their own communicative defaults before practicing perspective-taking—will produce higher scores on behavioral empathy measures (not just self-report) compared to programs beginning directly with perspective-taking exercises, controlling for training duration.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Living Barrier Therapeutic Boundary Work",
+    "mechanism_source": "hedge laying",
+    "target_domain": "boundary setting in therapy",
+    "mechanism": "Traditional hedge laying creates a living boundary by partially cutting vertical stems and bending (laying) them at low angles to weave through upright stakes. The cut is incomplete—the pleacher retains a living connection to its root system—so the laid stem continues to grow, fusing with neighboring stems and stakes into a self-reinforcing structure. A properly laid hedge becomes stronger over time as the living material thickens and interlocks. It functions as a boundary precisely because it is not rigid: the flexible living structure can absorb pressure that a rigid fence would transmit as force.",
+    "application": "Therapeutic boundary setting follows hedge-laying mechanics: effective boundaries in therapeutic relationships are living structures—clear in their extent but maintained by ongoing growth rather than by rigidity. A boundary that is completely severed from the relational root system (absolute refusal, rigid rule enforcement) fails to grow and fuse with the surrounding relational structure; it is a fence post, not a hedge. The therapeutic boundary must retain a living connection to the care relationship while establishing clear structural form. Boundaries that flex under appropriate pressure are stronger over time than rigid rules that fracture under the same pressure.",
+    "prediction": "Clients in therapeutic relationships whose therapists articulate boundaries as relational principles with explanatory rationale—rather than as rules with consequences—will demonstrate higher rates of boundary maintenance (both client and therapist) at 12-month follow-up and lower rates of boundary violations, as assessed by independent clinical raters.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Gem Facet Argument Clarity Protocol",
+    "mechanism_source": "diamond cutting",
+    "target_domain": "argument analysis",
+    "mechanism": "Diamond cutting works by cleaving or sawing the rough stone along crystallographic planes, then grinding precise facets at calculated angles that maximize total internal reflection and light return. The cutter first studies the rough stone's crystal structure to identify existing planes and inclusions that constrain the achievable cut. Each facet is cut in relation to all others; the girdle (equatorial facets) must be set before crown and pavilion facets can be correctly angled. A single miscut facet creates light leakage that cannot be corrected without recutting surrounding facets.",
+    "application": "Argument analysis can deploy diamond-cutting methodology: the analyst first identifies the crystallographic planes of the argument—its logical structure and the inclusions (hidden assumptions, undefined terms) that constrain its valid forms. Analytical facets (sub-conclusions, supporting premises) must be cut in sequence, with central premises established before dependent conclusions can be correctly angled. A single imprecise premise creates logical leakage—invalid inferences—that propagates through all downstream conclusions. The goal is maximum light return: an argument that is convincing because every facet reflects correctly, not because it is large.",
+    "prediction": "Students trained in structured argument decomposition—explicitly identifying premise-structure relationships and hidden assumptions before evaluating conclusion validity—will demonstrate higher accuracy on novel logical fallacy identification tests and transfer the skill to unfamiliar argument forms more successfully than students trained in informal argument evaluation techniques.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Declination Correction Cognitive Bias Calibration",
+    "mechanism_source": "magnetic declination",
+    "target_domain": "cognitive bias correction",
+    "mechanism": "Magnetic declination is the angular difference between true north and magnetic north at any given location, varying with geographic position and changing slowly over time as Earth's magnetic field shifts. A navigator using a compass without applying the correct declination correction will accumulate angular error that grows with distance traveled. The correction is not constant globally—it must be looked up for the specific location and time. Applying an outdated correction can be worse than applying no correction, because it introduces systematic error in a known direction.",
+    "application": "Cognitive bias correction operates on declination logic: the systematic deviation between a person's intuitive judgment (magnetic north) and accurate judgment (true north) varies by domain, individual, and context—there is no single universal correction factor. Debiasing interventions that apply a generic correction (e.g., 'slow down and think analytically') without calibrating to the specific individual-domain-context combination may introduce systematic error in a known direction, worse than uncorrected bias in some cases. Effective debiasing requires calibrating the correction factor for each person-domain pair and updating it over time as the underlying bias pattern drifts.",
+    "prediction": "Debiasing training programs that individualize correction strategies through iterative calibration—measuring each participant's specific bias magnitude and direction in their relevant decision domain and adjusting intervention type accordingly—will produce greater bias reduction at six-month follow-up than training programs applying uniform debiasing strategies across all participants.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Heddle Threading Narrative Architecture",
+    "mechanism_source": "loom weaving",
+    "target_domain": "narrative structure",
+    "mechanism": "A loom creates fabric by interlacing warp threads (set vertically under tension before weaving begins) with weft threads (passed horizontally through the shed, the opening created by raising selected warp threads). The warp establishes the fabric's fundamental structure and determines what patterns are achievable; the weft adds color and detail within the constraints of the warp. Pattern complexity is limited by the number of shafts (warp-controlling frames): a four-shaft loom can produce all four-shaft patterns, but not six-shaft patterns regardless of weft skill. Changing the pattern requires re-threading the warp, not changing the weft.",
+    "application": "Narrative structure follows loom mechanics: the warp is the story's fundamental temporal and causal architecture—the sequence of events that are established before the narrative voice begins working. The weft is the narrative voice, tone, and detail that passes through the structural shed. A narrative with a weak warp cannot be rescued by beautiful weft work; the fabric of the story depends on the structural threads being correctly tensioned and threaded. Genre conventions and narrative arcs are shaft configurations—they determine what patterns are possible before any scene is written.",
+    "prediction": "Narrative analysis methods that assess both warp-level structure (causal and temporal architecture) and weft-level execution (voice, detail, scene craft) independently before combining scores will better predict reader engagement and comprehension outcomes than holistic qualitative assessment or methods that assess only surface-level stylistic features.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Crystal Pocket Innovation Incubation Model",
+    "mechanism_source": "geode formation",
+    "target_domain": "innovation incubation",
+    "mechanism": "Geodes form when a cavity in rock—typically a volcanic vesicle or dissolved nodule—is slowly infused with mineral-laden groundwater. Crystals nucleate on the cavity walls and grow inward over thousands of years as supersaturated solution deposits mineral layers. The external appearance of a geode gives no indication of its interior; the crystal quality depends entirely on the conditions inside the closed system—temperature stability, solution chemistry, and absence of turbulence. Opening the geode before crystal maturation is complete reveals only incomplete structure.",
+    "application": "Innovation incubation follows geode dynamics: breakthrough innovations develop inside protected cavities—organizational units or project structures insulated from the external environment's pressure and turbulence. The external appearance of an innovation project during development gives no indication of its eventual value; premature exposure to market pressure, executive scrutiny, or competitive analysis disrupts the crystallization conditions required for structural integrity. The incubation environment must be chemically correct (resource composition, team composition) and thermally stable (consistent prioritization and leadership support).",
+    "prediction": "Innovation projects maintained in protected incubation structures with stable resource allocation and limited external review exposure will show higher rates of successful commercialization and higher patent quality scores at project completion than comparable projects in open-portfolio structures with frequent external review, controlling for initial funding level.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Conchoidal Fracture Hypothesis Generation",
+    "mechanism_source": "flint knapping",
+    "target_domain": "hypothesis generation",
+    "mechanism": "Flint knapping shapes stone tools by applying precise percussion or pressure to a flint core, propagating a conchoidal fracture—a curved, predictable break that follows the stone's internal stress geometry rather than an applied path. The knapper reads the stone's surface for platform angles, cortex features, and existing fracture scars before striking, because the stone's internal structure determines which strikes will produce useful flakes. A strike at the wrong platform angle produces a hinge fracture that terminates the flake prematurely; a step fracture creates a surface defect that propagates through subsequent strikes.",
+    "application": "Hypothesis generation follows knapping mechanics: a scientist must read the 'platform angle' of the empirical domain—existing data patterns, theoretical constraints, methodological affordances—before applying the percussive strike of a specific conjecture. A hypothesis struck at the wrong platform angle (ignoring existing theoretical constraints or methodological limitations) produces hinge fractures—conjectures that terminate prematurely in obvious falsification. The best hypotheses follow the internal stress geometry of the empirical field, propagating through the domain's natural fracture planes rather than fighting its structure. Each successful hypothesis creates a new platform for the next.",
+    "prediction": "Scientific research programs that explicitly map existing theoretical constraints and empirical boundaries before formulating hypotheses—the equivalent of platform assessment—will produce hypotheses with higher confirmability rates in pre-registered studies than programs relying on informal abductive reasoning, with the effect size largest in mature empirical domains with well-characterized constraint geometries.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Vane Deflection Sentiment Signal Processing",
+    "mechanism_source": "weather vane mechanics",
+    "target_domain": "sentiment analysis",
+    "mechanism": "A weather vane aligns with wind direction by designing the tail surface to be larger than the pointer surface; wind exerts greater force on the larger tail, rotating the arrow into the wind. The vane reports prevailing direction, not wind speed or gustiness. In turbulent conditions, the vane oscillates rapidly and its instantaneous reading is meaningless—only its time-averaged position reflects actual wind direction. The vane cannot distinguish between a genuine wind shift and a localized eddy; distinguishing signal from noise requires temporal smoothing.",
+    "application": "Sentiment analysis instruments are weather vanes: they align to the prevailing direction of expressed sentiment in a data stream but cannot measure intensity from directional data alone. In turbulent social environments (breaking news, viral events), instantaneous sentiment readings oscillate rapidly and are meaningless; only temporally smoothed readings reflect genuine attitude direction. Sentiment models that report moment-by-moment readings during high-volatility periods as signal are confusing eddies for wind shifts. The analysis must include explicit turbulence detection to determine when temporal smoothing windows should be widened.",
+    "prediction": "Sentiment analysis systems that implement adaptive temporal smoothing—widening the averaging window during detected high-volatility periods and narrowing it during stable periods—will produce more accurate predictions of consumer behavior outcomes than systems with fixed smoothing windows, as measured by correlation with subsequent purchase and engagement data.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Cambium Bridge Organizational Merger Integration",
+    "mechanism_source": "vine grafting",
+    "target_domain": "organizational mergers",
+    "mechanism": "Plant grafting joins a scion (desired variety) to a rootstock (vigorous root system) by aligning their cambium layers—the thin meristematic tissue just inside the bark where cell division occurs. The cambium cells from both plants must be in direct contact and held immobile while they grow together; even slight movement during the healing period causes graft failure. Success is not determined by the quality of either component alone but by the precision of the cambium-to-cambium interface. Once healed, the graft union is structurally stronger than either original stem.",
+    "application": "Organizational mergers succeed or fail at the cambium layer: the point of genuine cell-to-cell contact between the two organizations is at the working level—middle managers, project leads, cross-functional teams—not at the leadership junction. Graft failure in mergers occurs when the cambium layers are not in direct contact (integration efforts stay at the executive level without reaching working operations) or when movement is allowed during the healing period (leadership instability, reorganization during integration). The merger's long-term productivity is not determined by the quality of either organization but by the precision of the working-level interface.",
+    "prediction": "Post-merger integration programs that prioritize working-level cross-organization contact—joint project teams, shared operational processes, middle-manager exchange—during the first 18 months will achieve higher 36-month revenue synergy realization than integrations focusing on leadership alignment and system consolidation, controlling for deal size and industry.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Celestial Fix Ethical Triangulation Framework",
+    "mechanism_source": "sextant navigation",
+    "target_domain": "ethical decision-making",
+    "mechanism": "A sextant measures the angle between a celestial body and the horizon with high precision, allowing the navigator to compute a position line—a circle of position on which the vessel must lie. A single sextant sight gives only a position line, not a fix; a true fix requires two or more intersecting position lines from sights of different celestial bodies taken at known times. The accuracy of the fix depends on the precision of each sight, the angular separation between bodies, and the quality of the chronometer. Sights taken from the same direction produce nearly parallel position lines that yield a poor fix.",
+    "application": "Ethical decision-making uses sextant methodology: each ethical framework (consequentialism, deontology, virtue ethics, care ethics) provides a single position line—a constraint on which actions are permissible according to that framework's geometry. A single framework yields a line, not a fix; a genuine ethical fix requires the intersection of position lines from frameworks whose geometries are sufficiently different (wide angular separation) to triangulate a precise location. Frameworks drawn from the same ethical tradition produce nearly parallel lines and poor fixes. The quality of ethical judgment depends on the precision with which each framework is applied, not on the number of frameworks invoked.",
+    "prediction": "Ethical decision-making training that explicitly teaches the intersection-of-position-lines method—requiring decision-makers to derive and compare position lines from at least three divergent ethical frameworks before concluding—will produce more consistent cross-context ethical behavior than training in any single ethical tradition, measured by behavioral consistency across novel moral dilemma scenarios.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Byssus Adhesion Customer Retention Architecture",
+    "mechanism_source": "mussel attachment",
+    "target_domain": "customer retention",
+    "mechanism": "Mussels attach to substrates through byssus threads—individually thin but collectively strong protein filaments secreted by the mussel's foot and anchored to the substrate through adhesive plaques. Each thread is attached at a distinct point, so the bundle distributes mechanical load across many attachment points rather than concentrating it at one. The byssus is viscoelastic: it stretches rather than breaking under wave surge, absorbing kinetic energy and dissipating it. Mussels in high-surge environments produce denser byssal bundles with more viscoelastic threads than those in calm water.",
+    "application": "Customer retention follows byssus mechanics: durable customer relationships are built through multiple, diverse attachment points (product features, community membership, customer service relationships, habit formation, switching costs) rather than through a single strong bond. A customer attached at only one point—a single product feature or pricing relationship—detaches completely when that point fails. High-retention products produce denser multi-point attachment in proportion to competitive threat: the more turbulent the competitive environment, the more diverse the attachment portfolio required. The viscoelastic property corresponds to relationship flexibility that absorbs competitive pressure without breaking.",
+    "prediction": "Subscription products that invest in multi-point customer attachment—building simultaneous habit, social, and feature-based retention mechanisms—will demonstrate lower churn rates during competitor promotional events than products investing equivalent resources in deepening a single high-salience retention mechanism, controlling for baseline category churn rates.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Bisque Fire Stress Inoculation Sequence",
+    "mechanism_source": "kiln firing",
+    "target_domain": "stress inoculation therapy",
+    "mechanism": "Ceramic firing proceeds in two stages: bisque firing at a lower temperature drives out residual water and carbonaceous material, strengthening the clay body enough to handle glazing without being vitrified. The subsequent glaze firing at higher temperature melts the glaze and vitrifies the clay body to final strength. Attempting to fire to final temperature in a single stage causes thermal shock—steam from residual moisture fractures the piece before the clay body can withstand the stress. Each stage must be completed before the next can begin, and the transition between stages must be gradual to prevent thermal gradient stress.",
+    "application": "Stress inoculation therapy follows kiln firing physics: the bisque phase corresponds to psychoeducation and controlled low-intensity stress exposure that strengthens the psychological structure without risking fracture. Attempting to move directly to high-intensity stress exposure (glaze firing) without the bisque phase produces psychological thermal shock—trauma response rather than resilience building. The gradual temperature ramp between stages corresponds to the exposure hierarchy: the rate of challenge escalation must not exceed the rate of structural strengthening. Each successful stage enables the next, and failure at any stage requires returning to the previous temperature before proceeding.",
+    "prediction": "Stress inoculation therapy protocols that implement explicit bisque-phase stabilization—psychoeducation and low-intensity exposure to criterion before medium-intensity exposure—will show lower dropout rates and higher treatment completion at 12 weeks compared to protocols escalating directly to medium-high intensity exposure, particularly with clients with complex trauma histories.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Particle Size Reduction Feature Engineering",
+    "mechanism_source": "pigment grinding",
+    "target_domain": "feature engineering",
+    "mechanism": "Pigment grinding reduces raw mineral or organic colorant to a particle size distribution that determines the pigment's optical properties: smaller, more uniform particles produce more vivid colors with greater transparency; coarser particles scatter light differently, producing opacity. Grinding also exposes fresh surface area that binds more effectively to the binder medium. Over-grinding some pigments (such as malachite) destroys the crystal structure that produces their characteristic color. The goal is the optimal particle size for the intended application, not minimal particle size.",
+    "application": "Feature engineering for machine learning is pigment grinding: raw data variables must be reduced to the optimal resolution and distribution for the modeling context. Over-aggregating features (insufficient grinding) produces coarse representations that scatter information without binding effectively to the model's representational capacity. Over-granularizing (over-grinding) some features destroys their information structure: temporal data ground to millisecond resolution may lose the day-level periodicity that constitutes its predictive signal. The engineering goal is the optimal representational granularity for the target model and task, determined by the analogue of particle-size testing: validation performance across granularity levels.",
+    "prediction": "Feature engineering pipelines that systematically evaluate multiple feature granularity levels and select resolution based on validation performance will produce models with higher out-of-sample predictive accuracy than pipelines applying a single fixed granularity standard, with the effect size largest for temporal and spatial features where information structure is resolution-dependent.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Dowsing Rod Trend Divination Framework",
+    "mechanism_source": "water divining",
+    "target_domain": "trend forecasting",
+    "mechanism": "Water divining (dowsing) proposes that a practitioner can locate subsurface water through involuntary ideomotor movements of a held rod, purportedly detecting a physical field from the water source. The mechanism has no verified physical basis and controlled experiments consistently fail to distinguish dowsing from chance. Practitioners report high confidence in their ability and attribute failures to specific interference conditions, creating an unfalsifiable explanatory scaffold. The technique persists through confirmation bias, post-hoc explanation of failures, and the genuine success of locating water in regions where water is broadly available.",
+    "application": "Much informal trend forecasting operates on dowsing logic: the forecaster moves through the information environment guided by proprioceptive responses (intuitive salience, pattern recognition) and attributes predictive meaning to these responses without validating them against base rates. High-confidence predictions that fail are explained by specific interference conditions ('disruption,' 'black swans') rather than by methodological inadequacy. The genuine success rate—correctly forecasting trends in domains where trends are broadly available—reinforces the method's credibility without validating its specific mechanism. The framework produces confident but unvalidated directional signals.",
+    "prediction": "Informal trend forecasters relying on intuitive signal-reading, when tested in pre-registered prediction competitions with proper scoring rules, will not outperform statistical baseline models on trend emergence timing, with their accuracy advantage concentrated in domains where trends are already structurally overdetermined by existing data.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  },
+  {
+    "name": "Dew Point Saturation Market Threshold Model",
+    "mechanism_source": "dew point physics",
+    "target_domain": "market saturation",
+    "mechanism": "The dew point is the temperature at which air at a given humidity becomes saturated and begins condensing water vapor into liquid. Below the dew point, further cooling produces liquid water rather than reducing vapor; the condensation releases latent heat that partially counteracts further cooling. The dew point is not a property of temperature alone but of the combination of temperature and absolute humidity—it is the thermodynamic threshold at which the gas phase can no longer hold its dissolved load. The phase transition is rapid and self-reinforcing once initiated.",
+    "application": "Market saturation follows dew point physics: a market becomes saturated not when a fixed percentage of customers is reached but when the combination of adoption density and competitive entry exceeds the market's capacity to absorb new suppliers in the gas phase (active growth mode). At the saturation threshold, further market growth condenses into consolidation—existing suppliers compete for the same customers rather than finding new ones. The condensation releases competitive heat (price wars, feature commoditization) that partially counteracts further saturation. The threshold is not determined by absolute market size alone but by the combination of penetration rate and competitive density.",
+    "prediction": "Industries approaching market saturation, as measured by the combination of adoption penetration rate and new-entrant rate rather than either variable alone, will show earlier onset of price compression and higher consolidation rates than industries where either variable is high in isolation, controlling for regulatory environment and capital intensity.",
+    "viability": "promising",
+    "confidence": 0.65
+  }
+]

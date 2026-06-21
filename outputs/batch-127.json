@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Bumper-State Traffic Topology Model",
+    "mechanism_source": "pinball machine design",
+    "target_domain": "urban traffic flow",
+    "mechanism": "A pinball machine is a directed energy environment where a ball's trajectory is shaped by the spatial arrangement of bumpers, flippers, and channels rather than by direct steering of the ball itself. High-scoring designs create preferred flow paths through strategic bumper placement that converts chaotic ball energy into controlled, productive trajectories. The machine's score emerges from the cumulative interactions between ball momentum and the field geometry; changing one bumper's position cascades through all downstream interactions. The machine designer cannot control where any individual ball goes—only the field's propensity to guide balls toward desired zones.",
+    "application": "Urban traffic engineers are pinball machine designers, not ball-controllers. Traffic flow patterns emerge from the geometry of intersections, signal timing, lane configurations, and turn restrictions rather than from the behavior of individual drivers. Redesigning a single intersection changes the energy distribution throughout the downstream network in ways that simulation alone cannot fully predict. The design insight is to create preferential flow channels that make desired trajectories the path of least resistance rather than attempting to prohibit undesired ones.",
+    "prediction": "Urban traffic networks redesigned using iterative field-geometry optimization—adjusting intersection geometry, signal timing, and lane configuration as an integrated field rather than as independent elements—will show greater reductions in average commute time than networks redesigned through individual intersection optimization, measured by GPS travel-time data.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Sewn Signature Constitutional Theory",
+    "mechanism_source": "bookbinding",
+    "target_domain": "constitutional amendments",
+    "mechanism": "Traditional bookbinding assembles pages into folded signatures, each sewn to adjacent signatures through a connecting thread running along the spine. The structural integrity of the book depends not on the cover but on the cumulative tension of all signatures sewn together in sequence. Adding pages to an existing bound book requires either inserting a new signature—which requires resewing surrounding signatures—or tipping in loose pages that lack structural integration. Poorly integrated additions fall out under use; structurally integrated new signatures strengthen the overall binding.",
+    "application": "Constitutional amendments function as new signatures in a bound text: amendments that are sewn into the constitutional structure through explicit cross-references to existing provisions and through interpretive conventions that connect them to precedent create structurally integrated additions. Amendments tipped in without textual or interpretive connection to existing provisions—addressing novel issues without anchoring to constitutional logic—lack structural integrity and generate interpretive instability over time. The amendment process should be evaluated not just for the content of the new pages but for the quality of the sewing that connects them.",
+    "prediction": "Constitutional amendments that include explicit cross-references to existing constitutional provisions and are enacted with accompanying interpretive records linking them to constitutional precedent will show lower rates of subsequent judicial invalidation or interpretive fragmentation than amendments enacted as self-contained texts, across comparable constitutional systems.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Chado Code Review Ceremony",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "software code review",
+    "mechanism": "The Japanese tea ceremony (chado) is a choreographed interaction in which host and guest co-produce an experience through prescribed movements, spatial arrangement, and sequenced attention. Each utensil is examined in a specific order; the guest's examination is not criticism but appreciation that completes the object's meaning. The ceremony's tempo is set by the host and cannot be rushed without destroying the form. The most important element is ma—negative space and silence—which structures the meaning of active gestures.",
+    "application": "Software code review can adopt chado's ceremonial structure: the reviewer's attention follows a prescribed sequence (architecture, then logic, then style) rather than free-form annotation. Critical comments are offered as completion of the code's intention rather than negation of it—the reviewer asks 'what was this trying to do?' before suggesting changes. Ma is enforced through mandatory reflection periods between initial read and comment submission, preventing reactive annotation that dominates most code review tools.",
+    "prediction": "Code review processes that implement structured attention sequencing with mandatory reflection periods before comment submission will produce fewer negative-tone comments, higher author-reported psychological safety scores, and equivalent or higher defect-detection rates compared to unstructured review processes.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Glacial Surge Institutional Dynamics",
+    "mechanism_source": "glacier dynamics",
+    "target_domain": "institutional change",
+    "mechanism": "Glaciers advance through two distinct regimes: slow viscous creep, in which ice deforms continuously under its own weight at rates of centimeters per day, and periodic surge events, in which the glacier advances tens of kilometers in months as basal meltwater reduces friction to near zero. Surge events are not caused by external forcing but by internal pressure accumulation that eventually exceeds the threshold at which basal friction can be maintained. The glacier then moves rapidly until water drains and friction is restored. The surge cannot be predicted from surface observations alone—it requires understanding of basal conditions.",
+    "application": "Institutions exhibit glacier dynamics: most change occurs through slow viscous creep—incremental policy adjustments, personnel turnover, gradual norm shifts—punctuated by surge events in which accumulated internal pressure (unresolved contradictions, deferred decisions, suppressed dissent) breaches a threshold and the institution reorganizes rapidly. Institutional leaders who focus on surface velocity miss the basal dynamics that determine surge timing. Change management models based on steady-state creep rates will systematically mistime interventions.",
+    "prediction": "Institutional change initiatives that include assessment of basal friction variables—unresolved internal conflicts, deferred structural decisions, and suppressed dissent levels—will demonstrate more accurate prediction of major reorganization timing than initiatives using only surface indicators such as leadership transition, financial performance, or policy output rates.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Cryo-Vault Cultural Seed Protocol",
+    "mechanism_source": "seed banking",
+    "target_domain": "cultural preservation",
+    "mechanism": "Seed banks preserve genetic diversity by storing seeds under conditions that maintain viability for decades to centuries—low temperature, low humidity, low oxygen—without requiring the plant to be actively cultivated. The collection prioritizes genetic breadth over specimen quantity: one seed from each of ten thousand varieties is more valuable than ten thousand seeds of one variety. Seeds must be periodically germinated and re-banked to maintain viability; a collection that is never tested for germination rate is not a living bank but an archive of uncertain value.",
+    "application": "Cultural preservation programs can adopt seed banking methodology: the priority metric is the breadth of distinct expressive forms preserved, not the depth of documentation of dominant forms. Each endangered language, musical tradition, or craft practice represents a unique genetic variety; extensive documentation of a widely-recorded tradition at the expense of minimal documentation of a disappearing one inverts the conservation priority. The germination test corresponds to transmission—cultural preservation is only validated when the preserved form can be performed or taught by someone who learned it from the archive.",
+    "prediction": "Cultural preservation programs that allocate resources proportionally to the endangerment level and uniqueness of forms—prioritizing depth of documentation for rare forms over additional documentation of common ones—will demonstrate higher rates of successful transmission to active practitioners at 20-year follow-up than programs that allocate resources proportionally to existing interest.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Marbled Dispersion Demographic Model",
+    "mechanism_source": "paper marbling",
+    "target_domain": "demographic modeling",
+    "mechanism": "Paper marbling creates complex patterns by floating pigments on a size medium (typically carrageenan), manipulating them with combs and styluses, and then transferring the surface pattern to paper. The patterns emerge from the fluid dynamics of pigment-pigment and pigment-medium interaction: immiscible pigments form cells driven by surface tension differentials, and stylus strokes deform these cells in ways that depend on local rather than global conditions. The same initial pigment drop produces unpredictably different patterns with each pulling sequence despite identical starting conditions.",
+    "application": "Demographic modeling can learn from marbling's fluid dynamics that population distribution patterns emerge from local surface-tension interactions—economic micro-gradients, social network clustering, neighborhood-level amenity differentials—rather than from global forces acting uniformly. Standard demographic models treat the 'size' (city, region) as a uniform medium, but the medium itself has local viscosity variations that dominate pigment dispersion patterns. Cell formation in marbling corresponds to demographic clustering; comb strokes are policy interventions that deform existing patterns in locally-conditional ways.",
+    "prediction": "Demographic models incorporating spatial micro-gradient data—block-level economic, social, and environmental variables—will produce more accurate 10-year population distribution predictions than models using aggregated neighborhood or district-level variables, particularly in cities undergoing rapid housing market changes.",
+    "viability": "speculative",
+    "confidence": 0.59
+  },
+  {
+    "name": "Forge-Heat Therapeutic Resistance Work",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "psychotherapy techniques",
+    "mechanism": "Blacksmithing transforms metal through repeated cycles of heating to a precise temperature range—where the metal becomes malleable but retains structural integrity—followed by controlled working (hammering, bending, twisting) while at temperature, then quenching or slow cooling to set the new form. Metal that is worked cold fractures rather than reshaping; metal overheated loses grain structure. The smith reads temperature by color and texture, applying mechanical work at the precise window when transformation is possible.",
+    "application": "Psychotherapy can be understood as forge work on psychological structure: therapeutic intervention is most effective when the client is in a state of emotional activation sufficient to make rigid patterns malleable (heated to working temperature) but not so flooded that structure is lost (overheated). The therapist's primary skill is reading the client's activation state and timing interventions to the working window. Challenging deeply held patterns when the client is emotionally cold (intellectualizing, dissociated) is working cold metal—the pattern fractures into resistance rather than reshaping.",
+    "prediction": "Therapeutic interventions delivered when clients are in a moderate physiological activation state—as measured by heart rate variability or self-reported emotional intensity in the 4-7 range on a 10-point scale—will produce larger and more stable attitude change scores than identical interventions delivered during low-activation or high-activation states.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Auroral Collision Creativity Model",
+    "mechanism_source": "aurora borealis physics",
+    "target_domain": "creativity research",
+    "mechanism": "Aurora borealis is produced when charged solar wind particles are funneled by Earth's magnetic field into collision zones near the poles, where they excite atmospheric gas molecules to higher energy states. The emitted light's color is determined by which gas (oxygen or nitrogen) at which altitude undergoes excitation. The aurora is not the solar wind particles themselves but the atmosphere's response to their arrival—a secondary emission from the collision between the foreign energy stream and the existing medium.",
+    "application": "Creative insight follows auroral physics: creative output is not the imported idea itself but the secondary emission produced when foreign conceptual material collides with an existing knowledge medium. The 'color' of creative output is determined by which cognitive structures at which level of abstraction undergo excitation during the collision. Creativity interventions that import foreign conceptual material (cross-domain exposure) into a rich atmospheric medium (deep domain expertise) produce the most vivid secondary emissions. A thin atmosphere produces no aurora regardless of solar wind intensity.",
+    "prediction": "Individuals with deep domain expertise who are exposed to high-novelty cross-domain material will produce higher-rated creative outputs than both domain experts with low cross-domain exposure and domain novices with high cross-domain exposure, with the interaction effect strongest for structured creative tasks requiring domain-specific elaboration.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Mill Race Assessment Flow Theory",
+    "mechanism_source": "watermill engineering",
+    "target_domain": "educational assessment",
+    "mechanism": "A watermill captures energy from flowing water through a millrace—a precisely engineered channel that concentrates and directs water flow to the wheel at the optimal velocity and angle. The wheel's output depends not on the total volume of water in the river but on the rate and angle of flow through the race. An undersized race starves the wheel despite abundant upstream water; an oversized race allows water to bypass without doing work. The miller adjusts sluice gates to match flow rate to the wheel's capacity.",
+    "application": "Educational assessment functions as a millrace: it must concentrate and direct student knowledge toward the assessment mechanism at a rate the assessment can productively engage. Assessments that are too narrow (undersized race) prevent students from demonstrating available knowledge; assessments that are too broad (oversized race) produce diffuse responses that bypass the evaluative mechanism without doing diagnostic work. The optimal assessment is calibrated to the student's current zone of proximal development—matching flow rate to wheel capacity—not to a fixed absolute standard.",
+    "prediction": "Adaptive assessment systems that calibrate question difficulty in real time to match each student's demonstrated performance zone will produce more accurate latent ability estimates with fewer items than fixed-form assessments of equivalent time length, as measured by comparison with longitudinal outcome data.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Loft Gradient Logistics Optimization",
+    "mechanism_source": "pigeon racing",
+    "target_domain": "logistics optimization",
+    "mechanism": "Pigeon racing involves releasing birds at a fixed point and measuring their return time to home lofts at varying distances. Pigeons navigate using a combination of magnetic field sensing, olfactory maps, and solar compass calibration—redundant systems that degrade gracefully when one is disrupted. Experienced racers know that birds perform differently on different heading bearings relative to their training routes, and design training routes to build competence on the bearings relevant to race courses. The bird's performance is inseparable from its specific navigational history.",
+    "application": "Logistics optimization can learn from pigeon racing that route performance is not solely a function of distance or vehicle capacity but of the navigational history of the routing agent (driver, algorithm, or carrier network). Logistics networks that train routing algorithms on diverse heading-bearing equivalents—varied origin-destination pairs across all network geometries—build more robust performance than networks that optimize for their most common routes. Route competence is path-dependent in ways that standard distance-cost models do not capture.",
+    "prediction": "Logistics routing algorithms trained on diverse origin-destination distributions that include low-frequency route geometries will demonstrate lower disruption-recovery times during network failures than algorithms trained primarily on high-frequency routes, controlling for total training data volume.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Harmonic Constituent Election Forecasting",
+    "mechanism_source": "tide prediction",
+    "target_domain": "election forecasting",
+    "mechanism": "Tide prediction decomposes observed tidal patterns into constituent harmonic components—each representing a distinct astronomical forcing frequency (lunar, solar, or their interactions). The observed tide at any location is the superposition of these constituents, each with a locally calibrated amplitude and phase. A tidal prediction engine does not extrapolate past tides linearly; it identifies the underlying periodicities and synthesizes their future interaction. The model is updated by new observations that refine constituent amplitudes, not by fitting the raw tidal record.",
+    "application": "Election forecasting can adopt harmonic constituent decomposition: the observed polling signal is the superposition of multiple periodic forcing functions—economic cycles, incumbent approval dynamics, demographic realignment trends, and news-cycle fluctuations—each with a characteristic frequency and local electoral amplitude. Forecasters who model these constituents separately and synthesize them, rather than extrapolating raw polling averages, capture phase relationships that pure regression models miss. Constituent calibration corresponds to updating amplitude estimates from each new electoral cycle.",
+    "prediction": "Election forecast models that decompose polling signals into independently estimated periodic components and synthesize predictions from those components will demonstrate lower average absolute prediction error in out-of-sample elections than models that fit raw polling averages, with the advantage increasing in environments with high news-cycle volatility.",
+    "viability": "speculative",
+    "confidence": 0.60
+  },
+  {
+    "name": "Pressed Specimen Knowledge Architecture",
+    "mechanism_source": "herbarium curation",
+    "target_domain": "knowledge management",
+    "mechanism": "An herbarium is a systematic collection of pressed and dried plant specimens, each mounted with collection metadata: date, location, collector, associated species, habitat conditions. The specimen's scientific value resides not in the plant alone but in the specimen-plus-metadata package, which enables comparative analysis across collectors, time periods, and locations. Specimens are curated using standardized taxonomic schemes that are periodically revised as botanical knowledge advances; specimens retain their physical identity but may be reclassified. The collection's value increases superlinearly with completeness because comparative analyses require population-level sampling.",
+    "application": "Knowledge management systems should operate as herbariums: each knowledge artifact (document, decision record, procedure) must be mounted with rich contextual metadata—author, date, organizational context, decision drivers, associated knowledge artifacts—to enable comparative analysis across time and contexts. The knowledge object without metadata is a dried plant without provenance: usable for illustration but not for systematic research. Taxonomic revision corresponds to periodic restructuring of knowledge categories without destroying the underlying artifacts.",
+    "prediction": "Organizations whose knowledge management systems enforce contextual metadata standards at the point of artifact creation will demonstrate higher rates of successful knowledge reuse in novel contexts at 24 months than organizations with equivalent knowledge volumes but weaker metadata standards, as measured by case studies and reuse audits.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Melt Constraint Agile Sculpture Method",
+    "mechanism_source": "ice sculpture",
+    "target_domain": "agile methodology",
+    "mechanism": "Ice sculpture imposes a hard constraint that standard sculpture does not: the material degrades continuously from the moment work begins, and the rate of degradation is determined by ambient conditions outside the sculptor's control. The sculptor cannot stop to deliberate; every moment of non-work is material loss. This constraint forces radical prioritization—the sculptor commits to a design before beginning and executes the highest-visibility structural elements first, leaving fine detail for the last phase when the audience's attention is highest and the sculptor's skill is warmed up. Abandoned details are lost; structural failures cannot be repaired.",
+    "application": "Agile methodology gains clarity from the ice sculptor's constraint: sprint cycles are ice blocks that melt regardless of team velocity, and value delivered before the sprint ends is the only value that exists. The ice sculpture insight is to carve structural elements first—the features that give the product its recognizable form—before detail work, because structural failures cannot be repaired mid-sprint and detail work is recoverable across sprints. Teams that spend early sprint time on detail risk losing the block's structural integrity as ambient conditions (stakeholder expectations, market shifts) change around them.",
+    "prediction": "Agile teams that explicitly prioritize structural features in sprint planning—allocating the first 60% of sprint capacity to high-impact structural work before detail and polish—will demonstrate higher stakeholder satisfaction scores at sprint review and fewer abandoned sprints than teams using standard backlog-priority ordering.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Pyroclastic Fertility Reconstruction Model",
+    "mechanism_source": "volcanic soil fertility",
+    "target_domain": "post-conflict reconstruction",
+    "mechanism": "Volcanic soils become extraordinarily fertile over decades because eruptions deposit mineral-rich parent material and heat-sterilize existing microbial competition, creating a clean substrate for ecological succession. The fertility is not immediate—it requires time, rainfall, and successive pioneer species that gradually build soil structure. The most productive agricultural soils on Earth are volcanic, but only after the succession process completes. Attempting to cultivate volcanic soils immediately after eruption produces failure; timing cultivation to the succession stage determines productivity.",
+    "application": "Post-conflict reconstruction follows volcanic succession dynamics: destruction clears competitive institutional structures that resisted change, depositing raw material (donor resources, international attention, political will) that is extraordinarily fertile for institutional innovation if timed correctly. Reconstruction interventions imposed before ecological succession begins—immediate elections, rapid privatization, instant institutional transplantation—fail because the social substrate has not been prepared by pioneer processes. The sequence matters: pioneer institutions (rule of law, basic services, local governance) must establish before productivity-oriented institutions (markets, civil society) are cultivated.",
+    "prediction": "Post-conflict states that receive reconstruction support following a staged succession model—prioritizing security and basic governance before market and civil society development—will show higher 10-year GDP and institutional quality indicators than states receiving comprehensive simultaneous reconstruction support, controlling for conflict severity and natural resource endowment.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Celestial Position Moral Navigation",
+    "mechanism_source": "astrolabe navigation",
+    "target_domain": "moral philosophy",
+    "mechanism": "An astrolabe determines position by measuring the altitude of known celestial bodies above the horizon and comparing those measurements to a pre-computed table of stellar positions at known times. The navigator does not observe position directly but infers it from multiple angular measurements that collectively triangulate location. The instrument requires both a database of celestial positions (theory) and a precise current observation (perception) to function; either alone is insufficient. Accuracy improves with the number of distinct stars sighted and the care of measurement.",
+    "application": "Moral reasoning operates as astrolabe navigation: the moral agent cannot observe the 'correct action' directly but triangulates it by measuring the current moral situation against multiple pre-computed ethical frameworks (deontological, consequentialist, virtue-based), each functioning as a distinct celestial body. Single-star moral navigation—reliance on one ethical framework alone—produces position errors that accumulate with moral complexity. The moral database (ethical theory) without situational observation, or observation without theory, produces no fix. The quality of moral judgment is a function of the number of frameworks brought to bear and the precision of their application.",
+    "prediction": "Individuals trained in multi-framework moral reasoning—who are explicitly taught to triangulate ethical conclusions across deontological, consequentialist, and virtue ethics perspectives—will demonstrate higher inter-rater agreement on moral judgments of complex cases and more consistent moral behavior under novel conditions than individuals trained in single-framework moral reasoning.",
+    "viability": "speculative",
+    "confidence": 0.55
+  }
+]

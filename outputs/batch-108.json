@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sign Arbitrage Regulation Design",
+    "mechanism_source": "semiotics",
+    "target_domain": "cryptocurrency regulation",
+    "mechanism": "Semiotics distinguishes three sign relations: icon (resemblance), index (causal/contiguous connection), and symbol (arbitrary conventional assignment). These categories are not stable — signs can migrate between types as cultural context shifts, and the same token can function as all three simultaneously for different interpreters. Peirce's semiotic further distinguishes the sign vehicle, the object it refers to, and the interpretant (the meaning produced in a mind), creating a triadic rather than dyadic structure.",
+    "application": "Cryptocurrency regulatory frameworks routinely misclassify tokens by treating them as a single semiotic type. A token may function as a symbol (arbitrary store of value), an index (causal link to underlying network activity), and an icon (representation of a real-world asset) simultaneously — and regulatory treatment appropriate for one type is destructive applied to another. A semiotic classification framework that assigns regulatory regimes to the dominant sign relation of each token would reduce misapplication of securities law to commodity-index instruments and vice versa.",
+    "prediction": "Jurisdictions applying a triadic semiotic classification framework for token regulation will show lower rates of regulatory arbitrage (tokens migrating to avoid misclassified regimes) than jurisdictions applying binary security/commodity classifications, measurable through cross-border token incorporation data.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Room Mode Episode Architecture",
+    "mechanism_source": "acoustics",
+    "target_domain": "podcast production",
+    "mechanism": "Room acoustics are dominated by standing waves at frequencies where the room dimensions equal integer multiples of half-wavelengths — room modes. These modes produce massive frequency-response peaks and nulls at predictable spatial positions: a listener at a pressure node for the 80 Hz mode hears almost no bass, while a listener at a pressure antinode hears extreme bass buildup. Acoustic treatment targets mode mitigation through bass traps at pressure antinodes and diffusion at reflection points.",
+    "application": "Podcast episode structure has temporal room modes: listener attention has predictable resonant peaks and dropout nulls at episode-length multiples corresponding to commute durations, task-switch moments, and platform auto-play intervals. Episode architectures that place high-information segments at temporal antinodes (high-attention peaks) and use lower-cognitive-load content at predicted nulls will experience higher effective information transfer than episodes structured by content logic alone.",
+    "prediction": "Podcast episodes structured to place dense expository segments at measured listener attention antinodes (5–7 min, 18–22 min, derived from chapter-skip analytics) will show higher quiz-recall scores in listener comprehension studies than topically matched episodes with uniform segment distribution.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Guild Succession Esports Roster",
+    "mechanism_source": "permaculture",
+    "target_domain": "competitive esports",
+    "mechanism": "Permaculture guild design assembles plant communities whose members occupy complementary functional niches: nitrogen fixers, dynamic accumulators, ground cover, canopy, root crops, and vertical climbers. A well-designed guild suppresses weeds, builds soil fertility, and produces yield without external inputs because each functional role supports the others. Guild succession management involves tracking which roles are filled, which are vacant, and which species are overpresent.",
+    "application": "Esports roster management maps onto guild ecology: teams require functional roles (shotcaller, entry fragger, support anchor, lurker, IGL) that are ecologically complementary rather than additive. Rosters where multiple players occupy the same functional niche create weed pressure — redundant resource competition with no complementary output. Permaculture guild analysis predicts that functional vacancy (missing nitrogen fixer equivalent) is a better predictor of team decline than individual player performance metrics.",
+    "prediction": "Esports teams analyzed for functional guild completeness — all critical ecological roles filled by a single player each — will show higher tournament win rates over a competitive season than teams with equal average individual performance ratings but functional redundancy or vacancy.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Pointer Year Signal in Clinical Trial Design",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "pharmaceutical development",
+    "mechanism": "Dendrochronology identifies pointer years — calendar years in which a dramatically anomalous tree ring (extremely narrow or wide) appears synchronously across a regional network of tree-ring chronologies. Pointer years are diagnostic because they signal an extreme forcing event strong enough to override local site variation. Crossdating quality is verified by pointer year replication: a chronology is valid only when pointer years match across independent samples.",
+    "application": "Clinical trials in drug development encounter analogous pointer year events: exogenous stressors (pandemic, drug shortage, healthcare system disruption) that synchronously affect trial endpoints across sites in ways unrelated to treatment. Trials that identify pointer year events in their data and use them to verify crossdating between site chronologies — rather than treating synchronous anomalies as random noise — can dramatically improve signal separation between treatment effect and environmental forcing.",
+    "prediction": "Clinical trials that explicitly model exogenous pointer year events using crossdating verification between trial sites will show lower rates of failed replication in confirmatory trials than matched trials using standard mixed-effects site correction without pointer year identification.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Anchor Point Consistency Policy Coherence",
+    "mechanism_source": "archery",
+    "target_domain": "immigration policy",
+    "mechanism": "In archery, accuracy depends not only on aim but on the consistency of the anchor point — the specific contact between the draw hand and the archer's face that reproducibly positions the arrow relative to the eye. A technically perfect aim from an inconsistent anchor produces a probability distribution around the target rather than a point; the archer's precision (grouping) is fundamentally limited by anchor point variance regardless of aiming quality. Olympic archers obsessively standardize the anchor before focusing on aim.",
+    "application": "Immigration policy systems with high procedural variance — where the same case type is evaluated with different anchor points depending on adjudicator, office, or political moment — produce outcomes clustered around a mean rather than tracking the intended policy. Reducing anchor point variance (standardizing evidentiary thresholds, decision frameworks, and procedural sequences) improves precision even before improving the aim of the underlying policy goal.",
+    "prediction": "Immigration tribunals that implement standardized anchor-point protocols (explicit procedural checklists applied uniformly before discretionary judgment) will show lower inter-adjudicator variance in case outcomes for matched case types than tribunals using discretionary procedures, without changing average approval rates.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Accord Layering Costume Dramaturgy",
+    "mechanism_source": "perfumery",
+    "target_domain": "theatrical costume design",
+    "mechanism": "Perfumery structures fragrance as a temporal arc of note layers: volatile top notes (citrus, light aldehydes) that evaporate in minutes and create first impression; mid notes (florals, spices) that emerge over hours and constitute the character; base notes (musks, resins, woods) that fix the fragrance and persist for the full wear duration. A well-constructed accord integrates all three so that each phase's departure reveals the next rather than creating a discontinuous smell experience.",
+    "application": "Theatrical costume design operates across the same temporal arc: the top note of a costume is what the audience reads in the first seconds of a character's entrance (silhouette, primary color, dominant texture); mid notes emerge over the first scene as details become legible; base notes are the costume's structural metaphors that remain readable under lighting changes, movement distortion, and distance. Costumes designed without a base note accord collapse into decorative incoherence under sustained dramatic pressure.",
+    "prediction": "Audience members in blind post-performance surveys will describe characters whose costumes were designed with explicit top/mid/base note layering as more 'coherent' and 'psychologically legible' than characters from matched productions whose costumes were designed without explicit temporal layering, controlling for production budget.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Ebru Pattern Disturbance Ecology",
+    "mechanism_source": "paper marbling",
+    "target_domain": "deep sea mining",
+    "mechanism": "Paper marbling (ebru) creates patterns by floating oil-based pigments on a size medium — a viscous carrageenan or gum-tragacanth surface — then manipulating the paint into patterns before transferring to paper. The critical property is that each tool disturbance in the size affects the pattern non-locally: dragging a comb through one region pushes pigment into other regions in predictable but sensitive ways. The pattern is a record of all previous disturbances, not just the last action.",
+    "application": "Deep sea mining operations disturb sediment plumes non-locally: each extraction event creates suspended sediment that settles and redeposits at distances far from the extraction site, affecting the chemosynthetic communities that depend on undisturbed sediment redox chemistry. The ebru model predicts that disturbance planning must account for the cumulative pattern of all previous interventions — not just direct extraction footprints — because each perturbation reshapes the recovery substrate for all subsequent sites.",
+    "prediction": "Deep sea mining operations that use cumulative disturbance mapping (modeling non-local sediment displacement as a pattern record of all prior interventions) will show lower rates of documented chemosynthetic community collapse at unmined adjacent sites than operations managing only direct extraction footprints.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Thermal Stress Fracture Line Breeding",
+    "mechanism_source": "ice sculpting",
+    "target_domain": "dog breeding standards",
+    "mechanism": "Ice sculptors must anticipate thermal stress fracture lines when working blocks: ice carved thin in one region conducts heat faster, creating differential thermal gradients that concentrate stress at thickness boundaries. Sculptors working against a deadline must understand how the sculpture's thermal history determines where spontaneous cracking will initiate, and design the carving sequence to move thin sections to non-load-bearing positions before the block warms.",
+    "application": "Purebred dog breeding standards that concentrate genetic selection on morphological extremes create analogous thermal stress lines: regions of the phenotype where selection pressure has reduced buffering capacity (genetic variation) to near zero. These become fracture initiation points where minor environmental variation produces disproportionate health consequences. Breed standards reformed to maintain a minimal variation buffer around selected traits should reduce the frequency of stress-fracture health crises.",
+    "prediction": "Dog breeds whose breed standards explicitly preserve a quantified minimum variance buffer around selected morphological traits (measured by effective population size at those trait loci) will show lower breed-specific veterinary emergency rates than matched breeds maintaining strict morphological conformity standards.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "String Hierarchy Liability Cascade",
+    "mechanism_source": "puppetry",
+    "target_domain": "pension fund management",
+    "mechanism": "In marionette puppetry, string hierarchy determines how forces propagate: the main control bar sets gross body position, subordinate wrist and ankle bars refine limb articulation, and fine-detail strings handle extremities. When a main bar is mishandled, the error propagates down the hierarchy and amplifies at extremities — small errors at the control bar produce large, uncontrolled movements at fingertip strings. The hierarchy exists to provide leverage for large movements while maintaining precision at fine scales.",
+    "application": "Pension fund management has an analogous string hierarchy: macro asset allocation decisions (control bar) amplify through sector tilts (wrist bars) to individual security selections (fingertip strings). A widely documented failure mode is pension funds that apply fine-string precision — exhaustive individual security due diligence — to portfolios where the control bar is grossly misset by overweighting illiquid alternatives. The puppetry model prioritizes error minimization at the control bar before addressing subordinate string precision.",
+    "prediction": "Pension funds that achieve control-bar alignment first (macro allocation within 5% of liability-duration-matched target) before applying active management at subordinate levels will show lower tracking error to funding ratio targets than funds applying equal governance attention across all hierarchy levels.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Succession Interval Habitat Design",
+    "mechanism_source": "forensic entomology",
+    "target_domain": "space habitat design",
+    "mechanism": "Forensic entomology uses predictable insect succession on decomposing remains to estimate postmortem interval: blowflies arrive first within minutes of death, laying eggs that develop through larval instars at temperature-dependent rates; carrion beetles arrive later to consume dried tissue; cheese flies colonize semi-dried stages. Each successional wave has a narrow thermal and chemical niche, making the fauna a precise chronometer of environmental conditions integrated over time.",
+    "application": "Space habitat design must anticipate microbial and atmospheric succession in closed life support environments. Just as forensic entomology reads habitat quality from successional timing, habitat designers can monitor the successional state of microbial communities in water recycling, air processing, and food production systems as a leading indicator of system stress — the analog of blowflies arriving early signals that a habitat's chemical environment has shifted toward conditions favoring opportunistic colonizers.",
+    "prediction": "Space habitat life support systems instrumented with microbial successional monitors (tracking early-succession indicator species as chemical environment proxies) will detect system degradation events an average of 72 hours earlier than systems relying solely on direct chemical sensors, in closed-environment simulation studies.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Yield Stress Translation Fidelity",
+    "mechanism_source": "rheology",
+    "target_domain": "literary translation",
+    "mechanism": "Rheology characterizes materials by their response to applied stress: elastic solids deform proportionally and recover fully; viscous fluids deform continuously under any stress; viscoelastic materials exhibit both behaviors, with response depending on timescale of the applied force. Yield stress materials (Bingham plastics, thixotropic fluids) behave as solids below a threshold stress and flow above it — they require a minimum force before deformation begins at all.",
+    "application": "Literary translation operates on a yield stress model: the source text has a rheological profile — elastic elements (formal constraints like meter and rhyme that must spring back), viscous elements (idiomatic expression that flows into equivalents), and yield stress elements (cultural references that resist all translation force below a threshold and then transform suddenly into approximations). Translators who fail to identify yield stress elements approach them with inadequate force and produce material that behaves as if still solid — formally rendered but meaninglessly rigid in the target language.",
+    "prediction": "Translations evaluated by bilingual readers will receive higher naturalness scores when translators have explicitly identified and applied threshold-force treatment to yield stress elements (cultural idioms, untranslatable concepts) than when those elements are treated with proportional elastic translation approaches.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Virulence-Transmissibility Tradeoff Fire Policy",
+    "mechanism_source": "parasitology",
+    "target_domain": "wildfire prevention",
+    "mechanism": "Evolutionary parasitology models the virulence-transmissibility tradeoff: highly virulent parasites kill hosts quickly, reducing transmission time, while low-virulence parasites allow longer-lived hosts but each transmission event carries lower pathogen load. Natural selection stabilizes at an intermediate virulence that maximizes lifetime transmission. Crucially, host density shifts the optimum: in dense populations, high virulence is sustainable because rapid transmission to new hosts occurs before host death.",
+    "application": "Wildfire spread exhibits an identical virulence-transmissibility tradeoff: high fuel-load fires (high virulence) burn intensely but self-limit by exhausting local fuel; low-intensity fires (low virulence) travel slowly but spread across wider territory. Prescribed burn programs that reduce fuel density are equivalent to reducing host density — they shift the fire's optimal virulence downward, favoring lower-intensity surface fires over high-virulence crown fires even when ignition occurs.",
+    "prediction": "Forested regions with prescribed burn frequency calibrated to maintain fuel load below the crown-fire ignition threshold (as modeled by the virulence-transmissibility tradeoff surface for that fuel type) will show lower average crown-fire acreage per ignition event than regions using fixed-interval prescribed burn schedules regardless of current fuel load.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Tremor Monitoring Vocal Production",
+    "mechanism_source": "volcanology",
+    "target_domain": "opera production",
+    "mechanism": "Volcanic tremor is continuous low-frequency seismic energy produced by fluid movement through conduit systems — distinct from discrete earthquake events. Tremor frequency and amplitude encode real-time information about magma ascent rate, gas bubble content, and conduit geometry. Volcanologists use tremor spectrography to track eruption state changes, distinguishing harmonic tremor (fluid resonance in conduit tubes) from broadband tremor (turbulent chaotic flow).",
+    "application": "Opera singers produce vocal tremor through analogous fluid-in-conduit resonance: vibrato is harmonic tremor from controlled periodic subglottic pressure fluctuation through the vocal tract, while unwanted wobble is broadband tremor from turbulent airflow in an inconsistently shaped conduit. Continuous tremor monitoring (acoustic spectral analysis of rehearsal audio) can track a singer's conduit geometry changes over the production period, identifying developing technical problems before they manifest as audible failure on performance night.",
+    "prediction": "Opera singers whose rehearsal recordings are analyzed for tremor spectral shifts — specifically the harmonic-to-broadband ratio of vibrato — will show fewer performance vocal failures when coaches are alerted to adverse spectral trends than matched singers receiving only subjective coach assessment without tremor monitoring.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Foraging Circuit Food Safety Surveillance",
+    "mechanism_source": "apiculture",
+    "target_domain": "food safety regulation",
+    "mechanism": "Honeybee colonies sample their foraging territory through waggle dances that encode distance and direction to food sources, and recruit foragers in proportion to the quality of the source. The colony integrates information across hundreds of simultaneous scouts to build a real-time map of the landscape's resource distribution. Beekeepers have used honeybee foraging circuits as environmental sensors — bees return contaminant traces from their foraging range that can be analyzed to characterize the chemical environment across a multi-kilometer radius.",
+    "application": "Food safety regulatory surveillance currently relies on point-sampling at inspection sites. A foraging-circuit model would deploy distributed human-equivalent scouts — small retailers, social media reports, restaurant staff — as continuous environmental samplers whose reports are aggregated by waggle-dance-equivalent algorithms to map contamination risk concentration in the supply landscape before formal inspection resources are deployed.",
+    "prediction": "Jurisdictions integrating distributed point-of-sale and social media contamination signal aggregation into food safety inspection prioritization will detect outbreaks an average of 48 hours earlier than jurisdictions using rotation-based inspection scheduling without landscape-level surveillance integration.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Escapement Timing Critical Moment Photography",
+    "mechanism_source": "horology",
+    "target_domain": "wedding photography",
+    "mechanism": "A mechanical escapement regulates timekeeping by releasing the gear train in precise discrete increments: the pallet fork alternately arrests and releases the escape wheel, converting the continuous energy of the mainspring into controlled periodic impulses. The escapement's genius is that it does not merely slow the gear train — it creates a reliable sequence of locked and released states from chaotic spring energy, making predictable the exact moment of each impulse.",
+    "application": "Wedding photography depends on converting the continuous flow of ceremony events into discrete high-value capture moments. Photographers who internalize the ceremony's escapement structure — the social mechanisms that predictably lock and release emotional expression (vow completion, first kiss cue, ring placement, parent reaction) — can anticipate rather than react to decisive moments. Failing to model the social escapement leads to continuous spray-and-pray shooting that yields high quantity but misses peak emotional release timing.",
+    "prediction": "Wedding photographers trained in social escapement mapping (pre-ceremony identification and timing estimation of lock-release sequences) will produce galleries rated higher in emotional authenticity by blind-review panels than photographers of equal technical skill using reactive-only shooting approaches.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

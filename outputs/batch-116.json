@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Waggle-Drift Arbitrage Model",
+    "mechanism_source": "beekeeping",
+    "target_domain": "venture capital due diligence",
+    "mechanism": "Honeybee foragers perform waggle dances whose duration and vigor encode both distance and quality of a food source. When multiple scouts report competing sites, bees engage in competitive signaling: high-quality sources attract more dancers who physically interrupt dancers advertising inferior sites, a process called 'stop signals.' The colony reaches a quorum threshold—around 15-20 bees committed to one site—before committing to swarm. Inferior sources naturally lose dancers and are abandoned without central coordination.",
+    "application": "In venture due diligence, different team members (scouts) independently evaluate competing investment theses and signal conviction through the volume and specificity of their internal advocacy. A stop-signal mechanism can be deliberately institutionalized: any partner can formally interrupt another's pitch advocacy to challenge a data point, forcing re-validation before the quorum vote. Deals that cannot sustain advocacy pressure under structured interruption likely have inflated conviction, just as weak food sources collapse under bee stop-signaling.",
+    "prediction": "VC funds that implement structured 'stop-signal' interruption protocols during investment committee debates—where any partner can halt advocacy and demand re-sourced evidence—will show measurably lower rates of portfolio write-offs in years 3-5 compared to funds using standard uninterrupted pitch formats, testable via longitudinal fund performance comparison.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Tidal Resonance Basin Theory",
+    "mechanism_source": "tide prediction",
+    "target_domain": "podcast monetization",
+    "mechanism": "Tidal prediction relies on harmonic analysis: the actual tide at any location is the superposition of dozens of tidal constituents (M2, S2, N2, K1, etc.), each with a fixed astronomical period and a locally measured amplitude and phase lag. Coastal basins amplify certain constituents due to resonance—the Bay of Fundy amplifies the M2 constituent because its natural oscillation period (~13 hours) nearly matches the 12.4-hour semidiurnal tide, producing 16-meter ranges. Predicting a port's tides requires measuring its unique harmonic constants over at least a year.",
+    "application": "Podcast monetization has multiple overlapping revenue 'constituents'—advertising CPMs, listener support, merchandise, live events, and premium subscriptions—each with different cycle periods and audience-phase dependencies. A show's 'tidal basin geometry' (its specific audience composition and release cadence) resonates with some revenue streams more than others. Mapping which revenue constituent is near-resonant with a show's audience engagement period lets producers amplify that stream rather than diluting effort across all simultaneously.",
+    "prediction": "Podcasts that identify their dominant revenue resonance constituent and concentrate 80% of monetization effort on it for 6 months will grow total revenue faster than shows diversifying equally across four or more revenue streams simultaneously, measurable by comparing matched-cohort shows tracked in revenue analytics platforms.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Suminagashi Diffusion Protocol",
+    "mechanism_source": "paper marbling",
+    "target_domain": "synthetic biology",
+    "mechanism": "In suminagashi (Japanese paper marbling), water-insoluble ink droplets are floated on a water surface and spread radially under surface tension differentials created by ox-gall bile surfactant. Each successive ink drop displaces the previous rings outward. Combing tools drag the floating layer into patterns by exploiting the ink's immiscibility and the coherent surface tension gradient, locking complex geometries before the paper is laid on top to transfer the pattern. The final pattern is path-dependent: each mechanical intervention irreversibly shifts the gradient field.",
+    "application": "In synthetic biology, gene circuit expression patterns within a cell monolayer can be engineered to follow reaction-diffusion principles analogous to suminagashi: an initial 'activator ink' (inducible promoter expressing a morphogen) spreads radially while successive genetic 'inks' (orthogonal reporters with different surfactant-analogue diffusion rates) are laid in timed waves. Mechanical analogs—microfluidic flows acting as 'combs'—pattern the expression gradient before cells divide and fix the spatial gene expression state, enabling reproducible patterned tissue geometries.",
+    "prediction": "Synthetic gene circuits designed using a layered diffusion-displacement model—where each successive morphogen has a lower effective diffusion coefficient than the previous—will produce more reproducible spatial expression boundaries (less than 5% positional variance) than circuits designed by simultaneous uniform induction, measurable by fluorescence microscopy across 50+ replicate colonies.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Ice Grain Recrystallization Cadence",
+    "mechanism_source": "ice sculpting",
+    "target_domain": "elder care",
+    "mechanism": "Sculptors working in ice must account for the material's continuous recrystallization: under mechanical stress and even at rest near 0°C, ice crystals migrate, merge into larger grains, and propagate microfractures through grain boundaries. Fine detail carved early in a session degrades as grain boundaries migrate through them. Expert ice sculptors work from large structural cuts to fine details in a specific sequence, and periodically re-chill the block to slow recrystallization, preserving earlier work while finer finishing occurs. The block is always changing and resisting stasis.",
+    "application": "Cognitive and physical capacity in elderly patients undergoes analogous 'recrystallization'—abilities achieved in therapy sessions can consolidate or degrade depending on the order of activity demands and the pacing of restorative rest. Elder care rehabilitation protocols can be sequenced like ice sculpture: large structural skills (ambulation, orientation) are addressed first and periodically reinforced through 'rechilling' (sleep, low-demand consolidation periods) before fine-grain skills (handwriting, complex speech) are attempted. Attempting fine skills before structural capacity is consolidated causes rapid degradation analogous to fracture propagation through immature grain boundaries.",
+    "prediction": "Geriatric rehabilitation programs that explicitly sequence gross motor and orientation skills before fine motor and cognitive skills, with mandatory 48-hour low-demand consolidation intervals after each structural skill milestone, will show higher retention of fine-skill gains at 30-day follow-up than programs using ability-based immediate sequencing, testable via RCT with standardized functional assessments.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Pointer-Year Consensus Filter",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "jury selection",
+    "mechanism": "In dendrochronology, 'pointer years' are calendar years in which an exceptional proportion of trees across a wide region show anomalously narrow or wide rings simultaneously—a synchronous signal so strong it rises above site-specific noise. Crossdating uses pointer years as anchor events to align chronologies from different trees and sites. When a ring sequence contains a clear pointer-year signature, a dendrochronologist can assign a calendar date to that ring with high confidence regardless of local variation. Pointer years emerge from climate events (drought, frost, volcanic aerosols) that override local microsite differences.",
+    "application": "Jury selection voir dire produces enormous signal noise because prospective jurors tailor answers to perceived social desirability. 'Pointer questions'—emotionally salient, highly specific hypothetical scenarios where juror response variance collapses across demographic groups—act as synchronous anchors that reveal genuine attitudinal structure beneath strategic self-presentation. Legal teams can identify these pointer questions by pre-testing hypothetical scenarios across mock panels and selecting those with bimodal distributions, then using them as crossdating anchors to calibrate the reliability of individual juror answers on less diagnostic questions.",
+    "prediction": "Voir dire protocols that include two or three pre-validated 'pointer questions' (identified via prior mock-panel testing to produce bimodal attitudinal distributions) will yield jury compositions that more accurately predict deliberation outcome alignment with post-trial juror surveys, compared to standard open-ended voir dire—measurable by tracking predicted vs. actual holdouts across 30+ trial pairs.",
+    "viability": "promising",
+    "confidence": 0.64
+  },
+  {
+    "name": "Draw-Length Tension Mapping",
+    "mechanism_source": "archery",
+    "target_domain": "neurosurgery",
+    "mechanism": "In traditional and Olympic archery, draw length is the distance the bowstring is pulled from brace height to the archer's anchor point. This determines the energy stored in the limbs (proportional to draw length squared for a given bow) and the force-draw curve, which rises nonlinearly. Compound bows use an eccentric cam system that creates a 'let-off'—at full draw, force drops by 65-80%, allowing the archer to hold with minimal muscle fatigue while aiming. The archer must precisely maintain anchor point consistency to within a millimeter to reproduce arrow flight trajectories.",
+    "application": "In neurosurgery, the surgeon must maintain instrument approach angles with extreme consistency while navigating through narrow anatomical corridors—like maintaining an archer's anchor point. The 'let-off' principle can be engineered into robotic instrument holders: as an instrument reaches its deepest anatomical penetration point (analogous to full draw), assistive robotics reduce required holding force dramatically, allowing the surgeon to make fine adjustments without tremor-inducing muscle fatigue. The approach trajectory corridor maps onto the arrow's flight path constraint.",
+    "prediction": "Neurosurgical robotic assist systems programmed with variable-resistance let-off (high resistance during approach, 70% let-off at target depth) will show statistically lower instrument tip deviation during fine manipulation phases compared to constant-resistance or no-assist systems, measurable in cadaver or simulation studies tracking instrument tip displacement under electromyographic tremor load.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Accord Volatility Stratification",
+    "mechanism_source": "perfumery",
+    "target_domain": "freight logistics",
+    "mechanism": "A perfume accord is constructed from top notes (highly volatile aromatic molecules, molecular weight under ~150 Da, detectable within seconds but lasting minutes), heart notes (moderate volatility, perceived over hours), and base notes (low volatility, heavy molecules like musks and resins that persist for days and fix the overall scent structure). A skilled perfumer engineers accord balance so the evaporation sequence creates a coherent olfactory narrative rather than a series of disconnected smells. Base notes are the invisible anchors that make top-note volatility legible.",
+    "application": "Freight shipments carry a mixture of time-sensitivity classes: same-day perishables (top notes), 3-5 day standard freight (heart notes), and long-term industrial materials (base notes). Logistics networks optimize individual shipment speed while ignoring accord balance—the interaction between volatility classes in shared infrastructure. Treating base-note freight as a structural anchor that absorbs fixed infrastructure costs enables top-note freight to be priced and routed on marginal cost alone, achieving system-level efficiency that single-class optimization cannot. Network design should ensure base-note freight fills capacity that top-note freight cannot economically justify alone.",
+    "prediction": "Freight networks that explicitly stratify cargo by time-sensitivity class and allocate base-note cargo to fill otherwise-empty return-leg or off-peak capacity before optimizing time-sensitive cargo routing will achieve at least 12% higher asset utilization rates than networks optimizing each cargo class independently, testable via simulation against matched historical routing data.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Marionette Control Hierarchy Inversion",
+    "mechanism_source": "puppetry",
+    "target_domain": "cryptocurrency governance",
+    "mechanism": "A marionette operates through a rigid control bar (the 'control' or 'perch') from which multiple strings descend to different body joints. The puppeteer exerts top-down force, but the marionette's visible movement is the result of gravity, string tension, and joint constraints acting in combination—the puppet's physical design filters and shapes the puppeteer's inputs. A puppet that is too rigid produces jerky movement; one with too much slack loses intentional control. The art lies in designing the puppet's weight distribution and joint friction to cooperate with the puppeteer's limited degrees of freedom.",
+    "application": "Cryptocurrency governance protocols present an analogous structure: token-weighted voting (the puppeteer's hand) operates on a protocol architecture (the puppet's joint constraints) whose inertia and friction properties determine whether governance inputs produce coherent protocol movement or chaotic jerks. Protocols with insufficient 'joint friction' (delay between vote and implementation) suffer from flash-loan governance attacks, while over-constrained protocols become ungovernable. Engineering the puppet's passive mechanical response—timelock delays, supermajority thresholds, circuit breakers—is as important as the voting mechanism itself.",
+    "prediction": "Cryptocurrency governance protocols with tiered delay mechanisms (proportional to the magnitude of proposed parameter changes, analogous to joint constraint scaling by lever arm length) will show lower rates of governance exploits and contentious forks over a 24-month post-launch window than protocols with uniform or absent timelocks, testable via analysis of on-chain governance records.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Kahm Yeast Boundary Signaling",
+    "mechanism_source": "fermentation",
+    "target_domain": "social housing",
+    "mechanism": "During lacto-fermentation of vegetables, a white pellicle called kahm yeast sometimes forms at the brine-air interface. Kahm is not dangerous but signals a boundary-condition instability: insufficient salt concentration, too-warm temperature, or vegetables exposed above the brine level creating an aerobic microzone. The kahm layer itself then modifies the local microenvironment, partially sealing the surface and altering gas exchange. Experienced fermenters read kahm as a boundary-health diagnostic rather than a primary failure, adjusting substrate parameters before actual contamination occurs.",
+    "application": "Social housing developments form 'kahm boundaries'—liminal boundary zones at the edge of housing blocks where maintenance failure, antisocial behavior, or physical degradation first becomes visible before spreading inward. Like kahm, these boundary-zone signals indicate underlying parameter instability (maintenance funding gaps, social service thinning, informal economic stress) rather than primary failure events themselves. Housing management protocols that systematically monitor boundary zones as leading indicators—treating visible graffiti accumulation or stairwell light failures as kahm diagnostics—can trigger resource reallocation before core block degradation occurs.",
+    "prediction": "Social housing developments that implement dedicated 'boundary zone' monitoring programs (weekly audits of entry points, perimeter corridors, and external-facing units) and respond to boundary-zone indicators with preemptive resource deployment will show statistically lower rates of full-block intervention requirements over a 3-year period compared to complaint-response-only management schemes, testable via matched-pair housing authority data.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Isogonic Line Contour Governance",
+    "mechanism_source": "cartography",
+    "target_domain": "language preservation",
+    "mechanism": "Magnetic declination—the angular difference between magnetic north and true north—varies continuously across Earth's surface and changes over time as the geomagnetic field evolves. Cartographers draw isogonic lines (lines of equal magnetic declination) on charts so navigators can correct compass readings. These lines bend and shift as the magnetic field drifts; charts must be periodically updated because a 10-year-old declination value can introduce navigational errors of several degrees. The rate of change of declination (secular variation) differs dramatically by region, making some charts obsolete faster than others.",
+    "application": "Language revitalization efforts require 'isogonic mapping' of linguistic vitality: not static snapshots of speaker counts but continuously updated contour lines showing where speaker competency is drifting, at what rates, and in which population cohorts. Like declination maps, linguistic vitality contours will show regions of rapid decline requiring urgent course-correction and stable zones allowing longer update intervals. Governance bodies can allocate revitalization resources proportionally to secular variation rates rather than treating all dialects or regions uniformly.",
+    "prediction": "Language preservation programs that adopt continuous vitality monitoring with cohort-specific decline rate tracking (analogous to secular variation measurement) and reallocate resources toward highest-decline-rate populations before speaker counts fall below 500 will demonstrate higher intergenerational transmission rates at 10-year follow-up than programs using decennial census-based allocation, measurable through ethnolinguistic surveys.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Kolkwitzia Swarm Cascade Model",
+    "mechanism_source": "swarm intelligence",
+    "target_domain": "opera production",
+    "mechanism": "In swarm intelligence, particularly in ant and bee colonies, stigmergic amplification allows the collective to solve optimization problems through positive feedback: agents deposit signals (pheromones, waggle dances) that attract more agents to high-quality options, creating self-amplifying cascades toward optima. The cascade is robust to individual errors because the positive feedback mechanism requires a threshold of collective confirmation before irreversible commitment. Premature cascade locking is prevented by evaporation rates and inhibitory signals that allow the swarm to abandon inferior attractors.",
+    "application": "Opera production involves hundreds of interdependent decisions across staging, costuming, lighting, and musical interpretation. Traditional hierarchical direction (conductor/director authority) can prematurely lock in suboptimal choices before the full production system has self-organized. A stigmergic rehearsal model lets each production department leave visible 'pheromone trails'—documented micro-experiments in staging and sound that other departments can amplify or inhibit through their own choices—allowing a production identity to crystallize through positive feedback rather than top-down mandate. Evaporation is achieved through scheduled review sessions where low-uptake experiments are dropped.",
+    "prediction": "Opera productions using a staged stigmergic rehearsal protocol (departmental micro-experiments documented and cross-evaluated before final decisions are fixed) will show higher ratings on post-performance critic reviews for production coherence than matched productions using standard director-mandate workflows, testable by comparing productions from companies randomly assigned to each protocol in a pilot program.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Fringing Reef Trophic Buffer",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "competitive chess",
+    "mechanism": "Fringing reefs protect shorelines not just physically but trophically: the reef's complex three-dimensional architecture supports high biodiversity that creates redundant trophic pathways. When a disturbance removes one herbivore species, other herbivores can expand to fill the grazing function, preventing algal overgrowth. This functional redundancy means the reef system can absorb species loss up to a threshold before a phase shift to algae-dominated state occurs. Keystone species removal (like large parrotfish) can collapse functional redundancy much faster than the absolute biomass loss would predict.",
+    "application": "A chess player's opening repertoire functions as a trophic network: each opening variation is a 'species' that grazes on particular opponent response sets. Players who rely on a single deeply prepared line (low functional redundancy) are vulnerable to novelty disturbance—an unexpected opponent deviation that removes the keystone variation triggers rapid position quality collapse. Building a repertoire with functionally redundant 'trophic pathways' (multiple openings capable of reaching similar middle-game structures) provides resilience. Keystone variations should be identified and protected through extra preparation depth, not replaced.",
+    "prediction": "Tournament players who maintain repertoires with measurable functional redundancy (at least three independent opening systems converging on similar positional structures) will show smaller performance drops when facing computer-engine-prepared novelties compared to players with single-system deep preparation, testable by analyzing engine evaluation drops at novelty points in tournament game databases.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Pulsar Timing Residual Debt",
+    "mechanism_source": "radio astronomy",
+    "target_domain": "climate adaptation",
+    "mechanism": "Millisecond pulsars are the most stable natural clocks known, with rotational periods measurable to 15 significant figures. Radio astronomers track 'timing residuals'—deviations of observed pulse arrival times from the best-fit rotational model. These residuals accumulate systematically when the model is missing physics: undetected companion masses, interstellar medium dispersion changes, or gravitational wave backgrounds all leave characteristic residual signatures. Pulsar timing arrays use correlated residuals across multiple pulsars to separate local instrumental noise from cosmological signals.",
+    "application": "Climate adaptation planning accumulates 'timing residuals'—systematic deviations between modeled infrastructure-stress timelines and observed impact events. When observed impacts consistently arrive earlier or at higher intensity than models predict, the residuals signal missing physics in the adaptation model (unmodeled feedback loops, underestimated nonlinearities). Adaptation governance bodies can use cross-jurisdictional correlated residuals—comparing systematic under-prediction patterns across cities and regions—to identify the missing model physics driving the discrepancy rather than attributing residuals to local noise.",
+    "prediction": "Climate adaptation planning bodies that implement formal timing-residual tracking (comparing predicted vs. actual dates of infrastructure stress events across at least 10 jurisdictions) and update their shared models based on correlated residual patterns will issue infrastructure stress warnings an average of 18+ months earlier than bodies using jurisdiction-specific model updates, testable via retrospective analysis of warning dates vs. actual event dates.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Glacial Regelation Threading",
+    "mechanism_source": "glaciology",
+    "target_domain": "wildfire management",
+    "mechanism": "Glacial regelation is the process by which a moving glacier passes around an obstacle: pressure on the upstream side of a rock lowers the melting point of ice (pressure-melting), producing a thin liquid film that flows around the obstacle, then refreezes on the downstream low-pressure side. This allows solid ice to flow around rigid obstacles without fracturing them, at speeds controlled by the rate of heat conduction through the rock. Larger obstacles exceed the regelation mechanism's capacity and force the glacier to deform plastically or stall.",
+    "application": "Wildfire management faces regelation-analogous challenges: fire fronts must route around natural and constructed obstacles (highways, firebreaks, water bodies) through pressure-relief pathways. When a fire encounters a sufficiently wide fuel break, it cannot regelate around the obstacle through spotting and stalls; narrower breaks are circumvented through ember transport analogous to the liquid film. Fire management strategy should distinguish 'regelation-width' firebreaks (narrow enough for fire to flow around via spotting) from 'plastic deformation' barriers (broad enough to require wind-speed conditions the fire cannot sustain) and engineer break widths accordingly.",
+    "prediction": "Firebreak width recommendations based on regelation threshold modeling (incorporating wind speed, fuel moisture, and ember transport distance specific to each vegetation type) will predict firebreak effectiveness with higher accuracy than uniform width standards, testable by retrospective analysis of firebreak performance in documented wildfire events across multiple fuel type regions.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Bell-Bore Resonance Tuning Failure",
+    "mechanism_source": "wind instrument acoustics",
+    "target_domain": "food truck operations",
+    "mechanism": "Wind instrument acoustics are governed by the bore geometry: cylindrical bores (clarinets) support odd harmonics only, while conical bores (saxophones, oboes) support the full harmonic series. Mismatches between mouthpiece volume, reed resonance frequency, and bore resonance peaks create 'wolf tones'—notes where impedance peaks cancel rather than reinforce, producing unstable or flat tones that the player must lip-correct continuously. Wolf tones represent system resonance incoherence: the acoustic system's partial inputs are not cooperating toward a unified standing wave.",
+    "application": "Food truck operations fail via wolf-tone dynamics when menu complexity, equipment capability, and customer throughput speed create resonance mismatches. A truck serving items requiring equipment operating at incompatible time cycles (an item needing 8-minute oven time alongside a 90-second grill item and a 2-minute assembly item) forces staff into continuous lipping—manual compensation for workflow incoherence rather than smooth throughput. Menu engineering should identify the truck's natural resonance frequencies (equipment cycle times) and design menu items whose prep times are integer multiples or divisors of the shortest cycle, enabling synchronous throughput without compensating effort.",
+    "prediction": "Food trucks that redesign menus so all item preparation times are within 20% of a common modular cycle time (the 'bore resonance') will demonstrate measurably higher average tickets-per-service-hour and lower reported staff physical strain scores compared to trucks with unmodified menus, testable via operational tracking data from food truck association members in a controlled pilot.",
+    "viability": "promising",
+    "confidence": 0.72
+  }
+]

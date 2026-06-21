@@ -1,0 +1,152 @@
+[
+  {
+    "name": "The Capillary Bridge Consensus Model",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "jury deliberation",
+    "mechanism": "Sandcastle structural integrity depends on capillary bridges formed between sand grains by thin water films. Each bridge exerts a tensile meniscus force proportional to grain surface area and water content; too little water and bridges fail, too much and water fills void space eliminating capillary tension entirely. Optimal moisture content (typically 8-10% by weight) maximizes cohesion without saturation, and the structure fails when any localized region reaches saturation threshold.",
+    "application": "Jury deliberation cohesion mirrors capillary bridge dynamics: too little shared evidentiary common ground and jurors fail to bond into a reasoning coalition; too much pressure for premature consensus saturates individual judgment and eliminates the productive tension that generates accurate verdicts. Deliberation facilitators should maintain optimal 'moisture'—sufficient shared factual agreement to bond argument chains without saturating dissenting voices.",
+    "prediction": "Juries given structured deliberation protocols that preserve minority-view expression through the first two-thirds of deliberation time will reach verdicts with higher post-trial juror agreement on reasoning quality compared to juries using open-floor immediate majority-vote procedures.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "The Levain Microbial Succession Protocol",
+    "mechanism_source": "sourdough fermentation",
+    "target_domain": "elder care facility design",
+    "mechanism": "Sourdough starter ecology undergoes predictable microbial succession: early-stage starters are dominated by enterobacteria and Leuconostoc species that produce acids rapidly but create off-flavors; mature starters shift to stable Lactobacillus sanfranciscensis and Kazachstania humilis communities maintained by the low pH they generate. This stable climax community is robust against environmental perturbation because the accumulated acid selectively suppresses competitors.",
+    "application": "Elder care facility social ecology undergoes analogous succession: newly opened facilities often see initial social instability as residents, staff, and family systems interact without established norms. Design interventions that accelerate succession toward stable community equilibria—resident-led activity governance, long-tenured staff continuity, neighborhood-scale spatial organization—create acid-equivalent selective barriers against social dysfunction.",
+    "prediction": "Elder care facilities designed with neighborhood-scale spatial organization (12-18 resident clusters with dedicated staff) will show lower resident loneliness scores and higher social engagement rates after 12 months than facilities with equivalent programming but open-plan dormitory spatial organization.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "The Saut de Chat Line Efficiency Framework",
+    "mechanism_source": "parkour",
+    "target_domain": "food truck logistics",
+    "mechanism": "Parkour traceurs plan movement lines through urban environments by identifying the minimum-energy path that maintains forward momentum through obstacles. The saut de chat (speed vault) and tic-tac (wall run) preserve kinetic energy by converting linear velocity into rotational or vertical movement without full stops. Route selection prioritizes obstacle sequences where each element's exit velocity matches the next element's entry velocity requirement.",
+    "application": "Food truck logistics involves sequential movement through urban environments where each stop, setup, service window, and teardown must chain into the next location with minimum lost momentum. Route optimization should account for traffic phase timing, parking ingress angles, and setup/teardown sequencing analogous to parkour obstacle grammar—each operational element's completion state must match the next element's initiation state.",
+    "prediction": "Food trucks using momentum-preserving route optimization (accounting for traffic phase, parking access geometry, and service duration) will serve 15-25% more customers per operating day than trucks using distance-minimization routing alone.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "The Nib Pressure Compensation Model",
+    "mechanism_source": "calligraphy",
+    "target_domain": "neurosurgical planning",
+    "mechanism": "Western broad-nib calligraphy modulates stroke weight through varying nib angle to the writing surface and lateral stroke direction, while pointed-nib scripts vary pressure to flex the tines apart, controlling ink flow from a reservoir. The calligrapher must anticipate the inertia of ink flow at stroke transitions—ink continues flowing briefly after pressure release, requiring preemptive compensation strokes to prevent bleed. Different paper absorbency profiles require real-time nib pressure recalibration.",
+    "application": "Neurosurgical planning requires analogous preemptive compensation for inertial tissue dynamics: bipolar coagulation current applied to brain tissue continues thermally diffusing after the instrument is withdrawn, requiring preemptive cessation 1-2 seconds before the desired coagulation endpoint. Surgeons must develop a kinesthetic model of tissue response inertia—the biological equivalent of ink bleed—and calibrate intervention preemptively rather than reactively.",
+    "prediction": "Neurosurgery trainees who complete haptic feedback training modules specifically targeting preemptive compensation for material inertia will show measurably lower rates of inadvertent thermal spread during simulated bipolar coagulation tasks compared to trainees using standard simulation curricula.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "The Warp-Sett Density Allocation Theory",
+    "mechanism_source": "silk weaving",
+    "target_domain": "social housing allocation",
+    "mechanism": "In silk weaving, warp sett—the number of warp ends per inch—determines the density and character of the textile. High sett creates warp-faced fabric where warp threads dominate surface texture; low sett creates weft-faced fabric. Optimal sett for any yarn is calculated from the yarn grist (yards per pound), and deviation from optimal causes either weft lock (too dense to pass shuttle) or warp collapse (too sparse to support structure). Selvedge tension distribution must be uniform or fabric distorts.",
+    "application": "Social housing allocation involves distributing household types across building blocks, floors, and neighborhood zones with analogous density constraints. Concentration of high-need households in single blocks creates 'weft lock'—service systems jam under concentrated demand—while over-diffusion prevents formation of mutual-support networks. Mixed-tenure 'sett' calculations should balance support-service accessibility against social network formation thresholds.",
+    "prediction": "Social housing developments designed with deliberate income-mix ratios derived from local service-capacity analysis will show lower rates of sustained social isolation among low-income residents compared to fully segregated or fully mixed developments of equivalent size.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "The Andamento Flow Direction Framework",
+    "mechanism_source": "mosaic art",
+    "target_domain": "synthetic fragrance design",
+    "mechanism": "Byzantine and Italian mosaic art uses andamento—the directional flow of tesserae lines—to guide the viewer's eye across compositional areas. Tesserae are set with joints following a figure's contours in key areas and transitioning to background grid patterns at boundaries. Changes in andamento direction create visual tension at compositional boundaries, while consistent flow within a region creates calm unity. The grout joint width relative to tesserae size determines how strongly andamento reads.",
+    "application": "Synthetic fragrance accords use olfactory 'andamento'—the directional unfolding of scent notes over time. Top notes set the initial orientation, heart notes sustain the olfactory flow, and base notes anchor the dry-down. Fragrance designers can use andamento logic to control how sharply a composition transitions between olfactory regions: hard borders between incompatible note families create tension, while graduated blending creates calm continuity.",
+    "prediction": "Fragrances designed with explicit andamento transition mapping—specifying graded versus hard accord boundaries—will receive higher evaluator scores for 'complexity' and 'harmony' simultaneously compared to fragrances designed using standard linear note-pyramid sequencing without transition analysis.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "The Shipwright Keel-Up Structural Priority Doctrine",
+    "mechanism_source": "shipwrighting",
+    "target_domain": "podcast monetization",
+    "mechanism": "Traditional wooden shipwrighting follows a strict structural sequence: the keel is laid first as the primary backbone, then stem and sternpost are attached, then frames rise from the keel, then planking is applied to frames. Each element derives structural meaning only from its attachment to the keel-and-frame system. Shortcuts that apply planking before frames are fully set produce boats that lose structural integrity under load because planks carry tension they were not designed to bear.",
+    "application": "Podcast monetization that applies revenue-extraction strategies before structural audience loyalty is built follows the inverted shipwright error: advertising, merchandise, and subscription tiers are planking applied to inadequate frames. The keel is consistent long-form content quality; the frames are episode-to-episode audience retention; planking is monetization layer. Attempts to monetize shows with high download counts but low episode-completion rates will fail structurally under financial load.",
+    "prediction": "Podcasts that reach episode completion rates above 70% before initiating primary monetization strategies will sustain revenue streams for significantly longer periods than podcasts with equivalent total download counts but completion rates below 50% that monetize at the same download threshold.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "The Aperture Synthesis Baseline Coherence Model",
+    "mechanism_source": "radio astronomy",
+    "target_domain": "satellite constellation design",
+    "mechanism": "Radio telescope aperture synthesis combines signals from multiple antenna pairs (baselines) to reconstruct source brightness distributions using Fourier inversion. Angular resolution scales with maximum baseline length, while surface brightness sensitivity scales with total collecting area. Gaps in the uv-plane coverage—unmeasured spatial frequencies—create sidelobes and artifacts in synthesized images that limit reconstruction fidelity. VLBI achieves sub-milliarcsecond resolution using transcontinental baselines.",
+    "application": "Satellite constellation design for Earth observation or communications involves analogous baseline coverage logic: orbital plane spacing and inclination distribution determine the 'uv-plane' of revisit coverage, where gaps create blackout periods and artifacts in global coverage maps. Constellation optimization should maximize baseline diversity (varied altitude, inclination, and in-plane spacing) to minimize coverage sidelobes and achieve uniform revisit.",
+    "prediction": "Earth-observation constellations designed using aperture-synthesis baseline optimization algorithms will demonstrate measurably more uniform global revisit distribution compared to constellations designed using traditional Walker-Delta geometric coverage models for the same number of satellites.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "The Ablation Zone Energy Budget Framework",
+    "mechanism_source": "glaciology",
+    "target_domain": "wildfire incident command",
+    "mechanism": "Glacier mass balance is governed by the equilibrium line altitude (ELA) separating accumulation zones (net snow gain) from ablation zones (net ice loss through melt, sublimation, and calving). Energy balance at the ablation zone surface involves incoming solar radiation, longwave emission, turbulent sensible and latent heat fluxes, and conductive heat from the ice interior. Albedo feedback accelerates ablation: as snow melts to reveal dark ice, solar absorption increases, accelerating further melt.",
+    "application": "Wildfire incident command manages an analogous energy budget: the fire perimeter divides accumulation zones (unburned fuels ahead of the front) from ablation zones (actively burning sectors). The fire's spread rate is governed by energy fluxes—radiant heat, convective updrafts, spotting from lofted embers—and exhibits albedo-equivalent feedback through preheating of adjacent fuels. Incident commanders who explicitly track energy input rates to unburned fuel zones can predict perimeter acceleration before flame arrival.",
+    "prediction": "Wildfire incident command teams trained in energy-budget frameworks for fuel preheating will make earlier and more accurate perimeter acceleration predictions compared to teams using standard rate-of-spread models without energy-budget inputs.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "The Reed Overblowing Register Mechanism",
+    "mechanism_source": "wind instrument acoustics",
+    "target_domain": "competitive chess strategy",
+    "mechanism": "Wind instruments overblow to access upper registers by suppressing the fundamental standing wave and exciting the second or third harmonic. Ocarinas cannot overblow due to their Helmholtz resonator geometry; cylindrical bore instruments like clarinets overblow at the twelfth (3rd harmonic) while conical bores like oboes overblow at the octave (2nd harmonic). Controlled overblowing requires precise embouchure tension and air column pressure to stabilize the higher-mode resonance without cracking.",
+    "application": "Chess opening theory similarly features 'register shifts': standard opening lines operate in the fundamental register of established theory, but experienced players can force a register shift into less-charted territory by introducing novel move orders that suppress the opponent's prepared theoretical response and redirect the game to positions where the opponent's preparation is absent. The register crack—losing control of the new mode—occurs when the novelty fails to achieve independent evaluation stability.",
+    "prediction": "Chess players who deliberately study register-shift move orders (novelties at move 6-10 that exit main theory) as a primary preparation strategy will score measurably higher against opponents of equal ELO rating in preparation-heavy theoretical lines than players who study within established theory exclusively.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "The Zooxanthellae Thermal Expulsion Threshold Model",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "climate adaptation policy",
+    "mechanism": "Coral bleaching occurs when sea surface temperatures exceed the thermal tolerance threshold of symbiotic zooxanthellae (Symbiodinium spp.) by as little as 1°C for 4+ weeks. Stressed zooxanthellae overproduce reactive oxygen species that trigger host cell apoptosis, causing expulsion of the symbiont. Bleached corals survive briefly on metabolic reserves but die within weeks to months if symbiont re-uptake fails to occur before energy reserves are depleted.",
+    "application": "Climate adaptation policy systems face analogous threshold dynamics: policy-sustaining political coalitions harbor symbiotic relationships between economic stakeholders and governing institutions. Temperature-equivalent stressors (economic shocks, electoral reversals, budget crises) that exceed coalition stress tolerance by small margins can trigger stakeholder expulsion that bleaches the policy of its implementation capacity before the stressor resolves.",
+    "prediction": "Climate adaptation policies structured with stakeholder redundancy (multiple independent institutional champions for each policy component) will demonstrate higher implementation continuity through political transition periods than policies relying on single-stakeholder coalitions, measurable by comparing policy continuity scores across electoral cycles.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "The Kolmogorov Cascade Irreversibility Framework",
+    "mechanism_source": "turbulence theory",
+    "target_domain": "venture capital due diligence",
+    "mechanism": "In turbulent flows, the Kolmogorov energy cascade transfers kinetic energy from large eddies (integral scale) to progressively smaller scales until viscous dissipation converts kinetic energy to heat at the Kolmogorov microscale. The cascade is directional and irreversible: energy cannot spontaneously flow from small eddies back to large ones. Turbulent mixing entropy increases monotonically, and the cascade rate is set by the large-scale energy injection rate independent of viscosity.",
+    "application": "Venture capital due diligence involves irreversible information cascades: initial narrative framing at pitch creates large-scale 'eddies' of investor attention that cascade into increasingly granular scrutiny (financial models, customer references, technical audits) and dissipate into final decision entropy. Like turbulence, this cascade is largely irreversible—negative information revealed at deep-diligence microscales rarely reverses a positive large-scale impression, but positive microscale findings rarely rescue a negative large-scale frame.",
+    "prediction": "VC deals that receive negative framing during initial pitch will fail at statistically higher rates than deals with equivalent fundamentals that received positive initial framing, even when later due diligence reveals no material differences, demonstrating cascade irreversibility.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "The Loss Aversion Endowment Calibration Theory",
+    "mechanism_source": "behavioral economics",
+    "target_domain": "archaeological site management",
+    "mechanism": "Kahneman and Tversky's endowment effect demonstrates that owners value objects significantly more than equivalent non-owners, with loss aversion coefficients typically 1.5-2.5x higher than equivalent gain utility. Status quo bias reinforces endowment: people weight forgone gains from current ownership more heavily than equivalent potential gains from exchange. This effect is attenuated when objects are explicitly held for trade rather than personal use.",
+    "application": "Archaeological site management involves profound endowment effects among local communities, national governments, diaspora groups, and source-country institutions—each holding distinct ownership claims with associated loss aversion. Site management plans that fail to account for the asymmetric loss-aversion weighting of each stakeholder group systematically underestimate resistance to excavation, repatriation, or conservation interventions that feel like losses to specific groups.",
+    "prediction": "Archaeological site management plans that explicitly model stakeholder-specific loss aversion and frame interventions as loss-prevention rather than gain-acquisition will achieve higher stakeholder agreement rates in multi-party consultation processes compared to plans using uniform value-neutral framing.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "The Quorum Threshold Cascade Commitment Model",
+    "mechanism_source": "swarm intelligence",
+    "target_domain": "professional wrestling promotion",
+    "mechanism": "Honeybee swarm site selection uses a quorum threshold mechanism: scout bees inspect candidate nest sites and recruit via waggle dances, but commitment to a site only occurs when the number of scouts at that site exceeds a quorum threshold (approximately 15 bees). Below threshold, scouts may abandon the site; above threshold, scouts begin piping behavior that triggers swarm departure. The threshold prevents premature commitment to suboptimal sites discovered early in the search.",
+    "application": "Professional wrestling promotion builds audience investment in rivalries and storylines using quorum threshold dynamics: a feud gains momentum only when enough audience segments (casual viewers, hardcore fans, social media communities) simultaneously exceed their individual engagement thresholds. Promoters who manufacture coordinated threshold crossings through concentrated social media pushes can trigger genuine cascade commitment that then sustains itself organically.",
+    "prediction": "Wrestling storylines that coordinate social media engagement spikes across multiple fan communities simultaneously within a 48-hour window will generate significantly higher subsequent merchandise sales and event attendance than storylines with equivalent total social media volume spread across two-week windows.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "The Deadwood Contrast Amplification Hypothesis",
+    "mechanism_source": "bonsai cultivation",
+    "target_domain": "therapeutic garden design",
+    "mechanism": "Bonsai jin (deadwood on branches) and shari (deadwood on trunk) are treated with lime sulfur to prevent fungal rot while preserving the visual drama of aged deadwood. The lime sulfur penetrates surface cell structure and creates an inhospitable pH environment for decomposers without affecting living tissue. Deadwood placement creates negative space that dramatically amplifies the perceived vitality of adjacent living foliage through simultaneous contrast—the eye reads life more intensely against preserved absence.",
+    "application": "Therapeutic garden design can deploy the jin/shari principle in sensory contrast design: intentional preserved spaces of minimal sensory stimulation (gravel areas, bare stone walls, water-only zones) create negative space that makes adjacent high-stimulation planting areas more therapeutically potent. The 'lime sulfur' equivalent is durable low-maintenance hardscaping that resists over-planting and maintains the designed contrast over years.",
+    "prediction": "Therapeutic gardens incorporating explicit high-contrast sensory zones (low-stimulation negative-space areas adjacent to high-stimulation planting beds) will show higher patient-reported stress reduction scores after 30-minute sessions compared to uniformly stimulating gardens of equivalent plant diversity.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  }
+]

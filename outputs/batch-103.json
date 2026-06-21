@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Stroke Weight Jurisprudence",
+    "mechanism_source": "calligraphy",
+    "target_domain": "jury selection",
+    "mechanism": "In calligraphy, stroke weight—the ratio of thick downstrokes to thin upstrokes—is controlled by consistent pressure variation and nib angle, typically 45 degrees. Master calligraphers read the rhythm of letterforms to detect inconsistency, where irregular pressure reveals underlying tension or inattention in the writer. The visual grammar of a script communicates discipline and intentionality beneath the surface content.",
+    "application": "Jury consultants can apply stroke-weight logic by analyzing the rhythm of a juror's verbal responses: consistent tonal weight on factual statements versus thin, hedged qualifiers on emotional ones reveals where candidates apply cognitive pressure. Just as irregular downstrokes betray a struggling student, irregular emphasis patterns in voir dire answers betray unexamined biases. Mapping juror speech cadence as a pressure-variation profile could improve bias-detection beyond standard questionnaires.",
+    "prediction": "Jurors whose spoken responses show high variance in emphasis-to-hedge ratios during voir dire will demonstrate greater verdict inconsistency in mock-trial settings than jurors with uniform cadence profiles.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Warp-and-Weft Gene Circuit Architecture",
+    "mechanism_source": "silk weaving",
+    "target_domain": "synthetic biology",
+    "mechanism": "Silk weaving operates on the interlacing of warp threads (longitudinal, under tension) and weft threads (lateral, inserted by shuttle), where pattern emerges from the precise sequence of over-under crossings encoded in a Jacquard punch-card or digital loom program. The structural integrity of a weave depends on thread count, twist direction (S or Z), and shed geometry. Pattern complexity scales combinatorially: a 16-shaft loom can produce 2^16 distinct shed configurations.",
+    "application": "Synthetic gene circuits can be designed using a warp-weft model where constitutive promoters serve as warp (always-on tension) and inducible regulatory elements serve as weft (conditionally inserted signals). The logical AND/OR/NOT gates of a gene network map directly onto over-under crossing rules, and circuit complexity scales with the number of orthogonal inducible systems available. This framing suggests that designing multi-input biosensors should follow the same combinatorial discipline as drafting a complex twill pattern.",
+    "prediction": "Gene circuits designed with explicit warp-weft separation of constitutive and inducible elements will show lower crosstalk noise than circuits where all promoters are selected without structural role assignment, measurable by fluorescence variance in E. coli under mixed-signal induction.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Tesserae Revenue Tiling",
+    "mechanism_source": "mosaic art",
+    "target_domain": "podcast monetization",
+    "mechanism": "Roman and Byzantine mosaic artists arranged small tesserae—cut glass, stone, or ceramic tiles—so that no single tile carried the full visual load; meaning emerged from the aggregate arrangement and the grout-line gaps between pieces. Andamento, the directional flow of tile lines, guides the eye and creates visual momentum independent of individual tile color. Skilled mosaicists balanced high-value gold tesserae sparingly against cheaper stone to maximize luminosity per unit cost.",
+    "application": "Podcast revenue streams should be tiled like a mosaic: no single income source (advertising, subscriptions, live events, merchandise, licensing) bears the full structural load, and the gaps between revenue types—natural audience touchpoints—are as important as the streams themselves. Gold-tesserae thinking identifies the one or two high-value sponsorships that provide luminosity while cheaper stone tiles (affiliate links, tip jars) fill coverage. Andamento suggests that the directional arc of a show's content should guide which revenue tile type is introduced at each audience-growth stage.",
+    "prediction": "Podcasts that diversify across at least four revenue stream types with no single stream exceeding 40% of total revenue will show greater year-over-year revenue stability than single-stream shows, controlling for audience size.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Carvel Planking Care Continuity",
+    "mechanism_source": "shipwrighting",
+    "target_domain": "elder care",
+    "mechanism": "Carvel planking is a hull construction method where planks are laid edge-to-edge against a pre-erected frame, creating a smooth exterior skin whose integrity depends entirely on the underlying rib structure. Each plank is fastened to every frame it crosses; if a single frame rots, the planks above it lose support and the hull deforms. Shipwrights perform systematic surveying by probing frames with a spike—a hollow sound indicates decay before surface failure is visible.",
+    "application": "Elder care facilities can apply carvel logic by treating each elder's support network (family contacts, medical providers, social workers, daily aides) as the internal frame, and the daily care tasks as planks fastened to that frame. When a key frame member—such as a primary family contact—goes silent, systematic spike-probing check-ins should be triggered to detect hidden deterioration in the support structure before a care crisis surfaces. Routine structural surveys of the social frame, not just the clinical surface, prevent catastrophic decompensation.",
+    "prediction": "Elder care programs that implement structured monthly audits of support-network contact frequency will show a statistically significant reduction in unplanned emergency hospitalizations compared to programs that monitor only clinical indicators.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Keystone Species Logistics Hubs",
+    "mechanism_source": "coral reef ecology",
+    "target_domain": "freight logistics",
+    "mechanism": "Coral reefs derive disproportionate structural complexity from keystone species—primarily reef-building Scleractinian corals—whose calcium carbonate skeletons create physical habitat that supports 25% of all marine species despite covering less than 1% of the ocean floor. The reef's resilience depends on functional redundancy: multiple species perform similar roles (grazing, nitrogen fixation, predation), so the loss of any single species rarely collapses the system. Connectivity corridors between reef patches allow larval dispersal and genetic exchange that buffer local extinction events.",
+    "application": "Freight logistics networks should be designed with explicit keystone-hub identification: the two or three facilities or carriers whose removal would collapse regional throughput most severely. Functional redundancy means deliberately over-provisioning alternative routes and carriers for keystone-equivalent roles, even at short-term cost efficiency. Larval dispersal maps to capacity-sharing agreements between regional hubs that maintain operational diversity in the network against local disruption.",
+    "prediction": "Logistics networks that identify keystone hubs using removal-simulation modeling and maintain at least one redundant carrier per keystone route will recover from major disruption events (port closures, carrier bankruptcy) in measurably fewer days than networks without formal keystone analysis.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Standing Wave Endgame Theory",
+    "mechanism_source": "wind instrument acoustics",
+    "target_domain": "competitive chess",
+    "mechanism": "Wind instruments produce pitched sound by exciting standing waves in an air column; the playable pitches correspond to resonant modes where the wavelength divides evenly into the tube length, creating pressure nodes and antinodes at fixed positions. Overblowing selectively suppresses the fundamental and amplifies higher harmonics, and the player's embouchure acts as a dynamic filter controlling which modes are excited. The harmonic series constrains which intervals are naturally in tune and which require lip correction.",
+    "application": "Chess endgame positions exhibit analogous modal structure: a king-and-pawn ending has a small set of resonant modes—key squares, opposition, the rule of the square—that determine the outcome regardless of the exact path of play. Strong endgame players learn to identify which mode the position is in (zugzwang, distant opposition, triangulation) and apply the minimal maneuver that excites the winning mode. Overblowing maps to aggressive pawn advances that force the opponent into a higher-pressure harmonic where defensive resources collapse.",
+    "prediction": "Chess engines that categorize endgame positions by modal type prior to search will find shorter winning lines in king-and-pawn endgames than engines using uniform depth-first search without positional mode pre-classification.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Subduction Zone Surgical Planning",
+    "mechanism_source": "plate tectonics",
+    "target_domain": "neurosurgery",
+    "mechanism": "At convergent plate boundaries, a denser oceanic plate subducts beneath a lighter continental plate at angles between 25 and 90 degrees; the descending slab drags volatiles into the mantle, triggering partial melting and magmatic arc formation above. Stress accumulates along the locked megathrust zone until it exceeds frictional resistance, releasing as an earthquake. The geometry of the slab—its dip angle, rollback rate, and thermal structure—determines where volcanic arcs form and where back-arc basins open.",
+    "application": "In neurosurgery, deep tumor resection involves analogous convergent geometry: the surgeon's instrument trajectory is the subducting slab, the tumor is the volatile-rich zone that must be accessed, and surrounding eloquent cortex is the continental plate that must not be thermally or mechanically disrupted. Pre-operative trajectory planning should model the dip angle and rollback of instrument approach the way geologists model slab geometry, identifying the path that delivers energy to the target while keeping the stress shadow away from motor and language areas. Back-arc basin equivalents are the surgical corridors—transylvian, transcortical—that open naturally when approach geometry is optimized.",
+    "prediction": "Neurosurgical teams using trajectory-geometry planning software modeled on slab-dip optimization will achieve lower rates of approach-related eloquent cortex injury in deep-seated tumor resection compared to teams using conventional neuronavigation alone.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Glacial Isostatic Social Housing",
+    "mechanism_source": "glaciology",
+    "target_domain": "social housing",
+    "mechanism": "When a continental ice sheet loads the lithosphere, the crust depresses isostatically at a rate governed by mantle viscosity, typically 0.5–1 mm/year per meter of ice. After deglaciation, the crust rebounds—a process called glacial isostatic adjustment (GIA)—with a time lag of thousands of years because mantle flow is viscous, not elastic. The rebound is non-uniform: areas beneath the former ice center rise fastest while peripheral forebulge zones subside.",
+    "application": "Social housing demand loads the urban land market like an ice sheet: concentrated public investment in one district depresses surrounding private-market prices in a forebulge effect while the investment zone itself bears the weight. When public housing stock is demolished or sold off, isostatic rebound occurs—land values in the former housing zone rise sharply and with time lag—but peripheral neighborhoods previously depressed by proximity see secondary subsidence as gentrification pressure redistributes. Urban planners should model this delayed, non-uniform rebound when planning redevelopment timelines to avoid underestimating displacement pressure in the forebulge zone.",
+    "prediction": "Neighborhoods within 1 km of large social housing demolition sites will show statistically greater rent increases 3–7 years post-demolition than neighborhoods 2–5 km away, consistent with delayed isostatic rebound rather than immediate uniform gentrification.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Pulsar Timing Governance Arrays",
+    "mechanism_source": "radio astronomy",
+    "target_domain": "cryptocurrency governance",
+    "mechanism": "Pulsar Timing Arrays (PTAs) detect gravitational waves by monitoring the arrival times of radio pulses from millisecond pulsars across the galaxy; each pulsar acts as a stable clock, and correlated timing residuals across the array reveal a gravitational wave background. The method's power scales with the number of pulsars monitored, their timing stability, and the cadence of observations. A single pulsar is insufficient; the signal emerges only from the cross-correlation of the full array against the Hellings-Downs curve.",
+    "application": "Cryptocurrency governance can be structured as a PTA: individual validators are pulsars whose voting records are stable clocks, and governance decisions emerge only from cross-correlated agreement patterns rather than majority thresholds alone. A proposal passes not when 51% vote yes but when the correlation structure of affirmative votes matches a pre-specified pattern—geographically and stakeholder-class distributed agreement rather than bloc voting. This detects and suppresses coordinated manipulation the way the PTA method distinguishes true gravitational wave signal from local clock noise.",
+    "prediction": "Cryptocurrency governance systems using cross-correlation quorum requirements will show measurably lower rates of successful whale-bloc capture of governance votes compared to systems using simple majority or token-weighted voting, detectable in on-chain voting records.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Kolmogorov Cascade Wildfire Triage",
+    "mechanism_source": "turbulence theory",
+    "target_domain": "wildfire management",
+    "mechanism": "In turbulent fluid flow, the Kolmogorov energy cascade describes how kinetic energy injected at large scales (low wavenumber, large eddies) transfers progressively to smaller and smaller scales until it reaches the Kolmogorov microscale, where viscous dissipation converts it to heat. The -5/3 power law in the energy spectrum describes this self-similar cascade, and the cascade is largely irreversible—energy does not flow back up from small to large scales under normal conditions. Turbulence intensity is characterized by the Reynolds number, the ratio of inertial to viscous forces.",
+    "application": "Wildfire energy behaves analogously: large-scale fire behavior (plume convection, fire weather interactions) injects energy into intermediate-scale fire spread, which cascades to small-scale ember transport and spotting. Wildfire management resources should be allocated following cascade logic—suppressing the large-scale plume dynamics through burnout operations that remove fuel at the inertial injection scale is more efficient than fighting spot fires at the viscous dissipation scale. Triage protocols should prioritize interventions at the scale where the cascade can be interrupted rather than at the terminal spot-fire scale.",
+    "prediction": "Wildfire incidents where incident commanders allocate at least 60% of initial aerial resources to large-scale plume-anchor suppression rather than spot-fire response will show smaller final fire perimeters than comparable incidents with spot-fire-first resource allocation, controlling for fuel type and weather.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Loss Aversion Casting Architecture",
+    "mechanism_source": "behavioral economics",
+    "target_domain": "opera production",
+    "mechanism": "Kahneman and Tversky's prospect theory demonstrates that losses loom approximately 2.25 times larger than equivalent gains in human decision-making; the S-shaped value function is steeper in the loss domain than the gain domain. This asymmetry produces risk aversion for potential gains and risk seeking for potential losses, and the framing of choices as losses versus gains systematically shifts decisions even when outcomes are objectively identical. Endowment effects cause people to overvalue what they already possess relative to what they might acquire.",
+    "application": "Opera companies can exploit loss aversion in casting decisions by framing role assignments to star singers as protecting an existing relationship rather than acquiring a new engagement. Presenting a revival season to a principal artist as 'your role in our house, which you have built' activates endowment effect and loss framing, increasing willingness to accept lower fees than would be demanded for an equivalent debut at a competing house. Production budgets should similarly frame cuts to design departments as protecting the onstage investment rather than reducing overhead.",
+    "prediction": "Opera companies that frame artist fee negotiations using loss-domain language ('securing your presence in your signature role') will achieve lower per-performance artist fees than companies using gain-domain language ('adding you to our roster'), with the effect size increasing for singers who have previously performed the role at that house.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Stigmergic Food Truck Routing",
+    "mechanism_source": "swarm intelligence",
+    "target_domain": "food truck operations",
+    "mechanism": "Ant colonies solve the traveling salesman problem near-optimally through stigmergy: individual ants deposit pheromone trails proportional to the quality of the food source found, and subsequent ants preferentially follow stronger trails, creating a positive-feedback loop that converges on efficient routes. The system self-organizes without central control; evaporation of pheromone over time prevents convergence on suboptimal trails discovered early. Ant Colony Optimization (ACO) algorithms formalize this mechanism for computational routing problems.",
+    "application": "A network of food trucks in a city can implement stigmergic routing by sharing real-time sales-per-hour data as a digital pheromone signal across a common platform. Trucks that arrive at a location and find high sales density deposit a strong signal; locations that go quiet see the signal evaporate. New trucks joining the network preferentially route to high-signal locations, but evaporation prevents permanent clustering—the system dynamically redistributes across the city as lunch versus dinner demand shifts, without any central dispatcher.",
+    "prediction": "Food truck networks using real-time shared sales-density signaling with a time-decay function will achieve higher average revenue per truck per day than networks relying on permit-assigned static locations or individually-optimized routing, measurable over a 90-day trial period.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Flowing Refutation Dating Signals",
+    "mechanism_source": "competitive debate",
+    "target_domain": "dating apps",
+    "mechanism": "Competitive policy debate requires debaters to flow—track arguments on paper in a structured shorthand that maps each argument to its direct response and any dropped points. An argument is considered conceded if the opposing team fails to respond to it directly; judges evaluate the round by looking at which claims survived the exchange uncontested. The strategic goal is not to win every exchange but to ensure the arguments that matter most are covered while deliberately leaving weaker opponent arguments unanswered to bait over-extension.",
+    "application": "Dating app matching algorithms can incorporate flow logic by tracking the conversational argument structure in early message exchanges: which topics a user introduces that the match fails to engage with (conceded interest signals) versus topics the match repeatedly returns to (heavily-covered priority claims). A user who asks about weekend activities and never receives engagement has introduced a lifestyle value the match is not contesting—an incompatibility signal. Surfacing these dropped arguments as compatibility warnings could reduce ghosting-after-first-date rates.",
+    "prediction": "Dating app users whose early message exchanges show more than three high-salience topics introduced by one party and not engaged by the other will report lower first-date satisfaction scores than users whose exchanges show symmetric topic coverage, as measured by post-date app surveys.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Nebari Root Veterinary Triage",
+    "mechanism_source": "bonsai cultivation",
+    "target_domain": "veterinary medicine",
+    "mechanism": "Bonsai design prioritizes nebari—the surface root spread at the base of the trunk—as the most critical indicator of the tree's long-term health and visual stability. A strong nebari indicates that the vascular system is distributing resources radially rather than relying on one dominant root, which would create structural vulnerability. Practitioners use root pruning and strategic container positioning over years to develop radial symmetry, removing roots that grow straight down (tap roots) in favor of lateral spread.",
+    "application": "Veterinary assessment of systemic disease in large animals can adopt nebari thinking: the visible peripheral indicators—hoof growth patterns in horses, coat distribution in cattle, claw wear in ruminants—reveal the radial symmetry or dominance asymmetry of the animal's systemic resource distribution. A horse with uneven hoof growth rates on lateral versus medial walls indicates asymmetric weight-bearing with root-equivalent structural implications. Routine nebari-style peripheral inspection as a triage screen could flag early metabolic or musculoskeletal disease before lameness becomes overt.",
+    "prediction": "Horses assessed with a structured four-quadrant peripheral indicator protocol (hoof growth rate, digital pulse, coronary band angle, sole concavity) will show earlier detection of laminitis onset than horses assessed by lameness observation alone, as measured by days from first positive protocol flag to confirmed clinical diagnosis.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Mordant Lock-In Joke Architecture",
+    "mechanism_source": "textile dyeing",
+    "target_domain": "standup comedy",
+    "mechanism": "Textile dyeing with substantive dyes requires a mordant—a metallic salt such as alum, iron, or copper—that bonds to both the fiber and the dye molecule simultaneously, creating a coordination complex that locks color in place. Without mordant, the dye molecule adsorbs onto the fiber surface but washes out; with it, the dye is chemically anchored and becomes part of the fiber's molecular structure. Different mordants shift the final hue of the same dye bath: alum gives bright tones, iron saddens and darkens, copper produces greens from yellow dye baths.",
+    "application": "In standup comedy, the setup functions as the mordant: it bonds the audience's expectation (fiber) to the punchline (dye) so that the subversion lands permanently rather than washing off as confusion. A setup without sufficient mordant—one that fails to establish a clear expectation—produces a punchline that slides off the audience without color change. The comedian's choice of mordant (irony, self-deprecation, false authority) determines how the same punchline reads: the identical observation mordanted with self-deprecation saddens to dark comedy, while mordanted with false authority brightens to absurdist farce.",
+    "prediction": "Comedy sets in which the setup explicitly establishes a falsifiable social expectation before the punchline will score higher audience laughter ratings than sets with equivalent punchline novelty but vague setups, as measurable in controlled open-mic blind evaluation studies.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

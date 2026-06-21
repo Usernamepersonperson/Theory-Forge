@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Grout Line Accessibility Heuristics",
+    "mechanism_source": "stained glass",
+    "target_domain": "childhood education",
+    "mechanism": "In stained glass, the lead came network constrains the color palette to discrete bounded zones — each piece of glass is a single hue, and all chromatic complexity emerges from juxtaposition across boundaries rather than gradients within pieces. The came width itself is a design variable: wider cames create stronger visual separation and structural strength but reduce the total illuminated area, while narrower cames allow finer detail at the cost of fragility.",
+    "application": "Elementary classroom design can adopt stained glass logic: each learning zone (reading corner, lab bench, art station) should be a chromatically and functionally discrete 'pane' separated by visible boundaries (floor tape, furniture edges, color coding) whose width signals the degree of transition effort required. Wider boundaries between incompatible activities (quiet reading vs. group work) and narrower boundaries between compatible ones (art and science) mirrors came-width engineering for structural and visual coherence.",
+    "prediction": "Classrooms redesigned with explicit came-width boundary logic — wider physical separators between incompatible activity zones, narrower ones between compatible zones — will show 20% fewer off-task transitions per hour compared to open-plan classrooms of equivalent size and staffing.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Affinage Intervention Rhythm",
+    "mechanism_source": "cheese cave aging",
+    "target_domain": "film editing",
+    "mechanism": "In a cheese cave, the affineur intervenes at precise intervals to turn, brush, wash, or pierce wheels. Each intervention introduces controlled microenvironmental disruption that redirects microbial succession — too early and the rind has not formed enough to protect the paste; too late and unwanted molds colonize. The rhythm of intervention is calibrated not to a clock but to surface cues: color shift, moisture sheen, firmness of body.",
+    "application": "A film editor makes cut decisions not on fixed beat intervals but by reading surface cues in footage — the actor's micro-expression resolving, ambient sound peaking, visual composition reaching saturation. The affinage model predicts that editors who wait until a scene has fully expressed its textural potential before cutting will produce sequences with stronger emotional throughput than those cutting on musical or rhythmic autopilot.",
+    "prediction": "In controlled viewing studies measuring galvanic skin response, cuts placed at affinage-trigger moments (post-expression resolution, when scene texture has peaked) will produce higher arousal amplitude than cuts placed on musical downbeats matched for scene content.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Dead Reckoning Relapse Navigation",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "addiction treatment",
+    "mechanism": "Pre-GPS mariners used dead reckoning: from a known celestial fix, they integrated heading, speed, and elapsed time to project current position, then sought new fixes to correct accumulated drift. Error compounds over time without a fix, but skilled navigators know the direction and approximate magnitude of their personal drift biases — leeway from wind, set from current — and compensate proactively before seeking correction.",
+    "application": "Patients in addiction treatment accumulate 'drift' between clinical check-ins — micro-decisions, craving events, social exposures that shift recovery trajectory without formal correction. Teaching patients to identify personal drift biases (stress-triggered craving vectors, social environment set) and perform self-administered dead reckoning between sessions can surface relapse risk before the next scheduled fix rather than after.",
+    "prediction": "Patients trained in drift-bias self-assessment and between-session position estimation will show lower relapse rates in the 30-day period following discharge than matched controls using standard relapse-prevention psychoeducation, controlling for baseline severity.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Quench and Temper Campaign Sequencing",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "electoral politics",
+    "mechanism": "Hardening steel requires heating to austenite phase, then rapidly quenching to trap carbon in hard but brittle martensite. A subsequent tempering draw — reheating to a lower temperature — relieves internal stress while preserving most hardness. Final mechanical properties depend critically on the sequence: quench too slowly and you get soft pearlite; skip the temper and the blade shatters under lateral stress that a properly tempered blade would survive.",
+    "application": "Electoral campaigns harden their coalition through high-intensity mobilization events — the quench — but must follow with a tempering phase of lower-intensity sustained engagement to relieve the brittleness of single-issue activation. Campaigns that skip the temper, relying entirely on peak-mobilization energy, shatter on unexpected lateral issues before election day. The model prescribes a specific sequencing rule: temper within 72 hours of peak mobilization.",
+    "prediction": "Campaigns that execute structured low-intensity outreach within 72 hours of peak mobilization events (rallies, viral moments) will show higher voter turnout among newly registered supporters than campaigns that allow mobilization energy to dissipate unattended, in natural experiment comparisons.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Cable Tension Menu Engineering",
+    "mechanism_source": "funambulism",
+    "target_domain": "restaurant management",
+    "mechanism": "A tightrope walker's stability depends on cable tension and the continuous micro-correction torques applied through the balance pole. High cable tension reduces sway amplitude but increases energy cost per correction; lower tension allows greater sway but provides longer warning time before irreversible tipping. Expert funambulistts calibrate cable tension to their specific correction speed and acceptable risk envelope, not to an abstract ideal.",
+    "application": "Restaurant management faces an analogous tension between menu rigidity (tight cable: high consistency, high inventory precision required) and menu flexibility (loose cable: more creative adaptability, higher per-service cognitive load on kitchen staff). The funambulism model identifies optimal menu size as a function of kitchen correction speed — how quickly staff execute non-standard requests — rather than guest preference surveys alone.",
+    "prediction": "Restaurants that match menu breadth to their measured kitchen correction speed (time-to-execute unanticipated modifications) will show lower ticket error rates and higher composite review scores than restaurants using industry-benchmark menu sizes regardless of execution capability.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Weft Independence Fault Architecture",
+    "mechanism_source": "tapestry weaving",
+    "target_domain": "satellite engineering",
+    "mechanism": "In tapestry weaving, weft threads pass horizontally across a fixed warp, and each weft pass is mechanically independent — a broken weft degrades the image locally but does not propagate failure to adjacent passes, as the warp holds structural continuity. Tapestry also uses discontinuous weft: color areas woven independently, with joins between them constituting managed structural vulnerability points requiring explicit reinforcement technique.",
+    "application": "Satellite subsystem architecture benefits from treating critical signal paths as warp (always present, providing structural continuity) and functional modules as weft (independently replaceable). The critical implication is that inter-module joins must be explicitly engineered as managed vulnerability points with defined graceful degradation modes — not assumed to inherit warp-level structural strength through proximity.",
+    "prediction": "Satellites designed with explicit weft-join fault models — pre-specified degradation cascades at inter-module boundaries — will show lower rates of total mission loss following single-subsystem anomaly than architecture-matched satellites using monolithic redundancy without boundary-specific fault models.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Flash Signature Brand Identity",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "fashion design",
+    "mechanism": "Fresnel lens design concentrates lighthouse light using concentric prismatic rings that redirect off-axis rays to the focal line, with different Fresnel zones contributing constructively only when path-length differences are controlled to sub-wavelength precision. Beyond optics, lighthouse engineers design characteristic flash patterns — timing signatures — enabling mariners to distinguish one light from another at distance before any other identification is possible.",
+    "application": "Fashion design achieves brand legibility at distance through an analogous zone system: concentric layers of garment complexity that should constructively reinforce a single focal element rather than scatter visual energy. The flash signature equivalent is the designer's silhouette — the immediately recognizable outline that functions as brand identification at editorial distance before color or detail are resolvable, and which must be distinct even when all other design information is lost to distance.",
+    "prediction": "Garments designed with a single explicitly defined focal element (where peripheral design zones redirect attention toward one point) will be correctly attributed to a designer's aesthetic more rapidly in masked recognition tests than garments with equivalent complexity distributed across multiple focal points.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Ceremony Sequencing Intake Protocol",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "refugee resettlement",
+    "mechanism": "The Japanese tea ceremony (chado) structures the host-guest relationship through precisely sequenced acts each with its own temporal logic: preparation of space, entry sequence, presentation of sweets before bitterness, the handling and return of the bowl. The structure is not merely aesthetic but functional — it creates shared pace that reduces social unpredictability and allows genuine presence to emerge from what would otherwise be an anxiety-producing unfamiliar encounter between strangers.",
+    "application": "Refugee resettlement programs that front-load bureaucratic complexity present the bitter before the sweet — overwhelming newcomers before relational trust has been established. A ceremony-structured intake sequence front-loads small legible moments of hospitality and orients newcomers to their environment before introducing complex documentation requirements, using the temporal structure of the ceremony to calibrate cognitive and emotional load.",
+    "prediction": "Resettlement programs restructuring intake to separate legible welcome activities from complex bureaucratic requirements by at least 48 hours will show higher appointment completion rates and lower service dropout in the first 90 days compared to programs with simultaneous intake and documentation requirements.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Flow Line Burden Assignment",
+    "mechanism_source": "competitive debate",
+    "target_domain": "sports analytics",
+    "mechanism": "In competitive debate, the burden of proof is asymmetrically distributed: the affirmative must establish a prima facie case across all required flow lines while the negative need only introduce reasonable doubt on any single line. Judges evaluate not just argument quality but sufficiency — whether each flow line is adequately defended. Skilled debaters force affirmatives to defend multiple fronts simultaneously, exploiting the asymmetry that dropping any flow line concedes it.",
+    "application": "In sports analytics, defensive game theory follows an identical asymmetric burden: offense must succeed across all required attack lines (shot creation, execution, transition prevention) while defense needs to force a single breakdown. Teams modeling this formally can identify which offensive flow lines carry the lowest affirmative success probability for a given opponent and concentrate defensive resources at those lines rather than defending uniformly.",
+    "prediction": "NBA teams that use flow-line burden analysis to identify opponents' weakest required offensive sequences and concentrate switching assignments on those lines will show higher opponent forced-turnover rates than teams using conventional defensive efficiency metrics for assignment decisions, in matched season comparisons.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Phreatic-Vadose Learning Sequence",
+    "mechanism_source": "caving",
+    "target_domain": "childhood education",
+    "mechanism": "Cave passages develop through dissolution following the path of least resistance, producing two characteristic forms: phreatic tubes (formed under full water pressure, roughly circular in cross-section) versus vadose canyons (cut by free-flowing streams, deeply incised along a single gradient). The same cave system contains both types depending on hydrological history. Speleologists map passage morphology to reconstruct paleohydrology — identifying where water once filled a space completely versus where it cut freely.",
+    "application": "Childhood learning pathways exhibit analogous dual morphology: phreatic learning occurs under developmental pressure (structured curricula that fill available cognitive space from all sides simultaneously) while vadose learning occurs when interest cuts freely along natural gradient without confining structure. Identifying which domains in a child's record show phreatic versus vadose morphology reveals whether foundational pressure was applied before or after natural inclination formed — with different intervention implications for each case.",
+    "prediction": "Children whose foundational numeracy records show phreatic-type broad coverage before vadose-type deepening will demonstrate better long-term mathematical reasoning scores at age 10 than matched peers showing the inverse sequence, in longitudinal curriculum audit studies.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Overdispersion Venue Policy Framework",
+    "mechanism_source": "epidemiology",
+    "target_domain": "public health policy",
+    "mechanism": "Epidemiological network analysis characterizes transmission by the overdispersion parameter k in the negative binomial distribution — when k is small, most infected individuals cause zero secondary cases while a few cause very large clusters. Contact tracing of COVID-19 and measles showed superspreader events overwhelmingly occur in high-density, poor-ventilation, prolonged-exposure, high-vocalization settings. The distribution is fundamentally heterogeneous, not Poisson.",
+    "application": "Public health policy interventions targeting the overdispersion parameter space — rather than attempting uniform population-level behavioral change — can achieve disproportionate transmission reduction by modifying a small number of high-k venues while imposing minimal restriction on low-k settings. Policy design should treat the environmental DOPE parameters (density, oxygenation, proximity, exertion) as the primary intervention targets, not individual behavior in isolation.",
+    "prediction": "Jurisdictions whose pandemic policies explicitly differentiated restriction intensity by venue DOPE parameters will show lower excess mortality per policy-stringency unit than jurisdictions applying uniform population restrictions, in matched cross-jurisdictional analyses controlling for baseline demography.",
+    "viability": "promising",
+    "confidence": 0.81
+  },
+  {
+    "name": "Boundary Layer Handoff Architecture",
+    "mechanism_source": "fluid dynamics",
+    "target_domain": "autonomous vehicles",
+    "mechanism": "In viscous flow over curved surfaces, the boundary layer — the thin region transitioning from wall velocity to free-stream velocity — separates from the surface when adverse pressure gradients overcome local momentum. Separation produces turbulent wakes and loss of aerodynamic authority. Engineers prevent separation through vortex generators, surface suction, or active boundary layer control that injects momentum before adverse gradient becomes critical.",
+    "application": "Autonomous vehicles navigating sensor dropout zones (tunnels, dense urban canyons, adverse weather) experience an analogous boundary layer separation: the continuous-tracking layer between sensor state and world model detaches, producing turbulent uncertainty cascades. AV perception stacks can incorporate vortex generator equivalents — low-cost secondary sensors placed specifically to inject momentum into the tracking layer 500ms before predicted GPS or LiDAR dropout zones.",
+    "prediction": "AV systems incorporating pre-dropout sensor fusion handoffs — explicit IMU dead-reckoning momentum injection timed to predicted sensor availability gaps — will show lower maximum lateral deviation during tunnel traversal than matched systems relying on continuous fusion without boundary-anticipation logic.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Knot Invariant Reharmonization",
+    "mechanism_source": "knot theory",
+    "target_domain": "music composition",
+    "mechanism": "Knot theory studies topological equivalence classes of closed curves in 3-space. Two knots are equivalent if related by Reidemeister moves — local deformations that preserve crossing structure. Knot invariants (Jones polynomial, Alexander polynomial) remain constant under all such moves and characterize the knot's intrinsic topology regardless of how it is drawn or deformed on the page.",
+    "application": "Harmonic progressions can be treated as knot-like objects where voice-leading represents spatial path and the invariant is harmonic function under transformation. The same functional progression (ii–V–I) can be drawn many ways — different voicings, tritone substitutions, modal interchange — as Reidemeister-equivalent deformations that preserve underlying harmonic topology. Composers can use this to generate maximally varied reharmonizations guaranteed to preserve functional coherence.",
+    "prediction": "Musicians with formal harmonic training will rate chord progressions as functionally equivalent at above-chance accuracy when progressions are voice-leading Reidemeister-equivalent, and at near-chance accuracy for progressions differing in harmonic crossing number even when surface texture is matched.",
+    "viability": "speculative",
+    "confidence": 0.47
+  },
+  {
+    "name": "Unit Cell Defect Governance Audit",
+    "mechanism_source": "crystallography",
+    "target_domain": "corporate governance",
+    "mechanism": "Crystal lattices are built from repeating unit cells whose space group symmetry determines all macroscopic properties: cleavage planes, optical axes, electrical anisotropy. Defects — vacancies, interstitials, dislocations — are local deviations from the ideal unit cell that distort the lattice and can either strengthen (dislocation pinning) or catastrophically weaken (crack nucleation at vacancy clusters) bulk material. X-ray diffraction reads bulk structure through interference patterns produced by the repeating unit.",
+    "application": "Corporate governance has an analogous unit cell: the repeating decision-making module (board committee, management layer, oversight function) whose symmetry determines how power, information, and accountability propagate through the organization. Governance failures cluster at defect sites — vacancies in oversight roles, interstitial power accumulations outside formal structure — detectable through organizational diffraction equivalents: auditor independence ratios, board interlocking graphs, information latency metrics.",
+    "prediction": "Companies with low governance unit cell defect density — high oversight completeness, low role vacancy rates, low information latency between management and board — will show lower rates of material restatement and regulatory enforcement action, detectable using the proposed structural metrics one to three years before failure events.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Honest Signal Cosmetic Threshold",
+    "mechanism_source": "ethology",
+    "target_domain": "indie game development",
+    "mechanism": "Ethological study of ritualized display behaviors — peacock tail, stickleback courtship, fiddler crab claw-waving — shows that honest signaling requires the signal to be costly enough to preclude cheating. The Zahavi handicap principle states that only genuinely high-fitness individuals can afford to maintain costly display structures. Ritualization converts raw competitive behavior into stereotyped sequences allowing assessment without direct conflict.",
+    "application": "Indie game cosmetic monetization systems that use purely visual signals as status displays will stratify into honest-signal equilibria only if those signals are costly enough — in time or currency — to preclude universal adoption. Cosmetics priced below the median player's acquisition threshold cause signal inflation: the display loses discriminative value and status-seeking players abandon the system entirely. Ritualization theory identifies optimal pricing at the threshold where top-quartile players can maintain the display but bottom-quartile cannot.",
+    "prediction": "Indie games pricing status cosmetics above the median player acquisition threshold will show longer average retention among cosmetic purchasers than games pricing below the median threshold, controlling for genre and player demographic profile.",
+    "viability": "promising",
+    "confidence": 0.66
+  }
+]

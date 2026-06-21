@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ground Varnish Interface Design",
+    "mechanism_source": "violin varnishing",
+    "target_domain": "user interface design",
+    "mechanism": "Violin varnish is not merely cosmetic — it is acoustically functional. The varnish system consists of a ground layer (typically protein or mineral-based, penetrating the wood) and oil-resin topcoats applied in thin successive layers. The ground seals the wood's surface without bridging pores, preserving the wood's ability to vibrate freely while protecting it from humidity variation. Over-varnishing (bridging the pores with a thick elastic film) damps high-frequency resonance and degrades tonal brilliance; under-varnishing leaves the wood hygroscopically unstable.",
+    "application": "UI design operates under the same ground-varnish constraint. The 'ground layer' is the structural interaction design — affordances, feedback timing, navigation architecture — which must penetrate the user's mental model without sealing off their ability to respond freely (form their own efficient workflows). Visual design is the topcoat: multiple thin layers of refinement that protect the interaction structure from environmental instability (platform variation, accessibility needs) without bridging the structural pores into a rigid film that damps user responsiveness. Over-designed interfaces damp the tonal brilliance of expert use.",
+    "prediction": "UI designs evaluated by both novice and expert users will show a consistent expert-novice satisfaction divergence when visual layer complexity exceeds interaction layer complexity — experts will rate high-visual-density UIs lower on efficiency while novices rate them higher on confidence, mirroring how over-varnishing affects tonal quality differentially across frequencies.",
+    "viability": "speculative",
+    "confidence": 0.61
+  },
+  {
+    "name": "Pore Pressure Liquefaction Market Panic",
+    "mechanism_source": "earthquake liquefaction",
+    "target_domain": "market panic",
+    "mechanism": "Soil liquefaction occurs during earthquakes when saturated, loosely packed granular soils experience a rapid increase in pore water pressure due to cyclic shear stress. As pore pressure increases, effective stress (the particle-to-particle contact stress that gives soil its load-bearing capacity) drops toward zero: the soil transforms from a solid to a liquid despite no change in water content. The process is self-reinforcing — once grains begin to lose contact, shear resistance drops, allowing greater strain, which further increases pore pressure. The transition from solid to liquid is nearly instantaneous once threshold pore pressure is reached.",
+    "application": "Financial markets liquefy under analogous conditions. When correlated position unwinding (the seismic event) creates simultaneous sell pressure, bid-ask spreads widen (pore pressure increase), effective market liquidity (the particle-to-particle contact stress) drops toward zero. Traders who relied on the market's assumed solidity to execute orderly exits find the floor has vanished. The self-reinforcing loop — illiquidity forcing more selling, which drives more illiquidity — mirrors the pore pressure feedback. Liquefaction zones (assets with high correlation, concentrated ownership, leverage) can be mapped before the earthquake.",
+    "prediction": "Market segments identified as liquefaction-prone through three simultaneous signals — high ownership concentration (>40% of float held by similar strategy funds), elevated correlation among constituents, and high embedded leverage — will show greater drawdown amplification during volatility spikes than segments with equivalent average beta but heterogeneous ownership.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Resin Immunity Organizational Defense",
+    "mechanism_source": "bee propolis production",
+    "target_domain": "organizational immunity",
+    "mechanism": "Bees collect plant resins and process them with salivary enzymes to produce propolis, a sticky antimicrobial compound used to seal hive crevices, embalm intruders too large to eject, and sterilize the reproductive core of the hive. Propolis composition varies by local plant community — the hive's immune chemistry is specifically adapted to local pathogen pressures. The colony's propolis production scales with threat level: hives exposed to higher pathogen loads maintain thicker propolis coatings and show lower disease rates.",
+    "application": "Organizational immunity — the capacity to resist fraud, misaligned incentives, information attacks, and cultural contamination — should function as propolis: locally sourced (adapted to the specific threat environment the organization operates in), scaling with threat level, and capable of embalming large intruders that cannot be ejected (acknowledging and containing legacy problems too large to remove). Generic compliance frameworks (imported propolis) lack the specific antimicrobial chemistry adapted to local pathogens and provide inferior protection.",
+    "prediction": "Organizations that develop compliance and ethics programs through bottom-up threat assessment (identifying industry-specific and function-specific risk profiles first) will show lower rates of compliance failures over a 5-year period than organizations implementing top-down generic compliance frameworks from industry templates, controlling for organization size.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Flyball Governor Algorithmic Regulation",
+    "mechanism_source": "steam engine governor",
+    "target_domain": "algorithmic trading regulation",
+    "mechanism": "The Watt centrifugal governor regulates steam engine speed through negative feedback: spinning flyball masses rise under centrifugal force as engine speed increases, mechanically throttling steam input until speed stabilizes. The governor cannot overshoot without introducing instability (hunting): if the valve response is too aggressive, the system oscillates around the target speed rather than stabilizing. Stable regulation requires matching the governor's gain (sensitivity) to the engine's inertia — too responsive a governor destabilizes a low-inertia engine.",
+    "application": "Algorithmic trading regulation requires the same gain-matching principle. Circuit breakers (the regulatory governor) must be calibrated to market inertia: too sensitive a trigger (halting on small volatility spikes) destabilizes markets by creating binary halt/run dynamics; too sluggish a trigger allows full liquefaction before intervention. Regulatory governors must also be immune to hunter instability — regulations that cause traders to pre-position around known circuit breaker levels create the oscillation they were designed to prevent.",
+    "prediction": "Markets with circuit breaker thresholds calibrated to historical intraday volatility distributions (dynamically adjusted quarterly) will show lower frequency and shorter duration of volatility cascades than markets with fixed-percentage circuit breakers, because dynamic calibration maintains appropriate gain-to-inertia matching as market conditions change.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Biomass Canopy Content Curation",
+    "mechanism_source": "kelp harvesting",
+    "target_domain": "content curation",
+    "mechanism": "Sustainable kelp harvesting removes only the upper fronds of the canopy, leaving the holdfast and lower stipe intact for regeneration. Kelp grows from a meristem at the blade base — new growth emerges from the bottom of the plant, pushing older material upward. Removing upper canopy material therefore harvests the oldest, most photosynthetically senescent tissue while preserving the active growth zone. Over-harvesting (removing the meristem) eliminates regenerative capacity; under-harvesting allows canopy self-shading that limits total productivity.",
+    "application": "Content curation on information platforms must harvest upper-canopy material — the most-circulated, oldest, context-drained versions of ideas — while preserving the meristematic growth zone of emerging discussion. Over-curation (algorithmic suppression of non-trending material) removes the meristem of novel discourse. Under-curation allows self-shading: high-circulation legacy content blocks emergent ideas from receiving attention. Effective curation harvests for novelty-to-age ratio rather than for absolute engagement, removing the oldest high-engagement content to allow new growth to reach the surface.",
+    "prediction": "Recommendation algorithms that explicitly discount content with high engagement but low recency (older than 90 days) in favor of emerging-novelty signals will show higher rates of new-content discovery per user session than algorithms optimizing for total engagement, without proportional reductions in session duration.",
+    "viability": "speculative",
+    "confidence": 0.62
+  },
+  {
+    "name": "Elevation Differential Resilience Finance",
+    "mechanism_source": "stilt house construction",
+    "target_domain": "disaster-resilient finance",
+    "mechanism": "Stilt houses in flood-prone and seismically active regions achieve resilience through deliberate elevation and ground-decoupling. The structural load is transmitted to the ground through narrow-section stilts that penetrate through unstable surface layers to reach competent bearing strata below. The house body floats above flood level and is decoupled from ground-surface lateral movement. Critically, the stilt connection is designed to flex under lateral load rather than transmit it rigidly to the superstructure — the foundation absorbs the disturbance without amplifying it.",
+    "application": "Disaster-resilient financial architecture applies the same elevation and decoupling principles. Household or institutional financial structures should be elevated above 'flood level' (liquidity disruption thresholds) by maintaining liquid reserves that exceed historical drawdown maxima. Deep stilt connections — assets anchored in productive, long-duration economic activities rather than surface market liquidity — transmit support without amplifying surface volatility. Financial stilts that are too rigid (over-collateralized short-term instruments) transmit lateral shocks directly to the superstructure.",
+    "prediction": "Households maintaining liquid reserves covering more than 6 months of expenses (stilt elevation) and long-duration productive assets covering more than 60% of net worth (deep stilts) will show smaller consumption reductions during economic contractions than households with equivalent net worth but shorter reserve periods and higher short-duration asset concentrations.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Sacrificial Sand Iterative Design",
+    "mechanism_source": "sand mandala creation",
+    "target_domain": "iterative design",
+    "mechanism": "Tibetan Buddhist monks create sand mandalas over days or weeks using colored sand applied through metal funnels to form intricate geometric patterns of extraordinary precision. The mandala's purpose is explicitly not its product: upon completion, the sand is ritually swept from the center outward and dispersed in flowing water. The creation process is the point — the practice of sustained precise attention — and the dissolution affirms non-attachment to outcomes. A new mandala is begun without reference to the swept pattern.",
+    "application": "Iterative design in software or product development should institutionalize the mandala dissolution as a structural practice rather than treating each prototype as a preserved artifact to be iterated incrementally. Deliberate, complete dissolution of a design iteration — rather than incremental modification — forces designers to reconstruct from accumulated insight rather than from accumulated artifact, preventing the calcification of early design decisions that survive through inertia rather than merit. Each new iteration starts from the center.",
+    "prediction": "Design teams that fully deprecate (delete, not archive) each prototype before beginning the next iteration will surface more structural design changes between versions than teams that iteratively modify living prototypes, because deletion prevents anchoring to existing implementation decisions.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Thermal Gradient Cooperative Huddle Theory",
+    "mechanism_source": "penguin huddling",
+    "target_domain": "cooperative game theory",
+    "mechanism": "Emperor penguins survive Antarctic winter by forming dense huddles of thousands of individuals. The huddle generates a thermal gradient: the interior is warm (up to 37°C) while the exterior is exposed. Individual penguins on the cold exterior edge move inward as they lose heat, pushing interior penguins outward in a slow continuous rotation. No central coordination is required — each penguin follows the simple local rule of moving toward warmth. The resulting collective rotation maximizes average temperature across all individuals and sustains the group through conditions that would kill any individual in minutes.",
+    "application": "Cooperative game theory struggles with stable coalitions in dynamic environments — free-rider problems typically destabilize cooperation. The penguin huddle demonstrates a mechanism for self-sustaining cooperation through individual gradient-following without any enforcement mechanism. In organizational contexts, structures that create thermal gradients (visible differential burden distribution, with rotation mechanisms that move high-burden individuals inward toward resource concentration) produce cooperative stability through local incentive alignment rather than top-down monitoring.",
+    "prediction": "Work teams structured with explicit burden-rotation mechanisms (rotating assignment of high-effort, low-visibility tasks) will sustain higher cooperative performance over 12-month periods than teams with fixed role assignments, even without monitoring or incentive changes, because rotation eliminates the thermal exterior effect of persistent high-burden individuals.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Distributary Channel Knowledge Dissemination",
+    "mechanism_source": "river delta formation",
+    "target_domain": "knowledge dissemination",
+    "mechanism": "River deltas form as a river's sediment load exceeds its channel's transport capacity, causing it to deposit material and split into distributary channels. Each distributary captures a fraction of total flow, deposits sediment at its own mouth, builds its own sub-delta lobe, and eventually becomes clogged by its own deposits — at which point flow avulses to a new channel elsewhere in the delta plain. The delta is a dynamic system in which any single channel path eventually defeats itself through its own success at deposition.",
+    "application": "Knowledge dissemination through any single dominant channel (a flagship journal, a major platform, an authoritative textbook) eventually clogs its own channel through success: the dominant channel attracts so much sediment (submission volume, content mass) that it loses discriminating capacity and begins depositing noise alongside signal. The system naturally avulses to new channels when the dominant channel's quality-filtering capacity is overwhelmed. Knowledge ecosystem health requires maintaining multiple active distributary channels simultaneously rather than concentrating flow through a single authoritative outlet.",
+    "prediction": "Academic fields with higher concentration of publications in top-five journals (lower distributary diversity) will show slower integration of methodological innovations from adjacent fields than fields with equivalent total publication volume distributed across more channels, because concentrated channels develop sediment-clogging effects that delay novel ideas.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Weld-Through Bilingual Education",
+    "mechanism_source": "damascene metalwork",
+    "target_domain": "bilingual education",
+    "mechanism": "Damascus steel and damascene inlay work involve folding and welding different iron or steel alloys together repeatedly, creating layered composites in which each material retains its distinct properties (hardness, flexibility, carbon content) while being structurally integrated. The folding process orients the grain boundaries of each alloy perpendicular to shear stress rather than parallel to it, which is why pattern-welded blades resist fracture better than any single alloy. The visible pattern at the surface is an expression of the entire three-dimensional laminar structure beneath.",
+    "application": "Effective bilingual education is pattern-welding, not alloy-blending. Each language must retain its distinct phonological, grammatical, and conceptual grain — its laminar properties — while being structurally integrated with the other through repeated folding (code-switching practice, translation exercises, cross-linguistic metalinguistic tasks). Educational programs that attempt to blend languages into a single hybrid medium produce a mixed alloy inferior to either source material. Programs that preserve distinct language registers while systematically welding them at cognitive interfaces produce the crack-resistance of pattern-welded steel.",
+    "prediction": "Bilingual education programs that explicitly maintain language separation (separate instruction times, clear code-switching protocols) while including structured cross-linguistic metalinguistic tasks will produce higher metalinguistic awareness scores and higher proficiency in both languages than programs using mixed-language instructional approaches.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Cold Store Strategic Reserve Management",
+    "mechanism_source": "root cellaring",
+    "target_domain": "strategic reserves management",
+    "mechanism": "Root cellaring preserves perishable produce through the winter by exploiting underground thermal stability (constant temperature near 4°C), high humidity, and controlled atmosphere (CO2 accumulation slows respiration). Different crops require different storage conditions — apples emit ethylene that spoils carrots; potatoes need darkness to prevent solanine development; onions need low humidity while root vegetables need high humidity. A successful root cellar is zoned by crop requirement, with incompatible crops physically separated. Stored produce is inspected regularly and any rotting individual removed immediately before the rot spreads.",
+    "application": "Strategic reserves management — whether of food, fuel, financial instruments, or military materiel — requires the same zoned-storage logic. Different reserve categories have incompatible storage conditions: liquid financial reserves in proximity to illiquid strategic assets create valuation 'ethylene' that distorts decision-making about both. Physical reserves require humidity-equivalent conditions (security, access protocols, maintenance schedules) calibrated to reserve type. Critically, reserves must be inspected regularly and degraded components removed before spoilage cascades — hoarding without inspection creates a false sense of reserve adequacy.",
+    "prediction": "Nations maintaining strategic petroleum reserves with quarterly condition-assessment and rotation protocols (removing and consuming oldest stock, replenishing with fresh) will experience smaller supply disruptions per reserve-volume unit during supply shocks than nations with equivalent reserve volumes but infrequent rotation.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Surface Tension Crisis Team Formation",
+    "mechanism_source": "fire ant raft formation",
+    "target_domain": "crisis team formation",
+    "mechanism": "When flooded, fire ant colonies form living rafts by linking their bodies through interlocking legs and mandibles into a waterproof, buoyant structure. The raft forms within minutes through self-organized local attachment with no central coordination. Critically, the raft is dynamic: ants on the wet underside rotate to the dry topside as they become exhausted, maintaining structural integrity through continuous internal circulation. The queen is positioned at the center in the most protected zone. The raft maintains cohesion for days and immediately dismembers when it contacts suitable ground.",
+    "application": "Crisis response teams should be formed and structured on the fire ant raft model rather than the static hierarchical model. Self-organized attachment (personnel volunteering for roles based on proximity to the crisis) outperforms top-down assignment during fast-evolving crises because it leverages local information. Dynamic rotation (cycling high-stress roles to prevent fatigue-based structural failure) maintains team coherence over extended crises. The 'queen protection' principle — actively shielding critical decision-making capacity from the highest-load zones — is a design requirement, not an emergent outcome.",
+    "prediction": "Crisis response teams that implement structured role-rotation protocols (mandatory relief of highest-intensity roles every 4-6 hours) will maintain higher decision quality at the 24-hour mark of a crisis than teams with fixed role assignments, as measured by decision process quality metrics rather than decision outcome quality.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Karst Dissolution Institutional Erosion",
+    "mechanism_source": "limestone dissolution",
+    "target_domain": "institutional erosion",
+    "mechanism": "Limestone landscapes dissolve through the action of slightly acidic rainwater (carbonic acid) penetrating fractures and chemically dissolving calcium carbonate. The process is self-reinforcing: dissolution widens fractures, allowing more water flow, which accelerates dissolution further. The surface may appear solid while extensive cavern systems have developed beneath. Collapse sinkholes form suddenly when the remaining roof rock becomes too thin to support surface load — the landscape fails catastrophically at a threshold determined by subsurface geometry invisible from the surface.",
+    "application": "Institutional erosion follows karst dynamics. External critique and internal dissatisfaction are the slightly acidic water that penetrates institutional fractures — points of inconsistency between stated values and actual practice, between formal rules and informal norms. Each penetration widens the fracture and accelerates further dissolution. The institution's surface (public face, formal structure) may remain intact while an extensive cavern system of illegitimacy has developed beneath. Institutional collapse — a sudden public crisis, a mass exit, a regulatory intervention — occurs at a threshold that cannot be predicted from surface observation alone.",
+    "prediction": "Institutions rated highly on surface governance metrics (formal transparency reports, ethics codes, board oversight) but showing widening gaps between stated and perceived values in internal culture surveys will show higher rates of subsequent public governance failures than institutions with weaker formal governance but smaller stated-perceived value gaps, because cavern formation predicts collapse better than surface condition.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Cranial Contour Talent Assessment",
+    "mechanism_source": "phrenology",
+    "target_domain": "talent assessment",
+    "mechanism": "Phrenology claimed that cognitive and personality traits correspond to the size of specific brain regions, and that these regional sizes are reflected in the external contours of the skull, making skull palpation a valid method for assessing talent, character, and intellectual capacity. The theory assumed a direct anatomical-behavioral mapping, a skull-brain shape correspondence, and that individual differences in trait magnitude produce measurable surface topography differences — none of which are supported by any evidence.",
+    "application": "Applying the phrenological framework to talent assessment would involve identifying proxy surface measurements (appearance, presentation style, physical presence, handwriting, personality test scores derived from shallow behavioral cues) as reliable indicators of underlying cognitive or leadership capacity. The parallel is structural: assuming that a measurable surface property (the 'skull') transparently reflects an underlying capacity (the 'brain region') without any established causal mechanism. Contemporary talent assessment methods that rely on unvalidated proxies reproduce the phrenological error at the assessment-instrument level.",
+    "prediction": "Talent assessment instruments that measure superficial behavioral proxies without established predictive validity against job performance metrics will show inter-rater reliability comparable to unstructured interviews (r ≈ 0.38) and predictive validity no better than chance for complex roles, replicating phrenology's empirical failure pattern in a modern assessment context.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  },
+  {
+    "name": "Great Hall Acoustic Community Platform",
+    "mechanism_source": "mead hall architecture",
+    "target_domain": "community platform design",
+    "mechanism": "The Germanic mead hall was architecturally designed around a single communal space with a central hearth, high-status seating at the upper end (the dais) and graduated seating along the long sides with lowest-status positions near the doors. The architecture encoded social hierarchy spatially while forcing all members into a single shared acoustic environment: everyone heard the same songs, the same boasts, the same news. The hall simultaneously enforced hierarchy (who sat where) and created radical informational equality (everyone heard everything).",
+    "application": "Community platform design must solve the same architectural tension: spatial hierarchy (reputation systems, moderator roles, contribution ranking) that creates legible structure, combined with informational commons (all members have access to all contributions regardless of status). Platforms that replicate the mead hall's acoustic commons — no private streams for high-status members, no algorithmic filtering by status — maintain the community's capacity for collective sensemaking even as they differentiate role and recognition. Platforms that break the acoustic commons (elite subgroups, status-gated content) create informational feudalism.",
+    "prediction": "Online communities in which all content is visible to all members regardless of contribution rank (acoustic commons) will show lower rates of community fragmentation over three years than communities with status-gated access tiers, even when both implement equivalent reputation systems, because shared information access maintains collective identity.",
+    "viability": "promising",
+    "confidence": 0.69
+  }
+]

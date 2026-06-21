@@ -1,0 +1,152 @@
+[
+  {
+    "name": "The Rigging Load Distribution Framework",
+    "mechanism_source": "circus arts",
+    "target_domain": "submarine design",
+    "mechanism": "Aerial circus rigging distributes dynamic shock loads across multiple anchor points using block-and-tackle systems, rated for 10x the performer's dynamic impact force. Riggers calculate peak G-forces from drops and swings, then route load paths through truss nodes to prevent single-point failure. Progressive load-shedding via safety lines prevents cascade failure when primary rigging is overloaded.",
+    "application": "Submarine pressure hull design must distribute hydrostatic loads and shock pulses from depth charges or near-miss explosions across hull frames, bulkheads, and penetration fittings. Rigging logic maps directly to frame-and-stringer topology, where redundant load paths prevent catastrophic hull breach from localized stress concentrations.",
+    "prediction": "Submarines designed using distributed multi-path load routing analogous to circus rigging topology will show statistically lower hull deformation under simulated shock testing than single-path designs at equivalent material weight.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "The Waterbomb Crease Hierarchy Model",
+    "mechanism_source": "origami engineering",
+    "target_domain": "museum conservation",
+    "mechanism": "Origami waterbomb bases and Miura-ori tessellations fold flat using a strict hierarchy of mountain and valley creases that must resolve in a specific sequence to avoid locked states. Crease assignment determines which faces move first and which defer, creating a kinematic dependency graph. Reversibility is guaranteed only when the crease pattern satisfies Maekawa's theorem at every interior vertex.",
+    "application": "Conservation interventions on folded or creased historical documents and textiles involve a similar sequencing problem: unfolding a brittle 16th-century map requires identifying primary and secondary crease hierarchies so humidification and mechanical relaxation proceed in the correct order, preventing fiber fracture.",
+    "prediction": "Conservation teams trained explicitly in crease-hierarchy sequencing will produce measurably fewer micro-tears when unfolding aged paper artifacts compared to teams using conventional gradual-moisture protocols without sequence analysis.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "The Relay Station Amplification Doctrine",
+    "mechanism_source": "morse telegraphy",
+    "target_domain": "disaster relief coordination",
+    "mechanism": "Nineteenth-century telegraph networks used relay stations every 200-300 miles because galvanic current attenuated over wire resistance. Each relay station re-keyed the incoming signal from scratch using a locally powered sounder, resetting noise accumulation. The relay operator also performed error correction by querying upstream when signals were garbled, implementing a store-and-forward protocol with human verification.",
+    "application": "Disaster relief coordination collapses when communication chains grow too long and messages degrade through successive handoffs. Relay-station logic argues for designated intermediate coordination nodes with independent communication assets and authority to re-originate orders, preventing the telephone-game degradation of resource requests across agency boundaries.",
+    "prediction": "Relief operations that explicitly designate relay coordination nodes with re-origination authority will show lower rates of resource misallocation caused by corrupted orders than operations relying on linear chain-of-command message passing.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "The Drafting Wake Exploitation Protocol",
+    "mechanism_source": "competitive swimming",
+    "target_domain": "freight logistics",
+    "mechanism": "In open-water and pool competitive swimming, trailing swimmers exploit the pressure wake of a lead swimmer to reduce hydrodynamic drag by 10-20%, measurably reducing metabolic cost at equivalent speeds. Optimal drafting position is 0-50 cm behind the lead swimmer's feet, where vortex shedding creates a low-pressure corridor. Swimmers must modulate stroke rate to maintain position without contact fouling.",
+    "application": "Freight convoys and rail freight scheduling can exploit analogous drafting dynamics: trucks operating at 10-meter headways reduce aerodynamic drag by up to 20% per trailing vehicle. Logistics platforms can schedule multi-carrier convoys on shared highway corridors to reduce fuel costs while maintaining independent ownership of cargo.",
+    "prediction": "Freight platforms implementing systematic convoy scheduling with 10-15 meter headways on high-volume corridors will document fuel consumption reductions of 12-18% per non-lead vehicle compared to independently routed trucks on identical routes.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "The Dermis Permanence Gradient Theory",
+    "mechanism_source": "tattoo art",
+    "target_domain": "language preservation",
+    "mechanism": "Tattoo ink permanence depends on deposition depth: ink placed too superficially in the epidermis fades within months as keratinocytes migrate outward and shed, while ink deposited into the papillary dermis at 1-2mm binds to stationary macrophages that encapsulate pigment particles for decades. Particle size matters—larger pigment aggregates evade lymphatic clearance while smaller particles migrate to lymph nodes and fade.",
+    "application": "Language preservation interventions vary in permanence depending on depth of community embedding. Surface-level programs (school curricula without community use) fade as generations turn over, analogous to epidermal ink. Deep-dermis equivalents are intergenerational transmission contexts—ceremonial, domestic, and economic—where language use becomes structurally embedded in daily survival and identity.",
+    "prediction": "Endangered languages with active transmission in at least three distinct non-school domains (ceremonial, domestic, economic) will show higher speaker-count stability over 20-year periods than languages with equivalent school-based programs but no multi-domain community use.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "The Mycelial Senescence Signaling Model",
+    "mechanism_source": "mycology",
+    "target_domain": "urban beekeeping",
+    "mechanism": "Mycelial networks regulate resource allocation across hyphal fronts through localized senescence signals: when a hyphal sector exhausts substrate, it undergoes autolysis and reallocates cytoplasm and nutrients toward actively growing fronts via anastomosis channels. The network thus continuously contracts dying sectors and expands productive ones through chemical gradient sensing without central coordination.",
+    "application": "Urban beekeeping operations managing multiple hive sites across a city can apply this logic to hive placement strategy: systematically contracting apiary presence in depleted forage zones (post-bloom, construction disruption) and expanding into newly available forage corridors, using hive productivity data as the chemical gradient signal.",
+    "prediction": "Urban beekeeping networks using dynamic site reallocation based on per-hive honey yield data will produce 15-25% higher aggregate yields per hive across a season compared to networks maintaining fixed static placements.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "The Genus-0 Manifold Constraint Architecture",
+    "mechanism_source": "topology",
+    "target_domain": "prison architecture",
+    "mechanism": "Topological genus counts the number of holes in a surface, governing which paths on the surface are contractible to a point. A genus-0 surface (sphere) has no non-contractible loops, meaning any closed path can be continuously shrunk to a point—there are no topological handles allowing passage around obstacles. Adding a handle (genus-1, torus) creates two independent non-contractible loops.",
+    "application": "Prison perimeter and interior circulation design is fundamentally a problem of controlling non-contractible movement paths. A facility designed with genus-0 topological structure—no movement path that circles any secure zone without crossing a controlled checkpoint—eliminates topological backdoors. Architectural genus analysis can identify unintended through-routes created by stairwells, utility corridors, and mechanical spaces.",
+    "prediction": "Prisons subjected to topological genus analysis of their circulation graphs prior to construction will exhibit fewer successful escape attempts exploiting utility or maintenance routes compared to contemporaneous facilities of equivalent investment without such analysis.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "The Bathymetric Soundings Uncertainty Model",
+    "mechanism_source": "cartography",
+    "target_domain": "professional poker",
+    "mechanism": "Historical nautical cartographers marked uncertain depth soundings with 'ED' (existence doubtful) or dashed contours, communicating epistemic confidence directly on the map surface. Soundings taken from slow, single-beam surveys produced high-uncertainty depth estimates in areas of complex bathymetry, and cartographers developed conventions for grading reliability from survey-grade to reconnaissance-grade data.",
+    "application": "Professional poker players maintain implicit uncertainty maps of opponents' hand ranges, where some range segments are survey-grade (heavily constrained by observed betting patterns) and others are reconnaissance-grade (rarely tested nodes). Formalizing this as a tiered uncertainty structure allows more calibrated bet-sizing: apply maximum pressure to high-confidence range advantages and minimum exposure against survey-uncertain segments.",
+    "prediction": "Poker players who explicitly annotate opponent range maps with confidence tiers and adjust bet sizing proportionally to confidence level will show higher expected value in medium-stakes cash games compared to equal-skill players using unweighted range estimates.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "The Propolis Sealing Protocol",
+    "mechanism_source": "beekeeping",
+    "target_domain": "cryptocurrency mining",
+    "mechanism": "Honeybees collect propolis—a resinous compound from tree buds—and apply it to seal hive gaps smaller than 6mm, while bee space (6-9mm) is left open for passage. Propolis has antimicrobial properties and hardens into a thermoplastic seal that prevents pathogen infiltration. Bees allocate propolis application preferentially to thermally critical gaps that would otherwise disrupt hive temperature regulation.",
+    "application": "Cryptocurrency mining operations must seal 'thermal gaps' in their facility infrastructure—points where heat, humidity, or electromagnetic interference infiltrate from outside and degrade ASIC performance. Propolis logic argues for a systematic gap-audit protocol that identifies sub-threshold vulnerabilities (minor airflow leaks, EMI ingress points) and seals them with highest priority near hash-rate-sensitive hardware.",
+    "prediction": "Mining facilities implementing systematic thermal and EMI gap-sealing protocols modeled on propolis prioritization (seal smallest, highest-impact gaps first) will show statistically higher hash-rate stability and lower hardware failure rates per petahash compared to facilities using reactive maintenance only.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "The False Set Single Pin Vulnerability Model",
+    "mechanism_source": "lock picking",
+    "target_domain": "competitive ballroom dance",
+    "mechanism": "In a pin tumbler lock under tension, picking exploits manufacturing tolerances that cause driver pins to bind sequentially rather than simultaneously. When a picker sets a pin at the shear line, slight rotational bias in the plug holds it while the picker moves to the next binding pin. The false set occurs when all but one driver pin are set at an incorrect shear line, allowing partial rotation before the remaining pin resets everything.",
+    "application": "In competitive ballroom dance, couples must synchronize all technical elements—footwork, body alignment, musicality, partnership connection—simultaneously for judges. A 'false set' failure occurs when a couple achieves near-perfect scores on all criteria except one critically weighted element (e.g., partnership frame), yielding partial placement advancement despite overall technical quality, until the binding element is resolved.",
+    "prediction": "Ballroom couples who train using deliberate single-element isolation drills targeting their lowest-scored criterion will show faster overall competitive ranking improvement than couples distributing practice time proportionally across all technical elements.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "The Burst Timing Color Chemistry Framework",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "opera staging",
+    "mechanism": "Aerial pyrotechnic shells use dual-layer timing: a lift charge launches the shell on a calculated fuse burn time, and a burst charge detonates at peak altitude. Color chemistry depends on metal salt combustion temperatures—strontium produces red at 650°C, barium green at 1200°C—and oxidizer-to-fuel ratios that must be balanced for complete combustion without producing black smoke. Timing tolerances must be within 0.1 seconds for coordinated multi-shell effects.",
+    "application": "Opera staging involves layered timing analogous to pyrotechnic sequencing: stage machinery cues, lighting state changes, and musical climaxes must converge within narrow windows for dramatic effect. Color palette choices for lighting states mirror metal salt chemistry—each hue carries specific emotional valence and requires precise intensity ratios to avoid visual 'smoke' (muddied color mixing on stage).",
+    "prediction": "Opera productions that explicitly synchronize lighting color transitions to harmonic climax points within ±2 beats will receive higher audience emotional response ratings than productions using lighting cues timed to stage action rather than musical structure.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "The Rounding and Backing Structural Memory Model",
+    "mechanism_source": "bookbinding",
+    "target_domain": "wedding planning",
+    "mechanism": "In traditional bookbinding, rounding and backing shapes the text block spine into a convex curve before case attachment, permanently deforming the paper fibers at each signature fold. This structural memory prevents the book from collapsing flat at the spine under its own weight. The degree of rounding (typically 1/3 the text block thickness) determines the book's ability to open flat without cracking the spine.",
+    "application": "Wedding planning requires structural memory built into the event sequence: vendor relationships, rehearsal timing, and logistical dependencies must be 'rounded and backed' well in advance so the day's structure holds its shape under load. Weddings that skip iterative structural pre-shaping—rehearsal dinners, vendor walk-throughs, timeline stress-tests—collapse under the weight of real-time complexity.",
+    "prediction": "Weddings with at least three structured pre-event timeline rehearsals including vendor coordination will show statistically lower rates of major day-of logistical failures compared to weddings relying on single walk-through rehearsals.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "The Mew Conditioning Cycle Theory",
+    "mechanism_source": "falconry",
+    "target_domain": "veterinary surgery",
+    "mechanism": "Falconers use the mew—a weathering and conditioning enclosure—to prepare raptors for hunting season through controlled exposure to environmental stressors: light levels, temperature variation, and social presence. Mewing allows feather development during molt while gradually conditioning the bird's stress response. Timing of hunting conditioning is calibrated to feather completion, body weight targets, and behavioral readiness indicators.",
+    "application": "Veterinary surgical preparation parallels mew conditioning: pre-operative protocols involve progressive physiological conditioning of high-risk patients (cardiac patients, geriatric animals) through monitored exposure to controlled stressors—graduated anesthesia trials, fluid loading, nutritional optimization—before full surgical intervention. Readiness indicators (blood panel thresholds, cardiac output measures) gate progression like falconry behavioral markers.",
+    "prediction": "High-risk veterinary surgical patients subjected to structured multi-day pre-operative conditioning protocols will show lower rates of intraoperative hemodynamic instability compared to equivalent patients prepared using single-day standard pre-operative protocols.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "The Die Alignment Tolerance Stack Model",
+    "mechanism_source": "numismatics",
+    "target_domain": "vineyard management",
+    "mechanism": "Coin dies must be aligned within strict angular tolerances (coin rotation) for a mint issue to be standardized; misalignment produces rotated dies (die axis variation) that are diagnostic of production anomalies. Die wear accumulates across a striking sequence, and numismatists trace die marriages—pairings of specific obverse and reverse dies—to reconstruct mint production chronology. Late-die-state coins show progressive wear artifacts that degrade strike quality.",
+    "application": "Vineyard management involves sequential 'die marriages'—pairings of rootstock, scion variety, and clonal selection—whose compatibility tolerances determine long-term productive output. Late-state vine fatigue (trunk disease accumulation, loss of vigor) mirrors late-die-state wear: diagnostic markers allow viticulturalists to identify which variety-rootstock pairings are degrading and schedule replanting before catastrophic yield collapse.",
+    "prediction": "Vineyards using systematic vine health monitoring to identify early-stage trunk disease analogous to die-state wear will replace degrading blocks 3-5 years earlier than vineyards relying on visible symptom assessment, and will show higher average yields in the subsequent decade.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "The Gold-Seam Load Path Inversion Hypothesis",
+    "mechanism_source": "kintsugi",
+    "target_domain": "standup comedy",
+    "mechanism": "Kintsugi repair fills fracture paths with urushi lacquer mixed with gold powder, creating a gold seam that is structurally harder than the surrounding ceramic matrix in compression. The repair paradoxically makes the fracture path a zone of concentrated material that redistributes applied loads away from the repaired surface. However, the gold seam has lower tensile strength than intact ceramic, so the object's failure mode changes: it is now more brittle in tension along the original fracture line while being stiffer in compression.",
+    "application": "Standup comedians who openly discuss personal failures and embarrassments onstage create 'gold seams'—these confessed vulnerabilities become the strongest comedic material because the audience's instinct to cringe is preempted by the comedian's ownership. The material is paradoxically load-bearing in performance but represents reduced resilience if the same material is re-broken by hecklers or real-life repetition.",
+    "prediction": "Standup sets in which 40-60% of material is derived from confessed personal failure will receive higher audience laughter ratings than sets of equivalent technical quality using primarily observational or external-target material, particularly in intimate venue settings.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  }
+]

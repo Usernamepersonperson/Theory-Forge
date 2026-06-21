@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ridge and Course Layering as a Defense-in-Depth Security Topology",
+    "mechanism_source": "thatching",
+    "target_domain": "cybersecurity",
+    "mechanism": "Traditional thatching achieves weatherproofing through layered redundancy: bundles (yealms) of straw or reed are laid in overlapping courses from eave to ridge so that each layer sheds water onto the layer below, no single layer being watertight in isolation. The ridge is the most structurally critical zone and receives the heaviest bundling and the most frequent maintenance. Depth of thatch (layer count) determines thermal performance and longevity; a thin thatch fails rapidly under sustained rain because individual courses saturate.",
+    "application": "Cybersecurity architectures replicate thatching logic in defense-in-depth: no single security control is watertight, but layered overlapping controls (perimeter firewall, network segmentation, endpoint detection, behavioral analytics, zero-trust identity verification) collectively shed attack vectors downward through the stack. The 'ridge'—the highest-criticality asset (crown jewel data, privileged identity store)—receives the heaviest control layering and most frequent review. Thin security stacks (cost-optimized to minimal controls) fail under sustained adversarial pressure because individual layers saturate under targeted attack.",
+    "prediction": "Organizations with documented defense-in-depth architectures exceeding four independent control layers for critical asset protection will show lower rates of data exfiltration in confirmed breach events than organizations with equivalent perimeter controls but fewer than three inner layers, measurable from insurance claim and breach disclosure databases.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Shadow Gnomon Geometry and the Temporal Mapping of User Intent",
+    "mechanism_source": "sundial design",
+    "target_domain": "user experience",
+    "mechanism": "A sundial translates solar position (an invisible, continuous variable) into a readable shadow position on a calibrated face. The gnomon angle must match the site's latitude to cast shadows that accurately track solar time; a gnomon misaligned to local latitude produces systematic error that varies nonlinearly across the day. The dial face must also account for the equation of time—the nonuniform speed of apparent solar motion across seasons—to convert solar time to mean clock time.",
+    "application": "User experience design translates user intent (an invisible mental state) into interface affordances (calibrated faces). The gnomon angle maps to the designer's mental model of user goals; misalignment between designer model and actual user mental model produces systematic navigation errors that vary nonlinearly across task types. The equation-of-time correction maps to contextual variation in user behavior across use contexts (mobile vs. desktop, stressed vs. leisurely, novice vs. expert)—a UX optimized for one context produces systematic errors in others, just as a sundial accurate in June diverges in December without equation-of-time correction.",
+    "prediction": "UX designs validated through contextual inquiry research (capturing user intent in actual use contexts) will show lower task-completion error rates and higher satisfaction scores in usability testing across varied use contexts than designs validated through lab-based cognitive walkthrough alone, even when lab task completion rates are equivalent.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Dispersal Vector Specificity and the Contagion Network Structure of Viral Content",
+    "mechanism_source": "seed dispersal",
+    "target_domain": "viral marketing",
+    "mechanism": "Plant seed dispersal strategies are tightly coupled to specific vector types: wind-dispersed seeds (dandelion, maple samara) are small and light, maximizing aerial range at the cost of spatial precision; animal-dispersed seeds exploit nutritional rewards (fruit, arils) to achieve directed placement into high-quality microhabitats via gut passage; ballistic dispersers (touch-me-not, witch hazel) use mechanical energy storage for short-range precision placement. Each strategy optimizes for a different tradeoff between dispersal distance, placement accuracy, and vector reliability.",
+    "application": "Viral content spreads through analogous vector-specific mechanisms: ambient algorithmic distribution (wind dispersal) maximizes reach but sacrifices demographic precision; influencer-mediated sharing (animal dispersal with nutritional reward—creator compensation) achieves directed placement into target community microhabitats; referral and DM forwarding (ballistic dispersal) achieves short-range but high-precision placement within existing trust networks. Campaigns that attempt to optimize for all three simultaneously typically underperform single-strategy campaigns, just as evolutionary intermediate dispersal syndromes are selected against.",
+    "prediction": "Marketing campaigns that commit to a single dominant dispersal strategy (algorithm-optimized content vs. influencer-mediated vs. referral-incentivized) and optimize content format for that vector will achieve higher viral coefficients within their target vector channel than multichannel campaigns of equivalent budget that divide creative execution across all three.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Chimney System Mapping and the Topography of the Unconscious",
+    "mechanism_source": "spelunking",
+    "target_domain": "psychoanalysis",
+    "mechanism": "Cave exploration proceeds through survey techniques that map the three-dimensional topology of passages, chambers, and chimneys using compass, clinometer, and measuring tape. Passages branch, loop, pinch to impassability, and open unexpectedly into chambers; the explorer carries only a local light source and must build cumulative spatial memory across multiple descents. Significant cave features are often discovered only by following unlikely or uncomfortable passages that experienced cavers initially bypassed.",
+    "application": "Psychoanalytic exploration maps an analogous underground topology: the unconscious is spatially structured (in Freud's topographic model), with passages connecting manifest content to latent chambers. The analyst and analysand together survey the psychic cave system across multiple sessions, carrying only the local light of present-moment associations. Significant unconscious material is typically accessed through uncomfortable or 'unlikely' passages—embarrassing associations, repetitive lapses, somatic symptoms—that the analysand habitually bypasses. Resistance is the experienced caver's initial dismissal of a promising squeeze.",
+    "prediction": "Psychoanalytic sessions coded for the occurrence of 'passage-following' moments—instances where the analyst explicitly pursues an associative thread the patient initially deflected—will show higher rates of novel material emergence (rated by independent coders) in subsequent exchanges than sessions where such deflections are not followed.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Ballast and Burner Equilibrium in the Management of Monetary Anchors",
+    "mechanism_source": "hot air ballooning",
+    "target_domain": "monetary policy",
+    "mechanism": "Hot air balloon altitude is controlled by two asymmetric mechanisms: the burner adds lift (heat increases gas volume and buoyancy) while ballast (sand) is jettisoned to reduce weight and gain altitude. Crucially, these are not symmetric: ballast release is irreversible (the sand is gone), while burner operation is temporary (heat dissipates). A balloon that exhausts ballast early loses the ability to make fine altitude corrections later; excessive burner use without ballast reserves produces oscillatory altitude instability.",
+    "application": "Monetary policy exhibits analogous asymmetric control: rate cuts (burner) can be reversed and reapplied, but unconventional measures—QE asset purchases, negative rates, forward guidance credibility—involve expenditure of irreversible policy credibility (ballast). A central bank that exhausts credibility reserves (ballast) responding to minor downturns loses the ability to make credible fine-grained adjustments during subsequent, more severe episodes. Excessive reliance on conventional rate tools without credibility-building (ballast accumulation through inflation target achievement) produces oscillatory inflation instability.",
+    "prediction": "Central banks with stronger pre-crisis inflation-targeting track records (accumulated credibility ballast) will show smaller required unconventional policy interventions (QE scale relative to GDP) during equivalent demand shocks, and faster return to target inflation, compared to central banks with weaker pre-crisis credibility, controlling for shock severity.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Pieced Block Architecture and Normalized Schema Design",
+    "mechanism_source": "quilt making",
+    "target_domain": "database design",
+    "mechanism": "Quilt construction organizes fabric into repeating block units, each block composed of precisely cut and joined pieces in specific geometric relationships. The block is the unit of modularity: pattern changes propagate through block substitution rather than fabric-by-fabric replacement. Sashing (strips between blocks) creates visual separation and structural stability; borders frame and contain the entire composition. The final quilt's complexity is determined not by individual piece intricacy but by block arrangement topology.",
+    "application": "Relational database schema design follows quilt-block logic. Tables are blocks: internally structured units with defined relationships among columns (fabric pieces). Normalization (cutting fabric to precise measurements) ensures no piece overlaps or gaps—no data redundancy or omission. Join relationships are sashing: they create connections between blocks without merging them into a single indistinct surface. Schema complexity is determined by table arrangement (foreign key topology), not column count. Denormalized schemas are the equivalent of whole-cloth quilts—simpler to make but lacking the modularity that enables targeted updates.",
+    "prediction": "Database schemas that achieve third normal form will show lower rates of update anomalies and orphaned records in production systems across a 24-month observation period than schema-equivalent denormalized designs, controlling for query workload and team technical sophistication.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Join-Up Thresholds and the Intrinsic Motivation Arc of Organizational Change",
+    "mechanism_source": "horse breaking",
+    "target_domain": "change management",
+    "mechanism": "Natural horsemanship (join-up method) replaces coercive breaking with a pressure-release sequence: the trainer applies directional pressure (driving the horse away) until the horse shows submission signals (ear drop, licking and chewing, lowered head), then immediately removes all pressure. The horse learns that it can control the trainer's behavior through its own signals, inverting the power dynamic. Crucially, this process creates voluntary follow behavior—the horse approaches the trainer and chooses proximity—rather than compliant avoidance behavior.",
+    "application": "Change management initiatives fail at high rates because they replicate coercive breaking: top-down mandates that apply sustained pressure without pressure-release mechanics. Employees respond with avoidance behavior (surface compliance, workaround adoption) rather than voluntary follow behavior. Natural horsemanship-derived change management uses pressure-release sequencing: apply change pressure, immediately reward early adoption signals (public recognition, reduced administrative burden for adopters), and allow the resistant majority to observe voluntary adoption before experiencing direct pressure. The goal is join-up—employees choosing the change—not submission.",
+    "prediction": "Change initiatives that include an explicit early-adopter reward phase before organization-wide mandate will show higher 12-month sustained behavior change rates (measured by system usage metrics or behavioral audit) than equivalent mandate-only initiatives, controlling for change magnitude and organizational size.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Littoral Zone Patience and the Ethnographic Presence Requirement",
+    "mechanism_source": "tide pooling",
+    "target_domain": "ethnography",
+    "mechanism": "Tide pool ecology requires the observer to wait for tidal cycles to reveal successive ecological layers: high-water submersion conceals much of the biota that becomes visible only during low tide. Repeated observation across tidal cycles, seasons, and weather conditions exposes the full community structure—species invisible in a single visit become apparent over time. Aggressive sampling (turning every rock immediately) disturbs the community, altering the very system being observed.",
+    "application": "Ethnographic fieldwork follows identical temporal logic. A community's social structure has tidal cycles—routine events, seasonal ceremonies, irregular crises—that reveal different layers of practice and meaning across time. Rapid ethnography (compressed visits) is structurally equivalent to a single tidal observation: it reveals only the high-water surface fauna. Prolonged field presence across multiple social 'tidal cycles' exposes the deep community structure. Intrusive data collection (questionnaires, formal interviews) disturbs the ecosystem, producing observer-effect artifacts rather than naturalistic behavior.",
+    "prediction": "Ethnographic studies with field residence exceeding 12 months will report significantly higher rates of initially unexpected or counterintuitive findings (coded by independent reviewers) compared to studies with field residence under 6 months, reflecting deeper tidal-cycle access to concealed community structures.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Mycelium Substrate Reading and the Interpretation of Weak Intelligence Signals",
+    "mechanism_source": "mushroom foraging",
+    "target_domain": "intelligence analysis",
+    "mechanism": "Expert mushroom foragers read substrate, microclimate, and associated vegetation as an integrated signal system to locate fruiting bodies before visual confirmation: a specific tree species, soil texture, leaf litter depth, aspect, and recent precipitation pattern together constitute a habitat signature whose co-occurrence predicts fruiting with high probability. The forager's skill is not in identifying a mushroom once seen but in knowing where to look based on indirect environmental cues. False positives (toxic lookalikes in similar habitats) require confirmation by multiple independent morphological features.",
+    "application": "Intelligence analysts face the forager's challenge: direct observation of adversary intent is rarely available, so analysis must proceed from substrate signals—infrastructure patterns, financial flows, personnel movements, communications metadata—whose co-occurrence constitutes a threat signature. Expert analysis requires reading the habitat before the fruiting body appears. False positives (lookalike patterns: legitimate military exercises vs. invasion preparation) demand multi-feature confirmation. Analysis that relies on single strong signals (a known informant's claim) without substrate corroboration is equivalent to picking a mushroom based on color alone.",
+    "prediction": "Intelligence assessments that integrate five or more independent source categories (SIGINT, GEOINT, HUMINT, financial intelligence, open source) will produce more accurate event predictions (measured against ground truth at 90-day intervals) than assessments relying on three or fewer source categories, controlling for information quantity per category.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Bronze Resonance Tuning and the Harmonic Structure of Constitutional Amendments",
+    "mechanism_source": "bell casting",
+    "target_domain": "constitutional law",
+    "mechanism": "Bell casting achieves its characteristic tone through precise geometric relationships between bell diameter, wall thickness profile, and the positions of distinct resonant zones (the strike note, hum, tierce, quint, and nominal). These zones must be in defined harmonic ratios; a bell is 'tuned' by selective metal removal on a lathe after casting. Critically, the harmonic profile is determined by the interaction of all zones simultaneously—altering one zone's frequency by grinding shifts multiple harmonics, requiring iterative correction across the entire profile.",
+    "application": "Constitutional law exhibits bell-tuning dynamics: the document's provisions are not independent articles but a resonant system in which altering one clause (amendment) shifts the harmonic relationships across the constitutional profile. Courts function as tuning lathes, selectively removing interpretive material through precedent until competing provisions achieve workable harmonic balance. An amendment that seems narrowly targeted (tuning one zone) requires iterative constitutional adjustment across interconnected provisions—Fourteenth Amendment equal protection shifted resonance patterns across commerce clause, due process, and federalism doctrine simultaneously.",
+    "prediction": "Constitutional amendments passed in isolation (single-provision changes without coordinated harmonization amendments) will generate measurably more subsequent judicial interpretation activity (law review citation counts, Supreme Court case load) than amendments passed as coordinated packages, reflecting the need for iterative harmonic retuning.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Warp and Weft Sequencing in the Drafting of Multilateral Agreements",
+    "mechanism_source": "silk weaving",
+    "target_domain": "diplomatic negotiation",
+    "mechanism": "Silk weaving interlaces two perpendicular thread systems: the warp (longitudinal, under tension on the loom) and the weft (transverse, woven through the warp by shuttle). The warp establishes the structural foundation and color field; the weft creates pattern through selective over-under crossing sequences. Complex patterns (twills, damasks) require precise sequencing of weft passes; a single out-of-sequence pass propagates a structural defect visible across the entire fabric surface. Draft errors cannot be locally corrected—the fabric must be unwoven to the error point.",
+    "application": "Multilateral treaty negotiation operates on warp-weft architecture: foundational structural commitments (sovereignty clauses, dispute resolution mechanisms, enforcement frameworks) are the warp—established first and held under tension throughout. Substantive provisions (trade rules, environmental standards, human rights obligations) are the weft—woven through the warp in carefully sequenced drafting sessions. An out-of-sequence commitment (agreeing a substantive provision before the jurisdictional framework is established) propagates ambiguity that requires unwinding negotiated text to the inconsistency point, destroying consensus accumulated upstream.",
+    "prediction": "Multilateral negotiations that follow a warp-first sequencing protocol—formally adopting foundational structural provisions before substantive issue-area negotiations—will achieve final agreement in fewer negotiating rounds and with fewer subsequent interpretive disputes than negotiations that address structural and substantive provisions in parallel.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Altered State Induction and the Calibrated Exposure Paradigm in Risk Tolerance",
+    "mechanism_source": "fire walking",
+    "target_domain": "risk management",
+    "mechanism": "Fire walking achieves its safety profile not through paranormal heat resistance but through physical principles: low thermal conductivity of ash and coal, short contact duration per step, and moisture on the walker's feet. However, the psychological mechanism is the critical variable: walkers who hesitate (increased contact duration) or who walk with irregular gait (inconsistent momentum) incur burns. The practice is thus a calibrated exposure where physical safety is maximized by a specific behavioral state—confident, rhythmic forward motion—that is induced through pre-walk psychological preparation.",
+    "application": "Risk management in high-stakes decision environments (surgery, financial trading, emergency response) follows fire-walking dynamics: the physical risk parameters are manageable if and only if the decision-maker maintains a specific psychological state (confident, systematic, non-hesitant). Risk protocols that focus exclusively on process checklists without inducing the requisite psychological state produce safety failures at the hesitation points—where procedure and psychological readiness diverge. Pre-procedure psychological preparation (analogous to fire-walk ceremony) is not theatrical; it calibrates the behavioral state that determines exposure duration at critical moments.",
+    "prediction": "Surgical teams that undergo structured pre-operative team briefings including explicit role assignment and scenario rehearsal will show lower rates of intraoperative hesitation-associated complications (prolonged open exposure time, unnecessary procedure switches) than teams following equivalent clinical protocols without structured briefing, measurable from operating room time records.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Radiesthetic Field Detection and the Unfalsifiable Market Signal Problem",
+    "mechanism_source": "dowsing",
+    "target_domain": "market research",
+    "mechanism": "Dowsing practitioners claim to detect subsurface water, minerals, or other targets through involuntary ideomotor movements of a rod or pendulum amplified by an unexplained sensitivity mechanism. Controlled double-blind trials have consistently shown dowsers perform at chance across multiple independent studies. The practice persists because its confirmation bias structure is self-reinforcing: successful locates are remembered and attributed to dowsing ability; failures are attributed to external interference, incorrect technique, or challenging conditions—no possible outcome falsifies the practitioner's belief.",
+    "application": "Market research methodologies that rely on practitioner intuition-amplified by pseudo-systematic ritual (brand immersion sessions, trend safari walks, coolhunting) exhibit identical unfalsifiability structure: positive predictions are cited as evidence of methodological validity; misses are attributed to client execution failure, timing error, or market unpredictability. The ideomotor movement analog is the researcher's involuntary confirmation of client-preferred hypotheses through question framing, sample selection, and interpretive choice. Research sold on practitioner reputation rather than prospective predictive accuracy is methodologically indistinguishable from dowsing.",
+    "prediction": "Market research methodologies based primarily on expert practitioner intuition will show no significant predictive accuracy advantage over statistically structured survey methods when evaluated prospectively against actual market outcomes at 12 months, and will show higher variance in predictions—consistent with chance performance with random successful streaks.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Berm Gradient Engineering and the Scaffolded Progression of Learning Sequences",
+    "mechanism_source": "terrace farming",
+    "target_domain": "curriculum design",
+    "mechanism": "Terrace farming controls slope erosion by breaking a hillside into stepped horizontal platforms retained by earthen berms or stone walls. Each terrace captures runoff from the platform above, preventing accumulative flow acceleration that would carve gullies. The critical engineering variable is berm height relative to terrace width: too steep a berm (narrow terrace) fails under saturation; too shallow a slope (wide terrace) insufficient to retain water on the platform. The system works only as a complete cascade; a failed terrace partway down exposes all downslope terraces to erosion.",
+    "application": "Curriculum design faces the same cascade failure problem: each learning module (terrace) must be wide enough to consolidate prior knowledge and build retention before the next concept is introduced. Compression of concept spacing (steep berms, narrow terraces) prevents knowledge consolidation and allows 'erosion'—forgetting that undermines downstream learning. A failed module midway through a curriculum sequence exposes all subsequent modules to foundational deficit, just as a failed terrace exposes the entire downslope system. Mastery-gated progression (moving to the next terrace only when the current one holds water) is structurally required for cascade integrity.",
+    "prediction": "Curriculum sequences using mastery-gated progression—advancing students to the next module only after demonstrating criterion-referenced competence on the current module—will show lower cumulative knowledge decay at end-of-course assessment compared to time-gated curricula covering equivalent content, particularly for students who initially struggle on early modules.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Fresnel Zone Plate Geometry and the Focal Architecture of Attention Markets",
+    "mechanism_source": "lighthouse optics",
+    "target_domain": "attention economics",
+    "mechanism": "Lighthouse Fresnel lenses concentrate light through a system of concentric prismatic rings that refract and reflect divergent rays into a near-parallel beam, extending visibility from a few miles to over 20 nautical miles. The zone plate geometry achieves this by canceling the destructive interference that diffuses light: each ring is precisely sized and angled to bring its fraction of the beam into constructive phase alignment. The result is a directed, coherent signal extractable from background noise at great range, produced from a moderate light source.",
+    "application": "Attention economies require Fresnel-zone architecture: a platform that captures diffuse audience attention (the divergent light source) and phases it into a coherent, high-salience signal achieves reach disproportionate to content inherent interest. Social media algorithms function as Fresnel plates—each engagement signal (like, share, comment) is a prismatic ring that refracts content toward constructive virality interference. The attention economy implication is that content quality (source brightness) is less determinative of reach than zone-plate alignment (algorithmic constructive interference among engagement types).",
+    "prediction": "Content with diversified multi-type engagement (balanced distribution across likes, shares, comments, saves) will achieve greater algorithmic reach amplification per unit of initial seed engagement than content with equivalent total engagement concentrated in a single engagement type, measurable across platforms with transparent reach analytics.",
+    "viability": "promising",
+    "confidence": 0.69
+  }
+]

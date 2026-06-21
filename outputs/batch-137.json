@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Drawn Glass Supply Chain Model",
+    "mechanism_source": "glass fiber drawing",
+    "target_domain": "supply chain elongation",
+    "mechanism": "Optical and structural glass fibers are produced by drawing molten glass through a platinum bushing at precisely controlled temperatures, stretching it into filaments thinner than a human hair at speeds exceeding 60 m/s. The drawing process aligns silica polymer chains longitudinally, producing a material far stronger in tension than bulk glass. Any impurity, bubble, or temperature fluctuation introduced at the bushing propagates and amplifies along the entire drawn length.",
+    "application": "Supply chain elongation — adding tiers of suppliers, logistics nodes, or geographic distance — follows the same amplification physics. A small quality deviation or information asymmetry introduced at the bushing (tier-one supplier) is drawn and amplified through the chain's length, arriving at the end customer as a significantly enlarged defect. The aligned-chain strength of a long supply chain (cost efficiency, specialization) comes at the cost of extreme defect sensitivity to upstream impurities, exactly as drawn glass is stronger but more sensitive to inclusions than bulk glass.",
+    "prediction": "Supply chains with more than five tiers between raw material and final assembly will show defect amplification ratios greater than 3:1 (end-customer defect rate vs. tier-one defect rate), while supply chains under three tiers will show ratios under 1.5:1, controlling for industry and product complexity.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Tap-and-Flow Resource Ethics",
+    "mechanism_source": "maple syrup tapping",
+    "target_domain": "resource extraction ethics",
+    "mechanism": "Maple syrup production requires drilling a tap hole into the sapwood of a living maple tree to intercept the spring pressure-flow of dilute sap. A correctly sized tap (under 3/8 inch) in a healthy tree heals within one growing season and can be re-tapped at a different location the following year. Over-tapping — too many taps per tree, repeated same-site tapping, or tapping stressed trees — compromises the tree's vascular system and eventually kills it. The ethical framework is built into the biology: extraction rate must not exceed regenerative capacity.",
+    "application": "Resource extraction ethics across fossil fuels, fisheries, and data can be structured on maple tapping principles: the tap size and location protocol maps to extraction rate and site rotation; the healing season maps to recovery time; the tree health assessment maps to ecosystem baseline monitoring. Extractive industries that treat resources as stocks to be liquidated (drilling the whole tree at once) collapse the system; those that extract at or below the sap-pressure-driven rate preserve the productive asset.",
+    "prediction": "Fisheries managed under maximum sustainable yield protocols calibrated to annual biomass regeneration rates will show stock recovery within 10 years of regulation implementation at rates at least twice those of fisheries managed under historical catch-limit proxies alone.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Stridulation Proxy Thermometry",
+    "mechanism_source": "cricket chirp thermometry",
+    "target_domain": "proxy measurement theory",
+    "mechanism": "Dolbear's Law describes the linear relationship between ambient temperature and cricket chirp frequency: crickets are ectotherms whose metabolic rate — and therefore muscle contraction speed — is governed by temperature. The chirp rate is a proxy signal produced by a biological mechanism that reliably transduces environmental state into an observable output. Critically, the relationship is mechanistically grounded, not merely correlational — the chirp rate does not cause the temperature and is not a coincidental co-occurrence.",
+    "application": "Proxy measurement theory in economics and social science should adopt Dolbear's discriminatory standard: a valid proxy must have a mechanistic transduction pathway from the latent variable to the observable output, not just a statistical correlation. Google search trends, satellite night-light intensity, and credit card transaction velocity are strong economic proxies because their mechanism linking economic activity to the observable signal can be specified — they are chirp rates, not spurious correlations.",
+    "prediction": "Proxy economic indicators with specifiable mechanistic links to GDP will outperform equally-correlated but mechanism-free proxies in out-of-sample forecasting accuracy, particularly during structural breaks, because mechanism-grounded proxies remain valid when the statistical correlation's underlying conditions shift.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Caulking Seam API Security",
+    "mechanism_source": "shipwright caulking",
+    "target_domain": "API boundary security",
+    "mechanism": "Traditional wooden ship construction deliberately leaves gaps between hull planks; when the ship is launched, wood swells with water absorption to partially close these gaps, but the caulking — oakum fibers hammered into seams and sealed with hot pitch — provides the actual watertight barrier. Caulking must be applied at every seam, not just visible ones; a single overlooked seam admits water that spreads laterally behind the caulking, undermining adjacent seams through hydrostatic pressure.",
+    "application": "API boundaries between services are architectural seams that require deliberate security caulking — authentication, authorization, input validation, and rate limiting applied at every interface, not just external-facing ones. Internal API seams between microservices are the overlooked planks: developers assume internal traffic is trusted, but a breached internal service can apply hydrostatic lateral pressure (lateral movement) that undermines adjacent service boundaries. Zero-trust architecture is the complete-seam caulking protocol.",
+    "prediction": "Organizations that implement authentication and authorization controls on internal API traffic between services will detect lateral movement attempts at rates at least 5x higher than organizations that apply security controls only at external perimeter APIs, because internal events become visible in security logs.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Rock Varnish Cultural Patina",
+    "mechanism_source": "desert varnish formation",
+    "target_domain": "cultural patina theory",
+    "mechanism": "Desert varnish is a dark manganese- and iron-rich coating that accumulates on exposed rock surfaces over millennia through a combination of windborne clay particle deposition, microbial mineralization, and solar dehydration. The process is extraordinarily slow — a one-millimeter layer requires thousands of years — but the resulting coating is so stable and distinctive that archaeologists use varnish microlamination to date petroglyphs. The patina is not part of the rock; it is a record of the rock's surface exposure history.",
+    "application": "Cultural institutions, brands, and urban neighborhoods accumulate a social patina through analogous slow-deposition processes: each generation of associated individuals, events, and stories deposits a layer that mineralizes into perceived authenticity. The patina is not intrinsic to the institution — it is a record of exposure history. Attempts to accelerate patina formation (manufactured heritage, instant 'legacy' branding) produce thin coatings with no microlamination that are visually detectable as inauthentic by experienced observers, just as fake desert varnish lacks the characteristic layer chemistry.",
+    "prediction": "Consumers with domain expertise in a cultural category (wine, architecture, fashion) will correctly identify artificially constructed heritage claims at higher rates than naïve consumers, and their rejection of manufactured patina will be detectable in premium price sensitivity measures.",
+    "viability": "speculative",
+    "confidence": 0.61
+  },
+  {
+    "name": "Olfactory Homing Alumni Activation",
+    "mechanism_source": "salmon spawning navigation",
+    "target_domain": "alumni network activation",
+    "mechanism": "Pacific salmon navigate from open ocean to their precise natal stream using a combination of magnetic field mapping for large-scale navigation and olfactory imprinting for final precision homing — the juvenile fish memorizes the unique chemical signature of its birth stream and uses that scent gradient to home across thousands of kilometers years later. The imprinting is irreversible and astonishingly specific; salmon introduced to foreign streams as smolts will attempt to return to that foreign stream, not their genetic origin.",
+    "application": "University and organizational alumni networks function on olfactory homing logic: the 'chemical signature' imprinted during formative experience (specific professors, peer cohorts, campus rituals, early career challenges) creates a navigational pull that activates reliably when alumni encounter triggering stimuli — a classmate, a campus smell, an organizational ritual. Alumni engagement programs that recreate imprint-era sensory cues (reunion programming that recapitulates founding experiences) will activate homing behavior more effectively than generic networking events.",
+    "prediction": "Alumni fundraising campaigns that incorporate specific experiential recreations of the donors' formative institutional memories (faculty mentions, cohort references, place-specific imagery) will outperform demographically matched campaigns using generic institutional pride messaging on both response rate and average gift size.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Lattice Wall Rapid Deployment",
+    "mechanism_source": "yurt construction",
+    "target_domain": "rapid deployment architecture",
+    "mechanism": "A Mongolian yurt (ger) can be erected by two people in under two hours because every structural component is pre-engineered for a single assembly sequence: expandable lattice wall sections (khana) clip together at known angles, tension-loaded roof poles (uni) slot into a central compression ring (toono), and the entire structure is held rigid by the tension of felt and canvas outer layers — there are no fasteners, no foundations, and no irreversible joints. Structural integrity emerges from the system's pre-loaded tension, not from material rigidity.",
+    "application": "Rapid deployment software architectures — disaster response systems, pop-up e-commerce platforms, crisis management tooling — should be designed on yurt principles: pre-engineered components with single-direction assembly sequences, tension-based integrity (load balancing and service mesh replacing rigid point-to-point connections), a central toono (API gateway or event bus as compression ring), and no permanent joints (stateless services). The absence of foundations means rapid teardown is as fast as erection.",
+    "prediction": "Disaster response IT systems designed with stateless microservices and API-gateway-centric architecture will achieve operational capability at least 4x faster after ground-zero deployment than legacy monolithic systems of equivalent functionality, as measured by time to first successful end-user transaction.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Drip Accumulation Compound Interest",
+    "mechanism_source": "stalactite drip rate",
+    "target_domain": "compound interest visualization",
+    "mechanism": "Stalactites form as calcium bicarbonate-saturated water drips from a cave ceiling; each drop deposits a thin ring of calcite as CO2 outgasses at the cave air interface. The deposit thickness per drip is constant, but the stalactite's length increase per drip decreases as the structure grows longer and heavier — the drip rate itself is the constant, and time is the only variable producing accumulation. Growth is entirely invisible at human timescales but undeniable at geological ones.",
+    "application": "Compound interest behaves identically to stalactite growth when visualized at the individual deposit level: each contribution period (drip) adds a nominally identical thin ring, and the structure's length increase appears negligible year-over-year while being structurally massive decade-over-decade. The pedagogical power of the stalactite analogy is that it makes the invisibility of intermediate progress intuitive — nobody is surprised that a stalactite looks the same between visits — which counters the psychological discounting that causes people to undersave.",
+    "prediction": "Financial literacy curricula that use geological time-lapse accumulation metaphors (stalactites, coral, canyon carving) to illustrate compound interest will produce higher long-term savings rate behavior in participants than curricula using numerical tables or exponential curve graphs of equivalent instructional time.",
+    "viability": "speculative",
+    "confidence": 0.56
+  },
+  {
+    "name": "Pellet Forensics Intelligence",
+    "mechanism_source": "raptor pellet analysis",
+    "target_domain": "competitive intelligence forensics",
+    "mechanism": "Raptors cannot digest bone, fur, feathers, and chitin; they compact these materials in their gizzard and regurgitate them as dense, dry pellets. Dissecting a pellet and identifying the skeletal remains inside reveals the raptor's diet with high precision — species consumed, size distribution, frequency. The pellet is an involuntary, complete, and temporally bounded record of the predator's feeding behavior, containing information the predator did not intend to disclose.",
+    "application": "Competitive intelligence analysts can identify analogous involuntary disclosure channels — job postings (reveal skill gaps and strategic initiatives), patent filings (reveal R&D direction before product launch), supplier contracts in procurement databases (reveal build-vs-buy decisions), conference speaker lineups (reveal thought leadership positioning). These channels, like pellets, are not created for competitor consumption; they are operational byproducts that contain structurally complete records of strategic activity.",
+    "prediction": "Competitive intelligence derived exclusively from involuntary disclosure channels (job postings, patent filings, regulatory submissions) will predict competitor product launches at accuracy rates above 65% within 18-month windows, outperforming intelligence derived from voluntary communications (press releases, earnings calls) at the same time horizon.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Propagule Drift Franchise Expansion",
+    "mechanism_source": "mangrove propagule dispersal",
+    "target_domain": "franchise expansion",
+    "mechanism": "Mangrove trees produce propagules — fully-developed embryonic seedlings that detach from the parent tree and float in seawater for up to a year while remaining viable. The propagule is a self-contained colonization unit with its own nutrient reserve; it lodges in favorable substrate (shallow intertidal sediment with appropriate salinity) and rapidly establishes roots before tidal energy can dislodge it. Successful establishment depends on substrate quality at landing, not on proximity to the parent tree.",
+    "application": "Franchise expansion units function as mangrove propagules: each franchise is a self-contained colonization package with embedded operational DNA (brand standards, supply chain access, training systems) that can survive the drift period (pre-opening development) and establish rapidly when it encounters suitable substrate (demographic and economic market conditions). The franchisor's job is propagule quality, not dispersal geography — a high-quality propagule succeeds in distant markets; a poor one fails adjacent to the parent.",
+    "prediction": "Franchise systems that invest disproportionately in franchisee pre-opening training and operational support infrastructure (propagule nutrient reserve) will show higher unit survival rates at 3 years than systems of equivalent brand strength that invest primarily in marketing and real estate site selection.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Hourglass Deadline Psychology",
+    "mechanism_source": "sand timer mechanics",
+    "target_domain": "deadline psychology",
+    "mechanism": "A sand timer creates urgency through visible, continuous, irreversible flow — the rate of sand passage is constant, but the psychological experience of time accelerates as the visible remaining volume decreases (fewer grains create a thinner stream that appears faster). The timer has no memory: it cannot be paused, and there is no way to know how much time has passed without inverting it, only how much remains. The design forces attention onto remaining resource, not elapsed resource.",
+    "application": "Deadline psychology is similarly asymmetric: people respond more urgently to displayed remaining time than to displayed elapsed time, and urgency escalates nonlinearly as the visible remainder decreases regardless of whether the actual rate of completion has changed. Project management interfaces that display time-remaining with visual depletion cues (shrinking bars, countdown timers) will produce different behavioral responses than elapsed-time displays, with remaining-time displays producing acceleration effects analogous to the hourglass's final-grains intensification.",
+    "prediction": "Software development teams shown time-remaining dashboards will show higher output velocity in the final 20% of a sprint than teams shown equivalent time-elapsed dashboards, but will also show higher defect introduction rates in the final 10%, consistent with psychologically-driven acceleration overriding quality-checking behavior.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Ash Cloud Systemic Risk",
+    "mechanism_source": "volcanic ash cloud aviation",
+    "target_domain": "systemic risk propagation",
+    "mechanism": "Volcanic ash clouds ground aviation not through local physical hazard but through the contamination of a shared atmospheric medium that aviation depends upon globally. The 2010 Eyjafjallajökull eruption grounded 100,000 flights across Europe from a single Icelandic source because aircraft engines are fatally vulnerable to glass-melt particle ingestion and no routing alternative exists for transoceanic flights — the shared medium is unavoidable. Risk propagated through dependency on a common resource, not through direct contact.",
+    "application": "Financial systemic risk propagates through identical shared-medium logic: a localized failure (subprime mortgage default concentrations in 2008) contaminated the shared atmospheric medium of interbank repo lending, AAA-rated structured credit, and money market funds. Institutions with no direct exposure to subprime mortgages were grounded because they depended on the contaminated shared medium. Systemic risk assessment must identify shared atmospheric media — shared clearing counterparties, shared collateral types, shared liquidity facilities — not just direct bilateral exposure.",
+    "prediction": "Financial stress tests that model risk propagation through shared infrastructure dependencies (common clearing counterparties, shared collateral eligibility pools) will predict systemic contagion events with greater accuracy than tests modeling only bilateral counterparty exposure networks.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Slip Cast Code Generation",
+    "mechanism_source": "clay slip casting",
+    "target_domain": "template-based code generation",
+    "mechanism": "Slip casting produces ceramic forms by pouring liquid clay (slip) into a plaster mold; the plaster's porosity absorbs water from the slip at the mold surface, building up a clay wall of controlled thickness. When sufficient wall thickness is achieved, excess slip is poured out, leaving a hollow form that exactly replicates the mold's interior geometry. The mold determines form; the slip provides material; the porosity gradient controls wall thickness and therefore structural properties.",
+    "application": "Template-based code generation follows the identical tripartite structure: the template is the mold (determining structural form), the data model is the slip (providing material), and the rendering engine's interpolation rules are the porosity gradient (determining how much material is deposited at each structural feature). Code generation quality problems map precisely to slip casting defects — air bubbles in slip produce voids in generated code; inconsistent mold geometry produces structurally irregular output; premature demoulding (premature template instantiation without data validation) produces collapsed forms.",
+    "prediction": "Code generation systems that validate data model completeness and type consistency before template instantiation (equivalent to slip viscosity control before pouring) will produce syntactically and semantically valid output at rates at least 30% higher than systems that apply validation post-generation.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Bioluminescent Phase Lock Clocks",
+    "mechanism_source": "firefly synchronization",
+    "target_domain": "distributed clock synchronization",
+    "mechanism": "Southeast Asian fireflies (Pteroptyx malaccae) achieve population-wide synchronized flashing through a pulse-coupled oscillator mechanism: each firefly has an internal oscillator and adjusts its phase by a fixed increment toward the nearest flash it observes. No central coordinator exists; synchrony emerges from local phase-coupling interactions across thousands of individuals. The system converges to synchrony from any initial phase distribution and is robust to individual failures — removing fireflies from the tree does not desynchronize the population.",
+    "application": "Distributed clock synchronization in computing networks (NTP, PTP, Byzantine clock consensus) faces the identical challenge: achieving global time agreement without a single authoritative source, from arbitrary initial states, with robustness to node failure. Firefly-inspired pulse-coupled oscillator algorithms outperform hierarchical clock protocols (traditional NTP) in network-partition scenarios because they have no single point of failure and convergence scales with connectivity density rather than with tree depth.",
+    "prediction": "Distributed sensor networks using pulse-coupled oscillator clock synchronization will maintain time coherence within 1 ms during single-node failure events at rates at least 3x better than equivalent networks using hierarchical NTP-style synchronization, because the decentralized protocol has no stratum-1 dependency.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Tannin Precipitate IP Defense",
+    "mechanism_source": "walnut tannin chemistry",
+    "target_domain": "intellectual property defense",
+    "mechanism": "Black walnut trees release juglone and hydrolyzable tannins into the soil through roots and decomposing leaves. These compounds precipitate proteins in competing plant root tissue, blocking enzymatic activity and creating an allelopathic zone where competitor plants cannot establish. The chemical defense is not targeted at specific competitors — it is a broad-spectrum precipitation agent that makes the local environment chemically inhospitable to any organism whose biochemistry depends on the targeted protein class.",
+    "application": "Aggressive IP portfolios function as walnut tannin systems: broad-spectrum patent thickets precipitate competitor development by making adjacent technical territory chemically inhospitable — any product development attempt that crosses through the IP zone encounters blocking claims that denature the competitor's commercialization pathway. The strategy does not require identifying specific competitors; it creates a zone of inhibition around core technology. The allelopathic analogy also illuminates the ecological cost: walnut trees reduce local biodiversity, and IP thickets reduce adjacent innovation.",
+    "prediction": "Companies holding patent thickets of 50+ patents in a core technology area will show lower rates of adjacent market entry by direct competitors than companies with equivalent R&D spending but fewer than 10 core patents, but will also show lower rates of open-standard adoption and ecosystem partner development in the same technology area.",
+    "viability": "speculative",
+    "confidence": 0.62
+  }
+]

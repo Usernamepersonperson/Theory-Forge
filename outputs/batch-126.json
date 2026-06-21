@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Acid Resist Lexicon Theory",
+    "mechanism_source": "glass etching",
+    "target_domain": "psycholinguistics",
+    "mechanism": "Glass etching works by applying an acid-resistant mask to a glass surface before exposing it to corrosive agents. The unprotected areas are chemically abraded while masked regions remain pristine. The depth and texture of the etch depends on exposure duration and acid concentration. The final pattern is defined entirely by what was protected, not what was attacked.",
+    "application": "In psycholinguistics, language acquisition can be modeled as selective protection: children apply cognitive 'resist' to phonemic categories that survive exposure to ambient language, while unprotected distinctions erode through disuse. The depth of entrenchment of a linguistic feature corresponds to the duration of selective reinforcement, and the clarity of categorical boundaries reflects the quality of the resist mask—i.e., the consistency of caregiver input.",
+    "prediction": "Children raised in environments with highly inconsistent phonemic boundaries (low-quality 'resist') will show shallower categorical perception curves on voice-onset-time tests compared to children with consistent input, even when total word exposure is held constant.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Obstacle-Flow Triage Protocol",
+    "mechanism_source": "parkour",
+    "target_domain": "emergency medicine triage",
+    "mechanism": "Parkour practitioners move through complex urban environments by continuously assessing each obstacle not as a barrier but as a surface with a specific traversal geometry—vault, roll, precision jump, or redirect. Momentum is conserved across transitions rather than spent and rebuilt at each obstacle. The practitioner maintains a global path model while executing local micro-decisions in under 200 milliseconds. Energy expenditure is minimized by choosing the line of least resistance through the environment's actual topology.",
+    "application": "Emergency department triage can adopt the parkour frame by training clinicians to assess patient flow as a continuous momentum problem rather than a series of discrete stop-evaluate-proceed decisions. Each patient handoff is a traversal transition; preserving diagnostic momentum means passing actionable information forward rather than restarting assessment at each station. The department's physical and procedural layout becomes a terrain to be read for its actual flow geometry, not its intended one.",
+    "prediction": "EDs that restructure handoff protocols around momentum-preserving information transfer—where each station inherits and extends prior assessment rather than re-initiating it—will show measurable reductions in door-to-disposition time without increasing adverse events, particularly during surge conditions.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Weft Recovery Diplomacy Framework",
+    "mechanism_source": "tapestry restoration",
+    "target_domain": "peace negotiations",
+    "mechanism": "Tapestry restoration requires identifying the original structural warp threads—the load-bearing verticals—before attempting to reweave damaged weft sections. Restorers work outward from intact areas, matching not just color but thread twist, fiber type, and tension to the original. Areas of total loss require reconstruction from historical records and surrounding context. The restored sections must bear load without being detectable as repairs, integrating structurally rather than merely cosmetically.",
+    "application": "Peace negotiations can be understood as tapestry restoration: mediators must first identify the surviving structural commitments—institutional relationships, economic dependencies, shared legal frameworks—that can bear load during reconstruction. Dialogue processes work outward from intact agreements toward damaged zones, matching the tension and texture of existing arrangements rather than imposing foreign material. Provisions addressing total loss (destroyed infrastructure, displaced populations) require reconstruction from historical precedent and regional context.",
+    "prediction": "Peace agreements that explicitly map existing load-bearing institutional structures before addressing contested zones will demonstrate higher five-year implementation rates than agreements that address the most damaged issues first, controlling for conflict type and external mediation quality.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Geothermal Pressure Regulation Model",
+    "mechanism_source": "geothermal energy",
+    "target_domain": "anger management",
+    "mechanism": "Geothermal energy systems harness heat that accumulates in subsurface reservoirs under sustained tectonic pressure. Rather than capping or venting pressure explosively, engineered systems drill controlled extraction wells that convert thermal energy to useful work while maintaining reservoir pressure within safe operational bounds. The key engineering challenge is managing flow rate: extraction too fast depletes the reservoir and triggers subsidence; extraction too slow allows pressure to build to uncontrolled release.",
+    "application": "Anger management therapy can be reframed around geothermal dynamics: anger is heat energy accumulating in a psychological reservoir fed by ongoing stressors. The therapeutic goal is not suppression (capping the well) nor cathartic venting (explosive release) but controlled extraction—converting emotional pressure into purposive action through structured expression, physical exertion, or problem-solving. Flow rate management corresponds to pacing emotional processing: too rapid leads to depletion and dissociation; too slow allows pressure buildup toward crisis.",
+    "prediction": "Anger management interventions that include scheduled, low-intensity expressive outlets—analogous to controlled extraction—will show lower rates of violent outburst at six-month follow-up compared to suppression-focused or single-session catharsis interventions, as measured by incident reporting and self-report scales.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Bead-State Error Isolation Calculus",
+    "mechanism_source": "abacus computation",
+    "target_domain": "quantum error correction",
+    "mechanism": "An abacus encodes numerical state in the discrete physical positions of beads; each bead is unambiguously either in the upper or lower register. Computation proceeds by physically manipulating beads according to carry rules, making the intermediate state of every calculation fully visible and inspectable. Errors introduced by misplacement propagate only to subsequent operations, and any individual bead can be inspected and corrected without disturbing beads in other columns. The physical separation of columns provides natural error isolation.",
+    "application": "Quantum error correction can draw on the abacus architecture's insight that spatially isolated, discretely readable state enables local error correction without global system disruption. Topological codes like the surface code already approximate this by localizing logical qubits across physically separated ancilla; the abacus frame suggests prioritizing architectures where error syndromes are readable at the column level—individual qubit clusters—before syndrome information is aggregated globally, reducing correlated error propagation.",
+    "prediction": "Quantum error correction protocols that perform localized syndrome extraction within qubit clusters before inter-cluster communication will demonstrate lower logical error rates under realistic noise models with spatially correlated errors, compared to protocols that extract global syndromes in a single round.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Urushi Layering Reputation Architecture",
+    "mechanism_source": "lacquerwork",
+    "target_domain": "reputation management",
+    "mechanism": "Traditional lacquerwork applies dozens of thin urushi layers, each cured in controlled humidity before the next is added. No single layer provides protection or beauty; the cumulative stack creates hardness, depth, and the distinctive luminosity of fine lacquer. Each layer must fully cure before the next is applied—rushing produces delamination under stress. Surface repairs require carefully abrading back to a stable layer and rebuilding from that point, not merely recoating the damaged surface.",
+    "application": "Reputation management follows lacquer logic: durable reputations are built through successive thin layers of consistent, cured behavior across multiple contexts rather than through any single high-visibility action. Attempting to accelerate reputation-building by stacking uncured actions (high-frequency public gestures before underlying behavior has been verified) produces delamination under scrutiny. Reputation repair after damage requires identifying the last stable behavioral layer and rebuilding from there—behavioral change first, then communication of that change.",
+    "prediction": "Organizations that attempt rapid post-crisis reputation recovery through communication campaigns before implementing and sustaining behavioral changes will show lower reputation scores at 24 months than organizations that delay public communication in favor of establishing a new behavioral baseline first, as measured by independent stakeholder surveys.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Sump Passage Investigative Model",
+    "mechanism_source": "cave diving",
+    "target_domain": "investigative journalism",
+    "mechanism": "Cave diving requires laying a continuous guideline from the open-water entry through every sump passage and tunnel to the furthest penetration point. The diver carries three times the air needed to reach the furthest point, ensuring return capacity even after an equipment failure. Visibility is often near zero; navigation depends entirely on the physical guideline and memorized landmarks rather than visual orientation. Divers turn back at the first third of their air supply regardless of how close the next chamber appears.",
+    "application": "Investigative journalism can adopt cave diving's guideline methodology: every evidentiary claim must be connected by a traceable thread back to a verifiable source, and the reporter must be able to retrace that thread in complete darkness—i.e., under legal challenge with no source cooperation. The one-third rule maps to source redundancy: no claim proceeds to publication unless two independent lines of evidence could sustain it if one were compromised. The air management rule counsels turning back from a compelling story if return-path documentation is insufficient.",
+    "prediction": "Investigations structured around mandatory dual-source verification for each factual claim, with documented source chains, will face fewer successful defamation claims and retractions than investigations relying on single-source confirmation for individual facts, controlling for topic sensitivity and legal environment.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Counterweight Capital Trajectory Theory",
+    "mechanism_source": "trebuchet physics",
+    "target_domain": "startup fundraising",
+    "mechanism": "A trebuchet converts gravitational potential energy stored in a heavy counterweight into projectile kinetic energy through a lever arm. The ratio of counterweight mass to projectile mass, combined with the arm length ratio, determines both launch velocity and trajectory angle. The sling adds a final mechanical advantage, releasing the projectile at precisely the optimal angle. Critically, the energy must be fully committed before launch—a trebuchet cannot be 'partially fired.'",
+    "application": "Startup fundraising follows trebuchet mechanics: the counterweight is investor capital, the projectile is the startup, and the lever arm is the founding team's execution capacity. The optimal raise amount is not the maximum available but the ratio that achieves the right trajectory angle—enough velocity to reach the next milestone without an overpowered arm that swings past the release point (over-capitalization causing loss of urgency and focus). The sling corresponds to market timing: releasing into the right window determines whether the trajectory reaches the target.",
+    "prediction": "Startups that raise capital in amounts calibrated to specific milestone achievement rather than maximum available will demonstrate higher Series A conversion rates than those that raise maximum early-stage capital, with the effect strongest in markets where burn rate discipline is externally measurable.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "String Tension Gradient Learning Protocol",
+    "mechanism_source": "marionette control",
+    "target_domain": "federated learning",
+    "mechanism": "A marionette is controlled through a hierarchy of strings attached to a control bar: the puppeteer manipulates the bar, which distributes forces through strings of varying lengths and stiffness to specific body parts. The marionette's movement emerges from the superposition of these distributed tensions rather than direct joint actuation. The puppeteer cannot see most joint states directly; control is exercised through the bar geometry and learned through felt resistance. Each string carries partial information about the puppet's state back to the puppeteer's hand.",
+    "application": "Federated learning systems operate on the same distributed-tension principle: a central aggregator manipulates gradient updates (the control bar) that are distributed to client models (marionette joints) through communication channels of varying bandwidth and reliability (string lengths). The global model never directly observes local data; it learns the system's state through the resistance felt in aggregated gradient updates. String-length heterogeneity—unequal client capacities—is not a flaw but a structural feature that the aggregation protocol must accommodate rather than eliminate.",
+    "prediction": "Federated learning aggregation algorithms that model client-capacity heterogeneity explicitly—weighting gradient contributions by estimated local data quality and compute capacity rather than treating clients as uniform—will converge to lower global loss on non-IID data distributions compared to FedAvg under matched communication budgets.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Anaerobic Archive Stratigraphy",
+    "mechanism_source": "peat bog preservation",
+    "target_domain": "archival science",
+    "mechanism": "Peat bogs preserve organic material through a combination of anoxic conditions, high acidity, and the antimicrobial properties of sphagnum moss. Preservation is not active—it requires the absence of degradation agents rather than the presence of preserving agents. The bog's stratigraphy records time as accumulated depth; the oldest material is deepest and most compressed. Critically, disrupting the hydrological conditions of the bog—drainage, surface disturbance—initiates rapid decomposition of previously stable material.",
+    "application": "Archival science can learn from bog preservation that the most important function of an archive is the maintenance of conditions that prevent degradation rather than active intervention. Digital archives fail not because they lack preserving agents but because migration decisions, format changes, and system updates introduce oxygen into the anaerobic environment. Archival stratigraphy—maintaining temporal layers in their original compressed sequence without reordering—preserves not just content but the evidential relationships between records.",
+    "prediction": "Digital archives that implement format migration as a parallel preservation layer—maintaining original bitstreams alongside migrated copies without disturbing the original stratigraphy—will demonstrate higher long-term evidential integrity scores than archives that perform destructive migration, as assessed by independent provenance audits at 10-year intervals.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Koji Succession Team Fermentation Model",
+    "mechanism_source": "sake brewing",
+    "target_domain": "team dynamics",
+    "mechanism": "Sake brewing involves a carefully sequenced succession of microbial communities: koji mold first converts rice starches to sugars, then yeast converts those sugars to alcohol, with the two communities overlapping in the moromi mash. The toji (master brewer) manages temperature and timing to favor each community in sequence without eliminating the other prematurely. The resulting flavor complexity arises from the interplay of both communities' metabolic byproducts. Attempting to accelerate fermentation by forcing temperature disrupts the succession and produces harsh, unbalanced sake.",
+    "application": "Team dynamics in complex projects follow fermentation succession: early-stage teams require a 'koji phase' dominated by exploratory, connective work (converting raw information into usable concepts) before an 'execution phase' can produce results. Forcing execution before conceptual conversion is complete—raising the temperature prematurely—produces harsh outputs and team strain. High-performing teams are managed by leaders who recognize which phase is active and modulate conditions accordingly rather than demanding consistent output character throughout the project.",
+    "prediction": "Project teams whose managers explicitly protect an exploratory phase before transitioning to delivery mode will show higher final output quality ratings and lower team burnout scores than teams managed with consistent delivery expectations from project initiation, controlling for project complexity and team experience.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Dead Reckoning Career Navigation",
+    "mechanism_source": "desert navigation",
+    "target_domain": "career counseling",
+    "mechanism": "Desert navigation without GPS relies on dead reckoning: establishing a known position, then tracking direction, distance, and time precisely to compute current position. Navigators use terrain features as waypoints to correct accumulated drift. The cardinal error is trusting momentary landmarks over the computed track—mirages and false horizons cause disorientation when they override systematic position-keeping. Successful desert navigation requires maintaining confidence in the computed position during periods when no confirming landmark is visible.",
+    "application": "Career counseling can deploy dead reckoning methodology: clients establish their current skills-and-values position precisely, then track each decision's direction and distance from their intended trajectory. Career counselors function as waypoint verification—helping clients distinguish genuine course-correction signals from mirage landmarks (salary spikes, prestige signals, peer pressure). The key counseling skill is building client confidence in their computed trajectory during periods when external validation is absent.",
+    "prediction": "Career counseling interventions that train clients in explicit skills-and-values position mapping, with structured waypoint reviews at six-month intervals, will show higher goal-attainment rates at three years than interventions focused on opportunity identification and response, controlling for client baseline career clarity.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Synchronous Spawn Window Launch Theory",
+    "mechanism_source": "coral spawning",
+    "target_domain": "product launches",
+    "mechanism": "Coral spawning is a mass synchronization event triggered by a specific combination of water temperature, lunar phase, and photoperiod, coordinated across an entire reef system through chemical signaling. No individual coral spawns optimally in isolation; the mass-release strategy overwhelms predator capacity through sheer volume, ensuring that some gametes survive to fertilize. The synchronization window is narrow—typically one to three nights per year—and corals that miss it must wait an entire cycle. Fertilization rates drop sharply outside the synchronized window even if gamete quality is high.",
+    "application": "Product launches exhibit coral spawning dynamics in platform ecosystems: the optimal launch window is defined by a coincidence of ecosystem conditions (developer interest, media attention cycle, platform algorithm momentum, and complementary product timing) rather than by internal readiness alone. Launching a high-quality product outside the synchronization window produces lower adoption than a less-polished launch timed to the mass-release moment. The platform's existing traffic functions as the predator-saturation mechanism—competitors' simultaneous launches increase total ecosystem attention rather than purely dividing it.",
+    "prediction": "Products launched during platform ecosystem 'spawning windows'—periods of high complementary activity, algorithmic promotion, and developer conference cycles—will achieve higher 30-day retention rates than comparable products launched in off-cycle periods, with the effect size increasing with platform maturity.",
+    "viability": "speculative",
+    "confidence": 0.61
+  },
+  {
+    "name": "Fiber Entanglement Consensus Protocol",
+    "mechanism_source": "wool felting",
+    "target_domain": "consensus building",
+    "mechanism": "Wool felting works through the mechanical entanglement of individual fibers whose surface scales, when agitated under heat and moisture, lock irreversibly with neighboring fibers. No fiber is fastened to any other by a discrete bond; the material's structural integrity emerges from the density of micro-entanglements distributed throughout the mass. Attempting to unfelt a section destroys the surrounding material—the entanglement is not localized to junctions but distributed through the mass. The felt's strength is a function of agitation duration and fiber length, not of any central organizing structure.",
+    "application": "Consensus building processes achieve durability through distributed entanglement rather than central agreement: when participants engage repeatedly in substantive exchange (agitation), their positions develop micro-entanglements—shared references, acknowledged concessions, co-constructed framings—that accumulate into a robust shared structure. Consensus imposed through central brokering without sufficient participant interaction is like stitched fabric rather than felt: it holds at the stitches but tears along the gaps. The process duration and interaction density predict structural durability better than the clarity of the final statement.",
+    "prediction": "Consensus outcomes produced through high-interaction multi-session processes will show higher rates of voluntary implementation by participants at 18 months than outcomes produced through single-session negotiations with equivalent stakeholder representation, controlling for conflict intensity and agreement specificity.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Cold-Light Brand Signaling Theory",
+    "mechanism_source": "bioluminescence",
+    "target_domain": "brand identity",
+    "mechanism": "Bioluminescence produces light through enzymatic oxidation of luciferin, generating photons with near-zero heat waste—almost 100% of the chemical energy converts to visible light. The light is produced only on demand, in specific wavelengths tuned to the visual system of the intended receiver, and often in patterns that carry species-specific information. Crucially, bioluminescent signals are self-generated and require no external light source to be visible; they are most effective in environments where ambient light is absent.",
+    "application": "Brand identity functions as bioluminescence in crowded markets: the strongest brands generate their own signal rather than reflecting ambient cultural light. Brand luminescence is most effective when it operates at the specific wavelength (emotional register, aesthetic vocabulary) tuned to the target audience's perceptual system, and is produced only when conditions warrant rather than continuously. In noisy, high-ambient-light environments (saturated categories), bioluminescent brands are invisible; they become dominant when the ambient noise collapses and self-generated identity is the only visible signal.",
+    "prediction": "Brands that maintain distinct, self-generated identity signals during category noise conditions will achieve higher unaided recall and lower customer acquisition costs during market downturns—when competitor advertising spend drops—compared to brands whose identity relies primarily on advertising volume.",
+    "viability": "speculative",
+    "confidence": 0.62
+  }
+]

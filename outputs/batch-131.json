@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Bellows-and-Reed Index Tuning",
+    "mechanism_source": "accordion tuning",
+    "target_domain": "database indexing",
+    "mechanism": "An accordion produces sound through reeds that vibrate when air passes through them, controlled by bellows pressure. Tuning requires matching reed pairs to precise frequency ratios: too much detuning creates a tremolo effect (unusable for melody), too little detuning produces a flat, lifeless tone. The craftsman must balance responsiveness (air column speed) against tonal richness (reed resonance overlap), and every added reed row increases the instrument's weight and mechanical complexity.",
+    "application": "Database indexes must balance read speed against write overhead and storage cost in the same tripartite way. A perfectly tuned index set — like a well-voiced accordion — provides fast retrieval without causing insert/update latency that makes the system 'heavy.' Over-indexing mirrors over-reeding: mechanical drag overwhelms the gain. Index selection should be tuned iteratively against actual query frequency distributions, not theoretical ideals.",
+    "prediction": "Database tables whose index sets are derived by modeling query-frequency distributions as 'reed-row pairs' — grouping indexes by complementary access patterns — will show lower average query latency and lower write amplification than tables indexed by conventional selectivity-first heuristics alone.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Resist-Bind Population Architecture",
+    "mechanism_source": "shibori dyeing",
+    "target_domain": "population genetics",
+    "mechanism": "Shibori is a Japanese resist-dyeing technique in which cloth is folded, bound, pleated, or compressed before submersion in dye. The binding creates structured zones of dye exclusion: pigment penetrates exposed fabric deeply while bound regions receive partial or zero saturation depending on compression tightness. The resulting pattern is entirely a function of the binding geometry applied before the dyeing event, not of the dye chemistry itself.",
+    "application": "In population genetics, geographic or social barriers (mountain ranges, endogamy rules, caste systems) act as pre-event binding that structures which allele frequencies 'take color' from a migration or selection event. A founding bottleneck saturates the exposed founding population while isolated sub-populations retain ancestral frequencies as if bound from the dye. The pattern of genetic variation across a population is thus a geometric record of historical barriers, not merely of selection pressures.",
+    "prediction": "Populations separated by barriers whose 'binding tightness' (measured by FST) correlates with historical permeability data should show allele-frequency gradients whose spatial sharpness tracks barrier geometry more reliably than climatic selection coefficients across the same transect.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Highland Toss Risk Calibration",
+    "mechanism_source": "caber tossing",
+    "target_domain": "project risk assessment",
+    "mechanism": "In caber tossing, the athlete does not throw the log for distance but for rotation — the goal is a 12 o'clock flip where the caber lands perfectly vertical and falls directly away. The difficulty is that the optimal release window is extremely narrow: too early and the caber under-rotates, too late and it over-rotates past vertical. The athlete must read angular momentum mid-run, make a no-revision commitment at the moment of release, and accept that small errors in timing produce dramatically asymmetric outcomes (near-miss vs. catastrophic tumble).",
+    "application": "Project risk assessment involves the same asymmetric commitment structure: there is a narrow window in which risk mitigation investment yields the optimal return. Under-investing early leaves the project under-rotated (exposed to late-stage failures), while over-investing in mitigation past the commitment point causes bureaucratic over-rotation that stalls delivery. The caber model forces assessors to identify the irreversible commitment moment explicitly rather than treating risk mitigation as continuously revisable.",
+    "prediction": "Projects in which risk mitigation spending is front-loaded before the design-freeze commitment point will show lower rework rates than projects where equivalent total mitigation spending is distributed evenly across the project lifecycle.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Biogenic Reef Infrastructure Succession",
+    "mechanism_source": "oyster reef restoration",
+    "target_domain": "urban infrastructure repair",
+    "mechanism": "Oyster reef restoration works through autocatalytic succession: a small seed population of juvenile oysters attaches to shell hash substrate, grows, and creates the hard vertical relief that recruits the next generation. Each generation's shells become substrate for the next, so restoration accelerates non-linearly once a threshold density is crossed. The reef also self-repairs damage by recruiting larvae to exposed areas, and its three-dimensional structure reduces wave energy, protecting adjacent soft-bottom habitat passively.",
+    "application": "Urban infrastructure repair can exploit the same succession logic by identifying 'keystone nodes' — intersections, utility corridors, or transit hubs — whose repair generates protective and catalytic effects for adjacent degraded infrastructure. Fixing a central water main reduces ground-subsidence stress on surrounding pavement, which reduces stress on buried conduits, creating a cascading repair dividend. Repair sequencing should follow autocatalytic topology rather than worst-first triage.",
+    "prediction": "Cities that sequence infrastructure repair starting from highest-connectivity nodes in the utility graph will achieve greater total infrastructure quality improvement per dollar spent over a 10-year horizon than cities using condition-severity-first triage sequencing.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Celestial Sign Personality Mapping",
+    "mechanism_source": "astrology",
+    "target_domain": "personality psychology",
+    "mechanism": "Astrology assigns personality traits and behavioral tendencies based on the position of celestial bodies at the time of birth. The mechanism assumes that planetary positions exert meaningful influence on human psychological development, with each sign and house position modifying temperament in predictable ways. These assignments are presented as deterministic and comprehensive, covering the full range of human personality variation through a fixed symbolic vocabulary.",
+    "application": "Personality psychology seeks to identify stable, measurable traits that predict behavior across contexts. Applying astrological birth-sign assignments as personality predictors would mean treating sun sign or rising sign as a valid substitute for empirically validated instruments like the Big Five or NEO-PI-R. The structural parallel assumes that a symbolic system developed for celestial pattern recognition can stand in for psychometric measurement grounded in behavioral observation.",
+    "prediction": "Sun sign assignments will predict Big Five personality scores no better than random assignment across matched demographic cohorts, and any apparent correlations will vanish after controlling for self-fulfilling belief effects in self-report samples.",
+    "viability": "incoherent",
+    "confidence": 0.45
+  },
+  {
+    "name": "Escapement Cadence Governance",
+    "mechanism_source": "clockwork escapement",
+    "target_domain": "parliamentary procedure",
+    "mechanism": "A mechanical escapement controls the release of stored energy in a clock by allowing the gear train to advance exactly one tooth at each oscillation of the balance wheel or pendulum. Without the escapement, the mainspring would release all its energy instantly and the clock would stop within seconds. The escapement enforces a strict cadence: energy is released in measured, countable, irreversible increments, and the rhythm is set by an independent oscillator that has no energy of its own but governs everything.",
+    "application": "Parliamentary procedure uses the same escapement logic: it separates the stored energy of political will (majority power) from its release, metering it through procedural beats — motions, seconds, debate periods, quorum checks, recorded votes. Without procedure, a parliamentary majority could act instantly and without record. Each procedural step is an escapement tooth: it releases exactly one quantum of legislative action and imposes an independent rhythm (rules of order) that has no political stake but governs pace.",
+    "prediction": "Legislative bodies that weaken escapement procedures (e.g., eliminating mandatory debate periods, reducing quorum requirements) will show higher rates of subsequently reversed or legally challenged legislation than bodies that maintain full procedural cadence, controlling for political polarization.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Thermal Stress Symbiosis Collapse",
+    "mechanism_source": "coral bleaching",
+    "target_domain": "employee burnout",
+    "mechanism": "Coral bleaching occurs when sustained thermal stress causes coral polyps to expel the symbiotic zooxanthellae algae that provide up to 90% of their energy through photosynthesis. The coral does not die immediately — it survives on its own metabolic reserves — but it becomes bleached (white), energetically depleted, and highly vulnerable to secondary stressors. If the thermal stress resolves quickly, zooxanthellae can recolonize; if it persists beyond roughly 8 weeks, the coral dies from starvation.",
+    "application": "Employee burnout follows the same symbiosis-collapse structure. Workers expel the intrinsic motivational 'symbiont' — meaning, engagement, creative investment — under sustained workplace stress. They continue to function (showing up, completing tasks) on depleted reserves while appearing 'bleached': affectless, visibly disengaged. A short recovery window allows re-engagement; past a threshold of sustained depletion, the motivational symbiont cannot recolonize and attrition or chronic disengagement becomes permanent.",
+    "prediction": "Employees who show early disengagement indicators (the bleaching phase) and receive workload reduction or role-redesign interventions within 6 weeks will show significantly higher re-engagement scores at 6 months than those whose intervention is delayed beyond that window.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Chemosynthetic Succession Migration",
+    "mechanism_source": "whale fall ecology",
+    "target_domain": "legacy system migration",
+    "mechanism": "When a whale dies and sinks, its carcass supports a predictable succession of ecological communities over decades. Mobile scavengers strip soft tissue in months; enrichment opportunists colonize the lipid-rich bones for years; finally, sulfophilic bacteria decompose the bone lipids and support chemosynthetic communities persisting for decades. Each stage extracts value from a different chemical substrate, and later communities depend on the structural scaffolding left by earlier ones. The whale fall is eventually fully mineralized, leaving only altered sediment.",
+    "application": "Legacy system migration follows an analogous staged succession. An initial extraction phase pulls active data and business logic from the living system; an enrichment phase harvests embedded institutional knowledge, tacit business rules, and integration patterns from the structural skeleton of the old codebase; finally, specialized teams decompose residual dependencies, supporting new microservices that grow in the nutrient-rich interface zones. Each phase depends on scaffolding left by the previous one, and the original system is eventually fully mineralized into documentation and test suites.",
+    "prediction": "Legacy migrations that explicitly schedule a 'bone enrichment' phase — dedicated to extracting implicit business rules from dormant code paths before decommissioning — will produce new systems with fewer production incidents in the first year than migrations that proceed directly from extraction to replacement.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Crystalline Bowl Resonance Contagion",
+    "mechanism_source": "glass harmonica acoustics",
+    "target_domain": "emotional contagion",
+    "mechanism": "The glass harmonica produces sound through a series of nested glass bowls rotating on a spindle, played by touching wet fingers to their rims. Each bowl vibrates at a pure sinusoidal frequency, but adjacent bowls — even those not directly touched — resonate sympathetically through the spindle and air column. The resulting sound is extraordinarily transparent: overtones absent in brass or string tones, making the glass harmonica uniquely capable of inducing altered states in listeners, an effect documented by 18th-century physicians.",
+    "application": "Emotional contagion operates through a sympathetic resonance mechanism: individuals in close proximity or shared attentional space entrain affective states without deliberate transmission. The 'directly touched' person (an emotionally expressive individual) sets a frequency; adjacent individuals vibrate sympathetically through shared social substrate (eye contact, prosody, synchrony of movement). The purity of the signal — its freedom from the 'overtones' of explicit emotional display — makes unconscious contagion more potent than deliberate persuasion.",
+    "prediction": "Groups exposed to a calm, low-arousal emotional model in a shared attention task will show greater downward arousal convergence (measured by skin conductance) than groups exposed to the same emotional state expressed through explicit, deliberate verbal communication.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Rendered Fat Knowledge Compression",
+    "mechanism_source": "pemmican preparation",
+    "target_domain": "knowledge compression",
+    "mechanism": "Pemmican is a high-caloric, shelf-stable food made by rendering meat fat, drying and pulverizing lean meat, and combining them at a precise ratio into a dense cake. The rendering process removes water and destroys the cellular structure that would host microbial decay, while fat encapsulates the protein powder and excludes oxygen. The result stores more caloric energy per gram than almost any other preserved food, with near-zero spoilage over years. No individual ingredient achieves this alone: the compression depends on a specific preparation sequence.",
+    "application": "Knowledge compression — as in expert system design, spaced-repetition curricula, or technical documentation — requires the same tripartite structure: abstracting procedural content (lean meat) into declarative facts, rendering the tacit knowledge into explicit principles (fat rendering), and binding them in a retrievable structure that excludes 'spoilage' (ambiguity, context-dependency). The compression is only stable if the ratio of abstract principle to specific example is calibrated; too lean and it is unpalatable, too rich and it is cognitively indigestible.",
+    "prediction": "Technical curricula structured as pemmican-ratio summaries — fixed ratios of abstract principle to worked example, with explicit elimination of contextual framing — will produce higher retention scores on delayed recall tests than curricula that preserve full narrative context.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Aurora Auroral Palette Visualization",
+    "mechanism_source": "aurora photography",
+    "target_domain": "data visualization design",
+    "mechanism": "Photographing auroras requires solving a fundamental perceptual translation problem: the human eye sees auroras as dim, mostly monochrome curtains, while long-exposure cameras reveal vivid greens, purples, and reds that correspond to specific atmospheric gas emissions at defined altitudes. The photographer selects ISO, aperture, and exposure duration to translate invisible photonic energy into a humanly legible chromatic display, making physical processes visible that are literally imperceptible to direct observation.",
+    "application": "Data visualization faces an identical translation problem: the underlying data is 'invisible' (numerical, dimensional, abstract), and the designer must select encoding channels — color, position, size, opacity — to make structural patterns humanly legible. Aurora photography's lesson is that the translation must be physically grounded: each channel should encode a real dimension of the data (as aurora color encodes emission altitude), not be chosen for aesthetic appeal. Pseudo-color mappings that lack this grounding mislead as surely as JPEG compression misleads about aurora color.",
+    "prediction": "Data visualizations in which each color channel is explicitly mapped to a single, semantically distinct data dimension will produce faster and more accurate pattern identification in timed user tests than visualizations using multi-dimensional color mappings or aesthetically driven palettes.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Van der Waals Loyalty Architecture",
+    "mechanism_source": "gecko adhesion",
+    "target_domain": "customer loyalty",
+    "mechanism": "Gecko feet adhere to surfaces not through chemical glue or mechanical interlocking but through van der Waals forces — weak, short-range electromagnetic attractions between billions of nanoscale setae on the toe pads and the surface molecules they contact. No single seta provides meaningful adhesion; the aggregate of billions does. Critically, adhesion is directional: setae grip when pulled parallel to the surface and release instantly when pulled perpendicular. The system is self-cleaning, leaves no residue, and resets for the next surface with no loss of performance.",
+    "application": "Customer loyalty built on aggregated micro-interactions (van der Waals model) is more durable than loyalty built on singular large-value incentives (chemical glue). Each touchpoint — a responsive support interaction, a seamless return process, a personalized recommendation — is individually weak but collectively strong. Like setal adhesion, the grip is directional: customers stay when pulled along a value trajectory and exit frictionlessly when the product no longer aligns. Loyalty programs should optimize micro-touchpoint density rather than large-reward events.",
+    "prediction": "Customers who experience high-frequency, low-magnitude positive interactions (more than 10 per month) will show higher 12-month retention rates than customers who experience equivalent total interaction value concentrated in 1-2 high-magnitude events, controlling for product quality.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Evaporite Crust Market Consolidation",
+    "mechanism_source": "salt flat crystallization",
+    "target_domain": "market consolidation",
+    "mechanism": "Salt flat crystallization occurs as a shallow brine lake evaporates: dissolved minerals concentrate until the least-soluble salts (calcite, gypsum) precipitate first, followed by halite, then more soluble potash minerals. The process is self-reinforcing — as minerals precipitate, the brine becomes more concentrated, accelerating further precipitation. The final flat is a layered stratigraphic record of evaporative sequence, with the most soluble (highest-value) minerals concentrated at the surface, left behind when less-soluble competitors precipitated out.",
+    "application": "Market consolidation follows the same evaporative sequence. As market 'liquidity' (venture capital, growth capital) evaporates during a sector downturn, the least competitive firms (most soluble: high burn rate, weak differentiation) precipitate out first through failure or acquisition. Progressively more differentiated firms survive until only the highest-value, most-insoluble players remain. The consolidated market is a stratigraphic record of competitive resilience, not of initial scale.",
+    "prediction": "During sector-wide funding contractions, firms with the lowest revenue-to-burn ratios will exit the market in a predictable sequence before firms with stronger unit economics, with exit order correlating negatively with gross margin and positively with customer acquisition cost.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Incident Command Rebuttal Positioning",
+    "mechanism_source": "firefighting strategy",
+    "target_domain": "debate tactics",
+    "mechanism": "Structural firefighting uses an incident command system that distinguishes offensive tactics (attacking the fire from inside the structure) from defensive tactics (protecting exposures and letting the structure burn). The critical skill is reading fire behavior — growth stage, ventilation profile, thermal layering — to determine which tactic is viable. Transitioning from offensive to defensive prematurely concedes the structure; transitioning too late traps crews inside a collapsing building. The commanding officer must simultaneously manage resource allocation, escape routes, and the evolving fire behavior model.",
+    "application": "Debate tactics require the same offensive/defensive triage under dynamic conditions. Offensive rebuttal attacks the logical structure of an argument directly; defensive rebuttal protects existing positions against counter-argument 'fire spread.' Reading the 'ventilation profile' of a debate — where the audience's attention is flowing — determines whether to press an offensive line or pull back and defend. Overcommitting to attack leaves exposed flanks; premature defensiveness cedes argumentative ground that could have been held.",
+    "prediction": "Debate competitors trained to explicitly assess 'fire behavior' (audience attention flow and judge signaling) before each rebuttal turn — rather than following pre-scripted argument sequences — will win more judged rounds against equivalently skilled opponents.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "Pyric Succession Creative Destruction",
+    "mechanism_source": "prairie burning",
+    "target_domain": "creative destruction economics",
+    "mechanism": "Controlled prairie burns eliminate accumulated dead biomass (thatch) that smothers new growth and harbors pest species, releasing nutrients stored in plant litter back to the soil in bioavailable form. Without periodic fire, prairie ecosystems succeed toward shrubland and eventually forest, losing the biodiversity and productivity characteristic of grassland. The burn must be carefully timed — early spring, before warm-season grasses break dormancy — so that the disturbance is severe enough to clear thatch but not so prolonged as to consume root systems.",
+    "application": "Creative destruction in economic theory operates through the same pyric logic: incumbent firms and technologies represent accumulated thatch — once-productive but now blocking the emergence of new entrants. Market crises or regulatory interventions act as controlled burns, releasing capital, talent, and market share locked in underperforming incumbents back to the productive economy. The 'timing' of creative destruction matters: a burn during a demand trough releases resources when new entrants can absorb them; a burn at peak demand incinerates productive capacity.",
+    "prediction": "Industries that experience sharp, time-limited downturns (analogous to clean burns) will show greater post-downturn total factor productivity growth than industries that experience prolonged, low-intensity decline (analogous to smoldering), because the former releases resources in a concentrated, absorbable pulse.",
+    "viability": "promising",
+    "confidence": 0.70
+  }
+]

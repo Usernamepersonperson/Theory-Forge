@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Key Derivation Incubator Design",
+    "mechanism_source": "cryptography",
+    "target_domain": "startup incubator design",
+    "mechanism": "Zero-knowledge proofs allow one party to prove possession of secret information without revealing the information itself. The prover constructs a probabilistic argument that convinces a verifier through repeated challenge-response rounds, each reducing doubt by a fixed factor. The underlying math relies on computational hardness assumptions — problems easy to verify but hard to reverse. This separates proof of capability from disclosure of method.",
+    "application": "Incubators could evaluate startups via structured challenge rounds where founders demonstrate problem-solving and market insight without exposing proprietary IP or trade secrets to mentor networks that include potential competitors. Selection panels score capability signals — speed of iteration, pivot reasoning, customer discovery depth — without requiring pitch decks that leak strategy.",
+    "prediction": "Incubators using challenge-based blind evaluation will show lower rates of IP theft complaints and equal or higher portfolio exit rates compared to traditional open-pitch cohorts within five years.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Sedimentary Ledger Stratigraphy",
+    "mechanism_source": "plate tectonics",
+    "target_domain": "forensic accounting",
+    "mechanism": "Tectonic stratigraphy reads Earth's history through layer sequencing, unconformities, and fault displacements — each geological event leaves a detectable signature in rock column geometry. Subduction zones create pressure-metamorphosed rock far from original deposition sites, indicating material transport. Angular unconformities mark periods of erosion or missing time. Cross-cutting relationships establish relative chronology of intrusions.",
+    "application": "Financial records can be analyzed stratigraphically: normal transaction layers represent expected accumulation, while unconformities — missing ledger periods, abrupt reclassifications, or backdated entries — signal erosion events analogous to tectonic uplift. Funds routed through shell entities resemble subducted material, detectable by anomalous pressure signatures like atypical margin compression in subsidiary accounts.",
+    "prediction": "Forensic audits applying stratigraphic sequence analysis to ledger chronology will identify temporal manipulation (backdating, gap insertion) at higher rates than standard transaction-matching audits in controlled blind trials.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Superposition Habitat Restoration",
+    "mechanism_source": "quantum mechanics",
+    "target_domain": "rewilding strategy",
+    "mechanism": "Quantum superposition allows a particle to occupy multiple states simultaneously until measurement collapses it to a single outcome. The probability amplitude for each state evolves according to the Schrödinger equation, with interference between paths amplifying some outcomes and canceling others. Decoherence — interaction with the environment — destroys superposition and forces classical behavior. Entanglement links particle states across space so that collapse of one instantly determines the other.",
+    "application": "Rewilding planners could treat species reintroduction candidates as superposed — simultaneously viable and nonviable across multiple habitat patches — until monitoring data collapses the assessment. Corridor design would exploit interference logic: overlapping habitat patches reinforce species range expansion while competing land uses destructively interfere, guiding corridor placement to maximize constructive overlap between keystone predator ranges and prey density gradients.",
+    "prediction": "Rewilding corridor designs optimized using probabilistic interference mapping of species range models will show measurably higher colonization success rates than corridors designed by simple least-cost path algorithms in matched habitat trials.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Mycelial Trust Mesh Mediation",
+    "mechanism_source": "mycorrhizal networks",
+    "target_domain": "conflict mediation",
+    "mechanism": "Mycorrhizal networks transfer carbon, phosphorus, and signaling molecules between plant root systems through fungal hyphal bridges, with transfer rates modulated by sink strength — the relative nutrient deficit of the receiving plant. The network is not egalitarian: hub trees with large carbon surplus subsidize suppressed seedlings, creating asymmetric but stabilizing flows. Distress signals (volatile organic compounds, hydraulic signals) propagate through the network, triggering defensive priming in connected plants before direct attack.",
+    "application": "Mediators could map conflict parties as nodes with varying resource surpluses (political capital, economic leverage, legitimacy) and design information-transfer protocols that route concessions from high-surplus actors to high-deficit ones, stabilizing the negotiation network. Early-warning signal protocols — structured check-ins that detect rising grievance before escalation — mirror mycorrhizal stress signaling, allowing preemptive de-escalation.",
+    "prediction": "Multi-party mediations using resource asymmetry mapping and structured early-warning check-ins will reach durable agreements (holding at 24 months) more often than mediations using standard interest-based bargaining alone.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Crew Resource Management Ethogram",
+    "mechanism_source": "ethology",
+    "target_domain": "airline safety protocols",
+    "mechanism": "Ethology catalogs species-typical behavior sequences — fixed action patterns triggered by specific sign stimuli — and maps dominance hierarchies that determine information flow within groups. Lorenz's concept of the innate releasing mechanism shows that certain stimuli reliably trigger stereotyped responses regardless of individual learning history. Subordinate animals suppress warning signals in the presence of dominant conspecifics, a phenomenon called rank-dependent communication inhibition.",
+    "application": "Cockpit safety protocols can be designed around ethological recognition that rank differentials suppress junior crew members' challenge behavior — a known factor in controlled-flight-into-terrain accidents. Checklists redesigned as species-typical rituals with fixed action pattern structure (specific cue, mandatory verbal response, required acknowledgment) reduce reliance on top-down authority and normalize cross-rank challenge as an innate safety signal rather than insubordination.",
+    "prediction": "Airlines implementing ethology-informed challenge-and-response checklists that explicitly normalize subordinate challenge will show measurable reduction in crew communication failures on LOSA (Line Operations Safety Audit) observations compared to pre-implementation baselines.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Topological Invariant Role Architecture",
+    "mechanism_source": "knot theory",
+    "target_domain": "esports team management",
+    "mechanism": "Knot theory classifies closed loops in three-dimensional space by invariants — properties preserved under continuous deformation but changed by cutting and reconnecting. The Jones polynomial and Alexander polynomial fingerprint a knot's topology regardless of how it is drawn. Knots resist simplification not because of physical friction but because of their topological structure; the only way to unknot them is to pass strands through each other, a discontinuous operation.",
+    "application": "Esports team roles can be modeled as topologically linked — support, initiator, carry, and flex roles create crossing dependencies where one role's function passes through another's. Role swaps that ignore linking structure (trying to untangle by continuous reassignment) degrade team synergy; effective roster changes require cutting and reconnecting at specific crossing points, analogous to strategic substitution windows during map or patch transitions.",
+    "prediction": "Teams that change roles at topologically identified crossing points (patch-induced meta shifts, map pool changes) will show faster performance recovery after roster changes than teams making role changes mid-season without structural justification.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Crystal Lattice Starter Culture Management",
+    "mechanism_source": "crystallography",
+    "target_domain": "sourdough bakery operations",
+    "mechanism": "Crystal growth proceeds via nucleation followed by lattice propagation — atoms or molecules join a growing structure at energetically favorable sites determined by the crystal's space group symmetry. Dislocations (point, edge, and screw defects) propagate through the lattice and determine mechanical properties; a perfectly defect-free crystal is often brittle while controlled dislocation density confers resilience. Polymorphism allows the same compound to crystallize into multiple structures depending on temperature and growth rate.",
+    "application": "Sourdough starter management mirrors lattice dynamics: the microbial community has a characteristic 'space group' — a stable ratio of Lactobacillus species to wild yeast strains that self-replicates under consistent conditions. Disruptions (temperature spikes, flour switches) introduce dislocations that alter fermentation character; controlled stress (stiff starters, cold retard cycles) introduces beneficial defects analogous to work-hardening, producing more complex flavor polymorphs.",
+    "prediction": "Starters maintained with periodic controlled-stress protocols (alternating hydration levels, temperature cycling within viable range) will produce measurably greater volatile organic compound diversity in finished loaves than starters kept under invariant conditions.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Laminar-Turbulent Visitor Flow Design",
+    "mechanism_source": "fluid dynamics",
+    "target_domain": "museum exhibit flow",
+    "mechanism": "Fluid flow transitions from laminar (smooth, parallel streamlines) to turbulent (chaotic, mixing) when the Reynolds number — a ratio of inertial to viscous forces — exceeds a critical threshold. Constrictions accelerate flow (Venturi effect), reducing pressure; expansions decelerate flow and increase pressure, creating backflow separation zones. Boundary layer separation at sharp geometrical transitions generates eddies and recirculation regions that impede net flow.",
+    "application": "Museum galleries can be analyzed as fluid channels: visitor density and movement speed determine a behavioral Reynolds number, and exhibit placement controls viscosity (dwell time) and inertia (crowd momentum). High-interest anchor exhibits act as Venturi constrictions — they accelerate approach traffic and create recirculation eddies (backtracking visitors) downstream. Designing gradual geometric transitions between galleries and placing secondary exhibits in backflow zones converts recirculation into productive dwell time.",
+    "prediction": "Museums that redesign gallery transitions using fluid dynamics modeling of visitor flow will show reduced bottleneck dwell times at primary exhibits and increased time-on-floor at secondary exhibits compared to pre-redesign visitor tracking baselines.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Herd Immunity Narrative Threshold",
+    "mechanism_source": "epidemiology",
+    "target_domain": "political speechwriting",
+    "mechanism": "Herd immunity is achieved when a sufficient fraction of a population is immune that pathogen transmission chains break spontaneously, even without universal immunity. The threshold fraction is 1 - 1/R₀, where R₀ is the basic reproduction number — the average number of secondary cases per primary case in a fully susceptible population. Super-spreader events occur when network heterogeneity concentrates transmission through high-degree nodes. Seeding a population with immune individuals near network hubs is more efficient than uniform coverage.",
+    "application": "Political speechwriters can target message propagation using epidemic logic: a core narrative achieves cultural herd immunity when it reaches enough amplifier nodes (media figures, community leaders, trusted institutions) that counter-narratives lose transmission chains. Identifying high-R₀ rhetorical frames — phrases with high emotional valence and low cognitive processing cost — and seeding them via hub communicators before mass broadcast maximizes reach efficiency.",
+    "prediction": "Political messages pre-seeded through high-centrality social network nodes before broadcast release will achieve measurably faster organic sharing velocity and higher final reach than identical messages released via broadcast-first strategies.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Semiotic Sign Arbitrage in Scheduling",
+    "mechanism_source": "semiotics",
+    "target_domain": "freight train scheduling",
+    "mechanism": "Saussurean semiotics distinguishes the signifier (acoustic or visual form), the signified (concept), and the referent (actual thing), with the sign relation being arbitrary — no natural necessity links form to meaning. Peirce extends this to icons (resemblance), indices (causal connection), and symbols (conventional). Sign chains can break: a signifier may be misread, a signified misapplied, or the referent absent — producing miscommunication that cascades through dependent sign users.",
+    "application": "Freight scheduling systems rely on dense sign chains — track codes, priority flags, consist markers, block signals — where arbitrary conventions carry real physical consequences. Applying semiotic analysis identifies sign-chain fragility: where symbolic conventions (priority codes) conflict with indexical ground truth (actual track occupation), cascading misreads occur. Redesigning critical signals as icons or indices rather than arbitrary symbols reduces chain-break risk at high-consequence decision nodes.",
+    "prediction": "Freight scheduling systems that replace arbitrary alphanumeric priority codes with iconically or indexically grounded display formats at dispatcher interfaces will show measurable reductions in misread-induced delay incidents in controlled operational trials.",
+    "viability": "speculative",
+    "confidence": 0.53
+  },
+  {
+    "name": "Permaculture Zone Preparedness Curriculum",
+    "mechanism_source": "permaculture",
+    "target_domain": "disaster preparedness education",
+    "mechanism": "Permaculture design organizes interventions by zones of intensity — Zone 0 (home) through Zone 5 (wilderness) — based on frequency of human interaction and energy required for maintenance. Elements placed in lower zones need daily attention and provide daily yield; Zone 5 elements self-manage and provide ecosystem services passively. Stacking functions ensures each element serves multiple roles, reducing single-point-of-failure vulnerability. Edge effects between zones maximize diversity and yield at transition boundaries.",
+    "application": "Disaster preparedness curricula can be zoned by cognitive and logistical proximity: Zone 0 skills (household water storage, 72-hour kits) require daily-adjacent habit integration; Zone 3-4 skills (community coordination, mutual aid networks) function passively once established. Education programs that stack functions — teaching food preservation as both Zone 0 nutrition skill and Zone 2 disaster resilience — achieve deeper retention by embedding emergency logic into existing behavioral routines.",
+    "prediction": "Communities trained using zone-stacked preparedness curricula that integrate emergency skills into existing daily routines will show higher retention of preparedness behaviors at 12-month follow-up than communities trained via standalone emergency-focused workshops.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Tree Ring Loyalty Chronology",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "luxury hotel management",
+    "mechanism": "Dendrochronology reads annual growth rings in wood cross-sections to reconstruct climate history: ring width reflects growing-season resource availability, density reflects timing of growth within the season, and isotopic composition encodes temperature and precipitation signals. Cross-dating between overlapping samples builds master chronologies extending centuries. Pointer years — anomalously narrow or wide rings — mark climate events and serve as anchor points for chronology alignment.",
+    "application": "Guest loyalty history in luxury hotels can be analyzed dendrochronologically: each guest's visit record forms a chronological ring sequence, with stay frequency as width and spend density as ring density. Cross-dating across the guest database identifies cohort pointer years — economic downturns, brand pivots, property renovations — that created anomalous loyalty shifts. Identifying which guests maintained visits through pointer years reveals true loyalty cores distinct from fair-weather patronage.",
+    "prediction": "Hotels using pointer-year cross-dating analysis to identify recession-resilient guests will achieve higher ROI on loyalty program investment by concentrating benefits on identified core guests rather than distributing uniformly by lifetime spend.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Nash Equilibrium Governance Protocol",
+    "mechanism_source": "game theory",
+    "target_domain": "open-source community governance",
+    "mechanism": "A Nash equilibrium is a strategy profile where no player can improve their payoff by unilaterally deviating, given others' strategies. Repeated games allow cooperation to emerge as equilibrium via folk theorems when discount rates are low enough that future cooperation is sufficiently valued. Coordination games feature multiple equilibria; focal points (Schelling points) enable equilibrium selection without communication. Tragedy of the commons occurs when individual rationality produces collectively suboptimal outcomes in shared resource games.",
+    "application": "Open-source governance structures can be designed to shift contribution games from prisoner's dilemmas (defection dominant) toward coordination games with cooperation equilibria. Reputation systems that make contribution history persistent and visible lower discount rates by increasing the value of future cooperative relationships. Explicit Schelling points — canonical contribution formats, release cadences, decision thresholds — reduce coordination costs and stabilize cooperative equilibria against free-rider invasion.",
+    "prediction": "Open-source projects that implement persistent public reputation systems tied to contribution history will show lower rates of contribution attrition after initial commit and higher rates of returning contributor reactivation than projects relying on informal community norms alone.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Isoline Engagement Cartography",
+    "mechanism_source": "cartography",
+    "target_domain": "mobile game retention",
+    "mechanism": "Cartographic isolines connect points of equal value — elevation contours, isobars, isotherms — revealing the shape of continuous underlying fields. Contour spacing encodes gradient steepness: closely spaced contours indicate rapid change, widely spaced contours indicate shallow gradients. Watershed analysis identifies ridgelines that separate drainage basins, predicting which direction water (or other flows) will travel from any point. Topological map errors (crossing contours) indicate data inconsistency.",
+    "application": "Mobile game session data can be mapped as engagement terrain: isolines of session length and return rate reveal difficulty cliffs (closely spaced isolines where small design changes cause large behavioral drops) and plateau regions where retention is stable across wide parameter ranges. Watershed ridgelines identify the exact decision points where players bifurcate into churned vs. retained populations, enabling targeted intervention at ridge-adjacent moments rather than broad retention campaigns.",
+    "prediction": "Mobile games that map engagement isolines from session telemetry and intervene at identified ridge-adjacent churn decision points will show higher 30-day retention rates than games using cohort-average retention analysis to target interventions.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Acoustic Eigenmode Audience Resonance",
+    "mechanism_source": "acoustics",
+    "target_domain": "classical music programming",
+    "mechanism": "Room acoustics are dominated by modal resonances at low frequencies: standing waves form when room dimensions are integer multiples of half-wavelengths, creating eigenmodes with fixed nodal and antinodal pressure distributions. Reverberation time (RT60) determines how long sound energy persists after a source stops, controlled by surface absorption coefficients. Flutter echo arises from parallel reflective surfaces; diffusion panels scatter energy to reduce it. Spectral coloration occurs when modal density is insufficient at low frequencies, causing some pitches to boom while others disappear.",
+    "application": "Classical programming can treat audience emotional response as a resonant system with eigenmodes: certain program architectures (key relationships between consecutive works, tempo arcs across a concert, dynamic envelope from opening to finale) create standing-wave-like resonances in cumulative emotional state, while others produce flutter echo — repetitive affect that cancels engagement. RT60 analogues exist in pacing: too-short rests between contrasting works allow emotional reverberation to muddy the next piece's reception.",
+    "prediction": "Concert programs designed using eigenmode analysis of key-relationship graphs and dynamic arc modeling will receive measurably higher post-concert audience satisfaction scores than programs assembled by conventional contrast-and-balance heuristics alone.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  }
+]

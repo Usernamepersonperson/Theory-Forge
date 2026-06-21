@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Affinage Gradient Supply Theory",
+    "mechanism_source": "cheese cave aging",
+    "target_domain": "supply chain resilience",
+    "mechanism": "Affinage is the practice of aging cheese under controlled cave conditions where temperature, humidity, and microbial populations are managed in distinct zones along a gradient. Affineurs rotate wheels between zones, exploit rind biofilms as selective barriers, and monitor moisture migration from interior to surface over months. The cave environment creates a time-buffered maturation system: slow biochemical change inside an insulating rind produces resilience against external fluctuation.",
+    "application": "Supply chains can be structured analogously by partitioning inventory into staged buffer zones with distinct environmental and temporal parameters — raw input stores, work-in-process buffers, and finished goods reserves — each governed by different refresh rates and protection levels. Rind-logic translates to protective contracts or dual-sourcing wrappers around vulnerable nodes. Rotation protocols prevent single-node spoilage from cascading inward.",
+    "prediction": "Supply chains modeled with three or more staged buffer zones and cross-zone rotation protocols will show measurably lower stockout rates during single-tier disruption events compared to linear pipeline designs without internal rotation.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Dead Reckoning Comedy Arc",
+    "mechanism_source": "astronomical navigation",
+    "target_domain": "standup comedy writing",
+    "mechanism": "Dead reckoning in astronomical navigation involves updating a position estimate by integrating known speed, heading, and elapsed time forward from a last confirmed fix. Navigators combine this running estimate with periodic celestial observations — latitude from meridian altitude, longitude from lunar distances or chronometer — correcting accumulated drift at each fix. Errors compound between fixes, so the quality of each observation and the calibration of the chronometer determine overall accuracy.",
+    "application": "A comedy writer can structure a set as dead reckoning: establish a confirmed 'fix' (a solid callback or premise the audience has accepted), then run a drift of escalating absurdity, trusting accumulated momentum up to a tolerance limit before landing another fix (a grounded tag or reset). Sets without periodic fixes drift into incoherence; sets that fix too often lose the comedic distance needed for surprise.",
+    "prediction": "Sets experimentally structured with explicit fix-drift-fix rhythm at intervals calibrated to audience laughter decay (roughly every 90–120 seconds) will score higher on audience coherence ratings than sets with either uniform density or purely improvisational flow.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Quench-Temper Delivery Zoning",
+    "mechanism_source": "blacksmithing",
+    "target_domain": "autonomous drone delivery",
+    "mechanism": "Blacksmithing involves heating steel to austenite, then quenching to trap martensite — a hard but brittle phase — followed by controlled tempering that relieves internal stress and trades some hardness for toughness. The quench rate, temperature, and soak duration during tempering precisely tune the final mechanical property profile. Differential hardening techniques (e.g., clay-coat quenching) create zones of distinct hardness within one piece.",
+    "application": "Drone delivery route planning can apply zone-differentiated property logic: flight corridors are 'quenched' to maximize rigidity (strict airspace compliance, collision margins) while payload handling and last-meter approaches are 'tempered' (flexible path adaptation, obstacle tolerance). Onboard flight controllers can toggle between hard and tough modes in real time as a function of phase — transit vs. delivery.",
+    "prediction": "Drones running a dual-mode controller that switches from high-rigidity path-following during transit to high-adaptability micro-routing within 50 m of delivery target will complete more deliveries per charge in cluttered urban environments than single-mode controllers.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Counterweight Sway Therapy",
+    "mechanism_source": "funambulism",
+    "target_domain": "couples therapy",
+    "mechanism": "Tightrope walkers maintain balance not by standing rigidly still but by making continuous micro-corrections with arms, body lean, and pole counterweights. A long balance pole lowers the center of gravity and increases rotational inertia, making each corrective movement slower and more controlled. The skill is managing the sway — allowing oscillation within a recoverable range rather than overcorrecting into a fall.",
+    "application": "Couples therapy can frame relational conflict as a balance system where each partner's reactive move is a corrective sway. Therapists trained in this model teach partners to distinguish recoverable sway (normal conflict expression) from overcorrection (escalation that passes the tipping point). Therapeutic tools function as balance poles — slowing the rate of response to increase deliberate control.",
+    "prediction": "Couples therapy protocols that explicitly teach partners to pause 3–5 seconds after a triggering statement before responding — analogous to pole-induced inertia — will show greater de-escalation rates in recorded sessions compared to protocols without mandated response delay.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Warp-Thread Brand Identity",
+    "mechanism_source": "tapestry weaving",
+    "target_domain": "craft beer marketing",
+    "mechanism": "In tapestry weaving, the warp (vertical threads under tension) is invisible in the finished work but entirely governs the structural integrity and scale of the image. The weft (horizontal threads) carries all visible color and pattern but is completely dependent on warp tension and sett for its resolution. A dense, even warp allows fine detail; an irregular warp creates distortion regardless of weft quality.",
+    "application": "Craft beer brand identity has a warp layer (core values, provenance story, production philosophy) that is largely invisible in marketing materials but determines the coherence of all visible content — label design, tap handle aesthetics, tap room atmosphere. Breweries that treat visible assets as primary and neglect the underlying narrative warp produce dissonant brand perception even with high production design quality.",
+    "prediction": "Craft breweries that can articulate a consistent three-element provenance narrative (origin, method, purpose) across all consumer touchpoints will show higher repurchase intention scores than breweries with equivalent design budgets but inconsistent brand narrative.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Focal Optics Land Stewardship",
+    "mechanism_source": "lighthouse engineering",
+    "target_domain": "community land trusts",
+    "mechanism": "A lighthouse Fresnel lens concentrates light into a narrow, intense beam that sweeps a full arc, making a weak source visible at extreme distance through constructive interference of refracted rays. The lens structure — concentric prismatic rings — reduces weight while maximizing focal power. The characteristic flash pattern (period, color, occultation) uniquely identifies each light to navigators and prevents confusion in a crowded coastline.",
+    "application": "Community land trusts can apply focal optics logic by concentrating dispersed community resources (small equity contributions, volunteer labor, municipal grants) through a legal and financial structure that acts as a Fresnel lens — amplifying collective effect far beyond what individual parts would suggest. Distinctive CLT governance signatures (resale formulas, affordability covenants) serve as the characteristic flash pattern that differentiates one trust's obligations from another.",
+    "prediction": "CLTs that publicly document a unique three-element identity structure (geographic focus zone, resale covenant formula, membership entry criteria) will attract measurably higher rates of repeat donor and municipal partner re-engagement compared to CLTs with standard generic documentation.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Ma-Interval Bet Sizing",
+    "mechanism_source": "tea ceremony",
+    "target_domain": "professional poker strategy",
+    "mechanism": "The Japanese tea ceremony (chado) structures every movement around ma — intentional negative space, the pause between actions that gives each action meaning and prevents the performance from collapsing into hurried routine. Specific protocols govern the timing of water ladle placement, bowl rotation, and guest interaction pauses. Disruption of ma timing signals loss of composure and degrades the aesthetic coherence of the whole ritual.",
+    "application": "Professional poker strategy benefits from a ma-interval framework applied to bet sizing decisions: the deliberate pause before action serves not merely as information hiding but as a composure-maintenance practice that prevents reactive sizing (tilt-driven deviations from optimal EV lines). Players who internalize fixed pause protocols before any bet above a threshold size reduce variance in sizing errors under pressure.",
+    "prediction": "Poker players trained to enforce a minimum 4-second pause before any bet exceeding 50% of pot will show lower standard deviation in bet sizing relative to game-theory optimal targets in simulated high-pressure scenarios than players given only EV-calculation training.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Passage Survey Company Mapping",
+    "mechanism_source": "caving",
+    "target_domain": "ballet company management",
+    "mechanism": "Cave survey methodology maps passage geometry using azimuth, inclination, and distance measurements from station to station, producing a 3D model of a system that is otherwise invisible from the surface. Surveyors classify passages by morphology (phreatic tubes, vadose canyons, breakdown chambers) and identify hydrological connections between seemingly unrelated areas. The survey reveals hidden flow paths and load-bearing structures that are not apparent until the entire network is plotted.",
+    "application": "Ballet company management can apply passage survey logic to organizational mapping: talent development pathways, informal mentorship flows, and repertoire dependencies are hidden passages that only become visible when deliberately surveyed through structured interviews, casting data analysis, and rehearsal observation. Managers who conduct explicit pathway surveys identify bottlenecks (vadose canyons — narrow channels under high pressure) and underutilized capacity (phreatic tubes — developed passages with low current traffic).",
+    "prediction": "Ballet companies that conduct annual structured pathway surveys of dancer development trajectories will demonstrate lower principal-level attrition in the 3–5 year window than companies using only performance review metrics without explicit pathway documentation.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Cross-Examination Graffiti Curation",
+    "mechanism_source": "competitive debate",
+    "target_domain": "graffiti art curation",
+    "mechanism": "Competitive debate trains practitioners to construct reversible argument structures — positions that can be attacked from multiple angles — and to identify the weakest link in an opponent's reasoning chain under time pressure. Cross-examination specifically involves probing definitional concessions, internal inconsistencies, and unsupported warrants within an adversarial but rule-bound format. Debaters learn to distinguish a position's rhetorical strength from its logical validity.",
+    "application": "Graffiti art curation benefits from cross-examination logic as a gatekeeping methodology: curators who can probe an artist's stated intent, contextualize historical precedents under adversarial conditions, and test internal consistency between an artist's public statement and their work's visual vocabulary will produce more defensible curatorial decisions in contested public contexts. This is particularly relevant when curation involves unauthorized work entering institutional spaces.",
+    "prediction": "Graffiti exhibitions curated through documented adversarial review processes — where curatorial rationales must survive challenges from alternative curatorial perspectives — will receive higher critical credibility scores from independent reviewers than exhibitions produced through single-curator selection.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "PMI Succession Clinical Design",
+    "mechanism_source": "forensic entomology",
+    "target_domain": "clinical trial design",
+    "mechanism": "Forensic entomologists estimate post-mortem interval (PMI) by identifying the successional stage of insect colonization on remains: blow flies (Calliphoridae) arrive within minutes of death, oviposit, and produce larvae whose development stage can be back-calculated against temperature-degree-day models to establish minimum PMI. Later succession waves (beetles, mites) confirm extended intervals. The method requires calibrated models per species per geographic locale and rigorous ambient temperature reconstruction.",
+    "application": "Clinical trial design can borrow successional staging logic for adverse event temporal mapping: just as PMI estimation requires knowing which biological process arrives first, at what rate it develops, and when it gives way to the next process, trial safety monitoring can assign biological 'succession markers' to toxicity cascades — identifying which biomarkers are leading indicators (blow fly analogs) versus late confirmatory signals (beetle analogs). This improves DMC stopping rules by distinguishing early from late-phase toxicity signatures.",
+    "prediction": "Trials that implement tiered biomarker monitoring protocols explicitly classifying safety signals by temporal succession order (early vs. late-phase indicators) will achieve earlier true-positive safety holds and fewer false-positive holds than trials using composite endpoint safety criteria without temporal staging.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Marbled Surface Premium Valuation",
+    "mechanism_source": "paper marbling",
+    "target_domain": "ocean freight insurance",
+    "mechanism": "Paper marbling involves floating oil-based pigments on a size (carrageenan or ox gall solution) and manipulating them with combs, styluses, and breath to form complex swirling patterns before transferring them to paper via contact. The pattern formation is governed by immiscibility, surface tension gradients, and the viscoelastic properties of the size. Critically, each pattern is unique and non-reproducible: the same technique applied twice produces observably different outputs due to chaotic sensitivity to initial conditions.",
+    "application": "Ocean freight insurance underwriting grapples with the problem that each voyage is a unique risk surface — route, cargo, season, vessel age, captain experience, geopolitical corridor — that combines in non-reproducible ways analogous to a marbled pattern. Rather than forcing each risk into standardized actuarial buckets, underwriters can adopt a marbling-informed dynamic surface model: premium is calculated as a function of how far a voyage's risk profile deviates from a baseline 'size' (average route profile), weighted by the specific pigment interactions (individual risk factor correlations) in that configuration.",
+    "prediction": "Insurance portfolios priced using multivariate interaction models that explicitly weight correlated risk factor combinations will exhibit smaller loss ratio variance over five-year periods than portfolios using additive factor models with the same underlying data.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Thermal Stress Voice Casting",
+    "mechanism_source": "ice sculpting",
+    "target_domain": "voice acting casting",
+    "mechanism": "Ice sculpting requires the sculptor to understand thermal stress propagation through the block: chainsaw and chisel work generates localized heating that creates stress differentials, and carving sequences must proceed from interior structural cuts outward to prevent fracture along existing crystal grain boundaries. Experienced sculptors read the block's internal crystalline structure — visible as opacity gradients and air bubble orientation — before making any cut, because the block's hidden history (freezing rate, water source) determines where it will fracture under pressure.",
+    "application": "Voice acting casting directors can read vocal 'crystalline structure' — the hidden history of a performer's training, regional accent substrate, and physiological resonance cavity — before assigning roles. Just as a sculptor avoids cuts that exploit grain boundaries, a casting director avoids casting configurations where an actor's voice grain (natural resonance, breath pattern under stress) will fracture against the tonal requirements of the role under the thermal stress of long-session recording.",
+    "prediction": "Casting decisions informed by structured acoustic analysis of a voice actor's resonance profile and stress-response characteristics will produce lower re-take rates per finished hour of produced audio than casting decisions based on portfolio listening alone.",
+    "viability": "speculative",
+    "confidence": 0.55
+  },
+  {
+    "name": "Marionette Hierarchy Pit Master",
+    "mechanism_source": "puppetry",
+    "target_domain": "competitive barbecue",
+    "mechanism": "Marionette control requires the puppeteer to manage a hierarchy of strings, each governing a distinct degree of freedom — head tilt, shoulder shrug, wrist rotation, foot lift — through a control bar (the crutch) that bundles these lines into manipulable groups. Expert puppeteers develop proprioceptive maps of string tension so that individual movements feel like direct body extension rather than mechanical translation. The art is maintaining illusion of autonomous life through a perfectly hierarchical control architecture that hides its own existence.",
+    "application": "Competitive barbecue pit masters manage analogous control hierarchies: fuel feed rate governs chamber temperature (primary string), damper position fine-tunes airflow (secondary string), water pan load modulates humidity (tertiary string), and meat placement relative to firebox governs zone temperature distribution (quaternary string). Pit masters who internalize these as a proprioceptive hierarchy — feeling the cook through temperature probe feedback rather than reacting to discrete readings — produce more consistent results under competition time pressure.",
+    "prediction": "Competitors who train using real-time multi-sensor dashboards that display all control variables simultaneously (temperature, humidity, fuel weight, vent position) will develop faster corrective response times and lower cook temperature variance than competitors who train with single-probe feedback.",
+    "viability": "promising",
+    "confidence": 0.65
+  },
+  {
+    "name": "Accord Volatility Seed Vault",
+    "mechanism_source": "perfumery",
+    "target_domain": "seed bank preservation",
+    "mechanism": "A perfume accord is a stable olfactory blend in which multiple volatile molecules at different evaporation rates — top notes (high volatility, short persistence), heart notes (medium volatility), and base notes (low volatility, long-lasting) — are calibrated so that the fragrance evolves coherently over hours rather than collapsing immediately into a single character. Fixatives (musks, resins, ambergris analogs) further retard evaporation of volatile top notes, extending the temporal coherence of the blend.",
+    "application": "Seed bank preservation strategies can be structured as a volatility accord: genetically most-at-risk wild relatives (highly volatile in terms of extinction probability) require the most fixative investment (cryogenic storage, active regeneration cycles), while stable commercial cultivars (base notes, long shelf life under standard cold storage) require minimal active management. Middle-tier landraces need periodic regeneration — a heart note logic where controlled cycling maintains viability without the cost of full cryopreservation.",
+    "prediction": "Seed banks that allocate cryogenic storage resources in inverse proportion to measured seed viability longevity under standard conditions (prioritizing short-lived species) will demonstrate higher overall germination success rates at 25-year intervals than banks using uniform storage protocols across all accessions.",
+    "viability": "promising",
+    "confidence": 0.78
+  },
+  {
+    "name": "Arrow Spine Flex Identity",
+    "mechanism_source": "archery",
+    "target_domain": "digital identity verification",
+    "mechanism": "Arrow spine (stiffness) must be matched precisely to draw weight: an arrow that is too stiff will fly to the left of the aiming point (for a right-handed archer), while an undermatched spine causes 'fishtailing' oscillation that destroys accuracy. The Archer's Paradox describes how an arrow bends around the bow riser at release, and correct spine allows the arrow to recover to a straight flight path within a predictable number of oscillation cycles. Dynamic spine — the effective stiffness under acceleration — differs from static spine and must be measured under load.",
+    "application": "Digital identity verification systems have an analogous spine problem: verification methods that are too rigid (requiring perfect data matches) produce false rejections (left-flight), while methods with insufficient match-threshold specificity produce oscillating false accepts. The Archer's Paradox maps to the paradox that a verification system must bend to accommodate real-world name variations, document inconsistencies, and behavioral noise, but must also recover to a reliable true-identity path within a bounded error cycle. Dynamic identity (behavior under transactional load) differs from static identity (enrollment data) and must be evaluated separately.",
+    "prediction": "Identity verification systems that separately model static enrollment data and dynamic behavioral patterns — then combine them using a spine-matching algorithm that adjusts match thresholds based on transaction-load context — will achieve lower combined false-accept/false-reject rates than systems using a single static threshold.",
+    "viability": "promising",
+    "confidence": 0.70
+  }
+]

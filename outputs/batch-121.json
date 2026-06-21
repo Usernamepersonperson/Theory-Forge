@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Accords and Volatility Pyramids in Feature Representation",
+    "mechanism_source": "perfumery",
+    "target_domain": "machine learning",
+    "mechanism": "Perfumers compose fragrances across three volatility tiers—top notes (fast-evaporating, first impression), heart notes (middle body that defines character), and base notes (slow-releasing, lasting foundation). Each accord is a stable blend of molecules that interact nonlinearly; the final scent perceived is never simply the sum of ingredients but an emergent olfactory gestalt. Master perfumers use fixatives in the base to anchor volatile top notes, preventing rapid dissipation and creating persistence.",
+    "application": "Neural network feature representations can be structured as volatility pyramids: high-frequency surface features (edge detectors, texture patches) function as top notes, mid-level semantic groupings as heart notes, and deep abstract representations as base notes. Fixative mechanisms analogous to dropout regularization or batch normalization anchor volatile high-level abstractions during training, preventing representational collapse. Ensemble blending across pyramid layers mirrors accord composition, yielding emergent generalization beyond individual feature classes.",
+    "prediction": "Models explicitly trained with layered volatility-tier loss weighting—applying stronger regularization penalties to higher layers and weaker penalties to lower layers—will show greater out-of-distribution generalization than flat-regularization baselines on benchmark transfer tasks.",
+    "viability": "speculative",
+    "confidence": 0.54
+  },
+  {
+    "name": "Culm Modularity and Internode Democracy",
+    "mechanism_source": "bamboo construction",
+    "target_domain": "democratic theory",
+    "mechanism": "Bamboo structural systems derive strength from hollow culms divided by solid nodes (septa) at regular intervals. Each internode bears compressive and tensile load independently while nodes transfer stress between segments, preventing buckling propagation. The geometry is hierarchical: individual culms bundle into structural frames, frames into trusses, all without any single point of catastrophic failure because load paths are redundantly distributed across nodes.",
+    "application": "Democratic institutions can be modeled as culm systems where local deliberative units (municipalities, wards, civic assemblies) are internodes and constitutional norms are nodes transferring legitimate authority upward. The hollow-culm principle suggests democracies should avoid solid, monolithic power concentration—light, distributed chambers resist cascading failure better than dense unicameral systems. When one internode (region) is compromised, nodal separation prevents systemic buckling across the whole structure.",
+    "prediction": "Federal democracies with explicit subsidiary nodes—formal constitutional separation between tiers of government—will show measurably lower rates of full democratic backsliding after executive overreach events compared to unitary systems with equivalent GDP and civil society strength.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Slab Release Mechanics and the Cascade Threshold Model of Startup Failure",
+    "mechanism_source": "avalanche science",
+    "target_domain": "startup failure",
+    "mechanism": "Avalanches begin when a weak layer buried beneath cohesive slab snow fractures under stress that exceeds its propagation arrest toughness. The critical insight is that slope angle, load (new snowfall, wind deposit), and weak-layer depth interact nonlinearly: a slope can appear stable for months until a small trigger—a skier, a temperature spike—initiates a crack that propagates faster than arrest can occur. Fracture propagation speed determines whether the event self-arrests or becomes a full release.",
+    "application": "Startups accumulate latent weak layers: technical debt, key-person dependencies, runway miscalculation, and deferred market validation. Like slab snow, these stressors are invisible during apparent stability phases. A small trigger—a churned enterprise client, a key engineer departing—initiates cascading failure if the organization's 'arrest toughness' (cash reserves, team redundancy, pivot capacity) is insufficient. Post-mortem analyses consistently find the visible trigger was not the cause but the fracture initiator of a pre-existing weak layer.",
+    "prediction": "Startups that conduct quarterly 'weak layer audits'—systematically documenting latent stressors across finance, team, and product dimensions—will show statistically lower rates of sudden, unrecovered failure versus matched controls, even when surface growth metrics are equivalent.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Lead Lines and Channel Capacity in Partitioned Information",
+    "mechanism_source": "stained glass",
+    "target_domain": "information theory",
+    "mechanism": "Stained glass windows transmit light through colored glass panels separated by lead cames (H-profile strips). The lead network performs two simultaneous functions: it structurally joins fragments into a stable whole and it absorbs and re-radiates a small fraction of light at wavelengths different from the glass panels, creating micro-contrast at every boundary. The overall luminance is thus the sum of panel transmission plus edge-emission, with the lead acting as a lossy channel boundary that paradoxically enhances perceived image resolution through contrast amplification.",
+    "application": "In partitioned information systems—tiled compression codecs, modular encryption schemes, segmented data pipelines—the boundaries between partitions (analogous to lead cames) introduce small overhead costs but can be engineered to carry error-correction metadata or authentication tags that enhance downstream fidelity. Shannon's channel capacity models typically treat partition boundaries as pure loss; the stained-glass model reconceptualizes them as auxiliary channels carrying complementary information that raises effective throughput.",
+    "prediction": "A segmented codec that encodes lightweight integrity metadata in partition boundary regions will achieve lower reconstruction error under noisy channel conditions than a boundary-free codec of equivalent total bitrate, measurable at channel error rates above 10^-3.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Saponification Fronts and the R0 Surface in Disease Transmission",
+    "mechanism_source": "soap making",
+    "target_domain": "epidemiology",
+    "mechanism": "Soap formation (saponification) is a base-catalyzed reaction in which triglycerides are cleaved into glycerol and fatty acid salts. The reaction proceeds as a propagating front: once initiated, the alkaline reaction products themselves catalyze further saponification, creating autocatalytic acceleration until substrate depletion. The final texture and clarity of soap depends critically on the degree of superfat (unreacted fat) left after full propagation, which buffers the bar against residual alkalinity.",
+    "application": "Epidemic propagation exhibits saponification-front dynamics: an initial seeding event catalyzes autocatalytic transmission (each infected individual is a reaction product that becomes a new catalyst), with the wave front propagating until susceptible-population depletion (superfat analog) halts spread. The herd immunity threshold maps directly to the critical superfat level below which the reaction self-arrests. Vaccination campaigns that achieve heterogeneous coverage mirror intentional superfat engineering—leaving residual 'unreacted' pockets changes front morphology and propagation geometry.",
+    "prediction": "In network epidemic models, heterogeneous vaccination strategies targeting high-degree nodes (analogous to selective superfat introduction at high-viscosity zones) will produce earlier and more stable extinction of propagating infection fronts than equivalent-dose uniform vaccination, measurable in stochastic simulation at R0 between 2.0 and 3.5.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Dot-Dash Encoding and Combinatorial Cis-Regulatory Grammar",
+    "mechanism_source": "morse code",
+    "target_domain": "gene regulation",
+    "mechanism": "Morse code encodes the 26-letter alphabet using sequences of short (dot) and long (dash) signals separated by precisely timed gaps. The critical design feature is that meaning is compositional: individual dots and dashes are meaningless; only their temporal sequence within a letter boundary generates a symbol. Gaps between letters and words operate at different timescales than intra-letter pauses, creating a hierarchical temporal grammar.",
+    "application": "Cis-regulatory elements (enhancers, silencers, insulators) operate as combinatorial grammars in which individual transcription factor binding sites (dots and dashes) are individually insufficient to determine transcriptional output; only their spatial sequence and spacing within an enhancer module generates a regulatory signal. Inter-module spacing (analogous to letter-gap timing) determines whether adjacent regulatory elements function cooperatively or independently. This Morse-cis model predicts that regulatory mutations that alter binding-site spacing without changing identity will disrupt gene expression analogously to timing errors in code transmission.",
+    "prediction": "Synthetic enhancer constructs in which binding-site order is scrambled while preserving site identity and density will show significantly altered transcriptional output compared to wildtype spacing, and the degree of disruption will correlate with the degree of sequence-order permutation rather than identity-composition change.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "The Austringer's Yield Calculus in Early-Stage Investment",
+    "mechanism_source": "falconry",
+    "target_domain": "venture capital",
+    "mechanism": "A falconer (austringer) invests months of patient imprinting and conditioning before a raptor becomes capable of cooperative hunting. The bird retains full wildness and autonomy—the falconer cannot compel capture—but has learned to return to the fist in exchange for reward. Critically, premature pressure (forcing a hunt before readiness) permanently damages the bond, while excessive feeding reduces the bird's hunger-drive motivation. The falconer must read subtle behavioral signals to time each session optimally.",
+    "application": "Venture investors similarly work with founders who retain autonomous agency—no amount of board pressure can compel product-market fit. The imprinting phase (seed stage) establishes a trust relationship through non-extractive support; premature governance pressure (forcing scale before readiness) damages founder motivation irreversibly. The hunger-drive principle maps to runway management: over-capitalization reduces founder urgency while starvation impairs performance. The skilled VC reads subtle company signals to time intervention, follow-on, and demand precisely.",
+    "prediction": "Venture-backed companies where lead investors score higher on founder-rated 'patience and signal-reading' metrics in seed stage surveys will show higher Series B conversion rates and lower forced-exit rates than companies with equivalent capital but lower founder-rated investor quality scores.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Crease Pattern Geometry and the Energy Landscape of Polypeptide Collapse",
+    "mechanism_source": "origami",
+    "target_domain": "protein folding",
+    "mechanism": "Origami crease patterns pre-encode the final three-dimensional form of a folded model as a two-dimensional network of mountain and valley folds. Flat-foldability theorems (Kawasaki, Maekawa) constrain which crease arrangements can collapse to a flat final state, analogous to energy minima. The folding pathway—the sequence in which creases actuate—is constrained by geometric compatibility: some folds must precede others, creating a kinetic ordering even though the final form is energetically determined.",
+    "application": "Protein primary sequences encode three-dimensional fold topology in a similarly compressed form: the linear amino acid sequence is the crease pattern, secondary structure elements (helices, sheets) are mountain/valley folds, and the native conformation is the minimum-energy collapsed state. Kinetic folding pathways are constrained by analogous geometric compatibility—certain secondary structures must form before tertiary packing can proceed. The origami model predicts that misfolding diseases arise when an incorrect early crease (premature beta-sheet nucleation) locks the polypeptide into a kinetically trapped non-native topology.",
+    "prediction": "Molecular dynamics simulations that introduce origami-derived flat-foldability constraints on secondary structure formation order will predict experimentally measured folding intermediate populations more accurately than unconstrained force-field simulations for proteins with known two-state folding kinetics.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Tidal Phase Lag and the Adjustment Velocity of Labor Markets",
+    "mechanism_source": "tidal power",
+    "target_domain": "labor economics",
+    "mechanism": "Tidal power systems harvest energy from the phase difference between gravitational forcing (lunar/solar cycles) and the local water body's resonant response. Enclosed bays and estuaries exhibit tidal amplification when their resonant period approaches the tidal forcing frequency (e.g., Bay of Fundy at ~12.4 hours), whereas open coastlines show little amplification. The exploitable energy is proportional not to absolute water level but to the rate of change—the flux—which depends on phase lag between forcing and response.",
+    "application": "Labor markets exhibit analogous phase-lag dynamics between economic shocks (forcing) and wage/employment adjustment (response). Highly 'resonant' labor markets—those with short contract durations, high worker mobility, and flexible wage-setting—adjust quickly with minimal phase lag, dissipating shocks rapidly. Rigid labor markets (long contracts, strong unions, occupational licensing) have long resonant periods that amplify certain shock frequencies (e.g., sector-specific demand cycles) while damping others. The exploitable policy window is the phase-lag period when intervention can redirect the adjustment flux.",
+    "prediction": "Labor markets with intermediate institutional rigidity (moderate union density, mixed contract lengths) will show greater wage volatility amplification at business-cycle frequencies (3-7 years) than either highly flexible or highly rigid markets, consistent with resonant-frequency amplification rather than monotonic flexibility-stability relationships.",
+    "viability": "speculative",
+    "confidence": 0.57
+  },
+  {
+    "name": "SCOBY Succession Dynamics and Byzantine Fault Tolerance",
+    "mechanism_source": "kombucha brewing",
+    "target_domain": "blockchain consensus",
+    "mechanism": "Kombucha fermentation is maintained by a SCOBY (Symbiotic Culture of Bacteria and Yeast)—a consortium of organisms that collectively regulate pH, alcohol content, and substrate consumption. The system achieves homeostasis not through any single organism's control but through competitive-cooperative succession: yeast produce ethanol that bacteria convert to acetic acid, which suppresses competing pathogens. A compromised or partial SCOBY can still produce valid kombucha if the healthy fraction exceeds a threshold; below that threshold, contamination overwhelms the culture.",
+    "application": "Blockchain consensus networks operate on analogous fault-tolerance principles: a distributed validator set must maintain agreement (fermentation integrity) despite some fraction of faulty or malicious nodes (contaminated organisms). The SCOBY threshold maps to Byzantine fault tolerance thresholds (typically 1/3 of nodes). Just as SCOBY composition shifts across fermentation phases (early yeast dominance, late bacterial dominance), consensus validator weighting can shift dynamically across transaction lifecycle phases without compromising overall network integrity.",
+    "prediction": "Blockchain consensus protocols that implement phase-dependent validator weighting—giving higher vote weight to validators with longer continuous participation streaks during early transaction phases and equal weighting during finalization—will achieve faster mean time-to-finality than uniform-weight protocols under equivalent Byzantine fault fractions.",
+    "viability": "speculative",
+    "confidence": 0.52
+  },
+  {
+    "name": "Pattern Drag and Mold Taper in Urban Parcel Formation",
+    "mechanism_source": "sand casting",
+    "target_domain": "urban planning",
+    "mechanism": "Sand casting forms metal parts by packing sand around a pattern (positive form) then extracting it to leave a cavity for molten metal. Pattern extraction requires draft angles—slight tapers on vertical surfaces—so the pattern can be drawn without disturbing the mold walls. Undercuts (negative-draft features) are impossible to extract without collapsing the mold; they require separate cores inserted after pattern removal. The draft angle physically encodes the extraction logic into the geometry of every cast part.",
+    "application": "Urban parcel layouts function as cast-in-place molds: initial survey patterns (patterns) determine all subsequent built forms (castings). Parcels with 'undercut' features—irregular boundaries, flag lots, encumbrances—require legal 'cores' (easements, variances) that add complexity and delay to development. The draft-angle principle suggests urban planners should build regulatory taper into parcel geometry: standardized frontage ratios, minimum lot widths, and setback-to-height envelopes that allow straightforward development extraction without core insertions (variances).",
+    "prediction": "Cities that adopt parcel geometry standards based on draft-angle principles (standardized frontage ratios and setback envelopes) will show lower average permitting times and lower rates of variance applications per new development compared to cities with equivalent zoning density but irregular legacy parcel geometries.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Tension Wrench Feedback and the Therapeutic Window of Resistance",
+    "mechanism_source": "lock picking",
+    "target_domain": "psychotherapy",
+    "mechanism": "Lock picking uses two tools simultaneously: a tension wrench applying rotational pressure to the lock cylinder and a pick manipulating individual pins. The critical skill is calibrating tension—too little and set pins drop back; too much and pins bind without feedback. The picker must read micro-tactile signals (individual pin set, slight cylinder rotation) while maintaining precise, non-committal tension. The technique fails catastrophically at the extremes: no tension produces no information; excessive tension locks the system entirely.",
+    "application": "Effective psychotherapy operates on an identical dual-tool dynamic. The therapist maintains calibrated relational tension—enough therapeutic pressure to surface defended material (set pins), but not so much confrontation that the client's defenses lock rigidly. Interpretive interventions are the pick; the therapeutic alliance is the tension wrench. Premature deep interpretation (over-tension) triggers rigid resistance; pure validation with no interpretive pressure (no tension) yields no movement. Skilled therapists read micro-signals (tone shifts, somatic responses) to modulate relational pressure in real time.",
+    "prediction": "Therapists rated higher on 'calibrated challenge'—the ability to alternate between validation and interpretation in session—will show faster symptom reduction trajectories on standardized outcome measures (PHQ-9, GAD-7) than therapists rated lower, controlling for theoretical orientation and client severity.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Transverse Navigation Error and the Gradient Drift Problem in Search Ranking",
+    "mechanism_source": "moth navigation",
+    "target_domain": "search engine optimization",
+    "mechanism": "Moths navigate by maintaining a fixed angular relationship to a distant light source (moon or stars), a strategy called transverse orientation. This works because celestial sources are effectively at infinity, so the angle remains constant during straight-line flight. When moths encounter artificial point-source lights, the constant-angle strategy produces logarithmic spiral flight paths converging on the light—a maladaptive response to a stimulus their navigation system was not evolved to handle.",
+    "application": "Search engine optimization practitioners employ transverse navigation: they optimize toward proxies for ranking signals (backlinks, keyword density, page speed) that historically correlated with search quality. When search engines update algorithms (shifting from point-source to distributed-source signals), SEO strategies calibrated to old proxies produce spiral convergence toward obsolete targets—intensive optimization that circles the old signal without improving actual content quality. The moth trap is the AUC-optimization loop: the strategy is locally rational but globally self-defeating.",
+    "prediction": "Websites that increase investment in narrow technical SEO proxies (link velocity, exact-match anchor text) following a major algorithm update will show a measurably steeper ranking decay trajectory over 12 months than sites that shift investment toward content quality signals, even controlling for pre-update ranking position.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Pyroclastic Stratigraphy and the Depositional Theory of Social Movements",
+    "mechanism_source": "volcanic geology",
+    "target_domain": "social movements",
+    "mechanism": "Volcanic systems cycle between quiescence (magma accumulation, pressure building), paroxysm (eruptive release), and depositional aftermath (cooling, lithification of new strata). Eruptions are not random: geodetic monitoring reveals systematic precursors—ground deformation, gas emission, seismicity—as overpressure builds. The eruptive column height and deposit volume are functions of accumulated strain energy, not merely of the immediate trigger. Post-eruption deposits alter the landscape, channeling future lava flows and changing local hydrology.",
+    "application": "Social movements follow pyroclastic dynamics: grievance accumulation (magma) builds beneath apparent surface stability, with precursor signals (protest frequency, civil unrest indices, social media sentiment anomalies) detectable before eruptive mobilization. The scale of mobilization is a function of accumulated grievance pressure, not the precipitating trigger (which is often minor). Post-movement outcomes—new institutions, altered political terrain—function as depositional strata that channel future mobilization along new paths (path dependence).",
+    "prediction": "Pre-movement periods will show measurable increases in at least two independent precursor indicators (protest frequency, online sentiment divergence, civil society organization density) in the 6-18 months before large mobilization events, with accumulated indicator scores positively predicting subsequent movement scale, testable against a global protest dataset.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Affinage Microclimate Engineering and Staged Production Deployment",
+    "mechanism_source": "cheese aging",
+    "target_domain": "software deployment",
+    "mechanism": "Artisan cheese aging (affinage) requires managing a complex set of environmental variables—temperature, humidity, airflow, and microbial ecology—across distinct maturation phases. Affineurs intervene with precise timing: washing rinds at specific intervals to seed desired bacterial communities, turning wheels to control moisture distribution, and monitoring for unwanted mold intrusion. Critically, the cheese cannot be 'unaged'—premature interventions lock in irreversible biochemical changes.",
+    "application": "Software deployment pipelines mirror affinage: staged environments (dev, staging, canary, production) are maturation chambers with distinct 'microclimate' parameters (traffic fraction, feature flag states, monitoring sensitivity). The DevOps affinage principle holds that interventions must be timed to deployment phase—routing 1% canary traffic before rind-wash (integration testing) risks locking irreversible user-state changes into an immature build. Blue-green deployments are analogous to moving a wheel between caves: the old environment persists until the new one is confirmed stable.",
+    "prediction": "Engineering teams that implement explicit phase-gate criteria between deployment stages—blocking progression until quantitative environment-readiness metrics are met, analogous to affinage readiness checks—will show lower mean time to recovery (MTTR) for production incidents than teams using time-elapsed-only staging gates, measurable in incident post-mortem data.",
+    "viability": "promising",
+    "confidence": 0.71
+  }
+]

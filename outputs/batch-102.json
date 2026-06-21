@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Aerial Shell Burst-Radius Scaling Theory",
+    "mechanism_source": "pyrotechnics",
+    "target_domain": "jury selection",
+    "mechanism": "In pyrotechnics, an aerial shell's burst radius scales with the cube root of the lift charge mass, and the color spread depends on the precise stoichiometric ratio of oxidizer to metal salt. Stars must be pre-positioned within the shell casing to produce a spherically symmetric display; any asymmetry in packing density creates directional biases in the final burst pattern. Timing chains between break charges control whether secondary effects appear before or after the primary detonation.",
+    "application": "Jury selection can be modeled as a staged detonation sequence: voir dire questions are lift charges that position jurors in attitudinal space, and peremptory challenges are the break charges that shape the final composition. Just as pyrotechnicians pre-calculate burst radii to fill a defined sky sector, trial attorneys can map the attitudinal spread needed to fill a verdict space within the allowable challenge budget.",
+    "prediction": "Jury pools subjected to a structured, multi-stage voir dire designed like a timed burst sequence — broad demographic questions first, specific attitude probes second — will yield more predictable ideological distributions than unstructured voir dire, measurable by post-trial juror interviews.",
+    "viability": "speculative",
+    "confidence": 0.51
+  },
+  {
+    "name": "Manning Distance Threshold Protocol",
+    "mechanism_source": "falconry",
+    "target_domain": "elder care",
+    "mechanism": "Falconry manning is the graduated desensitization process by which a raptor learns to tolerate human proximity without bating — the falcon is carried on the glove for increasing durations and exposed to progressively more stimulating environments while kept at a precise flying weight that sustains motivation without inducing stress. The falconer reads weight curves, feather condition, and eye brightness as composite indicators of readiness to advance to the next exposure level. Overreaching a readiness threshold triggers a setback that can require days of regression.",
+    "application": "In elder care, residents transitioning from independent living to memory care units undergo analogous trust-calibration. A staged engagement protocol — mirroring manning — where care workers first accompany residents in familiar spaces before introducing clinical settings can reduce resistance and cortisol-linked agitation. Readiness indicators (meal acceptance, eye contact, spontaneous conversation) serve as the weight-curve equivalent for advancing environmental complexity.",
+    "prediction": "Memory care units that use a phased environmental introduction protocol lasting at least 14 days will show measurably lower rates of acute behavioral episodes in the first 90 days of residency compared to units using standard immediate-immersion onboarding.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "False-Set Tension Mapping",
+    "mechanism_source": "lock picking",
+    "target_domain": "neurosurgery",
+    "mechanism": "In single-pin lock picking, applying rotational tension to the plug causes driver pins with the highest spring resistance to bind against the shear line first; the picker must identify this binding order and set pins sequentially from tightest to loosest while maintaining precise tension — too much locks the plug, too little drops previously set pins. A false set occurs when a spool pin partially elevates and mimics a fully set state, requiring the picker to relax tension slightly to rotate the spool the remaining distance without dropping other pins.",
+    "application": "During neurosurgical tumor resection, tissue planes exhibit analogous sequential binding: the dura, arachnoid, and pia each respond to retractor tension differently, and applying uniform retraction causes the most rigid plane to bear all load while others remain unengaged. Surgeons who learn to vary retractor tension in a feedback loop — advancing when resistance drops and pausing when it spikes — can navigate false-set moments where tissue appears cleared but a fibrous attachment still holds.",
+    "prediction": "Neurosurgical residents trained on a sequential-tension feedback simulator modeled after lock picking mechanics will achieve lower inadvertent dural tear rates during cadaveric lab sessions compared to residents trained on standard retraction protocols.",
+    "viability": "speculative",
+    "confidence": 0.48
+  },
+  {
+    "name": "Harmonic Constituent Superposition Framework",
+    "mechanism_source": "tide prediction",
+    "target_domain": "freight logistics",
+    "mechanism": "Tide prediction decomposes the observed sea-level signal into a sum of harmonic constituents — primarily M2 (principal lunar semidiurnal, 12.42 h), S2 (principal solar, 12.00 h), N2 (larger lunar elliptic), and K1 (luni-solar diurnal) — each with a fixed frequency, amplitude, and phase. The equilibrium theory of tides plus Doodson numbers allows prediction centuries ahead once constituents are fit from a months-long gauge record. Spring tides arise from M2 and S2 phase alignment; neap tides from their opposition.",
+    "application": "Freight demand exhibits multiple overlapping periodic cycles — weekly dispatch rhythms, monthly payroll-driven purchasing pulses, quarterly inventory resets, and annual seasonal peaks — analogous to tidal constituents. Fitting a harmonic decomposition to historical shipment volume data produces a demand-tide model that predicts congestion windows with the same phase-locking logic: when the weekly and monthly cycles align in amplitude, a logistics spring tide emerges requiring pre-positioned capacity.",
+    "prediction": "Freight carriers that implement harmonic constituent modeling on two or more years of lane-level shipment data will achieve at least 12% lower empty-mile ratios compared to carriers using only linear trend forecasting, detectable in controlled A/B lane experiments.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Pointer-Year Signal Attribution Model",
+    "mechanism_source": "dendrochronology",
+    "target_domain": "competitive chess",
+    "mechanism": "Dendrochronology identifies pointer years — years in which at least 75% of trees in a regional network show an extreme positive or negative ring-width anomaly simultaneously — as markers of climate forcing strong enough to override local site variation. Cross-dating uses these shared signal years to anchor floating chronologies by matching their pointer-year signatures against a master reference chronology. The signal-to-noise ratio of a pointer year is quantified by the expressed population signal (EPS) statistic.",
+    "application": "In competitive chess, certain opening variations or endgame positions function as pointer-year events: moments where the vast majority of high-rated players who reach them experience a measurable rating anomaly (win or loss rate deviating sharply from their expected performance). Identifying these position-classes from large game databases and cross-dating them against player-rating trajectories reveals which chess positions carry the highest explanatory power for career inflection points.",
+    "prediction": "A corpus analysis of FIDE-rated games will identify at least three opening variation clusters that function as statistically significant pointer-year positions — positions where player win rates deviate more than 2 standard deviations from their expected performance — allowing these clusters to anchor predictive models of rating trajectory changes.",
+    "viability": "promising",
+    "confidence": 0.63
+  },
+  {
+    "name": "Signature-Sewing Tension Coherence Theory",
+    "mechanism_source": "bookbinding",
+    "target_domain": "satellite engineering",
+    "mechanism": "In hand-sewn bookbinding, signatures (folded gatherings of pages) are linked by a running kettle stitch that must maintain consistent tension across all signatures: insufficient tension creates loose gatherings that shift under load, while excessive tension distorts the text block's spine geometry and causes premature thread failure at the kettle stitch nodes. The Coptic and long-stitch structures distribute tensile load across multiple thread paths, providing redundancy against single-thread breaks.",
+    "application": "Satellite structural assemblies connecting multiple payload modules via a central truss use analogous multi-path load distribution. Like bookbinding signatures, each module must attach with calibrated preload: under-torqued fasteners allow micro-slip under thermal cycling, while over-torqued fasteners introduce stress concentrations at the interface. A bookbinding-derived inspection protocol — measuring interface compliance at every node rather than only at system endpoints — would catch signature-level deviations before launch.",
+    "prediction": "Satellite integration teams that measure interface compliance at every module attachment node rather than only at bus-level acceptance testing will detect at least 30% more pre-launch fastener torque anomalies than teams using end-point-only testing protocols.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Die-Engraving Relief Depth Encoding",
+    "mechanism_source": "numismatics",
+    "target_domain": "food truck operations",
+    "mechanism": "In coin die production, relief depth — the height difference between the field and the highest design element — determines the striking pressure required and die life achievable: high-relief designs require multiple strikes, wear dies faster, and produce sharper detail at the cost of throughput. Engravers balance design fidelity against production economics by calculating the optimal relief gradient, with steep gradients near design edges for crispness tapering toward the center to reduce die stress concentration. Hub reduction ratios from master hub to working die introduce predictable detail loss at each reduction stage.",
+    "application": "Food truck menu design follows an analogous relief-depth tradeoff: high-complexity dishes (high-relief items) deliver customer differentiation but wear kitchen capacity faster and reduce throughput. Operators can apply hub-reduction logic by designing a master menu with full complexity, then deriving a working menu with calibrated simplification that preserves edge-crispness (the most visible differentiators) while reducing center relief (back-of-house complexity).",
+    "prediction": "Food truck operators who formalize a three-tier menu structure — master recipe, service-shift working recipe, and peak-hour reduced-complexity recipe — will show higher revenue-per-labor-hour during peak windows compared to trucks using a single static menu.",
+    "viability": "promising",
+    "confidence": 0.61
+  },
+  {
+    "name": "Ox-Gall Surface Tension Hierarchy Theory",
+    "mechanism_source": "paper marbling",
+    "target_domain": "dating apps",
+    "mechanism": "Paper marbling suspends pigments on a carrageenan size solution; ox-gall surfactant added to each color reduces its surface tension, causing that color to spread outward and displace colors with higher surface tension. The final pattern is determined by the order of color application, their relative ox-gall concentrations, and the size viscosity — a precise thermodynamic hierarchy where each subsequent color must have lower surface tension than the previous to achieve lateral spread rather than sinking. Stylus manipulation then distorts the floating pattern through advection without mixing underlying colors.",
+    "application": "Dating app matching algorithms create analogous surface-tension hierarchies: each user attribute (location, age, shared interests) carries a displacement strength that determines how it pushes matches outward from the core preference set. Applying a marbling model — where each preference filter has a calibrated surfactant coefficient and is applied in a specific sequence — could reveal why certain attribute ordering sequences produce more satisfying match distributions than others.",
+    "prediction": "Dating apps that sequence preference filters in order of decreasing social-tension weight — distance first, then age, then interest overlap — will produce match sets with higher initial message response rates than apps using simultaneous multi-attribute filtering, measurable in controlled A/B tests.",
+    "viability": "speculative",
+    "confidence": 0.49
+  },
+  {
+    "name": "Urushi Lacquer Kerf-Repair Structural Theory",
+    "mechanism_source": "kintsugi",
+    "target_domain": "prison reform",
+    "mechanism": "Kintsugi repair uses urushi lacquer mixed with gold powder to fill and bridge ceramic fracture surfaces; the lacquer undergoes enzymatic polymerization (urushiol oxidation catalyzed by laccase) that forms a cross-linked polymer network within the kerf mechanically stiffer than the original clay matrix. The visible repair line carries both compressive and tensile load, redistributing stress away from the original fracture geometry. A well-executed kintsugi repair often creates a piece more resistant to re-fracture along the original crack path than the unfractured original.",
+    "application": "Prison reform frameworks that treat incarceration as a fracture event and reintegration as a urushi fill — making the repair itself structurally load-bearing rather than cosmetically concealing — produce analogous outcomes. Programs that center the reintegration history as a credential (as kintsugi centers the gold line) rather than a concealed deficit create reintegration identities that are more resistant to recidivism along the original behavioral crack path.",
+    "prediction": "Reentry programs that explicitly incorporate incarceration history as a disclosed professional credential in job placement efforts will show lower 3-year recidivism rates than programs providing equivalent job training but coaching concealment of criminal records.",
+    "viability": "promising",
+    "confidence": 0.66
+  },
+  {
+    "name": "Skin-Slip Differential Hydration Model",
+    "mechanism_source": "taxidermy",
+    "target_domain": "opera production",
+    "mechanism": "In taxidermy, skin slip — the separation of epidermis from dermis due to bacterial decomposition — is the primary quality-limiting process and is controlled by maintaining hide pH below 4.5 (pickling) and temperature below 4 degrees C during processing. The fleshing process removes subcutaneous fat layers that act as hydration reservoirs and bacterial growth substrates; incomplete fleshing causes differential hide thickness that produces uneven drying tension and distorted final form geometry. Hide thickness mapping guides the mount form sculptor to match the armature contour precisely.",
+    "application": "Opera productions involve an analogous layered composition — libretto (dermis), musical score (subcutaneous layer), and staging (epidermis) — where failure to calibrate the tension between layers during rehearsal causes the theatrical equivalent of skin slip: the visual staging separates from the musical substrate under performance pressure. A taxidermy-derived production protocol would require explicit thickness mapping of the score-to-staging interface at each scene boundary rather than only at full run-through.",
+    "prediction": "Opera productions that conduct scene-level score-to-staging interface reviews at each rehearsal stage rather than only at full run-throughs will show fewer director-conductor conflict-driven last-minute staging changes in the final two weeks before opening night.",
+    "viability": "speculative",
+    "confidence": 0.47
+  },
+  {
+    "name": "Wild Yeast Competitive Exclusion Dynamics",
+    "mechanism_source": "sourdough fermentation",
+    "target_domain": "cryptocurrency governance",
+    "mechanism": "A sourdough starter maintains a stable microbiome through competitive exclusion: Lactobacillus species produce lactic and acetic acids that lower pH below 3.5, creating conditions lethal to most contaminants but tolerable to the co-evolved Saccharomyces cerevisiae or Kazachstania humilis strains present. The acetic-to-lactic acid ratio is controlled by hydration level and fermentation temperature — stiff, cool doughs favor acetic acid (more tang, slower activity), while wet, warm doughs favor lactic acid (milder, faster rise). Refreshment cadence determines whether the starter remains in active logarithmic growth phase or drifts into stationary phase.",
+    "application": "Cryptocurrency governance DAOs maintain stability through analogous competitive exclusion: governance token concentration ratios (equivalent to acid balance) determine whether the protocol favors conservative slow-moving governance (high acetic acid analog) or fast inclusive but potentially destabilizing governance (high lactic acid analog). Refreshment cadence — proposal throughput rate — determines whether the DAO stays in active legitimacy-building or drifts into voter fatigue and quorum failure.",
+    "prediction": "DAOs with governance token Gini coefficients above 0.7 will show lower proposal passage rates but higher passed-proposal implementation rates than DAOs with Gini coefficients below 0.4, controlling for protocol age and treasury size.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Capillary Bridge Drainage Rate Theory",
+    "mechanism_source": "sandcastle engineering",
+    "target_domain": "wedding planning",
+    "mechanism": "Sandcastle structural integrity depends on capillary bridges — menisci of water spanning sand grain contacts — that generate negative pore water pressure (suction) up to 3-4 kPa for fine-grained sand at optimal water content around 8% by weight. As water content deviates above or below this optimum, suction drops precipitously: too dry and bridges rupture, too wet and they merge into a continuous pore fluid that eliminates suction. Capillary bridge density scales with grain size distribution; well-graded sand with fines content between 5-15% achieves higher peak suction than single-size sand.",
+    "application": "Wedding event logistics have an analogous capillary bridge structure: the cohesive tension holding a complex event together comes from the density of vendor-to-vendor contact points operating at optimal communication frequency. Under-connected vendors lose coordination; over-connected vendors with redundant communication channels generate conflicting instructions that eliminate directional coordination suction. A well-graded vendor network — mixing 2-3 high-frequency anchor contacts with 8-12 lower-frequency peripheral contacts — maintains peak event cohesion.",
+    "prediction": "Wedding coordinators who maintain a structured vendor communication protocol with exactly 2-3 daily check-in anchor vendors and weekly contact with all peripheral vendors will report fewer day-of coordination failures than coordinators using either ad-hoc or uniform-frequency communication with all vendors.",
+    "viability": "promising",
+    "confidence": 0.58
+  },
+  {
+    "name": "Chypre Accord Fixative Anchoring Theory",
+    "mechanism_source": "perfumery",
+    "target_domain": "standup comedy",
+    "mechanism": "A chypre accord is built on a labdanum-oakmoss-bergamot structural triangle where the oakmoss acts as a fixative: its low vapor pressure and high substantivity anchor volatile citrus top notes and prevent the fragrance from collapsing to a flat base within the first hour. The drydown progression — top notes evaporating first, heart notes emerging in the second hour, base notes anchoring in the third — is calibrated by the fixative's diffusion rate, which retards evaporation of higher-volatility components through intermolecular interaction.",
+    "application": "Standup comedy sets follow an analogous accord structure: the opening bit (top note) must be high-volatility and immediately engaging, while callback structures embedded early in the set act as fixatives — low-volatility anchors that prevent energy from collapsing in the middle section and enable a drydown resolution where the audience's accumulated context pays off in closing bits. Sets without fixative callbacks evaporate after the opener.",
+    "prediction": "Stand-up sets that embed at least two forward-referencing callback anchors in the first third of the set will receive higher audience retention ratings measured by laughter frequency in the final third compared to sets of equal length with no callbacks, in controlled performance experiment conditions.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Thermal Fracture Propagation Control Theory",
+    "mechanism_source": "ice sculpting",
+    "target_domain": "urban farming",
+    "mechanism": "Ice sculpting exploits the anisotropic thermal fracture properties of commercially frozen water ice: controlled die-grinding and chainsaw passes generate localized melt films that lubricate cuts, while thermal shock from radiant heat sources or warm-tool contact creates predictable Hertzian crack propagation along crystallographic planes. Ice clarity (determined by the rate of freezing — slower freezing expels dissolved gases) affects structural integrity because gas bubble inclusions act as stress concentration sites that redirect crack paths unpredictably. Professional sculptors read transparency to map high-risk fracture zones before committing to deep cuts.",
+    "application": "Urban vertical farms face analogous thermal fracture risks in their hydroponic substrate layers: rapid temperature cycling between lighting periods and dark periods creates differential expansion stresses in growing media (rockwool, coir, or clay pellets) that open preferential drainage channels unpredictably. Applying an ice-sculpting clarity assessment — monitoring substrate electrical conductivity gradients as a proxy for gas-void distribution — before each planting cycle identifies stress-concentration zones that will cause uneven moisture distribution.",
+    "prediction": "Vertical farms that conduct pre-planting substrate conductivity mapping to identify internal void distributions will show at least 15% more uniform crop yield per tray compared to farms using only surface-level moisture sensors, measurable across a full growing cycle.",
+    "viability": "promising",
+    "confidence": 0.62
+  },
+  {
+    "name": "Precision-Landing Vault Trajectory Model",
+    "mechanism_source": "parkour",
+    "target_domain": "museum curation",
+    "mechanism": "Parkour practitioners executing precision landings must calibrate take-off angle, approach velocity, and foot placement geometry to dissipate kinetic energy through controlled ankle-knee-hip flexion rather than abrupt deceleration. The landing absorbs impact by distributing force across the full musculoskeletal chain while the center of mass decelerates along a curved path rather than a vertical drop. Vault techniques each define a specific trajectory grammar — approach angle, hand-placement timing, hip clearance — that must be committed to fully before the obstacle is reached; partial commitment is more dangerous than no vault at all.",
+    "application": "Museum exhibition design involves analogous trajectory grammar: curatorial flow — the visitor's kinetic movement through a gallery — requires committed pathway design with precision landing points (focal objects) calibrated to absorb interpretive attention and redirect motion toward the next sequence. Partial commitment in spatial layout (objects positioned ambiguously between two paths) creates the curatorial equivalent of a failed vault: visitor attention dissipates at the obstacle rather than flowing through it.",
+    "prediction": "Museum galleries designed with explicit precision-landing anchor objects at every major directional transition will show higher visitor dwell time at intended focal objects and lower rate of path abandonment before the intended endpoint compared to galleries using open-plan layouts, measurable by tracking data.",
+    "viability": "promising",
+    "confidence": 0.68
+  }
+]

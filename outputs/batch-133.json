@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Feather Replacement Sabbatical Architecture",
+    "mechanism_source": "falconry molt management",
+    "target_domain": "career sabbaticals",
+    "mechanism": "Raptors in falconry undergo an annual molt in which flight feathers are shed and replaced sequentially, never all at once. Falconers manage molt timing by controlling nutrition, daylight exposure, and flight activity to ensure that the bird retains sufficient flight capability throughout. Individual feathers take six to eight weeks to grow fully; attempting to accelerate the process by pulling additional feathers degrades flight performance beyond recovery. A well-managed molt produces a bird with superior plumage and performance compared to an unmanaged molt, but only if the sequence is respected.",
+    "application": "Career sabbaticals function as managed molts: the professional sheds accumulated habits, outdated skill sets, and narrowed cognitive frames sequentially rather than all at once. A sabbatical that attempts to replace all professional identity simultaneously produces 'flight performance' degradation — inability to return to productive work. Effective sabbatical design sequences the shedding (decompression first, exploration second, new skill acquisition third) and maintains some continuity of professional capability throughout. The outcome is a professional with superior capability, but only if molt sequence is respected.",
+    "prediction": "Professionals who structure sabbaticals with explicit sequential phases (decompression, then exploration, then focused skill acquisition) will report higher satisfaction with sabbatical outcomes and faster reintegration into productive work than those who treat sabbatical time as undifferentiated free time.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Shallow Water Amplification Misinformation",
+    "mechanism_source": "tsunami propagation",
+    "target_domain": "misinformation spread",
+    "mechanism": "Tsunamis originate as low-amplitude, very-long-wavelength waves in deep ocean — nearly undetectable at the surface, traveling at jet-aircraft speed. As the wave train enters shallow water, conservation of energy requires amplitude to increase as wavelength compresses: a 30-centimeter deep-ocean wave can become a 30-meter coastal wall. The amplification is entirely a function of the bathymetric profile of the receiving coast; the same tsunami wave produces dramatically different impact depending on whether it encounters a gently sloping continental shelf or a steep canyon coastline.",
+    "application": "Misinformation propagates through information ecosystems with the same shallow-water amplification dynamics. An initial false claim may be low-amplitude and slow-moving in high-information-density environments (academic networks, expert communities). As it enters shallow-water media environments (high-audience, low-verification social platforms), conservation of social energy requires amplitude to increase: the claim is repeated, exaggerated, and emotionally intensified. The amplification is a function of the platform's 'bathymetric profile' — its verification depth and friction profile — not of the original claim's magnitude.",
+    "prediction": "Misinformation claims entering high-engagement, low-friction platforms will show amplitude amplification (measured by emotional intensity of successive reposts) predictable from platform engagement metrics, independent of the initial claim's factual error magnitude, mirroring bathymetric amplification curves.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Through-Stone Constitutional Architecture",
+    "mechanism_source": "dry stone walling",
+    "target_domain": "constitutional architecture",
+    "mechanism": "Dry stone walls are built without mortar, relying entirely on the geometry of stone placement for structural integrity. Key structural principles include through-stones (long stones spanning the full wall width to tie both faces together), batter (slight inward slope of both faces), hearting (small rubble filling the wall's core), and capstones (heavy topping that compresses the structure). The wall is stronger in compression than tension; it absorbs ground movement by micro-adjustment of individual stones rather than transmitting stress to a rigid matrix.",
+    "application": "Constitutional architecture requires the same through-stone logic: provisions that span the full width of the political structure, tying the two faces (governing institutions and civil rights) together into a single structural system. Rights provisions that do not reach into institutional design, or institutional provisions that do not implicate rights, are face stones without through-stone connection — structurally weak and prone to face collapse. Constitutions built entirely from mortar (statutory detail embedded in constitutional text) crack when ground conditions shift rather than micro-adjusting.",
+    "prediction": "Constitutions containing explicit provisions that structurally link institutional design to rights protection (through-stone provisions) will show greater measured stability in Freedom House scores over 50-year periods following adoption than constitutions of similar length whose institutional and rights provisions operate in separate chapters without cross-reference.",
+    "viability": "speculative",
+    "confidence": 0.60
+  },
+  {
+    "name": "Pheromone Plume Influencer Reach",
+    "mechanism_source": "moth pheromone signaling",
+    "target_domain": "influencer marketing",
+    "mechanism": "Female moths of many species release species-specific pheromone blends that propagate downwind in a structured plume — a series of turbulent filaments that alternate between high-concentration signal and clean air. Male moths navigate to the source by surging upwind when they contact a filament, then casting crosswind when they lose the signal. The male's ability to locate the female depends not on average pheromone concentration but on the signal-to-noise ratio of each filament contact: a dilute but clean signal in still air outperforms a concentrated signal in turbulent, pheromone-diffuse conditions.",
+    "application": "Influencer marketing effectiveness depends on pheromone plume dynamics, not broadcast intensity. An influencer with a smaller but highly engaged, topic-coherent audience (clean filaments, high signal-to-noise) outperforms a mega-influencer whose audience is diffuse and multi-topic (high ambient pheromone, low filament contrast). The audience 'surges upwind' on each content filament — engages specifically when signal matches identity — then casts for the next contact. Effectiveness is a function of filament coherence, not total emission volume.",
+    "prediction": "Marketing campaigns delivered through mid-tier niche influencers (100K-500K followers in topically coherent communities) will achieve higher conversion rates per dollar spent than equivalent campaigns through mega-influencers (5M+ followers, broad demographic), controlling for product-audience fit.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Obsidian Edge Decision Vitrification",
+    "mechanism_source": "volcanic glass formation",
+    "target_domain": "rapid decision making",
+    "mechanism": "Volcanic glass (obsidian) forms when silica-rich lava cools so rapidly that atoms cannot organize into crystalline lattice structures. The result is a disordered, amorphous solid with a conchoidal fracture plane that produces edges sharper than surgical steel — but with no tolerance for bending stress. The speed of cooling determines all material properties: slow cooling allows crystallization (ordered, flexible minerals); rapid quenching produces glass (disordered, extremely sharp, brittle). There is no intermediate material; the cooling rate commits the melt irrevocably to one structural regime or the other.",
+    "application": "Rapid organizational decisions made under time pressure exhibit the obsidian structure: they are extremely sharp (precisely bounded, well-defined in scope) because the time constraint prevents the accumulation of crystalline complexity (stakeholder consultation, iterative refinement). But they are brittle — lacking the distributed stress-absorption of decisions made through deliberative processes. Rapid decisions are best deployed where sharp edges are required (crisis response, competitive pre-emption) and protected from bending stress (scope creep, contextual reinterpretation) that would cause fracture.",
+    "prediction": "Rapidly made decisions (made within 24 hours under explicit time pressure) will show higher rates of initial clarity and faster implementation but higher rates of subsequent revision or reversal than equivalent decisions made over 2-week deliberative processes, in organizations with high contextual complexity.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Mucilage Trap Customer Acquisition",
+    "mechanism_source": "sundew carnivory",
+    "target_domain": "customer acquisition",
+    "mechanism": "Sundews (Drosera) capture prey through a dual-mechanism trap: tentacle-tip mucilage beads glitter in sunlight, mimicking water droplets or nectar (false signal), and adhere on contact. Once the prey struggles, neighboring tentacles bend toward it chemotropically over minutes, increasing entrapment without active pursuit. The plant commits no energy to pursuit — it offers a false but highly attractive signal and relies on prey self-trapping through their own mobility. Digestive enzymes are only secreted after prey is fully immobilized, conserving metabolic resources.",
+    "application": "Customer acquisition strategies that mimic sundew mechanics offer low-cost, high-attraction signals (free trials, freemium tiers, viral content) that attract prospects through their own search behavior, not through active outreach. Once a prospect engages (contacts the mucilage), upsell sequences analogous to tentacle bending create progressively increasing commitment through their own behavior — signing up for more features, inviting colleagues, investing time in configuration. Monetization (enzyme secretion) is deferred until the prospect is fully committed.",
+    "prediction": "SaaS products offering freemium entry points with 'tentacle-bending' upsell triggers (collaborative features that activate after a threshold of individual use) will show higher conversion rates from free to paid than products offering equivalent free trials without embedded social commitment mechanisms.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Talik Thaw Institutional Rigidity",
+    "mechanism_source": "permafrost dynamics",
+    "target_domain": "institutional rigidity",
+    "mechanism": "Permafrost is ground that remains frozen continuously for two or more years. It does not freeze uniformly: talik zones (unfrozen patches within or below the permafrost layer) form where thermal inputs from water bodies, vegetation, or geothermal sources exceed local freezing capacity. The surface active layer thaws seasonally, while the permafrost below remains rigid. Climate warming does not uniformly thaw permafrost — it expands and deepens talik zones preferentially, creating a heterogeneous patchwork of frozen rigidity and unfrozen mobility that is structurally less stable than either fully frozen or fully thawed ground.",
+    "application": "Institutional rigidity does not thaw uniformly under reform pressure. Reform initiatives create talik zones — unfrozen patches of new practice embedded within still-frozen institutional substrate. The rigid permafrost (formal rules, entrenched incentives, cultural norms) remains but is structurally undermined by informal talik networks of reformed practice. The resulting heterogeneous institution — partially frozen, partially thawed — is less structurally coherent than either a fully rigid institution or a fully reformed one, and is prone to collapse into thermokarst (institutional sinkholes) where talik zones intersect.",
+    "prediction": "Organizations undergoing partial reform programs (selective process changes without accompanying cultural or incentive-structure changes) will show higher rates of reform reversal within five years than organizations that either implement comprehensive reform or explicitly scope reform to isolated units without cross-institutional spillover.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Membrane Resonance Group Therapy",
+    "mechanism_source": "hand drum acoustics",
+    "target_domain": "group therapy dynamics",
+    "mechanism": "A hand drum produces complex sound through the interaction of the struck membrane, the air column inside the drum body, and the resonance of the shell material. Tension on the membrane determines fundamental pitch; the strike location determines harmonic distribution (center strikes produce fundamental-heavy sound, edge strikes emphasize overtones). In ensemble drumming, individual rhythmic patterns interact through acoustic beating and reinforcement, creating emergent polyrhythms that no single player produces alone. Players entrain to each other's rhythms involuntarily through a process driven by auditory cortex synchronization.",
+    "application": "Group therapy dynamics exhibit the same membrane-resonance structure. Each participant enters with a fundamental 'tension' (their psychological state and presenting concern) and strike pattern (communication style). The group body's resonance chamber (shared history, therapeutic frame) amplifies certain frequencies while damping others. Emergent group dynamics — collective emotional tones, shared insights, relational patterns — are polyrhythms that no single participant generates. The therapist's role is drum tuning: adjusting membrane tension to enable resonance without overwhelming individual voices.",
+    "prediction": "Group therapy sessions structured with explicit rhythmic turn-taking protocols (time-limited speaking intervals with deliberate silence between speakers) will show greater participant-rated group cohesion after 8 weeks than unstructured group sessions of equivalent duration, because rhythmic structure facilitates involuntary entrainment.",
+    "viability": "speculative",
+    "confidence": 0.58
+  },
+  {
+    "name": "Salinity Gradient Interdisciplinary Ecology",
+    "mechanism_source": "estuary ecology",
+    "target_domain": "interdisciplinary collaboration",
+    "mechanism": "Estuaries are among the most productive ecosystems on Earth precisely because they occupy the gradient between freshwater and marine environments, supporting species adapted to neither pure environment but specialized for the transition zone. The productivity arises from the mixing of nutrient-rich freshwater runoff with mineral-rich saltwater upwellings, and from the structural complexity created by daily tidal oscillation between different salinity regimes. Organisms that thrive in estuaries are not generalists — they are specialists in gradient navigation.",
+    "application": "Interdisciplinary collaboration is most productive not when it blends disciplines into a generic hybrid (generalist, able to survive anywhere) but when it creates estuary conditions: structured mixing zones between disciplines with distinct methodological 'salinities,' regular tidal oscillation between disciplinary and cross-disciplinary contexts, and a premium on gradient specialists (scholars trained in one field but deeply fluent in another). Institutional structures that force permanent interdisciplinary fusion (merged departments) destroy the salinity gradient and eliminate the productivity of the mixing zone.",
+    "prediction": "Research institutes that maintain disciplinary home units while creating structured cross-disciplinary mixing programs (joint seminars, shared graduate students) will produce higher rates of cross-disciplinary citation and novel methodological contributions than institutes organized around thematic interdisciplinary departments that eliminate disciplinary home affiliation.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Fiber Alignment Data Cleaning",
+    "mechanism_source": "wool carding",
+    "target_domain": "data cleaning",
+    "mechanism": "Raw wool contains vegetable matter, lanolin, second-cut short fibers, and tangled staples that make it unspinnable. Carding draws the fiber mass through a series of opposing wire-toothed surfaces that progressively separate tangled fibers, orient them roughly parallel, and discharge vegetable matter by size exclusion. The card does not perfectly align fibers but produces a coherent, workable roving that can be drafted into yarn. Over-carding (too many passes) breaks fiber length and degrades the finished yarn's strength.",
+    "application": "Data cleaning is analogous carding: raw datasets contain structural tangles (duplicate records, misencoded fields), vegetable matter (irrelevant columns, test records, administrative artifacts), and short fibers (records too sparse for analysis). Cleaning passes progressively orient data structure, exclude non-conforming records by size (completeness thresholds), and produce a workable dataset. Over-cleaning — removing all records with any anomaly — destroys the 'fiber length' of the dataset by eliminating the rare events and edge cases that often contain the most analytically valuable signal.",
+    "prediction": "Machine learning models trained on datasets cleaned to 99%+ completeness thresholds (aggressive over-carding) will underperform models trained on datasets cleaned to 85-90% completeness that retain anomalous but structurally valid records, on tasks requiring detection of rare-event patterns.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Replacement Mineral Historical Revisionism",
+    "mechanism_source": "fossil diagenesis",
+    "target_domain": "historical revisionism",
+    "mechanism": "Diagenesis is the set of physical and chemical processes that alter sediments and organic remains after burial. In fossil formation, original biological material (bone apatite, shell aragonite) is progressively replaced by secondary minerals as groundwater chemistry changes over millennia. The resulting fossil retains the original morphology with high fidelity while its material composition is entirely replaced — the shape is authentic, the substance is not. Diagenetically altered fossils can appear identical to unaltered specimens while containing no original biological material.",
+    "application": "Historical revisionism operates through diagenetic substitution: the morphological shell of an historical narrative (dates, events, named actors, causal sequence) is retained while the substance — the interpretive mineral — is replaced by a different material more suited to the depositing cultural groundwater. The narrative looks authentic (factual morphology intact) while the underlying claims have been replaced. The diagnostic challenge is identical to paleontology: determining which features are original versus diagenetically substituted requires analysis of the interpretive matrix, not the narrative surface.",
+    "prediction": "Historical narratives that undergo revisionism primarily through reframing (interpretive mineral replacement with structural preservation) will be harder for non-specialist readers to identify as revised than narratives that undergo revisionism through factual deletion, because the morphological fidelity creates false authenticity signals.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Decolorization Argument Distillation",
+    "mechanism_source": "sugar refining",
+    "target_domain": "argument distillation",
+    "mechanism": "Raw cane sugar is a complex mixture of sucrose, molasses, mineral salts, and color compounds. Industrial refining involves clarification (removing suspended solids), decolorization (activated carbon removes chromophores that give brown sugar its color and flavor complexity), and crystallization (pure sucrose selectively precipitates from the concentrated solution). The result is white granulated sugar — a chemically pure, highly stable, contextually versatile but flavonoid-free product. The refinement has removed everything except the target molecule.",
+    "application": "Argument distillation mirrors sugar refining: a rich, contextually embedded argument (raw cane) contains a central logical claim surrounded by rhetorical color compounds — emotional appeals, contextual narratives, illustrative anecdotes. Distillation extracts the pure logical structure (the sucrose) by decolorizing rhetorical chromophores and precipitating the core premise-inference-conclusion chain. The result is formally valid and logically testable but has lost the contextual richness that made the original argument persuasive — useful for evaluation, less useful for communication.",
+    "prediction": "Debate judges trained to first perform decolorization distillation (extract bare logical structure before evaluating rhetorical quality) will show higher inter-rater agreement on argument validity scores than judges who evaluate arguments in their natural rhetorical form, but lower agreement on persuasiveness scores.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Load Path Contract Drafting",
+    "mechanism_source": "nautical knot tying",
+    "target_domain": "contract drafting",
+    "mechanism": "A well-tied nautical knot works by routing the load through a specific geometric path that causes the knot to tighten under tension rather than slip. Critical design features include the number of wraps (friction surface), the location of the standing part (load-bearing strand), and the direction of the working end (which determines whether increased load closes or opens the knot geometry). A misrouted working end produces a knot that appears correct but capsizes (inverts to a slip configuration) under load.",
+    "application": "Contract drafting routes legal obligations through geometric paths that should tighten (become more binding) under adversarial pressure. Poorly drafted clauses — misrouted working ends — appear valid when unloaded (uncontested) but capsize under litigation load, inverting into unenforceable or ambiguous configurations. Effective contract drafting identifies the 'standing part' (the core obligation) and ensures all conditional clauses are routed to tighten enforcement under dispute rather than create escape geometries.",
+    "prediction": "Contracts reviewed by a second drafter specifically tasked with identifying 'capsize conditions' — scenarios in which clause interaction inverts intended obligations — will have lower rates of adverse court interpretation than contracts reviewed by a single drafter for completeness and clarity alone.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Geomagnetic Disturbance Social Unrest Forecasting",
+    "mechanism_source": "aurora forecasting",
+    "target_domain": "social unrest prediction",
+    "mechanism": "Aurora forecasting uses solar wind data (particle flux, magnetic field orientation) measured at L1 Lagrange point to predict geomagnetic storm intensity 30-60 minutes before Earth impact. The Kp index models global disturbance from these inputs. However, aurora visibility is also dependent on local atmospheric conditions, light pollution, and observer latitude — so even perfect geomagnetic forecasting cannot predict where auroras will be visible or how intensely. The causal chain from solar wind to visual aurora involves multiple non-linear atmospheric interactions that are separately irreducible.",
+    "application": "Extending this forecasting logic to social unrest assumes that aggregate socioeconomic indicators (the 'solar wind') predict social eruption intensity and location. But social unrest visibility and magnitude depend on local conditions — political tradition, media environment, existing organization — in ways that are similarly non-linearly compounded. A high 'social Kp index' derived from economic stress data may predict elevated unrest probability globally without predicting where or how intensely it will manifest, making the framework predictively useful at the global level and nearly useless at the local level, just as aurora forecasting predicts geomagnetic storms but not visibility.",
+    "prediction": "Models predicting social unrest using aggregate national-level economic stress indicators will achieve significantly higher accuracy at predicting country-level elevated unrest probability than at predicting sub-national location, timing, or intensity of specific unrest events — a prediction about predictive limits rather than about social processes.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  },
+  {
+    "name": "Seasonally Adaptive Migration Routing",
+    "mechanism_source": "whale migration",
+    "target_domain": "supply chain routing",
+    "mechanism": "Baleen whales undertake the longest migrations of any mammal — humpbacks travel up to 16,000 km annually between tropical breeding grounds and polar feeding grounds. The route is not fixed geographically but adaptive: whales track oceanographic features (thermal fronts, upwelling zones, prey density gradients) using a combination of magnetic field sensing, acoustic landmark navigation, and social information. Routes shift inter-annually with oceanographic conditions; populations that cannot adapt their routing to changed conditions suffer reduced foraging success.",
+    "application": "Supply chain routing benefits from the same adaptive navigation architecture. Fixed routes (geographical sourcing contracts, dedicated carrier relationships) are efficient in stable conditions but fail when oceanographic-equivalent disruptions occur (port congestion, geopolitical shifts, demand spikes). Adaptive routing — continuously repositioning supply nodes by tracking cost-gradient, capacity-availability, and risk-density signals — mirrors whale navigation in dynamic oceanographic fields. The key capability is multi-signal integration: no single routing signal is sufficient.",
+    "prediction": "Supply chains that integrate at least three real-time routing signals (cost, capacity availability, and geopolitical risk index) and reoptimize routing quarterly will show lower freight cost variance and higher on-time delivery rates over a 5-year period than supply chains using fixed annual sourcing contracts, in sectors with high demand volatility.",
+    "viability": "promising",
+    "confidence": 0.75
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Apical Dominance Pruning and the Bounded Autonomy of Microservice Clusters",
+    "mechanism_source": "bonsai cultivation",
+    "target_domain": "microservice architecture",
+    "mechanism": "Bonsai cultivation manages tree form through selective pruning that exploits apical dominance—the tendency of terminal buds to suppress lateral growth via auxin gradients. Pruning a dominant apex redirects growth energy to subordinate laterals, creating ramification (branching density). The bonsai master exerts constant, minimal intervention: small, frequent cuts rather than drastic reshaping, reading growth vectors before each pruning decision. Over-pruning causes dieback; under-pruning allows one branch to dominate and suppress the overall form.",
+    "application": "Microservice architectures exhibit apical dominance dynamics when one service grows to handle disproportionate functionality (the monolith regrowth problem). Architectural pruning—splitting a dominant service—redirects development energy to subordinate services, creating functional ramification. The bonsai principle applied to microservices prescribes small, frequent decomposition decisions based on traffic and dependency growth signals, rather than drastic 'big bang' refactors. Over-decomposition (too many nano-services) causes distributed systems dieback (latency overhead, coordination failures); under-decomposition allows a service to dominate and recreate the monolith topology.",
+    "prediction": "Engineering organizations that implement continuous service-size monitoring and incremental decomposition policies (splitting any service exceeding a defined complexity threshold) will show lower mean latency variance and fewer cascade failure events over 18 months than organizations that perform large-scale decomposition refactors on annual cycles.",
+    "viability": "promising",
+    "confidence": 0.69
+  },
+  {
+    "name": "Katsuramuki Cylinder Unrolling and the Perceptual Geometry of Data Presentation",
+    "mechanism_source": "sashimi preparation",
+    "target_domain": "data visualization",
+    "mechanism": "Expert sashimi preparation uses katsuramuki (rotary peeling) to produce paper-thin, translucent sheets by rotating a daikon radish against a stationary blade, unrolling the vegetable's cylindrical structure into a continuous planar sheet. The technique reveals internal structure—cell boundaries, moisture gradients, vein patterns—that are invisible in cross-section cuts. The resulting translucency serves a functional aesthetic purpose: light passing through the thin sheet makes the fish colors above appear more vivid through contrast.",
+    "application": "Data visualization achieves analogous structure revelation through dimensional unrolling: high-dimensional datasets are cylindrical structures whose internal organization is invisible in raw tabular cross-section. Dimensionality reduction techniques (PCA, t-SNE, UMAP) are rotary peels that unroll the dataset into a planar visualization where internal cluster structure and gradient patterns become visible. The translucency principle maps to layered visualization—placing data in layers of varying opacity allows background context (the daikon sheet) to enhance foreground signal (the fish) through contrast, rather than occluding it.",
+    "prediction": "Dashboards that layer contextual background data at reduced opacity beneath primary metric displays will show faster anomaly detection times and lower false-alert rates in user testing than equivalent dashboards displaying primary metrics alone, measurable in controlled eye-tracking and task-completion studies.",
+    "viability": "promising",
+    "confidence": 0.71
+  },
+  {
+    "name": "Qi Field Topology and the Arbitrary Spatial Priors Problem in Neural Architecture Search",
+    "mechanism_source": "geomancy",
+    "target_domain": "neural network design",
+    "mechanism": "Geomancy (feng shui, I Ching-derived spatial divination) prescribes spatial arrangements—furniture placement, building orientation, land use—based on the postulated flow of qi through a landscape. Qi channels are inferred from symbolic category systems (five elements, bagua trigrams) rather than from physical measurement. The prescriptions generate confident specific design recommendations (door must face southeast; water feature in northwest corner) with no causal mechanism connecting symbolic classification to spatial outcome and no falsifiable predictive structure.",
+    "application": "Certain neural architecture search heuristics share geomancy's epistemic structure: depth-first layer stacking rules, activation function placement conventions, and skip-connection patterns are sometimes prescribed based on aesthetic symmetry preferences or practitioner tradition rather than empirical validation on the target task family. 'Always use batch normalization before activation' and 'residual connections every two layers' function as qi-flow prescriptions—locally coherent symbolic rules whose domain of validity is systematically untested against alternatives on the tasks where they are applied.",
+    "prediction": "Automated neural architecture search algorithms that explore configurations violating standard practitioner heuristics (irregular depth, unconventional normalization placement, asymmetric skip-connection patterns) will discover competitive or superior architectures for a significant fraction of benchmark tasks, suggesting current heuristics are geomantic rather than principled.",
+    "viability": "incoherent",
+    "confidence": 0.47
+  },
+  {
+    "name": "Cloth Panel Stress Distribution and Asymmetric Risk Allocation in Portfolios",
+    "mechanism_source": "sailmaking",
+    "target_domain": "portfolio theory",
+    "mechanism": "Sailmaking constructs sails from multiple cloth panels whose seam orientations are engineered to align with the principal stress lines of the sail under load. Woven cloth is stronger along fiber axes than across them (anisotropic strength); seam placement along stress lines means load is transferred along the strongest material axis. Sails that experience stress off-axis relative to panel orientation stretch disproportionately (bias deformation), losing their designed aerodynamic shape and generating drag rather than lift.",
+    "application": "Portfolio construction is analogous to sailmaking: each asset class is an anisotropic panel—strong (return-generating) along specific risk-factor axes and weak (distorting) under off-axis stress. Mean-variance optimization is a seam-placement algorithm that should align portfolio composition with expected stress lines (likely risk scenarios). A portfolio optimized for a specific market regime (seams aligned with one stress field) will bias-deform under off-axis stress (regime shift), losing its return-generating shape and generating unexpected correlated drawdown. Regime-conditional portfolio construction is the sailmaker's response: different panel configurations for different expected wind loads.",
+    "prediction": "Portfolios constructed with explicit regime-conditional stress-line alignment—varying asset weights based on macroeconomic regime indicators—will show lower maximum drawdown and faster drawdown recovery during regime-transition periods than equivalent mean-variance portfolios optimized on full-history covariance, measurable across historical regime shifts from 1990-2023.",
+    "viability": "promising",
+    "confidence": 0.70
+  },
+  {
+    "name": "Frost Lens Upwelling and the Displacement Mechanics of Neighborhood Transition",
+    "mechanism_source": "frost heave geology",
+    "target_domain": "gentrification studies",
+    "mechanism": "Frost heave occurs when soil pore water freezes and expands, but the key mechanism is ice lens formation: migrating water is drawn upward toward the freezing front by cryosuction, accumulating in discrete lenses that grow by continued water extraction from below. The upward pressure of growing ice lenses lifts overlying material (frost heaving) while the zone below is desiccated. The process is self-reinforcing: ice lens growth creates a thermal gradient that drives further water migration toward the lens.",
+    "application": "Neighborhood gentrification exhibits frost-lens dynamics: capital investment creates a 'freezing front' at the neighborhood boundary between high- and low-value zones. Investment migrates along the economic gradient (cryosuction) from lower-value to higher-value areas, accumulating in concentrated redevelopment lenses. The upward pressure of increasing property values lifts asset prices (heaving) while the zone below—the displaced original resident population—is desiccated (economically extracted). The process is self-reinforcing: rising values attract further capital migration, accelerating the process.",
+    "prediction": "Neighborhoods with higher soil permeability analogs—lower rent control density, fewer homeowners relative to renters, weaker tenant protection laws—will show faster and more complete displacement cycles following an initial capital investment trigger than neighborhoods with equivalent investment but higher permeability barriers, testable against longitudinal census and property transaction data.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Yeast Succession Kinetics and the Temporal Sequencing of Conflict Resolution Interventions",
+    "mechanism_source": "mead brewing",
+    "target_domain": "conflict resolution",
+    "mechanism": "Mead fermentation proceeds through distinct yeast succession phases: early fermentation is dominated by wild yeasts and robust Saccharomyces strains that tolerate high sugar concentrations but produce fusel alcohols; mid-fermentation sees these suppressed as alcohol rises; late fermentation is completed by alcohol-tolerant strains capable of consuming residual sugars. Intervention timing is critical: adding yeast nutrients in the wrong phase inhibits the very succession the brewer is trying to manage. Temperature management alters succession rates rather than yeast identity.",
+    "application": "Conflict resolution interventions must be timed to conflict succession phases. Early-phase conflicts (high-sugar, high-energy antagonism) require interventions that tolerate intense emotion and build initial de-escalation without demanding substantive negotiation (fusel-tolerant early strains). Substantive mediation introduced prematurely—before antagonism has metabolized to manageable levels—is inhibited by the emotional environment, just as late-phase yeast strains fail in high-sugar early mead. Temperature management (social cooling through procedural fairness) alters succession rates without forcing unnatural yeast substitution.",
+    "prediction": "Formal mediation interventions introduced after a documented de-escalation phase (at least 30 days of reduced hostile incident frequency) will achieve binding agreements at higher rates than mediation initiated at peak conflict intensity, even when total mediation hours are equivalent—testable against international conflict mediation databases.",
+    "viability": "promising",
+    "confidence": 0.67
+  },
+  {
+    "name": "Screen and Shadow Geometry in the Architecture of Plausible Deniability",
+    "mechanism_source": "shadow puppetry",
+    "target_domain": "propaganda analysis",
+    "mechanism": "Shadow puppetry creates the illusion of autonomous figures by interposing articulated puppets between a light source and a screen. The audience sees only the projected shadow, not the puppeteer's hand, the puppets' physical structure, or the light apparatus. The shadow figure appears self-motivated because its connection to the mechanical system behind the screen is concealed. Skilled puppeteers manipulate multiple puppets simultaneously, creating the appearance of spontaneous interaction between independent agents.",
+    "application": "Modern influence operations replicate shadow puppetry architecture: coordinated inauthentic behavior networks (puppets) are interposed between state or non-state sponsors (light source) and public audiences (screen). The audience perceives apparently spontaneous grassroots opinion formation (shadow figures) without seeing the behind-screen mechanical coordination. Analysis of influence operations requires 'looking behind the screen'—identifying puppeteer infrastructure through coordination metadata, account behavior clustering, and source cross-reference—rather than evaluating the shadow figures (content) alone.",
+    "prediction": "Influence operation attribution analyses that incorporate behavioral coordination metadata (posting time correlation, content template similarity, network centrality of suspected control nodes) will achieve significantly higher accuracy in identifying state sponsor attribution compared to content-only analysis, testable against confirmed-attribution case datasets.",
+    "viability": "promising",
+    "confidence": 0.76
+  },
+  {
+    "name": "Resonant Frequency Entrainment and the Vibrational Theory of Cultural Alignment",
+    "mechanism_source": "tuning fork acoustics",
+    "target_domain": "organizational alignment",
+    "mechanism": "A vibrating tuning fork induces sympathetic resonance in adjacent tuning forks of identical frequency through acoustic coupling—energy transfers across air without physical contact, causing the passive fork to begin vibrating at the driving fork's frequency. The coupling is frequency-selective: only forks with matching resonant frequencies respond; slightly mismatched forks fail to entrain or do so only weakly. Damping (contact with the table, finger muffling) immediately quenches resonance in either fork.",
+    "application": "Organizational alignment propagates through resonance rather than mandate: leaders who embody and repeatedly express specific behavioral frequencies (decision-making norms, communication styles, values demonstrations) induce sympathetic resonance in team members whose natural tendencies are already close to that frequency. Misaligned members (different natural frequencies) fail to entrain and must either adopt an energy-intensive consciously maintained pattern or leave. Damping events—public contradictions between leader behavior and stated values—quench resonance throughout the system simultaneously, explaining why alignment can collapse suddenly from a single visible integrity failure.",
+    "prediction": "Organizations in which senior leaders show high behavioral consistency between stated values and observed decisions (low damping coefficient) will show faster onboarding-to-cultural-fit timelines for new hires and lower cultural-misalignment attrition rates than organizations with equivalent stated values but high leader behavioral inconsistency.",
+    "viability": "promising",
+    "confidence": 0.68
+  },
+  {
+    "name": "Urchin Barren Dynamics and the Fragility of Just-in-Time Supply Networks",
+    "mechanism_source": "kelp forest ecology",
+    "target_domain": "supply chain management",
+    "mechanism": "Kelp forest ecosystems maintain structure through a trophic cascade: sea otters suppress sea urchin populations, whose grazing on kelp holdfasts would otherwise create barren zones. When otters are removed, urchin populations explode and overgraze kelp, converting diverse three-dimensional forests into flat urchin barrens—a rapid, difficult-to-reverse phase transition. The system is not gradually degraded but crosses a threshold into an alternative stable state from which recovery requires active urchin removal plus kelp transplantation.",
+    "application": "Just-in-time supply chains are kelp forest systems: multiple suppression mechanisms (supplier relationships, inventory buffers, logistics redundancy) maintain system structure by damping disruption amplification. When a suppression mechanism is removed (single-source dependency replaces supplier diversity, inventory buffers are eliminated for cost efficiency), small disruptions cascade through the system, triggering rapid phase transition to an alternative stable state (production halt) that is expensive to reverse. COVID-era supply disruptions showed exactly this threshold dynamic: resilient-appearing systems collapsed suddenly rather than degrading gradually.",
+    "prediction": "Supply chains with documented supplier diversity metrics above a sector-specific threshold will show shallower disruption response curves (shorter stockout duration, lower production loss per unit shock) during supply disruptions compared to single-source-equivalent chains, and will avoid threshold-crossing collapse events that require multi-month recovery periods.",
+    "viability": "promising",
+    "confidence": 0.77
+  },
+  {
+    "name": "Projective Grid Distortion and the Reference Frame Problem in Genomic Coordinate Systems",
+    "mechanism_source": "cartography",
+    "target_domain": "genetic mapping",
+    "mechanism": "All cartographic projections introduce systematic distortion because they represent a curved surface on a flat plane. Different projections (Mercator, Mollweide, Albers) preserve different properties—conformal projections preserve local shape; equal-area projections preserve area relationships; equidistant projections preserve distance from specific reference points—but no projection preserves all properties simultaneously. Quantitative analyses of geographic data yield different results depending on which projection is used, and projection choice is rarely neutral with respect to the research question.",
+    "application": "Genetic mapping faces identical reference frame distortions. Physical maps (base-pair positions), genetic maps (recombination frequency in centiMorgans), and functional maps (regulatory interaction networks) are different projections of the same genome, each preserving different relational properties. Recombination rates are not uniform across the genome (hotspots), so genetic distance is not proportional to physical distance—Mercator-equivalent distortion. Analyses that assume projection equivalence (treating genetic map distance as proportional to physical distance) introduce systematic errors in linkage studies and GWAS interpretation, particularly in repeat-rich pericentromeric regions.",
+    "prediction": "GWAS studies that explicitly account for local recombination rate variation when defining linkage disequilibrium blocks will identify higher-resolution causal variant associations (narrower credible intervals) compared to studies using fixed-window LD block definitions in regions with documented recombination hotspots.",
+    "viability": "promising",
+    "confidence": 0.74
+  },
+  {
+    "name": "Flue Obstruction Mapping and the Latent Liability Audit in Compliance Programs",
+    "mechanism_source": "chimney sweeping",
+    "target_domain": "regulatory compliance",
+    "mechanism": "Chimney sweeping involves systematic inspection and mechanical cleaning of the flue system: identifying creosote accumulation zones, structural cracks, bird nest obstructions, and mortar joint failures before they cause chimney fires or carbon monoxide infiltration. The sweep uses both visual inspection (camera) and physical resistance feedback (brush drag) to locate obstructions invisible from the firebox or the top of the stack. Critically, the flue inspection reveals risk not visible in external chimney appearance—a structurally sound-looking exterior can conceal a severely obstructed or cracked interior.",
+    "application": "Regulatory compliance programs are chimney systems: the external appearance (policy documents, training completion records, management certifications) often conceals internal obstructions (undocumented workarounds, informal decision norms that bypass controls, legacy system exceptions that create compliance gaps). Compliance audits that rely on documentation review alone (looking at the firebox and chimney top) miss the interior risk. Effective compliance sweeps use behavioral observation and process walkthroughs (brush resistance feedback) to locate the accumulated procedural creosote invisible in the compliance documentation.",
+    "prediction": "Regulatory enforcement actions will disproportionately follow compliance audits that relied primarily on documentation review rather than behavioral observation and system walkthrough, demonstrating that documentation-only audits systematically miss the internal flue obstructions that precede compliance failures.",
+    "viability": "promising",
+    "confidence": 0.72
+  },
+  {
+    "name": "Differential Quench Hardening and the Periodization of Athletic Development",
+    "mechanism_source": "sword tempering",
+    "target_domain": "athletic training",
+    "mechanism": "Japanese sword tempering creates differential hardness along a single blade through clay coating: the cutting edge is left uncoated (fast quench, high hardness, martensitic steel) while the spine is coated with clay (slow quench, lower hardness, pearlitic steel). The abrupt hardness transition zone (hamon) is not a weakness but a structural feature that stops crack propagation from the hard edge into the tough spine. The cutting edge must be hard (holds an edge, resists deformation) while the spine must be tough (flexes without fracturing under impact).",
+    "application": "Athletic periodization creates differential physiological properties through analogous zone-specific loading: maximum-intensity training phases (fast quench) produce performance adaptations in target movement patterns (the cutting edge—speed, power, skill sharpness) while recovery and general preparation phases (slow quench) develop the structural base (the spine—tissue capacity, aerobic foundation, movement quality). The hamon zone—the transition between maximum intensity and recovery training—is not wasted time but the structural transition that prevents fatigue-crack propagation from acute training stress into overtraining syndrome. Athletes who eliminate the transition zone (train at maximum intensity continuously) fracture at the hamon.",
+    "prediction": "Athletes who follow periodization models with explicit hard/soft training zones and structured transition blocks between them will show lower rates of overuse injury and higher peak performance scores at target competition dates than athletes with equivalent training volume organized in monotonic intensity progressions, measurable across a season-long prospective cohort study.",
+    "viability": "promising",
+    "confidence": 0.75
+  },
+  {
+    "name": "Ceremonial Rainfall Invocation and the Spurious Correlation Harvest in Derivative Pricing",
+    "mechanism_source": "rain dance",
+    "target_domain": "weather derivatives",
+    "mechanism": "Rain dances are ritual practices intended to cause rainfall through ceremonial invocation. The practice persists through confirmation bias and the base rate of precipitation: in sufficiently rainy climates, any repeated ritual has a reasonable probability of being 'followed by' rain through chance alone. The ritual offers no mechanism connecting human movement to atmospheric moisture processes; the apparent success rate is entirely attributable to the local precipitation climatology rather than ceremonial efficacy.",
+    "application": "Weather derivative pricing based on spurious historical correlations between non-meteorological variables (commodity price cycles, astronomical patterns, folk-weather-lore indicators) and precipitation outcomes replicates the rain dance epistemology. Pricing models that harvest correlations from historical data without atmospheric mechanism justification will appear validated by the base rate of precipitation occurrence, failing only during out-of-sample periods when spurious correlations break down. The correct pricing basis is physical meteorological modeling, not correlation archaeology.",
+    "prediction": "Weather derivative pricing models that incorporate atmospheric reanalysis data and physical precipitation mechanism variables will outperform models trained on historical financial or agricultural data correlations alone on out-of-sample periods exceeding 5 years, and the performance gap will widen as the out-of-sample window extends.",
+    "viability": "incoherent",
+    "confidence": 0.46
+  },
+  {
+    "name": "Relay Station Topology and the Information Routing Architecture of Pandemic Response",
+    "mechanism_source": "telegraph networks",
+    "target_domain": "pandemic response",
+    "mechanism": "Victorian telegraph networks achieved continental information transmission through relay station architecture: messages were received, physically decoded, and retransmitted at each station because electrical signal degraded over distance. Station operators introduced transcription errors during relay, creating cumulative message corruption across long chains. Single-line bottlenecks (a downed pole section) isolated downstream networks completely. Redundant routing (multiple cable paths between major nodes) dramatically increased resilience but required investment that commercial operators resisted.",
+    "application": "Pandemic response depends on epidemic signal relay: epidemiological data (case counts, hospitalizations, genomic surveillance) must be transmitted from point-of-care to local, regional, national, and international public health nodes without degradation. Each relay point (hospital to county to state to CDC to WHO) introduces transcription latency, aggregation error, and definitional drift analogous to telegraph retransmission errors. Single-line dependencies (a state health department with non-interoperable reporting systems) isolate downstream analysis. Redundant surveillance streams (wastewater, pharmacy data, mobility data alongside case reporting) provide the multiple cable path resilience that pandemic response requires.",
+    "prediction": "Countries with documented redundant epidemiological surveillance streams—at least three independent data sources feeding national response dashboards—will show faster detection of novel variant emergence (shorter time from variant circulation to national alert) than countries with equivalent PCR testing capacity but single-stream reporting architecture.",
+    "viability": "promising",
+    "confidence": 0.73
+  },
+  {
+    "name": "Wick Consumption Dynamics and the Metabolic Arc of Grief Processing",
+    "mechanism_source": "candle making",
+    "target_domain": "grief counseling",
+    "mechanism": "A candle burns through a coupled system: the wick draws liquid wax upward by capillary action, the wax combusts in the flame, and the heat of combustion melts more wax to sustain the draw. Burn rate depends on wick diameter (too thick produces a sooty uncontrolled flame; too thin self-extinguishes), wax composition (burn temperature and viscosity), and ambient conditions (drafts, humidity). The candle is consumed at a rate determined by its material constitution interacting with environmental conditions—not by any fixed schedule.",
+    "application": "Grief processing follows candle-burn dynamics. The 'wick' is the individual's meaning-making capacity—their ability to draw psychological sustenance from social connection, ritual, memory, and future orientation. The 'wax' is the relationship that was lost, gradually consumed as it is processed into integrated memory. The appropriate burn rate is constitutionally individual: a too-thick wick (premature forced meaning-making, intense therapeutic pressure) produces uncontrolled sooty processing that overwhelms coping resources; a too-thin wick (avoidance, grief suppression) self-extinguishes without metabolizing the loss. Drafts (social disruptions, secondary losses) unpredictably alter burn rate regardless of individual constitution.",
+    "prediction": "Grief interventions calibrated to individual processing rate preferences—allowing clients to set the pace of loss exploration within sessions—will show lower rates of complicated grief diagnosis at 12 months post-loss than interventions following standardized processing timelines, particularly for individuals with avoidant or highly anxious attachment styles.",
+    "viability": "promising",
+    "confidence": 0.66
+  }
+]
