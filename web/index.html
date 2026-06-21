@@ -169,12 +169,46 @@
   .gen-children { display:none; padding-left:16px; margin:4px 0; }
   .gen-children.open { display:block; }
   .gen-child { font-size:12px; padding:3px 0; color:var(--fg); border-bottom:1px solid var(--br); }
+
+  /* Intelligence */
+  .intel-section { margin:20px 0; }
+  .intel-section h3 { color:var(--purple); font-size:14px; margin:0 0 8px; }
+  .cluster-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+                  padding:12px 16px; margin:8px 0; }
+  .cluster-name { color:var(--acc); font-size:15px; font-weight:bold; }
+  .cluster-size { color:var(--mut); font-size:12px; }
+  .cluster-tags { display:flex; flex-wrap:wrap; gap:4px; margin:6px 0; }
+  .pattern-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+                  padding:12px 16px; margin:8px 0; }
+  .pattern-desc { color:var(--fg); font-size:13px; }
+  .pattern-count { color:var(--acc); font-weight:bold; }
+  .audit-row { display:flex; align-items:center; gap:8px; padding:8px 0;
+               border-bottom:1px solid var(--br); font-size:12px; }
+  .audit-rank { color:var(--acc); font-weight:bold; min-width:28px; }
+  .audit-bar { height:8px; border-radius:4px; }
+  .frontier-card { background:var(--card); border:1px solid var(--br); border-radius:8px;
+                   padding:10px 14px; margin:6px 0; }
+  .path-step { display:flex; align-items:center; gap:8px; padding:8px 0;
+               border-bottom:1px solid var(--br); font-size:13px; }
+  .path-arrow { color:var(--acc); font-size:16px; }
+
+  /* User Annotations */
+  .anno-star { cursor:pointer; font-size:16px; color:var(--mut); }
+  .anno-star.bookmarked { color:var(--warn); }
+  .anno-rating { display:inline-flex; gap:2px; }
+  .anno-dot { width:8px; height:8px; border-radius:50%; border:1px solid var(--mut);
+              cursor:pointer; display:inline-block; }
+  .anno-dot.filled { background:var(--acc); border-color:var(--acc); }
+  .anno-note { background:var(--bg); border:1px solid var(--br); border-radius:4px;
+               color:var(--fg); font:inherit; font-size:11px; padding:4px 6px; width:100%;
+               margin-top:4px; resize:vertical; }
+  .anno-bar { display:flex; align-items:center; gap:8px; margin:6px 0; font-size:11px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
-  <span class="version">v0.7</span>
+  <span class="version">v0.8</span>
   <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
@@ -189,6 +223,8 @@
     <div class="tab" data-tab="theories">theories</div>
     <div class="tab" data-tab="stats">stats</div>
     <div class="tab" data-tab="network">network</div>
+    <div class="tab" data-tab="intelligence">intelligence</div>
+    <div class="tab" data-tab="bookmarks">bookmarks</div>
     <div class="tab" data-tab="heatmap">heatmap</div>
     <div class="tab" data-tab="timeline">timeline</div>
     <div class="tab" data-tab="genealogy">genealogy</div>
@@ -342,6 +378,66 @@
     <canvas id="net-canvas" width="1000" height="600" style="background:var(--bg);border:1px solid var(--br);border-radius:8px;width:100%;cursor:grab"></canvas>
   </div>
 
+  <!-- INTELLIGENCE TAB -->
+  <div class="tab-content" id="tab-intelligence">
+    <div class="intel-section">
+      <h3>auto-clustering</h3>
+      <div class="row">
+        <button id="cluster-go">cluster frameworks</button>
+        <span id="cluster-status" class="meta"></span>
+      </div>
+      <div id="cluster-results"></div>
+    </div>
+
+    <div class="intel-section">
+      <h3>meta-pattern detector</h3>
+      <div class="row">
+        <button id="pattern-go">detect patterns</button>
+        <span id="pattern-status" class="meta"></span>
+      </div>
+      <div id="pattern-results"></div>
+    </div>
+
+    <div class="intel-section">
+      <h3>framework strength audit</h3>
+      <div class="row">
+        <button id="audit-go">run audit (top 100)</button>
+        <span id="audit-status" class="meta"></span>
+      </div>
+      <div id="audit-results"></div>
+    </div>
+
+    <div class="intel-section">
+      <h3>unexplored frontier map</h3>
+      <div class="row">
+        <button id="frontier-go">scan frontiers</button>
+        <span id="frontier-status" class="meta"></span>
+      </div>
+      <div id="frontier-results"></div>
+    </div>
+
+    <div class="intel-section">
+      <h3>collision path optimizer</h3>
+      <div class="row">
+        <input id="path-src" list="domains" placeholder="source domain" style="min-width:180px">
+        <input id="path-tgt" list="domains" placeholder="target domain" style="min-width:180px">
+        <button id="path-go">find shortest path</button>
+      </div>
+      <div id="path-results"></div>
+    </div>
+  </div>
+
+  <!-- BOOKMARKS TAB -->
+  <div class="tab-content" id="tab-bookmarks">
+    <div class="row">
+      <button id="bk-refresh">refresh bookmarks</button>
+      <button id="bk-export">export annotations</button>
+      <button id="bk-clear" style="border-color:var(--bad);color:var(--bad)">clear all</button>
+      <span id="bk-status" class="meta"></span>
+    </div>
+    <div id="bk-results"></div>
+  </div>
+
   <!-- HEATMAP TAB -->
   <div class="tab-content" id="tab-heatmap">
     <div class="row">
@@ -401,6 +497,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.tab === 'heatmap') loadHeatmap();
     if (tab.dataset.tab === 'timeline') loadTimeline();
     if (tab.dataset.tab === 'genealogy') loadGenealogy();
+    if (tab.dataset.tab === 'bookmarks') loadBookmarks();
     if (tab.dataset.tab === 'research') { /* loaded on demand via buttons */ }
   };
 });
@@ -1275,11 +1372,207 @@ async function loadGenealogy() {
   `).join('');
 }
 
-// Tab switching for new tabs
-const tabLoaders = {
-  'heatmap': loadHeatmap,
-  'timeline': loadTimeline,
-  'genealogy': loadGenealogy,
+// ---- Intelligence: Clusters ----
+$('cluster-go').onclick = async () => {
+  $('cluster-status').textContent = 'clustering...';
+  const r = await fetch('/clusters?n_clusters=20');
+  const data = await r.json();
+  $('cluster-status').textContent = `${data.cluster_count} clusters from ${data.total_frameworks} frameworks`;
+  $('cluster-results').innerHTML = data.clusters.map(c => `
+    <div class="cluster-card">
+      <span class="cluster-name">${esc(c.name)}</span>
+      <span class="cluster-size">&mdash; ${c.size} frameworks</span>
+      <div class="cluster-tags">${c.top_tags.map(t =>
+        `<span class="cmp-tag cmp-shared">${esc(t.tag)} (${t.count})</span>`).join('')}</div>
+      <div style="font-size:12px;color:var(--mut)">${c.frameworks.map(f =>
+        `<span style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc(f.name.replace(/'/g,"\\'"))}')">${esc(f.name)}</span> <span class="conf">${f.confidence.toFixed(2)}</span>`
+      ).join(' · ')}</div>
+    </div>
+  `).join('');
+};
+
+// ---- Intelligence: Meta-Patterns ----
+$('pattern-go').onclick = async () => {
+  $('pattern-status').textContent = 'analyzing...';
+  const r = await fetch('/meta-patterns');
+  const data = await r.json();
+  $('pattern-status').textContent = `${data.structural_patterns.length} patterns found`;
+  $('pattern-results').innerHTML = '<h4 style="color:var(--blue);font-size:12px;margin:12px 0 6px">STRUCTURAL PATTERNS</h4>' +
+    data.structural_patterns.map(p => `
+      <div class="pattern-card">
+        <span class="pattern-count">${p.framework_count}</span> frameworks &middot;
+        <span style="color:var(--blue)">${p.domain_count} domains</span>
+        <div class="pattern-desc">${esc(p.description)}</div>
+        <div style="font-size:11px;color:var(--mut);margin-top:4px">
+          examples: ${p.example_frameworks.map(f => esc(f)).join(', ')}
+        </div>
+      </div>
+    `).join('') +
+    '<h4 style="color:var(--blue);font-size:12px;margin:16px 0 6px">TOP MECHANISM SOURCES</h4>' +
+    data.top_mechanism_sources.map(m => `
+      <div style="font-size:12px;padding:3px 0;border-bottom:1px solid var(--br)">
+        <span class="pattern-count">${m.count}</span> ${esc(m.mechanism_source)}
+      </div>
+    `).join('');
+};
+
+// ---- Intelligence: Strength Audit ----
+$('audit-go').onclick = async () => {
+  $('audit-status').textContent = 'auditing...';
+  const r = await fetch('/strength-audit?limit=100');
+  const data = await r.json();
+  $('audit-status').textContent = `${data.audited_count} audited, avg quality ${data.avg_quality}`;
+  $('audit-results').innerHTML = data.leaderboard.map(s => `
+    <div class="audit-row">
+      <span class="audit-rank">#${s.quality_rank}</span>
+      <span style="color:var(--acc);min-width:200px;cursor:pointer" onclick="showFramework('${esc(s.name.replace(/'/g,"\\'"))}')">${esc(s.name)}</span>
+      <span class="conf">${s.quality_score.toFixed(3)}</span>
+      ${viabilityBadge(s.viability)}
+      <div style="display:flex;gap:2px;flex:1">
+        ${Object.entries(s.dimensions).map(([k,v]) => {
+          const color = v >= 0.7 ? 'var(--acc)' : v >= 0.4 ? 'var(--warn)' : 'var(--bad)';
+          return `<div title="${k}: ${v}" style="flex:1"><div class="audit-bar" style="width:${v*100}%;background:${color}"></div></div>`;
+        }).join('')}
+      </div>
+      <span style="color:var(--mut);font-size:10px">${s.mechanism_source} &rarr; ${s.target_domain}</span>
+    </div>
+  `).join('');
+};
+
+// ---- Intelligence: Frontier Map ----
+$('frontier-go').onclick = async () => {
+  $('frontier-status').textContent = 'scanning...';
+  const r = await fetch('/frontier?limit=30');
+  const data = await r.json();
+  $('frontier-status').textContent = `${data.total_frontier_clusters} frontier clusters, ${data.total_unexplored_pairs} unexplored pairs`;
+  $('frontier-results').innerHTML = data.frontier.map(f => `
+    <div class="frontier-card">
+      <div style="font-size:13px">
+        <span class="pattern-count">${f.unexplored_pair_count}</span> unexplored pairs with tags:
+        ${f.tag_combination.map(t => `<span class="cmp-tag cmp-unique">${esc(t)}</span>`).join(' ')}
+      </div>
+      <div style="font-size:11px;color:var(--mut);margin-top:4px">
+        ${f.sample_pairs.map(p => `${esc(p.domain_a)} × ${esc(p.domain_b)}`).join(' · ')}
+      </div>
+    </div>
+  `).join('');
+};
+
+// ---- Intelligence: Path Optimizer ----
+$('path-go').onclick = async () => {
+  const src = $('path-src').value.trim();
+  const tgt = $('path-tgt').value.trim();
+  if (!src || !tgt) return;
+  $('path-results').innerHTML = '<div class="meta">finding shortest path...</div>';
+  const r = await fetch(`/path?source=${encodeURIComponent(src)}&target=${encodeURIComponent(tgt)}`);
+  const data = await r.json();
+  if (data.path_length < 0) {
+    $('path-results').innerHTML = `<div class="card err">No path found between ${esc(src)} and ${esc(tgt)}</div>`;
+    return;
+  }
+  $('path-results').innerHTML = `<div class="meta">${data.path_length} hops</div>` +
+    data.steps.map(s => `
+      <div class="path-step">
+        <span style="color:var(--blue)">${esc(s.from)}</span>
+        <span class="path-arrow">&rarr;</span>
+        <span style="color:var(--blue)">${esc(s.to)}</span>
+        <span style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc(s.framework.replace(/'/g,"\\'"))}')">${esc(s.framework)}</span>
+        <span class="conf">${(s.confidence||0).toFixed(2)}</span>
+      </div>
+    `).join('');
+};
+
+// ---- User Annotations (localStorage) ----
+const ANNO_KEY = 'theoryforge_annotations';
+function getAnnotations() {
+  try { return JSON.parse(localStorage.getItem(ANNO_KEY) || '{}'); } catch { return {}; }
+}
+function saveAnnotations(annos) {
+  localStorage.setItem(ANNO_KEY, JSON.stringify(annos));
+}
+function getAnno(name) {
+  const annos = getAnnotations();
+  return annos[name] || { bookmarked: false, rating: 0, note: '' };
+}
+function setAnno(name, field, value) {
+  const annos = getAnnotations();
+  if (!annos[name]) annos[name] = { bookmarked: false, rating: 0, note: '' };
+  annos[name][field] = value;
+  if (!annos[name].bookmarked && !annos[name].rating && !annos[name].note) delete annos[name];
+  saveAnnotations(annos);
+}
+function annoHtml(name) {
+  const a = getAnno(name);
+  const safeName = esc(name.replace(/'/g, "\\'"));
+  return `<div class="anno-bar" data-anno-name="${esc(name)}">
+    <span class="anno-star ${a.bookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${safeName}',this)">${a.bookmarked ? '★' : '☆'}</span>
+    <span class="anno-rating">${[1,2,3,4,5].map(n =>
+      `<span class="anno-dot ${n <= a.rating ? 'filled' : ''}" onclick="setRating('${safeName}',${n},this.parentElement)"></span>`
+    ).join('')}</span>
+    <input class="anno-note" placeholder="add note..." value="${esc(a.note)}" onchange="setAnno('${safeName}','note',this.value)" style="max-width:300px">
+  </div>`;
+}
+window.toggleBookmark = function(name, el) {
+  const a = getAnno(name);
+  setAnno(name, 'bookmarked', !a.bookmarked);
+  el.className = 'anno-star ' + (!a.bookmarked ? 'bookmarked' : '');
+  el.textContent = !a.bookmarked ? '★' : '☆';
+};
+window.setRating = function(name, rating, container) {
+  setAnno(name, 'rating', rating);
+  container.querySelectorAll('.anno-dot').forEach((d, i) => {
+    d.className = 'anno-dot ' + (i < rating ? 'filled' : '');
+  });
+};
+
+// Inject annotations into framework modal
+const origShowFramework = showFramework;
+showFramework = async function(name) {
+  await origShowFramework(name);
+  const modal = document.querySelector('.modal');
+  if (modal) {
+    const annoDiv = document.createElement('div');
+    annoDiv.innerHTML = '<div style="margin:12px 0;border-top:1px solid var(--br);padding-top:8px"><strong style="color:var(--mut);font-size:11px">YOUR ANNOTATIONS</strong>' + annoHtml(name) + '</div>';
+    modal.querySelector('details').before(annoDiv);
+  }
+};
+
+// Bookmarks tab
+function loadBookmarks() {
+  const annos = getAnnotations();
+  const entries = Object.entries(annos).filter(([_, a]) => a.bookmarked || a.rating > 0 || a.note);
+  $('bk-status').textContent = `${entries.length} annotated frameworks`;
+  if (!entries.length) {
+    $('bk-results').innerHTML = '<div class="card meta">No bookmarks yet. Click ☆ on any framework to bookmark it.</div>';
+    return;
+  }
+  entries.sort((a, b) => (b[1].rating || 0) - (a[1].rating || 0));
+  $('bk-results').innerHTML = entries.map(([name, a]) => `
+    <div class="card" style="padding:10px 14px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span class="anno-star bookmarked" style="cursor:default">${a.bookmarked ? '★' : '☆'}</span>
+        <strong style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc(name.replace(/'/g,"\\'"))}')">${esc(name)}</strong>
+        <span class="anno-rating">${[1,2,3,4,5].map(n =>
+          `<span class="anno-dot ${n <= a.rating ? 'filled' : ''}" style="cursor:default"></span>`
+        ).join('')}</span>
+      </div>
+      ${a.note ? `<div style="font-size:12px;color:var(--mut);margin-top:4px">${esc(a.note)}</div>` : ''}
+    </div>
+  `).join('');
+}
+$('bk-refresh').onclick = loadBookmarks;
+$('bk-export').onclick = () => {
+  const blob = new Blob([JSON.stringify(getAnnotations(), null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'theory-forge-annotations.json';
+  a.click();
+};
+$('bk-clear').onclick = () => {
+  if (confirm('Clear all annotations? This cannot be undone.')) {
+    localStorage.removeItem(ANNO_KEY);
+    loadBookmarks();
+  }
 };
 
 loadDomains();

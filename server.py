@@ -26,6 +26,16 @@ Endpoints:
     GET  /chain/{name}?depth=                     framework exploration chain
     GET  /synthesis?domain=&top_n=&format=        synthesis report (markdown/html)
     GET  /tag-analysis                            tag frequency and domain spread
+    GET  /domain-heatmap                          Jaccard similarity matrix
+    GET  /genealogy                               seed theory → framework lineage
+    GET  /timeline                                domain discovery timeline
+    GET  /compare?names=a,b,c                     side-by-side framework comparison
+    GET  /surprise-chain?depth=                   random high-confidence chain
+    GET  /clusters?n_clusters=                    auto-cluster frameworks by tags
+    GET  /meta-patterns                           recurring structural patterns
+    GET  /strength-audit?limit=                   quality leaderboard (5 dimensions)
+    GET  /frontier?limit=                         unexplored tag combinations
+    GET  /path?source=&target=                    shortest collision path between domains
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -53,7 +63,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.7.0")
+app = FastAPI(title="Theory Forge", version="0.8.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -1249,6 +1259,342 @@ def surprise_chain(depth: int = 10):
             }
             for fw in chain
         ],
+    }
+
+
+# ---- Intelligence: Auto-Clustering ----
+
+@app.get("/clusters")
+def framework_clusters(n_clusters: int = 20):
+    """Group frameworks into thematic clusters using tag co-occurrence."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    theory_tags = {t.name.lower(): set(t.tags) for t in _theories}
+
+    fw_tags_list = []
+    for fw in all_fw:
+        tags = set()
+        for key in ("source_a", "source_b"):
+            src = fw.get(key, "").strip().lower()
+            if src in theory_tags:
+                tags.update(theory_tags[src])
+        for t in _theories:
+            mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).lower()
+            tgt = fw.get("domain_applied_to", fw.get("target_domain", "")).lower()
+            if t.domain.lower() == mech or t.domain.lower() == tgt:
+                tags.update(t.tags)
+        fw_tags_list.append(tags)
+
+    all_tags = sorted({tag for tags in fw_tags_list for tag in tags})
+    tag_idx = {t: i for i, t in enumerate(all_tags)}
+
+    clusters: dict[int, list] = defaultdict(list)
+    cluster_tags: dict[int, Counter] = defaultdict(Counter)
+
+    for i, fw in enumerate(all_fw):
+        tags = fw_tags_list[i]
+        if not tags:
+            clusters[n_clusters - 1].append(i)
+            continue
+        best_cluster = hash(frozenset(list(tags)[:5])) % n_clusters
+        clusters[best_cluster].append(i)
+        cluster_tags[best_cluster].update(tags)
+
+    tag_names = {
+        "feedback,oscillation,dynamics": "Feedback & Oscillation Systems",
+        "selection,competition,fitness": "Evolutionary Selection Dynamics",
+        "threshold,phase-transition,bifurcation": "Phase Transition & Threshold Effects",
+        "flow,gradient,diffusion": "Flow & Gradient Processes",
+        "signal,information,encoding": "Information & Signal Processing",
+        "accumulation,growth,decay": "Growth, Accumulation & Decay",
+        "network,coupling,agents": "Network & Multi-Agent Systems",
+        "constraint,boundary,tradeoff": "Constraint & Tradeoff Optimization",
+        "self-organization,emergence,pattern": "Self-Organization & Emergence",
+        "equilibrium,stability,optimization": "Equilibrium & Stability",
+    }
+
+    result = []
+    for cid in sorted(clusters.keys()):
+        members = clusters[cid]
+        if not members:
+            continue
+        top_tags = cluster_tags[cid].most_common(5)
+        tag_key = ",".join(t for t, _ in top_tags[:3])
+        auto_name = tag_names.get(tag_key, " & ".join(
+            t.replace("-", " ").title() for t, _ in top_tags[:3]
+        ) + " Cluster")
+        result.append({
+            "cluster_id": cid,
+            "name": auto_name,
+            "size": len(members),
+            "top_tags": [{"tag": t, "count": c} for t, c in top_tags],
+            "frameworks": [
+                {"name": all_fw[i].get("name", "?"),
+                 "confidence": all_fw[i].get("confidence", 0)}
+                for i in sorted(members, key=lambda x: -all_fw[x].get("confidence", 0))[:8]
+            ],
+        })
+    result.sort(key=lambda c: -c["size"])
+    return {"cluster_count": len(result), "total_frameworks": len(all_fw), "clusters": result}
+
+
+# ---- Intelligence: Meta-Pattern Detector ----
+
+@app.get("/meta-patterns")
+def meta_patterns():
+    """Identify recurring structural patterns across frameworks."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    theory_tags = {t.name.lower(): set(t.tags) for t in _theories}
+    domain_theories = defaultdict(list)
+    for t in _theories:
+        domain_theories[t.domain.lower()].append(t)
+
+    mechanism_counts: Counter = Counter()
+    domain_target_counts: Counter = Counter()
+    tag_pattern_counts: Counter = Counter()
+    tag_pattern_domains: dict[str, set] = defaultdict(set)
+    tag_pattern_fws: dict[str, list] = defaultdict(list)
+
+    for fw in all_fw:
+        mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).strip().lower()
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", "")).strip().lower()
+        if mech:
+            mechanism_counts[mech] += 1
+        if tgt:
+            domain_target_counts[tgt] += 1
+        tags = set()
+        for t in domain_theories.get(mech, []):
+            tags.update(t.tags)
+        for tag in tags:
+            tag_pattern_counts[tag] += 1
+            tag_pattern_domains[tag].add(mech)
+            tag_pattern_domains[tag].add(tgt)
+            tag_pattern_fws[tag].append(fw.get("name", "?"))
+
+    patterns = []
+    for tag, count in tag_pattern_counts.most_common(30):
+        if count >= 5:
+            domains = tag_pattern_domains[tag]
+            patterns.append({
+                "pattern": tag.replace("-", " "),
+                "description": f"{tag.replace('-', ' ')} mechanisms appear in {count} frameworks spanning {len(domains)} domains",
+                "framework_count": count,
+                "domain_count": len(domains),
+                "domains": sorted(domains)[:15],
+                "example_frameworks": tag_pattern_fws[tag][:5],
+            })
+
+    top_mechanisms = [
+        {"mechanism_source": m, "count": c,
+         "description": f"{m} lends its mechanism to {c} frameworks"}
+        for m, c in mechanism_counts.most_common(15)
+    ]
+    top_targets = [
+        {"target_domain": d, "count": c,
+         "description": f"{d} receives mechanisms from {c} frameworks"}
+        for d, c in domain_target_counts.most_common(15)
+    ]
+
+    return {
+        "structural_patterns": patterns,
+        "top_mechanism_sources": top_mechanisms,
+        "top_target_domains": top_targets,
+        "total_unique_mechanisms": len(mechanism_counts),
+        "total_unique_targets": len(domain_target_counts),
+    }
+
+
+# ---- Intelligence: Framework Strength Audit ----
+
+@app.get("/strength-audit")
+def strength_audit(limit: int = 100):
+    """Re-score top frameworks against 5 quality dimensions."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+    all_fw.sort(key=lambda fw: -fw.get("confidence", 0))
+    top = all_fw[:limit]
+
+    mechanism_counts: Counter = Counter()
+    domain_counts: Counter = Counter()
+    for fw in all_fw:
+        mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).strip().lower()
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", "")).strip().lower()
+        if mech:
+            mechanism_counts[mech] += 1
+        if tgt:
+            domain_counts[tgt] += 1
+
+    all_domains = {t.domain.lower() for t in _theories}
+
+    scored = []
+    for fw in top:
+        mech = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")).strip().lower()
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", "")).strip().lower()
+        pred = fw.get("prediction", fw.get("core_claim", ""))
+
+        novelty = 1.0 - min(mechanism_counts.get(mech, 1) / 20, 1.0)
+        falsifiability = min(len(pred) / 200, 1.0) if pred else 0.0
+        has_numbers = bool(re.search(r"\d+", pred)) if pred else False
+        if has_numbers:
+            falsifiability = min(falsifiability + 0.3, 1.0)
+        mechanism_text = fw.get("mechanism", "")
+        clarity = min(len(mechanism_text) / 500, 1.0) if mechanism_text else 0.3
+        mech_domains = set()
+        tgt_domains = set()
+        for fw2 in all_fw:
+            m2 = fw2.get("mechanism_borrowed_from", fw2.get("mechanism_source", "")).strip().lower()
+            t2 = fw2.get("domain_applied_to", fw2.get("target_domain", "")).strip().lower()
+            if m2 == mech:
+                tgt_domains.add(t2)
+            if t2 == tgt:
+                mech_domains.add(m2)
+        cross_domain = min((len(mech_domains) + len(tgt_domains)) / 20, 1.0)
+        app_text = fw.get("application", fw.get("core_claim", ""))
+        applicability = min(len(app_text) / 400, 1.0) if app_text else 0.3
+
+        composite = (novelty * 0.2 + falsifiability * 0.25 + clarity * 0.2 +
+                     cross_domain * 0.15 + applicability * 0.2)
+
+        scored.append({
+            "name": fw.get("name", "?"),
+            "original_confidence": fw.get("confidence", 0),
+            "viability": fw.get("viability", "?"),
+            "quality_score": round(composite, 3),
+            "dimensions": {
+                "novelty": round(novelty, 3),
+                "falsifiability": round(falsifiability, 3),
+                "mechanism_clarity": round(clarity, 3),
+                "cross_domain_reach": round(cross_domain, 3),
+                "practical_applicability": round(applicability, 3),
+            },
+            "mechanism_source": fw.get("mechanism_borrowed_from", fw.get("mechanism_source", "")),
+            "target_domain": fw.get("domain_applied_to", fw.get("target_domain", "")),
+        })
+
+    scored.sort(key=lambda x: -x["quality_score"])
+    for i, s in enumerate(scored, 1):
+        s["quality_rank"] = i
+
+    return {
+        "audited_count": len(scored),
+        "avg_quality": round(sum(s["quality_score"] for s in scored) / len(scored), 3) if scored else 0,
+        "leaderboard": scored,
+    }
+
+
+# ---- Intelligence: Unexplored Frontier Map ----
+
+@app.get("/frontier")
+def frontier_map(limit: int = 50):
+    """Show tag combinations that have never been collided."""
+    all_fw = _load_all_frameworks()
+    collided_pairs: set[frozenset[str]] = set()
+    for fw in all_fw:
+        src = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", fw.get("source_a", ""))).strip().lower()
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", fw.get("source_b", ""))).strip().lower()
+        if src and tgt:
+            collided_pairs.add(frozenset({src, tgt}))
+
+    domain_tags: dict[str, set[str]] = {}
+    for t in _theories:
+        domain_tags.setdefault(t.domain, set()).update(t.tags)
+
+    theory_domains = sorted(domain_tags.keys())
+    tag_combos: dict[frozenset[str], list] = defaultdict(list)
+
+    for i, da in enumerate(theory_domains):
+        for db in theory_domains[i+1:]:
+            if frozenset({da.lower(), db.lower()}) in collided_pairs:
+                continue
+            shared = domain_tags.get(da, set()) & domain_tags.get(db, set())
+            if len(shared) >= 2:
+                combo = frozenset(list(shared)[:4])
+                tag_combos[combo].append({"domain_a": da, "domain_b": db,
+                                          "shared_tags": sorted(shared)})
+
+    frontier = []
+    for combo, pairs in sorted(tag_combos.items(), key=lambda x: -len(x[1])):
+        if len(pairs) >= 2:
+            frontier.append({
+                "tag_combination": sorted(combo),
+                "unexplored_pair_count": len(pairs),
+                "sample_pairs": pairs[:5],
+            })
+
+    frontier.sort(key=lambda x: -x["unexplored_pair_count"])
+    total_unexplored = sum(f["unexplored_pair_count"] for f in frontier)
+
+    return {
+        "total_frontier_clusters": len(frontier),
+        "total_unexplored_pairs": total_unexplored,
+        "frontier": frontier[:limit],
+    }
+
+
+# ---- Intelligence: Collision Path Optimizer ----
+
+@app.get("/path")
+def collision_path(source: str = "", target: str = ""):
+    """Find shortest chain of collisions connecting two domains."""
+    if not source or not target:
+        raise HTTPException(400, "Provide ?source=domain_a&target=domain_b")
+
+    all_fw = _load_all_frameworks()
+    adjacency: dict[str, set[str]] = defaultdict(set)
+    edge_frameworks: dict[tuple[str, str], dict] = {}
+
+    for fw in all_fw:
+        src = fw.get("mechanism_borrowed_from", fw.get("mechanism_source", fw.get("source_a", ""))).strip().lower()
+        tgt = fw.get("domain_applied_to", fw.get("target_domain", fw.get("source_b", ""))).strip().lower()
+        if src and tgt:
+            adjacency[src].add(tgt)
+            adjacency[tgt].add(src)
+            key = tuple(sorted([src, tgt]))
+            if key not in edge_frameworks or fw.get("confidence", 0) > edge_frameworks[key].get("confidence", 0):
+                edge_frameworks[key] = fw
+
+    source_l = source.lower().strip()
+    target_l = target.lower().strip()
+
+    if source_l not in adjacency:
+        raise HTTPException(404, f"Domain '{source}' not found in collision graph.")
+    if target_l not in adjacency:
+        raise HTTPException(404, f"Domain '{target}' not found in collision graph.")
+
+    from collections import deque
+    queue = deque([(source_l, [source_l])])
+    visited = {source_l}
+
+    while queue:
+        current, path = queue.popleft()
+        if current == target_l:
+            steps = []
+            for i in range(len(path) - 1):
+                key = tuple(sorted([path[i], path[i+1]]))
+                fw = edge_frameworks.get(key, {})
+                steps.append({
+                    "from": path[i],
+                    "to": path[i+1],
+                    "framework": fw.get("name", "?"),
+                    "confidence": fw.get("confidence", 0),
+                })
+            return {
+                "source": source,
+                "target": target,
+                "path_length": len(path) - 1,
+                "path": path,
+                "steps": steps,
+            }
+        for neighbor in adjacency[current]:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append((neighbor, path + [neighbor]))
+
+    return {
+        "source": source,
+        "target": target,
+        "path_length": -1,
+        "path": [],
+        "steps": [],
+        "message": f"No collision path found between '{source}' and '{target}'",
     }
 
 

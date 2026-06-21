@@ -1,0 +1,87 @@
+{
+  "name": "SCOBY Culture Transfer",
+  "rank": 87,
+  "confidence": 0.80,
+  "source_a": "Kombucha SCOBY Propagation",
+  "source_b": "Organizational Knowledge Transfer",
+  "mechanism_borrowed_from": "kombucha-scoby-propagation",
+  "domain_applied_to": "organizational-learning",
+  "executive_summary": "Kombucha fermentation cannot be initiated from sterile ingredients alone. Each new batch requires inoculation with a live SCOBY (Symbiotic Culture of Bacteria and Yeast) carrying an established microbial community, plus a volume of starter liquid from the previous batch. The SCOBY encodes not only the relevant organisms but their ecological relationships, competitive exclusions, and metabolic interdependencies — information that no ingredient list or fermentation protocol can reconstitute. Attempting to grow kombucha from pure-culture monocultures or written recipes alone produces contaminated, inconsistent, or failed batches because the community dynamics are not reducible to any formal specification.\n\nOrganizational learning exhibits the same inoculation requirement. New teams seeded from documentation — process manuals, SOPs, onboarding wikis, recorded training — consistently underperform teams seeded with experienced practitioners carrying tacit knowledge, informal norms, and embodied heuristics. The experienced practitioners function as live starter cultures: they carry the community's immune system (knowing which practices fail and why), its metabolic relationships (informal networks for rapid problem resolution), and its ecological memory (what was tried and abandoned). Documentation is the ingredient list; practitioners are the SCOBY. Organizations expanding through documentation-only transfer produce what this framework terms 'sterile culture' — formally compliant but operationally brittle teams that lack self-correction capacity.\n\nThe framework generates specific structural predictions: minimum viable starter fractions (the ratio of experienced practitioners to new hires required for successful culture transfer), contamination failure modes (when external hires with incompatible cultural metabolisms disrupt established community dynamics), and pasteurization effects (when reorganizations, layoffs, or rapid scaling destroy the living carrier community before documentation can compensate). It prescribes a fermentation-protocol analog for organizational expansion: controlled inoculation ratios, starter liquid retention (knowledge-bearing artifacts embedded in social context), and temperature management (environmental stability during the critical initial acclimation period).",
+  "mapped_components": {
+    "unit": "Individual practitioner carrying embodied tacit knowledge, informal relationships, and behavioral heuristics — analogous to a single microorganism in the SCOBY community",
+    "variation": "Differences in knowledge depth, relational network position, and tacit heuristic repertoire across practitioners — analogous to microbial strain diversity within the SCOBY",
+    "selection": "Organizational pressure selecting for practitioners whose knowledge and norms produce effective outcomes, causing retention of high-fidelity cultural carriers and attrition of poor fits",
+    "fitness": "Team operational effectiveness: time-to-competence for new members, error rates, informal problem-resolution speed, and cultural self-correction capacity — analogous to fermentation yield and consistency",
+    "boundary": "The team or organizational unit boundary across which knowledge must transfer — analogous to the vessel wall separating an established culture from a new batch requiring inoculation"
+  },
+  "falsifiable_predictions": [
+    "Teams inoculated with experienced practitioners at ratios below a minimum viable threshold (predicted ~20-25% of team size) will exhibit significantly higher error rates and longer time-to-competence than teams above threshold, even when documentation quality is equivalent",
+    "Organizations that scale by doubling headcount faster than experienced practitioners can be distributed (faster than the SCOBY can be subdivided without losing viability) will show measurable cultural discontinuity — operationalized as declining cross-team norm consistency scores — within 12-18 months of rapid scaling",
+    "Teams that undergo 'pasteurization events' (defined as >40% simultaneous turnover of experienced members) will fail to recover cultural consistency through documentation alone and will require re-inoculation from an external experienced cohort",
+    "The effectiveness of knowledge transfer will be significantly predicted by the starter liquid ratio (percentage of knowledge transferred in active social context versus passive documentation), with social-context transfer producing 30%+ higher fidelity on tacit knowledge assessments",
+    "Contamination failures (introduction of practitioners with strongly incompatible operational norms above a threshold ratio of ~15% of team size) will disrupt established team effectiveness metrics in ways that parallel microbial contamination: initial apparent coexistence followed by rapid displacement of established norms within 3-6 months"
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "Polanyi's concept of tacit knowledge — 'we know more than we can tell' — demonstrates that expert competence includes procedural, contextual, and relational knowledge that resists explicit codification. Studies of knowledge transfer in engineering firms show that written documentation captures at most 20% of the knowledge required for expert performance.",
+      "relevance": "Provides the theoretical mechanism explaining why documentation alone cannot substitute for live practitioner transfer — the SCOBY carries information that no recipe can encode",
+      "source": "Polanyi, M. (1966). The Tacit Dimension. Doubleday. / Szulanski, G. (1996). Exploring internal stickiness: Impediments to the transfer of best practice within the firm. Strategic Management Journal, 17(S2), 27-43."
+    },
+    {
+      "finding": "Szulanski's research on knowledge transfer stickiness identified that the most significant impediment to successful knowledge transfer is not motivational unwillingness but absorptive capacity failure — the recipient lacks the experiential substrate needed to receive and integrate the transferred knowledge. Communities of practice research shows that effective knowledge transfer requires legitimate peripheral participation in active practice.",
+      "relevance": "Directly maps to the SCOBY inoculation requirement: the new batch must have the right environmental substrate AND live starter culture — passive documentation transfer fails because recipients lack the experiential medium",
+      "source": "Szulanski, G. (2000). The process of knowledge transfer: A diachronic analysis of stickiness. Organizational Behavior and Human Decision Processes, 82(1), 9-27. / Lave, J., & Wenger, E. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press."
+    },
+    {
+      "finding": "Studies of military unit cohesion and effectiveness demonstrate that units receiving replacement soldiers above a 30% threshold simultaneously experience sharp declines in tactical effectiveness that persist for 6-12 months regardless of individual soldier quality — a phenomenon called 'cohesion disruption.' The effect is nonlinear: gradual replacement maintains effectiveness while batch replacement destroys it.",
+      "relevance": "Provides empirical evidence for the minimum viable culture fraction prediction and the nonlinear threshold effect, analogous to the minimum viable SCOBY mass required for successful fermentation initiation",
+      "source": "Siebold, G. L. (2007). The essence of military group cohesion. Armed Forces & Society, 33(2), 286-295. / MacCoun, R. J., Kier, E., & Belkin, A. (2006). Does social cohesion determine motivation in combat? Armed Forces & Society, 32(4), 646-654."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "name": "Minimum Viable Starter Fraction Field Experiment",
+      "description": "Partner with a professional services firm undergoing planned expansion across 8-12 new office locations. Randomly assign new offices to one of four inoculation ratio conditions: 0% experienced practitioners (documentation only), 10%, 25%, and 40% experienced practitioners embedded in new teams. Measure team effectiveness at 3, 6, 12, and 24 months using a validated battery including: time-to-competence for new hires, client satisfaction scores, peer-assessed norm consistency, informal network density, and self-reported problem-resolution speed. Pre-register the hypothesis that effectiveness will be non-linearly related to inoculation ratio with a threshold near 20-25%.",
+      "hypothesis": "Teams inoculated at or above 25% experienced practitioner ratio will reach operational effectiveness benchmarks 40%+ faster than documentation-only teams, and effectiveness will show a threshold rather than linear relationship with inoculation ratio",
+      "feasibility": "Moderate — requires organizational partner willing to randomize expansion conditions, which creates internal equity concerns. Could be approximated with quasi-experimental design using natural variation in expansion staffing ratios across existing firm locations. Primary measurement challenge is operationalizing tacit knowledge transfer fidelity."
+    },
+    {
+      "name": "Pasteurization Event Longitudinal Study",
+      "description": "Identify organizations that have undergone involuntary high-turnover events (layoffs, reorganizations, rapid voluntary attrition) producing >35% simultaneous departure of tenured employees in defined units. Match each high-turnover unit to a low-turnover control unit in the same organization using propensity scoring on pre-event performance metrics. Track both groups for 24 months post-event, measuring cultural norm consistency (operationalized via behavioral coding of team meeting transcripts and anonymized communication network analysis), operational error rates, and time required to resolve novel problems. Test whether documentation investment post-event moderates recovery trajectory.",
+      "hypothesis": "Units experiencing pasteurization events above the 35% threshold will show persistent cultural effectiveness deficits at 24 months regardless of documentation investment, while units with experienced-practitioner re-inoculation (new senior hires with relevant cultural background) will show recovery trajectories matching controls",
+      "feasibility": "High — retrospective longitudinal design requires only archival data and post-hoc surveys. The COVID-19 period produced numerous natural pasteurization experiments via the Great Resignation. Primary challenge is obtaining pre-event baseline data and operationalizing cultural consistency measurement."
+    }
+  ],
+  "limitations": [
+    "The analogy breaks down at the intentionality boundary: SCOBY organisms propagate without goal-directedness, while practitioners actively choose what knowledge to share and withhold. Strategic knowledge hoarding has no microbial analog and could undermine transfer even with optimal inoculation ratios.",
+    "Microbial communities achieve transfer fidelity through genetic replication; human knowledge communities rely on social learning with higher per-generation error rates. The framework may overestimate transfer fidelity achievable even with optimal inoculation conditions.",
+    "The minimum viable fraction threshold is likely highly context-dependent (knowledge complexity, tacitness level, organizational environment stability) and the framework does not yet provide principled methods for predicting context-specific thresholds without empirical calibration.",
+    "The framework focuses on maintaining existing culture and may pathologize desirable cultural transformation. Sometimes 'contamination' by new practitioners with different norms is precisely what organizations need — the fermentation analog frames this as failure when it may be improvement.",
+    "SCOBY propagation occurs in controlled vessels; organizational knowledge transfer occurs in open systems with continuous external influence. The boundary conditions that make the microbial analogy precise are absent in real organizational contexts, limiting quantitative predictions."
+  ],
+  "potential_applications": [
+    "Merger and acquisition integration planning: prescribing minimum experienced-practitioner retention ratios and integration timelines to prevent cultural pasteurization during post-merger integration",
+    "Organizational expansion playbooks: designing expansion protocols that subdivide existing teams as SCOBY portions rather than creating new teams staffed entirely from external hires",
+    "Knowledge risk assessment: identifying which teams are operating below minimum viable culture fraction due to attrition and prioritizing knowledge preservation interventions before pasteurization threshold is crossed",
+    "Offboarding protocol redesign: treating departing experienced practitioners as SCOBY portions to be extracted rather than simply lost — structured knowledge extraction paired with social network handoffs and apprenticeship periods",
+    "Remote and hybrid work policy: identifying the environmental conditions (interaction frequency, informal communication channels, co-location periods) that function as the temperature and pH analog — the environmental parameters required for successful culture maintenance and transfer"
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Communities of Practice (Wenger)",
+      "relationship": "Communities of practice theory describes the social structure that constitutes the SCOBY — the framework of legitimate peripheral participation provides the mechanism by which inoculation actually transfers knowledge from experienced practitioners to newcomers"
+    },
+    {
+      "framework": "Organizational Immune System",
+      "relationship": "The SCOBY's competitive exclusion of contaminants maps directly onto organizational immune system frameworks: the established culture resists incompatible practices through social norm enforcement, just as the microbial community resists contamination through pH and metabolite competition"
+    },
+    {
+      "framework": "Gene-Culture Coevolution (Dual Inheritance Theory)",
+      "relationship": "The SCOBY framework is a specific application of dual inheritance dynamics: cultural transmission parallels genetic transmission in requiring active carrier mechanisms, showing fidelity-variation tradeoffs, and being subject to selection pressures — the microbial analogy makes the transmission mechanism concrete"
+    },
+    {
+      "framework": "Minimum Viable Product (Lean Startup)",
+      "relationship": "MVP logic applied to team formation: the minimum viable starter fraction defines the minimum viable cultural inoculum below which new team formation will fail to achieve self-sustaining culture, providing a testable threshold analog to MVP viability criteria"
+    }
+  ]
+}

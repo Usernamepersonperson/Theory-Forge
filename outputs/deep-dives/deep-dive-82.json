@@ -1,0 +1,87 @@
+{
+  "name": "Signor-Lipps Bias Correction for Historical Record Gaps",
+  "rank": 82,
+  "confidence": 0.81,
+  "source_a": "Signor-Lipps Effect (Paleontology)",
+  "source_b": "Documentary Preservation Bias (Historiography)",
+  "mechanism_borrowed_from": "signor-lipps-effect-paleontology",
+  "domain_applied_to": "historiography",
+  "executive_summary": "The Signor-Lipps effect, first formalized in 1982, describes a systematic artifact of incomplete fossil preservation: because preservation is probabilistic, the last appearance datum of any taxon in the stratigraphic record necessarily precedes its true biological extinction. The denser the sampling, the closer the last appearance datum approaches the true extinction horizon, but it can never equal it without exhaustive sampling. The resulting smear distorts our picture of mass extinction events, making gradual die-offs appear sudden and simultaneous extinctions appear staggered.\n\nHistoriography faces a structurally identical problem that has been noted only in passing and never formalized with the quantitative tools available in paleontology. When a practice, institution, technology, or belief disappears from the historical record, the final documentary attestation precedes the actual cessation by an interval that is an inverse function of documentary density. High-literacy, high-bureaucracy periods produce dense documentation; the gap between last attestation and true termination is small. For pre-literate or poorly-documented periods, that gap can span generations. Historians routinely make claims about 'the end' of phenomena based on last attestation without correcting for this structural bias.\n\nThis framework proposes borrowing the statistical apparatus of paleontological occurrence modeling — specifically confidence interval estimation for true extinction horizons using the Strauss-Sadler method and its successors — and translating it into historiographical practice. The core translation is that document survival probability takes the role of preservation probability, and documentary density per time unit takes the role of stratigraphic sampling density. Applied systematically, this would replace unsupported 'last attested in X' claims with defensible probability distributions over actual termination dates, fundamentally improving precision in historical argumentation.",
+  "mapped_components": {
+    "unit": "A discrete historical phenomenon (practice, institution, belief, technology) analogous to a fossil taxon",
+    "variation": "Variation in documentary survival rates across archive types, regions, and literacy regimes",
+    "selection": "Preferential survival of certain document types (legal, ecclesiastical, monumental) over ephemeral records",
+    "fitness": "Documentary density per unit time — the proxy for stratigraphic sampling density in the paleontological model",
+    "boundary": "The confidence interval around the true termination date, derived from the gap between final attestation and estimated last occurrence"
+  },
+  "falsifiable_predictions": [
+    "For historical phenomena attested in high-density documentary periods (e.g., 18th-century England), the gap between last attestation and true termination will cluster below 10 years, verifiable by comparing last attestation dates against archival survivorship models for that period.",
+    "For phenomena attested only in monastic or ecclesiastical records (low-diversity survival), Signor-Lipps-corrected termination dates will shift later by a factor proportional to the ratio of destroyed-to-surviving documents estimated by archival historians, producing systematically later 'true end' estimates than uncorrected last-attestation dates.",
+    "Applying Strauss-Sadler confidence interval estimation to Roman-period craft practices documented in papyri will show that claimed 'end dates' derived from last attestation underestimate true persistence by 15–40 years on average, a testable prediction against cases where Byzantine continuity is independently attested.",
+    "Phenomena documented only in languages with lower manuscript survival rates (e.g., Old Norse vs. Latin for the same period) will show larger corrected intervals, because lower survival probability functions identically to lower stratigraphic sampling density in the paleontological model.",
+    "Historians who apply this correction to the 'disappearance' of Roman-era administrative practices in post-conquest Britain will find that the corrected termination windows overlap substantially with early Anglo-Saxon period attestations, weakening the case for abrupt institutional collapse and supporting gradual transition models."
+  ],
+  "supporting_evidence": [
+    {
+      "finding": "The Strauss-Sadler (1989) method provides a classical confidence interval formula for true extinction horizons based on the spacing of fossil occurrences below the last appearance datum, and extensions by Marshall (1995) generalize this to non-uniform sampling.",
+      "relevance": "These methods are directly translatable to documentary occurrence data: the mathematical form is identical whether 'occurrences' are fossil specimens or documentary attestations, making the transfer technically straightforward.",
+      "source": "Marshall, C.R. (1995). Distinguishing between sudden and gradual extinctions in the fossil record: predicting the position of the Cretaceous-Tertiary iridium anomaly using the ammonite fossil record on Seymour Island, Antarctica. Geology, 23(8), 731–734."
+    },
+    {
+      "finding": "Archival historians have documented that document survival from medieval Europe is estimated at below 5% of original production, with strong biases toward legal, ecclesiastical, and monumental texts and against commercial, personal, and vernacular records.",
+      "relevance": "This establishes that the 'sampling density' analog in historiography is not only low but highly non-random — exactly the condition under which Signor-Lipps bias is largest, making the correction most necessary.",
+      "source": "Clanchy, M.T. (1993). From Memory to Written Record: England 1066–1307. Blackwell, Oxford. (2nd ed., Chapter 6: 'Preserving Documents'.)"
+    },
+    {
+      "finding": "Signor and Lipps (1982) demonstrated formally that even under a simultaneous mass extinction, incomplete preservation will always produce the appearance of a stepwise, gradual extinction in the fossil record, and that this artifact is undetectable without explicit correction.",
+      "relevance": "This directly establishes the existence of an analogous artifact in historiography: historians may be systematically misreading gradual institutional persistence as stepwise sequential termination simply due to differential document survival.",
+      "source": "Signor, P.W. and Lipps, J.H. (1982). Sampling bias, gradual extinction patterns, and catastrophes in the fossil record. Geological Society of America Special Paper 190, 291–296."
+    }
+  ],
+  "experimental_designs": [
+    {
+      "name": "Papyrological Occurrence Calibration Study",
+      "description": "Select 20 well-documented Roman administrative or commercial practices attested in Egyptian papyri with known date ranges. Apply Strauss-Sadler interval estimation using papyrus publication counts per decade as the sampling density proxy. Compare corrected termination windows against independent attestations from Byzantine-period papyri to test whether the correction narrows the explanatory gap. Document survival probability estimates should be drawn from published papyrological corpus statistics.",
+      "hypothesis": "Strauss-Sadler-corrected termination windows will overlap with Byzantine attestation in at least 70% of cases where uncorrected last-attestation dates suggest pre-Byzantine termination, reducing apparent discontinuity.",
+      "feasibility": "High — Egyptian papyrological data is among the most quantitatively tractable in ancient history, with published occurrence counts and well-characterized survival biases. The Duke Databank of Documentary Papyri provides sufficient data for calibration."
+    },
+    {
+      "name": "Medieval Craft Practice Longitudinal Simulation",
+      "description": "Using the documented dissolution rates of English monastic archives (estimated at 85–95% loss during the Reformation), simulate the effect on a synthetic dataset of craft practices with known continuous histories (from guild records cross-checked with later archaeological evidence). Inject the known dissolution event as a sudden drop in sampling density and measure the apparent termination distribution produced by last-attestation methods versus Signor-Lipps-corrected methods. Compare against the 'true' termination dates encoded in the simulation.",
+      "hypothesis": "Last-attestation methods will show spurious termination clustering at the Dissolution event horizon, while corrected methods will recover simulated true termination dates within the 95% confidence interval at least 80% of the time.",
+      "feasibility": "Medium — requires construction of a synthetic dataset with realistic document-survival parameters, but these parameters are well-constrained by archival historical research and the simulation itself is straightforward."
+    }
+  ],
+  "limitations": [
+    "Documentary survival probability is far more difficult to estimate than stratigraphic sampling density: archive-level survival rates vary enormously and are often unknown, introducing substantial uncertainty into the correction that has no clean paleontological analog.",
+    "Unlike fossil taxa, historical phenomena can be deliberately concealed, revived, or renamed — a practice may disappear from documents not because it ended but because it became illicit or unfashionable to record, introducing a selection bias orthogonal to preservation probability.",
+    "The Strauss-Sadler method assumes independent, random sampling across the stratigraphic range; documentary attestations are strongly clustered by archive, region, and record type, violating independence assumptions and requiring substantial methodological adaptation.",
+    "Defining the 'occurrence' unit for historical phenomena is non-trivial: a single document may contain multiple attestations of a practice across different dates or none at all depending on interpretation, whereas fossil occurrences have clearer identity criteria.",
+    "Historians and archivists lack the quantitative training to apply occurrence modeling methods natively, and the paleontological literature where these tools are developed is not routinely read in humanities departments, creating a significant interdisciplinary translation barrier."
+  ],
+  "potential_applications": [
+    "Generating defensible confidence intervals for the 'end' of Roman administrative practices in post-conquest provinces, replacing vague 'disappears from the record' claims with probabilistic termination windows.",
+    "Reanalyzing the apparent simultaneous collapse of Bronze Age palace economies (the Late Bronze Age Collapse) to determine how much of the apparent synchrony is Signor-Lipps artifact versus genuine simultaneous termination.",
+    "Improving dating precision for the end of pagan religious practices in Christianizing late antique contexts, where last attestation is heavily biased toward legal prohibitions rather than actual practice cessation.",
+    "Providing historians of technology with better tools for estimating when specific craft techniques actually became obsolete versus when they stopped being documented, particularly for pre-industrial periods.",
+    "Informing archival digitization priority decisions: if Signor-Lipps-corrected intervals are widest for phenomena attested in the most fragile document types, digitization of those types yields the greatest reduction in historical uncertainty."
+  ],
+  "connections_to_other_frameworks": [
+    {
+      "framework": "Survivorship Bias Correction in Economic History",
+      "relationship": "Both frameworks address systematic distortion from non-random record survival; the Signor-Lipps correction extends survivorship bias logic from static counts to temporal last-occurrence estimation."
+    },
+    {
+      "framework": "Bayesian Radiocarbon Calibration (OxCal Framework)",
+      "relationship": "OxCal's approach of placing probability distributions over event dates using prior knowledge and calibration curves is methodologically parallel; the Signor-Lipps historiographical correction could be implemented within a Bayesian framework analogous to OxCal."
+    },
+    {
+      "framework": "Dark Data Recovery in Ecology",
+      "relationship": "Species occupancy models that infer presence from absence-corrected detection probabilities use the same underlying logic; historical phenomena are analogous to species with imperfect detection."
+    },
+    {
+      "framework": "Cold Case Forensic Evidence Degradation Modeling",
+      "relationship": "Forensic estimation of evidence loss over time to infer original event parameters shares the probabilistic inference-from-incomplete-record structure, offering a practical modeling community familiar with the problem."
+    }
+  ]
+}

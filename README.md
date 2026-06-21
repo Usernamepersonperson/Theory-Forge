@@ -23,10 +23,10 @@ That's the whole loop. ~300 lines.
 ## Files
 
 - [forge.py](forge.py) — core: loading, fingerprinting, tag + embedding similarity, ledger-aware novelty filter, LLM synthesis. Single file, runnable.
-- [server.py](server.py) — FastAPI v0.7: 30 endpoints including Research Assistant, visualizations, batch forge, rankings, deep dives, stats, search, export, and domain network graph.
+- [server.py](server.py) — FastAPI v0.8: 35 endpoints including Research Assistant, intelligence layer, visualizations, batch forge, rankings, deep dives, stats, search, export, and domain network graph.
 - [theories.json](theories.json) — decomposed seed dataset (853 entries across 205 domains).
 - [tried.json](tried.json) — known-prior collisions (published / failed / speculative).
-- [web/index.html](web/index.html) — 12-tab UI: forge, research assistant, batch forge, rankings, deep dives, theories, stats, network, heatmap, timeline, genealogy, history.
+- [web/index.html](web/index.html) — 14-tab UI: forge, research, batch forge, rankings, deep dives, theories, stats, network, intelligence, bookmarks, heatmap, timeline, genealogy, history.
 - [outputs/](outputs/) — generated collision batches, rankings, and deep-dive analyses.
 
 ## Run
@@ -85,6 +85,11 @@ GET  /genealogy                               seed theory → framework lineage 
 GET  /timeline                                when each domain was first explored
 GET  /compare?names=a,b,c                     side-by-side framework comparison
 GET  /surprise-chain?depth=                   random high-confidence 10-hop chain
+GET  /clusters?n_clusters=                    auto-cluster frameworks by tags
+GET  /meta-patterns                           recurring structural patterns
+GET  /strength-audit?limit=                   quality leaderboard (5 dimensions)
+GET  /frontier?limit=                         unexplored tag combinations
+GET  /path?source=&target=                    shortest collision path between domains
 ```
 
 ## UI tabs
@@ -101,6 +106,8 @@ GET  /surprise-chain?depth=                   random high-confidence 10-hop chai
 | **network** | Interactive force-directed graph showing domain connections. Drag nodes, hover for details. |
 | **heatmap** | Interactive domain similarity heatmap — Jaccard overlap between all 205 domains on a color-coded canvas matrix. |
 | **timeline** | Discovery timeline — cumulative chart showing when each domain was first explored, batch-by-batch domain list. |
+| **intelligence** | Auto-clustering, meta-pattern detector, framework strength audit (5 quality dimensions), unexplored frontier map, collision path optimizer. |
+| **bookmarks** | User annotations — bookmark, rate (1-5), and add notes to frameworks. Stored in localStorage, exportable as JSON. |
 | **genealogy** | Theory genealogy tree — which seed theories produced the most frameworks, expandable offspring list. |
 | **history** | Expandable list of all collision batches with framework details. |
 
