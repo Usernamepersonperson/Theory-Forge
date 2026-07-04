@@ -65,7 +65,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.8.0")
+app = FastAPI(title="Theory Forge", version="0.9.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
