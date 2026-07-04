@@ -64,6 +64,7 @@ GET  /domains                                 unique domain list
 GET  /ledger                                  known collisions
 GET  /pairs?limit=&novel_only=&alpha=         ranked cross-domain pairs
 POST /collide          { a_id, b_id }         synthesize new framework
+POST /collide_triple   { a_id, b_id, c_id }   fuse two mechanisms into a third domain
 POST /collide_domains  { domain_a, domain_b }
 POST /batch_collide    { count, domain_filter }  batch N collisions
 GET  /history                                 all saved batch outputs
@@ -98,7 +99,7 @@ GET  /idea-seeds?limit=&domain=&novel_only=   ready-to-explore ideation prompts
 
 | Tab | What it does |
 |-----|-------------|
-| **forge** | Pick two domains or click "surprise me" to collide random theories. Search box for existing frameworks. |
+| **forge** | Pick two domains or click "surprise me" to collide random theories. 3-way forge fuses two mechanisms into a third domain. Search box for existing frameworks. |
 | **research** | Research Assistant: idea seeds (provocations to spark new theories + one-click forge), semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). |
 | **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
 | **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |

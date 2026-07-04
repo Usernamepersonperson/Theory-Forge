@@ -8,6 +8,7 @@ Endpoints:
     GET  /ledger                                  known collisions (tried/failed)
     GET  /pairs?limit=&novel_only=&alpha=         ranked cross-domain pairs
     POST /collide          { a_id, b_id }         synthesize new framework
+    POST /collide_triple   { a_id, b_id, c_id }   fuse two mechanisms into a third domain
     POST /collide_domains  { domain_a, domain_b, novel_only? }
     POST /batch_collide    { count, domain_filter? }  batch N collisions
     GET  /history                                 all saved batch outputs
@@ -103,6 +104,12 @@ class CollideDomainsIn(BaseModel):
     novel_only: bool = True
 
 
+class Collide3In(BaseModel):
+    a_id: str
+    b_id: str
+    c_id: str
+
+
 class BatchCollideIn(BaseModel):
     count: int = 5
     domain_filter: str | None = None
@@ -173,6 +180,20 @@ def collide(body: CollideIn):
         "a": a.to_dict(), "b": b.to_dict(),
         "framework": framework,
         "prior": prior.__dict__ if prior else None,
+    }
+
+
+@app.post("/collide_triple")
+def collide_triple(body: Collide3In):
+    a, b, c = _by_id.get(body.a_id), _by_id.get(body.b_id), _by_id.get(body.c_id)
+    if not a or not b or not c:
+        raise HTTPException(404, "Unknown theory id.")
+    if len({a.id, b.id, c.id}) < 3:
+        raise HTTPException(400, "Pick three distinct theories.")
+    framework = forge.collide3(a, b, c, _client())
+    return {
+        "a": a.to_dict(), "b": b.to_dict(), "c": c.to_dict(),
+        "framework": framework,
     }
 
 

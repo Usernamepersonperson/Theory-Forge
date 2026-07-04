@@ -269,6 +269,57 @@ def collide(
     return _extract_json(text)
 
 
+def collide3_prompt(a: Theory, b: Theory, c: Theory) -> str:
+    schema = {
+        "name": "string — punchy title for the new framework",
+        "core_claim": "string — one sentence",
+        "mechanism_borrowed_from": f"{a.name} + {b.name}",
+        "domain_applied_to": c.domain,
+        "mapped_components": {
+            "unit": "what plays the role of the unit in the target domain",
+            "variation": "where variation comes from",
+            "selection": "what selection pressure looks like",
+            "fitness": "what is being maximized/minimized",
+            "boundary": "scope and assumptions",
+        },
+        "falsifiable_predictions": ["string", "string"],
+        "viability": "promising | speculative | incoherent",
+        "confidence": "float 0..1",
+        "notes": "string — how the two mechanisms interact (optional, <=200 chars)",
+    }
+
+    def slots(t: Theory) -> str:
+        return (
+            f"  unit: {t.unit}\n  variation: {t.variation}\n"
+            f"  selection: {t.selection}\n  fitness: {t.fitness}\n"
+            f"  boundary: {t.boundary}\n"
+        )
+
+    return (
+        "Fuse the mechanisms of THEORY A and THEORY B, then apply the combined "
+        "mechanism in the domain of THEORY C. The two borrowed mechanisms should "
+        "interact — one may supply variation while the other supplies selection, "
+        "or they may operate at different scales. Name that interaction.\n\n"
+        f"THEORY A ({a.domain}) — {a.name}\n{slots(a)}\n"
+        f"THEORY B ({b.domain}) — {b.name}\n{slots(b)}\n"
+        f"TARGET DOMAIN — THEORY C ({c.domain}) — {c.name}\n{slots(c)}\n"
+        "Return ONLY JSON matching this schema:\n"
+        f"{json.dumps(schema, indent=2)}"
+    )
+
+
+def collide3(a: Theory, b: Theory, c: Theory, client,
+             model: str = MODEL_DEFAULT) -> dict:
+    msg = client.messages.create(
+        model=model,
+        max_tokens=1200,
+        system=COLLIDE_SYSTEM,
+        messages=[{"role": "user", "content": collide3_prompt(a, b, c)}],
+    )
+    text = "".join(block.text for block in msg.content if getattr(block, "type", "") == "text")
+    return _extract_json(text)
+
+
 def find_prior(a: Theory, b: Theory, ledger: list[TriedCollision]) -> TriedCollision | None:
     key = frozenset({a.id, b.id})
     for tc in ledger:

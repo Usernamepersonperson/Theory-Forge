@@ -251,6 +251,21 @@
       </div>
     </div>
     <div id="result"></div>
+
+    <details style="margin-top:16px">
+      <summary style="cursor:pointer;color:var(--mut);font-size:13px">3-way forge — fuse two mechanisms into a third domain</summary>
+      <div class="row" style="margin-top:10px">
+        <input id="t3-a" list="theory-names" placeholder="mechanism 1 (theory name)" style="min-width:220px">
+        <input id="t3-b" list="theory-names" placeholder="mechanism 2 (theory name)" style="min-width:220px">
+        <input id="t3-c" list="theory-names" placeholder="target theory / domain" style="min-width:220px">
+        <datalist id="theory-names"></datalist>
+        <button id="t3-go">forge 3-way</button>
+        <button id="t3-random" title="pick three at random">random three</button>
+        <span id="t3-status" class="meta"></span>
+      </div>
+      <div id="t3-result"></div>
+    </details>
+
     <div id="spotlight" style="margin-top:20px"></div>
     <h3 style="margin-top:32px; color:var(--mut); font-size:13px;">top candidate cross-domain pairs</h3>
     <div id="pairs"></div>
@@ -524,6 +539,65 @@ async function loadDomains() {
   const ds = await r.json();
   $('domains').innerHTML = ds.map(d => `<option value="${d}">`).join('');
 }
+
+// ---- 3-way forge ----
+let _theoryList = [];
+let _theoryByName = {};
+async function loadTheoryNames() {
+  try {
+    const r = await fetch('/theories');
+    _theoryList = await r.json();
+    _theoryByName = {};
+    _theoryList.forEach(t => { _theoryByName[t.name.toLowerCase()] = t; });
+    const dl = $('theory-names');
+    if (dl) dl.innerHTML = _theoryList.map(t => `<option value="${esc(t.name)}">`).join('');
+  } catch(e) {}
+}
+function resolveTheory(input) {
+  const v = (input || '').trim().toLowerCase();
+  if (_theoryByName[v]) return _theoryByName[v];
+  // fall back to first theory whose name or domain contains the text
+  return _theoryList.find(t => t.name.toLowerCase().includes(v) || (t.domain||'').toLowerCase().includes(v));
+}
+if ($('t3-random')) $('t3-random').onclick = () => {
+  if (_theoryList.length < 3) return;
+  const pick = () => _theoryList[Math.floor(Math.random() * _theoryList.length)];
+  const a = pick(); let b = pick(); while (b === a) b = pick();
+  let c = pick(); while (c === a || c === b) c = pick();
+  $('t3-a').value = a.name; $('t3-b').value = b.name; $('t3-c').value = c.name;
+};
+if ($('t3-go')) $('t3-go').onclick = async () => {
+  const a = resolveTheory($('t3-a').value), b = resolveTheory($('t3-b').value), c = resolveTheory($('t3-c').value);
+  if (!a || !b || !c) { $('t3-status').textContent = 'pick three valid theories'; return; }
+  if (new Set([a.id, b.id, c.id]).size < 3) { $('t3-status').textContent = 'pick three distinct theories'; return; }
+  $('t3-status').textContent = 'forging...';
+  $('t3-result').innerHTML = '';
+  try {
+    const r = await fetch('/collide_triple', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ a_id: a.id, b_id: b.id, c_id: c.id })
+    });
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      $('t3-status').textContent = err.detail && /API/i.test(err.detail) ? 'needs API key (set ANTHROPIC_API_KEY)' : 'forge failed';
+      return;
+    }
+    const data = await r.json();
+    const fw = data.framework || {};
+    $('t3-status').textContent = 'done';
+    $('t3-result').innerHTML = `
+      <div class="card" style="border-color:var(--acc);margin-top:10px">
+        <p class="name" style="color:var(--acc)">${esc(fw.name || '(unnamed)')} ${viabilityBadge(fw.viability)}</p>
+        <p class="meta">${esc(a.name)} + ${esc(b.name)} &rarr; ${esc(c.domain || c.name)}
+          &middot; confidence ${(fw.confidence!=null?fw.confidence:'?')}</p>
+        <p style="font-size:13px;margin:8px 0">${esc(fw.core_claim || '')}</p>
+        ${(fw.falsifiable_predictions||[]).map(p => `<div class="meta">&bull; ${esc(p)}</div>`).join('')}
+        ${fw.notes ? `<div class="meta" style="margin-top:6px;color:var(--purple)">interaction: ${esc(fw.notes)}</div>` : ''}
+      </div>`;
+  } catch(e) {
+    $('t3-status').textContent = 'forge failed';
+  }
+};
 
 async function loadPairs() {
   const novel = $('novel').checked ? 'true' : 'false';
@@ -1660,6 +1734,7 @@ $('bk-clear').onclick = () => {
 };
 
 loadDomains();
+loadTheoryNames();
 loadPairs();
 loadHeaderStats();
 loadSpotlight();
