@@ -259,6 +259,19 @@
   <!-- RESEARCH ASSISTANT TAB -->
   <div class="tab-content" id="tab-research">
     <div class="ra-section">
+      <h3>idea seeds <span style="font-size:11px;color:var(--mut);font-weight:normal">— provocations to spark new theories</span></h3>
+      <div class="row">
+        <input id="seed-domain" list="domains" placeholder="focus domain (optional)" style="min-width:200px">
+        <select id="seed-count" class="sm">
+          <option value="8">8 seeds</option><option value="12" selected>12 seeds</option><option value="20">20 seeds</option>
+        </select>
+        <button id="seed-go">generate idea seeds</button>
+        <span id="seed-status" class="meta"></span>
+      </div>
+      <div id="seed-results"></div>
+    </div>
+
+    <div class="ra-section">
       <h3>semantic search</h3>
       <div class="row">
         <input id="sem-q" placeholder="search by meaning, not just keywords..." style="min-width:320px">
@@ -918,6 +931,73 @@ async function loadHeaderStats() {
 }
 
 // ---- Research Assistant ----
+
+// Idea seeds — provocations to spark new theories
+$('seed-go').onclick = async () => {
+  const domain = $('seed-domain').value.trim();
+  const count = $('seed-count').value;
+  $('seed-status').textContent = 'generating...';
+  $('seed-results').innerHTML = '';
+  try {
+    const qs = new URLSearchParams({ limit: count });
+    if (domain) qs.set('domain', domain);
+    const r = await fetch('/idea-seeds?' + qs.toString());
+    if (!r.ok) { $('seed-status').textContent = 'no seeds for that filter'; return; }
+    const data = await r.json();
+    $('seed-status').textContent = `${data.count} seeds`;
+    $('seed-results').innerHTML = data.seeds.map(s => {
+      const promptHtml = esc(s.prompt).replace(/\*(.+?)\*/g, '<em style="color:var(--blue);font-style:normal">$1</em>');
+      const tags = (s.shared_tags || []).slice(0, 6).map(t => `<span class="cmp-tag cmp-shared">${esc(t)}</span>`).join('');
+      return `
+      <div class="card" style="padding:12px 14px;margin-bottom:8px">
+        <div style="font-size:14px;line-height:1.5">${promptHtml}</div>
+        <div class="meta" style="margin-top:6px">
+          <strong style="color:var(--acc)">${esc(s.mechanism_from.name)}</strong>
+          <span style="color:var(--mut)">(${esc(s.mechanism_from.domain)})</span>
+          &rarr; <strong>${esc(s.apply_to.domain)}</strong>
+          &middot; focus: <span style="color:var(--purple)">${esc(s.focus_slot)}</span>
+          &middot; sim ${s.structural_similarity}
+        </div>
+        ${tags ? `<div class="cmp-tags" style="margin-top:6px">${tags}</div>` : ''}
+        <div class="row" style="margin:8px 0 0">
+          <button onclick="forgeSeed('${s.mechanism_from.id}','${s.apply_to.id}',this)">forge this collision</button>
+        </div>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    $('seed-status').textContent = 'error generating seeds';
+  }
+};
+window.forgeSeed = async function(aId, bId, btn) {
+  btn.disabled = true;
+  btn.textContent = 'forging...';
+  try {
+    const r = await fetch('/collide', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ a_id: aId, b_id: bId })
+    });
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      btn.textContent = err.detail && /API/i.test(err.detail) ? 'needs API key' : 'forge failed';
+      return;
+    }
+    const data = await r.json();
+    const fw = data.framework || {};
+    const card = btn.closest('.card');
+    const out = document.createElement('div');
+    out.style.cssText = 'margin-top:10px;border-top:1px solid var(--br);padding-top:8px';
+    out.innerHTML = `
+      <p class="name" style="color:var(--acc)">${esc(fw.name || '(unnamed)')} ${viabilityBadge(fw.viability)}</p>
+      <p style="font-size:13px;margin:4px 0">${esc(fw.core_claim || '')}</p>
+      ${(fw.falsifiable_predictions||[]).map(p => `<div class="meta" style="margin-top:2px">&bull; ${esc(p)}</div>`).join('')}
+      <div class="meta" style="margin-top:4px">confidence ${(fw.confidence!=null?fw.confidence:'?')}</div>`;
+    card.appendChild(out);
+    btn.textContent = 'forged ✓';
+  } catch(e) {
+    btn.textContent = 'forge failed';
+  }
+};
 
 // Semantic search
 $('sem-go').onclick = async () => {

@@ -8,3 +8,8 @@ _new_theories_*.json
 _merge_*.py
 _rebuild_*.py
 generate_batches_*.py
+_gen_batches.py
+_count.py
+outputs/_*.txt
+outputs/_write_batch*.py
+outputs/write_batch*.py

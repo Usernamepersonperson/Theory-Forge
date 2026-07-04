@@ -36,6 +36,7 @@ Endpoints:
     GET  /strength-audit?limit=                   quality leaderboard (5 dimensions)
     GET  /frontier?limit=                         unexplored tag combinations
     GET  /path?source=&target=                    shortest collision path between domains
+    GET  /idea-seeds?limit=&domain=               ready-to-explore ideation prompts
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -1595,6 +1596,79 @@ def collision_path(source: str = "", target: str = ""):
         "path": [],
         "steps": [],
         "message": f"No collision path found between '{source}' and '{target}'",
+    }
+
+
+# ---- Ideation: Idea Seeds ----
+
+_SEED_ANGLES = [
+    ("unit", "What plays the role of the *unit* - the thing that varies and is selected - "
+             "when you bring {a_name} into {b_domain}?"),
+    ("variation", "Where would *variation* come from if {b_domain} ran on the mechanism of {a_name}?"),
+    ("selection", "What is the *selection pressure* in {b_domain} under the logic of {a_name}?"),
+    ("fitness", "What is being *maximized or minimized* when {a_name} governs {b_domain}?"),
+    ("boundary", "Where does the analogy break — what *boundary* conditions limit {a_name} in {b_domain}?"),
+]
+
+
+@app.get("/idea-seeds")
+def idea_seeds(limit: int = 12, min_sim: float = 0.2, max_sim: float = 0.85,
+               domain: str = "", novel_only: bool = True):
+    """Ready-to-explore ideation prompts: novel domain pairs turned into provocations.
+
+    Structural only — no API call. Each seed names a mechanism slot to focus on,
+    the two theories to collide, and the tags they already share, so a human (or the
+    forge) has a concrete starting angle for a new theory.
+    """
+    vecs = _ensure_vecs() if min_sim >= 0 and False else None  # keep tag-only: fast, deterministic
+    pairs = forge.candidate_pairs(
+        _theories, min_sim=min_sim, max_sim=max_sim,
+        exclude_tried=_tried if novel_only else set(),
+    )
+    if domain:
+        d = domain.lower()
+        pairs = [(a, b, s) for a, b, s in pairs
+                 if d in a.domain.lower() or d in b.domain.lower()]
+    if not pairs:
+        raise HTTPException(404, "No candidate pairs match those filters.")
+
+    # Count how often each domain already appears as a source/target, to favor
+    # under-explored domains (more novelty per seed).
+    all_fw = _load_all_frameworks()
+    domain_use: dict[str, int] = defaultdict(int)
+    for fw in all_fw:
+        for k in ("mechanism_borrowed_from", "mechanism_source", "domain_applied_to", "target_domain"):
+            v = fw.get(k, "")
+            if v:
+                domain_use[v.strip().lower()] += 1
+
+    def novelty(a, b) -> int:
+        return -(domain_use.get(a.domain.lower(), 0) + domain_use.get(b.domain.lower(), 0))
+
+    # Blend structural similarity with under-exploration; take a spread, not just the top.
+    ranked = sorted(pairs, key=lambda p: (novelty(p[0], p[1]), -p[2]))
+    seeds = []
+    for i, (a, b, s) in enumerate(ranked[: limit * 2]):
+        if len(seeds) >= limit:
+            break
+        slot, template = _SEED_ANGLES[i % len(_SEED_ANGLES)]
+        shared = sorted(set(t.lower() for t in a.tags) & set(t.lower() for t in b.tags))
+        prompt = template.format(a_name=a.name, b_domain=b.domain)
+        seeds.append({
+            "prompt": prompt,
+            "focus_slot": slot,
+            "mechanism_from": {"id": a.id, "name": a.name, "domain": a.domain},
+            "apply_to": {"id": b.id, "name": b.name, "domain": b.domain},
+            "shared_tags": shared,
+            "structural_similarity": round(s, 3),
+            "exploration_score": novelty(a, b),
+        })
+
+    return {
+        "count": len(seeds),
+        "filters": {"domain": domain or None, "novel_only": novel_only,
+                    "min_sim": min_sim, "max_sim": max_sim},
+        "seeds": seeds,
     }
 
 

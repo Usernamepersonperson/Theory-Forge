@@ -4,8 +4,9 @@
     {
       "name": "theory-forge",
       "runtimeExecutable": "uvicorn",
-      "runtimeArgs": ["server:app", "--reload", "--port", "8000"],
-      "port": 8000
+      "runtimeArgs": ["server:app", "--reload"],
+      "port": 8000,
+      "autoPort": true
     }
   ]
 }

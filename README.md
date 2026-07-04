@@ -91,6 +91,7 @@ GET  /meta-patterns                           recurring structural patterns
 GET  /strength-audit?limit=                   quality leaderboard (5 dimensions)
 GET  /frontier?limit=                         unexplored tag combinations
 GET  /path?source=&target=                    shortest collision path between domains
+GET  /idea-seeds?limit=&domain=&novel_only=   ready-to-explore ideation prompts
 ```
 
 ## UI tabs
@@ -98,7 +99,7 @@ GET  /path?source=&target=                    shortest collision path between do
 | Tab | What it does |
 |-----|-------------|
 | **forge** | Pick two domains or click "surprise me" to collide random theories. Search box for existing frameworks. |
-| **research** | Research Assistant: semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). |
+| **research** | Research Assistant: idea seeds (provocations to spark new theories + one-click forge), semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). |
 | **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
 | **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |
 | **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |
