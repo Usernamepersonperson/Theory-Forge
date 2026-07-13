@@ -93,6 +93,11 @@ GET  /strength-audit?limit=                   quality leaderboard (5 dimensions)
 GET  /frontier?limit=                         unexplored tag combinations
 GET  /path?source=&target=                    shortest collision path between domains
 GET  /idea-seeds?limit=&domain=&novel_only=   ready-to-explore ideation prompts
+GET  /questions/{name}                        open research questions + falsifiers (LLM)
+GET  /mutate/{name}?mode=further|sharpen|weakest  mutate a framework (LLM)
+GET  /steelman/{name}                         strongest defense + sharpest refutation (LLM)
+GET  /tensions?domain=&limit=                 frameworks with opposing predictions (structural)
+GET  /deep-explore?domain=&count=             best unexplored collisions for one domain
 ```
 
 ## UI tabs
@@ -100,7 +105,7 @@ GET  /idea-seeds?limit=&domain=&novel_only=   ready-to-explore ideation prompts
 | Tab | What it does |
 |-----|-------------|
 | **forge** | Pick two domains or click "surprise me" to collide random theories. 3-way forge fuses two mechanisms into a third domain. Search box for existing frameworks. |
-| **research** | Research Assistant: idea seeds (provocations to spark new theories + one-click forge), semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). |
+| **research** | Research Assistant: idea seeds (+ forge-all & rank), tension finder (contradicting frameworks), domain deep-explore, semantic search, collision recommendations (3 strategies), chain explorer, surprise chain, compare frameworks, synthesis reports (markdown + rich HTML). Framework modals add research-questions, steelman/break-it, and mutate (push further / sharpen / weakest). |
 | **batch forge** | Generate 3-10 collisions at once with optional domain filter. |
 | **rankings** | Browse all frameworks ranked by confidence with viability badges. Filter by min confidence and domain. |
 | **deep dives** | Read detailed analyses of top frameworks — mapped components, predictions, experiments, limitations. |

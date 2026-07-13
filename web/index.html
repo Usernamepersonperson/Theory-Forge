@@ -212,7 +212,7 @@
 <body>
 <header>
   <h1>Theory <span>Forge</span></h1>
-  <span class="version">v0.9</span>
+  <span class="version">v0.10</span>
   <span id="header-stats" class="version"></span>
   <p class="sub">Collide a mechanism from one field into the domain of another. Surface only what hasn't been tried.</p>
 </header>
@@ -281,9 +281,34 @@
           <option value="8">8 seeds</option><option value="12" selected>12 seeds</option><option value="20">20 seeds</option>
         </select>
         <button id="seed-go">generate idea seeds</button>
+        <button id="seed-forge-all" title="Forge every seed on this page (needs API key)">forge all &amp; rank</button>
         <span id="seed-status" class="meta"></span>
       </div>
       <div id="seed-results"></div>
+      <div id="seed-batch-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>tension finder <span style="font-size:11px;color:var(--mut);font-weight:normal">— frameworks that contradict each other</span></h3>
+      <div class="row">
+        <input id="tension-domain" list="domains" placeholder="target domain (optional)" style="min-width:200px">
+        <button id="tension-go">find tensions</button>
+        <span id="tension-status" class="meta"></span>
+      </div>
+      <div id="tension-results"></div>
+    </div>
+
+    <div class="ra-section">
+      <h3>domain deep-explore <span style="font-size:11px;color:var(--mut);font-weight:normal">— best unexplored collisions for one domain</span></h3>
+      <div class="row">
+        <input id="explore-domain" list="domains" placeholder="domain to explore..." style="min-width:220px">
+        <select id="explore-count" class="sm">
+          <option value="6">6</option><option value="8" selected>8</option><option value="12">12</option>
+        </select>
+        <button id="explore-go">deep-explore</button>
+        <span id="explore-status" class="meta"></span>
+      </div>
+      <div id="explore-results"></div>
     </div>
 
     <div class="ra-section">
@@ -1007,17 +1032,20 @@ async function loadHeaderStats() {
 // ---- Research Assistant ----
 
 // Idea seeds — provocations to spark new theories
+let _lastSeeds = [];
 $('seed-go').onclick = async () => {
   const domain = $('seed-domain').value.trim();
   const count = $('seed-count').value;
   $('seed-status').textContent = 'generating...';
   $('seed-results').innerHTML = '';
+  $('seed-batch-results').innerHTML = '';
   try {
     const qs = new URLSearchParams({ limit: count });
     if (domain) qs.set('domain', domain);
     const r = await fetch('/idea-seeds?' + qs.toString());
     if (!r.ok) { $('seed-status').textContent = 'no seeds for that filter'; return; }
     const data = await r.json();
+    _lastSeeds = data.seeds || [];
     $('seed-status').textContent = `${data.count} seeds`;
     $('seed-results').innerHTML = data.seeds.map(s => {
       const promptHtml = esc(s.prompt).replace(/\*(.+?)\*/g, '<em style="color:var(--blue);font-style:normal">$1</em>');
@@ -1071,6 +1099,103 @@ window.forgeSeed = async function(aId, bId, btn) {
   } catch(e) {
     btn.textContent = 'forge failed';
   }
+};
+
+// Seed -> batch: forge every seed on the page, then rank by confidence
+$('seed-forge-all').onclick = async () => {
+  if (!_lastSeeds.length) { $('seed-status').textContent = 'generate seeds first'; return; }
+  const btn = $('seed-forge-all');
+  btn.disabled = true;
+  const results = [];
+  let apiMissing = false;
+  for (let i = 0; i < _lastSeeds.length; i++) {
+    const s = _lastSeeds[i];
+    $('seed-status').textContent = `forging ${i+1}/${_lastSeeds.length}...`;
+    try {
+      const r = await fetch('/collide', {
+        method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ a_id: s.mechanism_from.id, b_id: s.apply_to.id })
+      });
+      if (!r.ok) {
+        const err = await r.json().catch(() => ({}));
+        if (err.detail && /API/i.test(err.detail)) { apiMissing = true; break; }
+        continue;
+      }
+      const data = await r.json();
+      if (data.framework) results.push(data.framework);
+    } catch(e) { /* skip */ }
+  }
+  btn.disabled = false;
+  if (apiMissing) { $('seed-status').textContent = 'needs ANTHROPIC_API_KEY set in the server environment'; return; }
+  results.sort((a,b) => (b.confidence||0) - (a.confidence||0));
+  $('seed-status').textContent = `${results.length} forged, ranked`;
+  $('seed-batch-results').innerHTML = '<h4 style="color:var(--blue);font-size:12px;margin:12px 0 6px">FORGED &amp; RANKED</h4>' +
+    results.map(fw => `
+      <div class="card" style="padding:10px 14px;margin-bottom:6px">
+        <p class="name" style="color:var(--acc)">${esc(fw.name||'(unnamed)')} ${viabilityBadge(fw.viability)}
+          <span class="meta">conf ${(fw.confidence!=null?fw.confidence:'?')}</span></p>
+        <p style="font-size:13px;margin:4px 0">${esc(fw.core_claim||'')}</p>
+      </div>`).join('');
+};
+
+// Tension finder (structural, no API)
+$('tension-go').onclick = async () => {
+  const domain = $('tension-domain').value.trim();
+  $('tension-status').textContent = 'scanning...';
+  $('tension-results').innerHTML = '';
+  try {
+    const qs = new URLSearchParams({ limit: 25 });
+    if (domain) qs.set('domain', domain);
+    const r = await fetch('/tensions?' + qs.toString());
+    const data = await r.json();
+    $('tension-status').textContent = `${data.count} tensions`;
+    if (!data.tensions.length) { $('tension-results').innerHTML = '<div class="card meta">No opposing-prediction pairs found.</div>'; return; }
+    $('tension-results').innerHTML = data.tensions.map(t => `
+      <div class="card" style="padding:10px 14px;margin-bottom:6px">
+        <div class="meta" style="margin-bottom:4px">target: <strong>${esc(t.domain)}</strong> · tension ${t.tension_score}</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:13px">
+          <span style="color:var(--acc);cursor:pointer" onclick="showFramework('${esc(t.framework_a.name.replace(/'/g,"\\'"))}')">▲ ${esc(t.framework_a.name)}</span>
+          <span style="color:var(--mut)">vs</span>
+          <span style="color:var(--bad);cursor:pointer" onclick="showFramework('${esc(t.framework_b.name.replace(/'/g,"\\'"))}')">▼ ${esc(t.framework_b.name)}</span>
+        </div>
+        ${t.shared_tags.length ? `<div class="cmp-tags" style="margin-top:6px">${t.shared_tags.slice(0,6).map(tg=>`<span class="cmp-tag cmp-shared">${esc(tg)}</span>`).join('')}</div>` : ''}
+      </div>`).join('');
+  } catch(e) { $('tension-status').textContent = 'error'; }
+};
+
+// Domain deep-explore (structural, no API) — forge-ready pairs for one domain
+$('explore-go').onclick = async () => {
+  const domain = $('explore-domain').value.trim();
+  if (!domain) { $('explore-status').textContent = 'enter a domain'; return; }
+  const count = $('explore-count').value;
+  $('explore-status').textContent = 'exploring...';
+  $('explore-results').innerHTML = '';
+  try {
+    const r = await fetch(`/deep-explore?domain=${encodeURIComponent(domain)}&count=${count}`);
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      $('explore-status').textContent = err.detail || 'not found';
+      return;
+    }
+    const data = await r.json();
+    $('explore-status').textContent = `${data.count} collisions for ${esc(data.domain)}`;
+    $('explore-results').innerHTML = data.collisions.map(cn => {
+      const tags = (cn.shared_tags||[]).slice(0,6).map(t=>`<span class="cmp-tag cmp-shared">${esc(t)}</span>`).join('');
+      return `
+      <div class="card" style="padding:10px 14px;margin-bottom:6px">
+        <div style="font-size:13px">
+          <strong style="color:var(--acc)">${esc(cn.mechanism_from.name)}</strong>
+          <span class="meta">(${esc(cn.mechanism_from.domain)})</span>
+          &rarr; <strong>${esc(cn.apply_to.domain)}</strong>
+          <span class="meta">· sim ${cn.structural_similarity}</span>
+        </div>
+        ${tags ? `<div class="cmp-tags" style="margin-top:6px">${tags}</div>` : ''}
+        <div class="row" style="margin:8px 0 0">
+          <button onclick="forgeSeed('${cn.mechanism_from.id}','${cn.apply_to.id}',this)">forge this collision</button>
+        </div>
+      </div>`;
+    }).join('');
+  } catch(e) { $('explore-status').textContent = 'error'; }
 };
 
 // Semantic search
@@ -1195,6 +1320,17 @@ async function showFramework(name) {
             `).join('')}
           </div>
         ` : ''}
+        <div style="margin-top:16px;border-top:1px solid var(--br);padding-top:10px">
+          <div style="font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">deepen this idea</div>
+          <div class="row" style="margin:0">
+            <button onclick="analyzeFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}','questions',this)">research questions</button>
+            <button onclick="analyzeFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}','steelman',this)">steelman / break it</button>
+            <button onclick="analyzeFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}','mutate:further',this)">push further</button>
+            <button onclick="analyzeFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}','mutate:sharpen',this)">sharpen</button>
+            <button onclick="analyzeFramework('${esc((fw.name||'').replace(/'/g,"\\'"))}','mutate:weakest',this)">weakest assumption</button>
+          </div>
+          <div class="fw-analysis" style="margin-top:10px"></div>
+        </div>
         <details style="margin-top:12px">
           <summary style="cursor:pointer;color:var(--mut);font-size:12px">raw JSON</summary>
           <pre style="font-size:11px;margin-top:8px">${esc(fmt(fw))}</pre>
@@ -1202,6 +1338,61 @@ async function showFramework(name) {
       </div>`;
     document.body.appendChild(overlay);
   } catch(e) { console.error(e); }
+}
+
+// Framework analysis (research questions / steelman / mutate) — reuses existing forge API key
+window.analyzeFramework = async function(name, kind, btn) {
+  const out = btn.closest('.modal').querySelector('.fw-analysis');
+  out.innerHTML = '<div class="meta">thinking...</div>';
+  let url;
+  if (kind === 'questions') url = `/questions/${encodeURIComponent(name)}`;
+  else if (kind === 'steelman') url = `/steelman/${encodeURIComponent(name)}`;
+  else if (kind.startsWith('mutate:')) url = `/mutate/${encodeURIComponent(name)}?mode=${kind.split(':')[1]}`;
+  else return;
+  try {
+    const r = await fetch(url);
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      out.innerHTML = `<div class="card err">${err.detail && /API/i.test(err.detail) ? 'Needs ANTHROPIC_API_KEY set in the server environment.' : esc(err.detail || 'request failed')}</div>`;
+      return;
+    }
+    const data = await r.json();
+    out.innerHTML = renderAnalysis(kind, data);
+  } catch(e) {
+    out.innerHTML = '<div class="card err">request failed</div>';
+  }
+};
+function renderAnalysis(kind, data) {
+  const li = arr => (arr||[]).map(x => `<li>${esc(typeof x === 'string' ? x : JSON.stringify(x))}</li>`).join('');
+  if (kind === 'questions') {
+    const a = data.analysis || {};
+    return `<div class="card">
+      <strong style="color:var(--blue)">Open questions</strong><ul>${li(a.open_questions)}</ul>
+      <strong style="color:var(--warn)">What would falsify it</strong><ul>${li(a.what_would_falsify_it)}</ul>
+      ${a.next_experiment ? `<div class="meta" style="margin-top:6px">Next: ${esc(a.next_experiment)}</div>` : ''}
+    </div>`;
+  }
+  if (kind === 'steelman') {
+    const a = data.analysis || {}; const s = a.steelman||{}; const b = a.breakit||{};
+    return `<div class="card">
+      <strong style="color:var(--acc)">Steelman</strong>
+      <p style="font-size:13px;margin:4px 0">${esc(s.strongest_case||'')}</p>
+      <ul>${li(s.best_evidence)}</ul>
+      <strong style="color:var(--bad)">Break it</strong>
+      <p style="font-size:13px;margin:4px 0">${esc(b.sharpest_refutation||'')}</p>
+      <div class="meta">failure mode: ${esc(b.failure_mode||'')}</div>
+      ${a.verdict ? `<div class="meta" style="margin-top:6px;color:var(--purple)">Verdict: ${esc(a.verdict)}</div>` : ''}
+    </div>`;
+  }
+  // mutate
+  const m = data.mutation || {};
+  return `<div class="card">
+    <p class="name" style="color:var(--acc)">${esc(m.name||'(unnamed)')} ${viabilityBadge(m.viability)}</p>
+    <div class="meta">${esc(data.mode||'')} · confidence ${(m.confidence!=null?m.confidence:'?')}</div>
+    <p style="font-size:13px;margin:6px 0">${esc(m.core_claim||'')}</p>
+    ${m.what_changed ? `<div class="meta">changed: ${esc(m.what_changed)}</div>` : ''}
+    <ul>${li(m.falsifiable_predictions)}</ul>
+  </div>`;
 }
 
 // Network visualization

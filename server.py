@@ -38,6 +38,11 @@ Endpoints:
     GET  /frontier?limit=                         unexplored tag combinations
     GET  /path?source=&target=                    shortest collision path between domains
     GET  /idea-seeds?limit=&domain=               ready-to-explore ideation prompts
+    GET  /questions/{name}                        open research questions + falsifiers (LLM)
+    GET  /mutate/{name}?mode=                      push further / sharpen / weakest (LLM)
+    GET  /steelman/{name}                          strongest defense + sharpest refutation (LLM)
+    GET  /tensions?domain=&limit=                 contradicting frameworks (structural)
+    GET  /deep-explore?domain=&count=            best unexplored collisions for a domain
     GET  /                                        one-page UI
 
 Embeddings load lazily on first request that needs them (alpha > 0).
@@ -65,7 +70,7 @@ from pydantic import BaseModel
 
 import forge
 
-app = FastAPI(title="Theory Forge", version="0.9.0")
+app = FastAPI(title="Theory Forge", version="0.10.0")
 
 _theories = forge.load_theories()
 _by_id = {t.id: t for t in _theories}
@@ -1691,6 +1696,172 @@ def idea_seeds(limit: int = 12, min_sim: float = 0.2, max_sim: float = 0.85,
                     "min_sim": min_sim, "max_sim": max_sim},
         "seeds": seeds,
     }
+
+
+# ---- Ideation helpers over existing generated frameworks ----
+
+def _find_framework_by_name(name: str) -> dict | None:
+    name_l = name.lower().strip()
+    for fw in _load_all_frameworks():
+        if fw.get("name", "").lower().strip() == name_l:
+            return fw
+    # fall back to a contains-match so partial titles resolve
+    for fw in _load_all_frameworks():
+        if name_l and name_l in fw.get("name", "").lower():
+            return fw
+    return None
+
+
+@app.get("/questions/{name}")
+def framework_questions(name: str):
+    """Turn a framework into open research questions + falsification conditions (LLM)."""
+    fw = _find_framework_by_name(name)
+    if not fw:
+        raise HTTPException(404, f"Framework '{name}' not found.")
+    result = forge.analyze(fw, "questions", _client())
+    return {"framework": fw.get("name"), "analysis": result}
+
+
+@app.get("/mutate/{name}")
+def framework_mutate(name: str, mode: str = "further"):
+    """Mutate a framework: push further / sharpen / find weakest assumption (LLM)."""
+    if mode not in ("further", "sharpen", "weakest"):
+        raise HTTPException(400, "mode must be one of: further, sharpen, weakest")
+    fw = _find_framework_by_name(name)
+    if not fw:
+        raise HTTPException(404, f"Framework '{name}' not found.")
+    result = forge.analyze(fw, "mutate", _client(), mode=mode)
+    return {"parent": fw.get("name"), "mode": mode, "mutation": result}
+
+
+@app.get("/steelman/{name}")
+def framework_steelman(name: str):
+    """Strongest defense + sharpest refutation of a framework, side by side (LLM)."""
+    fw = _find_framework_by_name(name)
+    if not fw:
+        raise HTTPException(404, f"Framework '{name}' not found.")
+    result = forge.analyze(fw, "steelman", _client())
+    return {"framework": fw.get("name"), "analysis": result}
+
+
+# opposing-direction cues used by the tension finder
+_TENSION_UP = ("increase", "higher", "greater", "more", "rise", "boost", "improve",
+               "amplif", "accelerat", "positive", "grow", "gain", "enhanc", "strengthen")
+_TENSION_DOWN = ("decrease", "lower", "less", "fewer", "reduc", "fall", "drop", "decline",
+                 "weaken", "negative", "shrink", "loss", "suppress", "diminish", "slow")
+
+
+def _direction(text: str) -> int:
+    t = text.lower()
+    up = sum(t.count(w) for w in _TENSION_UP)
+    down = sum(t.count(w) for w in _TENSION_DOWN)
+    if up > down:
+        return 1
+    if down > up:
+        return -1
+    return 0
+
+
+def _pred_text(fw: dict) -> str:
+    preds = fw.get("falsifiable_predictions") or []
+    if isinstance(preds, list):
+        preds = " ".join(str(p) for p in preds)
+    return f"{preds} {fw.get('prediction', '')} {fw.get('core_claim', '')}"
+
+
+@app.get("/tensions")
+def tension_finder(domain: str = "", limit: int = 20, min_shared_tags: int = 1):
+    """Structural: frameworks aimed at the same domain whose predictions push in
+    opposite directions. Contradiction = fertile ground for a new theory. No API."""
+    all_fw = _unique_frameworks(_load_all_frameworks())
+
+    def tgt(fw: dict) -> str:
+        return (fw.get("domain_applied_to") or fw.get("target_domain") or "").lower().strip()
+
+    by_domain: dict[str, list[dict]] = defaultdict(list)
+    for fw in all_fw:
+        d = tgt(fw)
+        if not d:
+            continue
+        if domain and domain.lower() not in d:
+            continue
+        by_domain[d].append(fw)
+
+    tensions = []
+    for d, group in by_domain.items():
+        if len(group) < 2:
+            continue
+        scored = [(fw, _direction(_pred_text(fw))) for fw in group]
+        ups = [fw for fw, s in scored if s > 0]
+        downs = [fw for fw, s in scored if s < 0]
+        for a in ups:
+            ta = set(t.lower() for t in a.get("tags", []))
+            for b in downs:
+                tb = set(t.lower() for t in b.get("tags", []))
+                shared = sorted(ta & tb)
+                if len(shared) < min_shared_tags:
+                    continue
+                tensions.append({
+                    "domain": d,
+                    "framework_a": {"name": a.get("name"), "direction": "increase",
+                                    "confidence": a.get("confidence", 0)},
+                    "framework_b": {"name": b.get("name"), "direction": "decrease",
+                                    "confidence": b.get("confidence", 0)},
+                    "shared_tags": shared,
+                    "tension_score": round((a.get("confidence", 0) + b.get("confidence", 0)) / 2
+                                           + 0.1 * len(shared), 3),
+                })
+
+    tensions.sort(key=lambda x: -x["tension_score"])
+    return {
+        "count": len(tensions),
+        "filters": {"domain": domain or None, "min_shared_tags": min_shared_tags},
+        "tensions": tensions[:limit],
+    }
+
+
+@app.get("/deep-explore")
+def deep_explore(domain: str = "", count: int = 8, novel_only: bool = True):
+    """Structural: the most promising unexplored collisions FOR a target domain.
+    Combines candidate pairing with the novelty ledger. No API — returns pairs
+    ready to forge (use /collide or the seed 'forge' button)."""
+    if not domain:
+        raise HTTPException(400, "Provide ?domain=")
+    d = domain.lower().strip()
+    # theories that live in (or near) the target domain become the 'apply-to' side
+    targets = [t for t in _theories if d in t.domain.lower()]
+    if not targets:
+        raise HTTPException(404, f"No seed theories in domain matching '{domain}'.")
+
+    pairs = forge.candidate_pairs(
+        _theories, exclude_tried=_tried if novel_only else set(),
+    )
+    target_ids = {t.id for t in targets}
+    picks = []
+    seen_pairs = set()
+    for a, b, s in pairs:
+        # keep pairs where exactly one side is the target domain (a real cross-domain bridge)
+        a_is, b_is = a.id in target_ids, b.id in target_ids
+        if a_is == b_is:
+            continue
+        mech, tgt = (b, a) if a_is else (a, b)  # mechanism from the OTHER side
+        key = (mech.id, tgt.id)
+        if key in seen_pairs:
+            continue
+        seen_pairs.add(key)
+        picks.append({
+            "mechanism_from": {"id": mech.id, "name": mech.name, "domain": mech.domain},
+            "apply_to": {"id": tgt.id, "name": tgt.name, "domain": tgt.domain},
+            "structural_similarity": round(s, 3),
+            "shared_tags": sorted(set(x.lower() for x in mech.tags)
+                                  & set(x.lower() for x in tgt.tags)),
+        })
+        if len(picks) >= count:
+            break
+
+    if not picks:
+        raise HTTPException(404, "No novel cross-domain pairs found for that domain.")
+    return {"domain": domain, "count": len(picks), "collisions": picks}
 
 
 @app.get("/", response_class=HTMLResponse)

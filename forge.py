@@ -328,6 +328,128 @@ def find_prior(a: Theory, b: Theory, ledger: list[TriedCollision]) -> TriedColli
     return None
 
 
+# ---------- framework analysis (ideation helpers) ----------
+
+ANALYZE_SYSTEM = """You are Theory Forge's analysis engine. You take an existing \
+cross-domain framework and help a researcher push it further. Be concrete and \
+specific, never generic. Ground every point in the framework's actual mechanism. \
+Return JSON only, matching the schema in the user message. No hedging prose."""
+
+
+def framework_blob(fw: dict) -> str:
+    """Flatten a generated framework dict into a compact text block for prompts."""
+    name = fw.get("name", "(unnamed)")
+    src = fw.get("mechanism_borrowed_from") or fw.get("mechanism_source") or ""
+    tgt = fw.get("domain_applied_to") or fw.get("target_domain") or ""
+    claim = fw.get("core_claim") or ""
+    mech = fw.get("mechanism") or ""
+    app = fw.get("application") or ""
+    preds = fw.get("falsifiable_predictions") or ([fw["prediction"]] if fw.get("prediction") else [])
+    lines = [f"FRAMEWORK: {name}"]
+    if src or tgt:
+        lines.append(f"MECHANISM FROM: {src}  ->  APPLIED TO: {tgt}")
+    if claim:
+        lines.append(f"CORE CLAIM: {claim}")
+    if mech:
+        lines.append(f"MECHANISM: {mech[:600]}")
+    if app:
+        lines.append(f"APPLICATION: {app[:600]}")
+    if preds:
+        lines.append("PREDICTIONS:\n" + "\n".join(f"  - {p}" for p in preds[:5]))
+    return "\n".join(lines)
+
+
+def questions_prompt(fw: dict) -> str:
+    schema = {
+        "framework": fw.get("name", ""),
+        "open_questions": ["5 specific, researchable open questions this framework raises"],
+        "what_would_falsify_it": ["3 concrete observations that would disprove the core claim"],
+        "next_experiment": "one sentence — the single most informative study to run first",
+    }
+    return (
+        f"{framework_blob(fw)}\n\n"
+        "Generate open research questions and falsification conditions for this framework.\n"
+        "Questions must be answerable by a real study, not rhetorical. "
+        "Falsifiers must be observations, not opinions.\n\n"
+        "Return ONLY JSON matching this schema:\n"
+        f"{json.dumps(schema, indent=2)}"
+    )
+
+
+_MUTATE_MODES = {
+    "further": "Push the mechanism further: take the core claim to a more extreme or "
+               "more general form and state what new prediction that yields.",
+    "sharpen": "Sharpen the prediction: make it more quantitative, more falsifiable, and "
+               "specify the exact measurement and threshold that would confirm or deny it.",
+    "weakest": "Find the weakest assumption: name the single load-bearing assumption most "
+               "likely to be wrong, and propose a variant framework that does not rely on it.",
+}
+
+
+def mutate_prompt(fw: dict, mode: str) -> str:
+    instruction = _MUTATE_MODES.get(mode, _MUTATE_MODES["further"])
+    schema = {
+        "parent_framework": fw.get("name", ""),
+        "mutation_mode": mode,
+        "name": "string — title for the mutated framework",
+        "core_claim": "string — one sentence",
+        "what_changed": "string — how this differs from the parent",
+        "falsifiable_predictions": ["string", "string"],
+        "viability": "promising | speculative | incoherent",
+        "confidence": "float 0..1",
+    }
+    return (
+        f"{framework_blob(fw)}\n\n"
+        f"TASK: {instruction}\n\n"
+        "Return ONLY JSON matching this schema:\n"
+        f"{json.dumps(schema, indent=2)}"
+    )
+
+
+def steelman_prompt(fw: dict) -> str:
+    schema = {
+        "framework": fw.get("name", ""),
+        "steelman": {
+            "strongest_case": "the most compelling argument this framework is correct",
+            "best_evidence": ["2 kinds of evidence that would most support it"],
+        },
+        "breakit": {
+            "sharpest_refutation": "the most damaging argument against it",
+            "failure_mode": "the most likely way it turns out to be wrong",
+        },
+        "verdict": "one sentence — where the truth probably lies",
+    }
+    return (
+        f"{framework_blob(fw)}\n\n"
+        "Argue both sides of this framework. The steelman must be the strongest honest "
+        "defense; the breakit must be the sharpest honest refutation. No strawmen.\n\n"
+        "Return ONLY JSON matching this schema:\n"
+        f"{json.dumps(schema, indent=2)}"
+    )
+
+
+def analyze(fw: dict, kind: str, client, model: str = MODEL_DEFAULT,
+            mode: str = "further") -> dict:
+    """Run a framework-analysis prompt. kind in {questions, mutate, steelman}."""
+    builders = {
+        "questions": lambda: questions_prompt(fw),
+        "mutate": lambda: mutate_prompt(fw, mode),
+        "steelman": lambda: steelman_prompt(fw),
+    }
+    build = builders.get(kind)
+    if build is None:
+        raise ValueError(f"Unknown analysis kind: {kind}")
+    max_tokens = 900 if kind != "mutate" else 800
+    msg = client.messages.create(
+        model=model,
+        max_tokens=max_tokens,
+        system=ANALYZE_SYSTEM,
+        messages=[{"role": "user", "content": build()}],
+    )
+    text = "".join(block.text for block in msg.content if getattr(block, "type", "") == "text")
+    return _extract_json(text)
+
+
 def _extract_json(text: str) -> dict:
     s = text.strip()
     if s.startswith("```"):
